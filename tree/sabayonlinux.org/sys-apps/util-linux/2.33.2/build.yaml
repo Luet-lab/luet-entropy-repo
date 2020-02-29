@@ -1,7 +1,7 @@
 
 steps:
 - source /etc/profile && equo up
-- ACCEPT_LICENSE=* equo i gentoolkit sys-apps/util-linux-2.33.2
+- ACCEPT_LICENSE=* equo i sys-apps/util-linux-2.33.2
 image: "sabayon/base"
 includes:
 - /bin$

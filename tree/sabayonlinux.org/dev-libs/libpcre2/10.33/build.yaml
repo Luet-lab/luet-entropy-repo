@@ -1,7 +1,7 @@
 
 steps:
 - source /etc/profile && equo up
-- ACCEPT_LICENSE=* equo i gentoolkit dev-libs/libpcre2-10.33-r1
+- ACCEPT_LICENSE=* equo i dev-libs/libpcre2-10.33-r1
 image: "sabayon/base"
 includes:
 - /lib64$

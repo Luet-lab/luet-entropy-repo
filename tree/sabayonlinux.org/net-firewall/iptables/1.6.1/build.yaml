@@ -1,7 +1,7 @@
 
 steps:
 - source /etc/profile && equo up
-- ACCEPT_LICENSE=* equo i gentoolkit net-firewall/iptables-1.6.1-r3
+- ACCEPT_LICENSE=* equo i net-firewall/iptables-1.6.1-r3
 image: "sabayon/base"
 includes:
 - /etc$

@@ -1,7 +1,7 @@
 
 steps:
 - source /etc/profile && equo up
-- ACCEPT_LICENSE=* equo i gentoolkit sys-devel/binutils-config-5-r4
+- ACCEPT_LICENSE=* equo i sys-devel/binutils-config-5-r4
 image: "sabayon/base"
 includes:
 - /usr$

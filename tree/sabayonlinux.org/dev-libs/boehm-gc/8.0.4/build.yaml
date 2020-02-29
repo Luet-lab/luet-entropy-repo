@@ -1,7 +1,7 @@
 
 steps:
 - source /etc/profile && equo up
-- ACCEPT_LICENSE=* equo i gentoolkit dev-libs/boehm-gc-8.0.4
+- ACCEPT_LICENSE=* equo i dev-libs/boehm-gc-8.0.4
 image: "sabayon/base"
 includes:
 - /usr$

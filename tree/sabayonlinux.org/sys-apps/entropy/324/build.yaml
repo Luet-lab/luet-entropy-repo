@@ -1,7 +1,7 @@
 
 steps:
 - source /etc/profile && equo up
-- ACCEPT_LICENSE=* equo i gentoolkit sys-apps/entropy-324-r3
+- ACCEPT_LICENSE=* equo i sys-apps/entropy-324-r3
 image: "sabayon/base"
 includes:
 - /etc$
