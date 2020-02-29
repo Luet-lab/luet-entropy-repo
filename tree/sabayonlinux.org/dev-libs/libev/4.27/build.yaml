@@ -1,0 +1,31 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit dev-libs/libev-4.27
+image: "sabayon/base"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/ev++.h$
+- /usr/include/ev.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libev.so$
+- /usr/lib32/libev.so.4$
+- /usr/lib32/libev.so.4.0.0$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/libev.pc$
+- /usr/lib64$
+- /usr/lib64/libev.so$
+- /usr/lib64/libev.so.4$
+- /usr/lib64/libev.so.4.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libev.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libev-4.27$
+- /usr/share/doc/libev-4.27/Changes.bz2$
+- /usr/share/doc/libev-4.27/README.bz2$
+- /usr/share/man$
+- /usr/share/man/man3$
+- /usr/share/man/man3/ev.3.bz2$

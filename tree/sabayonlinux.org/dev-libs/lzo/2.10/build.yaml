@@ -1,0 +1,47 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit dev-libs/lzo-2.10
+image: "sabayon/base"
+includes:
+- /lib64$
+- /lib64/liblzo2.so.2$
+- /lib64/liblzo2.so.2.0.0$
+- /usr$
+- /usr/include$
+- /usr/include/lzo$
+- /usr/include/lzo/lzo1.h$
+- /usr/include/lzo/lzo1a.h$
+- /usr/include/lzo/lzo1b.h$
+- /usr/include/lzo/lzo1c.h$
+- /usr/include/lzo/lzo1f.h$
+- /usr/include/lzo/lzo1x.h$
+- /usr/include/lzo/lzo1y.h$
+- /usr/include/lzo/lzo1z.h$
+- /usr/include/lzo/lzo2a.h$
+- /usr/include/lzo/lzo_asm.h$
+- /usr/include/lzo/lzoconf.h$
+- /usr/include/lzo/lzodefs.h$
+- /usr/include/lzo/lzoutil.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/liblzo2.a$
+- /usr/lib32/liblzo2.so$
+- /usr/lib32/liblzo2.so.2$
+- /usr/lib32/liblzo2.so.2.0.0$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/lzo2.pc$
+- /usr/lib64$
+- /usr/lib64/liblzo2.a$
+- /usr/lib64/liblzo2.so$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/lzo2.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/lzo-2.10$
+- /usr/share/doc/lzo-2.10/AUTHORS$
+- /usr/share/doc/lzo-2.10/LZO.FAQ.bz2$
+- /usr/share/doc/lzo-2.10/LZO.TXT.bz2$
+- /usr/share/doc/lzo-2.10/LZOAPI.TXT.bz2$
+- /usr/share/doc/lzo-2.10/NEWS.bz2$
+- /usr/share/doc/lzo-2.10/THANKS.bz2$

@@ -1,0 +1,22 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit net-libs/libmnl-1.0.4
+image: "sabayon/base"
+includes:
+- /lib64$
+- /lib64/libmnl.so.0$
+- /lib64/libmnl.so.0.2.0$
+- /usr$
+- /usr/include$
+- /usr/include/libmnl$
+- /usr/include/libmnl/libmnl.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libmnl.so$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libmnl.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libmnl-1.0.4$
+- /usr/share/doc/libmnl-1.0.4/README.bz2$

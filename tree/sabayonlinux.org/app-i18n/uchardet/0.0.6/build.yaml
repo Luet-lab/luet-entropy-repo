@@ -1,0 +1,27 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit app-i18n/uchardet-0.0.6-r2
+image: "sabayon/base"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/uchardet$
+- /usr/include$
+- /usr/include/uchardet$
+- /usr/include/uchardet/uchardet.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libuchardet.so$
+- /usr/lib64/libuchardet.so.0$
+- /usr/lib64/libuchardet.so.0.0.6$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/uchardet.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/uchardet-0.0.6-r2$
+- /usr/share/doc/uchardet-0.0.6-r2/AUTHORS.bz2$
+- /usr/share/doc/uchardet-0.0.6-r2/README.md.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/uchardet.1.bz2$

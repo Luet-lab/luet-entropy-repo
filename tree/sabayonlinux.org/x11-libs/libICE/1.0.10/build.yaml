@@ -1,0 +1,35 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit x11-libs/libICE-1.0.10
+image: "sabayon/base"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/X11$
+- /usr/include/X11/ICE$
+- /usr/include/X11/ICE/ICE.h$
+- /usr/include/X11/ICE/ICEconn.h$
+- /usr/include/X11/ICE/ICElib.h$
+- /usr/include/X11/ICE/ICEmsg.h$
+- /usr/include/X11/ICE/ICEproto.h$
+- /usr/include/X11/ICE/ICEutil.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libICE.so$
+- /usr/lib32/libICE.so.6$
+- /usr/lib32/libICE.so.6.3.0$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/ice.pc$
+- /usr/lib64$
+- /usr/lib64/libICE.so$
+- /usr/lib64/libICE.so.6$
+- /usr/lib64/libICE.so.6.3.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/ice.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libICE-1.0.10$
+- /usr/share/doc/libICE-1.0.10/AUTHORS.bz2$
+- /usr/share/doc/libICE-1.0.10/ChangeLog.bz2$
+- /usr/share/doc/libICE-1.0.10/README.md.bz2$

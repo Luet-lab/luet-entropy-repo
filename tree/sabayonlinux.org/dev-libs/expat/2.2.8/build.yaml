@@ -1,0 +1,52 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit dev-libs/expat-2.2.8
+image: "sabayon/base"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/xmlwf$
+- /usr/include$
+- /usr/include/expat.h$
+- /usr/include/expat_config.h$
+- /usr/include/expat_external.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libexpat.a$
+- /usr/lib32/libexpat.so$
+- /usr/lib32/libexpat.so.1$
+- /usr/lib32/libexpat.so.1.6.10$
+- /usr/lib32/libexpatw.a$
+- /usr/lib32/libexpatw.so$
+- /usr/lib32/libexpatw.so.1$
+- /usr/lib32/libexpatw.so.1.6.10$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/expat.pc$
+- /usr/lib32/pkgconfig/expatw.pc$
+- /usr/lib64$
+- /usr/lib64/libexpat.a$
+- /usr/lib64/libexpat.so$
+- /usr/lib64/libexpat.so.1$
+- /usr/lib64/libexpat.so.1.6.10$
+- /usr/lib64/libexpatw.a$
+- /usr/lib64/libexpatw.so$
+- /usr/lib64/libexpatw.so.1$
+- /usr/lib64/libexpatw.so.1.6.10$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/expat.pc$
+- /usr/lib64/pkgconfig/expatw.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/expat-2.2.8$
+- /usr/share/doc/expat-2.2.8/AUTHORS.bz2$
+- /usr/share/doc/expat-2.2.8/README.md.bz2$
+- /usr/share/doc/expat-2.2.8/changelog.bz2$
+- /usr/share/doc/expat-2.2.8/html$
+- /usr/share/doc/expat-2.2.8/html/expat.png$
+- /usr/share/doc/expat-2.2.8/html/reference.html$
+- /usr/share/doc/expat-2.2.8/html/style.css$
+- /usr/share/doc/expat-2.2.8/html/valid-xhtml10.png$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/xmlwf.1.bz2$

@@ -1,0 +1,32 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit x11-libs/libSM-1.2.3
+image: "sabayon/base"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/X11$
+- /usr/include/X11/SM$
+- /usr/include/X11/SM/SM.h$
+- /usr/include/X11/SM/SMlib.h$
+- /usr/include/X11/SM/SMproto.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libSM.so$
+- /usr/lib32/libSM.so.6$
+- /usr/lib32/libSM.so.6.0.1$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/sm.pc$
+- /usr/lib64$
+- /usr/lib64/libSM.so$
+- /usr/lib64/libSM.so.6$
+- /usr/lib64/libSM.so.6.0.1$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/sm.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libSM-1.2.3$
+- /usr/share/doc/libSM-1.2.3/AUTHORS.bz2$
+- /usr/share/doc/libSM-1.2.3/ChangeLog.bz2$
+- /usr/share/doc/libSM-1.2.3/README.bz2$

@@ -1,0 +1,18 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit sys-libs/libomp-9.0.1
+image: "sabayon/base"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/omp.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libomp.so$
+- /usr/lib64$
+- /usr/lib64/libomp.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libomp-9.0.1$
+- /usr/share/doc/libomp-9.0.1/README.rst.bz2$

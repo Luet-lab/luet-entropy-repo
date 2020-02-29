@@ -1,0 +1,10 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit sys-apps/install-xattr-0.8
+image: "sabayon/base"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/install-xattr$
+- /usr/lib$

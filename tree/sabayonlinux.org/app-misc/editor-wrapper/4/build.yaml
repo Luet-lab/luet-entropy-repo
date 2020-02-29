@@ -1,0 +1,10 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit app-misc/editor-wrapper-4-r1
+image: "sabayon/base"
+includes:
+- /usr$
+- /usr/libexec$
+- /usr/libexec/editor$
+- /usr/libexec/pager$

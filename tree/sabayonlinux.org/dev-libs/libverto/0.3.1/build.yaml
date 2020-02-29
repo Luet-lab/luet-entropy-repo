@@ -1,0 +1,40 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit dev-libs/libverto-0.3.1
+image: "sabayon/base"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/verto-libev.h$
+- /usr/include/verto-module.h$
+- /usr/include/verto.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libverto-libev.so$
+- /usr/lib32/libverto-libev.so.1$
+- /usr/lib32/libverto-libev.so.1.0.0$
+- /usr/lib32/libverto.so$
+- /usr/lib32/libverto.so.1$
+- /usr/lib32/libverto.so.1.0.0$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/libverto-libev.pc$
+- /usr/lib32/pkgconfig/libverto.pc$
+- /usr/lib64$
+- /usr/lib64/libverto-libev.so$
+- /usr/lib64/libverto-libev.so.1$
+- /usr/lib64/libverto-libev.so.1.0.0$
+- /usr/lib64/libverto.so$
+- /usr/lib64/libverto.so.1$
+- /usr/lib64/libverto.so.1.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libverto-libev.pc$
+- /usr/lib64/pkgconfig/libverto.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libverto-0.3.1$
+- /usr/share/doc/libverto-0.3.1/AUTHORS$
+- /usr/share/doc/libverto-0.3.1/ChangeLog.bz2$
+- /usr/share/doc/libverto-0.3.1/INSTALL.bz2$
+- /usr/share/doc/libverto-0.3.1/NEWS$
+- /usr/share/doc/libverto-0.3.1/README.bz2$

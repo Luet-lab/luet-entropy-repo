@@ -1,0 +1,17 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit sys-kernel/installkernel-gentoo-2
+image: "sabayon/base"
+includes:
+- /etc$
+- /etc/kernel$
+- /etc/kernel/postinst.d$
+- /etc/kernel/postinst.d/.keep_sys-kernel_installkernel-gentoo-0$
+- /sbin$
+- /sbin/installkernel$
+- /usr$
+- /usr/share$
+- /usr/share/man$
+- /usr/share/man/man8$
+- /usr/share/man/man8/installkernel.8.bz2$

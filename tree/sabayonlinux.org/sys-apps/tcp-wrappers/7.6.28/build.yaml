@@ -1,0 +1,50 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit sys-apps/tcp-wrappers-7.6.28
+image: "sabayon/base"
+includes:
+- /etc$
+- /etc/hosts.allow$
+- /lib64$
+- /lib64/libwrap.so.0$
+- /lib64/libwrap.so.0.7.6$
+- /usr$
+- /usr/include$
+- /usr/include/tcpd.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libwrap.so$
+- /usr/lib32/libwrap.so.0$
+- /usr/lib32/libwrap.so.0.7.6$
+- /usr/lib64$
+- /usr/lib64/libwrap.so$
+- /usr/sbin$
+- /usr/sbin/safe_finger$
+- /usr/sbin/tcpd$
+- /usr/sbin/tcpdchk$
+- /usr/sbin/tcpdmatch$
+- /usr/sbin/try-from$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/tcp-wrappers-7.6.28$
+- /usr/share/doc/tcp-wrappers-7.6.28/BLURB.bz2$
+- /usr/share/doc/tcp-wrappers-7.6.28/CHANGES.bz2$
+- /usr/share/doc/tcp-wrappers-7.6.28/DISCLAIMER.bz2$
+- /usr/share/doc/tcp-wrappers-7.6.28/README.IRIX.bz2$
+- /usr/share/doc/tcp-wrappers-7.6.28/README.NIS.bz2$
+- /usr/share/doc/tcp-wrappers-7.6.28/README.bz2$
+- /usr/share/man$
+- /usr/share/man/man3$
+- /usr/share/man/man3/hosts_access.3.bz2$
+- /usr/share/man/man5$
+- /usr/share/man/man5/hosts.allow.5.bz2$
+- /usr/share/man/man5/hosts.deny.5.bz2$
+- /usr/share/man/man5/hosts_access.5.bz2$
+- /usr/share/man/man5/hosts_options.5.bz2$
+- /usr/share/man/man8$
+- /usr/share/man/man8/safe_finger.8.bz2$
+- /usr/share/man/man8/tcpd.8.bz2$
+- /usr/share/man/man8/tcpdchk.8.bz2$
+- /usr/share/man/man8/tcpdmatch.8.bz2$
+- /usr/share/man/man8/try-from.8.bz2$

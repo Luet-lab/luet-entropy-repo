@@ -1,0 +1,47 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit dev-libs/libunistring-0.9.10
+image: "sabayon/base"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/unicase.h$
+- /usr/include/uniconv.h$
+- /usr/include/unictype.h$
+- /usr/include/unigbrk.h$
+- /usr/include/unilbrk.h$
+- /usr/include/uniname.h$
+- /usr/include/uninorm.h$
+- /usr/include/unistdio.h$
+- /usr/include/unistr.h$
+- /usr/include/unistring$
+- /usr/include/unistring/cdefs.h$
+- /usr/include/unistring/iconveh.h$
+- /usr/include/unistring/inline.h$
+- /usr/include/unistring/localcharset.h$
+- /usr/include/unistring/stdbool.h$
+- /usr/include/unistring/stdint.h$
+- /usr/include/unistring/version.h$
+- /usr/include/unistring/woe32dll.h$
+- /usr/include/unitypes.h$
+- /usr/include/uniwbrk.h$
+- /usr/include/uniwidth.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libunistring.so$
+- /usr/lib32/libunistring.so.2$
+- /usr/lib32/libunistring.so.2.1.0$
+- /usr/lib64$
+- /usr/lib64/libunistring.so$
+- /usr/lib64/libunistring.so.2$
+- /usr/lib64/libunistring.so.2.1.0$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libunistring-0.9.10$
+- /usr/share/doc/libunistring-0.9.10/AUTHORS.bz2$
+- /usr/share/doc/libunistring-0.9.10/BUGS.bz2$
+- /usr/share/doc/libunistring-0.9.10/ChangeLog.bz2$
+- /usr/share/doc/libunistring-0.9.10/NEWS.bz2$
+- /usr/share/doc/libunistring-0.9.10/README.bz2$
+- /usr/share/doc/libunistring-0.9.10/THANKS$

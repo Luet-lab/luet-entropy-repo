@@ -1,0 +1,25 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit dev-libs/npth-1.6-r1
+image: "sabayon/base"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/npth-config$
+- /usr/include$
+- /usr/include/npth.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libnpth.so$
+- /usr/lib64/libnpth.so.0$
+- /usr/lib64/libnpth.so.0.1.2$
+- /usr/share$
+- /usr/share/aclocal$
+- /usr/share/aclocal/npth.m4$
+- /usr/share/doc$
+- /usr/share/doc/npth-1.6-r1$
+- /usr/share/doc/npth-1.6-r1/AUTHORS.bz2$
+- /usr/share/doc/npth-1.6-r1/ChangeLog.bz2$
+- /usr/share/doc/npth-1.6-r1/NEWS.bz2$
+- /usr/share/doc/npth-1.6-r1/README.bz2$

@@ -1,0 +1,50 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit dev-libs/libgcrypt-1.8.5
+image: "sabayon/base"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/dumpsexp$
+- /usr/bin/hmac256$
+- /usr/bin/i686-pc-linux-gnu-libgcrypt-config$
+- /usr/bin/libgcrypt-config$
+- /usr/bin/mpicalc$
+- /usr/bin/x86_64-pc-linux-gnu-libgcrypt-config$
+- /usr/include$
+- /usr/include/gcrypt.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libgcrypt.a$
+- /usr/lib32/libgcrypt.so$
+- /usr/lib32/libgcrypt.so.20$
+- /usr/lib32/libgcrypt.so.20.2.5$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/libgcrypt.pc$
+- /usr/lib64$
+- /usr/lib64/libgcrypt.a$
+- /usr/lib64/libgcrypt.so$
+- /usr/lib64/libgcrypt.so.20$
+- /usr/lib64/libgcrypt.so.20.2.5$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libgcrypt.pc$
+- /usr/share$
+- /usr/share/aclocal$
+- /usr/share/aclocal/libgcrypt.m4$
+- /usr/share/doc$
+- /usr/share/doc/libgcrypt-1.8.5$
+- /usr/share/doc/libgcrypt-1.8.5/AUTHORS.bz2$
+- /usr/share/doc/libgcrypt-1.8.5/ChangeLog.bz2$
+- /usr/share/doc/libgcrypt-1.8.5/NEWS.bz2$
+- /usr/share/doc/libgcrypt-1.8.5/README.GIT.bz2$
+- /usr/share/doc/libgcrypt-1.8.5/README.bz2$
+- /usr/share/doc/libgcrypt-1.8.5/THANKS.bz2$
+- /usr/share/doc/libgcrypt-1.8.5/TODO.bz2$
+- /usr/share/info$
+- /usr/share/info/gcrypt.info-1.bz2$
+- /usr/share/info/gcrypt.info-2.bz2$
+- /usr/share/info/gcrypt.info.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/hmac256.1.bz2$

@@ -1,0 +1,26 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit net-mail/mailbase-1.5-r1
+image: "sabayon/base"
+includes:
+- /etc$
+- /etc/mail$
+- /etc/mail/aliases$
+- /etc/mailcap$
+- /etc/pam.d$
+- /etc/pam.d/imap$
+- /etc/pam.d/imap4$
+- /etc/pam.d/imap4s$
+- /etc/pam.d/imaps$
+- /etc/pam.d/pop$
+- /etc/pam.d/pop3$
+- /etc/pam.d/pop3s$
+- /etc/pam.d/pops$
+- /usr$
+- /usr/share$
+- /usr/share/man$
+- /usr/share/man/man5$
+- /usr/share/man/man5/mailcap.5.bz2$
+- /var$
+- /var/mail$

@@ -1,0 +1,59 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit sys-libs/zlib-1.2.11-r2
+image: "sabayon/base"
+includes:
+- /lib64$
+- /lib64/libz.so.1$
+- /lib64/libz.so.1.2.11$
+- /usr$
+- /usr/include$
+- /usr/include/minizip$
+- /usr/include/minizip/ioapi.h$
+- /usr/include/minizip/mztools.h$
+- /usr/include/minizip/unzip.h$
+- /usr/include/minizip/zip.h$
+- /usr/include/zconf.h$
+- /usr/include/zlib.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libminizip.a$
+- /usr/lib32/libminizip.la$
+- /usr/lib32/libminizip.so$
+- /usr/lib32/libminizip.so.1$
+- /usr/lib32/libminizip.so.1.0.0$
+- /usr/lib32/libz.a$
+- /usr/lib32/libz.so$
+- /usr/lib32/libz.so.1$
+- /usr/lib32/libz.so.1.2.11$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/minizip.pc$
+- /usr/lib32/pkgconfig/zlib.pc$
+- /usr/lib64$
+- /usr/lib64/libminizip.a$
+- /usr/lib64/libminizip.la$
+- /usr/lib64/libminizip.so$
+- /usr/lib64/libminizip.so.1$
+- /usr/lib64/libminizip.so.1.0.0$
+- /usr/lib64/libz.a$
+- /usr/lib64/libz.so$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/minizip.pc$
+- /usr/lib64/pkgconfig/zlib.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/zlib-1.2.11-r2$
+- /usr/share/doc/zlib-1.2.11-r2/ChangeLog.bz2$
+- /usr/share/doc/zlib-1.2.11-r2/FAQ.bz2$
+- /usr/share/doc/zlib-1.2.11-r2/MiniZip64_Changes.txt$
+- /usr/share/doc/zlib-1.2.11-r2/MiniZip64_info.txt.bz2$
+- /usr/share/doc/zlib-1.2.11-r2/README.bz2$
+- /usr/share/doc/zlib-1.2.11-r2/algorithm.txt.bz2$
+- /usr/share/doc/zlib-1.2.11-r2/rfc1950.txt.bz2$
+- /usr/share/doc/zlib-1.2.11-r2/rfc1951.txt.bz2$
+- /usr/share/doc/zlib-1.2.11-r2/rfc1952.txt.bz2$
+- /usr/share/doc/zlib-1.2.11-r2/txtvsbin.txt.bz2$
+- /usr/share/man$
+- /usr/share/man/man3$
+- /usr/share/man/man3/zlib.3.bz2$

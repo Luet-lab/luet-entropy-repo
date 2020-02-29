@@ -1,0 +1,13 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit app-text/manpager-1
+image: "sabayon/base"
+includes:
+- /etc$
+- /etc/env.d$
+- /etc/env.d/00manpager$
+- /usr$
+- /usr/bin$
+- /usr/bin/manpager$
+- /usr/lib$

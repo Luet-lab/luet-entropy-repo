@@ -1,0 +1,59 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit app-arch/bzip2-1.0.6-r11
+image: "sabayon/base"
+includes:
+- /bin$
+- /bin/bunzip2$
+- /bin/bzcat$
+- /bin/bzip2$
+- /lib64$
+- /lib64/libbz2.so.1$
+- /lib64/libbz2.so.1.0$
+- /lib64/libbz2.so.1.0.6$
+- /usr$
+- /usr/bin$
+- /usr/bin/bzcmp$
+- /usr/bin/bzdiff$
+- /usr/bin/bzegrep$
+- /usr/bin/bzfgrep$
+- /usr/bin/bzgrep$
+- /usr/bin/bzip2recover$
+- /usr/bin/bzless$
+- /usr/bin/bzmore$
+- /usr/include$
+- /usr/include/bzlib.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libbz2.a$
+- /usr/lib32/libbz2.so$
+- /usr/lib32/libbz2.so.1$
+- /usr/lib32/libbz2.so.1.0$
+- /usr/lib32/libbz2.so.1.0.6$
+- /usr/lib64$
+- /usr/lib64/libbz2.a$
+- /usr/lib64/libbz2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/bzip2-1.0.6-r11$
+- /usr/share/doc/bzip2-1.0.6-r11/CHANGES.bz2$
+- /usr/share/doc/bzip2-1.0.6-r11/README.COMPILATION.PROBLEMS.bz2$
+- /usr/share/doc/bzip2-1.0.6-r11/README.XML.STUFF.bz2$
+- /usr/share/doc/bzip2-1.0.6-r11/README.bz2$
+- /usr/share/doc/bzip2-1.0.6-r11/html$
+- /usr/share/doc/bzip2-1.0.6-r11/html/manual.html$
+- /usr/share/doc/bzip2-1.0.6-r11/manual.pdf$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/bunzip2.1.bz2$
+- /usr/share/man/man1/bzcat.1.bz2$
+- /usr/share/man/man1/bzcmp.1.bz2$
+- /usr/share/man/man1/bzdiff.1.bz2$
+- /usr/share/man/man1/bzegrep.1.bz2$
+- /usr/share/man/man1/bzfgrep.1.bz2$
+- /usr/share/man/man1/bzgrep.1.bz2$
+- /usr/share/man/man1/bzip2.1.bz2$
+- /usr/share/man/man1/bzip2recover.1.bz2$
+- /usr/share/man/man1/bzless.1.bz2$
+- /usr/share/man/man1/bzmore.1.bz2$

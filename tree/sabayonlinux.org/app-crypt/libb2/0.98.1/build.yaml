@@ -1,0 +1,26 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit app-crypt/libb2-0.98.1-r2
+image: "sabayon/base"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/blake2.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libb2.so$
+- /usr/lib32/libb2.so.1$
+- /usr/lib32/libb2.so.1.0.4$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/libb2.pc$
+- /usr/lib64$
+- /usr/lib64/libb2.so$
+- /usr/lib64/libb2.so.1$
+- /usr/lib64/libb2.so.1.0.4$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libb2.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libb2-0.98.1-r2$
+- /usr/share/doc/libb2-0.98.1-r2/README.md.bz2$

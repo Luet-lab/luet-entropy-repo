@@ -1,0 +1,17 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit sys-auth/pambase-20190402
+image: "sabayon/base"
+includes:
+- /etc$
+- /etc/pam.d$
+- /etc/pam.d/login$
+- /etc/pam.d/other$
+- /etc/pam.d/passwd$
+- /etc/pam.d/su$
+- /etc/pam.d/system-auth$
+- /etc/pam.d/system-local-login$
+- /etc/pam.d/system-login$
+- /etc/pam.d/system-remote-login$
+- /etc/pam.d/system-services$

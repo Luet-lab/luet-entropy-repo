@@ -1,0 +1,14 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit sys-devel/gnuconfig-20190912
+image: "sabayon/base"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/gnuconfig-20190912$
+- /usr/share/doc/gnuconfig-20190912/ChangeLog.bz2$
+- /usr/share/gnuconfig$
+- /usr/share/gnuconfig/config.guess$
+- /usr/share/gnuconfig/config.sub$

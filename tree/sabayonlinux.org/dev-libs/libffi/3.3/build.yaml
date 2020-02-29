@@ -1,0 +1,42 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit dev-libs/libffi-3.3-r1
+image: "sabayon/base"
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libffi$
+- /usr/lib32/libffi.so$
+- /usr/lib32/libffi.so.7$
+- /usr/lib32/libffi.so.7.1.0$
+- /usr/lib32/libffi/include$
+- /usr/lib32/libffi/include/ffi.h$
+- /usr/lib32/libffi/include/ffitarget.h$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/libffi.pc$
+- /usr/lib64$
+- /usr/lib64/libffi$
+- /usr/lib64/libffi.so$
+- /usr/lib64/libffi.so.7$
+- /usr/lib64/libffi.so.7.1.0$
+- /usr/lib64/libffi/include$
+- /usr/lib64/libffi/include/ffi.h$
+- /usr/lib64/libffi/include/ffitarget.h$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libffi.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libffi-3.3-r1$
+- /usr/share/doc/libffi-3.3-r1/ChangeLog.bz2$
+- /usr/share/doc/libffi-3.3-r1/ChangeLog.old.bz2$
+- /usr/share/doc/libffi-3.3-r1/README.md.bz2$
+- /usr/share/info$
+- /usr/share/info/libffi.info.bz2$
+- /usr/share/man$
+- /usr/share/man/man3$
+- /usr/share/man/man3/ffi.3.bz2$
+- /usr/share/man/man3/ffi_call.3.bz2$
+- /usr/share/man/man3/ffi_prep_cif.3.bz2$
+- /usr/share/man/man3/ffi_prep_cif_var.3.bz2$

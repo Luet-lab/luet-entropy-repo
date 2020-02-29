@@ -1,0 +1,17 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit dev-libs/libpthread-stubs-0.4-r1
+image: "sabayon/base"
+includes:
+- /usr$
+- /usr/lib32$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/pthread-stubs.pc$
+- /usr/lib64$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/pthread-stubs.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libpthread-stubs-0.4-r1$
+- /usr/share/doc/libpthread-stubs-0.4-r1/README.bz2$

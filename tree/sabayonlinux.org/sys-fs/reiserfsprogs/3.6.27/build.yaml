@@ -1,0 +1,50 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit sys-fs/reiserfsprogs-3.6.27
+image: "sabayon/base"
+includes:
+- /lib64$
+- /lib64/libreiserfscore.so$
+- /lib64/libreiserfscore.so.0$
+- /lib64/libreiserfscore.so.0.0.0$
+- /sbin$
+- /sbin/debugfs.reiserfs$
+- /sbin/debugreiserfs$
+- /sbin/fsck.reiserfs$
+- /sbin/mkfs.reiserfs$
+- /sbin/mkreiserfs$
+- /sbin/reiserfsck$
+- /sbin/reiserfstune$
+- /sbin/resize_reiserfs$
+- /sbin/tunefs.reiserfs$
+- /usr$
+- /usr/include$
+- /usr/include/reiserfs$
+- /usr/include/reiserfs/io.h$
+- /usr/include/reiserfs/misc.h$
+- /usr/include/reiserfs/reiserfs_err.h$
+- /usr/include/reiserfs/reiserfs_fs.h$
+- /usr/include/reiserfs/reiserfs_lib.h$
+- /usr/include/reiserfs/swab.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/reiserfscore.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/reiserfsprogs-3.6.27$
+- /usr/share/doc/reiserfsprogs-3.6.27/CREDITS.bz2$
+- /usr/share/doc/reiserfsprogs-3.6.27/ChangeLog.bz2$
+- /usr/share/doc/reiserfsprogs-3.6.27/README.bz2$
+- /usr/share/man$
+- /usr/share/man/man8$
+- /usr/share/man/man8/debugfs.reiserfs.8.bz2$
+- /usr/share/man/man8/debugreiserfs.8.bz2$
+- /usr/share/man/man8/fsck.reiserfs.8.bz2$
+- /usr/share/man/man8/mkfs.reiserfs.8.bz2$
+- /usr/share/man/man8/mkreiserfs.8.bz2$
+- /usr/share/man/man8/reiserfsck.8.bz2$
+- /usr/share/man/man8/reiserfstune.8.bz2$
+- /usr/share/man/man8/resize_reiserfs.8.bz2$
+- /usr/share/man/man8/tunefs.reiserfs.8.bz2$

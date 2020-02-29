@@ -1,0 +1,36 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit dev-libs/mpfr-3.1.6
+image: "sabayon/base"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/mpf2mpfr.h$
+- /usr/include/mpfr.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libmpfr.so$
+- /usr/lib32/libmpfr.so.4$
+- /usr/lib32/libmpfr.so.4.1.6$
+- /usr/lib64$
+- /usr/lib64/libmpfr.so$
+- /usr/lib64/libmpfr.so.4$
+- /usr/lib64/libmpfr.so.4.1.6$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/mpfr-3.1.6$
+- /usr/share/doc/mpfr-3.1.6/AUTHORS.bz2$
+- /usr/share/doc/mpfr-3.1.6/BUGS.bz2$
+- /usr/share/doc/mpfr-3.1.6/NEWS.bz2$
+- /usr/share/doc/mpfr-3.1.6/TODO.bz2$
+- /usr/share/doc/mpfr-3.1.6/examples$
+- /usr/share/doc/mpfr-3.1.6/examples/ReadMe$
+- /usr/share/doc/mpfr-3.1.6/examples/divworst.c.bz2$
+- /usr/share/doc/mpfr-3.1.6/examples/rndo-add.c.bz2$
+- /usr/share/doc/mpfr-3.1.6/examples/sample.c.bz2$
+- /usr/share/doc/mpfr-3.1.6/examples/version.c.bz2$
+- /usr/share/doc/mpfr-3.1.6/html$
+- /usr/share/doc/mpfr-3.1.6/html/FAQ.html$
+- /usr/share/info$
+- /usr/share/info/mpfr.info.bz2$

@@ -1,0 +1,27 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit app-misc/pax-utils-1.2.4-r1
+image: "sabayon/base"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/dumpelf$
+- /usr/bin/lddtree$
+- /usr/bin/pspax$
+- /usr/bin/scanelf$
+- /usr/bin/scanmacho$
+- /usr/bin/symtree$
+- /usr/lib$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/pax-utils-1.2.4-r1$
+- /usr/share/doc/pax-utils-1.2.4-r1/BUGS.bz2$
+- /usr/share/doc/pax-utils-1.2.4-r1/README.md.bz2$
+- /usr/share/doc/pax-utils-1.2.4-r1/TODO.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/dumpelf.1.bz2$
+- /usr/share/man/man1/pspax.1.bz2$
+- /usr/share/man/man1/scanelf.1.bz2$
+- /usr/share/man/man1/scanmacho.1.bz2$

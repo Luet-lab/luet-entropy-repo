@@ -1,0 +1,10 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit app-crypt/openpgp-keys-gentoo-release-20191030
+image: "sabayon/base"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/openpgp-keys$
+- /usr/share/openpgp-keys/gentoo-release.asc$

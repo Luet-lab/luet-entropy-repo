@@ -1,0 +1,26 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit net-misc/iputils-20190709
+image: "sabayon/base"
+includes:
+- /bin$
+- /bin/arping$
+- /bin/ping$
+- /bin/ping4$
+- /bin/ping6$
+- /usr$
+- /usr/bin$
+- /usr/lib$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/iputils-20190709$
+- /usr/share/doc/iputils-20190709/README.md.bz2$
+- /usr/share/locale$
+- /usr/share/locale/ja$
+- /usr/share/locale/ja/LC_MESSAGES$
+- /usr/share/locale/ja/LC_MESSAGES/iputils.mo$
+- /usr/share/man$
+- /usr/share/man/man8$
+- /usr/share/man/man8/arping.8.bz2$
+- /usr/share/man/man8/ping.8.bz2$

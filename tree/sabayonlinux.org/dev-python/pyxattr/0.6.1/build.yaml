@@ -1,0 +1,30 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit dev-python/pyxattr-0.6.1
+image: "sabayon/base"
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/python2.7$
+- /usr/lib64/python2.7/site-packages$
+- /usr/lib64/python2.7/site-packages/pyxattr-0.6.1-py2.7.egg-info$
+- /usr/lib64/python2.7/site-packages/pyxattr-0.6.1-py2.7.egg-info/PKG-INFO$
+- /usr/lib64/python2.7/site-packages/pyxattr-0.6.1-py2.7.egg-info/SOURCES.txt$
+- /usr/lib64/python2.7/site-packages/pyxattr-0.6.1-py2.7.egg-info/dependency_links.txt$
+- /usr/lib64/python2.7/site-packages/pyxattr-0.6.1-py2.7.egg-info/top_level.txt$
+- /usr/lib64/python2.7/site-packages/xattr.so$
+- /usr/lib64/python3.6$
+- /usr/lib64/python3.6/site-packages$
+- /usr/lib64/python3.6/site-packages/pyxattr-0.6.1-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/pyxattr-0.6.1-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/pyxattr-0.6.1-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/pyxattr-0.6.1-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/pyxattr-0.6.1-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/xattr.cpython-36m-x86_64-linux-gnu.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/pyxattr-0.6.1$
+- /usr/share/doc/pyxattr-0.6.1/NEWS.bz2$
+- /usr/share/doc/pyxattr-0.6.1/README.rst.bz2$

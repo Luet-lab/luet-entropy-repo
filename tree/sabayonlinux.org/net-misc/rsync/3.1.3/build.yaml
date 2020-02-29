@@ -1,0 +1,55 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit net-misc/rsync-3.1.3
+image: "sabayon/base"
+includes:
+- /etc$
+- /etc/conf.d$
+- /etc/conf.d/rsyncd$
+- /etc/init.d$
+- /etc/init.d/rsyncd$
+- /etc/logrotate.d$
+- /etc/logrotate.d/rsyncd$
+- /etc/rsyncd.conf$
+- /etc/xinetd.d$
+- /etc/xinetd.d/rsyncd$
+- /usr$
+- /usr/bin$
+- /usr/bin/rsync$
+- /usr/lib$
+- /usr/lib/systemd$
+- /usr/lib/systemd/system$
+- /usr/lib/systemd/system/rsyncd.service$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/rsync-3.1.3$
+- /usr/share/doc/rsync-3.1.3/NEWS.bz2$
+- /usr/share/doc/rsync-3.1.3/OLDNEWS.bz2$
+- /usr/share/doc/rsync-3.1.3/README.bz2$
+- /usr/share/doc/rsync-3.1.3/TODO.bz2$
+- /usr/share/doc/rsync-3.1.3/tech_report.tex.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/rsync.1.bz2$
+- /usr/share/man/man5$
+- /usr/share/man/man5/rsyncd.conf.5.bz2$
+- /usr/share/rsync$
+- /usr/share/rsync/atomic-rsync$
+- /usr/share/rsync/cvs2includes$
+- /usr/share/rsync/deny-rsync$
+- /usr/share/rsync/file-attr-restore$
+- /usr/share/rsync/files-to-excludes$
+- /usr/share/rsync/git-set-file-times$
+- /usr/share/rsync/instant-rsyncd$
+- /usr/share/rsync/logfilter$
+- /usr/share/rsync/lsh$
+- /usr/share/rsync/lsh.sh$
+- /usr/share/rsync/mapfrom$
+- /usr/share/rsync/mapto$
+- /usr/share/rsync/mnt-excl$
+- /usr/share/rsync/munge-symlinks$
+- /usr/share/rsync/rrsync$
+- /usr/share/rsync/rsync-no-vanished$
+- /usr/share/rsync/rsync-slash-strip$
+- /usr/share/rsync/rsyncstats$

@@ -1,0 +1,47 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit dev-libs/json-c-0.13.1-r1
+image: "sabayon/base"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/json-c$
+- /usr/include/json-c/arraylist.h$
+- /usr/include/json-c/bits.h$
+- /usr/include/json-c/debug.h$
+- /usr/include/json-c/json$
+- /usr/include/json-c/json.h$
+- /usr/include/json-c/json_c_version.h$
+- /usr/include/json-c/json_config.h$
+- /usr/include/json-c/json_inttypes.h$
+- /usr/include/json-c/json_object.h$
+- /usr/include/json-c/json_object_iterator.h$
+- /usr/include/json-c/json_pointer.h$
+- /usr/include/json-c/json_tokener.h$
+- /usr/include/json-c/json_util.h$
+- /usr/include/json-c/json_visit.h$
+- /usr/include/json-c/linkhash.h$
+- /usr/include/json-c/printbuf.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libjson-c.so$
+- /usr/lib32/libjson-c.so.4$
+- /usr/lib32/libjson-c.so.4.0.0$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/json-c.pc$
+- /usr/lib64$
+- /usr/lib64/libjson-c.so$
+- /usr/lib64/libjson-c.so.4$
+- /usr/lib64/libjson-c.so.4.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/json-c.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/json-c-0.13.1-r1$
+- /usr/share/doc/json-c-0.13.1-r1/AUTHORS.bz2$
+- /usr/share/doc/json-c-0.13.1-r1/ChangeLog.bz2$
+- /usr/share/doc/json-c-0.13.1-r1/NEWS$
+- /usr/share/doc/json-c-0.13.1-r1/README$
+- /usr/share/doc/json-c-0.13.1-r1/README.html$
+- /usr/share/doc/json-c-0.13.1-r1/README.md.bz2$

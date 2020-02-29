@@ -1,0 +1,60 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit sys-libs/e2fsprogs-libs-1.45.5
+image: "sabayon/base"
+includes:
+- /lib64$
+- /lib64/libcom_err.so.2$
+- /lib64/libcom_err.so.2.1$
+- /lib64/libss.so.2$
+- /lib64/libss.so.2.0$
+- /usr$
+- /usr/bin$
+- /usr/bin/compile_et$
+- /usr/bin/mk_cmds$
+- /usr/include$
+- /usr/include/com_err.h$
+- /usr/include/et$
+- /usr/include/et/com_err.h$
+- /usr/include/ss$
+- /usr/include/ss/ss.h$
+- /usr/include/ss/ss_err.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libcom_err.a$
+- /usr/lib32/libcom_err.so$
+- /usr/lib32/libcom_err.so.2$
+- /usr/lib32/libcom_err.so.2.1$
+- /usr/lib32/libss.a$
+- /usr/lib32/libss.so$
+- /usr/lib32/libss.so.2$
+- /usr/lib32/libss.so.2.0$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/com_err.pc$
+- /usr/lib32/pkgconfig/ss.pc$
+- /usr/lib64$
+- /usr/lib64/libcom_err.a$
+- /usr/lib64/libcom_err.so$
+- /usr/lib64/libss.a$
+- /usr/lib64/libss.so$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/com_err.pc$
+- /usr/lib64/pkgconfig/ss.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/e2fsprogs-libs-1.45.5$
+- /usr/share/doc/e2fsprogs-libs-1.45.5/ChangeLog.bz2$
+- /usr/share/doc/e2fsprogs-libs-1.45.5/README.bz2$
+- /usr/share/et$
+- /usr/share/et/et_c.awk$
+- /usr/share/et/et_h.awk$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/compile_et.1.bz2$
+- /usr/share/man/man1/mk_cmds.1.bz2$
+- /usr/share/man/man3$
+- /usr/share/man/man3/com_err.3.bz2$
+- /usr/share/ss$
+- /usr/share/ss/ct_c.awk$
+- /usr/share/ss/ct_c.sed$

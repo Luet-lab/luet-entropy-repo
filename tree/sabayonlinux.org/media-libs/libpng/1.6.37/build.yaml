@@ -1,0 +1,55 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit media-libs/libpng-1.6.37
+image: "sabayon/base"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/libpng-config$
+- /usr/bin/libpng16-config$
+- /usr/bin/png-fix-itxt$
+- /usr/bin/pngfix$
+- /usr/include$
+- /usr/include/libpng16$
+- /usr/include/libpng16/png.h$
+- /usr/include/libpng16/pngconf.h$
+- /usr/include/libpng16/pnglibconf.h$
+- /usr/include/png.h$
+- /usr/include/pngconf.h$
+- /usr/include/pnglibconf.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libpng.a$
+- /usr/lib32/libpng.so$
+- /usr/lib32/libpng16.a$
+- /usr/lib32/libpng16.so$
+- /usr/lib32/libpng16.so.16$
+- /usr/lib32/libpng16.so.16.37.0$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/libpng.pc$
+- /usr/lib32/pkgconfig/libpng16.pc$
+- /usr/lib64$
+- /usr/lib64/libpng.a$
+- /usr/lib64/libpng.so$
+- /usr/lib64/libpng16.a$
+- /usr/lib64/libpng16.so$
+- /usr/lib64/libpng16.so.16$
+- /usr/lib64/libpng16.so.16.37.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libpng.pc$
+- /usr/lib64/pkgconfig/libpng16.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libpng-1.6.37$
+- /usr/share/doc/libpng-1.6.37/ANNOUNCE.bz2$
+- /usr/share/doc/libpng-1.6.37/CHANGES.bz2$
+- /usr/share/doc/libpng-1.6.37/README.bz2$
+- /usr/share/doc/libpng-1.6.37/TODO.bz2$
+- /usr/share/doc/libpng-1.6.37/libpng-manual.txt.bz2$
+- /usr/share/man$
+- /usr/share/man/man3$
+- /usr/share/man/man3/libpng.3.bz2$
+- /usr/share/man/man3/libpngpf.3.bz2$
+- /usr/share/man/man5$
+- /usr/share/man/man5/png.5.bz2$

@@ -1,0 +1,24 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit sys-apps/debianutils-4.9.1
+image: "sabayon/base"
+includes:
+- /bin$
+- /bin/run-parts$
+- /bin/tempfile$
+- /usr$
+- /usr/lib$
+- /usr/sbin$
+- /usr/sbin/savelog$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/debianutils-4.9.1$
+- /usr/share/doc/debianutils-4.9.1/changelog.bz2$
+- /usr/share/doc/debianutils-4.9.1/control.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/tempfile.1.bz2$
+- /usr/share/man/man8$
+- /usr/share/man/man8/run-parts.8.bz2$
+- /usr/share/man/man8/savelog.8.bz2$

@@ -1,0 +1,22 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit sys-apps/which-2.21
+image: "sabayon/base"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/which$
+- /usr/lib$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/which-2.21$
+- /usr/share/doc/which-2.21/AUTHORS.bz2$
+- /usr/share/doc/which-2.21/NEWS.bz2$
+- /usr/share/doc/which-2.21/README.alias.bz2$
+- /usr/share/doc/which-2.21/README.bz2$
+- /usr/share/info$
+- /usr/share/info/which.info.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/which.1.bz2$

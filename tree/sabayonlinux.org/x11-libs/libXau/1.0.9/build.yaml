@@ -1,0 +1,40 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit x11-libs/libXau-1.0.9
+image: "sabayon/base"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/X11$
+- /usr/include/X11/Xauth.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libXau.so$
+- /usr/lib32/libXau.so.6$
+- /usr/lib32/libXau.so.6.0.0$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/xau.pc$
+- /usr/lib64$
+- /usr/lib64/libXau.so$
+- /usr/lib64/libXau.so.6$
+- /usr/lib64/libXau.so.6.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/xau.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libXau-1.0.9$
+- /usr/share/doc/libXau-1.0.9/AUTHORS$
+- /usr/share/doc/libXau-1.0.9/ChangeLog.bz2$
+- /usr/share/doc/libXau-1.0.9/README.bz2$
+- /usr/share/man$
+- /usr/share/man/man3$
+- /usr/share/man/man3/Xau.3.bz2$
+- /usr/share/man/man3/XauDisposeAuth.3$
+- /usr/share/man/man3/XauFileName.3$
+- /usr/share/man/man3/XauGetAuthByAddr.3$
+- /usr/share/man/man3/XauGetBestAuthByAddr.3$
+- /usr/share/man/man3/XauLockAuth.3$
+- /usr/share/man/man3/XauReadAuth.3$
+- /usr/share/man/man3/XauUnlockAuth.3$
+- /usr/share/man/man3/XauWriteAuth.3$

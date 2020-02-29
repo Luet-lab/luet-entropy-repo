@@ -1,0 +1,8 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit app-misc/mime-types-9
+image: "sabayon/base"
+includes:
+- /etc$
+- /etc/mime.types$

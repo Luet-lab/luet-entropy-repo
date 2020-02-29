@@ -1,0 +1,24 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit dev-libs/iniparser-3.1-r1
+image: "sabayon/base"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/dictionary.h$
+- /usr/include/iniparser.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libiniparser.so$
+- /usr/lib32/libiniparser.so.0$
+- /usr/lib32/libiniparser.so.0.0.0$
+- /usr/lib64$
+- /usr/lib64/libiniparser.so$
+- /usr/lib64/libiniparser.so.0$
+- /usr/lib64/libiniparser.so.0.0.0$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/iniparser-3.1-r1$
+- /usr/share/doc/iniparser-3.1-r1/AUTHORS.bz2$
+- /usr/share/doc/iniparser-3.1-r1/README.bz2$

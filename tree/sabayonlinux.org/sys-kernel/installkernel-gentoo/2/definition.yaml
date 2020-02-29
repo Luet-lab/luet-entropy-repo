@@ -1,0 +1,17 @@
+
+category: "sys-kernel"
+name: "installkernel-gentoo"
+version: "2"
+requires:
+- category: "sys-apps"
+  name: "debianutils"
+  version: ">=4.9.1"
+- category: "sys-kernel"
+  name: "installkernel-systemd-boot"
+  version: ">=0"
+- category: "sys-apps"
+  name: "systemd"
+  version: ">=9999"
+- category: "sys-boot"
+  name: "systemd-boot"
+  version: ">=243"

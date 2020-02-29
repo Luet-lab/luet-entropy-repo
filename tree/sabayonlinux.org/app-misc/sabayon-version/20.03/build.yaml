@@ -1,0 +1,15 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit app-misc/sabayon-version-20.03
+image: "sabayon/base"
+includes:
+- /etc$
+- /etc/sabayon-release$
+- /etc/security$
+- /etc/security/limits.d$
+- /etc/security/limits.d/00-sabayon-anti-fork-bomb.conf$
+- /etc/system-release$
+- /var$
+- /var/empty$
+- /var/empty/.keep_app-misc_sabayon-version-0$

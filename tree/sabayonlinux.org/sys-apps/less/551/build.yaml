@@ -1,0 +1,26 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit sys-apps/less-551
+image: "sabayon/base"
+includes:
+- /etc$
+- /etc/env.d$
+- /etc/env.d/70less$
+- /usr$
+- /usr/bin$
+- /usr/bin/less$
+- /usr/bin/lessecho$
+- /usr/bin/lesskey$
+- /usr/bin/lesspipe$
+- /usr/lib$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/less-551$
+- /usr/share/doc/less-551/NEWS.bz2$
+- /usr/share/doc/less-551/README.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/less.1.bz2$
+- /usr/share/man/man1/lessecho.1.bz2$
+- /usr/share/man/man1/lesskey.1.bz2$

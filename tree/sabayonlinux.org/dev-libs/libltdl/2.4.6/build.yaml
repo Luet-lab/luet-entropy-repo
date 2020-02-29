@@ -1,0 +1,28 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit dev-libs/libltdl-2.4.6
+image: "sabayon/base"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/libltdl$
+- /usr/include/libltdl/lt_dlloader.h$
+- /usr/include/libltdl/lt_error.h$
+- /usr/include/libltdl/lt_system.h$
+- /usr/include/ltdl.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libltdl.la$
+- /usr/lib32/libltdl.so$
+- /usr/lib32/libltdl.so.7$
+- /usr/lib32/libltdl.so.7.3.1$
+- /usr/lib64$
+- /usr/lib64/libltdl.la$
+- /usr/lib64/libltdl.so$
+- /usr/lib64/libltdl.so.7$
+- /usr/lib64/libltdl.so.7.3.1$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libltdl-2.4.6$
+- /usr/share/doc/libltdl-2.4.6/README.bz2$

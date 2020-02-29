@@ -1,0 +1,58 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit sys-process/cronie-1.5.4-r1
+image: "sabayon/base"
+includes:
+- /etc$
+- /etc/anacrontab$
+- /etc/conf.d$
+- /etc/conf.d/cronie$
+- /etc/cron.d$
+- /etc/cron.d/0hourly$
+- /etc/cron.deny$
+- /etc/cron.hourly$
+- /etc/cron.hourly/0anacron$
+- /etc/crontab$
+- /etc/init.d$
+- /etc/init.d/cronie$
+- /etc/pam.d$
+- /etc/pam.d/crond$
+- /lib$
+- /lib/systemd$
+- /lib/systemd/system$
+- /lib/systemd/system/cronie.service$
+- /usr$
+- /usr/bin$
+- /usr/bin/cronnext$
+- /usr/bin/crontab$
+- /usr/lib$
+- /usr/sbin$
+- /usr/sbin/anacron$
+- /usr/sbin/crond$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/cronie-1.5.4-r1$
+- /usr/share/doc/cronie-1.5.4-r1/AUTHORS.bz2$
+- /usr/share/doc/cronie-1.5.4-r1/ChangeLog.bz2$
+- /usr/share/doc/cronie-1.5.4-r1/NEWS.bz2$
+- /usr/share/doc/cronie-1.5.4-r1/README.anacron.bz2$
+- /usr/share/doc/cronie-1.5.4-r1/README.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/cronnext.1.bz2$
+- /usr/share/man/man1/crontab.1.bz2$
+- /usr/share/man/man5$
+- /usr/share/man/man5/anacrontab.5.bz2$
+- /usr/share/man/man5/crontab.5.bz2$
+- /usr/share/man/man8$
+- /usr/share/man/man8/anacron.8.bz2$
+- /usr/share/man/man8/cron.8.bz2$
+- /usr/share/man/man8/crond.8$
+- /var$
+- /var/spool$
+- /var/spool/anacron$
+- /var/spool/anacron/.keep_sys-process_cronie-0$
+- /var/spool/cron$
+- /var/spool/cron/crontabs$
+- /var/spool/cron/crontabs/.keep_sys-process_cronie-0$

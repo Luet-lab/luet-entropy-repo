@@ -1,0 +1,11 @@
+
+category: "sys-apps"
+name: "debianutils"
+version: "4.9.1"
+requires:
+- category: "sys-kernel"
+  name: "installkernel-gentoo"
+  version: ">=2"
+- category: "sys-kernel"
+  name: "installkernel-systemd-boot"
+  version: ">=0"

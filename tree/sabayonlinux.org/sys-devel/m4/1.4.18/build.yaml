@@ -1,0 +1,26 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit sys-devel/m4-1.4.18-r1
+image: "sabayon/base"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/m4$
+- /usr/lib$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/m4-1.4.18-r1$
+- /usr/share/doc/m4-1.4.18-r1/AUTHORS.bz2$
+- /usr/share/doc/m4-1.4.18-r1/ChangeLog.bz2$
+- /usr/share/doc/m4-1.4.18-r1/NEWS.bz2$
+- /usr/share/doc/m4-1.4.18-r1/README.bz2$
+- /usr/share/doc/m4-1.4.18-r1/THANKS.bz2$
+- /usr/share/doc/m4-1.4.18-r1/TODO.bz2$
+- /usr/share/info$
+- /usr/share/info/m4.info-1.bz2$
+- /usr/share/info/m4.info-2.bz2$
+- /usr/share/info/m4.info.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/m4.1.bz2$

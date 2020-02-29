@@ -1,0 +1,16 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit sys-devel/binutils-config-5-r4
+image: "sabayon/base"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/binutils-config$
+- /usr/share$
+- /usr/share/eselect$
+- /usr/share/eselect/modules$
+- /usr/share/eselect/modules/binutils.eselect$
+- /usr/share/man$
+- /usr/share/man/man8$
+- /usr/share/man/man8/binutils-config.8.bz2$

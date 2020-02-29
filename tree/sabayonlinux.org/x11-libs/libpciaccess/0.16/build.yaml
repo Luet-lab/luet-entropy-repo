@@ -1,0 +1,30 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit x11-libs/libpciaccess-0.16
+image: "sabayon/base"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/scanpci$
+- /usr/include$
+- /usr/include/pciaccess.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libpciaccess.so$
+- /usr/lib32/libpciaccess.so.0$
+- /usr/lib32/libpciaccess.so.0.11.1$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/pciaccess.pc$
+- /usr/lib64$
+- /usr/lib64/libpciaccess.so$
+- /usr/lib64/libpciaccess.so.0$
+- /usr/lib64/libpciaccess.so.0.11.1$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/pciaccess.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libpciaccess-0.16$
+- /usr/share/doc/libpciaccess-0.16/AUTHORS$
+- /usr/share/doc/libpciaccess-0.16/ChangeLog.bz2$
+- /usr/share/doc/libpciaccess-0.16/README.md.bz2$

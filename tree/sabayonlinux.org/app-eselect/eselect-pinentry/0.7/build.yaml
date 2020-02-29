@@ -1,0 +1,11 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit app-eselect/eselect-pinentry-0.7
+image: "sabayon/base"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/eselect$
+- /usr/share/eselect/modules$
+- /usr/share/eselect/modules/pinentry.eselect$

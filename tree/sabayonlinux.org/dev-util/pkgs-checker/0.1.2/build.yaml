@@ -1,0 +1,10 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit dev-util/pkgs-checker-0.1.2
+image: "sabayon/base"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/pkgs-checker$
+- /usr/lib$

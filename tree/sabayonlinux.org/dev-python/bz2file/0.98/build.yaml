@@ -1,0 +1,18 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit dev-python/bz2file-0.98
+image: "sabayon/base"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/python2.7$
+- /usr/lib64/python2.7/site-packages$
+- /usr/lib64/python2.7/site-packages/bz2file-0.98-py2.7.egg-info$
+- /usr/lib64/python2.7/site-packages/bz2file.py$
+- /usr/lib64/python2.7/site-packages/bz2file.pyc$
+- /usr/lib64/python2.7/site-packages/bz2file.pyo$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/bz2file-0.98$
+- /usr/share/doc/bz2file-0.98/README.rst.bz2$

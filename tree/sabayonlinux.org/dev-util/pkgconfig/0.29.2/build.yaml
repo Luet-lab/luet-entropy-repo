@@ -1,0 +1,25 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit dev-util/pkgconfig-0.29.2
+image: "sabayon/base"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/i686-pc-linux-gnu-pkg-config$
+- /usr/bin/pkg-config$
+- /usr/bin/x86_64-pc-linux-gnu-pkg-config$
+- /usr/lib$
+- /usr/share$
+- /usr/share/aclocal$
+- /usr/share/aclocal/pkg.m4$
+- /usr/share/doc$
+- /usr/share/doc/pkgconfig-0.29.2$
+- /usr/share/doc/pkgconfig-0.29.2/AUTHORS.bz2$
+- /usr/share/doc/pkgconfig-0.29.2/NEWS.bz2$
+- /usr/share/doc/pkgconfig-0.29.2/README.bz2$
+- /usr/share/doc/pkgconfig-0.29.2/html$
+- /usr/share/doc/pkgconfig-0.29.2/html/pkg-config-guide.html$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/pkg-config.1.bz2$

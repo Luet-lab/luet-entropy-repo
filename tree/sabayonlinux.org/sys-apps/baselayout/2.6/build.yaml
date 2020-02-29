@@ -1,0 +1,36 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit sys-apps/baselayout-2.6-r1
+image: "sabayon/base"
+includes:
+- /etc$
+- /etc/env.d$
+- /etc/env.d/50baselayout$
+- /etc/filesystems$
+- /etc/gentoo-release$
+- /etc/hosts$
+- /etc/inputrc$
+- /etc/issue$
+- /etc/issue.logo$
+- /etc/modprobe.d$
+- /etc/modprobe.d/aliases.conf$
+- /etc/modprobe.d/i386.conf$
+- /etc/networks$
+- /etc/os-release$
+- /etc/profile$
+- /etc/protocols$
+- /etc/services$
+- /etc/shells$
+- /etc/sysctl.conf$
+- /usr$
+- /usr/share$
+- /usr/share/baselayout$
+- /usr/share/baselayout/fstab$
+- /usr/share/baselayout/group$
+- /usr/share/baselayout/issue.devfix$
+- /usr/share/baselayout/passwd$
+- /usr/share/baselayout/shadow$
+- /usr/share/doc$
+- /usr/share/doc/baselayout-2.6-r1$
+- /usr/share/doc/baselayout-2.6-r1/ChangeLog.bz2$

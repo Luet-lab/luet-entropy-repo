@@ -1,0 +1,16 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit sys-devel/gcc-config-2.1
+image: "sabayon/base"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/gcc-config$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/gcc-config-2.1$
+- /usr/share/doc/gcc-config-2.1/README.bz2$
+- /usr/share/eselect$
+- /usr/share/eselect/modules$
+- /usr/share/eselect/modules/gcc.eselect$

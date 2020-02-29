@@ -1,0 +1,38 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit sys-apps/sandbox-2.13
+image: "sabayon/base"
+includes:
+- /etc$
+- /etc/env.d$
+- /etc/env.d/09sandbox$
+- /etc/sandbox.conf$
+- /etc/sandbox.d$
+- /etc/sandbox.d/00default$
+- /usr$
+- /usr/bin$
+- /usr/bin/sandbox$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libsandbox.so$
+- /usr/lib64$
+- /usr/lib64/libsandbox.so$
+- /usr/share$
+- /usr/share/applications$
+- /usr/share/applications/sandbox.desktop$
+- /usr/share/doc$
+- /usr/share/doc/sandbox-2.13$
+- /usr/share/doc/sandbox-2.13/AUTHORS.bz2$
+- /usr/share/doc/sandbox-2.13/ChangeLog.0.bz2$
+- /usr/share/doc/sandbox-2.13/ChangeLog.bz2$
+- /usr/share/doc/sandbox-2.13/NEWS$
+- /usr/share/doc/sandbox-2.13/README.bz2$
+- /usr/share/pixmaps$
+- /usr/share/pixmaps/sandbox.svg$
+- /usr/share/sandbox$
+- /usr/share/sandbox/sandbox.bashrc$
+- /var$
+- /var/log$
+- /var/log/sandbox$
+- /var/log/sandbox/.keep_sys-apps_sandbox-0$

@@ -1,0 +1,12 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit net-dns/dnssec-root-20181220-r1
+image: "sabayon/base"
+includes:
+- /etc$
+- /etc/dnssec$
+- /etc/dnssec/icannbundle.pem$
+- /etc/dnssec/root-anchors.p7s$
+- /etc/dnssec/root-anchors.txt$
+- /etc/dnssec/root-anchors.xml$

@@ -1,0 +1,64 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit dev-qt/qtchooser-66
+image: "sabayon/base"
+includes:
+- /etc$
+- /etc/xdg$
+- /etc/xdg/qtchooser$
+- /etc/xdg/qtchooser/.keep_dev-qt_qtchooser-0$
+- /usr$
+- /usr/bin$
+- /usr/bin/assistant$
+- /usr/bin/designer$
+- /usr/bin/lconvert$
+- /usr/bin/linguist$
+- /usr/bin/lrelease$
+- /usr/bin/lupdate$
+- /usr/bin/moc$
+- /usr/bin/pixeltool$
+- /usr/bin/qcollectiongenerator$
+- /usr/bin/qdbus$
+- /usr/bin/qdbuscpp2xml$
+- /usr/bin/qdbusviewer$
+- /usr/bin/qdbusxml2cpp$
+- /usr/bin/qdoc$
+- /usr/bin/qdoc3$
+- /usr/bin/qgltf$
+- /usr/bin/qhelpconverter$
+- /usr/bin/qhelpgenerator$
+- /usr/bin/qlalr$
+- /usr/bin/qmake$
+- /usr/bin/qml$
+- /usr/bin/qml1plugindump$
+- /usr/bin/qmlbundle$
+- /usr/bin/qmlcachegen$
+- /usr/bin/qmleasing$
+- /usr/bin/qmlimportscanner$
+- /usr/bin/qmljs$
+- /usr/bin/qmllint$
+- /usr/bin/qmlmin$
+- /usr/bin/qmlplugindump$
+- /usr/bin/qmlprofiler$
+- /usr/bin/qmlscene$
+- /usr/bin/qmltestrunner$
+- /usr/bin/qmlviewer$
+- /usr/bin/qtattributionsscanner$
+- /usr/bin/qtchooser$
+- /usr/bin/qtconfig$
+- /usr/bin/qtdiag$
+- /usr/bin/qtpaths$
+- /usr/bin/qtplugininfo$
+- /usr/bin/qvkgen$
+- /usr/bin/rcc$
+- /usr/bin/repc$
+- /usr/bin/uic$
+- /usr/bin/uic3$
+- /usr/bin/xmlpatterns$
+- /usr/bin/xmlpatternsvalidator$
+- /usr/lib$
+- /usr/share$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/qtchooser.1.bz2$

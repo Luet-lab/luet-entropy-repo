@@ -1,0 +1,13 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit sys-devel/automake-wrapper-11
+image: "sabayon/base"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/aclocal$
+- /usr/bin/automake$
+- /usr/share$
+- /usr/share/aclocal$
+- /usr/share/aclocal/.keep_sys-devel_automake-wrapper-0$

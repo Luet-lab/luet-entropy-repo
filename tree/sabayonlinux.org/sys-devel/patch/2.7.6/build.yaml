@@ -1,0 +1,21 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit sys-devel/patch-2.7.6-r4
+image: "sabayon/base"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/patch$
+- /usr/lib$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/patch-2.7.6-r4$
+- /usr/share/doc/patch-2.7.6-r4/AUTHORS.bz2$
+- /usr/share/doc/patch-2.7.6-r4/ChangeLog.bz2$
+- /usr/share/doc/patch-2.7.6-r4/NEWS.bz2$
+- /usr/share/doc/patch-2.7.6-r4/README.bz2$
+- /usr/share/doc/patch-2.7.6-r4/TODO.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/patch.1.bz2$

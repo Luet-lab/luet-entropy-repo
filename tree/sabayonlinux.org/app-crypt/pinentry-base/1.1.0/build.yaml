@@ -1,0 +1,23 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit app-crypt/pinentry-base-1.1.0-r2
+image: "sabayon/base"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/pinentry-curses$
+- /usr/bin/pinentry-emacs$
+- /usr/bin/pinentry-tty$
+- /usr/lib$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/pinentry-base-1.1.0-r2$
+- /usr/share/doc/pinentry-base-1.1.0-r2/AUTHORS.bz2$
+- /usr/share/doc/pinentry-base-1.1.0-r2/ChangeLog.bz2$
+- /usr/share/doc/pinentry-base-1.1.0-r2/NEWS.bz2$
+- /usr/share/doc/pinentry-base-1.1.0-r2/README.bz2$
+- /usr/share/doc/pinentry-base-1.1.0-r2/THANKS.bz2$
+- /usr/share/doc/pinentry-base-1.1.0-r2/TODO.bz2$
+- /usr/share/info$
+- /usr/share/info/pinentry.info.bz2$

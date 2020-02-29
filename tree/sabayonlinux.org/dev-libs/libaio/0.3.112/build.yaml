@@ -1,0 +1,39 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit dev-libs/libaio-0.3.112
+image: "sabayon/base"
+includes:
+- /lib64$
+- /lib64/libaio.so.1$
+- /lib64/libaio.so.1.0.1$
+- /usr$
+- /usr/include$
+- /usr/include/libaio.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libaio.so$
+- /usr/lib32/libaio.so.1$
+- /usr/lib32/libaio.so.1.0.1$
+- /usr/lib64$
+- /usr/lib64/libaio.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libaio-0.3.112$
+- /usr/share/doc/libaio-0.3.112/ChangeLog.bz2$
+- /usr/share/doc/libaio-0.3.112/TODO$
+- /usr/share/man$
+- /usr/share/man/man3$
+- /usr/share/man/man3/io.3.bz2$
+- /usr/share/man/man3/io_cancel.3.bz2$
+- /usr/share/man/man3/io_fsync.3.bz2$
+- /usr/share/man/man3/io_getevents.3.bz2$
+- /usr/share/man/man3/io_prep_fsync.3.bz2$
+- /usr/share/man/man3/io_prep_pread.3.bz2$
+- /usr/share/man/man3/io_prep_pwrite.3.bz2$
+- /usr/share/man/man3/io_queue_init.3.bz2$
+- /usr/share/man/man3/io_queue_release.3.bz2$
+- /usr/share/man/man3/io_queue_run.3.bz2$
+- /usr/share/man/man3/io_queue_wait.3.bz2$
+- /usr/share/man/man3/io_set_callback.3.bz2$
+- /usr/share/man/man3/io_submit.3.bz2$

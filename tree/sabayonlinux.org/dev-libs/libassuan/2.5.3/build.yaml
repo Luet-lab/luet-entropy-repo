@@ -1,0 +1,33 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit dev-libs/libassuan-2.5.3
+image: "sabayon/base"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/libassuan-config$
+- /usr/include$
+- /usr/include/assuan.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libassuan.a$
+- /usr/lib64/libassuan.so$
+- /usr/lib64/libassuan.so.0$
+- /usr/lib64/libassuan.so.0.8.3$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libassuan.pc$
+- /usr/share$
+- /usr/share/aclocal$
+- /usr/share/aclocal/libassuan.m4$
+- /usr/share/doc$
+- /usr/share/doc/libassuan-2.5.3$
+- /usr/share/doc/libassuan-2.5.3/AUTHORS.bz2$
+- /usr/share/doc/libassuan-2.5.3/ChangeLog.bz2$
+- /usr/share/doc/libassuan-2.5.3/NEWS.bz2$
+- /usr/share/doc/libassuan-2.5.3/README.GIT.bz2$
+- /usr/share/doc/libassuan-2.5.3/README.bz2$
+- /usr/share/doc/libassuan-2.5.3/THANKS.bz2$
+- /usr/share/doc/libassuan-2.5.3/TODO.bz2$
+- /usr/share/info$
+- /usr/share/info/assuan.info.bz2$

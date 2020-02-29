@@ -1,0 +1,18 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit sys-devel/autoconf-wrapper-13-r1
+image: "sabayon/base"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/autoconf$
+- /usr/bin/autoheader$
+- /usr/bin/autom4te$
+- /usr/bin/autoreconf$
+- /usr/bin/autoscan$
+- /usr/bin/autoupdate$
+- /usr/bin/ifnames$
+- /usr/lib64$
+- /usr/lib64/misc$
+- /usr/lib64/misc/ac-wrapper.sh$

@@ -1,0 +1,26 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit app-crypt/argon2-20190702
+image: "sabayon/base"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/argon2$
+- /usr/include$
+- /usr/include/argon2.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libargon2.so$
+- /usr/lib64/libargon2.so.1$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libargon2.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/argon2-20190702$
+- /usr/share/doc/argon2-20190702/CHANGELOG.md.bz2$
+- /usr/share/doc/argon2-20190702/README.md.bz2$
+- /usr/share/doc/argon2-20190702/argon2-specs.pdf$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/argon2.1.bz2$

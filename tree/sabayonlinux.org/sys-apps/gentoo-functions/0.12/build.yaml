@@ -1,0 +1,17 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit sys-apps/gentoo-functions-0.12
+image: "sabayon/base"
+includes:
+- /lib$
+- /lib/gentoo$
+- /lib/gentoo/functions.sh$
+- /sbin$
+- /sbin/consoletype$
+- /usr$
+- /usr/lib$
+- /usr/share$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/consoletype.1.bz2$

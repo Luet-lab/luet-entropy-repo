@@ -1,0 +1,54 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit gnome-base/dconf-0.32.0-r2
+image: "sabayon/base"
+includes:
+- /etc$
+- /etc/env.d$
+- /etc/env.d/51dconf$
+- /usr$
+- /usr/bin$
+- /usr/bin/dconf$
+- /usr/include$
+- /usr/include/dconf$
+- /usr/include/dconf/client$
+- /usr/include/dconf/client/dconf-client.h$
+- /usr/include/dconf/common$
+- /usr/include/dconf/common/dconf-changeset.h$
+- /usr/include/dconf/common/dconf-enums.h$
+- /usr/include/dconf/common/dconf-paths.h$
+- /usr/include/dconf/dconf.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/gio$
+- /usr/lib64/gio/modules$
+- /usr/lib64/gio/modules/libdconfsettings.so$
+- /usr/lib64/libdconf.so$
+- /usr/lib64/libdconf.so.1$
+- /usr/lib64/libdconf.so.1.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/dconf.pc$
+- /usr/libexec$
+- /usr/libexec/dconf-service$
+- /usr/share$
+- /usr/share/bash-completion$
+- /usr/share/bash-completion/completions$
+- /usr/share/bash-completion/completions/dconf$
+- /usr/share/dbus-1$
+- /usr/share/dbus-1/services$
+- /usr/share/dbus-1/services/ca.desrt.dconf.service$
+- /usr/share/doc$
+- /usr/share/doc/dconf-0.32.0-r2$
+- /usr/share/doc/dconf-0.32.0-r2/NEWS.bz2$
+- /usr/share/doc/dconf-0.32.0-r2/README.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/dconf-service.1.bz2$
+- /usr/share/man/man1/dconf.1.bz2$
+- /usr/share/man/man7$
+- /usr/share/man/man7/dconf.7.bz2$
+- /usr/share/vala$
+- /usr/share/vala/vapi$
+- /usr/share/vala/vapi/dconf.deps$
+- /usr/share/vala/vapi/dconf.vapi$

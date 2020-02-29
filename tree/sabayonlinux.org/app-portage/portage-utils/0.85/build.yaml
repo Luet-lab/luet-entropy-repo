@@ -1,0 +1,51 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit app-portage/portage-utils-0.85
+image: "sabayon/base"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/q$
+- /usr/bin/qatom$
+- /usr/bin/qcheck$
+- /usr/bin/qdepends$
+- /usr/bin/qfile$
+- /usr/bin/qgrep$
+- /usr/bin/qkeyword$
+- /usr/bin/qlist$
+- /usr/bin/qlop$
+- /usr/bin/qmanifest$
+- /usr/bin/qmerge$
+- /usr/bin/qpkg$
+- /usr/bin/qsearch$
+- /usr/bin/qsize$
+- /usr/bin/qtbz2$
+- /usr/bin/qtegrity$
+- /usr/bin/quse$
+- /usr/bin/qxpak$
+- /usr/lib$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/portage-utils-0.85$
+- /usr/share/doc/portage-utils-0.85/README.md.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/q.1.bz2$
+- /usr/share/man/man1/qatom.1.bz2$
+- /usr/share/man/man1/qcheck.1.bz2$
+- /usr/share/man/man1/qdepends.1.bz2$
+- /usr/share/man/man1/qfile.1.bz2$
+- /usr/share/man/man1/qgrep.1.bz2$
+- /usr/share/man/man1/qkeyword.1.bz2$
+- /usr/share/man/man1/qlist.1.bz2$
+- /usr/share/man/man1/qlop.1.bz2$
+- /usr/share/man/man1/qmanifest.1.bz2$
+- /usr/share/man/man1/qmerge.1.bz2$
+- /usr/share/man/man1/qpkg.1.bz2$
+- /usr/share/man/man1/qsearch.1.bz2$
+- /usr/share/man/man1/qsize.1.bz2$
+- /usr/share/man/man1/qtbz2.1.bz2$
+- /usr/share/man/man1/qtegrity.1.bz2$
+- /usr/share/man/man1/quse.1.bz2$
+- /usr/share/man/man1/qxpak.1.bz2$

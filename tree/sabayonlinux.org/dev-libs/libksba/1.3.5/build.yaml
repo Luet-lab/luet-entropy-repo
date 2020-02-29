@@ -1,0 +1,30 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit dev-libs/libksba-1.3.5-r2
+image: "sabayon/base"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/ksba-config$
+- /usr/include$
+- /usr/include/ksba.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libksba.a$
+- /usr/lib64/libksba.so$
+- /usr/lib64/libksba.so.8$
+- /usr/lib64/libksba.so.8.11.6$
+- /usr/share$
+- /usr/share/aclocal$
+- /usr/share/aclocal/ksba.m4$
+- /usr/share/doc$
+- /usr/share/doc/libksba-1.3.5-r2$
+- /usr/share/doc/libksba-1.3.5-r2/AUTHORS.bz2$
+- /usr/share/doc/libksba-1.3.5-r2/ChangeLog.bz2$
+- /usr/share/doc/libksba-1.3.5-r2/NEWS.bz2$
+- /usr/share/doc/libksba-1.3.5-r2/README.bz2$
+- /usr/share/doc/libksba-1.3.5-r2/THANKS.bz2$
+- /usr/share/doc/libksba-1.3.5-r2/TODO.bz2$
+- /usr/share/info$
+- /usr/share/info/ksba.info.bz2$

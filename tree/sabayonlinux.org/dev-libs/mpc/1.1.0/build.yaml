@@ -1,0 +1,27 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i gentoolkit dev-libs/mpc-1.1.0-r1
+image: "sabayon/base"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/mpc.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libmpc.so$
+- /usr/lib32/libmpc.so.3$
+- /usr/lib32/libmpc.so.3.1.0$
+- /usr/lib64$
+- /usr/lib64/libmpc.so$
+- /usr/lib64/libmpc.so.3$
+- /usr/lib64/libmpc.so.3.1.0$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/mpc-1.1.0-r1$
+- /usr/share/doc/mpc-1.1.0-r1/AUTHORS$
+- /usr/share/doc/mpc-1.1.0-r1/NEWS.bz2$
+- /usr/share/doc/mpc-1.1.0-r1/README.bz2$
+- /usr/share/doc/mpc-1.1.0-r1/TODO.bz2$
+- /usr/share/info$
+- /usr/share/info/mpc.info.bz2$
