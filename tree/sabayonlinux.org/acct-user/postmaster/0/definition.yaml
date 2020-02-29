@@ -1,0 +1,8 @@
+
+category: "acct-user"
+name: "postmaster"
+version: "0"
+requires:
+- category: "acct-group"
+  name: "mail"
+  version: ">=0"

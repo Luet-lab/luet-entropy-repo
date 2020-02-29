@@ -1,0 +1,10 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i acct-user/mail-0
+image: "sabayon/base"
+includes:
+- /var$
+- /var/spool$
+- /var/spool/mail$
+- /var/spool/mail/.keep_acct-user_mail-0$

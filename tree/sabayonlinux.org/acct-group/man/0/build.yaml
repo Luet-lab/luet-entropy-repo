@@ -1,0 +1,6 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i acct-group/man-0
+image: "sabayon/base"
+includes:

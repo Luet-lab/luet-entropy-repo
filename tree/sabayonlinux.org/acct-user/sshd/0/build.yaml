@@ -1,0 +1,9 @@
+
+steps:
+- source /etc/profile && equo up
+- ACCEPT_LICENSE=* equo i acct-user/sshd-0
+image: "sabayon/base"
+includes:
+- /var$
+- /var/empty$
+- /var/empty/.keep_acct-user_sshd-0$
