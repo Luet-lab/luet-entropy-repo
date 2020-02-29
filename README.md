@@ -1,2 +1,2 @@
 # luet-entropy-repo
-Luet repository based on entropy packages
+Luet specs repository based on entropy packages.
