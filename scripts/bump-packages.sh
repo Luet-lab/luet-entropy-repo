@@ -25,7 +25,7 @@ process_package () {
   ver_suffix=${ver_suffix/_}
 
   # Skip virtual packages
-  if [[ $cat = "virtual" || $cat == "acct-group" || $cat == "acct-user" ]] ; then
+  if [[ $cat = "virtual" ]] ; then
     echo "Package $pkg is skipped."
     return 0
   fi
@@ -84,9 +84,6 @@ includes:" > $pkgdir/build.yaml
     fi
 
     if [ "${dep_cat}" = "virtual" ] ; then
-      continue
-    fi
-    if [[ "${dep_cat}" = "virtual" || "${dep_cat}" == "acct-group" || "${dep_cat}" == "acct-user" ]] ; then
       continue
     fi
 
