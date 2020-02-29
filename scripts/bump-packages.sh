@@ -61,7 +61,7 @@ version: \"${version}${build_symbol}${ver_suffix}${version_build}\"" > $pkgdir/d
   echo "
 steps:
 - source /etc/profile && equo up
-- ACCEPT_LICENSE=* equo i gentoolkit ${pkg}
+- ACCEPT_LICENSE=* equo i ${pkg}
 image: \"sabayon/base\"
 includes:" > $pkgdir/build.yaml
 
