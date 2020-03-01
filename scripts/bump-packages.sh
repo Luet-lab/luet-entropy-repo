@@ -30,7 +30,21 @@ process_package () {
     return 0
   fi
 
-  local pkgdir="${cat}/${name}/${version}"
+  # Check if package is installed.
+  local is_installed=$(qlist -ICvq | grep --color=none $pkg | wc -l)
+  if [ "${is_installed}" = "0" ] ; then
+    ACCEPT_LICENSE=* equo i $pkg || return 1
+  fi
+
+  # Check slot
+  local slot=$(equo search $pkg | grep Slot | awk '{ print $3 }')
+
+  local luet_cat="${cat}"
+  if [ "$slot" != "0" ] ; then
+    luet_cat="${cat}-${slot}"
+  fi
+
+  local pkgdir="${luet_cat}/${name}/${version}"
 
   echo "Analyzing package $pkg with dir ${pkgdir}..."
 
@@ -46,7 +60,8 @@ process_package () {
 
   includes=$(equo q files $pkg -q)
 
-  deps=$(equery g $pkg -l -M -U --depth=3 -A | grep " \[" --color=none | awk '{ print $3 }' | sed 's/\x1B\[[0-9;]\+[A-Za-z]//g')
+  # deps=$(equery g $pkg -l -M -U --depth=3 -A | grep " \[" --color=none | awk '{ print $3 }' | sed 's/\x1B\[[0-9;]\+[A-Za-z]//g')
+  deps=$(equery g $pkg  -l --depth=2 | grep " \[" --color=none | awk '{ print $3 }'  | sed 's/\x1B\[[0-9;]\+[A-Za-z]//g')
 
   local build_symbol=""
   if [[ -n "${ver_suffix}" || -n "${ver_suffix}" ]] ; then
@@ -61,7 +76,7 @@ version: \"${version}${build_symbol}${ver_suffix}${version_build}\"" > $pkgdir/d
   echo "
 steps:
 - source /etc/profile && equo up
-- ACCEPT_LICENSE=* equo i ${pkg}
+- source /etc/profile && ACCEPT_LICENSE=* equo i ${pkg}
 image: \"sabayon/base\"
 includes:" > $pkgdir/build.yaml
 
@@ -73,11 +88,15 @@ includes:" > $pkgdir/build.yaml
   local dep_name=""
   local dep_cat=""
   local dep_version=""
+  local dep_slot=""
+  local dep_luet_cat=""
   for dep in ${deps} ; do
 
     dep_name=$(pkgs-checker pkg info $dep | grep "name:" --color=none | awk '{ print $2 }' | sed 's/\x1B\[[0-9;]\+[A-Za-z]//g')
     dep_cat=$(pkgs-checker pkg info $dep | grep "category:" --color=none | awk '{ print $2 }' | sed 's/\x1B\[[0-9;]\+[A-Za-z]//g')
     dep_version=$(pkgs-checker pkg info $dep | grep "version:" --color=none | awk '{ print $2 }' | sed 's/\x1B\[[0-9;]\+[A-Za-z]//g')
+    dep_slot=$(equo search $dep  | grep Slot | awk '{ print $3 }')
+    dep_luet_cat="${dep_cat}"
 
     if [ "${dep_cat}/${dep_name}" = "${cat}/${name}" ] ; then
       continue
@@ -87,7 +106,11 @@ includes:" > $pkgdir/build.yaml
       continue
     fi
 
-    echo "- category: \"${dep_cat}\"
+    if [ "${dep_slot}" != "0" ] ; then
+      dep_luet_cat="${dep_cat}-${dep_slot}"
+    fi
+
+    echo "- category: \"${dep_luet_cat}\"
   name: \"${dep_name}\"
   version: \">=${dep_version}\"" >> $pkgdir/definition.yaml
   done
