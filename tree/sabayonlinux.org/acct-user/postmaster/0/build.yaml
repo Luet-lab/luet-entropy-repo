@@ -1,7 +1,7 @@
 
 steps:
 - source /etc/profile && equo up
-- ACCEPT_LICENSE=* equo i acct-user/postmaster-0
+- source /etc/profile && ACCEPT_LICENSE=* equo i acct-user/postmaster-0
 image: "sabayon/base"
 includes:
 - /var$

@@ -1,6 +1,0 @@
-
-steps:
-- source /etc/profile && equo up
-- ACCEPT_LICENSE=* equo i sys-devel/clang-runtime-9.0.1
-image: "sabayon/base"
-includes:

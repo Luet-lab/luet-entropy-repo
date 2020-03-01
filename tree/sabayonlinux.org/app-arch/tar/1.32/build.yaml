@@ -1,7 +1,7 @@
 
 steps:
 - source /etc/profile && equo up
-- ACCEPT_LICENSE=* equo i app-arch/tar-1.32
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-arch/tar-1.32
 image: "sabayon/base"
 includes:
 - /bin$

@@ -1,7 +1,7 @@
 
 steps:
 - source /etc/profile && equo up
-- ACCEPT_LICENSE=* equo i x11-libs/libdrm-2.4.100
+- source /etc/profile && ACCEPT_LICENSE=* equo i x11-libs/libdrm-2.4.100
 image: "sabayon/base"
 includes:
 - /usr$

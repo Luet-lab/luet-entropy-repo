@@ -1,0 +1,30 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-lang/python-exec-2.4.6-r1
+image: "sabayon/base"
+includes:
+- /etc$
+- /etc/python-exec$
+- /etc/python-exec/python-exec.conf$
+- /usr$
+- /usr/bin$
+- /usr/bin/2to3$
+- /usr/bin/idle$
+- /usr/bin/pydoc$
+- /usr/bin/python$
+- /usr/bin/python-config$
+- /usr/bin/python-exec2c$
+- /usr/bin/python2$
+- /usr/bin/python2-config$
+- /usr/bin/python3$
+- /usr/bin/python3-config$
+- /usr/bin/pyvenv$
+- /usr/lib$
+- /usr/lib/python-exec$
+- /usr/lib/python-exec/python-exec2$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/python-exec-2.4.6-r1$
+- /usr/share/doc/python-exec-2.4.6-r1/NEWS.bz2$
+- /usr/share/doc/python-exec-2.4.6-r1/README.bz2$

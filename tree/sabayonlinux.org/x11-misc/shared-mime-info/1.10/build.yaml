@@ -1,7 +1,7 @@
 
 steps:
 - source /etc/profile && equo up
-- ACCEPT_LICENSE=* equo i x11-misc/shared-mime-info-1.10-r1
+- source /etc/profile && ACCEPT_LICENSE=* equo i x11-misc/shared-mime-info-1.10-r1
 image: "sabayon/base"
 includes:
 - /usr$
