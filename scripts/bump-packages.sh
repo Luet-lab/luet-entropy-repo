@@ -41,8 +41,8 @@ process_package () {
   #local slot=$(equo search $pkg | grep Slot | awk '{ print $3 }')
   local slot=$(equery list  -F 'SLOT $slot' $pkg | grep SLOT --color=none | awk '{ print $2 }' | sed 's/\x1B\[[0-9;]\+[A-Za-z]//g')
 
-  # Slot like 0/1 -> 01
-  slot=${slot////}
+  # Ignore sub-slot for now.
+  slot=$(echo "${slot}" | sed 's:/.*::g')
   local luet_name="${name}"
   if [ "$slot" != "0" ] ; then
     luet_name="${name}-${slot}"
@@ -101,7 +101,8 @@ includes:" > $pkgdir/build.yaml
     dep_version=$(pkgs-checker pkg info $dep | grep "version:" --color=none | awk '{ print $2 }' | sed 's/\x1B\[[0-9;]\+[A-Za-z]//g')
     #dep_slot=$(equo search $dep  | grep Slot | awk '{ print $3 }')
     dep_slot=$(equery list  -F 'SLOT $slot' $dep | grep SLOT --color=none | awk '{ print $2 }' | sed 's/\x1B\[[0-9;]\+[A-Za-z]//g')
-    dep_slot=${dep_slot////}
+    # Drop sub-slot
+    del_slot=$(echo "${slot}" | sed 's:/.*::g')
     dep_luet_name="${dep_name}"
 
     if [ "${dep_cat}/${dep_name}" = "${cat}/${name}" ] ; then
