@@ -50,7 +50,7 @@ process_package () {
 
   local pkgdir="${cat}/${luet_name}/${version}"
 
-  echo "Analyzing package $pkg with dir ${pkgdir}..."
+  echo "Analyzing package $pkg ..."
 
   # Check if package is already present
   if [ -d ${pkgdir} ] ; then
@@ -59,6 +59,10 @@ process_package () {
 
     return 0
   fi
+
+  let N_PKGS++
+
+  echo "Create package $pkg ($N_PKGS) with dir ${pkgdir}..."
 
   mkdir -p ${pkgdir}
 
@@ -121,8 +125,6 @@ includes:" > $pkgdir/build.yaml
   name: \"${dep_luet_name}\"
   version: \">=${dep_version}\"" >> $pkgdir/definition.yaml
   done
-
-  let N_PKGS++
 
   return 0
 }
