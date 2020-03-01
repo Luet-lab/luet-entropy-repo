@@ -1,0 +1,10 @@
+general:
+  debug: false
+
+repositories:
+   - name: "sabayonlinux.org"
+     type: "http"
+     enable: true
+     priority: 1
+     urls:
+       - "https://dispatcher.sabayon.org/sbi/namespace/luet-entropy-repo"
