@@ -37,14 +37,18 @@ process_package () {
   fi
 
   # Check slot
-  local slot=$(equo search $pkg | grep Slot | awk '{ print $3 }')
+  # equo seems slow!
+  #local slot=$(equo search $pkg | grep Slot | awk '{ print $3 }')
+  local slot=$(equery list  -F 'SLOT $slot' $pkg | grep SLOT --color=none | awk '{ print $2 }' | sed 's/\x1B\[[0-9;]\+[A-Za-z]//g')
 
-  local luet_cat="${cat}"
+  # Slot like 0/1 -> 01
+  slot=${slot////}
+  local luet_name="${name}"
   if [ "$slot" != "0" ] ; then
-    luet_cat="${cat}-${slot}"
+    luet_name="${name}-${slot}"
   fi
 
-  local pkgdir="${luet_cat}/${name}/${version}"
+  local pkgdir="${cat}/${luet_name}/${version}"
 
   echo "Analyzing package $pkg with dir ${pkgdir}..."
 
@@ -70,7 +74,7 @@ process_package () {
 
   echo "
 category: \"${cat}\"
-name: \"${name}\"
+name: \"${luet_name}\"
 version: \"${version}${build_symbol}${ver_suffix}${version_build}\"" > $pkgdir/definition.yaml
 
   echo "
@@ -89,14 +93,16 @@ includes:" > $pkgdir/build.yaml
   local dep_cat=""
   local dep_version=""
   local dep_slot=""
-  local dep_luet_cat=""
+  local dep_luet_name=""
   for dep in ${deps} ; do
 
     dep_name=$(pkgs-checker pkg info $dep | grep "name:" --color=none | awk '{ print $2 }' | sed 's/\x1B\[[0-9;]\+[A-Za-z]//g')
     dep_cat=$(pkgs-checker pkg info $dep | grep "category:" --color=none | awk '{ print $2 }' | sed 's/\x1B\[[0-9;]\+[A-Za-z]//g')
     dep_version=$(pkgs-checker pkg info $dep | grep "version:" --color=none | awk '{ print $2 }' | sed 's/\x1B\[[0-9;]\+[A-Za-z]//g')
-    dep_slot=$(equo search $dep  | grep Slot | awk '{ print $3 }')
-    dep_luet_cat="${dep_cat}"
+    #dep_slot=$(equo search $dep  | grep Slot | awk '{ print $3 }')
+    dep_slot=$(equery list  -F 'SLOT $slot' $dep | grep SLOT --color=none | awk '{ print $2 }' | sed 's/\x1B\[[0-9;]\+[A-Za-z]//g')
+    dep_slot=${dep_slot////}
+    dep_luet_name="${dep_name}"
 
     if [ "${dep_cat}/${dep_name}" = "${cat}/${name}" ] ; then
       continue
@@ -107,11 +113,11 @@ includes:" > $pkgdir/build.yaml
     fi
 
     if [ "${dep_slot}" != "0" ] ; then
-      dep_luet_cat="${dep_cat}-${dep_slot}"
+      dep_luet_name="${dep_name}-${dep_slot}"
     fi
 
-    echo "- category: \"${dep_luet_cat}\"
-  name: \"${dep_name}\"
+    echo "- category: \"${dep_cat}\"
+  name: \"${dep_luet_name}\"
   version: \">=${dep_version}\"" >> $pkgdir/definition.yaml
   done
 
