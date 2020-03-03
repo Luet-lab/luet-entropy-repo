@@ -79,7 +79,7 @@ includes:
 - /usr/sbin/e4crypt$
 - /usr/sbin/e4defrag$
 - /usr/sbin/filefrag$
-- /usr/sbin/mklost+found$
+- /usr/sbin/mklost.*
 - /usr/share$
 - /usr/share/doc$
 - /usr/share/doc/e2fsprogs-1.45.5$
@@ -179,6 +179,6 @@ includes:
 - /usr/share/man/man8/mkfs.ext2.8.bz2$
 - /usr/share/man/man8/mkfs.ext3.8.bz2$
 - /usr/share/man/man8/mkfs.ext4.8.bz2$
-- /usr/share/man/man8/mklost+found.8.bz2$
+- /usr/share/man/man8/mklost.*
 - /usr/share/man/man8/resize2fs.8.bz2$
 - /usr/share/man/man8/tune2fs.8.bz2$
