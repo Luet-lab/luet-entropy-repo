@@ -30,6 +30,11 @@ process_package () {
     return 0
   fi
 
+  local build_symbol=""
+  if [[ -n "${ver_suffix}" || -n "${ver_suffix}" ]] ; then
+    build_symbol="+"
+  fi
+
   # Check if package is installed.
   local is_installed=$(qlist -ICvq | grep --color=none $pkg | wc -l)
   if [ "${is_installed}" = "0" ] ; then
@@ -54,10 +59,14 @@ process_package () {
 
   # Check if package is already present
   if [ -d ${pkgdir} ] ; then
-    # nothing to do
-    echo "Package $pkg is already present. Nothing to do."
 
-    return 0
+    # Check if version is different
+    local cur_version="$(cat ${pkgdir}/definition.yaml  | shyaml get-value 'version')"
+    if [ "$cur_version" = "${version}${build_symbol}${ver_suffix}${version_build}" ] ; then
+      # nothing to do
+      echo "Package $pkg is already present. Nothing to do."
+      return 0
+    fi
   fi
 
   let N_PKGS++
@@ -70,11 +79,6 @@ process_package () {
 
   # deps=$(equery g $pkg -l -M -U --depth=3 -A | grep " \[" --color=none | awk '{ print $3 }' | sed 's/\x1B\[[0-9;]\+[A-Za-z]//g')
   deps=$(equery g $pkg  -l --depth=2 | grep " \[" --color=none | awk '{ print $3 }'  | sed 's/\x1B\[[0-9;]\+[A-Za-z]//g')
-
-  local build_symbol=""
-  if [[ -n "${ver_suffix}" || -n "${ver_suffix}" ]] ; then
-    build_symbol="+"
-  fi
 
   echo "
 category: \"${cat}\"
@@ -89,6 +93,7 @@ image: \"sabayon/base\"
 includes:" > $pkgdir/build.yaml
 
   for inc in ${includes} ; do
+    # Check if include contains 
     echo "- ${inc}$" >> $pkgdir/build.yaml
   done
 
@@ -106,7 +111,7 @@ includes:" > $pkgdir/build.yaml
     #dep_slot=$(equo search $dep  | grep Slot | awk '{ print $3 }')
     dep_slot=$(equery list  -F 'SLOT $slot' $dep | grep SLOT --color=none | awk '{ print $2 }' | sed 's/\x1B\[[0-9;]\+[A-Za-z]//g')
     # Drop sub-slot
-    del_slot=$(echo "${slot}" | sed 's:/.*::g')
+    dep_slot=$(echo "${dep_slot}" | sed 's:/.*::g')
     dep_luet_name="${dep_name}"
 
     if [ "${dep_cat}/${dep_name}" = "${cat}/${name}" ] ; then
