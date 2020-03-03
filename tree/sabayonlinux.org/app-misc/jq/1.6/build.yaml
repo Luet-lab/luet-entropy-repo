@@ -1,0 +1,25 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-misc/jq-1.6-r3
+image: "sabayon/base"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/jq$
+- /usr/include$
+- /usr/include/jq.h$
+- /usr/include/jv.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libjq.so$
+- /usr/lib64/libjq.so.1$
+- /usr/lib64/libjq.so.1.0.4$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/jq-1.6-r3$
+- /usr/share/doc/jq-1.6-r3/AUTHORS.bz2$
+- /usr/share/doc/jq-1.6-r3/README.md.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/jq.1.bz2$
