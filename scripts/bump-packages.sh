@@ -8,6 +8,7 @@ REPOSITORY=${REPOSITORY:-sabayonlinux.org}
 TARGET_DIR=${TARGET_DIR:-tree/${REPOSITORY}}
 PACKAGES=${PACKAGES:-""}
 DOWNLOAD_LATEST_PKGS_CHECKER=${DOWNLOAD_LATEST_PKGS_CHECKER:-0}
+DEBUG_BUMP=${DEBUG_BUMP:-0}
 
 N_PKGS=0
 
@@ -69,6 +70,10 @@ process_package () {
     fi
   fi
 
+  # This is slow but if there aren package with deps not installed. This ensure to fetch all deps for
+  # elaborate right deps info
+
+
   let N_PKGS++
 
   echo "Create package $pkg ($N_PKGS) with dir ${pkgdir}..."
@@ -103,16 +108,23 @@ includes:" > $pkgdir/build.yaml
   local dep_version=""
   local dep_slot=""
   local dep_luet_name=""
+  local dep_in_entropy=""
+  local dep_entropy_pkgname=""
   for dep in ${deps} ; do
+
 
     dep_name=$(pkgs-checker pkg info $dep | grep "name:" --color=none | awk '{ print $2 }' | sed 's/\x1B\[[0-9;]\+[A-Za-z]//g')
     dep_cat=$(pkgs-checker pkg info $dep | grep "category:" --color=none | awk '{ print $2 }' | sed 's/\x1B\[[0-9;]\+[A-Za-z]//g')
-    dep_version=$(pkgs-checker pkg info $dep | grep "version:" --color=none | awk '{ print $2 }' | sed 's/\x1B\[[0-9;]\+[A-Za-z]//g')
+    #dep_version=$(pkgs-checker pkg info $dep | grep "version:" --color=none | awk '{ print $2 }' | sed 's/\x1B\[[0-9;]\+[A-Za-z]//g')
     #dep_slot=$(equo search $dep  | grep Slot | awk '{ print $3 }')
     dep_slot=$(equery list  -F 'SLOT $slot' $dep | grep SLOT --color=none | awk '{ print $2 }' | sed 's/\x1B\[[0-9;]\+[A-Za-z]//g')
-    # Drop sub-slot
-    dep_slot=$(echo "${dep_slot}" | sed 's:/.*::g')
-    dep_luet_name="${dep_name}"
+    if [ "${dep_slot}" == "" ] ; then
+      # Force use of slot 0. This happens because portage has an updated package not available in entropy.
+      dep_slot=0
+    else
+      # Drop sub-slot
+      dep_slot=$(echo "${dep_slot}" | sed 's:/.*::g')
+    fi
 
     if [ "${dep_cat}/${dep_name}" = "${cat}/${name}" ] ; then
       continue
@@ -122,10 +134,42 @@ includes:" > $pkgdir/build.yaml
       continue
     fi
 
+    dep_luet_name="${dep_name}"
+
+    if [ "$DEBUG_BUMP" = "1" ] ; then
+      echo "Found dep ${dep}, slot ${dep_slot} and luet name ${dep_luet_name}..."
+    fi
+
+    # Check if dep is available in entropy and use her version.
+    # head is a workaround to multi match of the equo search :'(
+    # 2>/dev/null needed for this:
+    # equo search -qv dev-libs/icu | head -n 1
+    # dev-libs/icu-65.1-r1
+    # Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='UTF-8'>
+    # BrokenPipeError: [Errno 32] Broken pipe
+    dep_in_entropy=$(equo search -qv ${dep_cat}/${dep_name}:${dep_slot} 2>/dev/null | head -n 1 | wc -l )
+    if [ $dep_in_entropy == "0" ] ; then
+      echo "Dep dep ${dep} not present in entropy. I skip dependency."
+      return 0
+    fi
+
+    dep_entropy_pkgname=$(equo search -qv ${dep_cat}/${dep_name}:${dep_slot} 2>/dev/null | head -n 1)
+    dep_version=$(pkgs-checker pkg info $dep_entropy_pkgname | grep "version:" --color=none | awk '{ print $2 }' | sed 's/\x1B\[[0-9;]\+[A-Za-z]//g')
+
+    # Check again dep_in_entropy with version to avoid wrong search match.
+    dep_in_entropy=$(equo search -qv ${dep_cat}/${dep_name}-${dep_version}:${dep_slot} 2>/dev/null | head -n 1 | wc -l )
+    if [ $dep_in_entropy == "0" ] ; then
+      echo "Dep dep ${dep} not present in entropy. I skip dependency."
+      return 0
+    fi
+
     if [ "${dep_slot}" != "0" ] ; then
       dep_luet_name="${dep_name}-${dep_slot}"
     fi
 
+    if [ "$DEBUG_BUMP" = "1" ] ; then
+      echo "Use entropy dep ${dep}, with version ${dep_version} ..."
+    fi
     echo "- category: \"${dep_cat}\"
   name: \"${dep_luet_name}\"
   version: \">=${dep_version}\"" >> $pkgdir/definition.yaml
