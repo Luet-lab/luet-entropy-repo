@@ -1,0 +1,13 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-text/build-docbook-catalog-1.21
+image: "sabayon/base"
+includes:
+- /usr$
+- /usr/sbin$
+- /usr/sbin/build-docbook-catalog$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/build-docbook-catalog-1.21$
+- /usr/share/doc/build-docbook-catalog-1.21/README.bz2$

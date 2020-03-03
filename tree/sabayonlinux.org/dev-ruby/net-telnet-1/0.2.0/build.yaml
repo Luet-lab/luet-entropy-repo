@@ -1,0 +1,28 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/net-telnet-0.2.0
+image: "sabayon/base"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/net-telnet-0.2.0$
+- /usr/lib64/ruby/gems/2.5.0/gems/net-telnet-0.2.0/bin$
+- /usr/lib64/ruby/gems/2.5.0/gems/net-telnet-0.2.0/bin/console$
+- /usr/lib64/ruby/gems/2.5.0/gems/net-telnet-0.2.0/bin/setup$
+- /usr/lib64/ruby/gems/2.5.0/gems/net-telnet-0.2.0/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/net-telnet-0.2.0/lib/net$
+- /usr/lib64/ruby/gems/2.5.0/gems/net-telnet-0.2.0/lib/net-telnet.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/net-telnet-0.2.0/lib/net/telnet$
+- /usr/lib64/ruby/gems/2.5.0/gems/net-telnet-0.2.0/lib/net/telnet.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/net-telnet-0.2.0/lib/net/telnet/version.rb$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/net-telnet-0.2.0.gemspec$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/net-telnet-0.2.0$
+- /usr/share/doc/net-telnet-0.2.0/README.md.bz2$

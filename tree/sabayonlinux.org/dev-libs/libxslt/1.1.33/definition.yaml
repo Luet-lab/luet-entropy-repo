@@ -1,0 +1,17 @@
+
+category: "dev-libs"
+name: "libxslt"
+version: "1.1.33+r1"
+requires:
+- category: "dev-libs"
+  name: "libxml2-2"
+  version: ">=2.9.9"
+- category: "sys-libs"
+  name: "zlib"
+  version: ">=1.2.11"
+- category: "dev-libs"
+  name: "icu"
+  version: ">=65.1"
+- category: "app-arch"
+  name: "xz-utils"
+  version: ">=5.2.4"

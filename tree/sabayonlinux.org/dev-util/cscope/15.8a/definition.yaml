@@ -1,0 +1,11 @@
+
+category: "dev-util"
+name: "cscope"
+version: "15.8a+r1"
+requires:
+- category: "sys-libs"
+  name: "ncurses"
+  version: ">=6.1"
+- category: "sys-libs"
+  name: "gpm"
+  version: ">=1.20.7"

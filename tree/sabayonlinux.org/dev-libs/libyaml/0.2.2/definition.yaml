@@ -1,0 +1,14 @@
+
+category: "dev-libs"
+name: "libyaml"
+version: "0.2.2"
+requires:
+- category: "app-doc"
+  name: "doxygen"
+  version: ">=1.8.15"
+- category: "sys-devel"
+  name: "flex"
+  version: ">=2.6.4"
+- category: "sys-devel"
+  name: "bison"
+  version: ">=3.1"

@@ -1,0 +1,11 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-eselect/eselect-vi-1.1.9-r1
+image: "sabayon/base"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/eselect$
+- /usr/share/eselect/modules$
+- /usr/share/eselect/modules/vi.eselect$

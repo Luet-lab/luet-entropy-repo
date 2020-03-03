@@ -1,0 +1,38 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-util/cscope-15.8a-r1
+image: "sabayon/base"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/cscope$
+- /usr/bin/ocs$
+- /usr/lib$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/cscope-15.8a-r1$
+- /usr/share/doc/cscope-15.8a-r1/AUTHORS.bz2$
+- /usr/share/doc/cscope-15.8a-r1/ChangeLog.bz2$
+- /usr/share/doc/cscope-15.8a-r1/NEWS.bz2$
+- /usr/share/doc/cscope-15.8a-r1/README.bz2$
+- /usr/share/doc/cscope-15.8a-r1/TODO.bz2$
+- /usr/share/doc/cscope-15.8a-r1/webcscope$
+- /usr/share/doc/cscope-15.8a-r1/webcscope/INSTALL.bz2$
+- /usr/share/doc/cscope-15.8a-r1/webcscope/TODO.bz2$
+- /usr/share/doc/cscope-15.8a-r1/webcscope/cgi-lib.pl.bz2$
+- /usr/share/doc/cscope-15.8a-r1/webcscope/cscope.bz2$
+- /usr/share/doc/cscope-15.8a-r1/webcscope/hilite.c.bz2$
+- /usr/share/doc/cscope-15.8a-r1/webcscope/icons$
+- /usr/share/doc/cscope-15.8a-r1/webcscope/icons/back.gif$
+- /usr/share/doc/cscope-15.8a-r1/webcscope/icons/bomb.gif$
+- /usr/share/doc/cscope-15.8a-r1/webcscope/icons/c.gif$
+- /usr/share/doc/cscope-15.8a-r1/webcscope/icons/down.gif$
+- /usr/share/doc/cscope-15.8a-r1/webcscope/icons/folder.gif$
+- /usr/share/doc/cscope-15.8a-r1/webcscope/icons/folder.open.gif$
+- /usr/share/doc/cscope-15.8a-r1/webcscope/icons/left.gif$
+- /usr/share/doc/cscope-15.8a-r1/webcscope/icons/up.gif$
+- /usr/share/doc/cscope-15.8a-r1/webcscope/icons/world2.gif$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/cscope.1.bz2$

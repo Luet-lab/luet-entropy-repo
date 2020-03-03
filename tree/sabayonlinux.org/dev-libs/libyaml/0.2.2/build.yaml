@@ -1,0 +1,20 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/libyaml-0.2.2
+image: "sabayon/base"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/yaml.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libyaml-0.so.2$
+- /usr/lib64/libyaml-0.so.2.0.6$
+- /usr/lib64/libyaml.so$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/yaml-0.1.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libyaml-0.2.2$
+- /usr/share/doc/libyaml-0.2.2/README.bz2$

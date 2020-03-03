@@ -1,0 +1,11 @@
+
+category: "dev-lang"
+name: "ruby-2.5"
+version: "2.5.7"
+requires:
+- category: "sys-libs"
+  name: "db-6.0"
+  version: ">=6.0.35"
+- category: "dev-lang"
+  name: "tcl"
+  version: ">=8.6.8"

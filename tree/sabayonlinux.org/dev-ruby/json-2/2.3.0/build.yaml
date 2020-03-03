@@ -1,0 +1,51 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/json-2.3.0
+image: "sabayon/base"
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/json-2.3.0$
+- /usr/lib64/ruby/gems/2.5.0/gems/json-2.3.0/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/json-2.3.0/lib/json$
+- /usr/lib64/ruby/gems/2.5.0/gems/json-2.3.0/lib/json.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/json-2.3.0/lib/json/add$
+- /usr/lib64/ruby/gems/2.5.0/gems/json-2.3.0/lib/json/add/bigdecimal.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/json-2.3.0/lib/json/add/complex.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/json-2.3.0/lib/json/add/core.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/json-2.3.0/lib/json/add/date.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/json-2.3.0/lib/json/add/date_time.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/json-2.3.0/lib/json/add/exception.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/json-2.3.0/lib/json/add/ostruct.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/json-2.3.0/lib/json/add/range.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/json-2.3.0/lib/json/add/rational.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/json-2.3.0/lib/json/add/regexp.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/json-2.3.0/lib/json/add/set.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/json-2.3.0/lib/json/add/struct.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/json-2.3.0/lib/json/add/symbol.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/json-2.3.0/lib/json/add/time.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/json-2.3.0/lib/json/common.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/json-2.3.0/lib/json/ext$
+- /usr/lib64/ruby/gems/2.5.0/gems/json-2.3.0/lib/json/ext.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/json-2.3.0/lib/json/ext/.keep$
+- /usr/lib64/ruby/gems/2.5.0/gems/json-2.3.0/lib/json/ext/generator.so$
+- /usr/lib64/ruby/gems/2.5.0/gems/json-2.3.0/lib/json/ext/parser.so$
+- /usr/lib64/ruby/gems/2.5.0/gems/json-2.3.0/lib/json/generic_object.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/json-2.3.0/lib/json/pure$
+- /usr/lib64/ruby/gems/2.5.0/gems/json-2.3.0/lib/json/pure.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/json-2.3.0/lib/json/pure/generator.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/json-2.3.0/lib/json/pure/parser.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/json-2.3.0/lib/json/version.rb$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/json-2.3.0.gemspec$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/json-2.3.0$
+- /usr/share/doc/json-2.3.0/CHANGES.md.bz2$
+- /usr/share/doc/json-2.3.0/README.md.bz2$

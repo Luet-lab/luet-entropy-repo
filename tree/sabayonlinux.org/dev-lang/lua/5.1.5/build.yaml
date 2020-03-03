@@ -1,0 +1,58 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-lang/lua-5.1.5-r4
+image: "sabayon/base"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/lua$
+- /usr/bin/luac$
+- /usr/include$
+- /usr/include/i686-pc-linux-gnu$
+- /usr/include/i686-pc-linux-gnu/luaconf.h$
+- /usr/include/lauxlib.h$
+- /usr/include/lua.h$
+- /usr/include/lua.hpp$
+- /usr/include/luaconf.h$
+- /usr/include/lualib.h$
+- /usr/include/x86_64-pc-linux-gnu$
+- /usr/include/x86_64-pc-linux-gnu/luaconf.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/liblua.a$
+- /usr/lib32/liblua.la$
+- /usr/lib32/liblua.so$
+- /usr/lib32/liblua.so.5$
+- /usr/lib32/liblua.so.5.1.5$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/lua.pc$
+- /usr/lib64$
+- /usr/lib64/liblua.a$
+- /usr/lib64/liblua.la$
+- /usr/lib64/liblua.so$
+- /usr/lib64/liblua.so.5$
+- /usr/lib64/liblua.so.5.1.5$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/lua.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/lua-5.1.5-r4$
+- /usr/share/doc/lua-5.1.5-r4/HISTORY.bz2$
+- /usr/share/doc/lua-5.1.5-r4/README.bz2$
+- /usr/share/doc/lua-5.1.5-r4/html$
+- /usr/share/doc/lua-5.1.5-r4/html/contents.html$
+- /usr/share/doc/lua-5.1.5-r4/html/cover.png$
+- /usr/share/doc/lua-5.1.5-r4/html/logo.gif$
+- /usr/share/doc/lua-5.1.5-r4/html/lua.css$
+- /usr/share/doc/lua-5.1.5-r4/html/lua.html$
+- /usr/share/doc/lua-5.1.5-r4/html/luac.html$
+- /usr/share/doc/lua-5.1.5-r4/html/manual.css$
+- /usr/share/doc/lua-5.1.5-r4/html/manual.html$
+- /usr/share/doc/lua-5.1.5-r4/html/readme.html$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/lua.1.bz2$
+- /usr/share/man/man1/luac.1.bz2$
+- /usr/share/pixmaps$
+- /usr/share/pixmaps/lua.ico$

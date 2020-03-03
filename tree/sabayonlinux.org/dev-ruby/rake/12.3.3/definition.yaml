@@ -1,0 +1,11 @@
+
+category: "dev-ruby"
+name: "rake"
+version: "12.3.3"
+requires:
+- category: "app-arch"
+  name: "gzip"
+  version: ">=1.9"
+- category: "dev-ruby"
+  name: "minitest-5"
+  version: ">=5.14.0"
