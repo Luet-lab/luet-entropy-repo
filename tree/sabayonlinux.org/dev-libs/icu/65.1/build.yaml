@@ -1,7 +1,7 @@
 
 steps:
 - source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/icu-65.1
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/icu-65.1-r1
 image: "sabayon/base"
 includes:
 - /usr$
@@ -278,9 +278,9 @@ includes:
 - /usr/sbin/icupkg$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/icu-65.1$
-- /usr/share/doc/icu-65.1/html$
-- /usr/share/doc/icu-65.1/html/readme.html$
+- /usr/share/doc/icu-65.1-r1$
+- /usr/share/doc/icu-65.1-r1/html$
+- /usr/share/doc/icu-65.1-r1/html/readme.html$
 - /usr/share/icu$
 - /usr/share/icu/65.1$
 - /usr/share/icu/65.1/LICENSE$

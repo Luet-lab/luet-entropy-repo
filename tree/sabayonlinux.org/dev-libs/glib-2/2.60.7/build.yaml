@@ -1,7 +1,7 @@
 
 steps:
 - source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/glib-2.60.7-r1
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/glib-2.60.7-r2
 image: "sabayon/base"
 includes:
 - /usr$
@@ -382,13 +382,13 @@ includes:
 - /usr/share/bash-completion/completions/gresource$
 - /usr/share/bash-completion/completions/gsettings$
 - /usr/share/doc$
-- /usr/share/doc/glib-2.60.7-r1$
-- /usr/share/doc/glib-2.60.7-r1/AUTHORS.bz2$
-- /usr/share/doc/glib-2.60.7-r1/NEWS.bz2$
-- /usr/share/doc/glib-2.60.7-r1/README$
-- /usr/share/doc/glib-2.60.7-r1/README.md.bz2$
-- /usr/share/doc/glib-2.60.7-r1/README.rationale.bz2$
-- /usr/share/doc/glib-2.60.7-r1/README.win32.bz2$
+- /usr/share/doc/glib-2.60.7-r2$
+- /usr/share/doc/glib-2.60.7-r2/AUTHORS.bz2$
+- /usr/share/doc/glib-2.60.7-r2/NEWS.bz2$
+- /usr/share/doc/glib-2.60.7-r2/README$
+- /usr/share/doc/glib-2.60.7-r2/README.md.bz2$
+- /usr/share/doc/glib-2.60.7-r2/README.rationale.bz2$
+- /usr/share/doc/glib-2.60.7-r2/README.win32.bz2$
 - /usr/share/gdb$
 - /usr/share/gdb/auto-load$
 - /usr/share/gdb/auto-load/usr$
