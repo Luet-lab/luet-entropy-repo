@@ -9,8 +9,8 @@ TARGET_DIR=${TARGET_DIR:-tree/${REPOSITORY}}
 PACKAGES=${PACKAGES:-""}
 DOWNLOAD_LATEST_PKGS_CHECKER=${DOWNLOAD_LATEST_PKGS_CHECKER:-0}
 DEBUG_BUMP=${DEBUG_BUMP:-0}
-
-N_PKGS=0
+PARALLEL_ENABLE=${PARALLEL_ENABLE:-0}
+PARALLEL_JOBS=${PARALLEL_JOBS:-40}
 
 process_package () {
   local pkg=$1
@@ -45,7 +45,7 @@ process_package () {
   # Check slot
   # equo seems slow!
   #local slot=$(equo search $pkg | grep Slot | awk '{ print $3 }')
-  local slot=$(equery list  -F 'SLOT $slot' $pkg | grep SLOT --color=none | awk '{ print $2 }' | sed 's/\x1B\[[0-9;]\+[A-Za-z]//g')
+  local slot=$(equery list  -F 'SLOT $slot' $pkg 2>/dev/null | grep SLOT --color=none 2>/dev/null | awk '{ print $2 }' | sed 's/\x1B\[[0-9;]\+[A-Za-z]//g')
 
   # Ignore sub-slot for now.
   slot=$(echo "${slot}" | sed 's:/.*::g')
@@ -73,28 +73,30 @@ process_package () {
   # This is slow but if there aren package with deps not installed. This ensure to fetch all deps for
   # elaborate right deps info
 
-
-  let N_PKGS++
-
-  echo "Create package $pkg ($N_PKGS) with dir ${pkgdir}..."
+  echo "Create package $pkg with dir ${pkgdir}..."
 
   mkdir -p ${pkgdir}
 
   includes=$(equo q files $pkg -q)
 
   # deps=$(equery g $pkg -l -M -U --depth=3 -A | grep " \[" --color=none | awk '{ print $3 }' | sed 's/\x1B\[[0-9;]\+[A-Za-z]//g')
-  deps=$(equery g $pkg  -l --depth=2 | grep " \[" --color=none | awk '{ print $3 }'  | sed 's/\x1B\[[0-9;]\+[A-Za-z]//g')
+  deps=$(equery g $pkg  -l --depth=2 2>/dev/null | grep " \[" --color=none | awk '{ print $3 }'  | sed 's/\x1B\[[0-9;]\+[A-Za-z]//g')
 
   echo "
 category: \"${cat}\"
 name: \"${luet_name}\"
 version: \"${version}${build_symbol}${ver_suffix}${version_build}\"" > $pkgdir/definition.yaml
 
+  # we need unpack: tree because also if package is reinstalled container has same files.
   echo "
 steps:
 - source /etc/profile && equo up
 - source /etc/profile && ACCEPT_LICENSE=* equo i ${pkg}
-image: \"sabayon/base\"
+unpack: true
+requires:
+  category: \"layer\"
+  name: \"sabayon-base\"
+  version: \"9999\" >> $pkgdir/definition.yaml
 includes:" > $pkgdir/build.yaml
 
   for inc in ${includes} ; do
@@ -117,7 +119,7 @@ includes:" > $pkgdir/build.yaml
     dep_cat=$(pkgs-checker pkg info $dep | grep "category:" --color=none | awk '{ print $2 }' | sed 's/\x1B\[[0-9;]\+[A-Za-z]//g')
     #dep_version=$(pkgs-checker pkg info $dep | grep "version:" --color=none | awk '{ print $2 }' | sed 's/\x1B\[[0-9;]\+[A-Za-z]//g')
     #dep_slot=$(equo search $dep  | grep Slot | awk '{ print $3 }')
-    dep_slot=$(equery list  -F 'SLOT $slot' $dep | grep SLOT --color=none | awk '{ print $2 }' | sed 's/\x1B\[[0-9;]\+[A-Za-z]//g')
+    dep_slot=$(equery list  -F 'SLOT $slot' $dep 2>/dev/null | grep SLOT --color=none | awk '{ print $2 }' | sed 's/\x1B\[[0-9;]\+[A-Za-z]//g')
     if [ "${dep_slot}" == "" ] ; then
       # Force use of slot 0. This happens because portage has an updated package not available in entropy.
       dep_slot=0
@@ -148,7 +150,7 @@ includes:" > $pkgdir/build.yaml
     # Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='UTF-8'>
     # BrokenPipeError: [Errno 32] Broken pipe
     dep_in_entropy=$(equo search -qv ${dep_cat}/${dep_name}:${dep_slot} 2>/dev/null | head -n 1 | wc -l )
-    if [ $dep_in_entropy == "0" ] ; then
+    if [ $dep_in_entropy == "1" ] ; then
       echo "Dep dep ${dep} not present in entropy. I skip dependency."
       return 0
     fi
@@ -163,6 +165,11 @@ includes:" > $pkgdir/build.yaml
       return 0
     fi
 
+    is_installed=$(qlist -ICvq | grep --color=none ${dep_cat}/${dep_name} | wc -l)
+    if [ "${is_installed}" = "0" ] ; then
+      ACCEPT_LICENSE=* equo i ${dep_cat}/${dep_name} || return 1
+    fi
+
     if [ "${dep_slot}" != "0" ] ; then
       dep_luet_name="${dep_name}-${dep_slot}"
     fi
@@ -175,6 +182,8 @@ includes:" > $pkgdir/build.yaml
   version: \">=${dep_version}\"" >> $pkgdir/definition.yaml
   done
 
+  echo "1" > ${COUNTERDIR}/${cat}-${name}-${version}
+
   return 0
 }
 
@@ -185,11 +194,26 @@ process_packages () {
     PACKAGES=$(equo q list installed ${REPOSITORY} -q -v)
   fi
 
-  for p in ${PACKAGES} ; do
-    process_package $p
-  done
+  COUNTERDIR=$(mktemp -d)
+
+  if [ "$PARALLEL_ENABLE" = "1" ] ; then
+    export COUNTERDIR
+    export DEBUG_BUMP
+    export -f process_package
+    parallel -j ${PARALLEL_JOBS} --will-cite -k process_package ::: ${PACKAGES}
+  else
+    for p in ${PACKAGES} ; do
+      process_package $p &
+    done
+
+    wait
+  fi
+
+  local N_PKGS=$(ls -l ${COUNTERDIR} | wc -l)
 
   echo "Added ${N_PKGS} packages!"
+
+  rm -rf ${COUNTERDIR}
 
   return 0
 }
