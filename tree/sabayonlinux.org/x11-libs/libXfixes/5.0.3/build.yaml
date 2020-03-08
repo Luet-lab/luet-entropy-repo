@@ -4,7 +4,7 @@ steps:
 - source /etc/profile && ACCEPT_LICENSE=* equo i x11-libs/libXfixes-5.0.3-r1
 unpack: true
 requires:
-  category: "layer"
+- category: "layer"
   name: "sabayon-base"
   version: "9999"
 includes:

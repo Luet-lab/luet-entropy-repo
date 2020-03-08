@@ -4,7 +4,7 @@ steps:
 - source /etc/profile && ACCEPT_LICENSE=* equo i sys-auth/rtkit-0.11-r3
 unpack: true
 requires:
-  category: "layer"
+- category: "layer"
   name: "sabayon-base"
   version: "9999"
 includes:

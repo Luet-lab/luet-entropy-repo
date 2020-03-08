@@ -4,7 +4,7 @@ steps:
 - source /etc/profile && ACCEPT_LICENSE=* equo i dev-lang/vala-0.44.11
 unpack: true
 requires:
-  category: "layer"
+- category: "layer"
   name: "sabayon-base"
   version: "9999"
 includes:

@@ -4,7 +4,7 @@ steps:
 - source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/pathlib2-2.3.2
 unpack: true
 requires:
-  category: "layer"
+- category: "layer"
   name: "sabayon-base"
   version: "9999"
 includes:

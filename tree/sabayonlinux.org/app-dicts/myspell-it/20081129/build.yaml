@@ -4,7 +4,7 @@ steps:
 - source /etc/profile && ACCEPT_LICENSE=* equo i app-dicts/myspell-it-20081129-r1
 unpack: true
 requires:
-  category: "layer"
+- category: "layer"
   name: "sabayon-base"
   version: "9999"
 includes:
