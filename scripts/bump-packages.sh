@@ -151,7 +151,7 @@ includes:" > $pkgdir/build.yaml
     # Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='UTF-8'>
     # BrokenPipeError: [Errno 32] Broken pipe
     dep_in_entropy=$(equo search -qv ${dep_cat}/${dep_name}:${dep_slot} 2>/dev/null | head -n 1 | wc -l )
-    if [ $dep_in_entropy == "1" ] ; then
+    if [ $dep_in_entropy == "0" ] ; then
       echo "Dep dep ${dep} not present in entropy. I skip dependency."
       continue
     fi
