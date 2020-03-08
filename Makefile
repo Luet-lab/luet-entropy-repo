@@ -10,7 +10,7 @@ TARGET?=targets
 COMPRESSION?=gzip
 CLEAN?=true
 TREE?=tree
-BUILD_ARGS?=--pull --image-repository sabayonarm/luetcache --nodeps
+BUILD_ARGS?=--pull --image-repository sabayonarm/luetcache
 SUDO?=
 
 .PHONY: all
