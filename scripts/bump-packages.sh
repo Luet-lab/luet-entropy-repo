@@ -11,6 +11,7 @@ DOWNLOAD_LATEST_PKGS_CHECKER=${DOWNLOAD_LATEST_PKGS_CHECKER:-0}
 DEBUG_BUMP=${DEBUG_BUMP:-0}
 PARALLEL_ENABLE=${PARALLEL_ENABLE:-0}
 PARALLEL_JOBS=${PARALLEL_JOBS:-40}
+BACKGROUND_MODE=${BACKGROUND_MODE:-0}
 
 process_package () {
   local pkg=$1
@@ -104,7 +105,6 @@ includes:" > $pkgdir/build.yaml
     echo "- ${inc}$" >> $pkgdir/build.yaml
   done
 
-  echo "requires:" >> $pkgdir/definition.yaml
   local dep_name=""
   local dep_cat=""
   local dep_version=""
@@ -112,6 +112,7 @@ includes:" > $pkgdir/build.yaml
   local dep_luet_name=""
   local dep_in_entropy=""
   local dep_entropy_pkgname=""
+  local dep_num=0
   for dep in ${deps} ; do
 
 
@@ -152,7 +153,7 @@ includes:" > $pkgdir/build.yaml
     dep_in_entropy=$(equo search -qv ${dep_cat}/${dep_name}:${dep_slot} 2>/dev/null | head -n 1 | wc -l )
     if [ $dep_in_entropy == "1" ] ; then
       echo "Dep dep ${dep} not present in entropy. I skip dependency."
-      return 0
+      continue
     fi
 
     dep_entropy_pkgname=$(equo search -qv ${dep_cat}/${dep_name}:${dep_slot} 2>/dev/null | head -n 1)
@@ -162,7 +163,7 @@ includes:" > $pkgdir/build.yaml
     dep_in_entropy=$(equo search -qv ${dep_cat}/${dep_name}-${dep_version}:${dep_slot} 2>/dev/null | head -n 1 | wc -l )
     if [ $dep_in_entropy == "0" ] ; then
       echo "Dep dep ${dep} not present in entropy. I skip dependency."
-      return 0
+      continue
     fi
 
     is_installed=$(qlist -ICvq | grep --color=none ${dep_cat}/${dep_name} | wc -l)
@@ -172,6 +173,11 @@ includes:" > $pkgdir/build.yaml
 
     if [ "${dep_slot}" != "0" ] ; then
       dep_luet_name="${dep_name}-${dep_slot}"
+    fi
+
+    if [ $dep_num -eq 0 ] ; then
+      echo "requires:" >> $pkgdir/definition.yaml
+      let dep_num++
     fi
 
     if [ "$DEBUG_BUMP" = "1" ] ; then
@@ -203,7 +209,11 @@ process_packages () {
     parallel -j ${PARALLEL_JOBS} --will-cite -k process_package ::: ${PACKAGES}
   else
     for p in ${PACKAGES} ; do
-      process_package $p &
+      if [ $BACKGROUND_MODE = "1" ] ; then
+        process_package $p &
+      else
+        process_package $p
+      fi
     done
 
     wait
