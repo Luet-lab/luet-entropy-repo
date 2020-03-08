@@ -1,0 +1,29 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-perl/Role-Tiny-2.0.6
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/perl5$
+- /usr/lib64/perl5/vendor_perl$
+- /usr/lib64/perl5/vendor_perl/5.28.2$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Role$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Role/Tiny$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Role/Tiny.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Role/Tiny/With.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/Role$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/Role/Tiny$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/Role/Tiny/.packlist$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/Role-Tiny-2.0.6$
+- /usr/share/doc/Role-Tiny-2.0.6/Changes.bz2$
+- /usr/share/doc/Role-Tiny-2.0.6/README.bz2$

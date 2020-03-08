@@ -1,0 +1,17 @@
+
+category: "app-text"
+name: "docbook-sgml-dtd-4.0"
+version: "4.0+r3"
+requires:
+- category: "app-arch"
+  name: "unzip"
+  version: ">=6.0"
+- category: "app-arch"
+  name: "bzip2"
+  version: ">=1.0.6"
+- category: "dev-libs"
+  name: "libnatspec"
+  version: ">=0.3.0"
+- category: "app-text"
+  name: "sgml-common"
+  version: ">=0.6.3"

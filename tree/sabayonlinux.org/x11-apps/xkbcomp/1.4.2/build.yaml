@@ -1,0 +1,25 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i x11-apps/xkbcomp-1.4.2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/xkbcomp$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/xkbcomp.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/xkbcomp-1.4.2$
+- /usr/share/doc/xkbcomp-1.4.2/ChangeLog.bz2$
+- /usr/share/doc/xkbcomp-1.4.2/README.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/xkbcomp.1.bz2$

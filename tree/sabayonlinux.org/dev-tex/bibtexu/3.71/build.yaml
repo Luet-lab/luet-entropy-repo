@@ -1,0 +1,56 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-tex/bibtexu-3.71_p20190410
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/bibtex8$
+- /usr/bin/bibtexu$
+- /usr/lib$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/bibtexu-3.71_p20190410$
+- /usr/share/doc/bibtexu-3.71_p20190410/00readme.txt.bz2$
+- /usr/share/doc/bibtexu-3.71_p20190410/ChangeLog.bz2$
+- /usr/share/doc/bibtexu-3.71_p20190410/HISTORY.bz2$
+- /usr/share/doc/bibtexu-3.71_p20190410/csfile.txt.bz2$
+- /usr/share/doc/bibtexu-3.71_p20190410/file_id.diz.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/bibtex8.1.bz2$
+- /usr/share/man/man1/bibtexu.1.bz2$
+- /usr/share/texmf-dist$
+- /usr/share/texmf-dist/bibtex$
+- /usr/share/texmf-dist/bibtex/csf$
+- /usr/share/texmf-dist/bibtex/csf/base$
+- /usr/share/texmf-dist/bibtex/csf/base/88591lat.csf$
+- /usr/share/texmf-dist/bibtex/csf/base/88591sca.csf$
+- /usr/share/texmf-dist/bibtex/csf/base/README.TEXLIVE$
+- /usr/share/texmf-dist/bibtex/csf/base/ascii.csf$
+- /usr/share/texmf-dist/bibtex/csf/base/cp437lat.csf$
+- /usr/share/texmf-dist/bibtex/csf/base/cp850lat.csf$
+- /usr/share/texmf-dist/bibtex/csf/base/cp850sca.csf$
+- /usr/share/texmf-dist/bibtex/csf/base/cp866rus.csf$
+- /usr/share/texmf-dist/bibtex/csf/base/csfile.txt$
+- /usr/share/texmf-dist/bibtex/csf/polish-csf$
+- /usr/share/texmf-dist/bibtex/csf/polish-csf/88592pl.csf$
+- /usr/share/texmf-dist/bibtex/csf/polish-csf/cp1250pl.csf$
+- /usr/share/texmf-dist/bibtex/csf/polish-csf/cp852pl.csf$
+- /usr/share/texmf-dist/bibtex/csf/polish-csf/iso8859-7.csf$
+- /usr/share/texmf-dist/bibtexu$
+- /usr/share/texmf-dist/bibtexu/csf$
+- /usr/share/texmf-dist/bibtexu/csf/base$
+- /usr/share/texmf-dist/bibtexu/csf/base/88591lat.csf$
+- /usr/share/texmf-dist/bibtexu/csf/base/88591sca.csf$
+- /usr/share/texmf-dist/bibtexu/csf/base/ascii.csf$
+- /usr/share/texmf-dist/bibtexu/csf/base/cp437lat.csf$
+- /usr/share/texmf-dist/bibtexu/csf/base/cp850lat.csf$
+- /usr/share/texmf-dist/bibtexu/csf/base/cp850sca.csf$
+- /usr/share/texmf-dist/bibtexu/csf/base/cp866rus.csf$
+- /usr/share/texmf-dist/bibtexu/csf/base/csfile.txt$

@@ -1,0 +1,79 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/service_identity-17.0.0-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/python2.7$
+- /usr/lib64/python2.7/site-packages$
+- /usr/lib64/python2.7/site-packages/service_identity$
+- /usr/lib64/python2.7/site-packages/service_identity-17.0.0-py2.7.egg-info$
+- /usr/lib64/python2.7/site-packages/service_identity-17.0.0-py2.7.egg-info/PKG-INFO$
+- /usr/lib64/python2.7/site-packages/service_identity-17.0.0-py2.7.egg-info/SOURCES.txt$
+- /usr/lib64/python2.7/site-packages/service_identity-17.0.0-py2.7.egg-info/dependency_links.txt$
+- /usr/lib64/python2.7/site-packages/service_identity-17.0.0-py2.7.egg-info/not-zip-safe$
+- /usr/lib64/python2.7/site-packages/service_identity-17.0.0-py2.7.egg-info/requires.txt$
+- /usr/lib64/python2.7/site-packages/service_identity-17.0.0-py2.7.egg-info/top_level.txt$
+- /usr/lib64/python2.7/site-packages/service_identity/__init__.py$
+- /usr/lib64/python2.7/site-packages/service_identity/__init__.pyc$
+- /usr/lib64/python2.7/site-packages/service_identity/__init__.pyo$
+- /usr/lib64/python2.7/site-packages/service_identity/_common.py$
+- /usr/lib64/python2.7/site-packages/service_identity/_common.pyc$
+- /usr/lib64/python2.7/site-packages/service_identity/_common.pyo$
+- /usr/lib64/python2.7/site-packages/service_identity/_compat.py$
+- /usr/lib64/python2.7/site-packages/service_identity/_compat.pyc$
+- /usr/lib64/python2.7/site-packages/service_identity/_compat.pyo$
+- /usr/lib64/python2.7/site-packages/service_identity/cryptography.py$
+- /usr/lib64/python2.7/site-packages/service_identity/cryptography.pyc$
+- /usr/lib64/python2.7/site-packages/service_identity/cryptography.pyo$
+- /usr/lib64/python2.7/site-packages/service_identity/exceptions.py$
+- /usr/lib64/python2.7/site-packages/service_identity/exceptions.pyc$
+- /usr/lib64/python2.7/site-packages/service_identity/exceptions.pyo$
+- /usr/lib64/python2.7/site-packages/service_identity/pyopenssl.py$
+- /usr/lib64/python2.7/site-packages/service_identity/pyopenssl.pyc$
+- /usr/lib64/python2.7/site-packages/service_identity/pyopenssl.pyo$
+- /usr/lib64/python3.6$
+- /usr/lib64/python3.6/site-packages$
+- /usr/lib64/python3.6/site-packages/service_identity$
+- /usr/lib64/python3.6/site-packages/service_identity-17.0.0-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/service_identity-17.0.0-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/service_identity-17.0.0-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/service_identity-17.0.0-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/service_identity-17.0.0-py3.6.egg-info/not-zip-safe$
+- /usr/lib64/python3.6/site-packages/service_identity-17.0.0-py3.6.egg-info/requires.txt$
+- /usr/lib64/python3.6/site-packages/service_identity-17.0.0-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/service_identity/__init__.py$
+- /usr/lib64/python3.6/site-packages/service_identity/__pycache__$
+- /usr/lib64/python3.6/site-packages/service_identity/__pycache__/__init__.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/service_identity/__pycache__/__init__.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/service_identity/__pycache__/__init__.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/service_identity/__pycache__/_common.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/service_identity/__pycache__/_common.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/service_identity/__pycache__/_common.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/service_identity/__pycache__/_compat.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/service_identity/__pycache__/_compat.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/service_identity/__pycache__/_compat.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/service_identity/__pycache__/cryptography.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/service_identity/__pycache__/cryptography.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/service_identity/__pycache__/cryptography.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/service_identity/__pycache__/exceptions.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/service_identity/__pycache__/exceptions.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/service_identity/__pycache__/exceptions.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/service_identity/__pycache__/pyopenssl.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/service_identity/__pycache__/pyopenssl.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/service_identity/__pycache__/pyopenssl.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/service_identity/_common.py$
+- /usr/lib64/python3.6/site-packages/service_identity/_compat.py$
+- /usr/lib64/python3.6/site-packages/service_identity/cryptography.py$
+- /usr/lib64/python3.6/site-packages/service_identity/exceptions.py$
+- /usr/lib64/python3.6/site-packages/service_identity/pyopenssl.py$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/service_identity-17.0.0-r1$
+- /usr/share/doc/service_identity-17.0.0-r1/README.rst.bz2$

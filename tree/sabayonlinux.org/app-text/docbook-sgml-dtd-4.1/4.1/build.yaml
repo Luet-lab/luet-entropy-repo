@@ -1,0 +1,30 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-text/docbook-sgml-dtd-4.1-r3
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/docbook-sgml-dtd-4.1-r3$
+- /usr/share/doc/docbook-sgml-dtd-4.1-r3/40chg.txt.bz2$
+- /usr/share/doc/docbook-sgml-dtd-4.1-r3/41chg.txt.bz2$
+- /usr/share/doc/docbook-sgml-dtd-4.1-r3/50issues.txt.bz2$
+- /usr/share/doc/docbook-sgml-dtd-4.1-r3/readme.txt.bz2$
+- /usr/share/sgml$
+- /usr/share/sgml/docbook$
+- /usr/share/sgml/docbook/sgml-dtd-4.1$
+- /usr/share/sgml/docbook/sgml-dtd-4.1/cals-tbl.dtd$
+- /usr/share/sgml/docbook/sgml-dtd-4.1/catalog$
+- /usr/share/sgml/docbook/sgml-dtd-4.1/dbcent.mod$
+- /usr/share/sgml/docbook/sgml-dtd-4.1/dbgenent.mod$
+- /usr/share/sgml/docbook/sgml-dtd-4.1/dbhier.mod$
+- /usr/share/sgml/docbook/sgml-dtd-4.1/dbnotn.mod$
+- /usr/share/sgml/docbook/sgml-dtd-4.1/dbpool.mod$
+- /usr/share/sgml/docbook/sgml-dtd-4.1/docbook.dcl$
+- /usr/share/sgml/docbook/sgml-dtd-4.1/docbook.dtd$

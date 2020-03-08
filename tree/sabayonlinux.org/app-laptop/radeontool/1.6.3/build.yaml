@@ -1,0 +1,16 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-laptop/radeontool-1.6.3
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/avivotool$
+- /usr/bin/radeonreg$
+- /usr/bin/radeontool$
+- /usr/lib$

@@ -1,0 +1,55 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/tempora-1.14.1-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/calc-prorate$
+- /usr/lib$
+- /usr/lib/python-exec$
+- /usr/lib/python-exec/python3.6$
+- /usr/lib/python-exec/python3.6/calc-prorate$
+- /usr/lib64$
+- /usr/lib64/python3.6$
+- /usr/lib64/python3.6/site-packages$
+- /usr/lib64/python3.6/site-packages/tempora$
+- /usr/lib64/python3.6/site-packages/tempora-1.14.1-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/tempora-1.14.1-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/tempora-1.14.1-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/tempora-1.14.1-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/tempora-1.14.1-py3.6.egg-info/entry_points.txt$
+- /usr/lib64/python3.6/site-packages/tempora-1.14.1-py3.6.egg-info/requires.txt$
+- /usr/lib64/python3.6/site-packages/tempora-1.14.1-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/tempora/__init__.py$
+- /usr/lib64/python3.6/site-packages/tempora/__pycache__$
+- /usr/lib64/python3.6/site-packages/tempora/__pycache__/__init__.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/tempora/__pycache__/__init__.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/tempora/__pycache__/__init__.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/tempora/__pycache__/schedule.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/tempora/__pycache__/schedule.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/tempora/__pycache__/schedule.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/tempora/__pycache__/timing.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/tempora/__pycache__/timing.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/tempora/__pycache__/timing.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/tempora/__pycache__/utc.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/tempora/__pycache__/utc.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/tempora/__pycache__/utc.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/tempora/schedule.py$
+- /usr/lib64/python3.6/site-packages/tempora/tests$
+- /usr/lib64/python3.6/site-packages/tempora/tests/__pycache__$
+- /usr/lib64/python3.6/site-packages/tempora/tests/__pycache__/test_schedule.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/tempora/tests/__pycache__/test_schedule.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/tempora/tests/__pycache__/test_schedule.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/tempora/tests/test_schedule.py$
+- /usr/lib64/python3.6/site-packages/tempora/timing.py$
+- /usr/lib64/python3.6/site-packages/tempora/utc.py$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/tempora-1.14.1-r1$
+- /usr/share/doc/tempora-1.14.1-r1/README.rst.bz2$

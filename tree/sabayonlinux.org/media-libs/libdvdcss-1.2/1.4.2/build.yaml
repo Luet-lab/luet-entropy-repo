@@ -1,0 +1,36 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/libdvdcss-1.4.2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/dvdcss$
+- /usr/include/dvdcss/dvdcss.h$
+- /usr/include/dvdcss/version.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libdvdcss.so$
+- /usr/lib32/libdvdcss.so.2$
+- /usr/lib32/libdvdcss.so.2.2.0$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/libdvdcss.pc$
+- /usr/lib64$
+- /usr/lib64/libdvdcss.so$
+- /usr/lib64/libdvdcss.so.2$
+- /usr/lib64/libdvdcss.so.2.2.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libdvdcss.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libdvdcss-1.4.2$
+- /usr/share/doc/libdvdcss-1.4.2/AUTHORS.bz2$
+- /usr/share/doc/libdvdcss-1.4.2/COPYING.bz2$
+- /usr/share/doc/libdvdcss-1.4.2/ChangeLog.bz2$
+- /usr/share/doc/libdvdcss-1.4.2/NEWS.bz2$
+- /usr/share/doc/libdvdcss-1.4.2/README.bz2$

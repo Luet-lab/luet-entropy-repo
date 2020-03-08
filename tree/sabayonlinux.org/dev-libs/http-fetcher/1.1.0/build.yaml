@@ -1,0 +1,49 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/http-fetcher-1.1.0-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/http_error_codes.h$
+- /usr/include/http_fetcher.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libhttp_fetcher.a$
+- /usr/lib64/libhttp_fetcher.la$
+- /usr/lib64/libhttp_fetcher.so$
+- /usr/lib64/libhttp_fetcher.so.1$
+- /usr/lib64/libhttp_fetcher.so.1.1.0$
+- /usr/share$
+- /usr/share/aclocal$
+- /usr/share/aclocal/http-fetcher.m4$
+- /usr/share/doc$
+- /usr/share/doc/http-fetcher-1.1.0-r1$
+- /usr/share/doc/http-fetcher-1.1.0-r1/CREDITS.bz2$
+- /usr/share/doc/http-fetcher-1.1.0-r1/ChangeLog.bz2$
+- /usr/share/doc/http-fetcher-1.1.0-r1/INSTALL.bz2$
+- /usr/share/doc/http-fetcher-1.1.0-r1/README.bz2$
+- /usr/share/doc/http-fetcher-1.1.0-r1/http_fetch.html$
+- /usr/share/doc/http-fetcher-1.1.0-r1/http_parseFilename.html$
+- /usr/share/doc/http-fetcher-1.1.0-r1/http_perror.html$
+- /usr/share/doc/http-fetcher-1.1.0-r1/http_setRedirects.html$
+- /usr/share/doc/http-fetcher-1.1.0-r1/http_setReferer.html$
+- /usr/share/doc/http-fetcher-1.1.0-r1/http_setTimeout.html$
+- /usr/share/doc/http-fetcher-1.1.0-r1/http_setUserAgent.html$
+- /usr/share/doc/http-fetcher-1.1.0-r1/http_strerror.html$
+- /usr/share/doc/http-fetcher-1.1.0-r1/index.html$
+- /usr/share/man$
+- /usr/share/man/man3$
+- /usr/share/man/man3/http_fetch.3.bz2$
+- /usr/share/man/man3/http_parseFilename.3.bz2$
+- /usr/share/man/man3/http_perror.3.bz2$
+- /usr/share/man/man3/http_setRedirects.3.bz2$
+- /usr/share/man/man3/http_setReferer.3.bz2$
+- /usr/share/man/man3/http_setTimeout.3.bz2$
+- /usr/share/man/man3/http_setUserAgent.3.bz2$
+- /usr/share/man/man3/http_strerror.3.bz2$

@@ -1,0 +1,38 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-shells/gentoo-bashcomp-20190211
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /etc$
+- /etc/bash_completion.d$
+- /etc/bash_completion.d/gentoo-style-init$
+- /usr$
+- /usr/share$
+- /usr/share/bash-completion$
+- /usr/share/bash-completion/completions$
+- /usr/share/bash-completion/completions/browser-config$
+- /usr/share/bash-completion/completions/distcc-config$
+- /usr/share/bash-completion/completions/ebuild$
+- /usr/share/bash-completion/completions/ekeyword$
+- /usr/share/bash-completion/completions/emerge$
+- /usr/share/bash-completion/completions/epkginfo$
+- /usr/share/bash-completion/completions/epm$
+- /usr/share/bash-completion/completions/equery$
+- /usr/share/bash-completion/completions/euse$
+- /usr/share/bash-completion/completions/gcc-config$
+- /usr/share/bash-completion/completions/glsa-check$
+- /usr/share/bash-completion/completions/java-config$
+- /usr/share/bash-completion/completions/layman$
+- /usr/share/bash-completion/completions/metagen$
+- /usr/share/bash-completion/completions/portageq$
+- /usr/share/bash-completion/completions/repoman$
+- /usr/share/bash-completion/completions/revdep-rebuild$
+- /usr/share/bash-completion/completions/splat$
+- /usr/share/bash-completion/completions/webapp-config$
+- /usr/share/bash-completion/helpers$
+- /usr/share/bash-completion/helpers/gentoo-common.sh$

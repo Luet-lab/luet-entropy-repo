@@ -1,0 +1,32 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-dicts/myspell-ga-20160213
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/myspell-ga-20160213$
+- /usr/share/doc/myspell-ga-20160213/CEADUNAIS-ga.txt.bz2$
+- /usr/share/doc/myspell-ga-20160213/README_ga_IE.txt.bz2$
+- /usr/share/doc/myspell-ga-20160213/README_hyph_ga_IE.txt.bz2$
+- /usr/share/doc/myspell-ga-20160213/README_th_ga_IE_v2.txt.bz2$
+- /usr/share/hunspell$
+- /usr/share/hunspell/ga_IE.aff$
+- /usr/share/hunspell/ga_IE.dic$
+- /usr/share/hyphen$
+- /usr/share/hyphen/hyph_ga_IE.dic$
+- /usr/share/myspell$
+- /usr/share/myspell/ga_IE.aff$
+- /usr/share/myspell/ga_IE.dic$
+- /usr/share/myspell/hyph_ga_IE.dic$
+- /usr/share/myspell/th_ga_IE_v2.dat$
+- /usr/share/myspell/th_ga_IE_v2.idx$
+- /usr/share/mythes$
+- /usr/share/mythes/th_ga_IE_v2.dat$
+- /usr/share/mythes/th_ga_IE_v2.idx$

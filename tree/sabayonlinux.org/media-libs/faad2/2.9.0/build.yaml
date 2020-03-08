@@ -1,0 +1,42 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/faad2-2.9.0
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/faad$
+- /usr/include$
+- /usr/include/faad.h$
+- /usr/include/neaacdec.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libfaad.so$
+- /usr/lib32/libfaad.so.2$
+- /usr/lib32/libfaad.so.2.0.0$
+- /usr/lib32/libfaad_drm.so$
+- /usr/lib32/libfaad_drm.so.2$
+- /usr/lib32/libfaad_drm.so.2.0.0$
+- /usr/lib64$
+- /usr/lib64/libfaad.so$
+- /usr/lib64/libfaad.so.2$
+- /usr/lib64/libfaad.so.2.0.0$
+- /usr/lib64/libfaad_drm.so$
+- /usr/lib64/libfaad_drm.so.2$
+- /usr/lib64/libfaad_drm.so.2.0.0$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/faad2-2.9.0$
+- /usr/share/doc/faad2-2.9.0/AUTHORS.bz2$
+- /usr/share/doc/faad2-2.9.0/ChangeLog.bz2$
+- /usr/share/doc/faad2-2.9.0/NEWS$
+- /usr/share/doc/faad2-2.9.0/README.bz2$
+- /usr/share/doc/faad2-2.9.0/TODO$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/faad.1.bz2$

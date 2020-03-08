@@ -1,0 +1,40 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-emulation/libcacard-2.6.0
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/cacard$
+- /usr/include/cacard/cac.h$
+- /usr/include/cacard/card_7816.h$
+- /usr/include/cacard/card_7816t.h$
+- /usr/include/cacard/eventt.h$
+- /usr/include/cacard/libcacard.h$
+- /usr/include/cacard/vcard.h$
+- /usr/include/cacard/vcard_emul.h$
+- /usr/include/cacard/vcard_emul_type.h$
+- /usr/include/cacard/vcardt.h$
+- /usr/include/cacard/vevent.h$
+- /usr/include/cacard/vreader.h$
+- /usr/include/cacard/vreadert.h$
+- /usr/include/cacard/vscard_common.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libcacard.so$
+- /usr/lib64/libcacard.so.0$
+- /usr/lib64/libcacard.so.0.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libcacard.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libcacard-2.6.0$
+- /usr/share/doc/libcacard-2.6.0/ChangeLog.bz2$
+- /usr/share/doc/libcacard-2.6.0/NEWS.bz2$
+- /usr/share/doc/libcacard-2.6.0/README.md.bz2$
+- /usr/share/doc/libcacard-2.6.0/libcacard.txt.bz2$

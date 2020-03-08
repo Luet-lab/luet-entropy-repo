@@ -1,0 +1,18 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-java/byaccj-1.15-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/byaccj$
+- /usr/lib$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/byaccj-1.15-r1$
+- /usr/share/doc/byaccj-1.15-r1/ACKNOWLEDGEMEN.bz2$

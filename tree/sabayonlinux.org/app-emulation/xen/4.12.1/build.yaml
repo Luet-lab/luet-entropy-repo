@@ -1,0 +1,18 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-emulation/xen-4.12.1-r4
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /boot$
+- /boot/xen-4.12.1.config$
+- /boot/xen-4.12.1.gz$
+- /boot/xen-4.12.gz$
+- /boot/xen-4.gz$
+- /boot/xen.gz$
+- /usr$
+- /usr/lib$

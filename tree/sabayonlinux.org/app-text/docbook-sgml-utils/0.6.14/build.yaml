@@ -1,0 +1,72 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-text/docbook-sgml-utils-0.6.14-r3
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/docbook2html$
+- /usr/bin/docbook2man$
+- /usr/bin/docbook2rtf$
+- /usr/bin/docbook2tex$
+- /usr/bin/docbook2texi$
+- /usr/bin/docbook2txt$
+- /usr/bin/jw$
+- /usr/bin/sgmldiff$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/docbook-sgml-utils-0.6.14-r3$
+- /usr/share/doc/docbook-sgml-utils-0.6.14-r3/AUTHORS.bz2$
+- /usr/share/doc/docbook-sgml-utils-0.6.14-r3/ChangeLog.bz2$
+- /usr/share/doc/docbook-sgml-utils-0.6.14-r3/NEWS.bz2$
+- /usr/share/doc/docbook-sgml-utils-0.6.14-r3/README.bz2$
+- /usr/share/doc/docbook-sgml-utils-0.6.14-r3/TODO.bz2$
+- /usr/share/doc/docbook-sgml-utils-0.6.14-r3/html$
+- /usr/share/doc/docbook-sgml-utils-0.6.14-r3/html/api.html$
+- /usr/share/doc/docbook-sgml-utils-0.6.14-r3/html/backend-spec.html$
+- /usr/share/doc/docbook-sgml-utils-0.6.14-r3/html/docbook2man.html$
+- /usr/share/doc/docbook-sgml-utils-0.6.14-r3/html/docbook2texi.html$
+- /usr/share/doc/docbook-sgml-utils-0.6.14-r3/html/fdl.html$
+- /usr/share/doc/docbook-sgml-utils-0.6.14-r3/html/frontend-spec.html$
+- /usr/share/doc/docbook-sgml-utils-0.6.14-r3/html/helpers.html$
+- /usr/share/doc/docbook-sgml-utils-0.6.14-r3/html/index.html$
+- /usr/share/doc/docbook-sgml-utils-0.6.14-r3/html/intro-jw.html$
+- /usr/share/doc/docbook-sgml-utils-0.6.14-r3/html/intro-sgmldiff.html$
+- /usr/share/doc/docbook-sgml-utils-0.6.14-r3/html/introduction.html$
+- /usr/share/doc/docbook-sgml-utils-0.6.14-r3/html/jw.html$
+- /usr/share/doc/docbook-sgml-utils-0.6.14-r3/html/sgmldiff.html$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/docbook2html.1.bz2$
+- /usr/share/man/man1/docbook2man-spec.pl.1.bz2$
+- /usr/share/man/man1/docbook2man.1.bz2$
+- /usr/share/man/man1/docbook2rtf.1.bz2$
+- /usr/share/man/man1/docbook2tex.1.bz2$
+- /usr/share/man/man1/docbook2texi-spec.pl.1.bz2$
+- /usr/share/man/man1/docbook2texi.1.bz2$
+- /usr/share/man/man1/jw.1.bz2$
+- /usr/share/man/man1/sgmldiff.1.bz2$
+- /usr/share/man/man7$
+- /usr/share/man/man7/backend-spec.7.bz2$
+- /usr/share/man/man7/frontend-spec.7.bz2$
+- /usr/share/sgml$
+- /usr/share/sgml/docbook$
+- /usr/share/sgml/docbook/utils-0.6.14$
+- /usr/share/sgml/docbook/utils-0.6.14/backends$
+- /usr/share/sgml/docbook/utils-0.6.14/backends/html$
+- /usr/share/sgml/docbook/utils-0.6.14/backends/man$
+- /usr/share/sgml/docbook/utils-0.6.14/backends/rtf$
+- /usr/share/sgml/docbook/utils-0.6.14/backends/tex$
+- /usr/share/sgml/docbook/utils-0.6.14/backends/texi$
+- /usr/share/sgml/docbook/utils-0.6.14/backends/txt$
+- /usr/share/sgml/docbook/utils-0.6.14/docbook-utils.dsl$
+- /usr/share/sgml/docbook/utils-0.6.14/frontends$
+- /usr/share/sgml/docbook/utils-0.6.14/frontends/docbook$
+- /usr/share/sgml/docbook/utils-0.6.14/helpers$
+- /usr/share/sgml/docbook/utils-0.6.14/helpers/docbook2man-spec.pl$
+- /usr/share/sgml/docbook/utils-0.6.14/helpers/docbook2texi-spec.pl$

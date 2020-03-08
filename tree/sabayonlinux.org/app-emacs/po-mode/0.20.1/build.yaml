@@ -1,0 +1,21 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-emacs/po-mode-0.20.1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/emacs$
+- /usr/share/emacs/site-lisp$
+- /usr/share/emacs/site-lisp/po-mode$
+- /usr/share/emacs/site-lisp/po-mode/po-compat.el$
+- /usr/share/emacs/site-lisp/po-mode/po-compat.elc$
+- /usr/share/emacs/site-lisp/po-mode/po-mode.el$
+- /usr/share/emacs/site-lisp/po-mode/po-mode.elc$
+- /usr/share/emacs/site-lisp/site-gentoo.d$
+- /usr/share/emacs/site-lisp/site-gentoo.d/50po-mode-gentoo.el$

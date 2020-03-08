@@ -1,0 +1,17 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i x11-libs/dnd-1.1-r3
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/OffiX$
+- /usr/include/OffiX/DragAndDrop.h$
+- /usr/include/OffiX/DragAndDropTypes.h$
+- /usr/lib64$
+- /usr/lib64/libDnd.*

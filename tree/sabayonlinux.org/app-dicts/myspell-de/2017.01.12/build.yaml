@@ -1,0 +1,58 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-dicts/myspell-de-2017.01.12
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/myspell-de-2017.01.12$
+- /usr/share/doc/myspell-de-2017.01.12/README_extension_owner.txt.bz2$
+- /usr/share/doc/myspell-de-2017.01.12/de_AT_frami_README.txt.bz2$
+- /usr/share/doc/myspell-de-2017.01.12/de_CH_frami_README.txt.bz2$
+- /usr/share/doc/myspell-de-2017.01.12/de_DE_frami_README.txt.bz2$
+- /usr/share/doc/myspell-de-2017.01.12/hyph_de_AT_README.txt.bz2$
+- /usr/share/doc/myspell-de-2017.01.12/hyph_de_CH_README.txt.bz2$
+- /usr/share/doc/myspell-de-2017.01.12/hyph_de_DE_README.txt.bz2$
+- /usr/share/doc/myspell-de-2017.01.12/th_de_AT_README.txt.bz2$
+- /usr/share/doc/myspell-de-2017.01.12/th_de_CH_README.txt.bz2$
+- /usr/share/doc/myspell-de-2017.01.12/th_de_DE_README.txt.bz2$
+- /usr/share/hunspell$
+- /usr/share/hunspell/de_AT.aff$
+- /usr/share/hunspell/de_AT.dic$
+- /usr/share/hunspell/de_CH.aff$
+- /usr/share/hunspell/de_CH.dic$
+- /usr/share/hunspell/de_DE.aff$
+- /usr/share/hunspell/de_DE.dic$
+- /usr/share/hyphen$
+- /usr/share/hyphen/hyph_de_AT.dic$
+- /usr/share/hyphen/hyph_de_CH.dic$
+- /usr/share/hyphen/hyph_de_DE.dic$
+- /usr/share/myspell$
+- /usr/share/myspell/de_AT.aff$
+- /usr/share/myspell/de_AT.dic$
+- /usr/share/myspell/de_CH.aff$
+- /usr/share/myspell/de_CH.dic$
+- /usr/share/myspell/de_DE.aff$
+- /usr/share/myspell/de_DE.dic$
+- /usr/share/myspell/hyph_de_AT.dic$
+- /usr/share/myspell/hyph_de_CH.dic$
+- /usr/share/myspell/hyph_de_DE.dic$
+- /usr/share/myspell/th_de_AT_v2.dat$
+- /usr/share/myspell/th_de_AT_v2.idx$
+- /usr/share/myspell/th_de_CH_v2.dat$
+- /usr/share/myspell/th_de_CH_v2.idx$
+- /usr/share/myspell/th_de_DE_v2.dat$
+- /usr/share/myspell/th_de_DE_v2.idx$
+- /usr/share/mythes$
+- /usr/share/mythes/th_de_AT_v2.dat$
+- /usr/share/mythes/th_de_AT_v2.idx$
+- /usr/share/mythes/th_de_CH_v2.dat$
+- /usr/share/mythes/th_de_CH_v2.idx$
+- /usr/share/mythes/th_de_DE_v2.dat$
+- /usr/share/mythes/th_de_DE_v2.idx$

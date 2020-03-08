@@ -1,0 +1,31 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-util/desktop-file-utils-0.24
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/desktop-file-edit$
+- /usr/bin/desktop-file-install$
+- /usr/bin/desktop-file-validate$
+- /usr/bin/update-desktop-database$
+- /usr/lib$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/desktop-file-utils-0.24$
+- /usr/share/doc/desktop-file-utils-0.24/AUTHORS$
+- /usr/share/doc/desktop-file-utils-0.24/ChangeLog.bz2$
+- /usr/share/doc/desktop-file-utils-0.24/HACKING.bz2$
+- /usr/share/doc/desktop-file-utils-0.24/NEWS.bz2$
+- /usr/share/doc/desktop-file-utils-0.24/README.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/desktop-file-edit.1.bz2$
+- /usr/share/man/man1/desktop-file-install.1.bz2$
+- /usr/share/man/man1/desktop-file-validate.1.bz2$
+- /usr/share/man/man1/update-desktop-database.1.bz2$

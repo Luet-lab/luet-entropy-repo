@@ -1,0 +1,20 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-dicts/myspell-eo-1.0-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/hunspell$
+- /usr/share/hunspell/eo_l3.aff$
+- /usr/share/hunspell/eo_l3.dic$
+- /usr/share/hyphen$
+- /usr/share/myspell$
+- /usr/share/myspell/eo_l3.aff$
+- /usr/share/myspell/eo_l3.dic$
+- /usr/share/mythes$

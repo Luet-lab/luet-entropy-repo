@@ -1,0 +1,52 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-fonts/kochi-substitute-20030809-r3
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/kochi-substitute-20030809-r3$
+- /usr/share/doc/kochi-substitute-20030809-r3/README.bz2$
+- /usr/share/doc/kochi-substitute-20030809-r3/README.ja.bz2$
+- /usr/share/doc/kochi-substitute-20030809-r3/ayu20gothic$
+- /usr/share/doc/kochi-substitute-20030809-r3/ayu20gothic/README.txt.bz2$
+- /usr/share/doc/kochi-substitute-20030809-r3/k14goth$
+- /usr/share/doc/kochi-substitute-20030809-r3/k14goth/BUGS.bz2$
+- /usr/share/doc/kochi-substitute-20030809-r3/k14goth/Changelog.bz2$
+- /usr/share/doc/kochi-substitute-20030809-r3/k14goth/INSTALL.bz2$
+- /usr/share/doc/kochi-substitute-20030809-r3/k14goth/README.bz2$
+- /usr/share/doc/kochi-substitute-20030809-r3/k14goth/THANKS.bz2$
+- /usr/share/doc/kochi-substitute-20030809-r3/kappa20$
+- /usr/share/doc/kochi-substitute-20030809-r3/kappa20/README.bz2$
+- /usr/share/doc/kochi-substitute-20030809-r3/naga10$
+- /usr/share/doc/kochi-substitute-20030809-r3/naga10/README.bz2$
+- /usr/share/doc/kochi-substitute-20030809-r3/shinonome12$
+- /usr/share/doc/kochi-substitute-20030809-r3/shinonome12/AUTHORS.bz2$
+- /usr/share/doc/kochi-substitute-20030809-r3/shinonome12/BUGS.bz2$
+- /usr/share/doc/kochi-substitute-20030809-r3/shinonome12/Changelog.bz2$
+- /usr/share/doc/kochi-substitute-20030809-r3/shinonome12/README.bz2$
+- /usr/share/doc/kochi-substitute-20030809-r3/shinonome12/THANKS.bz2$
+- /usr/share/doc/kochi-substitute-20030809-r3/shinonome12/TODO.bz2$
+- /usr/share/doc/kochi-substitute-20030809-r3/shinonome16$
+- /usr/share/doc/kochi-substitute-20030809-r3/shinonome16/AUTHORS.bz2$
+- /usr/share/doc/kochi-substitute-20030809-r3/shinonome16/BUGS.bz2$
+- /usr/share/doc/kochi-substitute-20030809-r3/shinonome16/Changelog.bz2$
+- /usr/share/doc/kochi-substitute-20030809-r3/shinonome16/README.bz2$
+- /usr/share/doc/kochi-substitute-20030809-r3/shinonome16/THANKS.bz2$
+- /usr/share/doc/kochi-substitute-20030809-r3/shinonome16/TODO.bz2$
+- /usr/share/doc/kochi-substitute-20030809-r3/wadalab$
+- /usr/share/doc/kochi-substitute-20030809-r3/wadalab/README.bz2$
+- /usr/share/doc/kochi-substitute-20030809-r3/wadalab/README.ja.bz2$
+- /usr/share/fonts$
+- /usr/share/fonts/kochi-substitute$
+- /usr/share/fonts/kochi-substitute/encodings.dir$
+- /usr/share/fonts/kochi-substitute/fonts.dir$
+- /usr/share/fonts/kochi-substitute/fonts.scale$
+- /usr/share/fonts/kochi-substitute/kochi-gothic-subst.ttf$
+- /usr/share/fonts/kochi-substitute/kochi-mincho-subst.ttf$

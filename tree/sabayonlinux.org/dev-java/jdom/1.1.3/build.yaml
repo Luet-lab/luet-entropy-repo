@@ -1,0 +1,22 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-java/jdom-1.1.3
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/jdom-1.1.3$
+- /usr/share/doc/jdom-1.1.3/CHANGES.txt.bz2$
+- /usr/share/doc/jdom-1.1.3/COMMITTERS.txt.bz2$
+- /usr/share/doc/jdom-1.1.3/README.txt.bz2$
+- /usr/share/doc/jdom-1.1.3/TODO.txt.bz2$
+- /usr/share/jdom$
+- /usr/share/jdom/lib$
+- /usr/share/jdom/lib/jdom.jar$
+- /usr/share/jdom/package.env$

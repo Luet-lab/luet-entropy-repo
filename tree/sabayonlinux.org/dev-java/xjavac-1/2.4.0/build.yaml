@@ -1,0 +1,16 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-java/xjavac-2.4.0
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/xjavac-1$
+- /usr/share/xjavac-1/lib$
+- /usr/share/xjavac-1/lib/xjavac.jar$
+- /usr/share/xjavac-1/package.env$

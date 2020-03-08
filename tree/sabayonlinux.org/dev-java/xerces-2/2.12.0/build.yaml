@@ -1,0 +1,16 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-java/xerces-2.12.0
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/xerces-2$
+- /usr/share/xerces-2/lib$
+- /usr/share/xerces-2/lib/xerces.jar$
+- /usr/share/xerces-2/package.env$

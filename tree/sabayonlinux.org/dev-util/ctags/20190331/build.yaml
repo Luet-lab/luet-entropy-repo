@@ -1,0 +1,22 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-util/ctags-20190331
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/exuberant-ctags$
+- /usr/bin/readtags$
+- /usr/lib$
+- /usr/share$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/exuberant-ctags.1.bz2$
+- /usr/share/man/man7$
+- /usr/share/man/man7/ctags-incompatibilities.7.bz2$
+- /usr/share/man/man7/ctags-optlib.7.bz2$

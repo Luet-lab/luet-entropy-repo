@@ -1,0 +1,72 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-perl/Test-Deep-1.127.0
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/perl5$
+- /usr/lib64/perl5/vendor_perl$
+- /usr/lib64/perl5/vendor_perl/5.28.2$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Test$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Test/Deep$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Test/Deep.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Test/Deep/All.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Test/Deep/Any.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Test/Deep/Array.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Test/Deep/ArrayEach.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Test/Deep/ArrayElementsOnly.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Test/Deep/ArrayLength.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Test/Deep/ArrayLengthOnly.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Test/Deep/Blessed.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Test/Deep/Boolean.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Test/Deep/Cache$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Test/Deep/Cache.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Test/Deep/Cache/Simple.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Test/Deep/Class.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Test/Deep/Cmp.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Test/Deep/Code.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Test/Deep/Hash.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Test/Deep/HashEach.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Test/Deep/HashElements.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Test/Deep/HashKeys.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Test/Deep/HashKeysOnly.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Test/Deep/Ignore.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Test/Deep/Isa.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Test/Deep/ListMethods.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Test/Deep/MM.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Test/Deep/Methods.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Test/Deep/NoTest.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Test/Deep/None.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Test/Deep/Number.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Test/Deep/Obj.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Test/Deep/Ref.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Test/Deep/RefType.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Test/Deep/Regexp.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Test/Deep/RegexpMatches.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Test/Deep/RegexpOnly.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Test/Deep/RegexpRef.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Test/Deep/RegexpRefOnly.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Test/Deep/RegexpVersion.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Test/Deep/ScalarRef.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Test/Deep/ScalarRefOnly.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Test/Deep/Set.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Test/Deep/Shallow.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Test/Deep/Stack.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Test/Deep/String.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/Test$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/Test/Deep$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/Test/Deep/.packlist$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/Test-Deep-1.127.0$
+- /usr/share/doc/Test-Deep-1.127.0/Changes.bz2$
+- /usr/share/doc/Test-Deep-1.127.0/README.bz2$
+- /usr/share/doc/Test-Deep-1.127.0/TODO.bz2$

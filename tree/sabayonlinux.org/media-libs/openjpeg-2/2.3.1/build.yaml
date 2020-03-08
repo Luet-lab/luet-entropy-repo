@@ -1,0 +1,51 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/openjpeg-2.3.1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/opj_compress$
+- /usr/bin/opj_decompress$
+- /usr/bin/opj_dump$
+- /usr/include$
+- /usr/include/openjpeg-2.3$
+- /usr/include/openjpeg-2.3/openjpeg.h$
+- /usr/include/openjpeg-2.3/opj_config.h$
+- /usr/include/openjpeg-2.3/opj_stdint.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/cmake$
+- /usr/lib32/cmake/openjpeg-2.3$
+- /usr/lib32/cmake/openjpeg-2.3/OpenJPEGConfig.cmake$
+- /usr/lib32/cmake/openjpeg-2.3/OpenJPEGTargets-gentoo.cmake$
+- /usr/lib32/cmake/openjpeg-2.3/OpenJPEGTargets.cmake$
+- /usr/lib32/libopenjp2.so$
+- /usr/lib32/libopenjp2.so.2.3.1$
+- /usr/lib32/libopenjp2.so.7$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/libopenjp2.pc$
+- /usr/lib64$
+- /usr/lib64/cmake$
+- /usr/lib64/cmake/openjpeg-2.3$
+- /usr/lib64/cmake/openjpeg-2.3/OpenJPEGConfig.cmake$
+- /usr/lib64/cmake/openjpeg-2.3/OpenJPEGTargets-gentoo.cmake$
+- /usr/lib64/cmake/openjpeg-2.3/OpenJPEGTargets.cmake$
+- /usr/lib64/libopenjp2.so$
+- /usr/lib64/libopenjp2.so.2.3.1$
+- /usr/lib64/libopenjp2.so.7$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libopenjp2.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/openjpeg-2.3.1$
+- /usr/share/doc/openjpeg-2.3.1/AUTHORS.md.bz2$
+- /usr/share/doc/openjpeg-2.3.1/CHANGELOG.md.bz2$
+- /usr/share/doc/openjpeg-2.3.1/NEWS.md.bz2$
+- /usr/share/doc/openjpeg-2.3.1/README.md.bz2$
+- /usr/share/doc/openjpeg-2.3.1/THANKS.md.bz2$

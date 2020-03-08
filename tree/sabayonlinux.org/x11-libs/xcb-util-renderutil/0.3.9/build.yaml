@@ -1,0 +1,33 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i x11-libs/xcb-util-renderutil-0.3.9-r2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/xcb$
+- /usr/include/xcb/xcb_renderutil.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libxcb-render-util.so$
+- /usr/lib32/libxcb-render-util.so.0$
+- /usr/lib32/libxcb-render-util.so.0.0.0$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/xcb-renderutil.pc$
+- /usr/lib64$
+- /usr/lib64/libxcb-render-util.so$
+- /usr/lib64/libxcb-render-util.so.0$
+- /usr/lib64/libxcb-render-util.so.0.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/xcb-renderutil.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/xcb-util-renderutil-0.3.9-r2$
+- /usr/share/doc/xcb-util-renderutil-0.3.9-r2/ChangeLog.bz2$
+- /usr/share/doc/xcb-util-renderutil-0.3.9-r2/NEWS.bz2$
+- /usr/share/doc/xcb-util-renderutil-0.3.9-r2/README.bz2$

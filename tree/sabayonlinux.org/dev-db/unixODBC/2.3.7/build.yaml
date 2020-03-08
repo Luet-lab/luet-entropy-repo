@@ -1,0 +1,96 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-db/unixODBC-2.3.7
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /etc$
+- /etc/unixODBC$
+- /etc/unixODBC/ODBCDataSources$
+- /etc/unixODBC/odbc.ini$
+- /etc/unixODBC/odbcinst.ini$
+- /usr$
+- /usr/bin$
+- /usr/bin/dltest$
+- /usr/bin/i686-pc-linux-gnu-odbc_config$
+- /usr/bin/isql$
+- /usr/bin/iusql$
+- /usr/bin/odbc_config$
+- /usr/bin/odbcinst$
+- /usr/bin/slencheck$
+- /usr/bin/x86_64-pc-linux-gnu-odbc_config$
+- /usr/include$
+- /usr/include/autotest.h$
+- /usr/include/i686-pc-linux-gnu$
+- /usr/include/i686-pc-linux-gnu/unixodbc_conf.h$
+- /usr/include/odbcinst.h$
+- /usr/include/odbcinstext.h$
+- /usr/include/sql.h$
+- /usr/include/sqlext.h$
+- /usr/include/sqlspi.h$
+- /usr/include/sqltypes.h$
+- /usr/include/sqlucode.h$
+- /usr/include/unixodbc_conf.h$
+- /usr/include/uodbc_extras.h$
+- /usr/include/uodbc_stats.h$
+- /usr/include/x86_64-pc-linux-gnu$
+- /usr/include/x86_64-pc-linux-gnu/unixodbc_conf.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libodbc.so$
+- /usr/lib32/libodbc.so.2$
+- /usr/lib32/libodbc.so.2.0.0$
+- /usr/lib32/libodbccr.so$
+- /usr/lib32/libodbccr.so.2$
+- /usr/lib32/libodbccr.so.2.0.0$
+- /usr/lib32/libodbcinst.so$
+- /usr/lib32/libodbcinst.so.2$
+- /usr/lib32/libodbcinst.so.2.0.0$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/odbc.pc$
+- /usr/lib32/pkgconfig/odbccr.pc$
+- /usr/lib32/pkgconfig/odbcinst.pc$
+- /usr/lib64$
+- /usr/lib64/libodbc.so$
+- /usr/lib64/libodbc.so.2$
+- /usr/lib64/libodbc.so.2.0.0$
+- /usr/lib64/libodbccr.so$
+- /usr/lib64/libodbccr.so.2$
+- /usr/lib64/libodbccr.so.2.0.0$
+- /usr/lib64/libodbcinst.so$
+- /usr/lib64/libodbcinst.so.2$
+- /usr/lib64/libodbcinst.so.2.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/odbc.pc$
+- /usr/lib64/pkgconfig/odbccr.pc$
+- /usr/lib64/pkgconfig/odbcinst.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/unixODBC-2.3.7$
+- /usr/share/doc/unixODBC-2.3.7/AUTHORS.bz2$
+- /usr/share/doc/unixODBC-2.3.7/ChangeLog.bz2$
+- /usr/share/doc/unixODBC-2.3.7/NEWS.bz2$
+- /usr/share/doc/unixODBC-2.3.7/README.AIX.bz2$
+- /usr/share/doc/unixODBC-2.3.7/README.CYGWIN.bz2$
+- /usr/share/doc/unixODBC-2.3.7/README.INTERIX.bz2$
+- /usr/share/doc/unixODBC-2.3.7/README.OSX.bz2$
+- /usr/share/doc/unixODBC-2.3.7/README.QNX.bz2$
+- /usr/share/doc/unixODBC-2.3.7/README.SOLARIS.bz2$
+- /usr/share/doc/unixODBC-2.3.7/README.VMS.bz2$
+- /usr/share/doc/unixODBC-2.3.7/README.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/dltest.1.bz2$
+- /usr/share/man/man1/isql.1.bz2$
+- /usr/share/man/man1/iusql.1$
+- /usr/share/man/man1/odbc_config.1.bz2$
+- /usr/share/man/man1/odbcinst.1.bz2$
+- /usr/share/man/man5$
+- /usr/share/man/man5/odbc.ini.5.bz2$
+- /usr/share/man/man5/odbcinst.ini.5.bz2$
+- /usr/share/man/man7$
+- /usr/share/man/man7/unixODBC.7.bz2$

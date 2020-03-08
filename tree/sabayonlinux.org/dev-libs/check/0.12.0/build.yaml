@@ -1,0 +1,70 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/check-0.12.0
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/checkmk$
+- /usr/include$
+- /usr/include/check.h$
+- /usr/include/check_stdint.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libcheck.so$
+- /usr/lib32/libcheck.so.0$
+- /usr/lib32/libcheck.so.0.0.0$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/check.pc$
+- /usr/lib64$
+- /usr/lib64/libcheck.so$
+- /usr/lib64/libcheck.so.0$
+- /usr/lib64/libcheck.so.0.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/check.pc$
+- /usr/share$
+- /usr/share/aclocal$
+- /usr/share/aclocal/check.m4$
+- /usr/share/doc$
+- /usr/share/doc/check-0.12.0$
+- /usr/share/doc/check-0.12.0/AUTHORS.bz2$
+- /usr/share/doc/check-0.12.0/ChangeLog.bz2$
+- /usr/share/doc/check-0.12.0/NEWS.bz2$
+- /usr/share/doc/check-0.12.0/README.bz2$
+- /usr/share/doc/check-0.12.0/README.md.bz2$
+- /usr/share/doc/check-0.12.0/THANKS.bz2$
+- /usr/share/doc/check-0.12.0/TODO.bz2$
+- /usr/share/doc/check-0.12.0/example$
+- /usr/share/doc/check-0.12.0/example/Makefile.am$
+- /usr/share/doc/check-0.12.0/example/README.bz2$
+- /usr/share/doc/check-0.12.0/example/configure.ac.bz2$
+- /usr/share/doc/check-0.12.0/example/src$
+- /usr/share/doc/check-0.12.0/example/src/Makefile.am.bz2$
+- /usr/share/doc/check-0.12.0/example/src/main.c.bz2$
+- /usr/share/doc/check-0.12.0/example/src/money.1.c.bz2$
+- /usr/share/doc/check-0.12.0/example/src/money.1.h.bz2$
+- /usr/share/doc/check-0.12.0/example/src/money.2.h.bz2$
+- /usr/share/doc/check-0.12.0/example/src/money.3.c.bz2$
+- /usr/share/doc/check-0.12.0/example/src/money.4.c.bz2$
+- /usr/share/doc/check-0.12.0/example/src/money.5.c.bz2$
+- /usr/share/doc/check-0.12.0/example/src/money.6.c.bz2$
+- /usr/share/doc/check-0.12.0/example/src/money.c.bz2$
+- /usr/share/doc/check-0.12.0/example/src/money.h.bz2$
+- /usr/share/doc/check-0.12.0/example/tests$
+- /usr/share/doc/check-0.12.0/example/tests/Makefile.am.bz2$
+- /usr/share/doc/check-0.12.0/example/tests/check_money.1.c.bz2$
+- /usr/share/doc/check-0.12.0/example/tests/check_money.2.c.bz2$
+- /usr/share/doc/check-0.12.0/example/tests/check_money.3.c.bz2$
+- /usr/share/doc/check-0.12.0/example/tests/check_money.6.c.bz2$
+- /usr/share/doc/check-0.12.0/example/tests/check_money.7.c.bz2$
+- /usr/share/doc/check-0.12.0/example/tests/check_money.c.bz2$
+- /usr/share/info$
+- /usr/share/info/check.info.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/checkmk.1.bz2$

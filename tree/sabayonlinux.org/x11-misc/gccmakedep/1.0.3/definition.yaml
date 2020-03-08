@@ -1,0 +1,14 @@
+
+category: "x11-misc"
+name: "gccmakedep"
+version: "1.0.3+r1"
+requires:
+- category: "x11-base"
+  name: "xorg-proto"
+  version: ">=2019.2"
+- category: "dev-util"
+  name: "meson"
+  version: ">=0.52.1"
+- category: "dev-util"
+  name: "ninja"
+  version: ">=1.8.2"

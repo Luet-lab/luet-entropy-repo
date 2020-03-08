@@ -1,0 +1,33 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-dicts/myspell-ru-20150711-r2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/myspell-ru-20150711-r2$
+- /usr/share/doc/myspell-ru-20150711-r2/README_hyph_ru_RU.txt.bz2$
+- /usr/share/doc/myspell-ru-20150711-r2/copyright.txt.bz2$
+- /usr/share/doc/myspell-ru-20150711-r2/info_en.txt.bz2$
+- /usr/share/doc/myspell-ru-20150711-r2/info_ru.txt.bz2$
+- /usr/share/doc/myspell-ru-20150711-r2/lgpl.txt.bz2$
+- /usr/share/hunspell$
+- /usr/share/hunspell/ru_RU.aff$
+- /usr/share/hunspell/ru_RU.dic$
+- /usr/share/hyphen$
+- /usr/share/hyphen/hyph_ru_RU.dic$
+- /usr/share/myspell$
+- /usr/share/myspell/hyph_ru_RU.dic$
+- /usr/share/myspell/ru_RU.aff$
+- /usr/share/myspell/ru_RU.dic$
+- /usr/share/myspell/ru_th_aot.dat$
+- /usr/share/myspell/ru_th_aot.idx$
+- /usr/share/mythes$
+- /usr/share/mythes/ru_th_aot.dat$
+- /usr/share/mythes/ru_th_aot.idx$

@@ -1,0 +1,105 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-db/mysql-connector-c-6.1.11-r2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/i686-pc-linux-gnu-mysql_config$
+- /usr/bin/my_print_defaults$
+- /usr/bin/mysql_config$
+- /usr/bin/perror$
+- /usr/bin/x86_64-pc-linux-gnu-mysql_config$
+- /usr/include$
+- /usr/include/i686-pc-linux-gnu$
+- /usr/include/i686-pc-linux-gnu/mysql$
+- /usr/include/i686-pc-linux-gnu/mysql/my_config.h$
+- /usr/include/mysql$
+- /usr/include/mysql/big_endian.h$
+- /usr/include/mysql/binary_log_types.h$
+- /usr/include/mysql/byte_order_generic.h$
+- /usr/include/mysql/byte_order_generic_x86.h$
+- /usr/include/mysql/decimal.h$
+- /usr/include/mysql/errmsg.h$
+- /usr/include/mysql/keycache.h$
+- /usr/include/mysql/little_endian.h$
+- /usr/include/mysql/m_ctype.h$
+- /usr/include/mysql/m_string.h$
+- /usr/include/mysql/my_alloc.h$
+- /usr/include/mysql/my_byteorder.h$
+- /usr/include/mysql/my_command.h$
+- /usr/include/mysql/my_compiler.h$
+- /usr/include/mysql/my_config.h$
+- /usr/include/mysql/my_dbug.h$
+- /usr/include/mysql/my_dir.h$
+- /usr/include/mysql/my_getopt.h$
+- /usr/include/mysql/my_global.h$
+- /usr/include/mysql/my_list.h$
+- /usr/include/mysql/my_sys.h$
+- /usr/include/mysql/my_thread.h$
+- /usr/include/mysql/my_thread_local.h$
+- /usr/include/mysql/my_xml.h$
+- /usr/include/mysql/mysql$
+- /usr/include/mysql/mysql.h$
+- /usr/include/mysql/mysql/client_authentication.h$
+- /usr/include/mysql/mysql/client_plugin.h$
+- /usr/include/mysql/mysql/client_plugin.h.pp$
+- /usr/include/mysql/mysql/get_password.h$
+- /usr/include/mysql/mysql/mysql_lex_string.h$
+- /usr/include/mysql/mysql/plugin_auth_common.h$
+- /usr/include/mysql/mysql/plugin_trace.h$
+- /usr/include/mysql/mysql/psi$
+- /usr/include/mysql/mysql/psi/mysql_file.h$
+- /usr/include/mysql/mysql/psi/mysql_idle.h$
+- /usr/include/mysql/mysql/psi/mysql_mdl.h$
+- /usr/include/mysql/mysql/psi/mysql_memory.h$
+- /usr/include/mysql/mysql/psi/mysql_ps.h$
+- /usr/include/mysql/mysql/psi/mysql_socket.h$
+- /usr/include/mysql/mysql/psi/mysql_sp.h$
+- /usr/include/mysql/mysql/psi/mysql_stage.h$
+- /usr/include/mysql/mysql/psi/mysql_statement.h$
+- /usr/include/mysql/mysql/psi/mysql_table.h$
+- /usr/include/mysql/mysql/psi/mysql_thread.h$
+- /usr/include/mysql/mysql/psi/mysql_transaction.h$
+- /usr/include/mysql/mysql/psi/psi.h$
+- /usr/include/mysql/mysql/psi/psi_base.h$
+- /usr/include/mysql/mysql/psi/psi_memory.h$
+- /usr/include/mysql/mysql/service_my_snprintf.h$
+- /usr/include/mysql/mysql/service_mysql_alloc.h$
+- /usr/include/mysql/mysql_com.h$
+- /usr/include/mysql/mysql_com_server.h$
+- /usr/include/mysql/mysql_embed.h$
+- /usr/include/mysql/mysql_time.h$
+- /usr/include/mysql/mysql_version.h$
+- /usr/include/mysql/mysqld_ername.h$
+- /usr/include/mysql/mysqld_error.h$
+- /usr/include/mysql/sql_common.h$
+- /usr/include/mysql/sql_state.h$
+- /usr/include/mysql/sslopt-case.h$
+- /usr/include/mysql/sslopt-longopts.h$
+- /usr/include/mysql/sslopt-vars.h$
+- /usr/include/mysql/thr_cond.h$
+- /usr/include/mysql/thr_mutex.h$
+- /usr/include/mysql/thr_rwlock.h$
+- /usr/include/mysql/typelib.h$
+- /usr/include/x86_64-pc-linux-gnu$
+- /usr/include/x86_64-pc-linux-gnu/mysql$
+- /usr/include/x86_64-pc-linux-gnu/mysql/my_config.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libmysqlclient.so$
+- /usr/lib32/libmysqlclient.so.18$
+- /usr/lib32/libmysqlclient.so.18.4.0$
+- /usr/lib64$
+- /usr/lib64/libmysqlclient.so$
+- /usr/lib64/libmysqlclient.so.18$
+- /usr/lib64/libmysqlclient.so.18.4.0$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/mysql-connector-c-6.1.11-r2$
+- /usr/share/doc/mysql-connector-c-6.1.11-r2/README.bz2$

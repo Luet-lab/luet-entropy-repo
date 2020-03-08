@@ -1,0 +1,58 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/rexical-1.0.7
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/rex$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/rexical-1.0.7$
+- /usr/lib64/ruby/gems/2.5.0/gems/rexical-1.0.7/bin$
+- /usr/lib64/ruby/gems/2.5.0/gems/rexical-1.0.7/bin/rex$
+- /usr/lib64/ruby/gems/2.5.0/gems/rexical-1.0.7/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/rexical-1.0.7/lib/rexical$
+- /usr/lib64/ruby/gems/2.5.0/gems/rexical-1.0.7/lib/rexical.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rexical-1.0.7/lib/rexical/generator.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rexical-1.0.7/lib/rexical/rexcmd.rb$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/rexical-1.0.7.gemspec$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/rexical-1.0.7$
+- /usr/share/doc/rexical-1.0.7/CHANGELOG.rdoc.bz2$
+- /usr/share/doc/rexical-1.0.7/DOCUMENTATION.en.rdoc.bz2$
+- /usr/share/doc/rexical-1.0.7/DOCUMENTATION.ja.rdoc.bz2$
+- /usr/share/doc/rexical-1.0.7/README.ja.bz2$
+- /usr/share/doc/rexical-1.0.7/README.rdoc.bz2$
+- /usr/share/doc/rexical-1.0.7/examples$
+- /usr/share/doc/rexical-1.0.7/examples/a.cmd$
+- /usr/share/doc/rexical-1.0.7/examples/b.cmd$
+- /usr/share/doc/rexical-1.0.7/examples/c.cmd.bz2$
+- /usr/share/doc/rexical-1.0.7/examples/calc3.racc.bz2$
+- /usr/share/doc/rexical-1.0.7/examples/calc3.rex.bz2$
+- /usr/share/doc/rexical-1.0.7/examples/calc3.rex.rb.bz2$
+- /usr/share/doc/rexical-1.0.7/examples/calc3.tab.rb.bz2$
+- /usr/share/doc/rexical-1.0.7/examples/error1.rex.bz2$
+- /usr/share/doc/rexical-1.0.7/examples/error2.rex.bz2$
+- /usr/share/doc/rexical-1.0.7/examples/sample.html$
+- /usr/share/doc/rexical-1.0.7/examples/sample.rex.bz2$
+- /usr/share/doc/rexical-1.0.7/examples/sample.rex.rb.bz2$
+- /usr/share/doc/rexical-1.0.7/examples/sample.xhtml.bz2$
+- /usr/share/doc/rexical-1.0.7/examples/sample1.c$
+- /usr/share/doc/rexical-1.0.7/examples/sample1.rex.bz2$
+- /usr/share/doc/rexical-1.0.7/examples/sample2.bas$
+- /usr/share/doc/rexical-1.0.7/examples/sample2.rex.bz2$
+- /usr/share/doc/rexical-1.0.7/examples/simple.html$
+- /usr/share/doc/rexical-1.0.7/examples/simple.xhtml.bz2$
+- /usr/share/doc/rexical-1.0.7/examples/xhtmlparser.racc.bz2$
+- /usr/share/doc/rexical-1.0.7/examples/xhtmlparser.rex.bz2$

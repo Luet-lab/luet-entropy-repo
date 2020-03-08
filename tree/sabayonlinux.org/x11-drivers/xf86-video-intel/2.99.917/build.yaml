@@ -1,0 +1,32 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i x11-drivers/xf86-video-intel-2.99.917_p20190301
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libI810XvMC.so$
+- /usr/lib64/libI810XvMC.so.1$
+- /usr/lib64/libI810XvMC.so.1.0.0$
+- /usr/lib64/libIntelXvMC.so$
+- /usr/lib64/libIntelXvMC.so.1$
+- /usr/lib64/libIntelXvMC.so.1.0.0$
+- /usr/lib64/xorg$
+- /usr/lib64/xorg/modules$
+- /usr/lib64/xorg/modules/drivers$
+- /usr/lib64/xorg/modules/drivers/intel_drv.so$
+- /usr/libexec$
+- /usr/libexec/xf86-video-intel-backlight-helper$
+- /usr/share$
+- /usr/share/man$
+- /usr/share/man/man4$
+- /usr/share/man/man4/intel.4.bz2$
+- /usr/share/polkit-1$
+- /usr/share/polkit-1/actions$
+- /usr/share/polkit-1/actions/org.x.xf86-video-intel.backlight-helper.policy$

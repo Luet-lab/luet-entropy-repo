@@ -1,0 +1,24 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-dicts/mecab-ipadic-2.7.0.20070801
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/mecab$
+- /usr/lib64/mecab/dic$
+- /usr/lib64/mecab/dic/ipadic$
+- /usr/lib64/mecab/dic/ipadic/char.bin$
+- /usr/lib64/mecab/dic/ipadic/dicrc$
+- /usr/lib64/mecab/dic/ipadic/left-id.def$
+- /usr/lib64/mecab/dic/ipadic/matrix.bin$
+- /usr/lib64/mecab/dic/ipadic/pos-id.def$
+- /usr/lib64/mecab/dic/ipadic/rewrite.def$
+- /usr/lib64/mecab/dic/ipadic/right-id.def$
+- /usr/lib64/mecab/dic/ipadic/sys.dic$
+- /usr/lib64/mecab/dic/ipadic/unk.dic$

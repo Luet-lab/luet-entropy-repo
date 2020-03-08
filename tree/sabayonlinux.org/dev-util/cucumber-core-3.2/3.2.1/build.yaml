@@ -1,0 +1,77 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-util/cucumber-core-3.2.1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-core-3.2.1$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-core-3.2.1/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-core-3.2.1/lib/cucumber$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-core-3.2.1/lib/cucumber/core$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-core-3.2.1/lib/cucumber/core.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-core-3.2.1/lib/cucumber/core/ast$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-core-3.2.1/lib/cucumber/core/ast.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-core-3.2.1/lib/cucumber/core/ast/background.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-core-3.2.1/lib/cucumber/core/ast/comment.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-core-3.2.1/lib/cucumber/core/ast/data_table.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-core-3.2.1/lib/cucumber/core/ast/describes_itself.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-core-3.2.1/lib/cucumber/core/ast/doc_string.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-core-3.2.1/lib/cucumber/core/ast/empty_background.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-core-3.2.1/lib/cucumber/core/ast/empty_multiline_argument.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-core-3.2.1/lib/cucumber/core/ast/examples_table.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-core-3.2.1/lib/cucumber/core/ast/feature.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-core-3.2.1/lib/cucumber/core/ast/location.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-core-3.2.1/lib/cucumber/core/ast/names.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-core-3.2.1/lib/cucumber/core/ast/outline_step.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-core-3.2.1/lib/cucumber/core/ast/scenario.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-core-3.2.1/lib/cucumber/core/ast/scenario_outline.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-core-3.2.1/lib/cucumber/core/ast/step.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-core-3.2.1/lib/cucumber/core/ast/tag.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-core-3.2.1/lib/cucumber/core/compiler.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-core-3.2.1/lib/cucumber/core/event.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-core-3.2.1/lib/cucumber/core/event_bus.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-core-3.2.1/lib/cucumber/core/events.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-core-3.2.1/lib/cucumber/core/filter.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-core-3.2.1/lib/cucumber/core/gherkin$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-core-3.2.1/lib/cucumber/core/gherkin/ast_builder.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-core-3.2.1/lib/cucumber/core/gherkin/document.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-core-3.2.1/lib/cucumber/core/gherkin/parser.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-core-3.2.1/lib/cucumber/core/gherkin/tag_expression.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-core-3.2.1/lib/cucumber/core/gherkin/writer$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-core-3.2.1/lib/cucumber/core/gherkin/writer.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-core-3.2.1/lib/cucumber/core/gherkin/writer/helpers.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-core-3.2.1/lib/cucumber/core/platform.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-core-3.2.1/lib/cucumber/core/report$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-core-3.2.1/lib/cucumber/core/report/summary.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-core-3.2.1/lib/cucumber/core/test$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-core-3.2.1/lib/cucumber/core/test/action.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-core-3.2.1/lib/cucumber/core/test/around_hook.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-core-3.2.1/lib/cucumber/core/test/case.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-core-3.2.1/lib/cucumber/core/test/filters$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-core-3.2.1/lib/cucumber/core/test/filters.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-core-3.2.1/lib/cucumber/core/test/filters/activate_steps_for_self_test.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-core-3.2.1/lib/cucumber/core/test/filters/locations_filter.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-core-3.2.1/lib/cucumber/core/test/filters/name_filter.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-core-3.2.1/lib/cucumber/core/test/filters/tag_filter.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-core-3.2.1/lib/cucumber/core/test/result.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-core-3.2.1/lib/cucumber/core/test/runner.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-core-3.2.1/lib/cucumber/core/test/step.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-core-3.2.1/lib/cucumber/core/test/timer.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-core-3.2.1/lib/cucumber/core/version.rb$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/cucumber-core-3.2.1.gemspec$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/cucumber-core-3.2.1$
+- /usr/share/doc/cucumber-core-3.2.1/CHANGELOG.md.bz2$
+- /usr/share/doc/cucumber-core-3.2.1/README.md.bz2$

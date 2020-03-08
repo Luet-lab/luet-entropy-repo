@@ -1,0 +1,52 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/x265-3.1.2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/x265$
+- /usr/include$
+- /usr/include/x265.h$
+- /usr/include/x265_config.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libx265.a$
+- /usr/lib32/libx265.so$
+- /usr/lib32/libx265.so.176$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/x265.pc$
+- /usr/lib64$
+- /usr/lib64/libx265.a$
+- /usr/lib64/libx265.so$
+- /usr/lib64/libx265.so.176$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/x265.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/x265-3.1.2$
+- /usr/share/doc/x265-3.1.2/intra$
+- /usr/share/doc/x265-3.1.2/intra/intra-16x16.txt.bz2$
+- /usr/share/doc/x265-3.1.2/intra/intra-32x32.txt.bz2$
+- /usr/share/doc/x265-3.1.2/intra/intra-4x4.txt.bz2$
+- /usr/share/doc/x265-3.1.2/intra/intra-8x8.txt.bz2$
+- /usr/share/doc/x265-3.1.2/reST$
+- /usr/share/doc/x265-3.1.2/reST/Makefile.bz2$
+- /usr/share/doc/x265-3.1.2/reST/api.rst.bz2$
+- /usr/share/doc/x265-3.1.2/reST/cli.rst.bz2$
+- /usr/share/doc/x265-3.1.2/reST/conf.py.bz2$
+- /usr/share/doc/x265-3.1.2/reST/index.rst.bz2$
+- /usr/share/doc/x265-3.1.2/reST/introduction.rst.bz2$
+- /usr/share/doc/x265-3.1.2/reST/lossless.rst.bz2$
+- /usr/share/doc/x265-3.1.2/reST/presets.rst.bz2$
+- /usr/share/doc/x265-3.1.2/reST/releasenotes.rst.bz2$
+- /usr/share/doc/x265-3.1.2/reST/svthevc.rst.bz2$
+- /usr/share/doc/x265-3.1.2/reST/threading.rst.bz2$
+- /usr/share/doc/x265-3.1.2/reST/x265.rst.bz2$
+- /usr/share/doc/x265-3.1.2/uncrustify$
+- /usr/share/doc/x265-3.1.2/uncrustify/codingstyle.cfg.bz2$

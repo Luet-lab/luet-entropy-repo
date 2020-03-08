@@ -1,0 +1,35 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/rdiscount-2.2.0.1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/rdiscount$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/rdiscount-2.2.0.1$
+- /usr/lib64/ruby/gems/2.5.0/gems/rdiscount-2.2.0.1/bin$
+- /usr/lib64/ruby/gems/2.5.0/gems/rdiscount-2.2.0.1/bin/rdiscount$
+- /usr/lib64/ruby/gems/2.5.0/gems/rdiscount-2.2.0.1/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/rdiscount-2.2.0.1/lib/markdown.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rdiscount-2.2.0.1/lib/rdiscount.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rdiscount-2.2.0.1/lib/rdiscount.so$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/rdiscount-2.2.0.1.gemspec$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/rdiscount-2.2.0.1$
+- /usr/share/doc/rdiscount-2.2.0.1/README.markdown.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/rdiscount.1.bz2$

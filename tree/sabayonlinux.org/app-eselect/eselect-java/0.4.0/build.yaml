@@ -1,0 +1,69 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-eselect/eselect-java-0.4.0
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/ControlPanel$
+- /usr/bin/HtmlConverter$
+- /usr/bin/appletviewer$
+- /usr/bin/apt$
+- /usr/bin/extcheck$
+- /usr/bin/idlj$
+- /usr/bin/jar$
+- /usr/bin/jarsigner$
+- /usr/bin/java$
+- /usr/bin/javac$
+- /usr/bin/javadoc$
+- /usr/bin/javah$
+- /usr/bin/javap$
+- /usr/bin/javaws$
+- /usr/bin/jconsole$
+- /usr/bin/jcontrol$
+- /usr/bin/jdb$
+- /usr/bin/jhat$
+- /usr/bin/jinfo$
+- /usr/bin/jmap$
+- /usr/bin/jps$
+- /usr/bin/jrunscript$
+- /usr/bin/jsadebugd$
+- /usr/bin/jstack$
+- /usr/bin/jstat$
+- /usr/bin/jstatd$
+- /usr/bin/jvisualvm$
+- /usr/bin/keytool$
+- /usr/bin/native2ascii$
+- /usr/bin/orbd$
+- /usr/bin/pack200$
+- /usr/bin/policytool$
+- /usr/bin/rmic$
+- /usr/bin/rmid$
+- /usr/bin/rmiregistry$
+- /usr/bin/schemagen$
+- /usr/bin/serialver$
+- /usr/bin/servertool$
+- /usr/bin/tnameserv$
+- /usr/bin/wsgen$
+- /usr/bin/wsimport$
+- /usr/bin/xjc$
+- /usr/libexec$
+- /usr/libexec/eselect-java$
+- /usr/libexec/eselect-java/run-java-tool.bash$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/eselect-java-0.4.0$
+- /usr/share/doc/eselect-java-0.4.0/AUTHORS$
+- /usr/share/doc/eselect-java-0.4.0/ChangeLog$
+- /usr/share/doc/eselect-java-0.4.0/NEWS.bz2$
+- /usr/share/doc/eselect-java-0.4.0/README.bz2$
+- /usr/share/eselect$
+- /usr/share/eselect/modules$
+- /usr/share/eselect/modules/ecj.eselect$
+- /usr/share/eselect/modules/java-vm.eselect$
+- /usr/share/eselect/modules/maven.eselect$

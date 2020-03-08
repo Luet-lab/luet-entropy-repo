@@ -1,0 +1,41 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-text/htmltidy-20090325-r2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/tab2space$
+- /usr/bin/tidy$
+- /usr/include$
+- /usr/include/buffio.h$
+- /usr/include/platform.h$
+- /usr/include/tidy.h$
+- /usr/include/tidyenum.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libtidy-0.99.so.0$
+- /usr/lib64/libtidy-0.99.so.0.0.0$
+- /usr/lib64/libtidy.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/htmltidy-20090325-r2$
+- /usr/share/doc/htmltidy-20090325-r2/html$
+- /usr/share/doc/htmltidy-20090325-r2/html/Overview.html$
+- /usr/share/doc/htmltidy-20090325-r2/html/checked_by_tidy.gif$
+- /usr/share/doc/htmltidy-20090325-r2/html/faq.html$
+- /usr/share/doc/htmltidy-20090325-r2/html/grid.gif$
+- /usr/share/doc/htmltidy-20090325-r2/html/license.html$
+- /usr/share/doc/htmltidy-20090325-r2/html/pending.html$
+- /usr/share/doc/htmltidy-20090325-r2/html/quickref.html$
+- /usr/share/doc/htmltidy-20090325-r2/html/release-notes.html$
+- /usr/share/doc/htmltidy-20090325-r2/html/tidy.css$
+- /usr/share/doc/htmltidy-20090325-r2/html/tidy.gif$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/tidy.1.bz2$

@@ -1,0 +1,34 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i x11-libs/libXcursor-1.2.0
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/X11$
+- /usr/include/X11/Xcursor$
+- /usr/include/X11/Xcursor/Xcursor.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libXcursor.so$
+- /usr/lib32/libXcursor.so.1$
+- /usr/lib32/libXcursor.so.1.0.2$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/xcursor.pc$
+- /usr/lib64$
+- /usr/lib64/libXcursor.so$
+- /usr/lib64/libXcursor.so.1$
+- /usr/lib64/libXcursor.so.1.0.2$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/xcursor.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libXcursor-1.2.0$
+- /usr/share/doc/libXcursor-1.2.0/AUTHORS$
+- /usr/share/doc/libXcursor-1.2.0/ChangeLog.bz2$
+- /usr/share/doc/libXcursor-1.2.0/README.md.bz2$

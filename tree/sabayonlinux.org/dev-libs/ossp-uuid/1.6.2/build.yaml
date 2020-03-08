@@ -1,0 +1,64 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/ossp-uuid-1.6.2-r6
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/uuid$
+- /usr/bin/uuid-config$
+- /usr/include$
+- /usr/include/ossp$
+- /usr/include/ossp/uuid.*
+- /usr/include/ossp/uuid.h$
+- /usr/include/ossp/uuid_dce.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libossp-uuid.*
+- /usr/lib64/libossp-uuid.so$
+- /usr/lib64/libossp-uuid.so.16$
+- /usr/lib64/libossp-uuid.so.16.0.22$
+- /usr/lib64/libossp-uuid_dce.so$
+- /usr/lib64/libossp-uuid_dce.so.16$
+- /usr/lib64/libossp-uuid_dce.so.16.0.22$
+- /usr/lib64/perl5$
+- /usr/lib64/perl5/vendor_perl$
+- /usr/lib64/perl5/vendor_perl/5.28.2$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/OSSP$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/OSSP/uuid.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/OSSP/uuid.pod$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/OSSP$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/OSSP/uuid$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/OSSP/uuid/.packlist$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/OSSP/uuid/uuid.so$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/ossp-uuid.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/ossp-uuid-1.6.2-r6$
+- /usr/share/doc/ossp-uuid-1.6.2-r6/AUTHORS.bz2$
+- /usr/share/doc/ossp-uuid-1.6.2-r6/BINDINGS.bz2$
+- /usr/share/doc/ossp-uuid-1.6.2-r6/ChangeLog.bz2$
+- /usr/share/doc/ossp-uuid-1.6.2-r6/HISTORY.bz2$
+- /usr/share/doc/ossp-uuid-1.6.2-r6/NEWS.bz2$
+- /usr/share/doc/ossp-uuid-1.6.2-r6/OVERVIEW.bz2$
+- /usr/share/doc/ossp-uuid-1.6.2-r6/PORTING.bz2$
+- /usr/share/doc/ossp-uuid-1.6.2-r6/README.bz2$
+- /usr/share/doc/ossp-uuid-1.6.2-r6/SEEALSO.bz2$
+- /usr/share/doc/ossp-uuid-1.6.2-r6/THANKS.bz2$
+- /usr/share/doc/ossp-uuid-1.6.2-r6/TODO.bz2$
+- /usr/share/doc/ossp-uuid-1.6.2-r6/USERS.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/uuid-config.1.bz2$
+- /usr/share/man/man1/uuid.1.bz2$
+- /usr/share/man/man3$
+- /usr/share/man/man3/OSSP::uuid.3.bz2$
+- /usr/share/man/man3/uuid.*

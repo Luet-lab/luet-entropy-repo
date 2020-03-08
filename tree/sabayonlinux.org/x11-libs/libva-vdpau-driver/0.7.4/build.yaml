@@ -1,0 +1,32 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i x11-libs/libva-vdpau-driver-0.7.4-r5
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/va$
+- /usr/lib32/va/drivers$
+- /usr/lib32/va/drivers/nvidia_drv_video.so$
+- /usr/lib32/va/drivers/s3g_drv_video.so$
+- /usr/lib32/va/drivers/vdpau_drv_video.la$
+- /usr/lib32/va/drivers/vdpau_drv_video.so$
+- /usr/lib64$
+- /usr/lib64/va$
+- /usr/lib64/va/drivers$
+- /usr/lib64/va/drivers/nvidia_drv_video.so$
+- /usr/lib64/va/drivers/s3g_drv_video.so$
+- /usr/lib64/va/drivers/vdpau_drv_video.la$
+- /usr/lib64/va/drivers/vdpau_drv_video.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libva-vdpau-driver-0.7.4-r5$
+- /usr/share/doc/libva-vdpau-driver-0.7.4-r5/AUTHORS$
+- /usr/share/doc/libva-vdpau-driver-0.7.4-r5/NEWS.bz2$
+- /usr/share/doc/libva-vdpau-driver-0.7.4-r5/README.bz2$

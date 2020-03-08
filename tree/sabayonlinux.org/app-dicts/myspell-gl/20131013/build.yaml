@@ -1,0 +1,34 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-dicts/myspell-gl-20131013
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/myspell-gl-20131013$
+- /usr/share/doc/myspell-gl-20131013/changelog.txt.bz2$
+- /usr/share/doc/myspell-gl-20131013/package-description.txt.bz2$
+- /usr/share/doc/myspell-gl-20131013/readme-gl.txt.bz2$
+- /usr/share/doc/myspell-gl-20131013/readme.txt.bz2$
+- /usr/share/doc/myspell-gl-20131013/readme_hyph-gl.txt.bz2$
+- /usr/share/doc/myspell-gl-20131013/readme_th_gl.txt.bz2$
+- /usr/share/hunspell$
+- /usr/share/hunspell/gl_ES.aff$
+- /usr/share/hunspell/gl_ES.dic$
+- /usr/share/hyphen$
+- /usr/share/hyphen/hyph_gl.dic$
+- /usr/share/myspell$
+- /usr/share/myspell/gl_ES.aff$
+- /usr/share/myspell/gl_ES.dic$
+- /usr/share/myspell/hyph_gl.dic$
+- /usr/share/myspell/thesaurus_gl.dat$
+- /usr/share/myspell/thesaurus_gl.idx$
+- /usr/share/mythes$
+- /usr/share/mythes/thesaurus_gl.dat$
+- /usr/share/mythes/thesaurus_gl.idx$

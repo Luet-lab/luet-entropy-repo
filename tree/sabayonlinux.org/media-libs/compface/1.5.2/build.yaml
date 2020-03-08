@@ -1,0 +1,31 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/compface-1.5.2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/compface$
+- /usr/bin/uncompface$
+- /usr/bin/xbm2xface$
+- /usr/include$
+- /usr/include/compface.h$
+- /usr/lib64$
+- /usr/lib64/libcompface.a$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/compface-1.5.2$
+- /usr/share/doc/compface-1.5.2/ChangeLog.bz2$
+- /usr/share/doc/compface-1.5.2/README.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/compface.1.bz2$
+- /usr/share/man/man1/uncompface.1.bz2$
+- /usr/share/man/man3$
+- /usr/share/man/man3/compface.3.bz2$
+- /usr/share/man/man3/uncompface.3.bz2$

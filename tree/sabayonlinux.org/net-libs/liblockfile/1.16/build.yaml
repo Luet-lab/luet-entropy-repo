@@ -1,0 +1,32 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i net-libs/liblockfile-1.16
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/dotlockfile$
+- /usr/include$
+- /usr/include/lockfile.h$
+- /usr/include/maillock.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/liblockfile.so$
+- /usr/lib64/liblockfile.so.1$
+- /usr/lib64/liblockfile.so.1.0$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/liblockfile-1.16$
+- /usr/share/doc/liblockfile-1.16/Changelog.bz2$
+- /usr/share/doc/liblockfile-1.16/README.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/dotlockfile.1.bz2$
+- /usr/share/man/man3$
+- /usr/share/man/man3/lockfile_create.3.bz2$
+- /usr/share/man/man3/maillock.3.bz2$

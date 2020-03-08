@@ -1,0 +1,36 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i net-dns/avahi-gtk3-0.7-r3
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/avahi-discover$
+- /usr/bin/avahi-discover-standalone$
+- /usr/bin/bshell$
+- /usr/bin/bssh$
+- /usr/bin/bvnc$
+- /usr/include$
+- /usr/include/avahi-ui$
+- /usr/include/avahi-ui/avahi-ui.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libavahi-ui-gtk3.la$
+- /usr/lib64/libavahi-ui-gtk3.so$
+- /usr/lib64/libavahi-ui-gtk3.so.0$
+- /usr/lib64/libavahi-ui-gtk3.so.0.1.4$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/avahi-ui-gtk3.pc$
+- /usr/share$
+- /usr/share/applications$
+- /usr/share/applications/avahi-discover.desktop$
+- /usr/share/applications/bssh.desktop$
+- /usr/share/applications/bvnc.desktop$
+- /usr/share/avahi$
+- /usr/share/avahi/interfaces$
+- /usr/share/avahi/interfaces/avahi-discover.ui$

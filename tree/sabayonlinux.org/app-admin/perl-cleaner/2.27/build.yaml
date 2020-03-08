@@ -1,0 +1,17 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-admin/perl-cleaner-2.27
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/sbin$
+- /usr/sbin/perl-cleaner$
+- /usr/share$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/perl-cleaner.1.bz2$

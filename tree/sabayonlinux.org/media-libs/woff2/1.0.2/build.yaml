@@ -1,0 +1,31 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/woff2-1.0.2-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/woff2$
+- /usr/include/woff2/decode.h$
+- /usr/include/woff2/encode.h$
+- /usr/include/woff2/output.h$
+- /usr/lib64$
+- /usr/lib64/libwoff2common.so$
+- /usr/lib64/libwoff2common.so.1.0.2$
+- /usr/lib64/libwoff2dec.so$
+- /usr/lib64/libwoff2dec.so.1.0.2$
+- /usr/lib64/libwoff2enc.so$
+- /usr/lib64/libwoff2enc.so.1.0.2$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libwoff2common.pc$
+- /usr/lib64/pkgconfig/libwoff2dec.pc$
+- /usr/lib64/pkgconfig/libwoff2enc.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/woff2-1.0.2-r1$
+- /usr/share/doc/woff2-1.0.2-r1/README.md.bz2$

@@ -1,0 +1,59 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i sci-libs/openblas-0.3.7
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/include$
+- /usr/include/openblas$
+- /usr/include/openblas/cblas.h$
+- /usr/include/openblas/f77blas.h$
+- /usr/include/openblas/lapacke.h$
+- /usr/include/openblas/lapacke_config.h$
+- /usr/include/openblas/lapacke_mangling.h$
+- /usr/include/openblas/lapacke_utils.h$
+- /usr/include/openblas/openblas_config.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/blas$
+- /usr/lib64/blas/openblas$
+- /usr/lib64/blas/openblas/libblas.so$
+- /usr/lib64/blas/openblas/libblas.so.3$
+- /usr/lib64/blas/openblas/libcblas.so$
+- /usr/lib64/blas/openblas/libcblas.so.3$
+- /usr/lib64/cmake$
+- /usr/lib64/cmake/openblas$
+- /usr/lib64/cmake/openblas/OpenBLASConfig.cmake$
+- /usr/lib64/cmake/openblas/OpenBLASConfigVersion.cmake$
+- /usr/lib64/lapack$
+- /usr/lib64/lapack/openblas$
+- /usr/lib64/lapack/openblas/liblapack.so$
+- /usr/lib64/lapack/openblas/liblapack.so.3$
+- /usr/lib64/libopenblas.a$
+- /usr/lib64/libopenblas.so$
+- /usr/lib64/libopenblas.so.0$
+- /usr/lib64/libopenblas_sandybridgep-r0.3.7.a$
+- /usr/lib64/libopenblas_sandybridgep-r0.3.7.so$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/openblas.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/openblas-0.3.7$
+- /usr/share/doc/openblas-0.3.7/BACKERS.md.bz2$
+- /usr/share/doc/openblas-0.3.7/CONTRIBUTORS.md.bz2$
+- /usr/share/doc/openblas-0.3.7/Changelog.txt.bz2$
+- /usr/share/doc/openblas-0.3.7/GotoBLAS_00License.txt.bz2$
+- /usr/share/doc/openblas-0.3.7/GotoBLAS_01Readme.txt.bz2$
+- /usr/share/doc/openblas-0.3.7/GotoBLAS_02QuickInstall.txt.bz2$
+- /usr/share/doc/openblas-0.3.7/GotoBLAS_03FAQ.txt.bz2$
+- /usr/share/doc/openblas-0.3.7/GotoBLAS_04FAQ.txt.bz2$
+- /usr/share/doc/openblas-0.3.7/GotoBLAS_05LargePage.txt.bz2$
+- /usr/share/doc/openblas-0.3.7/GotoBLAS_06WeirdPerformance.txt.bz2$
+- /usr/share/doc/openblas-0.3.7/README.md.bz2$
+- /usr/share/doc/openblas-0.3.7/USAGE.md.bz2$

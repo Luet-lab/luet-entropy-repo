@@ -1,0 +1,24 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-util/ragel-6.10
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/ragel$
+- /usr/lib$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/ragel-6.10$
+- /usr/share/doc/ragel-6.10/CREDITS.bz2$
+- /usr/share/doc/ragel-6.10/ChangeLog.bz2$
+- /usr/share/doc/ragel-6.10/README.bz2$
+- /usr/share/doc/ragel-6.10/TODO.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/ragel.1.bz2$

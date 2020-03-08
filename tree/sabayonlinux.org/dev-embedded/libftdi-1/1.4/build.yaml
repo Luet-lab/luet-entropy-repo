@@ -1,0 +1,55 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-embedded/libftdi-1.4
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/libftdi1-config$
+- /usr/include$
+- /usr/include/libftdi1$
+- /usr/include/libftdi1/ftdi.h$
+- /usr/include/libftdi1/ftdi.hpp$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/cmake$
+- /usr/lib64/cmake/libftdi1$
+- /usr/lib64/cmake/libftdi1/LibFTDI1Config.cmake$
+- /usr/lib64/cmake/libftdi1/LibFTDI1ConfigVersion.cmake$
+- /usr/lib64/cmake/libftdi1/UseLibFTDI1.cmake$
+- /usr/lib64/libftdi1.so$
+- /usr/lib64/libftdi1.so.2$
+- /usr/lib64/libftdi1.so.2.4.0$
+- /usr/lib64/libftdipp1.so$
+- /usr/lib64/libftdipp1.so.2.4.0$
+- /usr/lib64/libftdipp1.so.3$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libftdi1.pc$
+- /usr/lib64/pkgconfig/libftdipp1.pc$
+- /usr/lib64/python3.6$
+- /usr/lib64/python3.6/site-packages$
+- /usr/lib64/python3.6/site-packages/__pycache__$
+- /usr/lib64/python3.6/site-packages/__pycache__/ftdi1.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/__pycache__/ftdi1.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/__pycache__/ftdi1.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/_ftdi1.so$
+- /usr/lib64/python3.6/site-packages/ftdi1.py$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libftdi-1.4$
+- /usr/share/doc/libftdi-1.4/AUTHORS.bz2$
+- /usr/share/doc/libftdi-1.4/ChangeLog.bz2$
+- /usr/share/doc/libftdi-1.4/README.build.bz2$
+- /usr/share/doc/libftdi-1.4/README.bz2$
+- /usr/share/doc/libftdi-1.4/README.mingw.bz2$
+- /usr/share/doc/libftdi-1.4/TODO$
+- /usr/share/libftdi$
+- /usr/share/libftdi/examples$
+- /usr/share/libftdi/examples/cbus.py$
+- /usr/share/libftdi/examples/complete.py$
+- /usr/share/libftdi/examples/simple.py$

@@ -1,0 +1,26 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-dicts/myspell-hu-1.6.1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/hunspell$
+- /usr/share/hunspell/hu_HU.aff$
+- /usr/share/hunspell/hu_HU.dic$
+- /usr/share/hyphen$
+- /usr/share/hyphen/hyph_hu_HU.dic$
+- /usr/share/myspell$
+- /usr/share/myspell/hu_HU.aff$
+- /usr/share/myspell/hu_HU.dic$
+- /usr/share/myspell/hyph_hu_HU.dic$
+- /usr/share/myspell/th_hu_HU_v2.dat$
+- /usr/share/myspell/th_hu_HU_v2.idx$
+- /usr/share/mythes$
+- /usr/share/mythes/th_hu_HU_v2.dat$
+- /usr/share/mythes/th_hu_HU_v2.idx$

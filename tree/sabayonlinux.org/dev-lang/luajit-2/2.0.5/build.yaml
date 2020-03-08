@@ -1,0 +1,72 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-lang/luajit-2.0.5-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/luajit$
+- /usr/bin/luajit-2.0.5$
+- /usr/include$
+- /usr/include/luajit-2.0$
+- /usr/include/luajit-2.0/lauxlib.h$
+- /usr/include/luajit-2.0/lua.h$
+- /usr/include/luajit-2.0/lua.hpp$
+- /usr/include/luajit-2.0/luaconf.h$
+- /usr/include/luajit-2.0/luajit.h$
+- /usr/include/luajit-2.0/lualib.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libluajit-5.1.so$
+- /usr/lib64/libluajit-5.1.so.2$
+- /usr/lib64/libluajit-5.1.so.2.0.5$
+- /usr/lib64/lua$
+- /usr/lib64/lua/5.1$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/luajit.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/luajit-2.0.5-r1$
+- /usr/share/doc/luajit-2.0.5-r1/README.bz2$
+- /usr/share/doc/luajit-2.0.5-r1/html$
+- /usr/share/doc/luajit-2.0.5-r1/html/bluequad-print.css$
+- /usr/share/doc/luajit-2.0.5-r1/html/bluequad.css$
+- /usr/share/doc/luajit-2.0.5-r1/html/changes.html$
+- /usr/share/doc/luajit-2.0.5-r1/html/contact.html$
+- /usr/share/doc/luajit-2.0.5-r1/html/ext_c_api.html$
+- /usr/share/doc/luajit-2.0.5-r1/html/ext_ffi.html$
+- /usr/share/doc/luajit-2.0.5-r1/html/ext_ffi_api.html$
+- /usr/share/doc/luajit-2.0.5-r1/html/ext_ffi_semantics.html$
+- /usr/share/doc/luajit-2.0.5-r1/html/ext_ffi_tutorial.html$
+- /usr/share/doc/luajit-2.0.5-r1/html/ext_jit.html$
+- /usr/share/doc/luajit-2.0.5-r1/html/extensions.html$
+- /usr/share/doc/luajit-2.0.5-r1/html/faq.html$
+- /usr/share/doc/luajit-2.0.5-r1/html/img$
+- /usr/share/doc/luajit-2.0.5-r1/html/img/contact.png$
+- /usr/share/doc/luajit-2.0.5-r1/html/install.html$
+- /usr/share/doc/luajit-2.0.5-r1/html/luajit.html$
+- /usr/share/doc/luajit-2.0.5-r1/html/running.html$
+- /usr/share/doc/luajit-2.0.5-r1/html/status.html$
+- /usr/share/lua$
+- /usr/share/lua/5.1$
+- /usr/share/luajit-2.0.5$
+- /usr/share/luajit-2.0.5/jit$
+- /usr/share/luajit-2.0.5/jit/bc.lua$
+- /usr/share/luajit-2.0.5/jit/bcsave.lua$
+- /usr/share/luajit-2.0.5/jit/dis_arm.lua$
+- /usr/share/luajit-2.0.5/jit/dis_mips.lua$
+- /usr/share/luajit-2.0.5/jit/dis_mipsel.lua$
+- /usr/share/luajit-2.0.5/jit/dis_ppc.lua$
+- /usr/share/luajit-2.0.5/jit/dis_x64.lua$
+- /usr/share/luajit-2.0.5/jit/dis_x86.lua$
+- /usr/share/luajit-2.0.5/jit/dump.lua$
+- /usr/share/luajit-2.0.5/jit/v.lua$
+- /usr/share/luajit-2.0.5/jit/vmdef.lua$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/luajit.1.bz2$

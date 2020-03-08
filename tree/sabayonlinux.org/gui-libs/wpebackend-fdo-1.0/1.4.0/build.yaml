@@ -1,0 +1,32 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i gui-libs/wpebackend-fdo-1.4.0
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/wpe-fdo-1.0$
+- /usr/include/wpe-fdo-1.0/wpe$
+- /usr/include/wpe-fdo-1.0/wpe/exported-image-egl.h$
+- /usr/include/wpe-fdo-1.0/wpe/fdo-egl.h$
+- /usr/include/wpe-fdo-1.0/wpe/fdo.h$
+- /usr/include/wpe-fdo-1.0/wpe/initialize-egl.h$
+- /usr/include/wpe-fdo-1.0/wpe/version.h$
+- /usr/include/wpe-fdo-1.0/wpe/view-backend-exportable-egl.h$
+- /usr/include/wpe-fdo-1.0/wpe/view-backend-exportable.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libWPEBackend-fdo-1.0.so$
+- /usr/lib64/libWPEBackend-fdo-1.0.so.1$
+- /usr/lib64/libWPEBackend-fdo-1.0.so.1.4.1$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/wpebackend-fdo-1.0.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/wpebackend-fdo-1.4.0$
+- /usr/share/doc/wpebackend-fdo-1.4.0/NEWS.bz2$

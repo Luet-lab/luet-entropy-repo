@@ -1,0 +1,32 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/vo-amrwbenc-0.1.3
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/vo-amrwbenc$
+- /usr/include/vo-amrwbenc/enc_if.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libvo-amrwbenc.so$
+- /usr/lib32/libvo-amrwbenc.so.0$
+- /usr/lib32/libvo-amrwbenc.so.0.0.4$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/vo-amrwbenc.pc$
+- /usr/lib64$
+- /usr/lib64/libvo-amrwbenc.so$
+- /usr/lib64/libvo-amrwbenc.so.0$
+- /usr/lib64/libvo-amrwbenc.so.0.0.4$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/vo-amrwbenc.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/vo-amrwbenc-0.1.3$
+- /usr/share/doc/vo-amrwbenc-0.1.3/ChangeLog.bz2$
+- /usr/share/doc/vo-amrwbenc-0.1.3/README.bz2$

@@ -1,0 +1,22 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i x11-apps/xset-1.2.4
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/xset$
+- /usr/lib$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/xset-1.2.4$
+- /usr/share/doc/xset-1.2.4/ChangeLog.bz2$
+- /usr/share/doc/xset-1.2.4/README.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/xset.1.bz2$

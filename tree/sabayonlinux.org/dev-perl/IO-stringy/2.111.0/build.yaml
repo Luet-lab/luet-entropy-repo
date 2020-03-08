@@ -1,0 +1,28 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-perl/IO-stringy-2.111.0
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/perl5$
+- /usr/lib64/perl5/vendor_perl$
+- /usr/lib64/perl5/vendor_perl/5.28.2$
+- /usr/lib64/perl5/vendor_perl/5.28.2/IO$
+- /usr/lib64/perl5/vendor_perl/5.28.2/IO/AtomicFile.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/IO/InnerFile.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/IO/Lines.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/IO/Scalar.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/IO/ScalarArray.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/IO/Stringy.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/IO/Wrap.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/IO/WrapTie.pm$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/IO-stringy-2.111.0$
+- /usr/share/doc/IO-stringy-2.111.0/README.bz2$

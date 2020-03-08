@@ -1,0 +1,30 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-util/strace-4.26
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/strace$
+- /usr/bin/strace-graph$
+- /usr/bin/strace-log-merge$
+- /usr/lib$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/strace-4.26$
+- /usr/share/doc/strace-4.26/AUTHORS$
+- /usr/share/doc/strace-4.26/CREDITS.bz2$
+- /usr/share/doc/strace-4.26/ChangeLog.bz2$
+- /usr/share/doc/strace-4.26/NEWS.bz2$
+- /usr/share/doc/strace-4.26/README-configure.bz2$
+- /usr/share/doc/strace-4.26/README-linux-ptrace.bz2$
+- /usr/share/doc/strace-4.26/README.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/strace-log-merge.1.bz2$
+- /usr/share/man/man1/strace.1.bz2$

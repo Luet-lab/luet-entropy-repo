@@ -1,0 +1,47 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/libvpx-1.7.0-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/vpxdec$
+- /usr/bin/vpxenc$
+- /usr/include$
+- /usr/include/vpx$
+- /usr/include/vpx/svc_context.h$
+- /usr/include/vpx/vp8.h$
+- /usr/include/vpx/vp8cx.h$
+- /usr/include/vpx/vp8dx.h$
+- /usr/include/vpx/vpx_codec.h$
+- /usr/include/vpx/vpx_decoder.h$
+- /usr/include/vpx/vpx_encoder.h$
+- /usr/include/vpx/vpx_frame_buffer.h$
+- /usr/include/vpx/vpx_image.h$
+- /usr/include/vpx/vpx_integer.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libvpx.so$
+- /usr/lib32/libvpx.so.5$
+- /usr/lib32/libvpx.so.5.0$
+- /usr/lib32/libvpx.so.5.0.0$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/vpx.pc$
+- /usr/lib64$
+- /usr/lib64/libvpx.so$
+- /usr/lib64/libvpx.so.5$
+- /usr/lib64/libvpx.so.5.0$
+- /usr/lib64/libvpx.so.5.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/vpx.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libvpx-1.7.0-r1$
+- /usr/share/doc/libvpx-1.7.0-r1/AUTHORS.bz2$
+- /usr/share/doc/libvpx-1.7.0-r1/CHANGELOG.bz2$
+- /usr/share/doc/libvpx-1.7.0-r1/README.bz2$

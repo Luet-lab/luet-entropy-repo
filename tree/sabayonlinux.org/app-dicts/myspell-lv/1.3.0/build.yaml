@@ -1,0 +1,28 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-dicts/myspell-lv-1.3.0
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/myspell-lv-1.3.0$
+- /usr/share/doc/myspell-lv-1.3.0/Changelog.txt.bz2$
+- /usr/share/doc/myspell-lv-1.3.0/README_hyph_lv_LV.txt.bz2$
+- /usr/share/doc/myspell-lv-1.3.0/README_lv_LV.txt.bz2$
+- /usr/share/doc/myspell-lv-1.3.0/version.txt.bz2$
+- /usr/share/hunspell$
+- /usr/share/hunspell/lv_LV.aff$
+- /usr/share/hunspell/lv_LV.dic$
+- /usr/share/hyphen$
+- /usr/share/hyphen/hyph_lv_LV.dic$
+- /usr/share/myspell$
+- /usr/share/myspell/hyph_lv_LV.dic$
+- /usr/share/myspell/lv_LV.aff$
+- /usr/share/myspell/lv_LV.dic$
+- /usr/share/mythes$

@@ -1,0 +1,38 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i sci-libs/blis-0.6.0
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/blis$
+- /usr/include/blis/blis.h$
+- /usr/include/blis/cblas.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/blas$
+- /usr/lib64/blas/blis$
+- /usr/lib64/blas/blis/libblas.so$
+- /usr/lib64/blas/blis/libblas.so.3$
+- /usr/lib64/blas/blis/libcblas.so$
+- /usr/lib64/blas/blis/libcblas.so.3$
+- /usr/lib64/libblis.so$
+- /usr/lib64/libblis.so.2$
+- /usr/lib64/libblis.so.2.0.0$
+- /usr/share$
+- /usr/share/blis$
+- /usr/share/blis/common.mk$
+- /usr/share/blis/config$
+- /usr/share/blis/config.mk$
+- /usr/share/blis/config/sandybridge$
+- /usr/share/blis/config/sandybridge/make_defs.mk$
+- /usr/share/doc$
+- /usr/share/doc/blis-0.6.0$
+- /usr/share/doc/blis-0.6.0/CHANGELOG.bz2$
+- /usr/share/doc/blis-0.6.0/CREDITS.bz2$
+- /usr/share/doc/blis-0.6.0/README.md.bz2$

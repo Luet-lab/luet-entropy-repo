@@ -2,7 +2,11 @@
 steps:
 - source /etc/profile && equo up
 - source /etc/profile && ACCEPT_LICENSE=* equo i dev-lang/lua-5.1.5-r4
-image: "sabayon/base"
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
 includes:
 - /usr$
 - /usr/bin$

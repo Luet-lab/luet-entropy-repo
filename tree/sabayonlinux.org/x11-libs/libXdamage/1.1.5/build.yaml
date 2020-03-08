@@ -1,0 +1,35 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i x11-libs/libXdamage-1.1.5
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/X11$
+- /usr/include/X11/extensions$
+- /usr/include/X11/extensions/Xdamage.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libXdamage.so$
+- /usr/lib32/libXdamage.so.1$
+- /usr/lib32/libXdamage.so.1.1.0$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/xdamage.pc$
+- /usr/lib64$
+- /usr/lib64/libXdamage.so$
+- /usr/lib64/libXdamage.so.1$
+- /usr/lib64/libXdamage.so.1.1.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/xdamage.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libXdamage-1.1.5$
+- /usr/share/doc/libXdamage-1.1.5/AUTHORS$
+- /usr/share/doc/libXdamage-1.1.5/ChangeLog.bz2$
+- /usr/share/doc/libXdamage-1.1.5/NEWS$
+- /usr/share/doc/libXdamage-1.1.5/README.md.bz2$

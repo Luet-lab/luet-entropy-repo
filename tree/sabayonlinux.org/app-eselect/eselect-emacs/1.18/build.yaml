@@ -1,0 +1,23 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-eselect/eselect-emacs-1.18
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/eselect-emacs-1.18$
+- /usr/share/doc/eselect-emacs-1.18/ChangeLog.bz2$
+- /usr/share/eselect$
+- /usr/share/eselect/modules$
+- /usr/share/eselect/modules/emacs.eselect$
+- /usr/share/eselect/modules/gnuclient.eselect$
+- /usr/share/man$
+- /usr/share/man/man5$
+- /usr/share/man/man5/emacs.eselect.5.bz2$
+- /usr/share/man/man5/gnuclient.eselect.5.bz2$

@@ -1,0 +1,67 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-eselect/eselect-opencl-1.1.0-r4
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/CL$
+- /usr/include/CL/cl.h$
+- /usr/include/CL/cl_egl.h$
+- /usr/include/CL/cl_ext.h$
+- /usr/include/CL/cl_gl.h$
+- /usr/include/CL/cl_gl_ext.h$
+- /usr/include/CL/cl_platform.h$
+- /usr/include/CL/opencl.h$
+- /usr/lib64$
+- /usr/lib64/OpenCL$
+- /usr/lib64/OpenCL/global$
+- /usr/lib64/OpenCL/global/include$
+- /usr/lib64/OpenCL/global/include/CL-1.0$
+- /usr/lib64/OpenCL/global/include/CL-1.0/cl.h$
+- /usr/lib64/OpenCL/global/include/CL-1.0/cl_ext.h$
+- /usr/lib64/OpenCL/global/include/CL-1.0/cl_gl.h$
+- /usr/lib64/OpenCL/global/include/CL-1.0/cl_gl_ext.h$
+- /usr/lib64/OpenCL/global/include/CL-1.0/cl_platform.h$
+- /usr/lib64/OpenCL/global/include/CL-1.0/opencl.h$
+- /usr/lib64/OpenCL/global/include/CL-1.1$
+- /usr/lib64/OpenCL/global/include/CL-1.1/cl.h$
+- /usr/lib64/OpenCL/global/include/CL-1.1/cl_ext.h$
+- /usr/lib64/OpenCL/global/include/CL-1.1/cl_gl.h$
+- /usr/lib64/OpenCL/global/include/CL-1.1/cl_gl_ext.h$
+- /usr/lib64/OpenCL/global/include/CL-1.1/cl_platform.h$
+- /usr/lib64/OpenCL/global/include/CL-1.1/opencl.h$
+- /usr/lib64/OpenCL/global/include/CL-1.2$
+- /usr/lib64/OpenCL/global/include/CL-1.2/cl.h$
+- /usr/lib64/OpenCL/global/include/CL-1.2/cl_egl.h$
+- /usr/lib64/OpenCL/global/include/CL-1.2/cl_ext.h$
+- /usr/lib64/OpenCL/global/include/CL-1.2/cl_gl.h$
+- /usr/lib64/OpenCL/global/include/CL-1.2/cl_gl_ext.h$
+- /usr/lib64/OpenCL/global/include/CL-1.2/cl_platform.h$
+- /usr/lib64/OpenCL/global/include/CL-1.2/opencl.h$
+- /usr/lib64/OpenCL/global/include/CL-2.0$
+- /usr/lib64/OpenCL/global/include/CL-2.0/cl.h$
+- /usr/lib64/OpenCL/global/include/CL-2.0/cl_egl.h$
+- /usr/lib64/OpenCL/global/include/CL-2.0/cl_ext.h$
+- /usr/lib64/OpenCL/global/include/CL-2.0/cl_gl.h$
+- /usr/lib64/OpenCL/global/include/CL-2.0/cl_gl_ext.h$
+- /usr/lib64/OpenCL/global/include/CL-2.0/cl_platform.h$
+- /usr/lib64/OpenCL/global/include/CL-2.0/opencl.h$
+- /usr/lib64/OpenCL/global/include/CL-2.1$
+- /usr/lib64/OpenCL/global/include/CL-2.1/cl.h$
+- /usr/lib64/OpenCL/global/include/CL-2.1/cl.hpp$
+- /usr/lib64/OpenCL/global/include/CL-2.1/cl_egl.h$
+- /usr/lib64/OpenCL/global/include/CL-2.1/cl_ext.h$
+- /usr/lib64/OpenCL/global/include/CL-2.1/cl_gl.h$
+- /usr/lib64/OpenCL/global/include/CL-2.1/cl_gl_ext.h$
+- /usr/lib64/OpenCL/global/include/CL-2.1/cl_platform.h$
+- /usr/lib64/OpenCL/global/include/CL-2.1/opencl.h$
+- /usr/share$
+- /usr/share/eselect$
+- /usr/share/eselect/modules$
+- /usr/share/eselect/modules/opencl.eselect$

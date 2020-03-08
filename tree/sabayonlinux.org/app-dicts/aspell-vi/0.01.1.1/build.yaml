@@ -1,0 +1,26 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-dicts/aspell-vi-0.01.1.1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/aspell-0.60$
+- /usr/lib64/aspell-0.60/tcvn3.cmap$
+- /usr/lib64/aspell-0.60/tcvn3.cset$
+- /usr/lib64/aspell-0.60/vi.dat$
+- /usr/lib64/aspell-0.60/vi.multi$
+- /usr/lib64/aspell-0.60/vi.rws$
+- /usr/lib64/aspell-0.60/viet.alias$
+- /usr/lib64/aspell-0.60/viscii.cmap$
+- /usr/lib64/aspell-0.60/viscii.cset$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/aspell-vi-0.01.1.1$
+- /usr/share/doc/aspell-vi-0.01.1.1/README.bz2$
+- /usr/share/doc/aspell-vi-0.01.1.1/info.bz2$

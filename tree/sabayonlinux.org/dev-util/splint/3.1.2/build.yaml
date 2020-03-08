@@ -1,0 +1,75 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-util/splint-3.1.2-r2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/splint$
+- /usr/lib$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/splint-3.1.2-r2$
+- /usr/share/doc/splint-3.1.2-r2/README.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/splint.1.bz2$
+- /usr/share/splint$
+- /usr/share/splint/imports$
+- /usr/share/splint/imports/assert.lcl$
+- /usr/share/splint/imports/assert.lcs$
+- /usr/share/splint/imports/ctype.lcl$
+- /usr/share/splint/imports/ctype.lcs$
+- /usr/share/splint/imports/errno.lcl$
+- /usr/share/splint/imports/errno.lcs$
+- /usr/share/splint/imports/limits.lcl$
+- /usr/share/splint/imports/limits.lcs$
+- /usr/share/splint/imports/locale.lcl$
+- /usr/share/splint/imports/locale.lcs$
+- /usr/share/splint/imports/math.lcl$
+- /usr/share/splint/imports/math.lcs$
+- /usr/share/splint/imports/setjmp.lcl$
+- /usr/share/splint/imports/setjmp.lcs$
+- /usr/share/splint/imports/signal.lcl$
+- /usr/share/splint/imports/signal.lcs$
+- /usr/share/splint/imports/stdarg.lcl$
+- /usr/share/splint/imports/stdarg.lcs$
+- /usr/share/splint/imports/stdio.lcl$
+- /usr/share/splint/imports/stdio.lcs$
+- /usr/share/splint/imports/stdlib.lcl$
+- /usr/share/splint/imports/stdlib.lcs$
+- /usr/share/splint/imports/string.lcl$
+- /usr/share/splint/imports/string.lcs$
+- /usr/share/splint/imports/strings.lcl$
+- /usr/share/splint/imports/strings.lcs$
+- /usr/share/splint/imports/time.lcl$
+- /usr/share/splint/imports/time.lcs$
+- /usr/share/splint/lib$
+- /usr/share/splint/lib/CTrait.syms$
+- /usr/share/splint/lib/CTraitGen.lcl$
+- /usr/share/splint/lib/bool.h$
+- /usr/share/splint/lib/file.mts$
+- /usr/share/splint/lib/file.xh$
+- /usr/share/splint/lib/filerw.mts$
+- /usr/share/splint/lib/filerw.xh$
+- /usr/share/splint/lib/lclinit.lci$
+- /usr/share/splint/lib/linux.h$
+- /usr/share/splint/lib/lslinit.lsi$
+- /usr/share/splint/lib/posix.h$
+- /usr/share/splint/lib/posix.lcd$
+- /usr/share/splint/lib/posixstrict.lcd$
+- /usr/share/splint/lib/standard.h$
+- /usr/share/splint/lib/standard.lcd$
+- /usr/share/splint/lib/standardstrict.lcd$
+- /usr/share/splint/lib/stdio.h$
+- /usr/share/splint/lib/stdlib.h$
+- /usr/share/splint/lib/tainted.mts$
+- /usr/share/splint/lib/tainted.xh$
+- /usr/share/splint/lib/unix.h$
+- /usr/share/splint/lib/unix.lcd$
+- /usr/share/splint/lib/unixstrict.lcd$

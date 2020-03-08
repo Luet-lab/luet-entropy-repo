@@ -1,0 +1,85 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-java/java-config-2.2.0-r4
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /etc$
+- /etc/java-config-2$
+- /etc/java-config-2/build$
+- /etc/java-config-2/build/compilers.conf$
+- /etc/java-config-2/build/jdk.conf$
+- /etc/java-config-2/virtuals$
+- /usr$
+- /usr/bin$
+- /usr/bin/depend-java-query$
+- /usr/bin/gjl$
+- /usr/bin/java-config$
+- /usr/bin/java-config-2$
+- /usr/lib$
+- /usr/lib/python-exec$
+- /usr/lib/python-exec/python3.6$
+- /usr/lib/python-exec/python3.6/depend-java-query$
+- /usr/lib/python-exec/python3.6/gjl$
+- /usr/lib/python-exec/python3.6/java-config-2$
+- /usr/lib64$
+- /usr/lib64/python3.6$
+- /usr/lib64/python3.6/site-packages$
+- /usr/lib64/python3.6/site-packages/java_config-2.2.0-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/java_config_2$
+- /usr/lib64/python3.6/site-packages/java_config_2/EnvironmentManager.py$
+- /usr/lib64/python3.6/site-packages/java_config_2/Errors.py$
+- /usr/lib64/python3.6/site-packages/java_config_2/FileParser.py$
+- /usr/lib64/python3.6/site-packages/java_config_2/OutputFormatter.py$
+- /usr/lib64/python3.6/site-packages/java_config_2/Package.py$
+- /usr/lib64/python3.6/site-packages/java_config_2/VM.py$
+- /usr/lib64/python3.6/site-packages/java_config_2/VersionManager.py$
+- /usr/lib64/python3.6/site-packages/java_config_2/Virtual.py$
+- /usr/lib64/python3.6/site-packages/java_config_2/__init__.py$
+- /usr/lib64/python3.6/site-packages/java_config_2/__pycache__$
+- /usr/lib64/python3.6/site-packages/java_config_2/__pycache__/EnvironmentManager.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/java_config_2/__pycache__/EnvironmentManager.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/java_config_2/__pycache__/EnvironmentManager.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/java_config_2/__pycache__/Errors.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/java_config_2/__pycache__/Errors.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/java_config_2/__pycache__/Errors.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/java_config_2/__pycache__/FileParser.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/java_config_2/__pycache__/FileParser.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/java_config_2/__pycache__/FileParser.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/java_config_2/__pycache__/OutputFormatter.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/java_config_2/__pycache__/OutputFormatter.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/java_config_2/__pycache__/OutputFormatter.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/java_config_2/__pycache__/Package.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/java_config_2/__pycache__/Package.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/java_config_2/__pycache__/Package.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/java_config_2/__pycache__/VM.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/java_config_2/__pycache__/VM.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/java_config_2/__pycache__/VM.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/java_config_2/__pycache__/VersionManager.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/java_config_2/__pycache__/VersionManager.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/java_config_2/__pycache__/VersionManager.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/java_config_2/__pycache__/Virtual.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/java_config_2/__pycache__/Virtual.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/java_config_2/__pycache__/Virtual.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/java_config_2/__pycache__/__init__.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/java_config_2/__pycache__/__init__.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/java_config_2/__pycache__/__init__.cpython-36.pyc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/java-config-2.2.0-r4$
+- /usr/share/doc/java-config-2.2.0-r4/ChangeLog.bz2$
+- /usr/share/doc/java-config-2.2.0-r4/NEWS.bz2$
+- /usr/share/doc/java-config-2.2.0-r4/README$
+- /usr/share/doc/java-config-2.2.0-r4/TODO.bz2$
+- /usr/share/java-config-2$
+- /usr/share/java-config-2/config$
+- /usr/share/java-config-2/config/jdk-defaults.conf$
+- /usr/share/java-config-2/launcher$
+- /usr/share/java-config-2/launcher/launcher.bash$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/java-config-2.1.bz2$

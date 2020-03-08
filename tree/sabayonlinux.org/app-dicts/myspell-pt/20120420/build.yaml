@@ -1,0 +1,31 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-dicts/myspell-pt-20120420
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/myspell-pt-20120420$
+- /usr/share/doc/myspell-pt-20120420/LICENSES.txt.bz2$
+- /usr/share/doc/myspell-pt-20120420/README_hyph_pt_PT.txt.bz2$
+- /usr/share/doc/myspell-pt-20120420/README_pt_PT.txt.bz2$
+- /usr/share/hunspell$
+- /usr/share/hunspell/pt_PT.aff$
+- /usr/share/hunspell/pt_PT.dic$
+- /usr/share/hyphen$
+- /usr/share/hyphen/hyph_pt_PT.dic$
+- /usr/share/myspell$
+- /usr/share/myspell/hyph_pt_PT.dic$
+- /usr/share/myspell/pt_PT.aff$
+- /usr/share/myspell/pt_PT.dic$
+- /usr/share/myspell/th_pt_PT.dat$
+- /usr/share/myspell/th_pt_PT.idx$
+- /usr/share/mythes$
+- /usr/share/mythes/th_pt_PT.dat$
+- /usr/share/mythes/th_pt_PT.idx$

@@ -1,0 +1,56 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/gd-2.2.5-r2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/annotate$
+- /usr/bin/bdftogd$
+- /usr/bin/gd2copypal$
+- /usr/bin/gd2togif$
+- /usr/bin/gd2topng$
+- /usr/bin/gdcmpgif$
+- /usr/bin/gdlib-config$
+- /usr/bin/gdparttopng$
+- /usr/bin/gdtopng$
+- /usr/bin/giftogd2$
+- /usr/bin/pngtogd$
+- /usr/bin/pngtogd2$
+- /usr/bin/webpng$
+- /usr/include$
+- /usr/include/entities.h$
+- /usr/include/gd.h$
+- /usr/include/gd_color_map.h$
+- /usr/include/gd_errors.h$
+- /usr/include/gd_io.h$
+- /usr/include/gdcache.h$
+- /usr/include/gdfontg.h$
+- /usr/include/gdfontl.h$
+- /usr/include/gdfontmb.h$
+- /usr/include/gdfonts.h$
+- /usr/include/gdfontt.h$
+- /usr/include/gdfx.h$
+- /usr/include/gdpp.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libgd.so$
+- /usr/lib32/libgd.so.3$
+- /usr/lib32/libgd.so.3.0.5$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/gdlib.pc$
+- /usr/lib64$
+- /usr/lib64/libgd.so$
+- /usr/lib64/libgd.so.3$
+- /usr/lib64/libgd.so.3.0.5$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/gdlib.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/gd-2.2.5-r2$
+- /usr/share/doc/gd-2.2.5-r2/README.md.bz2$

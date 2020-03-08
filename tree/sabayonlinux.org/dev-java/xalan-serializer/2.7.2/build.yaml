@@ -1,0 +1,16 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-java/xalan-serializer-2.7.2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/xalan-serializer$
+- /usr/share/xalan-serializer/lib$
+- /usr/share/xalan-serializer/lib/serializer.jar$
+- /usr/share/xalan-serializer/package.env$

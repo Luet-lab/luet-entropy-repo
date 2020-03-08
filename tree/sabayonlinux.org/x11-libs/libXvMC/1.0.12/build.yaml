@@ -1,0 +1,43 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i x11-libs/libXvMC-1.0.12
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/X11$
+- /usr/include/X11/extensions$
+- /usr/include/X11/extensions/XvMClib.h$
+- /usr/include/X11/extensions/vldXvMC.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libXvMC.so$
+- /usr/lib32/libXvMC.so.1$
+- /usr/lib32/libXvMC.so.1.0.0$
+- /usr/lib32/libXvMCW.so$
+- /usr/lib32/libXvMCW.so.1$
+- /usr/lib32/libXvMCW.so.1.0.0$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/xvmc-wrapper.pc$
+- /usr/lib32/pkgconfig/xvmc.pc$
+- /usr/lib64$
+- /usr/lib64/libXvMC.so$
+- /usr/lib64/libXvMC.so.1$
+- /usr/lib64/libXvMC.so.1.0.0$
+- /usr/lib64/libXvMCW.so$
+- /usr/lib64/libXvMCW.so.1$
+- /usr/lib64/libXvMCW.so.1.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/xvmc-wrapper.pc$
+- /usr/lib64/pkgconfig/xvmc.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libXvMC-1.0.12$
+- /usr/share/doc/libXvMC-1.0.12/ChangeLog.bz2$
+- /usr/share/doc/libXvMC-1.0.12/README.md.bz2$
+- /usr/share/doc/libXvMC-1.0.12/XvMC_API.txt.bz2$

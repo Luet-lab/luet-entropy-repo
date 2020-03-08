@@ -1,0 +1,82 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/linecache2-1.0.0
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/python2.7$
+- /usr/lib64/python2.7/site-packages$
+- /usr/lib64/python2.7/site-packages/linecache2$
+- /usr/lib64/python2.7/site-packages/linecache2-1.0.0-py2.7.egg-info$
+- /usr/lib64/python2.7/site-packages/linecache2-1.0.0-py2.7.egg-info/PKG-INFO$
+- /usr/lib64/python2.7/site-packages/linecache2-1.0.0-py2.7.egg-info/SOURCES.txt$
+- /usr/lib64/python2.7/site-packages/linecache2-1.0.0-py2.7.egg-info/dependency_links.txt$
+- /usr/lib64/python2.7/site-packages/linecache2-1.0.0-py2.7.egg-info/not-zip-safe$
+- /usr/lib64/python2.7/site-packages/linecache2-1.0.0-py2.7.egg-info/pbr.json$
+- /usr/lib64/python2.7/site-packages/linecache2-1.0.0-py2.7.egg-info/top_level.txt$
+- /usr/lib64/python2.7/site-packages/linecache2/__init__.py$
+- /usr/lib64/python2.7/site-packages/linecache2/__init__.pyc$
+- /usr/lib64/python2.7/site-packages/linecache2/__init__.pyo$
+- /usr/lib64/python2.7/site-packages/linecache2/tests$
+- /usr/lib64/python2.7/site-packages/linecache2/tests/__init__.py$
+- /usr/lib64/python2.7/site-packages/linecache2/tests/__init__.pyc$
+- /usr/lib64/python2.7/site-packages/linecache2/tests/__init__.pyo$
+- /usr/lib64/python2.7/site-packages/linecache2/tests/inspect_fodder.py$
+- /usr/lib64/python2.7/site-packages/linecache2/tests/inspect_fodder.pyc$
+- /usr/lib64/python2.7/site-packages/linecache2/tests/inspect_fodder.pyo$
+- /usr/lib64/python2.7/site-packages/linecache2/tests/inspect_fodder2.py$
+- /usr/lib64/python2.7/site-packages/linecache2/tests/mapping_tests.py$
+- /usr/lib64/python2.7/site-packages/linecache2/tests/mapping_tests.pyc$
+- /usr/lib64/python2.7/site-packages/linecache2/tests/mapping_tests.pyo$
+- /usr/lib64/python2.7/site-packages/linecache2/tests/test_linecache.py$
+- /usr/lib64/python2.7/site-packages/linecache2/tests/test_linecache.pyc$
+- /usr/lib64/python2.7/site-packages/linecache2/tests/test_linecache.pyo$
+- /usr/lib64/python3.6$
+- /usr/lib64/python3.6/site-packages$
+- /usr/lib64/python3.6/site-packages/linecache2$
+- /usr/lib64/python3.6/site-packages/linecache2-1.0.0-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/linecache2-1.0.0-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/linecache2-1.0.0-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/linecache2-1.0.0-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/linecache2-1.0.0-py3.6.egg-info/not-zip-safe$
+- /usr/lib64/python3.6/site-packages/linecache2-1.0.0-py3.6.egg-info/pbr.json$
+- /usr/lib64/python3.6/site-packages/linecache2-1.0.0-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/linecache2/__init__.py$
+- /usr/lib64/python3.6/site-packages/linecache2/__pycache__$
+- /usr/lib64/python3.6/site-packages/linecache2/__pycache__/__init__.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/linecache2/__pycache__/__init__.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/linecache2/__pycache__/__init__.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/linecache2/tests$
+- /usr/lib64/python3.6/site-packages/linecache2/tests/__init__.py$
+- /usr/lib64/python3.6/site-packages/linecache2/tests/__pycache__$
+- /usr/lib64/python3.6/site-packages/linecache2/tests/__pycache__/__init__.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/linecache2/tests/__pycache__/__init__.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/linecache2/tests/__pycache__/__init__.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/linecache2/tests/__pycache__/inspect_fodder.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/linecache2/tests/__pycache__/inspect_fodder.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/linecache2/tests/__pycache__/inspect_fodder.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/linecache2/tests/__pycache__/inspect_fodder2.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/linecache2/tests/__pycache__/inspect_fodder2.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/linecache2/tests/__pycache__/inspect_fodder2.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/linecache2/tests/__pycache__/mapping_tests.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/linecache2/tests/__pycache__/mapping_tests.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/linecache2/tests/__pycache__/mapping_tests.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/linecache2/tests/__pycache__/test_linecache.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/linecache2/tests/__pycache__/test_linecache.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/linecache2/tests/__pycache__/test_linecache.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/linecache2/tests/inspect_fodder.py$
+- /usr/lib64/python3.6/site-packages/linecache2/tests/inspect_fodder2.py$
+- /usr/lib64/python3.6/site-packages/linecache2/tests/mapping_tests.py$
+- /usr/lib64/python3.6/site-packages/linecache2/tests/test_linecache.py$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/linecache2-1.0.0$
+- /usr/share/doc/linecache2-1.0.0/AUTHORS$
+- /usr/share/doc/linecache2-1.0.0/ChangeLog.bz2$
+- /usr/share/doc/linecache2-1.0.0/README.rst$

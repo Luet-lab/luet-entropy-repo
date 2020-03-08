@@ -1,0 +1,106 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-text/mecab-0.996-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /etc$
+- /etc/mecabrc$
+- /usr$
+- /usr/bin$
+- /usr/bin/mecab$
+- /usr/bin/mecab-config$
+- /usr/include$
+- /usr/include/mecab.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libmecab.so$
+- /usr/lib64/libmecab.so.2$
+- /usr/lib64/libmecab.so.2.0.0$
+- /usr/libexec$
+- /usr/libexec/mecab$
+- /usr/libexec/mecab/mecab-cost-train$
+- /usr/libexec/mecab/mecab-dict-gen$
+- /usr/libexec/mecab/mecab-dict-index$
+- /usr/libexec/mecab/mecab-system-eval$
+- /usr/libexec/mecab/mecab-test-gen$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/mecab-0.996-r1$
+- /usr/share/doc/mecab-0.996-r1/AUTHORS$
+- /usr/share/doc/mecab-0.996-r1/README$
+- /usr/share/doc/mecab-0.996-r1/html$
+- /usr/share/doc/mecab-0.996-r1/html/bindings.html$
+- /usr/share/doc/mecab-0.996-r1/html/dic-detail.html$
+- /usr/share/doc/mecab-0.996-r1/html/dic.html$
+- /usr/share/doc/mecab-0.996-r1/html/doxygen$
+- /usr/share/doc/mecab-0.996-r1/html/doxygen/annotated.html$
+- /usr/share/doc/mecab-0.996-r1/html/doxygen/bc_s.png$
+- /usr/share/doc/mecab-0.996-r1/html/doxygen/classMeCab_1_1Lattice-members.html$
+- /usr/share/doc/mecab-0.996-r1/html/doxygen/classMeCab_1_1Lattice.html$
+- /usr/share/doc/mecab-0.996-r1/html/doxygen/classMeCab_1_1Model-members.html$
+- /usr/share/doc/mecab-0.996-r1/html/doxygen/classMeCab_1_1Model.html$
+- /usr/share/doc/mecab-0.996-r1/html/doxygen/classMeCab_1_1Tagger-members.html$
+- /usr/share/doc/mecab-0.996-r1/html/doxygen/classMeCab_1_1Tagger.html$
+- /usr/share/doc/mecab-0.996-r1/html/doxygen/classes.html$
+- /usr/share/doc/mecab-0.996-r1/html/doxygen/closed.png$
+- /usr/share/doc/mecab-0.996-r1/html/doxygen/doxygen.css$
+- /usr/share/doc/mecab-0.996-r1/html/doxygen/doxygen.png$
+- /usr/share/doc/mecab-0.996-r1/html/doxygen/files.html$
+- /usr/share/doc/mecab-0.996-r1/html/doxygen/functions.html$
+- /usr/share/doc/mecab-0.996-r1/html/doxygen/functions_func.html$
+- /usr/share/doc/mecab-0.996-r1/html/doxygen/functions_vars.html$
+- /usr/share/doc/mecab-0.996-r1/html/doxygen/globals.html$
+- /usr/share/doc/mecab-0.996-r1/html/doxygen/globals_defs.html$
+- /usr/share/doc/mecab-0.996-r1/html/doxygen/globals_eval.html$
+- /usr/share/doc/mecab-0.996-r1/html/doxygen/globals_func.html$
+- /usr/share/doc/mecab-0.996-r1/html/doxygen/globals_type.html$
+- /usr/share/doc/mecab-0.996-r1/html/doxygen/index.html$
+- /usr/share/doc/mecab-0.996-r1/html/doxygen/mecab_8h-source.html$
+- /usr/share/doc/mecab-0.996-r1/html/doxygen/mecab_8h.html$
+- /usr/share/doc/mecab-0.996-r1/html/doxygen/mecab_8h_source.html$
+- /usr/share/doc/mecab-0.996-r1/html/doxygen/namespaceMeCab.html$
+- /usr/share/doc/mecab-0.996-r1/html/doxygen/namespacemembers.html$
+- /usr/share/doc/mecab-0.996-r1/html/doxygen/namespacemembers_func.html$
+- /usr/share/doc/mecab-0.996-r1/html/doxygen/namespacemembers_type.html$
+- /usr/share/doc/mecab-0.996-r1/html/doxygen/namespaces.html$
+- /usr/share/doc/mecab-0.996-r1/html/doxygen/nav_f.png$
+- /usr/share/doc/mecab-0.996-r1/html/doxygen/nav_h.png$
+- /usr/share/doc/mecab-0.996-r1/html/doxygen/open.png$
+- /usr/share/doc/mecab-0.996-r1/html/doxygen/structmecab__dictionary__info__t-members.html$
+- /usr/share/doc/mecab-0.996-r1/html/doxygen/structmecab__dictionary__info__t.html$
+- /usr/share/doc/mecab-0.996-r1/html/doxygen/structmecab__node__t-members.html$
+- /usr/share/doc/mecab-0.996-r1/html/doxygen/structmecab__node__t.html$
+- /usr/share/doc/mecab-0.996-r1/html/doxygen/structmecab__path__t-members.html$
+- /usr/share/doc/mecab-0.996-r1/html/doxygen/structmecab__path__t.html$
+- /usr/share/doc/mecab-0.996-r1/html/doxygen/tab_a.png$
+- /usr/share/doc/mecab-0.996-r1/html/doxygen/tab_b.gif$
+- /usr/share/doc/mecab-0.996-r1/html/doxygen/tab_b.png$
+- /usr/share/doc/mecab-0.996-r1/html/doxygen/tab_h.png$
+- /usr/share/doc/mecab-0.996-r1/html/doxygen/tab_l.gif$
+- /usr/share/doc/mecab-0.996-r1/html/doxygen/tab_r.gif$
+- /usr/share/doc/mecab-0.996-r1/html/doxygen/tab_s.png$
+- /usr/share/doc/mecab-0.996-r1/html/doxygen/tabs.css$
+- /usr/share/doc/mecab-0.996-r1/html/en$
+- /usr/share/doc/mecab-0.996-r1/html/en/bindings.html$
+- /usr/share/doc/mecab-0.996-r1/html/feature.html$
+- /usr/share/doc/mecab-0.996-r1/html/feature.png$
+- /usr/share/doc/mecab-0.996-r1/html/flow.png$
+- /usr/share/doc/mecab-0.996-r1/html/format.html$
+- /usr/share/doc/mecab-0.996-r1/html/index.html$
+- /usr/share/doc/mecab-0.996-r1/html/learn.html$
+- /usr/share/doc/mecab-0.996-r1/html/libmecab.html$
+- /usr/share/doc/mecab-0.996-r1/html/mecab.css$
+- /usr/share/doc/mecab-0.996-r1/html/mecab.html$
+- /usr/share/doc/mecab-0.996-r1/html/partial.html$
+- /usr/share/doc/mecab-0.996-r1/html/posid.html$
+- /usr/share/doc/mecab-0.996-r1/html/result.png$
+- /usr/share/doc/mecab-0.996-r1/html/soft.html$
+- /usr/share/doc/mecab-0.996-r1/html/unk.html$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/mecab.1.bz2$

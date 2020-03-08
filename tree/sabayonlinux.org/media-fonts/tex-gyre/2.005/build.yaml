@@ -1,0 +1,50 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-fonts/tex-gyre-2.005
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/fonts$
+- /usr/share/fonts/tex-gyre$
+- /usr/share/fonts/tex-gyre/encodings.dir$
+- /usr/share/fonts/tex-gyre/fonts.dir$
+- /usr/share/fonts/tex-gyre/fonts.scale$
+- /usr/share/fonts/tex-gyre/texgyreadventor-bold.otf$
+- /usr/share/fonts/tex-gyre/texgyreadventor-bolditalic.otf$
+- /usr/share/fonts/tex-gyre/texgyreadventor-italic.otf$
+- /usr/share/fonts/tex-gyre/texgyreadventor-regular.otf$
+- /usr/share/fonts/tex-gyre/texgyrebonum-bold.otf$
+- /usr/share/fonts/tex-gyre/texgyrebonum-bolditalic.otf$
+- /usr/share/fonts/tex-gyre/texgyrebonum-italic.otf$
+- /usr/share/fonts/tex-gyre/texgyrebonum-regular.otf$
+- /usr/share/fonts/tex-gyre/texgyrechorus-mediumitalic.otf$
+- /usr/share/fonts/tex-gyre/texgyrecursor-bold.otf$
+- /usr/share/fonts/tex-gyre/texgyrecursor-bolditalic.otf$
+- /usr/share/fonts/tex-gyre/texgyrecursor-italic.otf$
+- /usr/share/fonts/tex-gyre/texgyrecursor-regular.otf$
+- /usr/share/fonts/tex-gyre/texgyreheros-bold.otf$
+- /usr/share/fonts/tex-gyre/texgyreheros-bolditalic.otf$
+- /usr/share/fonts/tex-gyre/texgyreheros-italic.otf$
+- /usr/share/fonts/tex-gyre/texgyreheros-regular.otf$
+- /usr/share/fonts/tex-gyre/texgyreheroscn-bold.otf$
+- /usr/share/fonts/tex-gyre/texgyreheroscn-bolditalic.otf$
+- /usr/share/fonts/tex-gyre/texgyreheroscn-italic.otf$
+- /usr/share/fonts/tex-gyre/texgyreheroscn-regular.otf$
+- /usr/share/fonts/tex-gyre/texgyrepagella-bold.otf$
+- /usr/share/fonts/tex-gyre/texgyrepagella-bolditalic.otf$
+- /usr/share/fonts/tex-gyre/texgyrepagella-italic.otf$
+- /usr/share/fonts/tex-gyre/texgyrepagella-regular.otf$
+- /usr/share/fonts/tex-gyre/texgyreschola-bold.otf$
+- /usr/share/fonts/tex-gyre/texgyreschola-bolditalic.otf$
+- /usr/share/fonts/tex-gyre/texgyreschola-italic.otf$
+- /usr/share/fonts/tex-gyre/texgyreschola-regular.otf$
+- /usr/share/fonts/tex-gyre/texgyretermes-bold.otf$
+- /usr/share/fonts/tex-gyre/texgyretermes-bolditalic.otf$
+- /usr/share/fonts/tex-gyre/texgyretermes-italic.otf$
+- /usr/share/fonts/tex-gyre/texgyretermes-regular.otf$

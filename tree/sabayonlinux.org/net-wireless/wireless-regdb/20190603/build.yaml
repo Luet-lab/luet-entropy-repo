@@ -1,0 +1,30 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i net-wireless/wireless-regdb-20190603
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /etc$
+- /etc/wireless-regdb$
+- /etc/wireless-regdb/pubkeys$
+- /etc/wireless-regdb/pubkeys/sforshee.key.pub.pem$
+- /lib$
+- /lib/firmware$
+- /lib/firmware/regulatory.db$
+- /lib/firmware/regulatory.db.p7s$
+- /usr$
+- /usr/lib$
+- /usr/lib/crda$
+- /usr/lib/crda/regulatory.bin$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/wireless-regdb-20190603$
+- /usr/share/doc/wireless-regdb-20190603/README.bz2$
+- /usr/share/doc/wireless-regdb-20190603/db.txt.bz2$
+- /usr/share/man$
+- /usr/share/man/man5$
+- /usr/share/man/man5/regulatory.bin.5.bz2$

@@ -1,0 +1,29 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/ptexenc-1.3.7_p20190410
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/ptexenc$
+- /usr/include/ptexenc/kanjicnv.h$
+- /usr/include/ptexenc/ptexenc.h$
+- /usr/include/ptexenc/unicode-jp.h$
+- /usr/include/ptexenc/unicode.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libptexenc.so$
+- /usr/lib64/libptexenc.so.1$
+- /usr/lib64/libptexenc.so.1.3.7$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/ptexenc.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/ptexenc-1.3.7_p20190410$
+- /usr/share/doc/ptexenc-1.3.7_p20190410/ChangeLog.bz2$
+- /usr/share/doc/ptexenc-1.3.7_p20190410/README.bz2$

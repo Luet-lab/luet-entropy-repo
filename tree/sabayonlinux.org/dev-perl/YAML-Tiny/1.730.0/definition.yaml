@@ -1,0 +1,14 @@
+
+category: "dev-perl"
+name: "YAML-Tiny"
+version: "1.730.0"
+requires:
+- category: "dev-lang"
+  name: "perl"
+  version: ">=5.28.2"
+- category: "dev-perl"
+  name: "JSON-MaybeXS"
+  version: ">=1.3.9"
+- category: "dev-perl"
+  name: "JSON-XS"
+  version: ">=3.40.0"

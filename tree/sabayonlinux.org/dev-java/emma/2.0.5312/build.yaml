@@ -1,0 +1,20 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-java/emma-2.0.5312-r3
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/ant$
+- /usr/share/ant/tasks$
+- /usr/share/ant/tasks/emma$
+- /usr/share/emma$
+- /usr/share/emma/lib$
+- /usr/share/emma/lib/emma.jar$
+- /usr/share/emma/lib/emma_ant.jar$
+- /usr/share/emma/package.env$

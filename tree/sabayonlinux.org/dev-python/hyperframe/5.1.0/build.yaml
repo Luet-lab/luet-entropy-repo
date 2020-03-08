@@ -1,0 +1,61 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/hyperframe-5.1.0
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/python2.7$
+- /usr/lib64/python2.7/site-packages$
+- /usr/lib64/python2.7/site-packages/hyperframe$
+- /usr/lib64/python2.7/site-packages/hyperframe-5.1.0-py2.7.egg-info$
+- /usr/lib64/python2.7/site-packages/hyperframe-5.1.0-py2.7.egg-info/PKG-INFO$
+- /usr/lib64/python2.7/site-packages/hyperframe-5.1.0-py2.7.egg-info/SOURCES.txt$
+- /usr/lib64/python2.7/site-packages/hyperframe-5.1.0-py2.7.egg-info/dependency_links.txt$
+- /usr/lib64/python2.7/site-packages/hyperframe-5.1.0-py2.7.egg-info/top_level.txt$
+- /usr/lib64/python2.7/site-packages/hyperframe/__init__.py$
+- /usr/lib64/python2.7/site-packages/hyperframe/__init__.pyc$
+- /usr/lib64/python2.7/site-packages/hyperframe/__init__.pyo$
+- /usr/lib64/python2.7/site-packages/hyperframe/exceptions.py$
+- /usr/lib64/python2.7/site-packages/hyperframe/exceptions.pyc$
+- /usr/lib64/python2.7/site-packages/hyperframe/exceptions.pyo$
+- /usr/lib64/python2.7/site-packages/hyperframe/flags.py$
+- /usr/lib64/python2.7/site-packages/hyperframe/flags.pyc$
+- /usr/lib64/python2.7/site-packages/hyperframe/flags.pyo$
+- /usr/lib64/python2.7/site-packages/hyperframe/frame.py$
+- /usr/lib64/python2.7/site-packages/hyperframe/frame.pyc$
+- /usr/lib64/python2.7/site-packages/hyperframe/frame.pyo$
+- /usr/lib64/python3.6$
+- /usr/lib64/python3.6/site-packages$
+- /usr/lib64/python3.6/site-packages/hyperframe$
+- /usr/lib64/python3.6/site-packages/hyperframe-5.1.0-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/hyperframe-5.1.0-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/hyperframe-5.1.0-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/hyperframe-5.1.0-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/hyperframe-5.1.0-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/hyperframe/__init__.py$
+- /usr/lib64/python3.6/site-packages/hyperframe/__pycache__$
+- /usr/lib64/python3.6/site-packages/hyperframe/__pycache__/__init__.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/hyperframe/__pycache__/__init__.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/hyperframe/__pycache__/__init__.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/hyperframe/__pycache__/exceptions.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/hyperframe/__pycache__/exceptions.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/hyperframe/__pycache__/exceptions.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/hyperframe/__pycache__/flags.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/hyperframe/__pycache__/flags.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/hyperframe/__pycache__/flags.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/hyperframe/__pycache__/frame.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/hyperframe/__pycache__/frame.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/hyperframe/__pycache__/frame.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/hyperframe/exceptions.py$
+- /usr/lib64/python3.6/site-packages/hyperframe/flags.py$
+- /usr/lib64/python3.6/site-packages/hyperframe/frame.py$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/hyperframe-5.1.0$
+- /usr/share/doc/hyperframe-5.1.0/README.rst.bz2$

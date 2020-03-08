@@ -1,0 +1,19 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-i18n/unicode-emoji-12.0
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/unicode$
+- /usr/share/unicode/emoji$
+- /usr/share/unicode/emoji/emoji-data.txt$
+- /usr/share/unicode/emoji/emoji-sequences.txt$
+- /usr/share/unicode/emoji/emoji-test.txt$
+- /usr/share/unicode/emoji/emoji-variation-sequences.txt$
+- /usr/share/unicode/emoji/emoji-zwj-sequences.txt$

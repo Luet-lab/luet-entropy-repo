@@ -1,0 +1,21 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-java/xml-commons-resolver-1.2-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/xml-commons-resolver-1.2-r1$
+- /usr/share/doc/xml-commons-resolver-1.2-r1/KEYS.bz2$
+- /usr/share/doc/xml-commons-resolver-1.2-r1/LICENSE.resolver.txt.bz2$
+- /usr/share/doc/xml-commons-resolver-1.2-r1/NOTICE-resolver.txt.bz2$
+- /usr/share/xml-commons-resolver$
+- /usr/share/xml-commons-resolver/lib$
+- /usr/share/xml-commons-resolver/lib/xml-commons-resolver.jar$
+- /usr/share/xml-commons-resolver/package.env$

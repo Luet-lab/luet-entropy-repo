@@ -1,0 +1,22 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-java/junit-3.8.2-r2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/junit-3.8.2-r2$
+- /usr/share/doc/junit-3.8.2-r2/README.html$
+- /usr/share/doc/junit-3.8.2-r2/cpl-v10.html$
+- /usr/share/junit$
+- /usr/share/junit/lib$
+- /usr/share/junit/lib/junit.jar$
+- /usr/share/junit/package.env$
+- /usr/share/junit/sources$
+- /usr/share/junit/sources/junit-src.zip$

@@ -1,0 +1,46 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i sys-process/numactl-2.0.13
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/memhog$
+- /usr/bin/migratepages$
+- /usr/bin/migspeed$
+- /usr/bin/numactl$
+- /usr/bin/numademo$
+- /usr/bin/numastat$
+- /usr/include$
+- /usr/include/numa.h$
+- /usr/include/numacompat1.h$
+- /usr/include/numaif.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libnuma.so$
+- /usr/lib32/libnuma.so.1$
+- /usr/lib32/libnuma.so.1.0.0$
+- /usr/lib64$
+- /usr/lib64/libnuma.so$
+- /usr/lib64/libnuma.so.1$
+- /usr/lib64/libnuma.so.1.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/numa.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/numactl-2.0.13$
+- /usr/share/doc/numactl-2.0.13/README.md.bz2$
+- /usr/share/man$
+- /usr/share/man/man3$
+- /usr/share/man/man3/numa.3.bz2$
+- /usr/share/man/man8$
+- /usr/share/man/man8/memhog.8.bz2$
+- /usr/share/man/man8/migratepages.8.bz2$
+- /usr/share/man/man8/migspeed.8.bz2$
+- /usr/share/man/man8/numactl.8.bz2$
+- /usr/share/man/man8/numastat.8.bz2$

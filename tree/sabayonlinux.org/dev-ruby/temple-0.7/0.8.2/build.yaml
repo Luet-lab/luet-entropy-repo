@@ -1,0 +1,81 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/temple-0.8.2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/temple-0.8.2$
+- /usr/lib64/ruby/gems/2.5.0/gems/temple-0.8.2/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/temple-0.8.2/lib/temple$
+- /usr/lib64/ruby/gems/2.5.0/gems/temple-0.8.2/lib/temple.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/temple-0.8.2/lib/temple/engine.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/temple-0.8.2/lib/temple/erb$
+- /usr/lib64/ruby/gems/2.5.0/gems/temple-0.8.2/lib/temple/erb/engine.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/temple-0.8.2/lib/temple/erb/parser.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/temple-0.8.2/lib/temple/erb/template.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/temple-0.8.2/lib/temple/erb/trimming.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/temple-0.8.2/lib/temple/exceptions.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/temple-0.8.2/lib/temple/filter.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/temple-0.8.2/lib/temple/filters$
+- /usr/lib64/ruby/gems/2.5.0/gems/temple-0.8.2/lib/temple/filters/code_merger.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/temple-0.8.2/lib/temple/filters/control_flow.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/temple-0.8.2/lib/temple/filters/dynamic_inliner.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/temple-0.8.2/lib/temple/filters/encoding.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/temple-0.8.2/lib/temple/filters/eraser.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/temple-0.8.2/lib/temple/filters/escapable.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/temple-0.8.2/lib/temple/filters/multi_flattener.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/temple-0.8.2/lib/temple/filters/remove_bom.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/temple-0.8.2/lib/temple/filters/static_analyzer.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/temple-0.8.2/lib/temple/filters/static_merger.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/temple-0.8.2/lib/temple/filters/string_splitter.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/temple-0.8.2/lib/temple/filters/validator.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/temple-0.8.2/lib/temple/generator.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/temple-0.8.2/lib/temple/generators$
+- /usr/lib64/ruby/gems/2.5.0/gems/temple-0.8.2/lib/temple/generators/array.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/temple-0.8.2/lib/temple/generators/array_buffer.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/temple-0.8.2/lib/temple/generators/erb.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/temple-0.8.2/lib/temple/generators/rails_output_buffer.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/temple-0.8.2/lib/temple/generators/string_buffer.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/temple-0.8.2/lib/temple/grammar.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/temple-0.8.2/lib/temple/html$
+- /usr/lib64/ruby/gems/2.5.0/gems/temple-0.8.2/lib/temple/html/attribute_merger.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/temple-0.8.2/lib/temple/html/attribute_remover.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/temple-0.8.2/lib/temple/html/attribute_sorter.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/temple-0.8.2/lib/temple/html/dispatcher.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/temple-0.8.2/lib/temple/html/fast.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/temple-0.8.2/lib/temple/html/filter.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/temple-0.8.2/lib/temple/html/pretty.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/temple-0.8.2/lib/temple/html/safe.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/temple-0.8.2/lib/temple/map.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/temple-0.8.2/lib/temple/mixins$
+- /usr/lib64/ruby/gems/2.5.0/gems/temple-0.8.2/lib/temple/mixins/dispatcher.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/temple-0.8.2/lib/temple/mixins/engine_dsl.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/temple-0.8.2/lib/temple/mixins/grammar_dsl.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/temple-0.8.2/lib/temple/mixins/options.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/temple-0.8.2/lib/temple/mixins/template.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/temple-0.8.2/lib/temple/parser.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/temple-0.8.2/lib/temple/static_analyzer.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/temple-0.8.2/lib/temple/templates$
+- /usr/lib64/ruby/gems/2.5.0/gems/temple-0.8.2/lib/temple/templates.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/temple-0.8.2/lib/temple/templates/rails.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/temple-0.8.2/lib/temple/templates/tilt.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/temple-0.8.2/lib/temple/utils.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/temple-0.8.2/lib/temple/version.rb$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/temple-0.8.2.gemspec$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/temple-0.8.2$
+- /usr/share/doc/temple-0.8.2/CHANGES.bz2$
+- /usr/share/doc/temple-0.8.2/EXPRESSIONS.md.bz2$
+- /usr/share/doc/temple-0.8.2/README.md.bz2$

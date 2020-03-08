@@ -1,0 +1,39 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-xemacs/fsf-compat-1.24
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib/xemacs$
+- /usr/lib/xemacs/xemacs-packages$
+- /usr/lib/xemacs/xemacs-packages/lisp$
+- /usr/lib/xemacs/xemacs-packages/lisp/fsf-compat$
+- /usr/lib/xemacs/xemacs-packages/lisp/fsf-compat/ChangeLog$
+- /usr/lib/xemacs/xemacs-packages/lisp/fsf-compat/README$
+- /usr/lib/xemacs/xemacs-packages/lisp/fsf-compat/_pkg.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/fsf-compat/auto-autoloads.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/fsf-compat/auto-autoloads.elc$
+- /usr/lib/xemacs/xemacs-packages/lisp/fsf-compat/button.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/fsf-compat/button.elc$
+- /usr/lib/xemacs/xemacs-packages/lisp/fsf-compat/custom-load.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/fsf-compat/custom-load.elc$
+- /usr/lib/xemacs/xemacs-packages/lisp/fsf-compat/goto-addr.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/fsf-compat/goto-addr.elc$
+- /usr/lib/xemacs/xemacs-packages/lisp/fsf-compat/overlay.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/fsf-compat/overlay.elc$
+- /usr/lib/xemacs/xemacs-packages/lisp/fsf-compat/subr-fsf.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/fsf-compat/subr-fsf.elc$
+- /usr/lib/xemacs/xemacs-packages/lisp/fsf-compat/thingatpt.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/fsf-compat/thingatpt.elc$
+- /usr/lib/xemacs/xemacs-packages/lisp/fsf-compat/timer.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/fsf-compat/timer.elc$
+- /usr/lib/xemacs/xemacs-packages/lisp/fsf-compat/x-popup-menu.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/fsf-compat/x-popup-menu.elc$
+- /usr/lib/xemacs/xemacs-packages/pkginfo$
+- /usr/lib/xemacs/xemacs-packages/pkginfo/MANIFEST.fsf-compat$

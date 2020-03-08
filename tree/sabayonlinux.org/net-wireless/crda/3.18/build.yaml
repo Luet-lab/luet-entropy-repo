@@ -1,0 +1,35 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i net-wireless/crda-3.18-r3
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /etc$
+- /etc/wireless-regdb$
+- /etc/wireless-regdb/pubkeys$
+- /etc/wireless-regdb/pubkeys/.keep_net-wireless_crda-0$
+- /lib$
+- /lib/udev$
+- /lib/udev/rules.d$
+- /lib/udev/rules.d/85-regulatory.rules$
+- /usr$
+- /usr/include$
+- /usr/include/reglib$
+- /usr/include/reglib/nl80211.h$
+- /usr/include/reglib/regdb.h$
+- /usr/include/reglib/reglib.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libreg.so$
+- /usr/sbin$
+- /usr/sbin/crda$
+- /usr/sbin/regdbdump$
+- /usr/share$
+- /usr/share/man$
+- /usr/share/man/man8$
+- /usr/share/man/man8/crda.8.bz2$
+- /usr/share/man/man8/regdbdump.8.bz2$

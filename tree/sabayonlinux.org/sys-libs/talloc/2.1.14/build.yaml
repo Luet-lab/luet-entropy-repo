@@ -1,0 +1,43 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i sys-libs/talloc-2.1.14
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/pytalloc.h$
+- /usr/include/talloc.h$
+- /usr/include/x86_64-pc-linux-gnu$
+- /usr/include/x86_64-pc-linux-gnu/pytalloc.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libtalloc.so$
+- /usr/lib32/libtalloc.so.2$
+- /usr/lib32/libtalloc.so.2.1.14$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/talloc.pc$
+- /usr/lib64$
+- /usr/lib64/libpytalloc-util.so$
+- /usr/lib64/libpytalloc-util.so.2$
+- /usr/lib64/libpytalloc-util.so.2.1.14$
+- /usr/lib64/libtalloc.so$
+- /usr/lib64/libtalloc.so.2$
+- /usr/lib64/libtalloc.so.2.1.14$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/pytalloc-util.pc$
+- /usr/lib64/pkgconfig/talloc.pc$
+- /usr/lib64/python2.7$
+- /usr/lib64/python2.7/site-packages$
+- /usr/lib64/python2.7/site-packages/talloc.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/talloc-2.1.14$
+- /usr/share/doc/talloc-2.1.14/NEWS.bz2$
+- /usr/share/man$
+- /usr/share/man/man3$
+- /usr/share/man/man3/talloc.3.bz2$

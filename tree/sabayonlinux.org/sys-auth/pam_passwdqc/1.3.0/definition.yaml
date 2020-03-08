@@ -1,0 +1,11 @@
+
+category: "sys-auth"
+name: "pam_passwdqc"
+version: "1.3.0"
+requires:
+- category: "sys-auth"
+  name: "passwdqc"
+  version: ">=1.3.0"
+- category: "sys-libs"
+  name: "pam"
+  version: ">=1.3.0"

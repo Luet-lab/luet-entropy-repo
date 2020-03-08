@@ -1,0 +1,35 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-perl/B-Hooks-EndOfScope-0.240.0
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/perl5$
+- /usr/lib64/perl5/vendor_perl$
+- /usr/lib64/perl5/vendor_perl/5.28.2$
+- /usr/lib64/perl5/vendor_perl/5.28.2/B$
+- /usr/lib64/perl5/vendor_perl/5.28.2/B/Hooks$
+- /usr/lib64/perl5/vendor_perl/5.28.2/B/Hooks/EndOfScope$
+- /usr/lib64/perl5/vendor_perl/5.28.2/B/Hooks/EndOfScope.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/B/Hooks/EndOfScope/PP$
+- /usr/lib64/perl5/vendor_perl/5.28.2/B/Hooks/EndOfScope/PP.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/B/Hooks/EndOfScope/PP/FieldHash.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/B/Hooks/EndOfScope/PP/HintHash.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/B/Hooks/EndOfScope/XS.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/B$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/B/Hooks$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/B/Hooks/EndOfScope$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/B/Hooks/EndOfScope/.packlist$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/B-Hooks-EndOfScope-0.240.0$
+- /usr/share/doc/B-Hooks-EndOfScope-0.240.0/Changes.bz2$
+- /usr/share/doc/B-Hooks-EndOfScope-0.240.0/README.bz2$

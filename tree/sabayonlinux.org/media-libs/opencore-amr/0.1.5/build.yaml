@@ -1,0 +1,44 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/opencore-amr-0.1.5
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/opencore-amrnb$
+- /usr/include/opencore-amrnb/interf_dec.h$
+- /usr/include/opencore-amrnb/interf_enc.h$
+- /usr/include/opencore-amrwb$
+- /usr/include/opencore-amrwb/dec_if.h$
+- /usr/include/opencore-amrwb/if_rom.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libopencore-amrnb.so$
+- /usr/lib32/libopencore-amrnb.so.0$
+- /usr/lib32/libopencore-amrnb.so.0.0.3$
+- /usr/lib32/libopencore-amrwb.so$
+- /usr/lib32/libopencore-amrwb.so.0$
+- /usr/lib32/libopencore-amrwb.so.0.0.3$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/opencore-amrnb.pc$
+- /usr/lib32/pkgconfig/opencore-amrwb.pc$
+- /usr/lib64$
+- /usr/lib64/libopencore-amrnb.so$
+- /usr/lib64/libopencore-amrnb.so.0$
+- /usr/lib64/libopencore-amrnb.so.0.0.3$
+- /usr/lib64/libopencore-amrwb.so$
+- /usr/lib64/libopencore-amrwb.so.0$
+- /usr/lib64/libopencore-amrwb.so.0.0.3$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/opencore-amrnb.pc$
+- /usr/lib64/pkgconfig/opencore-amrwb.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/opencore-amr-0.1.5$
+- /usr/share/doc/opencore-amr-0.1.5/ChangeLog.bz2$
+- /usr/share/doc/opencore-amr-0.1.5/README.bz2$

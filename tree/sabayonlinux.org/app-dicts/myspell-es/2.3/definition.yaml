@@ -1,0 +1,14 @@
+
+category: "app-dicts"
+name: "myspell-es"
+version: "2.3"
+requires:
+- category: "app-arch"
+  name: "unzip"
+  version: ">=6.0"
+- category: "app-arch"
+  name: "bzip2"
+  version: ">=1.0.6"
+- category: "dev-libs"
+  name: "libnatspec"
+  version: ">=0.3.0"

@@ -1,0 +1,26 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-doc/xmltoman-0.4-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/xmlmantohtml$
+- /usr/bin/xmltoman$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/xmltoman-0.4-r1$
+- /usr/share/doc/xmltoman-0.4-r1/README.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/xmlmantohtml.1.bz2$
+- /usr/share/man/man1/xmltoman.1.bz2$
+- /usr/share/xmltoman$
+- /usr/share/xmltoman/xmltoman.css$
+- /usr/share/xmltoman/xmltoman.dtd$
+- /usr/share/xmltoman/xmltoman.xsl$

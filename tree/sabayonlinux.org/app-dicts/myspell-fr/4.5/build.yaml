@@ -1,0 +1,45 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-dicts/myspell-fr-4.5-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/myspell-fr-4.5-r1$
+- /usr/share/doc/myspell-fr-4.5-r1/README_fr.txt.bz2$
+- /usr/share/doc/myspell-fr-4.5-r1/README_hyph_fr-2.9.txt.bz2$
+- /usr/share/doc/myspell-fr-4.5-r1/README_hyph_fr.txt.bz2$
+- /usr/share/doc/myspell-fr-4.5-r1/README_thes_fr.txt.bz2$
+- /usr/share/doc/myspell-fr-4.5-r1/package-description.txt.bz2$
+- /usr/share/hunspell$
+- /usr/share/hunspell/fr-classique.aff$
+- /usr/share/hunspell/fr-classique.dic$
+- /usr/share/hunspell/fr-moderne.aff$
+- /usr/share/hunspell/fr-moderne.dic$
+- /usr/share/hunspell/fr-reforme1990.aff$
+- /usr/share/hunspell/fr-reforme1990.dic$
+- /usr/share/hunspell/fr_FR.aff$
+- /usr/share/hunspell/fr_FR.dic$
+- /usr/share/hyphen$
+- /usr/share/hyphen/hyph_fr_FR_v3.dic$
+- /usr/share/myspell$
+- /usr/share/myspell/fr-classique.aff$
+- /usr/share/myspell/fr-classique.dic$
+- /usr/share/myspell/fr-moderne.aff$
+- /usr/share/myspell/fr-moderne.dic$
+- /usr/share/myspell/fr-reforme1990.aff$
+- /usr/share/myspell/fr-reforme1990.dic$
+- /usr/share/myspell/fr_FR.aff$
+- /usr/share/myspell/fr_FR.dic$
+- /usr/share/myspell/hyph_fr_FR_v3.dic$
+- /usr/share/myspell/th_fr_FR_v3.dat$
+- /usr/share/myspell/th_fr_FR_v3.idx$
+- /usr/share/mythes$
+- /usr/share/mythes/th_fr_FR_v3.dat$
+- /usr/share/mythes/th_fr_FR_v3.idx$

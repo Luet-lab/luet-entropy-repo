@@ -1,0 +1,41 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-util/cucumber-wire-0.0.1-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-wire-0.0.1$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-wire-0.0.1/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-wire-0.0.1/lib/cucumber$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-wire-0.0.1/lib/cucumber/wire$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-wire-0.0.1/lib/cucumber/wire.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-wire-0.0.1/lib/cucumber/wire/add_hooks_filter.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-wire-0.0.1/lib/cucumber/wire/configuration.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-wire-0.0.1/lib/cucumber/wire/connection.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-wire-0.0.1/lib/cucumber/wire/connections.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-wire-0.0.1/lib/cucumber/wire/data_packet.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-wire-0.0.1/lib/cucumber/wire/exception.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-wire-0.0.1/lib/cucumber/wire/plugin.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-wire-0.0.1/lib/cucumber/wire/protocol$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-wire-0.0.1/lib/cucumber/wire/protocol.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-wire-0.0.1/lib/cucumber/wire/protocol/requests.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-wire-0.0.1/lib/cucumber/wire/request_handler.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-wire-0.0.1/lib/cucumber/wire/snippet.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-wire-0.0.1/lib/cucumber/wire/step_definition.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-wire-0.0.1/lib/cucumber/wire/version$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/cucumber-wire-0.0.1.gemspec$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/cucumber-wire-0.0.1-r1$
+- /usr/share/doc/cucumber-wire-0.0.1-r1/README.md$

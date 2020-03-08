@@ -1,0 +1,51 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/libmng-2.0.3
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/libmng.h$
+- /usr/include/libmng_conf.h$
+- /usr/include/libmng_types.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libmng.a$
+- /usr/lib32/libmng.so$
+- /usr/lib32/libmng.so.2$
+- /usr/lib32/libmng.so.2.0.2$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/libmng.pc$
+- /usr/lib64$
+- /usr/lib64/libmng.a$
+- /usr/lib64/libmng.so$
+- /usr/lib64/libmng.so.2$
+- /usr/lib64/libmng.so.2.0.2$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libmng.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libmng-2.0.3$
+- /usr/share/doc/libmng-2.0.3/CHANGES.bz2$
+- /usr/share/doc/libmng-2.0.3/README.autoconf.bz2$
+- /usr/share/doc/libmng-2.0.3/README.bz2$
+- /usr/share/doc/libmng-2.0.3/README.config.bz2$
+- /usr/share/doc/libmng-2.0.3/README.contrib.bz2$
+- /usr/share/doc/libmng-2.0.3/README.dll.bz2$
+- /usr/share/doc/libmng-2.0.3/README.examples.bz2$
+- /usr/share/doc/libmng-2.0.3/README.footprint.bz2$
+- /usr/share/doc/libmng-2.0.3/README.packaging.bz2$
+- /usr/share/doc/libmng-2.0.3/README.version.bz2$
+- /usr/share/doc/libmng-2.0.3/doc.readme.bz2$
+- /usr/share/doc/libmng-2.0.3/libmng.txt.bz2$
+- /usr/share/man$
+- /usr/share/man/man3$
+- /usr/share/man/man3/libmng.3.bz2$
+- /usr/share/man/man5$
+- /usr/share/man/man5/jng.5.bz2$
+- /usr/share/man/man5/mng.5.bz2$

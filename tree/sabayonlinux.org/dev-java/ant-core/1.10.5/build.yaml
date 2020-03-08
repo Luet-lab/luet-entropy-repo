@@ -1,0 +1,62 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-java/ant-core-1.10.5-r2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /etc$
+- /etc/env.d$
+- /etc/env.d/20ant$
+- /usr$
+- /usr/bin$
+- /usr/bin/ant$
+- /usr/bin/antRun$
+- /usr/bin/antRun.pl$
+- /usr/bin/runant.pl$
+- /usr/bin/runant.py$
+- /usr/share$
+- /usr/share/ant$
+- /usr/share/ant-core$
+- /usr/share/ant-core/bin$
+- /usr/share/ant-core/bin/antRun$
+- /usr/share/ant-core/bin/antRun.pl$
+- /usr/share/ant-core/bin/runant.pl$
+- /usr/share/ant-core/bin/runant.py$
+- /usr/share/ant-core/etc$
+- /usr/share/ant-core/etc/changelog.xsl$
+- /usr/share/ant-core/etc/checkstyle$
+- /usr/share/ant-core/etc/checkstyle/checkstyle-frames-sortby-check.xsl$
+- /usr/share/ant-core/etc/checkstyle/checkstyle-frames.xsl$
+- /usr/share/ant-core/etc/checkstyle/checkstyle-text.xsl$
+- /usr/share/ant-core/etc/checkstyle/checkstyle-xdoc.xsl$
+- /usr/share/ant-core/etc/coverage-frames.xsl$
+- /usr/share/ant-core/etc/jdepend-frames.xsl$
+- /usr/share/ant-core/etc/jdepend.xsl$
+- /usr/share/ant-core/etc/junit-frames-xalan1.xsl$
+- /usr/share/ant-core/etc/junit-frames.xsl$
+- /usr/share/ant-core/etc/junit-noframes.xsl$
+- /usr/share/ant-core/etc/log.xsl$
+- /usr/share/ant-core/etc/maudit-frames.xsl$
+- /usr/share/ant-core/etc/mmetrics-frames.xsl$
+- /usr/share/ant-core/etc/tagdiff.xsl$
+- /usr/share/ant-core/lib$
+- /usr/share/ant-core/lib/ant-bootstrap.jar$
+- /usr/share/ant-core/lib/ant-launcher.jar$
+- /usr/share/ant-core/lib/ant.jar$
+- /usr/share/ant-core/package.env$
+- /usr/share/ant/bin$
+- /usr/share/ant/etc$
+- /usr/share/ant/lib$
+- /usr/share/ant/lib/ant-bootstrap.jar$
+- /usr/share/ant/lib/ant-launcher.jar$
+- /usr/share/ant/lib/ant.jar$
+- /usr/share/doc$
+- /usr/share/doc/ant-core-1.10.5-r2$
+- /usr/share/doc/ant-core-1.10.5-r2/KEYS.bz2$
+- /usr/share/doc/ant-core-1.10.5-r2/NOTICE.bz2$
+- /usr/share/doc/ant-core-1.10.5-r2/README.bz2$
+- /usr/share/doc/ant-core-1.10.5-r2/WHATSNEW.bz2$

@@ -1,0 +1,25 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i sys-fs/lsscsi-0.30
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/lsscsi$
+- /usr/lib$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/lsscsi-0.30$
+- /usr/share/doc/lsscsi-0.30/AUTHORS$
+- /usr/share/doc/lsscsi-0.30/CREDITS.bz2$
+- /usr/share/doc/lsscsi-0.30/ChangeLog.bz2$
+- /usr/share/doc/lsscsi-0.30/README.bz2$
+- /usr/share/doc/lsscsi-0.30/TODO.bz2$
+- /usr/share/man$
+- /usr/share/man/man8$
+- /usr/share/man/man8/lsscsi.8.bz2$

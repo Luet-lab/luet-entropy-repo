@@ -2,12 +2,16 @@
 steps:
 - source /etc/profile && equo up
 - source /etc/profile && ACCEPT_LICENSE=* equo i sys-devel/flex-2.6.4-r1
-image: "sabayon/base"
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
 includes:
 - /usr$
 - /usr/bin$
 - /usr/bin/flex$
-- /usr/bin/flex.*
+- /usr/bin/flex[+][+]$
 - /usr/bin/lex$
 - /usr/include$
 - /usr/include/FlexLexer.h$

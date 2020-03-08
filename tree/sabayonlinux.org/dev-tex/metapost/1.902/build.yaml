@@ -1,0 +1,19 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-tex/metapost-1.902
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/mpost-metapost-1.902$
+- /usr/lib$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/metapost-1.902$
+- /usr/share/doc/metapost-1.902/CHANGES.bz2$
+- /usr/share/doc/metapost-1.902/README.bz2$

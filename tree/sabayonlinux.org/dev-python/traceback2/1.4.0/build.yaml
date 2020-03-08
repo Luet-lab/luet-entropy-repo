@@ -1,0 +1,65 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/traceback2-1.4.0
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/python2.7$
+- /usr/lib64/python2.7/site-packages$
+- /usr/lib64/python2.7/site-packages/traceback2$
+- /usr/lib64/python2.7/site-packages/traceback2-1.4.0-py2.7.egg-info$
+- /usr/lib64/python2.7/site-packages/traceback2-1.4.0-py2.7.egg-info/PKG-INFO$
+- /usr/lib64/python2.7/site-packages/traceback2-1.4.0-py2.7.egg-info/SOURCES.txt$
+- /usr/lib64/python2.7/site-packages/traceback2-1.4.0-py2.7.egg-info/dependency_links.txt$
+- /usr/lib64/python2.7/site-packages/traceback2-1.4.0-py2.7.egg-info/not-zip-safe$
+- /usr/lib64/python2.7/site-packages/traceback2-1.4.0-py2.7.egg-info/pbr.json$
+- /usr/lib64/python2.7/site-packages/traceback2-1.4.0-py2.7.egg-info/requires.txt$
+- /usr/lib64/python2.7/site-packages/traceback2-1.4.0-py2.7.egg-info/top_level.txt$
+- /usr/lib64/python2.7/site-packages/traceback2/__init__.py$
+- /usr/lib64/python2.7/site-packages/traceback2/__init__.pyc$
+- /usr/lib64/python2.7/site-packages/traceback2/__init__.pyo$
+- /usr/lib64/python2.7/site-packages/traceback2/tests$
+- /usr/lib64/python2.7/site-packages/traceback2/tests/__init__.py$
+- /usr/lib64/python2.7/site-packages/traceback2/tests/__init__.pyc$
+- /usr/lib64/python2.7/site-packages/traceback2/tests/__init__.pyo$
+- /usr/lib64/python2.7/site-packages/traceback2/tests/test_traceback.py$
+- /usr/lib64/python2.7/site-packages/traceback2/tests/test_traceback.pyc$
+- /usr/lib64/python2.7/site-packages/traceback2/tests/test_traceback.pyo$
+- /usr/lib64/python3.6$
+- /usr/lib64/python3.6/site-packages$
+- /usr/lib64/python3.6/site-packages/traceback2$
+- /usr/lib64/python3.6/site-packages/traceback2-1.4.0-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/traceback2-1.4.0-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/traceback2-1.4.0-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/traceback2-1.4.0-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/traceback2-1.4.0-py3.6.egg-info/not-zip-safe$
+- /usr/lib64/python3.6/site-packages/traceback2-1.4.0-py3.6.egg-info/pbr.json$
+- /usr/lib64/python3.6/site-packages/traceback2-1.4.0-py3.6.egg-info/requires.txt$
+- /usr/lib64/python3.6/site-packages/traceback2-1.4.0-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/traceback2/__init__.py$
+- /usr/lib64/python3.6/site-packages/traceback2/__pycache__$
+- /usr/lib64/python3.6/site-packages/traceback2/__pycache__/__init__.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/traceback2/__pycache__/__init__.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/traceback2/__pycache__/__init__.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/traceback2/tests$
+- /usr/lib64/python3.6/site-packages/traceback2/tests/__init__.py$
+- /usr/lib64/python3.6/site-packages/traceback2/tests/__pycache__$
+- /usr/lib64/python3.6/site-packages/traceback2/tests/__pycache__/__init__.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/traceback2/tests/__pycache__/__init__.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/traceback2/tests/__pycache__/__init__.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/traceback2/tests/__pycache__/test_traceback.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/traceback2/tests/__pycache__/test_traceback.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/traceback2/tests/__pycache__/test_traceback.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/traceback2/tests/test_traceback.py$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/traceback2-1.4.0$
+- /usr/share/doc/traceback2-1.4.0/AUTHORS$
+- /usr/share/doc/traceback2-1.4.0/ChangeLog.bz2$
+- /usr/share/doc/traceback2-1.4.0/README.rst.bz2$

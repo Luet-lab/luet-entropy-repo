@@ -1,0 +1,19 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-arch/lzma-9.20-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/lzmacon$
+- /usr/lib$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/lzma-9.20-r1$
+- /usr/share/doc/lzma-9.20-r1/history.txt.bz2$
+- /usr/share/doc/lzma-9.20-r1/lzma.txt.bz2$

@@ -1,0 +1,8 @@
+
+category: "acct-user"
+name: "smtpd"
+version: "0"
+requires:
+- category: "acct-group"
+  name: "smtpd"
+  version: ">=0"

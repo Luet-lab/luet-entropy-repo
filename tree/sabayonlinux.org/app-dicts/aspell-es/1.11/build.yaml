@@ -1,0 +1,25 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-dicts/aspell-es-1.11_p2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/aspell-0.60$
+- /usr/lib64/aspell-0.60/castellano.alias$
+- /usr/lib64/aspell-0.60/es.dat$
+- /usr/lib64/aspell-0.60/es.multi$
+- /usr/lib64/aspell-0.60/es.rws$
+- /usr/lib64/aspell-0.60/es_affix.dat$
+- /usr/lib64/aspell-0.60/espanol.alias$
+- /usr/lib64/aspell-0.60/spanish.alias$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/aspell-es-1.11_p2$
+- /usr/share/doc/aspell-es-1.11_p2/README.bz2$
+- /usr/share/doc/aspell-es-1.11_p2/info.bz2$

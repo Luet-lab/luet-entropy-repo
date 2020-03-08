@@ -1,0 +1,43 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/thread_safe-0.3.6
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/thread_safe-0.3.6$
+- /usr/lib64/ruby/gems/2.5.0/gems/thread_safe-0.3.6/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/thread_safe-0.3.6/lib/thread_safe$
+- /usr/lib64/ruby/gems/2.5.0/gems/thread_safe-0.3.6/lib/thread_safe.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/thread_safe-0.3.6/lib/thread_safe/atomic_reference_cache_backend.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/thread_safe-0.3.6/lib/thread_safe/cache.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/thread_safe-0.3.6/lib/thread_safe/mri_cache_backend.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/thread_safe-0.3.6/lib/thread_safe/non_concurrent_cache_backend.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/thread_safe-0.3.6/lib/thread_safe/synchronized_cache_backend.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/thread_safe-0.3.6/lib/thread_safe/synchronized_delegator.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/thread_safe-0.3.6/lib/thread_safe/util$
+- /usr/lib64/ruby/gems/2.5.0/gems/thread_safe-0.3.6/lib/thread_safe/util.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/thread_safe-0.3.6/lib/thread_safe/util/adder.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/thread_safe-0.3.6/lib/thread_safe/util/atomic_reference.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/thread_safe-0.3.6/lib/thread_safe/util/cheap_lockable.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/thread_safe-0.3.6/lib/thread_safe/util/power_of_two_tuple.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/thread_safe-0.3.6/lib/thread_safe/util/striped64.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/thread_safe-0.3.6/lib/thread_safe/util/volatile.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/thread_safe-0.3.6/lib/thread_safe/util/volatile_tuple.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/thread_safe-0.3.6/lib/thread_safe/util/xor_shift_random.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/thread_safe-0.3.6/lib/thread_safe/version.rb$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/thread_safe-0.3.6.gemspec$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/thread_safe-0.3.6$
+- /usr/share/doc/thread_safe-0.3.6/README.md.bz2$

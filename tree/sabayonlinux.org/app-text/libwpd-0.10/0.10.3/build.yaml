@@ -1,0 +1,35 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-text/libwpd-0.10.3
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/wpd2html-0.10$
+- /usr/bin/wpd2raw-0.10$
+- /usr/bin/wpd2text-0.10$
+- /usr/include$
+- /usr/include/libwpd-0.10$
+- /usr/include/libwpd-0.10/libwpd$
+- /usr/include/libwpd-0.10/libwpd/WPDocument.h$
+- /usr/include/libwpd-0.10/libwpd/libwpd.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libwpd-0.10.so$
+- /usr/lib64/libwpd-0.10.so.10$
+- /usr/lib64/libwpd-0.10.so.10.0.3$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libwpd-0.10.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libwpd-0.10.3$
+- /usr/share/doc/libwpd-0.10.3/CREDITS.bz2$
+- /usr/share/doc/libwpd-0.10.3/ChangeLog.bz2$
+- /usr/share/doc/libwpd-0.10.3/NEWS.bz2$
+- /usr/share/doc/libwpd-0.10.3/README.bz2$
+- /usr/share/doc/libwpd-0.10.3/TODO.bz2$

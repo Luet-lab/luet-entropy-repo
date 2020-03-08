@@ -1,0 +1,70 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/rspec-mocks-3.9.1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-mocks-3.9.1$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-mocks-3.9.1/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-mocks-3.9.1/lib/rspec$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-mocks-3.9.1/lib/rspec/mocks$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-mocks-3.9.1/lib/rspec/mocks.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-mocks-3.9.1/lib/rspec/mocks/any_instance$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-mocks-3.9.1/lib/rspec/mocks/any_instance.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-mocks-3.9.1/lib/rspec/mocks/any_instance/chain.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-mocks-3.9.1/lib/rspec/mocks/any_instance/error_generator.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-mocks-3.9.1/lib/rspec/mocks/any_instance/expect_chain_chain.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-mocks-3.9.1/lib/rspec/mocks/any_instance/expectation_chain.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-mocks-3.9.1/lib/rspec/mocks/any_instance/message_chains.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-mocks-3.9.1/lib/rspec/mocks/any_instance/proxy.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-mocks-3.9.1/lib/rspec/mocks/any_instance/recorder.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-mocks-3.9.1/lib/rspec/mocks/any_instance/stub_chain.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-mocks-3.9.1/lib/rspec/mocks/any_instance/stub_chain_chain.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-mocks-3.9.1/lib/rspec/mocks/argument_list_matcher.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-mocks-3.9.1/lib/rspec/mocks/argument_matchers.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-mocks-3.9.1/lib/rspec/mocks/configuration.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-mocks-3.9.1/lib/rspec/mocks/error_generator.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-mocks-3.9.1/lib/rspec/mocks/example_methods.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-mocks-3.9.1/lib/rspec/mocks/instance_method_stasher.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-mocks-3.9.1/lib/rspec/mocks/marshal_extension.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-mocks-3.9.1/lib/rspec/mocks/matchers$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-mocks-3.9.1/lib/rspec/mocks/matchers/expectation_customization.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-mocks-3.9.1/lib/rspec/mocks/matchers/have_received.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-mocks-3.9.1/lib/rspec/mocks/matchers/receive.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-mocks-3.9.1/lib/rspec/mocks/matchers/receive_message_chain.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-mocks-3.9.1/lib/rspec/mocks/matchers/receive_messages.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-mocks-3.9.1/lib/rspec/mocks/message_chain.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-mocks-3.9.1/lib/rspec/mocks/message_expectation.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-mocks-3.9.1/lib/rspec/mocks/method_double.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-mocks-3.9.1/lib/rspec/mocks/method_reference.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-mocks-3.9.1/lib/rspec/mocks/minitest_integration.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-mocks-3.9.1/lib/rspec/mocks/mutate_const.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-mocks-3.9.1/lib/rspec/mocks/object_reference.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-mocks-3.9.1/lib/rspec/mocks/order_group.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-mocks-3.9.1/lib/rspec/mocks/proxy.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-mocks-3.9.1/lib/rspec/mocks/space.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-mocks-3.9.1/lib/rspec/mocks/standalone.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-mocks-3.9.1/lib/rspec/mocks/syntax.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-mocks-3.9.1/lib/rspec/mocks/targets.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-mocks-3.9.1/lib/rspec/mocks/test_double.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-mocks-3.9.1/lib/rspec/mocks/verifying_double.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-mocks-3.9.1/lib/rspec/mocks/verifying_message_expectation.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-mocks-3.9.1/lib/rspec/mocks/verifying_proxy.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-mocks-3.9.1/lib/rspec/mocks/version.rb$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/rspec-mocks-3.9.1.gemspec$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/rspec-mocks-3.9.1$
+- /usr/share/doc/rspec-mocks-3.9.1/Changelog.md.bz2$
+- /usr/share/doc/rspec-mocks-3.9.1/README.md.bz2$

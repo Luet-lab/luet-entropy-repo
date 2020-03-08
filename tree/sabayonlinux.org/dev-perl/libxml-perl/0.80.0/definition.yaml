@@ -1,0 +1,14 @@
+
+category: "dev-perl"
+name: "libxml-perl"
+version: "0.80.0+r2"
+requires:
+- category: "dev-perl"
+  name: "XML-Parser"
+  version: ">=2.440.0"
+- category: "dev-libs"
+  name: "expat"
+  version: ">=2.2.8"
+- category: "dev-lang"
+  name: "perl"
+  version: ">=5.28.2"

@@ -1,0 +1,25 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i sys-libs/libtermcap-compat-2.0.8-r4
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /etc$
+- /etc/termcap$
+- /usr$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libtermcap.so.2$
+- /usr/lib32/libtermcap.so.2.0.8$
+- /usr/lib64$
+- /usr/lib64/libtermcap.so.2$
+- /usr/lib64/libtermcap.so.2.0.8$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libtermcap-compat-2.0.8-r4$
+- /usr/share/doc/libtermcap-compat-2.0.8-r4/ChangeLog.bz2$
+- /usr/share/doc/libtermcap-compat-2.0.8-r4/README.bz2$

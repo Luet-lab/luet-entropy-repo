@@ -1,0 +1,49 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i x11-libs/libXext-1.3.4
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/X11$
+- /usr/include/X11/extensions$
+- /usr/include/X11/extensions/MITMisc.h$
+- /usr/include/X11/extensions/XEVI.h$
+- /usr/include/X11/extensions/XLbx.h$
+- /usr/include/X11/extensions/XShm.h$
+- /usr/include/X11/extensions/Xag.h$
+- /usr/include/X11/extensions/Xcup.h$
+- /usr/include/X11/extensions/Xdbe.h$
+- /usr/include/X11/extensions/Xext.h$
+- /usr/include/X11/extensions/Xge.h$
+- /usr/include/X11/extensions/dpms.h$
+- /usr/include/X11/extensions/extutil.h$
+- /usr/include/X11/extensions/multibuf.h$
+- /usr/include/X11/extensions/security.h$
+- /usr/include/X11/extensions/shape.h$
+- /usr/include/X11/extensions/sync.h$
+- /usr/include/X11/extensions/xtestext1.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libXext.so$
+- /usr/lib32/libXext.so.6$
+- /usr/lib32/libXext.so.6.4.0$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/xext.pc$
+- /usr/lib64$
+- /usr/lib64/libXext.so$
+- /usr/lib64/libXext.so.6$
+- /usr/lib64/libXext.so.6.4.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/xext.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libXext-1.3.4$
+- /usr/share/doc/libXext-1.3.4/AUTHORS.bz2$
+- /usr/share/doc/libXext-1.3.4/ChangeLog.bz2$
+- /usr/share/doc/libXext-1.3.4/README.md.bz2$

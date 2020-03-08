@@ -1,0 +1,45 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/libdvdread-6.0.2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/dvdread$
+- /usr/include/dvdread/bitreader.h$
+- /usr/include/dvdread/dvd_reader.h$
+- /usr/include/dvdread/dvd_udf.h$
+- /usr/include/dvdread/ifo_print.h$
+- /usr/include/dvdread/ifo_read.h$
+- /usr/include/dvdread/ifo_types.h$
+- /usr/include/dvdread/nav_print.h$
+- /usr/include/dvdread/nav_read.h$
+- /usr/include/dvdread/nav_types.h$
+- /usr/include/dvdread/version.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libdvdread.so$
+- /usr/lib32/libdvdread.so.7$
+- /usr/lib32/libdvdread.so.7.0.0$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/dvdread.pc$
+- /usr/lib64$
+- /usr/lib64/libdvdread.so$
+- /usr/lib64/libdvdread.so.7$
+- /usr/lib64/libdvdread.so.7.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/dvdread.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libdvdread-6.0.2$
+- /usr/share/doc/libdvdread-6.0.2/AUTHORS.bz2$
+- /usr/share/doc/libdvdread-6.0.2/COPYING.bz2$
+- /usr/share/doc/libdvdread-6.0.2/ChangeLog.bz2$
+- /usr/share/doc/libdvdread-6.0.2/NEWS.bz2$
+- /usr/share/doc/libdvdread-6.0.2/README.bz2$
+- /usr/share/doc/libdvdread-6.0.2/TODO.bz2$

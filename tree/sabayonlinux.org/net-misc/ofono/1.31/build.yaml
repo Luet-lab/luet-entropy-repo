@@ -1,0 +1,85 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i net-misc/ofono-1.31
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /etc$
+- /etc/dbus-1$
+- /etc/dbus-1/system.d$
+- /etc/dbus-1/system.d/ofono.conf$
+- /etc/init.d$
+- /etc/init.d/ofono$
+- /etc/ofono$
+- /etc/ofono/phonesim.conf$
+- /lib$
+- /lib/systemd$
+- /lib/systemd/system$
+- /lib/systemd/system/ofono.service$
+- /usr$
+- /usr/include$
+- /usr/include/ofono$
+- /usr/include/ofono/audio-settings.h$
+- /usr/include/ofono/call-barring.h$
+- /usr/include/ofono/call-forwarding.h$
+- /usr/include/ofono/call-meter.h$
+- /usr/include/ofono/call-settings.h$
+- /usr/include/ofono/call-volume.h$
+- /usr/include/ofono/cbs.h$
+- /usr/include/ofono/cdma-connman.h$
+- /usr/include/ofono/cdma-netreg.h$
+- /usr/include/ofono/cdma-provision.h$
+- /usr/include/ofono/cdma-sms.h$
+- /usr/include/ofono/cdma-voicecall.h$
+- /usr/include/ofono/ctm.h$
+- /usr/include/ofono/dbus.h$
+- /usr/include/ofono/devinfo.h$
+- /usr/include/ofono/emulator.h$
+- /usr/include/ofono/gnss.h$
+- /usr/include/ofono/gprs-context.h$
+- /usr/include/ofono/gprs-provision.h$
+- /usr/include/ofono/gprs.h$
+- /usr/include/ofono/handsfree-audio.h$
+- /usr/include/ofono/handsfree.h$
+- /usr/include/ofono/history.h$
+- /usr/include/ofono/ims.h$
+- /usr/include/ofono/location-reporting.h$
+- /usr/include/ofono/log.h$
+- /usr/include/ofono/lte.h$
+- /usr/include/ofono/message-waiting.h$
+- /usr/include/ofono/modem.h$
+- /usr/include/ofono/netmon.h$
+- /usr/include/ofono/netreg.h$
+- /usr/include/ofono/nettime.h$
+- /usr/include/ofono/phonebook.h$
+- /usr/include/ofono/plugin.h$
+- /usr/include/ofono/private-network.h$
+- /usr/include/ofono/radio-settings.h$
+- /usr/include/ofono/sim-auth.h$
+- /usr/include/ofono/sim.h$
+- /usr/include/ofono/siri.h$
+- /usr/include/ofono/sms.h$
+- /usr/include/ofono/stk.h$
+- /usr/include/ofono/storage.h$
+- /usr/include/ofono/types.h$
+- /usr/include/ofono/ussd.h$
+- /usr/include/ofono/version.h$
+- /usr/include/ofono/voicecall.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/ofono.pc$
+- /usr/sbin$
+- /usr/sbin/ofonod$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/ofono-1.31$
+- /usr/share/doc/ofono-1.31/AUTHORS.bz2$
+- /usr/share/doc/ofono-1.31/ChangeLog.bz2$
+- /usr/share/man$
+- /usr/share/man/man8$
+- /usr/share/man/man8/ofonod.8.bz2$

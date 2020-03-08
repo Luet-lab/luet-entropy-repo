@@ -1,0 +1,67 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-video/vcdimager-2.0.1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/cdxa2mpeg$
+- /usr/bin/vcd-info$
+- /usr/bin/vcdimager$
+- /usr/bin/vcdxbuild$
+- /usr/bin/vcdxgen$
+- /usr/bin/vcdxminfo$
+- /usr/bin/vcdxrip$
+- /usr/include$
+- /usr/include/libvcd$
+- /usr/include/libvcd/files.h$
+- /usr/include/libvcd/files_private.h$
+- /usr/include/libvcd/inf.h$
+- /usr/include/libvcd/info.h$
+- /usr/include/libvcd/logging.h$
+- /usr/include/libvcd/sector.h$
+- /usr/include/libvcd/types.h$
+- /usr/include/libvcd/version.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libvcdinfo.so$
+- /usr/lib32/libvcdinfo.so.0$
+- /usr/lib32/libvcdinfo.so.0.2.0$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/libvcdinfo.pc$
+- /usr/lib64$
+- /usr/lib64/libvcdinfo.so$
+- /usr/lib64/libvcdinfo.so.0$
+- /usr/lib64/libvcdinfo.so.0.2.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libvcdinfo.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/vcdimager-2.0.1$
+- /usr/share/doc/vcdimager-2.0.1/AUTHORS$
+- /usr/share/doc/vcdimager-2.0.1/BUGS.bz2$
+- /usr/share/doc/vcdimager-2.0.1/ChangeLog.bz2$
+- /usr/share/doc/vcdimager-2.0.1/FAQ$
+- /usr/share/doc/vcdimager-2.0.1/HACKING.bz2$
+- /usr/share/doc/vcdimager-2.0.1/NEWS.bz2$
+- /usr/share/doc/vcdimager-2.0.1/README.bz2$
+- /usr/share/doc/vcdimager-2.0.1/THANKS.bz2$
+- /usr/share/doc/vcdimager-2.0.1/TODO.bz2$
+- /usr/share/info$
+- /usr/share/info/vcd-info.info.bz2$
+- /usr/share/info/vcdimager.info.bz2$
+- /usr/share/info/vcdxrip.info.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/cdxa2mpeg.1.bz2$
+- /usr/share/man/man1/vcd-info.1.bz2$
+- /usr/share/man/man1/vcdimager.1.bz2$
+- /usr/share/man/man1/vcdxbuild.1.bz2$
+- /usr/share/man/man1/vcdxgen.1.bz2$
+- /usr/share/man/man1/vcdxminfo.1.bz2$
+- /usr/share/man/man1/vcdxrip.1.bz2$

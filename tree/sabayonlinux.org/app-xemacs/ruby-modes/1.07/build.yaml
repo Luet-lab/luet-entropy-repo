@@ -1,0 +1,33 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-xemacs/ruby-modes-1.07
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib/xemacs$
+- /usr/lib/xemacs/xemacs-packages$
+- /usr/lib/xemacs/xemacs-packages/lisp$
+- /usr/lib/xemacs/xemacs-packages/lisp/ruby-modes$
+- /usr/lib/xemacs/xemacs-packages/lisp/ruby-modes/ChangeLog$
+- /usr/lib/xemacs/xemacs-packages/lisp/ruby-modes/README$
+- /usr/lib/xemacs/xemacs-packages/lisp/ruby-modes/_pkg.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/ruby-modes/auto-autoloads.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/ruby-modes/auto-autoloads.elc$
+- /usr/lib/xemacs/xemacs-packages/lisp/ruby-modes/custom-load.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/ruby-modes/custom-load.elc$
+- /usr/lib/xemacs/xemacs-packages/lisp/ruby-modes/inf-ruby.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/ruby-modes/inf-ruby.elc$
+- /usr/lib/xemacs/xemacs-packages/lisp/ruby-modes/ruby-electric.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/ruby-modes/ruby-electric.elc$
+- /usr/lib/xemacs/xemacs-packages/lisp/ruby-modes/ruby-mode.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/ruby-modes/ruby-mode.elc$
+- /usr/lib/xemacs/xemacs-packages/lisp/ruby-modes/rubydb3x.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/ruby-modes/rubydb3x.elc$
+- /usr/lib/xemacs/xemacs-packages/pkginfo$
+- /usr/lib/xemacs/xemacs-packages/pkginfo/MANIFEST.ruby-modes$

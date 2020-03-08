@@ -1,0 +1,14 @@
+
+category: "dev-texlive"
+name: "texlive-fontsextra"
+version: "2019"
+requires:
+- category: "dev-texlive"
+  name: "texlive-basic"
+  version: ">=2019"
+- category: "app-text"
+  name: "texlive-core"
+  version: ">=2019"
+- category: "app-arch"
+  name: "xz-utils"
+  version: ">=5.2.4"

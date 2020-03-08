@@ -1,0 +1,32 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/redcarpet-3.5.0
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/redcarpet$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/redcarpet-3.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems/redcarpet-3.5.0/bin$
+- /usr/lib64/ruby/gems/2.5.0/gems/redcarpet-3.5.0/bin/redcarpet$
+- /usr/lib64/ruby/gems/2.5.0/gems/redcarpet-3.5.0/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/redcarpet-3.5.0/lib/redcarpet$
+- /usr/lib64/ruby/gems/2.5.0/gems/redcarpet-3.5.0/lib/redcarpet.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/redcarpet-3.5.0/lib/redcarpet.so$
+- /usr/lib64/ruby/gems/2.5.0/gems/redcarpet-3.5.0/lib/redcarpet/cli.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/redcarpet-3.5.0/lib/redcarpet/compat.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/redcarpet-3.5.0/lib/redcarpet/render_man.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/redcarpet-3.5.0/lib/redcarpet/render_strip.rb$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/redcarpet-3.5.0.gemspec$

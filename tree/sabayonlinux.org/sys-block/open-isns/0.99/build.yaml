@@ -1,0 +1,56 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i sys-block/open-isns-0.99
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /etc$
+- /etc/isns$
+- /etc/isns/isnsadm.conf$
+- /etc/isns/isnsd.conf$
+- /etc/isns/isnsdd.conf$
+- /usr$
+- /usr/include$
+- /usr/include/libisns$
+- /usr/include/libisns/attrs.h$
+- /usr/include/libisns/buffer.h$
+- /usr/include/libisns/isns-proto.h$
+- /usr/include/libisns/isns.h$
+- /usr/include/libisns/message.h$
+- /usr/include/libisns/paths.h$
+- /usr/include/libisns/source.h$
+- /usr/include/libisns/types.h$
+- /usr/include/libisns/util.h$
+- /usr/lib$
+- /usr/lib/systemd$
+- /usr/lib/systemd/system$
+- /usr/lib/systemd/system/isnsd.service$
+- /usr/lib/systemd/system/isnsd.socket$
+- /usr/lib64$
+- /usr/lib64/libisns.so$
+- /usr/lib64/libisns.so.0$
+- /usr/sbin$
+- /usr/sbin/isnsadm$
+- /usr/sbin/isnsd$
+- /usr/sbin/isnsdd$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/open-isns-0.99$
+- /usr/share/doc/open-isns-0.99/ChangeLog.bz2$
+- /usr/share/doc/open-isns-0.99/README.bz2$
+- /usr/share/doc/open-isns-0.99/TODO.bz2$
+- /usr/share/man$
+- /usr/share/man/man5$
+- /usr/share/man/man5/isns_config.5.bz2$
+- /usr/share/man/man8$
+- /usr/share/man/man8/isnsadm.8.bz2$
+- /usr/share/man/man8/isnsd.8.bz2$
+- /usr/share/man/man8/isnsdd.8.bz2$
+- /var$
+- /var/lib$
+- /var/lib/isns$
+- /var/lib/isns/.keep_sys-block_open-isns-0$

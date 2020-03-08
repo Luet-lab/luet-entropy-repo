@@ -1,0 +1,42 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i sys-apps/baselayout-java-0.1.0-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /etc$
+- /etc/ca-certificates$
+- /etc/ca-certificates/update.d$
+- /etc/ca-certificates/update.d/java-cacerts$
+- /etc/env.d$
+- /etc/env.d/20java-config$
+- /etc/profile.d$
+- /etc/profile.d/java-config-2.csh$
+- /etc/profile.d/java-config-2.sh$
+- /etc/revdep-rebuild$
+- /etc/revdep-rebuild/60-java$
+- /etc/ssl$
+- /etc/ssl/certs$
+- /etc/ssl/certs/java$
+- /etc/ssl/certs/java/.keep_sys-apps_baselayout-java-0$
+- /usr$
+- /usr/share$
+- /usr/share/applications$
+- /usr/share/applications/javaws.desktop$
+- /usr/share/doc$
+- /usr/share/doc/baselayout-java-0.1.0-r1$
+- /usr/share/doc/baselayout-java-0.1.0-r1/AUTHORS$
+- /usr/share/doc/baselayout-java-0.1.0-r1/ChangeLog.bz2$
+- /usr/share/doc/baselayout-java-0.1.0-r1/NEWS.bz2$
+- /usr/share/doc/baselayout-java-0.1.0-r1/README.bz2$
+- /usr/share/icons$
+- /usr/share/icons/hicolor$
+- /usr/share/icons/hicolor/48x48$
+- /usr/share/icons/hicolor/48x48/mimetypes$
+- /usr/share/icons/hicolor/48x48/mimetypes/application-x-java-jnlp-file.png$
+- /usr/share/pixmaps$
+- /usr/share/pixmaps/java-icon48.png$

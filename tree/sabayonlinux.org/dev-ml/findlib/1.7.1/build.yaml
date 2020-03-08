@@ -1,0 +1,91 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ml/findlib-1.7.1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/ocamlfind$
+- /usr/bin/safe_camlp4$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ocaml$
+- /usr/lib64/ocaml/bigarray$
+- /usr/lib64/ocaml/bigarray/META$
+- /usr/lib64/ocaml/bytes$
+- /usr/lib64/ocaml/bytes/META$
+- /usr/lib64/ocaml/compiler-libs$
+- /usr/lib64/ocaml/compiler-libs/META$
+- /usr/lib64/ocaml/dbm$
+- /usr/lib64/ocaml/dbm/META$
+- /usr/lib64/ocaml/dynlink$
+- /usr/lib64/ocaml/dynlink/META$
+- /usr/lib64/ocaml/findlib$
+- /usr/lib64/ocaml/findlib/META$
+- /usr/lib64/ocaml/findlib/Makefile.config$
+- /usr/lib64/ocaml/findlib/findlib.a$
+- /usr/lib64/ocaml/findlib/findlib.cma$
+- /usr/lib64/ocaml/findlib/findlib.cmi$
+- /usr/lib64/ocaml/findlib/findlib.cmxa$
+- /usr/lib64/ocaml/findlib/findlib.cmxs$
+- /usr/lib64/ocaml/findlib/findlib.conf$
+- /usr/lib64/ocaml/findlib/findlib.mli$
+- /usr/lib64/ocaml/findlib/findlib_dynload.a$
+- /usr/lib64/ocaml/findlib/findlib_dynload.cma$
+- /usr/lib64/ocaml/findlib/findlib_dynload.cmxa$
+- /usr/lib64/ocaml/findlib/findlib_dynload.cmxs$
+- /usr/lib64/ocaml/findlib/findlib_top.a$
+- /usr/lib64/ocaml/findlib/findlib_top.cma$
+- /usr/lib64/ocaml/findlib/findlib_top.cmxa$
+- /usr/lib64/ocaml/findlib/findlib_top.cmxs$
+- /usr/lib64/ocaml/findlib/fl_dynload.cmi$
+- /usr/lib64/ocaml/findlib/fl_dynload.mli$
+- /usr/lib64/ocaml/findlib/fl_metascanner.cmi$
+- /usr/lib64/ocaml/findlib/fl_metascanner.mli$
+- /usr/lib64/ocaml/findlib/fl_metatoken.cmi$
+- /usr/lib64/ocaml/findlib/fl_package_base.cmi$
+- /usr/lib64/ocaml/findlib/fl_package_base.mli$
+- /usr/lib64/ocaml/findlib/topfind.cmi$
+- /usr/lib64/ocaml/findlib/topfind.mli$
+- /usr/lib64/ocaml/graphics$
+- /usr/lib64/ocaml/graphics/META$
+- /usr/lib64/ocaml/num$
+- /usr/lib64/ocaml/num-top$
+- /usr/lib64/ocaml/num-top/META$
+- /usr/lib64/ocaml/num-top/num_top.cma$
+- /usr/lib64/ocaml/num-top/num_top.cmi$
+- /usr/lib64/ocaml/num-top/num_top_printers.cmi$
+- /usr/lib64/ocaml/num/META$
+- /usr/lib64/ocaml/ocamldoc$
+- /usr/lib64/ocaml/ocamldoc/META$
+- /usr/lib64/ocaml/raw_spacetime$
+- /usr/lib64/ocaml/raw_spacetime/META$
+- /usr/lib64/ocaml/stdlib$
+- /usr/lib64/ocaml/stdlib/META$
+- /usr/lib64/ocaml/str$
+- /usr/lib64/ocaml/str/META$
+- /usr/lib64/ocaml/stublibs$
+- /usr/lib64/ocaml/threads$
+- /usr/lib64/ocaml/threads/META$
+- /usr/lib64/ocaml/topfind$
+- /usr/lib64/ocaml/unix$
+- /usr/lib64/ocaml/unix/META$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/findlib-1.7.1$
+- /usr/share/doc/findlib-1.7.1/DOCINFO.bz2$
+- /usr/share/doc/findlib-1.7.1/QUICKSTART.bz2$
+- /usr/share/doc/findlib-1.7.1/README.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/ocamlfind.1.bz2$
+- /usr/share/man/man3$
+- /usr/share/man/man5$
+- /usr/share/man/man5/META.5.bz2$
+- /usr/share/man/man5/findlib.conf.5.bz2$
+- /usr/share/man/man5/site-lib.5.bz2$

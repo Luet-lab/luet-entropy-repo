@@ -1,0 +1,22 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-dicts/aspell-af-0.50.0
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/aspell-0.60$
+- /usr/lib64/aspell-0.60/af.dat$
+- /usr/lib64/aspell-0.60/af.multi$
+- /usr/lib64/aspell-0.60/af.rws$
+- /usr/lib64/aspell-0.60/afrikaans.alias$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/aspell-af-0.50.0$
+- /usr/share/doc/aspell-af-0.50.0/README.bz2$
+- /usr/share/doc/aspell-af-0.50.0/info.bz2$

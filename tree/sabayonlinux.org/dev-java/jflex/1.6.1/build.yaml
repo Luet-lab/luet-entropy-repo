@@ -1,0 +1,25 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-java/jflex-1.6.1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/jflex$
+- /usr/share$
+- /usr/share/ant$
+- /usr/share/ant/tasks$
+- /usr/share/ant/tasks/jflex$
+- /usr/share/doc$
+- /usr/share/doc/jflex-1.6.1$
+- /usr/share/doc/jflex-1.6.1/README.md.bz2$
+- /usr/share/doc/jflex-1.6.1/changelog.md.bz2$
+- /usr/share/jflex$
+- /usr/share/jflex/lib$
+- /usr/share/jflex/lib/jflex.jar$
+- /usr/share/jflex/package.env$

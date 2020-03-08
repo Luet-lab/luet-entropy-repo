@@ -1,0 +1,22 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-java/saxon-9.2.0.6-r2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/saxon9-query$
+- /usr/bin/saxon9-transform$
+- /usr/share$
+- /usr/share/ant$
+- /usr/share/ant/tasks$
+- /usr/share/ant/tasks/saxon-9$
+- /usr/share/saxon-9$
+- /usr/share/saxon-9/lib$
+- /usr/share/saxon-9/lib/saxon.jar$
+- /usr/share/saxon-9/package.env$

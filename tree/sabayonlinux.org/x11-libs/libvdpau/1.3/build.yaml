@@ -1,0 +1,42 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i x11-libs/libvdpau-1.3
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /etc$
+- /etc/vdpau_wrapper.cfg$
+- /usr$
+- /usr/include$
+- /usr/include/vdpau$
+- /usr/include/vdpau/vdpau.h$
+- /usr/include/vdpau/vdpau_x11.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libvdpau.so$
+- /usr/lib32/libvdpau.so.1$
+- /usr/lib32/libvdpau.so.1.0.0$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/vdpau.pc$
+- /usr/lib32/vdpau$
+- /usr/lib32/vdpau/libvdpau_trace.so$
+- /usr/lib32/vdpau/libvdpau_trace.so.1$
+- /usr/lib32/vdpau/libvdpau_trace.so.1.0.0$
+- /usr/lib64$
+- /usr/lib64/libvdpau.so$
+- /usr/lib64/libvdpau.so.1$
+- /usr/lib64/libvdpau.so.1.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/vdpau.pc$
+- /usr/lib64/vdpau$
+- /usr/lib64/vdpau/libvdpau_trace.so$
+- /usr/lib64/vdpau/libvdpau_trace.so.1$
+- /usr/lib64/vdpau/libvdpau_trace.so.1.0.0$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libvdpau-1.3$
+- /usr/share/doc/libvdpau-1.3/AUTHORS.bz2$

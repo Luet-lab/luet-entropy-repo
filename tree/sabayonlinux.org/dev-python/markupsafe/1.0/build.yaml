@@ -1,0 +1,70 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/markupsafe-1.0
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/python2.7$
+- /usr/lib64/python2.7/site-packages$
+- /usr/lib64/python2.7/site-packages/MarkupSafe-1.0-py2.7.egg-info$
+- /usr/lib64/python2.7/site-packages/MarkupSafe-1.0-py2.7.egg-info/PKG-INFO$
+- /usr/lib64/python2.7/site-packages/MarkupSafe-1.0-py2.7.egg-info/SOURCES.txt$
+- /usr/lib64/python2.7/site-packages/MarkupSafe-1.0-py2.7.egg-info/dependency_links.txt$
+- /usr/lib64/python2.7/site-packages/MarkupSafe-1.0-py2.7.egg-info/not-zip-safe$
+- /usr/lib64/python2.7/site-packages/MarkupSafe-1.0-py2.7.egg-info/top_level.txt$
+- /usr/lib64/python2.7/site-packages/markupsafe$
+- /usr/lib64/python2.7/site-packages/markupsafe/__init__.py$
+- /usr/lib64/python2.7/site-packages/markupsafe/__init__.pyc$
+- /usr/lib64/python2.7/site-packages/markupsafe/__init__.pyo$
+- /usr/lib64/python2.7/site-packages/markupsafe/_compat.py$
+- /usr/lib64/python2.7/site-packages/markupsafe/_compat.pyc$
+- /usr/lib64/python2.7/site-packages/markupsafe/_compat.pyo$
+- /usr/lib64/python2.7/site-packages/markupsafe/_constants.py$
+- /usr/lib64/python2.7/site-packages/markupsafe/_constants.pyc$
+- /usr/lib64/python2.7/site-packages/markupsafe/_constants.pyo$
+- /usr/lib64/python2.7/site-packages/markupsafe/_native.py$
+- /usr/lib64/python2.7/site-packages/markupsafe/_native.pyc$
+- /usr/lib64/python2.7/site-packages/markupsafe/_native.pyo$
+- /usr/lib64/python2.7/site-packages/markupsafe/_speedups.c$
+- /usr/lib64/python2.7/site-packages/markupsafe/_speedups.so$
+- /usr/lib64/python3.6$
+- /usr/lib64/python3.6/site-packages$
+- /usr/lib64/python3.6/site-packages/MarkupSafe-1.0-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/MarkupSafe-1.0-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/MarkupSafe-1.0-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/MarkupSafe-1.0-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/MarkupSafe-1.0-py3.6.egg-info/not-zip-safe$
+- /usr/lib64/python3.6/site-packages/MarkupSafe-1.0-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/markupsafe$
+- /usr/lib64/python3.6/site-packages/markupsafe/__init__.py$
+- /usr/lib64/python3.6/site-packages/markupsafe/__pycache__$
+- /usr/lib64/python3.6/site-packages/markupsafe/__pycache__/__init__.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/markupsafe/__pycache__/__init__.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/markupsafe/__pycache__/__init__.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/markupsafe/__pycache__/_compat.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/markupsafe/__pycache__/_compat.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/markupsafe/__pycache__/_compat.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/markupsafe/__pycache__/_constants.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/markupsafe/__pycache__/_constants.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/markupsafe/__pycache__/_constants.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/markupsafe/__pycache__/_native.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/markupsafe/__pycache__/_native.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/markupsafe/__pycache__/_native.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/markupsafe/_compat.py$
+- /usr/lib64/python3.6/site-packages/markupsafe/_constants.py$
+- /usr/lib64/python3.6/site-packages/markupsafe/_native.py$
+- /usr/lib64/python3.6/site-packages/markupsafe/_speedups.c$
+- /usr/lib64/python3.6/site-packages/markupsafe/_speedups.cpython-36m-x86_64-linux-gnu.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/markupsafe-1.0$
+- /usr/share/doc/markupsafe-1.0/AUTHORS.bz2$
+- /usr/share/doc/markupsafe-1.0/CHANGES.bz2$
+- /usr/share/doc/markupsafe-1.0/README.rst.bz2$

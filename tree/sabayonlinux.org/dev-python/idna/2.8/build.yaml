@@ -1,0 +1,89 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/idna-2.8
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/python2.7$
+- /usr/lib64/python2.7/site-packages$
+- /usr/lib64/python2.7/site-packages/idna$
+- /usr/lib64/python2.7/site-packages/idna-2.8-py2.7.egg-info$
+- /usr/lib64/python2.7/site-packages/idna-2.8-py2.7.egg-info/PKG-INFO$
+- /usr/lib64/python2.7/site-packages/idna-2.8-py2.7.egg-info/SOURCES.txt$
+- /usr/lib64/python2.7/site-packages/idna-2.8-py2.7.egg-info/dependency_links.txt$
+- /usr/lib64/python2.7/site-packages/idna-2.8-py2.7.egg-info/top_level.txt$
+- /usr/lib64/python2.7/site-packages/idna/__init__.py$
+- /usr/lib64/python2.7/site-packages/idna/__init__.pyc$
+- /usr/lib64/python2.7/site-packages/idna/__init__.pyo$
+- /usr/lib64/python2.7/site-packages/idna/codec.py$
+- /usr/lib64/python2.7/site-packages/idna/codec.pyc$
+- /usr/lib64/python2.7/site-packages/idna/codec.pyo$
+- /usr/lib64/python2.7/site-packages/idna/compat.py$
+- /usr/lib64/python2.7/site-packages/idna/compat.pyc$
+- /usr/lib64/python2.7/site-packages/idna/compat.pyo$
+- /usr/lib64/python2.7/site-packages/idna/core.py$
+- /usr/lib64/python2.7/site-packages/idna/core.pyc$
+- /usr/lib64/python2.7/site-packages/idna/core.pyo$
+- /usr/lib64/python2.7/site-packages/idna/idnadata.py$
+- /usr/lib64/python2.7/site-packages/idna/idnadata.pyc$
+- /usr/lib64/python2.7/site-packages/idna/idnadata.pyo$
+- /usr/lib64/python2.7/site-packages/idna/intranges.py$
+- /usr/lib64/python2.7/site-packages/idna/intranges.pyc$
+- /usr/lib64/python2.7/site-packages/idna/intranges.pyo$
+- /usr/lib64/python2.7/site-packages/idna/package_data.py$
+- /usr/lib64/python2.7/site-packages/idna/package_data.pyc$
+- /usr/lib64/python2.7/site-packages/idna/package_data.pyo$
+- /usr/lib64/python2.7/site-packages/idna/uts46data.py$
+- /usr/lib64/python2.7/site-packages/idna/uts46data.pyc$
+- /usr/lib64/python2.7/site-packages/idna/uts46data.pyo$
+- /usr/lib64/python3.6$
+- /usr/lib64/python3.6/site-packages$
+- /usr/lib64/python3.6/site-packages/idna$
+- /usr/lib64/python3.6/site-packages/idna-2.8-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/idna-2.8-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/idna-2.8-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/idna-2.8-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/idna-2.8-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/idna/__init__.py$
+- /usr/lib64/python3.6/site-packages/idna/__pycache__$
+- /usr/lib64/python3.6/site-packages/idna/__pycache__/__init__.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/idna/__pycache__/__init__.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/idna/__pycache__/__init__.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/idna/__pycache__/codec.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/idna/__pycache__/codec.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/idna/__pycache__/codec.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/idna/__pycache__/compat.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/idna/__pycache__/compat.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/idna/__pycache__/compat.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/idna/__pycache__/core.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/idna/__pycache__/core.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/idna/__pycache__/core.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/idna/__pycache__/idnadata.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/idna/__pycache__/idnadata.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/idna/__pycache__/idnadata.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/idna/__pycache__/intranges.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/idna/__pycache__/intranges.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/idna/__pycache__/intranges.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/idna/__pycache__/package_data.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/idna/__pycache__/package_data.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/idna/__pycache__/package_data.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/idna/__pycache__/uts46data.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/idna/__pycache__/uts46data.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/idna/__pycache__/uts46data.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/idna/codec.py$
+- /usr/lib64/python3.6/site-packages/idna/compat.py$
+- /usr/lib64/python3.6/site-packages/idna/core.py$
+- /usr/lib64/python3.6/site-packages/idna/idnadata.py$
+- /usr/lib64/python3.6/site-packages/idna/intranges.py$
+- /usr/lib64/python3.6/site-packages/idna/package_data.py$
+- /usr/lib64/python3.6/site-packages/idna/uts46data.py$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/idna-2.8$
+- /usr/share/doc/idna-2.8/README.rst.bz2$

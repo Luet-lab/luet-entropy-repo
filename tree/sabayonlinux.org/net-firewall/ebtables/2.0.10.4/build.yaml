@@ -1,0 +1,59 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i net-firewall/ebtables-2.0.10.4-r2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /etc$
+- /etc/conf.d$
+- /etc/conf.d/ebtables$
+- /etc/init.d$
+- /etc/init.d/ebtables$
+- /lib64$
+- /lib64/ebtables$
+- /lib64/ebtables/libebt_802_3.so$
+- /lib64/ebtables/libebt_among.so$
+- /lib64/ebtables/libebt_arp.so$
+- /lib64/ebtables/libebt_arpreply.so$
+- /lib64/ebtables/libebt_ip.so$
+- /lib64/ebtables/libebt_ip6.so$
+- /lib64/ebtables/libebt_limit.so$
+- /lib64/ebtables/libebt_log.so$
+- /lib64/ebtables/libebt_mark.so$
+- /lib64/ebtables/libebt_mark_m.so$
+- /lib64/ebtables/libebt_nat.so$
+- /lib64/ebtables/libebt_nflog.so$
+- /lib64/ebtables/libebt_pkttype.so$
+- /lib64/ebtables/libebt_redirect.so$
+- /lib64/ebtables/libebt_standard.so$
+- /lib64/ebtables/libebt_stp.so$
+- /lib64/ebtables/libebt_ulog.so$
+- /lib64/ebtables/libebt_vlan.so$
+- /lib64/ebtables/libebtable_broute.so$
+- /lib64/ebtables/libebtable_filter.so$
+- /lib64/ebtables/libebtable_nat.so$
+- /lib64/ebtables/libebtc.so$
+- /sbin$
+- /sbin/ebtables$
+- /sbin/ebtables-restore$
+- /sbin/ebtables-save$
+- /usr$
+- /usr/lib$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/ebtables-2.0.10.4-r2$
+- /usr/share/doc/ebtables-2.0.10.4-r2/ChangeLog.bz2$
+- /usr/share/doc/ebtables-2.0.10.4-r2/THANKS.bz2$
+- /usr/share/doc/ebtables-2.0.10.4-r2/ebtables-config.bz2$
+- /usr/share/doc/ebtables-2.0.10.4-r2/ebtables.bz2$
+- /usr/share/man$
+- /usr/share/man/man8$
+- /usr/share/man/man8/ebtables.8.bz2$
+- /var$
+- /var/lib$
+- /var/lib/ebtables$
+- /var/lib/ebtables/.keep_net-firewall_ebtables-0$

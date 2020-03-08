@@ -1,0 +1,33 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-util/cucumber-tag_expressions-1.1.1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/cucumber-tag-expressions$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-tag_expressions-1.1.1$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-tag_expressions-1.1.1/bin$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-tag_expressions-1.1.1/bin/cucumber-tag-expressions$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-tag_expressions-1.1.1/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-tag_expressions-1.1.1/lib/cucumber$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-tag_expressions-1.1.1/lib/cucumber/tag_expressions$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-tag_expressions-1.1.1/lib/cucumber/tag_expressions.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-tag_expressions-1.1.1/lib/cucumber/tag_expressions/expressions.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-tag_expressions-1.1.1/lib/cucumber/tag_expressions/parser.rb$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/cucumber-tag_expressions-1.1.1.gemspec$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/cucumber-tag_expressions-1.1.1$
+- /usr/share/doc/cucumber-tag_expressions-1.1.1/README.md$

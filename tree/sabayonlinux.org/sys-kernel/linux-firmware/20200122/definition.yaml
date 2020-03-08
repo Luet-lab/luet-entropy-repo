@@ -1,0 +1,8 @@
+
+category: "sys-kernel"
+name: "linux-firmware"
+version: "20200122"
+requires:
+- category: "app-arch"
+  name: "cpio"
+  version: ">=2.12"

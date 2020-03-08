@@ -1,0 +1,76 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-qt/qthelp-5.14.1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/qt5$
+- /usr/include/qt5/QtHelp$
+- /usr/include/qt5/QtHelp/5.14.1$
+- /usr/include/qt5/QtHelp/5.14.1/QtHelp$
+- /usr/include/qt5/QtHelp/5.14.1/QtHelp/private$
+- /usr/include/qt5/QtHelp/5.14.1/QtHelp/private/qhelpcollectionhandler_p.h$
+- /usr/include/qt5/QtHelp/5.14.1/QtHelp/private/qhelpdbreader_p.h$
+- /usr/include/qt5/QtHelp/5.14.1/QtHelp/private/qhelpengine_p.h$
+- /usr/include/qt5/QtHelp/5.14.1/QtHelp/private/qhelpsearchindexreader_default_p.h$
+- /usr/include/qt5/QtHelp/5.14.1/QtHelp/private/qhelpsearchindexreader_p.h$
+- /usr/include/qt5/QtHelp/5.14.1/QtHelp/private/qhelpsearchindexwriter_default_p.h$
+- /usr/include/qt5/QtHelp/QCompressedHelpInfo$
+- /usr/include/qt5/QtHelp/QHelpContentItem$
+- /usr/include/qt5/QtHelp/QHelpContentModel$
+- /usr/include/qt5/QtHelp/QHelpContentWidget$
+- /usr/include/qt5/QtHelp/QHelpEngine$
+- /usr/include/qt5/QtHelp/QHelpEngineCore$
+- /usr/include/qt5/QtHelp/QHelpFilterData$
+- /usr/include/qt5/QtHelp/QHelpFilterEngine$
+- /usr/include/qt5/QtHelp/QHelpGlobal$
+- /usr/include/qt5/QtHelp/QHelpIndexModel$
+- /usr/include/qt5/QtHelp/QHelpIndexWidget$
+- /usr/include/qt5/QtHelp/QHelpSearchEngine$
+- /usr/include/qt5/QtHelp/QHelpSearchQuery$
+- /usr/include/qt5/QtHelp/QHelpSearchQueryWidget$
+- /usr/include/qt5/QtHelp/QHelpSearchResult$
+- /usr/include/qt5/QtHelp/QHelpSearchResultWidget$
+- /usr/include/qt5/QtHelp/QtHelp$
+- /usr/include/qt5/QtHelp/QtHelpDepends$
+- /usr/include/qt5/QtHelp/QtHelpVersion$
+- /usr/include/qt5/QtHelp/qcompressedhelpinfo.h$
+- /usr/include/qt5/QtHelp/qhelp_global.h$
+- /usr/include/qt5/QtHelp/qhelpcontentwidget.h$
+- /usr/include/qt5/QtHelp/qhelpengine.h$
+- /usr/include/qt5/QtHelp/qhelpenginecore.h$
+- /usr/include/qt5/QtHelp/qhelpfilterdata.h$
+- /usr/include/qt5/QtHelp/qhelpfilterengine.h$
+- /usr/include/qt5/QtHelp/qhelpindexwidget.h$
+- /usr/include/qt5/QtHelp/qhelpsearchengine.h$
+- /usr/include/qt5/QtHelp/qhelpsearchquerywidget.h$
+- /usr/include/qt5/QtHelp/qhelpsearchresultwidget.h$
+- /usr/include/qt5/QtHelp/qthelpversion.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/cmake$
+- /usr/lib64/cmake/Qt5Help$
+- /usr/lib64/cmake/Qt5Help/Qt5HelpConfig.cmake$
+- /usr/lib64/cmake/Qt5Help/Qt5HelpConfigExtras.cmake$
+- /usr/lib64/cmake/Qt5Help/Qt5HelpConfigVersion.cmake$
+- /usr/lib64/libQt5Help.prl$
+- /usr/lib64/libQt5Help.so$
+- /usr/lib64/libQt5Help.so.5$
+- /usr/lib64/libQt5Help.so.5.14$
+- /usr/lib64/libQt5Help.so.5.14.1$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/Qt5Help.pc$
+- /usr/lib64/qt5$
+- /usr/lib64/qt5/bin$
+- /usr/lib64/qt5/bin/qcollectiongenerator$
+- /usr/lib64/qt5/bin/qhelpgenerator$
+- /usr/lib64/qt5/mkspecs$
+- /usr/lib64/qt5/mkspecs/modules$
+- /usr/lib64/qt5/mkspecs/modules/qt_lib_help.pri$
+- /usr/lib64/qt5/mkspecs/modules/qt_lib_help_private.pri$

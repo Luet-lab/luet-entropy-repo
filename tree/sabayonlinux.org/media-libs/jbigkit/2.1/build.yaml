@@ -1,0 +1,40 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/jbigkit-2.1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/jbgtopbm$
+- /usr/bin/jbgtopbm85$
+- /usr/bin/pbmtojbg$
+- /usr/bin/pbmtojbg85$
+- /usr/include$
+- /usr/include/jbig.h$
+- /usr/include/jbig85.h$
+- /usr/include/jbig_ar.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libjbig.so$
+- /usr/lib64/libjbig85.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/jbigkit-2.1$
+- /usr/share/doc/jbigkit-2.1/ANNOUNCE.bz2$
+- /usr/share/doc/jbigkit-2.1/CHANGES.bz2$
+- /usr/share/doc/jbigkit-2.1/TODO.bz2$
+- /usr/share/doc/jbigkit-2.1/jbgtopbm.txt.bz2$
+- /usr/share/doc/jbigkit-2.1/jbig.txt.bz2$
+- /usr/share/doc/jbigkit-2.1/jbig85.txt.bz2$
+- /usr/share/doc/jbigkit-2.1/pbm.txt.bz2$
+- /usr/share/doc/jbigkit-2.1/pbmtojbg.txt.bz2$
+- /usr/share/doc/jbigkit-2.1/pgm.txt.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/jbgtopbm.1.bz2$
+- /usr/share/man/man1/pbmtojbg.1.bz2$

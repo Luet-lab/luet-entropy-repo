@@ -1,0 +1,16 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-java/xpp3-1.1.4c-r3
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/xpp3$
+- /usr/share/xpp3/lib$
+- /usr/share/xpp3/lib/xpp3.jar$
+- /usr/share/xpp3/package.env$

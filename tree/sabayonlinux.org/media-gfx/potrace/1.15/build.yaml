@@ -1,0 +1,34 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-gfx/potrace-1.15
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/mkbitmap$
+- /usr/bin/potrace$
+- /usr/include$
+- /usr/include/potracelib.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libpotrace.la$
+- /usr/lib64/libpotrace.so$
+- /usr/lib64/libpotrace.so.0$
+- /usr/lib64/libpotrace.so.0.0.5$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/potrace-1.15$
+- /usr/share/doc/potrace-1.15/AUTHORS.bz2$
+- /usr/share/doc/potrace-1.15/ChangeLog.bz2$
+- /usr/share/doc/potrace-1.15/NEWS.bz2$
+- /usr/share/doc/potrace-1.15/README.bz2$
+- /usr/share/doc/potrace-1.15/placement.pdf$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/mkbitmap.1.bz2$
+- /usr/share/man/man1/potrace.1.bz2$

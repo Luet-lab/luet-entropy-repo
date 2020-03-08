@@ -1,0 +1,56 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i sci-libs/lapack-3.8.0
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/cblas.h$
+- /usr/include/cblas_f77.h$
+- /usr/include/cblas_mangling.h$
+- /usr/include/cblas_test.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/blas$
+- /usr/lib64/blas/reference$
+- /usr/lib64/blas/reference/libblas.so$
+- /usr/lib64/blas/reference/libblas.so.3$
+- /usr/lib64/blas/reference/libcblas.so$
+- /usr/lib64/blas/reference/libcblas.so.3$
+- /usr/lib64/cmake$
+- /usr/lib64/cmake/cblas-3.8.0$
+- /usr/lib64/cmake/cblas-3.8.0/cblas-config-version.cmake$
+- /usr/lib64/cmake/cblas-3.8.0/cblas-config.cmake$
+- /usr/lib64/cmake/cblas-3.8.0/cblas-targets-gentoo.cmake$
+- /usr/lib64/cmake/cblas-3.8.0/cblas-targets.cmake$
+- /usr/lib64/cmake/lapack-3.8.0$
+- /usr/lib64/cmake/lapack-3.8.0/lapack-config-version.cmake$
+- /usr/lib64/cmake/lapack-3.8.0/lapack-config.cmake$
+- /usr/lib64/cmake/lapack-3.8.0/lapack-targets-gentoo.cmake$
+- /usr/lib64/cmake/lapack-3.8.0/lapack-targets.cmake$
+- /usr/lib64/lapack$
+- /usr/lib64/lapack/reference$
+- /usr/lib64/lapack/reference/liblapack.so$
+- /usr/lib64/lapack/reference/liblapack.so.3$
+- /usr/lib64/libblas.so$
+- /usr/lib64/libblas.so.3$
+- /usr/lib64/libblas.so.3.8.0$
+- /usr/lib64/libcblas.so$
+- /usr/lib64/libcblas.so.3$
+- /usr/lib64/libcblas.so.3.8.0$
+- /usr/lib64/liblapack.so$
+- /usr/lib64/liblapack.so.3$
+- /usr/lib64/liblapack.so.3.8.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/blas.pc$
+- /usr/lib64/pkgconfig/cblas.pc$
+- /usr/lib64/pkgconfig/lapack.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/lapack-3.8.0$
+- /usr/share/doc/lapack-3.8.0/README.md.bz2$

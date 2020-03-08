@@ -1,0 +1,94 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/libao-1.2.2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/ao$
+- /usr/include/ao/ao.h$
+- /usr/include/ao/os_types.h$
+- /usr/include/ao/plugin.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/ao$
+- /usr/lib32/ao/plugins-4$
+- /usr/lib32/ao/plugins-4/libalsa.so$
+- /usr/lib32/ao/plugins-4/liboss.so$
+- /usr/lib32/ao/plugins-4/libpulse.so$
+- /usr/lib32/ckport$
+- /usr/lib32/ckport/db$
+- /usr/lib32/ckport/db/libao.ckport$
+- /usr/lib32/libao.so$
+- /usr/lib32/libao.so.4$
+- /usr/lib32/libao.so.4.1.1$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/ao.pc$
+- /usr/lib64$
+- /usr/lib64/ao$
+- /usr/lib64/ao/plugins-4$
+- /usr/lib64/ao/plugins-4/libalsa.so$
+- /usr/lib64/ao/plugins-4/liboss.so$
+- /usr/lib64/ao/plugins-4/libpulse.so$
+- /usr/lib64/ckport$
+- /usr/lib64/ckport/db$
+- /usr/lib64/ckport/db/libao.ckport$
+- /usr/lib64/libao.so$
+- /usr/lib64/libao.so.4$
+- /usr/lib64/libao.so.4.1.1$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/ao.pc$
+- /usr/share$
+- /usr/share/aclocal$
+- /usr/share/aclocal/ao.m4$
+- /usr/share/doc$
+- /usr/share/doc/libao-1.2.2$
+- /usr/share/doc/libao-1.2.2/AUTHORS$
+- /usr/share/doc/libao-1.2.2/CHANGES.bz2$
+- /usr/share/doc/libao-1.2.2/README.bz2$
+- /usr/share/doc/libao-1.2.2/TODO.bz2$
+- /usr/share/doc/libao-1.2.2/html$
+- /usr/share/doc/libao-1.2.2/html/ao_append_option.html$
+- /usr/share/doc/libao-1.2.2/html/ao_close.html$
+- /usr/share/doc/libao-1.2.2/html/ao_default_driver_id.html$
+- /usr/share/doc/libao-1.2.2/html/ao_device.html$
+- /usr/share/doc/libao-1.2.2/html/ao_driver_id.html$
+- /usr/share/doc/libao-1.2.2/html/ao_driver_info.html$
+- /usr/share/doc/libao-1.2.2/html/ao_driver_info_list.html$
+- /usr/share/doc/libao-1.2.2/html/ao_example.c$
+- /usr/share/doc/libao-1.2.2/html/ao_file_extension.html$
+- /usr/share/doc/libao-1.2.2/html/ao_free_options.html$
+- /usr/share/doc/libao-1.2.2/html/ao_info.html$
+- /usr/share/doc/libao-1.2.2/html/ao_initialize.html$
+- /usr/share/doc/libao-1.2.2/html/ao_is_big_endian.html$
+- /usr/share/doc/libao-1.2.2/html/ao_open_file.html$
+- /usr/share/doc/libao-1.2.2/html/ao_open_live.html$
+- /usr/share/doc/libao-1.2.2/html/ao_option.html$
+- /usr/share/doc/libao-1.2.2/html/ao_play.html$
+- /usr/share/doc/libao-1.2.2/html/ao_plugin_close.html$
+- /usr/share/doc/libao-1.2.2/html/ao_plugin_device_clear.html$
+- /usr/share/doc/libao-1.2.2/html/ao_plugin_device_init.html$
+- /usr/share/doc/libao-1.2.2/html/ao_plugin_driver_info.html$
+- /usr/share/doc/libao-1.2.2/html/ao_plugin_file_extension.html$
+- /usr/share/doc/libao-1.2.2/html/ao_plugin_open.html$
+- /usr/share/doc/libao-1.2.2/html/ao_plugin_play.html$
+- /usr/share/doc/libao-1.2.2/html/ao_plugin_set_option.html$
+- /usr/share/doc/libao-1.2.2/html/ao_plugin_test.html$
+- /usr/share/doc/libao-1.2.2/html/ao_sample_format.html$
+- /usr/share/doc/libao-1.2.2/html/ao_shutdown.html$
+- /usr/share/doc/libao-1.2.2/html/config.html$
+- /usr/share/doc/libao-1.2.2/html/drivers.html$
+- /usr/share/doc/libao-1.2.2/html/index.html$
+- /usr/share/doc/libao-1.2.2/html/libao-api.html$
+- /usr/share/doc/libao-1.2.2/html/overview.html$
+- /usr/share/doc/libao-1.2.2/html/plugin-api.html$
+- /usr/share/doc/libao-1.2.2/html/plugin-overview.html$
+- /usr/share/doc/libao-1.2.2/html/style.css$
+- /usr/share/man$
+- /usr/share/man/man5$
+- /usr/share/man/man5/libao.conf.5.bz2$

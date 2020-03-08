@@ -1,0 +1,27 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-emacs/lua-mode-20151025
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/lua-mode-20151025$
+- /usr/share/doc/lua-mode-20151025/NEWS.bz2$
+- /usr/share/doc/lua-mode-20151025/README.bz2$
+- /usr/share/doc/lua-mode-20151025/README.md.bz2$
+- /usr/share/doc/lua-mode-20151025/TODO.bz2$
+- /usr/share/emacs$
+- /usr/share/emacs/site-lisp$
+- /usr/share/emacs/site-lisp/lua-mode$
+- /usr/share/emacs/site-lisp/lua-mode/init-tryout.el$
+- /usr/share/emacs/site-lisp/lua-mode/init-tryout.elc$
+- /usr/share/emacs/site-lisp/lua-mode/lua-mode.el$
+- /usr/share/emacs/site-lisp/lua-mode/lua-mode.elc$
+- /usr/share/emacs/site-lisp/site-gentoo.d$
+- /usr/share/emacs/site-lisp/site-gentoo.d/50lua-mode-gentoo.el$

@@ -1,0 +1,35 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i x11-libs/libXrender-0.9.10-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/X11$
+- /usr/include/X11/extensions$
+- /usr/include/X11/extensions/Xrender.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libXrender.so$
+- /usr/lib32/libXrender.so.1$
+- /usr/lib32/libXrender.so.1.3.0$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/xrender.pc$
+- /usr/lib64$
+- /usr/lib64/libXrender.so$
+- /usr/lib64/libXrender.so.1$
+- /usr/lib64/libXrender.so.1.3.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/xrender.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libXrender-0.9.10-r1$
+- /usr/share/doc/libXrender-0.9.10-r1/AUTHORS$
+- /usr/share/doc/libXrender-0.9.10-r1/ChangeLog.bz2$
+- /usr/share/doc/libXrender-0.9.10-r1/README.bz2$
+- /usr/share/doc/libXrender-0.9.10-r1/libXrender.txt.bz2$

@@ -1,0 +1,94 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/sphinx_rtd_theme-0.2.4
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/python2.7$
+- /usr/lib64/python2.7/site-packages$
+- /usr/lib64/python2.7/site-packages/sphinx_rtd_theme$
+- /usr/lib64/python2.7/site-packages/sphinx_rtd_theme-0.2.4-py2.7.egg-info$
+- /usr/lib64/python2.7/site-packages/sphinx_rtd_theme-0.2.4-py2.7.egg-info/PKG-INFO$
+- /usr/lib64/python2.7/site-packages/sphinx_rtd_theme-0.2.4-py2.7.egg-info/SOURCES.txt$
+- /usr/lib64/python2.7/site-packages/sphinx_rtd_theme-0.2.4-py2.7.egg-info/dependency_links.txt$
+- /usr/lib64/python2.7/site-packages/sphinx_rtd_theme-0.2.4-py2.7.egg-info/not-zip-safe$
+- /usr/lib64/python2.7/site-packages/sphinx_rtd_theme-0.2.4-py2.7.egg-info/top_level.txt$
+- /usr/lib64/python2.7/site-packages/sphinx_rtd_theme/__init__.py$
+- /usr/lib64/python2.7/site-packages/sphinx_rtd_theme/__init__.pyc$
+- /usr/lib64/python2.7/site-packages/sphinx_rtd_theme/__init__.pyo$
+- /usr/lib64/python2.7/site-packages/sphinx_rtd_theme/breadcrumbs.html$
+- /usr/lib64/python2.7/site-packages/sphinx_rtd_theme/footer.html$
+- /usr/lib64/python2.7/site-packages/sphinx_rtd_theme/layout.html$
+- /usr/lib64/python2.7/site-packages/sphinx_rtd_theme/layout_old.html$
+- /usr/lib64/python2.7/site-packages/sphinx_rtd_theme/search.html$
+- /usr/lib64/python2.7/site-packages/sphinx_rtd_theme/searchbox.html$
+- /usr/lib64/python2.7/site-packages/sphinx_rtd_theme/static$
+- /usr/lib64/python2.7/site-packages/sphinx_rtd_theme/static/css$
+- /usr/lib64/python2.7/site-packages/sphinx_rtd_theme/static/css/badge_only.css$
+- /usr/lib64/python2.7/site-packages/sphinx_rtd_theme/static/css/theme.css$
+- /usr/lib64/python2.7/site-packages/sphinx_rtd_theme/static/fonts$
+- /usr/lib64/python2.7/site-packages/sphinx_rtd_theme/static/fonts/Inconsolata-Bold.ttf$
+- /usr/lib64/python2.7/site-packages/sphinx_rtd_theme/static/fonts/Inconsolata-Regular.ttf$
+- /usr/lib64/python2.7/site-packages/sphinx_rtd_theme/static/fonts/Lato-Bold.ttf$
+- /usr/lib64/python2.7/site-packages/sphinx_rtd_theme/static/fonts/Lato-Regular.ttf$
+- /usr/lib64/python2.7/site-packages/sphinx_rtd_theme/static/fonts/RobotoSlab-Bold.ttf$
+- /usr/lib64/python2.7/site-packages/sphinx_rtd_theme/static/fonts/RobotoSlab-Regular.ttf$
+- /usr/lib64/python2.7/site-packages/sphinx_rtd_theme/static/fonts/fontawesome-webfont.eot$
+- /usr/lib64/python2.7/site-packages/sphinx_rtd_theme/static/fonts/fontawesome-webfont.svg$
+- /usr/lib64/python2.7/site-packages/sphinx_rtd_theme/static/fonts/fontawesome-webfont.ttf$
+- /usr/lib64/python2.7/site-packages/sphinx_rtd_theme/static/fonts/fontawesome-webfont.woff$
+- /usr/lib64/python2.7/site-packages/sphinx_rtd_theme/static/js$
+- /usr/lib64/python2.7/site-packages/sphinx_rtd_theme/static/js/modernizr.min.js$
+- /usr/lib64/python2.7/site-packages/sphinx_rtd_theme/static/js/theme.js$
+- /usr/lib64/python2.7/site-packages/sphinx_rtd_theme/theme.conf$
+- /usr/lib64/python2.7/site-packages/sphinx_rtd_theme/versions.html$
+- /usr/lib64/python3.6$
+- /usr/lib64/python3.6/site-packages$
+- /usr/lib64/python3.6/site-packages/sphinx_rtd_theme$
+- /usr/lib64/python3.6/site-packages/sphinx_rtd_theme-0.2.4-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/sphinx_rtd_theme-0.2.4-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/sphinx_rtd_theme-0.2.4-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/sphinx_rtd_theme-0.2.4-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/sphinx_rtd_theme-0.2.4-py3.6.egg-info/not-zip-safe$
+- /usr/lib64/python3.6/site-packages/sphinx_rtd_theme-0.2.4-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/sphinx_rtd_theme/__init__.py$
+- /usr/lib64/python3.6/site-packages/sphinx_rtd_theme/__pycache__$
+- /usr/lib64/python3.6/site-packages/sphinx_rtd_theme/__pycache__/__init__.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/sphinx_rtd_theme/__pycache__/__init__.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/sphinx_rtd_theme/__pycache__/__init__.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/sphinx_rtd_theme/breadcrumbs.html$
+- /usr/lib64/python3.6/site-packages/sphinx_rtd_theme/footer.html$
+- /usr/lib64/python3.6/site-packages/sphinx_rtd_theme/layout.html$
+- /usr/lib64/python3.6/site-packages/sphinx_rtd_theme/layout_old.html$
+- /usr/lib64/python3.6/site-packages/sphinx_rtd_theme/search.html$
+- /usr/lib64/python3.6/site-packages/sphinx_rtd_theme/searchbox.html$
+- /usr/lib64/python3.6/site-packages/sphinx_rtd_theme/static$
+- /usr/lib64/python3.6/site-packages/sphinx_rtd_theme/static/css$
+- /usr/lib64/python3.6/site-packages/sphinx_rtd_theme/static/css/badge_only.css$
+- /usr/lib64/python3.6/site-packages/sphinx_rtd_theme/static/css/theme.css$
+- /usr/lib64/python3.6/site-packages/sphinx_rtd_theme/static/fonts$
+- /usr/lib64/python3.6/site-packages/sphinx_rtd_theme/static/fonts/Inconsolata-Bold.ttf$
+- /usr/lib64/python3.6/site-packages/sphinx_rtd_theme/static/fonts/Inconsolata-Regular.ttf$
+- /usr/lib64/python3.6/site-packages/sphinx_rtd_theme/static/fonts/Lato-Bold.ttf$
+- /usr/lib64/python3.6/site-packages/sphinx_rtd_theme/static/fonts/Lato-Regular.ttf$
+- /usr/lib64/python3.6/site-packages/sphinx_rtd_theme/static/fonts/RobotoSlab-Bold.ttf$
+- /usr/lib64/python3.6/site-packages/sphinx_rtd_theme/static/fonts/RobotoSlab-Regular.ttf$
+- /usr/lib64/python3.6/site-packages/sphinx_rtd_theme/static/fonts/fontawesome-webfont.eot$
+- /usr/lib64/python3.6/site-packages/sphinx_rtd_theme/static/fonts/fontawesome-webfont.svg$
+- /usr/lib64/python3.6/site-packages/sphinx_rtd_theme/static/fonts/fontawesome-webfont.ttf$
+- /usr/lib64/python3.6/site-packages/sphinx_rtd_theme/static/fonts/fontawesome-webfont.woff$
+- /usr/lib64/python3.6/site-packages/sphinx_rtd_theme/static/js$
+- /usr/lib64/python3.6/site-packages/sphinx_rtd_theme/static/js/modernizr.min.js$
+- /usr/lib64/python3.6/site-packages/sphinx_rtd_theme/static/js/theme.js$
+- /usr/lib64/python3.6/site-packages/sphinx_rtd_theme/theme.conf$
+- /usr/lib64/python3.6/site-packages/sphinx_rtd_theme/versions.html$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/sphinx_rtd_theme-0.2.4$
+- /usr/share/doc/sphinx_rtd_theme-0.2.4/README.rst.bz2$

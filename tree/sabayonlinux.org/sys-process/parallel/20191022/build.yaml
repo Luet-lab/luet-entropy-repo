@@ -1,0 +1,84 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i sys-process/parallel-20191022
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/env_parallel$
+- /usr/bin/env_parallel.ash$
+- /usr/bin/env_parallel.bash$
+- /usr/bin/env_parallel.csh$
+- /usr/bin/env_parallel.dash$
+- /usr/bin/env_parallel.fish$
+- /usr/bin/env_parallel.ksh$
+- /usr/bin/env_parallel.mksh$
+- /usr/bin/env_parallel.pdksh$
+- /usr/bin/env_parallel.sh$
+- /usr/bin/env_parallel.tcsh$
+- /usr/bin/env_parallel.zsh$
+- /usr/bin/niceload$
+- /usr/bin/parallel$
+- /usr/bin/parcat$
+- /usr/bin/parset$
+- /usr/bin/sem$
+- /usr/bin/sql$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/parallel-20191022$
+- /usr/share/doc/parallel-20191022/NEWS.bz2$
+- /usr/share/doc/parallel-20191022/README.bz2$
+- /usr/share/doc/parallel-20191022/html$
+- /usr/share/doc/parallel-20191022/html/env_parallel.html$
+- /usr/share/doc/parallel-20191022/html/env_parallel.pdf$
+- /usr/share/doc/parallel-20191022/html/env_parallel.texi$
+- /usr/share/doc/parallel-20191022/html/niceload.html$
+- /usr/share/doc/parallel-20191022/html/niceload.pdf$
+- /usr/share/doc/parallel-20191022/html/niceload.texi$
+- /usr/share/doc/parallel-20191022/html/parallel.html$
+- /usr/share/doc/parallel-20191022/html/parallel.pdf$
+- /usr/share/doc/parallel-20191022/html/parallel.texi$
+- /usr/share/doc/parallel-20191022/html/parallel_alternatives.html$
+- /usr/share/doc/parallel-20191022/html/parallel_alternatives.pdf$
+- /usr/share/doc/parallel-20191022/html/parallel_alternatives.texi$
+- /usr/share/doc/parallel-20191022/html/parallel_book.html$
+- /usr/share/doc/parallel-20191022/html/parallel_book.pdf$
+- /usr/share/doc/parallel-20191022/html/parallel_book.texi$
+- /usr/share/doc/parallel-20191022/html/parallel_cheat.pdf$
+- /usr/share/doc/parallel-20191022/html/parallel_design.html$
+- /usr/share/doc/parallel-20191022/html/parallel_design.pdf$
+- /usr/share/doc/parallel-20191022/html/parallel_design.texi$
+- /usr/share/doc/parallel-20191022/html/parallel_tutorial.html$
+- /usr/share/doc/parallel-20191022/html/parallel_tutorial.pdf$
+- /usr/share/doc/parallel-20191022/html/parallel_tutorial.texi$
+- /usr/share/doc/parallel-20191022/html/parcat.html$
+- /usr/share/doc/parallel-20191022/html/parcat.pdf$
+- /usr/share/doc/parallel-20191022/html/parcat.texi$
+- /usr/share/doc/parallel-20191022/html/parset.html$
+- /usr/share/doc/parallel-20191022/html/parset.pdf$
+- /usr/share/doc/parallel-20191022/html/parset.texi$
+- /usr/share/doc/parallel-20191022/html/sem.html$
+- /usr/share/doc/parallel-20191022/html/sem.pdf$
+- /usr/share/doc/parallel-20191022/html/sem.texi$
+- /usr/share/doc/parallel-20191022/html/sql.html$
+- /usr/share/doc/parallel-20191022/html/sql.pdf$
+- /usr/share/doc/parallel-20191022/html/sql.texi$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/env_parallel.1.bz2$
+- /usr/share/man/man1/niceload.1.bz2$
+- /usr/share/man/man1/parallel.1.bz2$
+- /usr/share/man/man1/parcat.1.bz2$
+- /usr/share/man/man1/parset.1.bz2$
+- /usr/share/man/man1/sem.1.bz2$
+- /usr/share/man/man1/sql.1.bz2$
+- /usr/share/man/man7$
+- /usr/share/man/man7/parallel_alternatives.7.bz2$
+- /usr/share/man/man7/parallel_book.7.bz2$
+- /usr/share/man/man7/parallel_design.7.bz2$
+- /usr/share/man/man7/parallel_tutorial.7.bz2$

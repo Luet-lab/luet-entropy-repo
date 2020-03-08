@@ -1,0 +1,8 @@
+
+category: "sys-fs"
+name: "udev-init-scripts"
+version: "33"
+requires:
+- category: "sys-apps"
+  name: "systemd"
+  version: ">=242"

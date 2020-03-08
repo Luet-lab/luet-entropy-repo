@@ -1,0 +1,33 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/chromaprint-1.4.3
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/fpcalc$
+- /usr/include$
+- /usr/include/chromaprint.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libchromaprint.so$
+- /usr/lib32/libchromaprint.so.1$
+- /usr/lib32/libchromaprint.so.1.4.3$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/libchromaprint.pc$
+- /usr/lib64$
+- /usr/lib64/libchromaprint.so$
+- /usr/lib64/libchromaprint.so.1$
+- /usr/lib64/libchromaprint.so.1.4.3$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libchromaprint.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/chromaprint-1.4.3$
+- /usr/share/doc/chromaprint-1.4.3/NEWS.txt.bz2$
+- /usr/share/doc/chromaprint-1.4.3/README.md.bz2$

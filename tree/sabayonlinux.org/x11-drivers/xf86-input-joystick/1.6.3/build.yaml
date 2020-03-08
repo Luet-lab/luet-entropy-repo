@@ -1,0 +1,33 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i x11-drivers/xf86-input-joystick-1.6.3
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/xorg$
+- /usr/include/xorg/joystick-properties.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/xorg-joystick.pc$
+- /usr/lib64/xorg$
+- /usr/lib64/xorg/modules$
+- /usr/lib64/xorg/modules/input$
+- /usr/lib64/xorg/modules/input/joystick_drv.so$
+- /usr/share$
+- /usr/share/X11$
+- /usr/share/X11/xorg.conf.d$
+- /usr/share/X11/xorg.conf.d/50-joystick-all.conf$
+- /usr/share/doc$
+- /usr/share/doc/xf86-input-joystick-1.6.3$
+- /usr/share/doc/xf86-input-joystick-1.6.3/ChangeLog.bz2$
+- /usr/share/doc/xf86-input-joystick-1.6.3/README.bz2$
+- /usr/share/man$
+- /usr/share/man/man4$
+- /usr/share/man/man4/joystick.4.bz2$

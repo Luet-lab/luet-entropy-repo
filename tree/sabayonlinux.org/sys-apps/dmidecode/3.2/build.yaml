@@ -1,0 +1,29 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i sys-apps/dmidecode-3.2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib$
+- /usr/sbin$
+- /usr/sbin/biosdecode$
+- /usr/sbin/dmidecode$
+- /usr/sbin/ownership$
+- /usr/sbin/vpddecode$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/dmidecode-3.2$
+- /usr/share/doc/dmidecode-3.2/AUTHORS.bz2$
+- /usr/share/doc/dmidecode-3.2/NEWS.bz2$
+- /usr/share/doc/dmidecode-3.2/README.bz2$
+- /usr/share/man$
+- /usr/share/man/man8$
+- /usr/share/man/man8/biosdecode.8.bz2$
+- /usr/share/man/man8/dmidecode.8.bz2$
+- /usr/share/man/man8/ownership.8.bz2$
+- /usr/share/man/man8/vpddecode.8.bz2$

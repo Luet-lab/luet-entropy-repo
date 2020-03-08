@@ -1,0 +1,25 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-dicts/aspell-sk-2.01.2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/aspell-0.60$
+- /usr/lib64/aspell-0.60/sk.dat$
+- /usr/lib64/aspell-0.60/sk.multi$
+- /usr/lib64/aspell-0.60/sk.rws$
+- /usr/lib64/aspell-0.60/sk_SK.alias$
+- /usr/lib64/aspell-0.60/sk_affix.dat$
+- /usr/lib64/aspell-0.60/slovak.alias$
+- /usr/lib64/aspell-0.60/slovensky.alias$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/aspell-sk-2.01.2$
+- /usr/share/doc/aspell-sk-2.01.2/README.bz2$
+- /usr/share/doc/aspell-sk-2.01.2/info.bz2$

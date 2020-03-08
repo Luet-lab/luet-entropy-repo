@@ -1,0 +1,42 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/speexdsp-1.2_rc3-r2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/speex$
+- /usr/include/speex/speex_echo.h$
+- /usr/include/speex/speex_jitter.h$
+- /usr/include/speex/speex_preprocess.h$
+- /usr/include/speex/speex_resampler.h$
+- /usr/include/speex/speexdsp_config_types.h$
+- /usr/include/speex/speexdsp_types.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libspeexdsp.so$
+- /usr/lib32/libspeexdsp.so.1$
+- /usr/lib32/libspeexdsp.so.1.5.0$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/speexdsp.pc$
+- /usr/lib64$
+- /usr/lib64/libspeexdsp.so$
+- /usr/lib64/libspeexdsp.so.1$
+- /usr/lib64/libspeexdsp.so.1.5.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/speexdsp.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/speexdsp-1.2_rc3-r2$
+- /usr/share/doc/speexdsp-1.2_rc3-r2/AUTHORS.bz2$
+- /usr/share/doc/speexdsp-1.2_rc3-r2/ChangeLog.bz2$
+- /usr/share/doc/speexdsp-1.2_rc3-r2/NEWS$
+- /usr/share/doc/speexdsp-1.2_rc3-r2/README.blackfin.bz2$
+- /usr/share/doc/speexdsp-1.2_rc3-r2/README.bz2$
+- /usr/share/doc/speexdsp-1.2_rc3-r2/TODO.bz2$
+- /usr/share/doc/speexdsp-1.2_rc3-r2/manual.pdf$

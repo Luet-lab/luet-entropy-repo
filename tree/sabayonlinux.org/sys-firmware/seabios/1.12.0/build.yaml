@@ -1,0 +1,24 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i sys-firmware/seabios-1.12.0
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/seabios$
+- /usr/share/seabios/bios-256k.bin$
+- /usr/share/seabios/bios.bin$
+- /usr/share/seavgabios$
+- /usr/share/seavgabios/vgabios-bochs-display.bin$
+- /usr/share/seavgabios/vgabios-cirrus.bin$
+- /usr/share/seavgabios/vgabios-isavga.bin$
+- /usr/share/seavgabios/vgabios-qxl.bin$
+- /usr/share/seavgabios/vgabios-ramfb.bin$
+- /usr/share/seavgabios/vgabios-stdvga.bin$
+- /usr/share/seavgabios/vgabios-virtio.bin$
+- /usr/share/seavgabios/vgabios-vmware.bin$

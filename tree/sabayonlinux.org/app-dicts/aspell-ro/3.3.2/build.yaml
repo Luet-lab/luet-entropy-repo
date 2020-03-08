@@ -1,0 +1,26 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-dicts/aspell-ro-3.3.2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/aspell-0.60$
+- /usr/lib64/aspell-0.60/ro-classic-only.rws$
+- /usr/lib64/aspell-0.60/ro-classic.multi$
+- /usr/lib64/aspell-0.60/ro-common.rws$
+- /usr/lib64/aspell-0.60/ro-only.rws$
+- /usr/lib64/aspell-0.60/ro.dat$
+- /usr/lib64/aspell-0.60/ro.multi$
+- /usr/lib64/aspell-0.60/romanian-classic.alias$
+- /usr/lib64/aspell-0.60/romanian.alias$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/aspell-ro-3.3.2$
+- /usr/share/doc/aspell-ro-3.3.2/README.bz2$
+- /usr/share/doc/aspell-ro-3.3.2/info.bz2$

@@ -1,0 +1,31 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-db/libdbi-0.9.0
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/dbi$
+- /usr/include/dbi/dbd.h$
+- /usr/include/dbi/dbi-dev.h$
+- /usr/include/dbi/dbi.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libdbi.so$
+- /usr/lib64/libdbi.so.1$
+- /usr/lib64/libdbi.so.1.1.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/dbi.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libdbi-0.9.0$
+- /usr/share/doc/libdbi-0.9.0/AUTHORS.bz2$
+- /usr/share/doc/libdbi-0.9.0/ChangeLog.bz2$
+- /usr/share/doc/libdbi-0.9.0/README.bz2$
+- /usr/share/doc/libdbi-0.9.0/README.osx.bz2$
+- /usr/share/doc/libdbi-0.9.0/TODO.bz2$

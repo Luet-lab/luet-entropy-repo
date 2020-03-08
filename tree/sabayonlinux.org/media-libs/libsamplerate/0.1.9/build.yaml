@@ -1,0 +1,51 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/libsamplerate-0.1.9
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/sndfile-resample$
+- /usr/include$
+- /usr/include/samplerate.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libsamplerate.so$
+- /usr/lib32/libsamplerate.so.0$
+- /usr/lib32/libsamplerate.so.0.1.8$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/samplerate.pc$
+- /usr/lib64$
+- /usr/lib64/libsamplerate.so$
+- /usr/lib64/libsamplerate.so.0$
+- /usr/lib64/libsamplerate.so.0.1.8$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/samplerate.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libsamplerate-0.1.9$
+- /usr/share/doc/libsamplerate-0.1.9/AUTHORS$
+- /usr/share/doc/libsamplerate-0.1.9/ChangeLog.bz2$
+- /usr/share/doc/libsamplerate-0.1.9/NEWS.bz2$
+- /usr/share/doc/libsamplerate-0.1.9/README.bz2$
+- /usr/share/doc/libsamplerate-0.1.9/html$
+- /usr/share/doc/libsamplerate-0.1.9/html/SRC.css$
+- /usr/share/doc/libsamplerate-0.1.9/html/SRC.png$
+- /usr/share/doc/libsamplerate-0.1.9/html/api.html$
+- /usr/share/doc/libsamplerate-0.1.9/html/api_callback.html$
+- /usr/share/doc/libsamplerate-0.1.9/html/api_full.html$
+- /usr/share/doc/libsamplerate-0.1.9/html/api_misc.html$
+- /usr/share/doc/libsamplerate-0.1.9/html/api_simple.html$
+- /usr/share/doc/libsamplerate-0.1.9/html/download.html$
+- /usr/share/doc/libsamplerate-0.1.9/html/faq.html$
+- /usr/share/doc/libsamplerate-0.1.9/html/history.html$
+- /usr/share/doc/libsamplerate-0.1.9/html/index.html$
+- /usr/share/doc/libsamplerate-0.1.9/html/license.html$
+- /usr/share/doc/libsamplerate-0.1.9/html/lists.html$
+- /usr/share/doc/libsamplerate-0.1.9/html/quality.html$
+- /usr/share/doc/libsamplerate-0.1.9/html/win32.html$

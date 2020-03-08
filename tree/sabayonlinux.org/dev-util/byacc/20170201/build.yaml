@@ -1,0 +1,26 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-util/byacc-20170201
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/byacc$
+- /usr/lib$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/byacc-20170201$
+- /usr/share/doc/byacc-20170201/ACKNOWLEDGEMENTS.bz2$
+- /usr/share/doc/byacc-20170201/AUTHORS.bz2$
+- /usr/share/doc/byacc-20170201/CHANGES.bz2$
+- /usr/share/doc/byacc-20170201/NEW_FEATURES.bz2$
+- /usr/share/doc/byacc-20170201/NOTES.bz2$
+- /usr/share/doc/byacc-20170201/README.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/byacc.1.bz2$

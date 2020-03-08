@@ -1,0 +1,26 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-dicts/aspell-sr-0.60
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/aspell-0.60$
+- /usr/lib64/aspell-0.60/l-sr.cmap$
+- /usr/lib64/aspell-0.60/l-sr.cset$
+- /usr/lib64/aspell-0.60/sr-cyrl-only.rws$
+- /usr/lib64/aspell-0.60/sr-cyrl.multi$
+- /usr/lib64/aspell-0.60/sr-latn-only.rws$
+- /usr/lib64/aspell-0.60/sr-latn.multi$
+- /usr/lib64/aspell-0.60/sr.dat$
+- /usr/lib64/aspell-0.60/sr.multi$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/aspell-sr-0.60$
+- /usr/share/doc/aspell-sr-0.60/README.bz2$
+- /usr/share/doc/aspell-sr-0.60/info.bz2$

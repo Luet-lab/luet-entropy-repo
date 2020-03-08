@@ -1,0 +1,45 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/liblqr-0.4.2-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/lqr-1$
+- /usr/include/lqr-1/lqr$
+- /usr/include/lqr-1/lqr.h$
+- /usr/include/lqr-1/lqr/lqr_base.h$
+- /usr/include/lqr-1/lqr/lqr_carver_bias_pub.h$
+- /usr/include/lqr-1/lqr/lqr_carver_list_pub.h$
+- /usr/include/lqr-1/lqr/lqr_carver_pub.h$
+- /usr/include/lqr-1/lqr/lqr_carver_rigmask_pub.h$
+- /usr/include/lqr-1/lqr/lqr_cursor_pub.h$
+- /usr/include/lqr-1/lqr/lqr_energy_pub.h$
+- /usr/include/lqr-1/lqr/lqr_gradient_pub.h$
+- /usr/include/lqr-1/lqr/lqr_progress_pub.h$
+- /usr/include/lqr-1/lqr/lqr_rwindow_pub.h$
+- /usr/include/lqr-1/lqr/lqr_vmap_list_pub.h$
+- /usr/include/lqr-1/lqr/lqr_vmap_pub.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/liblqr-1.so$
+- /usr/lib64/liblqr-1.so.0$
+- /usr/lib64/liblqr-1.so.0.3.2$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/lqr-1.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/liblqr-0.4.2-r1$
+- /usr/share/doc/liblqr-0.4.2-r1/AUTHORS.bz2$
+- /usr/share/doc/liblqr-0.4.2-r1/ChangeLog.bz2$
+- /usr/share/doc/liblqr-0.4.2-r1/NEWS.bz2$
+- /usr/share/doc/liblqr-0.4.2-r1/README.Windows.bz2$
+- /usr/share/doc/liblqr-0.4.2-r1/README.bz2$
+- /usr/share/doc/liblqr-0.4.2-r1/TODO.bz2$
+- /usr/share/man$
+- /usr/share/man/man3$

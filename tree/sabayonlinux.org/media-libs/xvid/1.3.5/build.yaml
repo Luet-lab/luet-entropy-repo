@@ -1,0 +1,33 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/xvid-1.3.5
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/xvid.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libxvidcore.a$
+- /usr/lib32/libxvidcore.so$
+- /usr/lib32/libxvidcore.so.4$
+- /usr/lib32/libxvidcore.so.4.3$
+- /usr/lib64$
+- /usr/lib64/libxvidcore.a$
+- /usr/lib64/libxvidcore.so$
+- /usr/lib64/libxvidcore.so.4$
+- /usr/lib64/libxvidcore.so.4.3$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/xvid-1.3.5$
+- /usr/share/doc/xvid-1.3.5/AUTHORS.bz2$
+- /usr/share/doc/xvid-1.3.5/ChangeLog-1.0.bz2$
+- /usr/share/doc/xvid-1.3.5/ChangeLog.bz2$
+- /usr/share/doc/xvid-1.3.5/CodingStyle.bz2$
+- /usr/share/doc/xvid-1.3.5/README.bz2$
+- /usr/share/doc/xvid-1.3.5/TODO.bz2$

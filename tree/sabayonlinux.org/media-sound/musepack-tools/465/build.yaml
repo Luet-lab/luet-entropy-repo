@@ -1,0 +1,39 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-sound/musepack-tools-465-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/mpc2sv8$
+- /usr/bin/mpcchap$
+- /usr/bin/mpccut$
+- /usr/bin/mpcdec$
+- /usr/bin/mpcenc$
+- /usr/bin/mpcgain$
+- /usr/bin/wavcmp$
+- /usr/include$
+- /usr/include/mpc$
+- /usr/include/mpc/datatypes.h$
+- /usr/include/mpc/minimax.h$
+- /usr/include/mpc/mpc_types.h$
+- /usr/include/mpc/mpcdec.h$
+- /usr/include/mpc/mpcmath.h$
+- /usr/include/mpc/reader.h$
+- /usr/include/mpc/streaminfo.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libmpcdec.a$
+- /usr/lib32/libmpcdec.so$
+- /usr/lib32/libmpcdec.so.7$
+- /usr/lib32/libmpcdec.so.7.0.1$
+- /usr/lib64$
+- /usr/lib64/libmpcdec.a$
+- /usr/lib64/libmpcdec.so$
+- /usr/lib64/libmpcdec.so.7$
+- /usr/lib64/libmpcdec.so.7.0.1$

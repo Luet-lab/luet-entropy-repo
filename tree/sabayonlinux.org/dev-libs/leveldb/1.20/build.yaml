@@ -1,0 +1,37 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/leveldb-1.20
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/leveldb$
+- /usr/include/leveldb/c.h$
+- /usr/include/leveldb/cache.h$
+- /usr/include/leveldb/comparator.h$
+- /usr/include/leveldb/db.h$
+- /usr/include/leveldb/dumpfile.h$
+- /usr/include/leveldb/env.h$
+- /usr/include/leveldb/filter_policy.h$
+- /usr/include/leveldb/helpers$
+- /usr/include/leveldb/helpers/memenv.h$
+- /usr/include/leveldb/iterator.h$
+- /usr/include/leveldb/options.h$
+- /usr/include/leveldb/slice.h$
+- /usr/include/leveldb/status.h$
+- /usr/include/leveldb/table.h$
+- /usr/include/leveldb/table_builder.h$
+- /usr/include/leveldb/write_batch.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libleveldb.so$
+- /usr/lib64/libleveldb.so.1$
+- /usr/lib64/libleveldb.so.1.20$
+- /usr/lib64/libmemenv.so$
+- /usr/lib64/libmemenv.so.1$
+- /usr/lib64/libmemenv.so.1.20$

@@ -1,0 +1,43 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-admin/sysklogd-1.5.1-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /etc$
+- /etc/conf.d$
+- /etc/conf.d/sysklogd$
+- /etc/cron.daily$
+- /etc/cron.daily/syslog$
+- /etc/cron.weekly$
+- /etc/cron.weekly/syslog$
+- /etc/init.d$
+- /etc/init.d/sysklogd$
+- /etc/syslog.conf$
+- /usr$
+- /usr/lib$
+- /usr/sbin$
+- /usr/sbin/klogd$
+- /usr/sbin/syslog-facility$
+- /usr/sbin/syslogd$
+- /usr/sbin/syslogd-listfiles$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/sysklogd-1.5.1-r1$
+- /usr/share/doc/sysklogd-1.5.1-r1/ANNOUNCE.bz2$
+- /usr/share/doc/sysklogd-1.5.1-r1/CHANGES.bz2$
+- /usr/share/doc/sysklogd-1.5.1-r1/NEWS.bz2$
+- /usr/share/doc/sysklogd-1.5.1-r1/README.1st.bz2$
+- /usr/share/doc/sysklogd-1.5.1-r1/README.linux.bz2$
+- /usr/share/man$
+- /usr/share/man/man5$
+- /usr/share/man/man5/syslog.conf.5.bz2$
+- /usr/share/man/man8$
+- /usr/share/man/man8/klogd.8.bz2$
+- /usr/share/man/man8/sysklogd.8.bz2$
+- /usr/share/man/man8/syslogd-listfiles.8.bz2$
+- /usr/share/man/man8/syslogd.8$

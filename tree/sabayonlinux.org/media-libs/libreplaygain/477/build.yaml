@@ -1,0 +1,25 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/libreplaygain-477-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/replaygain$
+- /usr/include/replaygain/gain_analysis.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libreplaygain.a$
+- /usr/lib32/libreplaygain.so$
+- /usr/lib32/libreplaygain.so.1$
+- /usr/lib32/libreplaygain.so.1.0.0$
+- /usr/lib64$
+- /usr/lib64/libreplaygain.a$
+- /usr/lib64/libreplaygain.so$
+- /usr/lib64/libreplaygain.so.1$
+- /usr/lib64/libreplaygain.so.1.0.0$

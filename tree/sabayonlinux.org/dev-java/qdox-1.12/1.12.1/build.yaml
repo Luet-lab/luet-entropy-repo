@@ -1,0 +1,19 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-java/qdox-1.12.1-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/ant$
+- /usr/share/ant/tasks$
+- /usr/share/ant/tasks/qdox-1.12$
+- /usr/share/qdox-1.12$
+- /usr/share/qdox-1.12/lib$
+- /usr/share/qdox-1.12/lib/qdox.jar$
+- /usr/share/qdox-1.12/package.env$

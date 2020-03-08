@@ -1,0 +1,74 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i sys-block/open-iscsi-2.0.878
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /etc$
+- /etc/conf.d$
+- /etc/conf.d/iscsid$
+- /etc/init.d$
+- /etc/init.d/iscsid$
+- /etc/iscsi$
+- /etc/iscsi/ifaces$
+- /etc/iscsi/ifaces/iface.example$
+- /etc/iscsi/initiatorname.iscsi$
+- /etc/iscsi/initiatorname.iscsi.example$
+- /etc/iscsi/iscsid.conf$
+- /lib$
+- /lib/systemd$
+- /lib/systemd/system$
+- /lib/systemd/system/iscsi.service$
+- /lib/systemd/system/iscsid.service$
+- /lib/systemd/system/iscsid.socket$
+- /lib/systemd/system/iscsiuio.service$
+- /lib/systemd/system/iscsiuio.socket$
+- /usr$
+- /usr/include$
+- /usr/include/libopeniscsiusr.h$
+- /usr/include/libopeniscsiusr_common.h$
+- /usr/include/libopeniscsiusr_iface.h$
+- /usr/include/libopeniscsiusr_session.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libopeniscsiusr.so$
+- /usr/lib64/libopeniscsiusr.so.0$
+- /usr/lib64/libopeniscsiusr.so.0.2.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libopeniscsiusr.pc$
+- /usr/sbin$
+- /usr/sbin/iscsi-gen-initiatorname$
+- /usr/sbin/iscsi-iname$
+- /usr/sbin/iscsi_discovery$
+- /usr/sbin/iscsi_fw_login$
+- /usr/sbin/iscsi_offload$
+- /usr/sbin/iscsiadm$
+- /usr/sbin/iscsid$
+- /usr/sbin/iscsistart$
+- /usr/sbin/iscsiuio$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/open-iscsi-2.0.878$
+- /usr/share/doc/open-iscsi-2.0.878/README.bz2$
+- /usr/share/doc/open-iscsi-2.0.878/THANKS.bz2$
+- /usr/share/doc/open-iscsi-2.0.878/test$
+- /usr/share/doc/open-iscsi-2.0.878/test/README.bz2$
+- /usr/share/doc/open-iscsi-2.0.878/test/regression.dat.bz2$
+- /usr/share/doc/open-iscsi-2.0.878/test/regression.sh.bz2$
+- /usr/share/man$
+- /usr/share/man/man8$
+- /usr/share/man/man8/iscsi-iname.8.bz2$
+- /usr/share/man/man8/iscsi_discovery.8.bz2$
+- /usr/share/man/man8/iscsi_fw_login.8.bz2$
+- /usr/share/man/man8/iscsiadm.8.bz2$
+- /usr/share/man/man8/iscsid.8.bz2$
+- /usr/share/man/man8/iscsistart.8.bz2$
+- /usr/share/man/man8/iscsiuio.8.bz2$
+- /var$
+- /var/db$
+- /var/db/iscsi$
+- /var/db/iscsi/.keep_sys-block_open-iscsi-0$

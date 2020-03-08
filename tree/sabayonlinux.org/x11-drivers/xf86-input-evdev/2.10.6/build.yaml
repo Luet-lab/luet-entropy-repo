@@ -1,0 +1,33 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i x11-drivers/xf86-input-evdev-2.10.6
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/xorg$
+- /usr/include/xorg/evdev-properties.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/xorg-evdev.pc$
+- /usr/lib64/xorg$
+- /usr/lib64/xorg/modules$
+- /usr/lib64/xorg/modules/input$
+- /usr/lib64/xorg/modules/input/evdev_drv.so$
+- /usr/share$
+- /usr/share/X11$
+- /usr/share/X11/xorg.conf.d$
+- /usr/share/X11/xorg.conf.d/10-evdev.conf$
+- /usr/share/doc$
+- /usr/share/doc/xf86-input-evdev-2.10.6$
+- /usr/share/doc/xf86-input-evdev-2.10.6/ChangeLog.bz2$
+- /usr/share/doc/xf86-input-evdev-2.10.6/README.bz2$
+- /usr/share/man$
+- /usr/share/man/man4$
+- /usr/share/man/man4/evdev.4.bz2$

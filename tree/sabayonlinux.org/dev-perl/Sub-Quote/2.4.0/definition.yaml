@@ -1,0 +1,17 @@
+
+category: "dev-perl"
+name: "Sub-Quote"
+version: "2.4.0"
+requires:
+- category: "dev-perl"
+  name: "Sub-Name"
+  version: ">=0.210.0"
+- category: "dev-lang"
+  name: "perl"
+  version: ">=5.28.2"
+- category: "dev-perl"
+  name: "Test-Fatal"
+  version: ">=0.14.0"
+- category: "dev-perl"
+  name: "Try-Tiny"
+  version: ">=0.300.0"

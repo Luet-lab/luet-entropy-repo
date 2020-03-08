@@ -1,0 +1,16 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/gobject-introspection-common-1.60.2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/aclocal$
+- /usr/share/aclocal/introspection.m4$
+- /usr/share/gobject-introspection-1.0$
+- /usr/share/gobject-introspection-1.0/Makefile.introspection$

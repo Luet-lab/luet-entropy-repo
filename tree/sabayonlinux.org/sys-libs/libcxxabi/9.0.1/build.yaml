@@ -1,0 +1,26 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i sys-libs/libcxxabi-9.0.1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/libcxxabi$
+- /usr/include/libcxxabi/__cxxabi_config.h$
+- /usr/include/libcxxabi/cxxabi.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libc.*abi.a$
+- /usr/lib32/libc.*abi.so$
+- /usr/lib32/libc.*abi.so.1$
+- /usr/lib32/libc.*abi.so.1.0$
+- /usr/lib64$
+- /usr/lib64/libc.*abi.a$
+- /usr/lib64/libc.*abi.so$
+- /usr/lib64/libc.*abi.so.1$
+- /usr/lib64/libc.*abi.so.1.0$

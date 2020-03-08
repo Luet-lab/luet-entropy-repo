@@ -1,0 +1,24 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i x11-apps/rgb-1.0.6
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/showrgb$
+- /usr/share$
+- /usr/share/X11$
+- /usr/share/X11/rgb.txt$
+- /usr/share/doc$
+- /usr/share/doc/rgb-1.0.6$
+- /usr/share/doc/rgb-1.0.6/AUTHORS$
+- /usr/share/doc/rgb-1.0.6/ChangeLog.bz2$
+- /usr/share/doc/rgb-1.0.6/README.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/showrgb.1.bz2$

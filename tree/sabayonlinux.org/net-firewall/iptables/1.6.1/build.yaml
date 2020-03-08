@@ -2,7 +2,11 @@
 steps:
 - source /etc/profile && equo up
 - source /etc/profile && ACCEPT_LICENSE=* equo i net-firewall/iptables-1.6.1-r3
-image: "sabayon/base"
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
 includes:
 - /etc$
 - /etc/conf.d$

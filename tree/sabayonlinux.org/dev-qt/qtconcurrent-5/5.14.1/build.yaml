@@ -1,0 +1,54 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-qt/qtconcurrent-5.14.1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/qt5$
+- /usr/include/qt5/QtConcurrent$
+- /usr/include/qt5/QtConcurrent/QtConcurrent$
+- /usr/include/qt5/QtConcurrent/QtConcurrentDepends$
+- /usr/include/qt5/QtConcurrent/QtConcurrentFilter$
+- /usr/include/qt5/QtConcurrent/QtConcurrentMap$
+- /usr/include/qt5/QtConcurrent/QtConcurrentRun$
+- /usr/include/qt5/QtConcurrent/QtConcurrentVersion$
+- /usr/include/qt5/QtConcurrent/qtconcurrent_global.h$
+- /usr/include/qt5/QtConcurrent/qtconcurrentcompilertest.h$
+- /usr/include/qt5/QtConcurrent/qtconcurrentexception.h$
+- /usr/include/qt5/QtConcurrent/qtconcurrentfilter.h$
+- /usr/include/qt5/QtConcurrent/qtconcurrentfilterkernel.h$
+- /usr/include/qt5/QtConcurrent/qtconcurrentfunctionwrappers.h$
+- /usr/include/qt5/QtConcurrent/qtconcurrentiteratekernel.h$
+- /usr/include/qt5/QtConcurrent/qtconcurrentmap.h$
+- /usr/include/qt5/QtConcurrent/qtconcurrentmapkernel.h$
+- /usr/include/qt5/QtConcurrent/qtconcurrentmedian.h$
+- /usr/include/qt5/QtConcurrent/qtconcurrentreducekernel.h$
+- /usr/include/qt5/QtConcurrent/qtconcurrentrun.h$
+- /usr/include/qt5/QtConcurrent/qtconcurrentrunbase.h$
+- /usr/include/qt5/QtConcurrent/qtconcurrentstoredfunctioncall.h$
+- /usr/include/qt5/QtConcurrent/qtconcurrentthreadengine.h$
+- /usr/include/qt5/QtConcurrent/qtconcurrentversion.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/cmake$
+- /usr/lib64/cmake/Qt5Concurrent$
+- /usr/lib64/cmake/Qt5Concurrent/Qt5ConcurrentConfig.cmake$
+- /usr/lib64/cmake/Qt5Concurrent/Qt5ConcurrentConfigVersion.cmake$
+- /usr/lib64/libQt5Concurrent.prl$
+- /usr/lib64/libQt5Concurrent.so$
+- /usr/lib64/libQt5Concurrent.so.5$
+- /usr/lib64/libQt5Concurrent.so.5.14$
+- /usr/lib64/libQt5Concurrent.so.5.14.1$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/Qt5Concurrent.pc$
+- /usr/lib64/qt5$
+- /usr/lib64/qt5/mkspecs$
+- /usr/lib64/qt5/mkspecs/modules$
+- /usr/lib64/qt5/mkspecs/modules/qt_lib_concurrent.pri$
+- /usr/lib64/qt5/mkspecs/modules/qt_lib_concurrent_private.pri$

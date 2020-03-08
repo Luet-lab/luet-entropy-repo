@@ -1,0 +1,23 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-dicts/aspell-cs-0.60.20040614
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/aspell-0.60$
+- /usr/lib64/aspell-0.60/cs.dat$
+- /usr/lib64/aspell-0.60/cs.multi$
+- /usr/lib64/aspell-0.60/cs.rws$
+- /usr/lib64/aspell-0.60/cs_affix.dat$
+- /usr/lib64/aspell-0.60/czech.alias$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/aspell-cs-0.60.20040614$
+- /usr/share/doc/aspell-cs-0.60.20040614/README.bz2$
+- /usr/share/doc/aspell-cs-0.60.20040614/info.bz2$

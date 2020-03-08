@@ -2,7 +2,11 @@
 steps:
 - source /etc/profile && equo up
 - source /etc/profile && ACCEPT_LICENSE=* equo i sys-apps/net-tools-1.60_p20180626073013
-image: "sabayon/base"
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
 includes:
 - /bin$
 - /bin/dnsdomainname$

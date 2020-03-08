@@ -1,0 +1,44 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/diff-lcs-1.3
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/htmldiff$
+- /usr/bin/ldiff$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/diff-lcs-1.3$
+- /usr/lib64/ruby/gems/2.5.0/gems/diff-lcs-1.3/bin$
+- /usr/lib64/ruby/gems/2.5.0/gems/diff-lcs-1.3/bin/htmldiff$
+- /usr/lib64/ruby/gems/2.5.0/gems/diff-lcs-1.3/bin/ldiff$
+- /usr/lib64/ruby/gems/2.5.0/gems/diff-lcs-1.3/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/diff-lcs-1.3/lib/diff$
+- /usr/lib64/ruby/gems/2.5.0/gems/diff-lcs-1.3/lib/diff-lcs.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/diff-lcs-1.3/lib/diff/lcs$
+- /usr/lib64/ruby/gems/2.5.0/gems/diff-lcs-1.3/lib/diff/lcs.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/diff-lcs-1.3/lib/diff/lcs/array.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/diff-lcs-1.3/lib/diff/lcs/block.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/diff-lcs-1.3/lib/diff/lcs/callbacks.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/diff-lcs-1.3/lib/diff/lcs/change.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/diff-lcs-1.3/lib/diff/lcs/htmldiff.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/diff-lcs-1.3/lib/diff/lcs/hunk.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/diff-lcs-1.3/lib/diff/lcs/internals.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/diff-lcs-1.3/lib/diff/lcs/ldiff.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/diff-lcs-1.3/lib/diff/lcs/string.rb$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/diff-lcs-1.3.gemspec$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/diff-lcs-1.3$
+- /usr/share/doc/diff-lcs-1.3/History.md.bz2$
+- /usr/share/doc/diff-lcs-1.3/README.rdoc.bz2$

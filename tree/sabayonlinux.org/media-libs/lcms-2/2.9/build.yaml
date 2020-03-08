@@ -1,0 +1,40 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/lcms-2.9
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/jpgicc$
+- /usr/bin/linkicc$
+- /usr/bin/psicc$
+- /usr/bin/tificc$
+- /usr/bin/transicc$
+- /usr/include$
+- /usr/include/lcms2.h$
+- /usr/include/lcms2_plugin.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/liblcms2.a$
+- /usr/lib32/liblcms2.so$
+- /usr/lib32/liblcms2.so.2$
+- /usr/lib32/liblcms2.so.2.0.8$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/lcms2.pc$
+- /usr/lib64$
+- /usr/lib64/liblcms2.a$
+- /usr/lib64/liblcms2.so$
+- /usr/lib64/liblcms2.so.2$
+- /usr/lib64/liblcms2.so.2.0.8$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/lcms2.pc$
+- /usr/share$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/jpgicc.1.bz2$
+- /usr/share/man/man1/tificc.1.bz2$

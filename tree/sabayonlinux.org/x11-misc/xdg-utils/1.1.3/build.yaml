@@ -1,0 +1,41 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i x11-misc/xdg-utils-1.1.3-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /etc$
+- /etc/env.d$
+- /etc/env.d/30xdg-data-local$
+- /etc/env.d/90xdg-data-base$
+- /usr$
+- /usr/bin$
+- /usr/bin/xdg-desktop-icon$
+- /usr/bin/xdg-desktop-menu$
+- /usr/bin/xdg-email$
+- /usr/bin/xdg-icon-resource$
+- /usr/bin/xdg-mime$
+- /usr/bin/xdg-open$
+- /usr/bin/xdg-screensaver$
+- /usr/bin/xdg-settings$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/xdg-utils-1.1.3-r1$
+- /usr/share/doc/xdg-utils-1.1.3-r1/README.bz2$
+- /usr/share/doc/xdg-utils-1.1.3-r1/README.xsl.bz2$
+- /usr/share/doc/xdg-utils-1.1.3-r1/RELEASE_NOTES.bz2$
+- /usr/share/doc/xdg-utils-1.1.3-r1/TODO.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/xdg-desktop-icon.1.bz2$
+- /usr/share/man/man1/xdg-desktop-menu.1.bz2$
+- /usr/share/man/man1/xdg-email.1.bz2$
+- /usr/share/man/man1/xdg-icon-resource.1.bz2$
+- /usr/share/man/man1/xdg-mime.1.bz2$
+- /usr/share/man/man1/xdg-open.1.bz2$
+- /usr/share/man/man1/xdg-screensaver.1.bz2$
+- /usr/share/man/man1/xdg-settings.1.bz2$

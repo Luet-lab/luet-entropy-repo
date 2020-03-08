@@ -1,0 +1,32 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-dicts/aspell-de-0.60_pre20030222
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/aspell-0.60$
+- /usr/lib64/aspell-0.60/de-common.rws$
+- /usr/lib64/aspell-0.60/de.dat$
+- /usr/lib64/aspell-0.60/de.multi$
+- /usr/lib64/aspell-0.60/de_AT-only.rws$
+- /usr/lib64/aspell-0.60/de_AT.multi$
+- /usr/lib64/aspell-0.60/de_CH-only.rws$
+- /usr/lib64/aspell-0.60/de_CH.multi$
+- /usr/lib64/aspell-0.60/de_DE-only.rws$
+- /usr/lib64/aspell-0.60/de_DE.multi$
+- /usr/lib64/aspell-0.60/de_affix.dat$
+- /usr/lib64/aspell-0.60/de_phonet.dat$
+- /usr/lib64/aspell-0.60/deutsch.alias$
+- /usr/lib64/aspell-0.60/german.alias$
+- /usr/lib64/aspell-0.60/swiss.alias$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/aspell-de-0.60_pre20030222$
+- /usr/share/doc/aspell-de-0.60_pre20030222/README.bz2$
+- /usr/share/doc/aspell-de-0.60_pre20030222/info.bz2$

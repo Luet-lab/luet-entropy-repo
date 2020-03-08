@@ -1,0 +1,21 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/libxdg-basedir-1.2.0-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/basedir.h$
+- /usr/include/basedir_fs.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libxdg-basedir.so$
+- /usr/lib64/libxdg-basedir.so.1$
+- /usr/lib64/libxdg-basedir.so.1.2.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libxdg-basedir.pc$

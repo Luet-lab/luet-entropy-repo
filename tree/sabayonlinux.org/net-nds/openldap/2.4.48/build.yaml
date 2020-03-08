@@ -2,7 +2,11 @@
 steps:
 - source /etc/profile && equo up
 - source /etc/profile && ACCEPT_LICENSE=* equo i net-nds/openldap-2.4.48
-image: "sabayon/base"
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
 includes:
 - /etc$
 - /etc/conf.d$

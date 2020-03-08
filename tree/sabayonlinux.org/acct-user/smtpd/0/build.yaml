@@ -1,0 +1,13 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i acct-user/smtpd-0
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /var$
+- /var/empty$
+- /var/empty/.keep_acct-user_smtpd-0$

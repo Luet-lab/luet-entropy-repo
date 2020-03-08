@@ -1,0 +1,14 @@
+
+category: "dev-perl"
+name: "Devel-LexAlias"
+version: "0.50.0"
+requires:
+- category: "dev-perl"
+  name: "Devel-Caller"
+  version: ">=2.60.0"
+- category: "dev-perl"
+  name: "PadWalker"
+  version: ">=2.300.0"
+- category: "dev-lang"
+  name: "perl"
+  version: ">=5.28.2"

@@ -1,0 +1,47 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i net-dns/bind-tools-9.14.8
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/delv$
+- /usr/bin/dig$
+- /usr/bin/dnssec-dsfromkey$
+- /usr/bin/dnssec-importkey$
+- /usr/bin/dnssec-keyfromlabel$
+- /usr/bin/dnssec-keygen$
+- /usr/bin/dnssec-revoke$
+- /usr/bin/dnssec-settime$
+- /usr/bin/dnssec-signzone$
+- /usr/bin/dnssec-verify$
+- /usr/bin/host$
+- /usr/bin/nslookup$
+- /usr/bin/nsupdate$
+- /usr/lib$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/bind-tools-9.14.8$
+- /usr/share/doc/bind-tools-9.14.8/CHANGES.bz2$
+- /usr/share/doc/bind-tools-9.14.8/README.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/delv.1.bz2$
+- /usr/share/man/man1/dig.1.bz2$
+- /usr/share/man/man1/host.1.bz2$
+- /usr/share/man/man1/nslookup.1.bz2$
+- /usr/share/man/man1/nsupdate.1.bz2$
+- /usr/share/man/man8$
+- /usr/share/man/man8/dnssec-dsfromkey.8.bz2$
+- /usr/share/man/man8/dnssec-importkey.8.bz2$
+- /usr/share/man/man8/dnssec-keyfromlabel.8.bz2$
+- /usr/share/man/man8/dnssec-keygen.8.bz2$
+- /usr/share/man/man8/dnssec-revoke.8.bz2$
+- /usr/share/man/man8/dnssec-settime.8.bz2$
+- /usr/share/man/man8/dnssec-signzone.8.bz2$
+- /usr/share/man/man8/dnssec-verify.8.bz2$

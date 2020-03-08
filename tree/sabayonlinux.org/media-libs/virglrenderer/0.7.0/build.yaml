@@ -1,0 +1,23 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/virglrenderer-0.7.0
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/virgl_test_server$
+- /usr/include$
+- /usr/include/virgl$
+- /usr/include/virgl/virglrenderer.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libvirglrenderer.so$
+- /usr/lib64/libvirglrenderer.so.0$
+- /usr/lib64/libvirglrenderer.so.0.2.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/virglrenderer.pc$

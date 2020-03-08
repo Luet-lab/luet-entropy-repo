@@ -1,0 +1,20 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-java/piccolo2d-3.0-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/piccolo2d-3.0-r1$
+- /usr/share/doc/piccolo2d-3.0-r1/Readme.txt.bz2$
+- /usr/share/doc/piccolo2d-3.0-r1/ReleaseNotes.txt.bz2$
+- /usr/share/piccolo2d$
+- /usr/share/piccolo2d/lib$
+- /usr/share/piccolo2d/lib/piccolo2d.jar$
+- /usr/share/piccolo2d/package.env$

@@ -1,0 +1,59 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/pycairo-1.18.2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/pycairo$
+- /usr/include/pycairo/py3cairo.h$
+- /usr/include/pycairo/pycairo.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/py3cairo.pc$
+- /usr/lib64/pkgconfig/pycairo.pc$
+- /usr/lib64/python2.7$
+- /usr/lib64/python2.7/site-packages$
+- /usr/lib64/python2.7/site-packages/cairo$
+- /usr/lib64/python2.7/site-packages/cairo/__init__.py$
+- /usr/lib64/python2.7/site-packages/cairo/__init__.pyc$
+- /usr/lib64/python2.7/site-packages/cairo/__init__.pyi$
+- /usr/lib64/python2.7/site-packages/cairo/__init__.pyo$
+- /usr/lib64/python2.7/site-packages/cairo/_cairo.so$
+- /usr/lib64/python2.7/site-packages/cairo/include$
+- /usr/lib64/python2.7/site-packages/cairo/include/pycairo.h$
+- /usr/lib64/python2.7/site-packages/cairo/py.typed$
+- /usr/lib64/python2.7/site-packages/pycairo-1.18.2-py2.7.egg-info$
+- /usr/lib64/python2.7/site-packages/pycairo-1.18.2-py2.7.egg-info/PKG-INFO$
+- /usr/lib64/python2.7/site-packages/pycairo-1.18.2-py2.7.egg-info/SOURCES.txt$
+- /usr/lib64/python2.7/site-packages/pycairo-1.18.2-py2.7.egg-info/dependency_links.txt$
+- /usr/lib64/python2.7/site-packages/pycairo-1.18.2-py2.7.egg-info/top_level.txt$
+- /usr/lib64/python3.6$
+- /usr/lib64/python3.6/site-packages$
+- /usr/lib64/python3.6/site-packages/cairo$
+- /usr/lib64/python3.6/site-packages/cairo/__init__.py$
+- /usr/lib64/python3.6/site-packages/cairo/__init__.pyi$
+- /usr/lib64/python3.6/site-packages/cairo/__pycache__$
+- /usr/lib64/python3.6/site-packages/cairo/__pycache__/__init__.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/cairo/__pycache__/__init__.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/cairo/__pycache__/__init__.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/cairo/_cairo.cpython-36m-x86_64-linux-gnu.so$
+- /usr/lib64/python3.6/site-packages/cairo/include$
+- /usr/lib64/python3.6/site-packages/cairo/include/py3cairo.h$
+- /usr/lib64/python3.6/site-packages/cairo/py.typed$
+- /usr/lib64/python3.6/site-packages/pycairo-1.18.2-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/pycairo-1.18.2-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/pycairo-1.18.2-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/pycairo-1.18.2-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/pycairo-1.18.2-py3.6.egg-info/top_level.txt$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/pycairo-1.18.2$
+- /usr/share/doc/pycairo-1.18.2/NEWS.bz2$
+- /usr/share/doc/pycairo-1.18.2/README.rst.bz2$

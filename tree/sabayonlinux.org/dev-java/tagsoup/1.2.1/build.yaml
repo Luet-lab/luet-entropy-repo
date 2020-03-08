@@ -1,0 +1,26 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-java/tagsoup-1.2.1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/tagsoup$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/tagsoup-1.2.1$
+- /usr/share/doc/tagsoup-1.2.1/CHANGES.bz2$
+- /usr/share/doc/tagsoup-1.2.1/README.bz2$
+- /usr/share/doc/tagsoup-1.2.1/TODO.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/tagsoup.1.bz2$
+- /usr/share/tagsoup$
+- /usr/share/tagsoup/lib$
+- /usr/share/tagsoup/lib/tagsoup.jar$
+- /usr/share/tagsoup/package.env$

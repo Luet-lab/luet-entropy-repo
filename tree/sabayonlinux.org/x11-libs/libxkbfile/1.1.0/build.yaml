@@ -1,0 +1,38 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i x11-libs/libxkbfile-1.1.0
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/X11$
+- /usr/include/X11/extensions$
+- /usr/include/X11/extensions/XKBbells.h$
+- /usr/include/X11/extensions/XKBconfig.h$
+- /usr/include/X11/extensions/XKBfile.h$
+- /usr/include/X11/extensions/XKBrules.h$
+- /usr/include/X11/extensions/XKM.h$
+- /usr/include/X11/extensions/XKMformat.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libxkbfile.so$
+- /usr/lib32/libxkbfile.so.1$
+- /usr/lib32/libxkbfile.so.1.0.2$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/xkbfile.pc$
+- /usr/lib64$
+- /usr/lib64/libxkbfile.so$
+- /usr/lib64/libxkbfile.so.1$
+- /usr/lib64/libxkbfile.so.1.0.2$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/xkbfile.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libxkbfile-1.1.0$
+- /usr/share/doc/libxkbfile-1.1.0/ChangeLog.bz2$
+- /usr/share/doc/libxkbfile-1.1.0/README.md.bz2$

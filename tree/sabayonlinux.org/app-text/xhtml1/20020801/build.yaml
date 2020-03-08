@@ -1,0 +1,48 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-text/xhtml1-20020801-r6
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /etc$
+- /etc/sgml$
+- /etc/sgml/xhtml1.cat$
+- /usr$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/xhtml1-20020801-r6$
+- /usr/share/doc/xhtml1-20020801-r6/html$
+- /usr/share/doc/xhtml1-20020801-r6/html/Cover.html$
+- /usr/share/doc/xhtml1-20020801-r6/html/Overview.html$
+- /usr/share/doc/xhtml1-20020801-r6/html/W3C-REC.css$
+- /usr/share/doc/xhtml1-20020801-r6/html/acks.html$
+- /usr/share/doc/xhtml1-20020801-r6/html/definitions.html$
+- /usr/share/doc/xhtml1-20020801-r6/html/diffs.html$
+- /usr/share/doc/xhtml1-20020801-r6/html/dtds.html$
+- /usr/share/doc/xhtml1-20020801-r6/html/guidelines.html$
+- /usr/share/doc/xhtml1-20020801-r6/html/introduction.html$
+- /usr/share/doc/xhtml1-20020801-r6/html/issues.html$
+- /usr/share/doc/xhtml1-20020801-r6/html/logo-REC.png$
+- /usr/share/doc/xhtml1-20020801-r6/html/normative.html$
+- /usr/share/doc/xhtml1-20020801-r6/html/prohibitions.html$
+- /usr/share/doc/xhtml1-20020801-r6/html/references.html$
+- /usr/share/doc/xhtml1-20020801-r6/html/w3c_home.png$
+- /usr/share/doc/xhtml1-20020801-r6/html/wcag1AAA.png$
+- /usr/share/doc/xhtml1-20020801-r6/html/xhtml.css$
+- /usr/share/doc/xhtml1-20020801-r6/html/xhtml1-diff.html$
+- /usr/share/doc/xhtml1-20020801-r6/xhtml1.pdf$
+- /usr/share/doc/xhtml1-20020801-r6/xhtml1.ps.bz2$
+- /usr/share/sgml$
+- /usr/share/sgml/xhtml1$
+- /usr/share/sgml/xhtml1/xhtml-lat1.ent$
+- /usr/share/sgml/xhtml1/xhtml-special.ent$
+- /usr/share/sgml/xhtml1/xhtml-symbol.ent$
+- /usr/share/sgml/xhtml1/xhtml.soc$
+- /usr/share/sgml/xhtml1/xhtml1-frameset.dtd$
+- /usr/share/sgml/xhtml1/xhtml1-strict.dtd$
+- /usr/share/sgml/xhtml1/xhtml1-transitional.dtd$
+- /usr/share/sgml/xhtml1/xhtml1.dcl$

@@ -1,0 +1,76 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/ustr-1.0.4-r8
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/include$
+- /usr/include/i686-pc-linux-gnu$
+- /usr/include/i686-pc-linux-gnu/ustr-conf-debug.h$
+- /usr/include/i686-pc-linux-gnu/ustr-conf.h$
+- /usr/include/ustr-b.h$
+- /usr/include/ustr-cmp.h$
+- /usr/include/ustr-cntl.h$
+- /usr/include/ustr-compiler.h$
+- /usr/include/ustr-conf-debug.h$
+- /usr/include/ustr-conf.h$
+- /usr/include/ustr-debug.h$
+- /usr/include/ustr-fmt.h$
+- /usr/include/ustr-ins.h$
+- /usr/include/ustr-io.h$
+- /usr/include/ustr-main.h$
+- /usr/include/ustr-parse.h$
+- /usr/include/ustr-pool.h$
+- /usr/include/ustr-replace.h$
+- /usr/include/ustr-sc.h$
+- /usr/include/ustr-set.h$
+- /usr/include/ustr-split.h$
+- /usr/include/ustr-spn.h$
+- /usr/include/ustr-srch.h$
+- /usr/include/ustr-sub.h$
+- /usr/include/ustr-utf8.h$
+- /usr/include/ustr.h$
+- /usr/include/x86_64-pc-linux-gnu$
+- /usr/include/x86_64-pc-linux-gnu/ustr-conf-debug.h$
+- /usr/include/x86_64-pc-linux-gnu/ustr-conf.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libustr-1.0.so.1$
+- /usr/lib32/libustr-1.0.so.1.0.4$
+- /usr/lib32/libustr.so$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/ustr.pc$
+- /usr/lib64$
+- /usr/lib64/libustr-1.0.so.1$
+- /usr/lib64/libustr-1.0.so.1.0.4$
+- /usr/lib64/libustr.so$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/ustr.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/ustr-1.0.4-r8$
+- /usr/share/doc/ustr-1.0.4-r8/AUTHORS$
+- /usr/share/doc/ustr-1.0.4-r8/ChangeLog.bz2$
+- /usr/share/doc/ustr-1.0.4-r8/NEWS.bz2$
+- /usr/share/doc/ustr-1.0.4-r8/README-DEVELOPERS.bz2$
+- /usr/share/doc/ustr-1.0.4-r8/README.bz2$
+- /usr/share/doc/ustr-1.0.4-r8/TODO.bz2$
+- /usr/share/doc/ustr-1.0.4-r8/constants.html$
+- /usr/share/doc/ustr-1.0.4-r8/design.html$
+- /usr/share/doc/ustr-1.0.4-r8/functions.html$
+- /usr/share/doc/ustr-1.0.4-r8/index.html$
+- /usr/share/doc/ustr-1.0.4-r8/strdup$
+- vs.$
+- ustr.gnumeric.bz2$
+- /usr/share/doc/ustr-1.0.4-r8/tutorial.html$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man3$
+- /usr/share/man/man3/ustr.3.bz2$
+- /usr/share/man/man3/ustr_const.3.bz2$

@@ -1,0 +1,33 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i sys-process/lsof-4.93.2-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/lsof$
+- /usr/lib$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/lsof-4.93.2-r1$
+- /usr/share/doc/lsof-4.93.2-r1/00.README.FIRST.bz2$
+- /usr/share/doc/lsof-4.93.2-r1/00CREDITS.bz2$
+- /usr/share/doc/lsof-4.93.2-r1/00DCACHE.bz2$
+- /usr/share/doc/lsof-4.93.2-r1/00DIALECTS.bz2$
+- /usr/share/doc/lsof-4.93.2-r1/00DIST.bz2$
+- /usr/share/doc/lsof-4.93.2-r1/00FAQ.bz2$
+- /usr/share/doc/lsof-4.93.2-r1/00LSOF-L.bz2$
+- /usr/share/doc/lsof-4.93.2-r1/00MANIFEST.bz2$
+- /usr/share/doc/lsof-4.93.2-r1/00PORTING.bz2$
+- /usr/share/doc/lsof-4.93.2-r1/00QUICKSTART.bz2$
+- /usr/share/doc/lsof-4.93.2-r1/00README.bz2$
+- /usr/share/doc/lsof-4.93.2-r1/00TEST.bz2$
+- /usr/share/doc/lsof-4.93.2-r1/00XCONFIG.bz2$
+- /usr/share/man$
+- /usr/share/man/man8$
+- /usr/share/man/man8/lsof.8.bz2$

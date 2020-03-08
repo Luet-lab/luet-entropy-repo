@@ -1,0 +1,33 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i sys-apps/fakechroot-2.19
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /etc$
+- /etc/fakechroot$
+- /etc/fakechroot/chroot.env$
+- /etc/fakechroot/debootstrap.env$
+- /etc/fakechroot/rinse.env$
+- /usr$
+- /usr/bin$
+- /usr/bin/env.fakechroot$
+- /usr/bin/fakechroot$
+- /usr/bin/ldd.fakechroot$
+- /usr/lib64$
+- /usr/lib64/fakechroot$
+- /usr/lib64/fakechroot/libfakechroot.so$
+- /usr/sbin$
+- /usr/sbin/chroot.fakechroot$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/fakechroot-2.19$
+- /usr/share/doc/fakechroot-2.19/NEWS.md.bz2$
+- /usr/share/doc/fakechroot-2.19/README.md.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/fakechroot.1.bz2$

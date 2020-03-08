@@ -1,0 +1,41 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/scandir-1.10.0
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/python2.7$
+- /usr/lib64/python2.7/site-packages$
+- /usr/lib64/python2.7/site-packages/_scandir.so$
+- /usr/lib64/python2.7/site-packages/scandir-1.10.0-py2.7.egg-info$
+- /usr/lib64/python2.7/site-packages/scandir-1.10.0-py2.7.egg-info/PKG-INFO$
+- /usr/lib64/python2.7/site-packages/scandir-1.10.0-py2.7.egg-info/SOURCES.txt$
+- /usr/lib64/python2.7/site-packages/scandir-1.10.0-py2.7.egg-info/dependency_links.txt$
+- /usr/lib64/python2.7/site-packages/scandir-1.10.0-py2.7.egg-info/top_level.txt$
+- /usr/lib64/python2.7/site-packages/scandir.py$
+- /usr/lib64/python2.7/site-packages/scandir.pyc$
+- /usr/lib64/python2.7/site-packages/scandir.pyo$
+- /usr/lib64/python3.6$
+- /usr/lib64/python3.6/site-packages$
+- /usr/lib64/python3.6/site-packages/__pycache__$
+- /usr/lib64/python3.6/site-packages/__pycache__/scandir.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/__pycache__/scandir.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/__pycache__/scandir.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/_scandir.cpython-36m-x86_64-linux-gnu.so$
+- /usr/lib64/python3.6/site-packages/scandir-1.10.0-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/scandir-1.10.0-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/scandir-1.10.0-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/scandir-1.10.0-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/scandir-1.10.0-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/scandir.py$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/scandir-1.10.0$
+- /usr/share/doc/scandir-1.10.0/README.rst.bz2$

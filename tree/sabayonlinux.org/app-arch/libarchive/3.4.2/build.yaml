@@ -1,0 +1,84 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-arch/libarchive-3.4.2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/bsdcat$
+- /usr/bin/bsdcpio$
+- /usr/bin/bsdtar$
+- /usr/include$
+- /usr/include/archive.h$
+- /usr/include/archive_entry.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libarchive.so$
+- /usr/lib32/libarchive.so.13$
+- /usr/lib32/libarchive.so.13.4.2$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/libarchive.pc$
+- /usr/lib64$
+- /usr/lib64/libarchive.so$
+- /usr/lib64/libarchive.so.13$
+- /usr/lib64/libarchive.so.13.4.2$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libarchive.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libarchive-3.4.2$
+- /usr/share/doc/libarchive-3.4.2/NEWS.bz2$
+- /usr/share/doc/libarchive-3.4.2/README.md.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/bsdcat.1.bz2$
+- /usr/share/man/man1/bsdcpio.1.bz2$
+- /usr/share/man/man1/bsdtar.1.bz2$
+- /usr/share/man/man3$
+- /usr/share/man/man3/archive_entry.3.bz2$
+- /usr/share/man/man3/archive_entry_acl.3.bz2$
+- /usr/share/man/man3/archive_entry_linkify.3.bz2$
+- /usr/share/man/man3/archive_entry_misc.3.bz2$
+- /usr/share/man/man3/archive_entry_paths.3.bz2$
+- /usr/share/man/man3/archive_entry_perms.3.bz2$
+- /usr/share/man/man3/archive_entry_stat.3.bz2$
+- /usr/share/man/man3/archive_entry_time.3.bz2$
+- /usr/share/man/man3/archive_read.3.bz2$
+- /usr/share/man/man3/archive_read_add_passphrase.3.bz2$
+- /usr/share/man/man3/archive_read_data.3.bz2$
+- /usr/share/man/man3/archive_read_disk.3.bz2$
+- /usr/share/man/man3/archive_read_extract.3.bz2$
+- /usr/share/man/man3/archive_read_filter.3.bz2$
+- /usr/share/man/man3/archive_read_format.3.bz2$
+- /usr/share/man/man3/archive_read_free.3.bz2$
+- /usr/share/man/man3/archive_read_header.3.bz2$
+- /usr/share/man/man3/archive_read_new.3.bz2$
+- /usr/share/man/man3/archive_read_open.3.bz2$
+- /usr/share/man/man3/archive_read_set_options.3.bz2$
+- /usr/share/man/man3/archive_util.3.bz2$
+- /usr/share/man/man3/archive_write.3.bz2$
+- /usr/share/man/man3/archive_write_blocksize.3.bz2$
+- /usr/share/man/man3/archive_write_data.3.bz2$
+- /usr/share/man/man3/archive_write_disk.3.bz2$
+- /usr/share/man/man3/archive_write_filter.3.bz2$
+- /usr/share/man/man3/archive_write_finish_entry.3.bz2$
+- /usr/share/man/man3/archive_write_format.3.bz2$
+- /usr/share/man/man3/archive_write_free.3.bz2$
+- /usr/share/man/man3/archive_write_header.3.bz2$
+- /usr/share/man/man3/archive_write_new.3.bz2$
+- /usr/share/man/man3/archive_write_open.3.bz2$
+- /usr/share/man/man3/archive_write_set_options.3.bz2$
+- /usr/share/man/man3/archive_write_set_passphrase.3.bz2$
+- /usr/share/man/man3/libarchive.3.bz2$
+- /usr/share/man/man3/libarchive_changes.3.bz2$
+- /usr/share/man/man3/libarchive_internals.3.bz2$
+- /usr/share/man/man5$
+- /usr/share/man/man5/cpio.5.bz2$
+- /usr/share/man/man5/libarchive-formats.5.bz2$
+- /usr/share/man/man5/mtree.5.bz2$
+- /usr/share/man/man5/tar.5.bz2$

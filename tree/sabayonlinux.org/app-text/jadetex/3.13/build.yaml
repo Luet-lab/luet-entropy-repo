@@ -1,0 +1,55 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-text/jadetex-3.13-r7
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /etc$
+- /etc/texmf$
+- /etc/texmf/fmtutil.d$
+- /etc/texmf/fmtutil.d/format.jadetex.cnf$
+- /etc/texmf/texmf.d$
+- /etc/texmf/texmf.d/80jadetex.cnf$
+- /usr$
+- /usr/bin$
+- /usr/bin/jadetex$
+- /usr/bin/pdfjadetex$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/jadetex-3.13-r7$
+- /usr/share/doc/jadetex-3.13-r7/ChangeLog-old.bz2$
+- /usr/share/doc/jadetex-3.13-r7/ChangeLog.bz2$
+- /usr/share/doc/jadetex-3.13-r7/html$
+- /usr/share/doc/jadetex-3.13-r7/html/doc$
+- /usr/share/doc/jadetex-3.13-r7/html/doc/logo.png$
+- /usr/share/doc/jadetex-3.13-r7/html/index.html$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/jadetex.1.bz2$
+- /usr/share/man/man1/pdfjadetex.1.bz2$
+- /usr/share/texmf-site$
+- /usr/share/texmf-site/tex$
+- /usr/share/texmf-site/tex/jadetex$
+- /usr/share/texmf-site/tex/jadetex/dsssl.def$
+- /usr/share/texmf-site/tex/jadetex/dummyels.sty$
+- /usr/share/texmf-site/tex/jadetex/jadetex.cfg$
+- /usr/share/texmf-site/tex/jadetex/jadetex.ini$
+- /usr/share/texmf-site/tex/jadetex/jadetex.ltx$
+- /usr/share/texmf-site/tex/jadetex/mlnames.sty$
+- /usr/share/texmf-site/tex/jadetex/pdfjadetex.ini$
+- /usr/share/texmf-site/tex/jadetex/ucharacters.sty$
+- /usr/share/texmf-site/tex/jadetex/uentities.sty$
+- /usr/share/texmf-site/tex/jadetex/unicode.sty$
+- /var$
+- /var/lib$
+- /var/lib/texmf$
+- /var/lib/texmf/web2c$
+- /var/lib/texmf/web2c/pdftex$
+- /var/lib/texmf/web2c/pdftex/jadetex.fmt$
+- /var/lib/texmf/web2c/pdftex/jadetex.log$
+- /var/lib/texmf/web2c/pdftex/pdfjadetex.fmt$
+- /var/lib/texmf/web2c/pdftex/pdfjadetex.log$

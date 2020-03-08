@@ -1,0 +1,62 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-java/icedtea-web-1.6.2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/itweb-javaws$
+- /usr/bin/itweb-settings$
+- /usr/bin/policyeditor$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/nsbrowser$
+- /usr/lib64/nsbrowser/plugins$
+- /usr/lib64/nsbrowser/plugins/IcedTeaPlugin.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/icedtea-web-1.6.2$
+- /usr/share/doc/icedtea-web-1.6.2/AUTHORS.bz2$
+- /usr/share/doc/icedtea-web-1.6.2/ChangeLog.bz2$
+- /usr/share/doc/icedtea-web-1.6.2/NEWS.bz2$
+- /usr/share/doc/icedtea-web-1.6.2/README.bz2$
+- /usr/share/doc/icedtea-web-1.6.2/README.gentoo.bz2$
+- /usr/share/icedtea-web$
+- /usr/share/icedtea-web/javaws_splash.png$
+- /usr/share/icedtea-web/netx.jar$
+- /usr/share/icedtea-web/plugin.jar$
+- /usr/share/man$
+- /usr/share/man/cs$
+- /usr/share/man/cs/man1$
+- /usr/share/man/cs/man1/icedtea-web-plugin.1.bz2$
+- /usr/share/man/cs/man1/icedtea-web.1.bz2$
+- /usr/share/man/cs/man1/itweb-settings.1.bz2$
+- /usr/share/man/cs/man1/javaws.1.bz2$
+- /usr/share/man/cs/man1/policyeditor.1.bz2$
+- /usr/share/man/de$
+- /usr/share/man/de/man1$
+- /usr/share/man/de/man1/icedtea-web-plugin.1.bz2$
+- /usr/share/man/de/man1/icedtea-web.1.bz2$
+- /usr/share/man/de/man1/itweb-settings.1.bz2$
+- /usr/share/man/de/man1/javaws.1.bz2$
+- /usr/share/man/de/man1/policyeditor.1.bz2$
+- /usr/share/man/man1$
+- /usr/share/man/man1/icedtea-web-plugin.1.bz2$
+- /usr/share/man/man1/icedtea-web.1.bz2$
+- /usr/share/man/man1/itweb-settings.1.bz2$
+- /usr/share/man/man1/javaws.1.bz2$
+- /usr/share/man/man1/policyeditor.1.bz2$
+- /usr/share/man/pl$
+- /usr/share/man/pl/man1$
+- /usr/share/man/pl/man1/icedtea-web-plugin.1.bz2$
+- /usr/share/man/pl/man1/icedtea-web.1.bz2$
+- /usr/share/man/pl/man1/itweb-settings.1.bz2$
+- /usr/share/man/pl/man1/javaws.1.bz2$
+- /usr/share/man/pl/man1/policyeditor.1.bz2$
+- /usr/share/pixmaps$
+- /usr/share/pixmaps/javaws.png$

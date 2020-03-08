@@ -1,0 +1,21 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-util/glib-utils-2.60.7
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/glib-genmarshal$
+- /usr/bin/glib-mkenums$
+- /usr/bin/gtester-report$
+- /usr/share$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/glib-genmarshal.1.bz2$
+- /usr/share/man/man1/glib-mkenums.1.bz2$
+- /usr/share/man/man1/gtester-report.1.bz2$

@@ -1,0 +1,56 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-sound/lame-3.100-r2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/lame$
+- /usr/bin/mp3rtp$
+- /usr/include$
+- /usr/include/lame$
+- /usr/include/lame/lame.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libmp3lame.so$
+- /usr/lib32/libmp3lame.so.0$
+- /usr/lib32/libmp3lame.so.0.0.0$
+- /usr/lib64$
+- /usr/lib64/libmp3lame.so$
+- /usr/lib64/libmp3lame.so.0$
+- /usr/lib64/libmp3lame.so.0.0.0$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/lame-3.100-r2$
+- /usr/share/doc/lame-3.100-r2/API.bz2$
+- /usr/share/doc/lame-3.100-r2/ChangeLog.bz2$
+- /usr/share/doc/lame-3.100-r2/HACKING.bz2$
+- /usr/share/doc/lame-3.100-r2/README.bz2$
+- /usr/share/doc/lame-3.100-r2/STYLEGUIDE.bz2$
+- /usr/share/doc/lame-3.100-r2/TODO.bz2$
+- /usr/share/doc/lame-3.100-r2/USAGE.bz2$
+- /usr/share/doc/lame-3.100-r2/html$
+- /usr/share/doc/lame-3.100-r2/html/LameDLLInterface.htm$
+- /usr/share/doc/lame-3.100-r2/html/about.html$
+- /usr/share/doc/lame-3.100-r2/html/abr.html$
+- /usr/share/doc/lame-3.100-r2/html/cbr.html$
+- /usr/share/doc/lame-3.100-r2/html/contact.html$
+- /usr/share/doc/lame-3.100-r2/html/contributors.html$
+- /usr/share/doc/lame-3.100-r2/html/detailed.html$
+- /usr/share/doc/lame-3.100-r2/html/history.html$
+- /usr/share/doc/lame-3.100-r2/html/index.html$
+- /usr/share/doc/lame-3.100-r2/html/introduction.html$
+- /usr/share/doc/lame-3.100-r2/html/lameGUI.html$
+- /usr/share/doc/lame-3.100-r2/html/links.html$
+- /usr/share/doc/lame-3.100-r2/html/list.html$
+- /usr/share/doc/lame-3.100-r2/html/ms_stereo.html$
+- /usr/share/doc/lame-3.100-r2/html/usage.html$
+- /usr/share/doc/lame-3.100-r2/html/vbr.html$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/lame.1.bz2$

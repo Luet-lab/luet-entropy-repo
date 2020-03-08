@@ -1,0 +1,51 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/lilv-0.24.4-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /etc$
+- /etc/env.d$
+- /etc/env.d/60lv2$
+- /usr$
+- /usr/bin$
+- /usr/bin/lilv-bench$
+- /usr/bin/lv2apply$
+- /usr/bin/lv2bench$
+- /usr/bin/lv2info$
+- /usr/bin/lv2ls$
+- /usr/include$
+- /usr/include/lilv$
+- /usr/include/lilv/lilv.h$
+- /usr/include/lilv/lilvmm.hpp$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/liblilv-0.so$
+- /usr/lib32/liblilv-0.so.0$
+- /usr/lib32/liblilv-0.so.0.24.4$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/lilv-0.pc$
+- /usr/lib64$
+- /usr/lib64/liblilv-0.so$
+- /usr/lib64/liblilv-0.so.0$
+- /usr/lib64/liblilv-0.so.0.24.4$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/lilv-0.pc$
+- /usr/share$
+- /usr/share/bash-completion$
+- /usr/share/bash-completion/completions$
+- /usr/share/bash-completion/completions/lilv$
+- /usr/share/doc$
+- /usr/share/doc/lilv-0.24.4-r1$
+- /usr/share/doc/lilv-0.24.4-r1/AUTHORS.bz2$
+- /usr/share/doc/lilv-0.24.4-r1/NEWS.bz2$
+- /usr/share/doc/lilv-0.24.4-r1/README.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/lv2apply.1.bz2$
+- /usr/share/man/man1/lv2info.1.bz2$
+- /usr/share/man/man1/lv2ls.1.bz2$

@@ -1,0 +1,11 @@
+
+category: "acct-user"
+name: "alias"
+version: "0"
+requires:
+- category: "acct-group"
+  name: "qmail"
+  version: ">=0"
+- category: "acct-group"
+  name: "nofiles"
+  version: ">=0"

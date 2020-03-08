@@ -1,0 +1,21 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-java/asm-5.0.3
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/asm-4$
+- /usr/share/asm-4/lib$
+- /usr/share/asm-4/lib/asm-analysis.jar$
+- /usr/share/asm-4/lib/asm-commons.jar$
+- /usr/share/asm-4/lib/asm-tree.jar$
+- /usr/share/asm-4/lib/asm-util.jar$
+- /usr/share/asm-4/lib/asm-xml.jar$
+- /usr/share/asm-4/lib/asm.jar$
+- /usr/share/asm-4/package.env$

@@ -1,0 +1,29 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i sys-libs/libcxx-9.0.1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/c[+][+]$
+- /usr/include/c[+][+]/v1$
+- /usr/include/c[+][+]/v1/.*
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libc[+][+].a$
+- /usr/lib32/libc[+][+].s.*
+- /usr/lib32/libc[+][+]_shared.so$
+- /usr/lib32/libc[+][+]_static.a$
+- /usr/lib64$
+- /usr/lib64/libc[+][+].a$
+- /usr/lib64/libc[+][+].s.*
+- /usr/lib64/libc[+][+]_s.*
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libcxx-9.0.1$
+- /usr/share/doc/libcxx-9.0.1/CREDITS.TXT.bz2$

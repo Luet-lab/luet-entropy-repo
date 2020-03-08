@@ -1,0 +1,101 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-admin/rsyslog-8.1910.0-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /etc$
+- /etc/conf.d$
+- /etc/conf.d/rsyslog$
+- /etc/init.d$
+- /etc/init.d/rsyslog$
+- /etc/logrotate.d$
+- /etc/logrotate.d/rsyslog$
+- /etc/rsyslog.conf$
+- /etc/rsyslog.d$
+- /etc/rsyslog.d/.keep_app-admin_rsyslog-0$
+- /etc/rsyslog.d/50-default.conf$
+- /etc/ssl$
+- /etc/ssl/rsyslog$
+- /etc/ssl/rsyslog/.keep_app-admin_rsyslog-0$
+- /lib$
+- /lib/systemd$
+- /lib/systemd/system$
+- /lib/systemd/system/rsyslog.service$
+- /usr$
+- /usr/bin$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/rsyslog$
+- /usr/lib64/rsyslog/fmhash.so$
+- /usr/lib64/rsyslog/imdiag.so$
+- /usr/lib64/rsyslog/imfile.so$
+- /usr/lib64/rsyslog/imgssapi.so$
+- /usr/lib64/rsyslog/imjournal.so$
+- /usr/lib64/rsyslog/imklog.so$
+- /usr/lib64/rsyslog/immark.so$
+- /usr/lib64/rsyslog/impstats.so$
+- /usr/lib64/rsyslog/imptcp.so$
+- /usr/lib64/rsyslog/imtcp.so$
+- /usr/lib64/rsyslog/imudp.so$
+- /usr/lib64/rsyslog/imuxsock.so$
+- /usr/lib64/rsyslog/lmcry_gcry.so$
+- /usr/lib64/rsyslog/lmgssutil.so$
+- /usr/lib64/rsyslog/lmnet.so$
+- /usr/lib64/rsyslog/lmnetstrms.so$
+- /usr/lib64/rsyslog/lmnsd_gtls.so$
+- /usr/lib64/rsyslog/lmnsd_ptcp.so$
+- /usr/lib64/rsyslog/lmregexp.so$
+- /usr/lib64/rsyslog/lmtcpclt.so$
+- /usr/lib64/rsyslog/lmtcpsrv.so$
+- /usr/lib64/rsyslog/lmzlibw.so$
+- /usr/lib64/rsyslog/mmanon.so$
+- /usr/lib64/rsyslog/mmaudit.so$
+- /usr/lib64/rsyslog/mmcount.so$
+- /usr/lib64/rsyslog/mmexternal.so$
+- /usr/lib64/rsyslog/mmfields.so$
+- /usr/lib64/rsyslog/mmjsonparse.so$
+- /usr/lib64/rsyslog/mmpstrucdata.so$
+- /usr/lib64/rsyslog/mmrm1stspace.so$
+- /usr/lib64/rsyslog/mmsequence.so$
+- /usr/lib64/rsyslog/mmutf8fix.so$
+- /usr/lib64/rsyslog/omgssapi.so$
+- /usr/lib64/rsyslog/omjournal.so$
+- /usr/lib64/rsyslog/ommail.so$
+- /usr/lib64/rsyslog/omprog.so$
+- /usr/lib64/rsyslog/omruleset.so$
+- /usr/lib64/rsyslog/omstdout.so$
+- /usr/lib64/rsyslog/omtesting.so$
+- /usr/lib64/rsyslog/omuxsock.so$
+- /usr/lib64/rsyslog/pmaixforwardedfrom.so$
+- /usr/lib64/rsyslog/pmciscoios.so$
+- /usr/lib64/rsyslog/pmcisconames.so$
+- /usr/lib64/rsyslog/pmlastmsg.so$
+- /usr/lib64/rsyslog/pmnull.so$
+- /usr/lib64/rsyslog/pmpanngfw.so$
+- /usr/lib64/rsyslog/pmsnare.so$
+- /usr/sbin$
+- /usr/sbin/rsyslogd$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/rsyslog-8.1910.0-r1$
+- /usr/share/doc/rsyslog-8.1910.0-r1/AUTHORS.bz2$
+- /usr/share/doc/rsyslog-8.1910.0-r1/ChangeLog.bz2$
+- /usr/share/doc/rsyslog-8.1910.0-r1/README.gentoo.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man5$
+- /usr/share/man/man5/rsyslog.conf.5.bz2$
+- /usr/share/man/man8$
+- /usr/share/man/man8/rsyslogd.8.bz2$
+- /var$
+- /var/empty$
+- /var/empty/dev$
+- /var/empty/dev/.keep_app-admin_rsyslog-0$
+- /var/spool$
+- /var/spool/rsyslog$
+- /var/spool/rsyslog/.keep_app-admin_rsyslog-0$

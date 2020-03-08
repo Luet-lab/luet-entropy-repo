@@ -1,0 +1,82 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-db/tokyocabinet-1.4.48-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/tcamgr$
+- /usr/bin/tcamttest$
+- /usr/bin/tcatest$
+- /usr/bin/tcbmgr$
+- /usr/bin/tcbmttest$
+- /usr/bin/tcbtest$
+- /usr/bin/tcfmgr$
+- /usr/bin/tcfmttest$
+- /usr/bin/tcftest$
+- /usr/bin/tchmgr$
+- /usr/bin/tchmttest$
+- /usr/bin/tchtest$
+- /usr/bin/tctmgr$
+- /usr/bin/tctmttest$
+- /usr/bin/tcttest$
+- /usr/bin/tcucodec$
+- /usr/bin/tcumttest$
+- /usr/bin/tcutest$
+- /usr/include$
+- /usr/include/tcadb.h$
+- /usr/include/tcbdb.h$
+- /usr/include/tcfdb.h$
+- /usr/include/tchdb.h$
+- /usr/include/tctdb.h$
+- /usr/include/tcutil.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libtokyocabinet.a$
+- /usr/lib64/libtokyocabinet.so$
+- /usr/lib64/libtokyocabinet.so.9$
+- /usr/lib64/libtokyocabinet.so.9.11.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/tokyocabinet.pc$
+- /usr/libexec$
+- /usr/libexec/tcawmgr.cgi$
+- /usr/share$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/tcamgr.1.bz2$
+- /usr/share/man/man1/tcamttest.1.bz2$
+- /usr/share/man/man1/tcatest.1.bz2$
+- /usr/share/man/man1/tcbmgr.1.bz2$
+- /usr/share/man/man1/tcbmttest.1.bz2$
+- /usr/share/man/man1/tcbtest.1.bz2$
+- /usr/share/man/man1/tcfmgr.1.bz2$
+- /usr/share/man/man1/tcfmttest.1.bz2$
+- /usr/share/man/man1/tcftest.1.bz2$
+- /usr/share/man/man1/tchmgr.1.bz2$
+- /usr/share/man/man1/tchmttest.1.bz2$
+- /usr/share/man/man1/tchtest.1.bz2$
+- /usr/share/man/man1/tctmgr.1.bz2$
+- /usr/share/man/man1/tctmttest.1.bz2$
+- /usr/share/man/man1/tcttest.1.bz2$
+- /usr/share/man/man1/tcucodec.1.bz2$
+- /usr/share/man/man1/tcumttest.1.bz2$
+- /usr/share/man/man1/tcutest.1.bz2$
+- /usr/share/man/man3$
+- /usr/share/man/man3/tcadb.3.bz2$
+- /usr/share/man/man3/tcbdb.3.bz2$
+- /usr/share/man/man3/tcfdb.3.bz2$
+- /usr/share/man/man3/tchdb.3.bz2$
+- /usr/share/man/man3/tclist.3$
+- /usr/share/man/man3/tcmap.3$
+- /usr/share/man/man3/tcmdb.3$
+- /usr/share/man/man3/tcmpool.3$
+- /usr/share/man/man3/tctdb.3.bz2$
+- /usr/share/man/man3/tctree.3$
+- /usr/share/man/man3/tcutil.3.bz2$
+- /usr/share/man/man3/tcxstr.3$
+- /usr/share/man/man3/tokyocabinet.3.bz2$

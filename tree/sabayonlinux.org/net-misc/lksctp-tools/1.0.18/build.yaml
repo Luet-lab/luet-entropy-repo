@@ -1,0 +1,97 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i net-misc/lksctp-tools-1.0.18-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/checksctp$
+- /usr/bin/sctp_darn$
+- /usr/bin/sctp_status$
+- /usr/bin/sctp_test$
+- /usr/bin/withsctp$
+- /usr/include$
+- /usr/include/netinet$
+- /usr/include/netinet/sctp.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libsctp.so$
+- /usr/lib32/libsctp.so.1$
+- /usr/lib32/libsctp.so.1.0.17$
+- /usr/lib32/lksctp-tools$
+- /usr/lib32/lksctp-tools/libwithsctp.so$
+- /usr/lib32/lksctp-tools/libwithsctp.so.1$
+- /usr/lib32/lksctp-tools/libwithsctp.so.1.0.17$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/libsctp.pc$
+- /usr/lib64$
+- /usr/lib64/libsctp.so$
+- /usr/lib64/libsctp.so.1$
+- /usr/lib64/libsctp.so.1.0.17$
+- /usr/lib64/lksctp-tools$
+- /usr/lib64/lksctp-tools/libwithsctp.so$
+- /usr/lib64/lksctp-tools/libwithsctp.so.1$
+- /usr/lib64/lksctp-tools/libwithsctp.so.1.0.17$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libsctp.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/lksctp-tools-1.0.18-r1$
+- /usr/share/doc/lksctp-tools-1.0.18-r1/AUTHORS.bz2$
+- /usr/share/doc/lksctp-tools-1.0.18-r1/ChangeLog.bz2$
+- /usr/share/doc/lksctp-tools-1.0.18-r1/INSTALL.bz2$
+- /usr/share/doc/lksctp-tools-1.0.18-r1/NEWS.bz2$
+- /usr/share/doc/lksctp-tools-1.0.18-r1/README.bz2$
+- /usr/share/doc/lksctp-tools-1.0.18-r1/README.withsctp.bz2$
+- /usr/share/doc/lksctp-tools-1.0.18-r1/ROADMAP.bz2$
+- /usr/share/doc/lksctp-tools-1.0.18-r1/draft-stewart-tsvwg-sctpipv6-00.txt.bz2$
+- /usr/share/doc/lksctp-tools-1.0.18-r1/draft-stewart-tsvwg-sctpscore-01.txt.bz2$
+- /usr/share/doc/lksctp-tools-1.0.18-r1/random_notes.txt.bz2$
+- /usr/share/doc/lksctp-tools-1.0.18-r1/rfc2960.txt.bz2$
+- /usr/share/doc/lksctp-tools-1.0.18-r1/rfc3257.txt.bz2$
+- /usr/share/doc/lksctp-tools-1.0.18-r1/rfc3286.txt.bz2$
+- /usr/share/doc/lksctp-tools-1.0.18-r1/rfc3309.txt.bz2$
+- /usr/share/doc/lksctp-tools-1.0.18-r1/rfc3554.txt.bz2$
+- /usr/share/doc/lksctp-tools-1.0.18-r1/rfc3758.txt.bz2$
+- /usr/share/doc/lksctp-tools-1.0.18-r1/rfc3873.txt.bz2$
+- /usr/share/doc/lksctp-tools-1.0.18-r1/rfc4460.txt.bz2$
+- /usr/share/doc/lksctp-tools-1.0.18-r1/rfc4820.txt.bz2$
+- /usr/share/doc/lksctp-tools-1.0.18-r1/rfc4895.txt.bz2$
+- /usr/share/doc/lksctp-tools-1.0.18-r1/rfc4960.txt.bz2$
+- /usr/share/doc/lksctp-tools-1.0.18-r1/rfc5061.txt.bz2$
+- /usr/share/doc/lksctp-tools-1.0.18-r1/rfc5062.txt.bz2$
+- /usr/share/doc/lksctp-tools-1.0.18-r1/rfc6458.txt.bz2$
+- /usr/share/doc/lksctp-tools-1.0.18-r1/states.txt.bz2$
+- /usr/share/doc/lksctp-tools-1.0.18-r1/style_guide.txt.bz2$
+- /usr/share/doc/lksctp-tools-1.0.18-r1/what_we_were_doing.txt.bz2$
+- /usr/share/lksctp-tools$
+- /usr/share/lksctp-tools/checksctp.c$
+- /usr/share/lksctp-tools/sctp_bind.c$
+- /usr/share/lksctp-tools/sctp_darn.c$
+- /usr/share/lksctp-tools/sctp_darn.h$
+- /usr/share/lksctp-tools/sctp_load_libs.c$
+- /usr/share/lksctp-tools/sctp_socket.c$
+- /usr/share/lksctp-tools/sctp_socket.h$
+- /usr/share/lksctp-tools/sctp_sockopt.c$
+- /usr/share/lksctp-tools/sctp_status.c$
+- /usr/share/lksctp-tools/sctp_test.c$
+- /usr/share/man$
+- /usr/share/man/man3$
+- /usr/share/man/man3/sctp_bindx.3.bz2$
+- /usr/share/man/man3/sctp_connectx.3.bz2$
+- /usr/share/man/man3/sctp_getladdrs.3.bz2$
+- /usr/share/man/man3/sctp_getpaddrs.3.bz2$
+- /usr/share/man/man3/sctp_opt_info.3.bz2$
+- /usr/share/man/man3/sctp_peeloff.3.bz2$
+- /usr/share/man/man3/sctp_recvmsg.3.bz2$
+- /usr/share/man/man3/sctp_recvv.3.bz2$
+- /usr/share/man/man3/sctp_send.3.bz2$
+- /usr/share/man/man3/sctp_sendmsg.3.bz2$
+- /usr/share/man/man3/sctp_sendv.3.bz2$
+- /usr/share/man/man7$
+- /usr/share/man/man7/sctp.7.bz2$

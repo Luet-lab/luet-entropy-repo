@@ -1,0 +1,32 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-arch/p7zip-16.02-r4
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/7z$
+- /usr/bin/7za$
+- /usr/bin/7zr$
+- /usr/bin/p7zip$
+- /usr/lib64$
+- /usr/lib64/p7zip$
+- /usr/lib64/p7zip/7z$
+- /usr/lib64/p7zip/7z.so$
+- /usr/lib64/p7zip/7zCon.sfx$
+- /usr/lib64/p7zip/7za$
+- /usr/lib64/p7zip/7zr$
+- /usr/lib64/p7zip/Codecs$
+- /usr/lib64/p7zip/Codecs/Rar.so$
+- /usr/share$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/7z.1.bz2$
+- /usr/share/man/man1/7za.1.bz2$
+- /usr/share/man/man1/7zr.1.bz2$
+- /usr/share/man/man1/p7zip.1.bz2$

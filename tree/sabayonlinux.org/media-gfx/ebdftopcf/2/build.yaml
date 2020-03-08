@@ -1,0 +1,20 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-gfx/ebdftopcf-2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/ebdftopcf-2$
+- /usr/share/doc/ebdftopcf-2/README.bz2$
+- /usr/share/ebdftopcf$
+- /usr/share/ebdftopcf/Makefile.ebdftopcf$
+- /usr/share/man$
+- /usr/share/man/man5$
+- /usr/share/man/man5/font-ebdftopcf.eclass.5.bz2$

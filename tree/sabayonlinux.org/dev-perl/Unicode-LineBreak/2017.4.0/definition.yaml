@@ -1,0 +1,17 @@
+
+category: "dev-perl"
+name: "Unicode-LineBreak"
+version: "2017.4.0+r1"
+requires:
+- category: "dev-perl"
+  name: "MIME-Charset"
+  version: ">=1.12.2"
+- category: "dev-perl"
+  name: "Encode-EUCJPASCII"
+  version: ">=0.30.0"
+- category: "dev-perl"
+  name: "Encode-HanExtra"
+  version: ">=0.230.0"
+- category: "dev-lang"
+  name: "perl"
+  version: ">=5.28.2"

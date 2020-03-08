@@ -1,0 +1,103 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i x11-libs/libva-2.5.0-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/i686-pc-linux-gnu$
+- /usr/include/i686-pc-linux-gnu/va$
+- /usr/include/i686-pc-linux-gnu/va/va_backend_glx.h$
+- /usr/include/i686-pc-linux-gnu/va/va_dri2.h$
+- /usr/include/i686-pc-linux-gnu/va/va_dricommon.h$
+- /usr/include/i686-pc-linux-gnu/va/va_glx.h$
+- /usr/include/i686-pc-linux-gnu/va/va_x11.h$
+- /usr/include/va$
+- /usr/include/va/va.h$
+- /usr/include/va/va_backend.h$
+- /usr/include/va/va_backend_glx.h$
+- /usr/include/va/va_backend_vpp.h$
+- /usr/include/va/va_backend_wayland.h$
+- /usr/include/va/va_compat.h$
+- /usr/include/va/va_dec_hevc.h$
+- /usr/include/va/va_dec_jpeg.h$
+- /usr/include/va/va_dec_vp8.h$
+- /usr/include/va/va_dec_vp9.h$
+- /usr/include/va/va_dri2.h$
+- /usr/include/va/va_dricommon.h$
+- /usr/include/va/va_drm.h$
+- /usr/include/va/va_drmcommon.h$
+- /usr/include/va/va_egl.h$
+- /usr/include/va/va_enc_h264.h$
+- /usr/include/va/va_enc_hevc.h$
+- /usr/include/va/va_enc_jpeg.h$
+- /usr/include/va/va_enc_mpeg2.h$
+- /usr/include/va/va_enc_vp8.h$
+- /usr/include/va/va_enc_vp9.h$
+- /usr/include/va/va_fei.h$
+- /usr/include/va/va_fei_h264.h$
+- /usr/include/va/va_fei_hevc.h$
+- /usr/include/va/va_glx.h$
+- /usr/include/va/va_str.h$
+- /usr/include/va/va_tpi.h$
+- /usr/include/va/va_version.h$
+- /usr/include/va/va_vpp.h$
+- /usr/include/va/va_wayland.h$
+- /usr/include/va/va_x11.h$
+- /usr/include/x86_64-pc-linux-gnu$
+- /usr/include/x86_64-pc-linux-gnu/va$
+- /usr/include/x86_64-pc-linux-gnu/va/va_backend_glx.h$
+- /usr/include/x86_64-pc-linux-gnu/va/va_dri2.h$
+- /usr/include/x86_64-pc-linux-gnu/va/va_dricommon.h$
+- /usr/include/x86_64-pc-linux-gnu/va/va_glx.h$
+- /usr/include/x86_64-pc-linux-gnu/va/va_x11.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libva-drm.so$
+- /usr/lib32/libva-drm.so.2$
+- /usr/lib32/libva-drm.so.2.500.0$
+- /usr/lib32/libva-glx.so$
+- /usr/lib32/libva-glx.so.2$
+- /usr/lib32/libva-glx.so.2.500.0$
+- /usr/lib32/libva-wayland.so$
+- /usr/lib32/libva-wayland.so.2$
+- /usr/lib32/libva-wayland.so.2.500.0$
+- /usr/lib32/libva-x11.so$
+- /usr/lib32/libva-x11.so.2$
+- /usr/lib32/libva-x11.so.2.500.0$
+- /usr/lib32/libva.so$
+- /usr/lib32/libva.so.2$
+- /usr/lib32/libva.so.2.500.0$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/libva-drm.pc$
+- /usr/lib32/pkgconfig/libva-glx.pc$
+- /usr/lib32/pkgconfig/libva-wayland.pc$
+- /usr/lib32/pkgconfig/libva-x11.pc$
+- /usr/lib32/pkgconfig/libva.pc$
+- /usr/lib64$
+- /usr/lib64/libva-drm.so$
+- /usr/lib64/libva-drm.so.2$
+- /usr/lib64/libva-drm.so.2.500.0$
+- /usr/lib64/libva-glx.so$
+- /usr/lib64/libva-glx.so.2$
+- /usr/lib64/libva-glx.so.2.500.0$
+- /usr/lib64/libva-wayland.so$
+- /usr/lib64/libva-wayland.so.2$
+- /usr/lib64/libva-wayland.so.2.500.0$
+- /usr/lib64/libva-x11.so$
+- /usr/lib64/libva-x11.so.2$
+- /usr/lib64/libva-x11.so.2.500.0$
+- /usr/lib64/libva.so$
+- /usr/lib64/libva.so.2$
+- /usr/lib64/libva.so.2.500.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libva-drm.pc$
+- /usr/lib64/pkgconfig/libva-glx.pc$
+- /usr/lib64/pkgconfig/libva-wayland.pc$
+- /usr/lib64/pkgconfig/libva-x11.pc$
+- /usr/lib64/pkgconfig/libva.pc$

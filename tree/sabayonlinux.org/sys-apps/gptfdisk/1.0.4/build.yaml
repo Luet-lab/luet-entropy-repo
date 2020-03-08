@@ -1,0 +1,28 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i sys-apps/gptfdisk-1.0.4
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib$
+- /usr/sbin$
+- /usr/sbin/cgdisk$
+- /usr/sbin/fixparts$
+- /usr/sbin/gdisk$
+- /usr/sbin/sgdisk$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/gptfdisk-1.0.4$
+- /usr/share/doc/gptfdisk-1.0.4/NEWS.bz2$
+- /usr/share/doc/gptfdisk-1.0.4/README.bz2$
+- /usr/share/man$
+- /usr/share/man/man8$
+- /usr/share/man/man8/cgdisk.8.bz2$
+- /usr/share/man/man8/fixparts.8.bz2$
+- /usr/share/man/man8/gdisk.8.bz2$
+- /usr/share/man/man8/sgdisk.8.bz2$

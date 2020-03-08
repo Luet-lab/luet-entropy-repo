@@ -1,0 +1,17 @@
+
+category: "sys-apps"
+name: "baselayout-java"
+version: "0.1.0+r1"
+requires:
+- category: "app-crypt"
+  name: "p11-kit"
+  version: ">=0.23.16.1"
+- category: "dev-libs"
+  name: "libtasn1"
+  version: ">=4.16.0"
+- category: "dev-libs"
+  name: "libffi"
+  version: ">=3.3"
+- category: "app-misc"
+  name: "ca-certificates"
+  version: ">=20190110.3.43"

@@ -1,0 +1,17 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-eselect/eselect-postgresql-2.4
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/postgresql-config$
+- /usr/share$
+- /usr/share/eselect$
+- /usr/share/eselect/modules$
+- /usr/share/eselect/modules/postgresql.eselect$

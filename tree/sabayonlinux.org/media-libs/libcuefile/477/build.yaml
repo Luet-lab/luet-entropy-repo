@@ -1,0 +1,27 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/libcuefile-477-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/cuetools$
+- /usr/include/cuetools/cd.h$
+- /usr/include/cuetools/cdtext.h$
+- /usr/include/cuetools/cuefile.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libcuefile.a$
+- /usr/lib32/libcuefile.so$
+- /usr/lib32/libcuefile.so.0$
+- /usr/lib32/libcuefile.so.0.0.0$
+- /usr/lib64$
+- /usr/lib64/libcuefile.a$
+- /usr/lib64/libcuefile.so$
+- /usr/lib64/libcuefile.so.0$
+- /usr/lib64/libcuefile.so.0.0.0$

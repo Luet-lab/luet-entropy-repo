@@ -1,0 +1,87 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/maruku-0.7.3
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/maruku$
+- /usr/bin/marutex$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/maruku-0.7.3$
+- /usr/lib64/ruby/gems/2.5.0/gems/maruku-0.7.3/bin$
+- /usr/lib64/ruby/gems/2.5.0/gems/maruku-0.7.3/bin/maruku$
+- /usr/lib64/ruby/gems/2.5.0/gems/maruku-0.7.3/bin/marutex$
+- /usr/lib64/ruby/gems/2.5.0/gems/maruku-0.7.3/data$
+- /usr/lib64/ruby/gems/2.5.0/gems/maruku-0.7.3/data/entities.xml$
+- /usr/lib64/ruby/gems/2.5.0/gems/maruku-0.7.3/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/maruku-0.7.3/lib/maruku$
+- /usr/lib64/ruby/gems/2.5.0/gems/maruku-0.7.3/lib/maruku.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/maruku-0.7.3/lib/maruku/attributes.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/maruku-0.7.3/lib/maruku/defaults.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/maruku-0.7.3/lib/maruku/document.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/maruku-0.7.3/lib/maruku/element.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/maruku-0.7.3/lib/maruku/errors.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/maruku-0.7.3/lib/maruku/ext$
+- /usr/lib64/ruby/gems/2.5.0/gems/maruku-0.7.3/lib/maruku/ext/div.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/maruku-0.7.3/lib/maruku/ext/fenced_code.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/maruku-0.7.3/lib/maruku/ext/math$
+- /usr/lib64/ruby/gems/2.5.0/gems/maruku-0.7.3/lib/maruku/ext/math.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/maruku-0.7.3/lib/maruku/ext/math/elements.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/maruku-0.7.3/lib/maruku/ext/math/mathml_engines$
+- /usr/lib64/ruby/gems/2.5.0/gems/maruku-0.7.3/lib/maruku/ext/math/mathml_engines/blahtex.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/maruku-0.7.3/lib/maruku/ext/math/mathml_engines/itex2mml.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/maruku-0.7.3/lib/maruku/ext/math/mathml_engines/none.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/maruku-0.7.3/lib/maruku/ext/math/mathml_engines/ritex.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/maruku-0.7.3/lib/maruku/ext/math/parsing.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/maruku-0.7.3/lib/maruku/ext/math/to_html.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/maruku-0.7.3/lib/maruku/ext/math/to_latex.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/maruku-0.7.3/lib/maruku/helpers.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/maruku-0.7.3/lib/maruku/html.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/maruku-0.7.3/lib/maruku/input$
+- /usr/lib64/ruby/gems/2.5.0/gems/maruku-0.7.3/lib/maruku/input/charsource.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/maruku-0.7.3/lib/maruku/input/extensions.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/maruku-0.7.3/lib/maruku/input/html_helper.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/maruku-0.7.3/lib/maruku/input/linesource.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/maruku-0.7.3/lib/maruku/input/mdline.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/maruku-0.7.3/lib/maruku/input/parse_block.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/maruku-0.7.3/lib/maruku/input/parse_doc.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/maruku-0.7.3/lib/maruku/input/parse_span.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/maruku-0.7.3/lib/maruku/input_textile2$
+- /usr/lib64/ruby/gems/2.5.0/gems/maruku-0.7.3/lib/maruku/input_textile2/t2_parser.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/maruku-0.7.3/lib/maruku/inspect_element.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/maruku-0.7.3/lib/maruku/maruku.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/maruku-0.7.3/lib/maruku/output$
+- /usr/lib64/ruby/gems/2.5.0/gems/maruku-0.7.3/lib/maruku/output/entity_table.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/maruku-0.7.3/lib/maruku/output/s5$
+- /usr/lib64/ruby/gems/2.5.0/gems/maruku-0.7.3/lib/maruku/output/s5/fancy.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/maruku-0.7.3/lib/maruku/output/s5/to_s5.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/maruku-0.7.3/lib/maruku/output/to_html.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/maruku-0.7.3/lib/maruku/output/to_latex.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/maruku-0.7.3/lib/maruku/output/to_markdown.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/maruku-0.7.3/lib/maruku/output/to_s.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/maruku-0.7.3/lib/maruku/string_utils.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/maruku-0.7.3/lib/maruku/textile2.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/maruku-0.7.3/lib/maruku/toc.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/maruku-0.7.3/lib/maruku/version.rb$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/maruku-0.7.3.gemspec$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/maruku-0.7.3$
+- /usr/share/doc/maruku-0.7.3/div_syntax.md.bz2$
+- /usr/share/doc/maruku-0.7.3/entity_test.md.bz2$
+- /usr/share/doc/maruku-0.7.3/markdown_syntax.md.bz2$
+- /usr/share/doc/maruku-0.7.3/maruku.md.bz2$
+- /usr/share/doc/maruku-0.7.3/math.md.bz2$
+- /usr/share/doc/maruku-0.7.3/other_stuff.md.bz2$
+- /usr/share/doc/maruku-0.7.3/proposal.md.bz2$

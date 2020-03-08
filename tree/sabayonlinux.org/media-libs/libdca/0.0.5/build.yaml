@@ -1,0 +1,49 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/libdca-0.0.5-r3
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/dcadec$
+- /usr/bin/dtsdec$
+- /usr/bin/extract_dca$
+- /usr/bin/extract_dts$
+- /usr/include$
+- /usr/include/dca.h$
+- /usr/include/dts.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libdca.so$
+- /usr/lib32/libdca.so.0$
+- /usr/lib32/libdca.so.0.0.0$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/libdca.pc$
+- /usr/lib32/pkgconfig/libdts.pc$
+- /usr/lib64$
+- /usr/lib64/libdca.so$
+- /usr/lib64/libdca.so.0$
+- /usr/lib64/libdca.so.0.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libdca.pc$
+- /usr/lib64/pkgconfig/libdts.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libdca-0.0.5-r3$
+- /usr/share/doc/libdca-0.0.5-r3/AUTHORS.bz2$
+- /usr/share/doc/libdca-0.0.5-r3/ChangeLog.bz2$
+- /usr/share/doc/libdca-0.0.5-r3/NEWS.bz2$
+- /usr/share/doc/libdca-0.0.5-r3/README.bz2$
+- /usr/share/doc/libdca-0.0.5-r3/TODO.bz2$
+- /usr/share/doc/libdca-0.0.5-r3/libdca.txt.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/dcadec.1.bz2$
+- /usr/share/man/man1/dtsdec.1.bz2$
+- /usr/share/man/man1/extract_dca.1.bz2$
+- /usr/share/man/man1/extract_dts.1.bz2$

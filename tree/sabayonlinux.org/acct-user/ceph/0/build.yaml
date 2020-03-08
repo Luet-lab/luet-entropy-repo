@@ -1,0 +1,14 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i acct-user/ceph-0
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /var$
+- /var/lib$
+- /var/lib/ceph$
+- /var/lib/ceph/.keep_acct-user_ceph-0$

@@ -1,0 +1,44 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i net-libs/libproxy-0.4.15-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/proxy$
+- /usr/include$
+- /usr/include/proxy.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libproxy.so$
+- /usr/lib32/libproxy.so.1$
+- /usr/lib32/libproxy.so.1.0.0$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/libproxy-1.0.pc$
+- /usr/lib64$
+- /usr/lib64/libproxy.so$
+- /usr/lib64/libproxy.so.1$
+- /usr/lib64/libproxy.so.1.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libproxy-1.0.pc$
+- /usr/share$
+- /usr/share/cmake$
+- /usr/share/cmake/Modules$
+- /usr/share/cmake/Modules/Findlibproxy.cmake$
+- /usr/share/doc$
+- /usr/share/doc/libproxy-0.4.15-r1$
+- /usr/share/doc/libproxy-0.4.15-r1/AUTHORS.bz2$
+- /usr/share/doc/libproxy-0.4.15-r1/ChangeLog.bz2$
+- /usr/share/doc/libproxy-0.4.15-r1/NEWS.bz2$
+- /usr/share/doc/libproxy-0.4.15-r1/README$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/proxy.1.bz2$
+- /usr/share/vala$
+- /usr/share/vala/vapi$
+- /usr/share/vala/vapi/libproxy-1.0.vapi$

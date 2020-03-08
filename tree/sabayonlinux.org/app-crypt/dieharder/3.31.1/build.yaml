@@ -1,0 +1,84 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-crypt/dieharder-3.31.1-r3
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/dieharder$
+- /usr/include$
+- /usr/include/dieharder$
+- /usr/include/dieharder/Dtest.h$
+- /usr/include/dieharder/Vtest.h$
+- /usr/include/dieharder/Xtest.h$
+- /usr/include/dieharder/copyright.h$
+- /usr/include/dieharder/dab_bytedistrib.h$
+- /usr/include/dieharder/dab_dct.h$
+- /usr/include/dieharder/dab_filltree.h$
+- /usr/include/dieharder/dab_filltree2.h$
+- /usr/include/dieharder/dab_monobit2.h$
+- /usr/include/dieharder/diehard_2dsphere.h$
+- /usr/include/dieharder/diehard_3dsphere.h$
+- /usr/include/dieharder/diehard_birthdays.h$
+- /usr/include/dieharder/diehard_bitstream.h$
+- /usr/include/dieharder/diehard_count_1s_byte.h$
+- /usr/include/dieharder/diehard_count_1s_stream.h$
+- /usr/include/dieharder/diehard_craps.h$
+- /usr/include/dieharder/diehard_dna.h$
+- /usr/include/dieharder/diehard_operm5.h$
+- /usr/include/dieharder/diehard_opso.h$
+- /usr/include/dieharder/diehard_oqso.h$
+- /usr/include/dieharder/diehard_parking_lot.h$
+- /usr/include/dieharder/diehard_rank_32x32.h$
+- /usr/include/dieharder/diehard_rank_6x8.h$
+- /usr/include/dieharder/diehard_runs.h$
+- /usr/include/dieharder/diehard_squeeze.h$
+- /usr/include/dieharder/diehard_sums.h$
+- /usr/include/dieharder/dieharder_rng_types.h$
+- /usr/include/dieharder/dieharder_test_types.h$
+- /usr/include/dieharder/libdieharder.h$
+- /usr/include/dieharder/marsaglia_tsang_gcd.h$
+- /usr/include/dieharder/marsaglia_tsang_gorilla.h$
+- /usr/include/dieharder/parse.h$
+- /usr/include/dieharder/rgb_bitdist.h$
+- /usr/include/dieharder/rgb_kstest_test.h$
+- /usr/include/dieharder/rgb_lagged_sums.h$
+- /usr/include/dieharder/rgb_lmn.h$
+- /usr/include/dieharder/rgb_minimum_distance.h$
+- /usr/include/dieharder/rgb_operm.h$
+- /usr/include/dieharder/rgb_permutations.h$
+- /usr/include/dieharder/rgb_persist.h$
+- /usr/include/dieharder/rgb_timing.h$
+- /usr/include/dieharder/std_test.h$
+- /usr/include/dieharder/sts_monobit.h$
+- /usr/include/dieharder/sts_runs.h$
+- /usr/include/dieharder/sts_serial.h$
+- /usr/include/dieharder/tests.h$
+- /usr/include/dieharder/verbose.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libdieharder.a$
+- /usr/lib64/libdieharder.la$
+- /usr/lib64/libdieharder.so$
+- /usr/lib64/libdieharder.so.3$
+- /usr/lib64/libdieharder.so.3.31.1$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/dieharder-3.31.1-r3$
+- /usr/share/doc/dieharder-3.31.1-r3/NOTES.bz2$
+- /usr/share/doc/dieharder-3.31.1-r3/dieharder$
+- /usr/share/doc/dieharder-3.31.1-r3/dieharder/NOTES.bz2$
+- /usr/share/doc/dieharder-3.31.1-r3/dieharder/README.bz2$
+- /usr/share/doc/dieharder-3.31.1-r3/libdieharder$
+- /usr/share/doc/dieharder-3.31.1-r3/libdieharder/NOTES.bz2$
+- /usr/share/doc/dieharder-3.31.1-r3/libdieharder/README.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/dieharder.1.bz2$
+- /usr/share/man/man3$
+- /usr/share/man/man3/libdieharder.3.bz2$

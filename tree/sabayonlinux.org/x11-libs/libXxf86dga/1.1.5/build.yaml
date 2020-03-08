@@ -1,0 +1,34 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i x11-libs/libXxf86dga-1.1.5
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/X11$
+- /usr/include/X11/extensions$
+- /usr/include/X11/extensions/Xxf86dga.h$
+- /usr/include/X11/extensions/xf86dga1.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libXxf86dga.so$
+- /usr/lib32/libXxf86dga.so.1$
+- /usr/lib32/libXxf86dga.so.1.0.0$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/xxf86dga.pc$
+- /usr/lib64$
+- /usr/lib64/libXxf86dga.so$
+- /usr/lib64/libXxf86dga.so.1$
+- /usr/lib64/libXxf86dga.so.1.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/xxf86dga.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libXxf86dga-1.1.5$
+- /usr/share/doc/libXxf86dga-1.1.5/ChangeLog.bz2$
+- /usr/share/doc/libXxf86dga-1.1.5/README.md.bz2$

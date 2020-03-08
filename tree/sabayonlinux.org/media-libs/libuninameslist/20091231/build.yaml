@@ -1,0 +1,20 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/libuninameslist-20091231-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/uninameslist.h$
+- /usr/lib64$
+- /usr/lib64/libuninameslist-fr.so$
+- /usr/lib64/libuninameslist-fr.so.0$
+- /usr/lib64/libuninameslist-fr.so.0.0.2$
+- /usr/lib64/libuninameslist.so$
+- /usr/lib64/libuninameslist.so.0$
+- /usr/lib64/libuninameslist.so.0.0.2$

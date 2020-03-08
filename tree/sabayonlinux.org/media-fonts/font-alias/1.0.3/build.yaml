@@ -1,0 +1,25 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-fonts/font-alias-1.0.3-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/font-alias-1.0.3-r1$
+- /usr/share/doc/font-alias-1.0.3-r1/ChangeLog.bz2$
+- /usr/share/doc/font-alias-1.0.3-r1/README.bz2$
+- /usr/share/fonts$
+- /usr/share/fonts/100dpi$
+- /usr/share/fonts/100dpi/fonts.alias$
+- /usr/share/fonts/75dpi$
+- /usr/share/fonts/75dpi/fonts.alias$
+- /usr/share/fonts/cyrillic$
+- /usr/share/fonts/cyrillic/fonts.alias$
+- /usr/share/fonts/misc$
+- /usr/share/fonts/misc/fonts.alias$

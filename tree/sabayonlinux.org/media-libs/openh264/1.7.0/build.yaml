@@ -1,0 +1,72 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/openh264-1.7.0-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /etc$
+- /etc/env.d$
+- /etc/env.d/98-moz-gmp-openh264$
+- /usr$
+- /usr/include$
+- /usr/include/openh264$
+- /usr/include/openh264/wels$
+- /usr/include/openh264/wels/codec_api.h$
+- /usr/include/openh264/wels/codec_app_def.h$
+- /usr/include/openh264/wels/codec_def.h$
+- /usr/include/openh264/wels/codec_ver.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/firefox$
+- /usr/lib32/firefox/defaults$
+- /usr/lib32/firefox/defaults/pref$
+- /usr/lib32/firefox/defaults/pref/openh264-1.7.0.js$
+- /usr/lib32/libopenh264.so$
+- /usr/lib32/libopenh264.so.1.7.0$
+- /usr/lib32/libopenh264.so.4$
+- /usr/lib32/nsbrowser$
+- /usr/lib32/nsbrowser/plugins$
+- /usr/lib32/nsbrowser/plugins/gmp-gmpopenh264$
+- /usr/lib32/nsbrowser/plugins/gmp-gmpopenh264/system-installed$
+- /usr/lib32/nsbrowser/plugins/gmp-gmpopenh264/system-installed/gmpopenh264.info$
+- /usr/lib32/nsbrowser/plugins/gmp-gmpopenh264/system-installed/libgmpopenh264.so$
+- /usr/lib32/nsbrowser/plugins/gmp-gmpopenh264/system-installed/libgmpopenh264.so.1.7.0$
+- /usr/lib32/nsbrowser/plugins/gmp-gmpopenh264/system-installed/libgmpopenh264.so.4$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/openh264.pc$
+- /usr/lib32/seamonkey$
+- /usr/lib32/seamonkey/defaults$
+- /usr/lib32/seamonkey/defaults/pref$
+- /usr/lib32/seamonkey/defaults/pref/openh264-1.7.0.js$
+- /usr/lib64$
+- /usr/lib64/firefox$
+- /usr/lib64/firefox/defaults$
+- /usr/lib64/firefox/defaults/pref$
+- /usr/lib64/firefox/defaults/pref/openh264-1.7.0.js$
+- /usr/lib64/libopenh264.so$
+- /usr/lib64/libopenh264.so.1.7.0$
+- /usr/lib64/libopenh264.so.4$
+- /usr/lib64/nsbrowser$
+- /usr/lib64/nsbrowser/plugins$
+- /usr/lib64/nsbrowser/plugins/gmp-gmpopenh264$
+- /usr/lib64/nsbrowser/plugins/gmp-gmpopenh264/system-installed$
+- /usr/lib64/nsbrowser/plugins/gmp-gmpopenh264/system-installed/gmpopenh264.info$
+- /usr/lib64/nsbrowser/plugins/gmp-gmpopenh264/system-installed/libgmpopenh264.so$
+- /usr/lib64/nsbrowser/plugins/gmp-gmpopenh264/system-installed/libgmpopenh264.so.1.7.0$
+- /usr/lib64/nsbrowser/plugins/gmp-gmpopenh264/system-installed/libgmpopenh264.so.4$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/openh264.pc$
+- /usr/lib64/seamonkey$
+- /usr/lib64/seamonkey/defaults$
+- /usr/lib64/seamonkey/defaults/pref$
+- /usr/lib64/seamonkey/defaults/pref/openh264-1.7.0.js$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/openh264-1.7.0-r1$
+- /usr/share/doc/openh264-1.7.0-r1/CONTRIBUTORS.bz2$
+- /usr/share/doc/openh264-1.7.0-r1/LICENSE.bz2$
+- /usr/share/doc/openh264-1.7.0-r1/README.md.bz2$

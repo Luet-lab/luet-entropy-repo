@@ -1,0 +1,33 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-perl/Devel-CheckLib-1.130.0
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/use-devel-checklib$
+- /usr/lib64$
+- /usr/lib64/perl5$
+- /usr/lib64/perl5/vendor_perl$
+- /usr/lib64/perl5/vendor_perl/5.28.2$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Devel$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Devel/CheckLib.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/Devel$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/Devel/CheckLib$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/Devel/CheckLib/.packlist$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/Devel-CheckLib-1.130.0$
+- /usr/share/doc/Devel-CheckLib-1.130.0/CHANGES.bz2$
+- /usr/share/doc/Devel-CheckLib-1.130.0/README.bz2$
+- /usr/share/doc/Devel-CheckLib-1.130.0/TODO$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/use-devel-checklib.1.bz2$

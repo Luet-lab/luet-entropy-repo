@@ -1,0 +1,25 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-dicts/myspell-de_1901-20160403
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/myspell-de_1901-20160403$
+- /usr/share/doc/myspell-de_1901-20160403/README_extension_owner.txt.bz2$
+- /usr/share/hunspell$
+- /usr/share/hunspell/de_DE_1901.aff$
+- /usr/share/hunspell/de_DE_1901.dic$
+- /usr/share/hyphen$
+- /usr/share/hyphen/hyph_de_DE_1901.dic$
+- /usr/share/myspell$
+- /usr/share/myspell/de_DE_1901.aff$
+- /usr/share/myspell/de_DE_1901.dic$
+- /usr/share/myspell/hyph_de_DE_1901.dic$
+- /usr/share/mythes$

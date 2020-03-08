@@ -1,0 +1,37 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i sci-libs/djbfft-0.76-r2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/complex4.h$
+- /usr/include/complex8.h$
+- /usr/include/fftc4.h$
+- /usr/include/fftc8.h$
+- /usr/include/fftfreq.h$
+- /usr/include/fftr4.h$
+- /usr/include/fftr8.h$
+- /usr/include/real4.h$
+- /usr/include/real8.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libdjbfft.so$
+- /usr/lib32/libdjbfft.so.0$
+- /usr/lib32/libdjbfft.so.0.7.6$
+- /usr/lib64$
+- /usr/lib64/libdjbfft.so$
+- /usr/lib64/libdjbfft.so.0$
+- /usr/lib64/libdjbfft.so.0.7.6$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/djbfft-0.76-r2$
+- /usr/share/doc/djbfft-0.76-r2/CHANGES.bz2$
+- /usr/share/doc/djbfft-0.76-r2/README.bz2$
+- /usr/share/doc/djbfft-0.76-r2/TODO.bz2$
+- /usr/share/doc/djbfft-0.76-r2/VERSION$

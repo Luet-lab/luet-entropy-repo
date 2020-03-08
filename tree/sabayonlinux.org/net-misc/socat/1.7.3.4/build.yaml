@@ -1,0 +1,38 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i net-misc/socat-1.7.3.4
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/filan$
+- /usr/bin/procan$
+- /usr/bin/socat$
+- /usr/lib$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/socat-1.7.3.4$
+- /usr/share/doc/socat-1.7.3.4/BUGREPORTS.bz2$
+- /usr/share/doc/socat-1.7.3.4/CHANGES.bz2$
+- /usr/share/doc/socat-1.7.3.4/DEVELOPMENT.bz2$
+- /usr/share/doc/socat-1.7.3.4/EXAMPLES.bz2$
+- /usr/share/doc/socat-1.7.3.4/FAQ.bz2$
+- /usr/share/doc/socat-1.7.3.4/FILES.bz2$
+- /usr/share/doc/socat-1.7.3.4/PORTING.bz2$
+- /usr/share/doc/socat-1.7.3.4/README.bz2$
+- /usr/share/doc/socat-1.7.3.4/SECURITY.bz2$
+- /usr/share/doc/socat-1.7.3.4/html$
+- /usr/share/doc/socat-1.7.3.4/html/dest-unreach.css$
+- /usr/share/doc/socat-1.7.3.4/html/socat-genericsocket.html$
+- /usr/share/doc/socat-1.7.3.4/html/socat-multicast.html$
+- /usr/share/doc/socat-1.7.3.4/html/socat-openssltunnel.html$
+- /usr/share/doc/socat-1.7.3.4/html/socat-tun.html$
+- /usr/share/doc/socat-1.7.3.4/html/socat.html$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/socat.1.bz2$

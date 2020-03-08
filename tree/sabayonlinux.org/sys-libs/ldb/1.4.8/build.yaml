@@ -1,0 +1,96 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i sys-libs/ldb-1.4.8
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/ldbadd$
+- /usr/bin/ldbdel$
+- /usr/bin/ldbedit$
+- /usr/bin/ldbmodify$
+- /usr/bin/ldbrename$
+- /usr/bin/ldbsearch$
+- /usr/include$
+- /usr/include/ldb.h$
+- /usr/include/ldb_errors.h$
+- /usr/include/ldb_handlers.h$
+- /usr/include/ldb_module.h$
+- /usr/include/ldb_version.h$
+- /usr/include/pyldb.h$
+- /usr/include/x86_64-pc-linux-gnu$
+- /usr/include/x86_64-pc-linux-gnu/pyldb.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/ldb$
+- /usr/lib32/ldb/libldb-cmdline.so$
+- /usr/lib32/ldb/libldb-key-value.so$
+- /usr/lib32/ldb/libreplace-ldb.so$
+- /usr/lib32/libldb.so$
+- /usr/lib32/libldb.so.1$
+- /usr/lib32/libldb.so.1.4.8$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/ldb.pc$
+- /usr/lib32/samba$
+- /usr/lib32/samba/ldb$
+- /usr/lib32/samba/ldb/asq.so$
+- /usr/lib32/samba/ldb/ldap.so$
+- /usr/lib32/samba/ldb/ldb.so$
+- /usr/lib32/samba/ldb/paged_results.so$
+- /usr/lib32/samba/ldb/paged_searches.so$
+- /usr/lib32/samba/ldb/rdn_name.so$
+- /usr/lib32/samba/ldb/sample.so$
+- /usr/lib32/samba/ldb/server_sort.so$
+- /usr/lib32/samba/ldb/skel.so$
+- /usr/lib32/samba/ldb/tdb.so$
+- /usr/lib64$
+- /usr/lib64/ldb$
+- /usr/lib64/ldb/libldb-cmdline.so$
+- /usr/lib64/ldb/libldb-key-value.so$
+- /usr/lib64/ldb/libldb-mdb-int.so$
+- /usr/lib64/ldb/libreplace-ldb.so$
+- /usr/lib64/libldb.so$
+- /usr/lib64/libldb.so.1$
+- /usr/lib64/libldb.so.1.4.8$
+- /usr/lib64/libpyldb-util.so$
+- /usr/lib64/libpyldb-util.so.1$
+- /usr/lib64/libpyldb-util.so.1.4.8$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/ldb.pc$
+- /usr/lib64/pkgconfig/pyldb-util.pc$
+- /usr/lib64/python2.7$
+- /usr/lib64/python2.7/site-packages$
+- /usr/lib64/python2.7/site-packages/_ldb_text.py$
+- /usr/lib64/python2.7/site-packages/ldb.so$
+- /usr/lib64/samba$
+- /usr/lib64/samba/ldb$
+- /usr/lib64/samba/ldb/asq.so$
+- /usr/lib64/samba/ldb/ldap.so$
+- /usr/lib64/samba/ldb/ldb.so$
+- /usr/lib64/samba/ldb/mdb.so$
+- /usr/lib64/samba/ldb/paged_results.so$
+- /usr/lib64/samba/ldb/paged_searches.so$
+- /usr/lib64/samba/ldb/rdn_name.so$
+- /usr/lib64/samba/ldb/sample.so$
+- /usr/lib64/samba/ldb/server_sort.so$
+- /usr/lib64/samba/ldb/skel.so$
+- /usr/lib64/samba/ldb/tdb.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/ldb-1.4.8$
+- /usr/share/doc/ldb-1.4.8/README_gcov.txt.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/ldbadd.1.bz2$
+- /usr/share/man/man1/ldbdel.1.bz2$
+- /usr/share/man/man1/ldbedit.1.bz2$
+- /usr/share/man/man1/ldbmodify.1.bz2$
+- /usr/share/man/man1/ldbrename.1.bz2$
+- /usr/share/man/man1/ldbsearch.1.bz2$
+- /usr/share/man/man3$
+- /usr/share/man/man3/ldb.3.bz2$

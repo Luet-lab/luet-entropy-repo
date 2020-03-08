@@ -1,0 +1,32 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/jansson-2.12
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/jansson.h$
+- /usr/include/jansson_config.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libjansson.so$
+- /usr/lib32/libjansson.so.4$
+- /usr/lib32/libjansson.so.4.11.1$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/jansson.pc$
+- /usr/lib64$
+- /usr/lib64/libjansson.so$
+- /usr/lib64/libjansson.so.4$
+- /usr/lib64/libjansson.so.4.11.1$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/jansson.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/jansson-2.12$
+- /usr/share/doc/jansson-2.12/CHANGES.bz2$
+- /usr/share/doc/jansson-2.12/README.rst.bz2$

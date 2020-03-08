@@ -1,0 +1,21 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i sys-apps/v86d-0.1.10-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /sbin$
+- /sbin/v86d$
+- /usr$
+- /usr/lib$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/v86d-0.1.10-r1$
+- /usr/share/doc/v86d-0.1.10-r1/ChangeLog.bz2$
+- /usr/share/doc/v86d-0.1.10-r1/README.bz2$
+- /usr/share/v86d$
+- /usr/share/v86d/initramfs$

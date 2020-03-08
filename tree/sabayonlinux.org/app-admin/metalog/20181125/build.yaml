@@ -1,0 +1,39 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-admin/metalog-20181125
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /etc$
+- /etc/conf.d$
+- /etc/conf.d/metalog$
+- /etc/init.d$
+- /etc/init.d/metalog$
+- /etc/metalog.conf$
+- /lib$
+- /lib/systemd$
+- /lib/systemd/system$
+- /lib/systemd/system/metalog.service$
+- /sbin$
+- /sbin/consolelog.sh$
+- /usr$
+- /usr/lib$
+- /usr/sbin$
+- /usr/sbin/metalog$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/metalog-20181125$
+- /usr/share/doc/metalog-20181125/AUTHORS.bz2$
+- /usr/share/doc/metalog-20181125/ChangeLog$
+- /usr/share/doc/metalog-20181125/NEWS.bz2$
+- /usr/share/doc/metalog-20181125/README.bz2$
+- /usr/share/doc/metalog-20181125/metalog.conf.bz2$
+- /usr/share/man$
+- /usr/share/man/man5$
+- /usr/share/man/man5/metalog.conf.5.bz2$
+- /usr/share/man/man8$
+- /usr/share/man/man8/metalog.8.bz2$

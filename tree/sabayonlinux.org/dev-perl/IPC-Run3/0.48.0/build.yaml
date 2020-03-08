@@ -1,0 +1,33 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-perl/IPC-Run3-0.48.0
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/perl5$
+- /usr/lib64/perl5/vendor_perl$
+- /usr/lib64/perl5/vendor_perl/5.28.2$
+- /usr/lib64/perl5/vendor_perl/5.28.2/IPC$
+- /usr/lib64/perl5/vendor_perl/5.28.2/IPC/Run3$
+- /usr/lib64/perl5/vendor_perl/5.28.2/IPC/Run3.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/IPC/Run3/ProfArrayBuffer.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/IPC/Run3/ProfLogReader.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/IPC/Run3/ProfLogger.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/IPC/Run3/ProfPP.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/IPC/Run3/ProfReporter.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/IPC$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/IPC/Run3$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/IPC/Run3/.packlist$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/IPC-Run3-0.48.0$
+- /usr/share/doc/IPC-Run3-0.48.0/Changes.bz2$
+- /usr/share/doc/IPC-Run3-0.48.0/README.bz2$

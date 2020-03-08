@@ -1,0 +1,22 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i gnome-base/gnome-common-3.18.0-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/gnome-autogen.sh$
+- /usr/share$
+- /usr/share/aclocal$
+- /usr/share/aclocal/gnome-code-coverage.m4$
+- /usr/share/aclocal/gnome-common.m4$
+- /usr/share/aclocal/gnome-compiler-flags.m4$
+- /usr/share/doc$
+- /usr/share/doc/gnome-common-3.18.0-r1$
+- /usr/share/doc/gnome-common-3.18.0-r1/ChangeLog.bz2$
+- /usr/share/doc/gnome-common-3.18.0-r1/README.bz2$

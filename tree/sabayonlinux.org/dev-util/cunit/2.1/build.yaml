@@ -1,0 +1,76 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-util/cunit-2.1_p3
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/CUnit$
+- /usr/include/CUnit/Automated.h$
+- /usr/include/CUnit/Basic.h$
+- /usr/include/CUnit/CUCurses.h$
+- /usr/include/CUnit/CUError.h$
+- /usr/include/CUnit/CUnit.h$
+- /usr/include/CUnit/CUnit_intl.h$
+- /usr/include/CUnit/Console.h$
+- /usr/include/CUnit/MyMem.h$
+- /usr/include/CUnit/TestDB.h$
+- /usr/include/CUnit/TestRun.h$
+- /usr/include/CUnit/Util.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libcunit.so$
+- /usr/lib32/libcunit.so.1$
+- /usr/lib32/libcunit.so.1.0.1$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/cunit.pc$
+- /usr/lib64$
+- /usr/lib64/libcunit.so$
+- /usr/lib64/libcunit.so.1$
+- /usr/lib64/libcunit.so.1.0.1$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/cunit.pc$
+- /usr/share$
+- /usr/share/CUnit$
+- /usr/share/CUnit/CUnit-List.dtd$
+- /usr/share/CUnit/CUnit-List.xsl$
+- /usr/share/CUnit/CUnit-Run.dtd$
+- /usr/share/CUnit/CUnit-Run.xsl$
+- /usr/share/CUnit/Memory-Dump.dtd$
+- /usr/share/CUnit/Memory-Dump.xsl$
+- /usr/share/doc$
+- /usr/share/doc/cunit-2.1_p3$
+- /usr/share/doc/cunit-2.1_p3/AUTHORS.bz2$
+- /usr/share/doc/cunit-2.1_p3/CUnit_doc.css$
+- /usr/share/doc/cunit-2.1_p3/ChangeLog.bz2$
+- /usr/share/doc/cunit-2.1_p3/NEWS.bz2$
+- /usr/share/doc/cunit-2.1_p3/README.bz2$
+- /usr/share/doc/cunit-2.1_p3/error_handling.html$
+- /usr/share/doc/cunit-2.1_p3/fdl.html$
+- /usr/share/doc/cunit-2.1_p3/headers$
+- /usr/share/doc/cunit-2.1_p3/headers/Automated.h.bz2$
+- /usr/share/doc/cunit-2.1_p3/headers/Basic.h.bz2$
+- /usr/share/doc/cunit-2.1_p3/headers/CUCurses.h.bz2$
+- /usr/share/doc/cunit-2.1_p3/headers/CUError.h.bz2$
+- /usr/share/doc/cunit-2.1_p3/headers/CUnit.h.bz2$
+- /usr/share/doc/cunit-2.1_p3/headers/CUnit_intl.h.bz2$
+- /usr/share/doc/cunit-2.1_p3/headers/Console.h.bz2$
+- /usr/share/doc/cunit-2.1_p3/headers/MyMem.h.bz2$
+- /usr/share/doc/cunit-2.1_p3/headers/TestDB.h.bz2$
+- /usr/share/doc/cunit-2.1_p3/headers/TestRun.h.bz2$
+- /usr/share/doc/cunit-2.1_p3/headers/Util.h.bz2$
+- /usr/share/doc/cunit-2.1_p3/headers/Win.h.bz2$
+- /usr/share/doc/cunit-2.1_p3/index.html$
+- /usr/share/doc/cunit-2.1_p3/introduction.html$
+- /usr/share/doc/cunit-2.1_p3/managing_tests.html$
+- /usr/share/doc/cunit-2.1_p3/running_tests.html$
+- /usr/share/doc/cunit-2.1_p3/test_registry.html$
+- /usr/share/doc/cunit-2.1_p3/writing_tests.html$
+- /usr/share/man$
+- /usr/share/man/man3$
+- /usr/share/man/man3/CUnit.3.bz2$

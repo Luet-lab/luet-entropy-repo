@@ -1,0 +1,11 @@
+
+category: "dev-libs"
+name: "userspace-rcu"
+version: "0.10.1"
+requires:
+- category: "sys-process"
+  name: "time"
+  version: ">=1.9"
+- category: "sys-apps"
+  name: "texinfo"
+  version: ">=6.7"

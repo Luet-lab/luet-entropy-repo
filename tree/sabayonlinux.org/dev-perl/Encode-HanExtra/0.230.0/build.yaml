@@ -1,0 +1,33 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-perl/Encode-HanExtra-0.230.0-r2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/perl5$
+- /usr/lib64/perl5/vendor_perl$
+- /usr/lib64/perl5/vendor_perl/5.28.2$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/Encode$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/Encode/HanExtra.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/Encode/TW$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/Encode/TW/Unisys$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/Encode/TW/Unisys/SOSI1.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/Encode/TW/Unisys/SOSI2.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/Encode$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/Encode/HanExtra$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/Encode/HanExtra/.packlist$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/Encode/HanExtra/HanExtra.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/Encode-HanExtra-0.230.0-r2$
+- /usr/share/doc/Encode-HanExtra-0.230.0-r2/Changes.bz2$
+- /usr/share/doc/Encode-HanExtra-0.230.0-r2/README.bz2$

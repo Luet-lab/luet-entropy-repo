@@ -1,0 +1,27 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-dicts/myspell-id-2.0
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/myspell-id-2.0$
+- /usr/share/doc/myspell-id-2.0/description.txt$
+- /usr/share/doc/myspell-id-2.0/long-description.txt.bz2$
+- /usr/share/doc/myspell-id-2.0/short-description.txt.bz2$
+- /usr/share/hunspell$
+- /usr/share/hunspell/id_ID.aff$
+- /usr/share/hunspell/id_ID.dic$
+- /usr/share/hyphen$
+- /usr/share/hyphen/hyph_id_ID.dic$
+- /usr/share/myspell$
+- /usr/share/myspell/hyph_id_ID.dic$
+- /usr/share/myspell/id_ID.aff$
+- /usr/share/myspell/id_ID.dic$
+- /usr/share/mythes$

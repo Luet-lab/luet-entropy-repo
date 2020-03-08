@@ -1,0 +1,35 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i sys-libs/libutempter-1.1.6-r2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/utempter.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libutempter.so$
+- /usr/lib64/libutempter.so.0$
+- /usr/lib64/libutempter.so.1.1.6$
+- /usr/lib64/misc$
+- /usr/lib64/misc/utempter$
+- /usr/lib64/misc/utempter/utempter$
+- /usr/sbin$
+- /usr/sbin/utempter$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libutempter-1.1.6-r2$
+- /usr/share/doc/libutempter-1.1.6-r2/README.bz2$
+- /usr/share/man$
+- /usr/share/man/man3$
+- /usr/share/man/man3/libutempter.3.bz2$
+- /usr/share/man/man3/utempter.3.bz2$
+- /usr/share/man/man3/utempter_add_record.3.bz2$
+- /usr/share/man/man3/utempter_remove_added_record.3.bz2$
+- /usr/share/man/man3/utempter_remove_record.3.bz2$
+- /usr/share/man/man3/utempter_set_helper.3.bz2$

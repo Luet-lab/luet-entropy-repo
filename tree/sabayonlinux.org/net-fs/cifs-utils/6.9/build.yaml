@@ -1,0 +1,51 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i net-fs/cifs-utils-6.9-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /etc$
+- /etc/cifs-utils$
+- /etc/cifs-utils/idmap-plugin$
+- /etc/request-key.d$
+- /etc/request-key.d/cifs.idmap.conf$
+- /etc/request-key.d/cifs.spnego.conf$
+- /etc/request-key.d/cifs.upcall.conf$
+- /lib64$
+- /lib64/security$
+- /lib64/security/pam_cifscreds.so$
+- /sbin$
+- /sbin/mount.cifs$
+- /usr$
+- /usr/bin$
+- /usr/bin/getcifsacl$
+- /usr/bin/setcifsacl$
+- /usr/bin/smbinfo$
+- /usr/include$
+- /usr/include/cifsidmap.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/cifs-utils$
+- /usr/lib64/cifs-utils/idmapwb.so$
+- /usr/sbin$
+- /usr/sbin/cifs.idmap$
+- /usr/sbin/cifs.upcall$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/cifs-utils-6.9-r1$
+- /usr/share/doc/cifs-utils-6.9-r1/linux-cifs-client-guide.odt.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/getcifsacl.1.bz2$
+- /usr/share/man/man1/setcifsacl.1.bz2$
+- /usr/share/man/man1/smbinfo.1.bz2$
+- /usr/share/man/man8$
+- /usr/share/man/man8/cifs.idmap.8.bz2$
+- /usr/share/man/man8/cifs.upcall.8.bz2$
+- /usr/share/man/man8/idmapwb.8.bz2$
+- /usr/share/man/man8/mount.cifs.8.bz2$
+- /usr/share/man/man8/pam_cifscreds.8.bz2$

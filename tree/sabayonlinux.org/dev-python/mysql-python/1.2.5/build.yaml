@@ -1,0 +1,71 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/mysql-python-1.2.5-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/python2.7$
+- /usr/lib64/python2.7/site-packages$
+- /usr/lib64/python2.7/site-packages/MySQL_python-1.2.5-py2.7.egg-info$
+- /usr/lib64/python2.7/site-packages/MySQL_python-1.2.5-py2.7.egg-info/PKG-INFO$
+- /usr/lib64/python2.7/site-packages/MySQL_python-1.2.5-py2.7.egg-info/SOURCES.txt$
+- /usr/lib64/python2.7/site-packages/MySQL_python-1.2.5-py2.7.egg-info/dependency_links.txt$
+- /usr/lib64/python2.7/site-packages/MySQL_python-1.2.5-py2.7.egg-info/top_level.txt$
+- /usr/lib64/python2.7/site-packages/MySQLdb$
+- /usr/lib64/python2.7/site-packages/MySQLdb/__init__.py$
+- /usr/lib64/python2.7/site-packages/MySQLdb/__init__.pyc$
+- /usr/lib64/python2.7/site-packages/MySQLdb/__init__.pyo$
+- /usr/lib64/python2.7/site-packages/MySQLdb/connections.py$
+- /usr/lib64/python2.7/site-packages/MySQLdb/connections.pyc$
+- /usr/lib64/python2.7/site-packages/MySQLdb/connections.pyo$
+- /usr/lib64/python2.7/site-packages/MySQLdb/constants$
+- /usr/lib64/python2.7/site-packages/MySQLdb/constants/CLIENT.py$
+- /usr/lib64/python2.7/site-packages/MySQLdb/constants/CLIENT.pyc$
+- /usr/lib64/python2.7/site-packages/MySQLdb/constants/CLIENT.pyo$
+- /usr/lib64/python2.7/site-packages/MySQLdb/constants/CR.py$
+- /usr/lib64/python2.7/site-packages/MySQLdb/constants/CR.pyc$
+- /usr/lib64/python2.7/site-packages/MySQLdb/constants/CR.pyo$
+- /usr/lib64/python2.7/site-packages/MySQLdb/constants/ER.py$
+- /usr/lib64/python2.7/site-packages/MySQLdb/constants/ER.pyc$
+- /usr/lib64/python2.7/site-packages/MySQLdb/constants/ER.pyo$
+- /usr/lib64/python2.7/site-packages/MySQLdb/constants/FIELD_TYPE.py$
+- /usr/lib64/python2.7/site-packages/MySQLdb/constants/FIELD_TYPE.pyc$
+- /usr/lib64/python2.7/site-packages/MySQLdb/constants/FIELD_TYPE.pyo$
+- /usr/lib64/python2.7/site-packages/MySQLdb/constants/FLAG.py$
+- /usr/lib64/python2.7/site-packages/MySQLdb/constants/FLAG.pyc$
+- /usr/lib64/python2.7/site-packages/MySQLdb/constants/FLAG.pyo$
+- /usr/lib64/python2.7/site-packages/MySQLdb/constants/REFRESH.py$
+- /usr/lib64/python2.7/site-packages/MySQLdb/constants/REFRESH.pyc$
+- /usr/lib64/python2.7/site-packages/MySQLdb/constants/REFRESH.pyo$
+- /usr/lib64/python2.7/site-packages/MySQLdb/constants/__init__.py$
+- /usr/lib64/python2.7/site-packages/MySQLdb/constants/__init__.pyc$
+- /usr/lib64/python2.7/site-packages/MySQLdb/constants/__init__.pyo$
+- /usr/lib64/python2.7/site-packages/MySQLdb/converters.py$
+- /usr/lib64/python2.7/site-packages/MySQLdb/converters.pyc$
+- /usr/lib64/python2.7/site-packages/MySQLdb/converters.pyo$
+- /usr/lib64/python2.7/site-packages/MySQLdb/cursors.py$
+- /usr/lib64/python2.7/site-packages/MySQLdb/cursors.pyc$
+- /usr/lib64/python2.7/site-packages/MySQLdb/cursors.pyo$
+- /usr/lib64/python2.7/site-packages/MySQLdb/release.py$
+- /usr/lib64/python2.7/site-packages/MySQLdb/release.pyc$
+- /usr/lib64/python2.7/site-packages/MySQLdb/release.pyo$
+- /usr/lib64/python2.7/site-packages/MySQLdb/times.py$
+- /usr/lib64/python2.7/site-packages/MySQLdb/times.pyc$
+- /usr/lib64/python2.7/site-packages/MySQLdb/times.pyo$
+- /usr/lib64/python2.7/site-packages/_mysql.so$
+- /usr/lib64/python2.7/site-packages/_mysql_exceptions.py$
+- /usr/lib64/python2.7/site-packages/_mysql_exceptions.pyc$
+- /usr/lib64/python2.7/site-packages/_mysql_exceptions.pyo$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/mysql-python-1.2.5-r1$
+- /usr/share/doc/mysql-python-1.2.5-r1/FAQ.rst.bz2$
+- /usr/share/doc/mysql-python-1.2.5-r1/HISTORY.bz2$
+- /usr/share/doc/mysql-python-1.2.5-r1/MySQLdb.rst.bz2$
+- /usr/share/doc/mysql-python-1.2.5-r1/README.md.bz2$

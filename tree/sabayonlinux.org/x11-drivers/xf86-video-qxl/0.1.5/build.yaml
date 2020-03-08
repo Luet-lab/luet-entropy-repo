@@ -1,0 +1,25 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i x11-drivers/xf86-video-qxl-0.1.5
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/xorg$
+- /usr/lib64/xorg/modules$
+- /usr/lib64/xorg/modules/drivers$
+- /usr/lib64/xorg/modules/drivers/qxl_drv.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/xf86-video-qxl-0.1.5$
+- /usr/share/doc/xf86-video-qxl-0.1.5/ChangeLog.bz2$
+- /usr/share/doc/xf86-video-qxl-0.1.5/NEWS.bz2$
+- /usr/share/doc/xf86-video-qxl-0.1.5/README.bz2$
+- /usr/share/doc/xf86-video-qxl-0.1.5/README.xspice.bz2$
+- /usr/share/doc/xf86-video-qxl-0.1.5/TODO.bz2$

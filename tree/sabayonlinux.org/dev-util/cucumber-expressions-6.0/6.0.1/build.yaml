@@ -1,0 +1,39 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-util/cucumber-expressions-6.0.1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-expressions-6.0.1$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-expressions-6.0.1/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-expressions-6.0.1/lib/cucumber$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-expressions-6.0.1/lib/cucumber/cucumber_expressions$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-expressions-6.0.1/lib/cucumber/cucumber_expressions/argument.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-expressions-6.0.1/lib/cucumber/cucumber_expressions/combinatorial_generated_expression_factory.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-expressions-6.0.1/lib/cucumber/cucumber_expressions/cucumber_expression.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-expressions-6.0.1/lib/cucumber/cucumber_expressions/cucumber_expression_generator.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-expressions-6.0.1/lib/cucumber/cucumber_expressions/errors.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-expressions-6.0.1/lib/cucumber/cucumber_expressions/generated_expression.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-expressions-6.0.1/lib/cucumber/cucumber_expressions/group.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-expressions-6.0.1/lib/cucumber/cucumber_expressions/group_builder.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-expressions-6.0.1/lib/cucumber/cucumber_expressions/parameter_type.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-expressions-6.0.1/lib/cucumber/cucumber_expressions/parameter_type_matcher.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-expressions-6.0.1/lib/cucumber/cucumber_expressions/parameter_type_registry.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-expressions-6.0.1/lib/cucumber/cucumber_expressions/regular_expression.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/cucumber-expressions-6.0.1/lib/cucumber/cucumber_expressions/tree_regexp.rb$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/cucumber-expressions-6.0.1.gemspec$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/cucumber-expressions-6.0.1$
+- /usr/share/doc/cucumber-expressions-6.0.1/README.md.bz2$

@@ -1,0 +1,65 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i net-proxy/dante-1.4.1-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /etc$
+- /etc/conf.d$
+- /etc/conf.d/dante-sockd$
+- /etc/init.d$
+- /etc/init.d/dante-sockd$
+- /etc/socks$
+- /etc/socks/sockd.conf$
+- /etc/socks/socks.conf$
+- /lib$
+- /lib/systemd$
+- /lib/systemd/system$
+- /lib/systemd/system/dante-sockd.service$
+- /usr$
+- /usr/bin$
+- /usr/bin/socksify$
+- /usr/include$
+- /usr/include/socks.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libdsocks.so$
+- /usr/lib64/libsocks.so$
+- /usr/lib64/libsocks.so.0$
+- /usr/lib64/libsocks.so.0.1.1$
+- /usr/sbin$
+- /usr/sbin/sockd$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/dante-1.4.1-r1$
+- /usr/share/doc/dante-1.4.1-r1/BUGS.bz2$
+- /usr/share/doc/dante-1.4.1-r1/CREDITS.bz2$
+- /usr/share/doc/dante-1.4.1-r1/NEWS.bz2$
+- /usr/share/doc/dante-1.4.1-r1/README.bz2$
+- /usr/share/doc/dante-1.4.1-r1/README.socksify.bz2$
+- /usr/share/doc/dante-1.4.1-r1/README.survey.bz2$
+- /usr/share/doc/dante-1.4.1-r1/README.usage.bz2$
+- /usr/share/doc/dante-1.4.1-r1/SOCKS4.protocol.bz2$
+- /usr/share/doc/dante-1.4.1-r1/SUPPORT.bz2$
+- /usr/share/doc/dante-1.4.1-r1/examples$
+- /usr/share/doc/dante-1.4.1-r1/examples/sockd-basic.conf.bz2$
+- /usr/share/doc/dante-1.4.1-r1/examples/sockd-chaining.conf.bz2$
+- /usr/share/doc/dante-1.4.1-r1/examples/sockd.conf.bz2$
+- /usr/share/doc/dante-1.4.1-r1/examples/socks-simple-withoutnameserver.conf.bz2$
+- /usr/share/doc/dante-1.4.1-r1/examples/socks-simple.conf.bz2$
+- /usr/share/doc/dante-1.4.1-r1/examples/socks.conf.bz2$
+- /usr/share/doc/dante-1.4.1-r1/rfc1928.txt.bz2$
+- /usr/share/doc/dante-1.4.1-r1/rfc1929.txt.bz2$
+- /usr/share/doc/dante-1.4.1-r1/rfc1961.txt.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/socksify.1.bz2$
+- /usr/share/man/man5$
+- /usr/share/man/man5/sockd.conf.5.bz2$
+- /usr/share/man/man5/socks.conf.5.bz2$
+- /usr/share/man/man8$
+- /usr/share/man/man8/sockd.8.bz2$

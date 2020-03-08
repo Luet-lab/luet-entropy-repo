@@ -1,0 +1,68 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/webencodings-0.5.1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/python2.7$
+- /usr/lib64/python2.7/site-packages$
+- /usr/lib64/python2.7/site-packages/webencodings$
+- /usr/lib64/python2.7/site-packages/webencodings-0.5.1-py2.7.egg-info$
+- /usr/lib64/python2.7/site-packages/webencodings-0.5.1-py2.7.egg-info/PKG-INFO$
+- /usr/lib64/python2.7/site-packages/webencodings-0.5.1-py2.7.egg-info/SOURCES.txt$
+- /usr/lib64/python2.7/site-packages/webencodings-0.5.1-py2.7.egg-info/dependency_links.txt$
+- /usr/lib64/python2.7/site-packages/webencodings-0.5.1-py2.7.egg-info/top_level.txt$
+- /usr/lib64/python2.7/site-packages/webencodings/__init__.py$
+- /usr/lib64/python2.7/site-packages/webencodings/__init__.pyc$
+- /usr/lib64/python2.7/site-packages/webencodings/__init__.pyo$
+- /usr/lib64/python2.7/site-packages/webencodings/labels.py$
+- /usr/lib64/python2.7/site-packages/webencodings/labels.pyc$
+- /usr/lib64/python2.7/site-packages/webencodings/labels.pyo$
+- /usr/lib64/python2.7/site-packages/webencodings/mklabels.py$
+- /usr/lib64/python2.7/site-packages/webencodings/mklabels.pyc$
+- /usr/lib64/python2.7/site-packages/webencodings/mklabels.pyo$
+- /usr/lib64/python2.7/site-packages/webencodings/tests.py$
+- /usr/lib64/python2.7/site-packages/webencodings/tests.pyc$
+- /usr/lib64/python2.7/site-packages/webencodings/tests.pyo$
+- /usr/lib64/python2.7/site-packages/webencodings/x_user_defined.py$
+- /usr/lib64/python2.7/site-packages/webencodings/x_user_defined.pyc$
+- /usr/lib64/python2.7/site-packages/webencodings/x_user_defined.pyo$
+- /usr/lib64/python3.6$
+- /usr/lib64/python3.6/site-packages$
+- /usr/lib64/python3.6/site-packages/webencodings$
+- /usr/lib64/python3.6/site-packages/webencodings-0.5.1-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/webencodings-0.5.1-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/webencodings-0.5.1-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/webencodings-0.5.1-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/webencodings-0.5.1-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/webencodings/__init__.py$
+- /usr/lib64/python3.6/site-packages/webencodings/__pycache__$
+- /usr/lib64/python3.6/site-packages/webencodings/__pycache__/__init__.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/webencodings/__pycache__/__init__.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/webencodings/__pycache__/__init__.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/webencodings/__pycache__/labels.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/webencodings/__pycache__/labels.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/webencodings/__pycache__/labels.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/webencodings/__pycache__/mklabels.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/webencodings/__pycache__/mklabels.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/webencodings/__pycache__/mklabels.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/webencodings/__pycache__/tests.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/webencodings/__pycache__/tests.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/webencodings/__pycache__/tests.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/webencodings/__pycache__/x_user_defined.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/webencodings/__pycache__/x_user_defined.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/webencodings/__pycache__/x_user_defined.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/webencodings/labels.py$
+- /usr/lib64/python3.6/site-packages/webencodings/mklabels.py$
+- /usr/lib64/python3.6/site-packages/webencodings/tests.py$
+- /usr/lib64/python3.6/site-packages/webencodings/x_user_defined.py$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/webencodings-0.5.1$
+- /usr/share/doc/webencodings-0.5.1/README.rst.bz2$

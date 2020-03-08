@@ -1,0 +1,24 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/amdgpu-pro-opencl-17.50.511655
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /etc$
+- /etc/OpenCL$
+- /etc/OpenCL/vendors$
+- /etc/OpenCL/vendors/amdgpu-pro.icd$
+- /opt$
+- /opt/amdgpu$
+- /opt/amdgpu/lib64$
+- /opt/amdgpu/lib64/libamdocl12cl64.so$
+- /opt/amdgpu/lib64/libamdocl64.so$
+- /opt/amdgpu/lib64/libdrm_amdgpu.so.1$
+- /opt/amdgpu/lib64/libdrm_amdgpu.so.1.0.0$
+- /opt/amdgpu/share$
+- /opt/amdgpu/share/libdrm$
+- /opt/amdgpu/share/libdrm/amdgpu.ids$

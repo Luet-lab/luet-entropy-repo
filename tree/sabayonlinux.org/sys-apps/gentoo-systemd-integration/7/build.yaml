@@ -1,0 +1,29 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i sys-apps/gentoo-systemd-integration-7
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /lib$
+- /lib/systemd$
+- /lib/systemd/system-generators$
+- /lib/systemd/system-generators/gentoo-local-generator$
+- /lib/systemd/system-preset$
+- /lib/systemd/system-preset/99-default.preset$
+- /lib/udev$
+- /lib/udev/rules.d$
+- /lib/udev/rules.d/40-gentoo.rules$
+- /usr$
+- /usr/lib$
+- /usr/lib/sysctl.d$
+- /usr/lib/sysctl.d/60-gentoo.conf$
+- /usr/lib/tmpfiles.d$
+- /usr/lib/tmpfiles.d/gentoo-run.conf$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/gentoo-systemd-integration-7$
+- /usr/share/doc/gentoo-systemd-integration-7/NEWS.bz2$

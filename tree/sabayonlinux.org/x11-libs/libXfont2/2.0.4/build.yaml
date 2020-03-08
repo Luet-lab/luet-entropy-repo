@@ -1,0 +1,22 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i x11-libs/libXfont2-2.0.4
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/X11$
+- /usr/include/X11/fonts$
+- /usr/include/X11/fonts/libxfont2.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libXfont2.so$
+- /usr/lib64/libXfont2.so.2$
+- /usr/lib64/libXfont2.so.2.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/xfont2.pc$

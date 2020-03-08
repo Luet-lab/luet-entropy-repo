@@ -1,0 +1,24 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-dicts/aspell-ga-0.50.4
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/aspell-0.60$
+- /usr/lib64/aspell-0.60/ga.dat$
+- /usr/lib64/aspell-0.60/ga.multi$
+- /usr/lib64/aspell-0.60/ga.rws$
+- /usr/lib64/aspell-0.60/ga_phonet.dat$
+- /usr/lib64/aspell-0.60/gaeilge.alias$
+- /usr/lib64/aspell-0.60/irish.alias$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/aspell-ga-0.50.4$
+- /usr/share/doc/aspell-ga-0.50.4/README.bz2$
+- /usr/share/doc/aspell-ga-0.50.4/info.bz2$

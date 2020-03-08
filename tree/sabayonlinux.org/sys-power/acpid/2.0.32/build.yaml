@@ -1,0 +1,63 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i sys-power/acpid-2.0.32-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /etc$
+- /etc/acpi$
+- /etc/acpi/actions$
+- /etc/acpi/actions/powerbtn.sh$
+- /etc/acpi/default.sh$
+- /etc/acpi/events$
+- /etc/acpi/events/default$
+- /etc/conf.d$
+- /etc/conf.d/acpid$
+- /etc/init.d$
+- /etc/init.d/acpid$
+- /lib$
+- /lib/systemd$
+- /lib/systemd/system$
+- /lib/systemd/system/acpid.service$
+- /lib/systemd/system/acpid.socket$
+- /usr$
+- /usr/bin$
+- /usr/bin/acpi_listen$
+- /usr/lib$
+- /usr/sbin$
+- /usr/sbin/acpid$
+- /usr/sbin/kacpimon$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/acpid-2.0.32-r1$
+- /usr/share/doc/acpid-2.0.32-r1/Changelog.bz2$
+- /usr/share/doc/acpid-2.0.32-r1/README.bz2$
+- /usr/share/doc/acpid-2.0.32-r1/README.kacpimon$
+- /usr/share/doc/acpid-2.0.32-r1/TESTPLAN.bz2$
+- /usr/share/doc/acpid-2.0.32-r1/TODO.bz2$
+- /usr/share/doc/acpid-2.0.32-r1/samples$
+- /usr/share/doc/acpid-2.0.32-r1/samples/acpi_handler-conf.bz2$
+- /usr/share/doc/acpid-2.0.32-r1/samples/acpi_handler.sh.bz2$
+- /usr/share/doc/acpid-2.0.32-r1/samples/battery$
+- /usr/share/doc/acpid-2.0.32-r1/samples/battery/battery-conf.bz2$
+- /usr/share/doc/acpid-2.0.32-r1/samples/battery/battery.sh.bz2$
+- /usr/share/doc/acpid-2.0.32-r1/samples/panasonic$
+- /usr/share/doc/acpid-2.0.32-r1/samples/panasonic/ac_adapt.pl.bz2$
+- /usr/share/doc/acpid-2.0.32-r1/samples/panasonic/ac_adapter.bz2$
+- /usr/share/doc/acpid-2.0.32-r1/samples/panasonic/hotkey.bz2$
+- /usr/share/doc/acpid-2.0.32-r1/samples/panasonic/hotkey.pl.bz2$
+- /usr/share/doc/acpid-2.0.32-r1/samples/power.bz2$
+- /usr/share/doc/acpid-2.0.32-r1/samples/power.sh.bz2$
+- /usr/share/doc/acpid-2.0.32-r1/samples/powerbtn$
+- /usr/share/doc/acpid-2.0.32-r1/samples/powerbtn/powerbtn-conf.bz2$
+- /usr/share/doc/acpid-2.0.32-r1/samples/powerbtn/powerbtn.sh.bz2$
+- /usr/share/doc/acpid-2.0.32-r1/samples/powerbtn/powerbtn.sh.old.bz2$
+- /usr/share/man$
+- /usr/share/man/man8$
+- /usr/share/man/man8/acpi_listen.8.bz2$
+- /usr/share/man/man8/acpid.8.bz2$
+- /usr/share/man/man8/kacpimon.8.bz2$

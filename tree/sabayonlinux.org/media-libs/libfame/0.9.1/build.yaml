@@ -1,0 +1,67 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/libfame-0.9.1-r2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/libfame-config$
+- /usr/include$
+- /usr/include/fame.h$
+- /usr/include/fame_bitbuffer.h$
+- /usr/include/fame_decoder.h$
+- /usr/include/fame_decoder_mpeg.h$
+- /usr/include/fame_encoder.h$
+- /usr/include/fame_encoder_mpeg.h$
+- /usr/include/fame_malloc.h$
+- /usr/include/fame_monitor.h$
+- /usr/include/fame_motion.h$
+- /usr/include/fame_motion_fourstep.h$
+- /usr/include/fame_motion_none.h$
+- /usr/include/fame_motion_pmvfast.h$
+- /usr/include/fame_profile.h$
+- /usr/include/fame_profile_mpeg.h$
+- /usr/include/fame_profile_mpeg1.h$
+- /usr/include/fame_profile_mpeg4_shape.h$
+- /usr/include/fame_profile_mpeg4_simple.h$
+- /usr/include/fame_profile_stats.h$
+- /usr/include/fame_rate.h$
+- /usr/include/fame_rate_1param.h$
+- /usr/include/fame_rate_simple.h$
+- /usr/include/fame_shape.h$
+- /usr/include/fame_syntax.h$
+- /usr/include/fame_syntax_mpeg1.h$
+- /usr/include/fame_syntax_mpeg4.h$
+- /usr/include/fame_version.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libfame-0.9.so.1$
+- /usr/lib64/libfame-0.9.so.1.0.0$
+- /usr/lib64/libfame.so$
+- /usr/share$
+- /usr/share/aclocal$
+- /usr/share/aclocal/libfame.m4$
+- /usr/share/doc$
+- /usr/share/doc/libfame-0.9.1-r2$
+- /usr/share/doc/libfame-0.9.1-r2/AUTHORS.bz2$
+- /usr/share/doc/libfame-0.9.1-r2/BUGS.bz2$
+- /usr/share/doc/libfame-0.9.1-r2/CHANGES.bz2$
+- /usr/share/doc/libfame-0.9.1-r2/README.bz2$
+- /usr/share/doc/libfame-0.9.1-r2/TODO.bz2$
+- /usr/share/man$
+- /usr/share/man/man3$
+- /usr/share/man/man3/fame_close.3.bz2$
+- /usr/share/man/man3/fame_encode_frame.3.bz2$
+- /usr/share/man/man3/fame_encode_slice.3.bz2$
+- /usr/share/man/man3/fame_end_frame.3.bz2$
+- /usr/share/man/man3/fame_get_object.3.bz2$
+- /usr/share/man/man3/fame_init.3.bz2$
+- /usr/share/man/man3/fame_open.3.bz2$
+- /usr/share/man/man3/fame_register.3.bz2$
+- /usr/share/man/man3/fame_start_frame.3.bz2$
+- /usr/share/man/man3/fame_unregister.3.bz2$

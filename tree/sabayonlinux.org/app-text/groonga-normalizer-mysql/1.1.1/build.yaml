@@ -1,0 +1,24 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-text/groonga-normalizer-mysql-1.1.1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/groonga$
+- /usr/lib64/groonga/plugins$
+- /usr/lib64/groonga/plugins/normalizers$
+- /usr/lib64/groonga/plugins/normalizers/mysql.la$
+- /usr/lib64/groonga/plugins/normalizers/mysql.so$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/groonga-normalizer-mysql.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/groonga-normalizer-mysql-1.1.1$
+- /usr/share/doc/groonga-normalizer-mysql-1.1.1/README.md.bz2$

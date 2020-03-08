@@ -1,0 +1,77 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/flac-1.3.3
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/flac$
+- /usr/bin/metaflac$
+- /usr/include$
+- /usr/include/FLAC$
+- /usr/include/FLAC.*
+- /usr/include/FLAC/all.h$
+- /usr/include/FLAC/assert.h$
+- /usr/include/FLAC/callback.h$
+- /usr/include/FLAC/export.h$
+- /usr/include/FLAC/format.h$
+- /usr/include/FLAC/metadata.h$
+- /usr/include/FLAC/ordinals.h$
+- /usr/include/FLAC/stream_decoder.h$
+- /usr/include/FLAC/stream_encoder.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libFLAC.*
+- /usr/lib32/libFLAC.so$
+- /usr/lib32/libFLAC.so.8$
+- /usr/lib32/libFLAC.so.8.3.0$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/flac.*
+- /usr/lib32/pkgconfig/flac.pc$
+- /usr/lib64$
+- /usr/lib64/libFLAC.*
+- /usr/lib64/libFLAC.so$
+- /usr/lib64/libFLAC.so.8$
+- /usr/lib64/libFLAC.so.8.3.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/flac.*
+- /usr/lib64/pkgconfig/flac.pc$
+- /usr/share$
+- /usr/share/aclocal$
+- /usr/share/aclocal/libFLAC.*
+- /usr/share/doc$
+- /usr/share/doc/flac-1.3.3$
+- /usr/share/doc/flac-1.3.3/AUTHORS.bz2$
+- /usr/share/doc/flac-1.3.3/FLAC.tag.bz2$
+- /usr/share/doc/flac-1.3.3/README.bz2$
+- /usr/share/doc/flac-1.3.3/html$
+- /usr/share/doc/flac-1.3.3/html/changelog.html$
+- /usr/share/doc/flac-1.3.3/html/developers.html$
+- /usr/share/doc/flac-1.3.3/html/documentation.html$
+- /usr/share/doc/flac-1.3.3/html/documentation_bugs.html$
+- /usr/share/doc/flac-1.3.3/html/documentation_example_code.html$
+- /usr/share/doc/flac-1.3.3/html/documentation_format_overview.html$
+- /usr/share/doc/flac-1.3.3/html/documentation_tools.html$
+- /usr/share/doc/flac-1.3.3/html/documentation_tools_flac.html$
+- /usr/share/doc/flac-1.3.3/html/documentation_tools_metaflac.html$
+- /usr/share/doc/flac-1.3.3/html/faq.html$
+- /usr/share/doc/flac-1.3.3/html/favicon.ico$
+- /usr/share/doc/flac-1.3.3/html/features.html$
+- /usr/share/doc/flac-1.3.3/html/flac.css$
+- /usr/share/doc/flac-1.3.3/html/format.html$
+- /usr/share/doc/flac-1.3.3/html/id.html$
+- /usr/share/doc/flac-1.3.3/html/images$
+- /usr/share/doc/flac-1.3.3/html/images/logo.svg$
+- /usr/share/doc/flac-1.3.3/html/images/logo130.gif$
+- /usr/share/doc/flac-1.3.3/html/index.html$
+- /usr/share/doc/flac-1.3.3/html/license.html$
+- /usr/share/doc/flac-1.3.3/html/ogg_mapping.html$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/flac.1.bz2$
+- /usr/share/man/man1/metaflac.1.bz2$

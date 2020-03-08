@@ -1,0 +1,11 @@
+
+category: "acct-user"
+name: "qemu"
+version: "0"
+requires:
+- category: "acct-group"
+  name: "qemu"
+  version: ">=0"
+- category: "acct-group"
+  name: "kvm"
+  version: ">=0"

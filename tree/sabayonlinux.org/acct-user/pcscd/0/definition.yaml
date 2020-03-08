@@ -1,0 +1,14 @@
+
+category: "acct-user"
+name: "pcscd"
+version: "0"
+requires:
+- category: "acct-group"
+  name: "pcscd"
+  version: ">=0"
+- category: "acct-group"
+  name: "openct"
+  version: ">=0"
+- category: "acct-group"
+  name: "usb"
+  version: ">=0"

@@ -1,0 +1,32 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-cpp/libxmlpp-2.40.1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/libxml.*-2.6$
+- /usr/include/libxml.*-2.6/libxml.*
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libxml.*-2.6$
+- /usr/lib32/libxml.*-2.6.*
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/libxml.*-2.6.*
+- /usr/lib64$
+- /usr/lib64/libxml.*-2.6$
+- /usr/lib64/libxml.*-2.6.*
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libxml.*-2.6.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libxmlpp-2.40.1$
+- /usr/share/doc/libxmlpp-2.40.1/AUTHORS.bz2$
+- /usr/share/doc/libxmlpp-2.40.1/ChangeLog.bz2$
+- /usr/share/doc/libxmlpp-2.40.1/NEWS.bz2$
+- /usr/share/doc/libxmlpp-2.40.1/README.bz2$

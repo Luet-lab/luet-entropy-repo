@@ -1,0 +1,49 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/oniguruma-6.9.4
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/onig-config$
+- /usr/include$
+- /usr/include/oniggnu.h$
+- /usr/include/onigposix.h$
+- /usr/include/oniguruma.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libonig.so$
+- /usr/lib32/libonig.so.5$
+- /usr/lib32/libonig.so.5.0.0$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/oniguruma.pc$
+- /usr/lib64$
+- /usr/lib64/libonig.so$
+- /usr/lib64/libonig.so.5$
+- /usr/lib64/libonig.so.5.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/oniguruma.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/oniguruma-6.9.4$
+- /usr/share/doc/oniguruma-6.9.4/API.bz2$
+- /usr/share/doc/oniguruma-6.9.4/API.ja.bz2$
+- /usr/share/doc/oniguruma-6.9.4/AUTHORS$
+- /usr/share/doc/oniguruma-6.9.4/CALLOUTS.API.bz2$
+- /usr/share/doc/oniguruma-6.9.4/CALLOUTS.API.ja.bz2$
+- /usr/share/doc/oniguruma-6.9.4/CALLOUTS.BUILTIN.bz2$
+- /usr/share/doc/oniguruma-6.9.4/CALLOUTS.BUILTIN.ja.bz2$
+- /usr/share/doc/oniguruma-6.9.4/FAQ.bz2$
+- /usr/share/doc/oniguruma-6.9.4/FAQ.ja.bz2$
+- /usr/share/doc/oniguruma-6.9.4/HISTORY.bz2$
+- /usr/share/doc/oniguruma-6.9.4/RE.bz2$
+- /usr/share/doc/oniguruma-6.9.4/RE.ja.bz2$
+- /usr/share/doc/oniguruma-6.9.4/README.bz2$
+- /usr/share/doc/oniguruma-6.9.4/README_japanese.bz2$
+- /usr/share/doc/oniguruma-6.9.4/SYNTAX.md.bz2$
+- /usr/share/doc/oniguruma-6.9.4/UNICODE_PROPERTIES.bz2$

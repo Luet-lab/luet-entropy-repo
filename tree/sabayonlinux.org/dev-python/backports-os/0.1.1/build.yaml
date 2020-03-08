@@ -1,0 +1,37 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/backports-os-0.1.1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/python2.7$
+- /usr/lib64/python2.7/site-packages$
+- /usr/lib64/python2.7/site-packages/backports$
+- /usr/lib64/python2.7/site-packages/backports.os-0.1.1-py2.7.egg-info$
+- /usr/lib64/python2.7/site-packages/backports.os-0.1.1-py2.7.egg-info/PKG-INFO$
+- /usr/lib64/python2.7/site-packages/backports.os-0.1.1-py2.7.egg-info/SOURCES.txt$
+- /usr/lib64/python2.7/site-packages/backports.os-0.1.1-py2.7.egg-info/dependency_links.txt$
+- /usr/lib64/python2.7/site-packages/backports.os-0.1.1-py2.7.egg-info/requires.txt$
+- /usr/lib64/python2.7/site-packages/backports.os-0.1.1-py2.7.egg-info/top_level.txt$
+- /usr/lib64/python2.7/site-packages/backports/os.py$
+- /usr/lib64/python2.7/site-packages/backports/os.pyc$
+- /usr/lib64/python2.7/site-packages/backports/os.pyo$
+- /usr/lib64/python3.6$
+- /usr/lib64/python3.6/site-packages$
+- /usr/lib64/python3.6/site-packages/backports$
+- /usr/lib64/python3.6/site-packages/backports.os-0.1.1-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/backports.os-0.1.1-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/backports.os-0.1.1-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/backports.os-0.1.1-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/backports.os-0.1.1-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/backports/os.py$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/backports-os-0.1.1$
+- /usr/share/doc/backports-os-0.1.1/README.rst.bz2$

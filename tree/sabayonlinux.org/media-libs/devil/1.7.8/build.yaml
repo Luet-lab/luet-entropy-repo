@@ -1,0 +1,51 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/devil-1.7.8-r2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/ilur$
+- /usr/include$
+- /usr/include/IL$
+- /usr/include/IL/devil_cpp_wrapper.hpp$
+- /usr/include/IL/il.h$
+- /usr/include/IL/ilu.h$
+- /usr/include/IL/ilu_region.h$
+- /usr/include/IL/ilut.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libIL.so$
+- /usr/lib64/libIL.so.1$
+- /usr/lib64/libIL.so.1.1.0$
+- /usr/lib64/libILU.so$
+- /usr/lib64/libILU.so.1$
+- /usr/lib64/libILU.so.1.1.0$
+- /usr/lib64/libILUT.so$
+- /usr/lib64/libILUT.so.1$
+- /usr/lib64/libILUT.so.1.1.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/IL.pc$
+- /usr/lib64/pkgconfig/ILU.pc$
+- /usr/lib64/pkgconfig/ILUT.pc$
+- /usr/share$
+- /usr/share/devil$
+- /usr/share/devil/examples$
+- /usr/share/doc$
+- /usr/share/doc/devil-1.7.8-r2$
+- /usr/share/doc/devil-1.7.8-r2/AUTHORS.bz2$
+- /usr/share/doc/devil-1.7.8-r2/CREDITS.bz2$
+- /usr/share/doc/devil-1.7.8-r2/ChangeLog.bz2$
+- /usr/share/doc/devil-1.7.8-r2/NEWS.bz2$
+- /usr/share/doc/devil-1.7.8-r2/README.bz2$
+- /usr/share/doc/devil-1.7.8-r2/README.macosx.bz2$
+- /usr/share/doc/devil-1.7.8-r2/README.unix.bz2$
+- /usr/share/doc/devil-1.7.8-r2/README.win.bz2$
+- /usr/share/doc/devil-1.7.8-r2/TODO.bz2$
+- /usr/share/info$
+- /usr/share/info/DevIL_manual.info.bz2$

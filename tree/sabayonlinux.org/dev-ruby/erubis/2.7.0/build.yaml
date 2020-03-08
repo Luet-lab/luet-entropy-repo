@@ -1,0 +1,58 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/erubis-2.7.0-r2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/erubis$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/erubis-2.7.0$
+- /usr/lib64/ruby/gems/2.5.0/gems/erubis-2.7.0/bin$
+- /usr/lib64/ruby/gems/2.5.0/gems/erubis-2.7.0/bin/erubis$
+- /usr/lib64/ruby/gems/2.5.0/gems/erubis-2.7.0/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/erubis-2.7.0/lib/erubis$
+- /usr/lib64/ruby/gems/2.5.0/gems/erubis-2.7.0/lib/erubis.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/erubis-2.7.0/lib/erubis/context.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/erubis-2.7.0/lib/erubis/converter.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/erubis-2.7.0/lib/erubis/engine$
+- /usr/lib64/ruby/gems/2.5.0/gems/erubis-2.7.0/lib/erubis/engine.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/erubis-2.7.0/lib/erubis/engine/ec.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/erubis-2.7.0/lib/erubis/engine/ecpp.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/erubis-2.7.0/lib/erubis/engine/ejava.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/erubis-2.7.0/lib/erubis/engine/ejavascript.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/erubis-2.7.0/lib/erubis/engine/enhanced.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/erubis-2.7.0/lib/erubis/engine/eperl.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/erubis-2.7.0/lib/erubis/engine/ephp.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/erubis-2.7.0/lib/erubis/engine/eruby.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/erubis-2.7.0/lib/erubis/engine/escheme.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/erubis-2.7.0/lib/erubis/engine/optimized.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/erubis-2.7.0/lib/erubis/enhancer.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/erubis-2.7.0/lib/erubis/error.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/erubis-2.7.0/lib/erubis/evaluator.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/erubis-2.7.0/lib/erubis/generator.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/erubis-2.7.0/lib/erubis/helper.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/erubis-2.7.0/lib/erubis/helpers$
+- /usr/lib64/ruby/gems/2.5.0/gems/erubis-2.7.0/lib/erubis/helpers/rails_form_helper.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/erubis-2.7.0/lib/erubis/helpers/rails_helper.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/erubis-2.7.0/lib/erubis/local-setting.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/erubis-2.7.0/lib/erubis/main.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/erubis-2.7.0/lib/erubis/preprocessing.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/erubis-2.7.0/lib/erubis/tiny.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/erubis-2.7.0/lib/erubis/util.rb$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/erubis-2.7.0.gemspec$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/erubis-2.7.0-r2$
+- /usr/share/doc/erubis-2.7.0-r2/CHANGES.txt.bz2$
+- /usr/share/doc/erubis-2.7.0-r2/README.txt.bz2$

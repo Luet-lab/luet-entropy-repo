@@ -1,0 +1,24 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-dicts/myspell-mk-20091211
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/myspell-mk-20091211$
+- /usr/share/doc/myspell-mk-20091211/GPL2.txt.bz2$
+- /usr/share/doc/myspell-mk-20091211/README_mk_MK.txt.bz2$
+- /usr/share/hunspell$
+- /usr/share/hunspell/mk_MK.aff$
+- /usr/share/hunspell/mk_MK.dic$
+- /usr/share/hyphen$
+- /usr/share/myspell$
+- /usr/share/myspell/mk_MK.aff$
+- /usr/share/myspell/mk_MK.dic$
+- /usr/share/mythes$

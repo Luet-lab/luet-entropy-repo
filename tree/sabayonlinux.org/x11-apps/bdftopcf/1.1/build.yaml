@@ -1,0 +1,22 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i x11-apps/bdftopcf-1.1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/bdftopcf$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/bdftopcf-1.1$
+- /usr/share/doc/bdftopcf-1.1/AUTHORS$
+- /usr/share/doc/bdftopcf-1.1/ChangeLog.bz2$
+- /usr/share/doc/bdftopcf-1.1/README.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/bdftopcf.1.bz2$

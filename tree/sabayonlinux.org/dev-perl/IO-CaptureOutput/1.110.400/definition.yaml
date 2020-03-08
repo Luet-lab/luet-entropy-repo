@@ -1,0 +1,11 @@
+
+category: "dev-perl"
+name: "IO-CaptureOutput"
+version: "1.110.400+r1"
+requires:
+- category: "dev-lang"
+  name: "perl"
+  version: ">=5.28.2"
+- category: "perl-core"
+  name: "File-Temp"
+  version: ">=0.230.400"

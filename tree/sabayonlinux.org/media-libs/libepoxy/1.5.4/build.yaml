@@ -1,0 +1,37 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/libepoxy-1.5.4
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/epoxy$
+- /usr/include/epoxy/common.h$
+- /usr/include/epoxy/egl.h$
+- /usr/include/epoxy/egl_generated.h$
+- /usr/include/epoxy/gl.h$
+- /usr/include/epoxy/gl_generated.h$
+- /usr/include/epoxy/glx.h$
+- /usr/include/epoxy/glx_generated.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libepoxy.so$
+- /usr/lib32/libepoxy.so.0$
+- /usr/lib32/libepoxy.so.0.0.0$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/epoxy.pc$
+- /usr/lib64$
+- /usr/lib64/libepoxy.so$
+- /usr/lib64/libepoxy.so.0$
+- /usr/lib64/libepoxy.so.0.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/epoxy.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libepoxy-1.5.4$
+- /usr/share/doc/libepoxy-1.5.4/README.md.bz2$

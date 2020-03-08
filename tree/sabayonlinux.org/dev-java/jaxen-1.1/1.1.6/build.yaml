@@ -1,0 +1,16 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-java/jaxen-1.1.6-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/jaxen-1.1$
+- /usr/share/jaxen-1.1/lib$
+- /usr/share/jaxen-1.1/lib/jaxen.jar$
+- /usr/share/jaxen-1.1/package.env$

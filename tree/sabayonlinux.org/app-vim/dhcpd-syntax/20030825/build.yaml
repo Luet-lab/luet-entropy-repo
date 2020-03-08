@@ -1,0 +1,18 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-vim/dhcpd-syntax-20030825-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/vim$
+- /usr/share/vim/vimfiles$
+- /usr/share/vim/vimfiles/ftdetect$
+- /usr/share/vim/vimfiles/ftdetect/dhcpd.vim$
+- /usr/share/vim/vimfiles/syntax$
+- /usr/share/vim/vimfiles/syntax/dhcpd.vim$

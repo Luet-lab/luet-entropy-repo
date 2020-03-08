@@ -1,0 +1,31 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-fonts/cantarell-0.111
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /etc$
+- /etc/fonts$
+- /etc/fonts/conf.avail$
+- /usr$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/cantarell-0.111$
+- /usr/share/doc/cantarell-0.111/NEWS.bz2$
+- /usr/share/doc/cantarell-0.111/README.md.bz2$
+- /usr/share/fonts$
+- /usr/share/fonts/cantarell$
+- /usr/share/fonts/cantarell/Cantarell-Bold.otf$
+- /usr/share/fonts/cantarell/Cantarell-ExtraBold.otf$
+- /usr/share/fonts/cantarell/Cantarell-Light.otf$
+- /usr/share/fonts/cantarell/Cantarell-Regular.otf$
+- /usr/share/fonts/cantarell/Cantarell-Thin.otf$
+- /usr/share/fonts/cantarell/encodings.dir$
+- /usr/share/fonts/cantarell/fonts.dir$
+- /usr/share/fonts/cantarell/fonts.scale$
+- /usr/share/metainfo$
+- /usr/share/metainfo/org.gnome.cantarell.metainfo.xml$

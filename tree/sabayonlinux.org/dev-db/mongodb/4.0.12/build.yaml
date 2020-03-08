@@ -1,0 +1,55 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-db/mongodb-4.0.12
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /etc$
+- /etc/conf.d$
+- /etc/conf.d/mongodb$
+- /etc/conf.d/mongos$
+- /etc/init.d$
+- /etc/init.d/mongodb$
+- /etc/init.d/mongos$
+- /etc/logrotate.d$
+- /etc/logrotate.d/mongodb$
+- /etc/mongodb.conf$
+- /etc/mongos.conf$
+- /lib$
+- /lib/systemd$
+- /lib/systemd/system$
+- /lib/systemd/system/mongodb.service$
+- /usr$
+- /usr/bin$
+- /usr/bin/mongo$
+- /usr/bin/mongod$
+- /usr/bin/mongos$
+- /usr/lib$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/mongodb-4.0.12$
+- /usr/share/doc/mongodb-4.0.12/README.bz2$
+- /usr/share/doc/mongodb-4.0.12/building.md.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/mongo.1.bz2$
+- /usr/share/man/man1/mongod.1.bz2$
+- /usr/share/man/man1/mongodump.1.bz2$
+- /usr/share/man/man1/mongoexport.1.bz2$
+- /usr/share/man/man1/mongofiles.1.bz2$
+- /usr/share/man/man1/mongoimport.1.bz2$
+- /usr/share/man/man1/mongorestore.1.bz2$
+- /usr/share/man/man1/mongos.1.bz2$
+- /usr/share/man/man1/mongostat.1.bz2$
+- /usr/share/man/man1/mongotop.1.bz2$
+- /var$
+- /var/lib$
+- /var/lib/mongodb$
+- /var/lib/mongodb/.keep_dev-db_mongodb-0$
+- /var/log$
+- /var/log/mongodb$
+- /var/log/mongodb/.keep_dev-db_mongodb-0$

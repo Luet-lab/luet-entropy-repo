@@ -1,0 +1,43 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/libbs2b-3.1.0-r2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/bs2bconvert$
+- /usr/bin/bs2bstream$
+- /usr/include$
+- /usr/include/bs2b$
+- /usr/include/bs2b/bs2b.h$
+- /usr/include/bs2b/bs2bclass.h$
+- /usr/include/bs2b/bs2btypes.h$
+- /usr/include/bs2b/bs2bversion.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libbs2b.a$
+- /usr/lib32/libbs2b.la$
+- /usr/lib32/libbs2b.so$
+- /usr/lib32/libbs2b.so.0$
+- /usr/lib32/libbs2b.so.0.0.0$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/libbs2b.pc$
+- /usr/lib64$
+- /usr/lib64/libbs2b.a$
+- /usr/lib64/libbs2b.la$
+- /usr/lib64/libbs2b.so$
+- /usr/lib64/libbs2b.so.0$
+- /usr/lib64/libbs2b.so.0.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libbs2b.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libbs2b-3.1.0-r2$
+- /usr/share/doc/libbs2b-3.1.0-r2/AUTHORS.bz2$
+- /usr/share/doc/libbs2b-3.1.0-r2/ChangeLog.bz2$
+- /usr/share/doc/libbs2b-3.1.0-r2/README.bz2$

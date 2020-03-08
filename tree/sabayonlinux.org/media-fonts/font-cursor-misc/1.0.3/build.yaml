@@ -1,0 +1,18 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-fonts/font-cursor-misc-1.0.3-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/font-cursor-misc-1.0.3-r1$
+- /usr/share/doc/font-cursor-misc-1.0.3-r1/ChangeLog.bz2$
+- /usr/share/fonts$
+- /usr/share/fonts/misc$
+- /usr/share/fonts/misc/cursor.pcf.gz$

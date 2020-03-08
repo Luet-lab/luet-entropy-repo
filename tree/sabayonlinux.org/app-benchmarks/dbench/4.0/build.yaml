@@ -1,0 +1,25 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-benchmarks/dbench-4.0
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/dbench$
+- /usr/bin/tbench$
+- /usr/bin/tbench_srv$
+- /usr/share$
+- /usr/share/dbench$
+- /usr/share/dbench/client.txt$
+- /usr/share/doc$
+- /usr/share/doc/dbench-4.0$
+- /usr/share/doc/dbench-4.0/INSTALL.bz2$
+- /usr/share/doc/dbench-4.0/README.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/dbench.1.bz2$

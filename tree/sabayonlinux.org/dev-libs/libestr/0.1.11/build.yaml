@@ -1,0 +1,27 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/libestr-0.1.11
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/libestr.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libestr.so$
+- /usr/lib64/libestr.so.0$
+- /usr/lib64/libestr.so.0.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libestr.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libestr-0.1.11$
+- /usr/share/doc/libestr-0.1.11/AUTHORS$
+- /usr/share/doc/libestr-0.1.11/ChangeLog.bz2$
+- /usr/share/doc/libestr-0.1.11/NEWS$
+- /usr/share/doc/libestr-0.1.11/README$

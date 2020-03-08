@@ -1,0 +1,34 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i sys-libs/timezone-data-2019c
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/tzselect$
+- /usr/bin/zdump$
+- /usr/bin/zic$
+- /usr/lib$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/timezone-data-2019c$
+- /usr/share/doc/timezone-data-2019c/CONTRIBUTING.bz2$
+- /usr/share/doc/timezone-data-2019c/NEWS.bz2$
+- /usr/share/doc/timezone-data-2019c/README.bz2$
+- /usr/share/doc/timezone-data-2019c/theory.html$
+- /usr/share/doc/timezone-data-2019c/tz-art.html$
+- /usr/share/doc/timezone-data-2019c/tz-how-to.html$
+- /usr/share/doc/timezone-data-2019c/tz-link.html$
+- /usr/share/man$
+- /usr/share/man/man3$
+- /usr/share/man/man3/newctime.3.bz2$
+- /usr/share/man/man3/newtzset.3.bz2$
+- /usr/share/man/man5$
+- /usr/share/man/man8$
+- /usr/share/zoneinfo$
+- /usr/share/zoneinfo/.*

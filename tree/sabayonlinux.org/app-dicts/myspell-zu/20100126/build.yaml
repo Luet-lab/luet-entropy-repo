@@ -1,0 +1,26 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-dicts/myspell-zu-20100126
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/myspell-zu-20100126$
+- /usr/share/doc/myspell-zu-20100126/README-zu_ZA.txt.bz2$
+- /usr/share/doc/myspell-zu-20100126/VERSION-zu_ZA.txt$
+- /usr/share/doc/myspell-zu-20100126/package-description.txt$
+- /usr/share/doc/myspell-zu-20100126/release-notes-zu_ZA.txt$
+- /usr/share/hunspell$
+- /usr/share/hunspell/zu_ZA.aff$
+- /usr/share/hunspell/zu_ZA.dic$
+- /usr/share/hyphen$
+- /usr/share/myspell$
+- /usr/share/myspell/zu_ZA.aff$
+- /usr/share/myspell/zu_ZA.dic$
+- /usr/share/mythes$

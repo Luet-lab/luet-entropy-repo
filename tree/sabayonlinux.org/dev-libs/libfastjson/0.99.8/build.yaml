@@ -1,0 +1,32 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/libfastjson-0.99.8
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/libfastjson$
+- /usr/include/libfastjson/atomic.h$
+- /usr/include/libfastjson/json.h$
+- /usr/include/libfastjson/json_object.h$
+- /usr/include/libfastjson/json_object_iterator.h$
+- /usr/include/libfastjson/json_object_private.h$
+- /usr/include/libfastjson/json_tokener.h$
+- /usr/include/libfastjson/json_util.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libfastjson.so$
+- /usr/lib64/libfastjson.so.4$
+- /usr/lib64/libfastjson.so.4.2.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libfastjson.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libfastjson-0.99.8$
+- /usr/share/doc/libfastjson-0.99.8/AUTHORS.bz2$
+- /usr/share/doc/libfastjson-0.99.8/ChangeLog.bz2$

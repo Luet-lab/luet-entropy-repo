@@ -1,0 +1,26 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-dicts/aspell-ru-0.99.1-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/aspell-0.60$
+- /usr/lib64/aspell-0.60/ru-ye.multi$
+- /usr/lib64/aspell-0.60/ru-ye.rws$
+- /usr/lib64/aspell-0.60/ru-yeyo.multi$
+- /usr/lib64/aspell-0.60/ru-yo.multi$
+- /usr/lib64/aspell-0.60/ru-yo.rws$
+- /usr/lib64/aspell-0.60/ru.dat$
+- /usr/lib64/aspell-0.60/ru.multi$
+- /usr/lib64/aspell-0.60/ru_affix.dat$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/aspell-ru-0.99.1-r1$
+- /usr/share/doc/aspell-ru-0.99.1-r1/README.bz2$
+- /usr/share/doc/aspell-ru-0.99.1-r1/info.bz2$

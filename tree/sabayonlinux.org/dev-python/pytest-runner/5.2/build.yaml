@@ -1,0 +1,30 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/pytest-runner-5.2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/python3.6$
+- /usr/lib64/python3.6/site-packages$
+- /usr/lib64/python3.6/site-packages/__pycache__$
+- /usr/lib64/python3.6/site-packages/__pycache__/ptr.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/__pycache__/ptr.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/__pycache__/ptr.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/ptr.py$
+- /usr/lib64/python3.6/site-packages/pytest_runner-5.2-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/pytest_runner-5.2-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/pytest_runner-5.2-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/pytest_runner-5.2-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/pytest_runner-5.2-py3.6.egg-info/entry_points.txt$
+- /usr/lib64/python3.6/site-packages/pytest_runner-5.2-py3.6.egg-info/requires.txt$
+- /usr/lib64/python3.6/site-packages/pytest_runner-5.2-py3.6.egg-info/top_level.txt$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/pytest-runner-5.2$
+- /usr/share/doc/pytest-runner-5.2/README.rst.bz2$

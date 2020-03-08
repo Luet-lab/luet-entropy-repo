@@ -1,0 +1,14 @@
+
+category: "sys-apps"
+name: "ucspi-tcp"
+version: "0.88+r18"
+requires:
+- category: "sys-apps"
+  name: "sed"
+  version: ">=4.7"
+- category: "sys-devel"
+  name: "gettext"
+  version: ">=0.20.1"
+- category: "sys-devel"
+  name: "m4"
+  version: ">=1.4.18"

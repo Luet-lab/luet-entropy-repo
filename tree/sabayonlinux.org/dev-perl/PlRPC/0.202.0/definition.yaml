@@ -1,0 +1,11 @@
+
+category: "dev-perl"
+name: "PlRPC"
+version: "0.202.0+r3"
+requires:
+- category: "dev-lang"
+  name: "perl"
+  version: ">=5.28.2"
+- category: "dev-perl"
+  name: "Net-Daemon"
+  version: ">=0.480.0"

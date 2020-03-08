@@ -1,0 +1,21 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i net-misc/mobile-broadband-provider-info-20190618
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/mobile-broadband-provider-info-20190618$
+- /usr/share/doc/mobile-broadband-provider-info-20190618/README.bz2$
+- /usr/share/mobile-broadband-provider-info$
+- /usr/share/mobile-broadband-provider-info/apns-conf.xml$
+- /usr/share/mobile-broadband-provider-info/serviceproviders.2.dtd$
+- /usr/share/mobile-broadband-provider-info/serviceproviders.xml$
+- /usr/share/pkgconfig$
+- /usr/share/pkgconfig/mobile-broadband-provider-info.pc$

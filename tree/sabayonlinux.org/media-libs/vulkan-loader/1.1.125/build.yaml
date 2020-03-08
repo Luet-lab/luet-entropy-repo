@@ -1,0 +1,32 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/vulkan-loader-1.1.125
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /etc$
+- /etc/vulkan$
+- /etc/vulkan/icd.d$
+- /etc/vulkan/icd.d/.keep_media-libs_vulkan-loader-0$
+- /usr$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libvulkan.so$
+- /usr/lib32/libvulkan.so.1$
+- /usr/lib32/libvulkan.so.1.1.125$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/vulkan.pc$
+- /usr/lib64$
+- /usr/lib64/libvulkan.so$
+- /usr/lib64/libvulkan.so.1$
+- /usr/lib64/libvulkan.so.1.1.125$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/vulkan.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/vulkan-loader-1.1.125$
+- /usr/share/doc/vulkan-loader-1.1.125/README.md.bz2$

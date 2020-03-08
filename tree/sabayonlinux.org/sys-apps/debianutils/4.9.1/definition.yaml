@@ -6,3 +6,6 @@ requires:
 - category: "sys-kernel"
   name: "installkernel-gentoo"
   version: ">=2"
+- category: "sys-apps"
+  name: "systemd"
+  version: ">=242"

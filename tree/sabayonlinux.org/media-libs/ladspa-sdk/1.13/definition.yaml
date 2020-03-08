@@ -1,0 +1,11 @@
+
+category: "media-libs"
+name: "ladspa-sdk"
+version: "1.13+r2"
+requires:
+- category: "sys-apps"
+  name: "sed"
+  version: ">=4.7"
+- category: "sys-devel"
+  name: "gettext"
+  version: ">=0.20.1"

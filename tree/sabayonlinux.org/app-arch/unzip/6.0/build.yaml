@@ -1,0 +1,33 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-arch/unzip-6.0_p25
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/funzip$
+- /usr/bin/unzip$
+- /usr/bin/unzipsfx$
+- /usr/bin/zipgrep$
+- /usr/bin/zipinfo$
+- /usr/lib$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/unzip-6.0_p25$
+- /usr/share/doc/unzip-6.0_p25/BUGS.bz2$
+- /usr/share/doc/unzip-6.0_p25/History.600.bz2$
+- /usr/share/doc/unzip-6.0_p25/README.bz2$
+- /usr/share/doc/unzip-6.0_p25/ToDo.bz2$
+- /usr/share/doc/unzip-6.0_p25/WHERE.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/funzip.1.bz2$
+- /usr/share/man/man1/unzip.1.bz2$
+- /usr/share/man/man1/unzipsfx.1.bz2$
+- /usr/share/man/man1/zipgrep.1.bz2$
+- /usr/share/man/man1/zipinfo.1.bz2$

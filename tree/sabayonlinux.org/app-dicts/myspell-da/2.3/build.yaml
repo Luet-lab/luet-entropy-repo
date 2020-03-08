@@ -1,0 +1,28 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-dicts/myspell-da-2.3
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/myspell-da-2.3$
+- /usr/share/doc/myspell-da-2.3/HYPH_da_DK_README.txt.bz2$
+- /usr/share/doc/myspell-da-2.3/README_da_DK.txt.bz2$
+- /usr/share/doc/myspell-da-2.3/desc_da_DK.txt.bz2$
+- /usr/share/doc/myspell-da-2.3/desc_en_US.txt.bz2$
+- /usr/share/hunspell$
+- /usr/share/hunspell/da_DK.aff$
+- /usr/share/hunspell/da_DK.dic$
+- /usr/share/hyphen$
+- /usr/share/hyphen/hyph_da_DK.dic$
+- /usr/share/myspell$
+- /usr/share/myspell/da_DK.aff$
+- /usr/share/myspell/da_DK.dic$
+- /usr/share/myspell/hyph_da_DK.dic$
+- /usr/share/mythes$

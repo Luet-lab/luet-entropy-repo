@@ -1,0 +1,88 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i net-misc/connman-1.37
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /etc$
+- /etc/conf.d$
+- /etc/conf.d/connman$
+- /etc/init.d$
+- /etc/init.d/connman$
+- /lib$
+- /lib/systemd$
+- /lib/systemd/system$
+- /lib/systemd/system/connman-wait-online.service$
+- /lib/systemd/system/connman.service$
+- /usr$
+- /usr/bin$
+- /usr/bin/connmanctl$
+- /usr/include$
+- /usr/include/connman$
+- /usr/include/connman/acd.h$
+- /usr/include/connman/agent.h$
+- /usr/include/connman/device.h$
+- /usr/include/connman/inet.h$
+- /usr/include/connman/inotify.h$
+- /usr/include/connman/ipaddress.h$
+- /usr/include/connman/ipconfig.h$
+- /usr/include/connman/log.h$
+- /usr/include/connman/machine.h$
+- /usr/include/connman/network.h$
+- /usr/include/connman/notifier.h$
+- /usr/include/connman/peer.h$
+- /usr/include/connman/plugin.h$
+- /usr/include/connman/provision.h$
+- /usr/include/connman/resolver.h$
+- /usr/include/connman/service.h$
+- /usr/include/connman/session.h$
+- /usr/include/connman/storage.h$
+- /usr/include/connman/tethering.h$
+- /usr/include/connman/version.h$
+- /usr/lib$
+- /usr/lib/connman$
+- /usr/lib/connman/scripts$
+- /usr/lib/connman/scripts/.keep_net-misc_connman-0$
+- /usr/lib/tmpfiles.d$
+- /usr/lib/tmpfiles.d/connman_resolvconf.conf$
+- /usr/lib64$
+- /usr/lib64/connman$
+- /usr/lib64/connman/scripts$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/connman.pc$
+- /usr/sbin$
+- /usr/sbin/connmand$
+- /usr/sbin/connmand-wait-online$
+- /usr/share$
+- /usr/share/dbus-1$
+- /usr/share/dbus-1/system.d$
+- /usr/share/dbus-1/system.d/connman-nmcompat.conf$
+- /usr/share/dbus-1/system.d/connman.conf$
+- /usr/share/doc$
+- /usr/share/doc/connman-1.37$
+- /usr/share/doc/connman-1.37/AUTHORS.bz2$
+- /usr/share/doc/connman-1.37/ChangeLog.bz2$
+- /usr/share/doc/connman-1.37/README.bz2$
+- /usr/share/doc/connman-1.37/TODO.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/connmanctl.1.bz2$
+- /usr/share/man/man5$
+- /usr/share/man/man5/connman-service.config.5.bz2$
+- /usr/share/man/man5/connman-vpn-provider.config.5.bz2$
+- /usr/share/man/man5/connman-vpn.conf.5.bz2$
+- /usr/share/man/man5/connman.conf.5.bz2$
+- /usr/share/man/man8$
+- /usr/share/man/man8/connman-vpn.8.bz2$
+- /usr/share/man/man8/connman.8.bz2$
+- /usr/share/polkit-1$
+- /usr/share/polkit-1/actions$
+- /usr/share/polkit-1/actions/net.connman.policy$
+- /var$
+- /var/lib$
+- /var/lib/connman$
+- /var/lib/connman/.keep_net-misc_connman-0$

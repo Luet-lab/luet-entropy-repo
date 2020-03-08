@@ -1,0 +1,43 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-emacs/ocaml-mode-4.00.1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/ocaml-mode-4.00.1$
+- /usr/share/doc/ocaml-mode-4.00.1/README.bz2$
+- /usr/share/doc/ocaml-mode-4.00.1/README.itz.bz2$
+- /usr/share/emacs$
+- /usr/share/emacs/site-lisp$
+- /usr/share/emacs/site-lisp/ocaml-mode$
+- /usr/share/emacs/site-lisp/ocaml-mode/caml-compat.el$
+- /usr/share/emacs/site-lisp/ocaml-mode/caml-compat.elc$
+- /usr/share/emacs/site-lisp/ocaml-mode/caml-emacs.el$
+- /usr/share/emacs/site-lisp/ocaml-mode/caml-emacs.elc$
+- /usr/share/emacs/site-lisp/ocaml-mode/caml-font-old.el$
+- /usr/share/emacs/site-lisp/ocaml-mode/caml-font-old.elc$
+- /usr/share/emacs/site-lisp/ocaml-mode/caml-font.el$
+- /usr/share/emacs/site-lisp/ocaml-mode/caml-font.elc$
+- /usr/share/emacs/site-lisp/ocaml-mode/caml-help.el$
+- /usr/share/emacs/site-lisp/ocaml-mode/caml-help.elc$
+- /usr/share/emacs/site-lisp/ocaml-mode/caml-hilit.el$
+- /usr/share/emacs/site-lisp/ocaml-mode/caml-hilit.elc$
+- /usr/share/emacs/site-lisp/ocaml-mode/caml-types.el$
+- /usr/share/emacs/site-lisp/ocaml-mode/caml-types.elc$
+- /usr/share/emacs/site-lisp/ocaml-mode/caml-xemacs.el$
+- /usr/share/emacs/site-lisp/ocaml-mode/caml-xemacs.elc$
+- /usr/share/emacs/site-lisp/ocaml-mode/caml.el$
+- /usr/share/emacs/site-lisp/ocaml-mode/caml.elc$
+- /usr/share/emacs/site-lisp/ocaml-mode/camldebug.el$
+- /usr/share/emacs/site-lisp/ocaml-mode/camldebug.elc$
+- /usr/share/emacs/site-lisp/ocaml-mode/inf-caml.el$
+- /usr/share/emacs/site-lisp/ocaml-mode/inf-caml.elc$
+- /usr/share/emacs/site-lisp/site-gentoo.d$
+- /usr/share/emacs/site-lisp/site-gentoo.d/50ocaml-mode-gentoo.el$

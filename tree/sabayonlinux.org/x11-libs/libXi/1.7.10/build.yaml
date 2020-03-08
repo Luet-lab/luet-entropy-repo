@@ -1,0 +1,34 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i x11-libs/libXi-1.7.10
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/X11$
+- /usr/include/X11/extensions$
+- /usr/include/X11/extensions/XInput.h$
+- /usr/include/X11/extensions/XInput2.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libXi.so$
+- /usr/lib32/libXi.so.6$
+- /usr/lib32/libXi.so.6.1.0$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/xi.pc$
+- /usr/lib64$
+- /usr/lib64/libXi.so$
+- /usr/lib64/libXi.so.6$
+- /usr/lib64/libXi.so.6.1.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/xi.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libXi-1.7.10$
+- /usr/share/doc/libXi-1.7.10/ChangeLog.bz2$
+- /usr/share/doc/libXi-1.7.10/README.md.bz2$

@@ -1,0 +1,50 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/ladspa-sdk-1.13-r2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /etc$
+- /etc/env.d$
+- /etc/env.d/60ladspa$
+- /usr$
+- /usr/bin$
+- /usr/bin/analyseplugin$
+- /usr/bin/applyplugin$
+- /usr/bin/listplugins$
+- /usr/include$
+- /usr/include/ladspa.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/ladspa$
+- /usr/lib32/ladspa/amp.so$
+- /usr/lib32/ladspa/delay.so$
+- /usr/lib32/ladspa/filter.so$
+- /usr/lib32/ladspa/noise.so$
+- /usr/lib32/ladspa/sine.so$
+- /usr/lib64$
+- /usr/lib64/ladspa$
+- /usr/lib64/ladspa/amp.so$
+- /usr/lib64/ladspa/delay.so$
+- /usr/lib64/ladspa/filter.so$
+- /usr/lib64/ladspa/noise.so$
+- /usr/lib64/ladspa/sine.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/ladspa-sdk-1.13-r2$
+- /usr/share/doc/ladspa-sdk-1.13-r2/README.bz2$
+- /usr/share/doc/ladspa-sdk-1.13-r2/html$
+- /usr/share/doc/ladspa-sdk-1.13-r2/html/background.html$
+- /usr/share/doc/ladspa-sdk-1.13-r2/html/changes.html$
+- /usr/share/doc/ladspa-sdk-1.13-r2/html/download.html$
+- /usr/share/doc/ladspa-sdk-1.13-r2/html/example_plugins.html$
+- /usr/share/doc/ladspa-sdk-1.13-r2/html/index.html$
+- /usr/share/doc/ladspa-sdk-1.13-r2/html/installation.html$
+- /usr/share/doc/ladspa-sdk-1.13-r2/html/license.html$
+- /usr/share/doc/ladspa-sdk-1.13-r2/html/overview.html$
+- /usr/share/doc/ladspa-sdk-1.13-r2/html/shared_plugins.html$
+- /usr/share/doc/ladspa-sdk-1.13-r2/html/unique_ids.html$

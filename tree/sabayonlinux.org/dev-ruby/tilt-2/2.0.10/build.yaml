@@ -1,0 +1,70 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/tilt-2.0.10
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/tilt$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/tilt-2.0.10$
+- /usr/lib64/ruby/gems/2.5.0/gems/tilt-2.0.10/bin$
+- /usr/lib64/ruby/gems/2.5.0/gems/tilt-2.0.10/bin/tilt$
+- /usr/lib64/ruby/gems/2.5.0/gems/tilt-2.0.10/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/tilt-2.0.10/lib/tilt$
+- /usr/lib64/ruby/gems/2.5.0/gems/tilt-2.0.10/lib/tilt.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tilt-2.0.10/lib/tilt/asciidoc.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tilt-2.0.10/lib/tilt/babel.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tilt-2.0.10/lib/tilt/bluecloth.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tilt-2.0.10/lib/tilt/builder.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tilt-2.0.10/lib/tilt/coffee.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tilt-2.0.10/lib/tilt/commonmarker.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tilt-2.0.10/lib/tilt/creole.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tilt-2.0.10/lib/tilt/csv.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tilt-2.0.10/lib/tilt/dummy.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tilt-2.0.10/lib/tilt/erb.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tilt-2.0.10/lib/tilt/erubi.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tilt-2.0.10/lib/tilt/erubis.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tilt-2.0.10/lib/tilt/etanni.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tilt-2.0.10/lib/tilt/haml.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tilt-2.0.10/lib/tilt/kramdown.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tilt-2.0.10/lib/tilt/less.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tilt-2.0.10/lib/tilt/liquid.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tilt-2.0.10/lib/tilt/livescript.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tilt-2.0.10/lib/tilt/mapping.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tilt-2.0.10/lib/tilt/markaby.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tilt-2.0.10/lib/tilt/maruku.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tilt-2.0.10/lib/tilt/nokogiri.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tilt-2.0.10/lib/tilt/pandoc.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tilt-2.0.10/lib/tilt/plain.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tilt-2.0.10/lib/tilt/prawn.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tilt-2.0.10/lib/tilt/radius.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tilt-2.0.10/lib/tilt/rdiscount.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tilt-2.0.10/lib/tilt/rdoc.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tilt-2.0.10/lib/tilt/redcarpet.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tilt-2.0.10/lib/tilt/redcloth.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tilt-2.0.10/lib/tilt/rst-pandoc.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tilt-2.0.10/lib/tilt/sass.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tilt-2.0.10/lib/tilt/sigil.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tilt-2.0.10/lib/tilt/string.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tilt-2.0.10/lib/tilt/template.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tilt-2.0.10/lib/tilt/typescript.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tilt-2.0.10/lib/tilt/wikicloth.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tilt-2.0.10/lib/tilt/yajl.rb$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/tilt-2.0.10.gemspec$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/tilt-2.0.10$
+- /usr/share/doc/tilt-2.0.10/CHANGELOG.md.bz2$
+- /usr/share/doc/tilt-2.0.10/README.md.bz2$
+- /usr/share/doc/tilt-2.0.10/TEMPLATES.md.bz2$

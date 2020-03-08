@@ -1,0 +1,29 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-dicts/myspell-ro-3.3.10
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/myspell-ro-3.3.10$
+- /usr/share/doc/myspell-ro-3.3.10/README.bz2$
+- /usr/share/hunspell$
+- /usr/share/hunspell/ro_RO.aff$
+- /usr/share/hunspell/ro_RO.dic$
+- /usr/share/hyphen$
+- /usr/share/hyphen/hyph_ro_RO.dic$
+- /usr/share/myspell$
+- /usr/share/myspell/hyph_ro_RO.dic$
+- /usr/share/myspell/ro_RO.aff$
+- /usr/share/myspell/ro_RO.dic$
+- /usr/share/myspell/th_ro_RO.dat$
+- /usr/share/myspell/th_ro_RO.idx$
+- /usr/share/mythes$
+- /usr/share/mythes/th_ro_RO.dat$
+- /usr/share/mythes/th_ro_RO.idx$

@@ -2,7 +2,11 @@
 steps:
 - source /etc/profile && equo up
 - source /etc/profile && ACCEPT_LICENSE=* equo i sys-devel/base-gcc-8.2.0-r6
-image: "sabayon/base"
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
 includes:
 - /etc$
 - /etc/env.d$
@@ -98,4 +102,9 @@ includes:
 - /usr/share/gcc-data/x86_64-pc-linux-gnu/8.2.0/info/libgomp.info$
 - /usr/share/gcc-data/x86_64-pc-linux-gnu/8.2.0/info/libquadmath.info$
 - /usr/share/gcc-data/x86_64-pc-linux-gnu/8.2.0/locale$
-- /usr/share/gcc-data/x86_64-pc-linux-gnu/8.2.0/locale/.*
+- /usr/share/gcc-data/x86_64-pc-linux-gnu/8.2.0/locale/de$
+- /usr/share/gcc-data/x86_64-pc-linux-gnu/8.2.0/locale/de/LC_MESSAGES$
+- /usr/share/gcc-data/x86_64-pc-linux-gnu/8.2.0/locale/de/LC_MESSAGES/libstdc.*
+- /usr/share/gcc-data/x86_64-pc-linux-gnu/8.2.0/locale/fr$
+- /usr/share/gcc-data/x86_64-pc-linux-gnu/8.2.0/locale/fr/LC_MESSAGES$
+- /usr/share/gcc-data/x86_64-pc-linux-gnu/8.2.0/locale/fr/LC_MESSAGES/libstdc.*

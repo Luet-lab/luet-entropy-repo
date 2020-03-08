@@ -1,0 +1,54 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/libcdio-paranoia-2.0.1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/libcdio-paranoia$
+- /usr/include$
+- /usr/include/cdio$
+- /usr/include/cdio/paranoia$
+- /usr/include/cdio/paranoia/cdda.h$
+- /usr/include/cdio/paranoia/paranoia.h$
+- /usr/include/cdio/paranoia/toc.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libcdio_cdda.so$
+- /usr/lib32/libcdio_cdda.so.2$
+- /usr/lib32/libcdio_cdda.so.2.0.0$
+- /usr/lib32/libcdio_paranoia.so$
+- /usr/lib32/libcdio_paranoia.so.2$
+- /usr/lib32/libcdio_paranoia.so.2.0.0$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/libcdio_cdda.pc$
+- /usr/lib32/pkgconfig/libcdio_paranoia.pc$
+- /usr/lib64$
+- /usr/lib64/libcdio_cdda.so$
+- /usr/lib64/libcdio_cdda.so.2$
+- /usr/lib64/libcdio_cdda.so.2.0.0$
+- /usr/lib64/libcdio_paranoia.so$
+- /usr/lib64/libcdio_paranoia.so.2$
+- /usr/lib64/libcdio_paranoia.so.2.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libcdio_cdda.pc$
+- /usr/lib64/pkgconfig/libcdio_paranoia.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libcdio-paranoia-2.0.1$
+- /usr/share/doc/libcdio-paranoia-2.0.1/AUTHORS.bz2$
+- /usr/share/doc/libcdio-paranoia-2.0.1/ChangeLog.bz2$
+- /usr/share/doc/libcdio-paranoia-2.0.1/NEWS.md.bz2$
+- /usr/share/doc/libcdio-paranoia-2.0.1/README.md.bz2$
+- /usr/share/doc/libcdio-paranoia-2.0.1/THANKS.bz2$
+- /usr/share/man$
+- /usr/share/man/jp$
+- /usr/share/man/jp/man1$
+- /usr/share/man/jp/man1/libcdio-paranoia.1.bz2$
+- /usr/share/man/man1$
+- /usr/share/man/man1/libcdio-paranoia.1.bz2$

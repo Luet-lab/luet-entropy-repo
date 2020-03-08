@@ -1,0 +1,74 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/ttfunk-1.5.1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/ttfunk-1.5.1$
+- /usr/lib64/ruby/gems/2.5.0/gems/ttfunk-1.5.1/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/ttfunk-1.5.1/lib/ttfunk$
+- /usr/lib64/ruby/gems/2.5.0/gems/ttfunk-1.5.1/lib/ttfunk.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/ttfunk-1.5.1/lib/ttfunk/collection.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/ttfunk-1.5.1/lib/ttfunk/directory.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/ttfunk-1.5.1/lib/ttfunk/encoding$
+- /usr/lib64/ruby/gems/2.5.0/gems/ttfunk-1.5.1/lib/ttfunk/encoding/mac_roman.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/ttfunk-1.5.1/lib/ttfunk/encoding/windows_1252.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/ttfunk-1.5.1/lib/ttfunk/reader.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/ttfunk-1.5.1/lib/ttfunk/resource_file.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/ttfunk-1.5.1/lib/ttfunk/subset$
+- /usr/lib64/ruby/gems/2.5.0/gems/ttfunk-1.5.1/lib/ttfunk/subset.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/ttfunk-1.5.1/lib/ttfunk/subset/base.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/ttfunk-1.5.1/lib/ttfunk/subset/mac_roman.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/ttfunk-1.5.1/lib/ttfunk/subset/unicode.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/ttfunk-1.5.1/lib/ttfunk/subset/unicode_8bit.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/ttfunk-1.5.1/lib/ttfunk/subset/windows_1252.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/ttfunk-1.5.1/lib/ttfunk/subset_collection.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/ttfunk-1.5.1/lib/ttfunk/table$
+- /usr/lib64/ruby/gems/2.5.0/gems/ttfunk-1.5.1/lib/ttfunk/table.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/ttfunk-1.5.1/lib/ttfunk/table/cmap$
+- /usr/lib64/ruby/gems/2.5.0/gems/ttfunk-1.5.1/lib/ttfunk/table/cmap.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/ttfunk-1.5.1/lib/ttfunk/table/cmap/format00.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/ttfunk-1.5.1/lib/ttfunk/table/cmap/format04.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/ttfunk-1.5.1/lib/ttfunk/table/cmap/format06.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/ttfunk-1.5.1/lib/ttfunk/table/cmap/format10.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/ttfunk-1.5.1/lib/ttfunk/table/cmap/format12.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/ttfunk-1.5.1/lib/ttfunk/table/cmap/subtable.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/ttfunk-1.5.1/lib/ttfunk/table/glyf$
+- /usr/lib64/ruby/gems/2.5.0/gems/ttfunk-1.5.1/lib/ttfunk/table/glyf.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/ttfunk-1.5.1/lib/ttfunk/table/glyf/compound.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/ttfunk-1.5.1/lib/ttfunk/table/glyf/simple.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/ttfunk-1.5.1/lib/ttfunk/table/head.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/ttfunk-1.5.1/lib/ttfunk/table/hhea.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/ttfunk-1.5.1/lib/ttfunk/table/hmtx.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/ttfunk-1.5.1/lib/ttfunk/table/kern$
+- /usr/lib64/ruby/gems/2.5.0/gems/ttfunk-1.5.1/lib/ttfunk/table/kern.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/ttfunk-1.5.1/lib/ttfunk/table/kern/format0.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/ttfunk-1.5.1/lib/ttfunk/table/loca.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/ttfunk-1.5.1/lib/ttfunk/table/maxp.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/ttfunk-1.5.1/lib/ttfunk/table/name.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/ttfunk-1.5.1/lib/ttfunk/table/os2.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/ttfunk-1.5.1/lib/ttfunk/table/post$
+- /usr/lib64/ruby/gems/2.5.0/gems/ttfunk-1.5.1/lib/ttfunk/table/post.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/ttfunk-1.5.1/lib/ttfunk/table/post/format10.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/ttfunk-1.5.1/lib/ttfunk/table/post/format20.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/ttfunk-1.5.1/lib/ttfunk/table/post/format30.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/ttfunk-1.5.1/lib/ttfunk/table/post/format40.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/ttfunk-1.5.1/lib/ttfunk/table/sbix.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/ttfunk-1.5.1/lib/ttfunk/table/simple.rb$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/ttfunk-1.5.1.gemspec$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/ttfunk-1.5.1$
+- /usr/share/doc/ttfunk-1.5.1/CHANGELOG.md.bz2$
+- /usr/share/doc/ttfunk-1.5.1/README.md.bz2$

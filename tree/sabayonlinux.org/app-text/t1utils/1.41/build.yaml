@@ -1,0 +1,32 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-text/t1utils-1.41-r2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/t1ascii$
+- /usr/bin/t1asm$
+- /usr/bin/t1binary$
+- /usr/bin/t1disasm$
+- /usr/bin/t1mac$
+- /usr/bin/t1unmac$
+- /usr/lib$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/t1utils-1.41-r2$
+- /usr/share/doc/t1utils-1.41-r2/NEWS.md.bz2$
+- /usr/share/doc/t1utils-1.41-r2/README.md.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/t1ascii.1.bz2$
+- /usr/share/man/man1/t1asm.1.bz2$
+- /usr/share/man/man1/t1binary.1.bz2$
+- /usr/share/man/man1/t1disasm.1.bz2$
+- /usr/share/man/man1/t1mac.1.bz2$
+- /usr/share/man/man1/t1unmac.1.bz2$

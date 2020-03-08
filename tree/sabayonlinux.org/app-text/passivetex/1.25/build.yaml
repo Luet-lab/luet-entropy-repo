@@ -1,0 +1,29 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-text/passivetex-1.25
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/passivetex-1.25$
+- /usr/share/doc/passivetex-1.25/README.passivetex.bz2$
+- /usr/share/doc/passivetex-1.25/html$
+- /usr/share/doc/passivetex-1.25/html/index.html$
+- /usr/share/doc/passivetex-1.25/index.xml.bz2$
+- /usr/share/texmf-site$
+- /usr/share/texmf-site/tex$
+- /usr/share/texmf-site/tex/xmltex$
+- /usr/share/texmf-site/tex/xmltex/passivetex$
+- /usr/share/texmf-site/tex/xmltex/passivetex/dummyels.sty$
+- /usr/share/texmf-site/tex/xmltex/passivetex/fotex.sty$
+- /usr/share/texmf-site/tex/xmltex/passivetex/fotex.xmt$
+- /usr/share/texmf-site/tex/xmltex/passivetex/mlnames.sty$
+- /usr/share/texmf-site/tex/xmltex/passivetex/nomulticol.sty$
+- /usr/share/texmf-site/tex/xmltex/passivetex/ucharacters.sty$
+- /usr/share/texmf-site/tex/xmltex/passivetex/unicode.sty$

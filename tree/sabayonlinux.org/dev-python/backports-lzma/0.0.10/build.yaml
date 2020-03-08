@@ -1,0 +1,26 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/backports-lzma-0.0.10
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/python2.7$
+- /usr/lib64/python2.7/site-packages$
+- /usr/lib64/python2.7/site-packages/backports$
+- /usr/lib64/python2.7/site-packages/backports.lzma-0.0.10-py2.7.egg-info$
+- /usr/lib64/python2.7/site-packages/backports/lzma$
+- /usr/lib64/python2.7/site-packages/backports/lzma/__init__.py$
+- /usr/lib64/python2.7/site-packages/backports/lzma/__init__.pyc$
+- /usr/lib64/python2.7/site-packages/backports/lzma/__init__.pyo$
+- /usr/lib64/python2.7/site-packages/backports/lzma/_lzma.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/backports-lzma-0.0.10$
+- /usr/share/doc/backports-lzma-0.0.10/README.rst.bz2$

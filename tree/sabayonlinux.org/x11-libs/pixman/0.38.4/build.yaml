@@ -1,0 +1,32 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i x11-libs/pixman-0.38.4
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/pixman-1$
+- /usr/include/pixman-1/pixman-version.h$
+- /usr/include/pixman-1/pixman.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libpixman-1.so$
+- /usr/lib32/libpixman-1.so.0$
+- /usr/lib32/libpixman-1.so.0.38.4$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/pixman-1.pc$
+- /usr/lib64$
+- /usr/lib64/libpixman-1.so$
+- /usr/lib64/libpixman-1.so.0$
+- /usr/lib64/libpixman-1.so.0.38.4$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/pixman-1.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/pixman-0.38.4$
+- /usr/share/doc/pixman-0.38.4/README.bz2$

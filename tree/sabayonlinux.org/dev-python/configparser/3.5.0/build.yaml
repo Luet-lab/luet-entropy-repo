@@ -1,0 +1,36 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/configparser-3.5.0-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/python2.7$
+- /usr/lib64/python2.7/site-packages$
+- /usr/lib64/python2.7/site-packages/backports$
+- /usr/lib64/python2.7/site-packages/backports/configparser$
+- /usr/lib64/python2.7/site-packages/backports/configparser/__init__.py$
+- /usr/lib64/python2.7/site-packages/backports/configparser/__init__.pyc$
+- /usr/lib64/python2.7/site-packages/backports/configparser/__init__.pyo$
+- /usr/lib64/python2.7/site-packages/backports/configparser/helpers.py$
+- /usr/lib64/python2.7/site-packages/backports/configparser/helpers.pyc$
+- /usr/lib64/python2.7/site-packages/backports/configparser/helpers.pyo$
+- /usr/lib64/python2.7/site-packages/configparser-3.5.0-py2.7.egg-info$
+- /usr/lib64/python2.7/site-packages/configparser-3.5.0-py2.7.egg-info/PKG-INFO$
+- /usr/lib64/python2.7/site-packages/configparser-3.5.0-py2.7.egg-info/SOURCES.txt$
+- /usr/lib64/python2.7/site-packages/configparser-3.5.0-py2.7.egg-info/dependency_links.txt$
+- /usr/lib64/python2.7/site-packages/configparser-3.5.0-py2.7.egg-info/namespace_packages.txt$
+- /usr/lib64/python2.7/site-packages/configparser-3.5.0-py2.7.egg-info/not-zip-safe$
+- /usr/lib64/python2.7/site-packages/configparser-3.5.0-py2.7.egg-info/top_level.txt$
+- /usr/lib64/python2.7/site-packages/configparser.py$
+- /usr/lib64/python2.7/site-packages/configparser.pyc$
+- /usr/lib64/python2.7/site-packages/configparser.pyo$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/configparser-3.5.0-r1$
+- /usr/share/doc/configparser-3.5.0-r1/README.rst.bz2$

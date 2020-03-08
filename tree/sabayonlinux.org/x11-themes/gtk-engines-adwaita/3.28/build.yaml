@@ -1,0 +1,28 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i x11-themes/gtk-engines-adwaita-3.28
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/gtk-2.0$
+- /usr/lib32/gtk-2.0/2.10.0$
+- /usr/lib32/gtk-2.0/2.10.0/engines$
+- /usr/lib32/gtk-2.0/2.10.0/engines/libadwaita.so$
+- /usr/lib64$
+- /usr/lib64/gtk-2.0$
+- /usr/lib64/gtk-2.0/2.10.0$
+- /usr/lib64/gtk-2.0/2.10.0/engines$
+- /usr/lib64/gtk-2.0/2.10.0/engines/libadwaita.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/gtk-engines-adwaita-3.28$
+- /usr/share/doc/gtk-engines-adwaita-3.28/ChangeLog.bz2$
+- /usr/share/doc/gtk-engines-adwaita-3.28/NEWS.bz2$
+- /usr/share/doc/gtk-engines-adwaita-3.28/README.md.bz2$

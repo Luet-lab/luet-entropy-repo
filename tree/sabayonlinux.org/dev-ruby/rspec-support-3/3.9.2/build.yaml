@@ -1,0 +1,60 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/rspec-support-3.9.2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-support-3.9.2$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-support-3.9.2/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-support-3.9.2/lib/rspec$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-support-3.9.2/lib/rspec/support$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-support-3.9.2/lib/rspec/support.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-support-3.9.2/lib/rspec/support/caller_filter.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-support-3.9.2/lib/rspec/support/comparable_version.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-support-3.9.2/lib/rspec/support/differ.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-support-3.9.2/lib/rspec/support/directory_maker.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-support-3.9.2/lib/rspec/support/encoded_string.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-support-3.9.2/lib/rspec/support/fuzzy_matcher.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-support-3.9.2/lib/rspec/support/hunk_generator.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-support-3.9.2/lib/rspec/support/matcher_definition.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-support-3.9.2/lib/rspec/support/method_signature_verifier.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-support-3.9.2/lib/rspec/support/mutex.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-support-3.9.2/lib/rspec/support/object_formatter.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-support-3.9.2/lib/rspec/support/recursive_const_methods.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-support-3.9.2/lib/rspec/support/reentrant_mutex.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-support-3.9.2/lib/rspec/support/ruby_features.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-support-3.9.2/lib/rspec/support/source$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-support-3.9.2/lib/rspec/support/source.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-support-3.9.2/lib/rspec/support/source/location.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-support-3.9.2/lib/rspec/support/source/node.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-support-3.9.2/lib/rspec/support/source/token.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-support-3.9.2/lib/rspec/support/spec$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-support-3.9.2/lib/rspec/support/spec.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-support-3.9.2/lib/rspec/support/spec/deprecation_helpers.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-support-3.9.2/lib/rspec/support/spec/formatting_support.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-support-3.9.2/lib/rspec/support/spec/in_sub_process.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-support-3.9.2/lib/rspec/support/spec/library_wide_checks.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-support-3.9.2/lib/rspec/support/spec/shell_out.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-support-3.9.2/lib/rspec/support/spec/stderr_splitter.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-support-3.9.2/lib/rspec/support/spec/string_matcher.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-support-3.9.2/lib/rspec/support/spec/with_isolated_directory.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-support-3.9.2/lib/rspec/support/spec/with_isolated_stderr.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-support-3.9.2/lib/rspec/support/version.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rspec-support-3.9.2/lib/rspec/support/warnings.rb$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/rspec-support-3.9.2.gemspec$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/rspec-support-3.9.2$
+- /usr/share/doc/rspec-support-3.9.2/Changelog.md.bz2$
+- /usr/share/doc/rspec-support-3.9.2/README.md.bz2$

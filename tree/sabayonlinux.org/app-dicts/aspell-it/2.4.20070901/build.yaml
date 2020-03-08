@@ -1,0 +1,24 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-dicts/aspell-it-2.4.20070901
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/aspell-0.60$
+- /usr/lib64/aspell-0.60/it.dat$
+- /usr/lib64/aspell-0.60/it.multi$
+- /usr/lib64/aspell-0.60/it.rws$
+- /usr/lib64/aspell-0.60/it_affix.dat$
+- /usr/lib64/aspell-0.60/italian.alias$
+- /usr/lib64/aspell-0.60/italiano.alias$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/aspell-it-2.4.20070901$
+- /usr/share/doc/aspell-it-2.4.20070901/README.bz2$
+- /usr/share/doc/aspell-it-2.4.20070901/info.bz2$

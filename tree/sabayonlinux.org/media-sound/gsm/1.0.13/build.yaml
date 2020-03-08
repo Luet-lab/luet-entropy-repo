@@ -1,0 +1,46 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-sound/gsm-1.0.13-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/tcat$
+- /usr/bin/toast$
+- /usr/bin/untoast$
+- /usr/include$
+- /usr/include/gsm$
+- /usr/include/gsm/gsm.h$
+- /usr/include/libgsm$
+- /usr/include/libgsm/gsm.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libgsm.a$
+- /usr/lib32/libgsm.so$
+- /usr/lib32/libgsm.so.1$
+- /usr/lib32/libgsm.so.1.0.13$
+- /usr/lib64$
+- /usr/lib64/libgsm.a$
+- /usr/lib64/libgsm.so$
+- /usr/lib64/libgsm.so.1$
+- /usr/lib64/libgsm.so.1.0.13$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/gsm-1.0.13-r1$
+- /usr/share/doc/gsm-1.0.13-r1/ChangeLog.bz2$
+- /usr/share/doc/gsm-1.0.13-r1/MACHINES.bz2$
+- /usr/share/doc/gsm-1.0.13-r1/MANIFEST.bz2$
+- /usr/share/doc/gsm-1.0.13-r1/README.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/toast.1.bz2$
+- /usr/share/man/man3$
+- /usr/share/man/man3/gsm.3.bz2$
+- /usr/share/man/man3/gsm_explode.3.bz2$
+- /usr/share/man/man3/gsm_option.3.bz2$
+- /usr/share/man/man3/gsm_print.3.bz2$

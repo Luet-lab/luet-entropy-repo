@@ -1,0 +1,41 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/mime-types-3.3.1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/mime-types-3.3.1$
+- /usr/lib64/ruby/gems/2.5.0/gems/mime-types-3.3.1/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/mime-types-3.3.1/lib/mime$
+- /usr/lib64/ruby/gems/2.5.0/gems/mime-types-3.3.1/lib/mime-types.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/mime-types-3.3.1/lib/mime/type$
+- /usr/lib64/ruby/gems/2.5.0/gems/mime-types-3.3.1/lib/mime/type.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/mime-types-3.3.1/lib/mime/type/columnar.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/mime-types-3.3.1/lib/mime/types$
+- /usr/lib64/ruby/gems/2.5.0/gems/mime-types-3.3.1/lib/mime/types.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/mime-types-3.3.1/lib/mime/types/_columnar.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/mime-types-3.3.1/lib/mime/types/cache.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/mime-types-3.3.1/lib/mime/types/columnar.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/mime-types-3.3.1/lib/mime/types/container.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/mime-types-3.3.1/lib/mime/types/deprecations.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/mime-types-3.3.1/lib/mime/types/full.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/mime-types-3.3.1/lib/mime/types/loader.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/mime-types-3.3.1/lib/mime/types/logger.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/mime-types-3.3.1/lib/mime/types/registry.rb$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/mime-types-3.3.1.gemspec$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/mime-types-3.3.1$
+- /usr/share/doc/mime-types-3.3.1/History.md.bz2$
+- /usr/share/doc/mime-types-3.3.1/README.rdoc.bz2$

@@ -1,0 +1,14 @@
+
+category: "dev-perl"
+name: "ExtUtils-InstallPaths"
+version: "0.11.0"
+requires:
+- category: "dev-lang"
+  name: "perl"
+  version: ">=5.28.2"
+- category: "dev-perl"
+  name: "ExtUtils-Config"
+  version: ">=0.8.0"
+- category: "perl-core"
+  name: "File-Temp"
+  version: ">=0.230.400"

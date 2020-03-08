@@ -1,0 +1,19 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-eselect/eselect-infinality-1.1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/eselect-infinality-1.1$
+- /usr/share/doc/eselect-infinality-1.1/README.gentoo$
+- /usr/share/doc/eselect-infinality-1.1/README.rst.bz2$
+- /usr/share/eselect$
+- /usr/share/eselect/modules$
+- /usr/share/eselect/modules/infinality.eselect$

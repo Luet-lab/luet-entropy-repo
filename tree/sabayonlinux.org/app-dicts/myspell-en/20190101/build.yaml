@@ -1,0 +1,57 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-dicts/myspell-en-20190101
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/myspell-en-20190101$
+- /usr/share/doc/myspell-en-20190101/README.txt.bz2$
+- /usr/share/doc/myspell-en-20190101/README_en_AU.txt.bz2$
+- /usr/share/doc/myspell-en-20190101/README_en_CA.txt.bz2$
+- /usr/share/doc/myspell-en-20190101/README_en_GB.txt.bz2$
+- /usr/share/doc/myspell-en-20190101/README_en_GB_thes.txt$
+- /usr/share/doc/myspell-en-20190101/README_en_US.txt.bz2$
+- /usr/share/doc/myspell-en-20190101/README_en_ZA.txt.bz2$
+- /usr/share/doc/myspell-en-20190101/README_hyph_en_GB.txt.bz2$
+- /usr/share/doc/myspell-en-20190101/README_hyph_en_US.txt.bz2$
+- /usr/share/doc/myspell-en-20190101/WordNet_license.txt.bz2$
+- /usr/share/doc/myspell-en-20190101/affDescription.txt.bz2$
+- /usr/share/doc/myspell-en-20190101/changelog.txt.bz2$
+- /usr/share/doc/myspell-en-20190101/package-description.txt.bz2$
+- /usr/share/hunspell$
+- /usr/share/hunspell/en_AU.aff$
+- /usr/share/hunspell/en_AU.dic$
+- /usr/share/hunspell/en_CA.aff$
+- /usr/share/hunspell/en_CA.dic$
+- /usr/share/hunspell/en_GB.aff$
+- /usr/share/hunspell/en_GB.dic$
+- /usr/share/hunspell/en_US.aff$
+- /usr/share/hunspell/en_US.dic$
+- /usr/share/hunspell/en_ZA.aff$
+- /usr/share/hunspell/en_ZA.dic$
+- /usr/share/hyphen$
+- /usr/share/hyphen/hyph_en_GB.dic$
+- /usr/share/myspell$
+- /usr/share/myspell/en_AU.aff$
+- /usr/share/myspell/en_AU.dic$
+- /usr/share/myspell/en_CA.aff$
+- /usr/share/myspell/en_CA.dic$
+- /usr/share/myspell/en_GB.aff$
+- /usr/share/myspell/en_GB.dic$
+- /usr/share/myspell/en_US.aff$
+- /usr/share/myspell/en_US.dic$
+- /usr/share/myspell/en_ZA.aff$
+- /usr/share/myspell/en_ZA.dic$
+- /usr/share/myspell/hyph_en_GB.dic$
+- /usr/share/myspell/th_en_US_v2.dat$
+- /usr/share/myspell/th_en_US_v2.idx$
+- /usr/share/mythes$
+- /usr/share/mythes/th_en_US_v2.dat$
+- /usr/share/mythes/th_en_US_v2.idx$

@@ -1,0 +1,26 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/libtommath-1.1.0
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/tommath.h$
+- /usr/include/tommath_class.h$
+- /usr/include/tommath_superclass.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libtommath.so$
+- /usr/lib64/libtommath.so.1$
+- /usr/lib64/libtommath.so.1.1.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libtommath.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libtommath-1.1.0$
+- /usr/share/doc/libtommath-1.1.0/changes.txt.bz2$

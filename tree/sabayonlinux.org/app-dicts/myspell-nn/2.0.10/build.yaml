@@ -1,0 +1,38 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-dicts/myspell-nn-2.0.10
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/myspell-nn-2.0.10$
+- /usr/share/doc/myspell-nn-2.0.10/README.bz2$
+- /usr/share/doc/myspell-nn-2.0.10/README_hyph_nb_NO.txt.bz2$
+- /usr/share/doc/myspell-nn-2.0.10/README_hyph_nn_NO.txt.bz2$
+- /usr/share/doc/myspell-nn-2.0.10/README_nb_NO.txt.bz2$
+- /usr/share/doc/myspell-nn-2.0.10/README_nn_NO.txt.bz2$
+- /usr/share/doc/myspell-nn-2.0.10/README_th_nb_NO_v2.txt.bz2$
+- /usr/share/doc/myspell-nn-2.0.10/README_th_nn_NO_v2.txt.bz2$
+- /usr/share/doc/myspell-nn-2.0.10/hyph.txt.bz2$
+- /usr/share/doc/myspell-nn-2.0.10/spell.txt.bz2$
+- /usr/share/doc/myspell-nn-2.0.10/thes2.txt.bz2$
+- /usr/share/hunspell$
+- /usr/share/hunspell/nn_NO.aff$
+- /usr/share/hunspell/nn_NO.dic$
+- /usr/share/hyphen$
+- /usr/share/hyphen/hyph_nn_NO.dic$
+- /usr/share/myspell$
+- /usr/share/myspell/hyph_nn_NO.dic$
+- /usr/share/myspell/nn_NO.aff$
+- /usr/share/myspell/nn_NO.dic$
+- /usr/share/myspell/th_nn_NO_v2.dat$
+- /usr/share/myspell/th_nn_NO_v2.idx$
+- /usr/share/mythes$
+- /usr/share/mythes/th_nn_NO_v2.dat$
+- /usr/share/mythes/th_nn_NO_v2.idx$

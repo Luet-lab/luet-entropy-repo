@@ -1,0 +1,14 @@
+
+category: "dev-perl"
+name: "Authen-SASL"
+version: "2.160.0+r1"
+requires:
+- category: "dev-perl"
+  name: "Digest-HMAC"
+  version: ">=1.30.0"
+- category: "dev-lang"
+  name: "perl"
+  version: ">=5.28.2"
+- category: "dev-perl"
+  name: "GSSAPI"
+  version: ">=0.280.0"

@@ -1,0 +1,28 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/lasi-1.1.2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/LASi.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libLASi.so$
+- /usr/lib64/libLASi.so.1$
+- /usr/lib64/libLASi.so.1.0.1$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/lasi.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/lasi-1.1.2$
+- /usr/share/doc/lasi-1.1.2/AUTHORS.bz2$
+- /usr/share/doc/lasi-1.1.2/NEWS.bz2$
+- /usr/share/doc/lasi-1.1.2/README.Release_Manager_Cookbook.bz2$
+- /usr/share/doc/lasi-1.1.2/README.bz2$
+- /usr/share/doc/lasi-1.1.2/README.release.bz2$

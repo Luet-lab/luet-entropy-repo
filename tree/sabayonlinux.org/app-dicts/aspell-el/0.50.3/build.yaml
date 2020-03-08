@@ -1,0 +1,23 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-dicts/aspell-el-0.50.3
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/aspell-0.60$
+- /usr/lib64/aspell-0.60/el.dat$
+- /usr/lib64/aspell-0.60/el.multi$
+- /usr/lib64/aspell-0.60/el.rws$
+- /usr/lib64/aspell-0.60/el_phonet.dat$
+- /usr/lib64/aspell-0.60/greek.alias$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/aspell-el-0.50.3$
+- /usr/share/doc/aspell-el-0.50.3/README.bz2$
+- /usr/share/doc/aspell-el-0.50.3/info.bz2$

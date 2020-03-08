@@ -1,0 +1,22 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-dicts/aspell-hr-0.51.0
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/aspell-0.60$
+- /usr/lib64/aspell-0.60/croatian.alias$
+- /usr/lib64/aspell-0.60/hr.dat$
+- /usr/lib64/aspell-0.60/hr.multi$
+- /usr/lib64/aspell-0.60/hr.rws$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/aspell-hr-0.51.0$
+- /usr/share/doc/aspell-hr-0.51.0/README.bz2$
+- /usr/share/doc/aspell-hr-0.51.0/info.bz2$

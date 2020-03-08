@@ -1,0 +1,24 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i net-dialup/ppp-scripts-0
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /etc$
+- /etc/ppp$
+- /etc/ppp/ip-down$
+- /etc/ppp/ip-down.d$
+- /etc/ppp/ip-down.d/30-wins.sh$
+- /etc/ppp/ip-down.d/40-dns.sh$
+- /etc/ppp/ip-down.d/50-initd.sh$
+- /etc/ppp/ip-up$
+- /etc/ppp/ip-up.d$
+- /etc/ppp/ip-up.d/30-wins.sh$
+- /etc/ppp/ip-up.d/40-dns.sh$
+- /etc/ppp/ip-up.d/50-initd.sh$
+- /etc/ppp/ipv6-down$
+- /etc/ppp/ipv6-up$

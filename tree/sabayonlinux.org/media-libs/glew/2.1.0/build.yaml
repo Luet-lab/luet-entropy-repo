@@ -1,0 +1,37 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/glew-2.1.0-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/glewinfo$
+- /usr/bin/visualinfo$
+- /usr/include$
+- /usr/include/GL$
+- /usr/include/GL/eglew.h$
+- /usr/include/GL/glew.h$
+- /usr/include/GL/glxew.h$
+- /usr/include/GL/wglew.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libGLEW.so$
+- /usr/lib32/libGLEW.so.2.1$
+- /usr/lib32/libGLEW.so.2.1.0$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/glew.pc$
+- /usr/lib64$
+- /usr/lib64/libGLEW.so$
+- /usr/lib64/libGLEW.so.2.1$
+- /usr/lib64/libGLEW.so.2.1.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/glew.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/glew-2.1.0-r1$
+- /usr/share/doc/glew-2.1.0-r1/README.md.bz2$

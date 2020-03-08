@@ -1,0 +1,38 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i x11-libs/pangox-compat-0.0.2-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /etc$
+- /etc/pango$
+- /etc/pango/pangox.aliases$
+- /usr$
+- /usr/include$
+- /usr/include/pango-1.0$
+- /usr/include/pango-1.0/pango$
+- /usr/include/pango-1.0/pango/pangox.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libpangox-1.0.so$
+- /usr/lib32/libpangox-1.0.so.0$
+- /usr/lib32/libpangox-1.0.so.0.0.0$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/pangox.pc$
+- /usr/lib64$
+- /usr/lib64/libpangox-1.0.so$
+- /usr/lib64/libpangox-1.0.so.0$
+- /usr/lib64/libpangox-1.0.so.0.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/pangox.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/pangox-compat-0.0.2-r1$
+- /usr/share/doc/pangox-compat-0.0.2-r1/AUTHORS$
+- /usr/share/doc/pangox-compat-0.0.2-r1/ChangeLog.bz2$
+- /usr/share/doc/pangox-compat-0.0.2-r1/NEWS$
+- /usr/share/doc/pangox-compat-0.0.2-r1/README.bz2$

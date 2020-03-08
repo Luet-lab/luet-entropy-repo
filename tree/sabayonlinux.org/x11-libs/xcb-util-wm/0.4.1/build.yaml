@@ -1,0 +1,42 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i x11-libs/xcb-util-wm-0.4.1-r2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/xcb$
+- /usr/include/xcb/xcb_ewmh.h$
+- /usr/include/xcb/xcb_icccm.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libxcb-ewmh.so$
+- /usr/lib32/libxcb-ewmh.so.2$
+- /usr/lib32/libxcb-ewmh.so.2.0.0$
+- /usr/lib32/libxcb-icccm.so$
+- /usr/lib32/libxcb-icccm.so.4$
+- /usr/lib32/libxcb-icccm.so.4.0.0$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/xcb-ewmh.pc$
+- /usr/lib32/pkgconfig/xcb-icccm.pc$
+- /usr/lib64$
+- /usr/lib64/libxcb-ewmh.so$
+- /usr/lib64/libxcb-ewmh.so.2$
+- /usr/lib64/libxcb-ewmh.so.2.0.0$
+- /usr/lib64/libxcb-icccm.so$
+- /usr/lib64/libxcb-icccm.so.4$
+- /usr/lib64/libxcb-icccm.so.4.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/xcb-ewmh.pc$
+- /usr/lib64/pkgconfig/xcb-icccm.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/xcb-util-wm-0.4.1-r2$
+- /usr/share/doc/xcb-util-wm-0.4.1-r2/ChangeLog.bz2$
+- /usr/share/doc/xcb-util-wm-0.4.1-r2/NEWS.bz2$
+- /usr/share/doc/xcb-util-wm-0.4.1-r2/README.bz2$

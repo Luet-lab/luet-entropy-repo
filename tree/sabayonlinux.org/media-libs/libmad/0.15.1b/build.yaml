@@ -1,0 +1,38 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/libmad-0.15.1b-r9
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/i686-pc-linux-gnu$
+- /usr/include/i686-pc-linux-gnu/mad.h$
+- /usr/include/mad.h$
+- /usr/include/x86_64-pc-linux-gnu$
+- /usr/include/x86_64-pc-linux-gnu/mad.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libmad.so$
+- /usr/lib32/libmad.so.0$
+- /usr/lib32/libmad.so.0.2.1$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/mad.pc$
+- /usr/lib64$
+- /usr/lib64/libmad.so$
+- /usr/lib64/libmad.so.0$
+- /usr/lib64/libmad.so.0.2.1$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/mad.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libmad-0.15.1b-r9$
+- /usr/share/doc/libmad-0.15.1b-r9/CHANGES.bz2$
+- /usr/share/doc/libmad-0.15.1b-r9/CREDITS.bz2$
+- /usr/share/doc/libmad-0.15.1b-r9/README.bz2$
+- /usr/share/doc/libmad-0.15.1b-r9/TODO.bz2$
+- /usr/share/doc/libmad-0.15.1b-r9/VERSION$

@@ -1,0 +1,26 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-qt/linguist-tools-5.14.1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/cmake$
+- /usr/lib64/cmake/Qt5LinguistTools$
+- /usr/lib64/cmake/Qt5LinguistTools/Qt5LinguistToolsConfig.cmake$
+- /usr/lib64/cmake/Qt5LinguistTools/Qt5LinguistToolsConfigVersion.cmake$
+- /usr/lib64/cmake/Qt5LinguistTools/Qt5LinguistToolsMacros.cmake$
+- /usr/lib64/qt5$
+- /usr/lib64/qt5/bin$
+- /usr/lib64/qt5/bin/lconvert$
+- /usr/lib64/qt5/bin/lprodump$
+- /usr/lib64/qt5/bin/lrelease$
+- /usr/lib64/qt5/bin/lrelease-pro$
+- /usr/lib64/qt5/bin/lupdate$
+- /usr/lib64/qt5/bin/lupdate-pro$

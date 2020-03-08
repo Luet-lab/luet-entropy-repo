@@ -1,0 +1,40 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-eselect/eselect-lcdfilter-2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/eselect-lcdfilter-2$
+- /usr/share/doc/eselect-lcdfilter-2/README.gentoo.bz2$
+- /usr/share/doc/eselect-lcdfilter-2/README.rst.bz2$
+- /usr/share/doc/eselect-lcdfilter-2/infinality-settings.sh.bz2$
+- /usr/share/eselect$
+- /usr/share/eselect-lcdfilter$
+- /usr/share/eselect-lcdfilter/env.d$
+- /usr/share/eselect-lcdfilter/env.d/custom$
+- /usr/share/eselect-lcdfilter/env.d/default$
+- /usr/share/eselect-lcdfilter/env.d/infinality$
+- /usr/share/eselect-lcdfilter/env.d/infinality-classic$
+- /usr/share/eselect-lcdfilter/env.d/infinality-nudge$
+- /usr/share/eselect-lcdfilter/env.d/infinality-push$
+- /usr/share/eselect-lcdfilter/env.d/infinality-sharpened$
+- /usr/share/eselect-lcdfilter/env.d/infinality-shove$
+- /usr/share/eselect-lcdfilter/env.d/ipad$
+- /usr/share/eselect-lcdfilter/env.d/linux$
+- /usr/share/eselect-lcdfilter/env.d/nyx$
+- /usr/share/eselect-lcdfilter/env.d/osx$
+- /usr/share/eselect-lcdfilter/env.d/ubuntu$
+- /usr/share/eselect-lcdfilter/env.d/vanilla$
+- /usr/share/eselect-lcdfilter/env.d/windows-7$
+- /usr/share/eselect-lcdfilter/env.d/windows-7-light$
+- /usr/share/eselect-lcdfilter/env.d/windows-xp$
+- /usr/share/eselect-lcdfilter/env.d/windows-xp-light$
+- /usr/share/eselect/modules$
+- /usr/share/eselect/modules/lcdfilter.eselect$

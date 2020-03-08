@@ -1,0 +1,62 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/zope-event-4.3.0
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/python2.7$
+- /usr/lib64/python2.7/site-packages$
+- /usr/lib64/python2.7/site-packages/zope$
+- /usr/lib64/python2.7/site-packages/zope.event-4.3.0-py2.7.egg-info$
+- /usr/lib64/python2.7/site-packages/zope.event-4.3.0-py2.7.egg-info/PKG-INFO$
+- /usr/lib64/python2.7/site-packages/zope.event-4.3.0-py2.7.egg-info/SOURCES.txt$
+- /usr/lib64/python2.7/site-packages/zope.event-4.3.0-py2.7.egg-info/dependency_links.txt$
+- /usr/lib64/python2.7/site-packages/zope.event-4.3.0-py2.7.egg-info/namespace_packages.txt$
+- /usr/lib64/python2.7/site-packages/zope.event-4.3.0-py2.7.egg-info/not-zip-safe$
+- /usr/lib64/python2.7/site-packages/zope.event-4.3.0-py2.7.egg-info/requires.txt$
+- /usr/lib64/python2.7/site-packages/zope.event-4.3.0-py2.7.egg-info/top_level.txt$
+- /usr/lib64/python2.7/site-packages/zope/event$
+- /usr/lib64/python2.7/site-packages/zope/event/__init__.py$
+- /usr/lib64/python2.7/site-packages/zope/event/__init__.pyc$
+- /usr/lib64/python2.7/site-packages/zope/event/__init__.pyo$
+- /usr/lib64/python2.7/site-packages/zope/event/classhandler.py$
+- /usr/lib64/python2.7/site-packages/zope/event/classhandler.pyc$
+- /usr/lib64/python2.7/site-packages/zope/event/classhandler.pyo$
+- /usr/lib64/python2.7/site-packages/zope/event/tests.py$
+- /usr/lib64/python2.7/site-packages/zope/event/tests.pyc$
+- /usr/lib64/python2.7/site-packages/zope/event/tests.pyo$
+- /usr/lib64/python3.6$
+- /usr/lib64/python3.6/site-packages$
+- /usr/lib64/python3.6/site-packages/zope$
+- /usr/lib64/python3.6/site-packages/zope.event-4.3.0-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/zope.event-4.3.0-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/zope.event-4.3.0-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/zope.event-4.3.0-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/zope.event-4.3.0-py3.6.egg-info/namespace_packages.txt$
+- /usr/lib64/python3.6/site-packages/zope.event-4.3.0-py3.6.egg-info/not-zip-safe$
+- /usr/lib64/python3.6/site-packages/zope.event-4.3.0-py3.6.egg-info/requires.txt$
+- /usr/lib64/python3.6/site-packages/zope.event-4.3.0-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/zope/event$
+- /usr/lib64/python3.6/site-packages/zope/event/__init__.py$
+- /usr/lib64/python3.6/site-packages/zope/event/__pycache__$
+- /usr/lib64/python3.6/site-packages/zope/event/__pycache__/__init__.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/zope/event/__pycache__/__init__.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/zope/event/__pycache__/__init__.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/zope/event/__pycache__/classhandler.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/zope/event/__pycache__/classhandler.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/zope/event/__pycache__/classhandler.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/zope/event/__pycache__/tests.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/zope/event/__pycache__/tests.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/zope/event/__pycache__/tests.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/zope/event/classhandler.py$
+- /usr/lib64/python3.6/site-packages/zope/event/tests.py$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/zope-event-4.3.0$
+- /usr/share/doc/zope-event-4.3.0/README.rst.bz2$

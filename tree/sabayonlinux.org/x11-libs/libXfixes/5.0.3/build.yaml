@@ -1,0 +1,37 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i x11-libs/libXfixes-5.0.3-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/X11$
+- /usr/include/X11/extensions$
+- /usr/include/X11/extensions/Xfixes.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libXfixes.so$
+- /usr/lib32/libXfixes.so.3$
+- /usr/lib32/libXfixes.so.3.1.0$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/xfixes.pc$
+- /usr/lib64$
+- /usr/lib64/libXfixes.so$
+- /usr/lib64/libXfixes.so.3$
+- /usr/lib64/libXfixes.so.3.1.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/xfixes.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libXfixes-5.0.3-r1$
+- /usr/share/doc/libXfixes-5.0.3-r1/AUTHORS$
+- /usr/share/doc/libXfixes-5.0.3-r1/ChangeLog.bz2$
+- /usr/share/doc/libXfixes-5.0.3-r1/README.bz2$
+- /usr/share/man$
+- /usr/share/man/man3$
+- /usr/share/man/man3/Xfixes.3.bz2$

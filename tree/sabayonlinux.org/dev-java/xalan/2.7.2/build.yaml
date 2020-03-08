@@ -1,0 +1,22 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-java/xalan-2.7.2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/xalan$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/xalan-2.7.2$
+- /usr/share/doc/xalan-2.7.2/NOTICE.txt.bz2$
+- /usr/share/doc/xalan-2.7.2/readme.html$
+- /usr/share/xalan$
+- /usr/share/xalan/lib$
+- /usr/share/xalan/lib/xalan.jar$
+- /usr/share/xalan/package.env$

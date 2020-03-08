@@ -1,0 +1,63 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-qt/qtnetworkauth-5.14.1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/qt5$
+- /usr/include/qt5/QtNetworkAuth$
+- /usr/include/qt5/QtNetworkAuth/5.14.1$
+- /usr/include/qt5/QtNetworkAuth/5.14.1/QtNetworkAuth$
+- /usr/include/qt5/QtNetworkAuth/5.14.1/QtNetworkAuth/private$
+- /usr/include/qt5/QtNetworkAuth/5.14.1/QtNetworkAuth/private/qabstractoauth2_p.h$
+- /usr/include/qt5/QtNetworkAuth/5.14.1/QtNetworkAuth/private/qabstractoauth_p.h$
+- /usr/include/qt5/QtNetworkAuth/5.14.1/QtNetworkAuth/private/qabstractoauthreplyhandler_p.h$
+- /usr/include/qt5/QtNetworkAuth/5.14.1/QtNetworkAuth/private/qoauth1_p.h$
+- /usr/include/qt5/QtNetworkAuth/5.14.1/QtNetworkAuth/private/qoauth1signature_p.h$
+- /usr/include/qt5/QtNetworkAuth/5.14.1/QtNetworkAuth/private/qoauth2authorizationcodeflow_p.h$
+- /usr/include/qt5/QtNetworkAuth/5.14.1/QtNetworkAuth/private/qoauthhttpserverreplyhandler_p.h$
+- /usr/include/qt5/QtNetworkAuth/QAbstractOAuth$
+- /usr/include/qt5/QtNetworkAuth/QAbstractOAuth2$
+- /usr/include/qt5/QtNetworkAuth/QAbstractOAuthReplyHandler$
+- /usr/include/qt5/QtNetworkAuth/QOAuth1$
+- /usr/include/qt5/QtNetworkAuth/QOAuth1Signature$
+- /usr/include/qt5/QtNetworkAuth/QOAuth2AuthorizationCodeFlow$
+- /usr/include/qt5/QtNetworkAuth/QOAuthHttpServerReplyHandler$
+- /usr/include/qt5/QtNetworkAuth/QOAuthOobReplyHandler$
+- /usr/include/qt5/QtNetworkAuth/QtNetworkAuth$
+- /usr/include/qt5/QtNetworkAuth/QtNetworkAuthDepends$
+- /usr/include/qt5/QtNetworkAuth/QtNetworkAuthVersion$
+- /usr/include/qt5/QtNetworkAuth/qabstractoauth.h$
+- /usr/include/qt5/QtNetworkAuth/qabstractoauth2.h$
+- /usr/include/qt5/QtNetworkAuth/qabstractoauthreplyhandler.h$
+- /usr/include/qt5/QtNetworkAuth/qoauth1.h$
+- /usr/include/qt5/QtNetworkAuth/qoauth1signature.h$
+- /usr/include/qt5/QtNetworkAuth/qoauth2authorizationcodeflow.h$
+- /usr/include/qt5/QtNetworkAuth/qoauthglobal.h$
+- /usr/include/qt5/QtNetworkAuth/qoauthhttpserverreplyhandler.h$
+- /usr/include/qt5/QtNetworkAuth/qoauthoobreplyhandler.h$
+- /usr/include/qt5/QtNetworkAuth/qtnetworkauthversion.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/cmake$
+- /usr/lib64/cmake/Qt5NetworkAuth$
+- /usr/lib64/cmake/Qt5NetworkAuth/Qt5NetworkAuthConfig.cmake$
+- /usr/lib64/cmake/Qt5NetworkAuth/Qt5NetworkAuthConfigVersion.cmake$
+- /usr/lib64/libQt5NetworkAuth.prl$
+- /usr/lib64/libQt5NetworkAuth.so$
+- /usr/lib64/libQt5NetworkAuth.so.5$
+- /usr/lib64/libQt5NetworkAuth.so.5.14$
+- /usr/lib64/libQt5NetworkAuth.so.5.14.1$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/Qt5NetworkAuth.pc$
+- /usr/lib64/qt5$
+- /usr/lib64/qt5/mkspecs$
+- /usr/lib64/qt5/mkspecs/modules$
+- /usr/lib64/qt5/mkspecs/modules/qt_lib_networkauth.pri$
+- /usr/lib64/qt5/mkspecs/modules/qt_lib_networkauth_private.pri$

@@ -1,0 +1,22 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-admin/mongo-tools-4.2.1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/bsondump$
+- /usr/bin/mongodump$
+- /usr/bin/mongoexport$
+- /usr/bin/mongofiles$
+- /usr/bin/mongoimport$
+- /usr/bin/mongoreplay$
+- /usr/bin/mongorestore$
+- /usr/bin/mongostat$
+- /usr/bin/mongotop$
+- /usr/lib$

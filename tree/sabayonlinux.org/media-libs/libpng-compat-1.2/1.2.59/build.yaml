@@ -1,0 +1,16 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/libpng-compat-1.2.59
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libpng12.so.0$
+- /usr/lib64$
+- /usr/lib64/libpng12.so.0$

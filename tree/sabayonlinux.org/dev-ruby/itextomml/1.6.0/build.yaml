@@ -1,0 +1,28 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/itextomml-1.6.0
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/itextomml-1.6.0$
+- /usr/lib64/ruby/gems/2.5.0/gems/itextomml-1.6.0/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/itextomml-1.6.0/lib/itex2MML.so$
+- /usr/lib64/ruby/gems/2.5.0/gems/itextomml-1.6.0/lib/itex_stringsupport.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/itextomml-1.6.0/lib/itextomml.rb$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/itextomml-1.6.0.gemspec$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/itextomml-1.6.0$
+- /usr/share/doc/itextomml-1.6.0/README.bz2$

@@ -1,0 +1,22 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-util/ninja-1.8.2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/ninja$
+- /usr/lib$
+- /usr/share$
+- /usr/share/bash-completion$
+- /usr/share/bash-completion/completions$
+- /usr/share/bash-completion/completions/ninja$
+- /usr/share/doc$
+- /usr/share/doc/ninja-1.8.2$
+- /usr/share/doc/ninja-1.8.2/HACKING.md.bz2$
+- /usr/share/doc/ninja-1.8.2/README.bz2$

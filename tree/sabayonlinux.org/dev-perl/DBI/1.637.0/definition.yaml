@@ -1,0 +1,14 @@
+
+category: "dev-perl"
+name: "DBI"
+version: "1.637.0"
+requires:
+- category: "dev-perl"
+  name: "PlRPC"
+  version: ">=0.202.0"
+- category: "dev-perl"
+  name: "Net-Daemon"
+  version: ">=0.480.0"
+- category: "dev-lang"
+  name: "perl"
+  version: ">=5.28.2"

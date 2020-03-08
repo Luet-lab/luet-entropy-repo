@@ -1,0 +1,25 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-arch/zopfli-1.0.2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/zopfli$
+- /usr/bin/zopflipng$
+- /usr/include$
+- /usr/include/zopfli.h$
+- /usr/include/zopflipng_lib.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libzopfli.so$
+- /usr/lib64/libzopfli.so.1$
+- /usr/lib64/libzopfli.so.1.0.2$
+- /usr/lib64/libzopflipng.so$
+- /usr/lib64/libzopflipng.so.1$
+- /usr/lib64/libzopflipng.so.1.0.2$

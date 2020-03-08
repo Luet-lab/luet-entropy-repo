@@ -1,0 +1,18 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-java/resin-servlet-api-4.0.46
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/resin-servlet-api-3.1$
+- /usr/share/resin-servlet-api-3.1/lib$
+- /usr/share/resin-servlet-api-3.1/lib/jsp-api.jar$
+- /usr/share/resin-servlet-api-3.1/lib/resin-servlet-api.jar$
+- /usr/share/resin-servlet-api-3.1/lib/servlet-api.jar$
+- /usr/share/resin-servlet-api-3.1/package.env$

@@ -1,0 +1,33 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/prawn-table-0.2.2-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/prawn-table-0.2.2$
+- /usr/lib64/ruby/gems/2.5.0/gems/prawn-table-0.2.2/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/prawn-table-0.2.2/lib/prawn$
+- /usr/lib64/ruby/gems/2.5.0/gems/prawn-table-0.2.2/lib/prawn/table$
+- /usr/lib64/ruby/gems/2.5.0/gems/prawn-table-0.2.2/lib/prawn/table.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/prawn-table-0.2.2/lib/prawn/table/cell$
+- /usr/lib64/ruby/gems/2.5.0/gems/prawn-table-0.2.2/lib/prawn/table/cell.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/prawn-table-0.2.2/lib/prawn/table/cell/image.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/prawn-table-0.2.2/lib/prawn/table/cell/in_table.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/prawn-table-0.2.2/lib/prawn/table/cell/span_dummy.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/prawn-table-0.2.2/lib/prawn/table/cell/subtable.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/prawn-table-0.2.2/lib/prawn/table/cell/text.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/prawn-table-0.2.2/lib/prawn/table/cells.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/prawn-table-0.2.2/lib/prawn/table/column_width_calculator.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/prawn-table-0.2.2/lib/prawn/table/version.rb$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/prawn-table-0.2.2.gemspec$

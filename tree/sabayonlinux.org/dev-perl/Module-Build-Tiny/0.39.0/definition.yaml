@@ -1,0 +1,17 @@
+
+category: "dev-perl"
+name: "Module-Build-Tiny"
+version: "0.39.0"
+requires:
+- category: "dev-lang"
+  name: "perl"
+  version: ">=5.28.2"
+- category: "dev-perl"
+  name: "ExtUtils-Config"
+  version: ">=0.8.0"
+- category: "dev-perl"
+  name: "ExtUtils-Helpers"
+  version: ">=0.26.0"
+- category: "dev-perl"
+  name: "ExtUtils-InstallPaths"
+  version: ">=0.11.0"

@@ -1,0 +1,24 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-dicts/aspell-fo-0.51.0
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/aspell-0.60$
+- /usr/lib64/aspell-0.60/faroese.alias$
+- /usr/lib64/aspell-0.60/fo.dat$
+- /usr/lib64/aspell-0.60/fo.multi$
+- /usr/lib64/aspell-0.60/fo.rws$
+- /usr/lib64/aspell-0.60/fo_phonet.dat$
+- /usr/lib64/aspell-0.60/fï¿½royskt.alias$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/aspell-fo-0.51.0$
+- /usr/share/doc/aspell-fo-0.51.0/README.bz2$
+- /usr/share/doc/aspell-fo-0.51.0/info.bz2$

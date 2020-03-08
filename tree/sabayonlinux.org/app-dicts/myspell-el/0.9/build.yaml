@@ -1,0 +1,26 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-dicts/myspell-el-0.9
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/myspell-el-0.9$
+- /usr/share/doc/myspell-el-0.9/README_el_GR.txt.bz2$
+- /usr/share/doc/myspell-el-0.9/README_hyph_el.txt.bz2$
+- /usr/share/hunspell$
+- /usr/share/hunspell/el_GR.aff$
+- /usr/share/hunspell/el_GR.dic$
+- /usr/share/hyphen$
+- /usr/share/hyphen/hyph_el.dic$
+- /usr/share/myspell$
+- /usr/share/myspell/el_GR.aff$
+- /usr/share/myspell/el_GR.dic$
+- /usr/share/myspell/hyph_el.dic$
+- /usr/share/mythes$

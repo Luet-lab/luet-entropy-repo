@@ -1,0 +1,44 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/gherkin-5.1.0
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/gherkin-5.1.0$
+- /usr/lib64/ruby/gems/2.5.0/gems/gherkin-5.1.0/bin$
+- /usr/lib64/ruby/gems/2.5.0/gems/gherkin-5.1.0/bin/gherkin$
+- /usr/lib64/ruby/gems/2.5.0/gems/gherkin-5.1.0/bin/gherkin-ruby$
+- /usr/lib64/ruby/gems/2.5.0/gems/gherkin-5.1.0/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/gherkin-5.1.0/lib/gherkin$
+- /usr/lib64/ruby/gems/2.5.0/gems/gherkin-5.1.0/lib/gherkin/ast_builder.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/gherkin-5.1.0/lib/gherkin/ast_node.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/gherkin-5.1.0/lib/gherkin/dialect.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/gherkin-5.1.0/lib/gherkin/errors.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/gherkin-5.1.0/lib/gherkin/gherkin-languages.json$
+- /usr/lib64/ruby/gems/2.5.0/gems/gherkin-5.1.0/lib/gherkin/gherkin_line.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/gherkin-5.1.0/lib/gherkin/parser.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/gherkin-5.1.0/lib/gherkin/pickles$
+- /usr/lib64/ruby/gems/2.5.0/gems/gherkin-5.1.0/lib/gherkin/pickles/compiler.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/gherkin-5.1.0/lib/gherkin/stream$
+- /usr/lib64/ruby/gems/2.5.0/gems/gherkin-5.1.0/lib/gherkin/stream/gherkin_events.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/gherkin-5.1.0/lib/gherkin/stream/source_events.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/gherkin-5.1.0/lib/gherkin/token.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/gherkin-5.1.0/lib/gherkin/token_formatter_builder.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/gherkin-5.1.0/lib/gherkin/token_matcher.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/gherkin-5.1.0/lib/gherkin/token_scanner.rb$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/gherkin-5.1.0.gemspec$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/gherkin-5.1.0$
+- /usr/share/doc/gherkin-5.1.0/README.md.bz2$

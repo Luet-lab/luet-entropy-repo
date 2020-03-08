@@ -1,0 +1,24 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-misc/scrub-2.6.1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/scrub$
+- /usr/lib$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/scrub-2.6.1$
+- /usr/share/doc/scrub-2.6.1/AUTHORS.bz2$
+- /usr/share/doc/scrub-2.6.1/ChangeLog.bz2$
+- /usr/share/doc/scrub-2.6.1/NEWS.bz2$
+- /usr/share/doc/scrub-2.6.1/README.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/scrub.1.bz2$

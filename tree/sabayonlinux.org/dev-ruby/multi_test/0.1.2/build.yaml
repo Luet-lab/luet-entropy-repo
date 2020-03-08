@@ -1,0 +1,29 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/multi_test-0.1.2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/multi_test-0.1.2$
+- /usr/lib64/ruby/gems/2.5.0/gems/multi_test-0.1.2/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/multi_test-0.1.2/lib/multi_test$
+- /usr/lib64/ruby/gems/2.5.0/gems/multi_test-0.1.2/lib/multi_test.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/multi_test-0.1.2/lib/multi_test/assertion_library.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/multi_test-0.1.2/lib/multi_test/minitest_world.rb$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/multi_test-0.1.2.gemspec$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/multi_test-0.1.2$
+- /usr/share/doc/multi_test-0.1.2/History.md.bz2$
+- /usr/share/doc/multi_test-0.1.2/README.md.bz2$

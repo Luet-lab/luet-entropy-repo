@@ -1,0 +1,31 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/libfpx-1.3.1_p10
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/fpxlib.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libfpx.la$
+- /usr/lib64/libfpx.so$
+- /usr/lib64/libfpx.so.1$
+- /usr/lib64/libfpx.so.1.0.31$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libfpx-1.3.1_p10$
+- /usr/share/doc/libfpx-1.3.1_p10/AUTHORS.bz2$
+- /usr/share/doc/libfpx-1.3.1_p10/ChangeLog.bz2$
+- /usr/share/doc/libfpx-1.3.1_p10/NEWS.bz2$
+- /usr/share/doc/libfpx-1.3.1_p10/README.bz2$
+- /usr/share/doc/libfpx-1.3.1_p10/README.gcc.bz2$
+- /usr/share/doc/libfpx-1.3.1_p10/pdf$
+- /usr/share/doc/libfpx-1.3.1_p10/pdf/fpx_api.pdf$
+- /usr/share/doc/libfpx-1.3.1_p10/pdf/ri_arch.pdf$
+- /usr/share/doc/libfpx-1.3.1_p10/readme.txt.bz2$

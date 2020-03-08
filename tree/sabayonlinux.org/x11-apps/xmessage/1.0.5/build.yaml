@@ -1,0 +1,26 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i x11-apps/xmessage-1.0.5
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/xmessage$
+- /usr/lib$
+- /usr/share$
+- /usr/share/X11$
+- /usr/share/X11/app-defaults$
+- /usr/share/X11/app-defaults/Xmessage$
+- /usr/share/X11/app-defaults/Xmessage-color$
+- /usr/share/doc$
+- /usr/share/doc/xmessage-1.0.5$
+- /usr/share/doc/xmessage-1.0.5/ChangeLog.bz2$
+- /usr/share/doc/xmessage-1.0.5/README.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/xmessage.1.bz2$

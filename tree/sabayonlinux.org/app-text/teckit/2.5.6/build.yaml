@@ -1,0 +1,36 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-text/teckit-2.5.6
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/sfconv$
+- /usr/bin/teckit_compile$
+- /usr/bin/txtconv$
+- /usr/include$
+- /usr/include/teckit$
+- /usr/include/teckit/TECkit_Common.h$
+- /usr/include/teckit/TECkit_Compiler.h$
+- /usr/include/teckit/TECkit_Engine.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libTECkit.so$
+- /usr/lib64/libTECkit.so.0$
+- /usr/lib64/libTECkit.so.0.0.0$
+- /usr/lib64/libTECkit_Compiler.so$
+- /usr/lib64/libTECkit_Compiler.so.0$
+- /usr/lib64/libTECkit_Compiler.so.0.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/teckit.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/teckit-2.5.6$
+- /usr/share/doc/teckit-2.5.6/AUTHORS.bz2$
+- /usr/share/doc/teckit-2.5.6/NEWS.bz2$
+- /usr/share/doc/teckit-2.5.6/README.bz2$

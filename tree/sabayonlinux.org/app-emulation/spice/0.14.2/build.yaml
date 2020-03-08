@@ -1,0 +1,39 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-emulation/spice-0.14.2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/spice-server$
+- /usr/include/spice-server/spice-audio.h$
+- /usr/include/spice-server/spice-char.h$
+- /usr/include/spice-server/spice-core.h$
+- /usr/include/spice-server/spice-experimental.h$
+- /usr/include/spice-server/spice-input.h$
+- /usr/include/spice-server/spice-migration.h$
+- /usr/include/spice-server/spice-qxl.h$
+- /usr/include/spice-server/spice-replay.h$
+- /usr/include/spice-server/spice-server.h$
+- /usr/include/spice-server/spice-version.h$
+- /usr/include/spice-server/spice.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libspice-server.so$
+- /usr/lib64/libspice-server.so.1$
+- /usr/lib64/libspice-server.so.1.13.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/spice-server.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/spice-0.14.2$
+- /usr/share/doc/spice-0.14.2/AUTHORS.bz2$
+- /usr/share/doc/spice-0.14.2/ChangeLog.bz2$
+- /usr/share/doc/spice-0.14.2/NEWS.bz2$
+- /usr/share/doc/spice-0.14.2/README.bz2$
+- /usr/share/doc/spice-0.14.2/README.gentoo.bz2$

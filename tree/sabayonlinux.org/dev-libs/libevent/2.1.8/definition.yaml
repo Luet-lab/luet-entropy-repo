@@ -30,3 +30,6 @@ requires:
 - category: "sys-process"
   name: "procps"
   version: ">=3.3.15"
+- category: "app-portage"
+  name: "elt-patches"
+  version: ">=20170826.1"

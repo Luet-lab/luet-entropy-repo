@@ -1,0 +1,25 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-dicts/myspell-hr-20080813
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/myspell-hr-20080813$
+- /usr/share/doc/myspell-hr-20080813/downloadplaces.txt.bz2$
+- /usr/share/hunspell$
+- /usr/share/hunspell/hr_HR.aff$
+- /usr/share/hunspell/hr_HR.dic$
+- /usr/share/hyphen$
+- /usr/share/hyphen/hyph_hr.dic$
+- /usr/share/myspell$
+- /usr/share/myspell/hr_HR.aff$
+- /usr/share/myspell/hr_HR.dic$
+- /usr/share/myspell/hyph_hr.dic$
+- /usr/share/mythes$

@@ -1,0 +1,11 @@
+
+category: "dev-perl"
+name: "Ref-Util"
+version: "0.203.0"
+requires:
+- category: "dev-perl"
+  name: "Ref-Util-XS"
+  version: ">=0.116.0"
+- category: "dev-lang"
+  name: "perl"
+  version: ">=5.28.2"

@@ -1,0 +1,33 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i net-libs/libasyncns-0.8-r4
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/asyncns.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libasyncns.so$
+- /usr/lib32/libasyncns.so.0$
+- /usr/lib32/libasyncns.so.0.3.1$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/libasyncns.pc$
+- /usr/lib64$
+- /usr/lib64/libasyncns.so$
+- /usr/lib64/libasyncns.so.0$
+- /usr/lib64/libasyncns.so.0.3.1$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libasyncns.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libasyncns-0.8-r4$
+- /usr/share/doc/libasyncns-0.8-r4/README.bz2$
+- /usr/share/doc/libasyncns-0.8-r4/html$
+- /usr/share/doc/libasyncns-0.8-r4/html/README.html$
+- /usr/share/doc/libasyncns-0.8-r4/html/style.css$

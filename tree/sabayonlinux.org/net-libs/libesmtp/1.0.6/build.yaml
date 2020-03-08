@@ -1,0 +1,41 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i net-libs/libesmtp-1.0.6-r3
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/libesmtp-config$
+- /usr/include$
+- /usr/include/auth-client.h$
+- /usr/include/auth-plugin.h$
+- /usr/include/libesmtp.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/esmtp-plugins$
+- /usr/lib64/esmtp-plugins/sasl-cram-md5.la$
+- /usr/lib64/esmtp-plugins/sasl-cram-md5.so$
+- /usr/lib64/esmtp-plugins/sasl-login.la$
+- /usr/lib64/esmtp-plugins/sasl-login.so$
+- /usr/lib64/esmtp-plugins/sasl-plain.la$
+- /usr/lib64/esmtp-plugins/sasl-plain.so$
+- /usr/lib64/libesmtp.la$
+- /usr/lib64/libesmtp.so$
+- /usr/lib64/libesmtp.so.6$
+- /usr/lib64/libesmtp.so.6.1.6$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libesmtp-1.0.6-r3$
+- /usr/share/doc/libesmtp-1.0.6-r3/AUTHORS$
+- /usr/share/doc/libesmtp-1.0.6-r3/ChangeLog.bz2$
+- /usr/share/doc/libesmtp-1.0.6-r3/NEWS.bz2$
+- /usr/share/doc/libesmtp-1.0.6-r3/Notes.bz2$
+- /usr/share/doc/libesmtp-1.0.6-r3/README.bz2$
+- /usr/share/doc/libesmtp-1.0.6-r3/TODO.bz2$
+- /usr/share/doc/libesmtp-1.0.6-r3/xml$
+- /usr/share/doc/libesmtp-1.0.6-r3/xml/api.xml.bz2$

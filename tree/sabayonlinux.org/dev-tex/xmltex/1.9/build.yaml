@@ -1,0 +1,65 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-tex/xmltex-1.9-r2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /etc$
+- /etc/texmf$
+- /etc/texmf/fmtutil.d$
+- /etc/texmf/fmtutil.d/format.xmltex.cnf$
+- /usr$
+- /usr/bin$
+- /usr/bin/pdfxmltex$
+- /usr/bin/xmltex$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/xmltex-1.9-r2$
+- /usr/share/doc/xmltex-1.9-r2/html$
+- /usr/share/doc/xmltex-1.9-r2/html/manual.html$
+- /usr/share/doc/xmltex-1.9-r2/readme.txt.bz2$
+- /usr/share/texmf-site$
+- /usr/share/texmf-site/tex$
+- /usr/share/texmf-site/tex/xmltex$
+- /usr/share/texmf-site/tex/xmltex/base$
+- /usr/share/texmf-site/tex/xmltex/base/englishutf16.xml$
+- /usr/share/texmf-site/tex/xmltex/base/englishutf8.xml$
+- /usr/share/texmf-site/tex/xmltex/base/iso-8859-1.xmt$
+- /usr/share/texmf-site/tex/xmltex/base/iso-8859-2.xmt$
+- /usr/share/texmf-site/tex/xmltex/base/koi8-r.xmt$
+- /usr/share/texmf-site/tex/xmltex/base/langtest.tex$
+- /usr/share/texmf-site/tex/xmltex/base/langtest.xml$
+- /usr/share/texmf-site/tex/xmltex/base/langtest.xmt$
+- /usr/share/texmf-site/tex/xmltex/base/manual.tex$
+- /usr/share/texmf-site/tex/xmltex/base/manual.xml$
+- /usr/share/texmf-site/tex/xmltex/base/mathml2.xmt$
+- /usr/share/texmf-site/tex/xmltex/base/portugeselatin1.xml$
+- /usr/share/texmf-site/tex/xmltex/base/russiankoi8.xml$
+- /usr/share/texmf-site/tex/xmltex/base/russianutf8.xml$
+- /usr/share/texmf-site/tex/xmltex/base/sec.xmt$
+- /usr/share/texmf-site/tex/xmltex/base/tei.xmt$
+- /usr/share/texmf-site/tex/xmltex/base/testascii.cfg$
+- /usr/share/texmf-site/tex/xmltex/base/testascii.tex$
+- /usr/share/texmf-site/tex/xmltex/base/testascii.xml$
+- /usr/share/texmf-site/tex/xmltex/base/testsec.tex$
+- /usr/share/texmf-site/tex/xmltex/base/testsec.xml$
+- /usr/share/texmf-site/tex/xmltex/base/utf-16.xmt$
+- /usr/share/texmf-site/tex/xmltex/base/windows-1250.xmt$
+- /usr/share/texmf-site/tex/xmltex/base/xmltex.cfg$
+- /usr/share/texmf-site/tex/xmltex/base/xmltex.tex$
+- /usr/share/texmf-site/tex/xmltex/config$
+- /usr/share/texmf-site/tex/xmltex/config/pdfxmltex.ini$
+- /usr/share/texmf-site/tex/xmltex/config/xmltex.ini$
+- /var$
+- /var/lib$
+- /var/lib/texmf$
+- /var/lib/texmf/web2c$
+- /var/lib/texmf/web2c/pdftex$
+- /var/lib/texmf/web2c/pdftex/pdfxmltex.fmt$
+- /var/lib/texmf/web2c/pdftex/pdfxmltex.log$
+- /var/lib/texmf/web2c/pdftex/xmltex.fmt$
+- /var/lib/texmf/web2c/pdftex/xmltex.log$

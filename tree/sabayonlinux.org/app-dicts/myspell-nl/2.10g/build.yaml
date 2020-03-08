@@ -1,0 +1,42 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-dicts/myspell-nl-2.10g-r2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/myspell-nl-2.10g-r2$
+- /usr/share/doc/myspell-nl-2.10g-r2/README_nl_NL.txt.bz2$
+- /usr/share/doc/myspell-nl-2.10g-r2/README_th_nl.txt.bz2$
+- /usr/share/doc/myspell-nl-2.10g-r2/desc_en_US.txt.bz2$
+- /usr/share/doc/myspell-nl-2.10g-r2/desc_nl_NL.txt.bz2$
+- /usr/share/hunspell$
+- /usr/share/hunspell/nl.aff$
+- /usr/share/hunspell/nl.dic$
+- /usr/share/hyphen$
+- /usr/share/hyphen/hyph_nl.dic$
+- /usr/share/myspell$
+- /usr/share/myspell/hyph_nl.dic$
+- /usr/share/myspell/hyph_nl_BE.dic$
+- /usr/share/myspell/hyph_nl_NL.dic$
+- /usr/share/myspell/nl.aff$
+- /usr/share/myspell/nl.dic$
+- /usr/share/myspell/nl_BE.aff$
+- /usr/share/myspell/nl_BE.dic$
+- /usr/share/myspell/nl_NL.aff$
+- /usr/share/myspell/nl_NL.dic$
+- /usr/share/myspell/th_nl_BE_v2.dat$
+- /usr/share/myspell/th_nl_BE_v2.idx$
+- /usr/share/myspell/th_nl_NL_v2.dat$
+- /usr/share/myspell/th_nl_NL_v2.idx$
+- /usr/share/myspell/th_nl_v2.dat$
+- /usr/share/myspell/th_nl_v2.idx$
+- /usr/share/mythes$
+- /usr/share/mythes/th_nl_v2.dat$
+- /usr/share/mythes/th_nl_v2.idx$

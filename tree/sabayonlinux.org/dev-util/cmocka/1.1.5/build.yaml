@@ -1,0 +1,41 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-util/cmocka-1.1.5
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/cmocka.h$
+- /usr/include/cmocka_pbc.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/cmake$
+- /usr/lib32/cmake/cmocka$
+- /usr/lib32/cmake/cmocka/cmocka-config-version.cmake$
+- /usr/lib32/cmake/cmocka/cmocka-config.cmake$
+- /usr/lib32/libcmocka.so$
+- /usr/lib32/libcmocka.so.0$
+- /usr/lib32/libcmocka.so.0.7.0$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/cmocka.pc$
+- /usr/lib64$
+- /usr/lib64/cmake$
+- /usr/lib64/cmake/cmocka$
+- /usr/lib64/cmake/cmocka/cmocka-config-version.cmake$
+- /usr/lib64/cmake/cmocka/cmocka-config.cmake$
+- /usr/lib64/libcmocka.so$
+- /usr/lib64/libcmocka.so.0$
+- /usr/lib64/libcmocka.so.0.7.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/cmocka.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/cmocka-1.1.5$
+- /usr/share/doc/cmocka-1.1.5/AUTHORS$
+- /usr/share/doc/cmocka-1.1.5/ChangeLog.bz2$
+- /usr/share/doc/cmocka-1.1.5/README.md.bz2$

@@ -1,0 +1,39 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i x11-drivers/xf86-input-synaptics-1.9.1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/synclient$
+- /usr/bin/syndaemon$
+- /usr/include$
+- /usr/include/xorg$
+- /usr/include/xorg/synaptics-properties.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/xorg-synaptics.pc$
+- /usr/lib64/xorg$
+- /usr/lib64/xorg/modules$
+- /usr/lib64/xorg/modules/input$
+- /usr/lib64/xorg/modules/input/synaptics_drv.so$
+- /usr/share$
+- /usr/share/X11$
+- /usr/share/X11/xorg.conf.d$
+- /usr/share/X11/xorg.conf.d/70-synaptics.conf$
+- /usr/share/doc$
+- /usr/share/doc/xf86-input-synaptics-1.9.1$
+- /usr/share/doc/xf86-input-synaptics-1.9.1/ChangeLog.bz2$
+- /usr/share/doc/xf86-input-synaptics-1.9.1/README.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/synclient.1.bz2$
+- /usr/share/man/man1/syndaemon.1.bz2$
+- /usr/share/man/man4$
+- /usr/share/man/man4/synaptics.4.bz2$

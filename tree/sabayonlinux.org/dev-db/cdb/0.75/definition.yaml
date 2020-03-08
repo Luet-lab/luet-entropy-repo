@@ -1,0 +1,11 @@
+
+category: "dev-db"
+name: "cdb"
+version: "0.75+r4"
+requires:
+- category: "sys-apps"
+  name: "sed"
+  version: ">=4.7"
+- category: "sys-devel"
+  name: "gettext"
+  version: ">=0.20.1"

@@ -1,0 +1,14 @@
+
+category: "dev-perl"
+name: "Exception-Class"
+version: "1.430.0"
+requires:
+- category: "dev-perl"
+  name: "Class-Data-Inheritable"
+  version: ">=0.80.0"
+- category: "dev-lang"
+  name: "perl"
+  version: ">=5.28.2"
+- category: "dev-perl"
+  name: "Devel-StackTrace"
+  version: ">=2.20.0"

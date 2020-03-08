@@ -1,0 +1,49 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-db/spatialite-4.3.0a
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/spatialite$
+- /usr/include/spatialite.h$
+- /usr/include/spatialite/control_points.h$
+- /usr/include/spatialite/debug.h$
+- /usr/include/spatialite/gaiaaux.h$
+- /usr/include/spatialite/gaiaexif.h$
+- /usr/include/spatialite/gaiageo.h$
+- /usr/include/spatialite/gaiamatrix.h$
+- /usr/include/spatialite/geopackage.h$
+- /usr/include/spatialite/gg_advanced.h$
+- /usr/include/spatialite/gg_const.h$
+- /usr/include/spatialite/gg_core.h$
+- /usr/include/spatialite/gg_dxf.h$
+- /usr/include/spatialite/gg_dynamic.h$
+- /usr/include/spatialite/gg_formats.h$
+- /usr/include/spatialite/gg_mbr.h$
+- /usr/include/spatialite/gg_structs.h$
+- /usr/include/spatialite/gg_wfs.h$
+- /usr/include/spatialite/gg_xml.h$
+- /usr/include/spatialite/spatialite.h$
+- /usr/include/spatialite/sqlite.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libspatialite.so$
+- /usr/lib64/libspatialite.so.7$
+- /usr/lib64/libspatialite.so.7.1.0$
+- /usr/lib64/mod_spatialite.so$
+- /usr/lib64/mod_spatialite.so.7$
+- /usr/lib64/mod_spatialite.so.7.1.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/spatialite.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/spatialite-4.3.0a$
+- /usr/share/doc/spatialite-4.3.0a/AUTHORS.bz2$
+- /usr/share/doc/spatialite-4.3.0a/README.bz2$
+- /usr/share/doc/spatialite-4.3.0a/README.coverage.bz2$

@@ -1,0 +1,54 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/bcrypt-3.1.7-r2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/python2.7$
+- /usr/lib64/python2.7/site-packages$
+- /usr/lib64/python2.7/site-packages/bcrypt$
+- /usr/lib64/python2.7/site-packages/bcrypt-3.1.7-py2.7.egg-info$
+- /usr/lib64/python2.7/site-packages/bcrypt-3.1.7-py2.7.egg-info/PKG-INFO$
+- /usr/lib64/python2.7/site-packages/bcrypt-3.1.7-py2.7.egg-info/SOURCES.txt$
+- /usr/lib64/python2.7/site-packages/bcrypt-3.1.7-py2.7.egg-info/dependency_links.txt$
+- /usr/lib64/python2.7/site-packages/bcrypt-3.1.7-py2.7.egg-info/not-zip-safe$
+- /usr/lib64/python2.7/site-packages/bcrypt-3.1.7-py2.7.egg-info/requires.txt$
+- /usr/lib64/python2.7/site-packages/bcrypt-3.1.7-py2.7.egg-info/top_level.txt$
+- /usr/lib64/python2.7/site-packages/bcrypt/__about__.py$
+- /usr/lib64/python2.7/site-packages/bcrypt/__about__.pyc$
+- /usr/lib64/python2.7/site-packages/bcrypt/__about__.pyo$
+- /usr/lib64/python2.7/site-packages/bcrypt/__init__.py$
+- /usr/lib64/python2.7/site-packages/bcrypt/__init__.pyc$
+- /usr/lib64/python2.7/site-packages/bcrypt/__init__.pyo$
+- /usr/lib64/python2.7/site-packages/bcrypt/_bcrypt.so$
+- /usr/lib64/python3.6$
+- /usr/lib64/python3.6/site-packages$
+- /usr/lib64/python3.6/site-packages/bcrypt$
+- /usr/lib64/python3.6/site-packages/bcrypt-3.1.7-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/bcrypt-3.1.7-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/bcrypt-3.1.7-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/bcrypt-3.1.7-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/bcrypt-3.1.7-py3.6.egg-info/not-zip-safe$
+- /usr/lib64/python3.6/site-packages/bcrypt-3.1.7-py3.6.egg-info/requires.txt$
+- /usr/lib64/python3.6/site-packages/bcrypt-3.1.7-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/bcrypt/__about__.py$
+- /usr/lib64/python3.6/site-packages/bcrypt/__init__.py$
+- /usr/lib64/python3.6/site-packages/bcrypt/__pycache__$
+- /usr/lib64/python3.6/site-packages/bcrypt/__pycache__/__about__.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/bcrypt/__pycache__/__about__.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/bcrypt/__pycache__/__about__.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/bcrypt/__pycache__/__init__.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/bcrypt/__pycache__/__init__.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/bcrypt/__pycache__/__init__.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/bcrypt/_bcrypt.abi3.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/bcrypt-3.1.7-r2$
+- /usr/share/doc/bcrypt-3.1.7-r2/README.rst.bz2$

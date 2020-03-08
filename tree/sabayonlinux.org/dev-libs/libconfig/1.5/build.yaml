@@ -1,0 +1,39 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/libconfig-1.5
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/libconfig.h$
+- /usr/include/libconfig.h.*
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libconfig.*
+- /usr/lib32/libconfig.so$
+- /usr/lib32/libconfig.so.9$
+- /usr/lib32/libconfig.so.9.2.0$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/libconfig.*
+- /usr/lib32/pkgconfig/libconfig.pc$
+- /usr/lib64$
+- /usr/lib64/libconfig.*
+- /usr/lib64/libconfig.so$
+- /usr/lib64/libconfig.so.9$
+- /usr/lib64/libconfig.so.9.2.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libconfig.*
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libconfig-1.5$
+- /usr/share/doc/libconfig-1.5/AUTHORS.bz2$
+- /usr/share/doc/libconfig-1.5/ChangeLog.bz2$
+- /usr/share/doc/libconfig-1.5/README.bz2$
+- /usr/share/doc/libconfig-1.5/TODO.bz2$
+- /usr/share/info$
+- /usr/share/info/libconfig.info.bz2$

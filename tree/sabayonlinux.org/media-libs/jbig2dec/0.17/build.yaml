@@ -1,0 +1,30 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/jbig2dec-0.17-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/jbig2dec$
+- /usr/include$
+- /usr/include/jbig2.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libjbig2dec.so$
+- /usr/lib64/libjbig2dec.so.0$
+- /usr/lib64/libjbig2dec.so.0.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/jbig2dec.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/jbig2dec-0.17-r1$
+- /usr/share/doc/jbig2dec-0.17-r1/CHANGES.bz2$
+- /usr/share/doc/jbig2dec-0.17-r1/README.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/jbig2dec.1.bz2$

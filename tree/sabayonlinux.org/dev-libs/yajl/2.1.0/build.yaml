@@ -1,0 +1,40 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/yajl-2.1.0-r2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/json_reformat$
+- /usr/bin/json_verify$
+- /usr/include$
+- /usr/include/yajl$
+- /usr/include/yajl/yajl_common.h$
+- /usr/include/yajl/yajl_gen.h$
+- /usr/include/yajl/yajl_parse.h$
+- /usr/include/yajl/yajl_tree.h$
+- /usr/include/yajl/yajl_version.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libyajl.so$
+- /usr/lib32/libyajl.so.2$
+- /usr/lib32/libyajl.so.2.1.0$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/yajl.pc$
+- /usr/lib64$
+- /usr/lib64/libyajl.so$
+- /usr/lib64/libyajl.so.2$
+- /usr/lib64/libyajl.so.2.1.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/yajl.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/yajl-2.1.0-r2$
+- /usr/share/doc/yajl-2.1.0-r2/ChangeLog.bz2$
+- /usr/share/doc/yajl-2.1.0-r2/README.bz2$
+- /usr/share/doc/yajl-2.1.0-r2/TODO.bz2$

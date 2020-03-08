@@ -1,0 +1,18 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-java/rhino-1.7.7-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/jsscript-1.6$
+- /usr/share$
+- /usr/share/rhino-1.6$
+- /usr/share/rhino-1.6/lib$
+- /usr/share/rhino-1.6/lib/js.jar$
+- /usr/share/rhino-1.6/package.env$

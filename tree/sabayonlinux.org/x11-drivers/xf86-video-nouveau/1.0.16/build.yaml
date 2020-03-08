@@ -1,0 +1,24 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i x11-drivers/xf86-video-nouveau-1.0.16
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/xorg$
+- /usr/lib64/xorg/modules$
+- /usr/lib64/xorg/modules/drivers$
+- /usr/lib64/xorg/modules/drivers/nouveau_drv.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/xf86-video-nouveau-1.0.16$
+- /usr/share/doc/xf86-video-nouveau-1.0.16/ChangeLog.bz2$
+- /usr/share/man$
+- /usr/share/man/man4$
+- /usr/share/man/man4/nouveau.4.bz2$

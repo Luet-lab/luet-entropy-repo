@@ -1,0 +1,61 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/libwmf-0.2.8.4-r7
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/libwmf-config$
+- /usr/bin/libwmf-fontmap$
+- /usr/bin/wmf2eps$
+- /usr/bin/wmf2fig$
+- /usr/bin/wmf2svg$
+- /usr/bin/wmf2x$
+- /usr/include$
+- /usr/include/libwmf$
+- /usr/include/libwmf/api.h$
+- /usr/include/libwmf/canvas.h$
+- /usr/include/libwmf/color.h$
+- /usr/include/libwmf/defs.h$
+- /usr/include/libwmf/eps.h$
+- /usr/include/libwmf/fig.h$
+- /usr/include/libwmf/font.h$
+- /usr/include/libwmf/foreign.h$
+- /usr/include/libwmf/fund.h$
+- /usr/include/libwmf/gd.h$
+- /usr/include/libwmf/ipa.h$
+- /usr/include/libwmf/macro.h$
+- /usr/include/libwmf/svg.h$
+- /usr/include/libwmf/types.h$
+- /usr/include/libwmf/x.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/gdk-pixbuf-2.0$
+- /usr/lib64/gdk-pixbuf-2.0/2.10.0$
+- /usr/lib64/gdk-pixbuf-2.0/2.10.0/loaders$
+- /usr/lib64/gdk-pixbuf-2.0/2.10.0/loaders/io-wmf.la$
+- /usr/lib64/gdk-pixbuf-2.0/2.10.0/loaders/io-wmf.so$
+- /usr/lib64/libwmf-0.2.so.7$
+- /usr/lib64/libwmf-0.2.so.7.1.0$
+- /usr/lib64/libwmf.la$
+- /usr/lib64/libwmf.so$
+- /usr/lib64/libwmflite-0.2.so.7$
+- /usr/lib64/libwmflite-0.2.so.7.0.1$
+- /usr/lib64/libwmflite.la$
+- /usr/lib64/libwmflite.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libwmf-0.2.8.4-r7$
+- /usr/share/doc/libwmf-0.2.8.4-r7/AUTHORS$
+- /usr/share/doc/libwmf-0.2.8.4-r7/BUILDING.bz2$
+- /usr/share/doc/libwmf-0.2.8.4-r7/CREDITS.bz2$
+- /usr/share/doc/libwmf-0.2.8.4-r7/ChangeLog.bz2$
+- /usr/share/doc/libwmf-0.2.8.4-r7/INSTALL.bz2$
+- /usr/share/doc/libwmf-0.2.8.4-r7/NEWS$
+- /usr/share/doc/libwmf-0.2.8.4-r7/README.bz2$
+- /usr/share/doc/libwmf-0.2.8.4-r7/TODO.bz2$

@@ -1,0 +1,21 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-emacs/autoconf-mode-2.69-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/emacs$
+- /usr/share/emacs/site-lisp$
+- /usr/share/emacs/site-lisp/autoconf-mode$
+- /usr/share/emacs/site-lisp/autoconf-mode/autoconf-mode.el$
+- /usr/share/emacs/site-lisp/autoconf-mode/autoconf-mode.elc$
+- /usr/share/emacs/site-lisp/autoconf-mode/autotest-mode.el$
+- /usr/share/emacs/site-lisp/autoconf-mode/autotest-mode.elc$
+- /usr/share/emacs/site-lisp/site-gentoo.d$
+- /usr/share/emacs/site-lisp/site-gentoo.d/50autoconf-mode-gentoo.el$

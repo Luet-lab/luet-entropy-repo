@@ -1,0 +1,36 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/libsigc++-2.10.1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/sigc.*-2.0/$
+- /usr/include/sigc.*-2.0/.*
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libsigc-2.0.so$
+- /usr/lib32/libsigc-2.0.so.0$
+- /usr/lib32/libsigc-2.0.so.0.0.0$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/sigc.*
+- /usr/lib32/sigc.*-2.0$
+- /usr/lib32/sigc.*-2.0/include$
+- /usr/lib32/sigc.*-2.0/include/sigc.*config.h$
+- /usr/lib64$
+- /usr/lib64/libsigc-2.0.so$
+- /usr/lib64/libsigc-2.0.so.0$
+- /usr/lib64/libsigc-2.0.so.0.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/sigc.*-2.0.pc$
+- /usr/lib64/sigc.*-2.0$
+- /usr/lib64/sigc.*-2.0/include$
+- /usr/lib64/sigc.*-2.0/include/sigc.*config.h$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libsigc.*

@@ -1,0 +1,22 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-perl/IO-String-1.80.0-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/perl5$
+- /usr/lib64/perl5/vendor_perl$
+- /usr/lib64/perl5/vendor_perl/5.28.2$
+- /usr/lib64/perl5/vendor_perl/5.28.2/IO$
+- /usr/lib64/perl5/vendor_perl/5.28.2/IO/String.pm$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/IO-String-1.80.0-r1$
+- /usr/share/doc/IO-String-1.80.0-r1/Changes.bz2$
+- /usr/share/doc/IO-String-1.80.0-r1/README.bz2$

@@ -1,0 +1,27 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-eselect/eselect-wxwidgets-20180529
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/wx-config$
+- /usr/bin/wxrc$
+- /usr/share$
+- /usr/share/aclocal$
+- /usr/share/aclocal/wxwin.m4$
+- /usr/share/bakefile$
+- /usr/share/bakefile/presets$
+- /usr/share/bakefile/presets/.keep_app-eselect_eselect-wxwidgets-0$
+- /usr/share/eselect$
+- /usr/share/eselect/modules$
+- /usr/share/eselect/modules/wxwidgets.eselect$
+- /var$
+- /var/lib$
+- /var/lib/wxwidgets$
+- /var/lib/wxwidgets/.keep_app-eselect_eselect-wxwidgets-0$

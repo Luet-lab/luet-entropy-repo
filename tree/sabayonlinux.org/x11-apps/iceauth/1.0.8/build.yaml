@@ -1,0 +1,21 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i x11-apps/iceauth-1.0.8
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/iceauth$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/iceauth-1.0.8$
+- /usr/share/doc/iceauth-1.0.8/ChangeLog.bz2$
+- /usr/share/doc/iceauth-1.0.8/README.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/iceauth.1.bz2$

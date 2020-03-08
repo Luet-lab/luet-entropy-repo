@@ -1,0 +1,30 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i sys-devel/llvm-common-9.0.1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/llvm-common-9.0.1$
+- /usr/share/doc/llvm-common-9.0.1/README.vim.bz2$
+- /usr/share/doc/llvm-common-9.0.1/vimrc.bz2$
+- /usr/share/vim$
+- /usr/share/vim/vimfiles$
+- /usr/share/vim/vimfiles/ftdetect$
+- /usr/share/vim/vimfiles/ftdetect/llvm-lit.vim$
+- /usr/share/vim/vimfiles/ftdetect/llvm.vim$
+- /usr/share/vim/vimfiles/ftdetect/tablegen.vim$
+- /usr/share/vim/vimfiles/ftplugin$
+- /usr/share/vim/vimfiles/ftplugin/llvm.vim$
+- /usr/share/vim/vimfiles/ftplugin/tablegen.vim$
+- /usr/share/vim/vimfiles/indent$
+- /usr/share/vim/vimfiles/indent/llvm.vim$
+- /usr/share/vim/vimfiles/syntax$
+- /usr/share/vim/vimfiles/syntax/llvm.vim$
+- /usr/share/vim/vimfiles/syntax/tablegen.vim$

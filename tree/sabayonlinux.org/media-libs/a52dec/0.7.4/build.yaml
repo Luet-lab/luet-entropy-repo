@@ -1,0 +1,43 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/a52dec-0.7.4-r7
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/a52dec$
+- /usr/bin/extract_a52$
+- /usr/include$
+- /usr/include/a52dec$
+- /usr/include/a52dec/a52.h$
+- /usr/include/a52dec/attributes.h$
+- /usr/include/a52dec/audio_out.h$
+- /usr/include/a52dec/mm_accel.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/liba52.so$
+- /usr/lib32/liba52.so.0$
+- /usr/lib32/liba52.so.0.0.0$
+- /usr/lib64$
+- /usr/lib64/liba52.so$
+- /usr/lib64/liba52.so.0$
+- /usr/lib64/liba52.so.0.0.0$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/a52dec-0.7.4-r7$
+- /usr/share/doc/a52dec-0.7.4-r7/AUTHORS.bz2$
+- /usr/share/doc/a52dec-0.7.4-r7/ChangeLog.bz2$
+- /usr/share/doc/a52dec-0.7.4-r7/HISTORY.bz2$
+- /usr/share/doc/a52dec-0.7.4-r7/NEWS.bz2$
+- /usr/share/doc/a52dec-0.7.4-r7/README.bz2$
+- /usr/share/doc/a52dec-0.7.4-r7/TODO.bz2$
+- /usr/share/doc/a52dec-0.7.4-r7/liba52.txt.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/a52dec.1.bz2$
+- /usr/share/man/man1/extract_a52.1.bz2$

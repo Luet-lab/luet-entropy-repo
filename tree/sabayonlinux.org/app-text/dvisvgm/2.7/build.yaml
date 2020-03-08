@@ -1,0 +1,24 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-text/dvisvgm-2.7
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/dvisvgm$
+- /usr/lib$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/dvisvgm-2.7$
+- /usr/share/doc/dvisvgm-2.7/AUTHORS.bz2$
+- /usr/share/doc/dvisvgm-2.7/ChangeLog.bz2$
+- /usr/share/doc/dvisvgm-2.7/NEWS.bz2$
+- /usr/share/doc/dvisvgm-2.7/README.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/dvisvgm.1.bz2$

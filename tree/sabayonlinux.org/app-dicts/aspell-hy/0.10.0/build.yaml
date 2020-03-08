@@ -1,0 +1,25 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-dicts/aspell-hy-0.10.0
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/aspell-0.60$
+- /usr/lib64/aspell-0.60/armenian.alias$
+- /usr/lib64/aspell-0.60/hy-common.rws$
+- /usr/lib64/aspell-0.60/hy.dat$
+- /usr/lib64/aspell-0.60/hy.multi$
+- /usr/lib64/aspell-0.60/hy_affix.dat$
+- /usr/lib64/aspell-0.60/u-armn.cmap$
+- /usr/lib64/aspell-0.60/u-armn.cset$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/aspell-hy-0.10.0$
+- /usr/share/doc/aspell-hy-0.10.0/README.bz2$
+- /usr/share/doc/aspell-hy-0.10.0/info.bz2$

@@ -1,0 +1,28 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-java/junit-4.12-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/junit-4.12-r1$
+- /usr/share/doc/junit-4.12-r1/CODING_STYLE.txt.bz2$
+- /usr/share/doc/junit-4.12-r1/CONTRIBUTING.md.bz2$
+- /usr/share/doc/junit-4.12-r1/LEGACY_CODING_STYLE.txt.bz2$
+- /usr/share/doc/junit-4.12-r1/NOTICE.txt.bz2$
+- /usr/share/doc/junit-4.12-r1/README.md.bz2$
+- /usr/share/doc/junit-4.12-r1/ReleaseNotes4.12.md.bz2$
+- /usr/share/doc/junit-4.12-r1/acknowledgements.txt.bz2$
+- /usr/share/doc/junit-4.12-r1/to-do.txt.bz2$
+- /usr/share/junit-4$
+- /usr/share/junit-4/lib$
+- /usr/share/junit-4/lib/junit.jar$
+- /usr/share/junit-4/package.env$
+- /usr/share/junit-4/sources$
+- /usr/share/junit-4/sources/junit-src.zip$

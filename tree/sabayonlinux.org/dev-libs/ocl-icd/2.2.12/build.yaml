@@ -1,0 +1,71 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/ocl-icd-2.2.12
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/ocl_icd.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/OpenCL$
+- /usr/lib32/OpenCL/vendors$
+- /usr/lib32/OpenCL/vendors/ocl-icd$
+- /usr/lib32/OpenCL/vendors/ocl-icd/include$
+- /usr/lib32/OpenCL/vendors/ocl-icd/include/CL$
+- /usr/lib32/OpenCL/vendors/ocl-icd/include/CL/cl.h$
+- /usr/lib32/OpenCL/vendors/ocl-icd/include/CL/cl_d3d10.h$
+- /usr/lib32/OpenCL/vendors/ocl-icd/include/CL/cl_d3d11.h$
+- /usr/lib32/OpenCL/vendors/ocl-icd/include/CL/cl_dx9_media_sharing.h$
+- /usr/lib32/OpenCL/vendors/ocl-icd/include/CL/cl_egl.h$
+- /usr/lib32/OpenCL/vendors/ocl-icd/include/CL/cl_ext.h$
+- /usr/lib32/OpenCL/vendors/ocl-icd/include/CL/cl_gl.h$
+- /usr/lib32/OpenCL/vendors/ocl-icd/include/CL/cl_gl_ext.h$
+- /usr/lib32/OpenCL/vendors/ocl-icd/include/CL/cl_platform.h$
+- /usr/lib32/OpenCL/vendors/ocl-icd/include/CL/opencl.h$
+- /usr/lib32/OpenCL/vendors/ocl-icd/libOpenCL.so$
+- /usr/lib32/OpenCL/vendors/ocl-icd/libOpenCL.so.1$
+- /usr/lib32/OpenCL/vendors/ocl-icd/libOpenCL.so.1.0.0$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/OpenCL.pc$
+- /usr/lib32/pkgconfig/ocl-icd.pc$
+- /usr/lib64$
+- /usr/lib64/OpenCL$
+- /usr/lib64/OpenCL/vendors$
+- /usr/lib64/OpenCL/vendors/ocl-icd$
+- /usr/lib64/OpenCL/vendors/ocl-icd/include$
+- /usr/lib64/OpenCL/vendors/ocl-icd/include/CL$
+- /usr/lib64/OpenCL/vendors/ocl-icd/include/CL/cl.h$
+- /usr/lib64/OpenCL/vendors/ocl-icd/include/CL/cl_d3d10.h$
+- /usr/lib64/OpenCL/vendors/ocl-icd/include/CL/cl_d3d11.h$
+- /usr/lib64/OpenCL/vendors/ocl-icd/include/CL/cl_dx9_media_sharing.h$
+- /usr/lib64/OpenCL/vendors/ocl-icd/include/CL/cl_egl.h$
+- /usr/lib64/OpenCL/vendors/ocl-icd/include/CL/cl_ext.h$
+- /usr/lib64/OpenCL/vendors/ocl-icd/include/CL/cl_gl.h$
+- /usr/lib64/OpenCL/vendors/ocl-icd/include/CL/cl_gl_ext.h$
+- /usr/lib64/OpenCL/vendors/ocl-icd/include/CL/cl_platform.h$
+- /usr/lib64/OpenCL/vendors/ocl-icd/include/CL/opencl.h$
+- /usr/lib64/OpenCL/vendors/ocl-icd/libOpenCL.so$
+- /usr/lib64/OpenCL/vendors/ocl-icd/libOpenCL.so.1$
+- /usr/lib64/OpenCL/vendors/ocl-icd/libOpenCL.so.1.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/OpenCL.pc$
+- /usr/lib64/pkgconfig/ocl-icd.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/ocl-icd-2.2.12$
+- /usr/share/doc/ocl-icd-2.2.12/NEWS.bz2$
+- /usr/share/doc/ocl-icd-2.2.12/README.bz2$
+- /usr/share/doc/ocl-icd-2.2.12/examples$
+- /usr/share/doc/ocl-icd-2.2.12/examples/ocl_icd_bindings.c.bz2$
+- /usr/share/doc/ocl-icd-2.2.12/html$
+- /usr/share/doc/ocl-icd-2.2.12/html/libOpenCL.html$
+- /usr/share/man$
+- /usr/share/man/man7$
+- /usr/share/man/man7/libOpenCL.7.bz2$
+- /usr/share/man/man7/libOpenCL.so.7$

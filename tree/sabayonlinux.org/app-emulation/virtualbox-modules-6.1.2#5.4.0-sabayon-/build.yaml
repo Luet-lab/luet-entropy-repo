@@ -1,0 +1,24 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-emulation/virtualbox-modules-6.1.2#5.4.0-sabayon
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /etc$
+- /etc/modprobe.d$
+- /etc/modprobe.d/vboxdrv.conf$
+- /lib$
+- /lib/modules$
+- /lib/modules/5.4.0-sabayon$
+- /lib/modules/5.4.0-sabayon/misc$
+- /lib/modules/5.4.0-sabayon/misc/vboxdrv.ko$
+- /lib/modules/5.4.0-sabayon/misc/vboxnetadp.ko$
+- /lib/modules/5.4.0-sabayon/misc/vboxnetflt.ko$
+- /usr$
+- /usr/lib$
+- /usr/lib/modules-load.d$
+- /usr/lib/modules-load.d/virtualbox.conf$

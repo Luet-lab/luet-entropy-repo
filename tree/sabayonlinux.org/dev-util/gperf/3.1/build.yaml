@@ -1,0 +1,30 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-util/gperf-3.1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/gperf$
+- /usr/lib$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/gperf-3.1$
+- /usr/share/doc/gperf-3.1/AUTHORS$
+- /usr/share/doc/gperf-3.1/ChangeLog.bz2$
+- /usr/share/doc/gperf-3.1/NEWS.bz2$
+- /usr/share/doc/gperf-3.1/README.bz2$
+- /usr/share/doc/gperf-3.1/README.vms.bz2$
+- /usr/share/doc/gperf-3.1/README.windows.bz2$
+- /usr/share/doc/gperf-3.1/html$
+- /usr/share/doc/gperf-3.1/html/gperf.html$
+- /usr/share/info$
+- /usr/share/info/gperf.info.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/gperf.1.bz2$

@@ -1,0 +1,103 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/rack-2.1.1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/rackup$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/bin$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/bin/rackup$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/auth$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/auth/abstract$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/auth/abstract/handler.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/auth/abstract/request.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/auth/basic.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/auth/digest$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/auth/digest/md5.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/auth/digest/nonce.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/auth/digest/params.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/auth/digest/request.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/body_proxy.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/builder.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/cascade.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/chunked.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/common_logger.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/conditional_get.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/config.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/content_length.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/content_type.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/core_ext$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/core_ext/regexp.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/deflater.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/directory.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/etag.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/events.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/file.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/files.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/handler$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/handler.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/handler/cgi.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/handler/fastcgi.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/handler/lsws.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/handler/scgi.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/handler/thin.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/handler/webrick.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/head.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/lint.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/lobster.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/lock.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/logger.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/media_type.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/method_override.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/mime.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/mock.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/multipart$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/multipart.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/multipart/generator.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/multipart/parser.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/multipart/uploaded_file.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/null_logger.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/query_parser.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/recursive.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/reloader.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/request.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/response.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/rewindable_input.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/runtime.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/sendfile.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/server.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/session$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/session/abstract$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/session/abstract/id.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/session/cookie.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/session/memcache.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/session/pool.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/show_exceptions.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/show_status.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/static.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/tempfile_reaper.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/urlmap.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-2.1.1/lib/rack/utils.rb$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/rack-2.1.1.gemspec$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/rack-2.1.1$
+- /usr/share/doc/rack-2.1.1/CHANGELOG.md.bz2$
+- /usr/share/doc/rack-2.1.1/README.rdoc.bz2$
+- /usr/share/doc/rack-2.1.1/SPEC.bz2$

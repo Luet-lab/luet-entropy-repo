@@ -1,0 +1,29 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-vim/eselect-syntax-20070506-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/eselect-syntax-20070506-r1$
+- /usr/share/doc/eselect-syntax-20070506-r1/README.bz2$
+- /usr/share/vim$
+- /usr/share/vim/vimfiles$
+- /usr/share/vim/vimfiles/doc$
+- /usr/share/vim/vimfiles/doc/eselect-syntax.txt$
+- /usr/share/vim/vimfiles/ftdetect$
+- /usr/share/vim/vimfiles/ftdetect/eselect.vim$
+- /usr/share/vim/vimfiles/ftplugin$
+- /usr/share/vim/vimfiles/ftplugin/eselect.vim$
+- /usr/share/vim/vimfiles/indent$
+- /usr/share/vim/vimfiles/indent/eselect.vim$
+- /usr/share/vim/vimfiles/plugin$
+- /usr/share/vim/vimfiles/plugin/neweselect.vim$
+- /usr/share/vim/vimfiles/syntax$
+- /usr/share/vim/vimfiles/syntax/eselect.vim$

@@ -1,0 +1,25 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-dicts/aspell-pt-0.50.2-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/aspell-0.60$
+- /usr/lib64/aspell-0.60/portuguese.alias$
+- /usr/lib64/aspell-0.60/portugu�s.alias$
+- /usr/lib64/aspell-0.60/pt-only.rws$
+- /usr/lib64/aspell-0.60/pt.dat$
+- /usr/lib64/aspell-0.60/pt.multi$
+- /usr/lib64/aspell-0.60/pt_PT-only.rws$
+- /usr/lib64/aspell-0.60/pt_PT.multi$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/aspell-pt-0.50.2-r1$
+- /usr/share/doc/aspell-pt-0.50.2-r1/README.bz2$
+- /usr/share/doc/aspell-pt-0.50.2-r1/info.bz2$

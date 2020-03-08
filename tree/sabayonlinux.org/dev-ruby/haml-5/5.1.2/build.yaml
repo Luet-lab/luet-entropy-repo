@@ -1,0 +1,65 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/haml-5.1.2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/haml$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/haml-5.1.2$
+- /usr/lib64/ruby/gems/2.5.0/gems/haml-5.1.2/bin$
+- /usr/lib64/ruby/gems/2.5.0/gems/haml-5.1.2/bin/haml$
+- /usr/lib64/ruby/gems/2.5.0/gems/haml-5.1.2/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/haml-5.1.2/lib/haml$
+- /usr/lib64/ruby/gems/2.5.0/gems/haml-5.1.2/lib/haml.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/haml-5.1.2/lib/haml/.gitattributes$
+- /usr/lib64/ruby/gems/2.5.0/gems/haml-5.1.2/lib/haml/attribute_builder.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/haml-5.1.2/lib/haml/attribute_compiler.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/haml-5.1.2/lib/haml/attribute_parser.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/haml-5.1.2/lib/haml/buffer.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/haml-5.1.2/lib/haml/compiler.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/haml-5.1.2/lib/haml/engine.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/haml-5.1.2/lib/haml/error.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/haml-5.1.2/lib/haml/escapable.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/haml-5.1.2/lib/haml/exec.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/haml-5.1.2/lib/haml/filters.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/haml-5.1.2/lib/haml/generator.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/haml-5.1.2/lib/haml/helpers$
+- /usr/lib64/ruby/gems/2.5.0/gems/haml-5.1.2/lib/haml/helpers.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/haml-5.1.2/lib/haml/helpers/action_view_extensions.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/haml-5.1.2/lib/haml/helpers/action_view_mods.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/haml-5.1.2/lib/haml/helpers/action_view_xss_mods.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/haml-5.1.2/lib/haml/helpers/safe_erubi_template.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/haml-5.1.2/lib/haml/helpers/safe_erubis_template.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/haml-5.1.2/lib/haml/helpers/xss_mods.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/haml-5.1.2/lib/haml/options.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/haml-5.1.2/lib/haml/parser.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/haml-5.1.2/lib/haml/plugin.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/haml-5.1.2/lib/haml/railtie.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/haml-5.1.2/lib/haml/sass_rails_filter.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/haml-5.1.2/lib/haml/template$
+- /usr/lib64/ruby/gems/2.5.0/gems/haml-5.1.2/lib/haml/template.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/haml-5.1.2/lib/haml/template/options.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/haml-5.1.2/lib/haml/temple_engine.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/haml-5.1.2/lib/haml/temple_line_counter.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/haml-5.1.2/lib/haml/util.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/haml-5.1.2/lib/haml/version.rb$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/haml-5.1.2.gemspec$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/haml-5.1.2$
+- /usr/share/doc/haml-5.1.2/CHANGELOG.md.bz2$
+- /usr/share/doc/haml-5.1.2/FAQ.md.bz2$
+- /usr/share/doc/haml-5.1.2/README.md.bz2$
+- /usr/share/doc/haml-5.1.2/REFERENCE.md.bz2$

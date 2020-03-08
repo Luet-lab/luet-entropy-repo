@@ -1,0 +1,19 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-java/relaxng-datatype-1.0-r2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/relaxng-datatype-1.0-r2$
+- /usr/share/doc/relaxng-datatype-1.0-r2/README.txt.bz2$
+- /usr/share/relaxng-datatype$
+- /usr/share/relaxng-datatype/lib$
+- /usr/share/relaxng-datatype/lib/relaxng-datatype.jar$
+- /usr/share/relaxng-datatype/package.env$

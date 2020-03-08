@@ -1,0 +1,42 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i www-client/links-2.20.2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/links$
+- /usr/lib$
+- /usr/share$
+- /usr/share/applications$
+- /usr/share/applications/links_-g_%u-links-2.desktop$
+- /usr/share/doc$
+- /usr/share/doc/links-2.20.2$
+- /usr/share/doc/links-2.20.2/AUTHORS.bz2$
+- /usr/share/doc/links-2.20.2/BRAILLE_HOWTO.bz2$
+- /usr/share/doc/links-2.20.2/ChangeLog.bz2$
+- /usr/share/doc/links-2.20.2/KEYS.bz2$
+- /usr/share/doc/links-2.20.2/NEWS.bz2$
+- /usr/share/doc/links-2.20.2/README.bz2$
+- /usr/share/doc/links-2.20.2/SITES.bz2$
+- /usr/share/doc/links-2.20.2/html$
+- /usr/share/doc/links-2.20.2/html/adjusted.png$
+- /usr/share/doc/links-2.20.2/html/black-control-rocking.png$
+- /usr/share/doc/links-2.20.2/html/black-icon.png$
+- /usr/share/doc/links-2.20.2/html/calibration.html$
+- /usr/share/doc/links-2.20.2/html/elbow.png$
+- /usr/share/doc/links-2.20.2/html/kalibrace.html$
+- /usr/share/doc/links-2.20.2/html/picture-crank-0.png$
+- /usr/share/doc/links-2.20.2/html/picture-crank-up.png$
+- /usr/share/doc/links-2.20.2/html/picture-icon.png$
+- /usr/share/doc/links-2.20.2/html/test_pattern.png$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/links.1.bz2$
+- /usr/share/pixmaps$
+- /usr/share/pixmaps/links.png$

@@ -1,0 +1,49 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/tre-0.8.0-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/agrep-tre$
+- /usr/include$
+- /usr/include/tre$
+- /usr/include/tre/regex.h$
+- /usr/include/tre/tre-config.h$
+- /usr/include/tre/tre.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libtre.la$
+- /usr/lib64/libtre.so$
+- /usr/lib64/libtre.so.5$
+- /usr/lib64/libtre.so.5.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/tre.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/tre-0.8.0-r1$
+- /usr/share/doc/tre-0.8.0-r1/AUTHORS$
+- /usr/share/doc/tre-0.8.0-r1/ChangeLog.bz2$
+- /usr/share/doc/tre-0.8.0-r1/NEWS.bz2$
+- /usr/share/doc/tre-0.8.0-r1/README.bz2$
+- /usr/share/doc/tre-0.8.0-r1/THANKS.bz2$
+- /usr/share/doc/tre-0.8.0-r1/TODO.bz2$
+- /usr/share/doc/tre-0.8.0-r1/html$
+- /usr/share/doc/tre-0.8.0-r1/html/default.css$
+- /usr/share/doc/tre-0.8.0-r1/html/tre-api.html$
+- /usr/share/doc/tre-0.8.0-r1/html/tre-syntax.html$
+- /usr/share/locale$
+- /usr/share/locale/fi$
+- /usr/share/locale/fi/LC_MESSAGES$
+- /usr/share/locale/fi/LC_MESSAGES/tre.mo$
+- /usr/share/locale/sv$
+- /usr/share/locale/sv/LC_MESSAGES$
+- /usr/share/locale/sv/LC_MESSAGES/tre.mo$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/agrep.1.bz2$

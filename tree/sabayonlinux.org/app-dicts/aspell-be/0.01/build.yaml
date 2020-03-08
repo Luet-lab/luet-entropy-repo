@@ -1,0 +1,27 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-dicts/aspell-be-0.01-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/aspell-0.60$
+- /usr/lib64/aspell-0.60/be-common.rws$
+- /usr/lib64/aspell-0.60/be-only.rws$
+- /usr/lib64/aspell-0.60/be.dat$
+- /usr/lib64/aspell-0.60/be.multi$
+- /usr/lib64/aspell-0.60/be_BY.alias$
+- /usr/lib64/aspell-0.60/be_SU-only.rws$
+- /usr/lib64/aspell-0.60/be_SU.multi$
+- /usr/lib64/aspell-0.60/belarusian-soviet.alias$
+- /usr/lib64/aspell-0.60/belarusian.alias$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/aspell-be-0.01-r1$
+- /usr/share/doc/aspell-be-0.01-r1/README.bz2$
+- /usr/share/doc/aspell-be-0.01-r1/info.bz2$

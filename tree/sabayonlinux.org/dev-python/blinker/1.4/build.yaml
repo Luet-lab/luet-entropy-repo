@@ -1,0 +1,59 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/blinker-1.4-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/python2.7$
+- /usr/lib64/python2.7/site-packages$
+- /usr/lib64/python2.7/site-packages/blinker$
+- /usr/lib64/python2.7/site-packages/blinker-1.4-py2.7.egg-info$
+- /usr/lib64/python2.7/site-packages/blinker-1.4-py2.7.egg-info/PKG-INFO$
+- /usr/lib64/python2.7/site-packages/blinker-1.4-py2.7.egg-info/SOURCES.txt$
+- /usr/lib64/python2.7/site-packages/blinker-1.4-py2.7.egg-info/dependency_links.txt$
+- /usr/lib64/python2.7/site-packages/blinker-1.4-py2.7.egg-info/top_level.txt$
+- /usr/lib64/python2.7/site-packages/blinker/__init__.py$
+- /usr/lib64/python2.7/site-packages/blinker/__init__.pyc$
+- /usr/lib64/python2.7/site-packages/blinker/__init__.pyo$
+- /usr/lib64/python2.7/site-packages/blinker/_saferef.py$
+- /usr/lib64/python2.7/site-packages/blinker/_saferef.pyc$
+- /usr/lib64/python2.7/site-packages/blinker/_saferef.pyo$
+- /usr/lib64/python2.7/site-packages/blinker/_utilities.py$
+- /usr/lib64/python2.7/site-packages/blinker/_utilities.pyc$
+- /usr/lib64/python2.7/site-packages/blinker/_utilities.pyo$
+- /usr/lib64/python2.7/site-packages/blinker/base.py$
+- /usr/lib64/python2.7/site-packages/blinker/base.pyc$
+- /usr/lib64/python2.7/site-packages/blinker/base.pyo$
+- /usr/lib64/python3.6$
+- /usr/lib64/python3.6/site-packages$
+- /usr/lib64/python3.6/site-packages/blinker$
+- /usr/lib64/python3.6/site-packages/blinker-1.4-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/blinker/__init__.py$
+- /usr/lib64/python3.6/site-packages/blinker/__pycache__$
+- /usr/lib64/python3.6/site-packages/blinker/__pycache__/__init__.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/blinker/__pycache__/__init__.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/blinker/__pycache__/__init__.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/blinker/__pycache__/_saferef.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/blinker/__pycache__/_saferef.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/blinker/__pycache__/_saferef.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/blinker/__pycache__/_utilities.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/blinker/__pycache__/_utilities.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/blinker/__pycache__/_utilities.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/blinker/__pycache__/base.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/blinker/__pycache__/base.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/blinker/__pycache__/base.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/blinker/_saferef.py$
+- /usr/lib64/python3.6/site-packages/blinker/_utilities.py$
+- /usr/lib64/python3.6/site-packages/blinker/base.py$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/blinker-1.4-r1$
+- /usr/share/doc/blinker-1.4-r1/AUTHORS.bz2$
+- /usr/share/doc/blinker-1.4-r1/CHANGES.bz2$
+- /usr/share/doc/blinker-1.4-r1/README.md.bz2$

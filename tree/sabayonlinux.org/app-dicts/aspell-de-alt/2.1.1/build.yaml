@@ -1,0 +1,29 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-dicts/aspell-de-alt-2.1.1-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/aspell-0.60$
+- /usr/lib64/aspell-0.60/de-1901.alias$
+- /usr/lib64/aspell-0.60/de-alt.dat$
+- /usr/lib64/aspell-0.60/de-alt.multi$
+- /usr/lib64/aspell-0.60/de-alt.rws$
+- /usr/lib64/aspell-0.60/de-alt_affix.dat$
+- /usr/lib64/aspell-0.60/de-alt_phonet.dat$
+- /usr/lib64/aspell-0.60/de_DE-1901.alias$
+- /usr/lib64/aspell-0.60/deutsch-alt.alias$
+- /usr/lib64/aspell-0.60/german-old.alias$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/aspell-de-alt-2.1.1-r1$
+- /usr/share/doc/aspell-de-alt-2.1.1-r1/README.bj.bz2$
+- /usr/share/doc/aspell-de-alt-2.1.1-r1/README.bz2$
+- /usr/share/doc/aspell-de-alt-2.1.1-r1/README.hk.bz2$
+- /usr/share/doc/aspell-de-alt-2.1.1-r1/info.bz2$

@@ -1,0 +1,28 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-eselect/eselect-php-0.9.5
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /etc$
+- /etc/apache2$
+- /etc/apache2/modules.d$
+- /etc/apache2/modules.d/70_mod_php.conf$
+- /etc/conf.d$
+- /etc/conf.d/php-fpm$
+- /etc/init.d$
+- /etc/init.d/php-fpm$
+- /usr$
+- /usr/lib$
+- /usr/lib/tmpfiles.d$
+- /usr/lib/tmpfiles.d/php-fpm.conf$
+- /usr/libexec$
+- /usr/libexec/php-fpm-launcher$
+- /usr/share$
+- /usr/share/eselect$
+- /usr/share/eselect/modules$
+- /usr/share/eselect/modules/php.eselect$

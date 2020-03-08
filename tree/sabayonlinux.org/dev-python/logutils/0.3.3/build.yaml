@@ -1,0 +1,81 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/logutils-0.3.3-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/python2.7$
+- /usr/lib64/python2.7/site-packages$
+- /usr/lib64/python2.7/site-packages/logutils$
+- /usr/lib64/python2.7/site-packages/logutils-0.3.3-py2.7.egg-info$
+- /usr/lib64/python2.7/site-packages/logutils/__init__.py$
+- /usr/lib64/python2.7/site-packages/logutils/__init__.pyc$
+- /usr/lib64/python2.7/site-packages/logutils/__init__.pyo$
+- /usr/lib64/python2.7/site-packages/logutils/adapter.py$
+- /usr/lib64/python2.7/site-packages/logutils/adapter.pyc$
+- /usr/lib64/python2.7/site-packages/logutils/adapter.pyo$
+- /usr/lib64/python2.7/site-packages/logutils/colorize.py$
+- /usr/lib64/python2.7/site-packages/logutils/colorize.pyc$
+- /usr/lib64/python2.7/site-packages/logutils/colorize.pyo$
+- /usr/lib64/python2.7/site-packages/logutils/dictconfig.py$
+- /usr/lib64/python2.7/site-packages/logutils/dictconfig.pyc$
+- /usr/lib64/python2.7/site-packages/logutils/dictconfig.pyo$
+- /usr/lib64/python2.7/site-packages/logutils/http.py$
+- /usr/lib64/python2.7/site-packages/logutils/http.pyc$
+- /usr/lib64/python2.7/site-packages/logutils/http.pyo$
+- /usr/lib64/python2.7/site-packages/logutils/queue.py$
+- /usr/lib64/python2.7/site-packages/logutils/queue.pyc$
+- /usr/lib64/python2.7/site-packages/logutils/queue.pyo$
+- /usr/lib64/python2.7/site-packages/logutils/redis.py$
+- /usr/lib64/python2.7/site-packages/logutils/redis.pyc$
+- /usr/lib64/python2.7/site-packages/logutils/redis.pyo$
+- /usr/lib64/python2.7/site-packages/logutils/testing.py$
+- /usr/lib64/python2.7/site-packages/logutils/testing.pyc$
+- /usr/lib64/python2.7/site-packages/logutils/testing.pyo$
+- /usr/lib64/python3.6$
+- /usr/lib64/python3.6/site-packages$
+- /usr/lib64/python3.6/site-packages/logutils$
+- /usr/lib64/python3.6/site-packages/logutils-0.3.3-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/logutils/__init__.py$
+- /usr/lib64/python3.6/site-packages/logutils/__pycache__$
+- /usr/lib64/python3.6/site-packages/logutils/__pycache__/__init__.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/logutils/__pycache__/__init__.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/logutils/__pycache__/__init__.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/logutils/__pycache__/adapter.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/logutils/__pycache__/adapter.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/logutils/__pycache__/adapter.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/logutils/__pycache__/colorize.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/logutils/__pycache__/colorize.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/logutils/__pycache__/colorize.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/logutils/__pycache__/dictconfig.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/logutils/__pycache__/dictconfig.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/logutils/__pycache__/dictconfig.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/logutils/__pycache__/http.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/logutils/__pycache__/http.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/logutils/__pycache__/http.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/logutils/__pycache__/queue.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/logutils/__pycache__/queue.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/logutils/__pycache__/queue.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/logutils/__pycache__/redis.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/logutils/__pycache__/redis.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/logutils/__pycache__/redis.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/logutils/__pycache__/testing.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/logutils/__pycache__/testing.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/logutils/__pycache__/testing.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/logutils/adapter.py$
+- /usr/lib64/python3.6/site-packages/logutils/colorize.py$
+- /usr/lib64/python3.6/site-packages/logutils/dictconfig.py$
+- /usr/lib64/python3.6/site-packages/logutils/http.py$
+- /usr/lib64/python3.6/site-packages/logutils/queue.py$
+- /usr/lib64/python3.6/site-packages/logutils/redis.py$
+- /usr/lib64/python3.6/site-packages/logutils/testing.py$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/logutils-0.3.3-r1$
+- /usr/share/doc/logutils-0.3.3-r1/README.txt.bz2$

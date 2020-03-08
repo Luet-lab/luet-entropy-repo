@@ -1,0 +1,77 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/pluggy-0.13.1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/python2.7$
+- /usr/lib64/python2.7/site-packages$
+- /usr/lib64/python2.7/site-packages/pluggy$
+- /usr/lib64/python2.7/site-packages/pluggy-0.13.1-py2.7.egg-info$
+- /usr/lib64/python2.7/site-packages/pluggy-0.13.1-py2.7.egg-info/PKG-INFO$
+- /usr/lib64/python2.7/site-packages/pluggy-0.13.1-py2.7.egg-info/SOURCES.txt$
+- /usr/lib64/python2.7/site-packages/pluggy-0.13.1-py2.7.egg-info/dependency_links.txt$
+- /usr/lib64/python2.7/site-packages/pluggy-0.13.1-py2.7.egg-info/requires.txt$
+- /usr/lib64/python2.7/site-packages/pluggy-0.13.1-py2.7.egg-info/top_level.txt$
+- /usr/lib64/python2.7/site-packages/pluggy/__init__.py$
+- /usr/lib64/python2.7/site-packages/pluggy/__init__.pyc$
+- /usr/lib64/python2.7/site-packages/pluggy/__init__.pyo$
+- /usr/lib64/python2.7/site-packages/pluggy/_tracing.py$
+- /usr/lib64/python2.7/site-packages/pluggy/_tracing.pyc$
+- /usr/lib64/python2.7/site-packages/pluggy/_tracing.pyo$
+- /usr/lib64/python2.7/site-packages/pluggy/_version.py$
+- /usr/lib64/python2.7/site-packages/pluggy/_version.pyc$
+- /usr/lib64/python2.7/site-packages/pluggy/_version.pyo$
+- /usr/lib64/python2.7/site-packages/pluggy/callers.py$
+- /usr/lib64/python2.7/site-packages/pluggy/callers.pyc$
+- /usr/lib64/python2.7/site-packages/pluggy/callers.pyo$
+- /usr/lib64/python2.7/site-packages/pluggy/hooks.py$
+- /usr/lib64/python2.7/site-packages/pluggy/hooks.pyc$
+- /usr/lib64/python2.7/site-packages/pluggy/hooks.pyo$
+- /usr/lib64/python2.7/site-packages/pluggy/manager.py$
+- /usr/lib64/python2.7/site-packages/pluggy/manager.pyc$
+- /usr/lib64/python2.7/site-packages/pluggy/manager.pyo$
+- /usr/lib64/python3.6$
+- /usr/lib64/python3.6/site-packages$
+- /usr/lib64/python3.6/site-packages/pluggy$
+- /usr/lib64/python3.6/site-packages/pluggy-0.13.1-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/pluggy-0.13.1-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/pluggy-0.13.1-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/pluggy-0.13.1-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/pluggy-0.13.1-py3.6.egg-info/requires.txt$
+- /usr/lib64/python3.6/site-packages/pluggy-0.13.1-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/pluggy/__init__.py$
+- /usr/lib64/python3.6/site-packages/pluggy/__pycache__$
+- /usr/lib64/python3.6/site-packages/pluggy/__pycache__/__init__.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/pluggy/__pycache__/__init__.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/pluggy/__pycache__/__init__.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/pluggy/__pycache__/_tracing.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/pluggy/__pycache__/_tracing.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/pluggy/__pycache__/_tracing.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/pluggy/__pycache__/_version.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/pluggy/__pycache__/_version.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/pluggy/__pycache__/_version.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/pluggy/__pycache__/callers.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/pluggy/__pycache__/callers.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/pluggy/__pycache__/callers.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/pluggy/__pycache__/hooks.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/pluggy/__pycache__/hooks.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/pluggy/__pycache__/hooks.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/pluggy/__pycache__/manager.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/pluggy/__pycache__/manager.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/pluggy/__pycache__/manager.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/pluggy/_tracing.py$
+- /usr/lib64/python3.6/site-packages/pluggy/_version.py$
+- /usr/lib64/python3.6/site-packages/pluggy/callers.py$
+- /usr/lib64/python3.6/site-packages/pluggy/hooks.py$
+- /usr/lib64/python3.6/site-packages/pluggy/manager.py$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/pluggy-0.13.1$
+- /usr/share/doc/pluggy-0.13.1/README.rst.bz2$

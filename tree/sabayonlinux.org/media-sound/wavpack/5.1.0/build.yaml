@@ -1,0 +1,46 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-sound/wavpack-5.1.0-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/wavpack$
+- /usr/bin/wvgain$
+- /usr/bin/wvtag$
+- /usr/bin/wvunpack$
+- /usr/include$
+- /usr/include/wavpack$
+- /usr/include/wavpack/wavpack.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libwavpack.a$
+- /usr/lib32/libwavpack.so$
+- /usr/lib32/libwavpack.so.1$
+- /usr/lib32/libwavpack.so.1.2.0$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/wavpack.pc$
+- /usr/lib64$
+- /usr/lib64/libwavpack.a$
+- /usr/lib64/libwavpack.so$
+- /usr/lib64/libwavpack.so.1$
+- /usr/lib64/libwavpack.so.1.2.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/wavpack.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/wavpack-5.1.0-r1$
+- /usr/share/doc/wavpack-5.1.0-r1/AUTHORS$
+- /usr/share/doc/wavpack-5.1.0-r1/ChangeLog.bz2$
+- /usr/share/doc/wavpack-5.1.0-r1/README.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/wavpack.1.bz2$
+- /usr/share/man/man1/wvgain.1.bz2$
+- /usr/share/man/man1/wvtag.1.bz2$
+- /usr/share/man/man1/wvunpack.1.bz2$

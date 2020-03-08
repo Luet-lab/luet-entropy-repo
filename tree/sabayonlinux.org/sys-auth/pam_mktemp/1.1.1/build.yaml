@@ -1,0 +1,19 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i sys-auth/pam_mktemp-1.1.1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /lib64$
+- /lib64/security$
+- /lib64/security/pam_mktemp.so$
+- /usr$
+- /usr/lib$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/pam_mktemp-1.1.1$
+- /usr/share/doc/pam_mktemp-1.1.1/README.bz2$

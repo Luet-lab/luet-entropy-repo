@@ -1,0 +1,14 @@
+
+category: "sys-process"
+name: "daemontools"
+version: "0.76+r8"
+requires:
+- category: "sys-apps"
+  name: "sed"
+  version: ">=4.7"
+- category: "sys-devel"
+  name: "gettext"
+  version: ">=0.20.1"
+- category: "sys-devel"
+  name: "m4"
+  version: ">=1.4.18"

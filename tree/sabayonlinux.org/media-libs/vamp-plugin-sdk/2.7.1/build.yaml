@@ -1,0 +1,84 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/vamp-plugin-sdk-2.7.1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/vamp-rdf-template-generator$
+- /usr/bin/vamp-simple-host$
+- /usr/include$
+- /usr/include/vamp$
+- /usr/include/vamp-hostsdk$
+- /usr/include/vamp-hostsdk/Plugin.h$
+- /usr/include/vamp-hostsdk/PluginBase.h$
+- /usr/include/vamp-hostsdk/PluginBufferingAdapter.h$
+- /usr/include/vamp-hostsdk/PluginChannelAdapter.h$
+- /usr/include/vamp-hostsdk/PluginHostAdapter.h$
+- /usr/include/vamp-hostsdk/PluginInputDomainAdapter.h$
+- /usr/include/vamp-hostsdk/PluginLoader.h$
+- /usr/include/vamp-hostsdk/PluginSummarisingAdapter.h$
+- /usr/include/vamp-hostsdk/PluginWrapper.h$
+- /usr/include/vamp-hostsdk/RealTime.h$
+- /usr/include/vamp-hostsdk/host-c.h$
+- /usr/include/vamp-hostsdk/hostguard.h$
+- /usr/include/vamp-hostsdk/vamp-hostsdk.h$
+- /usr/include/vamp-sdk$
+- /usr/include/vamp-sdk/FFT.h$
+- /usr/include/vamp-sdk/Plugin.h$
+- /usr/include/vamp-sdk/PluginAdapter.h$
+- /usr/include/vamp-sdk/PluginBase.h$
+- /usr/include/vamp-sdk/RealTime.h$
+- /usr/include/vamp-sdk/plugguard.h$
+- /usr/include/vamp-sdk/vamp-sdk.h$
+- /usr/include/vamp/vamp.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libvamp-hostsdk.a$
+- /usr/lib32/libvamp-hostsdk.la$
+- /usr/lib32/libvamp-hostsdk.so$
+- /usr/lib32/libvamp-hostsdk.so.3$
+- /usr/lib32/libvamp-hostsdk.so.3.7.0$
+- /usr/lib32/libvamp-sdk.a$
+- /usr/lib32/libvamp-sdk.la$
+- /usr/lib32/libvamp-sdk.so$
+- /usr/lib32/libvamp-sdk.so.2$
+- /usr/lib32/libvamp-sdk.so.2.7.0$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/vamp-hostsdk.pc$
+- /usr/lib32/pkgconfig/vamp-sdk.pc$
+- /usr/lib32/pkgconfig/vamp.pc$
+- /usr/lib32/vamp$
+- /usr/lib32/vamp/vamp-example-plugins.cat$
+- /usr/lib32/vamp/vamp-example-plugins.n3$
+- /usr/lib32/vamp/vamp-example-plugins.so$
+- /usr/lib64$
+- /usr/lib64/libvamp-hostsdk.a$
+- /usr/lib64/libvamp-hostsdk.la$
+- /usr/lib64/libvamp-hostsdk.so$
+- /usr/lib64/libvamp-hostsdk.so.3$
+- /usr/lib64/libvamp-hostsdk.so.3.7.0$
+- /usr/lib64/libvamp-sdk.a$
+- /usr/lib64/libvamp-sdk.la$
+- /usr/lib64/libvamp-sdk.so$
+- /usr/lib64/libvamp-sdk.so.2$
+- /usr/lib64/libvamp-sdk.so.2.7.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/vamp-hostsdk.pc$
+- /usr/lib64/pkgconfig/vamp-sdk.pc$
+- /usr/lib64/pkgconfig/vamp.pc$
+- /usr/lib64/vamp$
+- /usr/lib64/vamp/vamp-example-plugins.cat$
+- /usr/lib64/vamp/vamp-example-plugins.n3$
+- /usr/lib64/vamp/vamp-example-plugins.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/vamp-plugin-sdk-2.7.1$
+- /usr/share/doc/vamp-plugin-sdk-2.7.1/CHANGELOG.bz2$
+- /usr/share/doc/vamp-plugin-sdk-2.7.1/README.bz2$
+- /usr/share/doc/vamp-plugin-sdk-2.7.1/README.compat.bz2$

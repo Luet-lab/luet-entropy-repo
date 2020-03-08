@@ -1,0 +1,37 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i sys-libs/tevent-0.9.37
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/tevent.h$
+- /usr/include/tevent_internal.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libtevent.so$
+- /usr/lib32/libtevent.so.0$
+- /usr/lib32/libtevent.so.0.9.37$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/tevent.pc$
+- /usr/lib32/tevent$
+- /usr/lib32/tevent/libreplace-tevent.so$
+- /usr/lib64$
+- /usr/lib64/libtevent.so$
+- /usr/lib64/libtevent.so.0$
+- /usr/lib64/libtevent.so.0.9.37$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/tevent.pc$
+- /usr/lib64/python2.7$
+- /usr/lib64/python2.7/site-packages$
+- /usr/lib64/python2.7/site-packages/_tevent.so$
+- /usr/lib64/python2.7/site-packages/tevent.py$
+- /usr/lib64/python2.7/site-packages/tevent.pyc$
+- /usr/lib64/python2.7/site-packages/tevent.pyo$
+- /usr/lib64/tevent$
+- /usr/lib64/tevent/libreplace-tevent.so$

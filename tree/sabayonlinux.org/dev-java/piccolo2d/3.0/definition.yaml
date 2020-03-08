@@ -1,0 +1,17 @@
+
+category: "dev-java"
+name: "piccolo2d"
+version: "3.0+r1"
+requires:
+- category: "dev-java"
+  name: "swt"
+  version: ">=3.8.2"
+- category: "app-arch"
+  name: "unzip"
+  version: ">=6.0"
+- category: "x11-base"
+  name: "xorg-proto"
+  version: ">=2019.2"
+- category: "x11-libs"
+  name: "libX11"
+  version: ">=1.6.9"

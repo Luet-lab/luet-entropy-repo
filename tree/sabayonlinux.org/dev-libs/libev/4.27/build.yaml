@@ -2,12 +2,15 @@
 steps:
 - source /etc/profile && equo up
 - source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/libev-4.27
-image: "sabayon/base"
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
 includes:
 - /usr$
 - /usr/include$
-- /usr/include/ev++.h$
-- /usr/include/ev.h$
+- /usr/include/ev.*
 - /usr/lib$
 - /usr/lib32$
 - /usr/lib32/libev.so$

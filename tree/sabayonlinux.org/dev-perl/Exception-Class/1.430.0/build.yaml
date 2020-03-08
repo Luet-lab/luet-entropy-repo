@@ -1,0 +1,29 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-perl/Exception-Class-1.430.0
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/perl5$
+- /usr/lib64/perl5/vendor_perl$
+- /usr/lib64/perl5/vendor_perl/5.28.2$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Exception$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Exception/Class$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Exception/Class.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Exception/Class/Base.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/Exception$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/Exception/Class$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/Exception/Class/.packlist$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/Exception-Class-1.430.0$
+- /usr/share/doc/Exception-Class-1.430.0/Changes.bz2$
+- /usr/share/doc/Exception-Class-1.430.0/README.md.bz2$

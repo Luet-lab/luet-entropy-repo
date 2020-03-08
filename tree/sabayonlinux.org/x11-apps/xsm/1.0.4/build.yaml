@@ -1,0 +1,29 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i x11-apps/xsm-1.0.4
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /etc$
+- /etc/X11$
+- /etc/X11/xsm$
+- /etc/X11/xsm/system.xsm$
+- /usr$
+- /usr/bin$
+- /usr/bin/xsm$
+- /usr/lib$
+- /usr/share$
+- /usr/share/X11$
+- /usr/share/X11/app-defaults$
+- /usr/share/X11/app-defaults/XSm$
+- /usr/share/doc$
+- /usr/share/doc/xsm-1.0.4$
+- /usr/share/doc/xsm-1.0.4/ChangeLog.bz2$
+- /usr/share/doc/xsm-1.0.4/README.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/xsm.1.bz2$

@@ -1,0 +1,60 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i lxde-base/lxde-common-0.99.1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /etc$
+- /etc/X11$
+- /etc/X11/Sessions$
+- /etc/X11/Sessions/lxde$
+- /etc/xdg$
+- /etc/xdg/lxpanel$
+- /etc/xdg/lxpanel/LXDE$
+- /etc/xdg/lxpanel/LXDE/config$
+- /etc/xdg/lxpanel/LXDE/panels$
+- /etc/xdg/lxpanel/LXDE/panels/panel$
+- /etc/xdg/lxsession$
+- /etc/xdg/lxsession/LXDE$
+- /etc/xdg/lxsession/LXDE/autostart$
+- /etc/xdg/lxsession/LXDE/desktop.conf$
+- /etc/xdg/openbox$
+- /etc/xdg/openbox/LXDE$
+- /etc/xdg/openbox/LXDE/menu.xml$
+- /etc/xdg/openbox/LXDE/rc.xml$
+- /etc/xdg/pcmanfm$
+- /etc/xdg/pcmanfm/LXDE$
+- /etc/xdg/pcmanfm/LXDE/pcmanfm.conf$
+- /usr$
+- /usr/bin$
+- /usr/bin/lxde-logout$
+- /usr/bin/openbox-lxde$
+- /usr/bin/startlxde$
+- /usr/share$
+- /usr/share/applications$
+- /usr/share/applications/lxde-logout.desktop$
+- /usr/share/applications/lxde-screenlock.desktop$
+- /usr/share/doc$
+- /usr/share/doc/lxde-common-0.99.1$
+- /usr/share/doc/lxde-common-0.99.1/AUTHORS.bz2$
+- /usr/share/doc/lxde-common-0.99.1/ChangeLog$
+- /usr/share/doc/lxde-common-0.99.1/README$
+- /usr/share/lxde$
+- /usr/share/lxde/images$
+- /usr/share/lxde/images/logout-banner.png$
+- /usr/share/lxde/images/lxde-icon.png$
+- /usr/share/lxde/wallpapers$
+- /usr/share/lxde/wallpapers/lxde_blue.jpg$
+- /usr/share/lxde/wallpapers/lxde_green.jpg$
+- /usr/share/lxde/wallpapers/lxde_red.jpg$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/lxde-logout.1.bz2$
+- /usr/share/man/man1/openbox-lxde.1.bz2$
+- /usr/share/man/man1/startlxde.1.bz2$
+- /usr/share/xsessions$
+- /usr/share/xsessions/LXDE.desktop$

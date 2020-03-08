@@ -1,0 +1,21 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-java/bcel-6.0_rc3
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/bcel$
+- /usr/share/bcel/lib$
+- /usr/share/bcel/lib/bcel.jar$
+- /usr/share/bcel/package.env$
+- /usr/share/doc$
+- /usr/share/doc/bcel-6.0_rc3$
+- /usr/share/doc/bcel-6.0_rc3/NOTICE.txt.bz2$
+- /usr/share/doc/bcel-6.0_rc3/README.txt.bz2$
+- /usr/share/doc/bcel-6.0_rc3/RELEASE-NOTES.txt.bz2$

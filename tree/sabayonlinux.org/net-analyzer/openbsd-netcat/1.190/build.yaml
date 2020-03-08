@@ -1,0 +1,36 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i net-analyzer/openbsd-netcat-1.190
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/nc$
+- /usr/lib$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/openbsd-netcat-1.190$
+- /usr/share/doc/openbsd-netcat-1.190/README.bz2$
+- /usr/share/doc/openbsd-netcat-1.190/examples$
+- /usr/share/doc/openbsd-netcat-1.190/examples/README.bz2$
+- /usr/share/doc/openbsd-netcat-1.190/examples/alta.bz2$
+- /usr/share/doc/openbsd-netcat-1.190/examples/bsh.bz2$
+- /usr/share/doc/openbsd-netcat-1.190/examples/contrib$
+- /usr/share/doc/openbsd-netcat-1.190/examples/contrib/ncmeter.bz2$
+- /usr/share/doc/openbsd-netcat-1.190/examples/dist.sh.bz2$
+- /usr/share/doc/openbsd-netcat-1.190/examples/irc.bz2$
+- /usr/share/doc/openbsd-netcat-1.190/examples/iscan.bz2$
+- /usr/share/doc/openbsd-netcat-1.190/examples/ncp.bz2$
+- /usr/share/doc/openbsd-netcat-1.190/examples/probe.bz2$
+- /usr/share/doc/openbsd-netcat-1.190/examples/web.bz2$
+- /usr/share/doc/openbsd-netcat-1.190/examples/webproxy.bz2$
+- /usr/share/doc/openbsd-netcat-1.190/examples/webrelay.bz2$
+- /usr/share/doc/openbsd-netcat-1.190/examples/websearch.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/nc.1.bz2$

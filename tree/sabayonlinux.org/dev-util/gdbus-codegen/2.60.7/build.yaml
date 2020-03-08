@@ -1,0 +1,55 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-util/gdbus-codegen-2.60.7
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/gdbus-codegen$
+- /usr/lib64$
+- /usr/lib64/python3.6$
+- /usr/lib64/python3.6/site-packages$
+- /usr/lib64/python3.6/site-packages/gdbus_codegen$
+- /usr/lib64/python3.6/site-packages/gdbus_codegen-2.60.7-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/gdbus_codegen/__init__.py$
+- /usr/lib64/python3.6/site-packages/gdbus_codegen/__pycache__$
+- /usr/lib64/python3.6/site-packages/gdbus_codegen/__pycache__/__init__.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/gdbus_codegen/__pycache__/__init__.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/gdbus_codegen/__pycache__/__init__.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/gdbus_codegen/__pycache__/codegen.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/gdbus_codegen/__pycache__/codegen.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/gdbus_codegen/__pycache__/codegen.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/gdbus_codegen/__pycache__/codegen_docbook.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/gdbus_codegen/__pycache__/codegen_docbook.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/gdbus_codegen/__pycache__/codegen_docbook.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/gdbus_codegen/__pycache__/codegen_main.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/gdbus_codegen/__pycache__/codegen_main.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/gdbus_codegen/__pycache__/codegen_main.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/gdbus_codegen/__pycache__/config.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/gdbus_codegen/__pycache__/config.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/gdbus_codegen/__pycache__/config.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/gdbus_codegen/__pycache__/dbustypes.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/gdbus_codegen/__pycache__/dbustypes.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/gdbus_codegen/__pycache__/dbustypes.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/gdbus_codegen/__pycache__/parser.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/gdbus_codegen/__pycache__/parser.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/gdbus_codegen/__pycache__/parser.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/gdbus_codegen/__pycache__/utils.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/gdbus_codegen/__pycache__/utils.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/gdbus_codegen/__pycache__/utils.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/gdbus_codegen/codegen.py$
+- /usr/lib64/python3.6/site-packages/gdbus_codegen/codegen_docbook.py$
+- /usr/lib64/python3.6/site-packages/gdbus_codegen/codegen_main.py$
+- /usr/lib64/python3.6/site-packages/gdbus_codegen/config.py$
+- /usr/lib64/python3.6/site-packages/gdbus_codegen/dbustypes.py$
+- /usr/lib64/python3.6/site-packages/gdbus_codegen/parser.py$
+- /usr/lib64/python3.6/site-packages/gdbus_codegen/utils.py$
+- /usr/share$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/gdbus-codegen.1.bz2$

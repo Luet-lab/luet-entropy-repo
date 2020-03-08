@@ -1,0 +1,45 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-fonts/source-han-sans-1.004
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/fonts$
+- /usr/share/fonts/source-han-sans$
+- /usr/share/fonts/source-han-sans/SourceHanSansCN-Bold.otf$
+- /usr/share/fonts/source-han-sans/SourceHanSansCN-ExtraLight.otf$
+- /usr/share/fonts/source-han-sans/SourceHanSansCN-Heavy.otf$
+- /usr/share/fonts/source-han-sans/SourceHanSansCN-Light.otf$
+- /usr/share/fonts/source-han-sans/SourceHanSansCN-Medium.otf$
+- /usr/share/fonts/source-han-sans/SourceHanSansCN-Normal.otf$
+- /usr/share/fonts/source-han-sans/SourceHanSansCN-Regular.otf$
+- /usr/share/fonts/source-han-sans/SourceHanSansJP-Bold.otf$
+- /usr/share/fonts/source-han-sans/SourceHanSansJP-ExtraLight.otf$
+- /usr/share/fonts/source-han-sans/SourceHanSansJP-Heavy.otf$
+- /usr/share/fonts/source-han-sans/SourceHanSansJP-Light.otf$
+- /usr/share/fonts/source-han-sans/SourceHanSansJP-Medium.otf$
+- /usr/share/fonts/source-han-sans/SourceHanSansJP-Normal.otf$
+- /usr/share/fonts/source-han-sans/SourceHanSansJP-Regular.otf$
+- /usr/share/fonts/source-han-sans/SourceHanSansKR-Bold.otf$
+- /usr/share/fonts/source-han-sans/SourceHanSansKR-ExtraLight.otf$
+- /usr/share/fonts/source-han-sans/SourceHanSansKR-Heavy.otf$
+- /usr/share/fonts/source-han-sans/SourceHanSansKR-Light.otf$
+- /usr/share/fonts/source-han-sans/SourceHanSansKR-Medium.otf$
+- /usr/share/fonts/source-han-sans/SourceHanSansKR-Normal.otf$
+- /usr/share/fonts/source-han-sans/SourceHanSansKR-Regular.otf$
+- /usr/share/fonts/source-han-sans/SourceHanSansTW-Bold.otf$
+- /usr/share/fonts/source-han-sans/SourceHanSansTW-ExtraLight.otf$
+- /usr/share/fonts/source-han-sans/SourceHanSansTW-Heavy.otf$
+- /usr/share/fonts/source-han-sans/SourceHanSansTW-Light.otf$
+- /usr/share/fonts/source-han-sans/SourceHanSansTW-Medium.otf$
+- /usr/share/fonts/source-han-sans/SourceHanSansTW-Normal.otf$
+- /usr/share/fonts/source-han-sans/SourceHanSansTW-Regular.otf$
+- /usr/share/fonts/source-han-sans/encodings.dir$
+- /usr/share/fonts/source-han-sans/fonts.dir$
+- /usr/share/fonts/source-han-sans/fonts.scale$

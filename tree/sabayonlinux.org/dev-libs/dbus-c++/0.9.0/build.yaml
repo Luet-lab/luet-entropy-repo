@@ -1,0 +1,28 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/dbus-c++-0.9.0-r3
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/dbusxx-introspect$
+- /usr/bin/dbusxx-xml2cpp$
+- /usr/include$
+- /usr/include/dbus-c.*
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libdbus-c.*
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/dbus-c.*
+- /usr/lib64$
+- /usr/lib64/libdbus-c.*
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/dbus-c.*
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/dbus-c.*

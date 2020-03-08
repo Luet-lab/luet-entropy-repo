@@ -1,0 +1,49 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-fonts/freefont-20120503
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/freefont-ttf-20120503$
+- /usr/share/doc/freefont-ttf-20120503/AUTHORS.bz2$
+- /usr/share/doc/freefont-ttf-20120503/CREDITS.bz2$
+- /usr/share/doc/freefont-ttf-20120503/ChangeLog.bz2$
+- /usr/share/doc/freefont-ttf-20120503/README.bz2$
+- /usr/share/doc/freefont-ttf-20120503/TROUBLESHOOTING.bz2$
+- /usr/share/doc/freefont-ttf-20120503/USAGE.bz2$
+- /usr/share/fonts$
+- /usr/share/fonts/freefont-ttf$
+- /usr/share/fonts/freefont-ttf/FreeMono.otf$
+- /usr/share/fonts/freefont-ttf/FreeMono.ttf$
+- /usr/share/fonts/freefont-ttf/FreeMonoBold.otf$
+- /usr/share/fonts/freefont-ttf/FreeMonoBold.ttf$
+- /usr/share/fonts/freefont-ttf/FreeMonoBoldOblique.otf$
+- /usr/share/fonts/freefont-ttf/FreeMonoBoldOblique.ttf$
+- /usr/share/fonts/freefont-ttf/FreeMonoOblique.otf$
+- /usr/share/fonts/freefont-ttf/FreeMonoOblique.ttf$
+- /usr/share/fonts/freefont-ttf/FreeSans.otf$
+- /usr/share/fonts/freefont-ttf/FreeSans.ttf$
+- /usr/share/fonts/freefont-ttf/FreeSansBold.otf$
+- /usr/share/fonts/freefont-ttf/FreeSansBold.ttf$
+- /usr/share/fonts/freefont-ttf/FreeSansBoldOblique.otf$
+- /usr/share/fonts/freefont-ttf/FreeSansBoldOblique.ttf$
+- /usr/share/fonts/freefont-ttf/FreeSansOblique.otf$
+- /usr/share/fonts/freefont-ttf/FreeSansOblique.ttf$
+- /usr/share/fonts/freefont-ttf/FreeSerif.otf$
+- /usr/share/fonts/freefont-ttf/FreeSerif.ttf$
+- /usr/share/fonts/freefont-ttf/FreeSerifBold.otf$
+- /usr/share/fonts/freefont-ttf/FreeSerifBold.ttf$
+- /usr/share/fonts/freefont-ttf/FreeSerifBoldItalic.otf$
+- /usr/share/fonts/freefont-ttf/FreeSerifBoldItalic.ttf$
+- /usr/share/fonts/freefont-ttf/FreeSerifItalic.otf$
+- /usr/share/fonts/freefont-ttf/FreeSerifItalic.ttf$
+- /usr/share/fonts/freefont-ttf/encodings.dir$
+- /usr/share/fonts/freefont-ttf/fonts.dir$
+- /usr/share/fonts/freefont-ttf/fonts.scale$

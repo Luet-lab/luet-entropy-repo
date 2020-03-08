@@ -1,0 +1,27 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-dicts/myspell-ia-20140518
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/myspell-ia-20140518$
+- /usr/share/doc/myspell-ia-20140518/Errata.txt.bz2$
+- /usr/share/doc/myspell-ia-20140518/GPLv3.txt.bz2$
+- /usr/share/doc/myspell-ia-20140518/README_dict-ia.txt.bz2$
+- /usr/share/hunspell$
+- /usr/share/hunspell/ia.aff$
+- /usr/share/hunspell/ia.dic$
+- /usr/share/hyphen$
+- /usr/share/hyphen/ia-hyph.dic$
+- /usr/share/myspell$
+- /usr/share/myspell/ia-hyph.dic$
+- /usr/share/myspell/ia.aff$
+- /usr/share/myspell/ia.dic$
+- /usr/share/mythes$

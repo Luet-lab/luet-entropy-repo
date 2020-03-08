@@ -1,0 +1,61 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i sys-apps/ucspi-tcp-0.88-r18
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /etc$
+- /etc/tcprules.d$
+- /etc/tcprules.d/Makefile$
+- /usr$
+- /usr/bin$
+- /usr/bin/addcr$
+- /usr/bin/argv0$
+- /usr/bin/date@$
+- /usr/bin/delcr$
+- /usr/bin/finger@$
+- /usr/bin/fixcrio$
+- /usr/bin/http@$
+- /usr/bin/mconnect$
+- /usr/bin/mconnect-io$
+- /usr/bin/rblsmtpd$
+- /usr/bin/recordio$
+- /usr/bin/tcpcat$
+- /usr/bin/tcpclient$
+- /usr/bin/tcprules$
+- /usr/bin/tcprulescheck$
+- /usr/bin/tcpserver$
+- /usr/bin/who@$
+- /usr/lib$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/ucspi-tcp-0.88-r18$
+- /usr/share/doc/ucspi-tcp-0.88-r18/CHANGES.bz2$
+- /usr/share/doc/ucspi-tcp-0.88-r18/FILES.bz2$
+- /usr/share/doc/ucspi-tcp-0.88-r18/README.bz2$
+- /usr/share/doc/ucspi-tcp-0.88-r18/SYSDEPS$
+- /usr/share/doc/ucspi-tcp-0.88-r18/TARGETS.bz2$
+- /usr/share/doc/ucspi-tcp-0.88-r18/TODO$
+- /usr/share/doc/ucspi-tcp-0.88-r18/VERSION$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/addcr.1.bz2$
+- /usr/share/man/man1/argv0.1.bz2$
+- /usr/share/man/man1/date@.1.bz2$
+- /usr/share/man/man1/delcr.1.bz2$
+- /usr/share/man/man1/finger@.1.bz2$
+- /usr/share/man/man1/fixcrio.1.bz2$
+- /usr/share/man/man1/http@.1.bz2$
+- /usr/share/man/man1/mconnect.1.bz2$
+- /usr/share/man/man1/rblsmtpd.1.bz2$
+- /usr/share/man/man1/recordio.1.bz2$
+- /usr/share/man/man1/tcpcat.1.bz2$
+- /usr/share/man/man1/tcpclient.1.bz2$
+- /usr/share/man/man1/tcprules.1.bz2$
+- /usr/share/man/man1/tcprulescheck.1.bz2$
+- /usr/share/man/man1/tcpserver.1.bz2$
+- /usr/share/man/man1/who@.1.bz2$

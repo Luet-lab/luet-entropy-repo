@@ -1,0 +1,38 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/vo-aacenc-0.1.3
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/vo-aacenc$
+- /usr/include/vo-aacenc/cmnMemory.h$
+- /usr/include/vo-aacenc/voAAC.h$
+- /usr/include/vo-aacenc/voAMRWB.h$
+- /usr/include/vo-aacenc/voAudio.h$
+- /usr/include/vo-aacenc/voIndex.h$
+- /usr/include/vo-aacenc/voMem.h$
+- /usr/include/vo-aacenc/voType.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libvo-aacenc.so$
+- /usr/lib32/libvo-aacenc.so.0$
+- /usr/lib32/libvo-aacenc.so.0.0.4$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/vo-aacenc.pc$
+- /usr/lib64$
+- /usr/lib64/libvo-aacenc.so$
+- /usr/lib64/libvo-aacenc.so.0$
+- /usr/lib64/libvo-aacenc.so.0.0.4$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/vo-aacenc.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/vo-aacenc-0.1.3$
+- /usr/share/doc/vo-aacenc-0.1.3/ChangeLog.bz2$
+- /usr/share/doc/vo-aacenc-0.1.3/README.bz2$

@@ -1,0 +1,50 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i net-misc/netkit-rsh-0.17-r10
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /etc$
+- /etc/pam.d$
+- /etc/pam.d/rexec$
+- /etc/pam.d/rlogin$
+- /etc/pam.d/rsh$
+- /etc/xinetd.d$
+- /etc/xinetd.d/rexec$
+- /etc/xinetd.d/rlogin$
+- /etc/xinetd.d/rsh$
+- /usr$
+- /usr/bin$
+- /usr/bin/rcp$
+- /usr/bin/rexec$
+- /usr/bin/rlogin$
+- /usr/bin/rsh$
+- /usr/lib$
+- /usr/sbin$
+- /usr/sbin/in.rexecd$
+- /usr/sbin/in.rlogind$
+- /usr/sbin/in.rshd$
+- /usr/sbin/rexecd$
+- /usr/sbin/rlogind$
+- /usr/sbin/rshd$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/netkit-rsh-0.17-r10$
+- /usr/share/doc/netkit-rsh-0.17-r10/BUGS.bz2$
+- /usr/share/doc/netkit-rsh-0.17-r10/ChangeLog.bz2$
+- /usr/share/doc/netkit-rsh-0.17-r10/README.bz2$
+- /usr/share/doc/netkit-rsh-0.17-r10/README.rexec.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/rcp.1.bz2$
+- /usr/share/man/man1/rexec.1.bz2$
+- /usr/share/man/man1/rlogin.1.bz2$
+- /usr/share/man/man1/rsh.1.bz2$
+- /usr/share/man/man8$
+- /usr/share/man/man8/rexecd.8.bz2$
+- /usr/share/man/man8/rlogind.8.bz2$
+- /usr/share/man/man8/rshd.8.bz2$

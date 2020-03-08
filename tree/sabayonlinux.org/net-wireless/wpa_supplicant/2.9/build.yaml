@@ -1,0 +1,54 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i net-wireless/wpa_supplicant-2.9-r2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /etc$
+- /etc/dbus-1$
+- /etc/dbus-1/system.d$
+- /etc/dbus-1/system.d/wpa_supplicant.conf$
+- /etc/wpa_supplicant$
+- /etc/wpa_supplicant/wpa_cli.sh$
+- /lib$
+- /lib/systemd$
+- /lib/systemd/system$
+- /lib/systemd/system/wpa_supplicant-nl80211@.service$
+- /lib/systemd/system/wpa_supplicant-wired@.service$
+- /lib/systemd/system/wpa_supplicant.service$
+- /lib/systemd/system/wpa_supplicant@.service$
+- /usr$
+- /usr/bin$
+- /usr/bin/wpa_cli$
+- /usr/bin/wpa_passphrase$
+- /usr/lib$
+- /usr/sbin$
+- /usr/sbin/wpa_supplicant$
+- /usr/share$
+- /usr/share/dbus-1$
+- /usr/share/dbus-1/system-services$
+- /usr/share/dbus-1/system-services/fi.w1.wpa_supplicant1.service$
+- /usr/share/doc$
+- /usr/share/doc/wpa_supplicant-2.9-r2$
+- /usr/share/doc/wpa_supplicant-2.9-r2/ChangeLog.bz2$
+- /usr/share/doc/wpa_supplicant-2.9-r2/README-WPS.bz2$
+- /usr/share/doc/wpa_supplicant-2.9-r2/README.bz2$
+- /usr/share/doc/wpa_supplicant-2.9-r2/README.gentoo.bz2$
+- /usr/share/doc/wpa_supplicant-2.9-r2/build-config.bz2$
+- /usr/share/doc/wpa_supplicant-2.9-r2/eap_testing.txt.bz2$
+- /usr/share/doc/wpa_supplicant-2.9-r2/todo.txt.bz2$
+- /usr/share/doc/wpa_supplicant-2.9-r2/wpa_supplicant.conf.bz2$
+- /usr/share/man$
+- /usr/share/man/man5$
+- /usr/share/man/man5/wpa_supplicant.conf.5.bz2$
+- /usr/share/man/man8$
+- /usr/share/man/man8/eapol_test.8.bz2$
+- /usr/share/man/man8/wpa_background.8.bz2$
+- /usr/share/man/man8/wpa_cli.8.bz2$
+- /usr/share/man/man8/wpa_passphrase.8.bz2$
+- /usr/share/man/man8/wpa_priv.8.bz2$
+- /usr/share/man/man8/wpa_supplicant.8.bz2$

@@ -1,0 +1,44 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/gjs-1.54.3
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/gjs$
+- /usr/bin/gjs-console$
+- /usr/include$
+- /usr/include/gjs-1.0$
+- /usr/include/gjs-1.0/gjs$
+- /usr/include/gjs-1.0/gjs/context.h$
+- /usr/include/gjs-1.0/gjs/coverage.h$
+- /usr/include/gjs-1.0/gjs/gjs.h$
+- /usr/include/gjs-1.0/gjs/macros.h$
+- /usr/include/gjs-1.0/gjs/profiler.h$
+- /usr/include/gjs-1.0/util$
+- /usr/include/gjs-1.0/util/error.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/gjs$
+- /usr/lib64/gjs/girepository-1.0$
+- /usr/lib64/gjs/girepository-1.0/GjsPrivate-1.0.typelib$
+- /usr/lib64/libgjs.so$
+- /usr/lib64/libgjs.so.0$
+- /usr/lib64/libgjs.so.0.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/gjs-1.0.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/gjs-1.54.3$
+- /usr/share/doc/gjs-1.54.3/NEWS.bz2$
+- /usr/share/doc/gjs-1.54.3/README.bz2$
+- /usr/share/gjs-1.0$
+- /usr/share/gjs-1.0/lsan$
+- /usr/share/gjs-1.0/lsan/lsan.supp$
+- /usr/share/gjs-1.0/valgrind$
+- /usr/share/gjs-1.0/valgrind/gjs.supp$

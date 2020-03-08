@@ -1,0 +1,50 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-fonts/corefonts-1-r7
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/corefonts-1-r7$
+- /usr/share/doc/corefonts-1-r7/license.txt.bz2$
+- /usr/share/fonts$
+- /usr/share/fonts/corefonts$
+- /usr/share/fonts/corefonts/andalemo.ttf$
+- /usr/share/fonts/corefonts/arial.ttf$
+- /usr/share/fonts/corefonts/arialbd.ttf$
+- /usr/share/fonts/corefonts/arialbi.ttf$
+- /usr/share/fonts/corefonts/ariali.ttf$
+- /usr/share/fonts/corefonts/ariblk.ttf$
+- /usr/share/fonts/corefonts/comic.ttf$
+- /usr/share/fonts/corefonts/comicbd.ttf$
+- /usr/share/fonts/corefonts/cour.ttf$
+- /usr/share/fonts/corefonts/courbd.ttf$
+- /usr/share/fonts/corefonts/courbi.ttf$
+- /usr/share/fonts/corefonts/couri.ttf$
+- /usr/share/fonts/corefonts/encodings.dir$
+- /usr/share/fonts/corefonts/fonts.dir$
+- /usr/share/fonts/corefonts/fonts.scale$
+- /usr/share/fonts/corefonts/georgia.ttf$
+- /usr/share/fonts/corefonts/georgiab.ttf$
+- /usr/share/fonts/corefonts/georgiai.ttf$
+- /usr/share/fonts/corefonts/georgiaz.ttf$
+- /usr/share/fonts/corefonts/impact.ttf$
+- /usr/share/fonts/corefonts/times.ttf$
+- /usr/share/fonts/corefonts/timesbd.ttf$
+- /usr/share/fonts/corefonts/timesbi.ttf$
+- /usr/share/fonts/corefonts/timesi.ttf$
+- /usr/share/fonts/corefonts/trebuc.ttf$
+- /usr/share/fonts/corefonts/trebucbd.ttf$
+- /usr/share/fonts/corefonts/trebucbi.ttf$
+- /usr/share/fonts/corefonts/trebucit.ttf$
+- /usr/share/fonts/corefonts/verdana.ttf$
+- /usr/share/fonts/corefonts/verdanab.ttf$
+- /usr/share/fonts/corefonts/verdanai.ttf$
+- /usr/share/fonts/corefonts/verdanaz.ttf$
+- /usr/share/fonts/corefonts/webdings.ttf$

@@ -1,0 +1,28 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/pkg-config-1.4.0
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/pkg-config-1.4.0$
+- /usr/lib64/ruby/gems/2.5.0/gems/pkg-config-1.4.0/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/pkg-config-1.4.0/lib/pkg-config$
+- /usr/lib64/ruby/gems/2.5.0/gems/pkg-config-1.4.0/lib/pkg-config.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/pkg-config-1.4.0/lib/pkg-config/version.rb$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/pkg-config-1.4.0.gemspec$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/pkg-config-1.4.0$
+- /usr/share/doc/pkg-config-1.4.0/NEWS.bz2$
+- /usr/share/doc/pkg-config-1.4.0/README.rdoc.bz2$

@@ -1,0 +1,56 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-perl/XML-XPath-1.420.0
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/xpath$
+- /usr/lib64$
+- /usr/lib64/perl5$
+- /usr/lib64/perl5/vendor_perl$
+- /usr/lib64/perl5/vendor_perl/5.28.2$
+- /usr/lib64/perl5/vendor_perl/5.28.2/XML$
+- /usr/lib64/perl5/vendor_perl/5.28.2/XML/XPath$
+- /usr/lib64/perl5/vendor_perl/5.28.2/XML/XPath.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/XML/XPath/Boolean.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/XML/XPath/Builder.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/XML/XPath/Expr.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/XML/XPath/Function.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/XML/XPath/Literal.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/XML/XPath/LocationPath.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/XML/XPath/Node$
+- /usr/lib64/perl5/vendor_perl/5.28.2/XML/XPath/Node.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/XML/XPath/Node/Attribute.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/XML/XPath/Node/Comment.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/XML/XPath/Node/Element.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/XML/XPath/Node/Namespace.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/XML/XPath/Node/PI.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/XML/XPath/Node/Text.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/XML/XPath/NodeSet.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/XML/XPath/Number.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/XML/XPath/Parser.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/XML/XPath/PerlSAX.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/XML/XPath/Root.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/XML/XPath/Step.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/XML/XPath/Variable.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/XML/XPath/XMLParser.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/XML$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/XML/XPath$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/XML/XPath/.packlist$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/XML-XPath-1.420.0$
+- /usr/share/doc/XML-XPath-1.420.0/Changes.bz2$
+- /usr/share/doc/XML-XPath-1.420.0/README.bz2$
+- /usr/share/doc/XML-XPath-1.420.0/TODO.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/xpath.1.bz2$

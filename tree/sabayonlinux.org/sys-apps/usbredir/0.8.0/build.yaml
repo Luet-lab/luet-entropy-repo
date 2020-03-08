@@ -1,0 +1,44 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i sys-apps/usbredir-0.8.0
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/usbredirtestclient$
+- /usr/include$
+- /usr/include/usbredirfilter.h$
+- /usr/include/usbredirhost.h$
+- /usr/include/usbredirparser.h$
+- /usr/include/usbredirproto.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libusbredirhost.la$
+- /usr/lib64/libusbredirhost.so$
+- /usr/lib64/libusbredirhost.so.1$
+- /usr/lib64/libusbredirhost.so.1.0.1$
+- /usr/lib64/libusbredirparser.la$
+- /usr/lib64/libusbredirparser.so$
+- /usr/lib64/libusbredirparser.so.1$
+- /usr/lib64/libusbredirparser.so.1.0.1$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libusbredirhost.pc$
+- /usr/lib64/pkgconfig/libusbredirparser-0.5.pc$
+- /usr/sbin$
+- /usr/sbin/usbredirserver$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/usbredir-0.8.0$
+- /usr/share/doc/usbredir-0.8.0/ChangeLog.bz2$
+- /usr/share/doc/usbredir-0.8.0/README.bz2$
+- /usr/share/doc/usbredir-0.8.0/README.multi-thread.bz2$
+- /usr/share/doc/usbredir-0.8.0/TODO.bz2$
+- /usr/share/doc/usbredir-0.8.0/usb-redirection-protocol.txt.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/usbredirserver.1.bz2$

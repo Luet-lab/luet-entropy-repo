@@ -1,0 +1,38 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/libmodplug-0.8.9.0
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/libmodplug$
+- /usr/include/libmodplug/it_defs.h$
+- /usr/include/libmodplug/modplug.h$
+- /usr/include/libmodplug/sndfile.h$
+- /usr/include/libmodplug/stdafx.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libmodplug.so$
+- /usr/lib32/libmodplug.so.1$
+- /usr/lib32/libmodplug.so.1.0.0$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/libmodplug.pc$
+- /usr/lib64$
+- /usr/lib64/libmodplug.so$
+- /usr/lib64/libmodplug.so.1$
+- /usr/lib64/libmodplug.so.1.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libmodplug.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libmodplug-0.8.9.0$
+- /usr/share/doc/libmodplug-0.8.9.0/AUTHORS.bz2$
+- /usr/share/doc/libmodplug-0.8.9.0/ChangeLog.bz2$
+- /usr/share/doc/libmodplug-0.8.9.0/NEWS.bz2$
+- /usr/share/doc/libmodplug-0.8.9.0/README.bz2$
+- /usr/share/doc/libmodplug-0.8.9.0/TODO$

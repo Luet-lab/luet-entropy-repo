@@ -1,0 +1,22 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i x11-apps/xclock-1.0.9
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/xclock$
+- /usr/lib$
+- /usr/share$
+- /usr/share/X11$
+- /usr/share/X11/app-defaults$
+- /usr/share/X11/app-defaults/XClock$
+- /usr/share/X11/app-defaults/XClock-color$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/xclock.1.bz2$

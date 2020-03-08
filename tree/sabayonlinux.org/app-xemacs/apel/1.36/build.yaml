@@ -1,0 +1,101 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-xemacs/apel-1.36
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib/xemacs$
+- /usr/lib/xemacs/xemacs-packages$
+- /usr/lib/xemacs/xemacs-packages/lisp$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/ChangeLog$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/ChangeLog.upstream$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/README.en$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/README.ja$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/_pkg.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/alist.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/alist.elc$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/apel-ver.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/apel-ver.elc$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/atype.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/atype.elc$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/auto-autoloads.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/auto-autoloads.elc$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/broken.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/broken.elc$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/calist.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/calist.elc$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/custom-load.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/custom-load.elc$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/emu.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/emu.elc$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/file-detect.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/file-detect.elc$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/filename.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/filename.elc$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/install.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/install.elc$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/inv-xemacs.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/inv-xemacs.elc$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/invisible.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/invisible.elc$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/mcharset.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/mcharset.elc$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/mcs-20.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/mcs-20.elc$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/mcs-ltn1.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/mcs-ltn1.elc$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/mcs-xm.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/mcs-xm.elc$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/mcs-xmu.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/mcs-xmu.elc$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/mule-caesar.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/mule-caesar.elc$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/path-util.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/path-util.elc$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/pccl-20.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/pccl-20.elc$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/pccl.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/pccl.elc$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/pces-20.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/pces-20.elc$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/pces-raw.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/pces-raw.elc$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/pces-xfc.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/pces-xfc.elc$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/pces-xm.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/pces-xm.elc$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/pces.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/pces.elc$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/pcustom.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/pcustom.elc$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/poe-xemacs.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/poe-xemacs.elc$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/poe.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/poe.elc$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/poem-ltn1.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/poem-ltn1.elc$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/poem-xm.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/poem-xm.elc$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/poem.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/poem.elc$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/product.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/product.elc$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/pym.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/pym.elc$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/richtext.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/richtext.elc$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/static.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/static.elc$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/std11-parse.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/std11-parse.elc$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/std11.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/apel/std11.elc$
+- /usr/lib/xemacs/xemacs-packages/pkginfo$
+- /usr/lib/xemacs/xemacs-packages/pkginfo/MANIFEST.apel$

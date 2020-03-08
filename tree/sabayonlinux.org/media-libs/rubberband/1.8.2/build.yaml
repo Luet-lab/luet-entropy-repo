@@ -1,0 +1,50 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/rubberband-1.8.2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/rubberband$
+- /usr/include$
+- /usr/include/rubberband$
+- /usr/include/rubberband/RubberBandStretcher.h$
+- /usr/include/rubberband/rubberband-c.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/ladspa$
+- /usr/lib32/ladspa/ladspa-rubberband.cat$
+- /usr/lib32/ladspa/ladspa-rubberband.so$
+- /usr/lib32/librubberband.so$
+- /usr/lib32/librubberband.so.2$
+- /usr/lib32/librubberband.so.2.1.1$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/rubberband.pc$
+- /usr/lib32/vamp$
+- /usr/lib32/vamp/vamp-rubberband.cat$
+- /usr/lib32/vamp/vamp-rubberband.so$
+- /usr/lib64$
+- /usr/lib64/ladspa$
+- /usr/lib64/ladspa/ladspa-rubberband.cat$
+- /usr/lib64/ladspa/ladspa-rubberband.so$
+- /usr/lib64/librubberband.so$
+- /usr/lib64/librubberband.so.2$
+- /usr/lib64/librubberband.so.2.1.1$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/rubberband.pc$
+- /usr/lib64/vamp$
+- /usr/lib64/vamp/vamp-rubberband.cat$
+- /usr/lib64/vamp/vamp-rubberband.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/rubberband-1.8.2$
+- /usr/share/doc/rubberband-1.8.2/CHANGELOG.bz2$
+- /usr/share/doc/rubberband-1.8.2/README.txt.bz2$
+- /usr/share/ladspa$
+- /usr/share/ladspa/rdf$
+- /usr/share/ladspa/rdf/ladspa-rubberband.rdf$

@@ -1,0 +1,20 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i net-mail/checkpassword-0.90-r4
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/checkpassword$
+- /usr/lib$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/checkpassword-0.90-r4$
+- /usr/share/doc/checkpassword-0.90-r4/CHANGES.bz2$
+- /usr/share/doc/checkpassword-0.90-r4/README.bz2$
+- /usr/share/doc/checkpassword-0.90-r4/TODO$

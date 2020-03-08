@@ -1,0 +1,21 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-java/java-getopt-1.0.14
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/java-getopt-1.0.14$
+- /usr/share/doc/java-getopt-1.0.14/COPYING.LIB.bz2$
+- /usr/share/doc/java-getopt-1.0.14/ChangeLog.bz2$
+- /usr/share/doc/java-getopt-1.0.14/README.bz2$
+- /usr/share/java-getopt-1$
+- /usr/share/java-getopt-1/lib$
+- /usr/share/java-getopt-1/lib/gnu.getopt.jar$
+- /usr/share/java-getopt-1/package.env$

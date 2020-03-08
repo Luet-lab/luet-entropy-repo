@@ -2,7 +2,11 @@
 steps:
 - source /etc/profile && equo up
 - source /etc/profile && ACCEPT_LICENSE=* equo i sys-apps/iproute2-5.2.0-r1
-image: "sabayon/base"
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
 includes:
 - /bin$
 - /bin/ip$
@@ -61,7 +65,24 @@ includes:
 - /usr/share/doc$
 - /usr/share/doc/iproute2-5.2.0-r1$
 - /usr/share/doc/iproute2-5.2.0-r1/examples$
-- /usr/share/doc/iproute2-5.2.0-r1/examples/.*
+- /usr/share/doc/iproute2-5.2.0-r1/examples/README.cbq.bz2$
+- /usr/share/doc/iproute2-5.2.0-r1/examples/README.iproute2.*
+- /usr/share/doc/iproute2-5.2.0-r1/examples/SYN-DoS.rate.limit.bz2$
+- /usr/share/doc/iproute2-5.2.0-r1/examples/cbqinit.eth1.bz2$
+- /usr/share/doc/iproute2-5.2.0-r1/examples/diffserv$
+- /usr/share/doc/iproute2-5.2.0-r1/examples/diffserv/Edge1.bz2$
+- /usr/share/doc/iproute2-5.2.0-r1/examples/diffserv/Edge2.bz2$
+- /usr/share/doc/iproute2-5.2.0-r1/examples/diffserv/Edge31-ca-u32.bz2$
+- /usr/share/doc/iproute2-5.2.0-r1/examples/diffserv/Edge31-cb-chains.bz2$
+- /usr/share/doc/iproute2-5.2.0-r1/examples/diffserv/Edge32-ca-u32.bz2$
+- /usr/share/doc/iproute2-5.2.0-r1/examples/diffserv/Edge32-cb-chains.bz2$
+- /usr/share/doc/iproute2-5.2.0-r1/examples/diffserv/Edge32-cb-u32.bz2$
+- /usr/share/doc/iproute2-5.2.0-r1/examples/diffserv/README.bz2$
+- /usr/share/doc/iproute2-5.2.0-r1/examples/diffserv/afcbq.bz2$
+- /usr/share/doc/iproute2-5.2.0-r1/examples/diffserv/ef-prio.bz2$
+- /usr/share/doc/iproute2-5.2.0-r1/examples/diffserv/efcbq.bz2$
+- /usr/share/doc/iproute2-5.2.0-r1/examples/diffserv/regression-testing.bz2$
+- /usr/share/doc/iproute2-5.2.0-r1/examples/gaiconf.bz2$
 - /usr/share/man$
 - /usr/share/man/man3$
 - /usr/share/man/man3/libnetlink.3.bz2$

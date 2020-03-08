@@ -1,0 +1,36 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-fonts/croscorefonts-1.31.0
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /etc$
+- /etc/fonts$
+- /etc/fonts/conf.avail$
+- /etc/fonts/conf.avail/62-croscore-arimo.conf$
+- /etc/fonts/conf.avail/62-croscore-cousine.conf$
+- /etc/fonts/conf.avail/62-croscore-symbolneu.conf$
+- /etc/fonts/conf.avail/62-croscore-tinos.conf$
+- /usr$
+- /usr/share$
+- /usr/share/fonts$
+- /usr/share/fonts/croscorefonts$
+- /usr/share/fonts/croscorefonts/Arimo-Bold.ttf$
+- /usr/share/fonts/croscorefonts/Arimo-BoldItalic.ttf$
+- /usr/share/fonts/croscorefonts/Arimo-Italic.ttf$
+- /usr/share/fonts/croscorefonts/Arimo-Regular.ttf$
+- /usr/share/fonts/croscorefonts/Cousine-Bold.ttf$
+- /usr/share/fonts/croscorefonts/Cousine-BoldItalic.ttf$
+- /usr/share/fonts/croscorefonts/Cousine-Italic.ttf$
+- /usr/share/fonts/croscorefonts/Cousine-Regular.ttf$
+- /usr/share/fonts/croscorefonts/Tinos-Bold.ttf$
+- /usr/share/fonts/croscorefonts/Tinos-BoldItalic.ttf$
+- /usr/share/fonts/croscorefonts/Tinos-Italic.ttf$
+- /usr/share/fonts/croscorefonts/Tinos-Regular.ttf$
+- /usr/share/fonts/croscorefonts/encodings.dir$
+- /usr/share/fonts/croscorefonts/fonts.dir$
+- /usr/share/fonts/croscorefonts/fonts.scale$

@@ -1,0 +1,19 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-java/jarjar-1.4
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/ant$
+- /usr/share/ant/tasks$
+- /usr/share/ant/tasks/jarjar-1$
+- /usr/share/jarjar-1$
+- /usr/share/jarjar-1/lib$
+- /usr/share/jarjar-1/lib/jarjar.jar$
+- /usr/share/jarjar-1/package.env$

@@ -1,0 +1,94 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i net-misc/dhcp-4.4.1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /etc$
+- /etc/conf.d$
+- /etc/conf.d/dhcpd$
+- /etc/conf.d/dhcrelay$
+- /etc/conf.d/dhcrelay6$
+- /etc/dhcp$
+- /etc/dhcp/dhclient.conf$
+- /etc/dhcp/dhcpd.conf$
+- /etc/init.d$
+- /etc/init.d/dhcpd$
+- /etc/init.d/dhcrelay$
+- /etc/init.d/dhcrelay6$
+- /etc/openldap$
+- /etc/openldap/schema$
+- /etc/openldap/schema/dhcp.schema$
+- /etc/systemd$
+- /etc/systemd/system$
+- /etc/systemd/system/dhcrelay4.service.d$
+- /etc/systemd/system/dhcrelay4.service.d/00gentoo.conf$
+- /etc/systemd/system/dhcrelay6.service.d$
+- /etc/systemd/system/dhcrelay6.service.d/00gentoo.conf$
+- /sbin$
+- /sbin/dhclient$
+- /sbin/dhclient-script$
+- /usr$
+- /usr/bin$
+- /usr/bin/omshell$
+- /usr/include$
+- /usr/include/dhcpctl$
+- /usr/include/dhcpctl/dhcpctl.h$
+- /usr/include/omapip$
+- /usr/include/omapip/alloc.h$
+- /usr/include/omapip/buffer.h$
+- /usr/include/omapip/convert.h$
+- /usr/include/omapip/hash.h$
+- /usr/include/omapip/isclib.h$
+- /usr/include/omapip/omapip.h$
+- /usr/include/omapip/omapip_p.h$
+- /usr/include/omapip/result.h$
+- /usr/include/omapip/trace.h$
+- /usr/lib$
+- /usr/lib/systemd$
+- /usr/lib/systemd/system$
+- /usr/lib/systemd/system/dhcpd4.service$
+- /usr/lib/systemd/system/dhcpd6.service$
+- /usr/lib/systemd/system/dhcrelay4.service$
+- /usr/lib/systemd/system/dhcrelay6.service$
+- /usr/lib/tmpfiles.d$
+- /usr/lib/tmpfiles.d/dhcpd.conf$
+- /usr/lib64$
+- /usr/lib64/libdhcp.a$
+- /usr/lib64/libdhcpctl.a$
+- /usr/lib64/libomapi.a$
+- /usr/sbin$
+- /usr/sbin/dhcpd$
+- /usr/sbin/dhcpd-conf-to-ldap$
+- /usr/sbin/dhcrelay$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/dhcp-4.4.1$
+- /usr/share/doc/dhcp-4.4.1/IANA-arp-parameters.bz2$
+- /usr/share/doc/dhcp-4.4.1/README.bz2$
+- /usr/share/doc/dhcp-4.4.1/RELNOTES.bz2$
+- /usr/share/doc/dhcp-4.4.1/api.*
+- /usr/share/doc/dhcp-4.4.1/html$
+- /usr/share/doc/dhcp-4.4.1/html/References.html$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/omshell.1.bz2$
+- /usr/share/man/man3$
+- /usr/share/man/man3/dhcpctl.3.bz2$
+- /usr/share/man/man3/omapi.3.bz2$
+- /usr/share/man/man5$
+- /usr/share/man/man5/dhclient.conf.5.bz2$
+- /usr/share/man/man5/dhclient.leases.5.bz2$
+- /usr/share/man/man5/dhcp-eval.5.bz2$
+- /usr/share/man/man5/dhcp-options.5.bz2$
+- /usr/share/man/man5/dhcpd.conf.5.bz2$
+- /usr/share/man/man5/dhcpd.leases.5.bz2$
+- /usr/share/man/man8$
+- /usr/share/man/man8/dhclient-script.8.bz2$
+- /usr/share/man/man8/dhclient.8.bz2$
+- /usr/share/man/man8/dhcpd.8.bz2$
+- /usr/share/man/man8/dhcrelay.8.bz2$

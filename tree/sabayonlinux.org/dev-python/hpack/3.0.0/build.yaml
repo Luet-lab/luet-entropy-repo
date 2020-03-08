@@ -1,0 +1,96 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/hpack-3.0.0
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/python2.7$
+- /usr/lib64/python2.7/site-packages$
+- /usr/lib64/python2.7/site-packages/hpack$
+- /usr/lib64/python2.7/site-packages/hpack-3.0.0-py2.7.egg-info$
+- /usr/lib64/python2.7/site-packages/hpack-3.0.0-py2.7.egg-info/PKG-INFO$
+- /usr/lib64/python2.7/site-packages/hpack-3.0.0-py2.7.egg-info/SOURCES.txt$
+- /usr/lib64/python2.7/site-packages/hpack-3.0.0-py2.7.egg-info/dependency_links.txt$
+- /usr/lib64/python2.7/site-packages/hpack-3.0.0-py2.7.egg-info/top_level.txt$
+- /usr/lib64/python2.7/site-packages/hpack/__init__.py$
+- /usr/lib64/python2.7/site-packages/hpack/__init__.pyc$
+- /usr/lib64/python2.7/site-packages/hpack/__init__.pyo$
+- /usr/lib64/python2.7/site-packages/hpack/compat.py$
+- /usr/lib64/python2.7/site-packages/hpack/compat.pyc$
+- /usr/lib64/python2.7/site-packages/hpack/compat.pyo$
+- /usr/lib64/python2.7/site-packages/hpack/exceptions.py$
+- /usr/lib64/python2.7/site-packages/hpack/exceptions.pyc$
+- /usr/lib64/python2.7/site-packages/hpack/exceptions.pyo$
+- /usr/lib64/python2.7/site-packages/hpack/hpack.py$
+- /usr/lib64/python2.7/site-packages/hpack/hpack.pyc$
+- /usr/lib64/python2.7/site-packages/hpack/hpack.pyo$
+- /usr/lib64/python2.7/site-packages/hpack/huffman.py$
+- /usr/lib64/python2.7/site-packages/hpack/huffman.pyc$
+- /usr/lib64/python2.7/site-packages/hpack/huffman.pyo$
+- /usr/lib64/python2.7/site-packages/hpack/huffman_constants.py$
+- /usr/lib64/python2.7/site-packages/hpack/huffman_constants.pyc$
+- /usr/lib64/python2.7/site-packages/hpack/huffman_constants.pyo$
+- /usr/lib64/python2.7/site-packages/hpack/huffman_table.py$
+- /usr/lib64/python2.7/site-packages/hpack/huffman_table.pyc$
+- /usr/lib64/python2.7/site-packages/hpack/huffman_table.pyo$
+- /usr/lib64/python2.7/site-packages/hpack/struct.py$
+- /usr/lib64/python2.7/site-packages/hpack/struct.pyc$
+- /usr/lib64/python2.7/site-packages/hpack/struct.pyo$
+- /usr/lib64/python2.7/site-packages/hpack/table.py$
+- /usr/lib64/python2.7/site-packages/hpack/table.pyc$
+- /usr/lib64/python2.7/site-packages/hpack/table.pyo$
+- /usr/lib64/python3.6$
+- /usr/lib64/python3.6/site-packages$
+- /usr/lib64/python3.6/site-packages/hpack$
+- /usr/lib64/python3.6/site-packages/hpack-3.0.0-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/hpack-3.0.0-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/hpack-3.0.0-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/hpack-3.0.0-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/hpack-3.0.0-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/hpack/__init__.py$
+- /usr/lib64/python3.6/site-packages/hpack/__pycache__$
+- /usr/lib64/python3.6/site-packages/hpack/__pycache__/__init__.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/hpack/__pycache__/__init__.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/hpack/__pycache__/__init__.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/hpack/__pycache__/compat.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/hpack/__pycache__/compat.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/hpack/__pycache__/compat.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/hpack/__pycache__/exceptions.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/hpack/__pycache__/exceptions.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/hpack/__pycache__/exceptions.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/hpack/__pycache__/hpack.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/hpack/__pycache__/hpack.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/hpack/__pycache__/hpack.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/hpack/__pycache__/huffman.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/hpack/__pycache__/huffman.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/hpack/__pycache__/huffman.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/hpack/__pycache__/huffman_constants.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/hpack/__pycache__/huffman_constants.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/hpack/__pycache__/huffman_constants.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/hpack/__pycache__/huffman_table.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/hpack/__pycache__/huffman_table.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/hpack/__pycache__/huffman_table.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/hpack/__pycache__/struct.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/hpack/__pycache__/struct.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/hpack/__pycache__/struct.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/hpack/__pycache__/table.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/hpack/__pycache__/table.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/hpack/__pycache__/table.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/hpack/compat.py$
+- /usr/lib64/python3.6/site-packages/hpack/exceptions.py$
+- /usr/lib64/python3.6/site-packages/hpack/hpack.py$
+- /usr/lib64/python3.6/site-packages/hpack/huffman.py$
+- /usr/lib64/python3.6/site-packages/hpack/huffman_constants.py$
+- /usr/lib64/python3.6/site-packages/hpack/huffman_table.py$
+- /usr/lib64/python3.6/site-packages/hpack/struct.py$
+- /usr/lib64/python3.6/site-packages/hpack/table.py$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/hpack-3.0.0$
+- /usr/share/doc/hpack-3.0.0/README.rst.bz2$

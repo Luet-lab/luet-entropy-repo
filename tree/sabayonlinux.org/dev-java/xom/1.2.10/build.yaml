@@ -1,0 +1,19 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-java/xom-1.2.10
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/xom-1.2.10$
+- /usr/share/doc/xom-1.2.10/Todo.txt.bz2$
+- /usr/share/xom$
+- /usr/share/xom/lib$
+- /usr/share/xom/lib/xom.jar$
+- /usr/share/xom/package.env$

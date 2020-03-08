@@ -1,0 +1,33 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/sratom-0.6.4
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/sratom-0$
+- /usr/include/sratom-0/sratom$
+- /usr/include/sratom-0/sratom/sratom.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libsratom-0.so$
+- /usr/lib32/libsratom-0.so.0$
+- /usr/lib32/libsratom-0.so.0.6.4$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/sratom-0.pc$
+- /usr/lib64$
+- /usr/lib64/libsratom-0.so$
+- /usr/lib64/libsratom-0.so.0$
+- /usr/lib64/libsratom-0.so.0.6.4$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/sratom-0.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/sratom-0.6.4$
+- /usr/share/doc/sratom-0.6.4/NEWS.bz2$
+- /usr/share/doc/sratom-0.6.4/README.md.bz2$

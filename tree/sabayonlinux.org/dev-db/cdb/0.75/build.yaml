@@ -1,0 +1,43 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-db/cdb-0.75-r4
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/cdbdump$
+- /usr/bin/cdbget$
+- /usr/bin/cdbmake$
+- /usr/bin/cdbmake-12$
+- /usr/bin/cdbmake-sv$
+- /usr/bin/cdbstats$
+- /usr/bin/cdbtest$
+- /usr/include$
+- /usr/include/cdb$
+- /usr/include/cdb/alloc.h$
+- /usr/include/cdb/buffer.h$
+- /usr/include/cdb/cdb.h$
+- /usr/include/cdb/cdb_make.h$
+- /usr/include/cdb/uint32.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/alloc.a$
+- /usr/lib64/buffer.a$
+- /usr/lib64/byte.a$
+- /usr/lib64/cdb.a$
+- /usr/lib64/libcdb.a$
+- /usr/lib64/unix.a$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/cdb-0.75-r4$
+- /usr/share/doc/cdb-0.75-r4/CHANGES.bz2$
+- /usr/share/doc/cdb-0.75-r4/FILES.bz2$
+- /usr/share/doc/cdb-0.75-r4/README.bz2$
+- /usr/share/doc/cdb-0.75-r4/SYSDEPS$
+- /usr/share/doc/cdb-0.75-r4/TODO$
+- /usr/share/doc/cdb-0.75-r4/VERSION$

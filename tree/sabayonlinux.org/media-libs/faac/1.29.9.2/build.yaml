@@ -1,0 +1,36 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/faac-1.29.9.2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/faac$
+- /usr/include$
+- /usr/include/faac.h$
+- /usr/include/faaccfg.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libfaac.so$
+- /usr/lib32/libfaac.so.0$
+- /usr/lib32/libfaac.so.0.0.0$
+- /usr/lib64$
+- /usr/lib64/libfaac.so$
+- /usr/lib64/libfaac.so.0$
+- /usr/lib64/libfaac.so.0.0.0$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/faac-1.29.9.2$
+- /usr/share/doc/faac-1.29.9.2/AUTHORS.bz2$
+- /usr/share/doc/faac-1.29.9.2/ChangeLog.bz2$
+- /usr/share/doc/faac-1.29.9.2/NEWS.bz2$
+- /usr/share/doc/faac-1.29.9.2/README.bz2$
+- /usr/share/doc/faac-1.29.9.2/TODO.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/faac.1.bz2$

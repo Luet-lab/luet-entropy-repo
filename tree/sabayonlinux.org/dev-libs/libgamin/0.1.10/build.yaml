@@ -1,0 +1,67 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/libgamin-0.1.10-r5
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/fam.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libfam.so$
+- /usr/lib32/libfam.so.0$
+- /usr/lib32/libfam.so.0.0.0$
+- /usr/lib32/libgamin-1.so$
+- /usr/lib32/libgamin-1.so.0$
+- /usr/lib32/libgamin-1.so.0.1.10$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/gamin.pc$
+- /usr/lib64$
+- /usr/lib64/libfam.so$
+- /usr/lib64/libfam.so.0$
+- /usr/lib64/libfam.so.0.0.0$
+- /usr/lib64/libgamin-1.so$
+- /usr/lib64/libgamin-1.so.0$
+- /usr/lib64/libgamin-1.so.0.1.10$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/gamin.pc$
+- /usr/lib64/python2.7$
+- /usr/lib64/python2.7/site-packages$
+- /usr/lib64/python2.7/site-packages/_gamin.so$
+- /usr/lib64/python2.7/site-packages/gamin.py$
+- /usr/lib64/python2.7/site-packages/gamin.pyc$
+- /usr/lib64/python2.7/site-packages/gamin.pyo$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libgamin-0.1.10-r5$
+- /usr/share/doc/libgamin-0.1.10-r5/AUTHORS.bz2$
+- /usr/share/doc/libgamin-0.1.10-r5/ChangeLog.bz2$
+- /usr/share/doc/libgamin-0.1.10-r5/NEWS.bz2$
+- /usr/share/doc/libgamin-0.1.10-r5/README.bz2$
+- /usr/share/doc/libgamin-0.1.10-r5/TODO.bz2$
+- /usr/share/doc/libgamin-0.1.10-r5/debugging.txt.bz2$
+- /usr/share/doc/libgamin-0.1.10-r5/html$
+- /usr/share/doc/libgamin-0.1.10-r5/html/FAQ.html$
+- /usr/share/doc/libgamin-0.1.10-r5/html/callbacks.gif$
+- /usr/share/doc/libgamin-0.1.10-r5/html/client_server.gif$
+- /usr/share/doc/libgamin-0.1.10-r5/html/config.html$
+- /usr/share/doc/libgamin-0.1.10-r5/html/contacts.html$
+- /usr/share/doc/libgamin-0.1.10-r5/html/debug.html$
+- /usr/share/doc/libgamin-0.1.10-r5/html/devel.html$
+- /usr/share/doc/libgamin-0.1.10-r5/html/differences.html$
+- /usr/share/doc/libgamin-0.1.10-r5/html/downloads.html$
+- /usr/share/doc/libgamin-0.1.10-r5/html/gamin.html$
+- /usr/share/doc/libgamin-0.1.10-r5/html/index.html$
+- /usr/share/doc/libgamin-0.1.10-r5/html/internals.html$
+- /usr/share/doc/libgamin-0.1.10-r5/html/news.html$
+- /usr/share/doc/libgamin-0.1.10-r5/html/overview.html$
+- /usr/share/doc/libgamin-0.1.10-r5/html/python.html$
+- /usr/share/doc/libgamin-0.1.10-r5/html/security.html$
+- /usr/share/doc/libgamin-0.1.10-r5/html/server_structs.gif$
+- /usr/share/doc/libgamin-0.1.10-r5/html/using.html$
+- /usr/share/doc/libgamin-0.1.10-r5/socket.txt.bz2$

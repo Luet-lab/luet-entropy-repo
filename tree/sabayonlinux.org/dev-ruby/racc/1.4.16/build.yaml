@@ -1,0 +1,82 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/racc-1.4.16-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/racc$
+- /usr/bin/racc2y$
+- /usr/bin/y2racc$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/racc-1.4.16$
+- /usr/lib64/ruby/gems/2.5.0/gems/racc-1.4.16/bin$
+- /usr/lib64/ruby/gems/2.5.0/gems/racc-1.4.16/bin/racc$
+- /usr/lib64/ruby/gems/2.5.0/gems/racc-1.4.16/bin/racc2y$
+- /usr/lib64/ruby/gems/2.5.0/gems/racc-1.4.16/bin/y2racc$
+- /usr/lib64/ruby/gems/2.5.0/gems/racc-1.4.16/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/racc-1.4.16/lib/racc$
+- /usr/lib64/ruby/gems/2.5.0/gems/racc-1.4.16/lib/racc.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/racc-1.4.16/lib/racc/compat.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/racc-1.4.16/lib/racc/cparse$
+- /usr/lib64/ruby/gems/2.5.0/gems/racc-1.4.16/lib/racc/cparse/cparse.so$
+- /usr/lib64/ruby/gems/2.5.0/gems/racc-1.4.16/lib/racc/debugflags.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/racc-1.4.16/lib/racc/exception.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/racc-1.4.16/lib/racc/grammar.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/racc-1.4.16/lib/racc/grammarfileparser.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/racc-1.4.16/lib/racc/info.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/racc-1.4.16/lib/racc/iset.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/racc-1.4.16/lib/racc/logfilegenerator.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/racc-1.4.16/lib/racc/parser-text.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/racc-1.4.16/lib/racc/parser.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/racc-1.4.16/lib/racc/parserfilegenerator.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/racc-1.4.16/lib/racc/pre-setup$
+- /usr/lib64/ruby/gems/2.5.0/gems/racc-1.4.16/lib/racc/rdoc$
+- /usr/lib64/ruby/gems/2.5.0/gems/racc-1.4.16/lib/racc/rdoc/grammar.en.rdoc$
+- /usr/lib64/ruby/gems/2.5.0/gems/racc-1.4.16/lib/racc/sourcetext.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/racc-1.4.16/lib/racc/state.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/racc-1.4.16/lib/racc/statetransitiontable.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/racc-1.4.16/lib/racc/static.rb$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/racc-1.4.16.gemspec$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/racc-1.4.16-r1$
+- /usr/share/doc/racc-1.4.16-r1/ChangeLog.bz2$
+- /usr/share/doc/racc-1.4.16-r1/README.ja.rdoc.bz2$
+- /usr/share/doc/racc-1.4.16-r1/README.rdoc.bz2$
+- /usr/share/doc/racc-1.4.16-r1/TODO.bz2$
+- /usr/share/doc/racc-1.4.16-r1/examples$
+- /usr/share/doc/racc-1.4.16-r1/examples/sample$
+- /usr/share/doc/racc-1.4.16-r1/examples/sample/array.y.bz2$
+- /usr/share/doc/racc-1.4.16-r1/examples/sample/array2.y.bz2$
+- /usr/share/doc/racc-1.4.16-r1/examples/sample/calc-ja.y.bz2$
+- /usr/share/doc/racc-1.4.16-r1/examples/sample/calc.y.bz2$
+- /usr/share/doc/racc-1.4.16-r1/examples/sample/conflict.y.bz2$
+- /usr/share/doc/racc-1.4.16-r1/examples/sample/hash.y.bz2$
+- /usr/share/doc/racc-1.4.16-r1/examples/sample/lalr.y.bz2$
+- /usr/share/doc/racc-1.4.16-r1/examples/sample/lists.y.bz2$
+- /usr/share/doc/racc-1.4.16-r1/examples/sample/syntax.y.bz2$
+- /usr/share/doc/racc-1.4.16-r1/examples/sample/yyerr.y.bz2$
+- /usr/share/doc/racc-1.4.16-r1/rdoc$
+- /usr/share/doc/racc-1.4.16-r1/rdoc/en$
+- /usr/share/doc/racc-1.4.16-r1/rdoc/en/NEWS.en.rdoc.bz2$
+- /usr/share/doc/racc-1.4.16-r1/rdoc/en/grammar.en.rdoc.bz2$
+- /usr/share/doc/racc-1.4.16-r1/rdoc/ja$
+- /usr/share/doc/racc-1.4.16-r1/rdoc/ja/NEWS.ja.rdoc.bz2$
+- /usr/share/doc/racc-1.4.16-r1/rdoc/ja/command.ja.html$
+- /usr/share/doc/racc-1.4.16-r1/rdoc/ja/debug.ja.rdoc.bz2$
+- /usr/share/doc/racc-1.4.16-r1/rdoc/ja/grammar.ja.rdoc.bz2$
+- /usr/share/doc/racc-1.4.16-r1/rdoc/ja/index.ja.html$
+- /usr/share/doc/racc-1.4.16-r1/rdoc/ja/parser.ja.rdoc.bz2$
+- /usr/share/doc/racc-1.4.16-r1/rdoc/ja/usage.ja.html$

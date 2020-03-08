@@ -1,0 +1,53 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-util/spirv-tools-2019.1-r2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/spirv-as$
+- /usr/bin/spirv-cfg$
+- /usr/bin/spirv-dis$
+- /usr/bin/spirv-lesspipe.sh$
+- /usr/bin/spirv-link$
+- /usr/bin/spirv-opt$
+- /usr/bin/spirv-reduce$
+- /usr/bin/spirv-stats$
+- /usr/bin/spirv-val$
+- /usr/include$
+- /usr/include/spirv-tools$
+- /usr/include/spirv-tools/instrument.hpp$
+- /usr/include/spirv-tools/libspirv.h$
+- /usr/include/spirv-tools/libspirv.hpp$
+- /usr/include/spirv-tools/linker.hpp$
+- /usr/include/spirv-tools/optimizer.hpp$
+- /usr/include/spirv-tools/spirv-tools-commit.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libSPIRV-Tools-link.so$
+- /usr/lib32/libSPIRV-Tools-opt.so$
+- /usr/lib32/libSPIRV-Tools-reduce.so$
+- /usr/lib32/libSPIRV-Tools-shared.so$
+- /usr/lib32/libSPIRV-Tools.so$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/SPIRV-Tools-shared.pc$
+- /usr/lib32/pkgconfig/SPIRV-Tools.pc$
+- /usr/lib64$
+- /usr/lib64/libSPIRV-Tools-link.so$
+- /usr/lib64/libSPIRV-Tools-opt.so$
+- /usr/lib64/libSPIRV-Tools-reduce.so$
+- /usr/lib64/libSPIRV-Tools-shared.so$
+- /usr/lib64/libSPIRV-Tools.so$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/SPIRV-Tools-shared.pc$
+- /usr/lib64/pkgconfig/SPIRV-Tools.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/spirv-tools-2019.1-r2$
+- /usr/share/doc/spirv-tools-2019.1-r2/CHANGES.bz2$
+- /usr/share/doc/spirv-tools-2019.1-r2/README.md.bz2$

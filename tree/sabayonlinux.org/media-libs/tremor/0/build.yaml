@@ -1,0 +1,79 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/tremor-0_pre20130223-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/tremor$
+- /usr/include/tremor/config_types.h$
+- /usr/include/tremor/ivorbiscodec.h$
+- /usr/include/tremor/ivorbisfile.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libvorbisidec.so$
+- /usr/lib32/libvorbisidec.so.1$
+- /usr/lib32/libvorbisidec.so.1.0.3$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/vorbisidec.pc$
+- /usr/lib64$
+- /usr/lib64/libvorbisidec.so$
+- /usr/lib64/libvorbisidec.so.1$
+- /usr/lib64/libvorbisidec.so.1.0.3$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/vorbisidec.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/tremor-0_pre20130223-r1$
+- /usr/share/doc/tremor-0_pre20130223-r1/CHANGELOG.bz2$
+- /usr/share/doc/tremor-0_pre20130223-r1/README.bz2$
+- /usr/share/doc/tremor-0_pre20130223-r1/html$
+- /usr/share/doc/tremor-0_pre20130223-r1/html/OggVorbis_File.html$
+- /usr/share/doc/tremor-0_pre20130223-r1/html/build.html$
+- /usr/share/doc/tremor-0_pre20130223-r1/html/callbacks.html$
+- /usr/share/doc/tremor-0_pre20130223-r1/html/datastructures.html$
+- /usr/share/doc/tremor-0_pre20130223-r1/html/decoding.html$
+- /usr/share/doc/tremor-0_pre20130223-r1/html/diff.html$
+- /usr/share/doc/tremor-0_pre20130223-r1/html/example.html$
+- /usr/share/doc/tremor-0_pre20130223-r1/html/fileinfo.html$
+- /usr/share/doc/tremor-0_pre20130223-r1/html/index.html$
+- /usr/share/doc/tremor-0_pre20130223-r1/html/initialization.html$
+- /usr/share/doc/tremor-0_pre20130223-r1/html/ov_bitrate.html$
+- /usr/share/doc/tremor-0_pre20130223-r1/html/ov_bitrate_instant.html$
+- /usr/share/doc/tremor-0_pre20130223-r1/html/ov_callbacks.html$
+- /usr/share/doc/tremor-0_pre20130223-r1/html/ov_clear.html$
+- /usr/share/doc/tremor-0_pre20130223-r1/html/ov_comment.html$
+- /usr/share/doc/tremor-0_pre20130223-r1/html/ov_info.html$
+- /usr/share/doc/tremor-0_pre20130223-r1/html/ov_open.html$
+- /usr/share/doc/tremor-0_pre20130223-r1/html/ov_open_callbacks.html$
+- /usr/share/doc/tremor-0_pre20130223-r1/html/ov_pcm_seek.html$
+- /usr/share/doc/tremor-0_pre20130223-r1/html/ov_pcm_seek_page.html$
+- /usr/share/doc/tremor-0_pre20130223-r1/html/ov_pcm_tell.html$
+- /usr/share/doc/tremor-0_pre20130223-r1/html/ov_pcm_total.html$
+- /usr/share/doc/tremor-0_pre20130223-r1/html/ov_raw_seek.html$
+- /usr/share/doc/tremor-0_pre20130223-r1/html/ov_raw_tell.html$
+- /usr/share/doc/tremor-0_pre20130223-r1/html/ov_raw_total.html$
+- /usr/share/doc/tremor-0_pre20130223-r1/html/ov_read.html$
+- /usr/share/doc/tremor-0_pre20130223-r1/html/ov_seekable.html$
+- /usr/share/doc/tremor-0_pre20130223-r1/html/ov_serialnumber.html$
+- /usr/share/doc/tremor-0_pre20130223-r1/html/ov_streams.html$
+- /usr/share/doc/tremor-0_pre20130223-r1/html/ov_test.html$
+- /usr/share/doc/tremor-0_pre20130223-r1/html/ov_test_callbacks.html$
+- /usr/share/doc/tremor-0_pre20130223-r1/html/ov_test_open.html$
+- /usr/share/doc/tremor-0_pre20130223-r1/html/ov_time_seek.html$
+- /usr/share/doc/tremor-0_pre20130223-r1/html/ov_time_seek_page.html$
+- /usr/share/doc/tremor-0_pre20130223-r1/html/ov_time_tell.html$
+- /usr/share/doc/tremor-0_pre20130223-r1/html/ov_time_total.html$
+- /usr/share/doc/tremor-0_pre20130223-r1/html/overview.html$
+- /usr/share/doc/tremor-0_pre20130223-r1/html/reference.html$
+- /usr/share/doc/tremor-0_pre20130223-r1/html/return.html$
+- /usr/share/doc/tremor-0_pre20130223-r1/html/seeking.html$
+- /usr/share/doc/tremor-0_pre20130223-r1/html/style.css$
+- /usr/share/doc/tremor-0_pre20130223-r1/html/threads.html$
+- /usr/share/doc/tremor-0_pre20130223-r1/html/vorbis_comment.html$
+- /usr/share/doc/tremor-0_pre20130223-r1/html/vorbis_info.html$

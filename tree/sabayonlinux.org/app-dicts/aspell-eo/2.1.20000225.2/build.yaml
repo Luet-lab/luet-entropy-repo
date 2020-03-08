@@ -1,0 +1,23 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-dicts/aspell-eo-2.1.20000225.2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/aspell-0.60$
+- /usr/lib64/aspell-0.60/eo.dat$
+- /usr/lib64/aspell-0.60/eo.multi$
+- /usr/lib64/aspell-0.60/eo.rws$
+- /usr/lib64/aspell-0.60/eo_affix.dat$
+- /usr/lib64/aspell-0.60/esperanto.alias$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/aspell-eo-2.1.20000225.2$
+- /usr/share/doc/aspell-eo-2.1.20000225.2/README.bz2$
+- /usr/share/doc/aspell-eo-2.1.20000225.2/info.bz2$

@@ -1,0 +1,18 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/openssl-compat-1.0.2t-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libcrypto.so.1.0.0$
+- /usr/lib32/libssl.so.1.0.0$
+- /usr/lib64$
+- /usr/lib64/libcrypto.so.1.0.0$
+- /usr/lib64/libssl.so.1.0.0$

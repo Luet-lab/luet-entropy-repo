@@ -1,0 +1,33 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-dicts/myspell-pl-20130306
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/myspell-pl-20130306$
+- /usr/share/doc/myspell-pl-20130306/README_hyph_pl_PL.txt.bz2$
+- /usr/share/doc/myspell-pl-20130306/README_pl_PL.txt.bz2$
+- /usr/share/doc/myspell-pl-20130306/README_th_pl_PL_v2.txt.bz2$
+- /usr/share/doc/myspell-pl-20130306/hyph.txt.bz2$
+- /usr/share/doc/myspell-pl-20130306/spell.txt.bz2$
+- /usr/share/hunspell$
+- /usr/share/hunspell/pl_PL.aff$
+- /usr/share/hunspell/pl_PL.dic$
+- /usr/share/hyphen$
+- /usr/share/hyphen/hyph_pl_PL.dic$
+- /usr/share/myspell$
+- /usr/share/myspell/hyph_pl_PL.dic$
+- /usr/share/myspell/pl_PL.aff$
+- /usr/share/myspell/pl_PL.dic$
+- /usr/share/myspell/th_pl_PL_v2.dat$
+- /usr/share/myspell/th_pl_PL_v2.idx$
+- /usr/share/mythes$
+- /usr/share/mythes/th_pl_PL_v2.dat$
+- /usr/share/mythes/th_pl_PL_v2.idx$

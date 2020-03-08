@@ -1,0 +1,39 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-perl/Spreadsheet-ParseExcel-0.650.0
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/perl5$
+- /usr/lib64/perl5/vendor_perl$
+- /usr/lib64/perl5/vendor_perl/5.28.2$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Spreadsheet$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Spreadsheet/ParseExcel$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Spreadsheet/ParseExcel.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Spreadsheet/ParseExcel/Cell.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Spreadsheet/ParseExcel/Dump.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Spreadsheet/ParseExcel/FmtDefault.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Spreadsheet/ParseExcel/FmtJapan.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Spreadsheet/ParseExcel/FmtJapan2.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Spreadsheet/ParseExcel/FmtUnicode.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Spreadsheet/ParseExcel/Font.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Spreadsheet/ParseExcel/Format.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Spreadsheet/ParseExcel/SaveParser$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Spreadsheet/ParseExcel/SaveParser.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Spreadsheet/ParseExcel/SaveParser/Workbook.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Spreadsheet/ParseExcel/SaveParser/Worksheet.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Spreadsheet/ParseExcel/Utility.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Spreadsheet/ParseExcel/Workbook.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Spreadsheet/ParseExcel/Worksheet.pm$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/Spreadsheet-ParseExcel-0.650.0$
+- /usr/share/doc/Spreadsheet-ParseExcel-0.650.0/Changes.bz2$
+- /usr/share/doc/Spreadsheet-ParseExcel-0.650.0/README.bz2$
+- /usr/share/doc/Spreadsheet-ParseExcel-0.650.0/README_Japan.htm$

@@ -1,0 +1,35 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-crypt/mhash-0.9.9.9-r2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/mhash.h$
+- /usr/include/mutils$
+- /usr/include/mutils/mglobal.h$
+- /usr/include/mutils/mhash.h$
+- /usr/include/mutils/mhash_config.h$
+- /usr/include/mutils/mincludes.h$
+- /usr/include/mutils/mtypes.h$
+- /usr/include/mutils/mutils.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libmhash.so$
+- /usr/lib64/libmhash.so.2$
+- /usr/lib64/libmhash.so.2.0.1$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/mhash-0.9.9.9-r2$
+- /usr/share/doc/mhash-0.9.9.9-r2/example.c.bz2$
+- /usr/share/doc/mhash-0.9.9.9-r2/html$
+- /usr/share/doc/mhash-0.9.9.9-r2/html/mhash.html$
+- /usr/share/doc/mhash-0.9.9.9-r2/skid2-authentication.bz2$
+- /usr/share/man$
+- /usr/share/man/man3$
+- /usr/share/man/man3/mhash.3.bz2$

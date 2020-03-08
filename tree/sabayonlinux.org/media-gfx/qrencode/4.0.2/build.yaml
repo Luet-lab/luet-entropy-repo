@@ -1,0 +1,32 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-gfx/qrencode-4.0.2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/qrencode$
+- /usr/include$
+- /usr/include/qrencode.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libqrencode.so$
+- /usr/lib64/libqrencode.so.4$
+- /usr/lib64/libqrencode.so.4.0.2$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libqrencode.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/qrencode-4.0.2$
+- /usr/share/doc/qrencode-4.0.2/ChangeLog.bz2$
+- /usr/share/doc/qrencode-4.0.2/NEWS.bz2$
+- /usr/share/doc/qrencode-4.0.2/README.bz2$
+- /usr/share/doc/qrencode-4.0.2/TODO.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/qrencode.1.bz2$

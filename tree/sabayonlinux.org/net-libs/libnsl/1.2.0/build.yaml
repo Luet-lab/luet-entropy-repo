@@ -1,0 +1,46 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i net-libs/libnsl-1.2.0
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/rpcsvc$
+- /usr/include/rpcsvc/nis.h$
+- /usr/include/rpcsvc/nis.x$
+- /usr/include/rpcsvc/nis_callback.h$
+- /usr/include/rpcsvc/nis_callback.x$
+- /usr/include/rpcsvc/nis_object.x$
+- /usr/include/rpcsvc/nis_tags.h$
+- /usr/include/rpcsvc/nislib.h$
+- /usr/include/rpcsvc/yp.h$
+- /usr/include/rpcsvc/yp.x$
+- /usr/include/rpcsvc/yp_prot.h$
+- /usr/include/rpcsvc/ypclnt.h$
+- /usr/include/rpcsvc/yppasswd.h$
+- /usr/include/rpcsvc/yppasswd.x$
+- /usr/include/rpcsvc/ypupd.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libnsl.so$
+- /usr/lib32/libnsl.so.2$
+- /usr/lib32/libnsl.so.2.0.0$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/libnsl.pc$
+- /usr/lib64$
+- /usr/lib64/libnsl.so$
+- /usr/lib64/libnsl.so.2$
+- /usr/lib64/libnsl.so.2.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libnsl.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libnsl-1.2.0$
+- /usr/share/doc/libnsl-1.2.0/ChangeLog.bz2$
+- /usr/share/doc/libnsl-1.2.0/NEWS.bz2$
+- /usr/share/doc/libnsl-1.2.0/README.bz2$

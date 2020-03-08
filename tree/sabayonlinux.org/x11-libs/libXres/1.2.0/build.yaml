@@ -1,0 +1,36 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i x11-libs/libXres-1.2.0-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/X11$
+- /usr/include/X11/extensions$
+- /usr/include/X11/extensions/XRes.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libXRes.so$
+- /usr/lib64/libXRes.so.1$
+- /usr/lib64/libXRes.so.1.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/xres.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libXres-1.2.0-r1$
+- /usr/share/doc/libXres-1.2.0-r1/AUTHORS$
+- /usr/share/doc/libXres-1.2.0-r1/ChangeLog.bz2$
+- /usr/share/doc/libXres-1.2.0-r1/README.bz2$
+- /usr/share/man$
+- /usr/share/man/man3$
+- /usr/share/man/man3/XRes.3.bz2$
+- /usr/share/man/man3/XResQueryClientPixmapBytes.3$
+- /usr/share/man/man3/XResQueryClientResources.3$
+- /usr/share/man/man3/XResQueryClients.3$
+- /usr/share/man/man3/XResQueryExtension.3$
+- /usr/share/man/man3/XResQueryVersion.3$

@@ -1,0 +1,48 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-perl/Spreadsheet-WriteExcel-2.400.0
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/chartex$
+- /usr/lib64$
+- /usr/lib64/perl5$
+- /usr/lib64/perl5/vendor_perl$
+- /usr/lib64/perl5/vendor_perl/5.28.2$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Spreadsheet$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Spreadsheet/WriteExcel$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Spreadsheet/WriteExcel.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Spreadsheet/WriteExcel/BIFFwriter.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Spreadsheet/WriteExcel/Big.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Spreadsheet/WriteExcel/Chart$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Spreadsheet/WriteExcel/Chart.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Spreadsheet/WriteExcel/Chart/Area.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Spreadsheet/WriteExcel/Chart/Bar.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Spreadsheet/WriteExcel/Chart/Column.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Spreadsheet/WriteExcel/Chart/External.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Spreadsheet/WriteExcel/Chart/Line.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Spreadsheet/WriteExcel/Chart/Pie.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Spreadsheet/WriteExcel/Chart/Scatter.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Spreadsheet/WriteExcel/Chart/Stock.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Spreadsheet/WriteExcel/Examples.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Spreadsheet/WriteExcel/Format.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Spreadsheet/WriteExcel/Formula.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Spreadsheet/WriteExcel/OLEwriter.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Spreadsheet/WriteExcel/Properties.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Spreadsheet/WriteExcel/Utility.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Spreadsheet/WriteExcel/Workbook.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Spreadsheet/WriteExcel/Worksheet.pm$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/Spreadsheet-WriteExcel-2.400.0$
+- /usr/share/doc/Spreadsheet-WriteExcel-2.400.0/Changes.bz2$
+- /usr/share/doc/Spreadsheet-WriteExcel-2.400.0/README.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/chartex.1.bz2$

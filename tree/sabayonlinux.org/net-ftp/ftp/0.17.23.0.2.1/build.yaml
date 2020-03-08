@@ -1,0 +1,25 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i net-ftp/ftp-0.17.23.0.2.1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/ftp$
+- /usr/lib$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/ftp-0.17.23.0.2.1$
+- /usr/share/doc/ftp-0.17.23.0.2.1/BUGS$
+- /usr/share/doc/ftp-0.17.23.0.2.1/ChangeLog.bz2$
+- /usr/share/doc/ftp-0.17.23.0.2.1/README.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/ftp.1.bz2$
+- /usr/share/man/man5$
+- /usr/share/man/man5/netrc.5.bz2$

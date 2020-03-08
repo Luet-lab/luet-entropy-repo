@@ -1,0 +1,29 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i sys-apps/ed-1.15-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /bin$
+- /bin/ed$
+- /bin/red$
+- /usr$
+- /usr/lib$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/ed-1.15-r1$
+- /usr/share/doc/ed-1.15-r1/AUTHORS.bz2$
+- /usr/share/doc/ed-1.15-r1/ChangeLog.bz2$
+- /usr/share/doc/ed-1.15-r1/NEWS.bz2$
+- /usr/share/doc/ed-1.15-r1/README.bz2$
+- /usr/share/doc/ed-1.15-r1/TODO.bz2$
+- /usr/share/info$
+- /usr/share/info/ed.info.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/ed.1.bz2$
+- /usr/share/man/man1/red.1.bz2$

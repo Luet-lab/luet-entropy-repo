@@ -1,0 +1,27 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-java/javacup-0.11b_p20151001
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/javacup$
+- /usr/share$
+- /usr/share/ant$
+- /usr/share/ant/tasks$
+- /usr/share/ant/tasks/javacup$
+- /usr/share/doc$
+- /usr/share/doc/javacup-0.11b_p20151001$
+- /usr/share/doc/javacup-0.11b_p20151001/changelog.txt.bz2$
+- /usr/share/doc/javacup-0.11b_p20151001/html$
+- /usr/share/doc/javacup-0.11b_p20151001/html/manual.html$
+- /usr/share/javacup$
+- /usr/share/javacup/lib$
+- /usr/share/javacup/lib/javacup-runtime.jar$
+- /usr/share/javacup/lib/javacup.jar$
+- /usr/share/javacup/package.env$

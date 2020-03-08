@@ -1,0 +1,14 @@
+
+category: "net-libs"
+name: "miniupnpc"
+version: "2.1.20191224"
+requires:
+- category: "sys-apps"
+  name: "lsb-release"
+  version: ">=1.4"
+- category: "dev-lang"
+  name: "perl"
+  version: ">=5.28.2"
+- category: "sys-apps"
+  name: "which"
+  version: ">=2.21"

@@ -1,0 +1,48 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i sys-auth/skey-1.1.5-r11
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /etc$
+- /etc/skey$
+- /etc/skey/.keep_sys-auth_skey-0$
+- /lib64$
+- /lib64/libskey.so$
+- /lib64/libskey.so.1$
+- /lib64/libskey.so.1.1$
+- /lib64/libskey.so.1.1.5$
+- /usr$
+- /usr/bin$
+- /usr/bin/otp-md4$
+- /usr/bin/otp-md5$
+- /usr/bin/otp-sha1$
+- /usr/bin/skey$
+- /usr/bin/skeyaudit$
+- /usr/bin/skeyinfo$
+- /usr/bin/skeyinit$
+- /usr/include$
+- /usr/include/skey.h$
+- /usr/lib$
+- /usr/sbin$
+- /usr/sbin/skeyprune$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/skey-1.1.5-r11$
+- /usr/share/doc/skey-1.1.5-r11/CHANGES.bz2$
+- /usr/share/doc/skey-1.1.5-r11/README.bz2$
+- /usr/share/doc/skey-1.1.5-r11/README.gentoo$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/skey.1.bz2$
+- /usr/share/man/man1/skeyaudit.1.bz2$
+- /usr/share/man/man1/skeyinfo.1.bz2$
+- /usr/share/man/man1/skeyinit.1.bz2$
+- /usr/share/man/man3$
+- /usr/share/man/man3/skey.3.bz2$
+- /usr/share/man/man8$
+- /usr/share/man/man8/skeyprune.8.bz2$

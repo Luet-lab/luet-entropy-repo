@@ -1,0 +1,37 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i gui-libs/libwpe-1.4.0.1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/wpe-1.0$
+- /usr/include/wpe-1.0/wpe$
+- /usr/include/wpe-1.0/wpe/export.h$
+- /usr/include/wpe-1.0/wpe/input.h$
+- /usr/include/wpe-1.0/wpe/keysyms.h$
+- /usr/include/wpe-1.0/wpe/loader.h$
+- /usr/include/wpe-1.0/wpe/pasteboard.h$
+- /usr/include/wpe-1.0/wpe/renderer-backend-egl.h$
+- /usr/include/wpe-1.0/wpe/renderer-host.h$
+- /usr/include/wpe-1.0/wpe/version-deprecated.h$
+- /usr/include/wpe-1.0/wpe/version.h$
+- /usr/include/wpe-1.0/wpe/view-backend.h$
+- /usr/include/wpe-1.0/wpe/wpe-egl.h$
+- /usr/include/wpe-1.0/wpe/wpe.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libwpe-1.0.so$
+- /usr/lib64/libwpe-1.0.so.1$
+- /usr/lib64/libwpe-1.0.so.1.2.3$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/wpe-1.0.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libwpe-1.4.0.1$
+- /usr/share/doc/libwpe-1.4.0.1/NEWS.bz2$

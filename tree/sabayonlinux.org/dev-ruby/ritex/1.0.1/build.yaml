@@ -1,0 +1,33 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/ritex-1.0.1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/ritex-1.0.1$
+- /usr/lib64/ruby/gems/2.5.0/gems/ritex-1.0.1/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/ritex-1.0.1/lib/ritex$
+- /usr/lib64/ruby/gems/2.5.0/gems/ritex-1.0.1/lib/ritex.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/ritex-1.0.1/lib/ritex/lexer.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/ritex-1.0.1/lib/ritex/mathml$
+- /usr/lib64/ruby/gems/2.5.0/gems/ritex-1.0.1/lib/ritex/mathml/entities.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/ritex-1.0.1/lib/ritex/mathml/functions.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/ritex-1.0.1/lib/ritex/mathml/markup.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/ritex-1.0.1/lib/ritex/parser.rb$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/ritex-1.0.1.gemspec$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/ritex-1.0.1$
+- /usr/share/doc/ritex-1.0.1/README.bz2$
+- /usr/share/doc/ritex-1.0.1/ReleaseNotes.bz2$

@@ -1,0 +1,84 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/incremental-17.5.0
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/python2.7$
+- /usr/lib64/python2.7/site-packages$
+- /usr/lib64/python2.7/site-packages/incremental$
+- /usr/lib64/python2.7/site-packages/incremental-17.5.0-py2.7.egg-info$
+- /usr/lib64/python2.7/site-packages/incremental-17.5.0-py2.7.egg-info/PKG-INFO$
+- /usr/lib64/python2.7/site-packages/incremental-17.5.0-py2.7.egg-info/SOURCES.txt$
+- /usr/lib64/python2.7/site-packages/incremental-17.5.0-py2.7.egg-info/dependency_links.txt$
+- /usr/lib64/python2.7/site-packages/incremental-17.5.0-py2.7.egg-info/entry_points.txt$
+- /usr/lib64/python2.7/site-packages/incremental-17.5.0-py2.7.egg-info/not-zip-safe$
+- /usr/lib64/python2.7/site-packages/incremental-17.5.0-py2.7.egg-info/requires.txt$
+- /usr/lib64/python2.7/site-packages/incremental-17.5.0-py2.7.egg-info/top_level.txt$
+- /usr/lib64/python2.7/site-packages/incremental/__init__.py$
+- /usr/lib64/python2.7/site-packages/incremental/__init__.pyc$
+- /usr/lib64/python2.7/site-packages/incremental/__init__.pyo$
+- /usr/lib64/python2.7/site-packages/incremental/_version.py$
+- /usr/lib64/python2.7/site-packages/incremental/_version.pyc$
+- /usr/lib64/python2.7/site-packages/incremental/_version.pyo$
+- /usr/lib64/python2.7/site-packages/incremental/tests$
+- /usr/lib64/python2.7/site-packages/incremental/tests/__init__.py$
+- /usr/lib64/python2.7/site-packages/incremental/tests/__init__.pyc$
+- /usr/lib64/python2.7/site-packages/incremental/tests/__init__.pyo$
+- /usr/lib64/python2.7/site-packages/incremental/tests/test_update.py$
+- /usr/lib64/python2.7/site-packages/incremental/tests/test_update.pyc$
+- /usr/lib64/python2.7/site-packages/incremental/tests/test_update.pyo$
+- /usr/lib64/python2.7/site-packages/incremental/tests/test_version.py$
+- /usr/lib64/python2.7/site-packages/incremental/tests/test_version.pyc$
+- /usr/lib64/python2.7/site-packages/incremental/tests/test_version.pyo$
+- /usr/lib64/python2.7/site-packages/incremental/update.py$
+- /usr/lib64/python2.7/site-packages/incremental/update.pyc$
+- /usr/lib64/python2.7/site-packages/incremental/update.pyo$
+- /usr/lib64/python3.6$
+- /usr/lib64/python3.6/site-packages$
+- /usr/lib64/python3.6/site-packages/incremental$
+- /usr/lib64/python3.6/site-packages/incremental-17.5.0-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/incremental-17.5.0-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/incremental-17.5.0-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/incremental-17.5.0-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/incremental-17.5.0-py3.6.egg-info/entry_points.txt$
+- /usr/lib64/python3.6/site-packages/incremental-17.5.0-py3.6.egg-info/not-zip-safe$
+- /usr/lib64/python3.6/site-packages/incremental-17.5.0-py3.6.egg-info/requires.txt$
+- /usr/lib64/python3.6/site-packages/incremental-17.5.0-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/incremental/__init__.py$
+- /usr/lib64/python3.6/site-packages/incremental/__pycache__$
+- /usr/lib64/python3.6/site-packages/incremental/__pycache__/__init__.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/incremental/__pycache__/__init__.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/incremental/__pycache__/__init__.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/incremental/__pycache__/_version.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/incremental/__pycache__/_version.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/incremental/__pycache__/_version.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/incremental/__pycache__/update.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/incremental/__pycache__/update.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/incremental/__pycache__/update.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/incremental/_version.py$
+- /usr/lib64/python3.6/site-packages/incremental/tests$
+- /usr/lib64/python3.6/site-packages/incremental/tests/__init__.py$
+- /usr/lib64/python3.6/site-packages/incremental/tests/__pycache__$
+- /usr/lib64/python3.6/site-packages/incremental/tests/__pycache__/__init__.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/incremental/tests/__pycache__/__init__.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/incremental/tests/__pycache__/__init__.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/incremental/tests/__pycache__/test_update.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/incremental/tests/__pycache__/test_update.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/incremental/tests/__pycache__/test_update.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/incremental/tests/__pycache__/test_version.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/incremental/tests/__pycache__/test_version.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/incremental/tests/__pycache__/test_version.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/incremental/tests/test_update.py$
+- /usr/lib64/python3.6/site-packages/incremental/tests/test_version.py$
+- /usr/lib64/python3.6/site-packages/incremental/update.py$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/incremental-17.5.0$
+- /usr/share/doc/incremental-17.5.0/README.rst.bz2$

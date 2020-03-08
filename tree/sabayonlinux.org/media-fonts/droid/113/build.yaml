@@ -1,0 +1,42 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-fonts/droid-113-r5
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /etc$
+- /etc/fonts$
+- /etc/fonts/conf.avail$
+- /etc/fonts/conf.avail/59-google-droid-sans-mono.conf$
+- /etc/fonts/conf.avail/59-google-droid-sans.conf$
+- /etc/fonts/conf.avail/59-google-droid-serif.conf$
+- /usr$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/droid-113-r5$
+- /usr/share/doc/droid-113-r5/README.txt.bz2$
+- /usr/share/fonts$
+- /usr/share/fonts/droid$
+- /usr/share/fonts/droid/Clockopia.ttf$
+- /usr/share/fonts/droid/DroidSans-Bold.ttf$
+- /usr/share/fonts/droid/DroidSans.ttf$
+- /usr/share/fonts/droid/DroidSansArabic.ttf$
+- /usr/share/fonts/droid/DroidSansFallback.ttf$
+- /usr/share/fonts/droid/DroidSansFallbackLegacy.ttf$
+- /usr/share/fonts/droid/DroidSansHebrew.ttf$
+- /usr/share/fonts/droid/DroidSansJapanese.ttf$
+- /usr/share/fonts/droid/DroidSansMono.ttf$
+- /usr/share/fonts/droid/DroidSansMonoDotted.ttf$
+- /usr/share/fonts/droid/DroidSansMonoSlashed.ttf$
+- /usr/share/fonts/droid/DroidSansThai.ttf$
+- /usr/share/fonts/droid/DroidSerif-Bold.ttf$
+- /usr/share/fonts/droid/DroidSerif-BoldItalic.ttf$
+- /usr/share/fonts/droid/DroidSerif-Italic.ttf$
+- /usr/share/fonts/droid/DroidSerif-Regular.ttf$
+- /usr/share/fonts/droid/encodings.dir$
+- /usr/share/fonts/droid/fonts.dir$
+- /usr/share/fonts/droid/fonts.scale$

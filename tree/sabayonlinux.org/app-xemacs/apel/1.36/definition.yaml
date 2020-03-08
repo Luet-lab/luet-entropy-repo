@@ -1,0 +1,14 @@
+
+category: "app-xemacs"
+name: "apel"
+version: "1.36"
+requires:
+- category: "app-xemacs"
+  name: "fsf-compat"
+  version: ">=1.24"
+- category: "app-xemacs"
+  name: "xemacs-base"
+  version: ">=2.46"
+- category: "app-editors"
+  name: "xemacs"
+  version: ">=21.5.34"

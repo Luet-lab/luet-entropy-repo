@@ -1,0 +1,54 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-fonts/arphicfonts-0.2.20080216.1-r2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /etc$
+- /etc/fonts$
+- /etc/fonts/conf.avail$
+- /etc/fonts/conf.avail/25-ttf-arphic-ukai-render.conf$
+- /etc/fonts/conf.avail/25-ttf-arphic-uming-bitmaps.conf$
+- /etc/fonts/conf.avail/25-ttf-arphic-uming-render.conf$
+- /etc/fonts/conf.avail/35-ttf-arphic-ukai-aliases.conf$
+- /etc/fonts/conf.avail/35-ttf-arphic-uming-aliases.conf$
+- /etc/fonts/conf.avail/41-ttf-arphic-ukai.conf$
+- /etc/fonts/conf.avail/41-ttf-arphic-uming.conf$
+- /etc/fonts/conf.avail/64-ttf-arphic-uming.conf$
+- /etc/fonts/conf.avail/75-ttf-arphic-ukai-select.conf$
+- /etc/fonts/conf.avail/90-ttf-arphic-ukai-embolden.conf$
+- /etc/fonts/conf.avail/90-ttf-arphic-uming-embolden.conf$
+- /usr$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/arphicfonts-0.2.20080216.1-r2$
+- /usr/share/doc/arphicfonts-0.2.20080216.1-r2/ukai$
+- /usr/share/doc/arphicfonts-0.2.20080216.1-r2/ukai/CONTRIBUTERS.bz2$
+- /usr/share/doc/arphicfonts-0.2.20080216.1-r2/ukai/FONTLOG.bz2$
+- /usr/share/doc/arphicfonts-0.2.20080216.1-r2/ukai/KNOWN_ISSUES.bz2$
+- /usr/share/doc/arphicfonts-0.2.20080216.1-r2/ukai/NEWS.bz2$
+- /usr/share/doc/arphicfonts-0.2.20080216.1-r2/ukai/README.bz2$
+- /usr/share/doc/arphicfonts-0.2.20080216.1-r2/ukai/TODO$
+- /usr/share/doc/arphicfonts-0.2.20080216.1-r2/uming$
+- /usr/share/doc/arphicfonts-0.2.20080216.1-r2/uming/CONTRIBUTERS.bz2$
+- /usr/share/doc/arphicfonts-0.2.20080216.1-r2/uming/FONTLOG.bz2$
+- /usr/share/doc/arphicfonts-0.2.20080216.1-r2/uming/KNOWN_ISSUES.bz2$
+- /usr/share/doc/arphicfonts-0.2.20080216.1-r2/uming/NEWS.bz2$
+- /usr/share/doc/arphicfonts-0.2.20080216.1-r2/uming/README.Bitmap.bz2$
+- /usr/share/doc/arphicfonts-0.2.20080216.1-r2/uming/README.bz2$
+- /usr/share/doc/arphicfonts-0.2.20080216.1-r2/uming/TODO$
+- /usr/share/fonts$
+- /usr/share/fonts/arphicfonts$
+- /usr/share/fonts/arphicfonts/bkai00mp.ttf$
+- /usr/share/fonts/arphicfonts/bsmi00lp.ttf$
+- /usr/share/fonts/arphicfonts/encodings.dir$
+- /usr/share/fonts/arphicfonts/fonts.dir$
+- /usr/share/fonts/arphicfonts/fonts.scale$
+- /usr/share/fonts/arphicfonts/gbsn00lp.ttf$
+- /usr/share/fonts/arphicfonts/gkai00mp.ttf$
+- /usr/share/fonts/arphicfonts/ukai.ttc$
+- /usr/share/fonts/arphicfonts/uming.ttc$

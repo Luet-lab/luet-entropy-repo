@@ -1,0 +1,46 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i net-fs/libnfs-2.0.0
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/nfs-cat$
+- /usr/bin/nfs-cp$
+- /usr/bin/nfs-ls$
+- /usr/include$
+- /usr/include/nfsc$
+- /usr/include/nfsc/libnfs-raw-mount.h$
+- /usr/include/nfsc/libnfs-raw-nfs.h$
+- /usr/include/nfsc/libnfs-raw-nfs4.h$
+- /usr/include/nfsc/libnfs-raw-nlm.h$
+- /usr/include/nfsc/libnfs-raw-nsm.h$
+- /usr/include/nfsc/libnfs-raw-portmap.h$
+- /usr/include/nfsc/libnfs-raw-rquota.h$
+- /usr/include/nfsc/libnfs-raw.h$
+- /usr/include/nfsc/libnfs-zdr.h$
+- /usr/include/nfsc/libnfs.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libnfs.so$
+- /usr/lib64/libnfs.so.11$
+- /usr/lib64/libnfs.so.11.0.0$
+- /usr/lib64/libnfs.so.8$
+- /usr/lib64/libnfs.so.8.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libnfs.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libnfs-2.0.0$
+- /usr/share/doc/libnfs-2.0.0/CHANGELOG.bz2$
+- /usr/share/doc/libnfs-2.0.0/README.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/nfs-cat.1.bz2$
+- /usr/share/man/man1/nfs-cp.1.bz2$
+- /usr/share/man/man1/nfs-ls.1.bz2$

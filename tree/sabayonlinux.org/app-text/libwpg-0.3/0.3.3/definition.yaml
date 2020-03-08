@@ -1,0 +1,17 @@
+
+category: "app-text"
+name: "libwpg-0.3"
+version: "0.3.3"
+requires:
+- category: "app-text"
+  name: "libwpd-0.10"
+  version: ">=0.10.3"
+- category: "dev-libs"
+  name: "librevenge"
+  version: ">=0.0.4"
+- category: "dev-libs"
+  name: "boost"
+  version: ">=1.71.0"
+- category: "app-doc"
+  name: "doxygen"
+  version: ">=1.8.15"

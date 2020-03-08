@@ -1,0 +1,26 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-arch/lzip-1.21
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/lzip$
+- /usr/lib$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/lzip-1.21$
+- /usr/share/doc/lzip-1.21/AUTHORS.bz2$
+- /usr/share/doc/lzip-1.21/ChangeLog.bz2$
+- /usr/share/doc/lzip-1.21/NEWS.bz2$
+- /usr/share/doc/lzip-1.21/README.bz2$
+- /usr/share/info$
+- /usr/share/info/lzip.info.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/lzip.1.bz2$

@@ -1,0 +1,33 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i x11-apps/xinit-1.4.1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /etc$
+- /etc/X11$
+- /etc/X11/Sessions$
+- /etc/X11/Sessions/Xsession$
+- /etc/X11/chooser.sh$
+- /etc/X11/startDM.sh$
+- /etc/X11/xinit$
+- /etc/X11/xinit/xinitrc$
+- /etc/X11/xinit/xinitrc.d$
+- /etc/X11/xinit/xinitrc.d/00-xhost$
+- /etc/X11/xinit/xserverrc$
+- /usr$
+- /usr/bin$
+- /usr/bin/startx$
+- /usr/bin/xinit$
+- /usr/lib$
+- /usr/share$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/startx.1.bz2$
+- /usr/share/man/man1/xinit.1.bz2$
+- /usr/share/xsessions$
+- /usr/share/xsessions/Xsession.desktop$

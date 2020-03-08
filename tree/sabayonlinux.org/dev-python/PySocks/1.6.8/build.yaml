@@ -1,0 +1,45 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/PySocks-1.6.8
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/python2.7$
+- /usr/lib64/python2.7/site-packages$
+- /usr/lib64/python2.7/site-packages/PySocks-1.6.8-py2.7.egg-info$
+- /usr/lib64/python2.7/site-packages/PySocks-1.6.8-py2.7.egg-info/PKG-INFO$
+- /usr/lib64/python2.7/site-packages/PySocks-1.6.8-py2.7.egg-info/SOURCES.txt$
+- /usr/lib64/python2.7/site-packages/PySocks-1.6.8-py2.7.egg-info/dependency_links.txt$
+- /usr/lib64/python2.7/site-packages/PySocks-1.6.8-py2.7.egg-info/top_level.txt$
+- /usr/lib64/python2.7/site-packages/socks.py$
+- /usr/lib64/python2.7/site-packages/socks.pyc$
+- /usr/lib64/python2.7/site-packages/socks.pyo$
+- /usr/lib64/python2.7/site-packages/sockshandler.py$
+- /usr/lib64/python2.7/site-packages/sockshandler.pyc$
+- /usr/lib64/python2.7/site-packages/sockshandler.pyo$
+- /usr/lib64/python3.6$
+- /usr/lib64/python3.6/site-packages$
+- /usr/lib64/python3.6/site-packages/PySocks-1.6.8-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/PySocks-1.6.8-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/PySocks-1.6.8-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/PySocks-1.6.8-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/PySocks-1.6.8-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/__pycache__$
+- /usr/lib64/python3.6/site-packages/__pycache__/socks.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/__pycache__/socks.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/__pycache__/socks.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/__pycache__/sockshandler.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/__pycache__/sockshandler.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/__pycache__/sockshandler.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/socks.py$
+- /usr/lib64/python3.6/site-packages/sockshandler.py$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/PySocks-1.6.8$
+- /usr/share/doc/PySocks-1.6.8/README.md.bz2$

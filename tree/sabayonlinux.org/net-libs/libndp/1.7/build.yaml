@@ -1,0 +1,35 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i net-libs/libndp-1.7
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/ndptool$
+- /usr/include$
+- /usr/include/ndp.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libndp.so$
+- /usr/lib32/libndp.so.0$
+- /usr/lib32/libndp.so.0.1.1$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/libndp.pc$
+- /usr/lib64$
+- /usr/lib64/libndp.so$
+- /usr/lib64/libndp.so.0$
+- /usr/lib64/libndp.so.0.1.1$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libndp.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libndp-1.7$
+- /usr/share/doc/libndp-1.7/README.bz2$
+- /usr/share/man$
+- /usr/share/man/man8$
+- /usr/share/man/man8/ndptool.8.bz2$

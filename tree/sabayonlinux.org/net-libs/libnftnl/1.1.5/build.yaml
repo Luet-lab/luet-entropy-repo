@@ -1,0 +1,34 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i net-libs/libnftnl-1.1.5
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /lib64$
+- /lib64/libnftnl.so.11$
+- /lib64/libnftnl.so.11.2.0$
+- /usr$
+- /usr/include$
+- /usr/include/libnftnl$
+- /usr/include/libnftnl/batch.h$
+- /usr/include/libnftnl/chain.h$
+- /usr/include/libnftnl/common.h$
+- /usr/include/libnftnl/expr.h$
+- /usr/include/libnftnl/flowtable.h$
+- /usr/include/libnftnl/gen.h$
+- /usr/include/libnftnl/object.h$
+- /usr/include/libnftnl/rule.h$
+- /usr/include/libnftnl/ruleset.h$
+- /usr/include/libnftnl/set.h$
+- /usr/include/libnftnl/table.h$
+- /usr/include/libnftnl/trace.h$
+- /usr/include/libnftnl/udata.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libnftnl.so$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libnftnl.pc$

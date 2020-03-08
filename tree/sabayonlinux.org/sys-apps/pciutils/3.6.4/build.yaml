@@ -1,0 +1,59 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i sys-apps/pciutils-3.6.4
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /etc$
+- /etc/conf.d$
+- /etc/conf.d/pciparm$
+- /etc/init.d$
+- /etc/init.d/pciparm$
+- /usr$
+- /usr/include$
+- /usr/include/i686-pc-linux-gnu$
+- /usr/include/i686-pc-linux-gnu/pci$
+- /usr/include/i686-pc-linux-gnu/pci/config.h$
+- /usr/include/pci$
+- /usr/include/pci/config.h$
+- /usr/include/pci/header.h$
+- /usr/include/pci/pci.h$
+- /usr/include/pci/types.h$
+- /usr/include/x86_64-pc-linux-gnu$
+- /usr/include/x86_64-pc-linux-gnu/pci$
+- /usr/include/x86_64-pc-linux-gnu/pci/config.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libpci.so$
+- /usr/lib32/libpci.so.3$
+- /usr/lib32/libpci.so.3.6.4$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/libpci.pc$
+- /usr/lib64$
+- /usr/lib64/libpci.so$
+- /usr/lib64/libpci.so.3$
+- /usr/lib64/libpci.so.3.6.4$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libpci.pc$
+- /usr/sbin$
+- /usr/sbin/lspci$
+- /usr/sbin/setpci$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/pciutils-3.6.4$
+- /usr/share/doc/pciutils-3.6.4/ChangeLog.bz2$
+- /usr/share/doc/pciutils-3.6.4/README.bz2$
+- /usr/share/doc/pciutils-3.6.4/TODO.bz2$
+- /usr/share/man$
+- /usr/share/man/man5$
+- /usr/share/man/man5/pci.ids.5.bz2$
+- /usr/share/man/man7$
+- /usr/share/man/man7/pcilib.7.bz2$
+- /usr/share/man/man8$
+- /usr/share/man/man8/lspci.8.bz2$
+- /usr/share/man/man8/setpci.8.bz2$
+- /usr/share/misc$

@@ -1,0 +1,21 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-java/xsdlib-20090415
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/xsdlib-20090415$
+- /usr/share/doc/xsdlib-20090415/README.txt.bz2$
+- /usr/share/doc/xsdlib-20090415/html$
+- /usr/share/doc/xsdlib-20090415/html/HowToUse.html$
+- /usr/share/xsdlib$
+- /usr/share/xsdlib/lib$
+- /usr/share/xsdlib/lib/xsdlib.jar$
+- /usr/share/xsdlib/package.env$

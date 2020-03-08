@@ -1,0 +1,25 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i x11-wm/twm-1.0.10
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/twm$
+- /usr/lib$
+- /usr/share$
+- /usr/share/X11$
+- /usr/share/X11/twm$
+- /usr/share/X11/twm/system.twmrc$
+- /usr/share/doc$
+- /usr/share/doc/twm-1.0.10$
+- /usr/share/doc/twm-1.0.10/ChangeLog.bz2$
+- /usr/share/doc/twm-1.0.10/README.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/twm.1.bz2$

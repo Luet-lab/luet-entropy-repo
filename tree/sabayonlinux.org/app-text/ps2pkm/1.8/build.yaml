@@ -1,0 +1,31 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-text/ps2pkm-1.8_p20190410
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/mag$
+- /usr/bin/pfb2pfa$
+- /usr/bin/pk2bm$
+- /usr/bin/ps2pk$
+- /usr/lib$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/ps2pkm-1.8_p20190410$
+- /usr/share/doc/ps2pkm-1.8_p20190410/CHANGES.type1.bz2$
+- /usr/share/doc/ps2pkm-1.8_p20190410/ChangeLog.bz2$
+- /usr/share/doc/ps2pkm-1.8_p20190410/README.14m.bz2$
+- /usr/share/doc/ps2pkm-1.8_p20190410/README.bz2$
+- /usr/share/doc/ps2pkm-1.8_p20190410/README.type1.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/mag.1.bz2$
+- /usr/share/man/man1/pfb2pfa.1.bz2$
+- /usr/share/man/man1/pk2bm.1.bz2$
+- /usr/share/man/man1/ps2pk.1.bz2$

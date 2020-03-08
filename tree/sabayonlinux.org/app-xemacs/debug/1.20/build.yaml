@@ -1,0 +1,40 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-xemacs/debug-1.20
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib/xemacs$
+- /usr/lib/xemacs/xemacs-packages$
+- /usr/lib/xemacs/xemacs-packages/lisp$
+- /usr/lib/xemacs/xemacs-packages/lisp/debug$
+- /usr/lib/xemacs/xemacs-packages/lisp/debug/ChangeLog$
+- /usr/lib/xemacs/xemacs-packages/lisp/debug/_pkg.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/debug/auto-autoloads.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/debug/auto-autoloads.elc$
+- /usr/lib/xemacs/xemacs-packages/lisp/debug/custom-load.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/debug/custom-load.elc$
+- /usr/lib/xemacs/xemacs-packages/lisp/debug/dbx.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/debug/dbx.elc$
+- /usr/lib/xemacs/xemacs-packages/lisp/debug/debug-toolbar.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/debug/debug-toolbar.elc$
+- /usr/lib/xemacs/xemacs-packages/lisp/debug/gdb-highlight.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/debug/gdb-highlight.elc$
+- /usr/lib/xemacs/xemacs-packages/lisp/debug/gdb.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/debug/gdb.elc$
+- /usr/lib/xemacs/xemacs-packages/lisp/debug/gdbsrc.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/debug/gdbsrc.elc$
+- /usr/lib/xemacs/xemacs-packages/lisp/debug/gud.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/debug/gud.elc$
+- /usr/lib/xemacs/xemacs-packages/lisp/debug/history.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/debug/history.elc$
+- /usr/lib/xemacs/xemacs-packages/lisp/debug/pdb.el$
+- /usr/lib/xemacs/xemacs-packages/lisp/debug/pdb.elc$
+- /usr/lib/xemacs/xemacs-packages/pkginfo$
+- /usr/lib/xemacs/xemacs-packages/pkginfo/MANIFEST.debug$

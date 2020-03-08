@@ -1,0 +1,24 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i sys-fs/udev-init-scripts-33
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /etc$
+- /etc/conf.d$
+- /etc/conf.d/udev$
+- /etc/conf.d/udev-settle$
+- /etc/conf.d/udev-trigger$
+- /etc/init.d$
+- /etc/init.d/udev$
+- /etc/init.d/udev-settle$
+- /etc/init.d/udev-trigger$
+- /usr$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/udev-init-scripts-33$
+- /usr/share/doc/udev-init-scripts-33/AUTHORS.bz2$

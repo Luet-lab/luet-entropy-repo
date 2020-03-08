@@ -1,0 +1,90 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-db/libiodbc-3.52.12
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/i686-pc-linux-gnu-iodbc-config$
+- /usr/bin/iodbc-config$
+- /usr/bin/iodbcadm-gtk$
+- /usr/bin/iodbctest$
+- /usr/bin/iodbctestw$
+- /usr/bin/x86_64-pc-linux-gnu-iodbc-config$
+- /usr/include$
+- /usr/include/iodbc$
+- /usr/include/iodbc/iodbcext.h$
+- /usr/include/iodbc/iodbcinst.h$
+- /usr/include/iodbc/iodbcunix.h$
+- /usr/include/iodbc/isql.h$
+- /usr/include/iodbc/isqlext.h$
+- /usr/include/iodbc/isqltypes.h$
+- /usr/include/iodbc/odbcinst.h$
+- /usr/include/iodbc/sql.h$
+- /usr/include/iodbc/sqlext.h$
+- /usr/include/iodbc/sqltypes.h$
+- /usr/include/iodbc/sqlucode.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libdrvproxy.la$
+- /usr/lib32/libdrvproxy.so$
+- /usr/lib32/libdrvproxy.so.2$
+- /usr/lib32/libdrvproxy.so.2.1.25$
+- /usr/lib32/libiodbc.la$
+- /usr/lib32/libiodbc.so$
+- /usr/lib32/libiodbc.so.2$
+- /usr/lib32/libiodbc.so.2.1.25$
+- /usr/lib32/libiodbcadm.la$
+- /usr/lib32/libiodbcadm.so$
+- /usr/lib32/libiodbcadm.so.2$
+- /usr/lib32/libiodbcadm.so.2.1.25$
+- /usr/lib32/libiodbcinst.la$
+- /usr/lib32/libiodbcinst.so$
+- /usr/lib32/libiodbcinst.so.2$
+- /usr/lib32/libiodbcinst.so.2.1.25$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/libiodbc.pc$
+- /usr/lib64$
+- /usr/lib64/libdrvproxy.la$
+- /usr/lib64/libdrvproxy.so$
+- /usr/lib64/libdrvproxy.so.2$
+- /usr/lib64/libdrvproxy.so.2.1.25$
+- /usr/lib64/libiodbc.la$
+- /usr/lib64/libiodbc.so$
+- /usr/lib64/libiodbc.so.2$
+- /usr/lib64/libiodbc.so.2.1.25$
+- /usr/lib64/libiodbcadm.la$
+- /usr/lib64/libiodbcadm.so$
+- /usr/lib64/libiodbcadm.so.2$
+- /usr/lib64/libiodbcadm.so.2.1.25$
+- /usr/lib64/libiodbcinst.la$
+- /usr/lib64/libiodbcinst.so$
+- /usr/lib64/libiodbcinst.so.2$
+- /usr/lib64/libiodbcinst.so.2.1.25$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libiodbc.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libiodbc-3.52.12$
+- /usr/share/doc/libiodbc-3.52.12/AUTHORS.bz2$
+- /usr/share/doc/libiodbc-3.52.12/NEWS.bz2$
+- /usr/share/doc/libiodbc-3.52.12/README.bz2$
+- /usr/share/libiodbc$
+- /usr/share/libiodbc/samples$
+- /usr/share/libiodbc/samples/Makefile$
+- /usr/share/libiodbc/samples/iodbctest.c$
+- /usr/share/lintian$
+- /usr/share/lintian/overrides$
+- /usr/share/lintian/overrides/iodbc$
+- /usr/share/lintian/overrides/libiodbc2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/iodbc-config.1.bz2$
+- /usr/share/man/man1/iodbcadm-gtk.1.bz2$
+- /usr/share/man/man1/iodbctest.1.bz2$
+- /usr/share/man/man1/iodbctestw.1$

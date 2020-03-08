@@ -1,0 +1,73 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-qt/qtopengl-5.14.1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/qt5$
+- /usr/include/qt5/QtOpenGL$
+- /usr/include/qt5/QtOpenGL/5.14.1$
+- /usr/include/qt5/QtOpenGL/5.14.1/QtOpenGL$
+- /usr/include/qt5/QtOpenGL/5.14.1/QtOpenGL/private$
+- /usr/include/qt5/QtOpenGL/5.14.1/QtOpenGL/private/qgl2pexvertexarray_p.h$
+- /usr/include/qt5/QtOpenGL/5.14.1/QtOpenGL/private/qgl_p.h$
+- /usr/include/qt5/QtOpenGL/5.14.1/QtOpenGL/private/qglcustomshaderstage_p.h$
+- /usr/include/qt5/QtOpenGL/5.14.1/QtOpenGL/private/qglengineshadermanager_p.h$
+- /usr/include/qt5/QtOpenGL/5.14.1/QtOpenGL/private/qglengineshadersource_p.h$
+- /usr/include/qt5/QtOpenGL/5.14.1/QtOpenGL/private/qglframebufferobject_p.h$
+- /usr/include/qt5/QtOpenGL/5.14.1/QtOpenGL/private/qglgradientcache_p.h$
+- /usr/include/qt5/QtOpenGL/5.14.1/QtOpenGL/private/qglpaintdevice_p.h$
+- /usr/include/qt5/QtOpenGL/5.14.1/QtOpenGL/private/qglpixelbuffer_p.h$
+- /usr/include/qt5/QtOpenGL/5.14.1/QtOpenGL/private/qglshadercache_p.h$
+- /usr/include/qt5/QtOpenGL/5.14.1/QtOpenGL/private/qgraphicsshadereffect_p.h$
+- /usr/include/qt5/QtOpenGL/5.14.1/QtOpenGL/private/qpaintengineex_opengl2_p.h$
+- /usr/include/qt5/QtOpenGL/5.14.1/QtOpenGL/private/qtextureglyphcache_gl_p.h$
+- /usr/include/qt5/QtOpenGL/QGL$
+- /usr/include/qt5/QtOpenGL/QGLBuffer$
+- /usr/include/qt5/QtOpenGL/QGLColormap$
+- /usr/include/qt5/QtOpenGL/QGLContext$
+- /usr/include/qt5/QtOpenGL/QGLFormat$
+- /usr/include/qt5/QtOpenGL/QGLFramebufferObject$
+- /usr/include/qt5/QtOpenGL/QGLFramebufferObjectFormat$
+- /usr/include/qt5/QtOpenGL/QGLFunctions$
+- /usr/include/qt5/QtOpenGL/QGLFunctionsPrivate$
+- /usr/include/qt5/QtOpenGL/QGLPixelBuffer$
+- /usr/include/qt5/QtOpenGL/QGLShader$
+- /usr/include/qt5/QtOpenGL/QGLShaderProgram$
+- /usr/include/qt5/QtOpenGL/QGLWidget$
+- /usr/include/qt5/QtOpenGL/QtOpenGL$
+- /usr/include/qt5/QtOpenGL/QtOpenGLDepends$
+- /usr/include/qt5/QtOpenGL/QtOpenGLVersion$
+- /usr/include/qt5/QtOpenGL/qgl.h$
+- /usr/include/qt5/QtOpenGL/qglbuffer.h$
+- /usr/include/qt5/QtOpenGL/qglcolormap.h$
+- /usr/include/qt5/QtOpenGL/qglframebufferobject.h$
+- /usr/include/qt5/QtOpenGL/qglfunctions.h$
+- /usr/include/qt5/QtOpenGL/qglpixelbuffer.h$
+- /usr/include/qt5/QtOpenGL/qglshaderprogram.h$
+- /usr/include/qt5/QtOpenGL/qtopenglglobal.h$
+- /usr/include/qt5/QtOpenGL/qtopenglversion.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/cmake$
+- /usr/lib64/cmake/Qt5OpenGL$
+- /usr/lib64/cmake/Qt5OpenGL/Qt5OpenGLConfig.cmake$
+- /usr/lib64/cmake/Qt5OpenGL/Qt5OpenGLConfigVersion.cmake$
+- /usr/lib64/libQt5OpenGL.prl$
+- /usr/lib64/libQt5OpenGL.so$
+- /usr/lib64/libQt5OpenGL.so.5$
+- /usr/lib64/libQt5OpenGL.so.5.14$
+- /usr/lib64/libQt5OpenGL.so.5.14.1$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/Qt5OpenGL.pc$
+- /usr/lib64/qt5$
+- /usr/lib64/qt5/mkspecs$
+- /usr/lib64/qt5/mkspecs/modules$
+- /usr/lib64/qt5/mkspecs/modules/qt_lib_opengl.pri$
+- /usr/lib64/qt5/mkspecs/modules/qt_lib_opengl_private.pri$

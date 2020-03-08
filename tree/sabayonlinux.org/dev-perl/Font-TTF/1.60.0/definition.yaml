@@ -1,0 +1,17 @@
+
+category: "dev-perl"
+name: "Font-TTF"
+version: "1.60.0"
+requires:
+- category: "dev-lang"
+  name: "perl"
+  version: ">=5.28.2"
+- category: "dev-perl"
+  name: "IO-String"
+  version: ">=1.80.0"
+- category: "dev-perl"
+  name: "XML-Parser"
+  version: ">=2.440.0"
+- category: "dev-libs"
+  name: "expat"
+  version: ">=2.2.8"

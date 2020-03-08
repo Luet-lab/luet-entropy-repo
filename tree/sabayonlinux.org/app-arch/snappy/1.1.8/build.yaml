@@ -1,0 +1,44 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-arch/snappy-1.1.8
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/snappy-c.h$
+- /usr/include/snappy-sinksource.h$
+- /usr/include/snappy-stubs-public.h$
+- /usr/include/snappy.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/cmake$
+- /usr/lib32/cmake/Snappy$
+- /usr/lib32/cmake/Snappy/SnappyConfig.cmake$
+- /usr/lib32/cmake/Snappy/SnappyConfigVersion.cmake$
+- /usr/lib32/cmake/Snappy/SnappyTargets-gentoo.cmake$
+- /usr/lib32/cmake/Snappy/SnappyTargets.cmake$
+- /usr/lib32/libsnappy.so$
+- /usr/lib32/libsnappy.so.1$
+- /usr/lib32/libsnappy.so.1.1.8$
+- /usr/lib64$
+- /usr/lib64/cmake$
+- /usr/lib64/cmake/Snappy$
+- /usr/lib64/cmake/Snappy/SnappyConfig.cmake$
+- /usr/lib64/cmake/Snappy/SnappyConfigVersion.cmake$
+- /usr/lib64/cmake/Snappy/SnappyTargets-gentoo.cmake$
+- /usr/lib64/cmake/Snappy/SnappyTargets.cmake$
+- /usr/lib64/libsnappy.so$
+- /usr/lib64/libsnappy.so.1$
+- /usr/lib64/libsnappy.so.1.1.8$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/snappy-1.1.8$
+- /usr/share/doc/snappy-1.1.8/NEWS.bz2$
+- /usr/share/doc/snappy-1.1.8/README.md.bz2$
+- /usr/share/doc/snappy-1.1.8/format_description.txt.bz2$
+- /usr/share/doc/snappy-1.1.8/framing_format.txt.bz2$

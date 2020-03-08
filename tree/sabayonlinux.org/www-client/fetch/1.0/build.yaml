@@ -1,0 +1,24 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i www-client/fetch-1.0-r3
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/fetch$
+- /usr/lib$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/fetch-1.0-r3$
+- /usr/share/doc/fetch-1.0-r3/ChangeLog$
+- /usr/share/doc/fetch-1.0-r3/README.bz2$
+- /usr/share/doc/fetch-1.0-r3/html$
+- /usr/share/doc/fetch-1.0-r3/html/fetch.html$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/fetch.1.bz2$

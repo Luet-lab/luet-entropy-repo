@@ -1,0 +1,25 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i x11-drivers/xf86-input-void-1.4.1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/xorg$
+- /usr/lib64/xorg/modules$
+- /usr/lib64/xorg/modules/input$
+- /usr/lib64/xorg/modules/input/void_drv.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/xf86-input-void-1.4.1$
+- /usr/share/doc/xf86-input-void-1.4.1/ChangeLog.bz2$
+- /usr/share/doc/xf86-input-void-1.4.1/README.bz2$
+- /usr/share/man$
+- /usr/share/man/man4$
+- /usr/share/man/man4/void.4.bz2$

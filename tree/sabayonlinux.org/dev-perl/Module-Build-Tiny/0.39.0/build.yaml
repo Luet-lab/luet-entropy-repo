@@ -1,0 +1,23 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-perl/Module-Build-Tiny-0.39.0
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/perl5$
+- /usr/lib64/perl5/vendor_perl$
+- /usr/lib64/perl5/vendor_perl/5.28.2$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Module$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Module/Build$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Module/Build/Tiny.pm$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/Module-Build-Tiny-0.39.0$
+- /usr/share/doc/Module-Build-Tiny-0.39.0/Changes.bz2$
+- /usr/share/doc/Module-Build-Tiny-0.39.0/README.bz2$

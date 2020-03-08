@@ -1,0 +1,40 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i x11-libs/libXpm-3.5.13
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/cxpm$
+- /usr/bin/sxpm$
+- /usr/include$
+- /usr/include/X11$
+- /usr/include/X11/xpm.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libXpm.so$
+- /usr/lib32/libXpm.so.4$
+- /usr/lib32/libXpm.so.4.11.0$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/xpm.pc$
+- /usr/lib64$
+- /usr/lib64/libXpm.so$
+- /usr/lib64/libXpm.so.4$
+- /usr/lib64/libXpm.so.4.11.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/xpm.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libXpm-3.5.13$
+- /usr/share/doc/libXpm-3.5.13/AUTHORS.bz2$
+- /usr/share/doc/libXpm-3.5.13/ChangeLog.bz2$
+- /usr/share/doc/libXpm-3.5.13/README.md.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/cxpm.1.bz2$
+- /usr/share/man/man1/sxpm.1.bz2$

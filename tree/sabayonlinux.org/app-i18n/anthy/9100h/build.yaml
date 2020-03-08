@@ -1,0 +1,65 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-i18n/anthy-9100h-r2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /etc$
+- /etc/anthy-conf$
+- /usr$
+- /usr/bin$
+- /usr/bin/anthy-agent$
+- /usr/bin/anthy-dic-tool$
+- /usr/bin/anthy-morphological-analyzer$
+- /usr/include$
+- /usr/include/anthy$
+- /usr/include/anthy/anthy.h$
+- /usr/include/anthy/dicutil.h$
+- /usr/include/anthy/input.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libanthy.so$
+- /usr/lib64/libanthy.so.0$
+- /usr/lib64/libanthy.so.0.1.0$
+- /usr/lib64/libanthydic.so$
+- /usr/lib64/libanthydic.so.0$
+- /usr/lib64/libanthydic.so.0.1.0$
+- /usr/lib64/libanthyinput.so$
+- /usr/lib64/libanthyinput.so.0$
+- /usr/lib64/libanthyinput.so.0.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/anthy.pc$
+- /usr/share$
+- /usr/share/anthy$
+- /usr/share/anthy/anthy.dic$
+- /usr/share/anthy/dic-tool-usage.txt$
+- /usr/share/anthy/typetab$
+- /usr/share/anthy/zipcode.t$
+- /usr/share/doc$
+- /usr/share/doc/anthy-9100h-r2$
+- /usr/share/doc/anthy-9100h-r2/AUTHORS.bz2$
+- /usr/share/doc/anthy-9100h-r2/ChangeLog.bz2$
+- /usr/share/doc/anthy-9100h-r2/DIARY.bz2$
+- /usr/share/doc/anthy-9100h-r2/NEWS.bz2$
+- /usr/share/doc/anthy-9100h-r2/README.bz2$
+- /usr/share/doc/anthy-9100h-r2/doc$
+- /usr/share/doc/anthy-9100h-r2/doc/00INDEX.bz2$
+- /usr/share/doc/anthy-9100h-r2/doc/DICLIB.bz2$
+- /usr/share/doc/anthy-9100h-r2/doc/DICUTIL.bz2$
+- /usr/share/doc/anthy-9100h-r2/doc/ELISP.bz2$
+- /usr/share/doc/anthy-9100h-r2/doc/GLOSSARY.bz2$
+- /usr/share/doc/anthy-9100h-r2/doc/GRAMMAR.bz2$
+- /usr/share/doc/anthy-9100h-r2/doc/GUIDE.bz2$
+- /usr/share/doc/anthy-9100h-r2/doc/GUIDE.english.bz2$
+- /usr/share/doc/anthy-9100h-r2/doc/ILIB.bz2$
+- /usr/share/doc/anthy-9100h-r2/doc/LEARNING.bz2$
+- /usr/share/doc/anthy-9100h-r2/doc/LIB.bz2$
+- /usr/share/doc/anthy-9100h-r2/doc/MISC.bz2$
+- /usr/share/doc/anthy-9100h-r2/doc/POS.bz2$
+- /usr/share/doc/anthy-9100h-r2/doc/SPLITTER.bz2$
+- /usr/share/doc/anthy-9100h-r2/doc/TESTING.bz2$
+- /usr/share/doc/anthy-9100h-r2/doc/protocol.txt.bz2$

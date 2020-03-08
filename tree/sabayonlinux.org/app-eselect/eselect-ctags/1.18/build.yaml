@@ -1,0 +1,20 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-eselect/eselect-ctags-1.18
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/eselect$
+- /usr/share/eselect/modules$
+- /usr/share/eselect/modules/ctags.eselect$
+- /usr/share/eselect/modules/etags.eselect$
+- /usr/share/man$
+- /usr/share/man/man5$
+- /usr/share/man/man5/ctags.eselect.5.bz2$
+- /usr/share/man/man5/etags.eselect.5$

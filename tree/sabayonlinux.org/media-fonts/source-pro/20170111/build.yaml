@@ -1,0 +1,58 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-fonts/source-pro-20170111
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /etc$
+- /etc/fonts$
+- /etc/fonts/conf.avail$
+- /etc/fonts/conf.avail/63-source-pro.conf$
+- /usr$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/source-pro-20170111$
+- /usr/share/doc/source-pro-20170111/README-source-code-pro-2.030R-ro-1.050R-it.md.bz2$
+- /usr/share/doc/source-pro-20170111/README-source-sans-pro-2.020R-ro-1.075R-it.md.bz2$
+- /usr/share/doc/source-pro-20170111/README-source-serif-pro-2.000R.md.bz2$
+- /usr/share/fonts$
+- /usr/share/fonts/source-pro$
+- /usr/share/fonts/source-pro/SourceCodePro-Black.otf$
+- /usr/share/fonts/source-pro/SourceCodePro-BlackIt.otf$
+- /usr/share/fonts/source-pro/SourceCodePro-Bold.otf$
+- /usr/share/fonts/source-pro/SourceCodePro-BoldIt.otf$
+- /usr/share/fonts/source-pro/SourceCodePro-ExtraLight.otf$
+- /usr/share/fonts/source-pro/SourceCodePro-ExtraLightIt.otf$
+- /usr/share/fonts/source-pro/SourceCodePro-It.otf$
+- /usr/share/fonts/source-pro/SourceCodePro-Light.otf$
+- /usr/share/fonts/source-pro/SourceCodePro-LightIt.otf$
+- /usr/share/fonts/source-pro/SourceCodePro-Medium.otf$
+- /usr/share/fonts/source-pro/SourceCodePro-MediumIt.otf$
+- /usr/share/fonts/source-pro/SourceCodePro-Regular.otf$
+- /usr/share/fonts/source-pro/SourceCodePro-Semibold.otf$
+- /usr/share/fonts/source-pro/SourceCodePro-SemiboldIt.otf$
+- /usr/share/fonts/source-pro/SourceSansPro-Black.otf$
+- /usr/share/fonts/source-pro/SourceSansPro-BlackIt.otf$
+- /usr/share/fonts/source-pro/SourceSansPro-Bold.otf$
+- /usr/share/fonts/source-pro/SourceSansPro-BoldIt.otf$
+- /usr/share/fonts/source-pro/SourceSansPro-ExtraLight.otf$
+- /usr/share/fonts/source-pro/SourceSansPro-ExtraLightIt.otf$
+- /usr/share/fonts/source-pro/SourceSansPro-It.otf$
+- /usr/share/fonts/source-pro/SourceSansPro-Light.otf$
+- /usr/share/fonts/source-pro/SourceSansPro-LightIt.otf$
+- /usr/share/fonts/source-pro/SourceSansPro-Regular.otf$
+- /usr/share/fonts/source-pro/SourceSansPro-Semibold.otf$
+- /usr/share/fonts/source-pro/SourceSansPro-SemiboldIt.otf$
+- /usr/share/fonts/source-pro/SourceSerifPro-Black.otf$
+- /usr/share/fonts/source-pro/SourceSerifPro-Bold.otf$
+- /usr/share/fonts/source-pro/SourceSerifPro-ExtraLight.otf$
+- /usr/share/fonts/source-pro/SourceSerifPro-Light.otf$
+- /usr/share/fonts/source-pro/SourceSerifPro-Regular.otf$
+- /usr/share/fonts/source-pro/SourceSerifPro-Semibold.otf$
+- /usr/share/fonts/source-pro/encodings.dir$
+- /usr/share/fonts/source-pro/fonts.dir$
+- /usr/share/fonts/source-pro/fonts.scale$

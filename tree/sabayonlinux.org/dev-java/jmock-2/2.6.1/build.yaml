@@ -1,0 +1,16 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-java/jmock-2.6.1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/jmock-2$
+- /usr/share/jmock-2/lib$
+- /usr/share/jmock-2/lib/jmock.jar$
+- /usr/share/jmock-2/package.env$

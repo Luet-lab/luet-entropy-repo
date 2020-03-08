@@ -1,0 +1,56 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-text/docbook-xml-dtd-4.5-r2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /etc$
+- /etc/sgml$
+- /etc/sgml/xml-docbook-4.5.cat$
+- /etc/xml$
+- /etc/xml/.keep_app-text_docbook-xml-dtd-4.5$
+- /usr$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/docbook-xml-dtd-4.5-r2$
+- /usr/share/doc/docbook-xml-dtd-4.5-r2/ChangeLog.bz2$
+- /usr/share/doc/docbook-xml-dtd-4.5-r2/README.bz2$
+- /usr/share/doc/docbook-xml-dtd-4.5-r2/README.ent.bz2$
+- /usr/share/sgml$
+- /usr/share/sgml/docbook$
+- /usr/share/sgml/docbook/xml-dtd-4.5$
+- /usr/share/sgml/docbook/xml-dtd-4.5/calstblx.dtd$
+- /usr/share/sgml/docbook/xml-dtd-4.5/catalog.xml$
+- /usr/share/sgml/docbook/xml-dtd-4.5/dbcentx.mod$
+- /usr/share/sgml/docbook/xml-dtd-4.5/dbgenent.mod$
+- /usr/share/sgml/docbook/xml-dtd-4.5/dbhierx.mod$
+- /usr/share/sgml/docbook/xml-dtd-4.5/dbnotnx.mod$
+- /usr/share/sgml/docbook/xml-dtd-4.5/dbpoolx.mod$
+- /usr/share/sgml/docbook/xml-dtd-4.5/docbook.cat$
+- /usr/share/sgml/docbook/xml-dtd-4.5/docbookx.dtd$
+- /usr/share/sgml/docbook/xml-dtd-4.5/ent$
+- /usr/share/sgml/docbook/xml-dtd-4.5/ent/isoamsa.ent$
+- /usr/share/sgml/docbook/xml-dtd-4.5/ent/isoamsb.ent$
+- /usr/share/sgml/docbook/xml-dtd-4.5/ent/isoamsc.ent$
+- /usr/share/sgml/docbook/xml-dtd-4.5/ent/isoamsn.ent$
+- /usr/share/sgml/docbook/xml-dtd-4.5/ent/isoamso.ent$
+- /usr/share/sgml/docbook/xml-dtd-4.5/ent/isoamsr.ent$
+- /usr/share/sgml/docbook/xml-dtd-4.5/ent/isobox.ent$
+- /usr/share/sgml/docbook/xml-dtd-4.5/ent/isocyr1.ent$
+- /usr/share/sgml/docbook/xml-dtd-4.5/ent/isocyr2.ent$
+- /usr/share/sgml/docbook/xml-dtd-4.5/ent/isodia.ent$
+- /usr/share/sgml/docbook/xml-dtd-4.5/ent/isogrk1.ent$
+- /usr/share/sgml/docbook/xml-dtd-4.5/ent/isogrk2.ent$
+- /usr/share/sgml/docbook/xml-dtd-4.5/ent/isogrk3.ent$
+- /usr/share/sgml/docbook/xml-dtd-4.5/ent/isogrk4.ent$
+- /usr/share/sgml/docbook/xml-dtd-4.5/ent/isolat1.ent$
+- /usr/share/sgml/docbook/xml-dtd-4.5/ent/isolat2.ent$
+- /usr/share/sgml/docbook/xml-dtd-4.5/ent/isonum.ent$
+- /usr/share/sgml/docbook/xml-dtd-4.5/ent/isopub.ent$
+- /usr/share/sgml/docbook/xml-dtd-4.5/ent/isotech.ent$
+- /usr/share/sgml/docbook/xml-dtd-4.5/htmltblx.mod$
+- /usr/share/sgml/docbook/xml-dtd-4.5/soextblx.dtd$

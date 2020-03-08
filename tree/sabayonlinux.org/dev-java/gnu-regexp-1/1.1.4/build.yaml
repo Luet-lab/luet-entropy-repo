@@ -1,0 +1,16 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-java/gnu-regexp-1.1.4-r3
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/gnu-regexp-1$
+- /usr/share/gnu-regexp-1/lib$
+- /usr/share/gnu-regexp-1/lib/gnu-regexp.jar$
+- /usr/share/gnu-regexp-1/package.env$

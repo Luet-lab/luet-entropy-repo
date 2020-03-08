@@ -1,0 +1,19 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-java/junitperf-1.9.1-r2
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/junitperf-1.9.1-r2$
+- /usr/share/doc/junitperf-1.9.1-r2/README.bz2$
+- /usr/share/junitperf$
+- /usr/share/junitperf/lib$
+- /usr/share/junitperf/lib/junitperf.jar$
+- /usr/share/junitperf/package.env$

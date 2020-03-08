@@ -1,0 +1,60 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/portaudio-19.06.00-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/pa_jack.h$
+- /usr/include/pa_linux_alsa.h$
+- /usr/include/portaudio.h$
+- /usr/include/portaudiocpp$
+- /usr/include/portaudiocpp/AutoSystem.hxx$
+- /usr/include/portaudiocpp/BlockingStream.hxx$
+- /usr/include/portaudiocpp/CFunCallbackStream.hxx$
+- /usr/include/portaudiocpp/CallbackInterface.hxx$
+- /usr/include/portaudiocpp/CallbackStream.hxx$
+- /usr/include/portaudiocpp/CppFunCallbackStream.hxx$
+- /usr/include/portaudiocpp/Device.hxx$
+- /usr/include/portaudiocpp/DirectionSpecificStreamParameters.hxx$
+- /usr/include/portaudiocpp/Exception.hxx$
+- /usr/include/portaudiocpp/HostApi.hxx$
+- /usr/include/portaudiocpp/InterfaceCallbackStream.hxx$
+- /usr/include/portaudiocpp/MemFunCallbackStream.hxx$
+- /usr/include/portaudiocpp/PortAudioCpp.hxx$
+- /usr/include/portaudiocpp/SampleDataFormat.hxx$
+- /usr/include/portaudiocpp/Stream.hxx$
+- /usr/include/portaudiocpp/StreamParameters.hxx$
+- /usr/include/portaudiocpp/System.hxx$
+- /usr/include/portaudiocpp/SystemDeviceIterator.hxx$
+- /usr/include/portaudiocpp/SystemHostApiIterator.hxx$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libportaudio.so$
+- /usr/lib32/libportaudio.so.2$
+- /usr/lib32/libportaudio.so.2.0.0$
+- /usr/lib32/libportaudiocpp.so$
+- /usr/lib32/libportaudiocpp.so.0$
+- /usr/lib32/libportaudiocpp.so.0.0.12$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/portaudio-2.0.pc$
+- /usr/lib32/pkgconfig/portaudiocpp.pc$
+- /usr/lib64$
+- /usr/lib64/libportaudio.so$
+- /usr/lib64/libportaudio.so.2$
+- /usr/lib64/libportaudio.so.2.0.0$
+- /usr/lib64/libportaudiocpp.so$
+- /usr/lib64/libportaudiocpp.so.0$
+- /usr/lib64/libportaudiocpp.so.0.0.12$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/portaudio-2.0.pc$
+- /usr/lib64/pkgconfig/portaudiocpp.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/portaudio-19.06.00-r1$
+- /usr/share/doc/portaudio-19.06.00-r1/README.txt.bz2$

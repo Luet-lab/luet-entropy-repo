@@ -1,0 +1,52 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-vim/gtk-syntax-20130716
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/gtk-syntax-20130716$
+- /usr/share/doc/gtk-syntax-20130716/README.bz2$
+- /usr/share/vim$
+- /usr/share/vim/vimfiles$
+- /usr/share/vim/vimfiles/after$
+- /usr/share/vim/vimfiles/after/syntax$
+- /usr/share/vim/vimfiles/after/syntax/c.vim$
+- /usr/share/vim/vimfiles/syntax$
+- /usr/share/vim/vimfiles/syntax/atk.vim$
+- /usr/share/vim/vimfiles/syntax/atspi.vim$
+- /usr/share/vim/vimfiles/syntax/cairo.vim$
+- /usr/share/vim/vimfiles/syntax/clutter.vim$
+- /usr/share/vim/vimfiles/syntax/colord.vim$
+- /usr/share/vim/vimfiles/syntax/dbusglib.vim$
+- /usr/share/vim/vimfiles/syntax/evince.vim$
+- /usr/share/vim/vimfiles/syntax/fftw3.vim$
+- /usr/share/vim/vimfiles/syntax/gdkpixbuf.vim$
+- /usr/share/vim/vimfiles/syntax/gimp.vim$
+- /usr/share/vim/vimfiles/syntax/glib.vim$
+- /usr/share/vim/vimfiles/syntax/gnomedesktop.vim$
+- /usr/share/vim/vimfiles/syntax/gobjectintrospection.vim$
+- /usr/share/vim/vimfiles/syntax/gstreamer.vim$
+- /usr/share/vim/vimfiles/syntax/gtk2.vim$
+- /usr/share/vim/vimfiles/syntax/gtk3.vim$
+- /usr/share/vim/vimfiles/syntax/gtkglext.vim$
+- /usr/share/vim/vimfiles/syntax/gtksourceview.vim$
+- /usr/share/vim/vimfiles/syntax/gudev.vim$
+- /usr/share/vim/vimfiles/syntax/gusb.vim$
+- /usr/share/vim/vimfiles/syntax/jsonglib.vim$
+- /usr/share/vim/vimfiles/syntax/libgsf.vim$
+- /usr/share/vim/vimfiles/syntax/libnotify.vim$
+- /usr/share/vim/vimfiles/syntax/librsvg.vim$
+- /usr/share/vim/vimfiles/syntax/libsoup.vim$
+- /usr/share/vim/vimfiles/syntax/libunique.vim$
+- /usr/share/vim/vimfiles/syntax/libwnck.vim$
+- /usr/share/vim/vimfiles/syntax/pango.vim$
+- /usr/share/vim/vimfiles/syntax/poppler.vim$
+- /usr/share/vim/vimfiles/syntax/vte.vim$
+- /usr/share/vim/vimfiles/syntax/xlib.vim$

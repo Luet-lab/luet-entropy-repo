@@ -1,0 +1,37 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-tcltk/expect-5.45.4
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/expect$
+- /usr/bin/unbuffer$
+- /usr/include$
+- /usr/include/expect.h$
+- /usr/include/expect_comm.h$
+- /usr/include/expect_tcl.h$
+- /usr/include/tcldbg.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/expect5.45.4$
+- /usr/lib64/expect5.45.4/libexpect5.45.4.so$
+- /usr/lib64/expect5.45.4/pkgIndex.tcl$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/expect-5.45.4$
+- /usr/share/doc/expect-5.45.4/ChangeLog.bz2$
+- /usr/share/doc/expect-5.45.4/FAQ.bz2$
+- /usr/share/doc/expect-5.45.4/NEWS.bz2$
+- /usr/share/doc/expect-5.45.4/README.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/expect.1.bz2$
+- /usr/share/man/man1/unbuffer.1.bz2$
+- /usr/share/man/man3$
+- /usr/share/man/man3/libexpect.3.bz2$

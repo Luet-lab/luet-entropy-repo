@@ -1,0 +1,23 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-dicts/aspell-fi-0.7.0
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/aspell-0.60$
+- /usr/lib64/aspell-0.60/fi.dat$
+- /usr/lib64/aspell-0.60/fi.multi$
+- /usr/lib64/aspell-0.60/fi.rws$
+- /usr/lib64/aspell-0.60/fi_affix.dat$
+- /usr/lib64/aspell-0.60/finnish.alias$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/aspell-fi-0.7.0$
+- /usr/share/doc/aspell-fi-0.7.0/README.bz2$
+- /usr/share/doc/aspell-fi-0.7.0/info.bz2$

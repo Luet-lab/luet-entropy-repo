@@ -1,0 +1,35 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-perl/Authen-SASL-2.160.0-r1
+unpack: true
+requires:
+  category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/perl5$
+- /usr/lib64/perl5/vendor_perl$
+- /usr/lib64/perl5/vendor_perl/5.28.2$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Authen$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Authen/SASL$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Authen/SASL.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Authen/SASL.pod$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Authen/SASL/CRAM_MD5.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Authen/SASL/EXTERNAL.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Authen/SASL/Perl$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Authen/SASL/Perl.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Authen/SASL/Perl.pod$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Authen/SASL/Perl/ANONYMOUS.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Authen/SASL/Perl/CRAM_MD5.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Authen/SASL/Perl/DIGEST_MD5.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Authen/SASL/Perl/EXTERNAL.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Authen/SASL/Perl/GSSAPI.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Authen/SASL/Perl/LOGIN.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/Authen/SASL/Perl/PLAIN.pm$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/Authen-SASL-2.160.0-r1$
+- /usr/share/doc/Authen-SASL-2.160.0-r1/Changes.bz2$
