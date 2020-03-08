@@ -95,7 +95,7 @@ steps:
 - source /etc/profile && ACCEPT_LICENSE=* equo i ${pkg}
 unpack: true
 requires:
-  category: \"layer\"
+- category: \"layer\"
   name: \"sabayon-base\"
   version: \"9999\" >> $pkgdir/definition.yaml
 includes:" > $pkgdir/build.yaml
