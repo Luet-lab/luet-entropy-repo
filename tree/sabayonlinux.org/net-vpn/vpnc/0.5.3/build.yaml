@@ -1,0 +1,46 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i net-vpn/vpnc-0.5.3_p550
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> net-vpn/vpnc/0.5.3/definition.yaml
+includes:
+- /etc$
+- /etc/conf.d$
+- /etc/conf.d/vpnc$
+- /etc/init.d$
+- /etc/init.d/vpnc$
+- /etc/vpnc$
+- /etc/vpnc/default.conf$
+- /etc/vpnc/scripts.d$
+- /etc/vpnc/scripts.d/.keep_net-vpn_vpnc-0$
+- /etc/vpnc/vpnc-script$
+- /lib$
+- /lib/systemd$
+- /lib/systemd/system$
+- /lib/systemd/system/vpnc@.service$
+- /usr$
+- /usr/bin$
+- /usr/bin/cisco-decrypt$
+- /usr/bin/pcf2vpnc$
+- /usr/lib$
+- /usr/lib/tmpfiles.d$
+- /usr/lib/tmpfiles.d/vpnc-tmpfiles.conf$
+- /usr/sbin$
+- /usr/sbin/vpnc$
+- /usr/sbin/vpnc-disconnect$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/vpnc-0.5.3_p550$
+- /usr/share/doc/vpnc-0.5.3_p550/README.bz2$
+- /usr/share/doc/vpnc-0.5.3_p550/TODO.bz2$
+- /usr/share/doc/vpnc-0.5.3_p550/VERSION$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/cisco-decrypt.1.bz2$
+- /usr/share/man/man1/pcf2vpnc.1.bz2$
+- /usr/share/man/man8$
+- /usr/share/man/man8/vpnc.8.bz2$

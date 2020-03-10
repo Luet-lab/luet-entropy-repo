@@ -1,0 +1,66 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/stringsearch-0.3.6.6
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/stringsearch/0.3.6.6/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-stringsearch-0.3.6.6-stringsearch-0.3.6.6.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-stringsearch-0.3.6.6.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/stringsearch-0.3.6.6-8anNeXolBRk4a9DV14i2Be.conf$
+- /usr/lib64/stringsearch-0.3.6.6$
+- /usr/lib64/stringsearch-0.3.6.6/ghc-7.10.3$
+- /usr/lib64/stringsearch-0.3.6.6/ghc-8.0.2$
+- /usr/lib64/stringsearch-0.3.6.6/ghc-8.0.2/Data$
+- /usr/lib64/stringsearch-0.3.6.6/ghc-8.0.2/Data/ByteString$
+- /usr/lib64/stringsearch-0.3.6.6/ghc-8.0.2/Data/ByteString/Lazy$
+- /usr/lib64/stringsearch-0.3.6.6/ghc-8.0.2/Data/ByteString/Lazy/Search$
+- /usr/lib64/stringsearch-0.3.6.6/ghc-8.0.2/Data/ByteString/Lazy/Search.dyn_hi$
+- /usr/lib64/stringsearch-0.3.6.6/ghc-8.0.2/Data/ByteString/Lazy/Search.hi$
+- /usr/lib64/stringsearch-0.3.6.6/ghc-8.0.2/Data/ByteString/Lazy/Search/DFA.dyn_hi$
+- /usr/lib64/stringsearch-0.3.6.6/ghc-8.0.2/Data/ByteString/Lazy/Search/DFA.hi$
+- /usr/lib64/stringsearch-0.3.6.6/ghc-8.0.2/Data/ByteString/Lazy/Search/Internal$
+- /usr/lib64/stringsearch-0.3.6.6/ghc-8.0.2/Data/ByteString/Lazy/Search/Internal/BoyerMoore.dyn_hi$
+- /usr/lib64/stringsearch-0.3.6.6/ghc-8.0.2/Data/ByteString/Lazy/Search/Internal/BoyerMoore.hi$
+- /usr/lib64/stringsearch-0.3.6.6/ghc-8.0.2/Data/ByteString/Lazy/Search/KMP.dyn_hi$
+- /usr/lib64/stringsearch-0.3.6.6/ghc-8.0.2/Data/ByteString/Lazy/Search/KMP.hi$
+- /usr/lib64/stringsearch-0.3.6.6/ghc-8.0.2/Data/ByteString/Lazy/Search/KarpRabin.dyn_hi$
+- /usr/lib64/stringsearch-0.3.6.6/ghc-8.0.2/Data/ByteString/Lazy/Search/KarpRabin.hi$
+- /usr/lib64/stringsearch-0.3.6.6/ghc-8.0.2/Data/ByteString/Search$
+- /usr/lib64/stringsearch-0.3.6.6/ghc-8.0.2/Data/ByteString/Search.dyn_hi$
+- /usr/lib64/stringsearch-0.3.6.6/ghc-8.0.2/Data/ByteString/Search.hi$
+- /usr/lib64/stringsearch-0.3.6.6/ghc-8.0.2/Data/ByteString/Search/BoyerMoore.dyn_hi$
+- /usr/lib64/stringsearch-0.3.6.6/ghc-8.0.2/Data/ByteString/Search/BoyerMoore.hi$
+- /usr/lib64/stringsearch-0.3.6.6/ghc-8.0.2/Data/ByteString/Search/DFA.dyn_hi$
+- /usr/lib64/stringsearch-0.3.6.6/ghc-8.0.2/Data/ByteString/Search/DFA.hi$
+- /usr/lib64/stringsearch-0.3.6.6/ghc-8.0.2/Data/ByteString/Search/Internal$
+- /usr/lib64/stringsearch-0.3.6.6/ghc-8.0.2/Data/ByteString/Search/Internal/BoyerMoore.dyn_hi$
+- /usr/lib64/stringsearch-0.3.6.6/ghc-8.0.2/Data/ByteString/Search/Internal/BoyerMoore.hi$
+- /usr/lib64/stringsearch-0.3.6.6/ghc-8.0.2/Data/ByteString/Search/Internal/KnuthMorrisPratt.dyn_hi$
+- /usr/lib64/stringsearch-0.3.6.6/ghc-8.0.2/Data/ByteString/Search/Internal/KnuthMorrisPratt.hi$
+- /usr/lib64/stringsearch-0.3.6.6/ghc-8.0.2/Data/ByteString/Search/Internal/Utils.dyn_hi$
+- /usr/lib64/stringsearch-0.3.6.6/ghc-8.0.2/Data/ByteString/Search/Internal/Utils.hi$
+- /usr/lib64/stringsearch-0.3.6.6/ghc-8.0.2/Data/ByteString/Search/KMP.dyn_hi$
+- /usr/lib64/stringsearch-0.3.6.6/ghc-8.0.2/Data/ByteString/Search/KMP.hi$
+- /usr/lib64/stringsearch-0.3.6.6/ghc-8.0.2/Data/ByteString/Search/KarpRabin.dyn_hi$
+- /usr/lib64/stringsearch-0.3.6.6/ghc-8.0.2/Data/ByteString/Search/KarpRabin.hi$
+- /usr/lib64/stringsearch-0.3.6.6/ghc-8.0.2/Data/ByteString/Search/KnuthMorrisPratt.dyn_hi$
+- /usr/lib64/stringsearch-0.3.6.6/ghc-8.0.2/Data/ByteString/Search/KnuthMorrisPratt.hi$
+- /usr/lib64/stringsearch-0.3.6.6/ghc-8.0.2/Data/ByteString/Search/Substitution.dyn_hi$
+- /usr/lib64/stringsearch-0.3.6.6/ghc-8.0.2/Data/ByteString/Search/Substitution.hi$
+- /usr/lib64/stringsearch-0.3.6.6/ghc-8.0.2/libHSstringsearch-0.3.6.6-8anNeXolBRk4a9DV14i2Be.a$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSstringsearch-0.3.6.6-8anNeXolBRk4a9DV14i2Be-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/stringsearch-0.3.6.6$
+- /usr/share/doc/stringsearch-0.3.6.6/LICENCE.bz2$

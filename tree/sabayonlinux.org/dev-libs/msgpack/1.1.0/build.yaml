@@ -1,0 +1,102 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/msgpack-1.1.0
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-libs/msgpack/1.1.0/definition.yaml
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/msgpack$
+- /usr/include/msgpack.h$
+- /usr/include/msgpack.hpp$
+- /usr/include/msgpack/adaptor$
+- /usr/include/msgpack/adaptor/adaptor_base.hpp$
+- /usr/include/msgpack/adaptor/bool.hpp$
+- /usr/include/msgpack/adaptor/char_ptr.hpp$
+- /usr/include/msgpack/adaptor/check_container_size.hpp$
+- /usr/include/msgpack/adaptor/cpp11$
+- /usr/include/msgpack/adaptor/cpp11/array.hpp$
+- /usr/include/msgpack/adaptor/cpp11/array_char.hpp$
+- /usr/include/msgpack/adaptor/cpp11/forward_list.hpp$
+- /usr/include/msgpack/adaptor/cpp11/tuple.hpp$
+- /usr/include/msgpack/adaptor/cpp11/unordered_map.hpp$
+- /usr/include/msgpack/adaptor/cpp11/unordered_set.hpp$
+- /usr/include/msgpack/adaptor/define.hpp$
+- /usr/include/msgpack/adaptor/deque.hpp$
+- /usr/include/msgpack/adaptor/detail$
+- /usr/include/msgpack/adaptor/detail/cpp03_define.hpp$
+- /usr/include/msgpack/adaptor/detail/cpp03_msgpack_tuple.hpp$
+- /usr/include/msgpack/adaptor/detail/cpp11_define.hpp$
+- /usr/include/msgpack/adaptor/detail/cpp11_msgpack_tuple.hpp$
+- /usr/include/msgpack/adaptor/fixint.hpp$
+- /usr/include/msgpack/adaptor/float.hpp$
+- /usr/include/msgpack/adaptor/int.hpp$
+- /usr/include/msgpack/adaptor/list.hpp$
+- /usr/include/msgpack/adaptor/map.hpp$
+- /usr/include/msgpack/adaptor/msgpack_tuple.hpp$
+- /usr/include/msgpack/adaptor/nil.hpp$
+- /usr/include/msgpack/adaptor/pair.hpp$
+- /usr/include/msgpack/adaptor/raw.hpp$
+- /usr/include/msgpack/adaptor/set.hpp$
+- /usr/include/msgpack/adaptor/string.hpp$
+- /usr/include/msgpack/adaptor/tr1$
+- /usr/include/msgpack/adaptor/tr1/unordered_map.hpp$
+- /usr/include/msgpack/adaptor/tr1/unordered_set.hpp$
+- /usr/include/msgpack/adaptor/vector.hpp$
+- /usr/include/msgpack/adaptor/vector_bool.hpp$
+- /usr/include/msgpack/adaptor/vector_char.hpp$
+- /usr/include/msgpack/cpp_config.hpp$
+- /usr/include/msgpack/detail$
+- /usr/include/msgpack/detail/cpp03_zone.hpp$
+- /usr/include/msgpack/detail/cpp11_zone.hpp$
+- /usr/include/msgpack/fbuffer.h$
+- /usr/include/msgpack/fbuffer.hpp$
+- /usr/include/msgpack/gcc_atomic.h$
+- /usr/include/msgpack/iterator.hpp$
+- /usr/include/msgpack/object.h$
+- /usr/include/msgpack/object.hpp$
+- /usr/include/msgpack/object_fwd.hpp$
+- /usr/include/msgpack/pack.h$
+- /usr/include/msgpack/pack.hpp$
+- /usr/include/msgpack/pack_define.h$
+- /usr/include/msgpack/pack_template.h$
+- /usr/include/msgpack/sbuffer.h$
+- /usr/include/msgpack/sbuffer.hpp$
+- /usr/include/msgpack/sysdep.h$
+- /usr/include/msgpack/type.hpp$
+- /usr/include/msgpack/unpack.h$
+- /usr/include/msgpack/unpack.hpp$
+- /usr/include/msgpack/unpack_define.h$
+- /usr/include/msgpack/unpack_template.h$
+- /usr/include/msgpack/util.h$
+- /usr/include/msgpack/version.h$
+- /usr/include/msgpack/version.hpp$
+- /usr/include/msgpack/version_master.h$
+- /usr/include/msgpack/versioning.hpp$
+- /usr/include/msgpack/vrefbuffer.h$
+- /usr/include/msgpack/vrefbuffer.hpp$
+- /usr/include/msgpack/zbuffer.h$
+- /usr/include/msgpack/zbuffer.hpp$
+- /usr/include/msgpack/zone.h$
+- /usr/include/msgpack/zone.hpp$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libmsgpack.so$
+- /usr/lib32/libmsgpack.so.3$
+- /usr/lib32/libmsgpack.so.4.0.0$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/msgpack.pc$
+- /usr/lib64$
+- /usr/lib64/libmsgpack.so$
+- /usr/lib64/libmsgpack.so.3$
+- /usr/lib64/libmsgpack.so.4.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/msgpack.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/msgpack-1.1.0$
+- /usr/share/doc/msgpack-1.1.0/README.md.bz2$

@@ -1,0 +1,28 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/erubi-1.9.0
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-ruby/erubi/1.9.0/definition.yaml
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/erubi-1.9.0$
+- /usr/lib64/ruby/gems/2.5.0/gems/erubi-1.9.0/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/erubi-1.9.0/lib/erubi$
+- /usr/lib64/ruby/gems/2.5.0/gems/erubi-1.9.0/lib/erubi.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/erubi-1.9.0/lib/erubi/capture_end.rb$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/erubi-1.9.0.gemspec$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/erubi-1.9.0$
+- /usr/share/doc/erubi-1.9.0/CHANGELOG.bz2$
+- /usr/share/doc/erubi-1.9.0/README.rdoc.bz2$

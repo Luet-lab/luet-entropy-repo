@@ -1,0 +1,67 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/http-4000.3.5
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/http/4000.3.5/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-http-4000.3.5-http-4000.3.5.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-http-4000.3.5.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/HTTP-4000.3.5-57sSWIa3KlNEXfTRuzqAZM.conf$
+- /usr/lib64/http-4000.3.5$
+- /usr/lib64/http-4000.3.5/ghc-8.0.2$
+- /usr/lib64/http-4000.3.5/ghc-8.0.2/Network$
+- /usr/lib64/http-4000.3.5/ghc-8.0.2/Network/Browser.dyn_hi$
+- /usr/lib64/http-4000.3.5/ghc-8.0.2/Network/Browser.hi$
+- /usr/lib64/http-4000.3.5/ghc-8.0.2/Network/BufferType.dyn_hi$
+- /usr/lib64/http-4000.3.5/ghc-8.0.2/Network/BufferType.hi$
+- /usr/lib64/http-4000.3.5/ghc-8.0.2/Network/HTTP$
+- /usr/lib64/http-4000.3.5/ghc-8.0.2/Network/HTTP.dyn_hi$
+- /usr/lib64/http-4000.3.5/ghc-8.0.2/Network/HTTP.hi$
+- /usr/lib64/http-4000.3.5/ghc-8.0.2/Network/HTTP/Auth.dyn_hi$
+- /usr/lib64/http-4000.3.5/ghc-8.0.2/Network/HTTP/Auth.hi$
+- /usr/lib64/http-4000.3.5/ghc-8.0.2/Network/HTTP/Base.dyn_hi$
+- /usr/lib64/http-4000.3.5/ghc-8.0.2/Network/HTTP/Base.hi$
+- /usr/lib64/http-4000.3.5/ghc-8.0.2/Network/HTTP/Base64.dyn_hi$
+- /usr/lib64/http-4000.3.5/ghc-8.0.2/Network/HTTP/Base64.hi$
+- /usr/lib64/http-4000.3.5/ghc-8.0.2/Network/HTTP/Cookie.dyn_hi$
+- /usr/lib64/http-4000.3.5/ghc-8.0.2/Network/HTTP/Cookie.hi$
+- /usr/lib64/http-4000.3.5/ghc-8.0.2/Network/HTTP/HandleStream.dyn_hi$
+- /usr/lib64/http-4000.3.5/ghc-8.0.2/Network/HTTP/HandleStream.hi$
+- /usr/lib64/http-4000.3.5/ghc-8.0.2/Network/HTTP/Headers.dyn_hi$
+- /usr/lib64/http-4000.3.5/ghc-8.0.2/Network/HTTP/Headers.hi$
+- /usr/lib64/http-4000.3.5/ghc-8.0.2/Network/HTTP/MD5Aux.dyn_hi$
+- /usr/lib64/http-4000.3.5/ghc-8.0.2/Network/HTTP/MD5Aux.hi$
+- /usr/lib64/http-4000.3.5/ghc-8.0.2/Network/HTTP/Proxy.dyn_hi$
+- /usr/lib64/http-4000.3.5/ghc-8.0.2/Network/HTTP/Proxy.hi$
+- /usr/lib64/http-4000.3.5/ghc-8.0.2/Network/HTTP/Stream.dyn_hi$
+- /usr/lib64/http-4000.3.5/ghc-8.0.2/Network/HTTP/Stream.hi$
+- /usr/lib64/http-4000.3.5/ghc-8.0.2/Network/HTTP/Utils.dyn_hi$
+- /usr/lib64/http-4000.3.5/ghc-8.0.2/Network/HTTP/Utils.hi$
+- /usr/lib64/http-4000.3.5/ghc-8.0.2/Network/Stream.dyn_hi$
+- /usr/lib64/http-4000.3.5/ghc-8.0.2/Network/Stream.hi$
+- /usr/lib64/http-4000.3.5/ghc-8.0.2/Network/StreamDebugger.dyn_hi$
+- /usr/lib64/http-4000.3.5/ghc-8.0.2/Network/StreamDebugger.hi$
+- /usr/lib64/http-4000.3.5/ghc-8.0.2/Network/StreamSocket.dyn_hi$
+- /usr/lib64/http-4000.3.5/ghc-8.0.2/Network/StreamSocket.hi$
+- /usr/lib64/http-4000.3.5/ghc-8.0.2/Network/TCP.dyn_hi$
+- /usr/lib64/http-4000.3.5/ghc-8.0.2/Network/TCP.hi$
+- /usr/lib64/http-4000.3.5/ghc-8.0.2/Paths_HTTP.dyn_hi$
+- /usr/lib64/http-4000.3.5/ghc-8.0.2/Paths_HTTP.hi$
+- /usr/lib64/http-4000.3.5/ghc-8.0.2/libHSHTTP-4000.3.5-57sSWIa3KlNEXfTRuzqAZM.a$
+- /usr/lib64/x86_64-linux-ghc-7.10.3$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSHTTP-4000.3.5-57sSWIa3KlNEXfTRuzqAZM-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/http-4000.3.5$
+- /usr/share/doc/http-4000.3.5/LICENSE.bz2$

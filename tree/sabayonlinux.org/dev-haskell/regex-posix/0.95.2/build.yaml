@@ -1,0 +1,45 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/regex-posix-0.95.2
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/regex-posix/0.95.2/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-regex-posix-0.95.2-regex-posix-0.95.2.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-regex-posix-0.95.2.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/regex-posix-0.95.2-LL3gIVfFgVr2H4EEGcZF3M.conf$
+- /usr/lib64/regex-posix-0.95.2$
+- /usr/lib64/regex-posix-0.95.2/ghc-8.0.2$
+- /usr/lib64/regex-posix-0.95.2/ghc-8.0.2/Text$
+- /usr/lib64/regex-posix-0.95.2/ghc-8.0.2/Text/Regex$
+- /usr/lib64/regex-posix-0.95.2/ghc-8.0.2/Text/Regex/Posix$
+- /usr/lib64/regex-posix-0.95.2/ghc-8.0.2/Text/Regex/Posix.dyn_hi$
+- /usr/lib64/regex-posix-0.95.2/ghc-8.0.2/Text/Regex/Posix.hi$
+- /usr/lib64/regex-posix-0.95.2/ghc-8.0.2/Text/Regex/Posix/ByteString$
+- /usr/lib64/regex-posix-0.95.2/ghc-8.0.2/Text/Regex/Posix/ByteString.dyn_hi$
+- /usr/lib64/regex-posix-0.95.2/ghc-8.0.2/Text/Regex/Posix/ByteString.hi$
+- /usr/lib64/regex-posix-0.95.2/ghc-8.0.2/Text/Regex/Posix/ByteString/Lazy.dyn_hi$
+- /usr/lib64/regex-posix-0.95.2/ghc-8.0.2/Text/Regex/Posix/ByteString/Lazy.hi$
+- /usr/lib64/regex-posix-0.95.2/ghc-8.0.2/Text/Regex/Posix/Sequence.dyn_hi$
+- /usr/lib64/regex-posix-0.95.2/ghc-8.0.2/Text/Regex/Posix/Sequence.hi$
+- /usr/lib64/regex-posix-0.95.2/ghc-8.0.2/Text/Regex/Posix/String.dyn_hi$
+- /usr/lib64/regex-posix-0.95.2/ghc-8.0.2/Text/Regex/Posix/String.hi$
+- /usr/lib64/regex-posix-0.95.2/ghc-8.0.2/Text/Regex/Posix/Wrap.dyn_hi$
+- /usr/lib64/regex-posix-0.95.2/ghc-8.0.2/Text/Regex/Posix/Wrap.hi$
+- /usr/lib64/regex-posix-0.95.2/ghc-8.0.2/libHSregex-posix-0.95.2-LL3gIVfFgVr2H4EEGcZF3M.a$
+- /usr/lib64/x86_64-linux-ghc-7.10.3$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSregex-posix-0.95.2-LL3gIVfFgVr2H4EEGcZF3M-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/regex-posix-0.95.2$
+- /usr/share/doc/regex-posix-0.95.2/LICENSE.bz2$

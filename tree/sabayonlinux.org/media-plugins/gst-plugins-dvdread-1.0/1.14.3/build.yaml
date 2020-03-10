@@ -1,0 +1,22 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-plugins/gst-plugins-dvdread-1.14.3
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> media-plugins/gst-plugins-dvdread-1.0/1.14.3/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/gstreamer-1.0$
+- /usr/lib32/gstreamer-1.0/libgstdvdread.so$
+- /usr/lib64$
+- /usr/lib64/gstreamer-1.0$
+- /usr/lib64/gstreamer-1.0/libgstdvdread.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/gst-plugins-dvdread-1.14.3$
+- /usr/share/doc/gst-plugins-dvdread-1.14.3/README$

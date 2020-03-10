@@ -1,0 +1,51 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i net-misc/libteam-1.29
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> net-misc/libteam/1.29/definition.yaml
+includes:
+- /etc$
+- /etc/dbus-1$
+- /etc/dbus-1/system.d$
+- /etc/dbus-1/system.d/teamd.conf$
+- /usr$
+- /usr/bin$
+- /usr/bin/bond2team$
+- /usr/bin/teamd$
+- /usr/bin/teamdctl$
+- /usr/bin/teamnl$
+- /usr/include$
+- /usr/include/team.h$
+- /usr/include/teamdctl.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libteam.a$
+- /usr/lib64/libteam.la$
+- /usr/lib64/libteam.so$
+- /usr/lib64/libteam.so.5$
+- /usr/lib64/libteam.so.5.6.0$
+- /usr/lib64/libteamdctl.a$
+- /usr/lib64/libteamdctl.la$
+- /usr/lib64/libteamdctl.so$
+- /usr/lib64/libteamdctl.so.0$
+- /usr/lib64/libteamdctl.so.0.1.5$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libteam.pc$
+- /usr/lib64/pkgconfig/libteamdctl.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libteam-1.29$
+- /usr/share/doc/libteam-1.29/README.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/bond2team.1.bz2$
+- /usr/share/man/man5$
+- /usr/share/man/man5/teamd.conf.5.bz2$
+- /usr/share/man/man8$
+- /usr/share/man/man8/teamd.8.bz2$
+- /usr/share/man/man8/teamdctl.8.bz2$
+- /usr/share/man/man8/teamnl.8.bz2$

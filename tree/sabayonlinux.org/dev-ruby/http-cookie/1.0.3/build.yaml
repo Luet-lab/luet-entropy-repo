@@ -1,0 +1,40 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/http-cookie-1.0.3
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-ruby/http-cookie/1.0.3/definition.yaml
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/http-cookie-1.0.3$
+- /usr/lib64/ruby/gems/2.5.0/gems/http-cookie-1.0.3/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/http-cookie-1.0.3/lib/http$
+- /usr/lib64/ruby/gems/2.5.0/gems/http-cookie-1.0.3/lib/http-cookie.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/http-cookie-1.0.3/lib/http/cookie$
+- /usr/lib64/ruby/gems/2.5.0/gems/http-cookie-1.0.3/lib/http/cookie.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/http-cookie-1.0.3/lib/http/cookie/ruby_compat.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/http-cookie-1.0.3/lib/http/cookie/scanner.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/http-cookie-1.0.3/lib/http/cookie/version.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/http-cookie-1.0.3/lib/http/cookie_jar$
+- /usr/lib64/ruby/gems/2.5.0/gems/http-cookie-1.0.3/lib/http/cookie_jar.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/http-cookie-1.0.3/lib/http/cookie_jar/abstract_saver.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/http-cookie-1.0.3/lib/http/cookie_jar/abstract_store.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/http-cookie-1.0.3/lib/http/cookie_jar/cookiestxt_saver.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/http-cookie-1.0.3/lib/http/cookie_jar/hash_store.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/http-cookie-1.0.3/lib/http/cookie_jar/mozilla_store.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/http-cookie-1.0.3/lib/http/cookie_jar/yaml_saver.rb$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/http-cookie-1.0.3.gemspec$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/http-cookie-1.0.3$
+- /usr/share/doc/http-cookie-1.0.3/CHANGELOG.md.bz2$
+- /usr/share/doc/http-cookie-1.0.3/README.md.bz2$

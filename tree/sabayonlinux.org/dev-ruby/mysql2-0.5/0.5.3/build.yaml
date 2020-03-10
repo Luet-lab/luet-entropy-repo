@@ -1,0 +1,36 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/mysql2-0.5.3
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-ruby/mysql2-0.5/0.5.3/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/mysql2-0.5.3$
+- /usr/lib64/ruby/gems/2.5.0/gems/mysql2-0.5.3/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/mysql2-0.5.3/lib/mysql2$
+- /usr/lib64/ruby/gems/2.5.0/gems/mysql2-0.5.3/lib/mysql2.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/mysql2-0.5.3/lib/mysql2/client.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/mysql2-0.5.3/lib/mysql2/console.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/mysql2-0.5.3/lib/mysql2/em.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/mysql2-0.5.3/lib/mysql2/error.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/mysql2-0.5.3/lib/mysql2/field.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/mysql2-0.5.3/lib/mysql2/mysql2.so$
+- /usr/lib64/ruby/gems/2.5.0/gems/mysql2-0.5.3/lib/mysql2/result.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/mysql2-0.5.3/lib/mysql2/statement.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/mysql2-0.5.3/lib/mysql2/version.rb$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/mysql2-0.5.3.gemspec$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/mysql2-0.5.3$
+- /usr/share/doc/mysql2-0.5.3/README.md.bz2$

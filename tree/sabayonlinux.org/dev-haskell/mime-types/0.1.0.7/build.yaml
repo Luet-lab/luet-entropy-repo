@@ -1,0 +1,32 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/mime-types-0.1.0.7
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/mime-types/0.1.0.7/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-mime-types-0.1.0.7-mime-types-0.1.0.7.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-mime-types-0.1.0.7.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/mime-types-0.1.0.7-9tlJPtUAvrzJUjVnX1uGc.conf$
+- /usr/lib64/mime-types-0.1.0.7$
+- /usr/lib64/mime-types-0.1.0.7/ghc-7.10.3$
+- /usr/lib64/mime-types-0.1.0.7/ghc-8.0.2$
+- /usr/lib64/mime-types-0.1.0.7/ghc-8.0.2/Network$
+- /usr/lib64/mime-types-0.1.0.7/ghc-8.0.2/Network/Mime.dyn_hi$
+- /usr/lib64/mime-types-0.1.0.7/ghc-8.0.2/Network/Mime.hi$
+- /usr/lib64/mime-types-0.1.0.7/ghc-8.0.2/libHSmime-types-0.1.0.7-9tlJPtUAvrzJUjVnX1uGc.a$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSmime-types-0.1.0.7-9tlJPtUAvrzJUjVnX1uGc-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/mime-types-0.1.0.7$
+- /usr/share/doc/mime-types-0.1.0.7/LICENSE.bz2$

@@ -1,0 +1,32 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/byteorder-1.0.4
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/byteorder/1.0.4/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/byteorder-1.0.4$
+- /usr/lib64/byteorder-1.0.4/ghc-7.10.3$
+- /usr/lib64/byteorder-1.0.4/ghc-8.0.2$
+- /usr/lib64/byteorder-1.0.4/ghc-8.0.2/System$
+- /usr/lib64/byteorder-1.0.4/ghc-8.0.2/System/ByteOrder.dyn_hi$
+- /usr/lib64/byteorder-1.0.4/ghc-8.0.2/System/ByteOrder.hi$
+- /usr/lib64/byteorder-1.0.4/ghc-8.0.2/libHSbyteorder-1.0.4-9NlNHkBVdo7F1prFVKrkcH.a$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-byteorder-1.0.4-byteorder-1.0.4.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-byteorder-1.0.4.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/byteorder-1.0.4-9NlNHkBVdo7F1prFVKrkcH.conf$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSbyteorder-1.0.4-9NlNHkBVdo7F1prFVKrkcH-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/byteorder-1.0.4$
+- /usr/share/doc/byteorder-1.0.4/LICENSE.bz2$

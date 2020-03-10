@@ -1,0 +1,61 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/hourglass-0.2.9
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/hourglass/0.2.9/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-hourglass-0.2.9-hourglass-0.2.9.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-hourglass-0.2.9.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/hourglass-0.2.9-8GmWb7xQELnGMI2RM17ewP.conf$
+- /usr/lib64/hourglass-0.2.9$
+- /usr/lib64/hourglass-0.2.9/ghc-7.10.3$
+- /usr/lib64/hourglass-0.2.9/ghc-8.0.2$
+- /usr/lib64/hourglass-0.2.9/ghc-8.0.2/Data$
+- /usr/lib64/hourglass-0.2.9/ghc-8.0.2/Data/Hourglass$
+- /usr/lib64/hourglass-0.2.9/ghc-8.0.2/Data/Hourglass.dyn_hi$
+- /usr/lib64/hourglass-0.2.9/ghc-8.0.2/Data/Hourglass.hi$
+- /usr/lib64/hourglass-0.2.9/ghc-8.0.2/Data/Hourglass/Calendar.dyn_hi$
+- /usr/lib64/hourglass-0.2.9/ghc-8.0.2/Data/Hourglass/Calendar.hi$
+- /usr/lib64/hourglass-0.2.9/ghc-8.0.2/Data/Hourglass/Compat.dyn_hi$
+- /usr/lib64/hourglass-0.2.9/ghc-8.0.2/Data/Hourglass/Compat.hi$
+- /usr/lib64/hourglass-0.2.9/ghc-8.0.2/Data/Hourglass/Diff.dyn_hi$
+- /usr/lib64/hourglass-0.2.9/ghc-8.0.2/Data/Hourglass/Diff.hi$
+- /usr/lib64/hourglass-0.2.9/ghc-8.0.2/Data/Hourglass/Epoch.dyn_hi$
+- /usr/lib64/hourglass-0.2.9/ghc-8.0.2/Data/Hourglass/Epoch.hi$
+- /usr/lib64/hourglass-0.2.9/ghc-8.0.2/Data/Hourglass/Format.dyn_hi$
+- /usr/lib64/hourglass-0.2.9/ghc-8.0.2/Data/Hourglass/Format.hi$
+- /usr/lib64/hourglass-0.2.9/ghc-8.0.2/Data/Hourglass/Internal$
+- /usr/lib64/hourglass-0.2.9/ghc-8.0.2/Data/Hourglass/Internal.dyn_hi$
+- /usr/lib64/hourglass-0.2.9/ghc-8.0.2/Data/Hourglass/Internal.hi$
+- /usr/lib64/hourglass-0.2.9/ghc-8.0.2/Data/Hourglass/Internal/Unix.dyn_hi$
+- /usr/lib64/hourglass-0.2.9/ghc-8.0.2/Data/Hourglass/Internal/Unix.hi$
+- /usr/lib64/hourglass-0.2.9/ghc-8.0.2/Data/Hourglass/Local.dyn_hi$
+- /usr/lib64/hourglass-0.2.9/ghc-8.0.2/Data/Hourglass/Local.hi$
+- /usr/lib64/hourglass-0.2.9/ghc-8.0.2/Data/Hourglass/Time.dyn_hi$
+- /usr/lib64/hourglass-0.2.9/ghc-8.0.2/Data/Hourglass/Time.hi$
+- /usr/lib64/hourglass-0.2.9/ghc-8.0.2/Data/Hourglass/Types.dyn_hi$
+- /usr/lib64/hourglass-0.2.9/ghc-8.0.2/Data/Hourglass/Types.hi$
+- /usr/lib64/hourglass-0.2.9/ghc-8.0.2/Data/Hourglass/Utils.dyn_hi$
+- /usr/lib64/hourglass-0.2.9/ghc-8.0.2/Data/Hourglass/Utils.hi$
+- /usr/lib64/hourglass-0.2.9/ghc-8.0.2/Data/Hourglass/Zone.dyn_hi$
+- /usr/lib64/hourglass-0.2.9/ghc-8.0.2/Data/Hourglass/Zone.hi$
+- /usr/lib64/hourglass-0.2.9/ghc-8.0.2/System$
+- /usr/lib64/hourglass-0.2.9/ghc-8.0.2/System/Hourglass.dyn_hi$
+- /usr/lib64/hourglass-0.2.9/ghc-8.0.2/System/Hourglass.hi$
+- /usr/lib64/hourglass-0.2.9/ghc-8.0.2/libHShourglass-0.2.9-8GmWb7xQELnGMI2RM17ewP.a$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHShourglass-0.2.9-8GmWb7xQELnGMI2RM17ewP-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/hourglass-0.2.9$
+- /usr/share/doc/hourglass-0.2.9/LICENSE.bz2$

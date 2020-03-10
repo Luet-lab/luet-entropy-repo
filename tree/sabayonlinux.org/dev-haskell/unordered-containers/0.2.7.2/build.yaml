@@ -1,0 +1,47 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/unordered-containers-0.2.7.2
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/unordered-containers/0.2.7.2/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-unordered-containers-0.2.7.2-unordered-containers-0.2.7.2.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-unordered-containers-0.2.7.2.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/unordered-containers-0.2.7.2-CfmcRfw55xMA8Olmtw2Me6.conf$
+- /usr/lib64/unordered-containers-0.2.7.2$
+- /usr/lib64/unordered-containers-0.2.7.2/ghc-7.10.3$
+- /usr/lib64/unordered-containers-0.2.7.2/ghc-8.0.2$
+- /usr/lib64/unordered-containers-0.2.7.2/ghc-8.0.2/Data$
+- /usr/lib64/unordered-containers-0.2.7.2/ghc-8.0.2/Data/HashMap$
+- /usr/lib64/unordered-containers-0.2.7.2/ghc-8.0.2/Data/HashMap/Array.dyn_hi$
+- /usr/lib64/unordered-containers-0.2.7.2/ghc-8.0.2/Data/HashMap/Array.hi$
+- /usr/lib64/unordered-containers-0.2.7.2/ghc-8.0.2/Data/HashMap/Base.dyn_hi$
+- /usr/lib64/unordered-containers-0.2.7.2/ghc-8.0.2/Data/HashMap/Base.hi$
+- /usr/lib64/unordered-containers-0.2.7.2/ghc-8.0.2/Data/HashMap/Lazy.dyn_hi$
+- /usr/lib64/unordered-containers-0.2.7.2/ghc-8.0.2/Data/HashMap/Lazy.hi$
+- /usr/lib64/unordered-containers-0.2.7.2/ghc-8.0.2/Data/HashMap/PopCount.dyn_hi$
+- /usr/lib64/unordered-containers-0.2.7.2/ghc-8.0.2/Data/HashMap/PopCount.hi$
+- /usr/lib64/unordered-containers-0.2.7.2/ghc-8.0.2/Data/HashMap/Strict.dyn_hi$
+- /usr/lib64/unordered-containers-0.2.7.2/ghc-8.0.2/Data/HashMap/Strict.hi$
+- /usr/lib64/unordered-containers-0.2.7.2/ghc-8.0.2/Data/HashMap/Unsafe.dyn_hi$
+- /usr/lib64/unordered-containers-0.2.7.2/ghc-8.0.2/Data/HashMap/Unsafe.hi$
+- /usr/lib64/unordered-containers-0.2.7.2/ghc-8.0.2/Data/HashMap/UnsafeShift.dyn_hi$
+- /usr/lib64/unordered-containers-0.2.7.2/ghc-8.0.2/Data/HashMap/UnsafeShift.hi$
+- /usr/lib64/unordered-containers-0.2.7.2/ghc-8.0.2/Data/HashSet.dyn_hi$
+- /usr/lib64/unordered-containers-0.2.7.2/ghc-8.0.2/Data/HashSet.hi$
+- /usr/lib64/unordered-containers-0.2.7.2/ghc-8.0.2/libHSunordered-containers-0.2.7.2-CfmcRfw55xMA8Olmtw2Me6.a$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSunordered-containers-0.2.7.2-CfmcRfw55xMA8Olmtw2Me6-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/unordered-containers-0.2.7.2$
+- /usr/share/doc/unordered-containers-0.2.7.2/LICENSE.bz2$

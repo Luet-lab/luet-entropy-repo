@@ -1,0 +1,91 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/flup-1.0.2-r1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-python/flup/1.0.2/definition.yaml
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/python2.7$
+- /usr/lib64/python2.7/site-packages$
+- /usr/lib64/python2.7/site-packages/flup$
+- /usr/lib64/python2.7/site-packages/flup-1.0.2-py2.7.egg-info$
+- /usr/lib64/python2.7/site-packages/flup-1.0.2-py2.7.egg-info/PKG-INFO$
+- /usr/lib64/python2.7/site-packages/flup-1.0.2-py2.7.egg-info/SOURCES.txt$
+- /usr/lib64/python2.7/site-packages/flup-1.0.2-py2.7.egg-info/dependency_links.txt$
+- /usr/lib64/python2.7/site-packages/flup-1.0.2-py2.7.egg-info/entry_points.txt$
+- /usr/lib64/python2.7/site-packages/flup-1.0.2-py2.7.egg-info/top_level.txt$
+- /usr/lib64/python2.7/site-packages/flup-1.0.2-py2.7.egg-info/zip-safe$
+- /usr/lib64/python2.7/site-packages/flup/__init__.py$
+- /usr/lib64/python2.7/site-packages/flup/__init__.pyc$
+- /usr/lib64/python2.7/site-packages/flup/__init__.pyo$
+- /usr/lib64/python2.7/site-packages/flup/client$
+- /usr/lib64/python2.7/site-packages/flup/client/__init__.py$
+- /usr/lib64/python2.7/site-packages/flup/client/__init__.pyc$
+- /usr/lib64/python2.7/site-packages/flup/client/__init__.pyo$
+- /usr/lib64/python2.7/site-packages/flup/client/fcgi_app.py$
+- /usr/lib64/python2.7/site-packages/flup/client/fcgi_app.pyc$
+- /usr/lib64/python2.7/site-packages/flup/client/fcgi_app.pyo$
+- /usr/lib64/python2.7/site-packages/flup/client/scgi_app.py$
+- /usr/lib64/python2.7/site-packages/flup/client/scgi_app.pyc$
+- /usr/lib64/python2.7/site-packages/flup/client/scgi_app.pyo$
+- /usr/lib64/python2.7/site-packages/flup/server$
+- /usr/lib64/python2.7/site-packages/flup/server/__init__.py$
+- /usr/lib64/python2.7/site-packages/flup/server/__init__.pyc$
+- /usr/lib64/python2.7/site-packages/flup/server/__init__.pyo$
+- /usr/lib64/python2.7/site-packages/flup/server/ajp.py$
+- /usr/lib64/python2.7/site-packages/flup/server/ajp.pyc$
+- /usr/lib64/python2.7/site-packages/flup/server/ajp.pyo$
+- /usr/lib64/python2.7/site-packages/flup/server/ajp_base.py$
+- /usr/lib64/python2.7/site-packages/flup/server/ajp_base.pyc$
+- /usr/lib64/python2.7/site-packages/flup/server/ajp_base.pyo$
+- /usr/lib64/python2.7/site-packages/flup/server/ajp_fork.py$
+- /usr/lib64/python2.7/site-packages/flup/server/ajp_fork.pyc$
+- /usr/lib64/python2.7/site-packages/flup/server/ajp_fork.pyo$
+- /usr/lib64/python2.7/site-packages/flup/server/cgi.py$
+- /usr/lib64/python2.7/site-packages/flup/server/cgi.pyc$
+- /usr/lib64/python2.7/site-packages/flup/server/cgi.pyo$
+- /usr/lib64/python2.7/site-packages/flup/server/fcgi.py$
+- /usr/lib64/python2.7/site-packages/flup/server/fcgi.pyc$
+- /usr/lib64/python2.7/site-packages/flup/server/fcgi.pyo$
+- /usr/lib64/python2.7/site-packages/flup/server/fcgi_base.py$
+- /usr/lib64/python2.7/site-packages/flup/server/fcgi_base.pyc$
+- /usr/lib64/python2.7/site-packages/flup/server/fcgi_base.pyo$
+- /usr/lib64/python2.7/site-packages/flup/server/fcgi_fork.py$
+- /usr/lib64/python2.7/site-packages/flup/server/fcgi_fork.pyc$
+- /usr/lib64/python2.7/site-packages/flup/server/fcgi_fork.pyo$
+- /usr/lib64/python2.7/site-packages/flup/server/fcgi_single.py$
+- /usr/lib64/python2.7/site-packages/flup/server/fcgi_single.pyc$
+- /usr/lib64/python2.7/site-packages/flup/server/fcgi_single.pyo$
+- /usr/lib64/python2.7/site-packages/flup/server/paste_factory.py$
+- /usr/lib64/python2.7/site-packages/flup/server/paste_factory.pyc$
+- /usr/lib64/python2.7/site-packages/flup/server/paste_factory.pyo$
+- /usr/lib64/python2.7/site-packages/flup/server/preforkserver.py$
+- /usr/lib64/python2.7/site-packages/flup/server/preforkserver.pyc$
+- /usr/lib64/python2.7/site-packages/flup/server/preforkserver.pyo$
+- /usr/lib64/python2.7/site-packages/flup/server/scgi.py$
+- /usr/lib64/python2.7/site-packages/flup/server/scgi.pyc$
+- /usr/lib64/python2.7/site-packages/flup/server/scgi.pyo$
+- /usr/lib64/python2.7/site-packages/flup/server/scgi_base.py$
+- /usr/lib64/python2.7/site-packages/flup/server/scgi_base.pyc$
+- /usr/lib64/python2.7/site-packages/flup/server/scgi_base.pyo$
+- /usr/lib64/python2.7/site-packages/flup/server/scgi_fork.py$
+- /usr/lib64/python2.7/site-packages/flup/server/scgi_fork.pyc$
+- /usr/lib64/python2.7/site-packages/flup/server/scgi_fork.pyo$
+- /usr/lib64/python2.7/site-packages/flup/server/singleserver.py$
+- /usr/lib64/python2.7/site-packages/flup/server/singleserver.pyc$
+- /usr/lib64/python2.7/site-packages/flup/server/singleserver.pyo$
+- /usr/lib64/python2.7/site-packages/flup/server/threadedserver.py$
+- /usr/lib64/python2.7/site-packages/flup/server/threadedserver.pyc$
+- /usr/lib64/python2.7/site-packages/flup/server/threadedserver.pyo$
+- /usr/lib64/python2.7/site-packages/flup/server/threadpool.py$
+- /usr/lib64/python2.7/site-packages/flup/server/threadpool.pyc$
+- /usr/lib64/python2.7/site-packages/flup/server/threadpool.pyo$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/flup-1.0.2-r1$
+- /usr/share/doc/flup-1.0.2-r1/ChangeLog.bz2$

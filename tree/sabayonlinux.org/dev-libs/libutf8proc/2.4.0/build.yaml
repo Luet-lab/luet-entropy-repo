@@ -1,0 +1,22 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/libutf8proc-2.4.0
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-libs/libutf8proc/2.4.0/definition.yaml
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/libutf8proc$
+- /usr/include/libutf8proc/utf8proc.h$
+- /usr/include/utf8proc.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libutf8proc.so$
+- /usr/lib64/libutf8proc.so.2$
+- /usr/lib64/libutf8proc.so.2.3.1$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libutf8proc.pc$

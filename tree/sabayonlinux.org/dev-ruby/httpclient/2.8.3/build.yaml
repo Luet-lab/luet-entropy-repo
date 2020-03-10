@@ -1,0 +1,55 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/httpclient-2.8.3
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-ruby/httpclient/2.8.3/definition.yaml
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/httpclient$
+- /usr/bin/jsonclient$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/httpclient-2.8.3$
+- /usr/lib64/ruby/gems/2.5.0/gems/httpclient-2.8.3/bin$
+- /usr/lib64/ruby/gems/2.5.0/gems/httpclient-2.8.3/bin/httpclient$
+- /usr/lib64/ruby/gems/2.5.0/gems/httpclient-2.8.3/bin/jsonclient$
+- /usr/lib64/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib/hexdump.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib/http-access2$
+- /usr/lib64/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib/http-access2.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib/http-access2/cookie.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib/http-access2/http.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib/httpclient$
+- /usr/lib64/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib/httpclient.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib/httpclient/auth.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib/httpclient/cacert.pem$
+- /usr/lib64/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib/httpclient/cacert1024.pem$
+- /usr/lib64/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib/httpclient/connection.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib/httpclient/cookie.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib/httpclient/http.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib/httpclient/include_client.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib/httpclient/jruby_ssl_socket.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib/httpclient/session.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib/httpclient/ssl_config.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib/httpclient/ssl_socket.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib/httpclient/timeout.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib/httpclient/util.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib/httpclient/version.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib/httpclient/webagent-cookie.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib/jsonclient.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib/oauthclient.rb$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/httpclient-2.8.3.gemspec$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/httpclient-2.8.3$
+- /usr/share/doc/httpclient-2.8.3/CHANGELOG.md.bz2$
+- /usr/share/doc/httpclient-2.8.3/README.md.bz2$

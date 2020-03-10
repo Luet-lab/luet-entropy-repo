@@ -1,0 +1,33 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/puremd5-2.1.3
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/puremd5/2.1.3/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-puremd5-2.1.3-puremd5-2.1.3.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-puremd5-2.1.3.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/pureMD5-2.1.3-GZtGdV5mb6uE6w07IGjjux.conf$
+- /usr/lib64/puremd5-2.1.3$
+- /usr/lib64/puremd5-2.1.3/ghc-8.0.2$
+- /usr/lib64/puremd5-2.1.3/ghc-8.0.2/Data$
+- /usr/lib64/puremd5-2.1.3/ghc-8.0.2/Data/Digest$
+- /usr/lib64/puremd5-2.1.3/ghc-8.0.2/Data/Digest/Pure$
+- /usr/lib64/puremd5-2.1.3/ghc-8.0.2/Data/Digest/Pure/MD5.dyn_hi$
+- /usr/lib64/puremd5-2.1.3/ghc-8.0.2/Data/Digest/Pure/MD5.hi$
+- /usr/lib64/puremd5-2.1.3/ghc-8.0.2/libHSpureMD5-2.1.3-GZtGdV5mb6uE6w07IGjjux.a$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSpureMD5-2.1.3-GZtGdV5mb6uE6w07IGjjux-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/puremd5-2.1.3$
+- /usr/share/doc/puremd5-2.1.3/LICENSE.bz2$

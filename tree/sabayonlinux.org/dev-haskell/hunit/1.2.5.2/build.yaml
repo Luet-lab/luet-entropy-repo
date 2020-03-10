@@ -1,0 +1,49 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/hunit-1.2.5.2-r1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/hunit/1.2.5.2/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-hunit-1.2.5.2-r1-hunit-1.2.5.2.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-hunit-1.2.5.2-r1.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/HUnit-1.2.5.2-QPK2Pt7CBzH4grk4XfRj5.conf$
+- /usr/lib64/hunit-1.2.5.2$
+- /usr/lib64/hunit-1.2.5.2/ghc-7.10.3$
+- /usr/lib64/hunit-1.2.5.2/ghc-8.0.2$
+- /usr/lib64/hunit-1.2.5.2/ghc-8.0.2/Test$
+- /usr/lib64/hunit-1.2.5.2/ghc-8.0.2/Test/HUnit$
+- /usr/lib64/hunit-1.2.5.2/ghc-8.0.2/Test/HUnit.dyn_hi$
+- /usr/lib64/hunit-1.2.5.2/ghc-8.0.2/Test/HUnit.hi$
+- /usr/lib64/hunit-1.2.5.2/ghc-8.0.2/Test/HUnit/Base.dyn_hi$
+- /usr/lib64/hunit-1.2.5.2/ghc-8.0.2/Test/HUnit/Base.hi$
+- /usr/lib64/hunit-1.2.5.2/ghc-8.0.2/Test/HUnit/Lang.dyn_hi$
+- /usr/lib64/hunit-1.2.5.2/ghc-8.0.2/Test/HUnit/Lang.hi$
+- /usr/lib64/hunit-1.2.5.2/ghc-8.0.2/Test/HUnit/Terminal.dyn_hi$
+- /usr/lib64/hunit-1.2.5.2/ghc-8.0.2/Test/HUnit/Terminal.hi$
+- /usr/lib64/hunit-1.2.5.2/ghc-8.0.2/Test/HUnit/Text.dyn_hi$
+- /usr/lib64/hunit-1.2.5.2/ghc-8.0.2/Test/HUnit/Text.hi$
+- /usr/lib64/hunit-1.2.5.2/ghc-8.0.2/libHSHUnit-1.2.5.2-QPK2Pt7CBzH4grk4XfRj5.a$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSHUnit-1.2.5.2-QPK2Pt7CBzH4grk4XfRj5-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/hunit-1.2.5.2-r1$
+- /usr/share/doc/hunit-1.2.5.2-r1/LICENSE.bz2$
+- /usr/share/hunit-1.2.5.2$
+- /usr/share/hunit-1.2.5.2/ghc-8.0.2$
+- /usr/share/hunit-1.2.5.2/ghc-8.0.2/README$
+- /usr/share/hunit-1.2.5.2/ghc-8.0.2/doc$
+- /usr/share/hunit-1.2.5.2/ghc-8.0.2/doc/Guide.html$
+- /usr/share/hunit-1.2.5.2/ghc-8.0.2/examples$
+- /usr/share/hunit-1.2.5.2/ghc-8.0.2/examples/Example.hs$
+- /usr/share/hunit-1.2.5.2/ghc-8.0.2/prologue.txt$

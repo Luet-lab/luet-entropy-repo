@@ -1,0 +1,49 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/conduit-1.2.12.1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/conduit/1.2.12.1/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/conduit-1.2.12.1$
+- /usr/lib64/conduit-1.2.12.1/ghc-8.0.2$
+- /usr/lib64/conduit-1.2.12.1/ghc-8.0.2/Data$
+- /usr/lib64/conduit-1.2.12.1/ghc-8.0.2/Data/Conduit$
+- /usr/lib64/conduit-1.2.12.1/ghc-8.0.2/Data/Conduit.dyn_hi$
+- /usr/lib64/conduit-1.2.12.1/ghc-8.0.2/Data/Conduit.hi$
+- /usr/lib64/conduit-1.2.12.1/ghc-8.0.2/Data/Conduit/Internal$
+- /usr/lib64/conduit-1.2.12.1/ghc-8.0.2/Data/Conduit/Internal.dyn_hi$
+- /usr/lib64/conduit-1.2.12.1/ghc-8.0.2/Data/Conduit/Internal.hi$
+- /usr/lib64/conduit-1.2.12.1/ghc-8.0.2/Data/Conduit/Internal/Conduit.dyn_hi$
+- /usr/lib64/conduit-1.2.12.1/ghc-8.0.2/Data/Conduit/Internal/Conduit.hi$
+- /usr/lib64/conduit-1.2.12.1/ghc-8.0.2/Data/Conduit/Internal/Fusion.dyn_hi$
+- /usr/lib64/conduit-1.2.12.1/ghc-8.0.2/Data/Conduit/Internal/Fusion.hi$
+- /usr/lib64/conduit-1.2.12.1/ghc-8.0.2/Data/Conduit/Internal/List$
+- /usr/lib64/conduit-1.2.12.1/ghc-8.0.2/Data/Conduit/Internal/List/Stream.dyn_hi$
+- /usr/lib64/conduit-1.2.12.1/ghc-8.0.2/Data/Conduit/Internal/List/Stream.hi$
+- /usr/lib64/conduit-1.2.12.1/ghc-8.0.2/Data/Conduit/Internal/Pipe.dyn_hi$
+- /usr/lib64/conduit-1.2.12.1/ghc-8.0.2/Data/Conduit/Internal/Pipe.hi$
+- /usr/lib64/conduit-1.2.12.1/ghc-8.0.2/Data/Conduit/Lift.dyn_hi$
+- /usr/lib64/conduit-1.2.12.1/ghc-8.0.2/Data/Conduit/Lift.hi$
+- /usr/lib64/conduit-1.2.12.1/ghc-8.0.2/Data/Conduit/List.dyn_hi$
+- /usr/lib64/conduit-1.2.12.1/ghc-8.0.2/Data/Conduit/List.hi$
+- /usr/lib64/conduit-1.2.12.1/ghc-8.0.2/libHSconduit-1.2.12.1-BUJk7XSLxDb7pYuqbbhzjX.a$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-conduit-1.2.12.1-conduit-1.2.12.1.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-conduit-1.2.12.1.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/conduit-1.2.12.1-BUJk7XSLxDb7pYuqbbhzjX.conf$
+- /usr/lib64/x86_64-linux-ghc-7.10.3$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSconduit-1.2.12.1-BUJk7XSLxDb7pYuqbbhzjX-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/conduit-1.2.12.1$
+- /usr/share/doc/conduit-1.2.12.1/LICENSE.bz2$

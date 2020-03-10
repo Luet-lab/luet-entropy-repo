@@ -1,0 +1,35 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/ladspa-cmt-1.16-r4
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> media-libs/ladspa-cmt/1.16/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/ladspa$
+- /usr/lib32/ladspa/cmt.so$
+- /usr/lib64$
+- /usr/lib64/ladspa$
+- /usr/lib64/ladspa/cmt.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/ladspa-cmt-1.16-r4$
+- /usr/share/doc/ladspa-cmt-1.16-r4/README.bz2$
+- /usr/share/doc/ladspa-cmt-1.16-r4/html$
+- /usr/share/doc/ladspa-cmt-1.16-r4/html/adding_plugins.html$
+- /usr/share/doc/ladspa-cmt-1.16-r4/html/bugs.html$
+- /usr/share/doc/ladspa-cmt-1.16-r4/html/changes.html$
+- /usr/share/doc/ladspa-cmt-1.16-r4/html/index.html$
+- /usr/share/doc/ladspa-cmt-1.16-r4/html/installation.html$
+- /usr/share/doc/ladspa-cmt-1.16-r4/html/license.html$
+- /usr/share/doc/ladspa-cmt-1.16-r4/html/overview.html$
+- /usr/share/doc/ladspa-cmt-1.16-r4/html/plugins.html$
+- /usr/share/doc/ladspa-cmt-1.16-r4/html/tasks.html$
+- /usr/share/ladspa$
+- /usr/share/ladspa/rdf$
+- /usr/share/ladspa/rdf/cmt.rdf$

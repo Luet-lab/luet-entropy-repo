@@ -1,0 +1,28 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-gfx/optipng-0.7.7
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> media-gfx/optipng/0.7.7/definition.yaml
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/optipng$
+- /usr/lib$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/optipng-0.7.7$
+- /usr/share/doc/optipng-0.7.7/AUTHORS.txt.bz2$
+- /usr/share/doc/optipng-0.7.7/README.txt.bz2$
+- /usr/share/doc/optipng-0.7.7/history.txt.bz2$
+- /usr/share/doc/optipng-0.7.7/html$
+- /usr/share/doc/optipng-0.7.7/html/optipng.man.html$
+- /usr/share/doc/optipng-0.7.7/html/png_optimization.html$
+- /usr/share/doc/optipng-0.7.7/optipng.man.txt.bz2$
+- /usr/share/doc/optipng-0.7.7/todo.txt.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/optipng.1.bz2$

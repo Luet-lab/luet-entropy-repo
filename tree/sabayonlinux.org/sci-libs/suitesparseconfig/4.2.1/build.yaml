@@ -1,0 +1,26 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i sci-libs/suitesparseconfig-4.2.1-r1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> sci-libs/suitesparseconfig/4.2.1/definition.yaml
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/SuiteSparse_config.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libsuitesparseconfig.so$
+- /usr/lib32/libsuitesparseconfig.so.0$
+- /usr/lib32/libsuitesparseconfig.so.0.0.0$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/suitesparseconfig.pc$
+- /usr/lib64$
+- /usr/lib64/libsuitesparseconfig.so$
+- /usr/lib64/libsuitesparseconfig.so.0$
+- /usr/lib64/libsuitesparseconfig.so.0.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/suitesparseconfig.pc$

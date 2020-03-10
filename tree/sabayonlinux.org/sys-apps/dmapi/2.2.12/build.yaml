@@ -1,0 +1,33 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i sys-apps/dmapi-2.2.12-r1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> sys-apps/dmapi/2.2.12/definition.yaml
+includes:
+- /lib64$
+- /lib64/libdm.so.0$
+- /lib64/libdm.so.0.0.4$
+- /usr$
+- /usr/include$
+- /usr/include/xfs$
+- /usr/include/xfs/dmapi.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libdm.so$
+- /usr/lib32/libdm.so.0$
+- /usr/lib32/libdm.so.0.0.4$
+- /usr/lib64$
+- /usr/lib64/libdm.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/dmapi-2.2.12-r1$
+- /usr/share/doc/dmapi-2.2.12-r1/CHANGES.bz2$
+- /usr/share/doc/dmapi-2.2.12-r1/PORTING.bz2$
+- /usr/share/doc/dmapi-2.2.12-r1/README.bz2$
+- /usr/share/man$
+- /usr/share/man/man3$
+- /usr/share/man/man3/dmapi.3.bz2$

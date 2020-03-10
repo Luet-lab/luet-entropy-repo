@@ -1,0 +1,87 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/dotconf-1.3-r1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-libs/dotconf/1.3/definition.yaml
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/dotconf.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libdotconf.a$
+- /usr/lib64/libdotconf.la$
+- /usr/lib64/libdotconf.so$
+- /usr/lib64/libdotconf.so.0$
+- /usr/lib64/libdotconf.so.0.0.1$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/dotconf.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/dotconf-1.3-r1$
+- /usr/share/doc/dotconf-1.3-r1/AUTHORS.bz2$
+- /usr/share/doc/dotconf-1.3-r1/README.bz2$
+- /usr/share/doc/dotconf-1.3-r1/dotconf-api.txt.bz2$
+- /usr/share/doc/dotconf-1.3-r1/dotconf-features.txt.bz2$
+- /usr/share/doc/dotconf-1.3-r1/examples$
+- /usr/share/doc/dotconf-1.3-r1/examples/README.bz2$
+- /usr/share/doc/dotconf-1.3-r1/examples/argdouble$
+- /usr/share/doc/dotconf-1.3-r1/examples/argdouble/Makefile.bz2$
+- /usr/share/doc/dotconf-1.3-r1/examples/argdouble/argdouble.c.bz2$
+- /usr/share/doc/dotconf-1.3-r1/examples/argdouble/argdouble.conf$
+- /usr/share/doc/dotconf-1.3-r1/examples/argdouble/output$
+- /usr/share/doc/dotconf-1.3-r1/examples/caseinsensitive$
+- /usr/share/doc/dotconf-1.3-r1/examples/caseinsensitive/Makefile.bz2$
+- /usr/share/doc/dotconf-1.3-r1/examples/caseinsensitive/caseinsensitive.c.bz2$
+- /usr/share/doc/dotconf-1.3-r1/examples/caseinsensitive/caseinsensitive.conf$
+- /usr/share/doc/dotconf-1.3-r1/examples/caseinsensitive/output.bz2$
+- /usr/share/doc/dotconf-1.3-r1/examples/context$
+- /usr/share/doc/dotconf-1.3-r1/examples/context/Makefile.bz2$
+- /usr/share/doc/dotconf-1.3-r1/examples/context/context.c.bz2$
+- /usr/share/doc/dotconf-1.3-r1/examples/context/context.conf.bz2$
+- /usr/share/doc/dotconf-1.3-r1/examples/context/output.bz2$
+- /usr/share/doc/dotconf-1.3-r1/examples/duplicates$
+- /usr/share/doc/dotconf-1.3-r1/examples/duplicates/Makefile.bz2$
+- /usr/share/doc/dotconf-1.3-r1/examples/duplicates/duplicate.c.bz2$
+- /usr/share/doc/dotconf-1.3-r1/examples/duplicates/first_module.c.bz2$
+- /usr/share/doc/dotconf-1.3-r1/examples/duplicates/output.bz2$
+- /usr/share/doc/dotconf-1.3-r1/examples/duplicates/sample.conf.bz2$
+- /usr/share/doc/dotconf-1.3-r1/examples/duplicates/second_module.c.bz2$
+- /usr/share/doc/dotconf-1.3-r1/examples/errorhandler$
+- /usr/share/doc/dotconf-1.3-r1/examples/errorhandler/Makefile.bz2$
+- /usr/share/doc/dotconf-1.3-r1/examples/errorhandler/errorhandler.c.bz2$
+- /usr/share/doc/dotconf-1.3-r1/examples/errorhandler/errorhandler.conf$
+- /usr/share/doc/dotconf-1.3-r1/examples/errorhandler/output$
+- /usr/share/doc/dotconf-1.3-r1/examples/fallback$
+- /usr/share/doc/dotconf-1.3-r1/examples/fallback/Makefile.bz2$
+- /usr/share/doc/dotconf-1.3-r1/examples/fallback/fallback.c.bz2$
+- /usr/share/doc/dotconf-1.3-r1/examples/fallback/fallback.conf$
+- /usr/share/doc/dotconf-1.3-r1/examples/fallback/output.bz2$
+- /usr/share/doc/dotconf-1.3-r1/examples/libpool$
+- /usr/share/doc/dotconf-1.3-r1/examples/libpool/Makefile$
+- /usr/share/doc/dotconf-1.3-r1/examples/libpool/libpool.h.bz2$
+- /usr/share/doc/dotconf-1.3-r1/examples/libpool/pool.c.bz2$
+- /usr/share/doc/dotconf-1.3-r1/examples/maketest.sh.bz2$
+- /usr/share/doc/dotconf-1.3-r1/examples/modules$
+- /usr/share/doc/dotconf-1.3-r1/examples/modules/Makefile.bz2$
+- /usr/share/doc/dotconf-1.3-r1/examples/modules/include.conf$
+- /usr/share/doc/dotconf-1.3-r1/examples/modules/module.c.bz2$
+- /usr/share/doc/dotconf-1.3-r1/examples/modules/my_module.c.bz2$
+- /usr/share/doc/dotconf-1.3-r1/examples/modules/output.bz2$
+- /usr/share/doc/dotconf-1.3-r1/examples/modules/sample.conf.bz2$
+- /usr/share/doc/dotconf-1.3-r1/examples/noinline$
+- /usr/share/doc/dotconf-1.3-r1/examples/noinline/Makefile.bz2$
+- /usr/share/doc/dotconf-1.3-r1/examples/noinline/noinline.c.bz2$
+- /usr/share/doc/dotconf-1.3-r1/examples/noinline/noinline.conf.bz2$
+- /usr/share/doc/dotconf-1.3-r1/examples/noinline/output.bz2$
+- /usr/share/doc/dotconf-1.3-r1/examples/simple$
+- /usr/share/doc/dotconf-1.3-r1/examples/simple/Makefile.bz2$
+- /usr/share/doc/dotconf-1.3-r1/examples/simple/included.conf.bz2$
+- /usr/share/doc/dotconf-1.3-r1/examples/simple/linecat.conf.bz2$
+- /usr/share/doc/dotconf-1.3-r1/examples/simple/output.bz2$
+- /usr/share/doc/dotconf-1.3-r1/examples/simple/simple.c.bz2$
+- /usr/share/doc/dotconf-1.3-r1/examples/simple/simple.conf$

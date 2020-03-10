@@ -1,0 +1,25 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/ruby-rc4-0.1.5-r2
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-ruby/ruby-rc4/0.1.5/definition.yaml
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/ruby-rc4-0.1.5$
+- /usr/lib64/ruby/gems/2.5.0/gems/ruby-rc4-0.1.5/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/ruby-rc4-0.1.5/lib/rc4.rb$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/ruby-rc4-0.1.5.gemspec$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/ruby-rc4-0.1.5-r2$
+- /usr/share/doc/ruby-rc4-0.1.5-r2/README.md.bz2$

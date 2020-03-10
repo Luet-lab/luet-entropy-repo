@@ -1,0 +1,36 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i net-nds/rpcbind-1.2.5
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> net-nds/rpcbind/1.2.5/definition.yaml
+includes:
+- /etc$
+- /etc/conf.d$
+- /etc/conf.d/rpcbind$
+- /etc/init.d$
+- /etc/init.d/rpcbind$
+- /lib$
+- /lib/systemd$
+- /lib/systemd/system$
+- /lib/systemd/system/rpcbind.service$
+- /lib/systemd/system/rpcbind.socket$
+- /sbin$
+- /sbin/rpcbind$
+- /sbin/rpcinfo$
+- /usr$
+- /usr/lib$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/rpcbind-1.2.5$
+- /usr/share/doc/rpcbind-1.2.5/AUTHORS$
+- /usr/share/doc/rpcbind-1.2.5/ChangeLog.bz2$
+- /usr/share/doc/rpcbind-1.2.5/NEWS$
+- /usr/share/doc/rpcbind-1.2.5/README$
+- /usr/share/man$
+- /usr/share/man/man8$
+- /usr/share/man/man8/rpcbind.8.bz2$
+- /usr/share/man/man8/rpcinfo.8.bz2$

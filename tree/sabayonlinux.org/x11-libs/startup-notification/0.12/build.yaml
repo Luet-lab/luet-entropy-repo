@@ -1,0 +1,33 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i x11-libs/startup-notification-0.12-r1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> x11-libs/startup-notification/0.12/definition.yaml
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/startup-notification-1.0$
+- /usr/include/startup-notification-1.0/libsn$
+- /usr/include/startup-notification-1.0/libsn/sn-common.h$
+- /usr/include/startup-notification-1.0/libsn/sn-launchee.h$
+- /usr/include/startup-notification-1.0/libsn/sn-launcher.h$
+- /usr/include/startup-notification-1.0/libsn/sn-monitor.h$
+- /usr/include/startup-notification-1.0/libsn/sn-util.h$
+- /usr/include/startup-notification-1.0/libsn/sn.h$
+- /usr/lib64$
+- /usr/lib64/libstartup-notification-1.so$
+- /usr/lib64/libstartup-notification-1.so.0$
+- /usr/lib64/libstartup-notification-1.so.0.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libstartup-notification-1.0.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/startup-notification-0.12-r1$
+- /usr/share/doc/startup-notification-0.12-r1/AUTHORS$
+- /usr/share/doc/startup-notification-0.12-r1/ChangeLog.bz2$
+- /usr/share/doc/startup-notification-0.12-r1/NEWS.bz2$
+- /usr/share/doc/startup-notification-0.12-r1/startup-notification.txt.bz2$

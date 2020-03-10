@@ -1,0 +1,22 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-gfx/jpeg2ps-1.9-r2
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> media-gfx/jpeg2ps/1.9/definition.yaml
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/jpeg2ps$
+- /usr/lib$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/jpeg2ps-1.9-r2$
+- /usr/share/doc/jpeg2ps-1.9-r2/README.gentoo.bz2$
+- /usr/share/doc/jpeg2ps-1.9-r2/jpeg2ps.txt.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/jpeg2ps.1.bz2$

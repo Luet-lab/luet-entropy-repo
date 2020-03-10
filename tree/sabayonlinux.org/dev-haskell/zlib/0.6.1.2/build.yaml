@@ -1,0 +1,42 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/zlib-0.6.1.2
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/zlib/0.6.1.2/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-zlib-0.6.1.2-zlib-0.6.1.2.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-zlib-0.6.1.2.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/zlib-0.6.1.2-BfeUVhBVvrx1Nvtzv6OD9c.conf$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSzlib-0.6.1.2-BfeUVhBVvrx1Nvtzv6OD9c-ghc8.0.2.so$
+- /usr/lib64/zlib-0.6.1.2$
+- /usr/lib64/zlib-0.6.1.2/ghc-7.10.3$
+- /usr/lib64/zlib-0.6.1.2/ghc-8.0.2$
+- /usr/lib64/zlib-0.6.1.2/ghc-8.0.2/Codec$
+- /usr/lib64/zlib-0.6.1.2/ghc-8.0.2/Codec/Compression$
+- /usr/lib64/zlib-0.6.1.2/ghc-8.0.2/Codec/Compression/GZip.dyn_hi$
+- /usr/lib64/zlib-0.6.1.2/ghc-8.0.2/Codec/Compression/GZip.hi$
+- /usr/lib64/zlib-0.6.1.2/ghc-8.0.2/Codec/Compression/Zlib$
+- /usr/lib64/zlib-0.6.1.2/ghc-8.0.2/Codec/Compression/Zlib.dyn_hi$
+- /usr/lib64/zlib-0.6.1.2/ghc-8.0.2/Codec/Compression/Zlib.hi$
+- /usr/lib64/zlib-0.6.1.2/ghc-8.0.2/Codec/Compression/Zlib/Internal.dyn_hi$
+- /usr/lib64/zlib-0.6.1.2/ghc-8.0.2/Codec/Compression/Zlib/Internal.hi$
+- /usr/lib64/zlib-0.6.1.2/ghc-8.0.2/Codec/Compression/Zlib/Raw.dyn_hi$
+- /usr/lib64/zlib-0.6.1.2/ghc-8.0.2/Codec/Compression/Zlib/Raw.hi$
+- /usr/lib64/zlib-0.6.1.2/ghc-8.0.2/Codec/Compression/Zlib/Stream.dyn_hi$
+- /usr/lib64/zlib-0.6.1.2/ghc-8.0.2/Codec/Compression/Zlib/Stream.hi$
+- /usr/lib64/zlib-0.6.1.2/ghc-8.0.2/libHSzlib-0.6.1.2-BfeUVhBVvrx1Nvtzv6OD9c.a$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/zlib-0.6.1.2$
+- /usr/share/doc/zlib-0.6.1.2/LICENSE.bz2$

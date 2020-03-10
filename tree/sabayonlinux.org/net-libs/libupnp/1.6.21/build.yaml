@@ -1,0 +1,53 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i net-libs/libupnp-1.6.21
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> net-libs/libupnp/1.6.21/definition.yaml
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/tv_combo$
+- /usr/bin/tv_ctrlpt$
+- /usr/bin/tv_device$
+- /usr/include$
+- /usr/include/upnp$
+- /usr/include/upnp/FreeList.h$
+- /usr/include/upnp/LinkedList.h$
+- /usr/include/upnp/ThreadPool.h$
+- /usr/include/upnp/TimerThread.h$
+- /usr/include/upnp/UpnpGlobal.h$
+- /usr/include/upnp/UpnpInet.h$
+- /usr/include/upnp/UpnpIntTypes.h$
+- /usr/include/upnp/UpnpStdInt.h$
+- /usr/include/upnp/UpnpString.h$
+- /usr/include/upnp/UpnpUniStd.h$
+- /usr/include/upnp/ithread.h$
+- /usr/include/upnp/ixml.h$
+- /usr/include/upnp/ixmldebug.h$
+- /usr/include/upnp/upnp.h$
+- /usr/include/upnp/upnpconfig.h$
+- /usr/include/upnp/upnpdebug.h$
+- /usr/include/upnp/upnptools.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libixml.so$
+- /usr/lib64/libixml.so.2$
+- /usr/lib64/libixml.so.2.0.8$
+- /usr/lib64/libthreadutil.so$
+- /usr/lib64/libthreadutil.so.6$
+- /usr/lib64/libthreadutil.so.6.0.4$
+- /usr/lib64/libupnp.so$
+- /usr/lib64/libupnp.so.6$
+- /usr/lib64/libupnp.so.6.3.4$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libupnp.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libupnp-1.6.21$
+- /usr/share/doc/libupnp-1.6.21/ChangeLog.bz2$
+- /usr/share/doc/libupnp-1.6.21/NEWS.bz2$
+- /usr/share/doc/libupnp-1.6.21/README.bz2$

@@ -1,0 +1,21 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-fonts/hack-3.003
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> media-fonts/hack/3.003/definition.yaml
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/fonts$
+- /usr/share/fonts/hack$
+- /usr/share/fonts/hack/Hack-Bold.ttf$
+- /usr/share/fonts/hack/Hack-BoldItalic.ttf$
+- /usr/share/fonts/hack/Hack-Italic.ttf$
+- /usr/share/fonts/hack/Hack-Regular.ttf$
+- /usr/share/fonts/hack/encodings.dir$
+- /usr/share/fonts/hack/fonts.dir$
+- /usr/share/fonts/hack/fonts.scale$

@@ -1,0 +1,37 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/rails-dom-testing-2.0.3
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-ruby/rails-dom-testing-2/2.0.3/definition.yaml
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/rails-dom-testing-2.0.3$
+- /usr/lib64/ruby/gems/2.5.0/gems/rails-dom-testing-2.0.3/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/rails-dom-testing-2.0.3/lib/rails$
+- /usr/lib64/ruby/gems/2.5.0/gems/rails-dom-testing-2.0.3/lib/rails-dom-testing.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rails-dom-testing-2.0.3/lib/rails/dom$
+- /usr/lib64/ruby/gems/2.5.0/gems/rails-dom-testing-2.0.3/lib/rails/dom/testing$
+- /usr/lib64/ruby/gems/2.5.0/gems/rails-dom-testing-2.0.3/lib/rails/dom/testing/assertions$
+- /usr/lib64/ruby/gems/2.5.0/gems/rails-dom-testing-2.0.3/lib/rails/dom/testing/assertions.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rails-dom-testing-2.0.3/lib/rails/dom/testing/assertions/dom_assertions.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rails-dom-testing-2.0.3/lib/rails/dom/testing/assertions/selector_assertions$
+- /usr/lib64/ruby/gems/2.5.0/gems/rails-dom-testing-2.0.3/lib/rails/dom/testing/assertions/selector_assertions.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rails-dom-testing-2.0.3/lib/rails/dom/testing/assertions/selector_assertions/count_describable.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rails-dom-testing-2.0.3/lib/rails/dom/testing/assertions/selector_assertions/html_selector.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rails-dom-testing-2.0.3/lib/rails/dom/testing/assertions/selector_assertions/substitution_context.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rails-dom-testing-2.0.3/lib/rails/dom/testing/version.rb$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/rails-dom-testing-2.0.3.gemspec$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/rails-dom-testing-2.0.3$
+- /usr/share/doc/rails-dom-testing-2.0.3/README.md.bz2$

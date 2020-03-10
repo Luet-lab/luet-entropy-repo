@@ -1,0 +1,11 @@
+
+category: "dev-libs"
+name: "libutf8proc"
+version: "2.4.0"
+requires:
+- category: "app-i18n"
+  name: "unicode-data"
+  version: ">=12.0.0"
+- category: "app-arch"
+  name: "unzip"
+  version: ">=6.0"

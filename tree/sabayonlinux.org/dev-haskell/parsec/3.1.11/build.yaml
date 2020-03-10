@@ -1,0 +1,85 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/parsec-3.1.11
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/parsec/3.1.11/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-parsec-3.1.11-parsec-3.1.11.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-parsec-3.1.11.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/parsec-3.1.11-BOHZjzmfDco5QVumH0pzIy.conf$
+- /usr/lib64/parsec-3.1.11$
+- /usr/lib64/parsec-3.1.11/ghc-8.0.2$
+- /usr/lib64/parsec-3.1.11/ghc-8.0.2/Text$
+- /usr/lib64/parsec-3.1.11/ghc-8.0.2/Text/Parsec$
+- /usr/lib64/parsec-3.1.11/ghc-8.0.2/Text/Parsec.dyn_hi$
+- /usr/lib64/parsec-3.1.11/ghc-8.0.2/Text/Parsec.hi$
+- /usr/lib64/parsec-3.1.11/ghc-8.0.2/Text/Parsec/ByteString$
+- /usr/lib64/parsec-3.1.11/ghc-8.0.2/Text/Parsec/ByteString.dyn_hi$
+- /usr/lib64/parsec-3.1.11/ghc-8.0.2/Text/Parsec/ByteString.hi$
+- /usr/lib64/parsec-3.1.11/ghc-8.0.2/Text/Parsec/ByteString/Lazy.dyn_hi$
+- /usr/lib64/parsec-3.1.11/ghc-8.0.2/Text/Parsec/ByteString/Lazy.hi$
+- /usr/lib64/parsec-3.1.11/ghc-8.0.2/Text/Parsec/Char.dyn_hi$
+- /usr/lib64/parsec-3.1.11/ghc-8.0.2/Text/Parsec/Char.hi$
+- /usr/lib64/parsec-3.1.11/ghc-8.0.2/Text/Parsec/Combinator.dyn_hi$
+- /usr/lib64/parsec-3.1.11/ghc-8.0.2/Text/Parsec/Combinator.hi$
+- /usr/lib64/parsec-3.1.11/ghc-8.0.2/Text/Parsec/Error.dyn_hi$
+- /usr/lib64/parsec-3.1.11/ghc-8.0.2/Text/Parsec/Error.hi$
+- /usr/lib64/parsec-3.1.11/ghc-8.0.2/Text/Parsec/Expr.dyn_hi$
+- /usr/lib64/parsec-3.1.11/ghc-8.0.2/Text/Parsec/Expr.hi$
+- /usr/lib64/parsec-3.1.11/ghc-8.0.2/Text/Parsec/Language.dyn_hi$
+- /usr/lib64/parsec-3.1.11/ghc-8.0.2/Text/Parsec/Language.hi$
+- /usr/lib64/parsec-3.1.11/ghc-8.0.2/Text/Parsec/Perm.dyn_hi$
+- /usr/lib64/parsec-3.1.11/ghc-8.0.2/Text/Parsec/Perm.hi$
+- /usr/lib64/parsec-3.1.11/ghc-8.0.2/Text/Parsec/Pos.dyn_hi$
+- /usr/lib64/parsec-3.1.11/ghc-8.0.2/Text/Parsec/Pos.hi$
+- /usr/lib64/parsec-3.1.11/ghc-8.0.2/Text/Parsec/Prim.dyn_hi$
+- /usr/lib64/parsec-3.1.11/ghc-8.0.2/Text/Parsec/Prim.hi$
+- /usr/lib64/parsec-3.1.11/ghc-8.0.2/Text/Parsec/String.dyn_hi$
+- /usr/lib64/parsec-3.1.11/ghc-8.0.2/Text/Parsec/String.hi$
+- /usr/lib64/parsec-3.1.11/ghc-8.0.2/Text/Parsec/Text$
+- /usr/lib64/parsec-3.1.11/ghc-8.0.2/Text/Parsec/Text.dyn_hi$
+- /usr/lib64/parsec-3.1.11/ghc-8.0.2/Text/Parsec/Text.hi$
+- /usr/lib64/parsec-3.1.11/ghc-8.0.2/Text/Parsec/Text/Lazy.dyn_hi$
+- /usr/lib64/parsec-3.1.11/ghc-8.0.2/Text/Parsec/Text/Lazy.hi$
+- /usr/lib64/parsec-3.1.11/ghc-8.0.2/Text/Parsec/Token.dyn_hi$
+- /usr/lib64/parsec-3.1.11/ghc-8.0.2/Text/Parsec/Token.hi$
+- /usr/lib64/parsec-3.1.11/ghc-8.0.2/Text/ParserCombinators$
+- /usr/lib64/parsec-3.1.11/ghc-8.0.2/Text/ParserCombinators/Parsec$
+- /usr/lib64/parsec-3.1.11/ghc-8.0.2/Text/ParserCombinators/Parsec.dyn_hi$
+- /usr/lib64/parsec-3.1.11/ghc-8.0.2/Text/ParserCombinators/Parsec.hi$
+- /usr/lib64/parsec-3.1.11/ghc-8.0.2/Text/ParserCombinators/Parsec/Char.dyn_hi$
+- /usr/lib64/parsec-3.1.11/ghc-8.0.2/Text/ParserCombinators/Parsec/Char.hi$
+- /usr/lib64/parsec-3.1.11/ghc-8.0.2/Text/ParserCombinators/Parsec/Combinator.dyn_hi$
+- /usr/lib64/parsec-3.1.11/ghc-8.0.2/Text/ParserCombinators/Parsec/Combinator.hi$
+- /usr/lib64/parsec-3.1.11/ghc-8.0.2/Text/ParserCombinators/Parsec/Error.dyn_hi$
+- /usr/lib64/parsec-3.1.11/ghc-8.0.2/Text/ParserCombinators/Parsec/Error.hi$
+- /usr/lib64/parsec-3.1.11/ghc-8.0.2/Text/ParserCombinators/Parsec/Expr.dyn_hi$
+- /usr/lib64/parsec-3.1.11/ghc-8.0.2/Text/ParserCombinators/Parsec/Expr.hi$
+- /usr/lib64/parsec-3.1.11/ghc-8.0.2/Text/ParserCombinators/Parsec/Language.dyn_hi$
+- /usr/lib64/parsec-3.1.11/ghc-8.0.2/Text/ParserCombinators/Parsec/Language.hi$
+- /usr/lib64/parsec-3.1.11/ghc-8.0.2/Text/ParserCombinators/Parsec/Perm.dyn_hi$
+- /usr/lib64/parsec-3.1.11/ghc-8.0.2/Text/ParserCombinators/Parsec/Perm.hi$
+- /usr/lib64/parsec-3.1.11/ghc-8.0.2/Text/ParserCombinators/Parsec/Pos.dyn_hi$
+- /usr/lib64/parsec-3.1.11/ghc-8.0.2/Text/ParserCombinators/Parsec/Pos.hi$
+- /usr/lib64/parsec-3.1.11/ghc-8.0.2/Text/ParserCombinators/Parsec/Prim.dyn_hi$
+- /usr/lib64/parsec-3.1.11/ghc-8.0.2/Text/ParserCombinators/Parsec/Prim.hi$
+- /usr/lib64/parsec-3.1.11/ghc-8.0.2/Text/ParserCombinators/Parsec/Token.dyn_hi$
+- /usr/lib64/parsec-3.1.11/ghc-8.0.2/Text/ParserCombinators/Parsec/Token.hi$
+- /usr/lib64/parsec-3.1.11/ghc-8.0.2/libHSparsec-3.1.11-BOHZjzmfDco5QVumH0pzIy.a$
+- /usr/lib64/x86_64-linux-ghc-7.10.3$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSparsec-3.1.11-BOHZjzmfDco5QVumH0pzIy-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/parsec-3.1.11$
+- /usr/share/doc/parsec-3.1.11/LICENSE.bz2$

@@ -1,0 +1,56 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-lua/lgi-0.9.0
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-lua/lgi/0.9.0/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/lua$
+- /usr/lib64/lua/5.1$
+- /usr/lib64/lua/5.1/lgi$
+- /usr/lib64/lua/5.1/lgi/corelgilua51.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/lgi-0.9.0$
+- /usr/share/doc/lgi-0.9.0/README.md.bz2$
+- /usr/share/lua$
+- /usr/share/lua/5.1$
+- /usr/share/lua/5.1/lgi$
+- /usr/share/lua/5.1/lgi.lua$
+- /usr/share/lua/5.1/lgi/class.lua$
+- /usr/share/lua/5.1/lgi/component.lua$
+- /usr/share/lua/5.1/lgi/core.lua$
+- /usr/share/lua/5.1/lgi/enum.lua$
+- /usr/share/lua/5.1/lgi/ffi.lua$
+- /usr/share/lua/5.1/lgi/init.lua$
+- /usr/share/lua/5.1/lgi/log.lua$
+- /usr/share/lua/5.1/lgi/namespace.lua$
+- /usr/share/lua/5.1/lgi/override$
+- /usr/share/lua/5.1/lgi/override/Clutter.lua$
+- /usr/share/lua/5.1/lgi/override/GLib-Bytes.lua$
+- /usr/share/lua/5.1/lgi/override/GLib-Error.lua$
+- /usr/share/lua/5.1/lgi/override/GLib-Markup.lua$
+- /usr/share/lua/5.1/lgi/override/GLib-Timer.lua$
+- /usr/share/lua/5.1/lgi/override/GLib-Variant.lua$
+- /usr/share/lua/5.1/lgi/override/GLib.lua$
+- /usr/share/lua/5.1/lgi/override/GObject-Closure.lua$
+- /usr/share/lua/5.1/lgi/override/GObject-Object.lua$
+- /usr/share/lua/5.1/lgi/override/GObject-Type.lua$
+- /usr/share/lua/5.1/lgi/override/GObject-Value.lua$
+- /usr/share/lua/5.1/lgi/override/Gdk.lua$
+- /usr/share/lua/5.1/lgi/override/Gio-DBus.lua$
+- /usr/share/lua/5.1/lgi/override/Gio.lua$
+- /usr/share/lua/5.1/lgi/override/Gst.lua$
+- /usr/share/lua/5.1/lgi/override/Gtk.lua$
+- /usr/share/lua/5.1/lgi/override/Pango.lua$
+- /usr/share/lua/5.1/lgi/override/PangoCairo.lua$
+- /usr/share/lua/5.1/lgi/override/cairo.lua$
+- /usr/share/lua/5.1/lgi/package.lua$
+- /usr/share/lua/5.1/lgi/record.lua$
+- /usr/share/lua/5.1/lgi/version.lua$

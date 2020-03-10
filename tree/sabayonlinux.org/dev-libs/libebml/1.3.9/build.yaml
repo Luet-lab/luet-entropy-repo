@@ -1,0 +1,61 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/libebml-1.3.9
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-libs/libebml/1.3.9/definition.yaml
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/ebml$
+- /usr/include/ebml/Debug.h$
+- /usr/include/ebml/EbmlBinary.h$
+- /usr/include/ebml/EbmlConfig.h$
+- /usr/include/ebml/EbmlContexts.h$
+- /usr/include/ebml/EbmlCrc32.h$
+- /usr/include/ebml/EbmlDate.h$
+- /usr/include/ebml/EbmlDummy.h$
+- /usr/include/ebml/EbmlElement.h$
+- /usr/include/ebml/EbmlEndian.h$
+- /usr/include/ebml/EbmlFloat.h$
+- /usr/include/ebml/EbmlHead.h$
+- /usr/include/ebml/EbmlId.h$
+- /usr/include/ebml/EbmlMaster.h$
+- /usr/include/ebml/EbmlSInteger.h$
+- /usr/include/ebml/EbmlStream.h$
+- /usr/include/ebml/EbmlString.h$
+- /usr/include/ebml/EbmlSubHead.h$
+- /usr/include/ebml/EbmlTypes.h$
+- /usr/include/ebml/EbmlUInteger.h$
+- /usr/include/ebml/EbmlUnicodeString.h$
+- /usr/include/ebml/EbmlVersion.h$
+- /usr/include/ebml/EbmlVoid.h$
+- /usr/include/ebml/IOCallback.h$
+- /usr/include/ebml/MemIOCallback.h$
+- /usr/include/ebml/MemReadIOCallback.h$
+- /usr/include/ebml/SafeReadIOCallback.h$
+- /usr/include/ebml/StdIOCallback.h$
+- /usr/include/ebml/c$
+- /usr/include/ebml/c/libebml_t.h$
+- /usr/include/ebml/ebml_export.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/cmake$
+- /usr/lib64/cmake/EBML$
+- /usr/lib64/cmake/EBML/EBMLConfig.cmake$
+- /usr/lib64/cmake/EBML/EBMLConfigVersion.cmake$
+- /usr/lib64/cmake/EBML/EBMLTargets-gentoo.cmake$
+- /usr/lib64/cmake/EBML/EBMLTargets.cmake$
+- /usr/lib64/libebml.so$
+- /usr/lib64/libebml.so.4$
+- /usr/lib64/libebml.so.4.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libebml.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libebml-1.3.9$
+- /usr/share/doc/libebml-1.3.9/ChangeLog.bz2$
+- /usr/share/doc/libebml-1.3.9/README.md.bz2$

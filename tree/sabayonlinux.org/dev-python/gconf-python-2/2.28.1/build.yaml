@@ -1,0 +1,32 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/gconf-python-2.28.1-r1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-python/gconf-python-2/2.28.1/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/python2.7$
+- /usr/lib64/python2.7/site-packages$
+- /usr/lib64/python2.7/site-packages/gtk-2.0$
+- /usr/lib64/python2.7/site-packages/gtk-2.0/gconf.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/gconf-python-2.28.1-r1$
+- /usr/share/doc/gconf-python-2.28.1-r1/AUTHORS$
+- /usr/share/doc/gconf-python-2.28.1-r1/ChangeLog.bz2$
+- /usr/share/doc/gconf-python-2.28.1-r1/NEWS.bz2$
+- /usr/share/doc/gconf-python-2.28.1-r1/README.bz2$
+- /usr/share/pygtk$
+- /usr/share/pygtk/2.0$
+- /usr/share/pygtk/2.0/argtypes$
+- /usr/share/pygtk/2.0/argtypes/gconf-arg-types.py$
+- /usr/share/pygtk/2.0/argtypes/gconf-arg-types.pyc$
+- /usr/share/pygtk/2.0/argtypes/gconf-arg-types.pyo$
+- /usr/share/pygtk/2.0/defs$
+- /usr/share/pygtk/2.0/defs/gconf.defs$

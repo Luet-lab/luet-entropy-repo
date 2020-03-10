@@ -1,0 +1,93 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/memory-0.14.1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/memory/0.14.1/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-memory-0.14.1-memory-0.14.1.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-memory-0.14.1.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/memory-0.14.1-TDqD2olGlg1O5RsmVQgms.conf$
+- /usr/lib64/memory-0.14.1$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/ByteArray$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/ByteArray.dyn_hi$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/ByteArray.hi$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/ByteArray/Bytes.dyn_hi$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/ByteArray/Bytes.hi$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/ByteArray/Encoding.dyn_hi$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/ByteArray/Encoding.hi$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/ByteArray/Hash.dyn_hi$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/ByteArray/Hash.hi$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/ByteArray/Mapping.dyn_hi$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/ByteArray/Mapping.hi$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/ByteArray/MemView.dyn_hi$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/ByteArray/MemView.hi$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/ByteArray/Methods.dyn_hi$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/ByteArray/Methods.hi$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/ByteArray/Pack$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/ByteArray/Pack.dyn_hi$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/ByteArray/Pack.hi$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/ByteArray/Pack/Internal.dyn_hi$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/ByteArray/Pack/Internal.hi$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/ByteArray/Parse.dyn_hi$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/ByteArray/Parse.hi$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/ByteArray/ScrubbedBytes.dyn_hi$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/ByteArray/ScrubbedBytes.hi$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/ByteArray/Types.dyn_hi$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/ByteArray/Types.hi$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/ByteArray/View.dyn_hi$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/ByteArray/View.hi$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/Memory$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/Memory/Encoding$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/Memory/Encoding/Base16.dyn_hi$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/Memory/Encoding/Base16.hi$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/Memory/Encoding/Base32.dyn_hi$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/Memory/Encoding/Base32.hi$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/Memory/Encoding/Base64.dyn_hi$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/Memory/Encoding/Base64.hi$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/Memory/Endian.dyn_hi$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/Memory/Endian.hi$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/Memory/ExtendedWords.dyn_hi$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/Memory/ExtendedWords.hi$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/Memory/Hash$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/Memory/Hash/FNV.dyn_hi$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/Memory/Hash/FNV.hi$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/Memory/Hash/SipHash.dyn_hi$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/Memory/Hash/SipHash.hi$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/Memory/Internal$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/Memory/Internal/Compat.dyn_hi$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/Memory/Internal/Compat.hi$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/Memory/Internal/CompatPrim.dyn_hi$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/Memory/Internal/CompatPrim.hi$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/Memory/Internal/CompatPrim64.dyn_hi$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/Memory/Internal/CompatPrim64.hi$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/Memory/Internal/DeepSeq.dyn_hi$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/Memory/Internal/DeepSeq.hi$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/Memory/Internal/Imports.dyn_hi$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/Memory/Internal/Imports.hi$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/Memory/Internal/Scrubber.dyn_hi$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/Memory/Internal/Scrubber.hi$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/Memory/MemMap$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/Memory/MemMap/Posix.dyn_hi$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/Memory/MemMap/Posix.hi$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/Memory/PtrMethods.dyn_hi$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/Data/Memory/PtrMethods.hi$
+- /usr/lib64/memory-0.14.1/ghc-8.0.2/libHSmemory-0.14.1-TDqD2olGlg1O5RsmVQgms.a$
+- /usr/lib64/x86_64-linux-ghc-7.10.3$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSmemory-0.14.1-TDqD2olGlg1O5RsmVQgms-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/memory-0.14.1$
+- /usr/share/doc/memory-0.14.1/LICENSE.bz2$

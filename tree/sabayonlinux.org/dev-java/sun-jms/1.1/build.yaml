@@ -1,0 +1,16 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-java/sun-jms-1.1-r2
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-java/sun-jms/1.1/definition.yaml
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/sun-jms$
+- /usr/share/sun-jms/lib$
+- /usr/share/sun-jms/lib/jms.jar$
+- /usr/share/sun-jms/package.env$

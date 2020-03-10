@@ -1,0 +1,52 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/libquvi-0.9.4-r1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> media-libs/libquvi/0.9.4/definition.yaml
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/quvi-0.9$
+- /usr/include/quvi-0.9/quvi$
+- /usr/include/quvi-0.9/quvi.h$
+- /usr/include/quvi-0.9/quvi/qbool.h$
+- /usr/include/quvi-0.9/quvi/qcallback.h$
+- /usr/include/quvi-0.9/quvi/qdef.h$
+- /usr/include/quvi-0.9/quvi/qerror.h$
+- /usr/include/quvi-0.9/quvi/qfunc.h$
+- /usr/include/quvi-0.9/quvi/qhttpmiprop.h$
+- /usr/include/quvi-0.9/quvi/qinfo.h$
+- /usr/include/quvi-0.9/quvi/qmediaprop.h$
+- /usr/include/quvi-0.9/quvi/qoption.h$
+- /usr/include/quvi-0.9/quvi/qplaylistprop.h$
+- /usr/include/quvi-0.9/quvi/qscript.h$
+- /usr/include/quvi-0.9/quvi/qsubtprop.h$
+- /usr/include/quvi-0.9/quvi/qsupp.h$
+- /usr/include/quvi-0.9/quvi/qversion.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libquvi-0.9-0.9.4.so$
+- /usr/lib32/libquvi-0.9.so$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/libquvi-0.9.pc$
+- /usr/lib64$
+- /usr/lib64/libquvi-0.9-0.9.4.so$
+- /usr/lib64/libquvi-0.9.so$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libquvi-0.9.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libquvi-0.9.4-r1$
+- /usr/share/doc/libquvi-0.9.4-r1/AUTHORS$
+- /usr/share/doc/libquvi-0.9.4-r1/ChangeLog.bz2$
+- /usr/share/doc/libquvi-0.9.4-r1/NEWS.bz2$
+- /usr/share/doc/libquvi-0.9.4-r1/README.bz2$
+- /usr/share/man$
+- /usr/share/man/man3$
+- /usr/share/man/man3/libquvi.3.bz2$
+- /usr/share/man/man7$
+- /usr/share/man/man7/quvi-object.7.bz2$

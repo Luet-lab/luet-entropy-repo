@@ -1,0 +1,34 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/ansi-wl-pprint-0.6.7.3
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/ansi-wl-pprint/0.6.7.3/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ansi-wl-pprint-0.6.7.3$
+- /usr/lib64/ansi-wl-pprint-0.6.7.3/ghc-7.10.3$
+- /usr/lib64/ansi-wl-pprint-0.6.7.3/ghc-8.0.2$
+- /usr/lib64/ansi-wl-pprint-0.6.7.3/ghc-8.0.2/Text$
+- /usr/lib64/ansi-wl-pprint-0.6.7.3/ghc-8.0.2/Text/PrettyPrint$
+- /usr/lib64/ansi-wl-pprint-0.6.7.3/ghc-8.0.2/Text/PrettyPrint/ANSI$
+- /usr/lib64/ansi-wl-pprint-0.6.7.3/ghc-8.0.2/Text/PrettyPrint/ANSI/Leijen.dyn_hi$
+- /usr/lib64/ansi-wl-pprint-0.6.7.3/ghc-8.0.2/Text/PrettyPrint/ANSI/Leijen.hi$
+- /usr/lib64/ansi-wl-pprint-0.6.7.3/ghc-8.0.2/libHSansi-wl-pprint-0.6.7.3-E79qLDV0cla6WJciyKyNDN.a$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-ansi-wl-pprint-0.6.7.3-ansi-wl-pprint-0.6.7.3.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-ansi-wl-pprint-0.6.7.3.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/ansi-wl-pprint-0.6.7.3-E79qLDV0cla6WJciyKyNDN.conf$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSansi-wl-pprint-0.6.7.3-E79qLDV0cla6WJciyKyNDN-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/ansi-wl-pprint-0.6.7.3$
+- /usr/share/doc/ansi-wl-pprint-0.6.7.3/LICENSE.bz2$

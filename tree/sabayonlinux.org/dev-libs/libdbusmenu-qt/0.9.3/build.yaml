@@ -1,0 +1,35 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/libdbusmenu-qt-0.9.3_pre20160218-r3
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-libs/libdbusmenu-qt/0.9.3/definition.yaml
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/dbusmenu-qt5$
+- /usr/include/dbusmenu-qt5/dbusmenu_export.h$
+- /usr/include/dbusmenu-qt5/dbusmenu_version.h$
+- /usr/include/dbusmenu-qt5/dbusmenuexporter.h$
+- /usr/include/dbusmenu-qt5/dbusmenuimporter.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/cmake$
+- /usr/lib64/cmake/dbusmenu-qt5$
+- /usr/lib64/cmake/dbusmenu-qt5/dbusmenu-qt5-config-version.cmake$
+- /usr/lib64/cmake/dbusmenu-qt5/dbusmenu-qt5-config.cmake$
+- /usr/lib64/cmake/dbusmenu-qt5/dbusmenu-qt5-targets-gentoo.cmake$
+- /usr/lib64/cmake/dbusmenu-qt5/dbusmenu-qt5-targets.cmake$
+- /usr/lib64/libdbusmenu-qt5.so$
+- /usr/lib64/libdbusmenu-qt5.so.2$
+- /usr/lib64/libdbusmenu-qt5.so.2.6.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/dbusmenu-qt5.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libdbusmenu-qt-0.9.3_pre20160218-r3$
+- /usr/share/doc/libdbusmenu-qt-0.9.3_pre20160218-r3/NEWS.bz2$
+- /usr/share/doc/libdbusmenu-qt-0.9.3_pre20160218-r3/README.bz2$

@@ -1,0 +1,18 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-lang/sassc-3.5.0
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-lang/sassc/3.5.0/definition.yaml
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/sassc$
+- /usr/lib$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/sassc-3.5.0$
+- /usr/share/doc/sassc-3.5.0/Readme.md.bz2$

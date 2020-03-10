@@ -1,0 +1,35 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-text/cmark-0.29.0
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> app-text/cmark/0.29.0/definition.yaml
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/cmark$
+- /usr/include$
+- /usr/include/cmark.h$
+- /usr/include/cmark_export.h$
+- /usr/include/cmark_version.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/cmake$
+- /usr/lib64/cmake/cmark-gentoo.cmake$
+- /usr/lib64/cmake/cmark.cmake$
+- /usr/lib64/libcmark.so$
+- /usr/lib64/libcmark.so.0.29.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libcmark.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/cmark-0.29.0$
+- /usr/share/doc/cmark-0.29.0/README.md.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/cmark.1.bz2$
+- /usr/share/man/man3$
+- /usr/share/man/man3/cmark.3.bz2$

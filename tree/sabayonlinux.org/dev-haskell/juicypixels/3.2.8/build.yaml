@@ -1,0 +1,100 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/juicypixels-3.2.8
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/juicypixels/3.2.8/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-juicypixels-3.2.8-juicypixels-3.2.8.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-juicypixels-3.2.8.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/JuicyPixels-3.2.8-3R8qrdWtGso6WPSrPfGfcW.conf$
+- /usr/lib64/juicypixels-3.2.8$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture.dyn_hi$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture.hi$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/BitWriter.dyn_hi$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/BitWriter.hi$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/Bitmap.dyn_hi$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/Bitmap.hi$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/ColorQuant.dyn_hi$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/ColorQuant.hi$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/Gif$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/Gif.dyn_hi$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/Gif.hi$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/Gif/LZW.dyn_hi$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/Gif/LZW.hi$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/Gif/LZWEncoding.dyn_hi$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/Gif/LZWEncoding.hi$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/HDR.dyn_hi$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/HDR.hi$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/InternalHelper.dyn_hi$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/InternalHelper.hi$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/Jpg$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/Jpg.dyn_hi$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/Jpg.hi$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/Jpg/Common.dyn_hi$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/Jpg/Common.hi$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/Jpg/DefaultTable.dyn_hi$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/Jpg/DefaultTable.hi$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/Jpg/FastDct.dyn_hi$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/Jpg/FastDct.hi$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/Jpg/FastIdct.dyn_hi$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/Jpg/FastIdct.hi$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/Jpg/Metadata.dyn_hi$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/Jpg/Metadata.hi$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/Jpg/Progressive.dyn_hi$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/Jpg/Progressive.hi$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/Jpg/Types.dyn_hi$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/Jpg/Types.hi$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/Metadata$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/Metadata.dyn_hi$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/Metadata.hi$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/Metadata/Exif.dyn_hi$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/Metadata/Exif.hi$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/Png$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/Png.dyn_hi$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/Png.hi$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/Png/Export.dyn_hi$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/Png/Export.hi$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/Png/Metadata.dyn_hi$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/Png/Metadata.hi$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/Png/Type.dyn_hi$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/Png/Type.hi$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/Saving.dyn_hi$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/Saving.hi$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/Tga.dyn_hi$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/Tga.hi$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/Tiff$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/Tiff.dyn_hi$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/Tiff.hi$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/Tiff/Metadata.dyn_hi$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/Tiff/Metadata.hi$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/Tiff/Types.dyn_hi$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/Tiff/Types.hi$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/Types.dyn_hi$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/Types.hi$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/VectorByteConversion.dyn_hi$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/Codec/Picture/VectorByteConversion.hi$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/include$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/include/src$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/include/src/Codec$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/include/src/Codec/Picture$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/include/src/Codec/Picture/ConvGraph.hs$
+- /usr/lib64/juicypixels-3.2.8/ghc-8.0.2/libHSJuicyPixels-3.2.8-3R8qrdWtGso6WPSrPfGfcW.a$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSJuicyPixels-3.2.8-3R8qrdWtGso6WPSrPfGfcW-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/juicypixels-3.2.8$
+- /usr/share/doc/juicypixels-3.2.8/LICENSE.bz2$

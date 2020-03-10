@@ -1,0 +1,89 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/haskeline-0.7.2.3
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/haskeline/0.7.2.3/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-haskeline-0.7.2.3-haskeline-0.7.2.3.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-haskeline-0.7.2.3.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/haskeline-0.7.2.3-6C68mtT7msGBldvkGtp0PH.conf$
+- /usr/lib64/haskeline-0.7.2.3$
+- /usr/lib64/haskeline-0.7.2.3/ghc-8.0.2$
+- /usr/lib64/haskeline-0.7.2.3/ghc-8.0.2/System$
+- /usr/lib64/haskeline-0.7.2.3/ghc-8.0.2/System/Console$
+- /usr/lib64/haskeline-0.7.2.3/ghc-8.0.2/System/Console/Haskeline$
+- /usr/lib64/haskeline-0.7.2.3/ghc-8.0.2/System/Console/Haskeline.dyn_hi$
+- /usr/lib64/haskeline-0.7.2.3/ghc-8.0.2/System/Console/Haskeline.hi$
+- /usr/lib64/haskeline-0.7.2.3/ghc-8.0.2/System/Console/Haskeline/Backend$
+- /usr/lib64/haskeline-0.7.2.3/ghc-8.0.2/System/Console/Haskeline/Backend.dyn_hi$
+- /usr/lib64/haskeline-0.7.2.3/ghc-8.0.2/System/Console/Haskeline/Backend.hi$
+- /usr/lib64/haskeline-0.7.2.3/ghc-8.0.2/System/Console/Haskeline/Backend/DumbTerm.dyn_hi$
+- /usr/lib64/haskeline-0.7.2.3/ghc-8.0.2/System/Console/Haskeline/Backend/DumbTerm.hi$
+- /usr/lib64/haskeline-0.7.2.3/ghc-8.0.2/System/Console/Haskeline/Backend/Posix$
+- /usr/lib64/haskeline-0.7.2.3/ghc-8.0.2/System/Console/Haskeline/Backend/Posix.dyn_hi$
+- /usr/lib64/haskeline-0.7.2.3/ghc-8.0.2/System/Console/Haskeline/Backend/Posix.hi$
+- /usr/lib64/haskeline-0.7.2.3/ghc-8.0.2/System/Console/Haskeline/Backend/Posix/Encoder.dyn_hi$
+- /usr/lib64/haskeline-0.7.2.3/ghc-8.0.2/System/Console/Haskeline/Backend/Posix/Encoder.hi$
+- /usr/lib64/haskeline-0.7.2.3/ghc-8.0.2/System/Console/Haskeline/Backend/Terminfo.dyn_hi$
+- /usr/lib64/haskeline-0.7.2.3/ghc-8.0.2/System/Console/Haskeline/Backend/Terminfo.hi$
+- /usr/lib64/haskeline-0.7.2.3/ghc-8.0.2/System/Console/Haskeline/Backend/WCWidth.dyn_hi$
+- /usr/lib64/haskeline-0.7.2.3/ghc-8.0.2/System/Console/Haskeline/Backend/WCWidth.hi$
+- /usr/lib64/haskeline-0.7.2.3/ghc-8.0.2/System/Console/Haskeline/Command$
+- /usr/lib64/haskeline-0.7.2.3/ghc-8.0.2/System/Console/Haskeline/Command.dyn_hi$
+- /usr/lib64/haskeline-0.7.2.3/ghc-8.0.2/System/Console/Haskeline/Command.hi$
+- /usr/lib64/haskeline-0.7.2.3/ghc-8.0.2/System/Console/Haskeline/Command/Completion.dyn_hi$
+- /usr/lib64/haskeline-0.7.2.3/ghc-8.0.2/System/Console/Haskeline/Command/Completion.hi$
+- /usr/lib64/haskeline-0.7.2.3/ghc-8.0.2/System/Console/Haskeline/Command/History.dyn_hi$
+- /usr/lib64/haskeline-0.7.2.3/ghc-8.0.2/System/Console/Haskeline/Command/History.hi$
+- /usr/lib64/haskeline-0.7.2.3/ghc-8.0.2/System/Console/Haskeline/Command/KillRing.dyn_hi$
+- /usr/lib64/haskeline-0.7.2.3/ghc-8.0.2/System/Console/Haskeline/Command/KillRing.hi$
+- /usr/lib64/haskeline-0.7.2.3/ghc-8.0.2/System/Console/Haskeline/Command/Undo.dyn_hi$
+- /usr/lib64/haskeline-0.7.2.3/ghc-8.0.2/System/Console/Haskeline/Command/Undo.hi$
+- /usr/lib64/haskeline-0.7.2.3/ghc-8.0.2/System/Console/Haskeline/Completion.dyn_hi$
+- /usr/lib64/haskeline-0.7.2.3/ghc-8.0.2/System/Console/Haskeline/Completion.hi$
+- /usr/lib64/haskeline-0.7.2.3/ghc-8.0.2/System/Console/Haskeline/Directory.dyn_hi$
+- /usr/lib64/haskeline-0.7.2.3/ghc-8.0.2/System/Console/Haskeline/Directory.hi$
+- /usr/lib64/haskeline-0.7.2.3/ghc-8.0.2/System/Console/Haskeline/Emacs.dyn_hi$
+- /usr/lib64/haskeline-0.7.2.3/ghc-8.0.2/System/Console/Haskeline/Emacs.hi$
+- /usr/lib64/haskeline-0.7.2.3/ghc-8.0.2/System/Console/Haskeline/History.dyn_hi$
+- /usr/lib64/haskeline-0.7.2.3/ghc-8.0.2/System/Console/Haskeline/History.hi$
+- /usr/lib64/haskeline-0.7.2.3/ghc-8.0.2/System/Console/Haskeline/IO.dyn_hi$
+- /usr/lib64/haskeline-0.7.2.3/ghc-8.0.2/System/Console/Haskeline/IO.hi$
+- /usr/lib64/haskeline-0.7.2.3/ghc-8.0.2/System/Console/Haskeline/InputT.dyn_hi$
+- /usr/lib64/haskeline-0.7.2.3/ghc-8.0.2/System/Console/Haskeline/InputT.hi$
+- /usr/lib64/haskeline-0.7.2.3/ghc-8.0.2/System/Console/Haskeline/Key.dyn_hi$
+- /usr/lib64/haskeline-0.7.2.3/ghc-8.0.2/System/Console/Haskeline/Key.hi$
+- /usr/lib64/haskeline-0.7.2.3/ghc-8.0.2/System/Console/Haskeline/LineState.dyn_hi$
+- /usr/lib64/haskeline-0.7.2.3/ghc-8.0.2/System/Console/Haskeline/LineState.hi$
+- /usr/lib64/haskeline-0.7.2.3/ghc-8.0.2/System/Console/Haskeline/MonadException.dyn_hi$
+- /usr/lib64/haskeline-0.7.2.3/ghc-8.0.2/System/Console/Haskeline/MonadException.hi$
+- /usr/lib64/haskeline-0.7.2.3/ghc-8.0.2/System/Console/Haskeline/Monads.dyn_hi$
+- /usr/lib64/haskeline-0.7.2.3/ghc-8.0.2/System/Console/Haskeline/Monads.hi$
+- /usr/lib64/haskeline-0.7.2.3/ghc-8.0.2/System/Console/Haskeline/Prefs.dyn_hi$
+- /usr/lib64/haskeline-0.7.2.3/ghc-8.0.2/System/Console/Haskeline/Prefs.hi$
+- /usr/lib64/haskeline-0.7.2.3/ghc-8.0.2/System/Console/Haskeline/Recover.dyn_hi$
+- /usr/lib64/haskeline-0.7.2.3/ghc-8.0.2/System/Console/Haskeline/Recover.hi$
+- /usr/lib64/haskeline-0.7.2.3/ghc-8.0.2/System/Console/Haskeline/RunCommand.dyn_hi$
+- /usr/lib64/haskeline-0.7.2.3/ghc-8.0.2/System/Console/Haskeline/RunCommand.hi$
+- /usr/lib64/haskeline-0.7.2.3/ghc-8.0.2/System/Console/Haskeline/Term.dyn_hi$
+- /usr/lib64/haskeline-0.7.2.3/ghc-8.0.2/System/Console/Haskeline/Term.hi$
+- /usr/lib64/haskeline-0.7.2.3/ghc-8.0.2/System/Console/Haskeline/Vi.dyn_hi$
+- /usr/lib64/haskeline-0.7.2.3/ghc-8.0.2/System/Console/Haskeline/Vi.hi$
+- /usr/lib64/haskeline-0.7.2.3/ghc-8.0.2/libHShaskeline-0.7.2.3-6C68mtT7msGBldvkGtp0PH.a$
+- /usr/lib64/x86_64-linux-ghc-7.10.3$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHShaskeline-0.7.2.3-6C68mtT7msGBldvkGtp0PH-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/haskeline-0.7.2.3$
+- /usr/share/doc/haskeline-0.7.2.3/LICENSE.bz2$

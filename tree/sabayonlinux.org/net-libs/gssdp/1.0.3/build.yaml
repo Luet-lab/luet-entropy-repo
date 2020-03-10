@@ -1,0 +1,69 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i net-libs/gssdp-1.0.3
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> net-libs/gssdp/1.0.3/definition.yaml
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/gssdp-device-sniffer$
+- /usr/include$
+- /usr/include/gssdp-1.0$
+- /usr/include/gssdp-1.0/libgssdp$
+- /usr/include/gssdp-1.0/libgssdp/gssdp-client.h$
+- /usr/include/gssdp-1.0/libgssdp/gssdp-error.h$
+- /usr/include/gssdp-1.0/libgssdp/gssdp-resource-browser.h$
+- /usr/include/gssdp-1.0/libgssdp/gssdp-resource-group.h$
+- /usr/include/gssdp-1.0/libgssdp/gssdp.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libgssdp-1.0.so$
+- /usr/lib32/libgssdp-1.0.so.3$
+- /usr/lib32/libgssdp-1.0.so.3.0.1$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/gssdp-1.0.pc$
+- /usr/lib64$
+- /usr/lib64/girepository-1.0$
+- /usr/lib64/girepository-1.0/GSSDP-1.0.typelib$
+- /usr/lib64/libgssdp-1.0.so$
+- /usr/lib64/libgssdp-1.0.so.3$
+- /usr/lib64/libgssdp-1.0.so.3.0.1$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/gssdp-1.0.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/gssdp-1.0.3$
+- /usr/share/doc/gssdp-1.0.3/AUTHORS$
+- /usr/share/doc/gssdp-1.0.3/NEWS.bz2$
+- /usr/share/doc/gssdp-1.0.3/README$
+- /usr/share/gir-1.0$
+- /usr/share/gir-1.0/GSSDP-1.0.gir$
+- /usr/share/gssdp$
+- /usr/share/gssdp/gssdp-device-sniffer.ui$
+- /usr/share/gtk-doc$
+- /usr/share/gtk-doc/html$
+- /usr/share/gtk-doc/html/gssdp$
+- /usr/share/gtk-doc/html/gssdp/GSSDPClient.html$
+- /usr/share/gtk-doc/html/gssdp/GSSDPResourceBrowser.html$
+- /usr/share/gtk-doc/html/gssdp/GSSDPResourceGroup.html$
+- /usr/share/gtk-doc/html/gssdp/annotation-glossary.html$
+- /usr/share/gtk-doc/html/gssdp/ch01.html$
+- /usr/share/gtk-doc/html/gssdp/gssdp-Error-codes.html$
+- /usr/share/gtk-doc/html/gssdp/gssdp.devhelp2$
+- /usr/share/gtk-doc/html/gssdp/home.png$
+- /usr/share/gtk-doc/html/gssdp/index.html$
+- /usr/share/gtk-doc/html/gssdp/left-insensitive.png$
+- /usr/share/gtk-doc/html/gssdp/left.png$
+- /usr/share/gtk-doc/html/gssdp/right-insensitive.png$
+- /usr/share/gtk-doc/html/gssdp/right.png$
+- /usr/share/gtk-doc/html/gssdp/style.css$
+- /usr/share/gtk-doc/html/gssdp/up-insensitive.png$
+- /usr/share/gtk-doc/html/gssdp/up.png$
+- /usr/share/vala$
+- /usr/share/vala/vapi$
+- /usr/share/vala/vapi/gssdp-1.0.deps$
+- /usr/share/vala/vapi/gssdp-1.0.vapi$

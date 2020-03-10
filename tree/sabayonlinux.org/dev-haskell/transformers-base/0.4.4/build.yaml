@@ -1,0 +1,33 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/transformers-base-0.4.4
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/transformers-base/0.4.4/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-transformers-base-0.4.4-transformers-base-0.4.4.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-transformers-base-0.4.4.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/transformers-base-0.4.4-4TDmCsR520d8z8kPwbm8YT.conf$
+- /usr/lib64/transformers-base-0.4.4$
+- /usr/lib64/transformers-base-0.4.4/ghc-8.0.2$
+- /usr/lib64/transformers-base-0.4.4/ghc-8.0.2/Control$
+- /usr/lib64/transformers-base-0.4.4/ghc-8.0.2/Control/Monad$
+- /usr/lib64/transformers-base-0.4.4/ghc-8.0.2/Control/Monad/Base.dyn_hi$
+- /usr/lib64/transformers-base-0.4.4/ghc-8.0.2/Control/Monad/Base.hi$
+- /usr/lib64/transformers-base-0.4.4/ghc-8.0.2/libHStransformers-base-0.4.4-4TDmCsR520d8z8kPwbm8YT.a$
+- /usr/lib64/x86_64-linux-ghc-7.10.3$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHStransformers-base-0.4.4-4TDmCsR520d8z8kPwbm8YT-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/transformers-base-0.4.4$
+- /usr/share/doc/transformers-base-0.4.4/LICENSE.bz2$

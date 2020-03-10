@@ -1,0 +1,69 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/haddock-library-1.4.2
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/haddock-library/1.4.2/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-haddock-library-1.4.2-haddock-library-1.4.2.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-haddock-library-1.4.2.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/haddock-library-1.4.2-6hIQ29hRXkf8sTGLGCaMtg.conf$
+- /usr/lib64/haddock-library-1.4.2$
+- /usr/lib64/haddock-library-1.4.2/ghc-8.0.2$
+- /usr/lib64/haddock-library-1.4.2/ghc-8.0.2/Data$
+- /usr/lib64/haddock-library-1.4.2/ghc-8.0.2/Data/Attoparsec$
+- /usr/lib64/haddock-library-1.4.2/ghc-8.0.2/Data/Attoparsec.dyn_hi$
+- /usr/lib64/haddock-library-1.4.2/ghc-8.0.2/Data/Attoparsec.hi$
+- /usr/lib64/haddock-library-1.4.2/ghc-8.0.2/Data/Attoparsec/ByteString$
+- /usr/lib64/haddock-library-1.4.2/ghc-8.0.2/Data/Attoparsec/ByteString.dyn_hi$
+- /usr/lib64/haddock-library-1.4.2/ghc-8.0.2/Data/Attoparsec/ByteString.hi$
+- /usr/lib64/haddock-library-1.4.2/ghc-8.0.2/Data/Attoparsec/ByteString/Buffer.dyn_hi$
+- /usr/lib64/haddock-library-1.4.2/ghc-8.0.2/Data/Attoparsec/ByteString/Buffer.hi$
+- /usr/lib64/haddock-library-1.4.2/ghc-8.0.2/Data/Attoparsec/ByteString/Char8.dyn_hi$
+- /usr/lib64/haddock-library-1.4.2/ghc-8.0.2/Data/Attoparsec/ByteString/Char8.hi$
+- /usr/lib64/haddock-library-1.4.2/ghc-8.0.2/Data/Attoparsec/ByteString/FastSet.dyn_hi$
+- /usr/lib64/haddock-library-1.4.2/ghc-8.0.2/Data/Attoparsec/ByteString/FastSet.hi$
+- /usr/lib64/haddock-library-1.4.2/ghc-8.0.2/Data/Attoparsec/ByteString/Internal.dyn_hi$
+- /usr/lib64/haddock-library-1.4.2/ghc-8.0.2/Data/Attoparsec/ByteString/Internal.hi$
+- /usr/lib64/haddock-library-1.4.2/ghc-8.0.2/Data/Attoparsec/Combinator.dyn_hi$
+- /usr/lib64/haddock-library-1.4.2/ghc-8.0.2/Data/Attoparsec/Combinator.hi$
+- /usr/lib64/haddock-library-1.4.2/ghc-8.0.2/Data/Attoparsec/Internal$
+- /usr/lib64/haddock-library-1.4.2/ghc-8.0.2/Data/Attoparsec/Internal.dyn_hi$
+- /usr/lib64/haddock-library-1.4.2/ghc-8.0.2/Data/Attoparsec/Internal.hi$
+- /usr/lib64/haddock-library-1.4.2/ghc-8.0.2/Data/Attoparsec/Internal/Fhthagn.dyn_hi$
+- /usr/lib64/haddock-library-1.4.2/ghc-8.0.2/Data/Attoparsec/Internal/Fhthagn.hi$
+- /usr/lib64/haddock-library-1.4.2/ghc-8.0.2/Data/Attoparsec/Internal/Types.dyn_hi$
+- /usr/lib64/haddock-library-1.4.2/ghc-8.0.2/Data/Attoparsec/Internal/Types.hi$
+- /usr/lib64/haddock-library-1.4.2/ghc-8.0.2/Data/Attoparsec/Number.dyn_hi$
+- /usr/lib64/haddock-library-1.4.2/ghc-8.0.2/Data/Attoparsec/Number.hi$
+- /usr/lib64/haddock-library-1.4.2/ghc-8.0.2/Documentation$
+- /usr/lib64/haddock-library-1.4.2/ghc-8.0.2/Documentation/Haddock$
+- /usr/lib64/haddock-library-1.4.2/ghc-8.0.2/Documentation/Haddock/Doc.dyn_hi$
+- /usr/lib64/haddock-library-1.4.2/ghc-8.0.2/Documentation/Haddock/Doc.hi$
+- /usr/lib64/haddock-library-1.4.2/ghc-8.0.2/Documentation/Haddock/Parser$
+- /usr/lib64/haddock-library-1.4.2/ghc-8.0.2/Documentation/Haddock/Parser.dyn_hi$
+- /usr/lib64/haddock-library-1.4.2/ghc-8.0.2/Documentation/Haddock/Parser.hi$
+- /usr/lib64/haddock-library-1.4.2/ghc-8.0.2/Documentation/Haddock/Parser/Monad.dyn_hi$
+- /usr/lib64/haddock-library-1.4.2/ghc-8.0.2/Documentation/Haddock/Parser/Monad.hi$
+- /usr/lib64/haddock-library-1.4.2/ghc-8.0.2/Documentation/Haddock/Parser/Util.dyn_hi$
+- /usr/lib64/haddock-library-1.4.2/ghc-8.0.2/Documentation/Haddock/Parser/Util.hi$
+- /usr/lib64/haddock-library-1.4.2/ghc-8.0.2/Documentation/Haddock/Types.dyn_hi$
+- /usr/lib64/haddock-library-1.4.2/ghc-8.0.2/Documentation/Haddock/Types.hi$
+- /usr/lib64/haddock-library-1.4.2/ghc-8.0.2/Documentation/Haddock/Utf8.dyn_hi$
+- /usr/lib64/haddock-library-1.4.2/ghc-8.0.2/Documentation/Haddock/Utf8.hi$
+- /usr/lib64/haddock-library-1.4.2/ghc-8.0.2/libHShaddock-library-1.4.2-6hIQ29hRXkf8sTGLGCaMtg.a$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHShaddock-library-1.4.2-6hIQ29hRXkf8sTGLGCaMtg-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/haddock-library-1.4.2$
+- /usr/share/doc/haddock-library-1.4.2/LICENSE.bz2$

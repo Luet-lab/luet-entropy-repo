@@ -1,0 +1,45 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/pandoc-types-1.17.0.4
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/pandoc-types/1.17.0.4/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-pandoc-types-1.17.0.4-pandoc-types-1.17.0.4.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-pandoc-types-1.17.0.4.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/pandoc-types-1.17.0.4-3oqC7kqB8XtIpGammNl6sP.conf$
+- /usr/lib64/pandoc-types-1.17.0.4$
+- /usr/lib64/pandoc-types-1.17.0.4/ghc-8.0.2$
+- /usr/lib64/pandoc-types-1.17.0.4/ghc-8.0.2/Paths_pandoc_types.dyn_hi$
+- /usr/lib64/pandoc-types-1.17.0.4/ghc-8.0.2/Paths_pandoc_types.hi$
+- /usr/lib64/pandoc-types-1.17.0.4/ghc-8.0.2/Text$
+- /usr/lib64/pandoc-types-1.17.0.4/ghc-8.0.2/Text/Pandoc$
+- /usr/lib64/pandoc-types-1.17.0.4/ghc-8.0.2/Text/Pandoc/Arbitrary.dyn_hi$
+- /usr/lib64/pandoc-types-1.17.0.4/ghc-8.0.2/Text/Pandoc/Arbitrary.hi$
+- /usr/lib64/pandoc-types-1.17.0.4/ghc-8.0.2/Text/Pandoc/Builder.dyn_hi$
+- /usr/lib64/pandoc-types-1.17.0.4/ghc-8.0.2/Text/Pandoc/Builder.hi$
+- /usr/lib64/pandoc-types-1.17.0.4/ghc-8.0.2/Text/Pandoc/Definition.dyn_hi$
+- /usr/lib64/pandoc-types-1.17.0.4/ghc-8.0.2/Text/Pandoc/Definition.hi$
+- /usr/lib64/pandoc-types-1.17.0.4/ghc-8.0.2/Text/Pandoc/Generic.dyn_hi$
+- /usr/lib64/pandoc-types-1.17.0.4/ghc-8.0.2/Text/Pandoc/Generic.hi$
+- /usr/lib64/pandoc-types-1.17.0.4/ghc-8.0.2/Text/Pandoc/JSON.dyn_hi$
+- /usr/lib64/pandoc-types-1.17.0.4/ghc-8.0.2/Text/Pandoc/JSON.hi$
+- /usr/lib64/pandoc-types-1.17.0.4/ghc-8.0.2/Text/Pandoc/Walk.dyn_hi$
+- /usr/lib64/pandoc-types-1.17.0.4/ghc-8.0.2/Text/Pandoc/Walk.hi$
+- /usr/lib64/pandoc-types-1.17.0.4/ghc-8.0.2/libHSpandoc-types-1.17.0.4-3oqC7kqB8XtIpGammNl6sP.a$
+- /usr/lib64/x86_64-linux-ghc-7.10.3$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSpandoc-types-1.17.0.4-3oqC7kqB8XtIpGammNl6sP-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/pandoc-types-1.17.0.4$
+- /usr/share/doc/pandoc-types-1.17.0.4/LICENSE.bz2$

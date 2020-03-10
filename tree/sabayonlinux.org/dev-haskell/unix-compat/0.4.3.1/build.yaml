@@ -1,0 +1,48 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/unix-compat-0.4.3.1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/unix-compat/0.4.3.1/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-unix-compat-0.4.3.1-unix-compat-0.4.3.1.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-unix-compat-0.4.3.1.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/unix-compat-0.4.3.1-4UGk5Lzx1jh6odMZdBsQG0.conf$
+- /usr/lib64/unix-compat-0.4.3.1$
+- /usr/lib64/unix-compat-0.4.3.1/ghc-8.0.2$
+- /usr/lib64/unix-compat-0.4.3.1/ghc-8.0.2/System$
+- /usr/lib64/unix-compat-0.4.3.1/ghc-8.0.2/System/PosixCompat$
+- /usr/lib64/unix-compat-0.4.3.1/ghc-8.0.2/System/PosixCompat.dyn_hi$
+- /usr/lib64/unix-compat-0.4.3.1/ghc-8.0.2/System/PosixCompat.hi$
+- /usr/lib64/unix-compat-0.4.3.1/ghc-8.0.2/System/PosixCompat/Extensions.dyn_hi$
+- /usr/lib64/unix-compat-0.4.3.1/ghc-8.0.2/System/PosixCompat/Extensions.hi$
+- /usr/lib64/unix-compat-0.4.3.1/ghc-8.0.2/System/PosixCompat/Files.dyn_hi$
+- /usr/lib64/unix-compat-0.4.3.1/ghc-8.0.2/System/PosixCompat/Files.hi$
+- /usr/lib64/unix-compat-0.4.3.1/ghc-8.0.2/System/PosixCompat/Temp.dyn_hi$
+- /usr/lib64/unix-compat-0.4.3.1/ghc-8.0.2/System/PosixCompat/Temp.hi$
+- /usr/lib64/unix-compat-0.4.3.1/ghc-8.0.2/System/PosixCompat/Time.dyn_hi$
+- /usr/lib64/unix-compat-0.4.3.1/ghc-8.0.2/System/PosixCompat/Time.hi$
+- /usr/lib64/unix-compat-0.4.3.1/ghc-8.0.2/System/PosixCompat/Types.dyn_hi$
+- /usr/lib64/unix-compat-0.4.3.1/ghc-8.0.2/System/PosixCompat/Types.hi$
+- /usr/lib64/unix-compat-0.4.3.1/ghc-8.0.2/System/PosixCompat/Unistd.dyn_hi$
+- /usr/lib64/unix-compat-0.4.3.1/ghc-8.0.2/System/PosixCompat/Unistd.hi$
+- /usr/lib64/unix-compat-0.4.3.1/ghc-8.0.2/System/PosixCompat/User.dyn_hi$
+- /usr/lib64/unix-compat-0.4.3.1/ghc-8.0.2/System/PosixCompat/User.hi$
+- /usr/lib64/unix-compat-0.4.3.1/ghc-8.0.2/include$
+- /usr/lib64/unix-compat-0.4.3.1/ghc-8.0.2/include/HsUnixCompat.h$
+- /usr/lib64/unix-compat-0.4.3.1/ghc-8.0.2/libHSunix-compat-0.4.3.1-4UGk5Lzx1jh6odMZdBsQG0.a$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSunix-compat-0.4.3.1-4UGk5Lzx1jh6odMZdBsQG0-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/unix-compat-0.4.3.1$
+- /usr/share/doc/unix-compat-0.4.3.1/LICENSE.bz2$

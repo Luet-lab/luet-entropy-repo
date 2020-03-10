@@ -1,0 +1,56 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/blaze-builder-0.4.0.2
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/blaze-builder/0.4.0.2/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/blaze-builder-0.4.0.2$
+- /usr/lib64/blaze-builder-0.4.0.2/ghc-7.10.3$
+- /usr/lib64/blaze-builder-0.4.0.2/ghc-8.0.2$
+- /usr/lib64/blaze-builder-0.4.0.2/ghc-8.0.2/Blaze$
+- /usr/lib64/blaze-builder-0.4.0.2/ghc-8.0.2/Blaze/ByteString$
+- /usr/lib64/blaze-builder-0.4.0.2/ghc-8.0.2/Blaze/ByteString/Builder$
+- /usr/lib64/blaze-builder-0.4.0.2/ghc-8.0.2/Blaze/ByteString/Builder.dyn_hi$
+- /usr/lib64/blaze-builder-0.4.0.2/ghc-8.0.2/Blaze/ByteString/Builder.hi$
+- /usr/lib64/blaze-builder-0.4.0.2/ghc-8.0.2/Blaze/ByteString/Builder/ByteString.dyn_hi$
+- /usr/lib64/blaze-builder-0.4.0.2/ghc-8.0.2/Blaze/ByteString/Builder/ByteString.hi$
+- /usr/lib64/blaze-builder-0.4.0.2/ghc-8.0.2/Blaze/ByteString/Builder/Char$
+- /usr/lib64/blaze-builder-0.4.0.2/ghc-8.0.2/Blaze/ByteString/Builder/Char/Utf8.dyn_hi$
+- /usr/lib64/blaze-builder-0.4.0.2/ghc-8.0.2/Blaze/ByteString/Builder/Char/Utf8.hi$
+- /usr/lib64/blaze-builder-0.4.0.2/ghc-8.0.2/Blaze/ByteString/Builder/Char8.dyn_hi$
+- /usr/lib64/blaze-builder-0.4.0.2/ghc-8.0.2/Blaze/ByteString/Builder/Char8.hi$
+- /usr/lib64/blaze-builder-0.4.0.2/ghc-8.0.2/Blaze/ByteString/Builder/Compat$
+- /usr/lib64/blaze-builder-0.4.0.2/ghc-8.0.2/Blaze/ByteString/Builder/Compat/Write.dyn_hi$
+- /usr/lib64/blaze-builder-0.4.0.2/ghc-8.0.2/Blaze/ByteString/Builder/Compat/Write.hi$
+- /usr/lib64/blaze-builder-0.4.0.2/ghc-8.0.2/Blaze/ByteString/Builder/HTTP.dyn_hi$
+- /usr/lib64/blaze-builder-0.4.0.2/ghc-8.0.2/Blaze/ByteString/Builder/HTTP.hi$
+- /usr/lib64/blaze-builder-0.4.0.2/ghc-8.0.2/Blaze/ByteString/Builder/Html$
+- /usr/lib64/blaze-builder-0.4.0.2/ghc-8.0.2/Blaze/ByteString/Builder/Html/Utf8.dyn_hi$
+- /usr/lib64/blaze-builder-0.4.0.2/ghc-8.0.2/Blaze/ByteString/Builder/Html/Utf8.hi$
+- /usr/lib64/blaze-builder-0.4.0.2/ghc-8.0.2/Blaze/ByteString/Builder/Int.dyn_hi$
+- /usr/lib64/blaze-builder-0.4.0.2/ghc-8.0.2/Blaze/ByteString/Builder/Int.hi$
+- /usr/lib64/blaze-builder-0.4.0.2/ghc-8.0.2/Blaze/ByteString/Builder/Internal$
+- /usr/lib64/blaze-builder-0.4.0.2/ghc-8.0.2/Blaze/ByteString/Builder/Internal/Write.dyn_hi$
+- /usr/lib64/blaze-builder-0.4.0.2/ghc-8.0.2/Blaze/ByteString/Builder/Internal/Write.hi$
+- /usr/lib64/blaze-builder-0.4.0.2/ghc-8.0.2/Blaze/ByteString/Builder/Word.dyn_hi$
+- /usr/lib64/blaze-builder-0.4.0.2/ghc-8.0.2/Blaze/ByteString/Builder/Word.hi$
+- /usr/lib64/blaze-builder-0.4.0.2/ghc-8.0.2/libHSblaze-builder-0.4.0.2-7Vsh5yVjeKS8Mi1sMComSA.a$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-blaze-builder-0.4.0.2-blaze-builder-0.4.0.2.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-blaze-builder-0.4.0.2.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/blaze-builder-0.4.0.2-7Vsh5yVjeKS8Mi1sMComSA.conf$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSblaze-builder-0.4.0.2-7Vsh5yVjeKS8Mi1sMComSA-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/blaze-builder-0.4.0.2$
+- /usr/share/doc/blaze-builder-0.4.0.2/LICENSE.bz2$

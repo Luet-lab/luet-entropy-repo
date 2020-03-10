@@ -1,0 +1,29 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/subprocess32-3.5.4
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-python/subprocess32/3.5.4/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/python2.7$
+- /usr/lib64/python2.7/site-packages$
+- /usr/lib64/python2.7/site-packages/_posixsubprocess32.so$
+- /usr/lib64/python2.7/site-packages/subprocess32-3.5.4-py2.7.egg-info$
+- /usr/lib64/python2.7/site-packages/subprocess32-3.5.4-py2.7.egg-info/PKG-INFO$
+- /usr/lib64/python2.7/site-packages/subprocess32-3.5.4-py2.7.egg-info/SOURCES.txt$
+- /usr/lib64/python2.7/site-packages/subprocess32-3.5.4-py2.7.egg-info/dependency_links.txt$
+- /usr/lib64/python2.7/site-packages/subprocess32-3.5.4-py2.7.egg-info/top_level.txt$
+- /usr/lib64/python2.7/site-packages/subprocess32.py$
+- /usr/lib64/python2.7/site-packages/subprocess32.pyc$
+- /usr/lib64/python2.7/site-packages/subprocess32.pyo$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/subprocess32-3.5.4$
+- /usr/share/doc/subprocess32-3.5.4/ChangeLog.bz2$
+- /usr/share/doc/subprocess32-3.5.4/README.md.bz2$

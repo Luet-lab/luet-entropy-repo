@@ -1,0 +1,62 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/quickcheck-2.9.2
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/quickcheck-2/2.9.2/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-quickcheck-2.9.2-quickcheck-2.9.2.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-quickcheck-2.9.2.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/QuickCheck-2.9.2-HwUxD15mw5t2ecD6rU7G32.conf$
+- /usr/lib64/quickcheck-2.9.2$
+- /usr/lib64/quickcheck-2.9.2/ghc-8.0.2$
+- /usr/lib64/quickcheck-2.9.2/ghc-8.0.2/Test$
+- /usr/lib64/quickcheck-2.9.2/ghc-8.0.2/Test/QuickCheck$
+- /usr/lib64/quickcheck-2.9.2/ghc-8.0.2/Test/QuickCheck.dyn_hi$
+- /usr/lib64/quickcheck-2.9.2/ghc-8.0.2/Test/QuickCheck.hi$
+- /usr/lib64/quickcheck-2.9.2/ghc-8.0.2/Test/QuickCheck/All.dyn_hi$
+- /usr/lib64/quickcheck-2.9.2/ghc-8.0.2/Test/QuickCheck/All.hi$
+- /usr/lib64/quickcheck-2.9.2/ghc-8.0.2/Test/QuickCheck/Arbitrary.dyn_hi$
+- /usr/lib64/quickcheck-2.9.2/ghc-8.0.2/Test/QuickCheck/Arbitrary.hi$
+- /usr/lib64/quickcheck-2.9.2/ghc-8.0.2/Test/QuickCheck/Exception.dyn_hi$
+- /usr/lib64/quickcheck-2.9.2/ghc-8.0.2/Test/QuickCheck/Exception.hi$
+- /usr/lib64/quickcheck-2.9.2/ghc-8.0.2/Test/QuickCheck/Function.dyn_hi$
+- /usr/lib64/quickcheck-2.9.2/ghc-8.0.2/Test/QuickCheck/Function.hi$
+- /usr/lib64/quickcheck-2.9.2/ghc-8.0.2/Test/QuickCheck/Gen$
+- /usr/lib64/quickcheck-2.9.2/ghc-8.0.2/Test/QuickCheck/Gen.dyn_hi$
+- /usr/lib64/quickcheck-2.9.2/ghc-8.0.2/Test/QuickCheck/Gen.hi$
+- /usr/lib64/quickcheck-2.9.2/ghc-8.0.2/Test/QuickCheck/Gen/Unsafe.dyn_hi$
+- /usr/lib64/quickcheck-2.9.2/ghc-8.0.2/Test/QuickCheck/Gen/Unsafe.hi$
+- /usr/lib64/quickcheck-2.9.2/ghc-8.0.2/Test/QuickCheck/Modifiers.dyn_hi$
+- /usr/lib64/quickcheck-2.9.2/ghc-8.0.2/Test/QuickCheck/Modifiers.hi$
+- /usr/lib64/quickcheck-2.9.2/ghc-8.0.2/Test/QuickCheck/Monadic.dyn_hi$
+- /usr/lib64/quickcheck-2.9.2/ghc-8.0.2/Test/QuickCheck/Monadic.hi$
+- /usr/lib64/quickcheck-2.9.2/ghc-8.0.2/Test/QuickCheck/Poly.dyn_hi$
+- /usr/lib64/quickcheck-2.9.2/ghc-8.0.2/Test/QuickCheck/Poly.hi$
+- /usr/lib64/quickcheck-2.9.2/ghc-8.0.2/Test/QuickCheck/Property.dyn_hi$
+- /usr/lib64/quickcheck-2.9.2/ghc-8.0.2/Test/QuickCheck/Property.hi$
+- /usr/lib64/quickcheck-2.9.2/ghc-8.0.2/Test/QuickCheck/Random.dyn_hi$
+- /usr/lib64/quickcheck-2.9.2/ghc-8.0.2/Test/QuickCheck/Random.hi$
+- /usr/lib64/quickcheck-2.9.2/ghc-8.0.2/Test/QuickCheck/State.dyn_hi$
+- /usr/lib64/quickcheck-2.9.2/ghc-8.0.2/Test/QuickCheck/State.hi$
+- /usr/lib64/quickcheck-2.9.2/ghc-8.0.2/Test/QuickCheck/Test.dyn_hi$
+- /usr/lib64/quickcheck-2.9.2/ghc-8.0.2/Test/QuickCheck/Test.hi$
+- /usr/lib64/quickcheck-2.9.2/ghc-8.0.2/Test/QuickCheck/Text.dyn_hi$
+- /usr/lib64/quickcheck-2.9.2/ghc-8.0.2/Test/QuickCheck/Text.hi$
+- /usr/lib64/quickcheck-2.9.2/ghc-8.0.2/libHSQuickCheck-2.9.2-HwUxD15mw5t2ecD6rU7G32.a$
+- /usr/lib64/x86_64-linux-ghc-7.10.3$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSQuickCheck-2.9.2-HwUxD15mw5t2ecD6rU7G32-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/quickcheck-2.9.2$
+- /usr/share/doc/quickcheck-2.9.2/LICENSE.bz2$

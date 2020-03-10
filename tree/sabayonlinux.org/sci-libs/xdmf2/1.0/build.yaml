@@ -1,0 +1,100 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i sci-libs/xdmf2-1.0_p141226-r2
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> sci-libs/xdmf2/1.0/definition.yaml
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/ProjectVersion.hpp$
+- /usr/include/Xdmf.hpp$
+- /usr/include/Xdmf.i$
+- /usr/include/XdmfArray.hpp$
+- /usr/include/XdmfArray.tpp$
+- /usr/include/XdmfArrayReference.hpp$
+- /usr/include/XdmfArrayType.hpp$
+- /usr/include/XdmfAttribute.hpp$
+- /usr/include/XdmfAttributeCenter.hpp$
+- /usr/include/XdmfAttributeType.hpp$
+- /usr/include/XdmfBinaryController.hpp$
+- /usr/include/XdmfConfig.hpp$
+- /usr/include/XdmfCore.hpp$
+- /usr/include/XdmfCore.i$
+- /usr/include/XdmfCoreItemFactory.hpp$
+- /usr/include/XdmfCoreReader.hpp$
+- /usr/include/XdmfCurvilinearGrid.hpp$
+- /usr/include/XdmfDSM.hpp$
+- /usr/include/XdmfDSM.i$
+- /usr/include/XdmfDSMBuffer.hpp$
+- /usr/include/XdmfDSMCommMPI.hpp$
+- /usr/include/XdmfDSMDriver.hpp$
+- /usr/include/XdmfDSMManager.hpp$
+- /usr/include/XdmfDomain.hpp$
+- /usr/include/XdmfError.hpp$
+- /usr/include/XdmfFunction.hpp$
+- /usr/include/XdmfGeometry.hpp$
+- /usr/include/XdmfGeometryType.hpp$
+- /usr/include/XdmfGraph.hpp$
+- /usr/include/XdmfGrid.hpp$
+- /usr/include/XdmfGridCollection.hpp$
+- /usr/include/XdmfGridCollectionType.hpp$
+- /usr/include/XdmfHDF5Controller.hpp$
+- /usr/include/XdmfHDF5ControllerDSM.hpp$
+- /usr/include/XdmfHDF5Writer.hpp$
+- /usr/include/XdmfHDF5WriterDSM.hpp$
+- /usr/include/XdmfHeavyDataController.hpp$
+- /usr/include/XdmfHeavyDataWriter.hpp$
+- /usr/include/XdmfInformation.hpp$
+- /usr/include/XdmfItem.hpp$
+- /usr/include/XdmfItemFactory.hpp$
+- /usr/include/XdmfItemProperty.hpp$
+- /usr/include/XdmfMap.hpp$
+- /usr/include/XdmfReader.hpp$
+- /usr/include/XdmfRectilinearGrid.hpp$
+- /usr/include/XdmfRegularGrid.hpp$
+- /usr/include/XdmfSet.hpp$
+- /usr/include/XdmfSetType.hpp$
+- /usr/include/XdmfSharedPtr.hpp$
+- /usr/include/XdmfSparseMatrix.hpp$
+- /usr/include/XdmfSubset.hpp$
+- /usr/include/XdmfSystemUtils.hpp$
+- /usr/include/XdmfTime.hpp$
+- /usr/include/XdmfTopology.hpp$
+- /usr/include/XdmfTopologyType.hpp$
+- /usr/include/XdmfUnstructuredGrid.hpp$
+- /usr/include/XdmfVersion.hpp$
+- /usr/include/XdmfVisitor.hpp$
+- /usr/include/XdmfWriter.hpp$
+- /usr/include/loki$
+- /usr/include/loki/EmptyType.h$
+- /usr/include/loki/HierarchyGenerators.h$
+- /usr/include/loki/NullType.h$
+- /usr/include/loki/Sequence.h$
+- /usr/include/loki/TypeManip.h$
+- /usr/include/loki/TypeTraits.h$
+- /usr/include/loki/Typelist.h$
+- /usr/include/loki/TypelistMacros.h$
+- /usr/include/loki/Visitor.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libXdmf.so$
+- /usr/lib64/libXdmfCore.so$
+- /usr/lib64/python2.7$
+- /usr/lib64/python2.7/site-packages$
+- /usr/lib64/python2.7/site-packages/Xdmf.py$
+- /usr/lib64/python2.7/site-packages/Xdmf.pyc$
+- /usr/lib64/python2.7/site-packages/Xdmf.pyo$
+- /usr/lib64/python2.7/site-packages/XdmfCore.py$
+- /usr/lib64/python2.7/site-packages/XdmfCore.pyc$
+- /usr/lib64/python2.7/site-packages/XdmfCore.pyo$
+- /usr/lib64/python2.7/site-packages/_Xdmf.so$
+- /usr/lib64/python2.7/site-packages/_XdmfCore.so$
+- /usr/share$
+- /usr/share/cmake$
+- /usr/share/cmake/Modules$
+- /usr/share/cmake/Modules/XdmfConfig.cmake$
+- /usr/share/cmake/Modules/xdmf2Config.cmake$

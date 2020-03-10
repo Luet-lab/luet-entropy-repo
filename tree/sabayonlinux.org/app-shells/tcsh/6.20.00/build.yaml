@@ -1,0 +1,68 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-shells/tcsh-6.20.00
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> app-shells/tcsh/6.20.00/definition.yaml
+includes:
+- /bin$
+- /bin/csh$
+- /bin/tcsh$
+- /etc$
+- /etc/csh.cshrc$
+- /etc/csh.login$
+- /usr$
+- /usr/lib$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/tcsh-6.20.00$
+- /usr/share/doc/tcsh-6.20.00/FAQ.bz2$
+- /usr/share/doc/tcsh-6.20.00/Fixes.bz2$
+- /usr/share/doc/tcsh-6.20.00/NewThings.bz2$
+- /usr/share/doc/tcsh-6.20.00/Ported.bz2$
+- /usr/share/doc/tcsh-6.20.00/README.bz2$
+- /usr/share/doc/tcsh-6.20.00/WishList.bz2$
+- /usr/share/doc/tcsh-6.20.00/Y2K.bz2$
+- /usr/share/locale$
+- /usr/share/locale/C$
+- /usr/share/locale/C/LC_MESSAGES$
+- /usr/share/locale/C/LC_MESSAGES/tcsh.cat$
+- /usr/share/locale/de$
+- /usr/share/locale/de/LC_MESSAGES$
+- /usr/share/locale/de/LC_MESSAGES/tcsh.cat$
+- /usr/share/locale/es$
+- /usr/share/locale/es/LC_MESSAGES$
+- /usr/share/locale/es/LC_MESSAGES/tcsh.cat$
+- /usr/share/locale/et$
+- /usr/share/locale/et/LC_MESSAGES$
+- /usr/share/locale/et/LC_MESSAGES/tcsh.cat$
+- /usr/share/locale/fi$
+- /usr/share/locale/fi/LC_MESSAGES$
+- /usr/share/locale/fi/LC_MESSAGES/tcsh.cat$
+- /usr/share/locale/fr$
+- /usr/share/locale/fr/LC_MESSAGES$
+- /usr/share/locale/fr/LC_MESSAGES/tcsh.cat$
+- /usr/share/locale/gr$
+- /usr/share/locale/gr/LC_MESSAGES$
+- /usr/share/locale/gr/LC_MESSAGES/tcsh.cat$
+- /usr/share/locale/it$
+- /usr/share/locale/it/LC_MESSAGES$
+- /usr/share/locale/it/LC_MESSAGES/tcsh.cat$
+- /usr/share/locale/ja$
+- /usr/share/locale/ja/LC_MESSAGES$
+- /usr/share/locale/ja/LC_MESSAGES/tcsh.cat$
+- /usr/share/locale/pl$
+- /usr/share/locale/pl/LC_MESSAGES$
+- /usr/share/locale/pl/LC_MESSAGES/tcsh.cat$
+- /usr/share/locale/ru$
+- /usr/share/locale/ru/LC_MESSAGES$
+- /usr/share/locale/ru/LC_MESSAGES/tcsh.cat$
+- /usr/share/locale/ru_UA$
+- /usr/share/locale/ru_UA/LC_MESSAGES$
+- /usr/share/locale/ru_UA/LC_MESSAGES/tcsh.cat$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/tcsh.1.bz2$

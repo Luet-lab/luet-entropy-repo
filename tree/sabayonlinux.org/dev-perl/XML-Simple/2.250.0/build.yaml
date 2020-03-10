@@ -1,0 +1,29 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-perl/XML-Simple-2.250.0
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-perl/XML-Simple/2.250.0/definition.yaml
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/perl5$
+- /usr/lib64/perl5/vendor_perl$
+- /usr/lib64/perl5/vendor_perl/5.28.2$
+- /usr/lib64/perl5/vendor_perl/5.28.2/XML$
+- /usr/lib64/perl5/vendor_perl/5.28.2/XML/Simple$
+- /usr/lib64/perl5/vendor_perl/5.28.2/XML/Simple.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/XML/Simple/FAQ.pod$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/XML$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/XML/Simple$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/XML/Simple/.packlist$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/XML-Simple-2.250.0$
+- /usr/share/doc/XML-Simple-2.250.0/Changes.bz2$
+- /usr/share/doc/XML-Simple-2.250.0/README.bz2$

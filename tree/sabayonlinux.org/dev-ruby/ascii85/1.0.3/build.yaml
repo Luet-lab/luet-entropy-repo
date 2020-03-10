@@ -1,0 +1,32 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/ascii85-1.0.3
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-ruby/ascii85/1.0.3/definition.yaml
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/ascii85$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/Ascii85-1.0.3$
+- /usr/lib64/ruby/gems/2.5.0/gems/Ascii85-1.0.3/bin$
+- /usr/lib64/ruby/gems/2.5.0/gems/Ascii85-1.0.3/bin/ascii85$
+- /usr/lib64/ruby/gems/2.5.0/gems/Ascii85-1.0.3/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/Ascii85-1.0.3/lib/Ascii85$
+- /usr/lib64/ruby/gems/2.5.0/gems/Ascii85-1.0.3/lib/Ascii85/version.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/Ascii85-1.0.3/lib/ascii85.rb$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/Ascii85-1.0.3.gemspec$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/ascii85-1.0.3$
+- /usr/share/doc/ascii85-1.0.3/History.txt.bz2$
+- /usr/share/doc/ascii85-1.0.3/README.md.bz2$

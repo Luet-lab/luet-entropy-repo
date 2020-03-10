@@ -1,0 +1,24 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i net-mail/queue-repair-0.9.0-r1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> net-mail/queue-repair/0.9.0/definition.yaml
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/queue-repair$
+- /usr/bin/queue-repair.py$
+- /usr/lib$
+- /usr/lib/python-exec$
+- /usr/lib/python-exec/python2.7$
+- /usr/lib/python-exec/python2.7/queue-repair.py$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/queue-repair-0.9.0-r1$
+- /usr/share/doc/queue-repair-0.9.0-r1/BLURB.bz2$
+- /usr/share/doc/queue-repair-0.9.0-r1/CHANGELOG.bz2$
+- /usr/share/doc/queue-repair-0.9.0-r1/TODO.bz2$

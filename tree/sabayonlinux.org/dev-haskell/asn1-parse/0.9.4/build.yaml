@@ -1,0 +1,33 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/asn1-parse-0.9.4
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/asn1-parse/0.9.4/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/asn1-parse-0.9.4$
+- /usr/lib64/asn1-parse-0.9.4/ghc-8.0.2$
+- /usr/lib64/asn1-parse-0.9.4/ghc-8.0.2/Data$
+- /usr/lib64/asn1-parse-0.9.4/ghc-8.0.2/Data/ASN1$
+- /usr/lib64/asn1-parse-0.9.4/ghc-8.0.2/Data/ASN1/Parse.dyn_hi$
+- /usr/lib64/asn1-parse-0.9.4/ghc-8.0.2/Data/ASN1/Parse.hi$
+- /usr/lib64/asn1-parse-0.9.4/ghc-8.0.2/libHSasn1-parse-0.9.4-73in71Gskj2LEu9daD1Yih.a$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-asn1-parse-0.9.4-asn1-parse-0.9.4.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-asn1-parse-0.9.4.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/asn1-parse-0.9.4-73in71Gskj2LEu9daD1Yih.conf$
+- /usr/lib64/x86_64-linux-ghc-7.10.3$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSasn1-parse-0.9.4-73in71Gskj2LEu9daD1Yih-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/asn1-parse-0.9.4$
+- /usr/share/doc/asn1-parse-0.9.4/LICENSE.bz2$

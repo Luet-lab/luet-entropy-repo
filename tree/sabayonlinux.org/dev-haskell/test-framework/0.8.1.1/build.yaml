@@ -1,0 +1,83 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/test-framework-0.8.1.1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/test-framework/0.8.1.1/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-test-framework-0.8.1.1-test-framework-0.8.1.1.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-test-framework-0.8.1.1.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/test-framework-0.8.1.1-IlhxeKuJqXm4BKCsOA0LpD.conf$
+- /usr/lib64/test-framework-0.8.1.1$
+- /usr/lib64/test-framework-0.8.1.1/ghc-8.0.2$
+- /usr/lib64/test-framework-0.8.1.1/ghc-8.0.2/Test$
+- /usr/lib64/test-framework-0.8.1.1/ghc-8.0.2/Test/Framework$
+- /usr/lib64/test-framework-0.8.1.1/ghc-8.0.2/Test/Framework.dyn_hi$
+- /usr/lib64/test-framework-0.8.1.1/ghc-8.0.2/Test/Framework.hi$
+- /usr/lib64/test-framework-0.8.1.1/ghc-8.0.2/Test/Framework/Core.dyn_hi$
+- /usr/lib64/test-framework-0.8.1.1/ghc-8.0.2/Test/Framework/Core.hi$
+- /usr/lib64/test-framework-0.8.1.1/ghc-8.0.2/Test/Framework/Improving.dyn_hi$
+- /usr/lib64/test-framework-0.8.1.1/ghc-8.0.2/Test/Framework/Improving.hi$
+- /usr/lib64/test-framework-0.8.1.1/ghc-8.0.2/Test/Framework/Options.dyn_hi$
+- /usr/lib64/test-framework-0.8.1.1/ghc-8.0.2/Test/Framework/Options.hi$
+- /usr/lib64/test-framework-0.8.1.1/ghc-8.0.2/Test/Framework/Providers$
+- /usr/lib64/test-framework-0.8.1.1/ghc-8.0.2/Test/Framework/Providers/API.dyn_hi$
+- /usr/lib64/test-framework-0.8.1.1/ghc-8.0.2/Test/Framework/Providers/API.hi$
+- /usr/lib64/test-framework-0.8.1.1/ghc-8.0.2/Test/Framework/Runners$
+- /usr/lib64/test-framework-0.8.1.1/ghc-8.0.2/Test/Framework/Runners/API.dyn_hi$
+- /usr/lib64/test-framework-0.8.1.1/ghc-8.0.2/Test/Framework/Runners/API.hi$
+- /usr/lib64/test-framework-0.8.1.1/ghc-8.0.2/Test/Framework/Runners/Console$
+- /usr/lib64/test-framework-0.8.1.1/ghc-8.0.2/Test/Framework/Runners/Console.dyn_hi$
+- /usr/lib64/test-framework-0.8.1.1/ghc-8.0.2/Test/Framework/Runners/Console.hi$
+- /usr/lib64/test-framework-0.8.1.1/ghc-8.0.2/Test/Framework/Runners/Console/Colors.dyn_hi$
+- /usr/lib64/test-framework-0.8.1.1/ghc-8.0.2/Test/Framework/Runners/Console/Colors.hi$
+- /usr/lib64/test-framework-0.8.1.1/ghc-8.0.2/Test/Framework/Runners/Console/ProgressBar.dyn_hi$
+- /usr/lib64/test-framework-0.8.1.1/ghc-8.0.2/Test/Framework/Runners/Console/ProgressBar.hi$
+- /usr/lib64/test-framework-0.8.1.1/ghc-8.0.2/Test/Framework/Runners/Console/Run.dyn_hi$
+- /usr/lib64/test-framework-0.8.1.1/ghc-8.0.2/Test/Framework/Runners/Console/Run.hi$
+- /usr/lib64/test-framework-0.8.1.1/ghc-8.0.2/Test/Framework/Runners/Console/Statistics.dyn_hi$
+- /usr/lib64/test-framework-0.8.1.1/ghc-8.0.2/Test/Framework/Runners/Console/Statistics.hi$
+- /usr/lib64/test-framework-0.8.1.1/ghc-8.0.2/Test/Framework/Runners/Console/Table.dyn_hi$
+- /usr/lib64/test-framework-0.8.1.1/ghc-8.0.2/Test/Framework/Runners/Console/Table.hi$
+- /usr/lib64/test-framework-0.8.1.1/ghc-8.0.2/Test/Framework/Runners/Console/Utilities.dyn_hi$
+- /usr/lib64/test-framework-0.8.1.1/ghc-8.0.2/Test/Framework/Runners/Console/Utilities.hi$
+- /usr/lib64/test-framework-0.8.1.1/ghc-8.0.2/Test/Framework/Runners/Core.dyn_hi$
+- /usr/lib64/test-framework-0.8.1.1/ghc-8.0.2/Test/Framework/Runners/Core.hi$
+- /usr/lib64/test-framework-0.8.1.1/ghc-8.0.2/Test/Framework/Runners/Options.dyn_hi$
+- /usr/lib64/test-framework-0.8.1.1/ghc-8.0.2/Test/Framework/Runners/Options.hi$
+- /usr/lib64/test-framework-0.8.1.1/ghc-8.0.2/Test/Framework/Runners/Processors.dyn_hi$
+- /usr/lib64/test-framework-0.8.1.1/ghc-8.0.2/Test/Framework/Runners/Processors.hi$
+- /usr/lib64/test-framework-0.8.1.1/ghc-8.0.2/Test/Framework/Runners/Statistics.dyn_hi$
+- /usr/lib64/test-framework-0.8.1.1/ghc-8.0.2/Test/Framework/Runners/Statistics.hi$
+- /usr/lib64/test-framework-0.8.1.1/ghc-8.0.2/Test/Framework/Runners/TestPattern.dyn_hi$
+- /usr/lib64/test-framework-0.8.1.1/ghc-8.0.2/Test/Framework/Runners/TestPattern.hi$
+- /usr/lib64/test-framework-0.8.1.1/ghc-8.0.2/Test/Framework/Runners/ThreadPool.dyn_hi$
+- /usr/lib64/test-framework-0.8.1.1/ghc-8.0.2/Test/Framework/Runners/ThreadPool.hi$
+- /usr/lib64/test-framework-0.8.1.1/ghc-8.0.2/Test/Framework/Runners/TimedConsumption.dyn_hi$
+- /usr/lib64/test-framework-0.8.1.1/ghc-8.0.2/Test/Framework/Runners/TimedConsumption.hi$
+- /usr/lib64/test-framework-0.8.1.1/ghc-8.0.2/Test/Framework/Runners/XML$
+- /usr/lib64/test-framework-0.8.1.1/ghc-8.0.2/Test/Framework/Runners/XML.dyn_hi$
+- /usr/lib64/test-framework-0.8.1.1/ghc-8.0.2/Test/Framework/Runners/XML.hi$
+- /usr/lib64/test-framework-0.8.1.1/ghc-8.0.2/Test/Framework/Runners/XML/JUnitWriter.dyn_hi$
+- /usr/lib64/test-framework-0.8.1.1/ghc-8.0.2/Test/Framework/Runners/XML/JUnitWriter.hi$
+- /usr/lib64/test-framework-0.8.1.1/ghc-8.0.2/Test/Framework/Seed.dyn_hi$
+- /usr/lib64/test-framework-0.8.1.1/ghc-8.0.2/Test/Framework/Seed.hi$
+- /usr/lib64/test-framework-0.8.1.1/ghc-8.0.2/Test/Framework/Utilities.dyn_hi$
+- /usr/lib64/test-framework-0.8.1.1/ghc-8.0.2/Test/Framework/Utilities.hi$
+- /usr/lib64/test-framework-0.8.1.1/ghc-8.0.2/libHStest-framework-0.8.1.1-IlhxeKuJqXm4BKCsOA0LpD.a$
+- /usr/lib64/x86_64-linux-ghc-7.10.3$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHStest-framework-0.8.1.1-IlhxeKuJqXm4BKCsOA0LpD-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/test-framework-0.8.1.1$
+- /usr/share/doc/test-framework-0.8.1.1/LICENSE.bz2$

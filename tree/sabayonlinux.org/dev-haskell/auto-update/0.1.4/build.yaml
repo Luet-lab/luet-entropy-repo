@@ -1,0 +1,39 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/auto-update-0.1.4
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/auto-update/0.1.4/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/auto-update-0.1.4$
+- /usr/lib64/auto-update-0.1.4/ghc-7.10.3$
+- /usr/lib64/auto-update-0.1.4/ghc-8.0.2$
+- /usr/lib64/auto-update-0.1.4/ghc-8.0.2/Control$
+- /usr/lib64/auto-update-0.1.4/ghc-8.0.2/Control/AutoUpdate$
+- /usr/lib64/auto-update-0.1.4/ghc-8.0.2/Control/AutoUpdate.dyn_hi$
+- /usr/lib64/auto-update-0.1.4/ghc-8.0.2/Control/AutoUpdate.hi$
+- /usr/lib64/auto-update-0.1.4/ghc-8.0.2/Control/AutoUpdate/Util.dyn_hi$
+- /usr/lib64/auto-update-0.1.4/ghc-8.0.2/Control/AutoUpdate/Util.hi$
+- /usr/lib64/auto-update-0.1.4/ghc-8.0.2/Control/Debounce.dyn_hi$
+- /usr/lib64/auto-update-0.1.4/ghc-8.0.2/Control/Debounce.hi$
+- /usr/lib64/auto-update-0.1.4/ghc-8.0.2/Control/Reaper.dyn_hi$
+- /usr/lib64/auto-update-0.1.4/ghc-8.0.2/Control/Reaper.hi$
+- /usr/lib64/auto-update-0.1.4/ghc-8.0.2/libHSauto-update-0.1.4-EmUvNdmhEju51bHrtaEMpz.a$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-auto-update-0.1.4-auto-update-0.1.4.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-auto-update-0.1.4.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/auto-update-0.1.4-EmUvNdmhEju51bHrtaEMpz.conf$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSauto-update-0.1.4-EmUvNdmhEju51bHrtaEMpz-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/auto-update-0.1.4$
+- /usr/share/doc/auto-update-0.1.4/LICENSE.bz2$

@@ -1,0 +1,46 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/wsaccel-0.6.2_p20170108
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-python/wsaccel/0.6.2/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/python2.7$
+- /usr/lib64/python2.7/site-packages$
+- /usr/lib64/python2.7/site-packages/wsaccel$
+- /usr/lib64/python2.7/site-packages/wsaccel-0.6.2-py2.7.egg-info$
+- /usr/lib64/python2.7/site-packages/wsaccel-0.6.2-py2.7.egg-info/PKG-INFO$
+- /usr/lib64/python2.7/site-packages/wsaccel-0.6.2-py2.7.egg-info/SOURCES.txt$
+- /usr/lib64/python2.7/site-packages/wsaccel-0.6.2-py2.7.egg-info/dependency_links.txt$
+- /usr/lib64/python2.7/site-packages/wsaccel-0.6.2-py2.7.egg-info/top_level.txt$
+- /usr/lib64/python2.7/site-packages/wsaccel/__init__.py$
+- /usr/lib64/python2.7/site-packages/wsaccel/__init__.pyc$
+- /usr/lib64/python2.7/site-packages/wsaccel/__init__.pyo$
+- /usr/lib64/python2.7/site-packages/wsaccel/utf8validator.so$
+- /usr/lib64/python2.7/site-packages/wsaccel/xormask.so$
+- /usr/lib64/python3.6$
+- /usr/lib64/python3.6/site-packages$
+- /usr/lib64/python3.6/site-packages/wsaccel$
+- /usr/lib64/python3.6/site-packages/wsaccel-0.6.2-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/wsaccel-0.6.2-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/wsaccel-0.6.2-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/wsaccel-0.6.2-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/wsaccel-0.6.2-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/wsaccel/__init__.py$
+- /usr/lib64/python3.6/site-packages/wsaccel/__pycache__$
+- /usr/lib64/python3.6/site-packages/wsaccel/__pycache__/__init__.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/wsaccel/__pycache__/__init__.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/wsaccel/__pycache__/__init__.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/wsaccel/utf8validator.cpython-36m-x86_64-linux-gnu.so$
+- /usr/lib64/python3.6/site-packages/wsaccel/xormask.cpython-36m-x86_64-linux-gnu.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/wsaccel-0.6.2_p20170108$
+- /usr/share/doc/wsaccel-0.6.2_p20170108/ChangeLog.bz2$
+- /usr/share/doc/wsaccel-0.6.2_p20170108/README.rst.bz2$

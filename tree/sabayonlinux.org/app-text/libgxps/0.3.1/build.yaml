@@ -1,0 +1,53 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-text/libgxps-0.3.1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> app-text/libgxps/0.3.1/definition.yaml
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/xpstojpeg$
+- /usr/bin/xpstopdf$
+- /usr/bin/xpstopng$
+- /usr/bin/xpstops$
+- /usr/bin/xpstosvg$
+- /usr/include$
+- /usr/include/libgxps$
+- /usr/include/libgxps/gxps-core-properties.h$
+- /usr/include/libgxps/gxps-document-structure.h$
+- /usr/include/libgxps/gxps-document.h$
+- /usr/include/libgxps/gxps-error.h$
+- /usr/include/libgxps/gxps-file.h$
+- /usr/include/libgxps/gxps-links.h$
+- /usr/include/libgxps/gxps-page.h$
+- /usr/include/libgxps/gxps-version.h$
+- /usr/include/libgxps/gxps.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/girepository-1.0$
+- /usr/lib64/girepository-1.0/GXPS-0.1.typelib$
+- /usr/lib64/libgxps.so$
+- /usr/lib64/libgxps.so.2$
+- /usr/lib64/libgxps.so.2.2.3$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libgxps.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libgxps-0.3.1$
+- /usr/share/doc/libgxps-0.3.1/AUTHORS$
+- /usr/share/doc/libgxps-0.3.1/NEWS.bz2$
+- /usr/share/doc/libgxps-0.3.1/README.bz2$
+- /usr/share/doc/libgxps-0.3.1/TODO.bz2$
+- /usr/share/gir-1.0$
+- /usr/share/gir-1.0/GXPS-0.1.gir$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/xpstojpeg.1.bz2$
+- /usr/share/man/man1/xpstopdf.1.bz2$
+- /usr/share/man/man1/xpstopng.1.bz2$
+- /usr/share/man/man1/xpstops.1.bz2$
+- /usr/share/man/man1/xpstosvg.1.bz2$

@@ -1,0 +1,54 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i gui-libs/libhandy-0.0.9
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> gui-libs/libhandy-0.0/0.0.9/definition.yaml
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/libhandy-0.0$
+- /usr/include/libhandy-0.0/handy.h$
+- /usr/include/libhandy-0.0/hdy-action-row.h$
+- /usr/include/libhandy-0.0/hdy-arrows.h$
+- /usr/include/libhandy-0.0/hdy-column.h$
+- /usr/include/libhandy-0.0/hdy-combo-row.h$
+- /usr/include/libhandy-0.0/hdy-dialer-button.h$
+- /usr/include/libhandy-0.0/hdy-dialer-cycle-button.h$
+- /usr/include/libhandy-0.0/hdy-dialer.h$
+- /usr/include/libhandy-0.0/hdy-dialog.h$
+- /usr/include/libhandy-0.0/hdy-enum-value-object.h$
+- /usr/include/libhandy-0.0/hdy-enums.h$
+- /usr/include/libhandy-0.0/hdy-expander-row.h$
+- /usr/include/libhandy-0.0/hdy-fold.h$
+- /usr/include/libhandy-0.0/hdy-header-group.h$
+- /usr/include/libhandy-0.0/hdy-leaflet.h$
+- /usr/include/libhandy-0.0/hdy-list-box.h$
+- /usr/include/libhandy-0.0/hdy-main.h$
+- /usr/include/libhandy-0.0/hdy-search-bar.h$
+- /usr/include/libhandy-0.0/hdy-string-utf8.h$
+- /usr/include/libhandy-0.0/hdy-title-bar.h$
+- /usr/include/libhandy-0.0/hdy-value-object.h$
+- /usr/include/libhandy-0.0/hdy-version.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/girepository-1.0$
+- /usr/lib64/girepository-1.0/Handy-0.0.typelib$
+- /usr/lib64/libhandy-0.0.so$
+- /usr/lib64/libhandy-0.0.so.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libhandy-0.0.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libhandy-0.0.9$
+- /usr/share/doc/libhandy-0.0.9/AUTHORS.bz2$
+- /usr/share/doc/libhandy-0.0.9/README.md.bz2$
+- /usr/share/gir-1.0$
+- /usr/share/gir-1.0/Handy-0.0.gir$
+- /usr/share/vala$
+- /usr/share/vala/vapi$
+- /usr/share/vala/vapi/libhandy-0.0.deps$
+- /usr/share/vala/vapi/libhandy-0.0.vapi$

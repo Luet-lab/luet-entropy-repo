@@ -1,0 +1,99 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/graphviz-2999.18.1.2
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/graphviz/2999.18.1.2/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-graphviz-2999.18.1.2-graphviz-2999.18.1.2.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-graphviz-2999.18.1.2.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/graphviz-2999.18.1.2-9t1RncoGZT31I4xn0zVfKF.conf$
+- /usr/lib64/graphviz-2999.18.1.2$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz.dyn_hi$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz.hi$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Algorithms$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Algorithms.dyn_hi$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Algorithms.hi$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Algorithms/Clustering.dyn_hi$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Algorithms/Clustering.hi$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Attributes$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Attributes.dyn_hi$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Attributes.hi$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Attributes/Arrows.dyn_hi$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Attributes/Arrows.hi$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Attributes/ColorScheme.dyn_hi$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Attributes/ColorScheme.hi$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Attributes/Colors$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Attributes/Colors.dyn_hi$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Attributes/Colors.hi$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Attributes/Colors/Brewer.dyn_hi$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Attributes/Colors/Brewer.hi$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Attributes/Colors/SVG.dyn_hi$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Attributes/Colors/SVG.hi$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Attributes/Colors/X11.dyn_hi$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Attributes/Colors/X11.hi$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Attributes/Complete.dyn_hi$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Attributes/Complete.hi$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Attributes/HTML.dyn_hi$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Attributes/HTML.hi$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Attributes/Internal.dyn_hi$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Attributes/Internal.hi$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Attributes/Same.dyn_hi$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Attributes/Same.hi$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Attributes/Values.dyn_hi$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Attributes/Values.hi$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Commands$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Commands.dyn_hi$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Commands.hi$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Commands/Available.dyn_hi$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Commands/Available.hi$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Commands/IO.dyn_hi$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Commands/IO.hi$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Exception.dyn_hi$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Exception.hi$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Internal$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Internal/State.dyn_hi$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Internal/State.hi$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Internal/Util.dyn_hi$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Internal/Util.hi$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Parsing.dyn_hi$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Parsing.hi$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/PreProcessing.dyn_hi$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/PreProcessing.hi$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Printing.dyn_hi$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Printing.hi$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Types$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Types.dyn_hi$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Types.hi$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Types/Canonical.dyn_hi$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Types/Canonical.hi$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Types/Generalised.dyn_hi$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Types/Generalised.hi$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Types/Graph.dyn_hi$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Types/Graph.hi$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Types/Internal$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Types/Internal/Common.dyn_hi$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Types/Internal/Common.hi$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Types/Monadic.dyn_hi$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Types/Monadic.hi$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Types/State.dyn_hi$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/Data/GraphViz/Types/State.hi$
+- /usr/lib64/graphviz-2999.18.1.2/ghc-8.0.2/libHSgraphviz-2999.18.1.2-9t1RncoGZT31I4xn0zVfKF.a$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSgraphviz-2999.18.1.2-9t1RncoGZT31I4xn0zVfKF-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/graphviz-2999.18.1.2$
+- /usr/share/doc/graphviz-2999.18.1.2/LICENSE.md.bz2$

@@ -1,0 +1,31 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/crack-0.4.3-r2
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-ruby/crack/0.4.3/definition.yaml
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/crack-0.4.3$
+- /usr/lib64/ruby/gems/2.5.0/gems/crack-0.4.3/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/crack-0.4.3/lib/crack$
+- /usr/lib64/ruby/gems/2.5.0/gems/crack-0.4.3/lib/crack.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/crack-0.4.3/lib/crack/json.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/crack-0.4.3/lib/crack/util.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/crack-0.4.3/lib/crack/version.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/crack-0.4.3/lib/crack/xml.rb$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/crack-0.4.3.gemspec$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/crack-0.4.3-r2$
+- /usr/share/doc/crack-0.4.3-r2/History.bz2$
+- /usr/share/doc/crack-0.4.3-r2/README.md.bz2$

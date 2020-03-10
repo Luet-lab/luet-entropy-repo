@@ -1,0 +1,84 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/vector-0.11.0.0
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/vector/0.11.0.0/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-vector-0.11.0.0-vector-0.11.0.0.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-vector-0.11.0.0.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/vector-0.11.0.0-CSVBj3oTK2iCG5BGLIuhef.conf$
+- /usr/lib64/vector-0.11.0.0$
+- /usr/lib64/vector-0.11.0.0/ghc-8.0.2$
+- /usr/lib64/vector-0.11.0.0/ghc-8.0.2/Data$
+- /usr/lib64/vector-0.11.0.0/ghc-8.0.2/Data/Vector$
+- /usr/lib64/vector-0.11.0.0/ghc-8.0.2/Data/Vector.dyn_hi$
+- /usr/lib64/vector-0.11.0.0/ghc-8.0.2/Data/Vector.hi$
+- /usr/lib64/vector-0.11.0.0/ghc-8.0.2/Data/Vector/Fusion$
+- /usr/lib64/vector-0.11.0.0/ghc-8.0.2/Data/Vector/Fusion/Bundle$
+- /usr/lib64/vector-0.11.0.0/ghc-8.0.2/Data/Vector/Fusion/Bundle.dyn_hi$
+- /usr/lib64/vector-0.11.0.0/ghc-8.0.2/Data/Vector/Fusion/Bundle.hi$
+- /usr/lib64/vector-0.11.0.0/ghc-8.0.2/Data/Vector/Fusion/Bundle/Monadic.dyn_hi$
+- /usr/lib64/vector-0.11.0.0/ghc-8.0.2/Data/Vector/Fusion/Bundle/Monadic.hi$
+- /usr/lib64/vector-0.11.0.0/ghc-8.0.2/Data/Vector/Fusion/Bundle/Size.dyn_hi$
+- /usr/lib64/vector-0.11.0.0/ghc-8.0.2/Data/Vector/Fusion/Bundle/Size.hi$
+- /usr/lib64/vector-0.11.0.0/ghc-8.0.2/Data/Vector/Fusion/Stream$
+- /usr/lib64/vector-0.11.0.0/ghc-8.0.2/Data/Vector/Fusion/Stream/Monadic.dyn_hi$
+- /usr/lib64/vector-0.11.0.0/ghc-8.0.2/Data/Vector/Fusion/Stream/Monadic.hi$
+- /usr/lib64/vector-0.11.0.0/ghc-8.0.2/Data/Vector/Fusion/Util.dyn_hi$
+- /usr/lib64/vector-0.11.0.0/ghc-8.0.2/Data/Vector/Fusion/Util.hi$
+- /usr/lib64/vector-0.11.0.0/ghc-8.0.2/Data/Vector/Generic$
+- /usr/lib64/vector-0.11.0.0/ghc-8.0.2/Data/Vector/Generic.dyn_hi$
+- /usr/lib64/vector-0.11.0.0/ghc-8.0.2/Data/Vector/Generic.hi$
+- /usr/lib64/vector-0.11.0.0/ghc-8.0.2/Data/Vector/Generic/Base.dyn_hi$
+- /usr/lib64/vector-0.11.0.0/ghc-8.0.2/Data/Vector/Generic/Base.hi$
+- /usr/lib64/vector-0.11.0.0/ghc-8.0.2/Data/Vector/Generic/Mutable$
+- /usr/lib64/vector-0.11.0.0/ghc-8.0.2/Data/Vector/Generic/Mutable.dyn_hi$
+- /usr/lib64/vector-0.11.0.0/ghc-8.0.2/Data/Vector/Generic/Mutable.hi$
+- /usr/lib64/vector-0.11.0.0/ghc-8.0.2/Data/Vector/Generic/Mutable/Base.dyn_hi$
+- /usr/lib64/vector-0.11.0.0/ghc-8.0.2/Data/Vector/Generic/Mutable/Base.hi$
+- /usr/lib64/vector-0.11.0.0/ghc-8.0.2/Data/Vector/Generic/New.dyn_hi$
+- /usr/lib64/vector-0.11.0.0/ghc-8.0.2/Data/Vector/Generic/New.hi$
+- /usr/lib64/vector-0.11.0.0/ghc-8.0.2/Data/Vector/Internal$
+- /usr/lib64/vector-0.11.0.0/ghc-8.0.2/Data/Vector/Internal/Check.dyn_hi$
+- /usr/lib64/vector-0.11.0.0/ghc-8.0.2/Data/Vector/Internal/Check.hi$
+- /usr/lib64/vector-0.11.0.0/ghc-8.0.2/Data/Vector/Mutable.dyn_hi$
+- /usr/lib64/vector-0.11.0.0/ghc-8.0.2/Data/Vector/Mutable.hi$
+- /usr/lib64/vector-0.11.0.0/ghc-8.0.2/Data/Vector/Primitive$
+- /usr/lib64/vector-0.11.0.0/ghc-8.0.2/Data/Vector/Primitive.dyn_hi$
+- /usr/lib64/vector-0.11.0.0/ghc-8.0.2/Data/Vector/Primitive.hi$
+- /usr/lib64/vector-0.11.0.0/ghc-8.0.2/Data/Vector/Primitive/Mutable.dyn_hi$
+- /usr/lib64/vector-0.11.0.0/ghc-8.0.2/Data/Vector/Primitive/Mutable.hi$
+- /usr/lib64/vector-0.11.0.0/ghc-8.0.2/Data/Vector/Storable$
+- /usr/lib64/vector-0.11.0.0/ghc-8.0.2/Data/Vector/Storable.dyn_hi$
+- /usr/lib64/vector-0.11.0.0/ghc-8.0.2/Data/Vector/Storable.hi$
+- /usr/lib64/vector-0.11.0.0/ghc-8.0.2/Data/Vector/Storable/Internal.dyn_hi$
+- /usr/lib64/vector-0.11.0.0/ghc-8.0.2/Data/Vector/Storable/Internal.hi$
+- /usr/lib64/vector-0.11.0.0/ghc-8.0.2/Data/Vector/Storable/Mutable.dyn_hi$
+- /usr/lib64/vector-0.11.0.0/ghc-8.0.2/Data/Vector/Storable/Mutable.hi$
+- /usr/lib64/vector-0.11.0.0/ghc-8.0.2/Data/Vector/Unboxed$
+- /usr/lib64/vector-0.11.0.0/ghc-8.0.2/Data/Vector/Unboxed.dyn_hi$
+- /usr/lib64/vector-0.11.0.0/ghc-8.0.2/Data/Vector/Unboxed.hi$
+- /usr/lib64/vector-0.11.0.0/ghc-8.0.2/Data/Vector/Unboxed/Base.dyn_hi$
+- /usr/lib64/vector-0.11.0.0/ghc-8.0.2/Data/Vector/Unboxed/Base.hi$
+- /usr/lib64/vector-0.11.0.0/ghc-8.0.2/Data/Vector/Unboxed/Mutable.dyn_hi$
+- /usr/lib64/vector-0.11.0.0/ghc-8.0.2/Data/Vector/Unboxed/Mutable.hi$
+- /usr/lib64/vector-0.11.0.0/ghc-8.0.2/include$
+- /usr/lib64/vector-0.11.0.0/ghc-8.0.2/include/vector.h$
+- /usr/lib64/vector-0.11.0.0/ghc-8.0.2/libHSvector-0.11.0.0-CSVBj3oTK2iCG5BGLIuhef.a$
+- /usr/lib64/x86_64-linux-ghc-7.10.3$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSvector-0.11.0.0-CSVBj3oTK2iCG5BGLIuhef-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/vector-0.11.0.0$
+- /usr/share/doc/vector-0.11.0.0/LICENSE.bz2$

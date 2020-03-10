@@ -1,0 +1,25 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/blankslate-3.1.3
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-ruby/blankslate/3.1.3/definition.yaml
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/blankslate-3.1.3$
+- /usr/lib64/ruby/gems/2.5.0/gems/blankslate-3.1.3/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/blankslate-3.1.3/lib/blankslate.rb$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/blankslate-3.1.3.gemspec$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/blankslate-3.1.3$
+- /usr/share/doc/blankslate-3.1.3/README.bz2$

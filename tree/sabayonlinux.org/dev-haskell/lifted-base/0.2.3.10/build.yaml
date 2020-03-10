@@ -1,0 +1,61 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/lifted-base-0.2.3.10
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/lifted-base/0.2.3.10/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-lifted-base-0.2.3.10-lifted-base-0.2.3.10.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-lifted-base-0.2.3.10.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/lifted-base-0.2.3.10-12lfDj63lSMB9huzf7YmR9.conf$
+- /usr/lib64/lifted-base-0.2.3.10$
+- /usr/lib64/lifted-base-0.2.3.10/ghc-8.0.2$
+- /usr/lib64/lifted-base-0.2.3.10/ghc-8.0.2/Control$
+- /usr/lib64/lifted-base-0.2.3.10/ghc-8.0.2/Control/Concurrent$
+- /usr/lib64/lifted-base-0.2.3.10/ghc-8.0.2/Control/Concurrent/Chan$
+- /usr/lib64/lifted-base-0.2.3.10/ghc-8.0.2/Control/Concurrent/Chan/Lifted.dyn_hi$
+- /usr/lib64/lifted-base-0.2.3.10/ghc-8.0.2/Control/Concurrent/Chan/Lifted.hi$
+- /usr/lib64/lifted-base-0.2.3.10/ghc-8.0.2/Control/Concurrent/Lifted.dyn_hi$
+- /usr/lib64/lifted-base-0.2.3.10/ghc-8.0.2/Control/Concurrent/Lifted.hi$
+- /usr/lib64/lifted-base-0.2.3.10/ghc-8.0.2/Control/Concurrent/MVar$
+- /usr/lib64/lifted-base-0.2.3.10/ghc-8.0.2/Control/Concurrent/MVar/Lifted.dyn_hi$
+- /usr/lib64/lifted-base-0.2.3.10/ghc-8.0.2/Control/Concurrent/MVar/Lifted.hi$
+- /usr/lib64/lifted-base-0.2.3.10/ghc-8.0.2/Control/Concurrent/QSem$
+- /usr/lib64/lifted-base-0.2.3.10/ghc-8.0.2/Control/Concurrent/QSem/Lifted.dyn_hi$
+- /usr/lib64/lifted-base-0.2.3.10/ghc-8.0.2/Control/Concurrent/QSem/Lifted.hi$
+- /usr/lib64/lifted-base-0.2.3.10/ghc-8.0.2/Control/Concurrent/QSemN$
+- /usr/lib64/lifted-base-0.2.3.10/ghc-8.0.2/Control/Concurrent/QSemN/Lifted.dyn_hi$
+- /usr/lib64/lifted-base-0.2.3.10/ghc-8.0.2/Control/Concurrent/QSemN/Lifted.hi$
+- /usr/lib64/lifted-base-0.2.3.10/ghc-8.0.2/Control/Exception$
+- /usr/lib64/lifted-base-0.2.3.10/ghc-8.0.2/Control/Exception/Lifted.dyn_hi$
+- /usr/lib64/lifted-base-0.2.3.10/ghc-8.0.2/Control/Exception/Lifted.hi$
+- /usr/lib64/lifted-base-0.2.3.10/ghc-8.0.2/Data$
+- /usr/lib64/lifted-base-0.2.3.10/ghc-8.0.2/Data/IORef$
+- /usr/lib64/lifted-base-0.2.3.10/ghc-8.0.2/Data/IORef/Lifted.dyn_hi$
+- /usr/lib64/lifted-base-0.2.3.10/ghc-8.0.2/Data/IORef/Lifted.hi$
+- /usr/lib64/lifted-base-0.2.3.10/ghc-8.0.2/Foreign$
+- /usr/lib64/lifted-base-0.2.3.10/ghc-8.0.2/Foreign/Marshal$
+- /usr/lib64/lifted-base-0.2.3.10/ghc-8.0.2/Foreign/Marshal/Utils$
+- /usr/lib64/lifted-base-0.2.3.10/ghc-8.0.2/Foreign/Marshal/Utils/Lifted.dyn_hi$
+- /usr/lib64/lifted-base-0.2.3.10/ghc-8.0.2/Foreign/Marshal/Utils/Lifted.hi$
+- /usr/lib64/lifted-base-0.2.3.10/ghc-8.0.2/System$
+- /usr/lib64/lifted-base-0.2.3.10/ghc-8.0.2/System/Timeout$
+- /usr/lib64/lifted-base-0.2.3.10/ghc-8.0.2/System/Timeout/Lifted.dyn_hi$
+- /usr/lib64/lifted-base-0.2.3.10/ghc-8.0.2/System/Timeout/Lifted.hi$
+- /usr/lib64/lifted-base-0.2.3.10/ghc-8.0.2/libHSlifted-base-0.2.3.10-12lfDj63lSMB9huzf7YmR9.a$
+- /usr/lib64/x86_64-linux-ghc-7.10.3$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSlifted-base-0.2.3.10-12lfDj63lSMB9huzf7YmR9-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/lifted-base-0.2.3.10$
+- /usr/share/doc/lifted-base-0.2.3.10/LICENSE.bz2$

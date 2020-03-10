@@ -1,0 +1,32 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/hostname-1.0
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/hostname/1.0/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-hostname-1.0-hostname-1.0.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-hostname-1.0.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/hostname-1.0-LHxcvBDHWay1RGMj1Uzenf.conf$
+- /usr/lib64/hostname-1.0$
+- /usr/lib64/hostname-1.0/ghc-7.10.3$
+- /usr/lib64/hostname-1.0/ghc-8.0.2$
+- /usr/lib64/hostname-1.0/ghc-8.0.2/Network$
+- /usr/lib64/hostname-1.0/ghc-8.0.2/Network/HostName.dyn_hi$
+- /usr/lib64/hostname-1.0/ghc-8.0.2/Network/HostName.hi$
+- /usr/lib64/hostname-1.0/ghc-8.0.2/libHShostname-1.0-LHxcvBDHWay1RGMj1Uzenf.a$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHShostname-1.0-LHxcvBDHWay1RGMj1Uzenf-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/hostname-1.0$
+- /usr/share/doc/hostname-1.0/LICENSE.bz2$

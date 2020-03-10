@@ -1,0 +1,51 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/libmpeg2-0.5.1-r2
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> media-libs/libmpeg2/0.5.1/definition.yaml
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/corrupt_mpeg2$
+- /usr/bin/extract_mpeg2$
+- /usr/bin/mpeg2dec$
+- /usr/include$
+- /usr/include/mpeg2dec$
+- /usr/include/mpeg2dec/mpeg2.h$
+- /usr/include/mpeg2dec/mpeg2convert.h$
+- /usr/lib32$
+- /usr/lib32/libmpeg2.so$
+- /usr/lib32/libmpeg2.so.0$
+- /usr/lib32/libmpeg2.so.0.1.0$
+- /usr/lib32/libmpeg2convert.so$
+- /usr/lib32/libmpeg2convert.so.0$
+- /usr/lib32/libmpeg2convert.so.0.0.0$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/libmpeg2.pc$
+- /usr/lib32/pkgconfig/libmpeg2convert.pc$
+- /usr/lib64$
+- /usr/lib64/libmpeg2.so$
+- /usr/lib64/libmpeg2.so.0$
+- /usr/lib64/libmpeg2.so.0.1.0$
+- /usr/lib64/libmpeg2convert.so$
+- /usr/lib64/libmpeg2convert.so.0$
+- /usr/lib64/libmpeg2convert.so.0.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libmpeg2.pc$
+- /usr/lib64/pkgconfig/libmpeg2convert.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libmpeg2-0.5.1-r2$
+- /usr/share/doc/libmpeg2-0.5.1-r2/AUTHORS.bz2$
+- /usr/share/doc/libmpeg2-0.5.1-r2/ChangeLog.bz2$
+- /usr/share/doc/libmpeg2-0.5.1-r2/NEWS.bz2$
+- /usr/share/doc/libmpeg2-0.5.1-r2/README.bz2$
+- /usr/share/doc/libmpeg2-0.5.1-r2/TODO.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/extract_mpeg2.1.bz2$
+- /usr/share/man/man1/mpeg2dec.1.bz2$

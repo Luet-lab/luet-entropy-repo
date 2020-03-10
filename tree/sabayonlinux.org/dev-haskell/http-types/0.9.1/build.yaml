@@ -1,0 +1,46 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/http-types-0.9.1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/http-types/0.9.1/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-http-types-0.9.1-http-types-0.9.1.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-http-types-0.9.1.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/http-types-0.9.1-53Ib0ps6kfKDMz2UXxETax.conf$
+- /usr/lib64/http-types-0.9.1$
+- /usr/lib64/http-types-0.9.1/ghc-8.0.2$
+- /usr/lib64/http-types-0.9.1/ghc-8.0.2/Network$
+- /usr/lib64/http-types-0.9.1/ghc-8.0.2/Network/HTTP$
+- /usr/lib64/http-types-0.9.1/ghc-8.0.2/Network/HTTP/Types$
+- /usr/lib64/http-types-0.9.1/ghc-8.0.2/Network/HTTP/Types.dyn_hi$
+- /usr/lib64/http-types-0.9.1/ghc-8.0.2/Network/HTTP/Types.hi$
+- /usr/lib64/http-types-0.9.1/ghc-8.0.2/Network/HTTP/Types/Header.dyn_hi$
+- /usr/lib64/http-types-0.9.1/ghc-8.0.2/Network/HTTP/Types/Header.hi$
+- /usr/lib64/http-types-0.9.1/ghc-8.0.2/Network/HTTP/Types/Method.dyn_hi$
+- /usr/lib64/http-types-0.9.1/ghc-8.0.2/Network/HTTP/Types/Method.hi$
+- /usr/lib64/http-types-0.9.1/ghc-8.0.2/Network/HTTP/Types/QueryLike.dyn_hi$
+- /usr/lib64/http-types-0.9.1/ghc-8.0.2/Network/HTTP/Types/QueryLike.hi$
+- /usr/lib64/http-types-0.9.1/ghc-8.0.2/Network/HTTP/Types/Status.dyn_hi$
+- /usr/lib64/http-types-0.9.1/ghc-8.0.2/Network/HTTP/Types/Status.hi$
+- /usr/lib64/http-types-0.9.1/ghc-8.0.2/Network/HTTP/Types/URI.dyn_hi$
+- /usr/lib64/http-types-0.9.1/ghc-8.0.2/Network/HTTP/Types/URI.hi$
+- /usr/lib64/http-types-0.9.1/ghc-8.0.2/Network/HTTP/Types/Version.dyn_hi$
+- /usr/lib64/http-types-0.9.1/ghc-8.0.2/Network/HTTP/Types/Version.hi$
+- /usr/lib64/http-types-0.9.1/ghc-8.0.2/libHShttp-types-0.9.1-53Ib0ps6kfKDMz2UXxETax.a$
+- /usr/lib64/x86_64-linux-ghc-7.10.3$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHShttp-types-0.9.1-53Ib0ps6kfKDMz2UXxETax-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/http-types-0.9.1$
+- /usr/share/doc/http-types-0.9.1/LICENSE.bz2$

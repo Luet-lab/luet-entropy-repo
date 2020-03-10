@@ -1,0 +1,56 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/pyqrcode-1.2.1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-python/pyqrcode/1.2.1/definition.yaml
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/python2.7$
+- /usr/lib64/python2.7/site-packages$
+- /usr/lib64/python2.7/site-packages/PyQRCode-1.2.1-py2.7.egg-info$
+- /usr/lib64/python2.7/site-packages/PyQRCode-1.2.1-py2.7.egg-info/PKG-INFO$
+- /usr/lib64/python2.7/site-packages/PyQRCode-1.2.1-py2.7.egg-info/SOURCES.txt$
+- /usr/lib64/python2.7/site-packages/PyQRCode-1.2.1-py2.7.egg-info/dependency_links.txt$
+- /usr/lib64/python2.7/site-packages/PyQRCode-1.2.1-py2.7.egg-info/requires.txt$
+- /usr/lib64/python2.7/site-packages/PyQRCode-1.2.1-py2.7.egg-info/top_level.txt$
+- /usr/lib64/python2.7/site-packages/pyqrcode$
+- /usr/lib64/python2.7/site-packages/pyqrcode/__init__.py$
+- /usr/lib64/python2.7/site-packages/pyqrcode/__init__.pyc$
+- /usr/lib64/python2.7/site-packages/pyqrcode/__init__.pyo$
+- /usr/lib64/python2.7/site-packages/pyqrcode/builder.py$
+- /usr/lib64/python2.7/site-packages/pyqrcode/builder.pyc$
+- /usr/lib64/python2.7/site-packages/pyqrcode/builder.pyo$
+- /usr/lib64/python2.7/site-packages/pyqrcode/tables.py$
+- /usr/lib64/python2.7/site-packages/pyqrcode/tables.pyc$
+- /usr/lib64/python2.7/site-packages/pyqrcode/tables.pyo$
+- /usr/lib64/python3.6$
+- /usr/lib64/python3.6/site-packages$
+- /usr/lib64/python3.6/site-packages/PyQRCode-1.2.1-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/PyQRCode-1.2.1-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/PyQRCode-1.2.1-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/PyQRCode-1.2.1-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/PyQRCode-1.2.1-py3.6.egg-info/requires.txt$
+- /usr/lib64/python3.6/site-packages/PyQRCode-1.2.1-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/pyqrcode$
+- /usr/lib64/python3.6/site-packages/pyqrcode/__init__.py$
+- /usr/lib64/python3.6/site-packages/pyqrcode/__pycache__$
+- /usr/lib64/python3.6/site-packages/pyqrcode/__pycache__/__init__.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/pyqrcode/__pycache__/__init__.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/pyqrcode/__pycache__/__init__.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/pyqrcode/__pycache__/builder.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/pyqrcode/__pycache__/builder.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/pyqrcode/__pycache__/builder.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/pyqrcode/__pycache__/tables.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/pyqrcode/__pycache__/tables.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/pyqrcode/__pycache__/tables.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/pyqrcode/builder.py$
+- /usr/lib64/python3.6/site-packages/pyqrcode/tables.py$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/pyqrcode-1.2.1$
+- /usr/share/doc/pyqrcode-1.2.1/README.rst.bz2$

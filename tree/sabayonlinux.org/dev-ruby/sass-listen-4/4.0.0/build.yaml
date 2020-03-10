@@ -1,0 +1,63 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/sass-listen-4.0.0
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-ruby/sass-listen-4/4.0.0/definition.yaml
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/sass-listen-4.0.0$
+- /usr/lib64/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen$
+- /usr/lib64/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/adapter$
+- /usr/lib64/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/adapter.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/adapter/base.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/adapter/bsd.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/adapter/config.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/adapter/darwin.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/adapter/linux.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/adapter/polling.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/adapter/windows.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/backend.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/change.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/cli.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/directory.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event$
+- /usr/lib64/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/queue.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/file.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/fsm.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/internals$
+- /usr/lib64/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/listener$
+- /usr/lib64/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/listener.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/listener/config.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/logger.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/options.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/queue_optimizer.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/record$
+- /usr/lib64/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/record.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/record/entry.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/record/symlink_detector.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/silencer$
+- /usr/lib64/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/silencer.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/silencer/controller.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/version.rb$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/sass-listen-4.0.0.gemspec$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/sass-listen-4.0.0$
+- /usr/share/doc/sass-listen-4.0.0/CHANGELOG.md$
+- /usr/share/doc/sass-listen-4.0.0/README.md.bz2$

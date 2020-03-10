@@ -1,0 +1,56 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/libmtp-1.1.16
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> media-libs/libmtp/1.1.16/definition.yaml
+includes:
+- /lib$
+- /lib/udev$
+- /lib/udev/hwdb.d$
+- /lib/udev/hwdb.d/69-libmtp.hwdb$
+- /lib/udev/mtp-probe$
+- /lib/udev/rules.d$
+- /lib/udev/rules.d/69-libmtp.rules$
+- /usr$
+- /usr/bin$
+- /usr/bin/mtp-albumart$
+- /usr/bin/mtp-albums$
+- /usr/bin/mtp-connect$
+- /usr/bin/mtp-delfile$
+- /usr/bin/mtp-detect$
+- /usr/bin/mtp-emptyfolders$
+- /usr/bin/mtp-files$
+- /usr/bin/mtp-filetree$
+- /usr/bin/mtp-folders$
+- /usr/bin/mtp-format$
+- /usr/bin/mtp-getfile$
+- /usr/bin/mtp-getplaylist$
+- /usr/bin/mtp-hotplug$
+- /usr/bin/mtp-newfolder$
+- /usr/bin/mtp-newplaylist$
+- /usr/bin/mtp-playlists$
+- /usr/bin/mtp-reset$
+- /usr/bin/mtp-sendfile$
+- /usr/bin/mtp-sendtr$
+- /usr/bin/mtp-thumb$
+- /usr/bin/mtp-tracks$
+- /usr/bin/mtp-trexist$
+- /usr/include$
+- /usr/include/libmtp.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libmtp.so$
+- /usr/lib64/libmtp.so.9$
+- /usr/lib64/libmtp.so.9.4.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libmtp.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libmtp-1.1.16$
+- /usr/share/doc/libmtp-1.1.16/AUTHORS.bz2$
+- /usr/share/doc/libmtp-1.1.16/README.bz2$
+- /usr/share/doc/libmtp-1.1.16/TODO.bz2$

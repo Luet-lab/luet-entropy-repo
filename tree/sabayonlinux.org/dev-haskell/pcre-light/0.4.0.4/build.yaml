@@ -1,0 +1,38 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/pcre-light-0.4.0.4
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/pcre-light/0.4.0.4/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-pcre-light-0.4.0.4-pcre-light-0.4.0.4.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-pcre-light-0.4.0.4.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/pcre-light-0.4.0.4-5vhKlcsfx1G2vvKntSgJSg.conf$
+- /usr/lib64/pcre-light-0.4.0.4$
+- /usr/lib64/pcre-light-0.4.0.4/ghc-8.0.2$
+- /usr/lib64/pcre-light-0.4.0.4/ghc-8.0.2/Text$
+- /usr/lib64/pcre-light-0.4.0.4/ghc-8.0.2/Text/Regex$
+- /usr/lib64/pcre-light-0.4.0.4/ghc-8.0.2/Text/Regex/PCRE$
+- /usr/lib64/pcre-light-0.4.0.4/ghc-8.0.2/Text/Regex/PCRE/Light$
+- /usr/lib64/pcre-light-0.4.0.4/ghc-8.0.2/Text/Regex/PCRE/Light.dyn_hi$
+- /usr/lib64/pcre-light-0.4.0.4/ghc-8.0.2/Text/Regex/PCRE/Light.hi$
+- /usr/lib64/pcre-light-0.4.0.4/ghc-8.0.2/Text/Regex/PCRE/Light/Base.dyn_hi$
+- /usr/lib64/pcre-light-0.4.0.4/ghc-8.0.2/Text/Regex/PCRE/Light/Base.hi$
+- /usr/lib64/pcre-light-0.4.0.4/ghc-8.0.2/Text/Regex/PCRE/Light/Char8.dyn_hi$
+- /usr/lib64/pcre-light-0.4.0.4/ghc-8.0.2/Text/Regex/PCRE/Light/Char8.hi$
+- /usr/lib64/pcre-light-0.4.0.4/ghc-8.0.2/libHSpcre-light-0.4.0.4-5vhKlcsfx1G2vvKntSgJSg.a$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSpcre-light-0.4.0.4-5vhKlcsfx1G2vvKntSgJSg-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/pcre-light-0.4.0.4$
+- /usr/share/doc/pcre-light-0.4.0.4/LICENSE.bz2$

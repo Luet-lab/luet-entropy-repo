@@ -1,0 +1,44 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-tcltk/tdom-0.8.3-r4
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-tcltk/tdom/0.8.3/definition.yaml
+includes:
+- /usr$
+- /usr/bin$
+- /usr/include$
+- /usr/include/tdom.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libtdom0.8.3.so$
+- /usr/lib64/libtnc0.3.0.so$
+- /usr/lib64/tdom0.8.3$
+- /usr/lib64/tdom0.8.3/pkgIndex.tcl$
+- /usr/lib64/tdom0.8.3/tdom.tcl$
+- /usr/lib64/tdomConfig.sh$
+- /usr/lib64/tdomhtml0.1.0$
+- /usr/lib64/tdomhtml0.1.0/pkgIndex.tcl$
+- /usr/lib64/tdomhtml0.1.0/tdomhtml.tcl$
+- /usr/lib64/tnc0.3.0$
+- /usr/lib64/tnc0.3.0/pkgIndex.tcl$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/tdom-0.8.3-r4$
+- /usr/share/doc/tdom-0.8.3-r4/CHANGES.bz2$
+- /usr/share/doc/tdom-0.8.3-r4/ChangeLog.bz2$
+- /usr/share/doc/tdom-0.8.3-r4/README.AOL.bz2$
+- /usr/share/doc/tdom-0.8.3-r4/README.bz2$
+- /usr/share/man$
+- /usr/share/man/mann$
+- /usr/share/man/mann/dom.n.bz2$
+- /usr/share/man/mann/domDoc.n.bz2$
+- /usr/share/man/mann/domNode.n.bz2$
+- /usr/share/man/mann/expat.n.bz2$
+- /usr/share/man/mann/expatapi.n.bz2$
+- /usr/share/man/mann/tdomcmd.n.bz2$
+- /usr/share/man/mann/tdomhtml.n$
+- /usr/share/man/mann/tnc.n.bz2$

@@ -1,0 +1,56 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-perl/XML-DOM-1.460.0-r1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-perl/XML-DOM/1.460.0/definition.yaml
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/perl5$
+- /usr/lib64/perl5/vendor_perl$
+- /usr/lib64/perl5/vendor_perl/5.28.2$
+- /usr/lib64/perl5/vendor_perl/5.28.2/XML$
+- /usr/lib64/perl5/vendor_perl/5.28.2/XML/DOM$
+- /usr/lib64/perl5/vendor_perl/5.28.2/XML/DOM.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/XML/DOM/AttDef.pod$
+- /usr/lib64/perl5/vendor_perl/5.28.2/XML/DOM/AttlistDecl.pod$
+- /usr/lib64/perl5/vendor_perl/5.28.2/XML/DOM/Attr.pod$
+- /usr/lib64/perl5/vendor_perl/5.28.2/XML/DOM/CDATASection.pod$
+- /usr/lib64/perl5/vendor_perl/5.28.2/XML/DOM/CharacterData.pod$
+- /usr/lib64/perl5/vendor_perl/5.28.2/XML/DOM/Comment.pod$
+- /usr/lib64/perl5/vendor_perl/5.28.2/XML/DOM/DOMException.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/XML/DOM/DOMImplementation.pod$
+- /usr/lib64/perl5/vendor_perl/5.28.2/XML/DOM/Document.pod$
+- /usr/lib64/perl5/vendor_perl/5.28.2/XML/DOM/DocumentFragment.pod$
+- /usr/lib64/perl5/vendor_perl/5.28.2/XML/DOM/DocumentType.pod$
+- /usr/lib64/perl5/vendor_perl/5.28.2/XML/DOM/Element.pod$
+- /usr/lib64/perl5/vendor_perl/5.28.2/XML/DOM/ElementDecl.pod$
+- /usr/lib64/perl5/vendor_perl/5.28.2/XML/DOM/Entity.pod$
+- /usr/lib64/perl5/vendor_perl/5.28.2/XML/DOM/EntityReference.pod$
+- /usr/lib64/perl5/vendor_perl/5.28.2/XML/DOM/NamedNodeMap.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/XML/DOM/NamedNodeMap.pod$
+- /usr/lib64/perl5/vendor_perl/5.28.2/XML/DOM/Node.pod$
+- /usr/lib64/perl5/vendor_perl/5.28.2/XML/DOM/NodeList.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/XML/DOM/NodeList.pod$
+- /usr/lib64/perl5/vendor_perl/5.28.2/XML/DOM/Notation.pod$
+- /usr/lib64/perl5/vendor_perl/5.28.2/XML/DOM/Parser.pod$
+- /usr/lib64/perl5/vendor_perl/5.28.2/XML/DOM/PerlSAX.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/XML/DOM/ProcessingInstruction.pod$
+- /usr/lib64/perl5/vendor_perl/5.28.2/XML/DOM/Text.pod$
+- /usr/lib64/perl5/vendor_perl/5.28.2/XML/DOM/XMLDecl.pod$
+- /usr/lib64/perl5/vendor_perl/5.28.2/XML/Handler$
+- /usr/lib64/perl5/vendor_perl/5.28.2/XML/Handler/BuildDOM.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/XML$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/XML/DOM$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/XML/DOM/.packlist$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/XML-DOM-1.460.0-r1$
+- /usr/share/doc/XML-DOM-1.460.0-r1/Changes.bz2$
+- /usr/share/doc/XML-DOM-1.460.0-r1/README.bz2$

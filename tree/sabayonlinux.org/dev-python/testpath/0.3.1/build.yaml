@@ -1,0 +1,60 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/testpath-0.3.1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-python/testpath/0.3.1/definition.yaml
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/python2.7$
+- /usr/lib64/python2.7/site-packages$
+- /usr/lib64/python2.7/site-packages/testpath$
+- /usr/lib64/python2.7/site-packages/testpath-0.1-py2.7.egg-info$
+- /usr/lib64/python2.7/site-packages/testpath/__init__.py$
+- /usr/lib64/python2.7/site-packages/testpath/__init__.pyc$
+- /usr/lib64/python2.7/site-packages/testpath/__init__.pyo$
+- /usr/lib64/python2.7/site-packages/testpath/asserts.py$
+- /usr/lib64/python2.7/site-packages/testpath/asserts.pyc$
+- /usr/lib64/python2.7/site-packages/testpath/asserts.pyo$
+- /usr/lib64/python2.7/site-packages/testpath/commands.py$
+- /usr/lib64/python2.7/site-packages/testpath/commands.pyc$
+- /usr/lib64/python2.7/site-packages/testpath/commands.pyo$
+- /usr/lib64/python2.7/site-packages/testpath/env.py$
+- /usr/lib64/python2.7/site-packages/testpath/env.pyc$
+- /usr/lib64/python2.7/site-packages/testpath/env.pyo$
+- /usr/lib64/python2.7/site-packages/testpath/tempdir.py$
+- /usr/lib64/python2.7/site-packages/testpath/tempdir.pyc$
+- /usr/lib64/python2.7/site-packages/testpath/tempdir.pyo$
+- /usr/lib64/python3.6$
+- /usr/lib64/python3.6/site-packages$
+- /usr/lib64/python3.6/site-packages/testpath$
+- /usr/lib64/python3.6/site-packages/testpath-0.1-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/testpath/__init__.py$
+- /usr/lib64/python3.6/site-packages/testpath/__pycache__$
+- /usr/lib64/python3.6/site-packages/testpath/__pycache__/__init__.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/testpath/__pycache__/__init__.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/testpath/__pycache__/__init__.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/testpath/__pycache__/asserts.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/testpath/__pycache__/asserts.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/testpath/__pycache__/asserts.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/testpath/__pycache__/commands.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/testpath/__pycache__/commands.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/testpath/__pycache__/commands.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/testpath/__pycache__/env.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/testpath/__pycache__/env.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/testpath/__pycache__/env.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/testpath/__pycache__/tempdir.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/testpath/__pycache__/tempdir.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/testpath/__pycache__/tempdir.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/testpath/asserts.py$
+- /usr/lib64/python3.6/site-packages/testpath/commands.py$
+- /usr/lib64/python3.6/site-packages/testpath/env.py$
+- /usr/lib64/python3.6/site-packages/testpath/tempdir.py$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/testpath-0.3.1$
+- /usr/share/doc/testpath-0.3.1/README.rst.bz2$

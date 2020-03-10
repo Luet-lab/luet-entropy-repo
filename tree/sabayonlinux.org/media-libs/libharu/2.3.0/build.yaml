@@ -1,0 +1,56 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/libharu-2.3.0-r2
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> media-libs/libharu/2.3.0/definition.yaml
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/hpdf.h$
+- /usr/include/hpdf_3dmeasure.h$
+- /usr/include/hpdf_annotation.h$
+- /usr/include/hpdf_catalog.h$
+- /usr/include/hpdf_conf.h$
+- /usr/include/hpdf_config.h$
+- /usr/include/hpdf_consts.h$
+- /usr/include/hpdf_destination.h$
+- /usr/include/hpdf_doc.h$
+- /usr/include/hpdf_encoder.h$
+- /usr/include/hpdf_encrypt.h$
+- /usr/include/hpdf_encryptdict.h$
+- /usr/include/hpdf_error.h$
+- /usr/include/hpdf_exdata.h$
+- /usr/include/hpdf_ext_gstate.h$
+- /usr/include/hpdf_font.h$
+- /usr/include/hpdf_fontdef.h$
+- /usr/include/hpdf_gstate.h$
+- /usr/include/hpdf_image.h$
+- /usr/include/hpdf_info.h$
+- /usr/include/hpdf_list.h$
+- /usr/include/hpdf_mmgr.h$
+- /usr/include/hpdf_objects.h$
+- /usr/include/hpdf_outline.h$
+- /usr/include/hpdf_page_label.h$
+- /usr/include/hpdf_pages.h$
+- /usr/include/hpdf_pdfa.h$
+- /usr/include/hpdf_streams.h$
+- /usr/include/hpdf_types.h$
+- /usr/include/hpdf_u3d.h$
+- /usr/include/hpdf_utils.h$
+- /usr/include/hpdf_version.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libhpdf.so$
+- /usr/lib64$
+- /usr/lib64/libhpdf.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libharu-2.3.0-r2$
+- /usr/share/doc/libharu-2.3.0-r2/CHANGES.bz2$
+- /usr/share/doc/libharu-2.3.0-r2/INSTALL.bz2$
+- /usr/share/doc/libharu-2.3.0-r2/README.bz2$
+- /usr/share/doc/libharu-2.3.0-r2/README_cmake.bz2$

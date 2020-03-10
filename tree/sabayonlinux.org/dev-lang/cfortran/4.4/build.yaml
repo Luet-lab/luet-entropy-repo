@@ -1,0 +1,25 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-lang/cfortran-4.4-r3
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-lang/cfortran/4.4/definition.yaml
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/cfortran$
+- /usr/include/cfortran.h$
+- /usr/include/cfortran/cfortran.h$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/cfortran-4.4-r3$
+- /usr/share/doc/cfortran-4.4-r3/NEWS.bz2$
+- /usr/share/doc/cfortran-4.4-r3/cfortran.doc.bz2$
+- /usr/share/doc/cfortran-4.4-r3/changelog.bz2$
+- /usr/share/doc/cfortran-4.4-r3/copyright.bz2$
+- /usr/share/doc/cfortran-4.4-r3/html$
+- /usr/share/doc/cfortran-4.4-r3/html/cfortran.html$
+- /usr/share/doc/cfortran-4.4-r3/html/index.htm$

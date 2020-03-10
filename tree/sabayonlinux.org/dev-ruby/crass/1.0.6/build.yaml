@@ -1,0 +1,32 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/crass-1.0.6
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-ruby/crass/1.0.6/definition.yaml
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/crass-1.0.6$
+- /usr/lib64/ruby/gems/2.5.0/gems/crass-1.0.6/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/crass-1.0.6/lib/crass$
+- /usr/lib64/ruby/gems/2.5.0/gems/crass-1.0.6/lib/crass.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/crass-1.0.6/lib/crass/parser.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/crass-1.0.6/lib/crass/scanner.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/crass-1.0.6/lib/crass/token-scanner.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/crass-1.0.6/lib/crass/tokenizer.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/crass-1.0.6/lib/crass/version.rb$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/crass-1.0.6.gemspec$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/crass-1.0.6$
+- /usr/share/doc/crass-1.0.6/HISTORY.md.bz2$
+- /usr/share/doc/crass-1.0.6/README.md.bz2$

@@ -1,0 +1,79 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/routes-2.4.1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-python/routes/2.4.1/definition.yaml
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/python2.7$
+- /usr/lib64/python2.7/site-packages$
+- /usr/lib64/python2.7/site-packages/Routes-2.4.1-py2.7.egg-info$
+- /usr/lib64/python2.7/site-packages/Routes-2.4.1-py2.7.egg-info/PKG-INFO$
+- /usr/lib64/python2.7/site-packages/Routes-2.4.1-py2.7.egg-info/SOURCES.txt$
+- /usr/lib64/python2.7/site-packages/Routes-2.4.1-py2.7.egg-info/dependency_links.txt$
+- /usr/lib64/python2.7/site-packages/Routes-2.4.1-py2.7.egg-info/not-zip-safe$
+- /usr/lib64/python2.7/site-packages/Routes-2.4.1-py2.7.egg-info/requires.txt$
+- /usr/lib64/python2.7/site-packages/Routes-2.4.1-py2.7.egg-info/top_level.txt$
+- /usr/lib64/python2.7/site-packages/routes$
+- /usr/lib64/python2.7/site-packages/routes/__init__.py$
+- /usr/lib64/python2.7/site-packages/routes/__init__.pyc$
+- /usr/lib64/python2.7/site-packages/routes/__init__.pyo$
+- /usr/lib64/python2.7/site-packages/routes/base.py$
+- /usr/lib64/python2.7/site-packages/routes/base.pyc$
+- /usr/lib64/python2.7/site-packages/routes/base.pyo$
+- /usr/lib64/python2.7/site-packages/routes/mapper.py$
+- /usr/lib64/python2.7/site-packages/routes/mapper.pyc$
+- /usr/lib64/python2.7/site-packages/routes/mapper.pyo$
+- /usr/lib64/python2.7/site-packages/routes/middleware.py$
+- /usr/lib64/python2.7/site-packages/routes/middleware.pyc$
+- /usr/lib64/python2.7/site-packages/routes/middleware.pyo$
+- /usr/lib64/python2.7/site-packages/routes/route.py$
+- /usr/lib64/python2.7/site-packages/routes/route.pyc$
+- /usr/lib64/python2.7/site-packages/routes/route.pyo$
+- /usr/lib64/python2.7/site-packages/routes/util.py$
+- /usr/lib64/python2.7/site-packages/routes/util.pyc$
+- /usr/lib64/python2.7/site-packages/routes/util.pyo$
+- /usr/lib64/python3.6$
+- /usr/lib64/python3.6/site-packages$
+- /usr/lib64/python3.6/site-packages/Routes-2.4.1-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/Routes-2.4.1-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/Routes-2.4.1-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/Routes-2.4.1-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/Routes-2.4.1-py3.6.egg-info/not-zip-safe$
+- /usr/lib64/python3.6/site-packages/Routes-2.4.1-py3.6.egg-info/requires.txt$
+- /usr/lib64/python3.6/site-packages/Routes-2.4.1-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/routes$
+- /usr/lib64/python3.6/site-packages/routes/__init__.py$
+- /usr/lib64/python3.6/site-packages/routes/__pycache__$
+- /usr/lib64/python3.6/site-packages/routes/__pycache__/__init__.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/routes/__pycache__/__init__.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/routes/__pycache__/__init__.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/routes/__pycache__/base.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/routes/__pycache__/base.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/routes/__pycache__/base.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/routes/__pycache__/mapper.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/routes/__pycache__/mapper.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/routes/__pycache__/mapper.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/routes/__pycache__/middleware.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/routes/__pycache__/middleware.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/routes/__pycache__/middleware.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/routes/__pycache__/route.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/routes/__pycache__/route.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/routes/__pycache__/route.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/routes/__pycache__/util.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/routes/__pycache__/util.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/routes/__pycache__/util.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/routes/base.py$
+- /usr/lib64/python3.6/site-packages/routes/mapper.py$
+- /usr/lib64/python3.6/site-packages/routes/middleware.py$
+- /usr/lib64/python3.6/site-packages/routes/route.py$
+- /usr/lib64/python3.6/site-packages/routes/util.py$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/routes-2.4.1$
+- /usr/share/doc/routes-2.4.1/README.rst.bz2$

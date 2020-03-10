@@ -1,0 +1,39 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-sound/cdparanoia-3.10.2-r7
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> media-sound/cdparanoia/3.10.2/definition.yaml
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/cdparanoia-paranoia$
+- /usr/include$
+- /usr/include/cdda_interface.h$
+- /usr/include/cdda_paranoia.h$
+- /usr/include/utils.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libcdda_interface.so$
+- /usr/lib32/libcdda_interface.so.0$
+- /usr/lib32/libcdda_interface.so.0.10.2$
+- /usr/lib32/libcdda_paranoia.so$
+- /usr/lib32/libcdda_paranoia.so.0$
+- /usr/lib32/libcdda_paranoia.so.0.10.2$
+- /usr/lib64$
+- /usr/lib64/libcdda_interface.so$
+- /usr/lib64/libcdda_interface.so.0$
+- /usr/lib64/libcdda_interface.so.0.10.2$
+- /usr/lib64/libcdda_paranoia.so$
+- /usr/lib64/libcdda_paranoia.so.0$
+- /usr/lib64/libcdda_paranoia.so.0.10.2$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/cdparanoia-3.10.2-r7$
+- /usr/share/doc/cdparanoia-3.10.2-r7/README.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/cdparanoia.1.bz2$

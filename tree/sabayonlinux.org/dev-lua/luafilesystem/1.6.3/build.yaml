@@ -1,0 +1,28 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-lua/luafilesystem-1.6.3
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-lua/luafilesystem/1.6.3/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/lua$
+- /usr/lib64/lua/5.1$
+- /usr/lib64/lua/5.1/lfs.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/luafilesystem-1.6.3$
+- /usr/share/doc/luafilesystem-1.6.3/README.bz2$
+- /usr/share/doc/luafilesystem-1.6.3/html$
+- /usr/share/doc/luafilesystem-1.6.3/html/us$
+- /usr/share/doc/luafilesystem-1.6.3/html/us/doc.css$
+- /usr/share/doc/luafilesystem-1.6.3/html/us/examples.html$
+- /usr/share/doc/luafilesystem-1.6.3/html/us/index.html$
+- /usr/share/doc/luafilesystem-1.6.3/html/us/license.html$
+- /usr/share/doc/luafilesystem-1.6.3/html/us/luafilesystem.png$
+- /usr/share/doc/luafilesystem-1.6.3/html/us/manual.html$

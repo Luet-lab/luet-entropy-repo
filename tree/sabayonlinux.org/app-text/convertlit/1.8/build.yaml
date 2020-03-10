@@ -1,0 +1,18 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-text/convertlit-1.8-r3
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> app-text/convertlit/1.8/definition.yaml
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/clit$
+- /usr/lib$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/convertlit-1.8-r3$
+- /usr/share/doc/convertlit-1.8-r3/README.bz2$

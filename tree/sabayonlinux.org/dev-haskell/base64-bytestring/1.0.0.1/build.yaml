@@ -1,0 +1,43 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/base64-bytestring-1.0.0.1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/base64-bytestring/1.0.0.1/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/base64-bytestring-1.0.0.1$
+- /usr/lib64/base64-bytestring-1.0.0.1/ghc-7.10.3$
+- /usr/lib64/base64-bytestring-1.0.0.1/ghc-8.0.2$
+- /usr/lib64/base64-bytestring-1.0.0.1/ghc-8.0.2/Data$
+- /usr/lib64/base64-bytestring-1.0.0.1/ghc-8.0.2/Data/ByteString$
+- /usr/lib64/base64-bytestring-1.0.0.1/ghc-8.0.2/Data/ByteString/Base64$
+- /usr/lib64/base64-bytestring-1.0.0.1/ghc-8.0.2/Data/ByteString/Base64.dyn_hi$
+- /usr/lib64/base64-bytestring-1.0.0.1/ghc-8.0.2/Data/ByteString/Base64.hi$
+- /usr/lib64/base64-bytestring-1.0.0.1/ghc-8.0.2/Data/ByteString/Base64/Internal.dyn_hi$
+- /usr/lib64/base64-bytestring-1.0.0.1/ghc-8.0.2/Data/ByteString/Base64/Internal.hi$
+- /usr/lib64/base64-bytestring-1.0.0.1/ghc-8.0.2/Data/ByteString/Base64/Lazy.dyn_hi$
+- /usr/lib64/base64-bytestring-1.0.0.1/ghc-8.0.2/Data/ByteString/Base64/Lazy.hi$
+- /usr/lib64/base64-bytestring-1.0.0.1/ghc-8.0.2/Data/ByteString/Base64/URL$
+- /usr/lib64/base64-bytestring-1.0.0.1/ghc-8.0.2/Data/ByteString/Base64/URL.dyn_hi$
+- /usr/lib64/base64-bytestring-1.0.0.1/ghc-8.0.2/Data/ByteString/Base64/URL.hi$
+- /usr/lib64/base64-bytestring-1.0.0.1/ghc-8.0.2/Data/ByteString/Base64/URL/Lazy.dyn_hi$
+- /usr/lib64/base64-bytestring-1.0.0.1/ghc-8.0.2/Data/ByteString/Base64/URL/Lazy.hi$
+- /usr/lib64/base64-bytestring-1.0.0.1/ghc-8.0.2/libHSbase64-bytestring-1.0.0.1-4O9TExPPz6eI82Yj7L4SIj.a$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-base64-bytestring-1.0.0.1-base64-bytestring-1.0.0.1.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-base64-bytestring-1.0.0.1.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/base64-bytestring-1.0.0.1-4O9TExPPz6eI82Yj7L4SIj.conf$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSbase64-bytestring-1.0.0.1-4O9TExPPz6eI82Yj7L4SIj-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/base64-bytestring-1.0.0.1$
+- /usr/share/doc/base64-bytestring-1.0.0.1/LICENSE.bz2$

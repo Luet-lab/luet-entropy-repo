@@ -1,0 +1,32 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i x11-libs/xcb-util-xrm-1.3
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> x11-libs/xcb-util-xrm/1.3/definition.yaml
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/xcb$
+- /usr/include/xcb/xcb_xrm.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libxcb-xrm.so$
+- /usr/lib32/libxcb-xrm.so.0$
+- /usr/lib32/libxcb-xrm.so.0.0.0$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/xcb-xrm.pc$
+- /usr/lib64$
+- /usr/lib64/libxcb-xrm.so$
+- /usr/lib64/libxcb-xrm.so.0$
+- /usr/lib64/libxcb-xrm.so.0.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/xcb-xrm.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/xcb-util-xrm-1.3$
+- /usr/share/doc/xcb-util-xrm-1.3/ChangeLog.bz2$
+- /usr/share/doc/xcb-util-xrm-1.3/README.bz2$

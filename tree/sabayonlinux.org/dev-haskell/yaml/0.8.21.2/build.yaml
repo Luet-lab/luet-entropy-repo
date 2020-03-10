@@ -1,0 +1,55 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/yaml-0.8.21.2
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/yaml/0.8.21.2/definition.yaml
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/json2yaml$
+- /usr/bin/yaml2json$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-yaml-0.8.21.2-yaml-0.8.21.2.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-yaml-0.8.21.2.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/yaml-0.8.21.2-6kdX5HWccKsJ36GnKm2Q7r.conf$
+- /usr/lib64/x86_64-linux-ghc-7.10.3$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSyaml-0.8.21.2-6kdX5HWccKsJ36GnKm2Q7r-ghc8.0.2.so$
+- /usr/lib64/yaml-0.8.21.2$
+- /usr/lib64/yaml-0.8.21.2/ghc-8.0.2$
+- /usr/lib64/yaml-0.8.21.2/ghc-8.0.2/Data$
+- /usr/lib64/yaml-0.8.21.2/ghc-8.0.2/Data/Yaml$
+- /usr/lib64/yaml-0.8.21.2/ghc-8.0.2/Data/Yaml.dyn_hi$
+- /usr/lib64/yaml-0.8.21.2/ghc-8.0.2/Data/Yaml.hi$
+- /usr/lib64/yaml-0.8.21.2/ghc-8.0.2/Data/Yaml/Aeson.dyn_hi$
+- /usr/lib64/yaml-0.8.21.2/ghc-8.0.2/Data/Yaml/Aeson.hi$
+- /usr/lib64/yaml-0.8.21.2/ghc-8.0.2/Data/Yaml/Builder.dyn_hi$
+- /usr/lib64/yaml-0.8.21.2/ghc-8.0.2/Data/Yaml/Builder.hi$
+- /usr/lib64/yaml-0.8.21.2/ghc-8.0.2/Data/Yaml/Config.dyn_hi$
+- /usr/lib64/yaml-0.8.21.2/ghc-8.0.2/Data/Yaml/Config.hi$
+- /usr/lib64/yaml-0.8.21.2/ghc-8.0.2/Data/Yaml/Include.dyn_hi$
+- /usr/lib64/yaml-0.8.21.2/ghc-8.0.2/Data/Yaml/Include.hi$
+- /usr/lib64/yaml-0.8.21.2/ghc-8.0.2/Data/Yaml/Internal.dyn_hi$
+- /usr/lib64/yaml-0.8.21.2/ghc-8.0.2/Data/Yaml/Internal.hi$
+- /usr/lib64/yaml-0.8.21.2/ghc-8.0.2/Data/Yaml/Parser.dyn_hi$
+- /usr/lib64/yaml-0.8.21.2/ghc-8.0.2/Data/Yaml/Parser.hi$
+- /usr/lib64/yaml-0.8.21.2/ghc-8.0.2/Data/Yaml/Pretty.dyn_hi$
+- /usr/lib64/yaml-0.8.21.2/ghc-8.0.2/Data/Yaml/Pretty.hi$
+- /usr/lib64/yaml-0.8.21.2/ghc-8.0.2/Data/Yaml/TH.dyn_hi$
+- /usr/lib64/yaml-0.8.21.2/ghc-8.0.2/Data/Yaml/TH.hi$
+- /usr/lib64/yaml-0.8.21.2/ghc-8.0.2/Text$
+- /usr/lib64/yaml-0.8.21.2/ghc-8.0.2/Text/Libyaml.dyn_hi$
+- /usr/lib64/yaml-0.8.21.2/ghc-8.0.2/Text/Libyaml.hi$
+- /usr/lib64/yaml-0.8.21.2/ghc-8.0.2/libHSyaml-0.8.21.2-6kdX5HWccKsJ36GnKm2Q7r.a$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/yaml-0.8.21.2$
+- /usr/share/doc/yaml-0.8.21.2/LICENSE.bz2$

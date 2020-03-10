@@ -1,0 +1,22 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/tidy-ext-0.1.14-r3
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-ruby/tidy-ext/0.1.14/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/tidy-ext-0.1.14$
+- /usr/lib64/ruby/gems/2.5.0/gems/tidy-ext-0.1.14/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/tidy-ext-0.1.14/lib/tidy.so$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/tidy-ext-0.1.14.gemspec$

@@ -1,0 +1,35 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/wai-3.2.1.1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/wai/3.2.1.1/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-wai-3.2.1.1-wai-3.2.1.1.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-wai-3.2.1.1.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/wai-3.2.1.1-8JT1QjDxKlM4IMnT43uKVj.conf$
+- /usr/lib64/wai-3.2.1.1$
+- /usr/lib64/wai-3.2.1.1/ghc-8.0.2$
+- /usr/lib64/wai-3.2.1.1/ghc-8.0.2/Network$
+- /usr/lib64/wai-3.2.1.1/ghc-8.0.2/Network/Wai$
+- /usr/lib64/wai-3.2.1.1/ghc-8.0.2/Network/Wai.dyn_hi$
+- /usr/lib64/wai-3.2.1.1/ghc-8.0.2/Network/Wai.hi$
+- /usr/lib64/wai-3.2.1.1/ghc-8.0.2/Network/Wai/Internal.dyn_hi$
+- /usr/lib64/wai-3.2.1.1/ghc-8.0.2/Network/Wai/Internal.hi$
+- /usr/lib64/wai-3.2.1.1/ghc-8.0.2/libHSwai-3.2.1.1-8JT1QjDxKlM4IMnT43uKVj.a$
+- /usr/lib64/x86_64-linux-ghc-7.10.3$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSwai-3.2.1.1-8JT1QjDxKlM4IMnT43uKVj-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/wai-3.2.1.1$
+- /usr/share/doc/wai-3.2.1.1/LICENSE.bz2$

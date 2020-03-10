@@ -1,0 +1,38 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/pypng-0.0.18
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-python/pypng/0.0.18/definition.yaml
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/python2.7$
+- /usr/lib64/python2.7/site-packages$
+- /usr/lib64/python2.7/site-packages/png.py$
+- /usr/lib64/python2.7/site-packages/png.pyc$
+- /usr/lib64/python2.7/site-packages/png.pyo$
+- /usr/lib64/python2.7/site-packages/pypng-0.0.18-py2.7.egg-info$
+- /usr/lib64/python2.7/site-packages/pypng-0.0.18-py2.7.egg-info/PKG-INFO$
+- /usr/lib64/python2.7/site-packages/pypng-0.0.18-py2.7.egg-info/SOURCES.txt$
+- /usr/lib64/python2.7/site-packages/pypng-0.0.18-py2.7.egg-info/dependency_links.txt$
+- /usr/lib64/python2.7/site-packages/pypng-0.0.18-py2.7.egg-info/top_level.txt$
+- /usr/lib64/python3.6$
+- /usr/lib64/python3.6/site-packages$
+- /usr/lib64/python3.6/site-packages/__pycache__$
+- /usr/lib64/python3.6/site-packages/__pycache__/png.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/__pycache__/png.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/__pycache__/png.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/png.py$
+- /usr/lib64/python3.6/site-packages/pypng-0.0.18-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/pypng-0.0.18-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/pypng-0.0.18-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/pypng-0.0.18-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/pypng-0.0.18-py3.6.egg-info/top_level.txt$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/pypng-0.0.18$
+- /usr/share/doc/pypng-0.0.18/README.txt.bz2$

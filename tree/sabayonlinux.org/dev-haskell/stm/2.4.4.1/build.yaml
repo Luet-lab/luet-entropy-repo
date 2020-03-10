@@ -1,0 +1,54 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/stm-2.4.4.1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/stm/2.4.4.1/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-stm-2.4.4.1-stm-2.4.4.1.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-stm-2.4.4.1.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/stm-2.4.4.1-JQn4hNPyYjP5m9AcbI88Ve.conf$
+- /usr/lib64/stm-2.4.4.1$
+- /usr/lib64/stm-2.4.4.1/ghc-7.10.3$
+- /usr/lib64/stm-2.4.4.1/ghc-8.0.2$
+- /usr/lib64/stm-2.4.4.1/ghc-8.0.2/Control$
+- /usr/lib64/stm-2.4.4.1/ghc-8.0.2/Control/Concurrent$
+- /usr/lib64/stm-2.4.4.1/ghc-8.0.2/Control/Concurrent/STM$
+- /usr/lib64/stm-2.4.4.1/ghc-8.0.2/Control/Concurrent/STM.dyn_hi$
+- /usr/lib64/stm-2.4.4.1/ghc-8.0.2/Control/Concurrent/STM.hi$
+- /usr/lib64/stm-2.4.4.1/ghc-8.0.2/Control/Concurrent/STM/TArray.dyn_hi$
+- /usr/lib64/stm-2.4.4.1/ghc-8.0.2/Control/Concurrent/STM/TArray.hi$
+- /usr/lib64/stm-2.4.4.1/ghc-8.0.2/Control/Concurrent/STM/TBQueue.dyn_hi$
+- /usr/lib64/stm-2.4.4.1/ghc-8.0.2/Control/Concurrent/STM/TBQueue.hi$
+- /usr/lib64/stm-2.4.4.1/ghc-8.0.2/Control/Concurrent/STM/TChan.dyn_hi$
+- /usr/lib64/stm-2.4.4.1/ghc-8.0.2/Control/Concurrent/STM/TChan.hi$
+- /usr/lib64/stm-2.4.4.1/ghc-8.0.2/Control/Concurrent/STM/TMVar.dyn_hi$
+- /usr/lib64/stm-2.4.4.1/ghc-8.0.2/Control/Concurrent/STM/TMVar.hi$
+- /usr/lib64/stm-2.4.4.1/ghc-8.0.2/Control/Concurrent/STM/TQueue.dyn_hi$
+- /usr/lib64/stm-2.4.4.1/ghc-8.0.2/Control/Concurrent/STM/TQueue.hi$
+- /usr/lib64/stm-2.4.4.1/ghc-8.0.2/Control/Concurrent/STM/TSem.dyn_hi$
+- /usr/lib64/stm-2.4.4.1/ghc-8.0.2/Control/Concurrent/STM/TSem.hi$
+- /usr/lib64/stm-2.4.4.1/ghc-8.0.2/Control/Concurrent/STM/TVar.dyn_hi$
+- /usr/lib64/stm-2.4.4.1/ghc-8.0.2/Control/Concurrent/STM/TVar.hi$
+- /usr/lib64/stm-2.4.4.1/ghc-8.0.2/Control/Monad$
+- /usr/lib64/stm-2.4.4.1/ghc-8.0.2/Control/Monad/STM.dyn_hi$
+- /usr/lib64/stm-2.4.4.1/ghc-8.0.2/Control/Monad/STM.hi$
+- /usr/lib64/stm-2.4.4.1/ghc-8.0.2/Control/Sequential$
+- /usr/lib64/stm-2.4.4.1/ghc-8.0.2/Control/Sequential/STM.dyn_hi$
+- /usr/lib64/stm-2.4.4.1/ghc-8.0.2/Control/Sequential/STM.hi$
+- /usr/lib64/stm-2.4.4.1/ghc-8.0.2/libHSstm-2.4.4.1-JQn4hNPyYjP5m9AcbI88Ve.a$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSstm-2.4.4.1-JQn4hNPyYjP5m9AcbI88Ve-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/stm-2.4.4.1$
+- /usr/share/doc/stm-2.4.4.1/LICENSE.bz2$

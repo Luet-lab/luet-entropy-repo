@@ -1,0 +1,25 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i sci-libs/ccolamd-2.8.0
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> sci-libs/ccolamd/2.8.0/definition.yaml
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/ccolamd.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libccolamd.so$
+- /usr/lib64/libccolamd.so.0$
+- /usr/lib64/libccolamd.so.0.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/ccolamd.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/ccolamd-2.8.0$
+- /usr/share/doc/ccolamd-2.8.0/ChangeLog.bz2$
+- /usr/share/doc/ccolamd-2.8.0/README.txt.bz2$

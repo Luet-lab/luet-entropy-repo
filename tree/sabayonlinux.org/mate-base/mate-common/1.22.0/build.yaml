@@ -1,0 +1,35 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i mate-base/mate-common-1.22.0
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> mate-base/mate-common/1.22.0/definition.yaml
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/mate-autogen$
+- /usr/bin/mate-doc-common$
+- /usr/share$
+- /usr/share/aclocal$
+- /usr/share/aclocal/mate-code-coverage.m4$
+- /usr/share/aclocal/mate-common.m4$
+- /usr/share/aclocal/mate-compiler-flags.m4$
+- /usr/share/doc$
+- /usr/share/doc/mate-common-1.22.0$
+- /usr/share/doc/mate-common-1.22.0/AUTHORS$
+- /usr/share/doc/mate-common-1.22.0/ChangeLog.bz2$
+- /usr/share/doc/mate-common-1.22.0/NEWS.bz2$
+- /usr/share/doc/mate-common-1.22.0/README.bz2$
+- /usr/share/doc/mate-common-1.22.0/README.doc-build.bz2$
+- /usr/share/doc/mate-common-1.22.0/usage.txt.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/mate-autogen.1.bz2$
+- /usr/share/man/man1/mate-doc-common.1.bz2$
+- /usr/share/mate-common$
+- /usr/share/mate-common/data$
+- /usr/share/mate-common/data/omf.make$
+- /usr/share/mate-common/data/xmldocs.make$

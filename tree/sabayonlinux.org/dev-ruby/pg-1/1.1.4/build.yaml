@@ -1,0 +1,42 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/pg-1.1.4
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-ruby/pg-1/1.1.4/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/pg-1.1.4$
+- /usr/lib64/ruby/gems/2.5.0/gems/pg-1.1.4/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/pg-1.1.4/lib/pg$
+- /usr/lib64/ruby/gems/2.5.0/gems/pg-1.1.4/lib/pg.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/pg-1.1.4/lib/pg/basic_type_mapping.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/pg-1.1.4/lib/pg/binary_decoder.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/pg-1.1.4/lib/pg/coder.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/pg-1.1.4/lib/pg/connection.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/pg-1.1.4/lib/pg/constants.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/pg-1.1.4/lib/pg/exceptions.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/pg-1.1.4/lib/pg/result.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/pg-1.1.4/lib/pg/text_decoder.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/pg-1.1.4/lib/pg/text_encoder.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/pg-1.1.4/lib/pg/tuple.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/pg-1.1.4/lib/pg/type_map_by_column.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/pg-1.1.4/lib/pg_ext.so$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/pg-1.1.4.gemspec$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/pg-1.1.4$
+- /usr/share/doc/pg-1.1.4/ChangeLog.bz2$
+- /usr/share/doc/pg-1.1.4/Contributors.rdoc.bz2$
+- /usr/share/doc/pg-1.1.4/History.rdoc.bz2$
+- /usr/share/doc/pg-1.1.4/README.rdoc.bz2$

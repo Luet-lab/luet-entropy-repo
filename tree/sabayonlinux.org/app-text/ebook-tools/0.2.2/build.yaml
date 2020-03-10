@@ -1,0 +1,29 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-text/ebook-tools-0.2.2-r1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> app-text/ebook-tools/0.2.2/definition.yaml
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/einfo$
+- /usr/bin/lit2epub$
+- /usr/include$
+- /usr/include/epub.h$
+- /usr/include/epub_shared.h$
+- /usr/include/epub_version.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libepub.so$
+- /usr/lib64/libepub.so.0$
+- /usr/lib64/libepub.so.0.2.1$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/ebook-tools-0.2.2-r1$
+- /usr/share/doc/ebook-tools-0.2.2-r1/INSTALL.bz2$
+- /usr/share/doc/ebook-tools-0.2.2-r1/README$
+- /usr/share/doc/ebook-tools-0.2.2-r1/TODO$

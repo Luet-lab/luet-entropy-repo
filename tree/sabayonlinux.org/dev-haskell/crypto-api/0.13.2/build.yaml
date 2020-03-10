@@ -1,0 +1,49 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/crypto-api-0.13.2
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/crypto-api/0.13.2/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/crypto-api-0.13.2$
+- /usr/lib64/crypto-api-0.13.2/ghc-8.0.2$
+- /usr/lib64/crypto-api-0.13.2/ghc-8.0.2/Crypto$
+- /usr/lib64/crypto-api-0.13.2/ghc-8.0.2/Crypto/CPoly.dyn_hi$
+- /usr/lib64/crypto-api-0.13.2/ghc-8.0.2/Crypto/CPoly.hi$
+- /usr/lib64/crypto-api-0.13.2/ghc-8.0.2/Crypto/Classes$
+- /usr/lib64/crypto-api-0.13.2/ghc-8.0.2/Crypto/Classes.dyn_hi$
+- /usr/lib64/crypto-api-0.13.2/ghc-8.0.2/Crypto/Classes.hi$
+- /usr/lib64/crypto-api-0.13.2/ghc-8.0.2/Crypto/Classes/Exceptions.dyn_hi$
+- /usr/lib64/crypto-api-0.13.2/ghc-8.0.2/Crypto/Classes/Exceptions.hi$
+- /usr/lib64/crypto-api-0.13.2/ghc-8.0.2/Crypto/HMAC.dyn_hi$
+- /usr/lib64/crypto-api-0.13.2/ghc-8.0.2/Crypto/HMAC.hi$
+- /usr/lib64/crypto-api-0.13.2/ghc-8.0.2/Crypto/Modes.dyn_hi$
+- /usr/lib64/crypto-api-0.13.2/ghc-8.0.2/Crypto/Modes.hi$
+- /usr/lib64/crypto-api-0.13.2/ghc-8.0.2/Crypto/Padding.dyn_hi$
+- /usr/lib64/crypto-api-0.13.2/ghc-8.0.2/Crypto/Padding.hi$
+- /usr/lib64/crypto-api-0.13.2/ghc-8.0.2/Crypto/Random.dyn_hi$
+- /usr/lib64/crypto-api-0.13.2/ghc-8.0.2/Crypto/Random.hi$
+- /usr/lib64/crypto-api-0.13.2/ghc-8.0.2/Crypto/Types.dyn_hi$
+- /usr/lib64/crypto-api-0.13.2/ghc-8.0.2/Crypto/Types.hi$
+- /usr/lib64/crypto-api-0.13.2/ghc-8.0.2/Crypto/Util.dyn_hi$
+- /usr/lib64/crypto-api-0.13.2/ghc-8.0.2/Crypto/Util.hi$
+- /usr/lib64/crypto-api-0.13.2/ghc-8.0.2/libHScrypto-api-0.13.2-CvlcgsHKQVAL8L714Jg50q.a$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-crypto-api-0.13.2-crypto-api-0.13.2.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-crypto-api-0.13.2.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/crypto-api-0.13.2-CvlcgsHKQVAL8L714Jg50q.conf$
+- /usr/lib64/x86_64-linux-ghc-7.10.3$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHScrypto-api-0.13.2-CvlcgsHKQVAL8L714Jg50q-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/crypto-api-0.13.2$
+- /usr/share/doc/crypto-api-0.13.2/LICENSE.bz2$

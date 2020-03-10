@@ -1,0 +1,44 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/pkcs11-helper-1.25.1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-libs/pkcs11-helper/1.25.1/definition.yaml
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/pkcs11-helper-1.0$
+- /usr/include/pkcs11-helper-1.0/pkcs11.h$
+- /usr/include/pkcs11-helper-1.0/pkcs11h-certificate.h$
+- /usr/include/pkcs11-helper-1.0/pkcs11h-core.h$
+- /usr/include/pkcs11-helper-1.0/pkcs11h-data.h$
+- /usr/include/pkcs11-helper-1.0/pkcs11h-def.h$
+- /usr/include/pkcs11-helper-1.0/pkcs11h-engines.h$
+- /usr/include/pkcs11-helper-1.0/pkcs11h-openssl.h$
+- /usr/include/pkcs11-helper-1.0/pkcs11h-token.h$
+- /usr/include/pkcs11-helper-1.0/pkcs11h-version.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libpkcs11-helper.so$
+- /usr/lib64/libpkcs11-helper.so.1$
+- /usr/lib64/libpkcs11-helper.so.1.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libpkcs11-helper-1.pc$
+- /usr/share$
+- /usr/share/aclocal$
+- /usr/share/aclocal/pkcs11-helper-1.m4$
+- /usr/share/doc$
+- /usr/share/doc/pkcs11-helper-1.25.1$
+- /usr/share/doc/pkcs11-helper-1.25.1/AUTHORS$
+- /usr/share/doc/pkcs11-helper-1.25.1/COPYING.BSD.bz2$
+- /usr/share/doc/pkcs11-helper-1.25.1/COPYING.GPL.bz2$
+- /usr/share/doc/pkcs11-helper-1.25.1/COPYING.bz2$
+- /usr/share/doc/pkcs11-helper-1.25.1/ChangeLog.bz2$
+- /usr/share/doc/pkcs11-helper-1.25.1/README.bz2$
+- /usr/share/doc/pkcs11-helper-1.25.1/THANKS.bz2$
+- /usr/share/man$
+- /usr/share/man/man8$
+- /usr/share/man/man8/pkcs11-helper-1.8.bz2$

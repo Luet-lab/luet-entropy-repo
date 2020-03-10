@@ -1,0 +1,58 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/network-2.6.3.1-r1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/network/2.6.3.1/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-network-2.6.3.1-r1-network-2.6.3.1.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-network-2.6.3.1-r1.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/network-2.6.3.1-ABFtZSq90Z9BfMXNiqgBoe.conf$
+- /usr/lib64/network-2.6.3.1$
+- /usr/lib64/network-2.6.3.1/ghc-7.10.3$
+- /usr/lib64/network-2.6.3.1/ghc-8.0.2$
+- /usr/lib64/network-2.6.3.1/ghc-8.0.2/Network$
+- /usr/lib64/network-2.6.3.1/ghc-8.0.2/Network.dyn_hi$
+- /usr/lib64/network-2.6.3.1/ghc-8.0.2/Network.hi$
+- /usr/lib64/network-2.6.3.1/ghc-8.0.2/Network/BSD.dyn_hi$
+- /usr/lib64/network-2.6.3.1/ghc-8.0.2/Network/BSD.hi$
+- /usr/lib64/network-2.6.3.1/ghc-8.0.2/Network/Socket$
+- /usr/lib64/network-2.6.3.1/ghc-8.0.2/Network/Socket.dyn_hi$
+- /usr/lib64/network-2.6.3.1/ghc-8.0.2/Network/Socket.hi$
+- /usr/lib64/network-2.6.3.1/ghc-8.0.2/Network/Socket/ByteString$
+- /usr/lib64/network-2.6.3.1/ghc-8.0.2/Network/Socket/ByteString.dyn_hi$
+- /usr/lib64/network-2.6.3.1/ghc-8.0.2/Network/Socket/ByteString.hi$
+- /usr/lib64/network-2.6.3.1/ghc-8.0.2/Network/Socket/ByteString/IOVec.dyn_hi$
+- /usr/lib64/network-2.6.3.1/ghc-8.0.2/Network/Socket/ByteString/IOVec.hi$
+- /usr/lib64/network-2.6.3.1/ghc-8.0.2/Network/Socket/ByteString/Internal.dyn_hi$
+- /usr/lib64/network-2.6.3.1/ghc-8.0.2/Network/Socket/ByteString/Internal.hi$
+- /usr/lib64/network-2.6.3.1/ghc-8.0.2/Network/Socket/ByteString/Lazy$
+- /usr/lib64/network-2.6.3.1/ghc-8.0.2/Network/Socket/ByteString/Lazy.dyn_hi$
+- /usr/lib64/network-2.6.3.1/ghc-8.0.2/Network/Socket/ByteString/Lazy.hi$
+- /usr/lib64/network-2.6.3.1/ghc-8.0.2/Network/Socket/ByteString/Lazy/Posix.dyn_hi$
+- /usr/lib64/network-2.6.3.1/ghc-8.0.2/Network/Socket/ByteString/Lazy/Posix.hi$
+- /usr/lib64/network-2.6.3.1/ghc-8.0.2/Network/Socket/ByteString/MsgHdr.dyn_hi$
+- /usr/lib64/network-2.6.3.1/ghc-8.0.2/Network/Socket/ByteString/MsgHdr.hi$
+- /usr/lib64/network-2.6.3.1/ghc-8.0.2/Network/Socket/Internal.dyn_hi$
+- /usr/lib64/network-2.6.3.1/ghc-8.0.2/Network/Socket/Internal.hi$
+- /usr/lib64/network-2.6.3.1/ghc-8.0.2/Network/Socket/Types.dyn_hi$
+- /usr/lib64/network-2.6.3.1/ghc-8.0.2/Network/Socket/Types.hi$
+- /usr/lib64/network-2.6.3.1/ghc-8.0.2/include$
+- /usr/lib64/network-2.6.3.1/ghc-8.0.2/include/HsNet.h$
+- /usr/lib64/network-2.6.3.1/ghc-8.0.2/include/HsNetworkConfig.h$
+- /usr/lib64/network-2.6.3.1/ghc-8.0.2/libHSnetwork-2.6.3.1-ABFtZSq90Z9BfMXNiqgBoe.a$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSnetwork-2.6.3.1-ABFtZSq90Z9BfMXNiqgBoe-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/network-2.6.3.1-r1$
+- /usr/share/doc/network-2.6.3.1-r1/LICENSE.bz2$

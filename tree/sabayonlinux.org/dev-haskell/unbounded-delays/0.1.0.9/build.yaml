@@ -1,0 +1,36 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/unbounded-delays-0.1.0.9
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/unbounded-delays/0.1.0.9/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-unbounded-delays-0.1.0.9-unbounded-delays-0.1.0.9.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-unbounded-delays-0.1.0.9.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/unbounded-delays-0.1.0.9-KUlzXOkbqW5A3Ab3MscyBX.conf$
+- /usr/lib64/unbounded-delays-0.1.0.9$
+- /usr/lib64/unbounded-delays-0.1.0.9/ghc-7.10.3$
+- /usr/lib64/unbounded-delays-0.1.0.9/ghc-8.0.2$
+- /usr/lib64/unbounded-delays-0.1.0.9/ghc-8.0.2/Control$
+- /usr/lib64/unbounded-delays-0.1.0.9/ghc-8.0.2/Control/Concurrent$
+- /usr/lib64/unbounded-delays-0.1.0.9/ghc-8.0.2/Control/Concurrent/Thread$
+- /usr/lib64/unbounded-delays-0.1.0.9/ghc-8.0.2/Control/Concurrent/Thread/Delay.dyn_hi$
+- /usr/lib64/unbounded-delays-0.1.0.9/ghc-8.0.2/Control/Concurrent/Thread/Delay.hi$
+- /usr/lib64/unbounded-delays-0.1.0.9/ghc-8.0.2/Control/Concurrent/Timeout.dyn_hi$
+- /usr/lib64/unbounded-delays-0.1.0.9/ghc-8.0.2/Control/Concurrent/Timeout.hi$
+- /usr/lib64/unbounded-delays-0.1.0.9/ghc-8.0.2/libHSunbounded-delays-0.1.0.9-KUlzXOkbqW5A3Ab3MscyBX.a$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSunbounded-delays-0.1.0.9-KUlzXOkbqW5A3Ab3MscyBX-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/unbounded-delays-0.1.0.9$
+- /usr/share/doc/unbounded-delays-0.1.0.9/LICENSE.bz2$

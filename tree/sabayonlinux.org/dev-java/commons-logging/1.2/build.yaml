@@ -1,0 +1,23 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-java/commons-logging-1.2-r1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-java/commons-logging/1.2/definition.yaml
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/commons-logging$
+- /usr/share/commons-logging/lib$
+- /usr/share/commons-logging/lib/commons-logging-adapters.jar$
+- /usr/share/commons-logging/lib/commons-logging-api.jar$
+- /usr/share/commons-logging/lib/commons-logging.jar$
+- /usr/share/commons-logging/package.env$
+- /usr/share/doc$
+- /usr/share/doc/commons-logging-1.2-r1$
+- /usr/share/doc/commons-logging-1.2-r1/RELEASE-NOTES.txt.bz2$
+- /usr/share/doc/commons-logging-1.2-r1/html$
+- /usr/share/doc/commons-logging-1.2-r1/html/PROPOSAL.html$

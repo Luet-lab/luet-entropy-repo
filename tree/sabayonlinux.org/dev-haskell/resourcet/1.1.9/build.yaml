@@ -1,0 +1,43 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/resourcet-1.1.9
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/resourcet/1.1.9/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-resourcet-1.1.9-resourcet-1.1.9.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-resourcet-1.1.9.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/resourcet-1.1.9-5JPblFFG1NsEJxoAAyVp26.conf$
+- /usr/lib64/resourcet-1.1.9$
+- /usr/lib64/resourcet-1.1.9/ghc-8.0.2$
+- /usr/lib64/resourcet-1.1.9/ghc-8.0.2/Control$
+- /usr/lib64/resourcet-1.1.9/ghc-8.0.2/Control/Monad$
+- /usr/lib64/resourcet-1.1.9/ghc-8.0.2/Control/Monad/Trans$
+- /usr/lib64/resourcet-1.1.9/ghc-8.0.2/Control/Monad/Trans/Resource$
+- /usr/lib64/resourcet-1.1.9/ghc-8.0.2/Control/Monad/Trans/Resource.dyn_hi$
+- /usr/lib64/resourcet-1.1.9/ghc-8.0.2/Control/Monad/Trans/Resource.hi$
+- /usr/lib64/resourcet-1.1.9/ghc-8.0.2/Control/Monad/Trans/Resource/Internal.dyn_hi$
+- /usr/lib64/resourcet-1.1.9/ghc-8.0.2/Control/Monad/Trans/Resource/Internal.hi$
+- /usr/lib64/resourcet-1.1.9/ghc-8.0.2/Data$
+- /usr/lib64/resourcet-1.1.9/ghc-8.0.2/Data/Acquire$
+- /usr/lib64/resourcet-1.1.9/ghc-8.0.2/Data/Acquire.dyn_hi$
+- /usr/lib64/resourcet-1.1.9/ghc-8.0.2/Data/Acquire.hi$
+- /usr/lib64/resourcet-1.1.9/ghc-8.0.2/Data/Acquire/Internal.dyn_hi$
+- /usr/lib64/resourcet-1.1.9/ghc-8.0.2/Data/Acquire/Internal.hi$
+- /usr/lib64/resourcet-1.1.9/ghc-8.0.2/libHSresourcet-1.1.9-5JPblFFG1NsEJxoAAyVp26.a$
+- /usr/lib64/x86_64-linux-ghc-7.10.3$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSresourcet-1.1.9-5JPblFFG1NsEJxoAAyVp26-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/resourcet-1.1.9$
+- /usr/share/doc/resourcet-1.1.9/LICENSE.bz2$

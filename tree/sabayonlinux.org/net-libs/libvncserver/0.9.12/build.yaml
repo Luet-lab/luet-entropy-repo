@@ -1,0 +1,38 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i net-libs/libvncserver-0.9.12-r4
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> net-libs/libvncserver/0.9.12/definition.yaml
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/rfb$
+- /usr/include/rfb/keysym.h$
+- /usr/include/rfb/rfb.h$
+- /usr/include/rfb/rfbclient.h$
+- /usr/include/rfb/rfbconfig.h$
+- /usr/include/rfb/rfbproto.h$
+- /usr/include/rfb/rfbregion.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libvncclient.so$
+- /usr/lib64/libvncclient.so.0.9.12$
+- /usr/lib64/libvncclient.so.1$
+- /usr/lib64/libvncserver.so$
+- /usr/lib64/libvncserver.so.0.9.12$
+- /usr/lib64/libvncserver.so.1$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libvncclient.pc$
+- /usr/lib64/pkgconfig/libvncserver.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libvncserver-0.9.12-r4$
+- /usr/share/doc/libvncserver-0.9.12-r4/AUTHORS.bz2$
+- /usr/share/doc/libvncserver-0.9.12-r4/ChangeLog.bz2$
+- /usr/share/doc/libvncserver-0.9.12-r4/NEWS.bz2$
+- /usr/share/doc/libvncserver-0.9.12-r4/README.md.bz2$
+- /usr/share/doc/libvncserver-0.9.12-r4/TODO.bz2$

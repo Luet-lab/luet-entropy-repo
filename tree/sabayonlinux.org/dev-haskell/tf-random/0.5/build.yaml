@@ -1,0 +1,40 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/tf-random-0.5
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/tf-random/0.5/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-tf-random-0.5-tf-random-0.5.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-tf-random-0.5.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/tf-random-0.5-BGjMgO8m67W8CHiEl15kZ7.conf$
+- /usr/lib64/tf-random-0.5$
+- /usr/lib64/tf-random-0.5/ghc-8.0.2$
+- /usr/lib64/tf-random-0.5/ghc-8.0.2/System$
+- /usr/lib64/tf-random-0.5/ghc-8.0.2/System/Random$
+- /usr/lib64/tf-random-0.5/ghc-8.0.2/System/Random/TF$
+- /usr/lib64/tf-random-0.5/ghc-8.0.2/System/Random/TF.dyn_hi$
+- /usr/lib64/tf-random-0.5/ghc-8.0.2/System/Random/TF.hi$
+- /usr/lib64/tf-random-0.5/ghc-8.0.2/System/Random/TF/Gen.dyn_hi$
+- /usr/lib64/tf-random-0.5/ghc-8.0.2/System/Random/TF/Gen.hi$
+- /usr/lib64/tf-random-0.5/ghc-8.0.2/System/Random/TF/Init.dyn_hi$
+- /usr/lib64/tf-random-0.5/ghc-8.0.2/System/Random/TF/Init.hi$
+- /usr/lib64/tf-random-0.5/ghc-8.0.2/System/Random/TF/Instances.dyn_hi$
+- /usr/lib64/tf-random-0.5/ghc-8.0.2/System/Random/TF/Instances.hi$
+- /usr/lib64/tf-random-0.5/ghc-8.0.2/libHStf-random-0.5-BGjMgO8m67W8CHiEl15kZ7.a$
+- /usr/lib64/x86_64-linux-ghc-7.10.3$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHStf-random-0.5-BGjMgO8m67W8CHiEl15kZ7-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/tf-random-0.5$
+- /usr/share/doc/tf-random-0.5/LICENSE.bz2$

@@ -1,0 +1,29 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-fonts/stix-fonts-2.0.0
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> media-fonts/stix-fonts/2.0.0/definition.yaml
+includes:
+- /etc$
+- /etc/fonts$
+- /etc/fonts/conf.avail$
+- /etc/fonts/conf.avail/61-stix.conf$
+- /usr$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/stix-fonts-2.0.0$
+- /usr/share/doc/stix-fonts-2.0.0/STIX_2.0.0_release_notes.txt.bz2$
+- /usr/share/fonts$
+- /usr/share/fonts/stix-fonts$
+- /usr/share/fonts/stix-fonts/STIX2Math.otf$
+- /usr/share/fonts/stix-fonts/STIX2Text-Bold.otf$
+- /usr/share/fonts/stix-fonts/STIX2Text-BoldItalic.otf$
+- /usr/share/fonts/stix-fonts/STIX2Text-Italic.otf$
+- /usr/share/fonts/stix-fonts/STIX2Text-Regular.otf$
+- /usr/share/fonts/stix-fonts/encodings.dir$
+- /usr/share/fonts/stix-fonts/fonts.dir$
+- /usr/share/fonts/stix-fonts/fonts.scale$

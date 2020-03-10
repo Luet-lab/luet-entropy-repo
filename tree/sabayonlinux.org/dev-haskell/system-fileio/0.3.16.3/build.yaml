@@ -1,0 +1,30 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/system-fileio-0.3.16.3
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/system-fileio/0.3.16.3/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-system-fileio-0.3.16.3-system-fileio-0.3.16.3.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-system-fileio-0.3.16.3.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/system-fileio-0.3.16.3-ps4UUunY2m1j6NU6U0opp.conf$
+- /usr/lib64/system-fileio-0.3.16.3$
+- /usr/lib64/system-fileio-0.3.16.3/ghc-8.0.2$
+- /usr/lib64/system-fileio-0.3.16.3/ghc-8.0.2/Filesystem.dyn_hi$
+- /usr/lib64/system-fileio-0.3.16.3/ghc-8.0.2/Filesystem.hi$
+- /usr/lib64/system-fileio-0.3.16.3/ghc-8.0.2/libHSsystem-fileio-0.3.16.3-ps4UUunY2m1j6NU6U0opp.a$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSsystem-fileio-0.3.16.3-ps4UUunY2m1j6NU6U0opp-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/system-fileio-0.3.16.3$
+- /usr/share/doc/system-fileio-0.3.16.3/license.txt.bz2$

@@ -1,0 +1,55 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/tzinfo-1.2.6
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-ruby/tzinfo-1/1.2.6/definition.yaml
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/tzinfo-1.2.6$
+- /usr/lib64/ruby/gems/2.5.0/gems/tzinfo-1.2.6/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/tzinfo-1.2.6/lib/tzinfo$
+- /usr/lib64/ruby/gems/2.5.0/gems/tzinfo-1.2.6/lib/tzinfo.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tzinfo-1.2.6/lib/tzinfo/country.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tzinfo-1.2.6/lib/tzinfo/country_index_definition.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tzinfo-1.2.6/lib/tzinfo/country_info.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tzinfo-1.2.6/lib/tzinfo/country_timezone.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tzinfo-1.2.6/lib/tzinfo/data_source.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tzinfo-1.2.6/lib/tzinfo/data_timezone.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tzinfo-1.2.6/lib/tzinfo/data_timezone_info.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tzinfo-1.2.6/lib/tzinfo/info_timezone.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tzinfo-1.2.6/lib/tzinfo/linked_timezone.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tzinfo-1.2.6/lib/tzinfo/linked_timezone_info.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tzinfo-1.2.6/lib/tzinfo/offset_rationals.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tzinfo-1.2.6/lib/tzinfo/ruby_core_support.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tzinfo-1.2.6/lib/tzinfo/ruby_country_info.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tzinfo-1.2.6/lib/tzinfo/ruby_data_source.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tzinfo-1.2.6/lib/tzinfo/time_or_datetime.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tzinfo-1.2.6/lib/tzinfo/timezone.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tzinfo-1.2.6/lib/tzinfo/timezone_definition.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tzinfo-1.2.6/lib/tzinfo/timezone_index_definition.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tzinfo-1.2.6/lib/tzinfo/timezone_info.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tzinfo-1.2.6/lib/tzinfo/timezone_offset.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tzinfo-1.2.6/lib/tzinfo/timezone_period.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tzinfo-1.2.6/lib/tzinfo/timezone_proxy.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tzinfo-1.2.6/lib/tzinfo/timezone_transition.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tzinfo-1.2.6/lib/tzinfo/timezone_transition_definition.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tzinfo-1.2.6/lib/tzinfo/transition_data_timezone_info.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tzinfo-1.2.6/lib/tzinfo/zoneinfo_country_info.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tzinfo-1.2.6/lib/tzinfo/zoneinfo_data_source.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/tzinfo-1.2.6/lib/tzinfo/zoneinfo_timezone_info.rb$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/tzinfo-1.2.6.gemspec$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/tzinfo-1.2.6$
+- /usr/share/doc/tzinfo-1.2.6/CHANGES.md.bz2$
+- /usr/share/doc/tzinfo-1.2.6/README.md.bz2$

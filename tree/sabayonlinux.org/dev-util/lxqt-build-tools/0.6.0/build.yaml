@@ -1,0 +1,48 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-util/lxqt-build-tools-0.6.0
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-util/lxqt-build-tools/0.6.0/definition.yaml
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/lxqt-transupdate$
+- /usr/share$
+- /usr/share/cmake$
+- /usr/share/cmake/lxqt-build-tools$
+- /usr/share/cmake/lxqt-build-tools/find-modules$
+- /usr/share/cmake/lxqt-build-tools/find-modules/FindExif.cmake$
+- /usr/share/cmake/lxqt-build-tools/find-modules/FindGLIB.cmake$
+- /usr/share/cmake/lxqt-build-tools/find-modules/FindMenuCache.cmake$
+- /usr/share/cmake/lxqt-build-tools/find-modules/FindUDev.cmake$
+- /usr/share/cmake/lxqt-build-tools/find-modules/FindXCB.cmake$
+- /usr/share/cmake/lxqt-build-tools/find-modules/FindXKBCommon.cmake$
+- /usr/share/cmake/lxqt-build-tools/find-modules/FindXdgUserDirs.cmake$
+- /usr/share/cmake/lxqt-build-tools/lxqt-build-tools-config-version.cmake$
+- /usr/share/cmake/lxqt-build-tools/lxqt-build-tools-config.cmake$
+- /usr/share/cmake/lxqt-build-tools/modules$
+- /usr/share/cmake/lxqt-build-tools/modules/ECMFindModuleHelpers.cmake$
+- /usr/share/cmake/lxqt-build-tools/modules/LXQtAppTranslationLoader.cpp.in$
+- /usr/share/cmake/lxqt-build-tools/modules/LXQtCompilerSettings.cmake$
+- /usr/share/cmake/lxqt-build-tools/modules/LXQtConfigVars.cmake$
+- /usr/share/cmake/lxqt-build-tools/modules/LXQtCreatePkgConfigFile.cmake$
+- /usr/share/cmake/lxqt-build-tools/modules/LXQtCreatePortableHeaders.cmake$
+- /usr/share/cmake/lxqt-build-tools/modules/LXQtLibTranslationLoader.cpp.in$
+- /usr/share/cmake/lxqt-build-tools/modules/LXQtPluginTranslationLoader.cpp.in$
+- /usr/share/cmake/lxqt-build-tools/modules/LXQtPreventInSourceBuilds.cmake$
+- /usr/share/cmake/lxqt-build-tools/modules/LXQtTranslate.cmake$
+- /usr/share/cmake/lxqt-build-tools/modules/LXQtTranslateDesktop.cmake$
+- /usr/share/cmake/lxqt-build-tools/modules/LXQtTranslateTs.cmake$
+- /usr/share/cmake/lxqt-build-tools/modules/LXQtTranslationLoader.cmake$
+- /usr/share/cmake/lxqt-build-tools/modules/Qt5PatchedLinguistToolsMacros.cmake$
+- /usr/share/cmake/lxqt-build-tools/modules/Qt5TranslationLoader.cmake$
+- /usr/share/cmake/lxqt-build-tools/modules/Qt5TranslationLoader.cpp.in$
+- /usr/share/doc$
+- /usr/share/doc/lxqt-build-tools-0.6.0$
+- /usr/share/doc/lxqt-build-tools-0.6.0/AUTHORS.bz2$
+- /usr/share/doc/lxqt-build-tools-0.6.0/CHANGELOG.bz2$
+- /usr/share/doc/lxqt-build-tools-0.6.0/README.md.bz2$

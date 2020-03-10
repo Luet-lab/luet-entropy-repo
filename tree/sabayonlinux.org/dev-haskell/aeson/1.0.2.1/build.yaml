@@ -1,0 +1,75 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/aeson-1.0.2.1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/aeson/1.0.2.1/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/aeson-1.0.2.1$
+- /usr/lib64/aeson-1.0.2.1/ghc-8.0.2$
+- /usr/lib64/aeson-1.0.2.1/ghc-8.0.2/Data$
+- /usr/lib64/aeson-1.0.2.1/ghc-8.0.2/Data/Aeson$
+- /usr/lib64/aeson-1.0.2.1/ghc-8.0.2/Data/Aeson.dyn_hi$
+- /usr/lib64/aeson-1.0.2.1/ghc-8.0.2/Data/Aeson.hi$
+- /usr/lib64/aeson-1.0.2.1/ghc-8.0.2/Data/Aeson/Encode.dyn_hi$
+- /usr/lib64/aeson-1.0.2.1/ghc-8.0.2/Data/Aeson/Encode.hi$
+- /usr/lib64/aeson-1.0.2.1/ghc-8.0.2/Data/Aeson/Encoding$
+- /usr/lib64/aeson-1.0.2.1/ghc-8.0.2/Data/Aeson/Encoding.dyn_hi$
+- /usr/lib64/aeson-1.0.2.1/ghc-8.0.2/Data/Aeson/Encoding.hi$
+- /usr/lib64/aeson-1.0.2.1/ghc-8.0.2/Data/Aeson/Encoding/Builder.dyn_hi$
+- /usr/lib64/aeson-1.0.2.1/ghc-8.0.2/Data/Aeson/Encoding/Builder.hi$
+- /usr/lib64/aeson-1.0.2.1/ghc-8.0.2/Data/Aeson/Encoding/Internal.dyn_hi$
+- /usr/lib64/aeson-1.0.2.1/ghc-8.0.2/Data/Aeson/Encoding/Internal.hi$
+- /usr/lib64/aeson-1.0.2.1/ghc-8.0.2/Data/Aeson/Internal$
+- /usr/lib64/aeson-1.0.2.1/ghc-8.0.2/Data/Aeson/Internal.dyn_hi$
+- /usr/lib64/aeson-1.0.2.1/ghc-8.0.2/Data/Aeson/Internal.hi$
+- /usr/lib64/aeson-1.0.2.1/ghc-8.0.2/Data/Aeson/Internal/Functions.dyn_hi$
+- /usr/lib64/aeson-1.0.2.1/ghc-8.0.2/Data/Aeson/Internal/Functions.hi$
+- /usr/lib64/aeson-1.0.2.1/ghc-8.0.2/Data/Aeson/Internal/Time.dyn_hi$
+- /usr/lib64/aeson-1.0.2.1/ghc-8.0.2/Data/Aeson/Internal/Time.hi$
+- /usr/lib64/aeson-1.0.2.1/ghc-8.0.2/Data/Aeson/Parser$
+- /usr/lib64/aeson-1.0.2.1/ghc-8.0.2/Data/Aeson/Parser.dyn_hi$
+- /usr/lib64/aeson-1.0.2.1/ghc-8.0.2/Data/Aeson/Parser.hi$
+- /usr/lib64/aeson-1.0.2.1/ghc-8.0.2/Data/Aeson/Parser/Internal.dyn_hi$
+- /usr/lib64/aeson-1.0.2.1/ghc-8.0.2/Data/Aeson/Parser/Internal.hi$
+- /usr/lib64/aeson-1.0.2.1/ghc-8.0.2/Data/Aeson/Parser/Time.dyn_hi$
+- /usr/lib64/aeson-1.0.2.1/ghc-8.0.2/Data/Aeson/Parser/Time.hi$
+- /usr/lib64/aeson-1.0.2.1/ghc-8.0.2/Data/Aeson/Parser/Unescape.dyn_hi$
+- /usr/lib64/aeson-1.0.2.1/ghc-8.0.2/Data/Aeson/Parser/Unescape.hi$
+- /usr/lib64/aeson-1.0.2.1/ghc-8.0.2/Data/Aeson/TH.dyn_hi$
+- /usr/lib64/aeson-1.0.2.1/ghc-8.0.2/Data/Aeson/TH.hi$
+- /usr/lib64/aeson-1.0.2.1/ghc-8.0.2/Data/Aeson/Text.dyn_hi$
+- /usr/lib64/aeson-1.0.2.1/ghc-8.0.2/Data/Aeson/Text.hi$
+- /usr/lib64/aeson-1.0.2.1/ghc-8.0.2/Data/Aeson/Types$
+- /usr/lib64/aeson-1.0.2.1/ghc-8.0.2/Data/Aeson/Types.dyn_hi$
+- /usr/lib64/aeson-1.0.2.1/ghc-8.0.2/Data/Aeson/Types.hi$
+- /usr/lib64/aeson-1.0.2.1/ghc-8.0.2/Data/Aeson/Types/Class.dyn_hi$
+- /usr/lib64/aeson-1.0.2.1/ghc-8.0.2/Data/Aeson/Types/Class.hi$
+- /usr/lib64/aeson-1.0.2.1/ghc-8.0.2/Data/Aeson/Types/FromJSON.dyn_hi$
+- /usr/lib64/aeson-1.0.2.1/ghc-8.0.2/Data/Aeson/Types/FromJSON.hi$
+- /usr/lib64/aeson-1.0.2.1/ghc-8.0.2/Data/Aeson/Types/Generic.dyn_hi$
+- /usr/lib64/aeson-1.0.2.1/ghc-8.0.2/Data/Aeson/Types/Generic.hi$
+- /usr/lib64/aeson-1.0.2.1/ghc-8.0.2/Data/Aeson/Types/Internal.dyn_hi$
+- /usr/lib64/aeson-1.0.2.1/ghc-8.0.2/Data/Aeson/Types/Internal.hi$
+- /usr/lib64/aeson-1.0.2.1/ghc-8.0.2/Data/Aeson/Types/ToJSON.dyn_hi$
+- /usr/lib64/aeson-1.0.2.1/ghc-8.0.2/Data/Aeson/Types/ToJSON.hi$
+- /usr/lib64/aeson-1.0.2.1/ghc-8.0.2/libHSaeson-1.0.2.1-CwsDH4jNrtLLb3qyC3Ebvr.a$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-aeson-1.0.2.1-aeson-1.0.2.1.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-aeson-1.0.2.1.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/aeson-1.0.2.1-CwsDH4jNrtLLb3qyC3Ebvr.conf$
+- /usr/lib64/x86_64-linux-ghc-7.10.3$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSaeson-1.0.2.1-CwsDH4jNrtLLb3qyC3Ebvr-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/aeson-1.0.2.1$
+- /usr/share/doc/aeson-1.0.2.1/LICENSE.bz2$

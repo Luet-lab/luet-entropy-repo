@@ -1,0 +1,44 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/asn1-types-0.3.2
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/asn1-types/0.3.2/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/asn1-types-0.3.2$
+- /usr/lib64/asn1-types-0.3.2/ghc-8.0.2$
+- /usr/lib64/asn1-types-0.3.2/ghc-8.0.2/Data$
+- /usr/lib64/asn1-types-0.3.2/ghc-8.0.2/Data/ASN1$
+- /usr/lib64/asn1-types-0.3.2/ghc-8.0.2/Data/ASN1/BitArray.dyn_hi$
+- /usr/lib64/asn1-types-0.3.2/ghc-8.0.2/Data/ASN1/BitArray.hi$
+- /usr/lib64/asn1-types-0.3.2/ghc-8.0.2/Data/ASN1/OID.dyn_hi$
+- /usr/lib64/asn1-types-0.3.2/ghc-8.0.2/Data/ASN1/OID.hi$
+- /usr/lib64/asn1-types-0.3.2/ghc-8.0.2/Data/ASN1/Pretty.dyn_hi$
+- /usr/lib64/asn1-types-0.3.2/ghc-8.0.2/Data/ASN1/Pretty.hi$
+- /usr/lib64/asn1-types-0.3.2/ghc-8.0.2/Data/ASN1/Types$
+- /usr/lib64/asn1-types-0.3.2/ghc-8.0.2/Data/ASN1/Types.dyn_hi$
+- /usr/lib64/asn1-types-0.3.2/ghc-8.0.2/Data/ASN1/Types.hi$
+- /usr/lib64/asn1-types-0.3.2/ghc-8.0.2/Data/ASN1/Types/Lowlevel.dyn_hi$
+- /usr/lib64/asn1-types-0.3.2/ghc-8.0.2/Data/ASN1/Types/Lowlevel.hi$
+- /usr/lib64/asn1-types-0.3.2/ghc-8.0.2/Data/ASN1/Types/String.dyn_hi$
+- /usr/lib64/asn1-types-0.3.2/ghc-8.0.2/Data/ASN1/Types/String.hi$
+- /usr/lib64/asn1-types-0.3.2/ghc-8.0.2/libHSasn1-types-0.3.2-1R9kIccaaGaAqnDMairjtc.a$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-asn1-types-0.3.2-asn1-types-0.3.2.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-asn1-types-0.3.2.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/asn1-types-0.3.2-1R9kIccaaGaAqnDMairjtc.conf$
+- /usr/lib64/x86_64-linux-ghc-7.10.3$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSasn1-types-0.3.2-1R9kIccaaGaAqnDMairjtc-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/asn1-types-0.3.2$
+- /usr/share/doc/asn1-types-0.3.2/LICENSE.bz2$

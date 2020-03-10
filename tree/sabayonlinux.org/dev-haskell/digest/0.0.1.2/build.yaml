@@ -1,0 +1,35 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/digest-0.0.1.2
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/digest/0.0.1.2/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/digest-0.0.1.2$
+- /usr/lib64/digest-0.0.1.2/ghc-7.10.3$
+- /usr/lib64/digest-0.0.1.2/ghc-8.0.2$
+- /usr/lib64/digest-0.0.1.2/ghc-8.0.2/Data$
+- /usr/lib64/digest-0.0.1.2/ghc-8.0.2/Data/Digest$
+- /usr/lib64/digest-0.0.1.2/ghc-8.0.2/Data/Digest/Adler32.dyn_hi$
+- /usr/lib64/digest-0.0.1.2/ghc-8.0.2/Data/Digest/Adler32.hi$
+- /usr/lib64/digest-0.0.1.2/ghc-8.0.2/Data/Digest/CRC32.dyn_hi$
+- /usr/lib64/digest-0.0.1.2/ghc-8.0.2/Data/Digest/CRC32.hi$
+- /usr/lib64/digest-0.0.1.2/ghc-8.0.2/libHSdigest-0.0.1.2-KWFUxJ28iDeFa48SRovKn6.a$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-digest-0.0.1.2-digest-0.0.1.2.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-digest-0.0.1.2.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/digest-0.0.1.2-KWFUxJ28iDeFa48SRovKn6.conf$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSdigest-0.0.1.2-KWFUxJ28iDeFa48SRovKn6-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/digest-0.0.1.2$
+- /usr/share/doc/digest-0.0.1.2/LICENSE.bz2$

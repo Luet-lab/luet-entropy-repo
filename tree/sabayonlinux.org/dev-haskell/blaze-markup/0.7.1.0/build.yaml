@@ -1,0 +1,44 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/blaze-markup-0.7.1.0
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/blaze-markup/0.7.1.0/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/blaze-markup-0.7.1.0$
+- /usr/lib64/blaze-markup-0.7.1.0/ghc-7.10.3$
+- /usr/lib64/blaze-markup-0.7.1.0/ghc-8.0.2$
+- /usr/lib64/blaze-markup-0.7.1.0/ghc-8.0.2/Text$
+- /usr/lib64/blaze-markup-0.7.1.0/ghc-8.0.2/Text/Blaze$
+- /usr/lib64/blaze-markup-0.7.1.0/ghc-8.0.2/Text/Blaze.dyn_hi$
+- /usr/lib64/blaze-markup-0.7.1.0/ghc-8.0.2/Text/Blaze.hi$
+- /usr/lib64/blaze-markup-0.7.1.0/ghc-8.0.2/Text/Blaze/Internal.dyn_hi$
+- /usr/lib64/blaze-markup-0.7.1.0/ghc-8.0.2/Text/Blaze/Internal.hi$
+- /usr/lib64/blaze-markup-0.7.1.0/ghc-8.0.2/Text/Blaze/Renderer$
+- /usr/lib64/blaze-markup-0.7.1.0/ghc-8.0.2/Text/Blaze/Renderer/Pretty.dyn_hi$
+- /usr/lib64/blaze-markup-0.7.1.0/ghc-8.0.2/Text/Blaze/Renderer/Pretty.hi$
+- /usr/lib64/blaze-markup-0.7.1.0/ghc-8.0.2/Text/Blaze/Renderer/String.dyn_hi$
+- /usr/lib64/blaze-markup-0.7.1.0/ghc-8.0.2/Text/Blaze/Renderer/String.hi$
+- /usr/lib64/blaze-markup-0.7.1.0/ghc-8.0.2/Text/Blaze/Renderer/Text.dyn_hi$
+- /usr/lib64/blaze-markup-0.7.1.0/ghc-8.0.2/Text/Blaze/Renderer/Text.hi$
+- /usr/lib64/blaze-markup-0.7.1.0/ghc-8.0.2/Text/Blaze/Renderer/Utf8.dyn_hi$
+- /usr/lib64/blaze-markup-0.7.1.0/ghc-8.0.2/Text/Blaze/Renderer/Utf8.hi$
+- /usr/lib64/blaze-markup-0.7.1.0/ghc-8.0.2/libHSblaze-markup-0.7.1.0-IZgyBrbcqWZFPRCFOlijnX.a$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-blaze-markup-0.7.1.0-blaze-markup-0.7.1.0.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-blaze-markup-0.7.1.0.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/blaze-markup-0.7.1.0-IZgyBrbcqWZFPRCFOlijnX.conf$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSblaze-markup-0.7.1.0-IZgyBrbcqWZFPRCFOlijnX-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/blaze-markup-0.7.1.0$
+- /usr/share/doc/blaze-markup-0.7.1.0/LICENSE.bz2$

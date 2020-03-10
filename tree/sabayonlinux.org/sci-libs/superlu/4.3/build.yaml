@@ -1,0 +1,34 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i sci-libs/superlu-4.3-r1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> sci-libs/superlu/4.3/definition.yaml
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/superlu$
+- /usr/include/superlu/slu_Cnames.h$
+- /usr/include/superlu/slu_cdefs.h$
+- /usr/include/superlu/slu_dcomplex.h$
+- /usr/include/superlu/slu_ddefs.h$
+- /usr/include/superlu/slu_scomplex.h$
+- /usr/include/superlu/slu_sdefs.h$
+- /usr/include/superlu/slu_util.h$
+- /usr/include/superlu/slu_zdefs.h$
+- /usr/include/superlu/superlu_enum_consts.h$
+- /usr/include/superlu/supermatrix.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libsuperlu.so$
+- /usr/lib64/libsuperlu.so.4$
+- /usr/lib64/libsuperlu.so.4.0.2$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/superlu.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/superlu-4.3-r1$
+- /usr/share/doc/superlu-4.3-r1/README.bz2$

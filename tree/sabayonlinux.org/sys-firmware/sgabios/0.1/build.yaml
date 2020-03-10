@@ -1,0 +1,14 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i sys-firmware/sgabios-0.1_pre8-r1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> sys-firmware/sgabios/0.1/definition.yaml
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/sgabios$
+- /usr/share/sgabios/sgabios.bin$

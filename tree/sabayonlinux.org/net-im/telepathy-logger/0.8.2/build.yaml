@@ -1,0 +1,84 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i net-im/telepathy-logger-0.8.2
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> net-im/telepathy-logger/0.8.2/definition.yaml
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/telepathy-logger-0.2$
+- /usr/include/telepathy-logger-0.2/telepathy-logger$
+- /usr/include/telepathy-logger-0.2/telepathy-logger/call-event.h$
+- /usr/include/telepathy-logger-0.2/telepathy-logger/entity.h$
+- /usr/include/telepathy-logger-0.2/telepathy-logger/event.h$
+- /usr/include/telepathy-logger-0.2/telepathy-logger/log-manager.h$
+- /usr/include/telepathy-logger-0.2/telepathy-logger/log-walker.h$
+- /usr/include/telepathy-logger-0.2/telepathy-logger/telepathy-logger.h$
+- /usr/include/telepathy-logger-0.2/telepathy-logger/text-event.h$
+- /usr/include/tpl-extensions$
+- /usr/include/tpl-extensions/_gen$
+- /usr/include/tpl-extensions/_gen/cli-misc.h$
+- /usr/include/tpl-extensions/_gen/enums.h$
+- /usr/include/tpl-extensions/_gen/gtypes.h$
+- /usr/include/tpl-extensions/_gen/interfaces.h$
+- /usr/include/tpl-extensions/_gen/svc-misc.h$
+- /usr/include/tpl-extensions/extensions.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/girepository-1.0$
+- /usr/lib64/girepository-1.0/TelepathyLogger-0.2.typelib$
+- /usr/lib64/libtelepathy-logger.so$
+- /usr/lib64/libtelepathy-logger.so.3$
+- /usr/lib64/libtelepathy-logger.so.3.3.0$
+- /usr/lib64/libtpl-extensions.so$
+- /usr/lib64/libtpl-extensions.so.3$
+- /usr/lib64/libtpl-extensions.so.3.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/telepathy-logger-0.2.pc$
+- /usr/lib64/pkgconfig/tpl-extensions.pc$
+- /usr/libexec$
+- /usr/libexec/telepathy-logger$
+- /usr/share$
+- /usr/share/dbus-1$
+- /usr/share/dbus-1/services$
+- /usr/share/dbus-1/services/org.freedesktop.Telepathy.Client.Logger.service$
+- /usr/share/dbus-1/services/org.freedesktop.Telepathy.Logger.service$
+- /usr/share/doc$
+- /usr/share/doc/telepathy-logger-0.8.2$
+- /usr/share/doc/telepathy-logger-0.8.2/AUTHORS$
+- /usr/share/doc/telepathy-logger-0.8.2/ChangeLog.bz2$
+- /usr/share/doc/telepathy-logger-0.8.2/NEWS.bz2$
+- /usr/share/doc/telepathy-logger-0.8.2/README.bz2$
+- /usr/share/gir-1.0$
+- /usr/share/gir-1.0/TelepathyLogger-0.2.gir$
+- /usr/share/glib-2.0$
+- /usr/share/glib-2.0/schemas$
+- /usr/share/glib-2.0/schemas/org.freedesktop.Telepathy.Logger.gschema.xml$
+- /usr/share/gtk-doc$
+- /usr/share/gtk-doc/html$
+- /usr/share/gtk-doc/html/telepathy-logger$
+- /usr/share/gtk-doc/html/telepathy-logger/TplCallEvent.html$
+- /usr/share/gtk-doc/html/telepathy-logger/TplEntity.html$
+- /usr/share/gtk-doc/html/telepathy-logger/TplEvent.html$
+- /usr/share/gtk-doc/html/telepathy-logger/TplLogManager.html$
+- /usr/share/gtk-doc/html/telepathy-logger/TplLogWalker.html$
+- /usr/share/gtk-doc/html/telepathy-logger/TplTextEvent.html$
+- /usr/share/gtk-doc/html/telepathy-logger/ch-public.html$
+- /usr/share/gtk-doc/html/telepathy-logger/home.png$
+- /usr/share/gtk-doc/html/telepathy-logger/index.html$
+- /usr/share/gtk-doc/html/telepathy-logger/index.sgml$
+- /usr/share/gtk-doc/html/telepathy-logger/left-insensitive.png$
+- /usr/share/gtk-doc/html/telepathy-logger/left.png$
+- /usr/share/gtk-doc/html/telepathy-logger/right-insensitive.png$
+- /usr/share/gtk-doc/html/telepathy-logger/right.png$
+- /usr/share/gtk-doc/html/telepathy-logger/style.css$
+- /usr/share/gtk-doc/html/telepathy-logger/telepathy-logger.devhelp2$
+- /usr/share/gtk-doc/html/telepathy-logger/up-insensitive.png$
+- /usr/share/gtk-doc/html/telepathy-logger/up.png$
+- /usr/share/telepathy$
+- /usr/share/telepathy/clients$
+- /usr/share/telepathy/clients/Logger.client$

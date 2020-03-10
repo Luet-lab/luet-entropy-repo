@@ -1,0 +1,21 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-fonts/texcm-ttf-1.0
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> media-fonts/texcm-ttf/1.0/definition.yaml
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/fonts$
+- /usr/share/fonts/texcm-ttf$
+- /usr/share/fonts/texcm-ttf/cmex10.ttf$
+- /usr/share/fonts/texcm-ttf/cmmi10.ttf$
+- /usr/share/fonts/texcm-ttf/cmr10.ttf$
+- /usr/share/fonts/texcm-ttf/cmsy10.ttf$
+- /usr/share/fonts/texcm-ttf/encodings.dir$
+- /usr/share/fonts/texcm-ttf/fonts.dir$
+- /usr/share/fonts/texcm-ttf/fonts.scale$

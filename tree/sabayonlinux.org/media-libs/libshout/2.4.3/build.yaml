@@ -1,0 +1,49 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/libshout-2.4.3
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> media-libs/libshout/2.4.3/definition.yaml
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/i686-pc-linux-gnu$
+- /usr/include/i686-pc-linux-gnu/shout$
+- /usr/include/i686-pc-linux-gnu/shout/shout.h$
+- /usr/include/shout$
+- /usr/include/shout/shout.h$
+- /usr/include/x86_64-pc-linux-gnu$
+- /usr/include/x86_64-pc-linux-gnu/shout$
+- /usr/include/x86_64-pc-linux-gnu/shout/shout.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/ckport$
+- /usr/lib32/ckport/db$
+- /usr/lib32/ckport/db/libshout.ckport$
+- /usr/lib32/libshout.so$
+- /usr/lib32/libshout.so.3$
+- /usr/lib32/libshout.so.3.2.0$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/shout.pc$
+- /usr/lib64$
+- /usr/lib64/ckport$
+- /usr/lib64/ckport/db$
+- /usr/lib64/ckport/db/libshout.ckport$
+- /usr/lib64/libshout.so$
+- /usr/lib64/libshout.so.3$
+- /usr/lib64/libshout.so.3.2.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/shout.pc$
+- /usr/share$
+- /usr/share/aclocal$
+- /usr/share/aclocal/shout.m4$
+- /usr/share/doc$
+- /usr/share/doc/libshout-2.4.3$
+- /usr/share/doc/libshout-2.4.3/COPYING.bz2$
+- /usr/share/doc/libshout-2.4.3/NEWS.bz2$
+- /usr/share/doc/libshout-2.4.3/README.bz2$
+- /usr/share/doc/libshout-2.4.3/example.c.bz2$
+- /usr/share/doc/libshout-2.4.3/nonblocking.c.bz2$

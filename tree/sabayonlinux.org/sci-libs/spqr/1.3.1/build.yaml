@@ -1,0 +1,28 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i sci-libs/spqr-1.3.1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> sci-libs/spqr/1.3.1/definition.yaml
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/SuiteSparseQR.hpp$
+- /usr/include/SuiteSparseQR_C.h$
+- /usr/include/SuiteSparseQR_definitions.h$
+- /usr/include/spqr.hpp$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libspqr.so$
+- /usr/lib64/libspqr.so.0$
+- /usr/lib64/libspqr.so.0.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/spqr.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/spqr-1.3.1$
+- /usr/share/doc/spqr-1.3.1/ChangeLog.bz2$
+- /usr/share/doc/spqr-1.3.1/README.txt.bz2$

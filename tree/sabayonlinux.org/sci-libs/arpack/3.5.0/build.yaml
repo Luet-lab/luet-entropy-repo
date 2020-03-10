@@ -1,0 +1,32 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i sci-libs/arpack-3.5.0
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> sci-libs/arpack/3.5.0/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libarpack.a$
+- /usr/lib64/libarpack.la$
+- /usr/lib64/libarpack.so$
+- /usr/lib64/libarpack.so.2$
+- /usr/lib64/libarpack.so.2.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/arpack.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/arpack-3.5.0$
+- /usr/share/doc/arpack-3.5.0/CHANGES.bz2$
+- /usr/share/doc/arpack-3.5.0/README.bz2$
+- /usr/share/doc/arpack-3.5.0/README.doc.bz2$
+- /usr/share/doc/arpack-3.5.0/TODO$
+- /usr/share/doc/arpack-3.5.0/debug.doc.bz2$
+- /usr/share/doc/arpack-3.5.0/ex-complex.doc.bz2$
+- /usr/share/doc/arpack-3.5.0/ex-nonsym.doc.bz2$
+- /usr/share/doc/arpack-3.5.0/ex-sym.doc.bz2$
+- /usr/share/doc/arpack-3.5.0/stat.doc.bz2$

@@ -1,0 +1,49 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/pytest-cov-2.8.1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-python/pytest-cov/2.8.1/definition.yaml
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/python3.6$
+- /usr/lib64/python3.6/site-packages$
+- /usr/lib64/python3.6/site-packages/pytest-cov.pth$
+- /usr/lib64/python3.6/site-packages/pytest_cov$
+- /usr/lib64/python3.6/site-packages/pytest_cov-2.8.1-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/pytest_cov-2.8.1-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/pytest_cov-2.8.1-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/pytest_cov-2.8.1-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/pytest_cov-2.8.1-py3.6.egg-info/entry_points.txt$
+- /usr/lib64/python3.6/site-packages/pytest_cov-2.8.1-py3.6.egg-info/not-zip-safe$
+- /usr/lib64/python3.6/site-packages/pytest_cov-2.8.1-py3.6.egg-info/requires.txt$
+- /usr/lib64/python3.6/site-packages/pytest_cov-2.8.1-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/pytest_cov/__init__.py$
+- /usr/lib64/python3.6/site-packages/pytest_cov/__pycache__$
+- /usr/lib64/python3.6/site-packages/pytest_cov/__pycache__/__init__.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/pytest_cov/__pycache__/__init__.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/pytest_cov/__pycache__/__init__.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/pytest_cov/__pycache__/compat.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/pytest_cov/__pycache__/compat.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/pytest_cov/__pycache__/compat.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/pytest_cov/__pycache__/embed.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/pytest_cov/__pycache__/embed.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/pytest_cov/__pycache__/embed.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/pytest_cov/__pycache__/engine.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/pytest_cov/__pycache__/engine.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/pytest_cov/__pycache__/engine.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/pytest_cov/__pycache__/plugin.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/pytest_cov/__pycache__/plugin.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/pytest_cov/__pycache__/plugin.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/pytest_cov/compat.py$
+- /usr/lib64/python3.6/site-packages/pytest_cov/embed.py$
+- /usr/lib64/python3.6/site-packages/pytest_cov/engine.py$
+- /usr/lib64/python3.6/site-packages/pytest_cov/plugin.py$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/pytest-cov-2.8.1$
+- /usr/share/doc/pytest-cov-2.8.1/README.rst.bz2$

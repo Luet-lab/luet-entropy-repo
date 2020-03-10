@@ -1,0 +1,45 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/redcloth-4.3.2-r1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-ruby/redcloth/4.3.2/definition.yaml
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/redcloth$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/RedCloth-4.3.2$
+- /usr/lib64/ruby/gems/2.5.0/gems/RedCloth-4.3.2/bin$
+- /usr/lib64/ruby/gems/2.5.0/gems/RedCloth-4.3.2/bin/redcloth$
+- /usr/lib64/ruby/gems/2.5.0/gems/RedCloth-4.3.2/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/RedCloth-4.3.2/lib/case_sensitive_require$
+- /usr/lib64/ruby/gems/2.5.0/gems/RedCloth-4.3.2/lib/case_sensitive_require/RedCloth.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/RedCloth-4.3.2/lib/redcloth$
+- /usr/lib64/ruby/gems/2.5.0/gems/RedCloth-4.3.2/lib/redcloth.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/RedCloth-4.3.2/lib/redcloth/erb_extension.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/RedCloth-4.3.2/lib/redcloth/formatters$
+- /usr/lib64/ruby/gems/2.5.0/gems/RedCloth-4.3.2/lib/redcloth/formatters/base.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/RedCloth-4.3.2/lib/redcloth/formatters/html.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/RedCloth-4.3.2/lib/redcloth/formatters/latex.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/RedCloth-4.3.2/lib/redcloth/formatters/latex_entities.yml$
+- /usr/lib64/ruby/gems/2.5.0/gems/RedCloth-4.3.2/lib/redcloth/textile_doc.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/RedCloth-4.3.2/lib/redcloth/version.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/RedCloth-4.3.2/lib/redcloth_scan.so$
+- /usr/lib64/ruby/gems/2.5.0/gems/RedCloth-4.3.2/lib/tasks$
+- /usr/lib64/ruby/gems/2.5.0/gems/RedCloth-4.3.2/lib/tasks/pureruby.rake$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/RedCloth-4.3.2.gemspec$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/redcloth-4.3.2-r1$
+- /usr/share/doc/redcloth-4.3.2-r1/CHANGELOG.bz2$
+- /usr/share/doc/redcloth-4.3.2-r1/README.rdoc.bz2$

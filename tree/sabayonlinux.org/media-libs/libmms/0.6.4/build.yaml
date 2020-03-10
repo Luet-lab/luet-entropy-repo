@@ -1,0 +1,37 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/libmms-0.6.4
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> media-libs/libmms/0.6.4/definition.yaml
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/libmms$
+- /usr/include/libmms/mms.h$
+- /usr/include/libmms/mms_config.h$
+- /usr/include/libmms/mmsh.h$
+- /usr/include/libmms/mmsio.h$
+- /usr/include/libmms/mmsx.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libmms.so$
+- /usr/lib32/libmms.so.0$
+- /usr/lib32/libmms.so.0.0.2$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/libmms.pc$
+- /usr/lib64$
+- /usr/lib64/libmms.so$
+- /usr/lib64/libmms.so.0$
+- /usr/lib64/libmms.so.0.0.2$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libmms.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libmms-0.6.4$
+- /usr/share/doc/libmms-0.6.4/AUTHORS.bz2$
+- /usr/share/doc/libmms-0.6.4/ChangeLog.bz2$
+- /usr/share/doc/libmms-0.6.4/README.bz2$

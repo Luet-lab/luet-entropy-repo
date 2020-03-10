@@ -1,0 +1,30 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/libatasmart-0.19_p5
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-libs/libatasmart/0.19/definition.yaml
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/atasmart.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libatasmart.so$
+- /usr/lib64/libatasmart.so.4$
+- /usr/lib64/libatasmart.so.4.0.5$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libatasmart.pc$
+- /usr/sbin$
+- /usr/sbin/skdump$
+- /usr/sbin/sktest$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libatasmart-0.19_p5$
+- /usr/share/doc/libatasmart-0.19_p5/README.bz2$
+- /usr/share/vala$
+- /usr/share/vala/vapi$
+- /usr/share/vala/vapi/atasmart.vapi$

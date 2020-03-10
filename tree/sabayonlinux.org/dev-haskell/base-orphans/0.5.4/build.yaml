@@ -1,0 +1,35 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/base-orphans-0.5.4
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/base-orphans/0.5.4/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/base-orphans-0.5.4$
+- /usr/lib64/base-orphans-0.5.4/ghc-7.10.3$
+- /usr/lib64/base-orphans-0.5.4/ghc-8.0.2$
+- /usr/lib64/base-orphans-0.5.4/ghc-8.0.2/Data$
+- /usr/lib64/base-orphans-0.5.4/ghc-8.0.2/Data/Orphans$
+- /usr/lib64/base-orphans-0.5.4/ghc-8.0.2/Data/Orphans.dyn_hi$
+- /usr/lib64/base-orphans-0.5.4/ghc-8.0.2/Data/Orphans.hi$
+- /usr/lib64/base-orphans-0.5.4/ghc-8.0.2/Data/Orphans/Prelude.dyn_hi$
+- /usr/lib64/base-orphans-0.5.4/ghc-8.0.2/Data/Orphans/Prelude.hi$
+- /usr/lib64/base-orphans-0.5.4/ghc-8.0.2/libHSbase-orphans-0.5.4-ABoxiBf7nXc7Qqh66CgYc9.a$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-base-orphans-0.5.4-base-orphans-0.5.4.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-base-orphans-0.5.4.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/base-orphans-0.5.4-ABoxiBf7nXc7Qqh66CgYc9.conf$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSbase-orphans-0.5.4-ABoxiBf7nXc7Qqh66CgYc9-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/base-orphans-0.5.4$
+- /usr/share/doc/base-orphans-0.5.4/LICENSE.bz2$

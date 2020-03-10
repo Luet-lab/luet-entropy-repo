@@ -1,0 +1,32 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/mm-1.4.2-r2
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-libs/mm-1.2/1.4.2/definition.yaml
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/mm-config$
+- /usr/include$
+- /usr/include/mm.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libmm.so$
+- /usr/lib64/libmm.so.14$
+- /usr/lib64/libmm.so.14.0.22$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/mm-1.4.2-r2$
+- /usr/share/doc/mm-1.4.2-r2/ChangeLog.bz2$
+- /usr/share/doc/mm-1.4.2-r2/PORTING.bz2$
+- /usr/share/doc/mm-1.4.2-r2/README.bz2$
+- /usr/share/doc/mm-1.4.2-r2/THANKS.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/mm-config.1.bz2$
+- /usr/share/man/man3$
+- /usr/share/man/man3/mm.3.bz2$

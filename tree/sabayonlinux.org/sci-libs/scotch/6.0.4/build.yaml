@@ -1,0 +1,36 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i sci-libs/scotch-6.0.4-r2
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> sci-libs/scotch/6.0.4/definition.yaml
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/scotch$
+- /usr/include/scotch/esmumps.h$
+- /usr/include/scotch/metis$
+- /usr/include/scotch/metis/metis.h$
+- /usr/include/scotch/scotch.h$
+- /usr/include/scotch/scotchf.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libesmumps.so$
+- /usr/lib64/libesmumps.so.6$
+- /usr/lib64/libscotch.so$
+- /usr/lib64/libscotch.so.6$
+- /usr/lib64/libscotcherr.so$
+- /usr/lib64/libscotcherr.so.6$
+- /usr/lib64/libscotcherrexit.so$
+- /usr/lib64/libscotcherrexit.so.6$
+- /usr/lib64/libscotchmetis.so$
+- /usr/lib64/libscotchmetis.so.6$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/scotchmetis.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/scotch-6.0.4-r2$
+- /usr/share/doc/scotch-6.0.4-r2/README.txt.bz2$

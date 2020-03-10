@@ -1,0 +1,35 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-lua/LuaBitOp-1.0.2-r1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-lua/LuaBitOp/1.0.2/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/lua$
+- /usr/lib32/lua/5.1$
+- /usr/lib32/lua/5.1/bit.so$
+- /usr/lib64$
+- /usr/lib64/lua$
+- /usr/lib64/lua/5.1$
+- /usr/lib64/lua/5.1/bit.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/LuaBitOp-1.0.2-r1$
+- /usr/share/doc/LuaBitOp-1.0.2-r1/README.bz2$
+- /usr/share/doc/LuaBitOp-1.0.2-r1/html$
+- /usr/share/doc/LuaBitOp-1.0.2-r1/html/api.html$
+- /usr/share/doc/LuaBitOp-1.0.2-r1/html/bluequad-print.css$
+- /usr/share/doc/LuaBitOp-1.0.2-r1/html/bluequad.css$
+- /usr/share/doc/LuaBitOp-1.0.2-r1/html/changes.html$
+- /usr/share/doc/LuaBitOp-1.0.2-r1/html/contact.html$
+- /usr/share/doc/LuaBitOp-1.0.2-r1/html/img$
+- /usr/share/doc/LuaBitOp-1.0.2-r1/html/img/contact.png$
+- /usr/share/doc/LuaBitOp-1.0.2-r1/html/index.html$
+- /usr/share/doc/LuaBitOp-1.0.2-r1/html/install.html$
+- /usr/share/doc/LuaBitOp-1.0.2-r1/html/semantics.html$

@@ -1,0 +1,34 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/rb-inotify-0.10.1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-ruby/rb-inotify/0.10.1/definition.yaml
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/rb-inotify-0.10.1$
+- /usr/lib64/ruby/gems/2.5.0/gems/rb-inotify-0.10.1/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/rb-inotify-0.10.1/lib/rb-inotify$
+- /usr/lib64/ruby/gems/2.5.0/gems/rb-inotify-0.10.1/lib/rb-inotify.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rb-inotify-0.10.1/lib/rb-inotify/errors.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rb-inotify-0.10.1/lib/rb-inotify/event.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rb-inotify-0.10.1/lib/rb-inotify/native$
+- /usr/lib64/ruby/gems/2.5.0/gems/rb-inotify-0.10.1/lib/rb-inotify/native.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rb-inotify-0.10.1/lib/rb-inotify/native/flags.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rb-inotify-0.10.1/lib/rb-inotify/notifier.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rb-inotify-0.10.1/lib/rb-inotify/version.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rb-inotify-0.10.1/lib/rb-inotify/watcher.rb$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/rb-inotify-0.10.1.gemspec$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/rb-inotify-0.10.1$
+- /usr/share/doc/rb-inotify-0.10.1/README.md.bz2$

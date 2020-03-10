@@ -1,0 +1,78 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i net-firewall/nftables-0.9.3-r1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> net-firewall/nftables/0.9.3/definition.yaml
+includes:
+- /etc$
+- /etc/conf.d$
+- /etc/conf.d/nftables$
+- /etc/init.d$
+- /etc/init.d/nftables$
+- /lib$
+- /lib/systemd$
+- /lib/systemd/system$
+- /lib/systemd/system/nftables-restore.service$
+- /sbin$
+- /sbin/nft$
+- /usr$
+- /usr/include$
+- /usr/include/nftables$
+- /usr/include/nftables/libnftables.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libnftables.so$
+- /usr/lib64/libnftables.so.1$
+- /usr/lib64/libnftables.so.1.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libnftables.pc$
+- /usr/lib64/python3.6$
+- /usr/lib64/python3.6/site-packages$
+- /usr/lib64/python3.6/site-packages/nftables$
+- /usr/lib64/python3.6/site-packages/nftables-0.1-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/nftables/__init__.py$
+- /usr/lib64/python3.6/site-packages/nftables/nftables.py$
+- /usr/lib64/python3.6/site-packages/nftables/schema.json$
+- /usr/libexec$
+- /usr/libexec/nftables$
+- /usr/libexec/nftables/nftables.sh$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/nftables-0.9.3-r1$
+- /usr/share/doc/nftables-0.9.3-r1/examples$
+- /usr/share/doc/nftables-0.9.3-r1/examples/ct_helpers.nft.bz2$
+- /usr/share/doc/nftables-0.9.3-r1/examples/load_balancing.nft.bz2$
+- /usr/share/doc/nftables-0.9.3-r1/examples/secmark.nft.bz2$
+- /usr/share/doc/nftables-0.9.3-r1/examples/sets_and_maps.nft.bz2$
+- /usr/share/doc/nftables-0.9.3-r1/skels$
+- /usr/share/doc/nftables-0.9.3-r1/skels/all-in-one.nft.bz2$
+- /usr/share/doc/nftables-0.9.3-r1/skels/arp-filter.nft.bz2$
+- /usr/share/doc/nftables-0.9.3-r1/skels/bridge-filter.nft.bz2$
+- /usr/share/doc/nftables-0.9.3-r1/skels/inet-filter.nft.bz2$
+- /usr/share/doc/nftables-0.9.3-r1/skels/inet-nat.nft.bz2$
+- /usr/share/doc/nftables-0.9.3-r1/skels/ipv4-filter.nft.bz2$
+- /usr/share/doc/nftables-0.9.3-r1/skels/ipv4-mangle.nft$
+- /usr/share/doc/nftables-0.9.3-r1/skels/ipv4-nat.nft.bz2$
+- /usr/share/doc/nftables-0.9.3-r1/skels/ipv4-raw.nft.bz2$
+- /usr/share/doc/nftables-0.9.3-r1/skels/ipv6-filter.nft.bz2$
+- /usr/share/doc/nftables-0.9.3-r1/skels/ipv6-mangle.nft$
+- /usr/share/doc/nftables-0.9.3-r1/skels/ipv6-nat.nft.bz2$
+- /usr/share/doc/nftables-0.9.3-r1/skels/ipv6-raw.nft.bz2$
+- /usr/share/doc/nftables-0.9.3-r1/skels/netdev-ingress.nft$
+- /usr/share/doc/nftables-0.9.3-r1/skels/osf$
+- /usr/share/doc/nftables-0.9.3-r1/skels/osf/pf.os.bz2$
+- /usr/share/man$
+- /usr/share/man/man3$
+- /usr/share/man/man3/libnftables.3.bz2$
+- /usr/share/man/man5$
+- /usr/share/man/man5/libnftables-json.5.bz2$
+- /usr/share/man/man8$
+- /usr/share/man/man8/nft.8.bz2$
+- /var$
+- /var/lib$
+- /var/lib/nftables$
+- /var/lib/nftables/.keep_net-firewall_nftables-0$

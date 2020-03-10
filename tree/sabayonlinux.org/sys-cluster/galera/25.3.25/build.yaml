@@ -1,0 +1,30 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i sys-cluster/galera-25.3.25
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> sys-cluster/galera/25.3.25/definition.yaml
+includes:
+- /etc$
+- /etc/conf.d$
+- /etc/conf.d/garbd$
+- /etc/init.d$
+- /etc/init.d/garbd$
+- /usr$
+- /usr/bin$
+- /usr/bin/garbd$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/galera$
+- /usr/lib64/galera/libgalera_smm.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/galera-25.3.25$
+- /usr/share/doc/galera-25.3.25/README-MySQL.bz2$
+- /usr/share/doc/galera-25.3.25/README.bz2$
+- /usr/share/man$
+- /usr/share/man/man8$
+- /usr/share/man/man8/garbd.8.bz2$

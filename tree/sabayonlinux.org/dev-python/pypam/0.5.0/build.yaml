@@ -1,0 +1,26 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/pypam-0.5.0-r3
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-python/pypam/0.5.0/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/python2.7$
+- /usr/lib64/python2.7/site-packages$
+- /usr/lib64/python2.7/site-packages/PAM.so$
+- /usr/lib64/python2.7/site-packages/PyPAM-0.5.0-py2.7.egg-info$
+- /usr/lib64/python3.6$
+- /usr/lib64/python3.6/site-packages$
+- /usr/lib64/python3.6/site-packages/PAM.cpython-36m-x86_64-linux-gnu.so$
+- /usr/lib64/python3.6/site-packages/PyPAM-0.5.0-py3.6.egg-info$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/pypam-0.5.0-r3$
+- /usr/share/doc/pypam-0.5.0-r3/AUTHORS$
+- /usr/share/doc/pypam-0.5.0-r3/pamtest.py.bz2$

@@ -1,0 +1,65 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/optparse-applicative-0.14.2.0
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/optparse-applicative/0.14.2.0/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-optparse-applicative-0.14.2.0-optparse-applicative-0.14.2.0.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-optparse-applicative-0.14.2.0.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/optparse-applicative-0.14.2.0-GBNq1J8CVah4W9ppRmYGeh.conf$
+- /usr/lib64/optparse-applicative-0.14.2.0$
+- /usr/lib64/optparse-applicative-0.14.2.0/ghc-8.0.2$
+- /usr/lib64/optparse-applicative-0.14.2.0/ghc-8.0.2/Options$
+- /usr/lib64/optparse-applicative-0.14.2.0/ghc-8.0.2/Options/Applicative$
+- /usr/lib64/optparse-applicative-0.14.2.0/ghc-8.0.2/Options/Applicative.dyn_hi$
+- /usr/lib64/optparse-applicative-0.14.2.0/ghc-8.0.2/Options/Applicative.hi$
+- /usr/lib64/optparse-applicative-0.14.2.0/ghc-8.0.2/Options/Applicative/Arrows.dyn_hi$
+- /usr/lib64/optparse-applicative-0.14.2.0/ghc-8.0.2/Options/Applicative/Arrows.hi$
+- /usr/lib64/optparse-applicative-0.14.2.0/ghc-8.0.2/Options/Applicative/BashCompletion.dyn_hi$
+- /usr/lib64/optparse-applicative-0.14.2.0/ghc-8.0.2/Options/Applicative/BashCompletion.hi$
+- /usr/lib64/optparse-applicative-0.14.2.0/ghc-8.0.2/Options/Applicative/Builder$
+- /usr/lib64/optparse-applicative-0.14.2.0/ghc-8.0.2/Options/Applicative/Builder.dyn_hi$
+- /usr/lib64/optparse-applicative-0.14.2.0/ghc-8.0.2/Options/Applicative/Builder.hi$
+- /usr/lib64/optparse-applicative-0.14.2.0/ghc-8.0.2/Options/Applicative/Builder/Completer.dyn_hi$
+- /usr/lib64/optparse-applicative-0.14.2.0/ghc-8.0.2/Options/Applicative/Builder/Completer.hi$
+- /usr/lib64/optparse-applicative-0.14.2.0/ghc-8.0.2/Options/Applicative/Builder/Internal.dyn_hi$
+- /usr/lib64/optparse-applicative-0.14.2.0/ghc-8.0.2/Options/Applicative/Builder/Internal.hi$
+- /usr/lib64/optparse-applicative-0.14.2.0/ghc-8.0.2/Options/Applicative/Common.dyn_hi$
+- /usr/lib64/optparse-applicative-0.14.2.0/ghc-8.0.2/Options/Applicative/Common.hi$
+- /usr/lib64/optparse-applicative-0.14.2.0/ghc-8.0.2/Options/Applicative/Extra.dyn_hi$
+- /usr/lib64/optparse-applicative-0.14.2.0/ghc-8.0.2/Options/Applicative/Extra.hi$
+- /usr/lib64/optparse-applicative-0.14.2.0/ghc-8.0.2/Options/Applicative/Help$
+- /usr/lib64/optparse-applicative-0.14.2.0/ghc-8.0.2/Options/Applicative/Help.dyn_hi$
+- /usr/lib64/optparse-applicative-0.14.2.0/ghc-8.0.2/Options/Applicative/Help.hi$
+- /usr/lib64/optparse-applicative-0.14.2.0/ghc-8.0.2/Options/Applicative/Help/Chunk.dyn_hi$
+- /usr/lib64/optparse-applicative-0.14.2.0/ghc-8.0.2/Options/Applicative/Help/Chunk.hi$
+- /usr/lib64/optparse-applicative-0.14.2.0/ghc-8.0.2/Options/Applicative/Help/Core.dyn_hi$
+- /usr/lib64/optparse-applicative-0.14.2.0/ghc-8.0.2/Options/Applicative/Help/Core.hi$
+- /usr/lib64/optparse-applicative-0.14.2.0/ghc-8.0.2/Options/Applicative/Help/Levenshtein.dyn_hi$
+- /usr/lib64/optparse-applicative-0.14.2.0/ghc-8.0.2/Options/Applicative/Help/Levenshtein.hi$
+- /usr/lib64/optparse-applicative-0.14.2.0/ghc-8.0.2/Options/Applicative/Help/Pretty.dyn_hi$
+- /usr/lib64/optparse-applicative-0.14.2.0/ghc-8.0.2/Options/Applicative/Help/Pretty.hi$
+- /usr/lib64/optparse-applicative-0.14.2.0/ghc-8.0.2/Options/Applicative/Help/Types.dyn_hi$
+- /usr/lib64/optparse-applicative-0.14.2.0/ghc-8.0.2/Options/Applicative/Help/Types.hi$
+- /usr/lib64/optparse-applicative-0.14.2.0/ghc-8.0.2/Options/Applicative/Internal.dyn_hi$
+- /usr/lib64/optparse-applicative-0.14.2.0/ghc-8.0.2/Options/Applicative/Internal.hi$
+- /usr/lib64/optparse-applicative-0.14.2.0/ghc-8.0.2/Options/Applicative/Types.dyn_hi$
+- /usr/lib64/optparse-applicative-0.14.2.0/ghc-8.0.2/Options/Applicative/Types.hi$
+- /usr/lib64/optparse-applicative-0.14.2.0/ghc-8.0.2/libHSoptparse-applicative-0.14.2.0-GBNq1J8CVah4W9ppRmYGeh.a$
+- /usr/lib64/x86_64-linux-ghc-7.10.3$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSoptparse-applicative-0.14.2.0-GBNq1J8CVah4W9ppRmYGeh-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/optparse-applicative-0.14.2.0$
+- /usr/share/doc/optparse-applicative-0.14.2.0/LICENSE.bz2$

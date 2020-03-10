@@ -1,0 +1,10 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-plugins/gst-plugins-meta-1.14.3
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> media-plugins/gst-plugins-meta-1.0/1.14.3/definition.yaml
+includes:

@@ -1,0 +1,84 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i net-im/telepathy-mission-control-5.16.4
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> net-im/telepathy-mission-control/5.16.4/definition.yaml
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/mc-tool$
+- /usr/bin/mc-wait-for-name$
+- /usr/include$
+- /usr/include/mission-control-5.5$
+- /usr/include/mission-control-5.5/mission-control-plugins$
+- /usr/include/mission-control-5.5/mission-control-plugins/account-storage.h$
+- /usr/include/mission-control-5.5/mission-control-plugins/account.h$
+- /usr/include/mission-control-5.5/mission-control-plugins/dbus-acl.h$
+- /usr/include/mission-control-5.5/mission-control-plugins/debug.h$
+- /usr/include/mission-control-5.5/mission-control-plugins/dispatch-operation-policy.h$
+- /usr/include/mission-control-5.5/mission-control-plugins/dispatch-operation.h$
+- /usr/include/mission-control-5.5/mission-control-plugins/loader.h$
+- /usr/include/mission-control-5.5/mission-control-plugins/mcp-signals-marshal.h$
+- /usr/include/mission-control-5.5/mission-control-plugins/mission-control-plugins.h$
+- /usr/include/mission-control-5.5/mission-control-plugins/request-policy.h$
+- /usr/include/mission-control-5.5/mission-control-plugins/request.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libmission-control-plugins.so$
+- /usr/lib64/libmission-control-plugins.so.0$
+- /usr/lib64/libmission-control-plugins.so.0.5.1$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/mission-control-plugins.pc$
+- /usr/libexec$
+- /usr/libexec/mission-control-5$
+- /usr/share$
+- /usr/share/dbus-1$
+- /usr/share/dbus-1/services$
+- /usr/share/dbus-1/services/org.freedesktop.Telepathy.AccountManager.service$
+- /usr/share/dbus-1/services/org.freedesktop.Telepathy.MissionControl5.service$
+- /usr/share/doc$
+- /usr/share/doc/telepathy-mission-control-5.16.4$
+- /usr/share/doc/telepathy-mission-control-5.16.4/AUTHORS.bz2$
+- /usr/share/doc/telepathy-mission-control-5.16.4/ChangeLog.bz2$
+- /usr/share/doc/telepathy-mission-control-5.16.4/NEWS.bz2$
+- /usr/share/doc/telepathy-mission-control-5.16.4/README.bz2$
+- /usr/share/glib-2.0$
+- /usr/share/glib-2.0/schemas$
+- /usr/share/glib-2.0/schemas/im.telepathy.MissionControl.FromEmpathy.gschema.xml$
+- /usr/share/gtk-doc$
+- /usr/share/gtk-doc/html$
+- /usr/share/gtk-doc/html/mission-control-plugins$
+- /usr/share/gtk-doc/html/mission-control-plugins/McpAccountManager.html$
+- /usr/share/gtk-doc/html/mission-control-plugins/McpDispatchOperation.html$
+- /usr/share/gtk-doc/html/mission-control-plugins/McpDispatchOperationPolicy.html$
+- /usr/share/gtk-doc/html/mission-control-plugins/McpRequest.html$
+- /usr/share/gtk-doc/html/mission-control-plugins/McpRequestPolicy.html$
+- /usr/share/gtk-doc/html/mission-control-plugins/annotation-glossary.html$
+- /usr/share/gtk-doc/html/mission-control-plugins/api-index-full.html$
+- /usr/share/gtk-doc/html/mission-control-plugins/ch01.html$
+- /usr/share/gtk-doc/html/mission-control-plugins/ch02.html$
+- /usr/share/gtk-doc/html/mission-control-plugins/ch03.html$
+- /usr/share/gtk-doc/html/mission-control-plugins/ch04.html$
+- /usr/share/gtk-doc/html/mission-control-plugins/home.png$
+- /usr/share/gtk-doc/html/mission-control-plugins/index.html$
+- /usr/share/gtk-doc/html/mission-control-plugins/left-insensitive.png$
+- /usr/share/gtk-doc/html/mission-control-plugins/left.png$
+- /usr/share/gtk-doc/html/mission-control-plugins/mission-control-plugins-McpAccountStorage.html$
+- /usr/share/gtk-doc/html/mission-control-plugins/mission-control-plugins-Plugin-loader-and-global-functions.html$
+- /usr/share/gtk-doc/html/mission-control-plugins/mission-control-plugins.devhelp2$
+- /usr/share/gtk-doc/html/mission-control-plugins/object-tree.html$
+- /usr/share/gtk-doc/html/mission-control-plugins/right-insensitive.png$
+- /usr/share/gtk-doc/html/mission-control-plugins/right.png$
+- /usr/share/gtk-doc/html/mission-control-plugins/style.css$
+- /usr/share/gtk-doc/html/mission-control-plugins/up-insensitive.png$
+- /usr/share/gtk-doc/html/mission-control-plugins/up.png$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/mc-tool.1.bz2$
+- /usr/share/man/man1/mc-wait-for-name.1.bz2$
+- /usr/share/man/man8$
+- /usr/share/man/man8/mission-control-5.8.bz2$

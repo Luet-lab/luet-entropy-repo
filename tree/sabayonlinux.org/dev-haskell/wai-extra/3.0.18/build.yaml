@@ -1,0 +1,95 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/wai-extra-3.0.18
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/wai-extra/3.0.18/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-wai-extra-3.0.18-wai-extra-3.0.18.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-wai-extra-3.0.18.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/wai-extra-3.0.18-5jlech2AnR73SgL32lick5.conf$
+- /usr/lib64/wai-extra-3.0.18$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/EventSource$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/EventSource.dyn_hi$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/EventSource.hi$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/EventSource/EventStream.dyn_hi$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/EventSource/EventStream.hi$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/Handler$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/Handler/CGI.dyn_hi$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/Handler/CGI.hi$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/Handler/SCGI.dyn_hi$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/Handler/SCGI.hi$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/Header.dyn_hi$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/Header.hi$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/Middleware$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/Middleware/AcceptOverride.dyn_hi$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/Middleware/AcceptOverride.hi$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/Middleware/AddHeaders.dyn_hi$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/Middleware/AddHeaders.hi$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/Middleware/Approot.dyn_hi$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/Middleware/Approot.hi$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/Middleware/Autohead.dyn_hi$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/Middleware/Autohead.hi$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/Middleware/CleanPath.dyn_hi$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/Middleware/CleanPath.hi$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/Middleware/ForceDomain.dyn_hi$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/Middleware/ForceDomain.hi$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/Middleware/ForceSSL.dyn_hi$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/Middleware/ForceSSL.hi$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/Middleware/Gzip.dyn_hi$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/Middleware/Gzip.hi$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/Middleware/HttpAuth.dyn_hi$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/Middleware/HttpAuth.hi$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/Middleware/Jsonp.dyn_hi$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/Middleware/Jsonp.hi$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/Middleware/Local.dyn_hi$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/Middleware/Local.hi$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/Middleware/MethodOverride.dyn_hi$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/Middleware/MethodOverride.hi$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/Middleware/MethodOverridePost.dyn_hi$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/Middleware/MethodOverridePost.hi$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/Middleware/RequestLogger$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/Middleware/RequestLogger.dyn_hi$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/Middleware/RequestLogger.hi$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/Middleware/RequestLogger/Internal.dyn_hi$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/Middleware/RequestLogger/Internal.hi$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/Middleware/RequestLogger/JSON.dyn_hi$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/Middleware/RequestLogger/JSON.hi$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/Middleware/Rewrite.dyn_hi$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/Middleware/Rewrite.hi$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/Middleware/Routed.dyn_hi$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/Middleware/Routed.hi$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/Middleware/StreamFile.dyn_hi$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/Middleware/StreamFile.hi$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/Middleware/StripHeaders.dyn_hi$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/Middleware/StripHeaders.hi$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/Middleware/Vhost.dyn_hi$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/Middleware/Vhost.hi$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/Parse.dyn_hi$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/Parse.hi$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/Request.dyn_hi$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/Request.hi$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/Test.dyn_hi$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/Test.hi$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/UrlMap.dyn_hi$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/Network/Wai/UrlMap.hi$
+- /usr/lib64/wai-extra-3.0.18/ghc-8.0.2/libHSwai-extra-3.0.18-5jlech2AnR73SgL32lick5.a$
+- /usr/lib64/x86_64-linux-ghc-7.10.3$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSwai-extra-3.0.18-5jlech2AnR73SgL32lick5-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/wai-extra-3.0.18$
+- /usr/share/doc/wai-extra-3.0.18/LICENSE.bz2$

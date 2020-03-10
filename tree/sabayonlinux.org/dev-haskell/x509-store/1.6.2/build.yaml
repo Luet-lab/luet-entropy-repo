@@ -1,0 +1,37 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/x509-store-1.6.2
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/x509-store/1.6.2/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-x509-store-1.6.2-x509-store-1.6.2.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-x509-store-1.6.2.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/x509-store-1.6.2-FRFCux7xHMQAcQRjLnWfBh.conf$
+- /usr/lib64/x509-store-1.6.2$
+- /usr/lib64/x509-store-1.6.2/ghc-8.0.2$
+- /usr/lib64/x509-store-1.6.2/ghc-8.0.2/Data$
+- /usr/lib64/x509-store-1.6.2/ghc-8.0.2/Data/X509$
+- /usr/lib64/x509-store-1.6.2/ghc-8.0.2/Data/X509/CertificateStore.dyn_hi$
+- /usr/lib64/x509-store-1.6.2/ghc-8.0.2/Data/X509/CertificateStore.hi$
+- /usr/lib64/x509-store-1.6.2/ghc-8.0.2/Data/X509/File.dyn_hi$
+- /usr/lib64/x509-store-1.6.2/ghc-8.0.2/Data/X509/File.hi$
+- /usr/lib64/x509-store-1.6.2/ghc-8.0.2/Data/X509/Memory.dyn_hi$
+- /usr/lib64/x509-store-1.6.2/ghc-8.0.2/Data/X509/Memory.hi$
+- /usr/lib64/x509-store-1.6.2/ghc-8.0.2/libHSx509-store-1.6.2-FRFCux7xHMQAcQRjLnWfBh.a$
+- /usr/lib64/x86_64-linux-ghc-7.10.3$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSx509-store-1.6.2-FRFCux7xHMQAcQRjLnWfBh-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/x509-store-1.6.2$
+- /usr/share/doc/x509-store-1.6.2/LICENSE.bz2$

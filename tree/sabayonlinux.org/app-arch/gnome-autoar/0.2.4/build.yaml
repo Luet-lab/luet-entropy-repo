@@ -1,0 +1,68 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-arch/gnome-autoar-0.2.4
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> app-arch/gnome-autoar/0.2.4/definition.yaml
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/gnome-autoar-0$
+- /usr/include/gnome-autoar-0/gnome-autoar$
+- /usr/include/gnome-autoar-0/gnome-autoar/autoar-compressor.h$
+- /usr/include/gnome-autoar-0/gnome-autoar/autoar-enum-types.h$
+- /usr/include/gnome-autoar-0/gnome-autoar/autoar-extractor.h$
+- /usr/include/gnome-autoar-0/gnome-autoar/autoar-format-filter.h$
+- /usr/include/gnome-autoar-0/gnome-autoar/autoar-gtk-chooser.h$
+- /usr/include/gnome-autoar-0/gnome-autoar/autoar-gtk.h$
+- /usr/include/gnome-autoar-0/gnome-autoar/autoar-mime-types.h$
+- /usr/include/gnome-autoar-0/gnome-autoar/autoar-misc.h$
+- /usr/include/gnome-autoar-0/gnome-autoar/gnome-autoar.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/girepository-1.0$
+- /usr/lib64/girepository-1.0/GnomeAutoar-0.1.typelib$
+- /usr/lib64/girepository-1.0/GnomeAutoarGtk-0.1.typelib$
+- /usr/lib64/libgnome-autoar-0.so$
+- /usr/lib64/libgnome-autoar-0.so.0$
+- /usr/lib64/libgnome-autoar-0.so.0.0.0$
+- /usr/lib64/libgnome-autoar-gtk-0.so$
+- /usr/lib64/libgnome-autoar-gtk-0.so.0$
+- /usr/lib64/libgnome-autoar-gtk-0.so.0.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/gnome-autoar-0.pc$
+- /usr/lib64/pkgconfig/gnome-autoar-gtk-0.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/gnome-autoar-0.2.4$
+- /usr/share/doc/gnome-autoar-0.2.4/NEWS.bz2$
+- /usr/share/gir-1.0$
+- /usr/share/gir-1.0/GnomeAutoar-0.1.gir$
+- /usr/share/gir-1.0/GnomeAutoarGtk-0.1.gir$
+- /usr/share/gtk-doc$
+- /usr/share/gtk-doc/html$
+- /usr/share/gtk-doc/html/gnome-autoar$
+- /usr/share/gtk-doc/html/gnome-autoar/AutoarCompressor.html$
+- /usr/share/gtk-doc/html/gnome-autoar/AutoarExtractor.html$
+- /usr/share/gtk-doc/html/gnome-autoar/annotation-glossary.html$
+- /usr/share/gtk-doc/html/gnome-autoar/api-index-full.html$
+- /usr/share/gtk-doc/html/gnome-autoar/ch01.html$
+- /usr/share/gtk-doc/html/gnome-autoar/ch02.html$
+- /usr/share/gtk-doc/html/gnome-autoar/ch03.html$
+- /usr/share/gtk-doc/html/gnome-autoar/gnome-autoar-autoar-format-filter.html$
+- /usr/share/gtk-doc/html/gnome-autoar/gnome-autoar-autoar-gtk-chooser.html$
+- /usr/share/gtk-doc/html/gnome-autoar/gnome-autoar-autoar-misc.html$
+- /usr/share/gtk-doc/html/gnome-autoar/gnome-autoar.devhelp2$
+- /usr/share/gtk-doc/html/gnome-autoar/home.png$
+- /usr/share/gtk-doc/html/gnome-autoar/index.html$
+- /usr/share/gtk-doc/html/gnome-autoar/left-insensitive.png$
+- /usr/share/gtk-doc/html/gnome-autoar/left.png$
+- /usr/share/gtk-doc/html/gnome-autoar/object-tree.html$
+- /usr/share/gtk-doc/html/gnome-autoar/right-insensitive.png$
+- /usr/share/gtk-doc/html/gnome-autoar/right.png$
+- /usr/share/gtk-doc/html/gnome-autoar/style.css$
+- /usr/share/gtk-doc/html/gnome-autoar/up-insensitive.png$
+- /usr/share/gtk-doc/html/gnome-autoar/up.png$

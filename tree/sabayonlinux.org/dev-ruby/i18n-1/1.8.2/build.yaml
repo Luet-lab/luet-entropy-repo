@@ -1,0 +1,79 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/i18n-1.8.2
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-ruby/i18n-1/1.8.2/definition.yaml
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/i18n-1.8.2$
+- /usr/lib64/ruby/gems/2.5.0/gems/i18n-1.8.2/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/i18n-1.8.2/lib/i18n$
+- /usr/lib64/ruby/gems/2.5.0/gems/i18n-1.8.2/lib/i18n.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/i18n-1.8.2/lib/i18n/backend$
+- /usr/lib64/ruby/gems/2.5.0/gems/i18n-1.8.2/lib/i18n/backend.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/i18n-1.8.2/lib/i18n/backend/base.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/i18n-1.8.2/lib/i18n/backend/cache.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/i18n-1.8.2/lib/i18n/backend/cache_file.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/i18n-1.8.2/lib/i18n/backend/cascade.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/i18n-1.8.2/lib/i18n/backend/chain.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/i18n-1.8.2/lib/i18n/backend/fallbacks.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/i18n-1.8.2/lib/i18n/backend/flatten.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/i18n-1.8.2/lib/i18n/backend/gettext.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/i18n-1.8.2/lib/i18n/backend/interpolation_compiler.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/i18n-1.8.2/lib/i18n/backend/key_value.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/i18n-1.8.2/lib/i18n/backend/memoize.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/i18n-1.8.2/lib/i18n/backend/metadata.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/i18n-1.8.2/lib/i18n/backend/pluralization.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/i18n-1.8.2/lib/i18n/backend/simple.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/i18n-1.8.2/lib/i18n/backend/transliterator.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/i18n-1.8.2/lib/i18n/config.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/i18n-1.8.2/lib/i18n/core_ext$
+- /usr/lib64/ruby/gems/2.5.0/gems/i18n-1.8.2/lib/i18n/core_ext/hash.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/i18n-1.8.2/lib/i18n/exceptions.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/i18n-1.8.2/lib/i18n/gettext$
+- /usr/lib64/ruby/gems/2.5.0/gems/i18n-1.8.2/lib/i18n/gettext.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/i18n-1.8.2/lib/i18n/gettext/helpers.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/i18n-1.8.2/lib/i18n/gettext/po_parser.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/i18n-1.8.2/lib/i18n/interpolate$
+- /usr/lib64/ruby/gems/2.5.0/gems/i18n-1.8.2/lib/i18n/interpolate/ruby.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/i18n-1.8.2/lib/i18n/locale$
+- /usr/lib64/ruby/gems/2.5.0/gems/i18n-1.8.2/lib/i18n/locale.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/i18n-1.8.2/lib/i18n/locale/fallbacks.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/i18n-1.8.2/lib/i18n/locale/tag$
+- /usr/lib64/ruby/gems/2.5.0/gems/i18n-1.8.2/lib/i18n/locale/tag.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/i18n-1.8.2/lib/i18n/locale/tag/parents.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/i18n-1.8.2/lib/i18n/locale/tag/rfc4646.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/i18n-1.8.2/lib/i18n/locale/tag/simple.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/i18n-1.8.2/lib/i18n/middleware.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/i18n-1.8.2/lib/i18n/tests$
+- /usr/lib64/ruby/gems/2.5.0/gems/i18n-1.8.2/lib/i18n/tests.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/i18n-1.8.2/lib/i18n/tests/basics.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/i18n-1.8.2/lib/i18n/tests/defaults.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/i18n-1.8.2/lib/i18n/tests/interpolation.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/i18n-1.8.2/lib/i18n/tests/link.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/i18n-1.8.2/lib/i18n/tests/localization$
+- /usr/lib64/ruby/gems/2.5.0/gems/i18n-1.8.2/lib/i18n/tests/localization.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/i18n-1.8.2/lib/i18n/tests/localization/date.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/i18n-1.8.2/lib/i18n/tests/localization/date_time.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/i18n-1.8.2/lib/i18n/tests/localization/procs.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/i18n-1.8.2/lib/i18n/tests/localization/time.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/i18n-1.8.2/lib/i18n/tests/lookup.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/i18n-1.8.2/lib/i18n/tests/pluralization.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/i18n-1.8.2/lib/i18n/tests/procs.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/i18n-1.8.2/lib/i18n/version.rb$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/i18n-1.8.2.gemspec$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/i18n-1.8.2$
+- /usr/share/doc/i18n-1.8.2/CHANGELOG.md$
+- /usr/share/doc/i18n-1.8.2/README.md.bz2$

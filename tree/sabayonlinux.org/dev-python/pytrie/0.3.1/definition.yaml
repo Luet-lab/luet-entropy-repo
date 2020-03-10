@@ -1,0 +1,17 @@
+
+category: "dev-python"
+name: "pytrie"
+version: "0.3.1"
+requires:
+- category: "dev-python"
+  name: "sortedcontainers"
+  version: ">=1.5.7"
+- category: "dev-lang"
+  name: "python-exec-2"
+  version: ">=2.4.6"
+- category: "dev-python"
+  name: "pytest"
+  version: ">=5.3.5"
+- category: "dev-python"
+  name: "setuptools"
+  version: ">=44.0.0"

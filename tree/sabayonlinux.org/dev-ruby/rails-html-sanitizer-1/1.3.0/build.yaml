@@ -1,0 +1,32 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/rails-html-sanitizer-1.3.0
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-ruby/rails-html-sanitizer-1/1.3.0/definition.yaml
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/rails-html-sanitizer-1.3.0$
+- /usr/lib64/ruby/gems/2.5.0/gems/rails-html-sanitizer-1.3.0/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/rails-html-sanitizer-1.3.0/lib/rails$
+- /usr/lib64/ruby/gems/2.5.0/gems/rails-html-sanitizer-1.3.0/lib/rails-html-sanitizer.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rails-html-sanitizer-1.3.0/lib/rails/html$
+- /usr/lib64/ruby/gems/2.5.0/gems/rails-html-sanitizer-1.3.0/lib/rails/html/sanitizer$
+- /usr/lib64/ruby/gems/2.5.0/gems/rails-html-sanitizer-1.3.0/lib/rails/html/sanitizer.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rails-html-sanitizer-1.3.0/lib/rails/html/sanitizer/version.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rails-html-sanitizer-1.3.0/lib/rails/html/scrubbers.rb$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/rails-html-sanitizer-1.3.0.gemspec$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/rails-html-sanitizer-1.3.0$
+- /usr/share/doc/rails-html-sanitizer-1.3.0/CHANGELOG.md.bz2$
+- /usr/share/doc/rails-html-sanitizer-1.3.0/README.md.bz2$

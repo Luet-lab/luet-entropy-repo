@@ -1,0 +1,33 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/test-framework-hunit-0.3.0.2
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/test-framework-hunit/0.3.0.2/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-test-framework-hunit-0.3.0.2-test-framework-hunit-0.3.0.2.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-test-framework-hunit-0.3.0.2.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/test-framework-hunit-0.3.0.2-auzWTaCArD1Q4zL5ldOBZ.conf$
+- /usr/lib64/test-framework-hunit-0.3.0.2$
+- /usr/lib64/test-framework-hunit-0.3.0.2/ghc-8.0.2$
+- /usr/lib64/test-framework-hunit-0.3.0.2/ghc-8.0.2/Test$
+- /usr/lib64/test-framework-hunit-0.3.0.2/ghc-8.0.2/Test/Framework$
+- /usr/lib64/test-framework-hunit-0.3.0.2/ghc-8.0.2/Test/Framework/Providers$
+- /usr/lib64/test-framework-hunit-0.3.0.2/ghc-8.0.2/Test/Framework/Providers/HUnit.dyn_hi$
+- /usr/lib64/test-framework-hunit-0.3.0.2/ghc-8.0.2/Test/Framework/Providers/HUnit.hi$
+- /usr/lib64/test-framework-hunit-0.3.0.2/ghc-8.0.2/libHStest-framework-hunit-0.3.0.2-auzWTaCArD1Q4zL5ldOBZ.a$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHStest-framework-hunit-0.3.0.2-auzWTaCArD1Q4zL5ldOBZ-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/test-framework-hunit-0.3.0.2$
+- /usr/share/doc/test-framework-hunit-0.3.0.2/LICENSE.bz2$

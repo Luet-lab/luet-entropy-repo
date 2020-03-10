@@ -1,0 +1,35 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/rack-test-1.1.0
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-ruby/rack-test-1.0/1.1.0/definition.yaml
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-test-1.1.0$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-test-1.1.0/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-test-1.1.0/lib/rack$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-test-1.1.0/lib/rack/mock_session.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-test-1.1.0/lib/rack/test$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-test-1.1.0/lib/rack/test.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-test-1.1.0/lib/rack/test/cookie_jar.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-test-1.1.0/lib/rack/test/methods.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-test-1.1.0/lib/rack/test/mock_digest_request.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-test-1.1.0/lib/rack/test/uploaded_file.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-test-1.1.0/lib/rack/test/utils.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/rack-test-1.1.0/lib/rack/test/version.rb$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/rack-test-1.1.0.gemspec$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/rack-test-1.1.0$
+- /usr/share/doc/rack-test-1.1.0/History.md.bz2$
+- /usr/share/doc/rack-test-1.1.0/README.md.bz2$

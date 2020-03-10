@@ -1,0 +1,45 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/socks-0.5.5
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/socks/0.5.5/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-socks-0.5.5-socks-0.5.5.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-socks-0.5.5.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/socks-0.5.5-LtJbB4yWMKiGooAgZe3FOa.conf$
+- /usr/lib64/socks-0.5.5$
+- /usr/lib64/socks-0.5.5/ghc-7.10.3$
+- /usr/lib64/socks-0.5.5/ghc-8.0.2$
+- /usr/lib64/socks-0.5.5/ghc-8.0.2/Network$
+- /usr/lib64/socks-0.5.5/ghc-8.0.2/Network/Socks5$
+- /usr/lib64/socks-0.5.5/ghc-8.0.2/Network/Socks5.dyn_hi$
+- /usr/lib64/socks-0.5.5/ghc-8.0.2/Network/Socks5.hi$
+- /usr/lib64/socks-0.5.5/ghc-8.0.2/Network/Socks5/Command.dyn_hi$
+- /usr/lib64/socks-0.5.5/ghc-8.0.2/Network/Socks5/Command.hi$
+- /usr/lib64/socks-0.5.5/ghc-8.0.2/Network/Socks5/Conf.dyn_hi$
+- /usr/lib64/socks-0.5.5/ghc-8.0.2/Network/Socks5/Conf.hi$
+- /usr/lib64/socks-0.5.5/ghc-8.0.2/Network/Socks5/Lowlevel.dyn_hi$
+- /usr/lib64/socks-0.5.5/ghc-8.0.2/Network/Socks5/Lowlevel.hi$
+- /usr/lib64/socks-0.5.5/ghc-8.0.2/Network/Socks5/Parse.dyn_hi$
+- /usr/lib64/socks-0.5.5/ghc-8.0.2/Network/Socks5/Parse.hi$
+- /usr/lib64/socks-0.5.5/ghc-8.0.2/Network/Socks5/Types.dyn_hi$
+- /usr/lib64/socks-0.5.5/ghc-8.0.2/Network/Socks5/Types.hi$
+- /usr/lib64/socks-0.5.5/ghc-8.0.2/Network/Socks5/Wire.dyn_hi$
+- /usr/lib64/socks-0.5.5/ghc-8.0.2/Network/Socks5/Wire.hi$
+- /usr/lib64/socks-0.5.5/ghc-8.0.2/libHSsocks-0.5.5-LtJbB4yWMKiGooAgZe3FOa.a$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSsocks-0.5.5-LtJbB4yWMKiGooAgZe3FOa-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/socks-0.5.5$
+- /usr/share/doc/socks-0.5.5/LICENSE.bz2$

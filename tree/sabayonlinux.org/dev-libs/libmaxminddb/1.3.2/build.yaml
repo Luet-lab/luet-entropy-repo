@@ -1,0 +1,46 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/libmaxminddb-1.3.2
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-libs/libmaxminddb/1.3.2/definition.yaml
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/mmdblookup$
+- /usr/include$
+- /usr/include/maxminddb.h$
+- /usr/include/maxminddb_config.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libmaxminddb.so$
+- /usr/lib64/libmaxminddb.so.0$
+- /usr/lib64/libmaxminddb.so.0.0.7$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libmaxminddb.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libmaxminddb-1.3.2$
+- /usr/share/doc/libmaxminddb-1.3.2/Changes.md.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/mmdblookup.1.bz2$
+- /usr/share/man/man3$
+- /usr/share/man/man3/MMDB_aget_value.3$
+- /usr/share/man/man3/MMDB_close.3$
+- /usr/share/man/man3/MMDB_dump_entry_data_list.3$
+- /usr/share/man/man3/MMDB_free_entry_data_list.3$
+- /usr/share/man/man3/MMDB_get_entry_data_list.3$
+- /usr/share/man/man3/MMDB_get_metadata_as_entry_data_list.3$
+- /usr/share/man/man3/MMDB_get_value.3$
+- /usr/share/man/man3/MMDB_lib_version.3$
+- /usr/share/man/man3/MMDB_lookup_sockaddr.3$
+- /usr/share/man/man3/MMDB_lookup_string.3$
+- /usr/share/man/man3/MMDB_open.3$
+- /usr/share/man/man3/MMDB_read_node.3$
+- /usr/share/man/man3/MMDB_strerror.3$
+- /usr/share/man/man3/MMDB_vget_value.3$
+- /usr/share/man/man3/libmaxminddb.3.bz2$

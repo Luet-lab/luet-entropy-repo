@@ -1,0 +1,25 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/afm-0.2.2
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-ruby/afm/0.2.2/definition.yaml
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/afm-0.2.2$
+- /usr/lib64/ruby/gems/2.5.0/gems/afm-0.2.2/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/afm-0.2.2/lib/afm.rb$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/afm-0.2.2.gemspec$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/afm-0.2.2$
+- /usr/share/doc/afm-0.2.2/README.rdoc.bz2$

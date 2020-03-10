@@ -1,0 +1,61 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-sound/lash-0.5.4-r3
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> media-sound/lash/0.5.4/definition.yaml
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/lash_control$
+- /usr/bin/lash_panel$
+- /usr/bin/lash_save_button$
+- /usr/bin/lash_simple_client$
+- /usr/bin/lash_synth$
+- /usr/bin/lashd$
+- /usr/include$
+- /usr/include/lash-1.0$
+- /usr/include/lash-1.0/lash$
+- /usr/include/lash-1.0/lash/client_interface.h$
+- /usr/include/lash-1.0/lash/config.h$
+- /usr/include/lash-1.0/lash/event.h$
+- /usr/include/lash-1.0/lash/lash.h$
+- /usr/include/lash-1.0/lash/protocol.h$
+- /usr/include/lash-1.0/lash/types.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/liblash.so$
+- /usr/lib32/liblash.so.1$
+- /usr/lib32/liblash.so.1.1.1$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/lash-1.0.pc$
+- /usr/lib64$
+- /usr/lib64/liblash.so$
+- /usr/lib64/liblash.so.1$
+- /usr/lib64/liblash.so.1.1.1$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/lash-1.0.pc$
+- /usr/lib64/python2.7$
+- /usr/lib64/python2.7/site-packages$
+- /usr/lib64/python2.7/site-packages/_lash.so$
+- /usr/lib64/python2.7/site-packages/lash.py$
+- /usr/lib64/python2.7/site-packages/lash.pyc$
+- /usr/lib64/python2.7/site-packages/lash.pyo$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/lash-0.5.4-r3$
+- /usr/share/doc/lash-0.5.4-r3/html$
+- /usr/share/doc/lash-0.5.4-r3/html/lash-manual.html$
+- /usr/share/lash$
+- /usr/share/lash/dtds$
+- /usr/share/lash/dtds/lash-project-1.0.dtd$
+- /usr/share/lash/icons$
+- /usr/share/lash/icons/lash.svg$
+- /usr/share/lash/icons/lash.xcf$
+- /usr/share/lash/icons/lash_16px.png$
+- /usr/share/lash/icons/lash_24px.png$
+- /usr/share/lash/icons/lash_48px.png$
+- /usr/share/lash/icons/lash_96px.png$

@@ -1,0 +1,80 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/clutter-gst-3.0.27
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> media-libs/clutter-gst-3.0/3.0.27/definition.yaml
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/clutter-gst-3.0$
+- /usr/include/clutter-gst-3.0/clutter-gst$
+- /usr/include/clutter-gst-3.0/clutter-gst/clutter-gst-aspectratio.h$
+- /usr/include/clutter-gst-3.0/clutter-gst/clutter-gst-camera-device.h$
+- /usr/include/clutter-gst-3.0/clutter-gst/clutter-gst-camera-manager.h$
+- /usr/include/clutter-gst-3.0/clutter-gst/clutter-gst-camera.h$
+- /usr/include/clutter-gst-3.0/clutter-gst/clutter-gst-content.h$
+- /usr/include/clutter-gst-3.0/clutter-gst/clutter-gst-crop.h$
+- /usr/include/clutter-gst-3.0/clutter-gst/clutter-gst-enum-types.h$
+- /usr/include/clutter-gst-3.0/clutter-gst/clutter-gst-playback.h$
+- /usr/include/clutter-gst-3.0/clutter-gst/clutter-gst-player.h$
+- /usr/include/clutter-gst-3.0/clutter-gst/clutter-gst-types.h$
+- /usr/include/clutter-gst-3.0/clutter-gst/clutter-gst-util.h$
+- /usr/include/clutter-gst-3.0/clutter-gst/clutter-gst-version.h$
+- /usr/include/clutter-gst-3.0/clutter-gst/clutter-gst-video-sink.h$
+- /usr/include/clutter-gst-3.0/clutter-gst/clutter-gst.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/girepository-1.0$
+- /usr/lib64/girepository-1.0/ClutterGst-3.0.typelib$
+- /usr/lib64/gstreamer-1.0$
+- /usr/lib64/gstreamer-1.0/libcluttergst3.so$
+- /usr/lib64/libclutter-gst-3.0.so$
+- /usr/lib64/libclutter-gst-3.0.so.0$
+- /usr/lib64/libclutter-gst-3.0.so.0.27.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/clutter-gst-3.0.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/clutter-gst-3.0.27$
+- /usr/share/doc/clutter-gst-3.0.27/AUTHORS.bz2$
+- /usr/share/doc/clutter-gst-3.0.27/NEWS.bz2$
+- /usr/share/doc/clutter-gst-3.0.27/README.bz2$
+- /usr/share/gir-1.0$
+- /usr/share/gir-1.0/ClutterGst-3.0.gir$
+- /usr/share/gtk-doc$
+- /usr/share/gtk-doc/html$
+- /usr/share/gtk-doc/html/clutter-gst-3.0$
+- /usr/share/gtk-doc/html/clutter-gst-3.0/ClutterGstAspectratio.html$
+- /usr/share/gtk-doc/html/clutter-gst-3.0/ClutterGstCamera.html$
+- /usr/share/gtk-doc/html/clutter-gst-3.0/ClutterGstCameraDevice.html$
+- /usr/share/gtk-doc/html/clutter-gst-3.0/ClutterGstCameraManager.html$
+- /usr/share/gtk-doc/html/clutter-gst-3.0/ClutterGstContent.html$
+- /usr/share/gtk-doc/html/clutter-gst-3.0/ClutterGstCrop.html$
+- /usr/share/gtk-doc/html/clutter-gst-3.0/ClutterGstPlayback.html$
+- /usr/share/gtk-doc/html/clutter-gst-3.0/ClutterGstPlayer.html$
+- /usr/share/gtk-doc/html/clutter-gst-3.0/annotation-glossary.html$
+- /usr/share/gtk-doc/html/clutter-gst-3.0/api-index-all.html$
+- /usr/share/gtk-doc/html/clutter-gst-3.0/ch01.html$
+- /usr/share/gtk-doc/html/clutter-gst-3.0/ch02.html$
+- /usr/share/gtk-doc/html/clutter-gst-3.0/ch03.html$
+- /usr/share/gtk-doc/html/clutter-gst-3.0/ch04.html$
+- /usr/share/gtk-doc/html/clutter-gst-3.0/ch05.html$
+- /usr/share/gtk-doc/html/clutter-gst-3.0/clutter-gst-3.0.devhelp2$
+- /usr/share/gtk-doc/html/clutter-gst-3.0/clutter-gst-Types.html$
+- /usr/share/gtk-doc/html/clutter-gst-3.0/clutter-gst-Utilities.html$
+- /usr/share/gtk-doc/html/clutter-gst-3.0/clutter-gst-Versioning-Macros.html$
+- /usr/share/gtk-doc/html/clutter-gst-3.0/clutter-gst-Video-Sink.html$
+- /usr/share/gtk-doc/html/clutter-gst-3.0/home.png$
+- /usr/share/gtk-doc/html/clutter-gst-3.0/index.html$
+- /usr/share/gtk-doc/html/clutter-gst-3.0/left-insensitive.png$
+- /usr/share/gtk-doc/html/clutter-gst-3.0/left.png$
+- /usr/share/gtk-doc/html/clutter-gst-3.0/license.html$
+- /usr/share/gtk-doc/html/clutter-gst-3.0/right-insensitive.png$
+- /usr/share/gtk-doc/html/clutter-gst-3.0/right.png$
+- /usr/share/gtk-doc/html/clutter-gst-3.0/style.css$
+- /usr/share/gtk-doc/html/clutter-gst-3.0/up-insensitive.png$
+- /usr/share/gtk-doc/html/clutter-gst-3.0/up.png$

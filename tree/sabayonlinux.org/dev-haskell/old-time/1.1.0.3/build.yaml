@@ -1,0 +1,35 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/old-time-1.1.0.3-r1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/old-time/1.1.0.3/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-old-time-1.1.0.3-r1-old-time-1.1.0.3.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-old-time-1.1.0.3-r1.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/old-time-1.1.0.3-KWRsMSdY26c2L27Y9n9cyq.conf$
+- /usr/lib64/old-time-1.1.0.3$
+- /usr/lib64/old-time-1.1.0.3/ghc-7.10.3$
+- /usr/lib64/old-time-1.1.0.3/ghc-8.0.2$
+- /usr/lib64/old-time-1.1.0.3/ghc-8.0.2/System$
+- /usr/lib64/old-time-1.1.0.3/ghc-8.0.2/System/Time.dyn_hi$
+- /usr/lib64/old-time-1.1.0.3/ghc-8.0.2/System/Time.hi$
+- /usr/lib64/old-time-1.1.0.3/ghc-8.0.2/include$
+- /usr/lib64/old-time-1.1.0.3/ghc-8.0.2/include/HsTime.h$
+- /usr/lib64/old-time-1.1.0.3/ghc-8.0.2/include/HsTimeConfig.h$
+- /usr/lib64/old-time-1.1.0.3/ghc-8.0.2/libHSold-time-1.1.0.3-KWRsMSdY26c2L27Y9n9cyq.a$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSold-time-1.1.0.3-KWRsMSdY26c2L27Y9n9cyq-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/old-time-1.1.0.3-r1$
+- /usr/share/doc/old-time-1.1.0.3-r1/LICENSE.bz2$

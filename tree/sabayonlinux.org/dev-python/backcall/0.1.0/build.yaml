@@ -1,0 +1,33 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/backcall-0.1.0
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-python/backcall/0.1.0/definition.yaml
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/python3.6$
+- /usr/lib64/python3.6/site-packages$
+- /usr/lib64/python3.6/site-packages/backcall$
+- /usr/lib64/python3.6/site-packages/backcall-0.1.0-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/backcall/__init__.py$
+- /usr/lib64/python3.6/site-packages/backcall/__pycache__$
+- /usr/lib64/python3.6/site-packages/backcall/__pycache__/__init__.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/backcall/__pycache__/__init__.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/backcall/__pycache__/__init__.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/backcall/__pycache__/_signatures.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/backcall/__pycache__/_signatures.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/backcall/__pycache__/_signatures.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/backcall/__pycache__/backcall.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/backcall/__pycache__/backcall.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/backcall/__pycache__/backcall.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/backcall/_signatures.py$
+- /usr/lib64/python3.6/site-packages/backcall/backcall.py$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/backcall-0.1.0$
+- /usr/share/doc/backcall-0.1.0/README.rst.bz2$

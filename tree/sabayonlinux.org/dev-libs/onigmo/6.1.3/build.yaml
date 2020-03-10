@@ -1,0 +1,38 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/onigmo-6.1.3
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-libs/onigmo/6.1.3/definition.yaml
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/onigmo-config$
+- /usr/include$
+- /usr/include/onigmo.h$
+- /usr/include/onigmognu.h$
+- /usr/include/onigmoposix.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libonigmo.so$
+- /usr/lib64/libonigmo.so.6$
+- /usr/lib64/libonigmo.so.6.0.4$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/onigmo.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/onigmo-6.1.3$
+- /usr/share/doc/onigmo-6.1.3/API.bz2$
+- /usr/share/doc/onigmo-6.1.3/API.ja.bz2$
+- /usr/share/doc/onigmo-6.1.3/AUTHORS$
+- /usr/share/doc/onigmo-6.1.3/FAQ.bz2$
+- /usr/share/doc/onigmo-6.1.3/FAQ.ja.bz2$
+- /usr/share/doc/onigmo-6.1.3/HISTORY.bz2$
+- /usr/share/doc/onigmo-6.1.3/RE.bz2$
+- /usr/share/doc/onigmo-6.1.3/RE.ja.bz2$
+- /usr/share/doc/onigmo-6.1.3/README.bz2$
+- /usr/share/doc/onigmo-6.1.3/README.ja.bz2$
+- /usr/share/doc/onigmo-6.1.3/UnicodeProps.txt.bz2$

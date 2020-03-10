@@ -1,0 +1,54 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/scientific-0.3.4.9
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/scientific/0.3.4.9/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-scientific-0.3.4.9-scientific-0.3.4.9.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-scientific-0.3.4.9.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/scientific-0.3.4.9-f6z7zc732eiPaatBAhbt.conf$
+- /usr/lib64/scientific-0.3.4.9$
+- /usr/lib64/scientific-0.3.4.9/ghc-8.0.2$
+- /usr/lib64/scientific-0.3.4.9/ghc-8.0.2/Data$
+- /usr/lib64/scientific-0.3.4.9/ghc-8.0.2/Data/ByteString$
+- /usr/lib64/scientific-0.3.4.9/ghc-8.0.2/Data/ByteString/Builder$
+- /usr/lib64/scientific-0.3.4.9/ghc-8.0.2/Data/ByteString/Builder/Scientific.dyn_hi$
+- /usr/lib64/scientific-0.3.4.9/ghc-8.0.2/Data/ByteString/Builder/Scientific.hi$
+- /usr/lib64/scientific-0.3.4.9/ghc-8.0.2/Data/Scientific.dyn_hi$
+- /usr/lib64/scientific-0.3.4.9/ghc-8.0.2/Data/Scientific.hi$
+- /usr/lib64/scientific-0.3.4.9/ghc-8.0.2/Data/Text$
+- /usr/lib64/scientific-0.3.4.9/ghc-8.0.2/Data/Text/Lazy$
+- /usr/lib64/scientific-0.3.4.9/ghc-8.0.2/Data/Text/Lazy/Builder$
+- /usr/lib64/scientific-0.3.4.9/ghc-8.0.2/Data/Text/Lazy/Builder/Scientific.dyn_hi$
+- /usr/lib64/scientific-0.3.4.9/ghc-8.0.2/Data/Text/Lazy/Builder/Scientific.hi$
+- /usr/lib64/scientific-0.3.4.9/ghc-8.0.2/GHC$
+- /usr/lib64/scientific-0.3.4.9/ghc-8.0.2/GHC/Integer$
+- /usr/lib64/scientific-0.3.4.9/ghc-8.0.2/GHC/Integer/Compat.dyn_hi$
+- /usr/lib64/scientific-0.3.4.9/ghc-8.0.2/GHC/Integer/Compat.hi$
+- /usr/lib64/scientific-0.3.4.9/ghc-8.0.2/GHC/Integer/Logarithms$
+- /usr/lib64/scientific-0.3.4.9/ghc-8.0.2/GHC/Integer/Logarithms/Compat.dyn_hi$
+- /usr/lib64/scientific-0.3.4.9/ghc-8.0.2/GHC/Integer/Logarithms/Compat.hi$
+- /usr/lib64/scientific-0.3.4.9/ghc-8.0.2/Math$
+- /usr/lib64/scientific-0.3.4.9/ghc-8.0.2/Math/NumberTheory$
+- /usr/lib64/scientific-0.3.4.9/ghc-8.0.2/Math/NumberTheory/Logarithms.dyn_hi$
+- /usr/lib64/scientific-0.3.4.9/ghc-8.0.2/Math/NumberTheory/Logarithms.hi$
+- /usr/lib64/scientific-0.3.4.9/ghc-8.0.2/Utils.dyn_hi$
+- /usr/lib64/scientific-0.3.4.9/ghc-8.0.2/Utils.hi$
+- /usr/lib64/scientific-0.3.4.9/ghc-8.0.2/libHSscientific-0.3.4.9-f6z7zc732eiPaatBAhbt.a$
+- /usr/lib64/x86_64-linux-ghc-7.10.3$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSscientific-0.3.4.9-f6z7zc732eiPaatBAhbt-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/scientific-0.3.4.9$
+- /usr/share/doc/scientific-0.3.4.9/LICENSE.bz2$

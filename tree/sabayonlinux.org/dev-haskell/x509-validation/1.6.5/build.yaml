@@ -1,0 +1,42 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/x509-validation-1.6.5
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/x509-validation/1.6.5/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-x509-validation-1.6.5-x509-validation-1.6.5.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-x509-validation-1.6.5.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/x509-validation-1.6.5-9d1Itw2kfW6JXBlF0ahQsB.conf$
+- /usr/lib64/x509-validation-1.6.5$
+- /usr/lib64/x509-validation-1.6.5/ghc-8.0.2$
+- /usr/lib64/x509-validation-1.6.5/ghc-8.0.2/Data$
+- /usr/lib64/x509-validation-1.6.5/ghc-8.0.2/Data/X509$
+- /usr/lib64/x509-validation-1.6.5/ghc-8.0.2/Data/X509/Validation$
+- /usr/lib64/x509-validation-1.6.5/ghc-8.0.2/Data/X509/Validation.dyn_hi$
+- /usr/lib64/x509-validation-1.6.5/ghc-8.0.2/Data/X509/Validation.hi$
+- /usr/lib64/x509-validation-1.6.5/ghc-8.0.2/Data/X509/Validation/Cache.dyn_hi$
+- /usr/lib64/x509-validation-1.6.5/ghc-8.0.2/Data/X509/Validation/Cache.hi$
+- /usr/lib64/x509-validation-1.6.5/ghc-8.0.2/Data/X509/Validation/Fingerprint.dyn_hi$
+- /usr/lib64/x509-validation-1.6.5/ghc-8.0.2/Data/X509/Validation/Fingerprint.hi$
+- /usr/lib64/x509-validation-1.6.5/ghc-8.0.2/Data/X509/Validation/Signature.dyn_hi$
+- /usr/lib64/x509-validation-1.6.5/ghc-8.0.2/Data/X509/Validation/Signature.hi$
+- /usr/lib64/x509-validation-1.6.5/ghc-8.0.2/Data/X509/Validation/Types.dyn_hi$
+- /usr/lib64/x509-validation-1.6.5/ghc-8.0.2/Data/X509/Validation/Types.hi$
+- /usr/lib64/x509-validation-1.6.5/ghc-8.0.2/libHSx509-validation-1.6.5-9d1Itw2kfW6JXBlF0ahQsB.a$
+- /usr/lib64/x86_64-linux-ghc-7.10.3$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSx509-validation-1.6.5-9d1Itw2kfW6JXBlF0ahQsB-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/x509-validation-1.6.5$
+- /usr/share/doc/x509-validation-1.6.5/LICENSE.bz2$

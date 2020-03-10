@@ -1,0 +1,75 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/hashie-4.0.0
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-ruby/hashie-4/4.0.0/definition.yaml
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashie-4.0.0$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashie-4.0.0/bin$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashie-4.0.0/bin/console$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashie-4.0.0/bin/setup$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashie-4.0.0/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashie-4.0.0/lib/hashie$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashie-4.0.0/lib/hashie.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashie-4.0.0/lib/hashie/array.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashie-4.0.0/lib/hashie/clash.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashie-4.0.0/lib/hashie/dash.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashie-4.0.0/lib/hashie/extensions$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashie-4.0.0/lib/hashie/extensions/active_support$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashie-4.0.0/lib/hashie/extensions/active_support/core_ext$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashie-4.0.0/lib/hashie/extensions/active_support/core_ext/hash.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashie-4.0.0/lib/hashie/extensions/array$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashie-4.0.0/lib/hashie/extensions/array/pretty_inspect.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashie-4.0.0/lib/hashie/extensions/coercion.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashie-4.0.0/lib/hashie/extensions/dash$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashie-4.0.0/lib/hashie/extensions/dash/coercion.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashie-4.0.0/lib/hashie/extensions/dash/indifferent_access.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashie-4.0.0/lib/hashie/extensions/dash/property_translation.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashie-4.0.0/lib/hashie/extensions/deep_fetch.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashie-4.0.0/lib/hashie/extensions/deep_find.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashie-4.0.0/lib/hashie/extensions/deep_locate.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashie-4.0.0/lib/hashie/extensions/deep_merge.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashie-4.0.0/lib/hashie/extensions/ignore_undeclared.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashie-4.0.0/lib/hashie/extensions/indifferent_access.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashie-4.0.0/lib/hashie/extensions/key_conflict_warning.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashie-4.0.0/lib/hashie/extensions/key_conversion.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashie-4.0.0/lib/hashie/extensions/mash$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashie-4.0.0/lib/hashie/extensions/mash/define_accessors.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashie-4.0.0/lib/hashie/extensions/mash/keep_original_keys.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashie-4.0.0/lib/hashie/extensions/mash/safe_assignment.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashie-4.0.0/lib/hashie/extensions/mash/symbolize_keys.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashie-4.0.0/lib/hashie/extensions/merge_initializer.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashie-4.0.0/lib/hashie/extensions/method_access.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashie-4.0.0/lib/hashie/extensions/parsers$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashie-4.0.0/lib/hashie/extensions/parsers/yaml_erb_parser.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashie-4.0.0/lib/hashie/extensions/pretty_inspect.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashie-4.0.0/lib/hashie/extensions/ruby_version.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashie-4.0.0/lib/hashie/extensions/ruby_version_check.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashie-4.0.0/lib/hashie/extensions/strict_key_access.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashie-4.0.0/lib/hashie/extensions/stringify_keys.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashie-4.0.0/lib/hashie/extensions/symbolize_keys.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashie-4.0.0/lib/hashie/hash.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashie-4.0.0/lib/hashie/logger.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashie-4.0.0/lib/hashie/mash.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashie-4.0.0/lib/hashie/railtie.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashie-4.0.0/lib/hashie/rash.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashie-4.0.0/lib/hashie/trash.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashie-4.0.0/lib/hashie/utils.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashie-4.0.0/lib/hashie/version.rb$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/hashie-4.0.0.gemspec$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/hashie-4.0.0$
+- /usr/share/doc/hashie-4.0.0/CHANGELOG.md.bz2$
+- /usr/share/doc/hashie-4.0.0/README.md.bz2$

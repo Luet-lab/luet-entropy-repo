@@ -1,0 +1,47 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/regex-applicative-0.3.3
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/regex-applicative/0.3.3/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-regex-applicative-0.3.3-regex-applicative-0.3.3.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-regex-applicative-0.3.3.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/regex-applicative-0.3.3-9dbODILokN54la9GS4TJob.conf$
+- /usr/lib64/regex-applicative-0.3.3$
+- /usr/lib64/regex-applicative-0.3.3/ghc-8.0.2$
+- /usr/lib64/regex-applicative-0.3.3/ghc-8.0.2/Text$
+- /usr/lib64/regex-applicative-0.3.3/ghc-8.0.2/Text/Regex$
+- /usr/lib64/regex-applicative-0.3.3/ghc-8.0.2/Text/Regex/Applicative$
+- /usr/lib64/regex-applicative-0.3.3/ghc-8.0.2/Text/Regex/Applicative.dyn_hi$
+- /usr/lib64/regex-applicative-0.3.3/ghc-8.0.2/Text/Regex/Applicative.hi$
+- /usr/lib64/regex-applicative-0.3.3/ghc-8.0.2/Text/Regex/Applicative/Common.dyn_hi$
+- /usr/lib64/regex-applicative-0.3.3/ghc-8.0.2/Text/Regex/Applicative/Common.hi$
+- /usr/lib64/regex-applicative-0.3.3/ghc-8.0.2/Text/Regex/Applicative/Compile.dyn_hi$
+- /usr/lib64/regex-applicative-0.3.3/ghc-8.0.2/Text/Regex/Applicative/Compile.hi$
+- /usr/lib64/regex-applicative-0.3.3/ghc-8.0.2/Text/Regex/Applicative/Interface.dyn_hi$
+- /usr/lib64/regex-applicative-0.3.3/ghc-8.0.2/Text/Regex/Applicative/Interface.hi$
+- /usr/lib64/regex-applicative-0.3.3/ghc-8.0.2/Text/Regex/Applicative/Object.dyn_hi$
+- /usr/lib64/regex-applicative-0.3.3/ghc-8.0.2/Text/Regex/Applicative/Object.hi$
+- /usr/lib64/regex-applicative-0.3.3/ghc-8.0.2/Text/Regex/Applicative/Reference.dyn_hi$
+- /usr/lib64/regex-applicative-0.3.3/ghc-8.0.2/Text/Regex/Applicative/Reference.hi$
+- /usr/lib64/regex-applicative-0.3.3/ghc-8.0.2/Text/Regex/Applicative/StateQueue.dyn_hi$
+- /usr/lib64/regex-applicative-0.3.3/ghc-8.0.2/Text/Regex/Applicative/StateQueue.hi$
+- /usr/lib64/regex-applicative-0.3.3/ghc-8.0.2/Text/Regex/Applicative/Types.dyn_hi$
+- /usr/lib64/regex-applicative-0.3.3/ghc-8.0.2/Text/Regex/Applicative/Types.hi$
+- /usr/lib64/regex-applicative-0.3.3/ghc-8.0.2/libHSregex-applicative-0.3.3-9dbODILokN54la9GS4TJob.a$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSregex-applicative-0.3.3-9dbODILokN54la9GS4TJob-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/regex-applicative-0.3.3$
+- /usr/share/doc/regex-applicative-0.3.3/LICENSE.bz2$

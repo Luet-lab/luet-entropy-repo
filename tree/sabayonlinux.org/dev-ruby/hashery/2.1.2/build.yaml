@@ -1,0 +1,45 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/hashery-2.1.2
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-ruby/hashery/2.1.2/definition.yaml
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashery-2.1.2$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashery-2.1.2/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashery-2.1.2/lib/hashery$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashery-2.1.2/lib/hashery.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashery-2.1.2/lib/hashery.yml$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashery-2.1.2/lib/hashery/association.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashery-2.1.2/lib/hashery/casting_hash.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashery-2.1.2/lib/hashery/core_ext.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashery-2.1.2/lib/hashery/crud_hash.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashery-2.1.2/lib/hashery/dictionary.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashery-2.1.2/lib/hashery/fuzzy_hash.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashery-2.1.2/lib/hashery/ini_hash.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashery-2.1.2/lib/hashery/key_hash.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashery-2.1.2/lib/hashery/linked_list.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashery-2.1.2/lib/hashery/lru_hash.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashery-2.1.2/lib/hashery/open_cascade.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashery-2.1.2/lib/hashery/open_hash.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashery-2.1.2/lib/hashery/ordered_hash.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashery-2.1.2/lib/hashery/path_hash.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashery-2.1.2/lib/hashery/property_hash.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashery-2.1.2/lib/hashery/query_hash.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashery-2.1.2/lib/hashery/stash.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashery-2.1.2/lib/hashery/static_hash.rb$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/hashery-2.1.2.gemspec$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/hashery-2.1.2$
+- /usr/share/doc/hashery-2.1.2/README.md.bz2$

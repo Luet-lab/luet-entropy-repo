@@ -1,0 +1,36 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/pickleshare-0.7.4-r1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-python/pickleshare/0.7.4/definition.yaml
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/python2.7$
+- /usr/lib64/python2.7/site-packages$
+- /usr/lib64/python2.7/site-packages/pickleshare-0.7.4-py2.7.egg-info$
+- /usr/lib64/python2.7/site-packages/pickleshare-0.7.4-py2.7.egg-info/PKG-INFO$
+- /usr/lib64/python2.7/site-packages/pickleshare-0.7.4-py2.7.egg-info/SOURCES.txt$
+- /usr/lib64/python2.7/site-packages/pickleshare-0.7.4-py2.7.egg-info/dependency_links.txt$
+- /usr/lib64/python2.7/site-packages/pickleshare-0.7.4-py2.7.egg-info/requires.txt$
+- /usr/lib64/python2.7/site-packages/pickleshare-0.7.4-py2.7.egg-info/top_level.txt$
+- /usr/lib64/python2.7/site-packages/pickleshare.py$
+- /usr/lib64/python2.7/site-packages/pickleshare.pyc$
+- /usr/lib64/python2.7/site-packages/pickleshare.pyo$
+- /usr/lib64/python3.6$
+- /usr/lib64/python3.6/site-packages$
+- /usr/lib64/python3.6/site-packages/__pycache__$
+- /usr/lib64/python3.6/site-packages/__pycache__/pickleshare.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/__pycache__/pickleshare.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/__pycache__/pickleshare.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/pickleshare-0.7.4-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/pickleshare-0.7.4-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/pickleshare-0.7.4-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/pickleshare-0.7.4-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/pickleshare-0.7.4-py3.6.egg-info/requires.txt$
+- /usr/lib64/python3.6/site-packages/pickleshare-0.7.4-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/pickleshare.py$

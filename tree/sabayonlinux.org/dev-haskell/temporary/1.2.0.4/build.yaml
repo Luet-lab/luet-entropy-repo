@@ -1,0 +1,39 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/temporary-1.2.0.4
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/temporary/1.2.0.4/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-temporary-1.2.0.4-temporary-1.2.0.4.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-temporary-1.2.0.4.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/temporary-1.2.0.4-3xwHfFmjIB4EP0EeDpUXS9.conf$
+- /usr/lib64/temporary-1.2.0.4$
+- /usr/lib64/temporary-1.2.0.4/ghc-8.0.2$
+- /usr/lib64/temporary-1.2.0.4/ghc-8.0.2/Distribution$
+- /usr/lib64/temporary-1.2.0.4/ghc-8.0.2/Distribution/Compat$
+- /usr/lib64/temporary-1.2.0.4/ghc-8.0.2/Distribution/Compat/Exception.dyn_hi$
+- /usr/lib64/temporary-1.2.0.4/ghc-8.0.2/Distribution/Compat/Exception.hi$
+- /usr/lib64/temporary-1.2.0.4/ghc-8.0.2/Distribution/Compat/TempFile.dyn_hi$
+- /usr/lib64/temporary-1.2.0.4/ghc-8.0.2/Distribution/Compat/TempFile.hi$
+- /usr/lib64/temporary-1.2.0.4/ghc-8.0.2/System$
+- /usr/lib64/temporary-1.2.0.4/ghc-8.0.2/System/IO$
+- /usr/lib64/temporary-1.2.0.4/ghc-8.0.2/System/IO/Temp.dyn_hi$
+- /usr/lib64/temporary-1.2.0.4/ghc-8.0.2/System/IO/Temp.hi$
+- /usr/lib64/temporary-1.2.0.4/ghc-8.0.2/libHStemporary-1.2.0.4-3xwHfFmjIB4EP0EeDpUXS9.a$
+- /usr/lib64/x86_64-linux-ghc-7.10.3$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHStemporary-1.2.0.4-3xwHfFmjIB4EP0EeDpUXS9-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/temporary-1.2.0.4$
+- /usr/share/doc/temporary-1.2.0.4/LICENSE.bz2$

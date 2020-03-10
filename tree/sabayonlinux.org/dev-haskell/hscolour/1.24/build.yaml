@@ -1,0 +1,70 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/hscolour-1.24
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/hscolour/1.24/definition.yaml
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/HsColour$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-hscolour-1.24-hscolour-1.24.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-hscolour-1.24.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/hscolour-1.24-6YkF3HSAh8u8e4iMVwIU1m.conf$
+- /usr/lib64/hscolour-1.24$
+- /usr/lib64/hscolour-1.24/ghc-8.0.2$
+- /usr/lib64/hscolour-1.24/ghc-8.0.2/Language$
+- /usr/lib64/hscolour-1.24/ghc-8.0.2/Language/Haskell$
+- /usr/lib64/hscolour-1.24/ghc-8.0.2/Language/Haskell/HsColour$
+- /usr/lib64/hscolour-1.24/ghc-8.0.2/Language/Haskell/HsColour.dyn_hi$
+- /usr/lib64/hscolour-1.24/ghc-8.0.2/Language/Haskell/HsColour.hi$
+- /usr/lib64/hscolour-1.24/ghc-8.0.2/Language/Haskell/HsColour/ACSS.dyn_hi$
+- /usr/lib64/hscolour-1.24/ghc-8.0.2/Language/Haskell/HsColour/ACSS.hi$
+- /usr/lib64/hscolour-1.24/ghc-8.0.2/Language/Haskell/HsColour/ANSI.dyn_hi$
+- /usr/lib64/hscolour-1.24/ghc-8.0.2/Language/Haskell/HsColour/ANSI.hi$
+- /usr/lib64/hscolour-1.24/ghc-8.0.2/Language/Haskell/HsColour/Anchors.dyn_hi$
+- /usr/lib64/hscolour-1.24/ghc-8.0.2/Language/Haskell/HsColour/Anchors.hi$
+- /usr/lib64/hscolour-1.24/ghc-8.0.2/Language/Haskell/HsColour/CSS.dyn_hi$
+- /usr/lib64/hscolour-1.24/ghc-8.0.2/Language/Haskell/HsColour/CSS.hi$
+- /usr/lib64/hscolour-1.24/ghc-8.0.2/Language/Haskell/HsColour/Classify.dyn_hi$
+- /usr/lib64/hscolour-1.24/ghc-8.0.2/Language/Haskell/HsColour/Classify.hi$
+- /usr/lib64/hscolour-1.24/ghc-8.0.2/Language/Haskell/HsColour/ColourHighlight.dyn_hi$
+- /usr/lib64/hscolour-1.24/ghc-8.0.2/Language/Haskell/HsColour/ColourHighlight.hi$
+- /usr/lib64/hscolour-1.24/ghc-8.0.2/Language/Haskell/HsColour/Colourise.dyn_hi$
+- /usr/lib64/hscolour-1.24/ghc-8.0.2/Language/Haskell/HsColour/Colourise.hi$
+- /usr/lib64/hscolour-1.24/ghc-8.0.2/Language/Haskell/HsColour/General.dyn_hi$
+- /usr/lib64/hscolour-1.24/ghc-8.0.2/Language/Haskell/HsColour/General.hi$
+- /usr/lib64/hscolour-1.24/ghc-8.0.2/Language/Haskell/HsColour/HTML.dyn_hi$
+- /usr/lib64/hscolour-1.24/ghc-8.0.2/Language/Haskell/HsColour/HTML.hi$
+- /usr/lib64/hscolour-1.24/ghc-8.0.2/Language/Haskell/HsColour/InlineCSS.dyn_hi$
+- /usr/lib64/hscolour-1.24/ghc-8.0.2/Language/Haskell/HsColour/InlineCSS.hi$
+- /usr/lib64/hscolour-1.24/ghc-8.0.2/Language/Haskell/HsColour/LaTeX.dyn_hi$
+- /usr/lib64/hscolour-1.24/ghc-8.0.2/Language/Haskell/HsColour/LaTeX.hi$
+- /usr/lib64/hscolour-1.24/ghc-8.0.2/Language/Haskell/HsColour/MIRC.dyn_hi$
+- /usr/lib64/hscolour-1.24/ghc-8.0.2/Language/Haskell/HsColour/MIRC.hi$
+- /usr/lib64/hscolour-1.24/ghc-8.0.2/Language/Haskell/HsColour/Options.dyn_hi$
+- /usr/lib64/hscolour-1.24/ghc-8.0.2/Language/Haskell/HsColour/Options.hi$
+- /usr/lib64/hscolour-1.24/ghc-8.0.2/Language/Haskell/HsColour/Output.dyn_hi$
+- /usr/lib64/hscolour-1.24/ghc-8.0.2/Language/Haskell/HsColour/Output.hi$
+- /usr/lib64/hscolour-1.24/ghc-8.0.2/Language/Haskell/HsColour/TTY.dyn_hi$
+- /usr/lib64/hscolour-1.24/ghc-8.0.2/Language/Haskell/HsColour/TTY.hi$
+- /usr/lib64/hscolour-1.24/ghc-8.0.2/libHShscolour-1.24-6YkF3HSAh8u8e4iMVwIU1m.a$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHShscolour-1.24-6YkF3HSAh8u8e4iMVwIU1m-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/hscolour-1.24$
+- /usr/share/doc/hscolour-1.24/LICENCE-GPL.bz2$
+- /usr/share/hscolour-1.24$
+- /usr/share/hscolour-1.24/ghc-8.0.2$
+- /usr/share/hscolour-1.24/ghc-8.0.2/data$
+- /usr/share/hscolour-1.24/ghc-8.0.2/data/rgb24-example-.hscolour$
+- /usr/share/hscolour-1.24/ghc-8.0.2/hscolour.css$

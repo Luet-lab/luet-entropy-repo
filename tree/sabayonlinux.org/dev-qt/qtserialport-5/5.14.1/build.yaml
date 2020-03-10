@@ -1,0 +1,50 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-qt/qtserialport-5.14.1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-qt/qtserialport-5/5.14.1/definition.yaml
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/qt5$
+- /usr/include/qt5/QtSerialPort$
+- /usr/include/qt5/QtSerialPort/5.14.1$
+- /usr/include/qt5/QtSerialPort/5.14.1/QtSerialPort$
+- /usr/include/qt5/QtSerialPort/5.14.1/QtSerialPort/private$
+- /usr/include/qt5/QtSerialPort/5.14.1/QtSerialPort/private/qserialport_p.h$
+- /usr/include/qt5/QtSerialPort/5.14.1/QtSerialPort/private/qserialportinfo_p.h$
+- /usr/include/qt5/QtSerialPort/5.14.1/QtSerialPort/private/qtntdll_p.h$
+- /usr/include/qt5/QtSerialPort/5.14.1/QtSerialPort/private/qtserialport-config_p.h$
+- /usr/include/qt5/QtSerialPort/5.14.1/QtSerialPort/private/qtudev_p.h$
+- /usr/include/qt5/QtSerialPort/QSerialPort$
+- /usr/include/qt5/QtSerialPort/QSerialPortInfo$
+- /usr/include/qt5/QtSerialPort/QtSerialPort$
+- /usr/include/qt5/QtSerialPort/QtSerialPortDepends$
+- /usr/include/qt5/QtSerialPort/QtSerialPortVersion$
+- /usr/include/qt5/QtSerialPort/qserialport.h$
+- /usr/include/qt5/QtSerialPort/qserialportglobal.h$
+- /usr/include/qt5/QtSerialPort/qserialportinfo.h$
+- /usr/include/qt5/QtSerialPort/qtserialport-config.h$
+- /usr/include/qt5/QtSerialPort/qtserialportversion.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/cmake$
+- /usr/lib64/cmake/Qt5SerialPort$
+- /usr/lib64/cmake/Qt5SerialPort/Qt5SerialPortConfig.cmake$
+- /usr/lib64/cmake/Qt5SerialPort/Qt5SerialPortConfigVersion.cmake$
+- /usr/lib64/libQt5SerialPort.prl$
+- /usr/lib64/libQt5SerialPort.so$
+- /usr/lib64/libQt5SerialPort.so.5$
+- /usr/lib64/libQt5SerialPort.so.5.14$
+- /usr/lib64/libQt5SerialPort.so.5.14.1$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/Qt5SerialPort.pc$
+- /usr/lib64/qt5$
+- /usr/lib64/qt5/mkspecs$
+- /usr/lib64/qt5/mkspecs/modules$
+- /usr/lib64/qt5/mkspecs/modules/qt_lib_serialport.pri$
+- /usr/lib64/qt5/mkspecs/modules/qt_lib_serialport_private.pri$

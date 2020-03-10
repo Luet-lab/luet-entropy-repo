@@ -1,0 +1,59 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i net-firewall/ipset-6.38
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> net-firewall/ipset/6.38/definition.yaml
+includes:
+- /etc$
+- /etc/conf.d$
+- /etc/conf.d/ipset$
+- /etc/init.d$
+- /etc/init.d/ipset$
+- /lib64$
+- /lib64/libipset.so$
+- /lib64/libipset.so.11$
+- /lib64/libipset.so.11.1.0$
+- /lib64/pkgconfig$
+- /lib64/pkgconfig/libipset.pc$
+- /usr$
+- /usr/include$
+- /usr/include/libipset$
+- /usr/include/libipset/args.h$
+- /usr/include/libipset/data.h$
+- /usr/include/libipset/errcode.h$
+- /usr/include/libipset/linux_ip_set.h$
+- /usr/include/libipset/linux_ip_set_bitmap.h$
+- /usr/include/libipset/linux_ip_set_hash.h$
+- /usr/include/libipset/linux_ip_set_list.h$
+- /usr/include/libipset/mnl.h$
+- /usr/include/libipset/nf_inet_addr.h$
+- /usr/include/libipset/nfproto.h$
+- /usr/include/libipset/parse.h$
+- /usr/include/libipset/pfxlen.h$
+- /usr/include/libipset/print.h$
+- /usr/include/libipset/session.h$
+- /usr/include/libipset/transport.h$
+- /usr/include/libipset/types.h$
+- /usr/include/libipset/ui.h$
+- /usr/include/libipset/utils.h$
+- /usr/lib$
+- /usr/sbin$
+- /usr/sbin/ipset$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/ipset-6.38$
+- /usr/share/doc/ipset-6.38/ChangeLog.bz2$
+- /usr/share/doc/ipset-6.38/INSTALL.bz2$
+- /usr/share/doc/ipset-6.38/README.bz2$
+- /usr/share/doc/ipset-6.38/UPGRADE.bz2$
+- /usr/share/man$
+- /usr/share/man/man8$
+- /usr/share/man/man8/ipset.8.bz2$
+- /var$
+- /var/lib$
+- /var/lib/ipset$
+- /var/lib/ipset/.keep_net-firewall_ipset-0$

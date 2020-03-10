@@ -1,0 +1,75 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/sandi-0.4.0
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/sandi/0.4.0/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-sandi-0.4.0-sandi-0.4.0.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-sandi-0.4.0.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/sandi-0.4.0-JueuGusclXJ322uot6f2mi.conf$
+- /usr/lib64/sandi-0.4.0$
+- /usr/lib64/sandi-0.4.0/ghc-8.0.2$
+- /usr/lib64/sandi-0.4.0/ghc-8.0.2/Codec$
+- /usr/lib64/sandi-0.4.0/ghc-8.0.2/Codec/Binary$
+- /usr/lib64/sandi-0.4.0/ghc-8.0.2/Codec/Binary/Base16.dyn_hi$
+- /usr/lib64/sandi-0.4.0/ghc-8.0.2/Codec/Binary/Base16.hi$
+- /usr/lib64/sandi-0.4.0/ghc-8.0.2/Codec/Binary/Base32.dyn_hi$
+- /usr/lib64/sandi-0.4.0/ghc-8.0.2/Codec/Binary/Base32.hi$
+- /usr/lib64/sandi-0.4.0/ghc-8.0.2/Codec/Binary/Base32Hex.dyn_hi$
+- /usr/lib64/sandi-0.4.0/ghc-8.0.2/Codec/Binary/Base32Hex.hi$
+- /usr/lib64/sandi-0.4.0/ghc-8.0.2/Codec/Binary/Base64.dyn_hi$
+- /usr/lib64/sandi-0.4.0/ghc-8.0.2/Codec/Binary/Base64.hi$
+- /usr/lib64/sandi-0.4.0/ghc-8.0.2/Codec/Binary/Base64Url.dyn_hi$
+- /usr/lib64/sandi-0.4.0/ghc-8.0.2/Codec/Binary/Base64Url.hi$
+- /usr/lib64/sandi-0.4.0/ghc-8.0.2/Codec/Binary/Base85.dyn_hi$
+- /usr/lib64/sandi-0.4.0/ghc-8.0.2/Codec/Binary/Base85.hi$
+- /usr/lib64/sandi-0.4.0/ghc-8.0.2/Codec/Binary/QuotedPrintable.dyn_hi$
+- /usr/lib64/sandi-0.4.0/ghc-8.0.2/Codec/Binary/QuotedPrintable.hi$
+- /usr/lib64/sandi-0.4.0/ghc-8.0.2/Codec/Binary/Uu.dyn_hi$
+- /usr/lib64/sandi-0.4.0/ghc-8.0.2/Codec/Binary/Uu.hi$
+- /usr/lib64/sandi-0.4.0/ghc-8.0.2/Codec/Binary/Xx.dyn_hi$
+- /usr/lib64/sandi-0.4.0/ghc-8.0.2/Codec/Binary/Xx.hi$
+- /usr/lib64/sandi-0.4.0/ghc-8.0.2/Codec/Binary/Yenc.dyn_hi$
+- /usr/lib64/sandi-0.4.0/ghc-8.0.2/Codec/Binary/Yenc.hi$
+- /usr/lib64/sandi-0.4.0/ghc-8.0.2/Data$
+- /usr/lib64/sandi-0.4.0/ghc-8.0.2/Data/Conduit$
+- /usr/lib64/sandi-0.4.0/ghc-8.0.2/Data/Conduit/Codec$
+- /usr/lib64/sandi-0.4.0/ghc-8.0.2/Data/Conduit/Codec/Base16.dyn_hi$
+- /usr/lib64/sandi-0.4.0/ghc-8.0.2/Data/Conduit/Codec/Base16.hi$
+- /usr/lib64/sandi-0.4.0/ghc-8.0.2/Data/Conduit/Codec/Base32.dyn_hi$
+- /usr/lib64/sandi-0.4.0/ghc-8.0.2/Data/Conduit/Codec/Base32.hi$
+- /usr/lib64/sandi-0.4.0/ghc-8.0.2/Data/Conduit/Codec/Base32Hex.dyn_hi$
+- /usr/lib64/sandi-0.4.0/ghc-8.0.2/Data/Conduit/Codec/Base32Hex.hi$
+- /usr/lib64/sandi-0.4.0/ghc-8.0.2/Data/Conduit/Codec/Base64.dyn_hi$
+- /usr/lib64/sandi-0.4.0/ghc-8.0.2/Data/Conduit/Codec/Base64.hi$
+- /usr/lib64/sandi-0.4.0/ghc-8.0.2/Data/Conduit/Codec/Base64Url.dyn_hi$
+- /usr/lib64/sandi-0.4.0/ghc-8.0.2/Data/Conduit/Codec/Base64Url.hi$
+- /usr/lib64/sandi-0.4.0/ghc-8.0.2/Data/Conduit/Codec/Base85.dyn_hi$
+- /usr/lib64/sandi-0.4.0/ghc-8.0.2/Data/Conduit/Codec/Base85.hi$
+- /usr/lib64/sandi-0.4.0/ghc-8.0.2/Data/Conduit/Codec/QuotedPrintable.dyn_hi$
+- /usr/lib64/sandi-0.4.0/ghc-8.0.2/Data/Conduit/Codec/QuotedPrintable.hi$
+- /usr/lib64/sandi-0.4.0/ghc-8.0.2/Data/Conduit/Codec/Util.dyn_hi$
+- /usr/lib64/sandi-0.4.0/ghc-8.0.2/Data/Conduit/Codec/Util.hi$
+- /usr/lib64/sandi-0.4.0/ghc-8.0.2/Data/Conduit/Codec/Uu.dyn_hi$
+- /usr/lib64/sandi-0.4.0/ghc-8.0.2/Data/Conduit/Codec/Uu.hi$
+- /usr/lib64/sandi-0.4.0/ghc-8.0.2/Data/Conduit/Codec/Xx.dyn_hi$
+- /usr/lib64/sandi-0.4.0/ghc-8.0.2/Data/Conduit/Codec/Xx.hi$
+- /usr/lib64/sandi-0.4.0/ghc-8.0.2/Data/Conduit/Codec/Yenc.dyn_hi$
+- /usr/lib64/sandi-0.4.0/ghc-8.0.2/Data/Conduit/Codec/Yenc.hi$
+- /usr/lib64/sandi-0.4.0/ghc-8.0.2/libHSsandi-0.4.0-JueuGusclXJ322uot6f2mi.a$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSsandi-0.4.0-JueuGusclXJ322uot6f2mi-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/sandi-0.4.0$
+- /usr/share/doc/sandi-0.4.0/LICENSE.bz2$

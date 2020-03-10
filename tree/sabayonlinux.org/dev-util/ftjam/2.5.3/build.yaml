@@ -1,0 +1,25 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-util/ftjam-2.5.3_rc2-r2
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-util/ftjam/2.5.3/definition.yaml
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/jam$
+- /usr/lib$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/ftjam-2.5.3_rc2-r2$
+- /usr/share/doc/ftjam-2.5.3_rc2-r2/CHANGES.bz2$
+- /usr/share/doc/ftjam-2.5.3_rc2-r2/README.ORG.bz2$
+- /usr/share/doc/ftjam-2.5.3_rc2-r2/README.bz2$
+- /usr/share/doc/ftjam-2.5.3_rc2-r2/RELNOTES.bz2$
+- /usr/share/doc/ftjam-2.5.3_rc2-r2/html$
+- /usr/share/doc/ftjam-2.5.3_rc2-r2/html/Jam.html$
+- /usr/share/doc/ftjam-2.5.3_rc2-r2/html/Jambase.html$
+- /usr/share/doc/ftjam-2.5.3_rc2-r2/html/Jamfile.html$

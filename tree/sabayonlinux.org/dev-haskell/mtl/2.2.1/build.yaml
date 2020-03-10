@@ -1,0 +1,81 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/mtl-2.2.1-r1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/mtl/2.2.1/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-mtl-2.2.1-r1-mtl-2.2.1.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-mtl-2.2.1-r1.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/mtl-2.2.1-BLKBelFsPB3BoFeSWSOYj6.conf$
+- /usr/lib64/mtl-2.2.1$
+- /usr/lib64/mtl-2.2.1/ghc-8.0.2$
+- /usr/lib64/mtl-2.2.1/ghc-8.0.2/Control$
+- /usr/lib64/mtl-2.2.1/ghc-8.0.2/Control/Monad$
+- /usr/lib64/mtl-2.2.1/ghc-8.0.2/Control/Monad/Cont$
+- /usr/lib64/mtl-2.2.1/ghc-8.0.2/Control/Monad/Cont.dyn_hi$
+- /usr/lib64/mtl-2.2.1/ghc-8.0.2/Control/Monad/Cont.hi$
+- /usr/lib64/mtl-2.2.1/ghc-8.0.2/Control/Monad/Cont/Class.dyn_hi$
+- /usr/lib64/mtl-2.2.1/ghc-8.0.2/Control/Monad/Cont/Class.hi$
+- /usr/lib64/mtl-2.2.1/ghc-8.0.2/Control/Monad/Error$
+- /usr/lib64/mtl-2.2.1/ghc-8.0.2/Control/Monad/Error.dyn_hi$
+- /usr/lib64/mtl-2.2.1/ghc-8.0.2/Control/Monad/Error.hi$
+- /usr/lib64/mtl-2.2.1/ghc-8.0.2/Control/Monad/Error/Class.dyn_hi$
+- /usr/lib64/mtl-2.2.1/ghc-8.0.2/Control/Monad/Error/Class.hi$
+- /usr/lib64/mtl-2.2.1/ghc-8.0.2/Control/Monad/Except.dyn_hi$
+- /usr/lib64/mtl-2.2.1/ghc-8.0.2/Control/Monad/Except.hi$
+- /usr/lib64/mtl-2.2.1/ghc-8.0.2/Control/Monad/Identity.dyn_hi$
+- /usr/lib64/mtl-2.2.1/ghc-8.0.2/Control/Monad/Identity.hi$
+- /usr/lib64/mtl-2.2.1/ghc-8.0.2/Control/Monad/List.dyn_hi$
+- /usr/lib64/mtl-2.2.1/ghc-8.0.2/Control/Monad/List.hi$
+- /usr/lib64/mtl-2.2.1/ghc-8.0.2/Control/Monad/RWS$
+- /usr/lib64/mtl-2.2.1/ghc-8.0.2/Control/Monad/RWS.dyn_hi$
+- /usr/lib64/mtl-2.2.1/ghc-8.0.2/Control/Monad/RWS.hi$
+- /usr/lib64/mtl-2.2.1/ghc-8.0.2/Control/Monad/RWS/Class.dyn_hi$
+- /usr/lib64/mtl-2.2.1/ghc-8.0.2/Control/Monad/RWS/Class.hi$
+- /usr/lib64/mtl-2.2.1/ghc-8.0.2/Control/Monad/RWS/Lazy.dyn_hi$
+- /usr/lib64/mtl-2.2.1/ghc-8.0.2/Control/Monad/RWS/Lazy.hi$
+- /usr/lib64/mtl-2.2.1/ghc-8.0.2/Control/Monad/RWS/Strict.dyn_hi$
+- /usr/lib64/mtl-2.2.1/ghc-8.0.2/Control/Monad/RWS/Strict.hi$
+- /usr/lib64/mtl-2.2.1/ghc-8.0.2/Control/Monad/Reader$
+- /usr/lib64/mtl-2.2.1/ghc-8.0.2/Control/Monad/Reader.dyn_hi$
+- /usr/lib64/mtl-2.2.1/ghc-8.0.2/Control/Monad/Reader.hi$
+- /usr/lib64/mtl-2.2.1/ghc-8.0.2/Control/Monad/Reader/Class.dyn_hi$
+- /usr/lib64/mtl-2.2.1/ghc-8.0.2/Control/Monad/Reader/Class.hi$
+- /usr/lib64/mtl-2.2.1/ghc-8.0.2/Control/Monad/State$
+- /usr/lib64/mtl-2.2.1/ghc-8.0.2/Control/Monad/State.dyn_hi$
+- /usr/lib64/mtl-2.2.1/ghc-8.0.2/Control/Monad/State.hi$
+- /usr/lib64/mtl-2.2.1/ghc-8.0.2/Control/Monad/State/Class.dyn_hi$
+- /usr/lib64/mtl-2.2.1/ghc-8.0.2/Control/Monad/State/Class.hi$
+- /usr/lib64/mtl-2.2.1/ghc-8.0.2/Control/Monad/State/Lazy.dyn_hi$
+- /usr/lib64/mtl-2.2.1/ghc-8.0.2/Control/Monad/State/Lazy.hi$
+- /usr/lib64/mtl-2.2.1/ghc-8.0.2/Control/Monad/State/Strict.dyn_hi$
+- /usr/lib64/mtl-2.2.1/ghc-8.0.2/Control/Monad/State/Strict.hi$
+- /usr/lib64/mtl-2.2.1/ghc-8.0.2/Control/Monad/Trans.dyn_hi$
+- /usr/lib64/mtl-2.2.1/ghc-8.0.2/Control/Monad/Trans.hi$
+- /usr/lib64/mtl-2.2.1/ghc-8.0.2/Control/Monad/Writer$
+- /usr/lib64/mtl-2.2.1/ghc-8.0.2/Control/Monad/Writer.dyn_hi$
+- /usr/lib64/mtl-2.2.1/ghc-8.0.2/Control/Monad/Writer.hi$
+- /usr/lib64/mtl-2.2.1/ghc-8.0.2/Control/Monad/Writer/Class.dyn_hi$
+- /usr/lib64/mtl-2.2.1/ghc-8.0.2/Control/Monad/Writer/Class.hi$
+- /usr/lib64/mtl-2.2.1/ghc-8.0.2/Control/Monad/Writer/Lazy.dyn_hi$
+- /usr/lib64/mtl-2.2.1/ghc-8.0.2/Control/Monad/Writer/Lazy.hi$
+- /usr/lib64/mtl-2.2.1/ghc-8.0.2/Control/Monad/Writer/Strict.dyn_hi$
+- /usr/lib64/mtl-2.2.1/ghc-8.0.2/Control/Monad/Writer/Strict.hi$
+- /usr/lib64/mtl-2.2.1/ghc-8.0.2/libHSmtl-2.2.1-BLKBelFsPB3BoFeSWSOYj6.a$
+- /usr/lib64/x86_64-linux-ghc-7.10.3$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSmtl-2.2.1-BLKBelFsPB3BoFeSWSOYj6-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/mtl-2.2.1-r1$
+- /usr/share/doc/mtl-2.2.1-r1/LICENSE.bz2$

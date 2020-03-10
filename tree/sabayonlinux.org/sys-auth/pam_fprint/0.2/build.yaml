@@ -1,0 +1,25 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i sys-auth/pam_fprint-0.2-r1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> sys-auth/pam_fprint/0.2/definition.yaml
+includes:
+- /lib64$
+- /lib64/security$
+- /lib64/security/pam_fprint.so$
+- /usr$
+- /usr/bin$
+- /usr/bin/pam_fprint_enroll$
+- /usr/bin/pamtest.fprint$
+- /usr/lib$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/pam_fprint-0.2-r1$
+- /usr/share/doc/pam_fprint-0.2-r1/AUTHORS.bz2$
+- /usr/share/doc/pam_fprint-0.2-r1/ChangeLog.bz2$
+- /usr/share/doc/pam_fprint-0.2-r1/NEWS.bz2$
+- /usr/share/doc/pam_fprint-0.2-r1/README.bz2$

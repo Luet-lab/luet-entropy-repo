@@ -1,0 +1,29 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i sci-libs/amd-2.3.1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> sci-libs/amd/2.3.1/definition.yaml
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/amd.h$
+- /usr/include/amd_internal.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libamd.so$
+- /usr/lib64/libamd.so.0$
+- /usr/lib64/libamd.so.0.0.0$
+- /usr/lib64/libamdf77.so$
+- /usr/lib64/libamdf77.so.0$
+- /usr/lib64/libamdf77.so.0.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/amd.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/amd-2.3.1$
+- /usr/share/doc/amd-2.3.1/ChangeLog.bz2$
+- /usr/share/doc/amd-2.3.1/README.txt.bz2$

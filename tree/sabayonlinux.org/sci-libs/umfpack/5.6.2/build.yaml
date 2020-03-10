@@ -1,0 +1,57 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i sci-libs/umfpack-5.6.2
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> sci-libs/umfpack/5.6.2/definition.yaml
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/umfpack.h$
+- /usr/include/umfpack_col_to_triplet.h$
+- /usr/include/umfpack_defaults.h$
+- /usr/include/umfpack_free_numeric.h$
+- /usr/include/umfpack_free_symbolic.h$
+- /usr/include/umfpack_get_determinant.h$
+- /usr/include/umfpack_get_lunz.h$
+- /usr/include/umfpack_get_numeric.h$
+- /usr/include/umfpack_get_symbolic.h$
+- /usr/include/umfpack_global.h$
+- /usr/include/umfpack_load_numeric.h$
+- /usr/include/umfpack_load_symbolic.h$
+- /usr/include/umfpack_numeric.h$
+- /usr/include/umfpack_qsymbolic.h$
+- /usr/include/umfpack_report_control.h$
+- /usr/include/umfpack_report_info.h$
+- /usr/include/umfpack_report_matrix.h$
+- /usr/include/umfpack_report_numeric.h$
+- /usr/include/umfpack_report_perm.h$
+- /usr/include/umfpack_report_status.h$
+- /usr/include/umfpack_report_symbolic.h$
+- /usr/include/umfpack_report_triplet.h$
+- /usr/include/umfpack_report_vector.h$
+- /usr/include/umfpack_save_numeric.h$
+- /usr/include/umfpack_save_symbolic.h$
+- /usr/include/umfpack_scale.h$
+- /usr/include/umfpack_solve.h$
+- /usr/include/umfpack_symbolic.h$
+- /usr/include/umfpack_tictoc.h$
+- /usr/include/umfpack_timer.h$
+- /usr/include/umfpack_transpose.h$
+- /usr/include/umfpack_triplet_to_col.h$
+- /usr/include/umfpack_wsolve.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libumfpack.so$
+- /usr/lib64/libumfpack.so.0$
+- /usr/lib64/libumfpack.so.0.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/umfpack.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/umfpack-5.6.2$
+- /usr/share/doc/umfpack-5.6.2/ChangeLog.bz2$
+- /usr/share/doc/umfpack-5.6.2/README.txt.bz2$

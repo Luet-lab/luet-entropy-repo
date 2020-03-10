@@ -1,0 +1,83 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/regex-tdfa-1.2.2
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/regex-tdfa/1.2.2/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-regex-tdfa-1.2.2-regex-tdfa-1.2.2.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-regex-tdfa-1.2.2.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/regex-tdfa-1.2.2-FYKSSsbqP70JXnCwuQ80wl.conf$
+- /usr/lib64/regex-tdfa-1.2.2$
+- /usr/lib64/regex-tdfa-1.2.2/ghc-8.0.2$
+- /usr/lib64/regex-tdfa-1.2.2/ghc-8.0.2/Data$
+- /usr/lib64/regex-tdfa-1.2.2/ghc-8.0.2/Data/IntMap$
+- /usr/lib64/regex-tdfa-1.2.2/ghc-8.0.2/Data/IntMap/CharMap2.dyn_hi$
+- /usr/lib64/regex-tdfa-1.2.2/ghc-8.0.2/Data/IntMap/CharMap2.hi$
+- /usr/lib64/regex-tdfa-1.2.2/ghc-8.0.2/Data/IntMap/EnumMap2.dyn_hi$
+- /usr/lib64/regex-tdfa-1.2.2/ghc-8.0.2/Data/IntMap/EnumMap2.hi$
+- /usr/lib64/regex-tdfa-1.2.2/ghc-8.0.2/Data/IntSet$
+- /usr/lib64/regex-tdfa-1.2.2/ghc-8.0.2/Data/IntSet/EnumSet2.dyn_hi$
+- /usr/lib64/regex-tdfa-1.2.2/ghc-8.0.2/Data/IntSet/EnumSet2.hi$
+- /usr/lib64/regex-tdfa-1.2.2/ghc-8.0.2/Paths_regex_tdfa.dyn_hi$
+- /usr/lib64/regex-tdfa-1.2.2/ghc-8.0.2/Paths_regex_tdfa.hi$
+- /usr/lib64/regex-tdfa-1.2.2/ghc-8.0.2/Text$
+- /usr/lib64/regex-tdfa-1.2.2/ghc-8.0.2/Text/Regex$
+- /usr/lib64/regex-tdfa-1.2.2/ghc-8.0.2/Text/Regex/TDFA$
+- /usr/lib64/regex-tdfa-1.2.2/ghc-8.0.2/Text/Regex/TDFA.dyn_hi$
+- /usr/lib64/regex-tdfa-1.2.2/ghc-8.0.2/Text/Regex/TDFA.hi$
+- /usr/lib64/regex-tdfa-1.2.2/ghc-8.0.2/Text/Regex/TDFA/ByteString$
+- /usr/lib64/regex-tdfa-1.2.2/ghc-8.0.2/Text/Regex/TDFA/ByteString.dyn_hi$
+- /usr/lib64/regex-tdfa-1.2.2/ghc-8.0.2/Text/Regex/TDFA/ByteString.hi$
+- /usr/lib64/regex-tdfa-1.2.2/ghc-8.0.2/Text/Regex/TDFA/ByteString/Lazy.dyn_hi$
+- /usr/lib64/regex-tdfa-1.2.2/ghc-8.0.2/Text/Regex/TDFA/ByteString/Lazy.hi$
+- /usr/lib64/regex-tdfa-1.2.2/ghc-8.0.2/Text/Regex/TDFA/Common.dyn_hi$
+- /usr/lib64/regex-tdfa-1.2.2/ghc-8.0.2/Text/Regex/TDFA/Common.hi$
+- /usr/lib64/regex-tdfa-1.2.2/ghc-8.0.2/Text/Regex/TDFA/CorePattern.dyn_hi$
+- /usr/lib64/regex-tdfa-1.2.2/ghc-8.0.2/Text/Regex/TDFA/CorePattern.hi$
+- /usr/lib64/regex-tdfa-1.2.2/ghc-8.0.2/Text/Regex/TDFA/IntArrTrieSet.dyn_hi$
+- /usr/lib64/regex-tdfa-1.2.2/ghc-8.0.2/Text/Regex/TDFA/IntArrTrieSet.hi$
+- /usr/lib64/regex-tdfa-1.2.2/ghc-8.0.2/Text/Regex/TDFA/NewDFA$
+- /usr/lib64/regex-tdfa-1.2.2/ghc-8.0.2/Text/Regex/TDFA/NewDFA/Engine.dyn_hi$
+- /usr/lib64/regex-tdfa-1.2.2/ghc-8.0.2/Text/Regex/TDFA/NewDFA/Engine.hi$
+- /usr/lib64/regex-tdfa-1.2.2/ghc-8.0.2/Text/Regex/TDFA/NewDFA/Engine_FA.dyn_hi$
+- /usr/lib64/regex-tdfa-1.2.2/ghc-8.0.2/Text/Regex/TDFA/NewDFA/Engine_FA.hi$
+- /usr/lib64/regex-tdfa-1.2.2/ghc-8.0.2/Text/Regex/TDFA/NewDFA/Engine_NC.dyn_hi$
+- /usr/lib64/regex-tdfa-1.2.2/ghc-8.0.2/Text/Regex/TDFA/NewDFA/Engine_NC.hi$
+- /usr/lib64/regex-tdfa-1.2.2/ghc-8.0.2/Text/Regex/TDFA/NewDFA/Engine_NC_FA.dyn_hi$
+- /usr/lib64/regex-tdfa-1.2.2/ghc-8.0.2/Text/Regex/TDFA/NewDFA/Engine_NC_FA.hi$
+- /usr/lib64/regex-tdfa-1.2.2/ghc-8.0.2/Text/Regex/TDFA/NewDFA/MakeTest.dyn_hi$
+- /usr/lib64/regex-tdfa-1.2.2/ghc-8.0.2/Text/Regex/TDFA/NewDFA/MakeTest.hi$
+- /usr/lib64/regex-tdfa-1.2.2/ghc-8.0.2/Text/Regex/TDFA/NewDFA/Tester.dyn_hi$
+- /usr/lib64/regex-tdfa-1.2.2/ghc-8.0.2/Text/Regex/TDFA/NewDFA/Tester.hi$
+- /usr/lib64/regex-tdfa-1.2.2/ghc-8.0.2/Text/Regex/TDFA/NewDFA/Uncons.dyn_hi$
+- /usr/lib64/regex-tdfa-1.2.2/ghc-8.0.2/Text/Regex/TDFA/NewDFA/Uncons.hi$
+- /usr/lib64/regex-tdfa-1.2.2/ghc-8.0.2/Text/Regex/TDFA/Pattern.dyn_hi$
+- /usr/lib64/regex-tdfa-1.2.2/ghc-8.0.2/Text/Regex/TDFA/Pattern.hi$
+- /usr/lib64/regex-tdfa-1.2.2/ghc-8.0.2/Text/Regex/TDFA/ReadRegex.dyn_hi$
+- /usr/lib64/regex-tdfa-1.2.2/ghc-8.0.2/Text/Regex/TDFA/ReadRegex.hi$
+- /usr/lib64/regex-tdfa-1.2.2/ghc-8.0.2/Text/Regex/TDFA/Sequence.dyn_hi$
+- /usr/lib64/regex-tdfa-1.2.2/ghc-8.0.2/Text/Regex/TDFA/Sequence.hi$
+- /usr/lib64/regex-tdfa-1.2.2/ghc-8.0.2/Text/Regex/TDFA/String.dyn_hi$
+- /usr/lib64/regex-tdfa-1.2.2/ghc-8.0.2/Text/Regex/TDFA/String.hi$
+- /usr/lib64/regex-tdfa-1.2.2/ghc-8.0.2/Text/Regex/TDFA/TDFA.dyn_hi$
+- /usr/lib64/regex-tdfa-1.2.2/ghc-8.0.2/Text/Regex/TDFA/TDFA.hi$
+- /usr/lib64/regex-tdfa-1.2.2/ghc-8.0.2/Text/Regex/TDFA/TNFA.dyn_hi$
+- /usr/lib64/regex-tdfa-1.2.2/ghc-8.0.2/Text/Regex/TDFA/TNFA.hi$
+- /usr/lib64/regex-tdfa-1.2.2/ghc-8.0.2/libHSregex-tdfa-1.2.2-FYKSSsbqP70JXnCwuQ80wl.a$
+- /usr/lib64/x86_64-linux-ghc-7.10.3$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSregex-tdfa-1.2.2-FYKSSsbqP70JXnCwuQ80wl-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/regex-tdfa-1.2.2$
+- /usr/share/doc/regex-tdfa-1.2.2/LICENSE.bz2$

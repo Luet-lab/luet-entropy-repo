@@ -1,0 +1,59 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-sound/mpg123-1.25.13
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> media-sound/mpg123/1.25.13/definition.yaml
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/mpg123-id3dump$
+- /usr/bin/mpg123-mpg123$
+- /usr/bin/mpg123-strip$
+- /usr/bin/out123$
+- /usr/include$
+- /usr/include/fmt123.h$
+- /usr/include/mpg123.h$
+- /usr/include/out123.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libmpg123.so$
+- /usr/lib32/libmpg123.so.0$
+- /usr/lib32/libmpg123.so.0.44.10$
+- /usr/lib32/libout123.so$
+- /usr/lib32/libout123.so.0$
+- /usr/lib32/libout123.so.0.2.2$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/libmpg123.pc$
+- /usr/lib32/pkgconfig/libout123.pc$
+- /usr/lib64$
+- /usr/lib64/libmpg123.so$
+- /usr/lib64/libmpg123.so.0$
+- /usr/lib64/libmpg123.so.0.44.10$
+- /usr/lib64/libout123.so$
+- /usr/lib64/libout123.so.0$
+- /usr/lib64/libout123.so.0.2.2$
+- /usr/lib64/mpg123$
+- /usr/lib64/mpg123/output_alsa.so$
+- /usr/lib64/mpg123/output_dummy.so$
+- /usr/lib64/mpg123/output_jack.so$
+- /usr/lib64/mpg123/output_pulse.so$
+- /usr/lib64/mpg123/output_sdl.so$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libmpg123.pc$
+- /usr/lib64/pkgconfig/libout123.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/mpg123-1.25.13$
+- /usr/share/doc/mpg123-1.25.13/AUTHORS.bz2$
+- /usr/share/doc/mpg123-1.25.13/ChangeLog$
+- /usr/share/doc/mpg123-1.25.13/NEWS.bz2$
+- /usr/share/doc/mpg123-1.25.13/NEWS.libmpg123.bz2$
+- /usr/share/doc/mpg123-1.25.13/README.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/mpg123.1.bz2$
+- /usr/share/man/man1/out123.1.bz2$

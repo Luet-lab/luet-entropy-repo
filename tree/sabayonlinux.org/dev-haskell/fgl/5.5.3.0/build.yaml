@@ -1,0 +1,93 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/fgl-5.5.3.0
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/fgl/5.5.3.0/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/fgl-5.5.3.0$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Data$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Data/Graph$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Data/Graph/Inductive$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Data/Graph/Inductive.dyn_hi$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Data/Graph/Inductive.hi$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Data/Graph/Inductive/Basic.dyn_hi$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Data/Graph/Inductive/Basic.hi$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Data/Graph/Inductive/Example.dyn_hi$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Data/Graph/Inductive/Example.hi$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Data/Graph/Inductive/Graph.dyn_hi$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Data/Graph/Inductive/Graph.hi$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Data/Graph/Inductive/Internal$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Data/Graph/Inductive/Internal/Heap.dyn_hi$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Data/Graph/Inductive/Internal/Heap.hi$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Data/Graph/Inductive/Internal/Queue.dyn_hi$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Data/Graph/Inductive/Internal/Queue.hi$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Data/Graph/Inductive/Internal/RootPath.dyn_hi$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Data/Graph/Inductive/Internal/RootPath.hi$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Data/Graph/Inductive/Internal/Thread.dyn_hi$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Data/Graph/Inductive/Internal/Thread.hi$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Data/Graph/Inductive/Monad$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Data/Graph/Inductive/Monad.dyn_hi$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Data/Graph/Inductive/Monad.hi$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Data/Graph/Inductive/Monad/IOArray.dyn_hi$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Data/Graph/Inductive/Monad/IOArray.hi$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Data/Graph/Inductive/Monad/STArray.dyn_hi$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Data/Graph/Inductive/Monad/STArray.hi$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Data/Graph/Inductive/NodeMap.dyn_hi$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Data/Graph/Inductive/NodeMap.hi$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Data/Graph/Inductive/PatriciaTree.dyn_hi$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Data/Graph/Inductive/PatriciaTree.hi$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Data/Graph/Inductive/Query$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Data/Graph/Inductive/Query.dyn_hi$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Data/Graph/Inductive/Query.hi$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Data/Graph/Inductive/Query/ArtPoint.dyn_hi$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Data/Graph/Inductive/Query/ArtPoint.hi$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Data/Graph/Inductive/Query/BCC.dyn_hi$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Data/Graph/Inductive/Query/BCC.hi$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Data/Graph/Inductive/Query/BFS.dyn_hi$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Data/Graph/Inductive/Query/BFS.hi$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Data/Graph/Inductive/Query/DFS.dyn_hi$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Data/Graph/Inductive/Query/DFS.hi$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Data/Graph/Inductive/Query/Dominators.dyn_hi$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Data/Graph/Inductive/Query/Dominators.hi$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Data/Graph/Inductive/Query/GVD.dyn_hi$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Data/Graph/Inductive/Query/GVD.hi$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Data/Graph/Inductive/Query/Indep.dyn_hi$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Data/Graph/Inductive/Query/Indep.hi$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Data/Graph/Inductive/Query/MST.dyn_hi$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Data/Graph/Inductive/Query/MST.hi$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Data/Graph/Inductive/Query/MaxFlow.dyn_hi$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Data/Graph/Inductive/Query/MaxFlow.hi$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Data/Graph/Inductive/Query/MaxFlow2.dyn_hi$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Data/Graph/Inductive/Query/MaxFlow2.hi$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Data/Graph/Inductive/Query/Monad.dyn_hi$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Data/Graph/Inductive/Query/Monad.hi$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Data/Graph/Inductive/Query/SP.dyn_hi$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Data/Graph/Inductive/Query/SP.hi$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Data/Graph/Inductive/Query/TransClos.dyn_hi$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Data/Graph/Inductive/Query/TransClos.hi$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Data/Graph/Inductive/Tree.dyn_hi$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Data/Graph/Inductive/Tree.hi$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Paths_fgl.dyn_hi$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/Paths_fgl.hi$
+- /usr/lib64/fgl-5.5.3.0/ghc-8.0.2/libHSfgl-5.5.3.0-2sNS3Wnitgh1EFrdBQMbFh.a$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-fgl-5.5.3.0-fgl-5.5.3.0.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-fgl-5.5.3.0.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/fgl-5.5.3.0-2sNS3Wnitgh1EFrdBQMbFh.conf$
+- /usr/lib64/x86_64-linux-ghc-7.10.3$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSfgl-5.5.3.0-2sNS3Wnitgh1EFrdBQMbFh-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/fgl-5.5.3.0$
+- /usr/share/doc/fgl-5.5.3.0/LICENSE.bz2$

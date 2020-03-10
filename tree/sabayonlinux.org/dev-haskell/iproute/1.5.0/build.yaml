@@ -1,0 +1,48 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/iproute-1.5.0
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/iproute/1.5.0/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-iproute-1.5.0-iproute-1.5.0.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-iproute-1.5.0.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/iproute-1.5.0-ERO5UTzzrjgb5wRdJe19V.conf$
+- /usr/lib64/iproute-1.5.0$
+- /usr/lib64/iproute-1.5.0/ghc-7.10.3$
+- /usr/lib64/iproute-1.5.0/ghc-8.0.2$
+- /usr/lib64/iproute-1.5.0/ghc-8.0.2/Data$
+- /usr/lib64/iproute-1.5.0/ghc-8.0.2/Data/IP$
+- /usr/lib64/iproute-1.5.0/ghc-8.0.2/Data/IP.dyn_hi$
+- /usr/lib64/iproute-1.5.0/ghc-8.0.2/Data/IP.hi$
+- /usr/lib64/iproute-1.5.0/ghc-8.0.2/Data/IP/Addr.dyn_hi$
+- /usr/lib64/iproute-1.5.0/ghc-8.0.2/Data/IP/Addr.hi$
+- /usr/lib64/iproute-1.5.0/ghc-8.0.2/Data/IP/Internal.dyn_hi$
+- /usr/lib64/iproute-1.5.0/ghc-8.0.2/Data/IP/Internal.hi$
+- /usr/lib64/iproute-1.5.0/ghc-8.0.2/Data/IP/Mask.dyn_hi$
+- /usr/lib64/iproute-1.5.0/ghc-8.0.2/Data/IP/Mask.hi$
+- /usr/lib64/iproute-1.5.0/ghc-8.0.2/Data/IP/Op.dyn_hi$
+- /usr/lib64/iproute-1.5.0/ghc-8.0.2/Data/IP/Op.hi$
+- /usr/lib64/iproute-1.5.0/ghc-8.0.2/Data/IP/Range.dyn_hi$
+- /usr/lib64/iproute-1.5.0/ghc-8.0.2/Data/IP/Range.hi$
+- /usr/lib64/iproute-1.5.0/ghc-8.0.2/Data/IP/RouteTable$
+- /usr/lib64/iproute-1.5.0/ghc-8.0.2/Data/IP/RouteTable.dyn_hi$
+- /usr/lib64/iproute-1.5.0/ghc-8.0.2/Data/IP/RouteTable.hi$
+- /usr/lib64/iproute-1.5.0/ghc-8.0.2/Data/IP/RouteTable/Internal.dyn_hi$
+- /usr/lib64/iproute-1.5.0/ghc-8.0.2/Data/IP/RouteTable/Internal.hi$
+- /usr/lib64/iproute-1.5.0/ghc-8.0.2/libHSiproute-1.5.0-ERO5UTzzrjgb5wRdJe19V.a$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSiproute-1.5.0-ERO5UTzzrjgb5wRdJe19V-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/iproute-1.5.0$
+- /usr/share/doc/iproute-1.5.0/LICENSE.bz2$

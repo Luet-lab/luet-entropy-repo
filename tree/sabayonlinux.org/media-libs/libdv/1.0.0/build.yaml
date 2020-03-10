@@ -1,0 +1,47 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/libdv-1.0.0-r4
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> media-libs/libdv/1.0.0/definition.yaml
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/dubdv$
+- /usr/bin/dvconnect$
+- /usr/bin/encodedv$
+- /usr/include$
+- /usr/include/libdv$
+- /usr/include/libdv/dv.h$
+- /usr/include/libdv/dv_types.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libdv.so$
+- /usr/lib32/libdv.so.4$
+- /usr/lib32/libdv.so.4.0.3$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/libdv.pc$
+- /usr/lib64$
+- /usr/lib64/libdv.so$
+- /usr/lib64/libdv.so.4$
+- /usr/lib64/libdv.so.4.0.3$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libdv.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libdv-1.0.0-r4$
+- /usr/share/doc/libdv-1.0.0-r4/AUTHORS.bz2$
+- /usr/share/doc/libdv-1.0.0-r4/ChangeLog.bz2$
+- /usr/share/doc/libdv-1.0.0-r4/NEWS$
+- /usr/share/doc/libdv-1.0.0-r4/README.bz2$
+- /usr/share/doc/libdv-1.0.0-r4/README.dvconnect.bz2$
+- /usr/share/doc/libdv-1.0.0-r4/README.encoder.bz2$
+- /usr/share/doc/libdv-1.0.0-r4/TODO.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/dubdv.1.bz2$
+- /usr/share/man/man1/dvconnect.1.bz2$
+- /usr/share/man/man1/encodedv.1.bz2$

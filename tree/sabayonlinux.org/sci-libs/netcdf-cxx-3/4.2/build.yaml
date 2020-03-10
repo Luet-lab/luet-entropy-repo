@@ -1,0 +1,23 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i sci-libs/netcdf-cxx-4.2-r300
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> sci-libs/netcdf-cxx-3/4.2/definition.yaml
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/ncvalues.h$
+- /usr/include/netcdf.hh$
+- /usr/include/netcdfcpp.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libnetcdf_c++.so$
+- /usr/lib64/libnetcdf_c++.so.4$
+- /usr/lib64/libnetcdf_c++.so.4.2.0$
+- /usr/share$
+- /usr/share/info$
+- /usr/share/info/netcdf-cxx.info.bz2$

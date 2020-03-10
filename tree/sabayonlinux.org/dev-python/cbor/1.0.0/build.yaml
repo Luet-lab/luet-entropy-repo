@@ -1,0 +1,67 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/cbor-1.0.0
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-python/cbor/1.0.0/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/python2.7$
+- /usr/lib64/python2.7/site-packages$
+- /usr/lib64/python2.7/site-packages/cbor$
+- /usr/lib64/python2.7/site-packages/cbor-1.0.0-py2.7.egg-info$
+- /usr/lib64/python2.7/site-packages/cbor-1.0.0-py2.7.egg-info/PKG-INFO$
+- /usr/lib64/python2.7/site-packages/cbor-1.0.0-py2.7.egg-info/SOURCES.txt$
+- /usr/lib64/python2.7/site-packages/cbor-1.0.0-py2.7.egg-info/dependency_links.txt$
+- /usr/lib64/python2.7/site-packages/cbor-1.0.0-py2.7.egg-info/top_level.txt$
+- /usr/lib64/python2.7/site-packages/cbor/VERSION.py$
+- /usr/lib64/python2.7/site-packages/cbor/VERSION.pyc$
+- /usr/lib64/python2.7/site-packages/cbor/VERSION.pyo$
+- /usr/lib64/python2.7/site-packages/cbor/__init__.py$
+- /usr/lib64/python2.7/site-packages/cbor/__init__.pyc$
+- /usr/lib64/python2.7/site-packages/cbor/__init__.pyo$
+- /usr/lib64/python2.7/site-packages/cbor/_cbor.so$
+- /usr/lib64/python2.7/site-packages/cbor/cbor.py$
+- /usr/lib64/python2.7/site-packages/cbor/cbor.pyc$
+- /usr/lib64/python2.7/site-packages/cbor/cbor.pyo$
+- /usr/lib64/python2.7/site-packages/cbor/cbor_rpc_client.py$
+- /usr/lib64/python2.7/site-packages/cbor/cbor_rpc_client.pyc$
+- /usr/lib64/python2.7/site-packages/cbor/cbor_rpc_client.pyo$
+- /usr/lib64/python2.7/site-packages/cbor/tagmap.py$
+- /usr/lib64/python2.7/site-packages/cbor/tagmap.pyc$
+- /usr/lib64/python2.7/site-packages/cbor/tagmap.pyo$
+- /usr/lib64/python3.6$
+- /usr/lib64/python3.6/site-packages$
+- /usr/lib64/python3.6/site-packages/cbor$
+- /usr/lib64/python3.6/site-packages/cbor-1.0.0-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/cbor-1.0.0-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/cbor-1.0.0-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/cbor-1.0.0-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/cbor-1.0.0-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/cbor/VERSION.py$
+- /usr/lib64/python3.6/site-packages/cbor/__init__.py$
+- /usr/lib64/python3.6/site-packages/cbor/__pycache__$
+- /usr/lib64/python3.6/site-packages/cbor/__pycache__/VERSION.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/cbor/__pycache__/VERSION.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/cbor/__pycache__/VERSION.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/cbor/__pycache__/__init__.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/cbor/__pycache__/__init__.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/cbor/__pycache__/__init__.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/cbor/__pycache__/cbor.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/cbor/__pycache__/cbor.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/cbor/__pycache__/cbor.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/cbor/__pycache__/cbor_rpc_client.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/cbor/__pycache__/cbor_rpc_client.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/cbor/__pycache__/cbor_rpc_client.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/cbor/__pycache__/tagmap.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/cbor/__pycache__/tagmap.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/cbor/__pycache__/tagmap.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/cbor/_cbor.cpython-36m-x86_64-linux-gnu.so$
+- /usr/lib64/python3.6/site-packages/cbor/cbor.py$
+- /usr/lib64/python3.6/site-packages/cbor/cbor_rpc_client.py$
+- /usr/lib64/python3.6/site-packages/cbor/tagmap.py$

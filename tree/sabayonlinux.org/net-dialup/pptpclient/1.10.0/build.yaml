@@ -1,0 +1,38 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i net-dialup/pptpclient-1.10.0
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> net-dialup/pptpclient/1.10.0/definition.yaml
+includes:
+- /etc$
+- /etc/ppp$
+- /etc/ppp/options.pptp$
+- /etc/pptp.d$
+- /usr$
+- /usr/lib$
+- /usr/sbin$
+- /usr/sbin/pptp$
+- /usr/sbin/pptp-command$
+- /usr/sbin/pptp_fe.pl$
+- /usr/sbin/pptpsetup$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/pptpclient-1.10.0$
+- /usr/share/doc/pptpclient-1.10.0/AUTHORS.bz2$
+- /usr/share/doc/pptpclient-1.10.0/ChangeLog.bz2$
+- /usr/share/doc/pptpclient-1.10.0/DESIGN.CALLMGR.bz2$
+- /usr/share/doc/pptpclient-1.10.0/DESIGN.PPTP.bz2$
+- /usr/share/doc/pptpclient-1.10.0/DEVELOPERS.bz2$
+- /usr/share/doc/pptpclient-1.10.0/NEWS.bz2$
+- /usr/share/doc/pptpclient-1.10.0/PORTING.bz2$
+- /usr/share/doc/pptpclient-1.10.0/README.bz2$
+- /usr/share/doc/pptpclient-1.10.0/TODO.bz2$
+- /usr/share/doc/pptpclient-1.10.0/USING.bz2$
+- /usr/share/man$
+- /usr/share/man/man8$
+- /usr/share/man/man8/pptp.8.bz2$
+- /usr/share/man/man8/pptpsetup.8.bz2$

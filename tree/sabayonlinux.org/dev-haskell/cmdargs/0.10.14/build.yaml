@@ -1,0 +1,87 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/cmdargs-0.10.14
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/cmdargs/0.10.14/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/cmdargs-0.10.14$
+- /usr/lib64/cmdargs-0.10.14/ghc-8.0.2$
+- /usr/lib64/cmdargs-0.10.14/ghc-8.0.2/Data$
+- /usr/lib64/cmdargs-0.10.14/ghc-8.0.2/Data/Generics$
+- /usr/lib64/cmdargs-0.10.14/ghc-8.0.2/Data/Generics/Any$
+- /usr/lib64/cmdargs-0.10.14/ghc-8.0.2/Data/Generics/Any.dyn_hi$
+- /usr/lib64/cmdargs-0.10.14/ghc-8.0.2/Data/Generics/Any.hi$
+- /usr/lib64/cmdargs-0.10.14/ghc-8.0.2/Data/Generics/Any/Prelude.dyn_hi$
+- /usr/lib64/cmdargs-0.10.14/ghc-8.0.2/Data/Generics/Any/Prelude.hi$
+- /usr/lib64/cmdargs-0.10.14/ghc-8.0.2/System$
+- /usr/lib64/cmdargs-0.10.14/ghc-8.0.2/System/Console$
+- /usr/lib64/cmdargs-0.10.14/ghc-8.0.2/System/Console/CmdArgs$
+- /usr/lib64/cmdargs-0.10.14/ghc-8.0.2/System/Console/CmdArgs.dyn_hi$
+- /usr/lib64/cmdargs-0.10.14/ghc-8.0.2/System/Console/CmdArgs.hi$
+- /usr/lib64/cmdargs-0.10.14/ghc-8.0.2/System/Console/CmdArgs/Annotate.dyn_hi$
+- /usr/lib64/cmdargs-0.10.14/ghc-8.0.2/System/Console/CmdArgs/Annotate.hi$
+- /usr/lib64/cmdargs-0.10.14/ghc-8.0.2/System/Console/CmdArgs/Default.dyn_hi$
+- /usr/lib64/cmdargs-0.10.14/ghc-8.0.2/System/Console/CmdArgs/Default.hi$
+- /usr/lib64/cmdargs-0.10.14/ghc-8.0.2/System/Console/CmdArgs/Explicit$
+- /usr/lib64/cmdargs-0.10.14/ghc-8.0.2/System/Console/CmdArgs/Explicit.dyn_hi$
+- /usr/lib64/cmdargs-0.10.14/ghc-8.0.2/System/Console/CmdArgs/Explicit.hi$
+- /usr/lib64/cmdargs-0.10.14/ghc-8.0.2/System/Console/CmdArgs/Explicit/Complete.dyn_hi$
+- /usr/lib64/cmdargs-0.10.14/ghc-8.0.2/System/Console/CmdArgs/Explicit/Complete.hi$
+- /usr/lib64/cmdargs-0.10.14/ghc-8.0.2/System/Console/CmdArgs/Explicit/ExpandArgsAt.dyn_hi$
+- /usr/lib64/cmdargs-0.10.14/ghc-8.0.2/System/Console/CmdArgs/Explicit/ExpandArgsAt.hi$
+- /usr/lib64/cmdargs-0.10.14/ghc-8.0.2/System/Console/CmdArgs/Explicit/Help.dyn_hi$
+- /usr/lib64/cmdargs-0.10.14/ghc-8.0.2/System/Console/CmdArgs/Explicit/Help.hi$
+- /usr/lib64/cmdargs-0.10.14/ghc-8.0.2/System/Console/CmdArgs/Explicit/Process.dyn_hi$
+- /usr/lib64/cmdargs-0.10.14/ghc-8.0.2/System/Console/CmdArgs/Explicit/Process.hi$
+- /usr/lib64/cmdargs-0.10.14/ghc-8.0.2/System/Console/CmdArgs/Explicit/SplitJoin.dyn_hi$
+- /usr/lib64/cmdargs-0.10.14/ghc-8.0.2/System/Console/CmdArgs/Explicit/SplitJoin.hi$
+- /usr/lib64/cmdargs-0.10.14/ghc-8.0.2/System/Console/CmdArgs/Explicit/Type.dyn_hi$
+- /usr/lib64/cmdargs-0.10.14/ghc-8.0.2/System/Console/CmdArgs/Explicit/Type.hi$
+- /usr/lib64/cmdargs-0.10.14/ghc-8.0.2/System/Console/CmdArgs/GetOpt.dyn_hi$
+- /usr/lib64/cmdargs-0.10.14/ghc-8.0.2/System/Console/CmdArgs/GetOpt.hi$
+- /usr/lib64/cmdargs-0.10.14/ghc-8.0.2/System/Console/CmdArgs/Helper.dyn_hi$
+- /usr/lib64/cmdargs-0.10.14/ghc-8.0.2/System/Console/CmdArgs/Helper.hi$
+- /usr/lib64/cmdargs-0.10.14/ghc-8.0.2/System/Console/CmdArgs/Implicit$
+- /usr/lib64/cmdargs-0.10.14/ghc-8.0.2/System/Console/CmdArgs/Implicit.dyn_hi$
+- /usr/lib64/cmdargs-0.10.14/ghc-8.0.2/System/Console/CmdArgs/Implicit.hi$
+- /usr/lib64/cmdargs-0.10.14/ghc-8.0.2/System/Console/CmdArgs/Implicit/Ann.dyn_hi$
+- /usr/lib64/cmdargs-0.10.14/ghc-8.0.2/System/Console/CmdArgs/Implicit/Ann.hi$
+- /usr/lib64/cmdargs-0.10.14/ghc-8.0.2/System/Console/CmdArgs/Implicit/Global.dyn_hi$
+- /usr/lib64/cmdargs-0.10.14/ghc-8.0.2/System/Console/CmdArgs/Implicit/Global.hi$
+- /usr/lib64/cmdargs-0.10.14/ghc-8.0.2/System/Console/CmdArgs/Implicit/Local.dyn_hi$
+- /usr/lib64/cmdargs-0.10.14/ghc-8.0.2/System/Console/CmdArgs/Implicit/Local.hi$
+- /usr/lib64/cmdargs-0.10.14/ghc-8.0.2/System/Console/CmdArgs/Implicit/Reader.dyn_hi$
+- /usr/lib64/cmdargs-0.10.14/ghc-8.0.2/System/Console/CmdArgs/Implicit/Reader.hi$
+- /usr/lib64/cmdargs-0.10.14/ghc-8.0.2/System/Console/CmdArgs/Implicit/Reform.dyn_hi$
+- /usr/lib64/cmdargs-0.10.14/ghc-8.0.2/System/Console/CmdArgs/Implicit/Reform.hi$
+- /usr/lib64/cmdargs-0.10.14/ghc-8.0.2/System/Console/CmdArgs/Implicit/Type.dyn_hi$
+- /usr/lib64/cmdargs-0.10.14/ghc-8.0.2/System/Console/CmdArgs/Implicit/Type.hi$
+- /usr/lib64/cmdargs-0.10.14/ghc-8.0.2/System/Console/CmdArgs/Implicit/UI.dyn_hi$
+- /usr/lib64/cmdargs-0.10.14/ghc-8.0.2/System/Console/CmdArgs/Implicit/UI.hi$
+- /usr/lib64/cmdargs-0.10.14/ghc-8.0.2/System/Console/CmdArgs/Quote.dyn_hi$
+- /usr/lib64/cmdargs-0.10.14/ghc-8.0.2/System/Console/CmdArgs/Quote.hi$
+- /usr/lib64/cmdargs-0.10.14/ghc-8.0.2/System/Console/CmdArgs/Text.dyn_hi$
+- /usr/lib64/cmdargs-0.10.14/ghc-8.0.2/System/Console/CmdArgs/Text.hi$
+- /usr/lib64/cmdargs-0.10.14/ghc-8.0.2/System/Console/CmdArgs/Verbosity.dyn_hi$
+- /usr/lib64/cmdargs-0.10.14/ghc-8.0.2/System/Console/CmdArgs/Verbosity.hi$
+- /usr/lib64/cmdargs-0.10.14/ghc-8.0.2/libHScmdargs-0.10.14-BseLIURxQJGI8piBKaa1Py.a$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-cmdargs-0.10.14-cmdargs-0.10.14.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-cmdargs-0.10.14.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/cmdargs-0.10.14-BseLIURxQJGI8piBKaa1Py.conf$
+- /usr/lib64/x86_64-linux-ghc-7.10.3$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHScmdargs-0.10.14-BseLIURxQJGI8piBKaa1Py-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/cmdargs-0.10.14$
+- /usr/share/doc/cmdargs-0.10.14/LICENSE.bz2$

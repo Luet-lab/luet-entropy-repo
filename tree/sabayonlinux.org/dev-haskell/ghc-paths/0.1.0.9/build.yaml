@@ -1,0 +1,31 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/ghc-paths-0.1.0.9
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/ghc-paths/0.1.0.9/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-ghc-paths-0.1.0.9-ghc-paths-0.1.0.9.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-ghc-paths-0.1.0.9.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/ghc-paths-0.1.0.9-AhaDlGOsRAepox069XzG.conf$
+- /usr/lib64/ghc-paths-0.1.0.9$
+- /usr/lib64/ghc-paths-0.1.0.9/ghc-8.0.2$
+- /usr/lib64/ghc-paths-0.1.0.9/ghc-8.0.2/GHC$
+- /usr/lib64/ghc-paths-0.1.0.9/ghc-8.0.2/GHC/Paths.dyn_hi$
+- /usr/lib64/ghc-paths-0.1.0.9/ghc-8.0.2/GHC/Paths.hi$
+- /usr/lib64/ghc-paths-0.1.0.9/ghc-8.0.2/libHSghc-paths-0.1.0.9-AhaDlGOsRAepox069XzG.a$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSghc-paths-0.1.0.9-AhaDlGOsRAepox069XzG-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/ghc-paths-0.1.0.9$
+- /usr/share/doc/ghc-paths-0.1.0.9/LICENSE.bz2$

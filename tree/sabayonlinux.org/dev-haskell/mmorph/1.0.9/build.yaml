@@ -1,0 +1,36 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/mmorph-1.0.9
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/mmorph/1.0.9/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-mmorph-1.0.9-mmorph-1.0.9.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-mmorph-1.0.9.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/mmorph-1.0.9-4JK5hHJtTLl6nbs7cO7K3C.conf$
+- /usr/lib64/mmorph-1.0.9$
+- /usr/lib64/mmorph-1.0.9/ghc-8.0.2$
+- /usr/lib64/mmorph-1.0.9/ghc-8.0.2/Control$
+- /usr/lib64/mmorph-1.0.9/ghc-8.0.2/Control/Monad$
+- /usr/lib64/mmorph-1.0.9/ghc-8.0.2/Control/Monad/Morph.dyn_hi$
+- /usr/lib64/mmorph-1.0.9/ghc-8.0.2/Control/Monad/Morph.hi$
+- /usr/lib64/mmorph-1.0.9/ghc-8.0.2/Control/Monad/Trans$
+- /usr/lib64/mmorph-1.0.9/ghc-8.0.2/Control/Monad/Trans/Compose.dyn_hi$
+- /usr/lib64/mmorph-1.0.9/ghc-8.0.2/Control/Monad/Trans/Compose.hi$
+- /usr/lib64/mmorph-1.0.9/ghc-8.0.2/libHSmmorph-1.0.9-4JK5hHJtTLl6nbs7cO7K3C.a$
+- /usr/lib64/x86_64-linux-ghc-7.10.3$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSmmorph-1.0.9-4JK5hHJtTLl6nbs7cO7K3C-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/mmorph-1.0.9$
+- /usr/share/doc/mmorph-1.0.9/LICENSE.bz2$

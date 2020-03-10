@@ -1,0 +1,33 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/sha-1.6.4.2
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/sha/1.6.4.2/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-sha-1.6.4.2-sha-1.6.4.2.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-sha-1.6.4.2.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/SHA-1.6.4.2-BlcXV9KJC71ACdhHvtU6aF.conf$
+- /usr/lib64/sha-1.6.4.2$
+- /usr/lib64/sha-1.6.4.2/ghc-8.0.2$
+- /usr/lib64/sha-1.6.4.2/ghc-8.0.2/Data$
+- /usr/lib64/sha-1.6.4.2/ghc-8.0.2/Data/Digest$
+- /usr/lib64/sha-1.6.4.2/ghc-8.0.2/Data/Digest/Pure$
+- /usr/lib64/sha-1.6.4.2/ghc-8.0.2/Data/Digest/Pure/SHA.dyn_hi$
+- /usr/lib64/sha-1.6.4.2/ghc-8.0.2/Data/Digest/Pure/SHA.hi$
+- /usr/lib64/sha-1.6.4.2/ghc-8.0.2/libHSSHA-1.6.4.2-BlcXV9KJC71ACdhHvtU6aF.a$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSSHA-1.6.4.2-BlcXV9KJC71ACdhHvtU6aF-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/sha-1.6.4.2$
+- /usr/share/doc/sha-1.6.4.2/LICENSE.bz2$

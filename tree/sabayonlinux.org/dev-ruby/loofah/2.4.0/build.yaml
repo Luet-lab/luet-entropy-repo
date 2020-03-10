@@ -1,0 +1,43 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/loofah-2.4.0
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-ruby/loofah/2.4.0/definition.yaml
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/loofah-2.4.0$
+- /usr/lib64/ruby/gems/2.5.0/gems/loofah-2.4.0/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/loofah-2.4.0/lib/loofah$
+- /usr/lib64/ruby/gems/2.5.0/gems/loofah-2.4.0/lib/loofah.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/loofah-2.4.0/lib/loofah/elements.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/loofah-2.4.0/lib/loofah/helpers.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/loofah-2.4.0/lib/loofah/html$
+- /usr/lib64/ruby/gems/2.5.0/gems/loofah-2.4.0/lib/loofah/html/document.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/loofah-2.4.0/lib/loofah/html/document_fragment.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/loofah-2.4.0/lib/loofah/html5$
+- /usr/lib64/ruby/gems/2.5.0/gems/loofah-2.4.0/lib/loofah/html5/libxml2_workarounds.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/loofah-2.4.0/lib/loofah/html5/safelist.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/loofah-2.4.0/lib/loofah/html5/scrub.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/loofah-2.4.0/lib/loofah/instance_methods.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/loofah-2.4.0/lib/loofah/metahelpers.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/loofah-2.4.0/lib/loofah/scrubber.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/loofah-2.4.0/lib/loofah/scrubbers.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/loofah-2.4.0/lib/loofah/xml$
+- /usr/lib64/ruby/gems/2.5.0/gems/loofah-2.4.0/lib/loofah/xml/document.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/loofah-2.4.0/lib/loofah/xml/document_fragment.rb$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/loofah-2.4.0.gemspec$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/loofah-2.4.0$
+- /usr/share/doc/loofah-2.4.0/CHANGELOG.md.bz2$
+- /usr/share/doc/loofah-2.4.0/README.md.bz2$

@@ -1,0 +1,21 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/gnome-python-base-2.28.1-r1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-python/gnome-python-base-2/2.28.1/definition.yaml
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/gnome-python-2.0.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/gnome-python-base-2.28.1-r1$
+- /usr/share/doc/gnome-python-base-2.28.1-r1/AUTHORS$
+- /usr/share/doc/gnome-python-base-2.28.1-r1/ChangeLog.bz2$
+- /usr/share/doc/gnome-python-base-2.28.1-r1/NEWS.bz2$
+- /usr/share/doc/gnome-python-base-2.28.1-r1/README.bz2$

@@ -1,0 +1,55 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/safe_yaml-1.0.5
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-ruby/safe_yaml/1.0.5/definition.yaml
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/safe_yaml$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/safe_yaml-1.0.5$
+- /usr/lib64/ruby/gems/2.5.0/gems/safe_yaml-1.0.5/bin$
+- /usr/lib64/ruby/gems/2.5.0/gems/safe_yaml-1.0.5/bin/safe_yaml$
+- /usr/lib64/ruby/gems/2.5.0/gems/safe_yaml-1.0.5/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/safe_yaml-1.0.5/lib/safe_yaml$
+- /usr/lib64/ruby/gems/2.5.0/gems/safe_yaml-1.0.5/lib/safe_yaml.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/safe_yaml-1.0.5/lib/safe_yaml/deep.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/safe_yaml-1.0.5/lib/safe_yaml/libyaml_checker.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/safe_yaml-1.0.5/lib/safe_yaml/load.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/safe_yaml-1.0.5/lib/safe_yaml/parse$
+- /usr/lib64/ruby/gems/2.5.0/gems/safe_yaml-1.0.5/lib/safe_yaml/parse/date.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/safe_yaml-1.0.5/lib/safe_yaml/parse/hexadecimal.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/safe_yaml-1.0.5/lib/safe_yaml/parse/sexagesimal.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/safe_yaml-1.0.5/lib/safe_yaml/psych_handler.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/safe_yaml-1.0.5/lib/safe_yaml/psych_resolver.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/safe_yaml-1.0.5/lib/safe_yaml/resolver.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/safe_yaml-1.0.5/lib/safe_yaml/safe_to_ruby_visitor.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/safe_yaml-1.0.5/lib/safe_yaml/store.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/safe_yaml-1.0.5/lib/safe_yaml/syck_hack.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/safe_yaml-1.0.5/lib/safe_yaml/syck_node_monkeypatch.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/safe_yaml-1.0.5/lib/safe_yaml/syck_resolver.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/safe_yaml-1.0.5/lib/safe_yaml/transform$
+- /usr/lib64/ruby/gems/2.5.0/gems/safe_yaml-1.0.5/lib/safe_yaml/transform.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/safe_yaml-1.0.5/lib/safe_yaml/transform/to_boolean.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/safe_yaml-1.0.5/lib/safe_yaml/transform/to_date.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/safe_yaml-1.0.5/lib/safe_yaml/transform/to_float.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/safe_yaml-1.0.5/lib/safe_yaml/transform/to_integer.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/safe_yaml-1.0.5/lib/safe_yaml/transform/to_nil.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/safe_yaml-1.0.5/lib/safe_yaml/transform/to_symbol.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/safe_yaml-1.0.5/lib/safe_yaml/transform/transformation_map.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/safe_yaml-1.0.5/lib/safe_yaml/version.rb$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/safe_yaml-1.0.5.gemspec$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/safe_yaml-1.0.5$
+- /usr/share/doc/safe_yaml-1.0.5/README.md.bz2$

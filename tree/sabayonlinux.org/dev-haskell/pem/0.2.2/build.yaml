@@ -1,0 +1,42 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/pem-0.2.2
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/pem/0.2.2/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-pem-0.2.2-pem-0.2.2.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-pem-0.2.2.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/pem-0.2.2-CkEwei5500yF2642aAaOAi.conf$
+- /usr/lib64/pem-0.2.2$
+- /usr/lib64/pem-0.2.2/ghc-8.0.2$
+- /usr/lib64/pem-0.2.2/ghc-8.0.2/Data$
+- /usr/lib64/pem-0.2.2/ghc-8.0.2/Data/PEM$
+- /usr/lib64/pem-0.2.2/ghc-8.0.2/Data/PEM.dyn_hi$
+- /usr/lib64/pem-0.2.2/ghc-8.0.2/Data/PEM.hi$
+- /usr/lib64/pem-0.2.2/ghc-8.0.2/Data/PEM/Parser.dyn_hi$
+- /usr/lib64/pem-0.2.2/ghc-8.0.2/Data/PEM/Parser.hi$
+- /usr/lib64/pem-0.2.2/ghc-8.0.2/Data/PEM/Types.dyn_hi$
+- /usr/lib64/pem-0.2.2/ghc-8.0.2/Data/PEM/Types.hi$
+- /usr/lib64/pem-0.2.2/ghc-8.0.2/Data/PEM/Writer.dyn_hi$
+- /usr/lib64/pem-0.2.2/ghc-8.0.2/Data/PEM/Writer.hi$
+- /usr/lib64/pem-0.2.2/ghc-8.0.2/libHSpem-0.2.2-CkEwei5500yF2642aAaOAi.a$
+- /usr/lib64/x86_64-linux-ghc-7.10.3$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSpem-0.2.2-CkEwei5500yF2642aAaOAi-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/pem-0.2.2$
+- /usr/share/doc/pem-0.2.2/LICENSE.bz2$
+- /usr/share/pem-0.2.2$
+- /usr/share/pem-0.2.2/ghc-8.0.2$
+- /usr/share/pem-0.2.2/ghc-8.0.2/README.md$

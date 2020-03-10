@@ -1,0 +1,45 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/regex-pcre-0.94.4-r1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/regex-pcre/0.94.4/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-regex-pcre-0.94.4-r1-regex-pcre-0.94.4.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-regex-pcre-0.94.4-r1.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/regex-pcre-0.94.4-73cCuJKUCFU8xcsGJjH3gL.conf$
+- /usr/lib64/regex-pcre-0.94.4$
+- /usr/lib64/regex-pcre-0.94.4/ghc-8.0.2$
+- /usr/lib64/regex-pcre-0.94.4/ghc-8.0.2/Text$
+- /usr/lib64/regex-pcre-0.94.4/ghc-8.0.2/Text/Regex$
+- /usr/lib64/regex-pcre-0.94.4/ghc-8.0.2/Text/Regex/PCRE$
+- /usr/lib64/regex-pcre-0.94.4/ghc-8.0.2/Text/Regex/PCRE.dyn_hi$
+- /usr/lib64/regex-pcre-0.94.4/ghc-8.0.2/Text/Regex/PCRE.hi$
+- /usr/lib64/regex-pcre-0.94.4/ghc-8.0.2/Text/Regex/PCRE/ByteString$
+- /usr/lib64/regex-pcre-0.94.4/ghc-8.0.2/Text/Regex/PCRE/ByteString.dyn_hi$
+- /usr/lib64/regex-pcre-0.94.4/ghc-8.0.2/Text/Regex/PCRE/ByteString.hi$
+- /usr/lib64/regex-pcre-0.94.4/ghc-8.0.2/Text/Regex/PCRE/ByteString/Lazy.dyn_hi$
+- /usr/lib64/regex-pcre-0.94.4/ghc-8.0.2/Text/Regex/PCRE/ByteString/Lazy.hi$
+- /usr/lib64/regex-pcre-0.94.4/ghc-8.0.2/Text/Regex/PCRE/Sequence.dyn_hi$
+- /usr/lib64/regex-pcre-0.94.4/ghc-8.0.2/Text/Regex/PCRE/Sequence.hi$
+- /usr/lib64/regex-pcre-0.94.4/ghc-8.0.2/Text/Regex/PCRE/String.dyn_hi$
+- /usr/lib64/regex-pcre-0.94.4/ghc-8.0.2/Text/Regex/PCRE/String.hi$
+- /usr/lib64/regex-pcre-0.94.4/ghc-8.0.2/Text/Regex/PCRE/Wrap.dyn_hi$
+- /usr/lib64/regex-pcre-0.94.4/ghc-8.0.2/Text/Regex/PCRE/Wrap.hi$
+- /usr/lib64/regex-pcre-0.94.4/ghc-8.0.2/libHSregex-pcre-0.94.4-73cCuJKUCFU8xcsGJjH3gL.a$
+- /usr/lib64/x86_64-linux-ghc-7.10.3$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSregex-pcre-0.94.4-73cCuJKUCFU8xcsGJjH3gL-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/regex-pcre-0.94.4-r1$
+- /usr/share/doc/regex-pcre-0.94.4-r1/LICENSE.bz2$

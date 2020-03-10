@@ -1,0 +1,25 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/freexl-1.0.2
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-libs/freexl/1.0.2/definition.yaml
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/freexl.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libfreexl.so$
+- /usr/lib64/libfreexl.so.1$
+- /usr/lib64/libfreexl.so.1.1.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/freexl.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/freexl-1.0.2$
+- /usr/share/doc/freexl-1.0.2/AUTHORS$
+- /usr/share/doc/freexl-1.0.2/README.bz2$

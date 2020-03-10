@@ -1,0 +1,56 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/primitive-0.6.1.0-r1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/primitive/0.6.1.0/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-primitive-0.6.1.0-r1-primitive-0.6.1.0.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-primitive-0.6.1.0-r1.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/primitive-0.6.1.0-6AbSTw9JXz141LE5p6LGH.conf$
+- /usr/lib64/primitive-0.6.1.0$
+- /usr/lib64/primitive-0.6.1.0/ghc-8.0.2$
+- /usr/lib64/primitive-0.6.1.0/ghc-8.0.2/Control$
+- /usr/lib64/primitive-0.6.1.0/ghc-8.0.2/Control/Monad$
+- /usr/lib64/primitive-0.6.1.0/ghc-8.0.2/Control/Monad/Primitive.dyn_hi$
+- /usr/lib64/primitive-0.6.1.0/ghc-8.0.2/Control/Monad/Primitive.hi$
+- /usr/lib64/primitive-0.6.1.0/ghc-8.0.2/Data$
+- /usr/lib64/primitive-0.6.1.0/ghc-8.0.2/Data/Primitive$
+- /usr/lib64/primitive-0.6.1.0/ghc-8.0.2/Data/Primitive.dyn_hi$
+- /usr/lib64/primitive-0.6.1.0/ghc-8.0.2/Data/Primitive.hi$
+- /usr/lib64/primitive-0.6.1.0/ghc-8.0.2/Data/Primitive/Addr.dyn_hi$
+- /usr/lib64/primitive-0.6.1.0/ghc-8.0.2/Data/Primitive/Addr.hi$
+- /usr/lib64/primitive-0.6.1.0/ghc-8.0.2/Data/Primitive/Array.dyn_hi$
+- /usr/lib64/primitive-0.6.1.0/ghc-8.0.2/Data/Primitive/Array.hi$
+- /usr/lib64/primitive-0.6.1.0/ghc-8.0.2/Data/Primitive/ByteArray.dyn_hi$
+- /usr/lib64/primitive-0.6.1.0/ghc-8.0.2/Data/Primitive/ByteArray.hi$
+- /usr/lib64/primitive-0.6.1.0/ghc-8.0.2/Data/Primitive/Internal$
+- /usr/lib64/primitive-0.6.1.0/ghc-8.0.2/Data/Primitive/Internal/Compat.dyn_hi$
+- /usr/lib64/primitive-0.6.1.0/ghc-8.0.2/Data/Primitive/Internal/Compat.hi$
+- /usr/lib64/primitive-0.6.1.0/ghc-8.0.2/Data/Primitive/Internal/Operations.dyn_hi$
+- /usr/lib64/primitive-0.6.1.0/ghc-8.0.2/Data/Primitive/Internal/Operations.hi$
+- /usr/lib64/primitive-0.6.1.0/ghc-8.0.2/Data/Primitive/MachDeps.dyn_hi$
+- /usr/lib64/primitive-0.6.1.0/ghc-8.0.2/Data/Primitive/MachDeps.hi$
+- /usr/lib64/primitive-0.6.1.0/ghc-8.0.2/Data/Primitive/MutVar.dyn_hi$
+- /usr/lib64/primitive-0.6.1.0/ghc-8.0.2/Data/Primitive/MutVar.hi$
+- /usr/lib64/primitive-0.6.1.0/ghc-8.0.2/Data/Primitive/Types.dyn_hi$
+- /usr/lib64/primitive-0.6.1.0/ghc-8.0.2/Data/Primitive/Types.hi$
+- /usr/lib64/primitive-0.6.1.0/ghc-8.0.2/include$
+- /usr/lib64/primitive-0.6.1.0/ghc-8.0.2/include/primitive-memops.h$
+- /usr/lib64/primitive-0.6.1.0/ghc-8.0.2/libHSprimitive-0.6.1.0-6AbSTw9JXz141LE5p6LGH.a$
+- /usr/lib64/x86_64-linux-ghc-7.10.3$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSprimitive-0.6.1.0-6AbSTw9JXz141LE5p6LGH-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/primitive-0.6.1.0-r1$
+- /usr/share/doc/primitive-0.6.1.0-r1/LICENSE.bz2$

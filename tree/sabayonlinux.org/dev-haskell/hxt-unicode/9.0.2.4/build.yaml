@@ -1,0 +1,42 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/hxt-unicode-9.0.2.4
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/hxt-unicode/9.0.2.4/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-hxt-unicode-9.0.2.4-hxt-unicode-9.0.2.4.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-hxt-unicode-9.0.2.4.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/hxt-unicode-9.0.2.4-91NbsYmAW3YHFFSyOss7u4.conf$
+- /usr/lib64/hxt-unicode-9.0.2.4$
+- /usr/lib64/hxt-unicode-9.0.2.4/ghc-7.10.3$
+- /usr/lib64/hxt-unicode-9.0.2.4/ghc-8.0.2$
+- /usr/lib64/hxt-unicode-9.0.2.4/ghc-8.0.2/Data$
+- /usr/lib64/hxt-unicode-9.0.2.4/ghc-8.0.2/Data/Char$
+- /usr/lib64/hxt-unicode-9.0.2.4/ghc-8.0.2/Data/Char/IsoLatinTables.dyn_hi$
+- /usr/lib64/hxt-unicode-9.0.2.4/ghc-8.0.2/Data/Char/IsoLatinTables.hi$
+- /usr/lib64/hxt-unicode-9.0.2.4/ghc-8.0.2/Data/String$
+- /usr/lib64/hxt-unicode-9.0.2.4/ghc-8.0.2/Data/String/EncodingNames.dyn_hi$
+- /usr/lib64/hxt-unicode-9.0.2.4/ghc-8.0.2/Data/String/EncodingNames.hi$
+- /usr/lib64/hxt-unicode-9.0.2.4/ghc-8.0.2/Data/String/UTF8.dyn_hi$
+- /usr/lib64/hxt-unicode-9.0.2.4/ghc-8.0.2/Data/String/UTF8.hi$
+- /usr/lib64/hxt-unicode-9.0.2.4/ghc-8.0.2/Data/String/UTF8Decoding.dyn_hi$
+- /usr/lib64/hxt-unicode-9.0.2.4/ghc-8.0.2/Data/String/UTF8Decoding.hi$
+- /usr/lib64/hxt-unicode-9.0.2.4/ghc-8.0.2/Data/String/Unicode.dyn_hi$
+- /usr/lib64/hxt-unicode-9.0.2.4/ghc-8.0.2/Data/String/Unicode.hi$
+- /usr/lib64/hxt-unicode-9.0.2.4/ghc-8.0.2/libHShxt-unicode-9.0.2.4-91NbsYmAW3YHFFSyOss7u4.a$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHShxt-unicode-9.0.2.4-91NbsYmAW3YHFFSyOss7u4-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/hxt-unicode-9.0.2.4$
+- /usr/share/doc/hxt-unicode-9.0.2.4/LICENSE.bz2$

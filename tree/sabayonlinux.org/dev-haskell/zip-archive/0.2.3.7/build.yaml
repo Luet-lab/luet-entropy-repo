@@ -1,0 +1,32 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/zip-archive-0.2.3.7
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/zip-archive/0.2.3.7/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-zip-archive-0.2.3.7-zip-archive-0.2.3.7.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-zip-archive-0.2.3.7.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/zip-archive-0.2.3.7-HEI8qJwt9p1GkU26iZ3CYR.conf$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSzip-archive-0.2.3.7-HEI8qJwt9p1GkU26iZ3CYR-ghc8.0.2.so$
+- /usr/lib64/zip-archive-0.2.3.7$
+- /usr/lib64/zip-archive-0.2.3.7/ghc-8.0.2$
+- /usr/lib64/zip-archive-0.2.3.7/ghc-8.0.2/Codec$
+- /usr/lib64/zip-archive-0.2.3.7/ghc-8.0.2/Codec/Archive$
+- /usr/lib64/zip-archive-0.2.3.7/ghc-8.0.2/Codec/Archive/Zip.dyn_hi$
+- /usr/lib64/zip-archive-0.2.3.7/ghc-8.0.2/Codec/Archive/Zip.hi$
+- /usr/lib64/zip-archive-0.2.3.7/ghc-8.0.2/libHSzip-archive-0.2.3.7-HEI8qJwt9p1GkU26iZ3CYR.a$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/zip-archive-0.2.3.7$
+- /usr/share/doc/zip-archive-0.2.3.7/LICENSE.bz2$

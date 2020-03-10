@@ -1,0 +1,30 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/domain_name-0.5.20190701
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-ruby/domain_name/0.5.20190701/definition.yaml
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/domain_name-0.5.20190701$
+- /usr/lib64/ruby/gems/2.5.0/gems/domain_name-0.5.20190701/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/domain_name-0.5.20190701/lib/domain_name$
+- /usr/lib64/ruby/gems/2.5.0/gems/domain_name-0.5.20190701/lib/domain_name.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/domain_name-0.5.20190701/lib/domain_name/etld_data.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/domain_name-0.5.20190701/lib/domain_name/etld_data.rb.erb$
+- /usr/lib64/ruby/gems/2.5.0/gems/domain_name-0.5.20190701/lib/domain_name/punycode.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/domain_name-0.5.20190701/lib/domain_name/version.rb$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/domain_name-0.5.20190701.gemspec$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/domain_name-0.5.20190701$
+- /usr/share/doc/domain_name-0.5.20190701/README.md.bz2$

@@ -1,0 +1,20 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-java/commons-lang-3.1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-java/commons-lang-3.1/3.1/definition.yaml
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/commons-lang-3.1$
+- /usr/share/commons-lang-3.1/lib$
+- /usr/share/commons-lang-3.1/lib/commons-lang.jar$
+- /usr/share/commons-lang-3.1/package.env$
+- /usr/share/doc$
+- /usr/share/doc/commons-lang-3.1$
+- /usr/share/doc/commons-lang-3.1/NOTICE.txt.bz2$
+- /usr/share/doc/commons-lang-3.1/RELEASE-NOTES.txt.bz2$

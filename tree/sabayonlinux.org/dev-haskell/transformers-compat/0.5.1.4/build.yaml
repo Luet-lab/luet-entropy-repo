@@ -1,0 +1,36 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/transformers-compat-0.5.1.4
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/transformers-compat/0.5.1.4/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-transformers-compat-0.5.1.4-transformers-compat-0.5.1.4.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-transformers-compat-0.5.1.4.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/transformers-compat-0.5.1.4-H56ZYANaYGM4Pu8BMj2aAM.conf$
+- /usr/lib64/transformers-compat-0.5.1.4$
+- /usr/lib64/transformers-compat-0.5.1.4/ghc-8.0.2$
+- /usr/lib64/transformers-compat-0.5.1.4/ghc-8.0.2/Control$
+- /usr/lib64/transformers-compat-0.5.1.4/ghc-8.0.2/Control/Monad$
+- /usr/lib64/transformers-compat-0.5.1.4/ghc-8.0.2/Control/Monad/Trans$
+- /usr/lib64/transformers-compat-0.5.1.4/ghc-8.0.2/Control/Monad/Trans/Instances.dyn_hi$
+- /usr/lib64/transformers-compat-0.5.1.4/ghc-8.0.2/Control/Monad/Trans/Instances.hi$
+- /usr/lib64/transformers-compat-0.5.1.4/ghc-8.0.2/Paths_transformers_compat.dyn_hi$
+- /usr/lib64/transformers-compat-0.5.1.4/ghc-8.0.2/Paths_transformers_compat.hi$
+- /usr/lib64/transformers-compat-0.5.1.4/ghc-8.0.2/libHStransformers-compat-0.5.1.4-H56ZYANaYGM4Pu8BMj2aAM.a$
+- /usr/lib64/x86_64-linux-ghc-7.10.3$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHStransformers-compat-0.5.1.4-H56ZYANaYGM4Pu8BMj2aAM-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/transformers-compat-0.5.1.4$
+- /usr/share/doc/transformers-compat-0.5.1.4/LICENSE.bz2$

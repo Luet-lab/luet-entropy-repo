@@ -1,0 +1,18 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-plugins/gst-plugins-jack-1.14.5
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> media-plugins/gst-plugins-jack-1.0/1.14.5/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/gstreamer-1.0$
+- /usr/lib32/gstreamer-1.0/libgstjack.so$
+- /usr/lib64$
+- /usr/lib64/gstreamer-1.0$
+- /usr/lib64/gstreamer-1.0/libgstjack.so$

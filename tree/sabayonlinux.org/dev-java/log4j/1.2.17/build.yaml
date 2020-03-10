@@ -1,0 +1,16 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-java/log4j-1.2.17-r3
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-java/log4j/1.2.17/definition.yaml
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/log4j$
+- /usr/share/log4j/lib$
+- /usr/share/log4j/lib/log4j.jar$
+- /usr/share/log4j/package.env$

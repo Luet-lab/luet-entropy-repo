@@ -1,0 +1,26 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i sci-libs/szip-2.1-r2
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> sci-libs/szip/2.1/definition.yaml
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/ricehdf.h$
+- /usr/include/szip_adpt.h$
+- /usr/include/szlib.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libsz.so$
+- /usr/lib64/libsz.so.2$
+- /usr/lib64/libsz.so.2.0.0$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/szip-2.1-r2$
+- /usr/share/doc/szip-2.1-r2/HISTORY.txt.bz2$
+- /usr/share/doc/szip-2.1-r2/RELEASE.txt.bz2$
+- /usr/share/doc/szip-2.1-r2/example.c.bz2$

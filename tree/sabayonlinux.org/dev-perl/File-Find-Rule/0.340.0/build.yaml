@@ -1,0 +1,36 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-perl/File-Find-Rule-0.340.0
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-perl/File-Find-Rule/0.340.0/definition.yaml
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/findrule$
+- /usr/lib64$
+- /usr/lib64/perl5$
+- /usr/lib64/perl5/vendor_perl$
+- /usr/lib64/perl5/vendor_perl/5.28.2$
+- /usr/lib64/perl5/vendor_perl/5.28.2/File$
+- /usr/lib64/perl5/vendor_perl/5.28.2/File/Find$
+- /usr/lib64/perl5/vendor_perl/5.28.2/File/Find/Rule$
+- /usr/lib64/perl5/vendor_perl/5.28.2/File/Find/Rule.pm$
+- /usr/lib64/perl5/vendor_perl/5.28.2/File/Find/Rule/Extending.pod$
+- /usr/lib64/perl5/vendor_perl/5.28.2/File/Find/Rule/Procedural.pod$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/File$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/File/Find$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/File/Find/Rule$
+- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/File/Find/Rule/.packlist$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/File-Find-Rule-0.340.0$
+- /usr/share/doc/File-Find-Rule-0.340.0/Changes.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/findrule.1.bz2$

@@ -1,0 +1,45 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i sys-libs/nss_wrapper-1.1.3
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> sys-libs/nss_wrapper/1.1.3/definition.yaml
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/nss_wrapper.pl$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/cmake$
+- /usr/lib32/cmake/nss_wrapper$
+- /usr/lib32/cmake/nss_wrapper/nss_wrapper-config-version.cmake$
+- /usr/lib32/cmake/nss_wrapper/nss_wrapper-config.cmake$
+- /usr/lib32/libnss_wrapper.so$
+- /usr/lib32/libnss_wrapper.so.0$
+- /usr/lib32/libnss_wrapper.so.0.2.3$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/nss_wrapper.pc$
+- /usr/lib64$
+- /usr/lib64/cmake$
+- /usr/lib64/cmake/nss_wrapper$
+- /usr/lib64/cmake/nss_wrapper/nss_wrapper-config-version.cmake$
+- /usr/lib64/cmake/nss_wrapper/nss_wrapper-config.cmake$
+- /usr/lib64/libnss_wrapper.so$
+- /usr/lib64/libnss_wrapper.so.0$
+- /usr/lib64/libnss_wrapper.so.0.2.3$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/nss_wrapper.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/nss_wrapper-1.1.3$
+- /usr/share/doc/nss_wrapper-1.1.3/AUTHORS.bz2$
+- /usr/share/doc/nss_wrapper-1.1.3/ChangeLog.bz2$
+- /usr/share/doc/nss_wrapper-1.1.3/README.bz2$
+- /usr/share/doc/nss_wrapper-1.1.3/README.install.bz2$
+- /usr/share/doc/nss_wrapper-1.1.3/TODO.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/nss_wrapper.1.bz2$

@@ -1,0 +1,30 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/unf-0.1.4
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-ruby/unf/0.1.4/definition.yaml
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/unf-0.1.4$
+- /usr/lib64/ruby/gems/2.5.0/gems/unf-0.1.4/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/unf-0.1.4/lib/unf$
+- /usr/lib64/ruby/gems/2.5.0/gems/unf-0.1.4/lib/unf.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/unf-0.1.4/lib/unf/normalizer.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/unf-0.1.4/lib/unf/normalizer_cruby.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/unf-0.1.4/lib/unf/normalizer_jruby.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/unf-0.1.4/lib/unf/version.rb$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/unf-0.1.4.gemspec$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/unf-0.1.4$
+- /usr/share/doc/unf-0.1.4/README.md.bz2$

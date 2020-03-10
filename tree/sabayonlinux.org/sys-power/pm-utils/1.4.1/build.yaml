@@ -1,0 +1,86 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i sys-power/pm-utils-1.4.1-r7
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> sys-power/pm-utils/1.4.1/definition.yaml
+includes:
+- /etc$
+- /etc/logrotate.d$
+- /etc/logrotate.d/pm-utils$
+- /etc/pm$
+- /etc/pm/config.d$
+- /etc/pm/config.d/gentoo$
+- /etc/pm/power.d$
+- /etc/pm/sleep.d$
+- /usr$
+- /usr/bin$
+- /usr/bin/on_ac_power$
+- /usr/bin/pm-is-supported$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/pm-utils.pc$
+- /usr/lib64/pm-utils$
+- /usr/lib64/pm-utils/bin$
+- /usr/lib64/pm-utils/bin/pm-action$
+- /usr/lib64/pm-utils/bin/pm-pmu$
+- /usr/lib64/pm-utils/bin/pm-reset-swap$
+- /usr/lib64/pm-utils/bin/service$
+- /usr/lib64/pm-utils/defaults$
+- /usr/lib64/pm-utils/functions$
+- /usr/lib64/pm-utils/module.d$
+- /usr/lib64/pm-utils/module.d/kernel$
+- /usr/lib64/pm-utils/module.d/tuxonice$
+- /usr/lib64/pm-utils/module.d/uswsusp$
+- /usr/lib64/pm-utils/pm-functions$
+- /usr/lib64/pm-utils/power.d$
+- /usr/lib64/pm-utils/power.d/disable_wol$
+- /usr/lib64/pm-utils/power.d/intel-audio-powersave$
+- /usr/lib64/pm-utils/power.d/laptop-mode$
+- /usr/lib64/pm-utils/power.d/pci_devices$
+- /usr/lib64/pm-utils/power.d/pcie_aspm$
+- /usr/lib64/pm-utils/power.d/sata_alpm$
+- /usr/lib64/pm-utils/power.d/sched-powersave$
+- /usr/lib64/pm-utils/power.d/usb_bluetooth$
+- /usr/lib64/pm-utils/power.d/wireless$
+- /usr/lib64/pm-utils/power.d/xfs_buffer$
+- /usr/lib64/pm-utils/sleep.d$
+- /usr/lib64/pm-utils/sleep.d/00logging$
+- /usr/lib64/pm-utils/sleep.d/00powersave$
+- /usr/lib64/pm-utils/sleep.d/01grub$
+- /usr/lib64/pm-utils/sleep.d/50unload_alx$
+- /usr/lib64/pm-utils/sleep.d/75modules$
+- /usr/lib64/pm-utils/sleep.d/90clock$
+- /usr/lib64/pm-utils/sleep.d/94cpufreq$
+- /usr/lib64/pm-utils/sleep.d/95led$
+- /usr/lib64/pm-utils/sleep.d/98video-quirk-db-handler$
+- /usr/lib64/pm-utils/sleep.d/99video$
+- /usr/sbin$
+- /usr/sbin/pm-hibernate$
+- /usr/sbin/pm-powersave$
+- /usr/sbin/pm-suspend$
+- /usr/sbin/pm-suspend-hybrid$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/pm-utils-1.4.1-r7$
+- /usr/share/doc/pm-utils-1.4.1-r7/AUTHORS.bz2$
+- /usr/share/doc/pm-utils-1.4.1-r7/ChangeLog.bz2$
+- /usr/share/doc/pm-utils-1.4.1-r7/HOWTO.hooks.bz2$
+- /usr/share/doc/pm-utils-1.4.1-r7/HOWTO.modules.bz2$
+- /usr/share/doc/pm-utils-1.4.1-r7/NEWS.bz2$
+- /usr/share/doc/pm-utils-1.4.1-r7/README.bz2$
+- /usr/share/doc/pm-utils-1.4.1-r7/README.debugging.bz2$
+- /usr/share/doc/pm-utils-1.4.1-r7/README.distributions.bz2$
+- /usr/share/doc/pm-utils-1.4.1-r7/TODO.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/on_ac_power.1.bz2$
+- /usr/share/man/man1/pm-is-supported.1.bz2$
+- /usr/share/man/man8$
+- /usr/share/man/man8/pm-action.8.bz2$
+- /usr/share/man/man8/pm-pmu.8.bz2$
+- /usr/share/man/man8/pm-powersave.8.bz2$

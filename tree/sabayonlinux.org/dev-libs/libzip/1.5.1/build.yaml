@@ -1,0 +1,31 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/libzip-1.5.1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-libs/libzip/1.5.1/definition.yaml
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/zipcmp$
+- /usr/bin/zipmerge$
+- /usr/bin/ziptool$
+- /usr/include$
+- /usr/include/zip.h$
+- /usr/include/zipconf.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libzip.so$
+- /usr/lib64/libzip.so.5$
+- /usr/lib64/libzip.so.5.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libzip.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libzip-1.5.1$
+- /usr/share/doc/libzip-1.5.1/AUTHORS$
+- /usr/share/doc/libzip-1.5.1/README.md.bz2$
+- /usr/share/doc/libzip-1.5.1/THANKS.bz2$

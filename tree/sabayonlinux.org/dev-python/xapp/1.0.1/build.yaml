@@ -1,0 +1,25 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/xapp-1.0.1-r2
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-python/xapp/1.0.1/definition.yaml
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/python3.6$
+- /usr/lib64/python3.6/site-packages$
+- /usr/lib64/python3.6/site-packages/python_xapp-1.0.0-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/xapp$
+- /usr/lib64/python3.6/site-packages/xapp/__init__.py$
+- /usr/lib64/python3.6/site-packages/xapp/__pycache__$
+- /usr/lib64/python3.6/site-packages/xapp/__pycache__/__init__.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/xapp/__pycache__/__init__.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/xapp/__pycache__/__init__.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/xapp/__pycache__/os.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/xapp/__pycache__/os.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/xapp/__pycache__/os.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/xapp/os.py$

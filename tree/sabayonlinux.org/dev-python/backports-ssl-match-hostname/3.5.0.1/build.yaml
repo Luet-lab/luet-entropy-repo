@@ -1,0 +1,24 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/backports-ssl-match-hostname-3.5.0.1-r1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-python/backports-ssl-match-hostname/3.5.0.1/definition.yaml
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/python2.7$
+- /usr/lib64/python2.7/site-packages$
+- /usr/lib64/python2.7/site-packages/backports$
+- /usr/lib64/python2.7/site-packages/backports.ssl_match_hostname-3.5.0.1-py2.7.egg-info$
+- /usr/lib64/python2.7/site-packages/backports/ssl_match_hostname$
+- /usr/lib64/python2.7/site-packages/backports/ssl_match_hostname/__init__.py$
+- /usr/lib64/python2.7/site-packages/backports/ssl_match_hostname/__init__.pyc$
+- /usr/lib64/python2.7/site-packages/backports/ssl_match_hostname/__init__.pyo$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/backports-ssl-match-hostname-3.5.0.1-r1$
+- /usr/share/doc/backports-ssl-match-hostname-3.5.0.1-r1/README.txt.bz2$

@@ -1,0 +1,44 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i sci-libs/cfitsio-3.410
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> sci-libs/cfitsio/3.410/definition.yaml
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/fitscopy$
+- /usr/bin/fpack$
+- /usr/bin/funpack$
+- /usr/bin/imcopy$
+- /usr/bin/listhead$
+- /usr/include$
+- /usr/include/drvrsmem.h$
+- /usr/include/fitsio.h$
+- /usr/include/fitsio2.h$
+- /usr/include/longnam.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libcfitsio.so$
+- /usr/lib32/libcfitsio.so.5$
+- /usr/lib32/libcfitsio.so.5.0.0$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/cfitsio.pc$
+- /usr/lib64$
+- /usr/lib64/libcfitsio.so$
+- /usr/lib64/libcfitsio.so.5$
+- /usr/lib64/libcfitsio.so.5.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/cfitsio.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/cfitsio-3.410$
+- /usr/share/doc/cfitsio-3.410/CHANGES.md.bz2$
+- /usr/share/doc/cfitsio-3.410/README.bz2$
+- /usr/share/doc/cfitsio-3.410/README.md.bz2$
+- /usr/share/doc/cfitsio-3.410/cfitsio.doc.bz2$
+- /usr/share/doc/cfitsio-3.410/changes.txt.bz2$
+- /usr/share/doc/cfitsio-3.410/fitsio.doc.bz2$

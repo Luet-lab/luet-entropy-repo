@@ -1,0 +1,25 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/childlabor-0.0.3-r1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-ruby/childlabor/0.0.3/definition.yaml
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/childlabor-0.0.3$
+- /usr/lib64/ruby/gems/2.5.0/gems/childlabor-0.0.3/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/childlabor-0.0.3/lib/child_labor.rb$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/childlabor-0.0.3.gemspec$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/childlabor-0.0.3-r1$
+- /usr/share/doc/childlabor-0.0.3-r1/README.md$

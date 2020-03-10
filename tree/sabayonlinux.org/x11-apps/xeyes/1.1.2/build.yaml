@@ -1,0 +1,22 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i x11-apps/xeyes-1.1.2
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> x11-apps/xeyes/1.1.2/definition.yaml
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/xeyes$
+- /usr/lib$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/xeyes-1.1.2$
+- /usr/share/doc/xeyes-1.1.2/ChangeLog.bz2$
+- /usr/share/doc/xeyes-1.1.2/README.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/xeyes.1.bz2$

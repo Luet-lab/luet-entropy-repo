@@ -1,0 +1,48 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/fast-logger-2.4.7
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/fast-logger/2.4.7/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/fast-logger-2.4.7$
+- /usr/lib64/fast-logger-2.4.7/ghc-7.10.3$
+- /usr/lib64/fast-logger-2.4.7/ghc-8.0.2$
+- /usr/lib64/fast-logger-2.4.7/ghc-8.0.2/System$
+- /usr/lib64/fast-logger-2.4.7/ghc-8.0.2/System/Log$
+- /usr/lib64/fast-logger-2.4.7/ghc-8.0.2/System/Log/FastLogger$
+- /usr/lib64/fast-logger-2.4.7/ghc-8.0.2/System/Log/FastLogger.dyn_hi$
+- /usr/lib64/fast-logger-2.4.7/ghc-8.0.2/System/Log/FastLogger.hi$
+- /usr/lib64/fast-logger-2.4.7/ghc-8.0.2/System/Log/FastLogger/Date.dyn_hi$
+- /usr/lib64/fast-logger-2.4.7/ghc-8.0.2/System/Log/FastLogger/Date.hi$
+- /usr/lib64/fast-logger-2.4.7/ghc-8.0.2/System/Log/FastLogger/File.dyn_hi$
+- /usr/lib64/fast-logger-2.4.7/ghc-8.0.2/System/Log/FastLogger/File.hi$
+- /usr/lib64/fast-logger-2.4.7/ghc-8.0.2/System/Log/FastLogger/FileIO.dyn_hi$
+- /usr/lib64/fast-logger-2.4.7/ghc-8.0.2/System/Log/FastLogger/FileIO.hi$
+- /usr/lib64/fast-logger-2.4.7/ghc-8.0.2/System/Log/FastLogger/IO.dyn_hi$
+- /usr/lib64/fast-logger-2.4.7/ghc-8.0.2/System/Log/FastLogger/IO.hi$
+- /usr/lib64/fast-logger-2.4.7/ghc-8.0.2/System/Log/FastLogger/IORef.dyn_hi$
+- /usr/lib64/fast-logger-2.4.7/ghc-8.0.2/System/Log/FastLogger/IORef.hi$
+- /usr/lib64/fast-logger-2.4.7/ghc-8.0.2/System/Log/FastLogger/LogStr.dyn_hi$
+- /usr/lib64/fast-logger-2.4.7/ghc-8.0.2/System/Log/FastLogger/LogStr.hi$
+- /usr/lib64/fast-logger-2.4.7/ghc-8.0.2/System/Log/FastLogger/Logger.dyn_hi$
+- /usr/lib64/fast-logger-2.4.7/ghc-8.0.2/System/Log/FastLogger/Logger.hi$
+- /usr/lib64/fast-logger-2.4.7/ghc-8.0.2/libHSfast-logger-2.4.7-J4uXU37ukB8B8bF133H1Eb.a$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-fast-logger-2.4.7-fast-logger-2.4.7.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-fast-logger-2.4.7.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/fast-logger-2.4.7-J4uXU37ukB8B8bF133H1Eb.conf$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSfast-logger-2.4.7-J4uXU37ukB8B8bF133H1Eb-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/fast-logger-2.4.7$
+- /usr/share/doc/fast-logger-2.4.7/LICENSE.bz2$

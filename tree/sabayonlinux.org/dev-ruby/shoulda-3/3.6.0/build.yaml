@@ -1,0 +1,27 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/shoulda-3.6.0
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-ruby/shoulda-3/3.6.0/definition.yaml
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/shoulda-3.6.0$
+- /usr/lib64/ruby/gems/2.5.0/gems/shoulda-3.6.0/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/shoulda-3.6.0/lib/shoulda$
+- /usr/lib64/ruby/gems/2.5.0/gems/shoulda-3.6.0/lib/shoulda.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/shoulda-3.6.0/lib/shoulda/version.rb$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/shoulda-3.6.0.gemspec$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/shoulda-3.6.0$
+- /usr/share/doc/shoulda-3.6.0/README.md.bz2$

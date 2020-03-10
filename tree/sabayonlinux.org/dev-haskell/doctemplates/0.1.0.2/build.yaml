@@ -1,0 +1,34 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/doctemplates-0.1.0.2
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/doctemplates/0.1.0.2/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/doctemplates-0.1.0.2$
+- /usr/lib64/doctemplates-0.1.0.2/ghc-8.0.2$
+- /usr/lib64/doctemplates-0.1.0.2/ghc-8.0.2/Text$
+- /usr/lib64/doctemplates-0.1.0.2/ghc-8.0.2/Text/DocTemplates.dyn_hi$
+- /usr/lib64/doctemplates-0.1.0.2/ghc-8.0.2/Text/DocTemplates.hi$
+- /usr/lib64/doctemplates-0.1.0.2/ghc-8.0.2/libHSdoctemplates-0.1.0.2-E4yktFBokgl8avKEqDsQnt.a$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-doctemplates-0.1.0.2-doctemplates-0.1.0.2.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-doctemplates-0.1.0.2.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/doctemplates-0.1.0.2-E4yktFBokgl8avKEqDsQnt.conf$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSdoctemplates-0.1.0.2-E4yktFBokgl8avKEqDsQnt-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/doctemplates-0.1.0.2$
+- /usr/share/doc/doctemplates-0.1.0.2/LICENSE.bz2$
+- /usr/share/doctemplates-0.1.0.2$
+- /usr/share/doctemplates-0.1.0.2/ghc-8.0.2$
+- /usr/share/doctemplates-0.1.0.2/ghc-8.0.2/README.md$

@@ -1,0 +1,46 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/xml-1.3.14
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/xml/1.3.14/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-xml-1.3.14-xml-1.3.14.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-xml-1.3.14.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/xml-1.3.14-IN5SMvrm5GQAZWVEwEuWiv.conf$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSxml-1.3.14-IN5SMvrm5GQAZWVEwEuWiv-ghc8.0.2.so$
+- /usr/lib64/xml-1.3.14$
+- /usr/lib64/xml-1.3.14/ghc-7.10.3$
+- /usr/lib64/xml-1.3.14/ghc-8.0.2$
+- /usr/lib64/xml-1.3.14/ghc-8.0.2/Text$
+- /usr/lib64/xml-1.3.14/ghc-8.0.2/Text/XML$
+- /usr/lib64/xml-1.3.14/ghc-8.0.2/Text/XML/Light$
+- /usr/lib64/xml-1.3.14/ghc-8.0.2/Text/XML/Light.dyn_hi$
+- /usr/lib64/xml-1.3.14/ghc-8.0.2/Text/XML/Light.hi$
+- /usr/lib64/xml-1.3.14/ghc-8.0.2/Text/XML/Light/Cursor.dyn_hi$
+- /usr/lib64/xml-1.3.14/ghc-8.0.2/Text/XML/Light/Cursor.hi$
+- /usr/lib64/xml-1.3.14/ghc-8.0.2/Text/XML/Light/Input.dyn_hi$
+- /usr/lib64/xml-1.3.14/ghc-8.0.2/Text/XML/Light/Input.hi$
+- /usr/lib64/xml-1.3.14/ghc-8.0.2/Text/XML/Light/Lexer.dyn_hi$
+- /usr/lib64/xml-1.3.14/ghc-8.0.2/Text/XML/Light/Lexer.hi$
+- /usr/lib64/xml-1.3.14/ghc-8.0.2/Text/XML/Light/Output.dyn_hi$
+- /usr/lib64/xml-1.3.14/ghc-8.0.2/Text/XML/Light/Output.hi$
+- /usr/lib64/xml-1.3.14/ghc-8.0.2/Text/XML/Light/Proc.dyn_hi$
+- /usr/lib64/xml-1.3.14/ghc-8.0.2/Text/XML/Light/Proc.hi$
+- /usr/lib64/xml-1.3.14/ghc-8.0.2/Text/XML/Light/Types.dyn_hi$
+- /usr/lib64/xml-1.3.14/ghc-8.0.2/Text/XML/Light/Types.hi$
+- /usr/lib64/xml-1.3.14/ghc-8.0.2/libHSxml-1.3.14-IN5SMvrm5GQAZWVEwEuWiv.a$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/xml-1.3.14$
+- /usr/share/doc/xml-1.3.14/LICENSE.bz2$

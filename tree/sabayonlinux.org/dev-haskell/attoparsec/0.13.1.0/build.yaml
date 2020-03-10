@@ -1,0 +1,76 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/attoparsec-0.13.1.0
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/attoparsec/0.13.1.0/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/attoparsec-0.13.1.0$
+- /usr/lib64/attoparsec-0.13.1.0/ghc-8.0.2$
+- /usr/lib64/attoparsec-0.13.1.0/ghc-8.0.2/Data$
+- /usr/lib64/attoparsec-0.13.1.0/ghc-8.0.2/Data/Attoparsec$
+- /usr/lib64/attoparsec-0.13.1.0/ghc-8.0.2/Data/Attoparsec.dyn_hi$
+- /usr/lib64/attoparsec-0.13.1.0/ghc-8.0.2/Data/Attoparsec.hi$
+- /usr/lib64/attoparsec-0.13.1.0/ghc-8.0.2/Data/Attoparsec/ByteString$
+- /usr/lib64/attoparsec-0.13.1.0/ghc-8.0.2/Data/Attoparsec/ByteString.dyn_hi$
+- /usr/lib64/attoparsec-0.13.1.0/ghc-8.0.2/Data/Attoparsec/ByteString.hi$
+- /usr/lib64/attoparsec-0.13.1.0/ghc-8.0.2/Data/Attoparsec/ByteString/Buffer.dyn_hi$
+- /usr/lib64/attoparsec-0.13.1.0/ghc-8.0.2/Data/Attoparsec/ByteString/Buffer.hi$
+- /usr/lib64/attoparsec-0.13.1.0/ghc-8.0.2/Data/Attoparsec/ByteString/Char8.dyn_hi$
+- /usr/lib64/attoparsec-0.13.1.0/ghc-8.0.2/Data/Attoparsec/ByteString/Char8.hi$
+- /usr/lib64/attoparsec-0.13.1.0/ghc-8.0.2/Data/Attoparsec/ByteString/FastSet.dyn_hi$
+- /usr/lib64/attoparsec-0.13.1.0/ghc-8.0.2/Data/Attoparsec/ByteString/FastSet.hi$
+- /usr/lib64/attoparsec-0.13.1.0/ghc-8.0.2/Data/Attoparsec/ByteString/Internal.dyn_hi$
+- /usr/lib64/attoparsec-0.13.1.0/ghc-8.0.2/Data/Attoparsec/ByteString/Internal.hi$
+- /usr/lib64/attoparsec-0.13.1.0/ghc-8.0.2/Data/Attoparsec/ByteString/Lazy.dyn_hi$
+- /usr/lib64/attoparsec-0.13.1.0/ghc-8.0.2/Data/Attoparsec/ByteString/Lazy.hi$
+- /usr/lib64/attoparsec-0.13.1.0/ghc-8.0.2/Data/Attoparsec/Char8.dyn_hi$
+- /usr/lib64/attoparsec-0.13.1.0/ghc-8.0.2/Data/Attoparsec/Char8.hi$
+- /usr/lib64/attoparsec-0.13.1.0/ghc-8.0.2/Data/Attoparsec/Combinator.dyn_hi$
+- /usr/lib64/attoparsec-0.13.1.0/ghc-8.0.2/Data/Attoparsec/Combinator.hi$
+- /usr/lib64/attoparsec-0.13.1.0/ghc-8.0.2/Data/Attoparsec/Internal$
+- /usr/lib64/attoparsec-0.13.1.0/ghc-8.0.2/Data/Attoparsec/Internal.dyn_hi$
+- /usr/lib64/attoparsec-0.13.1.0/ghc-8.0.2/Data/Attoparsec/Internal.hi$
+- /usr/lib64/attoparsec-0.13.1.0/ghc-8.0.2/Data/Attoparsec/Internal/Fhthagn.dyn_hi$
+- /usr/lib64/attoparsec-0.13.1.0/ghc-8.0.2/Data/Attoparsec/Internal/Fhthagn.hi$
+- /usr/lib64/attoparsec-0.13.1.0/ghc-8.0.2/Data/Attoparsec/Internal/Types.dyn_hi$
+- /usr/lib64/attoparsec-0.13.1.0/ghc-8.0.2/Data/Attoparsec/Internal/Types.hi$
+- /usr/lib64/attoparsec-0.13.1.0/ghc-8.0.2/Data/Attoparsec/Lazy.dyn_hi$
+- /usr/lib64/attoparsec-0.13.1.0/ghc-8.0.2/Data/Attoparsec/Lazy.hi$
+- /usr/lib64/attoparsec-0.13.1.0/ghc-8.0.2/Data/Attoparsec/Number.dyn_hi$
+- /usr/lib64/attoparsec-0.13.1.0/ghc-8.0.2/Data/Attoparsec/Number.hi$
+- /usr/lib64/attoparsec-0.13.1.0/ghc-8.0.2/Data/Attoparsec/Text$
+- /usr/lib64/attoparsec-0.13.1.0/ghc-8.0.2/Data/Attoparsec/Text.dyn_hi$
+- /usr/lib64/attoparsec-0.13.1.0/ghc-8.0.2/Data/Attoparsec/Text.hi$
+- /usr/lib64/attoparsec-0.13.1.0/ghc-8.0.2/Data/Attoparsec/Text/Buffer.dyn_hi$
+- /usr/lib64/attoparsec-0.13.1.0/ghc-8.0.2/Data/Attoparsec/Text/Buffer.hi$
+- /usr/lib64/attoparsec-0.13.1.0/ghc-8.0.2/Data/Attoparsec/Text/FastSet.dyn_hi$
+- /usr/lib64/attoparsec-0.13.1.0/ghc-8.0.2/Data/Attoparsec/Text/FastSet.hi$
+- /usr/lib64/attoparsec-0.13.1.0/ghc-8.0.2/Data/Attoparsec/Text/Internal.dyn_hi$
+- /usr/lib64/attoparsec-0.13.1.0/ghc-8.0.2/Data/Attoparsec/Text/Internal.hi$
+- /usr/lib64/attoparsec-0.13.1.0/ghc-8.0.2/Data/Attoparsec/Text/Lazy.dyn_hi$
+- /usr/lib64/attoparsec-0.13.1.0/ghc-8.0.2/Data/Attoparsec/Text/Lazy.hi$
+- /usr/lib64/attoparsec-0.13.1.0/ghc-8.0.2/Data/Attoparsec/Types.dyn_hi$
+- /usr/lib64/attoparsec-0.13.1.0/ghc-8.0.2/Data/Attoparsec/Types.hi$
+- /usr/lib64/attoparsec-0.13.1.0/ghc-8.0.2/Data/Attoparsec/Zepto.dyn_hi$
+- /usr/lib64/attoparsec-0.13.1.0/ghc-8.0.2/Data/Attoparsec/Zepto.hi$
+- /usr/lib64/attoparsec-0.13.1.0/ghc-8.0.2/libHSattoparsec-0.13.1.0-EEtSicHPc5D4KTojPT3ft4.a$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-attoparsec-0.13.1.0-attoparsec-0.13.1.0.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-attoparsec-0.13.1.0.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/attoparsec-0.13.1.0-EEtSicHPc5D4KTojPT3ft4.conf$
+- /usr/lib64/x86_64-linux-ghc-7.10.3$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSattoparsec-0.13.1.0-EEtSicHPc5D4KTojPT3ft4-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/attoparsec-0.13.1.0$
+- /usr/share/doc/attoparsec-0.13.1.0/LICENSE.bz2$

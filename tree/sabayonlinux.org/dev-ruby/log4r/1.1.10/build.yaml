@@ -1,0 +1,100 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/log4r-1.1.10-r2
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-ruby/log4r/1.1.10/definition.yaml
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/log4r-1.1.10$
+- /usr/lib64/ruby/gems/2.5.0/gems/log4r-1.1.10/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/log4r-1.1.10/lib/log4r$
+- /usr/lib64/ruby/gems/2.5.0/gems/log4r-1.1.10/lib/log4r.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/log4r-1.1.10/lib/log4r/GDC.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/log4r-1.1.10/lib/log4r/MDC.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/log4r-1.1.10/lib/log4r/NDC.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/log4r-1.1.10/lib/log4r/base.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/log4r-1.1.10/lib/log4r/config.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/log4r-1.1.10/lib/log4r/configurator.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/log4r-1.1.10/lib/log4r/formatter$
+- /usr/lib64/ruby/gems/2.5.0/gems/log4r-1.1.10/lib/log4r/formatter/formatter.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/log4r-1.1.10/lib/log4r/formatter/log4jxmlformatter.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/log4r-1.1.10/lib/log4r/formatter/patternformatter.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/log4r-1.1.10/lib/log4r/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/log4r-1.1.10/lib/log4r/lib/drbloader.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/log4r-1.1.10/lib/log4r/lib/xmlloader.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/log4r-1.1.10/lib/log4r/logevent.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/log4r-1.1.10/lib/log4r/logger.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/log4r-1.1.10/lib/log4r/loggerfactory.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/log4r-1.1.10/lib/log4r/logserver.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/log4r-1.1.10/lib/log4r/outputter$
+- /usr/lib64/ruby/gems/2.5.0/gems/log4r-1.1.10/lib/log4r/outputter/consoleoutputters.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/log4r-1.1.10/lib/log4r/outputter/datefileoutputter.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/log4r-1.1.10/lib/log4r/outputter/emailoutputter.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/log4r-1.1.10/lib/log4r/outputter/fileoutputter.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/log4r-1.1.10/lib/log4r/outputter/iooutputter.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/log4r-1.1.10/lib/log4r/outputter/outputter.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/log4r-1.1.10/lib/log4r/outputter/outputterfactory.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/log4r-1.1.10/lib/log4r/outputter/remoteoutputter.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/log4r-1.1.10/lib/log4r/outputter/rollingfileoutputter.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/log4r-1.1.10/lib/log4r/outputter/scribeoutputter.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/log4r-1.1.10/lib/log4r/outputter/staticoutputter.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/log4r-1.1.10/lib/log4r/outputter/syslogoutputter.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/log4r-1.1.10/lib/log4r/outputter/udpoutputter.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/log4r-1.1.10/lib/log4r/rdoc$
+- /usr/lib64/ruby/gems/2.5.0/gems/log4r-1.1.10/lib/log4r/rdoc/GDC$
+- /usr/lib64/ruby/gems/2.5.0/gems/log4r-1.1.10/lib/log4r/rdoc/MDC$
+- /usr/lib64/ruby/gems/2.5.0/gems/log4r-1.1.10/lib/log4r/rdoc/NDC$
+- /usr/lib64/ruby/gems/2.5.0/gems/log4r-1.1.10/lib/log4r/rdoc/configurator$
+- /usr/lib64/ruby/gems/2.5.0/gems/log4r-1.1.10/lib/log4r/rdoc/emailoutputter$
+- /usr/lib64/ruby/gems/2.5.0/gems/log4r-1.1.10/lib/log4r/rdoc/formatter$
+- /usr/lib64/ruby/gems/2.5.0/gems/log4r-1.1.10/lib/log4r/rdoc/log4jxmlformatter$
+- /usr/lib64/ruby/gems/2.5.0/gems/log4r-1.1.10/lib/log4r/rdoc/log4r$
+- /usr/lib64/ruby/gems/2.5.0/gems/log4r-1.1.10/lib/log4r/rdoc/logger$
+- /usr/lib64/ruby/gems/2.5.0/gems/log4r-1.1.10/lib/log4r/rdoc/logserver$
+- /usr/lib64/ruby/gems/2.5.0/gems/log4r-1.1.10/lib/log4r/rdoc/outputter$
+- /usr/lib64/ruby/gems/2.5.0/gems/log4r-1.1.10/lib/log4r/rdoc/patternformatter$
+- /usr/lib64/ruby/gems/2.5.0/gems/log4r-1.1.10/lib/log4r/rdoc/scribeoutputter$
+- /usr/lib64/ruby/gems/2.5.0/gems/log4r-1.1.10/lib/log4r/rdoc/syslogoutputter$
+- /usr/lib64/ruby/gems/2.5.0/gems/log4r-1.1.10/lib/log4r/rdoc/win32eventoutputter$
+- /usr/lib64/ruby/gems/2.5.0/gems/log4r-1.1.10/lib/log4r/rdoc/yamlconfigurator$
+- /usr/lib64/ruby/gems/2.5.0/gems/log4r-1.1.10/lib/log4r/repository.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/log4r-1.1.10/lib/log4r/staticlogger.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/log4r-1.1.10/lib/log4r/version.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/log4r-1.1.10/lib/log4r/yamlconfigurator.rb$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/log4r-1.1.10.gemspec$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/log4r-1.1.10-r2$
+- /usr/share/doc/log4r-1.1.10-r2/examples$
+- /usr/share/doc/log4r-1.1.10-r2/examples/README.bz2$
+- /usr/share/doc/log4r-1.1.10-r2/examples/ancestors.rb.bz2$
+- /usr/share/doc/log4r-1.1.10-r2/examples/chainsaw_settings.xml.bz2$
+- /usr/share/doc/log4r-1.1.10-r2/examples/customlevels.rb.bz2$
+- /usr/share/doc/log4r-1.1.10-r2/examples/filelog.rb.bz2$
+- /usr/share/doc/log4r-1.1.10-r2/examples/fileroll.rb.bz2$
+- /usr/share/doc/log4r-1.1.10-r2/examples/gmail.rb.bz2$
+- /usr/share/doc/log4r-1.1.10-r2/examples/gmail.yaml.bz2$
+- /usr/share/doc/log4r-1.1.10-r2/examples/log4r_yaml.yaml.bz2$
+- /usr/share/doc/log4r-1.1.10-r2/examples/logclient.rb.bz2$
+- /usr/share/doc/log4r-1.1.10-r2/examples/logserver.rb.bz2$
+- /usr/share/doc/log4r-1.1.10-r2/examples/moderate.xml.bz2$
+- /usr/share/doc/log4r-1.1.10-r2/examples/moderateconfig.rb.bz2$
+- /usr/share/doc/log4r-1.1.10-r2/examples/myformatter.rb.bz2$
+- /usr/share/doc/log4r-1.1.10-r2/examples/outofthebox.rb.bz2$
+- /usr/share/doc/log4r-1.1.10-r2/examples/rdoc-gen$
+- /usr/share/doc/log4r-1.1.10-r2/examples/rrconfig.xml.bz2$
+- /usr/share/doc/log4r-1.1.10-r2/examples/rrsetup.rb.bz2$
+- /usr/share/doc/log4r-1.1.10-r2/examples/simpleconfig.rb.bz2$
+- /usr/share/doc/log4r-1.1.10-r2/examples/syslogcustom.rb.bz2$
+- /usr/share/doc/log4r-1.1.10-r2/examples/xmlconfig.rb.bz2$
+- /usr/share/doc/log4r-1.1.10-r2/examples/yaml.rb.bz2$

@@ -1,0 +1,18 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i sys-apps/vbetool-1.1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> sys-apps/vbetool/1.1/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/sbin$
+- /usr/sbin/vbetool$
+- /usr/share$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/vbetool.1.bz2$

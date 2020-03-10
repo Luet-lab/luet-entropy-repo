@@ -1,0 +1,57 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/x509-1.6.5
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/x509/1.6.5/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-x509-1.6.5-x509-1.6.5.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-x509-1.6.5.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/x509-1.6.5-9SF8ObQNPGfD5OZAvy19c4.conf$
+- /usr/lib64/x509-1.6.5$
+- /usr/lib64/x509-1.6.5/ghc-8.0.2$
+- /usr/lib64/x509-1.6.5/ghc-8.0.2/Data$
+- /usr/lib64/x509-1.6.5/ghc-8.0.2/Data/X509$
+- /usr/lib64/x509-1.6.5/ghc-8.0.2/Data/X509.dyn_hi$
+- /usr/lib64/x509-1.6.5/ghc-8.0.2/Data/X509.hi$
+- /usr/lib64/x509-1.6.5/ghc-8.0.2/Data/X509/AlgorithmIdentifier.dyn_hi$
+- /usr/lib64/x509-1.6.5/ghc-8.0.2/Data/X509/AlgorithmIdentifier.hi$
+- /usr/lib64/x509-1.6.5/ghc-8.0.2/Data/X509/CRL.dyn_hi$
+- /usr/lib64/x509-1.6.5/ghc-8.0.2/Data/X509/CRL.hi$
+- /usr/lib64/x509-1.6.5/ghc-8.0.2/Data/X509/Cert.dyn_hi$
+- /usr/lib64/x509-1.6.5/ghc-8.0.2/Data/X509/Cert.hi$
+- /usr/lib64/x509-1.6.5/ghc-8.0.2/Data/X509/CertificateChain.dyn_hi$
+- /usr/lib64/x509-1.6.5/ghc-8.0.2/Data/X509/CertificateChain.hi$
+- /usr/lib64/x509-1.6.5/ghc-8.0.2/Data/X509/DistinguishedName.dyn_hi$
+- /usr/lib64/x509-1.6.5/ghc-8.0.2/Data/X509/DistinguishedName.hi$
+- /usr/lib64/x509-1.6.5/ghc-8.0.2/Data/X509/Ext.dyn_hi$
+- /usr/lib64/x509-1.6.5/ghc-8.0.2/Data/X509/Ext.hi$
+- /usr/lib64/x509-1.6.5/ghc-8.0.2/Data/X509/ExtensionRaw.dyn_hi$
+- /usr/lib64/x509-1.6.5/ghc-8.0.2/Data/X509/ExtensionRaw.hi$
+- /usr/lib64/x509-1.6.5/ghc-8.0.2/Data/X509/Internal.dyn_hi$
+- /usr/lib64/x509-1.6.5/ghc-8.0.2/Data/X509/Internal.hi$
+- /usr/lib64/x509-1.6.5/ghc-8.0.2/Data/X509/OID.dyn_hi$
+- /usr/lib64/x509-1.6.5/ghc-8.0.2/Data/X509/OID.hi$
+- /usr/lib64/x509-1.6.5/ghc-8.0.2/Data/X509/PrivateKey.dyn_hi$
+- /usr/lib64/x509-1.6.5/ghc-8.0.2/Data/X509/PrivateKey.hi$
+- /usr/lib64/x509-1.6.5/ghc-8.0.2/Data/X509/PublicKey.dyn_hi$
+- /usr/lib64/x509-1.6.5/ghc-8.0.2/Data/X509/PublicKey.hi$
+- /usr/lib64/x509-1.6.5/ghc-8.0.2/Data/X509/Signed.dyn_hi$
+- /usr/lib64/x509-1.6.5/ghc-8.0.2/Data/X509/Signed.hi$
+- /usr/lib64/x509-1.6.5/ghc-8.0.2/libHSx509-1.6.5-9SF8ObQNPGfD5OZAvy19c4.a$
+- /usr/lib64/x86_64-linux-ghc-7.10.3$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSx509-1.6.5-9SF8ObQNPGfD5OZAvy19c4-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/x509-1.6.5$
+- /usr/share/doc/x509-1.6.5/LICENSE.bz2$

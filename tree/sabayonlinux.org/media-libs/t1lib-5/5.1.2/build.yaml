@@ -1,0 +1,37 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/t1lib-5.1.2-r2
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> media-libs/t1lib-5/5.1.2/definition.yaml
+includes:
+- /etc$
+- /etc/t1lib$
+- /etc/t1lib/t1lib.config$
+- /usr$
+- /usr/bin$
+- /usr/bin/type1afm$
+- /usr/bin/xglyph$
+- /usr/include$
+- /usr/include/t1lib.h$
+- /usr/include/t1libx.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libt1.la$
+- /usr/lib64/libt1.so$
+- /usr/lib64/libt1.so.5$
+- /usr/lib64/libt1.so.5.1.2$
+- /usr/lib64/libt1x.la$
+- /usr/lib64/libt1x.so$
+- /usr/lib64/libt1x.so.5$
+- /usr/lib64/libt1x.so.5.1.2$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/t1lib-5.1.2-r2$
+- /usr/share/doc/t1lib-5.1.2-r2/Changes.bz2$
+- /usr/share/doc/t1lib-5.1.2-r2/README.t1lib-5.1.2.bz2$
+- /usr/share/doc/t1lib-5.1.2-r2/README.t1python.bz2$
+- /usr/share/doc/t1lib-5.1.2-r2/README.win32.bz2$

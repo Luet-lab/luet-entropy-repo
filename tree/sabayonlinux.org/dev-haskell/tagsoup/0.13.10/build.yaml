@@ -1,0 +1,58 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/tagsoup-0.13.10
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/tagsoup/0.13.10/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-tagsoup-0.13.10-tagsoup-0.13.10.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-tagsoup-0.13.10.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/tagsoup-0.13.10-BTWEcgHDwJg7jmnDO27FFB.conf$
+- /usr/lib64/tagsoup-0.13.10$
+- /usr/lib64/tagsoup-0.13.10/ghc-7.10.3$
+- /usr/lib64/tagsoup-0.13.10/ghc-8.0.2$
+- /usr/lib64/tagsoup-0.13.10/ghc-8.0.2/Text$
+- /usr/lib64/tagsoup-0.13.10/ghc-8.0.2/Text/HTML$
+- /usr/lib64/tagsoup-0.13.10/ghc-8.0.2/Text/HTML/TagSoup$
+- /usr/lib64/tagsoup-0.13.10/ghc-8.0.2/Text/HTML/TagSoup.dyn_hi$
+- /usr/lib64/tagsoup-0.13.10/ghc-8.0.2/Text/HTML/TagSoup.hi$
+- /usr/lib64/tagsoup-0.13.10/ghc-8.0.2/Text/HTML/TagSoup/Entity.dyn_hi$
+- /usr/lib64/tagsoup-0.13.10/ghc-8.0.2/Text/HTML/TagSoup/Entity.hi$
+- /usr/lib64/tagsoup-0.13.10/ghc-8.0.2/Text/HTML/TagSoup/Generated.dyn_hi$
+- /usr/lib64/tagsoup-0.13.10/ghc-8.0.2/Text/HTML/TagSoup/Generated.hi$
+- /usr/lib64/tagsoup-0.13.10/ghc-8.0.2/Text/HTML/TagSoup/Implementation.dyn_hi$
+- /usr/lib64/tagsoup-0.13.10/ghc-8.0.2/Text/HTML/TagSoup/Implementation.hi$
+- /usr/lib64/tagsoup-0.13.10/ghc-8.0.2/Text/HTML/TagSoup/Manual.dyn_hi$
+- /usr/lib64/tagsoup-0.13.10/ghc-8.0.2/Text/HTML/TagSoup/Manual.hi$
+- /usr/lib64/tagsoup-0.13.10/ghc-8.0.2/Text/HTML/TagSoup/Match.dyn_hi$
+- /usr/lib64/tagsoup-0.13.10/ghc-8.0.2/Text/HTML/TagSoup/Match.hi$
+- /usr/lib64/tagsoup-0.13.10/ghc-8.0.2/Text/HTML/TagSoup/Options.dyn_hi$
+- /usr/lib64/tagsoup-0.13.10/ghc-8.0.2/Text/HTML/TagSoup/Options.hi$
+- /usr/lib64/tagsoup-0.13.10/ghc-8.0.2/Text/HTML/TagSoup/Parser.dyn_hi$
+- /usr/lib64/tagsoup-0.13.10/ghc-8.0.2/Text/HTML/TagSoup/Parser.hi$
+- /usr/lib64/tagsoup-0.13.10/ghc-8.0.2/Text/HTML/TagSoup/Render.dyn_hi$
+- /usr/lib64/tagsoup-0.13.10/ghc-8.0.2/Text/HTML/TagSoup/Render.hi$
+- /usr/lib64/tagsoup-0.13.10/ghc-8.0.2/Text/HTML/TagSoup/Specification.dyn_hi$
+- /usr/lib64/tagsoup-0.13.10/ghc-8.0.2/Text/HTML/TagSoup/Specification.hi$
+- /usr/lib64/tagsoup-0.13.10/ghc-8.0.2/Text/HTML/TagSoup/Tree.dyn_hi$
+- /usr/lib64/tagsoup-0.13.10/ghc-8.0.2/Text/HTML/TagSoup/Tree.hi$
+- /usr/lib64/tagsoup-0.13.10/ghc-8.0.2/Text/HTML/TagSoup/Type.dyn_hi$
+- /usr/lib64/tagsoup-0.13.10/ghc-8.0.2/Text/HTML/TagSoup/Type.hi$
+- /usr/lib64/tagsoup-0.13.10/ghc-8.0.2/Text/StringLike.dyn_hi$
+- /usr/lib64/tagsoup-0.13.10/ghc-8.0.2/Text/StringLike.hi$
+- /usr/lib64/tagsoup-0.13.10/ghc-8.0.2/libHStagsoup-0.13.10-BTWEcgHDwJg7jmnDO27FFB.a$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHStagsoup-0.13.10-BTWEcgHDwJg7jmnDO27FFB-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/tagsoup-0.13.10$
+- /usr/share/doc/tagsoup-0.13.10/LICENSE.bz2$

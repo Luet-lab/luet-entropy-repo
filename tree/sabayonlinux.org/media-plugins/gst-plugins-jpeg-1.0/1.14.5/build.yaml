@@ -1,0 +1,22 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-plugins/gst-plugins-jpeg-1.14.5
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> media-plugins/gst-plugins-jpeg-1.0/1.14.5/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/gstreamer-1.0$
+- /usr/lib32/gstreamer-1.0/libgstjpeg.so$
+- /usr/lib64$
+- /usr/lib64/gstreamer-1.0$
+- /usr/lib64/gstreamer-1.0/libgstjpeg.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/gst-plugins-jpeg-1.14.5$
+- /usr/share/doc/gst-plugins-jpeg-1.14.5/README.bz2$

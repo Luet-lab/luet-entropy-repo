@@ -1,0 +1,36 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/base16-bytestring-0.1.1.6
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/base16-bytestring/0.1.1.6/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/base16-bytestring-0.1.1.6$
+- /usr/lib64/base16-bytestring-0.1.1.6/ghc-7.10.3$
+- /usr/lib64/base16-bytestring-0.1.1.6/ghc-8.0.2$
+- /usr/lib64/base16-bytestring-0.1.1.6/ghc-8.0.2/Data$
+- /usr/lib64/base16-bytestring-0.1.1.6/ghc-8.0.2/Data/ByteString$
+- /usr/lib64/base16-bytestring-0.1.1.6/ghc-8.0.2/Data/ByteString/Base16$
+- /usr/lib64/base16-bytestring-0.1.1.6/ghc-8.0.2/Data/ByteString/Base16.dyn_hi$
+- /usr/lib64/base16-bytestring-0.1.1.6/ghc-8.0.2/Data/ByteString/Base16.hi$
+- /usr/lib64/base16-bytestring-0.1.1.6/ghc-8.0.2/Data/ByteString/Base16/Lazy.dyn_hi$
+- /usr/lib64/base16-bytestring-0.1.1.6/ghc-8.0.2/Data/ByteString/Base16/Lazy.hi$
+- /usr/lib64/base16-bytestring-0.1.1.6/ghc-8.0.2/libHSbase16-bytestring-0.1.1.6-4E2p94lTx8gIceMhu8Kl9o.a$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-base16-bytestring-0.1.1.6-base16-bytestring-0.1.1.6.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-base16-bytestring-0.1.1.6.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/base16-bytestring-0.1.1.6-4E2p94lTx8gIceMhu8Kl9o.conf$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSbase16-bytestring-0.1.1.6-4E2p94lTx8gIceMhu8Kl9o-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/base16-bytestring-0.1.1.6$
+- /usr/share/doc/base16-bytestring-0.1.1.6/LICENSE.bz2$

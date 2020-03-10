@@ -1,0 +1,40 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/wai-logger-2.2.7
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/wai-logger/2.2.7/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-wai-logger-2.2.7-wai-logger-2.2.7.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-wai-logger-2.2.7.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/wai-logger-2.2.7-7cP6TH9F6fpFY5MSpnfbjQ.conf$
+- /usr/lib64/wai-logger-2.2.7$
+- /usr/lib64/wai-logger-2.2.7/ghc-8.0.2$
+- /usr/lib64/wai-logger-2.2.7/ghc-8.0.2/Network$
+- /usr/lib64/wai-logger-2.2.7/ghc-8.0.2/Network/Wai$
+- /usr/lib64/wai-logger-2.2.7/ghc-8.0.2/Network/Wai/Logger$
+- /usr/lib64/wai-logger-2.2.7/ghc-8.0.2/Network/Wai/Logger.dyn_hi$
+- /usr/lib64/wai-logger-2.2.7/ghc-8.0.2/Network/Wai/Logger.hi$
+- /usr/lib64/wai-logger-2.2.7/ghc-8.0.2/Network/Wai/Logger/Apache.dyn_hi$
+- /usr/lib64/wai-logger-2.2.7/ghc-8.0.2/Network/Wai/Logger/Apache.hi$
+- /usr/lib64/wai-logger-2.2.7/ghc-8.0.2/Network/Wai/Logger/IORef.dyn_hi$
+- /usr/lib64/wai-logger-2.2.7/ghc-8.0.2/Network/Wai/Logger/IORef.hi$
+- /usr/lib64/wai-logger-2.2.7/ghc-8.0.2/Network/Wai/Logger/IP.dyn_hi$
+- /usr/lib64/wai-logger-2.2.7/ghc-8.0.2/Network/Wai/Logger/IP.hi$
+- /usr/lib64/wai-logger-2.2.7/ghc-8.0.2/libHSwai-logger-2.2.7-7cP6TH9F6fpFY5MSpnfbjQ.a$
+- /usr/lib64/x86_64-linux-ghc-7.10.3$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSwai-logger-2.2.7-7cP6TH9F6fpFY5MSpnfbjQ-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/wai-logger-2.2.7$
+- /usr/share/doc/wai-logger-2.2.7/LICENSE.bz2$

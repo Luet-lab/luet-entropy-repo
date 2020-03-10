@@ -1,0 +1,33 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/mmap-0.5.9
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/mmap/0.5.9/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-mmap-0.5.9-mmap-0.5.9.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-mmap-0.5.9.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/mmap-0.5.9-D0mf78ViUxZKmclALOQBOI.conf$
+- /usr/lib64/mmap-0.5.9$
+- /usr/lib64/mmap-0.5.9/ghc-7.10.3$
+- /usr/lib64/mmap-0.5.9/ghc-8.0.2$
+- /usr/lib64/mmap-0.5.9/ghc-8.0.2/System$
+- /usr/lib64/mmap-0.5.9/ghc-8.0.2/System/IO$
+- /usr/lib64/mmap-0.5.9/ghc-8.0.2/System/IO/MMap.dyn_hi$
+- /usr/lib64/mmap-0.5.9/ghc-8.0.2/System/IO/MMap.hi$
+- /usr/lib64/mmap-0.5.9/ghc-8.0.2/libHSmmap-0.5.9-D0mf78ViUxZKmclALOQBOI.a$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSmmap-0.5.9-D0mf78ViUxZKmclALOQBOI-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/mmap-0.5.9$
+- /usr/share/doc/mmap-0.5.9/LICENSE.bz2$

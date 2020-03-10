@@ -1,0 +1,24 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/fail-4.9.0.0
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/fail/4.9.0.0/definition.yaml
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/fail-4.9.0.0$
+- /usr/lib64/fail-4.9.0.0/ghc-7.10.3$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-fail-4.9.0.0-fail-4.9.0.0.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-fail-4.9.0.0.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/fail-4.9.0.0-FGE8TmYPyfd2ZUpoMVx9sD.conf$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/fail-4.9.0.0$
+- /usr/share/doc/fail-4.9.0.0/LICENSE.bz2$

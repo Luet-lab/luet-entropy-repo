@@ -1,0 +1,32 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/deepseq-generics-0.2.0.0
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/deepseq-generics/0.2.0.0/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/deepseq-generics-0.2.0.0$
+- /usr/lib64/deepseq-generics-0.2.0.0/ghc-8.0.2$
+- /usr/lib64/deepseq-generics-0.2.0.0/ghc-8.0.2/Control$
+- /usr/lib64/deepseq-generics-0.2.0.0/ghc-8.0.2/Control/DeepSeq$
+- /usr/lib64/deepseq-generics-0.2.0.0/ghc-8.0.2/Control/DeepSeq/Generics.dyn_hi$
+- /usr/lib64/deepseq-generics-0.2.0.0/ghc-8.0.2/Control/DeepSeq/Generics.hi$
+- /usr/lib64/deepseq-generics-0.2.0.0/ghc-8.0.2/libHSdeepseq-generics-0.2.0.0-IjS8Jfo7YCzLKpV8N96gbz.a$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-deepseq-generics-0.2.0.0-deepseq-generics-0.2.0.0.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-deepseq-generics-0.2.0.0.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/deepseq-generics-0.2.0.0-IjS8Jfo7YCzLKpV8N96gbz.conf$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSdeepseq-generics-0.2.0.0-IjS8Jfo7YCzLKpV8N96gbz-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/deepseq-generics-0.2.0.0$
+- /usr/share/doc/deepseq-generics-0.2.0.0/LICENSE.bz2$

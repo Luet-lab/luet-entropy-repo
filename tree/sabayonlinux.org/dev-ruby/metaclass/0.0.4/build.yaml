@@ -1,0 +1,28 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/metaclass-0.0.4
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-ruby/metaclass/0.0.4/definition.yaml
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/metaclass-0.0.4$
+- /usr/lib64/ruby/gems/2.5.0/gems/metaclass-0.0.4/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/metaclass-0.0.4/lib/metaclass$
+- /usr/lib64/ruby/gems/2.5.0/gems/metaclass-0.0.4/lib/metaclass.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/metaclass-0.0.4/lib/metaclass/object_methods.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/metaclass-0.0.4/lib/metaclass/version.rb$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/metaclass-0.0.4.gemspec$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/metaclass-0.0.4$
+- /usr/share/doc/metaclass-0.0.4/README.md.bz2$

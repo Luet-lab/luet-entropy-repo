@@ -1,0 +1,30 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i net-libs/libmicrodns-0.0.9
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> net-libs/libmicrodns/0.0.9/definition.yaml
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/microdns$
+- /usr/include/microdns/microdns.h$
+- /usr/include/microdns/rr.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libmicrodns.a$
+- /usr/lib64/libmicrodns.la$
+- /usr/lib64/libmicrodns.so$
+- /usr/lib64/libmicrodns.so.0$
+- /usr/lib64/libmicrodns.so.0.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/microdns.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libmicrodns-0.0.9$
+- /usr/share/doc/libmicrodns-0.0.9/AUTHORS.bz2$
+- /usr/share/doc/libmicrodns-0.0.9/NEWS.bz2$
+- /usr/share/doc/libmicrodns-0.0.9/README.md.bz2$

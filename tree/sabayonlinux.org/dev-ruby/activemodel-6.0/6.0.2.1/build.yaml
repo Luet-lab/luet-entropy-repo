@@ -1,0 +1,97 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/activemodel-6.0.2.1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-ruby/activemodel-6.0/6.0.2.1/definition.yaml
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/bin$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/bin/test$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/attribute$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/attribute.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/attribute/user_provided_default.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/attribute_assignment.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/attribute_methods.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/attribute_mutation_tracker.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/attribute_set$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/attribute_set.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/attribute_set/builder.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/attribute_set/yaml_encoder.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/attributes.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/callbacks.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/conversion.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/dirty.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/errors.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/forbidden_attributes_protection.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/gem_version.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/lint.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/locale$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/locale/en.yml$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/model.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/naming.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/railtie.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/secure_password.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/serialization.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/serializers$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/serializers/json.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/translation.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/type$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/type.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/type/big_integer.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/type/binary.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/type/boolean.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/type/date.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/type/date_time.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/type/decimal.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/type/float.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/type/helpers$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/type/helpers.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/type/helpers/accepts_multiparameter_time.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/type/helpers/mutable.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/type/helpers/numeric.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/type/helpers/time_value.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/type/helpers/timezone.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/type/immutable_string.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/type/integer.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/type/registry.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/type/string.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/type/time.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/type/value.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/validations$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/validations.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/validations/absence.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/validations/acceptance.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/validations/callbacks.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/validations/clusivity.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/validations/confirmation.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/validations/exclusion.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/validations/format.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/validations/helper_methods.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/validations/inclusion.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/validations/length.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/validations/numericality.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/validations/presence.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/validations/validates.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/validations/with.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/validator.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/activemodel-6.0.2.1/lib/active_model/version.rb$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/activemodel-6.0.2.1.gemspec$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/activemodel-6.0.2.1$
+- /usr/share/doc/activemodel-6.0.2.1/CHANGELOG.md.bz2$
+- /usr/share/doc/activemodel-6.0.2.1/README.rdoc.bz2$

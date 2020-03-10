@@ -1,0 +1,54 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i gnome-extra/cinnamon-session-4.0.0-r1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> gnome-extra/cinnamon-session/4.0.0/definition.yaml
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/cinnamon-session$
+- /usr/bin/cinnamon-session-quit$
+- /usr/lib$
+- /usr/libexec$
+- /usr/libexec/cinnamon-session-check-accelerated$
+- /usr/libexec/cinnamon-session-check-accelerated-helper$
+- /usr/share$
+- /usr/share/cinnamon-session$
+- /usr/share/cinnamon-session/csm-inhibit-dialog.glade$
+- /usr/share/cinnamon-session/hardware-compatibility$
+- /usr/share/doc$
+- /usr/share/doc/cinnamon-session-4.0.0-r1$
+- /usr/share/doc/cinnamon-session-4.0.0-r1/AUTHORS.bz2$
+- /usr/share/doc/cinnamon-session-4.0.0-r1/README.bz2$
+- /usr/share/doc/cinnamon-session-4.0.0-r1/README.md$
+- /usr/share/glib-2.0$
+- /usr/share/glib-2.0/schemas$
+- /usr/share/glib-2.0/schemas/org.cinnamon.SessionManager.gschema.xml$
+- /usr/share/icons$
+- /usr/share/icons/hicolor$
+- /usr/share/icons/hicolor/16x16$
+- /usr/share/icons/hicolor/16x16/apps$
+- /usr/share/icons/hicolor/16x16/apps/cinnamon-session-properties.png$
+- /usr/share/icons/hicolor/22x22$
+- /usr/share/icons/hicolor/22x22/apps$
+- /usr/share/icons/hicolor/22x22/apps/cinnamon-session-properties.png$
+- /usr/share/icons/hicolor/24x24$
+- /usr/share/icons/hicolor/24x24/apps$
+- /usr/share/icons/hicolor/24x24/apps/cinnamon-session-properties.png$
+- /usr/share/icons/hicolor/32x32$
+- /usr/share/icons/hicolor/32x32/apps$
+- /usr/share/icons/hicolor/32x32/apps/cinnamon-session-properties.png$
+- /usr/share/icons/hicolor/48x48$
+- /usr/share/icons/hicolor/48x48/apps$
+- /usr/share/icons/hicolor/48x48/apps/cinnamon-session-properties.png$
+- /usr/share/icons/hicolor/scalable$
+- /usr/share/icons/hicolor/scalable/apps$
+- /usr/share/icons/hicolor/scalable/apps/cinnamon-session-properties.svg$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/cinnamon-session-quit.1.bz2$
+- /usr/share/man/man1/cinnamon-session.1.bz2$

@@ -1,0 +1,65 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-lua/luasocket-3.0_rc1-r4
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-lua/luasocket/3.0/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/lua$
+- /usr/lib32/lua/5.1$
+- /usr/lib32/lua/5.1/mime$
+- /usr/lib32/lua/5.1/mime/core.so$
+- /usr/lib32/lua/5.1/socket$
+- /usr/lib32/lua/5.1/socket/core.so$
+- /usr/lib32/lua/5.1/socket/serial.so$
+- /usr/lib32/lua/5.1/socket/unix.so$
+- /usr/lib64$
+- /usr/lib64/lua$
+- /usr/lib64/lua/5.1$
+- /usr/lib64/lua/5.1/mime$
+- /usr/lib64/lua/5.1/mime/core.so$
+- /usr/lib64/lua/5.1/socket$
+- /usr/lib64/lua/5.1/socket/core.so$
+- /usr/lib64/lua/5.1/socket/serial.so$
+- /usr/lib64/lua/5.1/socket/unix.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/luasocket-3.0_rc1-r4$
+- /usr/share/doc/luasocket-3.0_rc1-r4/NEW.bz2$
+- /usr/share/doc/luasocket-3.0_rc1-r4/README.bz2$
+- /usr/share/doc/luasocket-3.0_rc1-r4/html$
+- /usr/share/doc/luasocket-3.0_rc1-r4/html/dns.html$
+- /usr/share/doc/luasocket-3.0_rc1-r4/html/ftp.html$
+- /usr/share/doc/luasocket-3.0_rc1-r4/html/http.html$
+- /usr/share/doc/luasocket-3.0_rc1-r4/html/index.html$
+- /usr/share/doc/luasocket-3.0_rc1-r4/html/installation.html$
+- /usr/share/doc/luasocket-3.0_rc1-r4/html/introduction.html$
+- /usr/share/doc/luasocket-3.0_rc1-r4/html/ltn12.html$
+- /usr/share/doc/luasocket-3.0_rc1-r4/html/lua05.ppt$
+- /usr/share/doc/luasocket-3.0_rc1-r4/html/luasocket.png$
+- /usr/share/doc/luasocket-3.0_rc1-r4/html/mime.html$
+- /usr/share/doc/luasocket-3.0_rc1-r4/html/reference.css$
+- /usr/share/doc/luasocket-3.0_rc1-r4/html/reference.html$
+- /usr/share/doc/luasocket-3.0_rc1-r4/html/smtp.html$
+- /usr/share/doc/luasocket-3.0_rc1-r4/html/socket.html$
+- /usr/share/doc/luasocket-3.0_rc1-r4/html/tcp.html$
+- /usr/share/doc/luasocket-3.0_rc1-r4/html/udp.html$
+- /usr/share/doc/luasocket-3.0_rc1-r4/html/url.html$
+- /usr/share/lua$
+- /usr/share/lua/5.1$
+- /usr/share/lua/5.1/ltn12.lua$
+- /usr/share/lua/5.1/mime.lua$
+- /usr/share/lua/5.1/socket$
+- /usr/share/lua/5.1/socket.lua$
+- /usr/share/lua/5.1/socket/ftp.lua$
+- /usr/share/lua/5.1/socket/headers.lua$
+- /usr/share/lua/5.1/socket/http.lua$
+- /usr/share/lua/5.1/socket/smtp.lua$
+- /usr/share/lua/5.1/socket/tp.lua$
+- /usr/share/lua/5.1/socket/url.lua$

@@ -1,0 +1,32 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/clock-0.7.2
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/clock/0.7.2/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/clock-0.7.2$
+- /usr/lib64/clock-0.7.2/ghc-7.10.3$
+- /usr/lib64/clock-0.7.2/ghc-8.0.2$
+- /usr/lib64/clock-0.7.2/ghc-8.0.2/System$
+- /usr/lib64/clock-0.7.2/ghc-8.0.2/System/Clock.dyn_hi$
+- /usr/lib64/clock-0.7.2/ghc-8.0.2/System/Clock.hi$
+- /usr/lib64/clock-0.7.2/ghc-8.0.2/libHSclock-0.7.2-6ZjQ4liQAtMEQ8sxJKD0xY.a$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-clock-0.7.2-clock-0.7.2.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-clock-0.7.2.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/clock-0.7.2-6ZjQ4liQAtMEQ8sxJKD0xY.conf$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSclock-0.7.2-6ZjQ4liQAtMEQ8sxJKD0xY-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/clock-0.7.2$
+- /usr/share/doc/clock-0.7.2/LICENSE.bz2$

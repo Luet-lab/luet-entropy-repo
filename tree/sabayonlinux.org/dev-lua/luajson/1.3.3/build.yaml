@@ -1,0 +1,40 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-lua/luajson-1.3.3
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-lua/luajson/1.3.3/definition.yaml
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/luajson-1.3.3$
+- /usr/share/doc/luajson-1.3.3/LuaJSON.txt.bz2$
+- /usr/share/doc/luajson-1.3.3/README.bz2$
+- /usr/share/doc/luajson-1.3.3/ReleaseNotes-1.3.3.txt.bz2$
+- /usr/share/lua$
+- /usr/share/lua/5.1$
+- /usr/share/lua/5.1/json$
+- /usr/share/lua/5.1/json.lua$
+- /usr/share/lua/5.1/json/decode$
+- /usr/share/lua/5.1/json/decode.lua$
+- /usr/share/lua/5.1/json/decode/composite.lua$
+- /usr/share/lua/5.1/json/decode/number.lua$
+- /usr/share/lua/5.1/json/decode/others.lua$
+- /usr/share/lua/5.1/json/decode/state.lua$
+- /usr/share/lua/5.1/json/decode/strings.lua$
+- /usr/share/lua/5.1/json/decode/util.lua$
+- /usr/share/lua/5.1/json/encode$
+- /usr/share/lua/5.1/json/encode.lua$
+- /usr/share/lua/5.1/json/encode/array.lua$
+- /usr/share/lua/5.1/json/encode/calls.lua$
+- /usr/share/lua/5.1/json/encode/number.lua$
+- /usr/share/lua/5.1/json/encode/object.lua$
+- /usr/share/lua/5.1/json/encode/others.lua$
+- /usr/share/lua/5.1/json/encode/output.lua$
+- /usr/share/lua/5.1/json/encode/output_utility.lua$
+- /usr/share/lua/5.1/json/encode/strings.lua$
+- /usr/share/lua/5.1/json/util.lua$

@@ -1,0 +1,58 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/gsound-1.0.2-r1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> media-libs/gsound/1.0.2/definition.yaml
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/gsound-play$
+- /usr/include$
+- /usr/include/gsound-attr.h$
+- /usr/include/gsound-context.h$
+- /usr/include/gsound.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/girepository-1.0$
+- /usr/lib64/girepository-1.0/GSound-1.0.typelib$
+- /usr/lib64/libgsound.so$
+- /usr/lib64/libgsound.so.0$
+- /usr/lib64/libgsound.so.0.0.2$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/gsound.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/gsound-1.0.2-r1$
+- /usr/share/doc/gsound-1.0.2-r1/ChangeLog.bz2$
+- /usr/share/doc/gsound-1.0.2-r1/README.bz2$
+- /usr/share/gir-1.0$
+- /usr/share/gir-1.0/GSound-1.0.gir$
+- /usr/share/gtk-doc$
+- /usr/share/gtk-doc/html$
+- /usr/share/gtk-doc/html/gsound$
+- /usr/share/gtk-doc/html/gsound/GSoundContext.html$
+- /usr/share/gtk-doc/html/gsound/annotation-glossary.html$
+- /usr/share/gtk-doc/html/gsound/api-index-full.html$
+- /usr/share/gtk-doc/html/gsound/ch01.html$
+- /usr/share/gtk-doc/html/gsound/deprecated-api-index.html$
+- /usr/share/gtk-doc/html/gsound/gsound-GSound-Attributes.html$
+- /usr/share/gtk-doc/html/gsound/gsound.devhelp2$
+- /usr/share/gtk-doc/html/gsound/home.png$
+- /usr/share/gtk-doc/html/gsound/index.html$
+- /usr/share/gtk-doc/html/gsound/index.sgml$
+- /usr/share/gtk-doc/html/gsound/left-insensitive.png$
+- /usr/share/gtk-doc/html/gsound/left.png$
+- /usr/share/gtk-doc/html/gsound/object-tree.html$
+- /usr/share/gtk-doc/html/gsound/right-insensitive.png$
+- /usr/share/gtk-doc/html/gsound/right.png$
+- /usr/share/gtk-doc/html/gsound/style.css$
+- /usr/share/gtk-doc/html/gsound/up-insensitive.png$
+- /usr/share/gtk-doc/html/gsound/up.png$
+- /usr/share/vala$
+- /usr/share/vala/vapi$
+- /usr/share/vala/vapi/gsound.deps$
+- /usr/share/vala/vapi/gsound.vapi$

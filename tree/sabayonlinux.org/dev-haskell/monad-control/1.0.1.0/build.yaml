@@ -1,0 +1,34 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/monad-control-1.0.1.0
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/monad-control/1.0.1.0/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-monad-control-1.0.1.0-monad-control-1.0.1.0.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-monad-control-1.0.1.0.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/monad-control-1.0.1.0-2GC7lPeZdq86Dt42zAXi5r.conf$
+- /usr/lib64/monad-control-1.0.1.0$
+- /usr/lib64/monad-control-1.0.1.0/ghc-8.0.2$
+- /usr/lib64/monad-control-1.0.1.0/ghc-8.0.2/Control$
+- /usr/lib64/monad-control-1.0.1.0/ghc-8.0.2/Control/Monad$
+- /usr/lib64/monad-control-1.0.1.0/ghc-8.0.2/Control/Monad/Trans$
+- /usr/lib64/monad-control-1.0.1.0/ghc-8.0.2/Control/Monad/Trans/Control.dyn_hi$
+- /usr/lib64/monad-control-1.0.1.0/ghc-8.0.2/Control/Monad/Trans/Control.hi$
+- /usr/lib64/monad-control-1.0.1.0/ghc-8.0.2/libHSmonad-control-1.0.1.0-2GC7lPeZdq86Dt42zAXi5r.a$
+- /usr/lib64/x86_64-linux-ghc-7.10.3$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSmonad-control-1.0.1.0-2GC7lPeZdq86Dt42zAXi5r-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/monad-control-1.0.1.0$
+- /usr/share/doc/monad-control-1.0.1.0/LICENSE.bz2$

@@ -1,0 +1,11 @@
+
+category: "media-libs"
+name: "ladspa-cmt"
+version: "1.16+r4"
+requires:
+- category: "media-libs"
+  name: "ladspa-sdk"
+  version: ">=1.13"
+- category: "sys-apps"
+  name: "sed"
+  version: ">=4.7"

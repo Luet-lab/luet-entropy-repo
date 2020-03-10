@@ -1,0 +1,38 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/ansi-terminal-0.6.2.3
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/ansi-terminal/0.6.2.3/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ansi-terminal-0.6.2.3$
+- /usr/lib64/ansi-terminal-0.6.2.3/ghc-7.10.3$
+- /usr/lib64/ansi-terminal-0.6.2.3/ghc-8.0.2$
+- /usr/lib64/ansi-terminal-0.6.2.3/ghc-8.0.2/System$
+- /usr/lib64/ansi-terminal-0.6.2.3/ghc-8.0.2/System/Console$
+- /usr/lib64/ansi-terminal-0.6.2.3/ghc-8.0.2/System/Console/ANSI$
+- /usr/lib64/ansi-terminal-0.6.2.3/ghc-8.0.2/System/Console/ANSI.dyn_hi$
+- /usr/lib64/ansi-terminal-0.6.2.3/ghc-8.0.2/System/Console/ANSI.hi$
+- /usr/lib64/ansi-terminal-0.6.2.3/ghc-8.0.2/System/Console/ANSI/Common.dyn_hi$
+- /usr/lib64/ansi-terminal-0.6.2.3/ghc-8.0.2/System/Console/ANSI/Common.hi$
+- /usr/lib64/ansi-terminal-0.6.2.3/ghc-8.0.2/System/Console/ANSI/Unix.dyn_hi$
+- /usr/lib64/ansi-terminal-0.6.2.3/ghc-8.0.2/System/Console/ANSI/Unix.hi$
+- /usr/lib64/ansi-terminal-0.6.2.3/ghc-8.0.2/libHSansi-terminal-0.6.2.3-18Iua6Y0oQZ5teqNh3j59Q.a$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-ansi-terminal-0.6.2.3-ansi-terminal-0.6.2.3.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-ansi-terminal-0.6.2.3.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/ansi-terminal-0.6.2.3-18Iua6Y0oQZ5teqNh3j59Q.conf$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSansi-terminal-0.6.2.3-18Iua6Y0oQZ5teqNh3j59Q-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/ansi-terminal-0.6.2.3$
+- /usr/share/doc/ansi-terminal-0.6.2.3/LICENSE.bz2$

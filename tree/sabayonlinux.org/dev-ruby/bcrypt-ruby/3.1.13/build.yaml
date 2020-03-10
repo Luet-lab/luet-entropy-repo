@@ -1,0 +1,33 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/bcrypt-ruby-3.1.13
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-ruby/bcrypt-ruby/3.1.13/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/bcrypt-3.1.13$
+- /usr/lib64/ruby/gems/2.5.0/gems/bcrypt-3.1.13/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/bcrypt-3.1.13/lib/bcrypt$
+- /usr/lib64/ruby/gems/2.5.0/gems/bcrypt-3.1.13/lib/bcrypt.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/bcrypt-3.1.13/lib/bcrypt/engine.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/bcrypt-3.1.13/lib/bcrypt/error.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/bcrypt-3.1.13/lib/bcrypt/password.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/bcrypt-3.1.13/lib/bcrypt_ext.so$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/bcrypt-3.1.13.gemspec$
+- /usr/lib64/ruby/gems/2.5.0/specifications/bcrypt-ruby-3.1.13.gemspec$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/bcrypt-ruby-3.1.13$
+- /usr/share/doc/bcrypt-ruby-3.1.13/CHANGELOG.bz2$
+- /usr/share/doc/bcrypt-ruby-3.1.13/README.md.bz2$

@@ -1,0 +1,36 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/exceptions-0.8.3
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/exceptions/0.8.3/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/exceptions-0.8.3$
+- /usr/lib64/exceptions-0.8.3/ghc-8.0.2$
+- /usr/lib64/exceptions-0.8.3/ghc-8.0.2/Control$
+- /usr/lib64/exceptions-0.8.3/ghc-8.0.2/Control/Monad$
+- /usr/lib64/exceptions-0.8.3/ghc-8.0.2/Control/Monad/Catch$
+- /usr/lib64/exceptions-0.8.3/ghc-8.0.2/Control/Monad/Catch.dyn_hi$
+- /usr/lib64/exceptions-0.8.3/ghc-8.0.2/Control/Monad/Catch.hi$
+- /usr/lib64/exceptions-0.8.3/ghc-8.0.2/Control/Monad/Catch/Pure.dyn_hi$
+- /usr/lib64/exceptions-0.8.3/ghc-8.0.2/Control/Monad/Catch/Pure.hi$
+- /usr/lib64/exceptions-0.8.3/ghc-8.0.2/libHSexceptions-0.8.3-A2rXmtjtrRE7lIRuPnxwzq.a$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-exceptions-0.8.3-exceptions-0.8.3.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-exceptions-0.8.3.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/exceptions-0.8.3-A2rXmtjtrRE7lIRuPnxwzq.conf$
+- /usr/lib64/x86_64-linux-ghc-7.10.3$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSexceptions-0.8.3-A2rXmtjtrRE7lIRuPnxwzq-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/exceptions-0.8.3$
+- /usr/share/doc/exceptions-0.8.3/LICENSE.bz2$

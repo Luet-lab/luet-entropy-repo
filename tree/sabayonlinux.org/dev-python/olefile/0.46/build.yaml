@@ -1,0 +1,45 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/olefile-0.46
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-python/olefile/0.46/definition.yaml
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/python2.7$
+- /usr/lib64/python2.7/site-packages$
+- /usr/lib64/python2.7/site-packages/olefile$
+- /usr/lib64/python2.7/site-packages/olefile-0.46-py2.7.egg-info$
+- /usr/lib64/python2.7/site-packages/olefile-0.46-py2.7.egg-info/PKG-INFO$
+- /usr/lib64/python2.7/site-packages/olefile-0.46-py2.7.egg-info/SOURCES.txt$
+- /usr/lib64/python2.7/site-packages/olefile-0.46-py2.7.egg-info/dependency_links.txt$
+- /usr/lib64/python2.7/site-packages/olefile-0.46-py2.7.egg-info/top_level.txt$
+- /usr/lib64/python2.7/site-packages/olefile/__init__.py$
+- /usr/lib64/python2.7/site-packages/olefile/__init__.pyc$
+- /usr/lib64/python2.7/site-packages/olefile/__init__.pyo$
+- /usr/lib64/python2.7/site-packages/olefile/olefile.py$
+- /usr/lib64/python2.7/site-packages/olefile/olefile.pyc$
+- /usr/lib64/python2.7/site-packages/olefile/olefile.pyo$
+- /usr/lib64/python3.6$
+- /usr/lib64/python3.6/site-packages$
+- /usr/lib64/python3.6/site-packages/olefile$
+- /usr/lib64/python3.6/site-packages/olefile-0.46-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/olefile/__init__.py$
+- /usr/lib64/python3.6/site-packages/olefile/__pycache__$
+- /usr/lib64/python3.6/site-packages/olefile/__pycache__/__init__.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/olefile/__pycache__/__init__.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/olefile/__pycache__/__init__.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/olefile/__pycache__/olefile.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/olefile/__pycache__/olefile.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/olefile/__pycache__/olefile.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/olefile/olefile.py$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/olefile-0.46$
+- /usr/share/doc/olefile-0.46/README.html$
+- /usr/share/doc/olefile-0.46/README.md.bz2$
+- /usr/share/doc/olefile-0.46/README.rst.bz2$

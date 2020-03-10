@@ -1,0 +1,41 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/libIDL-0.8.14-r2
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-libs/libIDL/0.8.14/definition.yaml
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/libIDL-config-2$
+- /usr/include$
+- /usr/include/libIDL-2.0$
+- /usr/include/libIDL-2.0/libIDL$
+- /usr/include/libIDL-2.0/libIDL/IDL.h$
+- /usr/lib$
+- /usr/lib32$
+- /usr/lib32/libIDL-2.so$
+- /usr/lib32/libIDL-2.so.0$
+- /usr/lib32/libIDL-2.so.0.0.0$
+- /usr/lib32/pkgconfig$
+- /usr/lib32/pkgconfig/libIDL-2.0.pc$
+- /usr/lib64$
+- /usr/lib64/libIDL-2.so$
+- /usr/lib64/libIDL-2.so.0$
+- /usr/lib64/libIDL-2.so.0.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libIDL-2.0.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libIDL-0.8.14-r2$
+- /usr/share/doc/libIDL-0.8.14-r2/AUTHORS.bz2$
+- /usr/share/doc/libIDL-0.8.14-r2/BUGS.bz2$
+- /usr/share/doc/libIDL-0.8.14-r2/ChangeLog.bz2$
+- /usr/share/doc/libIDL-0.8.14-r2/NEWS.bz2$
+- /usr/share/doc/libIDL-0.8.14-r2/README.bz2$
+- /usr/share/doc/libIDL-0.8.14-r2/README.win32.bz2$
+- /usr/share/info$
+- /usr/share/info/libIDL2.info.bz2$

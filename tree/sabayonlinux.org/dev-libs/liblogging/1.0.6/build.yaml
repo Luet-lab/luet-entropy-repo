@@ -1,0 +1,33 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/liblogging-1.0.6
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-libs/liblogging/1.0.6/definition.yaml
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/stdlogctl$
+- /usr/include$
+- /usr/include/liblogging$
+- /usr/include/liblogging/stdlog.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/liblogging-stdlog.a$
+- /usr/lib64/liblogging-stdlog.so$
+- /usr/lib64/liblogging-stdlog.so.0$
+- /usr/lib64/liblogging-stdlog.so.0.1.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/liblogging-stdlog.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/liblogging-1.0.6$
+- /usr/share/doc/liblogging-1.0.6/ChangeLog.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/stdlogctl.1.bz2$
+- /usr/share/man/man3$
+- /usr/share/man/man3/stdlog.3.bz2$

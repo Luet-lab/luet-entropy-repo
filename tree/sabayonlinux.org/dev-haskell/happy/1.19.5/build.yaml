@@ -1,0 +1,37 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/happy-1.19.5
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/happy/1.19.5/definition.yaml
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/happy$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-happy-1.19.5.conf$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/happy-1.19.5$
+- /usr/share/doc/happy-1.19.5/LICENSE.bz2$
+- /usr/share/happy-1.19.5$
+- /usr/share/happy-1.19.5/ghc-8.0.2$
+- /usr/share/happy-1.19.5/ghc-8.0.2/GLR_Base$
+- /usr/share/happy-1.19.5/ghc-8.0.2/GLR_Lib$
+- /usr/share/happy-1.19.5/ghc-8.0.2/GLR_Lib-ghc$
+- /usr/share/happy-1.19.5/ghc-8.0.2/GLR_Lib-ghc-debug$
+- /usr/share/happy-1.19.5/ghc-8.0.2/HappyTemplate$
+- /usr/share/happy-1.19.5/ghc-8.0.2/HappyTemplate-arrays$
+- /usr/share/happy-1.19.5/ghc-8.0.2/HappyTemplate-arrays-coerce$
+- /usr/share/happy-1.19.5/ghc-8.0.2/HappyTemplate-arrays-coerce-debug$
+- /usr/share/happy-1.19.5/ghc-8.0.2/HappyTemplate-arrays-debug$
+- /usr/share/happy-1.19.5/ghc-8.0.2/HappyTemplate-arrays-ghc$
+- /usr/share/happy-1.19.5/ghc-8.0.2/HappyTemplate-arrays-ghc-debug$
+- /usr/share/happy-1.19.5/ghc-8.0.2/HappyTemplate-coerce$
+- /usr/share/happy-1.19.5/ghc-8.0.2/HappyTemplate-ghc$

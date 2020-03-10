@@ -1,0 +1,44 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/execjs-2.7.0
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-ruby/execjs/2.7.0/definition.yaml
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/execjs-2.7.0$
+- /usr/lib64/ruby/gems/2.5.0/gems/execjs-2.7.0/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/execjs-2.7.0/lib/execjs$
+- /usr/lib64/ruby/gems/2.5.0/gems/execjs-2.7.0/lib/execjs.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/execjs-2.7.0/lib/execjs/disabled_runtime.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/execjs-2.7.0/lib/execjs/duktape_runtime.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/execjs-2.7.0/lib/execjs/encoding.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/execjs-2.7.0/lib/execjs/external_runtime.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/execjs-2.7.0/lib/execjs/mini_racer_runtime.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/execjs-2.7.0/lib/execjs/module.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/execjs-2.7.0/lib/execjs/ruby_racer_runtime.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/execjs-2.7.0/lib/execjs/ruby_rhino_runtime.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/execjs-2.7.0/lib/execjs/runtime.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/execjs-2.7.0/lib/execjs/runtimes.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/execjs-2.7.0/lib/execjs/support$
+- /usr/lib64/ruby/gems/2.5.0/gems/execjs-2.7.0/lib/execjs/support/jsc_runner.js$
+- /usr/lib64/ruby/gems/2.5.0/gems/execjs-2.7.0/lib/execjs/support/jscript_runner.js$
+- /usr/lib64/ruby/gems/2.5.0/gems/execjs-2.7.0/lib/execjs/support/json2.js$
+- /usr/lib64/ruby/gems/2.5.0/gems/execjs-2.7.0/lib/execjs/support/node_runner.js$
+- /usr/lib64/ruby/gems/2.5.0/gems/execjs-2.7.0/lib/execjs/support/spidermonkey_runner.js$
+- /usr/lib64/ruby/gems/2.5.0/gems/execjs-2.7.0/lib/execjs/support/v8_runner.js$
+- /usr/lib64/ruby/gems/2.5.0/gems/execjs-2.7.0/lib/execjs/version.rb$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/execjs-2.7.0.gemspec$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/execjs-2.7.0$
+- /usr/share/doc/execjs-2.7.0/README.md.bz2$

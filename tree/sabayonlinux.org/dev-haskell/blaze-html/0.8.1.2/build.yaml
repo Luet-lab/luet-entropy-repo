@@ -1,0 +1,85 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/blaze-html-0.8.1.2
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/blaze-html/0.8.1.2/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/blaze-html-0.8.1.2$
+- /usr/lib64/blaze-html-0.8.1.2/ghc-7.10.3$
+- /usr/lib64/blaze-html-0.8.1.2/ghc-8.0.2$
+- /usr/lib64/blaze-html-0.8.1.2/ghc-8.0.2/Text$
+- /usr/lib64/blaze-html-0.8.1.2/ghc-8.0.2/Text/Blaze$
+- /usr/lib64/blaze-html-0.8.1.2/ghc-8.0.2/Text/Blaze/Html$
+- /usr/lib64/blaze-html-0.8.1.2/ghc-8.0.2/Text/Blaze/Html.dyn_hi$
+- /usr/lib64/blaze-html-0.8.1.2/ghc-8.0.2/Text/Blaze/Html.hi$
+- /usr/lib64/blaze-html-0.8.1.2/ghc-8.0.2/Text/Blaze/Html/Renderer$
+- /usr/lib64/blaze-html-0.8.1.2/ghc-8.0.2/Text/Blaze/Html/Renderer/Pretty.dyn_hi$
+- /usr/lib64/blaze-html-0.8.1.2/ghc-8.0.2/Text/Blaze/Html/Renderer/Pretty.hi$
+- /usr/lib64/blaze-html-0.8.1.2/ghc-8.0.2/Text/Blaze/Html/Renderer/String.dyn_hi$
+- /usr/lib64/blaze-html-0.8.1.2/ghc-8.0.2/Text/Blaze/Html/Renderer/String.hi$
+- /usr/lib64/blaze-html-0.8.1.2/ghc-8.0.2/Text/Blaze/Html/Renderer/Text.dyn_hi$
+- /usr/lib64/blaze-html-0.8.1.2/ghc-8.0.2/Text/Blaze/Html/Renderer/Text.hi$
+- /usr/lib64/blaze-html-0.8.1.2/ghc-8.0.2/Text/Blaze/Html/Renderer/Utf8.dyn_hi$
+- /usr/lib64/blaze-html-0.8.1.2/ghc-8.0.2/Text/Blaze/Html/Renderer/Utf8.hi$
+- /usr/lib64/blaze-html-0.8.1.2/ghc-8.0.2/Text/Blaze/Html4$
+- /usr/lib64/blaze-html-0.8.1.2/ghc-8.0.2/Text/Blaze/Html4/FrameSet$
+- /usr/lib64/blaze-html-0.8.1.2/ghc-8.0.2/Text/Blaze/Html4/FrameSet.dyn_hi$
+- /usr/lib64/blaze-html-0.8.1.2/ghc-8.0.2/Text/Blaze/Html4/FrameSet.hi$
+- /usr/lib64/blaze-html-0.8.1.2/ghc-8.0.2/Text/Blaze/Html4/FrameSet/Attributes.dyn_hi$
+- /usr/lib64/blaze-html-0.8.1.2/ghc-8.0.2/Text/Blaze/Html4/FrameSet/Attributes.hi$
+- /usr/lib64/blaze-html-0.8.1.2/ghc-8.0.2/Text/Blaze/Html4/Strict$
+- /usr/lib64/blaze-html-0.8.1.2/ghc-8.0.2/Text/Blaze/Html4/Strict.dyn_hi$
+- /usr/lib64/blaze-html-0.8.1.2/ghc-8.0.2/Text/Blaze/Html4/Strict.hi$
+- /usr/lib64/blaze-html-0.8.1.2/ghc-8.0.2/Text/Blaze/Html4/Strict/Attributes.dyn_hi$
+- /usr/lib64/blaze-html-0.8.1.2/ghc-8.0.2/Text/Blaze/Html4/Strict/Attributes.hi$
+- /usr/lib64/blaze-html-0.8.1.2/ghc-8.0.2/Text/Blaze/Html4/Transitional$
+- /usr/lib64/blaze-html-0.8.1.2/ghc-8.0.2/Text/Blaze/Html4/Transitional.dyn_hi$
+- /usr/lib64/blaze-html-0.8.1.2/ghc-8.0.2/Text/Blaze/Html4/Transitional.hi$
+- /usr/lib64/blaze-html-0.8.1.2/ghc-8.0.2/Text/Blaze/Html4/Transitional/Attributes.dyn_hi$
+- /usr/lib64/blaze-html-0.8.1.2/ghc-8.0.2/Text/Blaze/Html4/Transitional/Attributes.hi$
+- /usr/lib64/blaze-html-0.8.1.2/ghc-8.0.2/Text/Blaze/Html5$
+- /usr/lib64/blaze-html-0.8.1.2/ghc-8.0.2/Text/Blaze/Html5.dyn_hi$
+- /usr/lib64/blaze-html-0.8.1.2/ghc-8.0.2/Text/Blaze/Html5.hi$
+- /usr/lib64/blaze-html-0.8.1.2/ghc-8.0.2/Text/Blaze/Html5/Attributes.dyn_hi$
+- /usr/lib64/blaze-html-0.8.1.2/ghc-8.0.2/Text/Blaze/Html5/Attributes.hi$
+- /usr/lib64/blaze-html-0.8.1.2/ghc-8.0.2/Text/Blaze/XHtml1$
+- /usr/lib64/blaze-html-0.8.1.2/ghc-8.0.2/Text/Blaze/XHtml1/FrameSet$
+- /usr/lib64/blaze-html-0.8.1.2/ghc-8.0.2/Text/Blaze/XHtml1/FrameSet.dyn_hi$
+- /usr/lib64/blaze-html-0.8.1.2/ghc-8.0.2/Text/Blaze/XHtml1/FrameSet.hi$
+- /usr/lib64/blaze-html-0.8.1.2/ghc-8.0.2/Text/Blaze/XHtml1/FrameSet/Attributes.dyn_hi$
+- /usr/lib64/blaze-html-0.8.1.2/ghc-8.0.2/Text/Blaze/XHtml1/FrameSet/Attributes.hi$
+- /usr/lib64/blaze-html-0.8.1.2/ghc-8.0.2/Text/Blaze/XHtml1/Strict$
+- /usr/lib64/blaze-html-0.8.1.2/ghc-8.0.2/Text/Blaze/XHtml1/Strict.dyn_hi$
+- /usr/lib64/blaze-html-0.8.1.2/ghc-8.0.2/Text/Blaze/XHtml1/Strict.hi$
+- /usr/lib64/blaze-html-0.8.1.2/ghc-8.0.2/Text/Blaze/XHtml1/Strict/Attributes.dyn_hi$
+- /usr/lib64/blaze-html-0.8.1.2/ghc-8.0.2/Text/Blaze/XHtml1/Strict/Attributes.hi$
+- /usr/lib64/blaze-html-0.8.1.2/ghc-8.0.2/Text/Blaze/XHtml1/Transitional$
+- /usr/lib64/blaze-html-0.8.1.2/ghc-8.0.2/Text/Blaze/XHtml1/Transitional.dyn_hi$
+- /usr/lib64/blaze-html-0.8.1.2/ghc-8.0.2/Text/Blaze/XHtml1/Transitional.hi$
+- /usr/lib64/blaze-html-0.8.1.2/ghc-8.0.2/Text/Blaze/XHtml1/Transitional/Attributes.dyn_hi$
+- /usr/lib64/blaze-html-0.8.1.2/ghc-8.0.2/Text/Blaze/XHtml1/Transitional/Attributes.hi$
+- /usr/lib64/blaze-html-0.8.1.2/ghc-8.0.2/Text/Blaze/XHtml5$
+- /usr/lib64/blaze-html-0.8.1.2/ghc-8.0.2/Text/Blaze/XHtml5.dyn_hi$
+- /usr/lib64/blaze-html-0.8.1.2/ghc-8.0.2/Text/Blaze/XHtml5.hi$
+- /usr/lib64/blaze-html-0.8.1.2/ghc-8.0.2/Text/Blaze/XHtml5/Attributes.dyn_hi$
+- /usr/lib64/blaze-html-0.8.1.2/ghc-8.0.2/Text/Blaze/XHtml5/Attributes.hi$
+- /usr/lib64/blaze-html-0.8.1.2/ghc-8.0.2/libHSblaze-html-0.8.1.2-9oFxh7AF7XJ4PcWWcznmu6.a$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-blaze-html-0.8.1.2-blaze-html-0.8.1.2.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-blaze-html-0.8.1.2.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/blaze-html-0.8.1.2-9oFxh7AF7XJ4PcWWcznmu6.conf$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSblaze-html-0.8.1.2-9oFxh7AF7XJ4PcWWcznmu6-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/blaze-html-0.8.1.2$
+- /usr/share/doc/blaze-html-0.8.1.2/LICENSE.bz2$

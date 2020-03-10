@@ -1,0 +1,41 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/unix-time-0.3.7
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/unix-time/0.3.7/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-unix-time-0.3.7-unix-time-0.3.7.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-unix-time-0.3.7.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/unix-time-0.3.7-EhnEKT4D7hJajV74Sk5BE.conf$
+- /usr/lib64/unix-time-0.3.7$
+- /usr/lib64/unix-time-0.3.7/ghc-7.10.3$
+- /usr/lib64/unix-time-0.3.7/ghc-8.0.2$
+- /usr/lib64/unix-time-0.3.7/ghc-8.0.2/Data$
+- /usr/lib64/unix-time-0.3.7/ghc-8.0.2/Data/UnixTime$
+- /usr/lib64/unix-time-0.3.7/ghc-8.0.2/Data/UnixTime.dyn_hi$
+- /usr/lib64/unix-time-0.3.7/ghc-8.0.2/Data/UnixTime.hi$
+- /usr/lib64/unix-time-0.3.7/ghc-8.0.2/Data/UnixTime/Conv.dyn_hi$
+- /usr/lib64/unix-time-0.3.7/ghc-8.0.2/Data/UnixTime/Conv.hi$
+- /usr/lib64/unix-time-0.3.7/ghc-8.0.2/Data/UnixTime/Diff.dyn_hi$
+- /usr/lib64/unix-time-0.3.7/ghc-8.0.2/Data/UnixTime/Diff.hi$
+- /usr/lib64/unix-time-0.3.7/ghc-8.0.2/Data/UnixTime/Sys.dyn_hi$
+- /usr/lib64/unix-time-0.3.7/ghc-8.0.2/Data/UnixTime/Sys.hi$
+- /usr/lib64/unix-time-0.3.7/ghc-8.0.2/Data/UnixTime/Types.dyn_hi$
+- /usr/lib64/unix-time-0.3.7/ghc-8.0.2/Data/UnixTime/Types.hi$
+- /usr/lib64/unix-time-0.3.7/ghc-8.0.2/libHSunix-time-0.3.7-EhnEKT4D7hJajV74Sk5BE.a$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSunix-time-0.3.7-EhnEKT4D7hJajV74Sk5BE-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/unix-time-0.3.7$
+- /usr/share/doc/unix-time-0.3.7/LICENSE.bz2$

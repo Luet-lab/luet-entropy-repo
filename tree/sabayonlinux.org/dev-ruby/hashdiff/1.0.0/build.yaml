@@ -1,0 +1,35 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/hashdiff-1.0.0
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-ruby/hashdiff/1.0.0/definition.yaml
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashdiff-1.0.0$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashdiff-1.0.0/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashdiff-1.0.0/lib/hashdiff$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashdiff-1.0.0/lib/hashdiff.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashdiff-1.0.0/lib/hashdiff/compare_hashes.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashdiff-1.0.0/lib/hashdiff/diff.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashdiff-1.0.0/lib/hashdiff/lcs.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashdiff-1.0.0/lib/hashdiff/lcs_compare_arrays.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashdiff-1.0.0/lib/hashdiff/linear_compare_array.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashdiff-1.0.0/lib/hashdiff/patch.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashdiff-1.0.0/lib/hashdiff/util.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/hashdiff-1.0.0/lib/hashdiff/version.rb$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/hashdiff-1.0.0.gemspec$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/hashdiff-1.0.0$
+- /usr/share/doc/hashdiff-1.0.0/README.md.bz2$
+- /usr/share/doc/hashdiff-1.0.0/changelog.md.bz2$

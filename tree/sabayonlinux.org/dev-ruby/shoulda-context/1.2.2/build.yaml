@@ -1,0 +1,46 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/shoulda-context-1.2.2
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-ruby/shoulda-context/1.2.2/definition.yaml
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/shoulda-context-1.2.2$
+- /usr/lib64/ruby/gems/2.5.0/gems/shoulda-context-1.2.2/bin$
+- /usr/lib64/ruby/gems/2.5.0/gems/shoulda-context-1.2.2/bin/convert_to_should_syntax$
+- /usr/lib64/ruby/gems/2.5.0/gems/shoulda-context-1.2.2/init.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/shoulda-context-1.2.2/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/shoulda-context-1.2.2/lib/shoulda$
+- /usr/lib64/ruby/gems/2.5.0/gems/shoulda-context-1.2.2/lib/shoulda-context.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/shoulda-context-1.2.2/lib/shoulda/context$
+- /usr/lib64/ruby/gems/2.5.0/gems/shoulda-context-1.2.2/lib/shoulda/context.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/shoulda-context-1.2.2/lib/shoulda/context/assertions.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/shoulda-context-1.2.2/lib/shoulda/context/autoload_macros.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/shoulda-context-1.2.2/lib/shoulda/context/context.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/shoulda-context-1.2.2/lib/shoulda/context/proc_extensions.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/shoulda-context-1.2.2/lib/shoulda/context/tasks$
+- /usr/lib64/ruby/gems/2.5.0/gems/shoulda-context-1.2.2/lib/shoulda/context/tasks.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/shoulda-context-1.2.2/lib/shoulda/context/tasks/list_tests.rake$
+- /usr/lib64/ruby/gems/2.5.0/gems/shoulda-context-1.2.2/lib/shoulda/context/tasks/yaml_to_shoulda.rake$
+- /usr/lib64/ruby/gems/2.5.0/gems/shoulda-context-1.2.2/lib/shoulda/context/test_framework_detection.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/shoulda-context-1.2.2/lib/shoulda/context/version.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/shoulda-context-1.2.2/rails$
+- /usr/lib64/ruby/gems/2.5.0/gems/shoulda-context-1.2.2/rails/init.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/shoulda-context-1.2.2/tasks$
+- /usr/lib64/ruby/gems/2.5.0/gems/shoulda-context-1.2.2/tasks/shoulda.rake$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/shoulda-context-1.2.2.gemspec$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/shoulda-context-1.2.2$
+- /usr/share/doc/shoulda-context-1.2.2/CONTRIBUTING.md.bz2$
+- /usr/share/doc/shoulda-context-1.2.2/README.md.bz2$

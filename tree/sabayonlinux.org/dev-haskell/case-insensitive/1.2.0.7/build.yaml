@@ -1,0 +1,37 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/case-insensitive-1.2.0.7
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/case-insensitive/1.2.0.7/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/case-insensitive-1.2.0.7$
+- /usr/lib64/case-insensitive-1.2.0.7/ghc-8.0.2$
+- /usr/lib64/case-insensitive-1.2.0.7/ghc-8.0.2/Data$
+- /usr/lib64/case-insensitive-1.2.0.7/ghc-8.0.2/Data/CaseInsensitive$
+- /usr/lib64/case-insensitive-1.2.0.7/ghc-8.0.2/Data/CaseInsensitive.dyn_hi$
+- /usr/lib64/case-insensitive-1.2.0.7/ghc-8.0.2/Data/CaseInsensitive.hi$
+- /usr/lib64/case-insensitive-1.2.0.7/ghc-8.0.2/Data/CaseInsensitive/Internal.dyn_hi$
+- /usr/lib64/case-insensitive-1.2.0.7/ghc-8.0.2/Data/CaseInsensitive/Internal.hi$
+- /usr/lib64/case-insensitive-1.2.0.7/ghc-8.0.2/Data/CaseInsensitive/Unsafe.dyn_hi$
+- /usr/lib64/case-insensitive-1.2.0.7/ghc-8.0.2/Data/CaseInsensitive/Unsafe.hi$
+- /usr/lib64/case-insensitive-1.2.0.7/ghc-8.0.2/libHScase-insensitive-1.2.0.7-KlwMj7TAXNxB95BOXFcjKX.a$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-case-insensitive-1.2.0.7-case-insensitive-1.2.0.7.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-case-insensitive-1.2.0.7.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/case-insensitive-1.2.0.7-KlwMj7TAXNxB95BOXFcjKX.conf$
+- /usr/lib64/x86_64-linux-ghc-7.10.3$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHScase-insensitive-1.2.0.7-KlwMj7TAXNxB95BOXFcjKX-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/case-insensitive-1.2.0.7$
+- /usr/share/doc/case-insensitive-1.2.0.7/LICENSE.bz2$

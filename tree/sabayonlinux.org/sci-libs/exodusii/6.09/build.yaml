@@ -1,0 +1,25 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i sci-libs/exodusii-6.09
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> sci-libs/exodusii/6.09/definition.yaml
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/exodusII.h$
+- /usr/include/exodusII_int.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libexoIIv2for.so$
+- /usr/lib64/libexodus.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/exodusii-6.09$
+- /usr/share/doc/exodusii-6.09/README.PYTHON.bz2$
+- /usr/share/doc/exodusii-6.09/README.bz2$
+- /usr/share/exodusii$
+- /usr/share/exodusii/exodus.py$

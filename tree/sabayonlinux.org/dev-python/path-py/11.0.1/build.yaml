@@ -1,0 +1,47 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/path-py-11.0.1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-python/path-py/11.0.1/definition.yaml
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/python2.7$
+- /usr/lib64/python2.7/site-packages$
+- /usr/lib64/python2.7/site-packages/path.py$
+- /usr/lib64/python2.7/site-packages/path.py-11.0.1-py2.7.egg-info$
+- /usr/lib64/python2.7/site-packages/path.py-11.0.1-py2.7.egg-info/PKG-INFO$
+- /usr/lib64/python2.7/site-packages/path.py-11.0.1-py2.7.egg-info/SOURCES.txt$
+- /usr/lib64/python2.7/site-packages/path.py-11.0.1-py2.7.egg-info/dependency_links.txt$
+- /usr/lib64/python2.7/site-packages/path.py-11.0.1-py2.7.egg-info/requires.txt$
+- /usr/lib64/python2.7/site-packages/path.py-11.0.1-py2.7.egg-info/top_level.txt$
+- /usr/lib64/python2.7/site-packages/path.pyc$
+- /usr/lib64/python2.7/site-packages/path.pyo$
+- /usr/lib64/python2.7/site-packages/test_path.py$
+- /usr/lib64/python2.7/site-packages/test_path.pyc$
+- /usr/lib64/python2.7/site-packages/test_path.pyo$
+- /usr/lib64/python3.6$
+- /usr/lib64/python3.6/site-packages$
+- /usr/lib64/python3.6/site-packages/__pycache__$
+- /usr/lib64/python3.6/site-packages/__pycache__/path.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/__pycache__/path.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/__pycache__/path.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/__pycache__/test_path.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/__pycache__/test_path.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/__pycache__/test_path.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/path.py$
+- /usr/lib64/python3.6/site-packages/path.py-11.0.1-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/path.py-11.0.1-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/path.py-11.0.1-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/path.py-11.0.1-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/path.py-11.0.1-py3.6.egg-info/requires.txt$
+- /usr/lib64/python3.6/site-packages/path.py-11.0.1-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/test_path.py$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/path-py-11.0.1$
+- /usr/share/doc/path-py-11.0.1/README.rst.bz2$

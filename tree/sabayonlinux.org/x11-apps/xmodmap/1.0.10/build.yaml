@@ -1,0 +1,18 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i x11-apps/xmodmap-1.0.10
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> x11-apps/xmodmap/1.0.10/definition.yaml
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/xmodmap$
+- /usr/lib$
+- /usr/share$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/xmodmap.1.bz2$

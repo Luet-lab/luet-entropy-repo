@@ -1,0 +1,69 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/polyparse-1.11
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/polyparse/1.11/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-polyparse-1.11-polyparse-1.11.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-polyparse-1.11.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/polyparse-1.11-DYvQmINGFtI1JQAkjEcAET.conf$
+- /usr/lib64/polyparse-1.11$
+- /usr/lib64/polyparse-1.11/ghc-7.10.3$
+- /usr/lib64/polyparse-1.11/ghc-8.0.2$
+- /usr/lib64/polyparse-1.11/ghc-8.0.2/Text$
+- /usr/lib64/polyparse-1.11/ghc-8.0.2/Text/Parse$
+- /usr/lib64/polyparse-1.11/ghc-8.0.2/Text/Parse.dyn_hi$
+- /usr/lib64/polyparse-1.11/ghc-8.0.2/Text/Parse.hi$
+- /usr/lib64/polyparse-1.11/ghc-8.0.2/Text/Parse/ByteString.dyn_hi$
+- /usr/lib64/polyparse-1.11/ghc-8.0.2/Text/Parse/ByteString.hi$
+- /usr/lib64/polyparse-1.11/ghc-8.0.2/Text/ParserCombinators$
+- /usr/lib64/polyparse-1.11/ghc-8.0.2/Text/ParserCombinators/HuttonMeijer.dyn_hi$
+- /usr/lib64/polyparse-1.11/ghc-8.0.2/Text/ParserCombinators/HuttonMeijer.hi$
+- /usr/lib64/polyparse-1.11/ghc-8.0.2/Text/ParserCombinators/HuttonMeijerWallace.dyn_hi$
+- /usr/lib64/polyparse-1.11/ghc-8.0.2/Text/ParserCombinators/HuttonMeijerWallace.hi$
+- /usr/lib64/polyparse-1.11/ghc-8.0.2/Text/ParserCombinators/Poly$
+- /usr/lib64/polyparse-1.11/ghc-8.0.2/Text/ParserCombinators/Poly.dyn_hi$
+- /usr/lib64/polyparse-1.11/ghc-8.0.2/Text/ParserCombinators/Poly.hi$
+- /usr/lib64/polyparse-1.11/ghc-8.0.2/Text/ParserCombinators/Poly/Base.dyn_hi$
+- /usr/lib64/polyparse-1.11/ghc-8.0.2/Text/ParserCombinators/Poly/Base.hi$
+- /usr/lib64/polyparse-1.11/ghc-8.0.2/Text/ParserCombinators/Poly/ByteString.dyn_hi$
+- /usr/lib64/polyparse-1.11/ghc-8.0.2/Text/ParserCombinators/Poly/ByteString.hi$
+- /usr/lib64/polyparse-1.11/ghc-8.0.2/Text/ParserCombinators/Poly/ByteStringChar.dyn_hi$
+- /usr/lib64/polyparse-1.11/ghc-8.0.2/Text/ParserCombinators/Poly/ByteStringChar.hi$
+- /usr/lib64/polyparse-1.11/ghc-8.0.2/Text/ParserCombinators/Poly/Lazy.dyn_hi$
+- /usr/lib64/polyparse-1.11/ghc-8.0.2/Text/ParserCombinators/Poly/Lazy.hi$
+- /usr/lib64/polyparse-1.11/ghc-8.0.2/Text/ParserCombinators/Poly/Lex.dyn_hi$
+- /usr/lib64/polyparse-1.11/ghc-8.0.2/Text/ParserCombinators/Poly/Lex.hi$
+- /usr/lib64/polyparse-1.11/ghc-8.0.2/Text/ParserCombinators/Poly/Parser.dyn_hi$
+- /usr/lib64/polyparse-1.11/ghc-8.0.2/Text/ParserCombinators/Poly/Parser.hi$
+- /usr/lib64/polyparse-1.11/ghc-8.0.2/Text/ParserCombinators/Poly/Plain.dyn_hi$
+- /usr/lib64/polyparse-1.11/ghc-8.0.2/Text/ParserCombinators/Poly/Plain.hi$
+- /usr/lib64/polyparse-1.11/ghc-8.0.2/Text/ParserCombinators/Poly/Result.dyn_hi$
+- /usr/lib64/polyparse-1.11/ghc-8.0.2/Text/ParserCombinators/Poly/Result.hi$
+- /usr/lib64/polyparse-1.11/ghc-8.0.2/Text/ParserCombinators/Poly/State.dyn_hi$
+- /usr/lib64/polyparse-1.11/ghc-8.0.2/Text/ParserCombinators/Poly/State.hi$
+- /usr/lib64/polyparse-1.11/ghc-8.0.2/Text/ParserCombinators/Poly/StateLazy.dyn_hi$
+- /usr/lib64/polyparse-1.11/ghc-8.0.2/Text/ParserCombinators/Poly/StateLazy.hi$
+- /usr/lib64/polyparse-1.11/ghc-8.0.2/Text/ParserCombinators/Poly/StateParser.dyn_hi$
+- /usr/lib64/polyparse-1.11/ghc-8.0.2/Text/ParserCombinators/Poly/StateParser.hi$
+- /usr/lib64/polyparse-1.11/ghc-8.0.2/Text/ParserCombinators/Poly/StateText.dyn_hi$
+- /usr/lib64/polyparse-1.11/ghc-8.0.2/Text/ParserCombinators/Poly/StateText.hi$
+- /usr/lib64/polyparse-1.11/ghc-8.0.2/Text/ParserCombinators/Poly/Text.dyn_hi$
+- /usr/lib64/polyparse-1.11/ghc-8.0.2/Text/ParserCombinators/Poly/Text.hi$
+- /usr/lib64/polyparse-1.11/ghc-8.0.2/libHSpolyparse-1.11-DYvQmINGFtI1JQAkjEcAET.a$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSpolyparse-1.11-DYvQmINGFtI1JQAkjEcAET-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/polyparse-1.11$
+- /usr/share/doc/polyparse-1.11/COPYRIGHT.bz2$

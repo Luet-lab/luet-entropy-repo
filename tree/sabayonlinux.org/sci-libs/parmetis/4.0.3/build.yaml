@@ -1,0 +1,22 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i sci-libs/parmetis-4.0.3
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> sci-libs/parmetis/4.0.3/definition.yaml
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/metis.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libmetis.so$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/metis.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/parmetis-4.0.3$
+- /usr/share/doc/parmetis-4.0.3/Changelog.metis}.bz2$

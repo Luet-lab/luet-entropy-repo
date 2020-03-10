@@ -1,0 +1,97 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i net-libs/libgrss-0.7.0
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> net-libs/libgrss/0.7.0/definition.yaml
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/libgrss$
+- /usr/include/libgrss/feed-atom-formatter.h$
+- /usr/include/libgrss/feed-channel.h$
+- /usr/include/libgrss/feed-enclosure.h$
+- /usr/include/libgrss/feed-formatter.h$
+- /usr/include/libgrss/feed-item.h$
+- /usr/include/libgrss/feed-parser.h$
+- /usr/include/libgrss/feed-rss-formatter.h$
+- /usr/include/libgrss/feeds-group.h$
+- /usr/include/libgrss/feeds-pool.h$
+- /usr/include/libgrss/feeds-publisher.h$
+- /usr/include/libgrss/feeds-store.h$
+- /usr/include/libgrss/feeds-subscriber.h$
+- /usr/include/libgrss/libgrss.h$
+- /usr/include/libgrss/person.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/girepository-1.0$
+- /usr/lib64/girepository-1.0/Grss-0.7.typelib$
+- /usr/lib64/libgrss.so$
+- /usr/lib64/libgrss.so.0$
+- /usr/lib64/libgrss.so.0.700.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libgrss.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libgrss-0.7.0$
+- /usr/share/doc/libgrss-0.7.0/AUTHORS.bz2$
+- /usr/share/doc/libgrss-0.7.0/ChangeLog.bz2$
+- /usr/share/doc/libgrss-0.7.0/NEWS.bz2$
+- /usr/share/doc/libgrss-0.7.0/README.bz2$
+- /usr/share/gir-1.0$
+- /usr/share/gir-1.0/Grss-0.7.gir$
+- /usr/share/gtk-doc$
+- /usr/share/gtk-doc/html$
+- /usr/share/gtk-doc/html/libgrss$
+- /usr/share/gtk-doc/html/libgrss/FeedAtomHandler.html$
+- /usr/share/gtk-doc/html/libgrss/FeedHandler.html$
+- /usr/share/gtk-doc/html/libgrss/FeedPieHandler.html$
+- /usr/share/gtk-doc/html/libgrss/FeedRssHandler.html$
+- /usr/share/gtk-doc/html/libgrss/FeedsOpmlGroupHandler.html$
+- /usr/share/gtk-doc/html/libgrss/FeedsXbelGroupHandler.html$
+- /usr/share/gtk-doc/html/libgrss/FeedsXoxoGroupHandler.html$
+- /usr/share/gtk-doc/html/libgrss/GrssFeedAtomFormatter.html$
+- /usr/share/gtk-doc/html/libgrss/GrssFeedChannel.html$
+- /usr/share/gtk-doc/html/libgrss/GrssFeedEnclosure.html$
+- /usr/share/gtk-doc/html/libgrss/GrssFeedFormatter.html$
+- /usr/share/gtk-doc/html/libgrss/GrssFeedItem.html$
+- /usr/share/gtk-doc/html/libgrss/GrssFeedParser.html$
+- /usr/share/gtk-doc/html/libgrss/GrssFeedRssFormatter.html$
+- /usr/share/gtk-doc/html/libgrss/GrssFeedsGroup.html$
+- /usr/share/gtk-doc/html/libgrss/GrssFeedsGroupHandler.html$
+- /usr/share/gtk-doc/html/libgrss/GrssFeedsPool.html$
+- /usr/share/gtk-doc/html/libgrss/GrssFeedsPublisher.html$
+- /usr/share/gtk-doc/html/libgrss/GrssFeedsPubsubhubbubSubscriber.html$
+- /usr/share/gtk-doc/html/libgrss/GrssFeedsRsscloudSubscriber.html$
+- /usr/share/gtk-doc/html/libgrss/GrssFeedsStore.html$
+- /usr/share/gtk-doc/html/libgrss/GrssFeedsSubscriber.html$
+- /usr/share/gtk-doc/html/libgrss/GrssFeedsSubscriberHandler.html$
+- /usr/share/gtk-doc/html/libgrss/GrssPerson.html$
+- /usr/share/gtk-doc/html/libgrss/NSHandler.html$
+- /usr/share/gtk-doc/html/libgrss/annotation-glossary.html$
+- /usr/share/gtk-doc/html/libgrss/ch01.html$
+- /usr/share/gtk-doc/html/libgrss/home.png$
+- /usr/share/gtk-doc/html/libgrss/index.html$
+- /usr/share/gtk-doc/html/libgrss/index.sgml$
+- /usr/share/gtk-doc/html/libgrss/ix01.html$
+- /usr/share/gtk-doc/html/libgrss/ix02.html$
+- /usr/share/gtk-doc/html/libgrss/ix03.html$
+- /usr/share/gtk-doc/html/libgrss/left-insensitive.png$
+- /usr/share/gtk-doc/html/libgrss/left.png$
+- /usr/share/gtk-doc/html/libgrss/libgrss-base.html$
+- /usr/share/gtk-doc/html/libgrss/libgrss-essentials.html$
+- /usr/share/gtk-doc/html/libgrss/libgrss-feed-marshal.html$
+- /usr/share/gtk-doc/html/libgrss/libgrss-feeds-subscriber-private.html$
+- /usr/share/gtk-doc/html/libgrss/libgrss-useful.html$
+- /usr/share/gtk-doc/html/libgrss/libgrss-utils.html$
+- /usr/share/gtk-doc/html/libgrss/libgrss.devhelp2$
+- /usr/share/gtk-doc/html/libgrss/libgrss.html$
+- /usr/share/gtk-doc/html/libgrss/license.html$
+- /usr/share/gtk-doc/html/libgrss/right-insensitive.png$
+- /usr/share/gtk-doc/html/libgrss/right.png$
+- /usr/share/gtk-doc/html/libgrss/style.css$
+- /usr/share/gtk-doc/html/libgrss/up-insensitive.png$
+- /usr/share/gtk-doc/html/libgrss/up.png$

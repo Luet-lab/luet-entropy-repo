@@ -1,0 +1,66 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/syb-0.5.1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-haskell/syb/0.5.1/definition.yaml
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/ghc-8.0.2$
+- /usr/lib64/ghc-8.0.2/gentoo$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-dev-haskell-syb-0.5.1-syb-0.5.1.conf$
+- /usr/lib64/ghc-8.0.2/gentoo/gentoo-empty-dev-haskell-syb-0.5.1.conf$
+- /usr/lib64/ghc-8.0.2/package.conf.d$
+- /usr/lib64/ghc-8.0.2/package.conf.d/syb-0.5.1-HmsVEGptcyk77UrvJImzn.conf$
+- /usr/lib64/syb-0.4.4$
+- /usr/lib64/syb-0.4.4/ghc-7.10.3$
+- /usr/lib64/syb-0.5.1$
+- /usr/lib64/syb-0.5.1/ghc-8.0.2$
+- /usr/lib64/syb-0.5.1/ghc-8.0.2/Data$
+- /usr/lib64/syb-0.5.1/ghc-8.0.2/Data/Generics$
+- /usr/lib64/syb-0.5.1/ghc-8.0.2/Data/Generics.dyn_hi$
+- /usr/lib64/syb-0.5.1/ghc-8.0.2/Data/Generics.hi$
+- /usr/lib64/syb-0.5.1/ghc-8.0.2/Data/Generics/Aliases.dyn_hi$
+- /usr/lib64/syb-0.5.1/ghc-8.0.2/Data/Generics/Aliases.hi$
+- /usr/lib64/syb-0.5.1/ghc-8.0.2/Data/Generics/Basics.dyn_hi$
+- /usr/lib64/syb-0.5.1/ghc-8.0.2/Data/Generics/Basics.hi$
+- /usr/lib64/syb-0.5.1/ghc-8.0.2/Data/Generics/Builders.dyn_hi$
+- /usr/lib64/syb-0.5.1/ghc-8.0.2/Data/Generics/Builders.hi$
+- /usr/lib64/syb-0.5.1/ghc-8.0.2/Data/Generics/Instances.dyn_hi$
+- /usr/lib64/syb-0.5.1/ghc-8.0.2/Data/Generics/Instances.hi$
+- /usr/lib64/syb-0.5.1/ghc-8.0.2/Data/Generics/Schemes.dyn_hi$
+- /usr/lib64/syb-0.5.1/ghc-8.0.2/Data/Generics/Schemes.hi$
+- /usr/lib64/syb-0.5.1/ghc-8.0.2/Data/Generics/Text.dyn_hi$
+- /usr/lib64/syb-0.5.1/ghc-8.0.2/Data/Generics/Text.hi$
+- /usr/lib64/syb-0.5.1/ghc-8.0.2/Data/Generics/Twins.dyn_hi$
+- /usr/lib64/syb-0.5.1/ghc-8.0.2/Data/Generics/Twins.hi$
+- /usr/lib64/syb-0.5.1/ghc-8.0.2/Generics$
+- /usr/lib64/syb-0.5.1/ghc-8.0.2/Generics/SYB$
+- /usr/lib64/syb-0.5.1/ghc-8.0.2/Generics/SYB.dyn_hi$
+- /usr/lib64/syb-0.5.1/ghc-8.0.2/Generics/SYB.hi$
+- /usr/lib64/syb-0.5.1/ghc-8.0.2/Generics/SYB/Aliases.dyn_hi$
+- /usr/lib64/syb-0.5.1/ghc-8.0.2/Generics/SYB/Aliases.hi$
+- /usr/lib64/syb-0.5.1/ghc-8.0.2/Generics/SYB/Basics.dyn_hi$
+- /usr/lib64/syb-0.5.1/ghc-8.0.2/Generics/SYB/Basics.hi$
+- /usr/lib64/syb-0.5.1/ghc-8.0.2/Generics/SYB/Builders.dyn_hi$
+- /usr/lib64/syb-0.5.1/ghc-8.0.2/Generics/SYB/Builders.hi$
+- /usr/lib64/syb-0.5.1/ghc-8.0.2/Generics/SYB/Instances.dyn_hi$
+- /usr/lib64/syb-0.5.1/ghc-8.0.2/Generics/SYB/Instances.hi$
+- /usr/lib64/syb-0.5.1/ghc-8.0.2/Generics/SYB/Schemes.dyn_hi$
+- /usr/lib64/syb-0.5.1/ghc-8.0.2/Generics/SYB/Schemes.hi$
+- /usr/lib64/syb-0.5.1/ghc-8.0.2/Generics/SYB/Text.dyn_hi$
+- /usr/lib64/syb-0.5.1/ghc-8.0.2/Generics/SYB/Text.hi$
+- /usr/lib64/syb-0.5.1/ghc-8.0.2/Generics/SYB/Twins.dyn_hi$
+- /usr/lib64/syb-0.5.1/ghc-8.0.2/Generics/SYB/Twins.hi$
+- /usr/lib64/syb-0.5.1/ghc-8.0.2/libHSsyb-0.5.1-HmsVEGptcyk77UrvJImzn.a$
+- /usr/lib64/x86_64-linux-ghc-8.0.2$
+- /usr/lib64/x86_64-linux-ghc-8.0.2/libHSsyb-0.5.1-HmsVEGptcyk77UrvJImzn-ghc8.0.2.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/syb-0.5.1$
+- /usr/share/doc/syb-0.5.1/LICENSE.bz2$

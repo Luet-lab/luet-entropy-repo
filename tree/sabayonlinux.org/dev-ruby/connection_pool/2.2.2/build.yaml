@@ -1,0 +1,30 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/connection_pool-2.2.2
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999" >> dev-ruby/connection_pool/2.2.2/definition.yaml
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/ruby$
+- /usr/lib64/ruby/gems$
+- /usr/lib64/ruby/gems/2.5.0$
+- /usr/lib64/ruby/gems/2.5.0/gems$
+- /usr/lib64/ruby/gems/2.5.0/gems/connection_pool-2.2.2$
+- /usr/lib64/ruby/gems/2.5.0/gems/connection_pool-2.2.2/lib$
+- /usr/lib64/ruby/gems/2.5.0/gems/connection_pool-2.2.2/lib/connection_pool$
+- /usr/lib64/ruby/gems/2.5.0/gems/connection_pool-2.2.2/lib/connection_pool.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/connection_pool-2.2.2/lib/connection_pool/monotonic_time.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/connection_pool-2.2.2/lib/connection_pool/timed_stack.rb$
+- /usr/lib64/ruby/gems/2.5.0/gems/connection_pool-2.2.2/lib/connection_pool/version.rb$
+- /usr/lib64/ruby/gems/2.5.0/specifications$
+- /usr/lib64/ruby/gems/2.5.0/specifications/connection_pool-2.2.2.gemspec$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/connection_pool-2.2.2$
+- /usr/share/doc/connection_pool-2.2.2/Changes.md.bz2$
+- /usr/share/doc/connection_pool-2.2.2/README.md.bz2$
