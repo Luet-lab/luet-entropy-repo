@@ -6,7 +6,7 @@ unpack: true
 requires:
 - category: "layer"
   name: "sabayon-base"
-  version: "9999" >> sci-libs/umfpack/5.6.2/definition.yaml
+  version: "9999"
 includes:
 - /usr$
 - /usr/include$

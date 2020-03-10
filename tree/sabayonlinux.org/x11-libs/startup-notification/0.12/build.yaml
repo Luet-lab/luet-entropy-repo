@@ -6,7 +6,7 @@ unpack: true
 requires:
 - category: "layer"
   name: "sabayon-base"
-  version: "9999" >> x11-libs/startup-notification/0.12/definition.yaml
+  version: "9999"
 includes:
 - /usr$
 - /usr/include$

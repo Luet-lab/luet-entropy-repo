@@ -6,7 +6,7 @@ unpack: true
 requires:
 - category: "layer"
   name: "sabayon-base"
-  version: "9999" >> gnome-base/libgnome/2.32.1/definition.yaml
+  version: "9999"
 includes:
 - /etc$
 - /etc/gconf$

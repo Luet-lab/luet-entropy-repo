@@ -6,7 +6,7 @@ unpack: true
 requires:
 - category: "layer"
   name: "sabayon-base"
-  version: "9999" >> net-firewall/ipset/6.38/definition.yaml
+  version: "9999"
 includes:
 - /etc$
 - /etc/conf.d$

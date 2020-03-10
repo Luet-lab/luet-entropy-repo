@@ -6,7 +6,7 @@ unpack: true
 requires:
 - category: "layer"
   name: "sabayon-base"
-  version: "9999" >> media-libs/libmtp/1.1.16/definition.yaml
+  version: "9999"
 includes:
 - /lib$
 - /lib/udev$

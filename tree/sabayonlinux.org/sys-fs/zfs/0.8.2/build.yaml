@@ -6,7 +6,7 @@ unpack: true
 requires:
 - category: "layer"
   name: "sabayon-base"
-  version: "9999" >> sys-fs/zfs/0.8.2/definition.yaml
+  version: "9999"
 includes:
 - /bin$
 - /bin/arc_summary$

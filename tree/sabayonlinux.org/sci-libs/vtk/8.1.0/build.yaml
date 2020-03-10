@@ -6,7 +6,7 @@ unpack: true
 requires:
 - category: "layer"
   name: "sabayon-base"
-  version: "9999" >> sci-libs/vtk/8.1.0/definition.yaml
+  version: "9999"
 includes:
 - /etc$
 - /etc/env.d$

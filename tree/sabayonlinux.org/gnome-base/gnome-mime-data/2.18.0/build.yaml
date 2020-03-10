@@ -6,7 +6,7 @@ unpack: true
 requires:
 - category: "layer"
   name: "sabayon-base"
-  version: "9999" >> gnome-base/gnome-mime-data/2.18.0/definition.yaml
+  version: "9999"
 includes:
 - /etc$
 - /etc/gnome-vfs-mime-magic$

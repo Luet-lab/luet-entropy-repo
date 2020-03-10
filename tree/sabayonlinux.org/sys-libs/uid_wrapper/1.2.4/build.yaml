@@ -6,7 +6,7 @@ unpack: true
 requires:
 - category: "layer"
   name: "sabayon-base"
-  version: "9999" >> sys-libs/uid_wrapper/1.2.4/definition.yaml
+  version: "9999"
 includes:
 - /usr$
 - /usr/lib$

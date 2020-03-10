@@ -6,7 +6,7 @@ unpack: true
 requires:
 - category: "layer"
   name: "sabayon-base"
-  version: "9999" >> sys-cluster/galera/25.3.25/definition.yaml
+  version: "9999"
 includes:
 - /etc$
 - /etc/conf.d$

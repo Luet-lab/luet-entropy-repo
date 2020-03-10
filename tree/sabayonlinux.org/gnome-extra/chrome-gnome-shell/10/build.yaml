@@ -6,7 +6,7 @@ unpack: true
 requires:
 - category: "layer"
   name: "sabayon-base"
-  version: "9999" >> gnome-extra/chrome-gnome-shell/10/definition.yaml
+  version: "9999"
 includes:
 - /etc$
 - /etc/chromium$

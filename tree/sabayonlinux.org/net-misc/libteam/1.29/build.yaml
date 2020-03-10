@@ -6,7 +6,7 @@ unpack: true
 requires:
 - category: "layer"
   name: "sabayon-base"
-  version: "9999" >> net-misc/libteam/1.29/definition.yaml
+  version: "9999"
 includes:
 - /etc$
 - /etc/dbus-1$

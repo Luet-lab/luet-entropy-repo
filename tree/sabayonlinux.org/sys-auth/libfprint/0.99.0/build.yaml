@@ -6,7 +6,7 @@ unpack: true
 requires:
 - category: "layer"
   name: "sabayon-base"
-  version: "9999" >> sys-auth/libfprint/0.99.0/definition.yaml
+  version: "9999"
 includes:
 - /lib$
 - /lib/udev$

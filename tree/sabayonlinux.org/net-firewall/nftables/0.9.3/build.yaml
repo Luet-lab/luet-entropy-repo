@@ -6,7 +6,7 @@ unpack: true
 requires:
 - category: "layer"
   name: "sabayon-base"
-  version: "9999" >> net-firewall/nftables/0.9.3/definition.yaml
+  version: "9999"
 includes:
 - /etc$
 - /etc/conf.d$
