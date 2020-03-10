@@ -97,7 +97,7 @@ unpack: true
 requires:
 - category: \"layer\"
   name: \"sabayon-base\"
-  version: \"9999\" >> $pkgdir/definition.yaml
+  version: \"9999\"
 includes:" > $pkgdir/build.yaml
 
   for inc in ${includes} ; do
