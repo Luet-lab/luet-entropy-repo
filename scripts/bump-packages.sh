@@ -97,10 +97,14 @@ unpack: true
 requires:
 - category: \"layer\"
   name: \"sabayon-base\"
-  version: \"9999\"
-includes:" > $pkgdir/build.yaml
+  version: \"9999\"" > $pkgdir/build.yaml
 
+  local inc_counter=0
   for inc in ${includes} ; do
+    if [ $inc_counter -eq 0 ] ; then
+      echo "includes:" >> $pkgdir/build.yaml
+    fi
+    let inc_counter++ || true
     # Check if include contains 
     echo "- ${inc}$" >> $pkgdir/build.yaml
   done
