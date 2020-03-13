@@ -129,6 +129,10 @@ cat << EOF >> $OUT/build.yaml
 steps:
 - mkdir /etc/entities/|| true
 - cp -rfv ${PACKAGE_NAME}*.yaml /etc/entities/
+requires:
+- category: "$BUILD_DEP_CAT"
+  name: "${BUILD_DEP_NAME}"
+  version: "${BUILD_DEP_VERSION}"
 EOF
 
 cat << EOF > $OUT/finalize.yaml
