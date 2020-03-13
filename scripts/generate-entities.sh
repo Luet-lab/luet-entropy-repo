@@ -67,7 +67,7 @@ shell: "${ACCT_USER_SHELL}"
 EOF
 
 
-cat << EOF >> $OUT/definition.yaml
+cat << EOF > $OUT/definition.yaml
 category: "acct-user"
 name: "${PACKAGE_NAME}"
 version: "${ENTITIY_PACKAGE_VERSION}"
@@ -80,7 +80,7 @@ requires:
   version: ">=0.1"
 EOF
 
-cat << EOF >> $OUT/build.yaml
+cat << EOF > $OUT/build.yaml
 steps:
 - mkdir /etc/entities/|| true
 - cp -rfv ${PACKAGE_NAME}*.yaml /etc/entities/
@@ -123,7 +123,7 @@ group_name: "${PACKAGE_NAME}"
 gid: ${ACCT_GROUP_ID}
 EOF
 
-cat << EOF >> $OUT/definition.yaml
+cat << EOF > $OUT/definition.yaml
 category: "acct-group"
 name: "${PACKAGE_NAME}"
 version: "${ENTITIY_PACKAGE_VERSION}"
@@ -133,7 +133,7 @@ requires:
   version: ">=0.1"
 EOF
 
-cat << EOF >> $OUT/build.yaml
+cat << EOF > $OUT/build.yaml
 steps:
 - mkdir /etc/entities/|| true
 - cp -rfv ${PACKAGE_NAME}*.yaml /etc/entities/
