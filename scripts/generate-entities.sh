@@ -40,7 +40,15 @@ if [[ "$PACKAGE" == acct-user* ]]; then
     eval "$content"
     echo $ACCT_USER_ID
     echo $ACCT_USER_GROUPS
-group=$(curl -s "https://raw.githubusercontent.com/gentoo/gentoo/master/acct-group/$PACKAGE_NAME/${EBUILD}")
+    RDEPEND=$(echo -e "${RDEPEND}" | tr -d '[:space:]')
+    RDEPEND_PACKAGE_NAME="$(echo $RDEPEND | grep -oP '.*\/\K.*')"
+
+    (($(curl --silent -I https://raw.githubusercontent.com/gentoo/gentoo/master/acct-group/$PACKAGE_NAME/${EBUILD} \
+    | grep -E "^HTTP" \
+    | awk -F " " '{print $2}') == 200)) \
+    && group=$(curl -s "https://raw.githubusercontent.com/gentoo/gentoo/master/acct-group/$PACKAGE_NAME/${EBUILD}")
+    group=$(curl -s "https://raw.githubusercontent.com/gentoo/gentoo/master/$RDEPEND/${RDEPEND_PACKAGE_NAME}-0.ebuild")
+
     eval "$group"
 
 if [ "$ACCT_USER_SHELL" == "-1" ];
