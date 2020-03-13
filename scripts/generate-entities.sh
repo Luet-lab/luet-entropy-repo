@@ -13,6 +13,7 @@ OUT="${2}"
 BUILD_DEP_CAT="${BUILD_DEP_CAT:-distro}"
 BUILD_DEP_NAME="${BUILD_DEP_NAME:-alpine}"
 BUILD_DEP_VERSION="${BUILD_DEP_VERSION:-3.11.3}"
+ENTITIY_PACKAGE_VERSION="${ENTITY_PACKAGE_VERSION:-1}"
 
 PACKAGE_NAME="$(echo $PACKAGE | grep -oP '.*\/\K.*')"
 EBUILD="$PACKAGE_NAME-0.ebuild"
@@ -61,7 +62,7 @@ EOF
 cat << EOF >> $OUT/definition.yaml
 category: "acct-user"
 name: "${PACKAGE_NAME}"
-version: "0"
+version: "${ENTITIY_PACKAGE_VERSION}"
 requires:
 - category: "acct-group"
   name: "${PACKAGE_NAME}"
@@ -117,7 +118,7 @@ EOF
 cat << EOF >> $OUT/definition.yaml
 category: "acct-group"
 name: "${PACKAGE_NAME}"
-version: "0"
+version: "${ENTITIY_PACKAGE_VERSION}"
 requires:
 - category: "system"
   name: "entities"
