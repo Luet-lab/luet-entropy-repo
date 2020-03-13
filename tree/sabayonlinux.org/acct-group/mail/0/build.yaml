@@ -1,10 +1,7 @@
-
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i acct-group/mail-0
-unpack: true
+- mkdir /etc/entities/|| true
+- cp -rfv mail*.yaml /etc/entities/
 requires:
-- category: "layer"
-  name: "sabayon-base"
-  version: "9999"
-includes:
+- category: "distro"
+  name: "alpine"
+  version: "3.11.3"
