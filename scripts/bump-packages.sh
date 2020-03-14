@@ -12,6 +12,9 @@ DEBUG_BUMP=${DEBUG_BUMP:-0}
 PARALLEL_ENABLE=${PARALLEL_ENABLE:-0}
 PARALLEL_JOBS=${PARALLEL_JOBS:-40}
 BACKGROUND_MODE=${BACKGROUND_MODE:-0}
+#ENTROPY_DB=${ENTROPY_DB:-/var/lib/entropy/client/database/amd64/${REPOSITORY}/amd64/5/packages.db}
+ENTROPY_DB=${ENTROPY_DB:-/var/lib/entropy/client/database/amd64/equo.db}
+
 
 process_package () {
   local pkg=$1
@@ -46,7 +49,8 @@ process_package () {
   # Check slot
   # equo seems slow!
   #local slot=$(equo search $pkg | grep Slot | awk '{ print $3 }')
-  local slot=$(equery list  -F 'SLOT $slot' $pkg 2>/dev/null | grep SLOT --color=none 2>/dev/null | awk '{ print $2 }' | sed 's/\x1B\[[0-9;]\+[A-Za-z]//g')
+  #local slot=$(equery list  -F 'SLOT $slot' $pkg 2>/dev/null | grep SLOT --color=none 2>/dev/null | awk '{ print $2 }' | sed 's/\x1B\[[0-9;]\+[A-Za-z]//g')
+  local slot=$(pkgs-checker entropy info $pkg -d $ENTROPY_DB | grep slot | head -n 1 | awk '{ print $2 }')
 
   # Ignore sub-slot for now.
   slot=$(echo "${slot}" | sed 's:/.*::g')
@@ -80,8 +84,9 @@ process_package () {
 
   includes=$(equo q files $pkg -q)
 
+  deps=$(pkgs-checker entropy info -d ${ENTROPY_DB} --onlydeps $pkg)
   # deps=$(equery g $pkg -l -M -U --depth=3 -A | grep " \[" --color=none | awk '{ print $3 }' | sed 's/\x1B\[[0-9;]\+[A-Za-z]//g')
-  deps=$(equery g $pkg  -l --depth=2 2>/dev/null | grep " \[" --color=none | awk '{ print $3 }'  | sed 's/\x1B\[[0-9;]\+[A-Za-z]//g')
+#  deps=$(equery g $pkg  -l --depth=2 2>/dev/null | grep " \[" --color=none | awk '{ print $3 }'  | sed 's/\x1B\[[0-9;]\+[A-Za-z]//g')
 
   echo "
 category: \"${cat}\"
@@ -122,16 +127,8 @@ requires:
 
     dep_name=$(pkgs-checker pkg info $dep | grep "name:" --color=none | awk '{ print $2 }' | sed 's/\x1B\[[0-9;]\+[A-Za-z]//g')
     dep_cat=$(pkgs-checker pkg info $dep | grep "category:" --color=none | awk '{ print $2 }' | sed 's/\x1B\[[0-9;]\+[A-Za-z]//g')
-    #dep_version=$(pkgs-checker pkg info $dep | grep "version:" --color=none | awk '{ print $2 }' | sed 's/\x1B\[[0-9;]\+[A-Za-z]//g')
-    #dep_slot=$(equo search $dep  | grep Slot | awk '{ print $3 }')
-    dep_slot=$(equery list  -F 'SLOT $slot' $dep 2>/dev/null | grep SLOT --color=none | awk '{ print $2 }' | sed 's/\x1B\[[0-9;]\+[A-Za-z]//g')
-    if [ "${dep_slot}" == "" ] ; then
-      # Force use of slot 0. This happens because portage has an updated package not available in entropy.
-      dep_slot=0
-    else
-      # Drop sub-slot
-      dep_slot=$(echo "${dep_slot}" | sed 's:/.*::g')
-    fi
+    dep_slot=$(pkgs-checker pkg info $dep | grep "slot:" --color=none | awk '{ print $2 }' | sed 's/\x1B\[[0-9;]\+[A-Za-z]//g')
+    dep_version=$(pkgs-checker pkg info $dep | grep "version:" --color=none | awk '{ print $2 }' | sed 's/\x1B\[[0-9;]\+[A-Za-z]//g')
 
     if [ "${dep_cat}/${dep_name}" = "${cat}/${name}" ] ; then
       continue
@@ -145,29 +142,6 @@ requires:
 
     if [ "$DEBUG_BUMP" = "1" ] ; then
       echo "Found dep ${dep}, slot ${dep_slot} and luet name ${dep_luet_name}..."
-    fi
-
-    # Check if dep is available in entropy and use her version.
-    # head is a workaround to multi match of the equo search :'(
-    # 2>/dev/null needed for this:
-    # equo search -qv dev-libs/icu | head -n 1
-    # dev-libs/icu-65.1-r1
-    # Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='UTF-8'>
-    # BrokenPipeError: [Errno 32] Broken pipe
-    dep_in_entropy=$(equo search -qv ${dep_cat}/${dep_name}:${dep_slot} 2>/dev/null | head -n 1 | wc -l )
-    if [ $dep_in_entropy == "0" ] ; then
-      echo "Dep dep ${dep} not present in entropy. I skip dependency."
-      continue
-    fi
-
-    dep_entropy_pkgname=$(equo search -qv ${dep_cat}/${dep_name}:${dep_slot} 2>/dev/null | head -n 1)
-    dep_version=$(pkgs-checker pkg info $dep_entropy_pkgname | grep "version:" --color=none | awk '{ print $2 }' | sed 's/\x1B\[[0-9;]\+[A-Za-z]//g')
-
-    # Check again dep_in_entropy with version to avoid wrong search match.
-    dep_in_entropy=$(equo search -qv ${dep_cat}/${dep_name}-${dep_version}:${dep_slot} 2>/dev/null | head -n 1 | wc -l )
-    if [ $dep_in_entropy == "0" ] ; then
-      echo "Dep dep ${dep} not present in entropy. I skip dependency."
-      continue
     fi
 
     is_installed=$(qlist -ICvq | grep --color=none ${dep_cat}/${dep_name} | wc -l)
@@ -209,6 +183,8 @@ process_packages () {
   if [ "$PARALLEL_ENABLE" = "1" ] ; then
     export COUNTERDIR
     export DEBUG_BUMP
+    export ENTROPY_DB
+    export REPOSITORY
     export -f process_package
     parallel -j ${PARALLEL_JOBS} --will-cite -k process_package ::: ${PACKAGES}
   else
