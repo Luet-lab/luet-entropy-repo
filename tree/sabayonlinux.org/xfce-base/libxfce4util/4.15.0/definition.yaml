@@ -1,7 +1,7 @@
 
 category: "xfce-base"
 name: "libxfce4util"
-version: "4.15.0"
+version: "4.15.0+1"
 requires:
 - category: "sys-libs"
   name: "zlib"
@@ -103,7 +103,7 @@ requires:
   name: "graphviz"
   version: ">=2.42.1"
 - category: "dev-libs"
-  name: "dbus-glib"
+  name: "dbus-glib-2"
   version: ">=0.110"
 - category: "app-portage"
   name: "elt-patches"
