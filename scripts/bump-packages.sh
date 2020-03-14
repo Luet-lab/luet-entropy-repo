@@ -128,6 +128,8 @@ requires:
     dep_name=$(pkgs-checker pkg info $dep | grep "name:" --color=none | awk '{ print $2 }' | sed 's/\x1B\[[0-9;]\+[A-Za-z]//g')
     dep_cat=$(pkgs-checker pkg info $dep | grep "category:" --color=none | awk '{ print $2 }' | sed 's/\x1B\[[0-9;]\+[A-Za-z]//g')
     dep_slot=$(pkgs-checker pkg info $dep | grep "slot:" --color=none | awk '{ print $2 }' | sed 's/\x1B\[[0-9;]\+[A-Za-z]//g')
+    # Ignore sub-slot for now.
+    dep_slot=$(echo "${dep_slot}" | sed 's:/.*::g')
     dep_version=$(pkgs-checker pkg info $dep | grep "version:" --color=none | awk '{ print $2 }' | sed 's/\x1B\[[0-9;]\+[A-Za-z]//g')
 
     if [ "${dep_cat}/${dep_name}" = "${cat}/${name}" ] ; then
@@ -156,6 +158,10 @@ requires:
     if [ $dep_num -eq 0 ] ; then
       echo "requires:" >> $pkgdir/definition.yaml
       let dep_num++
+    fi
+
+    if [ "${dep_version}" = "" ] ; then
+      dep_version="0"
     fi
 
     if [ "$DEBUG_BUMP" = "1" ] ; then
