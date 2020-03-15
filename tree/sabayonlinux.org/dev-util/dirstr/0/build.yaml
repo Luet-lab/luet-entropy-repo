@@ -1,0 +1,21 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-util/dirstr-0_p1-r1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/dirstr.py$
+- /usr/lib$
+- /usr/lib/python-exec$
+- /usr/lib/python-exec/python3.6$
+- /usr/lib/python-exec/python3.6/dirstr.py$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/dirstr-0_p1-r1$
+- /usr/share/doc/dirstr-0_p1-r1/README.md.bz2$

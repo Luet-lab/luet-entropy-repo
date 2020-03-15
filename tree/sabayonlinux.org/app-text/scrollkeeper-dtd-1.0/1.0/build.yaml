@@ -1,0 +1,16 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-text/scrollkeeper-dtd-1.0-r1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/xml$
+- /usr/share/xml/scrollkeeper$
+- /usr/share/xml/scrollkeeper/dtds$
+- /usr/share/xml/scrollkeeper/dtds/scrollkeeper-omf.dtd$
