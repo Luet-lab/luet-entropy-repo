@@ -1,0 +1,26 @@
+
+category: "app-text"
+name: "gtkspell-2"
+version: "2.0.16"
+license: ""
+
+use_flags:
+- "userland_GNU"
+- "amd64"
+- "multilib"
+- "elibc_glibc"
+- "kernel_linux"
+- "-doc"
+requires:
+- category: "app-text"
+  name: "enchant-2"
+  version: ">=1.1.6"
+- category: "dev-util"
+  name: "intltool"
+  version: ">=0.35.0"
+- category: "dev-util"
+  name: "pkgconfig"
+  version: ">=0"
+- category: "x11-libs"
+  name: "gtk+-3"
+  version: ">=0"
