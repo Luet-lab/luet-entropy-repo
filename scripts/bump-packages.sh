@@ -25,6 +25,8 @@ process_package () {
   local version=$(pkgs-checker pkg info $pkg | grep "version:" --color=none | awk '{ print $2 }')
   local ver_suffix=$(pkgs-checker pkg info $pkg | grep "version_suffix" --color=none | awk '{ print $2 }')
   local ver_build=$(pkgs-checker pkg info $pkg | grep "version_build" --color=none | awk '{ print $2 }')
+  local licence=$(pkgs-checker entropy info $pkg -d ${ENTROPY_DB} | grep "license:" --color=none | awk '{ print $2 }')
+  local uses=$(pkgs-checker entropy info $pkg -d ${ENTROPY_DB} | grep "uses" --color=none | sed -e 's|^uses: ||g')
 
   ver_suffix=${ver_suffix/-}
   ver_suffix=${ver_suffix/_}
@@ -91,7 +93,21 @@ process_package () {
   echo "
 category: \"${cat}\"
 name: \"${luet_name}\"
-version: \"${version}${build_symbol}${ver_suffix}${version_build}\"" > $pkgdir/definition.yaml
+version: \"${version}${build_symbol}${ver_suffix}${version_build}\"
+license: \"${license}\"
+" > $pkgdir/definition.yaml
+
+  if [ "$uses" != "" ] ; then
+    local uses_counter=0
+    for u in ${uses} ; do
+      if [ $uses_counter -eq 0 ] ; then
+        let uses_counter++ || true
+        echo "use_flags:" >> $pkgdir/definition.yaml
+      fi
+
+      echo "- \"${u}\"" >> $pkgdir/definition.yaml
+    done
+  fi
 
   # we need unpack: tree because also if package is reinstalled container has same files.
   echo "
@@ -132,12 +148,23 @@ requires:
     dep_slot=$(echo "${dep_slot}" | sed 's:/.*::g')
     dep_version=$(pkgs-checker pkg info $dep | grep "version:" --color=none | awk '{ print $2 }' | sed 's/\x1B\[[0-9;]\+[A-Za-z]//g')
 
+    dep_condition=$(pkgs-checker pkg info $dep | grep "condition:" --color=none | awk '{ print $2 }')
+
     if [ "${dep_cat}/${dep_name}" = "${cat}/${name}" ] ; then
       continue
     fi
 
     if [ "${dep_cat}" = "virtual" ] ; then
       continue
+    fi
+
+    # Workaround for fix python slot issues of pkgs-checker entropy info
+    if [[ "${dep_cat}" = "dev-lang" && "${dep_name}" = "python" ]] ; then
+      if [[ "${dep_version}" = 2.7* ]] ; then
+        dep_slot="2.7"
+      else
+        dep_slot="3.6"
+      fi
     fi
 
     dep_luet_name="${dep_name}"
@@ -164,12 +191,19 @@ requires:
       dep_version="0"
     fi
 
+    if [[ "${dep_condition}" = "=" || "${dep_condition}" = "" ]] ; then
+      dep_condition=">="
+    fi
+    if [[ "${dep_condition}" = "=*" || "${dep_condition}" = "~" ]] ; then
+      dep_condition=">="
+    fi
+
     if [ "$DEBUG_BUMP" = "1" ] ; then
       echo "Use entropy dep ${dep}, with version ${dep_version} ..."
     fi
     echo "- category: \"${dep_cat}\"
   name: \"${dep_luet_name}\"
-  version: \">=${dep_version}\"" >> $pkgdir/definition.yaml
+  version: \"${dep_condition}${dep_version}\"" >> $pkgdir/definition.yaml
   done
 
   echo "1" > ${COUNTERDIR}/${cat}-${name}-${version}
