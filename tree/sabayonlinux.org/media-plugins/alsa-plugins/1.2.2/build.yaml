@@ -1,0 +1,99 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-plugins/alsa-plugins-1.2.2
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /etc$
+- /etc/alsa$
+- /etc/alsa/conf.d$
+- /etc/alsa/conf.d/10-rate-lav.conf$
+- /etc/alsa/conf.d/10-samplerate.conf$
+- /etc/alsa/conf.d/10-speexrate.conf$
+- /etc/alsa/conf.d/50-jack.conf$
+- /etc/alsa/conf.d/50-pulseaudio.conf$
+- /etc/alsa/conf.d/51-pulseaudio-probe.conf$
+- /etc/alsa/conf.d/60-a52-encoder.conf$
+- /etc/alsa/conf.d/60-speex.conf$
+- /etc/alsa/conf.d/60-upmix.conf$
+- /etc/alsa/conf.d/60-vdownmix.conf$
+- /etc/alsa/conf.d/98-usb-stream.conf$
+- /etc/alsa/conf.d/99-pulseaudio-default.conf.example$
+- /usr$
+- /usr/lib$
+- /usr/lib/alsa-lib$
+- /usr/lib/alsa-lib/libasound_module_conf_pulse.so$
+- /usr/lib/alsa-lib/libasound_module_ctl_pulse.so$
+- /usr/lib/alsa-lib/libasound_module_pcm_a52.so$
+- /usr/lib/alsa-lib/libasound_module_pcm_jack.so$
+- /usr/lib/alsa-lib/libasound_module_pcm_pulse.so$
+- /usr/lib/alsa-lib/libasound_module_pcm_speex.so$
+- /usr/lib/alsa-lib/libasound_module_pcm_upmix.so$
+- /usr/lib/alsa-lib/libasound_module_pcm_usb_stream.so$
+- /usr/lib/alsa-lib/libasound_module_pcm_vdownmix.so$
+- /usr/lib/alsa-lib/libasound_module_rate_lavrate.so$
+- /usr/lib/alsa-lib/libasound_module_rate_lavrate_fast.so$
+- /usr/lib/alsa-lib/libasound_module_rate_lavrate_faster.so$
+- /usr/lib/alsa-lib/libasound_module_rate_lavrate_high.so$
+- /usr/lib/alsa-lib/libasound_module_rate_lavrate_higher.so$
+- /usr/lib/alsa-lib/libasound_module_rate_samplerate.so$
+- /usr/lib/alsa-lib/libasound_module_rate_samplerate_best.so$
+- /usr/lib/alsa-lib/libasound_module_rate_samplerate_linear.so$
+- /usr/lib/alsa-lib/libasound_module_rate_samplerate_medium.so$
+- /usr/lib/alsa-lib/libasound_module_rate_samplerate_order.so$
+- /usr/lib/alsa-lib/libasound_module_rate_speexrate.so$
+- /usr/lib/alsa-lib/libasound_module_rate_speexrate_best.so$
+- /usr/lib/alsa-lib/libasound_module_rate_speexrate_medium.so$
+- /usr/lib64$
+- /usr/lib64/alsa-lib$
+- /usr/lib64/alsa-lib/libasound_module_conf_pulse.so$
+- /usr/lib64/alsa-lib/libasound_module_ctl_pulse.so$
+- /usr/lib64/alsa-lib/libasound_module_pcm_a52.so$
+- /usr/lib64/alsa-lib/libasound_module_pcm_jack.so$
+- /usr/lib64/alsa-lib/libasound_module_pcm_pulse.so$
+- /usr/lib64/alsa-lib/libasound_module_pcm_speex.so$
+- /usr/lib64/alsa-lib/libasound_module_pcm_upmix.so$
+- /usr/lib64/alsa-lib/libasound_module_pcm_usb_stream.so$
+- /usr/lib64/alsa-lib/libasound_module_pcm_vdownmix.so$
+- /usr/lib64/alsa-lib/libasound_module_rate_lavrate.so$
+- /usr/lib64/alsa-lib/libasound_module_rate_lavrate_fast.so$
+- /usr/lib64/alsa-lib/libasound_module_rate_lavrate_faster.so$
+- /usr/lib64/alsa-lib/libasound_module_rate_lavrate_high.so$
+- /usr/lib64/alsa-lib/libasound_module_rate_lavrate_higher.so$
+- /usr/lib64/alsa-lib/libasound_module_rate_samplerate.so$
+- /usr/lib64/alsa-lib/libasound_module_rate_samplerate_best.so$
+- /usr/lib64/alsa-lib/libasound_module_rate_samplerate_linear.so$
+- /usr/lib64/alsa-lib/libasound_module_rate_samplerate_medium.so$
+- /usr/lib64/alsa-lib/libasound_module_rate_samplerate_order.so$
+- /usr/lib64/alsa-lib/libasound_module_rate_speexrate.so$
+- /usr/lib64/alsa-lib/libasound_module_rate_speexrate_best.so$
+- /usr/lib64/alsa-lib/libasound_module_rate_speexrate_medium.so$
+- /usr/share$
+- /usr/share/alsa$
+- /usr/share/alsa/alsa.conf.d$
+- /usr/share/alsa/alsa.conf.d/10-rate-lav.conf$
+- /usr/share/alsa/alsa.conf.d/10-samplerate.conf$
+- /usr/share/alsa/alsa.conf.d/10-speexrate.conf$
+- /usr/share/alsa/alsa.conf.d/50-jack.conf$
+- /usr/share/alsa/alsa.conf.d/50-pulseaudio.conf$
+- /usr/share/alsa/alsa.conf.d/51-pulseaudio-probe.conf$
+- /usr/share/alsa/alsa.conf.d/60-a52-encoder.conf$
+- /usr/share/alsa/alsa.conf.d/60-speex.conf$
+- /usr/share/alsa/alsa.conf.d/60-upmix.conf$
+- /usr/share/alsa/alsa.conf.d/60-vdownmix.conf$
+- /usr/share/alsa/alsa.conf.d/98-usb-stream.conf$
+- /usr/share/alsa/pulse-default.conf$
+- /usr/share/doc$
+- /usr/share/doc/alsa-plugins-1.2.2$
+- /usr/share/doc/alsa-plugins-1.2.2/README-jack.bz2$
+- /usr/share/doc/alsa-plugins-1.2.2/README-pcm-oss.bz2$
+- /usr/share/doc/alsa-plugins-1.2.2/README-pulse.bz2$
+- /usr/share/doc/alsa-plugins-1.2.2/a52.txt.bz2$
+- /usr/share/doc/alsa-plugins-1.2.2/lavrate.txt.bz2$
+- /usr/share/doc/alsa-plugins-1.2.2/samplerate.txt.bz2$
+- /usr/share/doc/alsa-plugins-1.2.2/upmix.txt.bz2$
+- /usr/share/doc/alsa-plugins-1.2.2/vdownmix.txt.bz2$

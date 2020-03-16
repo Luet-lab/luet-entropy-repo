@@ -1,0 +1,81 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i mail-filter/bogofilter-1.2.4-r2
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/bf_compact$
+- /usr/bin/bf_copy$
+- /usr/bin/bf_tar$
+- /usr/bin/bogofilter$
+- /usr/bin/bogolexer$
+- /usr/bin/bogotune$
+- /usr/bin/bogoupgrade$
+- /usr/bin/bogoutil$
+- /usr/lib$
+- /usr/share$
+- /usr/share/bogofilter$
+- /usr/share/bogofilter/contrib$
+- /usr/share/bogofilter/contrib/README.contrib$
+- /usr/share/bogofilter/contrib/README.randomtrain$
+- /usr/share/bogofilter/contrib/bfproxy.pl$
+- /usr/share/bogofilter/contrib/bogo.R$
+- /usr/share/bogofilter/contrib/bogofilter-milter.pl$
+- /usr/share/bogofilter/contrib/bogofilter-qfe.sh$
+- /usr/share/bogofilter/contrib/bogogrep.c$
+- /usr/share/bogofilter/contrib/bogominitrain.pl$
+- /usr/share/bogofilter/contrib/dot-qmail-bogofilter-default$
+- /usr/share/bogofilter/contrib/mailfilter.example$
+- /usr/share/bogofilter/contrib/mime.get.rfc822.pl$
+- /usr/share/bogofilter/contrib/parmtest.sh$
+- /usr/share/bogofilter/contrib/printmaildir.pl$
+- /usr/share/bogofilter/contrib/procmailrc.example$
+- /usr/share/bogofilter/contrib/randomtrain.sh$
+- /usr/share/bogofilter/contrib/scramble.sh$
+- /usr/share/bogofilter/contrib/spamitarium.pl$
+- /usr/share/bogofilter/contrib/stripsearch.pl$
+- /usr/share/bogofilter/contrib/trainbogo.sh$
+- /usr/share/bogofilter/contrib/vm-bogofilter.el$
+- /usr/share/doc$
+- /usr/share/doc/bogofilter-1.2.4-r2$
+- /usr/share/doc/bogofilter-1.2.4-r2/AUTHORS.bz2$
+- /usr/share/doc/bogofilter-1.2.4-r2/GETTING.STARTED.bz2$
+- /usr/share/doc/bogofilter-1.2.4-r2/NEWS.bz2$
+- /usr/share/doc/bogofilter-1.2.4-r2/README.bz2$
+- /usr/share/doc/bogofilter-1.2.4-r2/README.db.bz2$
+- /usr/share/doc/bogofilter-1.2.4-r2/README.sqlite.bz2$
+- /usr/share/doc/bogofilter-1.2.4-r2/RELEASE.NOTES.bz2$
+- /usr/share/doc/bogofilter-1.2.4-r2/TODO.bz2$
+- /usr/share/doc/bogofilter-1.2.4-r2/bf_compact.html$
+- /usr/share/doc/bogofilter-1.2.4-r2/bf_copy.html$
+- /usr/share/doc/bogofilter-1.2.4-r2/bf_tar.html$
+- /usr/share/doc/bogofilter-1.2.4-r2/bogofilter-faq-fr.html$
+- /usr/share/doc/bogofilter-1.2.4-r2/bogofilter-faq-it.html$
+- /usr/share/doc/bogofilter-1.2.4-r2/bogofilter-faq.html$
+- /usr/share/doc/bogofilter-1.2.4-r2/bogofilter-tuning.HOWTO.html$
+- /usr/share/doc/bogofilter-1.2.4-r2/bogofilter.html$
+- /usr/share/doc/bogofilter-1.2.4-r2/bogolexer.html$
+- /usr/share/doc/bogofilter-1.2.4-r2/bogotune-faq.html$
+- /usr/share/doc/bogofilter-1.2.4-r2/bogotune.html$
+- /usr/share/doc/bogofilter-1.2.4-r2/bogoupgrade.html$
+- /usr/share/doc/bogofilter-1.2.4-r2/bogoutil.html$
+- /usr/share/doc/bogofilter-1.2.4-r2/integrating-with-postfix.bz2$
+- /usr/share/doc/bogofilter-1.2.4-r2/integrating-with-qmail.bz2$
+- /usr/share/doc/bogofilter-1.2.4-r2/samples$
+- /usr/share/doc/bogofilter-1.2.4-r2/samples/bogofilter.cf.example.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/bf_compact.1.bz2$
+- /usr/share/man/man1/bf_copy.1.bz2$
+- /usr/share/man/man1/bf_tar.1.bz2$
+- /usr/share/man/man1/bogofilter.1.bz2$
+- /usr/share/man/man1/bogolexer.1.bz2$
+- /usr/share/man/man1/bogotune.1.bz2$
+- /usr/share/man/man1/bogoupgrade.1.bz2$
+- /usr/share/man/man1/bogoutil.1.bz2$

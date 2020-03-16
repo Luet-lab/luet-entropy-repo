@@ -1,0 +1,44 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i net-libs/gssdp-1.2.2
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/gssdp-device-sniffer$
+- /usr/include$
+- /usr/include/gssdp-1.2$
+- /usr/include/gssdp-1.2/libgssdp$
+- /usr/include/gssdp-1.2/libgssdp/gssdp-client.h$
+- /usr/include/gssdp-1.2/libgssdp/gssdp-enums.h$
+- /usr/include/gssdp-1.2/libgssdp/gssdp-error.h$
+- /usr/include/gssdp-1.2/libgssdp/gssdp-resource-browser.h$
+- /usr/include/gssdp-1.2/libgssdp/gssdp-resource-group.h$
+- /usr/include/gssdp-1.2/libgssdp/gssdp.h$
+- /usr/lib$
+- /usr/lib/libgssdp-1.2.so$
+- /usr/lib/libgssdp-1.2.so.0$
+- /usr/lib/libgssdp-1.2.so.0.0.0$
+- /usr/lib/pkgconfig$
+- /usr/lib/pkgconfig/gssdp-1.2.pc$
+- /usr/lib64$
+- /usr/lib64/girepository-1.0$
+- /usr/lib64/girepository-1.0/GSSDP-1.2.typelib$
+- /usr/lib64/libgssdp-1.2.so$
+- /usr/lib64/libgssdp-1.2.so.0$
+- /usr/lib64/libgssdp-1.2.so.0.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/gssdp-1.2.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/gssdp-1.2.2$
+- /usr/share/doc/gssdp-1.2.2/AUTHORS$
+- /usr/share/doc/gssdp-1.2.2/NEWS.bz2$
+- /usr/share/doc/gssdp-1.2.2/README$
+- /usr/share/gir-1.0$
+- /usr/share/gir-1.0/GSSDP-1.2.gir$

@@ -1,0 +1,66 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-sound/fluidsynth-2.1.0
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /etc$
+- /etc/fluidsynth.conf$
+- /lib$
+- /lib/systemd$
+- /lib/systemd/system$
+- /lib/systemd/system/fluidsynth.service$
+- /usr$
+- /usr/bin$
+- /usr/bin/fluidsynth$
+- /usr/include$
+- /usr/include/fluidsynth$
+- /usr/include/fluidsynth.h$
+- /usr/include/fluidsynth/audio.h$
+- /usr/include/fluidsynth/event.h$
+- /usr/include/fluidsynth/gen.h$
+- /usr/include/fluidsynth/ladspa.h$
+- /usr/include/fluidsynth/log.h$
+- /usr/include/fluidsynth/midi.h$
+- /usr/include/fluidsynth/misc.h$
+- /usr/include/fluidsynth/mod.h$
+- /usr/include/fluidsynth/seq.h$
+- /usr/include/fluidsynth/seqbind.h$
+- /usr/include/fluidsynth/settings.h$
+- /usr/include/fluidsynth/sfont.h$
+- /usr/include/fluidsynth/shell.h$
+- /usr/include/fluidsynth/synth.h$
+- /usr/include/fluidsynth/types.h$
+- /usr/include/fluidsynth/version.h$
+- /usr/include/fluidsynth/voice.h$
+- /usr/lib$
+- /usr/lib/libfluidsynth.so$
+- /usr/lib/libfluidsynth.so.2$
+- /usr/lib/libfluidsynth.so.2.3.0$
+- /usr/lib/pkgconfig$
+- /usr/lib/pkgconfig/fluidsynth.pc$
+- /usr/lib64$
+- /usr/lib64/libfluidsynth.so$
+- /usr/lib64/libfluidsynth.so.2$
+- /usr/lib64/libfluidsynth.so.2.3.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/fluidsynth.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/fluidsynth-2.1.0$
+- /usr/share/doc/fluidsynth-2.1.0/AUTHORS.bz2$
+- /usr/share/doc/fluidsynth-2.1.0/ChangeLog.bz2$
+- /usr/share/doc/fluidsynth-2.1.0/README.md.bz2$
+- /usr/share/doc/fluidsynth-2.1.0/THANKS.bz2$
+- /usr/share/doc/fluidsynth-2.1.0/TODO.bz2$
+- /usr/share/doc/fluidsynth-2.1.0/fluidsynth-v20-devdoc.txt.bz2$
+- /usr/share/doc/fluidsynth-2.1.0/pdf$
+- /usr/share/doc/fluidsynth-2.1.0/pdf/FluidProfile_0004.pdf$
+- /usr/share/doc/fluidsynth-2.1.0/pdf/FluidSostenuto-005.pdf$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/fluidsynth.1.bz2$

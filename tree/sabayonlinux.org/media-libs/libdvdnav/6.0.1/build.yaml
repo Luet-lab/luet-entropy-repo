@@ -1,0 +1,36 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/libdvdnav-6.0.1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/dvdnav$
+- /usr/include/dvdnav/dvd_types.h$
+- /usr/include/dvdnav/dvdnav.h$
+- /usr/include/dvdnav/dvdnav_events.h$
+- /usr/lib$
+- /usr/lib/libdvdnav.so$
+- /usr/lib/libdvdnav.so.4$
+- /usr/lib/libdvdnav.so.4.2.0$
+- /usr/lib/pkgconfig$
+- /usr/lib/pkgconfig/dvdnav.pc$
+- /usr/lib64$
+- /usr/lib64/libdvdnav.so$
+- /usr/lib64/libdvdnav.so.4$
+- /usr/lib64/libdvdnav.so.4.2.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/dvdnav.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libdvdnav-6.0.1$
+- /usr/share/doc/libdvdnav-6.0.1/AUTHORS.bz2$
+- /usr/share/doc/libdvdnav-6.0.1/COPYING.bz2$
+- /usr/share/doc/libdvdnav-6.0.1/ChangeLog.bz2$
+- /usr/share/doc/libdvdnav-6.0.1/README.bz2$
+- /usr/share/doc/libdvdnav-6.0.1/TODO.bz2$

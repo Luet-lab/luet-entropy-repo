@@ -1,0 +1,40 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i net-libs/dleyna-core-0.6.0
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/dleyna-1.0$
+- /usr/include/dleyna-1.0/libdleyna$
+- /usr/include/dleyna-1.0/libdleyna/core$
+- /usr/include/dleyna-1.0/libdleyna/core/connector-mgr.h$
+- /usr/include/dleyna-1.0/libdleyna/core/connector.h$
+- /usr/include/dleyna-1.0/libdleyna/core/control-point.h$
+- /usr/include/dleyna-1.0/libdleyna/core/core.h$
+- /usr/include/dleyna-1.0/libdleyna/core/error.h$
+- /usr/include/dleyna-1.0/libdleyna/core/log.h$
+- /usr/include/dleyna-1.0/libdleyna/core/main-loop.h$
+- /usr/include/dleyna-1.0/libdleyna/core/service-task.h$
+- /usr/include/dleyna-1.0/libdleyna/core/settings.h$
+- /usr/include/dleyna-1.0/libdleyna/core/task-atom.h$
+- /usr/include/dleyna-1.0/libdleyna/core/task-processor.h$
+- /usr/include/dleyna-1.0/libdleyna/core/white-list.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libdleyna-core-1.0.so$
+- /usr/lib64/libdleyna-core-1.0.so.5$
+- /usr/lib64/libdleyna-core-1.0.so.5.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/dleyna-core-1.0.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/dleyna-core-0.6.0$
+- /usr/share/doc/dleyna-core-0.6.0/AUTHORS.bz2$
+- /usr/share/doc/dleyna-core-0.6.0/ChangeLog.bz2$
+- /usr/share/doc/dleyna-core-0.6.0/README.bz2$

@@ -1,0 +1,35 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/fdk-aac-2.0.1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/fdk-aac$
+- /usr/include/fdk-aac/FDK_audio.h$
+- /usr/include/fdk-aac/aacdecoder_lib.h$
+- /usr/include/fdk-aac/aacenc_lib.h$
+- /usr/include/fdk-aac/genericStds.h$
+- /usr/include/fdk-aac/machine_type.h$
+- /usr/include/fdk-aac/syslib_channelMapDescr.h$
+- /usr/lib$
+- /usr/lib/libfdk-aac.so$
+- /usr/lib/libfdk-aac.so.2$
+- /usr/lib/libfdk-aac.so.2.0.1$
+- /usr/lib/pkgconfig$
+- /usr/lib/pkgconfig/fdk-aac.pc$
+- /usr/lib64$
+- /usr/lib64/libfdk-aac.so$
+- /usr/lib64/libfdk-aac.so.2$
+- /usr/lib64/libfdk-aac.so.2.0.1$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/fdk-aac.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/fdk-aac-2.0.1$
+- /usr/share/doc/fdk-aac-2.0.1/ChangeLog.bz2$

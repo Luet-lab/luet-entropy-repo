@@ -1,0 +1,17 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-plugins/gst-plugins-taglib-1.14.5
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib/gstreamer-1.0$
+- /usr/lib/gstreamer-1.0/libgsttaglib.so$
+- /usr/lib64$
+- /usr/lib64/gstreamer-1.0$
+- /usr/lib64/gstreamer-1.0/libgsttaglib.so$

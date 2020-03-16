@@ -1,0 +1,56 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/leptonica-1.78.0
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/leptonica$
+- /usr/include/leptonica/allheaders.h$
+- /usr/include/leptonica/alltypes.h$
+- /usr/include/leptonica/array.h$
+- /usr/include/leptonica/arrayaccess.h$
+- /usr/include/leptonica/bbuffer.h$
+- /usr/include/leptonica/bilateral.h$
+- /usr/include/leptonica/bmf.h$
+- /usr/include/leptonica/bmfdata.h$
+- /usr/include/leptonica/bmp.h$
+- /usr/include/leptonica/ccbord.h$
+- /usr/include/leptonica/dewarp.h$
+- /usr/include/leptonica/endianness.h$
+- /usr/include/leptonica/environ.h$
+- /usr/include/leptonica/gplot.h$
+- /usr/include/leptonica/heap.h$
+- /usr/include/leptonica/imageio.h$
+- /usr/include/leptonica/jbclass.h$
+- /usr/include/leptonica/leptwin.h$
+- /usr/include/leptonica/list.h$
+- /usr/include/leptonica/morph.h$
+- /usr/include/leptonica/pix.h$
+- /usr/include/leptonica/ptra.h$
+- /usr/include/leptonica/queue.h$
+- /usr/include/leptonica/rbtree.h$
+- /usr/include/leptonica/readbarcode.h$
+- /usr/include/leptonica/recog.h$
+- /usr/include/leptonica/regutils.h$
+- /usr/include/leptonica/stack.h$
+- /usr/include/leptonica/stringcode.h$
+- /usr/include/leptonica/sudoku.h$
+- /usr/include/leptonica/watershed.h$
+- /usr/lib$
+- /usr/lib/liblept.so$
+- /usr/lib/liblept.so.5$
+- /usr/lib/liblept.so.5.0.3$
+- /usr/lib/pkgconfig$
+- /usr/lib/pkgconfig/lept.pc$
+- /usr/lib64$
+- /usr/lib64/liblept.so$
+- /usr/lib64/liblept.so.5$
+- /usr/lib64/liblept.so.5.0.3$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/lept.pc$

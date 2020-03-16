@@ -1,0 +1,56 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/libmediaart-1.9.4
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/libmediaart-2.0$
+- /usr/include/libmediaart-2.0/libmediaart$
+- /usr/include/libmediaart-2.0/libmediaart/cache.h$
+- /usr/include/libmediaart-2.0/libmediaart/extract.h$
+- /usr/include/libmediaart-2.0/libmediaart/extractgeneric.h$
+- /usr/include/libmediaart-2.0/libmediaart/mediaart-macros.h$
+- /usr/include/libmediaart-2.0/libmediaart/mediaart.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/girepository-1.0$
+- /usr/lib64/girepository-1.0/MediaArt-2.0.typelib$
+- /usr/lib64/libmediaart-2.0.so$
+- /usr/lib64/libmediaart-2.0.so.0$
+- /usr/lib64/libmediaart-2.0.so.0.904.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libmediaart-2.0.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libmediaart-1.9.4$
+- /usr/share/doc/libmediaart-1.9.4/AUTHORS.bz2$
+- /usr/share/doc/libmediaart-1.9.4/NEWS.bz2$
+- /usr/share/gir-1.0$
+- /usr/share/gir-1.0/MediaArt-2.0.gir$
+- /usr/share/gtk-doc$
+- /usr/share/gtk-doc/html$
+- /usr/share/gtk-doc/html/libmediaart-2.0$
+- /usr/share/gtk-doc/html/libmediaart-2.0/annotation-glossary.html$
+- /usr/share/gtk-doc/html/libmediaart-2.0/ch02.html$
+- /usr/share/gtk-doc/html/libmediaart-2.0/home.png$
+- /usr/share/gtk-doc/html/libmediaart-2.0/index.html$
+- /usr/share/gtk-doc/html/libmediaart-2.0/left-insensitive.png$
+- /usr/share/gtk-doc/html/libmediaart-2.0/left.png$
+- /usr/share/gtk-doc/html/libmediaart-2.0/libmediaart-2.0.devhelp2$
+- /usr/share/gtk-doc/html/libmediaart-2.0/libmediaart-Cache.html$
+- /usr/share/gtk-doc/html/libmediaart-2.0/libmediaart-MediaArtProcess.html$
+- /usr/share/gtk-doc/html/libmediaart-2.0/libmediaart-Plugins.html$
+- /usr/share/gtk-doc/html/libmediaart-2.0/libmediaart-reference.html$
+- /usr/share/gtk-doc/html/libmediaart-2.0/overview-compiling.html$
+- /usr/share/gtk-doc/html/libmediaart-2.0/overview.html$
+- /usr/share/gtk-doc/html/libmediaart-2.0/right-insensitive.png$
+- /usr/share/gtk-doc/html/libmediaart-2.0/right.png$
+- /usr/share/gtk-doc/html/libmediaart-2.0/style.css$
+- /usr/share/gtk-doc/html/libmediaart-2.0/up-insensitive.png$
+- /usr/share/gtk-doc/html/libmediaart-2.0/up.png$

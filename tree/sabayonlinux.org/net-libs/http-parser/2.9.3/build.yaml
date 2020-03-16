@@ -1,0 +1,26 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i net-libs/http-parser-2.9.3
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/http_parser.h$
+- /usr/lib$
+- /usr/lib/libhttp_parser.so$
+- /usr/lib/libhttp_parser.so.2.9$
+- /usr/lib/libhttp_parser.so.2.9.3$
+- /usr/lib64$
+- /usr/lib64/libhttp_parser.so$
+- /usr/lib64/libhttp_parser.so.2.9$
+- /usr/lib64/libhttp_parser.so.2.9.3$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/http-parser-2.9.3$
+- /usr/share/doc/http-parser-2.9.3/AUTHORS.bz2$
+- /usr/share/doc/http-parser-2.9.3/README.md.bz2$

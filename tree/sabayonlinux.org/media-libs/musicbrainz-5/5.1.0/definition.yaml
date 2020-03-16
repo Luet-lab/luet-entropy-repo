@@ -1,0 +1,28 @@
+
+category: "media-libs"
+name: "musicbrainz-5"
+version: "5.1.0"
+license: ""
+
+use_flags:
+- "abi_x86_64"
+- "amd64"
+- "big-endian"
+- "userland_GNU"
+- "elibc_glibc"
+- "-examples"
+- "kernel_linux"
+- "-test"
+requires:
+- category: "dev-util"
+  name: "cmake"
+  version: ">=3.9.6"
+- category: "dev-libs"
+  name: "libxml2-2"
+  version: ">=0"
+- category: "net-libs"
+  name: "neon"
+  version: ">=0"
+- category: "sys-devel"
+  name: "make"
+  version: ">=0"

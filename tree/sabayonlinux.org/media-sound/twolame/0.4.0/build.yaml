@@ -1,0 +1,41 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-sound/twolame-0.4.0
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/twolame$
+- /usr/include$
+- /usr/include/twolame.h$
+- /usr/lib$
+- /usr/lib/libtwolame.so$
+- /usr/lib/libtwolame.so.0$
+- /usr/lib/libtwolame.so.0.0.0$
+- /usr/lib/pkgconfig$
+- /usr/lib/pkgconfig/twolame.pc$
+- /usr/lib64$
+- /usr/lib64/libtwolame.so$
+- /usr/lib64/libtwolame.so.0$
+- /usr/lib64/libtwolame.so.0.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/twolame.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/twolame-0.4.0$
+- /usr/share/doc/twolame-0.4.0/AUTHORS.bz2$
+- /usr/share/doc/twolame-0.4.0/COPYING.bz2$
+- /usr/share/doc/twolame-0.4.0/ChangeLog.bz2$
+- /usr/share/doc/twolame-0.4.0/NEWS.bz2$
+- /usr/share/doc/twolame-0.4.0/README.bz2$
+- /usr/share/doc/twolame-0.4.0/api.txt.bz2$
+- /usr/share/doc/twolame-0.4.0/psycho.txt.bz2$
+- /usr/share/doc/twolame-0.4.0/vbr.txt.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/twolame.1.bz2$
