@@ -1,0 +1,25 @@
+
+category: "x11-drivers"
+name: "xf86-input-mtrack"
+version: "0.5.0"
+license: ""
+
+use_flags:
+- "abi_x86_64"
+- "amd64"
+- "split-usr"
+- "big-endian"
+- "userland_GNU"
+- "elibc_glibc"
+- "-debug"
+- "kernel_linux"
+requires:
+- category: "sys-libs"
+  name: "mtdev"
+  version: ">=1.0"
+- category: "x11-base"
+  name: "xorg-proto"
+  version: ">=0"
+- category: "x11-base"
+  name: "xorg-server"
+  version: ">=0"

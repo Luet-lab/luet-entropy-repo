@@ -1,0 +1,41 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i sys-libs/ncurses-compat-6.1_p20190609
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib/libform.so.5$
+- /usr/lib/libformw.so.5$
+- /usr/lib/libmenu.so.5$
+- /usr/lib/libmenuw.so.5$
+- /usr/lib/libncurses.so.5$
+- /usr/lib/libncursesw.so.5$
+- /usr/lib/libpanel.so.5$
+- /usr/lib/libpanelw.so.5$
+- /usr/lib/libtinfo.so.5$
+- /usr/lib/libtinfow.so.5$
+- /usr/lib64$
+- /usr/lib64/libform.so.5$
+- /usr/lib64/libformw.so.5$
+- /usr/lib64/libmenu.so.5$
+- /usr/lib64/libmenuw.so.5$
+- /usr/lib64/libncurses.so.5$
+- /usr/lib64/libncursesw.so.5$
+- /usr/lib64/libpanel.so.5$
+- /usr/lib64/libpanelw.so.5$
+- /usr/lib64/libtinfo.so.5$
+- /usr/lib64/libtinfow.so.5$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/ncurses-compat-6.1_p20190609$
+- /usr/share/doc/ncurses-compat-6.1_p20190609/AUTHORS.bz2$
+- /usr/share/doc/ncurses-compat-6.1_p20190609/NEWS.bz2$
+- /usr/share/doc/ncurses-compat-6.1_p20190609/README.MinGW.bz2$
+- /usr/share/doc/ncurses-compat-6.1_p20190609/README.bz2$
+- /usr/share/doc/ncurses-compat-6.1_p20190609/README.emx.bz2$

@@ -1,0 +1,30 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i x11-themes/gtk-engines-murrine-0.98.2-r1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib/gtk-2.0$
+- /usr/lib/gtk-2.0/2.10.0$
+- /usr/lib/gtk-2.0/2.10.0/engines$
+- /usr/lib/gtk-2.0/2.10.0/engines/libmurrine.so$
+- /usr/lib64$
+- /usr/lib64/gtk-2.0$
+- /usr/lib64/gtk-2.0/2.10.0$
+- /usr/lib64/gtk-2.0/2.10.0/engines$
+- /usr/lib64/gtk-2.0/2.10.0/engines/libmurrine.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/gtk-engines-murrine-0.98.2-r1$
+- /usr/share/doc/gtk-engines-murrine-0.98.2-r1/AUTHORS.bz2$
+- /usr/share/doc/gtk-engines-murrine-0.98.2-r1/ChangeLog.bz2$
+- /usr/share/doc/gtk-engines-murrine-0.98.2-r1/NEWS.bz2$
+- /usr/share/doc/gtk-engines-murrine-0.98.2-r1/TODO.bz2$
+- /usr/share/gtk-engines$
+- /usr/share/gtk-engines/murrine.xml$

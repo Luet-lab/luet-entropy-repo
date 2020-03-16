@@ -1,0 +1,14 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i x11-themes/sabayon-artwork-core-14-r2
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/pixmaps$
+- /usr/share/pixmaps/sabayon-logo.png$

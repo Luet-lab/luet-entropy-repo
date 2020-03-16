@@ -1,0 +1,55 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i x11-themes/sabayon-artwork-plymouth-default-17
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/plymouth$
+- /usr/share/plymouth/themes$
+- /usr/share/plymouth/themes/sabayon-artwork-plymouth-default$
+- /usr/share/plymouth/themes/sabayon-artwork-plymouth-default/box.png$
+- /usr/share/plymouth/themes/sabayon-artwork-plymouth-default/bullet.png$
+- /usr/share/plymouth/themes/sabayon-artwork-plymouth-default/entry.png$
+- /usr/share/plymouth/themes/sabayon-artwork-plymouth-default/lock.png$
+- /usr/share/plymouth/themes/sabayon-artwork-plymouth-default/progress-00.png$
+- /usr/share/plymouth/themes/sabayon-artwork-plymouth-default/progress-01.png$
+- /usr/share/plymouth/themes/sabayon-artwork-plymouth-default/progress-02.png$
+- /usr/share/plymouth/themes/sabayon-artwork-plymouth-default/progress-03.png$
+- /usr/share/plymouth/themes/sabayon-artwork-plymouth-default/progress-04.png$
+- /usr/share/plymouth/themes/sabayon-artwork-plymouth-default/progress-05.png$
+- /usr/share/plymouth/themes/sabayon-artwork-plymouth-default/progress-06.png$
+- /usr/share/plymouth/themes/sabayon-artwork-plymouth-default/progress-07.png$
+- /usr/share/plymouth/themes/sabayon-artwork-plymouth-default/progress-08.png$
+- /usr/share/plymouth/themes/sabayon-artwork-plymouth-default/progress-09.png$
+- /usr/share/plymouth/themes/sabayon-artwork-plymouth-default/progress-10.png$
+- /usr/share/plymouth/themes/sabayon-artwork-plymouth-default/progress-11.png$
+- /usr/share/plymouth/themes/sabayon-artwork-plymouth-default/progress-12.png$
+- /usr/share/plymouth/themes/sabayon-artwork-plymouth-default/progress-13.png$
+- /usr/share/plymouth/themes/sabayon-artwork-plymouth-default/progress-14.png$
+- /usr/share/plymouth/themes/sabayon-artwork-plymouth-default/progress-15.png$
+- /usr/share/plymouth/themes/sabayon-artwork-plymouth-default/progress-16.png$
+- /usr/share/plymouth/themes/sabayon-artwork-plymouth-default/progress-17.png$
+- /usr/share/plymouth/themes/sabayon-artwork-plymouth-default/progress-18.png$
+- /usr/share/plymouth/themes/sabayon-artwork-plymouth-default/sabayon-artwork-plymouth-default.plymouth$
+- /usr/share/plymouth/themes/sabayon-artwork-plymouth-default/throbber-00.png$
+- /usr/share/plymouth/themes/sabayon-artwork-plymouth-default/throbber-01.png$
+- /usr/share/plymouth/themes/sabayon-artwork-plymouth-default/throbber-02.png$
+- /usr/share/plymouth/themes/sabayon-artwork-plymouth-default/throbber-03.png$
+- /usr/share/plymouth/themes/sabayon-artwork-plymouth-default/throbber-04.png$
+- /usr/share/plymouth/themes/sabayon-artwork-plymouth-default/throbber-05.png$
+- /usr/share/plymouth/themes/sabayon-artwork-plymouth-default/throbber-06.png$
+- /usr/share/plymouth/themes/sabayon-artwork-plymouth-default/throbber-07.png$
+- /usr/share/plymouth/themes/sabayon-artwork-plymouth-default/throbber-08.png$
+- /usr/share/plymouth/themes/sabayon-artwork-plymouth-default/throbber-09.png$
+- /usr/share/plymouth/themes/sabayon-artwork-plymouth-default/throbber-10.png$
+- /usr/share/plymouth/themes/sabayon-artwork-plymouth-default/throbber-11.png$
+- /usr/share/plymouth/themes/sabayon-artwork-plymouth-default/throbber-12.png$
+- /usr/share/plymouth/themes/sabayon-artwork-plymouth-default/throbber-13.png$
+- /usr/share/plymouth/themes/sabayon-artwork-plymouth-default/throbber-14.png$
+- /usr/share/plymouth/themes/sabayon-artwork-plymouth-default/throbber-15.png$

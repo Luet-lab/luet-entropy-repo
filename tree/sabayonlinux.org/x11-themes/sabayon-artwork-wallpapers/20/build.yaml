@@ -1,0 +1,20 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i x11-themes/sabayon-artwork-wallpapers-20
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/backgrounds$
+- /usr/share/backgrounds/kgdm.jpg$
+- /usr/share/backgrounds/kgdm.png$
+- /usr/share/backgrounds/sabayonlinux-nvidia.png$
+- /usr/share/backgrounds/sabayonlinux.jpg$
+- /usr/share/backgrounds/sabayonlinux.png$
+- /usr/share/wallpapers$
+- /usr/share/wallpapers/Sabayon$

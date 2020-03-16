@@ -1,0 +1,75 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i sys-apps/pcsc-lite-1.8.26
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /etc$
+- /etc/init.d$
+- /etc/init.d/pcscd$
+- /lib$
+- /lib/systemd$
+- /lib/systemd/system$
+- /lib/systemd/system/pcscd.service$
+- /lib/systemd/system/pcscd.socket$
+- /lib/udev$
+- /lib/udev/pcscd.sh$
+- /lib/udev/rules.d$
+- /lib/udev/rules.d/99-pcscd-hotplug.rules$
+- /usr$
+- /usr/bin$
+- /usr/bin/pcsc-spy$
+- /usr/include$
+- /usr/include/PCSC$
+- /usr/include/PCSC/debuglog.h$
+- /usr/include/PCSC/ifdhandler.h$
+- /usr/include/PCSC/pcsclite.h$
+- /usr/include/PCSC/reader.h$
+- /usr/include/PCSC/winscard.h$
+- /usr/include/PCSC/wintypes.h$
+- /usr/lib$
+- /usr/lib/libpcsclite.la$
+- /usr/lib/libpcsclite.so$
+- /usr/lib/libpcsclite.so.1$
+- /usr/lib/libpcsclite.so.1.0.0$
+- /usr/lib/libpcscspy.la$
+- /usr/lib/libpcscspy.so$
+- /usr/lib/libpcscspy.so.0$
+- /usr/lib/libpcscspy.so.0.0.0$
+- /usr/lib/pkgconfig$
+- /usr/lib/pkgconfig/libpcsclite.pc$
+- /usr/lib64$
+- /usr/lib64/libpcsclite.la$
+- /usr/lib64/libpcsclite.so$
+- /usr/lib64/libpcsclite.so.1$
+- /usr/lib64/libpcsclite.so.1.0.0$
+- /usr/lib64/libpcscspy.la$
+- /usr/lib64/libpcscspy.so$
+- /usr/lib64/libpcscspy.so.0$
+- /usr/lib64/libpcscspy.so.0.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libpcsclite.pc$
+- /usr/sbin$
+- /usr/sbin/pcscd$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/pcsc-lite-1.8.26$
+- /usr/share/doc/pcsc-lite-1.8.26/AUTHORS.bz2$
+- /usr/share/doc/pcsc-lite-1.8.26/ChangeLog.bz2$
+- /usr/share/doc/pcsc-lite-1.8.26/HELP.bz2$
+- /usr/share/doc/pcsc-lite-1.8.26/README.DAEMON.bz2$
+- /usr/share/doc/pcsc-lite-1.8.26/README.bz2$
+- /usr/share/doc/pcsc-lite-1.8.26/README.polkit.bz2$
+- /usr/share/doc/pcsc-lite-1.8.26/SECURITY.bz2$
+- /usr/share/man$
+- /usr/share/man/man5$
+- /usr/share/man/man5/reader.conf.5.bz2$
+- /usr/share/man/man8$
+- /usr/share/man/man8/pcscd.8.bz2$
+- /usr/share/polkit-1$
+- /usr/share/polkit-1/actions$
+- /usr/share/polkit-1/actions/org.debian.pcsc-lite.policy$

@@ -1,0 +1,17 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i x11-themes/sabayon-artwork-plymouth-base-14
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /etc$
+- /etc/plymouth$
+- /etc/plymouth/plymouthd.conf$
+- /usr$
+- /usr/share$
+- /usr/share/plymouth$
+- /usr/share/plymouth/bizcom.png$

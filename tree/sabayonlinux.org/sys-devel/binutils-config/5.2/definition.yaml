@@ -1,0 +1,18 @@
+
+category: "sys-devel"
+name: "binutils-config"
+version: "5.2"
+license: ""
+
+use_flags:
+- "kernel_linux"
+- "abi_x86_64"
+- "split-usr"
+- "big-endian"
+- "amd64"
+- "elibc_glibc"
+- "userland_GNU"
+requires:
+- category: "sys-apps"
+  name: "gentoo-functions"
+  version: ">=0"

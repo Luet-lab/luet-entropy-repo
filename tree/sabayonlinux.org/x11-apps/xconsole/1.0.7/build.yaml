@@ -1,0 +1,25 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i x11-apps/xconsole-1.0.7
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/xconsole$
+- /usr/lib$
+- /usr/share$
+- /usr/share/X11$
+- /usr/share/X11/app-defaults$
+- /usr/share/X11/app-defaults/XConsole$
+- /usr/share/doc$
+- /usr/share/doc/xconsole-1.0.7$
+- /usr/share/doc/xconsole-1.0.7/ChangeLog.bz2$
+- /usr/share/doc/xconsole-1.0.7/README.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/xconsole.1.bz2$

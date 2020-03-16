@@ -1,0 +1,39 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i x11-themes/sabayon-artwork-cursor-14
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/cursors$
+- /usr/share/cursors/xorg-x11$
+- /usr/share/cursors/xorg-x11/entis$
+- /usr/share/cursors/xorg-x11/entis/cursors$
+- /usr/share/cursors/xorg-x11/entis/cursors/X_cursor$
+- /usr/share/cursors/xorg-x11/entis/cursors/based_arrow_down$
+- /usr/share/cursors/xorg-x11/entis/cursors/based_arrow_up$
+- /usr/share/cursors/xorg-x11/entis/cursors/circle$
+- /usr/share/cursors/xorg-x11/entis/cursors/copy$
+- /usr/share/cursors/xorg-x11/entis/cursors/crossed_circle$
+- /usr/share/cursors/xorg-x11/entis/cursors/fleur$
+- /usr/share/cursors/xorg-x11/entis/cursors/hand1$
+- /usr/share/cursors/xorg-x11/entis/cursors/hand2$
+- /usr/share/cursors/xorg-x11/entis/cursors/left_ptr$
+- /usr/share/cursors/xorg-x11/entis/cursors/left_ptr_watch$
+- /usr/share/cursors/xorg-x11/entis/cursors/question_arrow$
+- /usr/share/cursors/xorg-x11/entis/cursors/right_ptr$
+- /usr/share/cursors/xorg-x11/entis/cursors/sb_down_arrow$
+- /usr/share/cursors/xorg-x11/entis/cursors/sb_h_double_arrow$
+- /usr/share/cursors/xorg-x11/entis/cursors/sb_left_arrow$
+- /usr/share/cursors/xorg-x11/entis/cursors/sb_right_arrow$
+- /usr/share/cursors/xorg-x11/entis/cursors/sb_up_arrow$
+- /usr/share/cursors/xorg-x11/entis/cursors/sb_v_double_arrow$
+- /usr/share/cursors/xorg-x11/entis/cursors/top_left_corner$
+- /usr/share/cursors/xorg-x11/entis/cursors/top_right_corner$
+- /usr/share/cursors/xorg-x11/entis/cursors/watch$
+- /usr/share/cursors/xorg-x11/entis/cursors/xterm$

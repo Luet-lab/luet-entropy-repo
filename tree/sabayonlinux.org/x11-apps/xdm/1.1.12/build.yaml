@@ -1,0 +1,53 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i x11-apps/xdm-1.1.12
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /etc$
+- /etc/X11$
+- /etc/X11/xdm$
+- /etc/X11/xdm/Xaccess$
+- /etc/X11/xdm/Xresources$
+- /etc/X11/xdm/Xservers$
+- /etc/X11/xdm/xdm-config$
+- /etc/pam.d$
+- /etc/pam.d/xdm$
+- /lib$
+- /lib/systemd$
+- /lib/systemd/system$
+- /lib/systemd/system/xdm.service$
+- /usr$
+- /usr/bin$
+- /usr/bin/xdm$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/X11$
+- /usr/lib64/X11/xdm$
+- /usr/lib64/X11/xdm/GiveConsole$
+- /usr/lib64/X11/xdm/TakeConsole$
+- /usr/lib64/X11/xdm/Xreset$
+- /usr/lib64/X11/xdm/Xsession$
+- /usr/lib64/X11/xdm/Xsetup_0$
+- /usr/lib64/X11/xdm/Xstartup$
+- /usr/lib64/X11/xdm/Xwilling$
+- /usr/lib64/X11/xdm/chooser$
+- /usr/lib64/X11/xdm/libXdmGreet.so$
+- /usr/lib64/X11/xdm/pixmaps$
+- /usr/lib64/X11/xdm/pixmaps/xorg-bw.xpm$
+- /usr/lib64/X11/xdm/pixmaps/xorg.xpm$
+- /usr/share$
+- /usr/share/X11$
+- /usr/share/X11/app-defaults$
+- /usr/share/X11/app-defaults/Chooser$
+- /usr/share/man$
+- /usr/share/man/man8$
+- /usr/share/man/man8/xdm.8.bz2$
+- /var$
+- /var/lib$
+- /var/lib/xdm$
+- /var/lib/xdm/.keep_x11-apps_xdm-0$

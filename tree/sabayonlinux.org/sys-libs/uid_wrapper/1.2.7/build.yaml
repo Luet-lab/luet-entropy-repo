@@ -1,0 +1,42 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i sys-libs/uid_wrapper-1.2.7
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib/cmake$
+- /usr/lib/cmake/uid_wrapper$
+- /usr/lib/cmake/uid_wrapper/uid_wrapper-config-version.cmake$
+- /usr/lib/cmake/uid_wrapper/uid_wrapper-config.cmake$
+- /usr/lib/libuid_wrapper.so$
+- /usr/lib/libuid_wrapper.so.0$
+- /usr/lib/libuid_wrapper.so.0.0.8$
+- /usr/lib/pkgconfig$
+- /usr/lib/pkgconfig/uid_wrapper.pc$
+- /usr/lib64$
+- /usr/lib64/cmake$
+- /usr/lib64/cmake/uid_wrapper$
+- /usr/lib64/cmake/uid_wrapper/uid_wrapper-config-version.cmake$
+- /usr/lib64/cmake/uid_wrapper/uid_wrapper-config.cmake$
+- /usr/lib64/libuid_wrapper.so$
+- /usr/lib64/libuid_wrapper.so.0$
+- /usr/lib64/libuid_wrapper.so.0.0.8$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/uid_wrapper.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/uid_wrapper-1.2.7$
+- /usr/share/doc/uid_wrapper-1.2.7/AUTHORS.bz2$
+- /usr/share/doc/uid_wrapper-1.2.7/ChangeLog.bz2$
+- /usr/share/doc/uid_wrapper-1.2.7/README.install.bz2$
+- /usr/share/doc/uid_wrapper-1.2.7/README.md.bz2$
+- /usr/share/doc/uid_wrapper-1.2.7/TODO.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/uid_wrapper.1.bz2$
