@@ -10,13 +10,12 @@ requires:
 includes:
 - /usr$
 - /usr/lib$
-- /usr/lib32$
-- /usr/lib32/gstreamer-1.0$
-- /usr/lib32/gstreamer-1.0/libgstasf.so$
-- /usr/lib32/gstreamer-1.0/libgstdvdlpcmdec.so$
-- /usr/lib32/gstreamer-1.0/libgstdvdsub.so$
-- /usr/lib32/gstreamer-1.0/libgstrealmedia.so$
-- /usr/lib32/gstreamer-1.0/libgstxingmux.so$
+- /usr/lib/gstreamer-1.0$
+- /usr/lib/gstreamer-1.0/libgstasf.so$
+- /usr/lib/gstreamer-1.0/libgstdvdlpcmdec.so$
+- /usr/lib/gstreamer-1.0/libgstdvdsub.so$
+- /usr/lib/gstreamer-1.0/libgstrealmedia.so$
+- /usr/lib/gstreamer-1.0/libgstxingmux.so$
 - /usr/lib64$
 - /usr/lib64/gstreamer-1.0$
 - /usr/lib64/gstreamer-1.0/libgstasf.so$

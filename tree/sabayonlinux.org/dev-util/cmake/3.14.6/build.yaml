@@ -2296,8 +2296,12 @@ includes:
 - /usr/share/cmake/Modules/Platform/Android/abi-x86-GNU.cmake$
 - /usr/share/cmake/Modules/Platform/Android/abi-x86_64-Clang.cmake$
 - /usr/share/cmake/Modules/Platform/Android/abi-x86_64-GNU.cmake$
-- /usr/share/cmake/Modules/Platform/Android/ndk-stl-c.*
-- /usr/share/cmake/Modules/Platform/Android/ndk-stl-gabi.*
+- /usr/share/cmake/Modules/Platform/Android/ndk-stl-c[+][+].cmake$
+- /usr/share/cmake/Modules/Platform/Android/ndk-stl-c[+][+]_shared.cmake$
+- /usr/share/cmake/Modules/Platform/Android/ndk-stl-c[+][+]_static.cmake$
+- /usr/share/cmake/Modules/Platform/Android/ndk-stl-gabi[+][+].cmake$
+- /usr/share/cmake/Modules/Platform/Android/ndk-stl-gabi[+][+]_shared.cmake$
+- /usr/share/cmake/Modules/Platform/Android/ndk-stl-gabi[+][+]_static.cmake$
 - /usr/share/cmake/Modules/Platform/Android/ndk-stl-gnustl.cmake$
 - /usr/share/cmake/Modules/Platform/Android/ndk-stl-gnustl_shared.cmake$
 - /usr/share/cmake/Modules/Platform/Android/ndk-stl-gnustl_static.cmake$

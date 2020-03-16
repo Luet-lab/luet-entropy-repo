@@ -14,7 +14,9 @@ includes:
 - /usr/bin/enchant-lsmod-2$
 - /usr/include$
 - /usr/include/enchant-2$
-- /usr/include/enchant-2/enchant.*
+- /usr/include/enchant-2/enchant[+][+].h$
+- /usr/include/enchant-2/enchant-provider.h$
+- /usr/include/enchant-2/enchant.h$
 - /usr/lib$
 - /usr/lib64$
 - /usr/lib64/enchant-2$

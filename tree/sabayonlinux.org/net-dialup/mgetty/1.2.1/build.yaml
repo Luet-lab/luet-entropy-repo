@@ -9,7 +9,11 @@ requires:
   version: "9999"
 includes:
 - /etc$
-- /etc/mgetty.*
+- /etc/mgetty[+]sendfax$
+- /etc/mgetty[+]sendfax/dialin.config$
+- /etc/mgetty[+]sendfax/login.config$
+- /etc/mgetty[+]sendfax/mgetty.config$
+- /etc/mgetty[+]sendfax/voice.conf$
 - /sbin$
 - /sbin/mgetty$
 - /usr$
@@ -41,7 +45,7 @@ includes:
 - /usr/bin/voctopvf$
 - /usr/bin/wavtopvf$
 - /usr/lib$
-- /usr/lib/mgetty.*
+- /usr/lib/mgetty[+]sendfax$
 - /usr/sbin$
 - /usr/sbin/callback$
 - /usr/sbin/mgetty$

@@ -10,7 +10,7 @@ requires:
 includes:
 - /usr$
 - /usr/include$
-- /usr/include/crypto.*$
+- /usr/include/crypto[+][+]$
 - /usr/include/cryptopp$
 - /usr/include/cryptopp/3way.h$
 - /usr/include/cryptopp/adler32.h$
@@ -159,7 +159,9 @@ includes:
 - /usr/include/cryptopp/zlib.h$
 - /usr/lib$
 - /usr/lib64$
-- /usr/lib64/libcrypto.*
+- /usr/lib64/libcrypto[+][+].so$
+- /usr/lib64/libcrypto[+][+].so.5.6$
+- /usr/lib64/libcrypto[+][+].so.5.6.5$
 - /usr/lib64/libcryptopp.so$
 - /usr/lib64/libcryptopp.so.5.6$
 - /usr/lib64/libcryptopp.so.5.6.5$

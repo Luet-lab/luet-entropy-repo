@@ -27,7 +27,7 @@ includes:
 - /opt/cuda/bin/cuda-gdbserver$
 - /opt/cuda/bin/cuda-memcheck$
 - /opt/cuda/bin/cuda-uninstaller$
-- /opt/cuda/bin/cudafe.*
+- /opt/cuda/bin/cudafe[+][+]$
 - /opt/cuda/bin/cuobjdump$
 - /opt/cuda/bin/fatbinary$
 - /opt/cuda/bin/nsight$
@@ -4029,7 +4029,7 @@ includes:
 - /opt/cuda/nsight-systems-2019.5.2/host-linux-x64/libprotobuf-shared.so$
 - /opt/cuda/nsight-systems-2019.5.2/host-linux-x64/libssl.so$
 - /opt/cuda/nsight-systems-2019.5.2/host-linux-x64/libssl.so.1.0.0$
-- /opt/cuda/nsight-systems-2019.5.2/host-linux-x64/libstdc.*
+- /opt/cuda/nsight-systems-2019.5.2/host-linux-x64/libstdc[+][+].so.6$
 - /opt/cuda/nsight-systems-2019.5.2/host-linux-x64/nsight-sys$
 - /opt/cuda/nsight-systems-2019.5.2/host-linux-x64/nsight-sys.bin$
 - /opt/cuda/nsight-systems-2019.5.2/host-linux-x64/nsight-sys.desktop.template$

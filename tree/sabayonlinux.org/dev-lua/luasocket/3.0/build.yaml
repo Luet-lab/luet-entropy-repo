@@ -10,15 +10,14 @@ requires:
 includes:
 - /usr$
 - /usr/lib$
-- /usr/lib32$
-- /usr/lib32/lua$
-- /usr/lib32/lua/5.1$
-- /usr/lib32/lua/5.1/mime$
-- /usr/lib32/lua/5.1/mime/core.so$
-- /usr/lib32/lua/5.1/socket$
-- /usr/lib32/lua/5.1/socket/core.so$
-- /usr/lib32/lua/5.1/socket/serial.so$
-- /usr/lib32/lua/5.1/socket/unix.so$
+- /usr/lib/lua$
+- /usr/lib/lua/5.1$
+- /usr/lib/lua/5.1/mime$
+- /usr/lib/lua/5.1/mime/core.so$
+- /usr/lib/lua/5.1/socket$
+- /usr/lib/lua/5.1/socket/core.so$
+- /usr/lib/lua/5.1/socket/serial.so$
+- /usr/lib/lua/5.1/socket/unix.so$
 - /usr/lib64$
 - /usr/lib64/lua$
 - /usr/lib64/lua/5.1$

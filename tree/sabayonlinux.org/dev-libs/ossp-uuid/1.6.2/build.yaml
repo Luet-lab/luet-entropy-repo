@@ -14,12 +14,14 @@ includes:
 - /usr/bin/uuid-config$
 - /usr/include$
 - /usr/include/ossp$
-- /usr/include/ossp/uuid.*
+- /usr/include/ossp/uuid[+][+].hh$
 - /usr/include/ossp/uuid.h$
 - /usr/include/ossp/uuid_dce.h$
 - /usr/lib$
 - /usr/lib64$
-- /usr/lib64/libossp-uuid.*
+- /usr/lib64/libossp-uuid[+][+].so$
+- /usr/lib64/libossp-uuid[+][+].so.16$
+- /usr/lib64/libossp-uuid[+][+].so.16.0.22$
 - /usr/lib64/libossp-uuid.so$
 - /usr/lib64/libossp-uuid.so.16$
 - /usr/lib64/libossp-uuid.so.16.0.22$
@@ -61,4 +63,5 @@ includes:
 - /usr/share/man/man1/uuid.1.bz2$
 - /usr/share/man/man3$
 - /usr/share/man/man3/OSSP::uuid.3.bz2$
-- /usr/share/man/man3/uuid.*
+- /usr/share/man/man3/uuid[+][+].3ossp.bz2$
+- /usr/share/man/man3/uuid.3ossp.bz2$

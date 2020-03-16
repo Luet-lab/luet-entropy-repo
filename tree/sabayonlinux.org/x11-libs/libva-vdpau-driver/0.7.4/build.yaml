@@ -10,13 +10,12 @@ requires:
 includes:
 - /usr$
 - /usr/lib$
-- /usr/lib32$
-- /usr/lib32/va$
-- /usr/lib32/va/drivers$
-- /usr/lib32/va/drivers/nvidia_drv_video.so$
-- /usr/lib32/va/drivers/s3g_drv_video.so$
-- /usr/lib32/va/drivers/vdpau_drv_video.la$
-- /usr/lib32/va/drivers/vdpau_drv_video.so$
+- /usr/lib/va$
+- /usr/lib/va/drivers$
+- /usr/lib/va/drivers/nvidia_drv_video.so$
+- /usr/lib/va/drivers/s3g_drv_video.so$
+- /usr/lib/va/drivers/vdpau_drv_video.la$
+- /usr/lib/va/drivers/vdpau_drv_video.so$
 - /usr/lib64$
 - /usr/lib64/va$
 - /usr/lib64/va/drivers$

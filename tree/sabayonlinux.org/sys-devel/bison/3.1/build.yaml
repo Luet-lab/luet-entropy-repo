@@ -18,7 +18,11 @@ includes:
 - /usr/share/aclocal/bison-i18n.m4$
 - /usr/share/bison$
 - /usr/share/bison/bison.m4$
-- /usr/share/bison/c.*
+- /usr/share/bison/c[+][+]-skel.m4$
+- /usr/share/bison/c[+][+].m4$
+- /usr/share/bison/c-like.m4$
+- /usr/share/bison/c-skel.m4$
+- /usr/share/bison/c.m4$
 - /usr/share/bison/glr.c$
 - /usr/share/bison/glr.cc$
 - /usr/share/bison/java-skel.m4$

@@ -1,7 +1,7 @@
 
 steps:
 - source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/portaudio-19.06.00-r1
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/portaudio-19.06.00-r2
 unpack: true
 requires:
 - category: "layer"
@@ -34,16 +34,15 @@ includes:
 - /usr/include/portaudiocpp/SystemDeviceIterator.hxx$
 - /usr/include/portaudiocpp/SystemHostApiIterator.hxx$
 - /usr/lib$
-- /usr/lib32$
-- /usr/lib32/libportaudio.so$
-- /usr/lib32/libportaudio.so.2$
-- /usr/lib32/libportaudio.so.2.0.0$
-- /usr/lib32/libportaudiocpp.so$
-- /usr/lib32/libportaudiocpp.so.0$
-- /usr/lib32/libportaudiocpp.so.0.0.12$
-- /usr/lib32/pkgconfig$
-- /usr/lib32/pkgconfig/portaudio-2.0.pc$
-- /usr/lib32/pkgconfig/portaudiocpp.pc$
+- /usr/lib/libportaudio.so$
+- /usr/lib/libportaudio.so.2$
+- /usr/lib/libportaudio.so.2.0.0$
+- /usr/lib/libportaudiocpp.so$
+- /usr/lib/libportaudiocpp.so.0$
+- /usr/lib/libportaudiocpp.so.0.0.12$
+- /usr/lib/pkgconfig$
+- /usr/lib/pkgconfig/portaudio-2.0.pc$
+- /usr/lib/pkgconfig/portaudiocpp.pc$
 - /usr/lib64$
 - /usr/lib64/libportaudio.so$
 - /usr/lib64/libportaudio.so.2$
@@ -56,5 +55,5 @@ includes:
 - /usr/lib64/pkgconfig/portaudiocpp.pc$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/portaudio-19.06.00-r1$
-- /usr/share/doc/portaudio-19.06.00-r1/README.txt.bz2$
+- /usr/share/doc/portaudio-19.06.00-r2$
+- /usr/share/doc/portaudio-19.06.00-r2/README.txt.bz2$

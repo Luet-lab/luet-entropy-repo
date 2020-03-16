@@ -10,16 +10,15 @@ requires:
 includes:
 - /usr$
 - /usr/lib$
-- /usr/lib32$
-- /usr/lib32/libffi$
-- /usr/lib32/libffi.so$
-- /usr/lib32/libffi.so.7$
-- /usr/lib32/libffi.so.7.1.0$
-- /usr/lib32/libffi/include$
-- /usr/lib32/libffi/include/ffi.h$
-- /usr/lib32/libffi/include/ffitarget.h$
-- /usr/lib32/pkgconfig$
-- /usr/lib32/pkgconfig/libffi.pc$
+- /usr/lib/libffi$
+- /usr/lib/libffi.so$
+- /usr/lib/libffi.so.7$
+- /usr/lib/libffi.so.7.1.0$
+- /usr/lib/libffi/include$
+- /usr/lib/libffi/include/ffi.h$
+- /usr/lib/libffi/include/ffitarget.h$
+- /usr/lib/pkgconfig$
+- /usr/lib/pkgconfig/libffi.pc$
 - /usr/lib64$
 - /usr/lib64/libffi$
 - /usr/lib64/libffi.so$

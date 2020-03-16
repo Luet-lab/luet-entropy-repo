@@ -10,11 +10,10 @@ requires:
 includes:
 - /usr$
 - /usr/lib$
-- /usr/lib32$
-- /usr/lib32/gtk-2.0$
-- /usr/lib32/gtk-2.0/2.10.0$
-- /usr/lib32/gtk-2.0/2.10.0/engines$
-- /usr/lib32/gtk-2.0/2.10.0/engines/libadwaita.so$
+- /usr/lib/gtk-2.0$
+- /usr/lib/gtk-2.0/2.10.0$
+- /usr/lib/gtk-2.0/2.10.0/engines$
+- /usr/lib/gtk-2.0/2.10.0/engines/libadwaita.so$
 - /usr/lib64$
 - /usr/lib64/gtk-2.0$
 - /usr/lib64/gtk-2.0/2.10.0$

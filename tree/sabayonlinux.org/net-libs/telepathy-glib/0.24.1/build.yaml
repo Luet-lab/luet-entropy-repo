@@ -1,7 +1,7 @@
 
 steps:
 - source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i net-libs/telepathy-glib-0.24.1
+- source /etc/profile && ACCEPT_LICENSE=* equo i net-libs/telepathy-glib-0.24.1-r1
 unpack: true
 requires:
 - category: "layer"
@@ -188,11 +188,11 @@ includes:
 - /usr/lib64/pkgconfig/telepathy-glib.pc$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/telepathy-glib-0.24.1$
-- /usr/share/doc/telepathy-glib-0.24.1/AUTHORS.bz2$
-- /usr/share/doc/telepathy-glib-0.24.1/ChangeLog.bz2$
-- /usr/share/doc/telepathy-glib-0.24.1/NEWS.bz2$
-- /usr/share/doc/telepathy-glib-0.24.1/README.bz2$
+- /usr/share/doc/telepathy-glib-0.24.1-r1$
+- /usr/share/doc/telepathy-glib-0.24.1-r1/AUTHORS.bz2$
+- /usr/share/doc/telepathy-glib-0.24.1-r1/ChangeLog.bz2$
+- /usr/share/doc/telepathy-glib-0.24.1-r1/NEWS.bz2$
+- /usr/share/doc/telepathy-glib-0.24.1-r1/README.bz2$
 - /usr/share/gir-1.0$
 - /usr/share/gir-1.0/TelepathyGLib-0.12.gir$
 - /usr/share/gtk-doc$

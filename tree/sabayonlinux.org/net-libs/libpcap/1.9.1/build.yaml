@@ -1,7 +1,7 @@
 
 steps:
 - source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i net-libs/libpcap-1.9.1
+- source /etc/profile && ACCEPT_LICENSE=* equo i net-libs/libpcap-1.9.1-r3
 unpack: true
 requires:
 - category: "layer"
@@ -32,12 +32,11 @@ includes:
 - /usr/include/pcap/usb.h$
 - /usr/include/pcap/vlan.h$
 - /usr/lib$
-- /usr/lib32$
-- /usr/lib32/libpcap.so$
-- /usr/lib32/libpcap.so.1$
-- /usr/lib32/libpcap.so.1.9.1$
-- /usr/lib32/pkgconfig$
-- /usr/lib32/pkgconfig/libpcap.pc$
+- /usr/lib/libpcap.so$
+- /usr/lib/libpcap.so.1$
+- /usr/lib/libpcap.so.1.9.1$
+- /usr/lib/pkgconfig$
+- /usr/lib/pkgconfig/libpcap.pc$
 - /usr/lib64$
 - /usr/lib64/libpcap.so$
 - /usr/lib64/libpcap.so.1$
@@ -46,21 +45,21 @@ includes:
 - /usr/lib64/pkgconfig/libpcap.pc$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/libpcap-1.9.1$
-- /usr/share/doc/libpcap-1.9.1/CHANGES.bz2$
-- /usr/share/doc/libpcap-1.9.1/CREDITS.bz2$
-- /usr/share/doc/libpcap-1.9.1/README.Win32.md$
-- /usr/share/doc/libpcap-1.9.1/README.aix.bz2$
-- /usr/share/doc/libpcap-1.9.1/README.dag.bz2$
-- /usr/share/doc/libpcap-1.9.1/README.hpux.bz2$
-- /usr/share/doc/libpcap-1.9.1/README.linux.md.bz2$
-- /usr/share/doc/libpcap-1.9.1/README.macos.bz2$
-- /usr/share/doc/libpcap-1.9.1/README.md.bz2$
-- /usr/share/doc/libpcap-1.9.1/README.septel.bz2$
-- /usr/share/doc/libpcap-1.9.1/README.sita.bz2$
-- /usr/share/doc/libpcap-1.9.1/README.tru64.bz2$
-- /usr/share/doc/libpcap-1.9.1/TODO.bz2$
-- /usr/share/doc/libpcap-1.9.1/VERSION$
+- /usr/share/doc/libpcap-1.9.1-r3$
+- /usr/share/doc/libpcap-1.9.1-r3/CHANGES.bz2$
+- /usr/share/doc/libpcap-1.9.1-r3/CREDITS.bz2$
+- /usr/share/doc/libpcap-1.9.1-r3/README.Win32.md$
+- /usr/share/doc/libpcap-1.9.1-r3/README.aix.bz2$
+- /usr/share/doc/libpcap-1.9.1-r3/README.dag.bz2$
+- /usr/share/doc/libpcap-1.9.1-r3/README.hpux.bz2$
+- /usr/share/doc/libpcap-1.9.1-r3/README.linux.md.bz2$
+- /usr/share/doc/libpcap-1.9.1-r3/README.macos.bz2$
+- /usr/share/doc/libpcap-1.9.1-r3/README.md.bz2$
+- /usr/share/doc/libpcap-1.9.1-r3/README.septel.bz2$
+- /usr/share/doc/libpcap-1.9.1-r3/README.sita.bz2$
+- /usr/share/doc/libpcap-1.9.1-r3/README.tru64.bz2$
+- /usr/share/doc/libpcap-1.9.1-r3/TODO.bz2$
+- /usr/share/doc/libpcap-1.9.1-r3/VERSION$
 - /usr/share/man$
 - /usr/share/man/man1$
 - /usr/share/man/man1/pcap-config.1.bz2$

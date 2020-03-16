@@ -10,10 +10,9 @@ requires:
 includes:
 - /usr$
 - /usr/lib$
-- /usr/lib32$
-- /usr/lib32/lua$
-- /usr/lib32/lua/5.1$
-- /usr/lib32/lua/5.1/lxp.so$
+- /usr/lib/lua$
+- /usr/lib/lua/5.1$
+- /usr/lib/lua/5.1/lxp.so$
 - /usr/lib64$
 - /usr/lib64/lua$
 - /usr/lib64/lua/5.1$

@@ -1,7 +1,7 @@
 
 steps:
 - source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i sci-libs/parmetis-4.0.3
+- source /etc/profile && ACCEPT_LICENSE=* equo i sci-libs/parmetis-4.0.3-r1
 unpack: true
 requires:
 - category: "layer"
@@ -18,5 +18,5 @@ includes:
 - /usr/lib64/pkgconfig/metis.pc$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/parmetis-4.0.3$
-- /usr/share/doc/parmetis-4.0.3/Changelog.metis}.bz2$
+- /usr/share/doc/parmetis-4.0.3-r1$
+- /usr/share/doc/parmetis-4.0.3-r1/Changelog.metis}.bz2$

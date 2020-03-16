@@ -1,7 +1,7 @@
 
 steps:
 - source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/libffado-2.4.1
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/libffado-2.4.1-r1
 unpack: true
 requires:
 - category: "layer"
@@ -24,14 +24,13 @@ includes:
 - /usr/include/libffado$
 - /usr/include/libffado/ffado.h$
 - /usr/lib$
-- /usr/lib32$
-- /usr/lib32/libffado$
-- /usr/lib32/libffado.so$
-- /usr/lib32/libffado.so.2$
-- /usr/lib32/libffado.so.2.4.1$
-- /usr/lib32/libffado/static_info.txt$
-- /usr/lib32/pkgconfig$
-- /usr/lib32/pkgconfig/libffado.pc$
+- /usr/lib/libffado$
+- /usr/lib/libffado.so$
+- /usr/lib/libffado.so.2$
+- /usr/lib/libffado.so.2.4.1$
+- /usr/lib/libffado/static_info.txt$
+- /usr/lib/pkgconfig$
+- /usr/lib/pkgconfig/libffado.pc$
 - /usr/lib64$
 - /usr/lib64/libffado$
 - /usr/lib64/libffado.so$
@@ -45,10 +44,10 @@ includes:
 - /usr/share/dbus-1/services$
 - /usr/share/dbus-1/services/org.ffado.Control.service$
 - /usr/share/doc$
-- /usr/share/doc/libffado-2.4.1$
-- /usr/share/doc/libffado-2.4.1/AUTHORS.bz2$
-- /usr/share/doc/libffado-2.4.1/ChangeLog$
-- /usr/share/doc/libffado-2.4.1/README.bz2$
+- /usr/share/doc/libffado-2.4.1-r1$
+- /usr/share/doc/libffado-2.4.1-r1/AUTHORS.bz2$
+- /usr/share/doc/libffado-2.4.1-r1/ChangeLog$
+- /usr/share/doc/libffado-2.4.1-r1/README.bz2$
 - /usr/share/libffado$
 - /usr/share/libffado/configuration$
 - /usr/share/libffado/fw410.xml$

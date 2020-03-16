@@ -43,7 +43,11 @@ includes:
 - /usr/lib64/python2.7/site-packages/paste/deploy/paster_templates.pyc$
 - /usr/lib64/python2.7/site-packages/paste/deploy/paster_templates.pyo$
 - /usr/lib64/python2.7/site-packages/paste/deploy/paster_templates/paste_deploy$
-- /usr/lib64/python2.7/site-packages/paste/deploy/paster_templates/paste_deploy/.*
+- /usr/lib64/python2.7/site-packages/paste/deploy/paster_templates/paste_deploy/[+]package[+]$
+- /usr/lib64/python2.7/site-packages/paste/deploy/paster_templates/paste_deploy/[+]package[+]/sampleapp.py_tmpl$
+- /usr/lib64/python2.7/site-packages/paste/deploy/paster_templates/paste_deploy/[+]package[+]/wsgiapp.py_tmpl$
+- /usr/lib64/python2.7/site-packages/paste/deploy/paster_templates/paste_deploy/docs$
+- /usr/lib64/python2.7/site-packages/paste/deploy/paster_templates/paste_deploy/docs/devel_config.ini_tmpl$
 - /usr/lib64/python2.7/site-packages/paste/deploy/util.py$
 - /usr/lib64/python2.7/site-packages/paste/deploy/util.pyc$
 - /usr/lib64/python2.7/site-packages/paste/deploy/util.pyo$

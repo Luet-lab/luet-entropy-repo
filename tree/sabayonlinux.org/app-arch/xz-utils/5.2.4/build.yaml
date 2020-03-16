@@ -1,7 +1,7 @@
 
 steps:
 - source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i app-arch/xz-utils-5.2.4-r2
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-arch/xz-utils-5.2.4-r3
 unpack: true
 requires:
 - category: "layer"
@@ -54,38 +54,37 @@ includes:
 - /usr/include/lzma/version.h$
 - /usr/include/lzma/vli.h$
 - /usr/lib$
-- /usr/lib32$
-- /usr/lib32/liblzma.so$
-- /usr/lib32/liblzma.so.5$
-- /usr/lib32/liblzma.so.5.2.4$
-- /usr/lib32/pkgconfig$
-- /usr/lib32/pkgconfig/liblzma.pc$
+- /usr/lib/liblzma.so$
+- /usr/lib/liblzma.so.5$
+- /usr/lib/liblzma.so.5.2.4$
+- /usr/lib/pkgconfig$
+- /usr/lib/pkgconfig/liblzma.pc$
 - /usr/lib64$
 - /usr/lib64/liblzma.so$
 - /usr/lib64/pkgconfig$
 - /usr/lib64/pkgconfig/liblzma.pc$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/xz-utils-5.2.4-r2$
-- /usr/share/doc/xz-utils-5.2.4-r2/AUTHORS.bz2$
-- /usr/share/doc/xz-utils-5.2.4-r2/NEWS.bz2$
-- /usr/share/doc/xz-utils-5.2.4-r2/README.bz2$
-- /usr/share/doc/xz-utils-5.2.4-r2/THANKS.bz2$
-- /usr/share/doc/xz-utils-5.2.4-r2/TODO.bz2$
-- /usr/share/doc/xz-utils-5.2.4-r2/examples$
-- /usr/share/doc/xz-utils-5.2.4-r2/examples/00_README.txt.bz2$
-- /usr/share/doc/xz-utils-5.2.4-r2/examples/01_compress_easy.c.bz2$
-- /usr/share/doc/xz-utils-5.2.4-r2/examples/02_decompress.c.bz2$
-- /usr/share/doc/xz-utils-5.2.4-r2/examples/03_compress_custom.c.bz2$
-- /usr/share/doc/xz-utils-5.2.4-r2/examples/04_compress_easy_mt.c.bz2$
-- /usr/share/doc/xz-utils-5.2.4-r2/examples/Makefile.bz2$
-- /usr/share/doc/xz-utils-5.2.4-r2/examples_old$
-- /usr/share/doc/xz-utils-5.2.4-r2/examples_old/xz_pipe_comp.c.bz2$
-- /usr/share/doc/xz-utils-5.2.4-r2/examples_old/xz_pipe_decomp.c.bz2$
-- /usr/share/doc/xz-utils-5.2.4-r2/faq.txt.bz2$
-- /usr/share/doc/xz-utils-5.2.4-r2/history.txt.bz2$
-- /usr/share/doc/xz-utils-5.2.4-r2/lzma-file-format.txt.bz2$
-- /usr/share/doc/xz-utils-5.2.4-r2/xz-file-format.txt.bz2$
+- /usr/share/doc/xz-utils-5.2.4-r3$
+- /usr/share/doc/xz-utils-5.2.4-r3/AUTHORS.bz2$
+- /usr/share/doc/xz-utils-5.2.4-r3/NEWS.bz2$
+- /usr/share/doc/xz-utils-5.2.4-r3/README.bz2$
+- /usr/share/doc/xz-utils-5.2.4-r3/THANKS.bz2$
+- /usr/share/doc/xz-utils-5.2.4-r3/TODO.bz2$
+- /usr/share/doc/xz-utils-5.2.4-r3/examples$
+- /usr/share/doc/xz-utils-5.2.4-r3/examples/00_README.txt.bz2$
+- /usr/share/doc/xz-utils-5.2.4-r3/examples/01_compress_easy.c.bz2$
+- /usr/share/doc/xz-utils-5.2.4-r3/examples/02_decompress.c.bz2$
+- /usr/share/doc/xz-utils-5.2.4-r3/examples/03_compress_custom.c.bz2$
+- /usr/share/doc/xz-utils-5.2.4-r3/examples/04_compress_easy_mt.c.bz2$
+- /usr/share/doc/xz-utils-5.2.4-r3/examples/Makefile.bz2$
+- /usr/share/doc/xz-utils-5.2.4-r3/examples_old$
+- /usr/share/doc/xz-utils-5.2.4-r3/examples_old/xz_pipe_comp.c.bz2$
+- /usr/share/doc/xz-utils-5.2.4-r3/examples_old/xz_pipe_decomp.c.bz2$
+- /usr/share/doc/xz-utils-5.2.4-r3/faq.txt.bz2$
+- /usr/share/doc/xz-utils-5.2.4-r3/history.txt.bz2$
+- /usr/share/doc/xz-utils-5.2.4-r3/lzma-file-format.txt.bz2$
+- /usr/share/doc/xz-utils-5.2.4-r3/xz-file-format.txt.bz2$
 - /usr/share/locale$
 - /usr/share/locale/cs$
 - /usr/share/locale/cs/LC_MESSAGES$

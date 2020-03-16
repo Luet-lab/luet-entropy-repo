@@ -1142,7 +1142,7 @@ includes:
 - /usr/share/zsh/5.6.2/functions/Misc/zmathfuncdef$
 - /usr/share/zsh/5.6.2/functions/Misc/zmv$
 - /usr/share/zsh/5.6.2/functions/Misc/zrecompile$
-- /usr/share/zsh/5.6.2/functions/Misc/zstyle.*
+- /usr/share/zsh/5.6.2/functions/Misc/zstyle[+]$
 - /usr/share/zsh/5.6.2/functions/Misc/ztodo$
 - /usr/share/zsh/5.6.2/functions/Newuser$
 - /usr/share/zsh/5.6.2/functions/Newuser/zsh-newuser-install$
@@ -1289,7 +1289,7 @@ includes:
 - /usr/share/zsh/5.6.2/functions/Zle/insert-files$
 - /usr/share/zsh/5.6.2/functions/Zle/insert-unicode-char$
 - /usr/share/zsh/5.6.2/functions/Zle/keeper$
-- /usr/share/zsh/5.6.2/functions/Zle/keymap.*
+- /usr/share/zsh/5.6.2/functions/Zle/keymap[+]widget$
 - /usr/share/zsh/5.6.2/functions/Zle/kill-word-match$
 - /usr/share/zsh/5.6.2/functions/Zle/match-word-context$
 - /usr/share/zsh/5.6.2/functions/Zle/match-words-by-style$

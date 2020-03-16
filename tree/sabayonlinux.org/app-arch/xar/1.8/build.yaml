@@ -1,7 +1,7 @@
 
 steps:
 - source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i app-arch/xar-1.8-r2
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-arch/xar-1.8-r3
 unpack: true
 requires:
 - category: "layer"
@@ -15,17 +15,16 @@ includes:
 - /usr/include/xar$
 - /usr/include/xar/xar.h$
 - /usr/lib$
-- /usr/lib32$
-- /usr/lib32/libxar.so$
-- /usr/lib32/libxar.so.1$
+- /usr/lib/libxar.so$
+- /usr/lib/libxar.so.1$
 - /usr/lib64$
 - /usr/lib64/libxar.so$
 - /usr/lib64/libxar.so.1$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/xar-1.8-r2$
-- /usr/share/doc/xar-1.8-r2/ChangeLog.bz2$
-- /usr/share/doc/xar-1.8-r2/TODO$
+- /usr/share/doc/xar-1.8-r3$
+- /usr/share/doc/xar-1.8-r3/ChangeLog.bz2$
+- /usr/share/doc/xar-1.8-r3/TODO$
 - /usr/share/man$
 - /usr/share/man/man1$
 - /usr/share/man/man1/xar.1.bz2$

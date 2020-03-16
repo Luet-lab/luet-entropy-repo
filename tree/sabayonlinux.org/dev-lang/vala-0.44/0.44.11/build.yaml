@@ -191,7 +191,14 @@ includes:
 - /usr/share/vala-0.44/vapi/gstreamer-video-1.0.vapi$
 - /usr/share/vala-0.44/vapi/gstreamer-webrtc-1.0.deps$
 - /usr/share/vala-0.44/vapi/gstreamer-webrtc-1.0.vapi$
-- /usr/share/vala-0.44/vapi/gtk.*
+- /usr/share/vala-0.44/vapi/gtk[+]-2.0.deps$
+- /usr/share/vala-0.44/vapi/gtk[+]-2.0.vapi$
+- /usr/share/vala-0.44/vapi/gtk[+]-3.0.deps$
+- /usr/share/vala-0.44/vapi/gtk[+]-3.0.vapi$
+- /usr/share/vala-0.44/vapi/gtk[+]-unix-print-2.0.deps$
+- /usr/share/vala-0.44/vapi/gtk[+]-unix-print-2.0.vapi$
+- /usr/share/vala-0.44/vapi/gtk[+]-unix-print-3.0.deps$
+- /usr/share/vala-0.44/vapi/gtk[+]-unix-print-3.0.vapi$
 - /usr/share/vala-0.44/vapi/gtk4-unix-print.deps$
 - /usr/share/vala-0.44/vapi/gtk4-unix-print.vapi$
 - /usr/share/vala-0.44/vapi/gtk4.deps$

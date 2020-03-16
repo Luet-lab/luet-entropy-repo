@@ -18,7 +18,7 @@ includes:
 - /usr/bin$
 - /usr/bin/aggregate_profile.pl$
 - /usr/bin/mpiCC$
-- /usr/bin/mpic++$
+- /usr/bin/mpic[+][+]$
 - /usr/bin/mpicc$
 - /usr/bin/mpicxx$
 - /usr/bin/mpiexec$
@@ -454,7 +454,7 @@ includes:
 - /usr/share/man$
 - /usr/share/man/man1$
 - /usr/share/man/man1/mpiCC.1.bz2$
-- /usr/share/man/man1/mpic++.1.bz2$
+- /usr/share/man/man1/mpic[+][+].1.bz2$
 - /usr/share/man/man1/mpicc.1.bz2$
 - /usr/share/man/man1/mpicxx.1.bz2$
 - /usr/share/man/man1/mpiexec.1.bz2$
@@ -986,7 +986,7 @@ includes:
 - /usr/share/openmpi/help-rmaps_rank_file.txt$
 - /usr/share/openmpi/help-state-base.txt$
 - /usr/share/openmpi/mpiCC-wrapper-data.txt$
-- /usr/share/openmpi/mpic++-wrapper-data.txt$
+- /usr/share/openmpi/mpic[+][+]-wrapper-data.txt$
 - /usr/share/openmpi/mpicc-wrapper-data.txt$
 - /usr/share/openmpi/mpicxx-wrapper-data.txt$
 - /usr/share/openmpi/mpif77-wrapper-data.txt$

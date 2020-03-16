@@ -1727,7 +1727,8 @@ includes:
 - /usr/share/dia/ui/toolbox-ui.xml$
 - /usr/share/dia/xslt$
 - /usr/share/dia/xslt/dia-uml.xsl$
-- /usr/share/dia/xslt/dia-uml2c.*
+- /usr/share/dia/xslt/dia-uml2c[+][+].xsl$
+- /usr/share/dia/xslt/dia-uml2componentlist.xsl$
 - /usr/share/dia/xslt/dia-uml2idl.xsl$
 - /usr/share/dia/xslt/dia-uml2java.xsl$
 - /usr/share/dia/xslt/dia-uml2owl.xsl$

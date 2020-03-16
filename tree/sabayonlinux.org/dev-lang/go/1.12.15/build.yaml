@@ -5087,7 +5087,8 @@ includes:
 - /usr/lib/go/src/cmd/go/testdata/mod/rsc.io_badmod_v1.0.0.txt$
 - /usr/lib/go/src/cmd/go/testdata/mod/rsc.io_badzip_v1.0.0.txt$
 - /usr/lib/go/src/cmd/go/testdata/mod/rsc.io_breaker_v1.0.0.txt$
-- /usr/lib/go/src/cmd/go/testdata/mod/rsc.io_breaker_v2.0.0.*
+- /usr/lib/go/src/cmd/go/testdata/mod/rsc.io_breaker_v2.0.0[+]incompatible.txt$
+- /usr/lib/go/src/cmd/go/testdata/mod/rsc.io_breaker_v2.0.0.txt$
 - /usr/lib/go/src/cmd/go/testdata/mod/rsc.io_fortune_v1.0.0.txt$
 - /usr/lib/go/src/cmd/go/testdata/mod/rsc.io_fortune_v2_v2.0.0.txt$
 - /usr/lib/go/src/cmd/go/testdata/mod/rsc.io_quote_v0.0.0-20180214005133-e7a685a342c0.txt$
