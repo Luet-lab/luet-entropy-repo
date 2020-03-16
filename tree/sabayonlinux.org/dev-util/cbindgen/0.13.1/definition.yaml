@@ -1,0 +1,15 @@
+
+category: "dev-util"
+name: "cbindgen"
+version: "0.13.1"
+license: ""
+
+use_flags:
+- "big-endian"
+- "split-usr"
+- "amd64"
+- "elibc_glibc"
+- "abi_x86_64"
+- "userland_GNU"
+- "kernel_linux"
+- "-debug"

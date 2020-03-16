@@ -1,0 +1,41 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/sord-0.16.4
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/sord_validate$
+- /usr/bin/sordi$
+- /usr/include$
+- /usr/include/sord-0$
+- /usr/include/sord-0/sord$
+- /usr/include/sord-0/sord/sord.h$
+- /usr/include/sord-0/sord/sordmm.hpp$
+- /usr/lib$
+- /usr/lib/libsord-0.so$
+- /usr/lib/libsord-0.so.0$
+- /usr/lib/libsord-0.so.0.16.4$
+- /usr/lib/pkgconfig$
+- /usr/lib/pkgconfig/sord-0.pc$
+- /usr/lib64$
+- /usr/lib64/libsord-0.so$
+- /usr/lib64/libsord-0.so.0$
+- /usr/lib64/libsord-0.so.0.16.4$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/sord-0.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/sord-0.16.4$
+- /usr/share/doc/sord-0.16.4/AUTHORS$
+- /usr/share/doc/sord-0.16.4/NEWS.bz2$
+- /usr/share/doc/sord-0.16.4/README.md.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/sord_validate.1.bz2$
+- /usr/share/man/man1/sordi.1.bz2$

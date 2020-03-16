@@ -1,0 +1,23 @@
+
+category: "dev-util"
+name: "source-highlight"
+version: "3.1.9"
+license: ""
+
+use_flags:
+- "big-endian"
+- "-static-libs"
+- "amd64"
+- "split-usr"
+- "elibc_glibc"
+- "abi_x86_64"
+- "userland_GNU"
+- "kernel_linux"
+- "-doc"
+requires:
+- category: "dev-libs"
+  name: "boost"
+  version: ">=1.62.0"
+- category: "dev-util"
+  name: "ctags"
+  version: ">=0"
