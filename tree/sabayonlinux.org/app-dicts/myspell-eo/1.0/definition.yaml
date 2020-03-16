@@ -1,14 +1,32 @@
-
-category: "app-dicts"
-name: "myspell-eo"
-version: "1.0+r1"
+State: ""
+category: app-dicts
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: myspell-eo
+provides: null
 requires:
-- category: "app-arch"
-  name: "unzip"
-  version: ">=6.0"
-- category: "app-arch"
-  name: "bzip2"
-  version: ">=1.0.6"
-- category: "dev-libs"
-  name: "libnatspec"
-  version: ">=0.3.0"
+- State: ""
+  category: app-arch
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: unzip
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- kernel_linux
+- big-endian
+- abi_x86_64
+- amd64
+- userland_GNU
+- elibc_glibc
+version: 1.0+r2

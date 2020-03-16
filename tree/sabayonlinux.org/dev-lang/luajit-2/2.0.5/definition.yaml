@@ -1,4 +1,21 @@
-
-category: "dev-lang"
-name: "luajit-2"
-version: "2.0.5+r1"
+State: ""
+category: dev-lang
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: luajit-2
+provides: null
+requires: null
+set: false
+uri: null
+use_flags:
+- abi_x86_64
+- elibc_glibc
+- big-endian
+- userland_GNU
+- amd64
+- -static-libs
+- kernel_linux
+- lua52compat
+version: 2.0.5+r2

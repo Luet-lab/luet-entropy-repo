@@ -1,80 +1,165 @@
-
-category: "dev-haskell"
-name: "tasty"
-version: "0.11.0.4"
+State: ""
+category: dev-haskell
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: tasty
+provides: null
 requires:
-- category: "dev-haskell"
-  name: "ansi-terminal"
-  version: ">=0.6.2.3"
-- category: "dev-lang"
-  name: "ghc"
-  version: ">=8.0.2"
-- category: "dev-haskell"
-  name: "cabal"
-  version: ">=1.24.2.0"
-- category: "dev-haskell"
-  name: "haddock"
-  version: ">=2.17.2"
-- category: "dev-haskell"
-  name: "hscolour"
-  version: ">=1.24"
-- category: "dev-haskell"
-  name: "async"
-  version: ">=2.1.1"
-- category: "dev-haskell"
-  name: "stm"
-  version: ">=2.4.4.1"
-- category: "dev-haskell"
-  name: "hunit"
-  version: ">=1.2.5.2"
-- category: "dev-haskell"
-  name: "test-framework"
-  version: ">=0.8.1.1"
-- category: "dev-haskell"
-  name: "test-framework-hunit"
-  version: ">=0.3.0.2"
-- category: "dev-haskell"
-  name: "clock"
-  version: ">=0.7.2"
-- category: "dev-haskell"
-  name: "tasty-quickcheck"
-  version: ">=0.8.4"
-- category: "dev-haskell"
-  name: "mtl"
-  version: ">=2.2.1"
-- category: "dev-haskell"
-  name: "transformers"
-  version: ">=0.5.2.0"
-- category: "dev-haskell"
-  name: "optparse-applicative"
-  version: ">=0.14.2.0"
-- category: "dev-haskell"
-  name: "ansi-wl-pprint"
-  version: ">=0.6.7.3"
-- category: "dev-haskell"
-  name: "fail"
-  version: ">=4.9.0.0"
-- category: "dev-haskell"
-  name: "semigroups"
-  version: ">=0.18.2"
-- category: "dev-haskell"
-  name: "transformers-compat"
-  version: ">=0.5.1.4"
-- category: "dev-haskell"
-  name: "quickcheck-2"
-  version: ">=2.9.2"
-- category: "dev-haskell"
-  name: "regex-tdfa"
-  version: ">=1.2.2"
-- category: "dev-haskell"
-  name: "parsec"
-  version: ">=3.1.11"
-- category: "dev-haskell"
-  name: "regex-base"
-  version: ">=0.93.2"
-- category: "dev-haskell"
-  name: "tagged"
-  version: ">=0.8.4"
-- category: "dev-haskell"
-  name: "unbounded-delays"
-  version: ">=0.1.0.9"
+- State: ""
+  category: dev-haskell
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: ansi-terminal
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.6.2'
+- State: ""
+  category: dev-haskell
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: async
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.0'
+- State: ""
+  category: dev-haskell
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: cabal
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.10'
+- State: ""
+  category: dev-haskell
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: clock
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.4.4.0'
+- State: ""
+  category: dev-haskell
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: optparse-applicative
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.11'
+- State: ""
+  category: dev-haskell
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: regex-tdfa
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.1.8.2'
+- State: ""
+  category: dev-haskell
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: stm
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.3'
+- State: ""
+  category: dev-haskell
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: tagged
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.5'
+- State: ""
+  category: dev-haskell
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: unbounded-delays
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.1'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: ghc
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=7.4.1'
+- State: ""
+  category: dev-haskell
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: mtl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- elibc_glibc
+- -hscolour
+- userland_GNU
+- -doc
+- abi_x86_64
+- big-endian
+- -profile
+- kernel_linux
+- amd64
+version: 0.11.0.4+1

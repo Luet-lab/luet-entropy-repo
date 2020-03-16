@@ -1,4 +1,19 @@
-
-category: "sys-fs"
-name: "lsscsi"
-version: "0.30"
+State: ""
+category: sys-fs
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: lsscsi
+provides: null
+requires: null
+set: false
+uri: null
+use_flags:
+- kernel_linux
+- elibc_glibc
+- abi_x86_64
+- userland_GNU
+- amd64
+- big-endian
+version: 0.30+1

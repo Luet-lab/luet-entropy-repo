@@ -1,4 +1,18 @@
-
-category: "net-dialup"
-name: "ppp-scripts"
-version: "0"
+State: ""
+category: net-dialup
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: ppp-scripts
+provides: null
+requires: null
+set: false
+uri: null
+use_flags:
+- elibc_glibc
+- abi_x86_64
+- kernel_linux
+- amd64
+- userland_GNU
+version: 0+1

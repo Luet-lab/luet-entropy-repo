@@ -1,4 +1,20 @@
-
-category: "dev-lang"
-name: "cfortran"
-version: "4.4+r3"
+State: ""
+category: dev-lang
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: cfortran
+provides: null
+requires: null
+set: false
+uri: null
+use_flags:
+- abi_x86_64
+- elibc_glibc
+- userland_GNU
+- amd64
+- kernel_linux
+- -examples
+- multilib
+version: 4.4+r4

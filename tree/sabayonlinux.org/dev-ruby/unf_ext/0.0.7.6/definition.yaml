@@ -1,20 +1,39 @@
-
-category: "dev-ruby"
-name: "unf_ext"
-version: "0.0.7.6"
+State: ""
+category: dev-ruby
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: unf_ext
+provides: null
 requires:
-- category: "dev-ruby"
-  name: "test-unit-2"
-  version: ">=3.3.5"
-- category: "dev-lang"
-  name: "ruby-2.5"
-  version: ">=2.5.7"
-- category: "dev-ruby"
-  name: "power_assert"
-  version: ">=1.1.5"
-- category: "dev-ruby"
-  name: "rdoc"
-  version: ">=6.2.0"
-- category: "dev-ruby"
-  name: "rake"
-  version: ">=12.3.3"
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: ruby-2.5
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- -ruby_targets_ruby24
+- ruby_targets_ruby25
+- -doc
+- -test
+- split-usr
+- abi_x86_64
+- -ruby_targets_ruby26
+- kernel_linux
+- userland_GNU
+- -ruby_targets_ruby27
+- elibc_glibc
+- amd64
+- big-endian
+version: 0.0.7.6+1

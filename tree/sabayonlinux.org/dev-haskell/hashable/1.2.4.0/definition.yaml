@@ -1,41 +1,64 @@
-
-category: "dev-haskell"
-name: "hashable"
-version: "1.2.4.0"
+State: ""
+category: dev-haskell
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: hashable
+provides: null
 requires:
-- category: "dev-haskell"
-  name: "text"
-  version: ">=1.2.2.1"
-- category: "dev-haskell"
-  name: "binary"
-  version: ">=0.8.3.0"
-- category: "dev-lang"
-  name: "ghc"
-  version: ">=8.0.2"
-- category: "dev-haskell"
-  name: "cabal"
-  version: ">=1.24.2.0"
-- category: "dev-haskell"
-  name: "hunit"
-  version: ">=1.2.5.2"
-- category: "dev-haskell"
-  name: "quickcheck-2"
-  version: ">=2.9.2"
-- category: "dev-haskell"
-  name: "random"
-  version: ">=1.1"
-- category: "dev-haskell"
-  name: "test-framework"
-  version: ">=0.8.1.1"
-- category: "dev-haskell"
-  name: "test-framework-hunit"
-  version: ">=0.3.0.2"
-- category: "dev-haskell"
-  name: "test-framework-quickcheck2"
-  version: ">=0.3.0.3"
-- category: "dev-haskell"
-  name: "haddock"
-  version: ">=2.17.2"
-- category: "dev-haskell"
-  name: "hscolour"
-  version: ">=1.24"
+- State: ""
+  category: dev-haskell
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: cabal
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.8'
+- State: ""
+  category: dev-haskell
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: text
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.11.0.5'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: ghc
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=7.4.1'
+set: false
+uri: null
+use_flags:
+- elibc_glibc
+- amd64
+- cpu_flags_x86_sse2
+- -cpu_flags_x86_sse4_1
+- abi_x86_64
+- -test
+- -profile
+- userland_GNU
+- -doc
+- -hscolour
+- big-endian
+- kernel_linux
+version: 1.2.4.0+1

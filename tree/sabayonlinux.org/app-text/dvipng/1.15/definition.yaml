@@ -1,59 +1,138 @@
-
-category: "app-text"
-name: "dvipng"
-version: "1.15+r1"
+State: ""
+category: app-text
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: dvipng
+provides: null
 requires:
-- category: "dev-libs"
-  name: "kpathsea"
-  version: ">=6.2.3"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "media-libs"
-  name: "gd"
-  version: ">=2.2.5"
-- category: "media-libs"
-  name: "fontconfig"
-  version: ">=2.13.1"
-- category: "media-libs"
-  name: "libpng"
-  version: ">=1.6.37"
-- category: "media-libs"
-  name: "tiff"
-  version: ">=4.1.0"
-- category: "media-libs"
-  name: "freetype"
-  version: ">=2.9.1"
-- category: "media-libs"
-  name: "libwebp"
-  version: ">=1.0.2"
-- category: "x11-libs"
-  name: "libXpm"
-  version: ">=3.5.13"
-- category: "x11-libs"
-  name: "libXt"
-  version: ">=1.2.0"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=1.2.11"
-- category: "sys-devel"
-  name: "automake"
-  version: ">=1.15.1"
-- category: "sys-devel"
-  name: "libtool"
-  version: ">=2.4.6"
-- category: "dev-texlive"
-  name: "texlive-latexrecommended"
-  version: ">=2019"
-- category: "dev-texlive"
-  name: "texlive-fontutils"
-  version: ">=2019"
-- category: "dev-texlive"
-  name: "texlive-fontsrecommended"
-  version: ">=2019"
-- category: "sys-apps"
-  name: "texinfo"
-  version: ">=6.7"
-- category: "dev-texlive"
-  name: "texlive-plaingeneric"
-  version: ">=2019"
+- State: ""
+  category: app-portage
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: elt-patches
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=20170422'
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: kpathsea
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=6.2.1'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: freetype-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.1.5'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: autoconf-2.69
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.69'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: automake-1.15
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.15.1'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libtool-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.4'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: gd-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libpng
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: zlib
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- truetype
+- -test
+- elibc_glibc
+- abi_x86_64
+- kernel_linux
+- userland_GNU
+- amd64
+- big-endian
+version: 1.15+r2

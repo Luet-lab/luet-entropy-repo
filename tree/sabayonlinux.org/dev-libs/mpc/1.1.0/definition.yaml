@@ -1,20 +1,56 @@
-
-category: "dev-libs"
-name: "mpc"
-version: "1.1.0+r1"
+State: ""
+category: dev-libs
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: mpc
+provides: null
 requires:
-- category: "dev-libs"
-  name: "gmp"
-  version: ">=6.1.2"
-- category: "sys-devel"
-  name: "m4"
-  version: ">=1.4.18"
-- category: "app-arch"
-  name: "xz-utils"
-  version: ">=5.2.4"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "dev-libs"
-  name: "mpfr"
-  version: ">=3.1.6"
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: gmp
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=5.0.0'
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: mpfr
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=3.0.0'
+set: false
+uri: null
+use_flags:
+- big-endian
+- -abi_s390_32
+- -abi_mips_n32
+- -abi_x86_x32
+- -abi_mips_n64
+- amd64
+- -abi_mips_o32
+- elibc_glibc
+- abi_x86_64
+- kernel_linux
+- abi_x86_32
+- -static-libs
+- -abi_s390_64
+- userland_GNU
+- split-usr
+- -abi_riscv_lp64
+- -abi_riscv_lp64d
+version: 1.1.0+r3

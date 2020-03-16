@@ -1,14 +1,61 @@
-
-category: "dev-perl"
-name: "MIME-Charset"
-version: "1.12.2"
+State: ""
+category: dev-perl
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: MIME-Charset
+provides: null
 requires:
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "dev-perl"
-  name: "Encode-EUCJPASCII"
-  version: ">=0.30.0"
-- category: "dev-perl"
-  name: "Encode-HanExtra"
-  version: ">=0.230.0"
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: Encode-EUCJPASCII
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.20.0'
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: Encode-HanExtra
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.200.0'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: perl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- amd64
+- big-endian
+- l10n_ja
+- userland_GNU
+- l10n_zh
+- abi_x86_64
+- kernel_linux
+- elibc_glibc
+- split-usr
+version: 1.12.2+1

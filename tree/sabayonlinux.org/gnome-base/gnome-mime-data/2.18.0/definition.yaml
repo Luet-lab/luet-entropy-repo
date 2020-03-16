@@ -1,38 +1,18 @@
-
-category: "gnome-base"
-name: "gnome-mime-data"
-version: "2.18.0"
-requires:
-- category: "dev-util"
-  name: "pkgconfig"
-  version: ">=0.29.2"
-- category: "dev-util"
-  name: "intltool"
-  version: ">=0.51.0"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "dev-perl"
-  name: "XML-Parser"
-  version: ">=2.440.0"
-- category: "sys-devel"
-  name: "gettext"
-  version: ">=0.20.1"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "app-arch"
-  name: "xz-utils"
-  version: ">=5.2.4"
-- category: "sys-apps"
-  name: "gentoo-functions"
-  version: ">=0.12"
-- category: "dev-util"
-  name: "desktop-file-utils"
-  version: ">=0.24"
-- category: "x11-misc"
-  name: "shared-mime-info"
-  version: ">=1.10"
-- category: "dev-libs"
-  name: "libxml2-2"
-  version: ">=2.9.9"
+State: ""
+category: gnome-base
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: gnome-mime-data
+provides: null
+requires: null
+set: false
+uri: null
+use_flags:
+- multilib
+- elibc_glibc
+- userland_GNU
+- amd64
+- kernel_linux
+version: 2.18.0+1

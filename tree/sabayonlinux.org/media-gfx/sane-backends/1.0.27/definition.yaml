@@ -1,365 +1,187 @@
-
-category: "media-gfx"
-name: "sane-backends"
-version: "1.0.27+r3"
+State: ""
+category: media-gfx
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: sane-backends
+provides: null
 requires:
-- category: "media-libs"
-  name: "libjpeg-turbo"
-  version: ">=2.0.3"
-- category: "media-libs"
-  name: "tiff"
-  version: ">=4.1.0"
-- category: "media-libs"
-  name: "jbigkit"
-  version: ">=2.1"
-- category: "app-arch"
-  name: "xz-utils"
-  version: ">=5.2.4"
-- category: "media-libs"
-  name: "libwebp"
-  version: ">=1.0.2"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=1.2.11"
-- category: "app-arch"
-  name: "zstd"
-  version: ">=1.3.7"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "sys-devel"
-  name: "automake"
-  version: ">=1.15.1"
-- category: "sys-devel"
-  name: "libtool"
-  version: ">=2.4.6"
-- category: "sys-libs"
-  name: "libieee1284"
-  version: ">=0.2.11"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-exec"
-  version: ">=2.4.6"
-- category: "app-text"
-  name: "docbook-sgml-utils"
-  version: ">=0.6.14"
-- category: "app-text"
-  name: "docbook-sgml-dtd"
-  version: ">=3.0"
-- category: "app-text"
-  name: "docbook-dsssl-stylesheets"
-  version: ">=1.79"
-- category: "dev-perl"
-  name: "XML-RegExp"
-  version: ">=0.40.0"
-- category: "media-libs"
-  name: "libgphoto2"
-  version: ">=2.5.22"
-- category: "acct-group"
-  name: "plugdev"
-  version: ">=0"
-- category: "dev-libs"
-  name: "libxml2"
-  version: ">=2.9.9"
-- category: "dev-libs"
-  name: "libltdl"
-  version: ">=2.4.6"
-- category: "media-libs"
-  name: "gd"
-  version: ">=2.2.5"
-- category: "media-libs"
-  name: "libexif"
-  version: ">=0.6.21"
-- category: "dev-libs"
-  name: "lockdev"
-  version: ">=1.0.3.1.2"
-- category: "dev-util"
-  name: "gtk-doc-am"
-  version: ">=1.25"
-- category: "sys-devel"
-  name: "flex"
-  version: ">=2.6.4"
-- category: "sys-devel"
-  name: "gettext"
-  version: ">=0.20.1"
-- category: "app-doc"
-  name: "doxygen"
-  version: ">=1.8.15"
-- category: "media-libs"
-  name: "libv4l"
-  version: ">=1.16.6"
-- category: "sys-apps"
-  name: "xinetd"
-  version: ">=2.3.15.3"
-- category: "net-libs"
-  name: "libtirpc"
-  version: ">=1.1.4"
-- category: "sys-apps"
-  name: "tcp-wrappers"
-  version: ">=7.6.28"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "net-analyzer"
-  name: "net-snmp"
-  version: ">=5.8"
-- category: "app-arch"
-  name: "bzip2"
-  version: ">=1.0.6"
-- category: "dev-libs"
-  name: "elfutils"
-  version: ">=0.177"
-- category: "sys-apps"
-  name: "lm-sensors"
-  version: ">=3.6.0"
-- category: "dev-libs"
-  name: "libnl"
-  version: ">=1.1.4"
-- category: "net-libs"
-  name: "libpcap"
-  version: ">=1.9.1"
-- category: "sys-apps"
-  name: "pciutils"
-  version: ">=3.6.4"
-- category: "dev-python"
-  name: "setuptools"
-  version: ">=44.0.0"
-- category: "app-arch"
-  name: "rpm"
-  version: ">=4.14.2.1"
-- category: "dev-libs"
-  name: "popt"
-  version: ">=1.16"
-- category: "dev-libs"
-  name: "openssl"
-  version: ">=1.1.1d"
-- category: "dev-perl"
-  name: "Tk"
-  version: ">=804.34.0"
-- category: "dev-perl"
-  name: "TermReadKey"
-  version: ">=2.370.0"
-- category: "sys-apps"
-  name: "systemd"
-  version: ">=242"
-- category: "sys-apps"
-  name: "util-linux"
-  version: ">=2.33.2"
-- category: "sys-libs"
-  name: "libcap"
-  version: ">=2.27"
-- category: "sys-apps"
-  name: "acl"
-  version: ">=2.2.53"
-- category: "sys-libs"
-  name: "libapparmor"
-  version: ">=2.13.3"
-- category: "sys-process"
-  name: "audit"
-  version: ">=2.8.4"
-- category: "sys-fs"
-  name: "cryptsetup"
-  version: ">=2.2.1"
-- category: "net-misc"
-  name: "curl"
-  version: ">=7.66.0"
-- category: "net-libs"
-  name: "gnutls"
-  version: ">=3.6.7"
-- category: "dev-libs"
-  name: "libgcrypt"
-  version: ">=1.8.5"
-- category: "net-libs"
-  name: "libmicrohttpd"
-  version: ">=0.9.66"
-- category: "net-dns"
-  name: "libidn2"
-  version: ">=2.1.1a"
-- category: "sys-apps"
-  name: "kmod"
-  version: ">=26"
-- category: "app-arch"
-  name: "lz4"
-  version: ">=1.9.2"
-- category: "net-firewall"
-  name: "iptables"
-  version: ">=1.6.1"
-- category: "sys-libs"
-  name: "pam"
-  version: ">=1.3.0"
-- category: "app-crypt"
-  name: "p11-kit"
-  version: ">=0.23.16.1"
-- category: "dev-libs"
-  name: "libpcre2"
-  version: ">=10.33"
-- category: "dev-libs"
-  name: "libpwquality"
-  version: ">=1.4.2"
-- category: "media-gfx"
-  name: "qrencode"
-  version: ">=4.0.2"
-- category: "sys-libs"
-  name: "libseccomp"
-  version: ">=2.4.2"
-- category: "x11-libs"
-  name: "libxkbcommon"
-  version: ">=0.9.1"
-- category: "sys-kernel"
-  name: "linux-headers"
-  version: ">=4.19"
-- category: "sys-boot"
-  name: "gnu-efi"
-  version: ">=3.0.3"
-- category: "sys-apps"
-  name: "dbus"
-  version: ">=1.12.16"
-- category: "sys-apps"
-  name: "hwids"
-  version: ">=20200204"
-- category: "sys-fs"
-  name: "udev-init-scripts"
-  version: ">=33"
-- category: "sys-auth"
-  name: "polkit"
-  version: ">=0.115"
-- category: "sys-apps"
-  name: "gentoo-systemd-integration"
-  version: ">=7"
-- category: "acct-group"
-  name: "tty"
-  version: ">=0"
-- category: "acct-group"
-  name: "utmp"
-  version: ">=0"
-- category: "acct-group"
-  name: "audio"
-  version: ">=0"
-- category: "acct-group"
-  name: "cdrom"
-  version: ">=0"
-- category: "acct-group"
-  name: "disk"
-  version: ">=0"
-- category: "acct-group"
-  name: "kvm"
-  version: ">=0"
-- category: "acct-group"
-  name: "tape"
-  version: ">=0"
-- category: "acct-group"
-  name: "video"
-  version: ">=0"
-- category: "sys-apps"
-  name: "baselayout"
-  version: ">=2.6"
-- category: "sys-process"
-  name: "procps"
-  version: ">=3.3.15"
-- category: "sys-apps"
-  name: "coreutils"
-  version: ">=8.30"
-- category: "dev-util"
-  name: "gperf"
-  version: ">=3.1"
-- category: "dev-util"
-  name: "meson"
-  version: ">=0.52.1"
-- category: "dev-util"
-  name: "intltool"
-  version: ">=0.51.0"
-- category: "sys-devel"
-  name: "m4"
-  version: ">=1.4.18"
-- category: "app-text"
-  name: "docbook-xml-dtd"
-  version: ">=4.2"
-- category: "app-text"
-  name: "docbook-xml-dtd"
-  version: ">=4.5"
-- category: "app-text"
-  name: "docbook-xsl-stylesheets"
-  version: ">=1.79.1"
-- category: "dev-libs"
-  name: "libxslt"
-  version: ">=1.1.33"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-python"
-  name: "lxml"
-  version: ">=4.4.2"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-vcs"
-  name: "git"
-  version: ">=2.24.1"
-- category: "dev-util"
-  name: "ninja"
-  version: ">=1.8.2"
-- category: "net-dns"
-  name: "avahi"
-  version: ">=0.7"
-- category: "dev-libs"
-  name: "libdaemon"
-  version: ">=0.14"
-- category: "dev-libs"
-  name: "expat"
-  version: ">=2.2.8"
-- category: "dev-libs"
-  name: "glib"
-  version: ">=2.60.7"
-- category: "sys-libs"
-  name: "gdbm"
-  version: ">=1.14.1"
-- category: "dev-qt"
-  name: "qtcore"
-  version: ">=5.14.1"
-- category: "x11-libs"
-  name: "gtk+"
-  version: ">=2.24.32"
-- category: "dev-libs"
-  name: "gobject-introspection"
-  version: ">=1.60.2"
-- category: "dev-lang"
-  name: "mono"
-  version: ">=4.8.0.524"
-- category: "dev-dotnet"
-  name: "gtk-sharp-2"
-  version: ">=2.12.21"
-- category: "dev-python"
-  name: "dbus-python"
-  version: ">=1.2.12"
-- category: "dev-python"
-  name: "pygobject"
-  version: ">=2.28.6"
-- category: "dev-python"
-  name: "twisted"
-  version: ">=18.7.0"
-- category: "acct-user"
-  name: "avahi"
-  version: ">=0"
-- category: "acct-group"
-  name: "avahi"
-  version: ">=0"
-- category: "acct-group"
-  name: "netdev"
-  version: ">=0"
-- category: "acct-user"
-  name: "avahi-autoipd"
-  version: ">=0"
-- category: "acct-group"
-  name: "avahi-autoipd"
-  version: ">=0"
-- category: "dev-util"
-  name: "glib-utils"
-  version: ">=2.60.7"
-- category: "app-doc"
-  name: "xmltoman"
-  version: ">=0.4"
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libgphoto2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.5.3.1'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: tiff
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=3.9.7'
+- State: ""
+  category: net-dns
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: avahi-gtk3
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.6.31'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: gettext
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.18.1'
+- State: ""
+  category: sys-apps
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: systemd
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- sane_backends_hs2p
+- sane_backends_matsushita
+- gphoto2
+- big-endian
+- systemd
+- sane_backends_leo
+- sane_backends_test
+- sane_backends_microtek
+- -v4l
+- sane_backends_umax
+- sane_backends_lexmark
+- sane_backends_sharp
+- sane_backends_fujitsu
+- sane_backends_epjitsu
+- sane_backends_canon630u
+- -sane_backends_mustek_pp
+- threads
+- -snmp
+- sane_backends_coolscan2
+- sane_backends_epson2
+- sane_backends_mustek
+- sane_backends_dc210
+- -sane_backends_hpsj5s
+- sane_backends_abaton
+- split-usr
+- sane_backends_sceptre
+- sane_backends_xerox_mfp
+- -abi_riscv_lp64d
+- sane_backends_plustek_pp
+- sane_backends_cardscan
+- sane_backends_teco1
+- sane_backends_canon_dr
+- sane_backends_sp15c
+- -abi_s390_32
+- sane_backends_ibm
+- -abi_x86_x32
+- sane_backends_umax1220u
+- amd64
+- sane_backends_kodakaio
+- sane_backends_st400
+- kernel_linux
+- sane_backends_coolscan
+- sane_backends_teco2
+- sane_backends_artec_eplus48u
+- sane_backends_hp5400
+- sane_backends_magicolor
+- sane_backends_dmc
+- sane_backends_ricoh
+- sane_backends_umax_pp
+- sane_backends_canon
+- sane_backends_agfafocus
+- sane_backends_niash
+- sane_backends_dc25
+- sane_backends_epson
+- sane_backends_hp4200
+- -sane_backends_kvs40xx
+- sane_backends_microtek2
+- sane_backends_qcam
+- sane_backends_tamarack
+- sane_backends_dc240
+- -sane_backends_mustek_usb2
+- abi_x86_64
+- sane_backends_sm3840
+- -sane_backends_canon_pp
+- sane_backends_hp3500
+- sane_backends_kodak
+- sane_backends_u12
+- sane_backends_avision
+- sane_backends_sm3600
+- -abi_s390_64
+- sane_backends_gt68xx
+- sane_backends_teco3
+- sane_backends_as6e
+- sane_backends_pixma
+- sane_backends_s9036
+- -abi_riscv_lp64
+- sane_backends_kvs20xx
+- userland_GNU
+- zeroconf
+- sane_backends_plustek
+- sane_backends_hpljm1005
+- -abi_mips_n32
+- sane_backends_dell1600n_net
+- sane_backends_p5
+- sane_backends_nec
+- -abi_mips_n64
+- sane_backends_stv680
+- -abi_mips_o32
+- elibc_glibc
+- sane_backends_pie
+- sane_backends_hp5590
+- abi_x86_32
+- usb
+- sane_backends_apple
+- sane_backends_kvs1025
+- sane_backends_mustek_usb
+- sane_backends_rts8891
+- sane_backends_bh
+- sane_backends_net
+- -sane_backends_pnm
+- sane_backends_snapscan
+- sane_backends_artec
+- ipv6
+- sane_backends_genesys
+- sane_backends_ma1509
+- sane_backends_hp3900
+- sane_backends_coolscan3
+- sane_backends_hp
+- -xinetd
+version: 1.0.27+r5

@@ -1,86 +1,155 @@
-
-category: "x11-libs"
-name: "libXfont2"
-version: "2.0.4"
+State: ""
+category: x11-libs
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: libXfont2
+provides: null
 requires:
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=1.2.11"
-- category: "sys-devel"
-  name: "automake"
-  version: ">=1.15.1"
-- category: "sys-devel"
-  name: "libtool"
-  version: ">=2.4.6"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "x11-base"
-  name: "xorg-proto"
-  version: ">=2019.2"
-- category: "dev-util"
-  name: "meson"
-  version: ">=0.52.1"
-- category: "dev-util"
-  name: "ninja"
-  version: ">=1.8.2"
-- category: "x11-libs"
-  name: "libfontenc"
-  version: ">=1.1.4"
-- category: "sys-devel"
-  name: "m4"
-  version: ">=1.4.18"
-- category: "x11-misc"
-  name: "util-macros"
-  version: ">=1.19.2"
-- category: "media-fonts"
-  name: "font-util"
-  version: ">=1.3.2"
-- category: "app-arch"
-  name: "bzip2"
-  version: ">=1.0.6"
-- category: "media-libs"
-  name: "freetype"
-  version: ">=2.9.1"
-- category: "media-libs"
-  name: "harfbuzz"
-  version: ">=2.6.4"
-- category: "media-libs"
-  name: "libpng"
-  version: ">=1.6.37"
-- category: "x11-libs"
-  name: "libX11"
-  version: ">=1.6.9"
-- category: "x11-libs"
-  name: "libXau"
-  version: ">=1.0.9"
-- category: "x11-libs"
-  name: "libXdmcp"
-  version: ">=1.1.3"
-- category: "media-libs"
-  name: "fontconfig-infinality"
-  version: ">=20130404"
-- category: "x11-libs"
-  name: "xtrans"
-  version: ">=1.4.0"
-- category: "app-text"
-  name: "asciidoc"
-  version: ">=8.6.10"
-- category: "dev-ruby"
-  name: "asciidoctor"
-  version: ">=2.0.10"
-- category: "app-text"
-  name: "xmlto"
-  version: ">=0.0.28"
-- category: "app-doc"
-  name: "doxygen"
-  version: ">=1.8.15"
-- category: "app-text"
-  name: "docbook-xml-dtd"
-  version: ">=4.1.2"
-- category: "app-text"
-  name: "docbook-xml-dtd"
-  version: ">=4.2"
-- category: "app-text"
-  name: "docbook-xml-dtd"
-  version: ">=4.3"
+- State: ""
+  category: app-portage
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: elt-patches
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=20170815'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: freetype-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: autoconf-2.69
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.69'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: automake-1.15
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.15.1'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libtool-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.4'
+- State: ""
+  category: app-arch
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: bzip2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: zlib
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: x11-base
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: xorg-proto
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: x11-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libfontenc
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: x11-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: xtrans
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- -static-libs
+- elibc_glibc
+- -doc
+- split-usr
+- userland_GNU
+- abi_x86_64
+- bzip2
+- big-endian
+- ipv6
+- kernel_linux
+- truetype
+- amd64
+version: 2.0.4+1

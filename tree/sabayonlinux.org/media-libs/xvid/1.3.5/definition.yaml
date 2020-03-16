@@ -1,41 +1,59 @@
-
-category: "media-libs"
-name: "xvid"
-version: "1.3.5"
+State: ""
+category: media-libs
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: xvid
+provides: null
 requires:
-- category: "sys-apps"
-  name: "grep"
-  version: ">=3.3"
-- category: "sys-devel"
-  name: "gettext"
-  version: ">=0.20.1"
-- category: "dev-lang"
-  name: "yasm"
-  version: ">=1.3.0"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-exec"
-  version: ">=2.4.6"
-- category: "dev-python"
-  name: "cython"
-  version: ">=0.29.14"
-- category: "dev-lang"
-  name: "nasm"
-  version: ">=2.14.02"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "app-text"
-  name: "ghostscript-gpl"
-  version: ">=9.50"
-- category: "dev-perl"
-  name: "Font-TTF"
-  version: ">=1.60.0"
-- category: "dev-perl"
-  name: "Sort-Versions"
-  version: ">=1.620.0"
-- category: "media-fonts"
-  name: "source-pro"
-  version: ">=20170111"
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: nasm
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2'
+- State: ""
+  category: sys-apps
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: grep
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- -examples
+- big-endian
+- -abi_s390_32
+- -abi_mips_n32
+- -abi_x86_x32
+- -pic
+- -abi_riscv_lp64d
+- -abi_mips_n64
+- amd64
+- -abi_mips_o32
+- -elibc_FreeBSD
+- elibc_glibc
+- abi_x86_64
+- kernel_linux
+- abi_x86_32
+- threads
+- -abi_s390_64
+- split-usr
+- -abi_riscv_lp64
+- userland_GNU
+version: 1.3.5+2

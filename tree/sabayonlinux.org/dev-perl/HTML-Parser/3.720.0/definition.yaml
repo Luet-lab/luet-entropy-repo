@@ -1,11 +1,47 @@
-
-category: "dev-perl"
-name: "HTML-Parser"
-version: "3.720.0"
+State: ""
+category: dev-perl
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: HTML-Parser
+provides: null
 requires:
-- category: "dev-perl"
-  name: "HTML-Tagset"
-  version: ">=3.200.0"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: HTML-Tagset
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=3.03'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: perl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- userland_GNU
+- abi_x86_64
+- amd64
+- big-endian
+- split-usr
+- -test
+- elibc_glibc
+- kernel_linux
+version: 3.720.0+1

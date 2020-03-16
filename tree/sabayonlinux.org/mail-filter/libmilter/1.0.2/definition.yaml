@@ -1,4 +1,20 @@
-
-category: "mail-filter"
-name: "libmilter"
-version: "1.0.2"
+State: ""
+category: mail-filter
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: libmilter
+provides: null
+requires: null
+set: false
+uri: null
+use_flags:
+- ipv6
+- amd64
+- elibc_glibc
+- userland_GNU
+- -poll
+- kernel_linux
+- multilib
+version: 1.0.2+1

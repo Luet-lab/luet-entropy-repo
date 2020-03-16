@@ -1,29 +1,34 @@
-
-category: "sci-libs"
-name: "camd"
-version: "2.3.1"
+State: ""
+category: sci-libs
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: camd
+provides: null
 requires:
-- category: "sci-libs"
-  name: "suitesparseconfig"
-  version: ">=4.2.1"
-- category: "dev-util"
-  name: "pkgconfig"
-  version: ">=0.29.2"
-- category: "dev-texlive"
-  name: "texlive-latexrecommended"
-  version: ">=2019"
-- category: "dev-texlive"
-  name: "texlive-fontutils"
-  version: ">=2019"
-- category: "dev-texlive"
-  name: "texlive-fontsrecommended"
-  version: ">=2019"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "app-arch"
-  name: "xz-utils"
-  version: ">=5.2.4"
-- category: "sys-apps"
-  name: "gentoo-functions"
-  version: ">=0.12"
+- State: ""
+  category: sci-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: suitesparseconfig
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- -doc
+- amd64
+- kernel_linux
+- userland_GNU
+- -static-libs
+- abi_x86_64
+- multilib
+- elibc_glibc
+version: 2.3.1+1

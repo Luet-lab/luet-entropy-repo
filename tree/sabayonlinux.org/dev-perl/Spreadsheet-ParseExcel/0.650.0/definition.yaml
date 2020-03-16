@@ -1,35 +1,127 @@
-
-category: "dev-perl"
-name: "Spreadsheet-ParseExcel"
-version: "0.650.0"
+State: ""
+category: dev-perl
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: Spreadsheet-ParseExcel
+provides: null
 requires:
-- category: "dev-perl"
-  name: "OLE-StorageLite"
-  version: ">=0.190.0"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "dev-perl"
-  name: "IO-stringy"
-  version: ">=2.111.0"
-- category: "dev-perl"
-  name: "Text-CSV_XS"
-  version: ">=1.340.0"
-- category: "dev-perl"
-  name: "Crypt-RC4"
-  version: ">=2.020.0"
-- category: "dev-perl"
-  name: "Digest-Perl-MD5"
-  version: ">=1.900.0"
-- category: "dev-perl"
-  name: "Unicode-Map"
-  version: ">=0.112.0"
-- category: "dev-perl"
-  name: "Jcode"
-  version: ">=2.70.0"
-- category: "dev-perl"
-  name: "Spreadsheet-WriteExcel"
-  version: ">=2.400.0"
-- category: "dev-perl"
-  name: "Parse-RecDescent"
-  version: ">=1.967.15"
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: OLE-StorageLite
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.19'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: perl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: Crypt-RC4
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: Digest-Perl-MD5
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: IO-stringy
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: Jcode
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: Text-CSV_XS
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: Unicode-Map
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- unicode
+- -test
+- split-usr
+- kernel_linux
+- abi_x86_64
+- big-endian
+- userland_GNU
+- elibc_glibc
+- amd64
+- cjk
+version: 0.650.0+1

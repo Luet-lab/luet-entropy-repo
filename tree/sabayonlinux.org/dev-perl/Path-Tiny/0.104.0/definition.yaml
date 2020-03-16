@@ -1,26 +1,48 @@
-
-category: "dev-perl"
-name: "Path-Tiny"
-version: "0.104.0"
+State: ""
+category: dev-perl
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: Path-Tiny
+provides: null
 requires:
-- category: "dev-perl"
-  name: "Unicode-UTF8"
-  version: ">=0.620.0"
-- category: "dev-perl"
-  name: "Test-Fatal"
-  version: ">=0.14.0"
-- category: "dev-perl"
-  name: "Taint-Runtime"
-  version: ">=0.30.0"
-- category: "dev-perl"
-  name: "Variable-Magic"
-  version: ">=0.620.0"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "perl-core"
-  name: "File-Temp"
-  version: ">=0.230.400"
-- category: "dev-perl"
-  name: "Capture-Tiny"
-  version: ">=0.480.0"
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: Unicode-UTF8
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.580.0'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: perl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- split-usr
+- abi_x86_64
+- -minimal
+- userland_GNU
+- amd64
+- elibc_glibc
+- -test
+- kernel_linux
+- big-endian
+version: 0.104.0+1

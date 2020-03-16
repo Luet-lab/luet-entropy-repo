@@ -1,20 +1,50 @@
-
-category: "dev-ruby"
-name: "domain_name"
-version: "0.5.20190701"
+State: ""
+category: dev-ruby
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: domain_name
+provides: null
 requires:
-- category: "dev-ruby"
-  name: "unf"
-  version: ">=0.1.4"
-- category: "dev-ruby"
-  name: "unf_ext"
-  version: ">=0.0.7.6"
-- category: "dev-ruby"
-  name: "test-unit-2"
-  version: ">=3.3.5"
-- category: "dev-ruby"
-  name: "shoulda"
-  version: ">=2.11.3"
-- category: "dev-lang"
-  name: "ruby-2.5"
-  version: ">=2.5.7"
+- State: ""
+  category: dev-ruby
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: unf
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.0.5'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: ruby-2.5
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- -ruby_targets_ruby24
+- ruby_targets_ruby25
+- -test
+- split-usr
+- abi_x86_64
+- -ruby_targets_ruby26
+- kernel_linux
+- userland_GNU
+- elibc_glibc
+- amd64
+- big-endian
+version: 0.5.20190701+1

@@ -1,17 +1,56 @@
-
-category: "app-arch"
-name: "snappy"
-version: "1.1.8"
+State: ""
+category: app-arch
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: snappy
+provides: null
 requires:
-- category: "dev-cpp"
-  name: "gtest"
-  version: ">=1.8.0"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-util"
-  name: "ninja"
-  version: ">=1.8.2"
-- category: "dev-util"
-  name: "cmake"
-  version: ">=3.14.6"
+- State: ""
+  category: dev-util
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: cmake
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=3.9.6'
+- State: ""
+  category: dev-util
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: ninja
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- big-endian
+- -abi_s390_32
+- -abi_mips_n32
+- -abi_x86_x32
+- -test
+- -abi_riscv_lp64d
+- -abi_mips_n64
+- amd64
+- -abi_mips_o32
+- elibc_glibc
+- abi_x86_64
+- kernel_linux
+- abi_x86_32
+- -abi_s390_64
+- split-usr
+- -abi_riscv_lp64
+- userland_GNU
+version: 1.1.8+2

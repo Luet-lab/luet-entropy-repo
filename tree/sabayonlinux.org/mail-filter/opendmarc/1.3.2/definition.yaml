@@ -1,92 +1,114 @@
-
-category: "mail-filter"
-name: "opendmarc"
-version: "1.3.2+r3"
+State: ""
+category: mail-filter
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: opendmarc
+provides: null
 requires:
-- category: "dev-perl"
-  name: "DBI"
-  version: ">=1.637.0"
-- category: "dev-perl"
-  name: "PlRPC"
-  version: ">=0.202.0"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "mail-filter"
-  name: "libmilter"
-  version: ">=1.0.2"
-- category: "mail-mta"
-  name: "sendmail"
-  version: ">=8.15.2"
-- category: "net-mail"
-  name: "mailbase"
-  version: ">=1.5"
-- category: "sys-devel"
-  name: "m4"
-  version: ">=1.4.18"
-- category: "dev-libs"
-  name: "cyrus-sasl"
-  version: ">=2.1.27"
-- category: "sys-apps"
-  name: "tcp-wrappers"
-  version: ">=7.6.28"
-- category: "dev-libs"
-  name: "openssl"
-  version: ">=1.1.1d"
-- category: "net-nds"
-  name: "openldap"
-  version: ">=2.4.48"
-- category: "sys-libs"
-  name: "db"
-  version: ">=6.0.35"
-- category: "mail-filter"
-  name: "procmail"
-  version: ">=3.22"
-- category: "dev-perl"
-  name: "DBD-mysql"
-  version: ">=4.50.0"
-- category: "dev-perl"
-  name: "Devel-CheckLib"
-  version: ">=1.130.0"
-- category: "dev-db"
-  name: "mariadb-connector-c"
-  version: ">=3.1.6"
-- category: "dev-perl"
-  name: "Test-Deep"
-  version: ">=1.127.0"
-- category: "dev-perl"
-  name: "HTTP-Message"
-  version: ">=6.130.0"
-- category: "dev-perl"
-  name: "URI"
-  version: ">=1.730.0"
-- category: "dev-perl"
-  name: "HTTP-Date"
-  version: ">=6.20.0"
-- category: "dev-perl"
-  name: "IO-HTML"
-  version: ">=1.1.0"
-- category: "dev-perl"
-  name: "Encode-Locale"
-  version: ">=1.50.0"
-- category: "dev-perl"
-  name: "LWP-MediaTypes"
-  version: ">=6.20.0"
-- category: "dev-perl"
-  name: "Try-Tiny"
-  version: ">=0.300.0"
-- category: "dev-perl"
-  name: "Switch"
-  version: ">=2.170.0"
-- category: "mail-filter"
-  name: "libspf2"
-  version: ">=1.2.10"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "sys-devel"
-  name: "automake"
-  version: ">=1.15.1"
-- category: "sys-devel"
-  name: "libtool"
-  version: ">=2.4.6"
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: DBD-mysql
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: DBI
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: HTTP-Message
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: Switch
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: mail-filter
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libspf2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: mail-mta
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: sendmail
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: net-dns
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libidn
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- userland_GNU
+- -spf
+- abi_x86_64
+- kernel_linux
+- elibc_glibc
+- big-endian
+- amd64
+- reports
+- -static-libs
+- split-usr
+version: 1.3.2+r4

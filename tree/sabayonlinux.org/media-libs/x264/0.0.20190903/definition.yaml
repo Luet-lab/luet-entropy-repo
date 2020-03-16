@@ -1,35 +1,49 @@
-
-category: "media-libs"
-name: "x264"
-version: "0.0.20190903"
+State: ""
+category: media-libs
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: x264
+provides: null
 requires:
-- category: "dev-lang"
-  name: "nasm"
-  version: ">=2.14.02"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "app-text"
-  name: "ghostscript-gpl"
-  version: ">=9.50"
-- category: "dev-perl"
-  name: "Font-TTF"
-  version: ">=1.60.0"
-- category: "dev-perl"
-  name: "Sort-Versions"
-  version: ">=1.620.0"
-- category: "media-fonts"
-  name: "source-pro"
-  version: ">=20170111"
-- category: "app-eselect"
-  name: "eselect-opencl"
-  version: ">=1.1.0"
-- category: "dev-libs"
-  name: "amdgpu-pro-opencl"
-  version: ">=17.50.511655"
-- category: "x11-drivers"
-  name: "nvidia-drivers"
-  version: ">="
-- category: "media-libs"
-  name: "mesa"
-  version: ">=19.3.4"
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: nasm
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.13'
+set: false
+uri: null
+use_flags:
+- big-endian
+- -pic
+- -abi_x86_x32
+- -abi_s390_32
+- -abi_mips_n32
+- cpu_flags_x86_sse
+- -abi_mips_n64
+- amd64
+- -abi_mips_o32
+- elibc_glibc
+- abi_x86_64
+- kernel_linux
+- abi_x86_32
+- threads
+- interlaced
+- -static-libs
+- -abi_s390_64
+- userland_GNU
+- split-usr
+- -abi_riscv_lp64
+- -altivec
+- -abi_riscv_lp64d
+- -opencl
+version: 0.0.20190903+2

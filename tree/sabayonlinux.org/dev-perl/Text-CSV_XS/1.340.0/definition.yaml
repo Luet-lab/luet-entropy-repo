@@ -1,8 +1,35 @@
-
-category: "dev-perl"
-name: "Text-CSV_XS"
-version: "1.340.0"
+State: ""
+category: dev-perl
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: Text-CSV_XS
+provides: null
 requires:
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: perl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- split-usr
+- -test
+- -examples
+- kernel_linux
+- abi_x86_64
+- big-endian
+- userland_GNU
+- elibc_glibc
+- amd64
+version: 1.340.0+1

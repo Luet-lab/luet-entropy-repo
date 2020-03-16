@@ -1,11 +1,31 @@
-
-category: "app-eselect"
-name: "eselect-mpg123"
-version: "0.1"
+State: ""
+category: app-eselect
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: eselect-mpg123
+provides: null
 requires:
-- category: "app-eselect"
-  name: "eselect-lib-bin-symlink"
-  version: ">=0.1.1"
-- category: "app-admin"
-  name: "eselect"
-  version: ">=1.4.15"
+- State: ""
+  category: app-eselect
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: eselect-lib-bin-symlink
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.1.1'
+set: false
+uri: null
+use_flags:
+- amd64
+- userland_GNU
+- kernel_linux
+- abi_x86_64
+- elibc_glibc
+version: 0.1+1

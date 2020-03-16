@@ -1,728 +1,683 @@
-
-category: "media-video"
-name: "ffmpeg"
-version: "4.2.2"
+State: ""
+category: media-video
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: ffmpeg
+provides: null
 requires:
-- category: "media-libs"
-  name: "alsa-lib"
-  version: ">=1.2.1.2"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-exec"
-  version: ">=2.4.6"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "app-doc"
-  name: "doxygen"
-  version: ">=1.8.15"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "sys-devel"
-  name: "automake"
-  version: ">=1.15.1"
-- category: "sys-devel"
-  name: "libtool"
-  version: ">=2.4.6"
-- category: "media-libs"
-  name: "opencore-amr"
-  version: ">=0.1.5"
-- category: "media-libs"
-  name: "libbluray"
-  version: ">=1.1.2"
-- category: "dev-libs"
-  name: "libxml2"
-  version: ">=2.9.9"
-- category: "media-libs"
-  name: "fontconfig"
-  version: ">=2.13.1"
-- category: "media-libs"
-  name: "freetype"
-  version: ">=2.9.1"
-- category: "dev-java"
-  name: "java-config"
-  version: ">=2.2.0"
-- category: "media-libs"
-  name: "libaacs"
-  version: ">=0.9.0"
-- category: "dev-java"
-  name: "ant-core"
-  version: ">=1.10.5"
-- category: "media-libs"
-  name: "libbs2b"
-  version: ">=3.1.0"
-- category: "media-libs"
-  name: "libsndfile"
-  version: ">=1.0.28"
-- category: "app-arch"
-  name: "bzip2"
-  version: ">=1.0.6"
-- category: "dev-libs"
-  name: "libcdio-paranoia"
-  version: ">=2.0.1"
-- category: "app-eselect"
-  name: "eselect-cdparanoia"
-  version: ">=0.1"
-- category: "dev-libs"
-  name: "libcdio"
-  version: ">=2.0.0"
-- category: "sys-devel"
-  name: "gettext"
-  version: ">=0.20.1"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "media-libs"
-  name: "chromaprint"
-  version: ">=1.4.3"
-- category: "dev-cpp"
-  name: "gtest"
-  version: ">=1.8.0"
-- category: "dev-util"
-  name: "ninja"
-  version: ">=1.8.2"
-- category: "dev-util"
-  name: "cmake"
-  version: ">=3.14.6"
-- category: "media-libs"
-  name: "dav1d"
-  version: ">=0.3.1"
-- category: "dev-lang"
-  name: "nasm"
-  version: ">=2.14.02"
-- category: "dev-util"
-  name: "meson"
-  version: ">=0.52.1"
-- category: "media-libs"
-  name: "vo-amrwbenc"
-  version: ">=0.1.3"
-- category: "dev-lang"
-  name: "yasm"
-  version: ">=1.3.0"
-- category: "media-sound"
-  name: "lame"
-  version: ">=3.100"
-- category: "sys-libs"
-  name: "ncurses"
-  version: ">=6.1"
-- category: "media-libs"
-  name: "openh264"
-  version: ">=1.7.0"
-- category: "app-arch"
-  name: "unzip"
-  version: ">=6.0"
-- category: "app-arch"
-  name: "snappy"
-  version: ">=1.1.8"
-- category: "media-libs"
-  name: "libtheora"
-  version: ">=1.1.1"
-- category: "media-libs"
-  name: "libogg"
-  version: ">=1.3.4"
-- category: "media-libs"
-  name: "libvorbis"
-  version: ">=1.3.6"
-- category: "media-libs"
-  name: "libpng"
-  version: ">=1.6.37"
-- category: "media-libs"
-  name: "libsdl"
-  version: ">=1.2.15"
-- category: "media-sound"
-  name: "twolame"
-  version: ">=0.3.13"
-- category: "media-sound"
-  name: "wavpack"
-  version: ">=5.1.0"
-- category: "media-libs"
-  name: "libwebp"
-  version: ">=1.0.2"
-- category: "media-libs"
-  name: "giflib"
-  version: ">=5.2.1"
-- category: "media-libs"
-  name: "freeglut"
-  version: ">=3.2.1"
-- category: "media-libs"
-  name: "tiff"
-  version: ">=4.1.0"
-- category: "media-libs"
-  name: "x264"
-  version: ">=0.0.20190903"
-- category: "media-libs"
-  name: "x265"
-  version: ">=3.1.2"
-- category: "sys-process"
-  name: "numactl"
-  version: ">=2.0.13"
-- category: "sys-devel"
-  name: "make"
-  version: ">=4.2.1"
-- category: "media-libs"
-  name: "xvid"
-  version: ">=1.3.5"
-- category: "sys-apps"
-  name: "grep"
-  version: ">=3.3"
-- category: "media-libs"
-  name: "fdk-aac"
-  version: ">=2.0.0"
-- category: "app-accessibility"
-  name: "flite"
-  version: ">=1.4"
-- category: "media-sound"
-  name: "pulseaudio"
-  version: ">=13.0"
-- category: "media-plugins"
-  name: "frei0r-plugins"
-  version: ">=1.6.1"
-- category: "x11-libs"
-  name: "cairo"
-  version: ">=1.16.0"
-- category: "media-libs"
-  name: "opencv"
-  version: ">=3.4.1"
-- category: "media-libs"
-  name: "gavl"
-  version: ">=1.4.0"
-- category: "dev-libs"
-  name: "fribidi"
-  version: ">=1.0.8"
-- category: "dev-libs"
-  name: "libgcrypt"
-  version: ">=1.8.5"
-- category: "dev-libs"
-  name: "libgpg-error"
-  version: ">=1.36"
-- category: "dev-libs"
-  name: "gmp"
-  version: ">=6.1.2"
-- category: "sys-devel"
-  name: "m4"
-  version: ">=1.4.18"
-- category: "app-arch"
-  name: "xz-utils"
-  version: ">=5.2.4"
-- category: "media-sound"
-  name: "gsm"
-  version: ">=1.0.13"
-- category: "media-libs"
-  name: "libiec61883"
-  version: ">=1.2.0"
-- category: "sys-libs"
-  name: "libraw1394"
-  version: ">=2.1.2"
-- category: "sys-libs"
-  name: "libavc1394"
-  version: ">=0.5.4"
-- category: "media-libs"
-  name: "libdc1394"
-  version: ">=2.2.5"
-- category: "media-sound"
-  name: "jack-audio-connection-kit"
-  version: ">=0.125.0"
-- category: "media-libs"
-  name: "openjpeg-2"
-  version: ">=2.3.1"
-- category: "media-libs"
-  name: "lcms-2"
-  version: ">=2.9"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=1.2.11"
-- category: "media-libs"
-  name: "libass"
-  version: ">=0.14.0"
-- category: "media-libs"
-  name: "harfbuzz"
-  version: ">=2.6.4"
-- category: "media-libs"
-  name: "imlib2"
-  version: ">=1.6.1"
-- category: "dev-lang"
-  name: "mono"
-  version: ">=4.8.0.524"
-- category: "media-libs"
-  name: "ftgl"
-  version: ">=2.1.3"
-- category: "sys-libs"
-  name: "slang"
-  version: ">=2.3.2"
-- category: "x11-libs"
-  name: "libX11"
-  version: ">=1.6.9"
-- category: "x11-libs"
-  name: "libXt"
-  version: ">=1.2.0"
-- category: "dev-texlive"
-  name: "texlive-fontsrecommended"
-  version: ">=2019"
-- category: "dev-texlive"
-  name: "texlive-latexextra"
-  version: ">=2019"
-- category: "dev-texlive"
-  name: "texlive-latexrecommended"
-  version: ">=2019"
-- category: "dev-util"
-  name: "cppunit"
-  version: ">=1.14.0"
-- category: "x11-libs"
-  name: "libdrm"
-  version: ">=2.4.100"
-- category: "dev-libs"
-  name: "libpthread-stubs"
-  version: ">=0.4"
-- category: "x11-libs"
-  name: "libpciaccess"
-  version: ">=0.16"
-- category: "dev-util"
-  name: "valgrind"
-  version: ">=3.14.0"
-- category: "media-video"
-  name: "rtmpdump"
-  version: ">=2.4"
-- category: "net-libs"
-  name: "gnutls"
-  version: ">=3.6.7"
-- category: "dev-libs"
-  name: "nettle"
-  version: ">=3.4.1"
-- category: "dev-libs"
-  name: "openssl"
-  version: ">=1.1.1d"
-- category: "media-libs"
-  name: "soxr"
-  version: ">=0.1.3"
-- category: "app-text"
-  name: "tesseract"
-  version: ">=3.05.02"
-- category: "media-libs"
-  name: "leptonica"
-  version: ">=1.74.4"
-- category: "dev-libs"
-  name: "icu"
-  version: ">=65.1"
-- category: "x11-libs"
-  name: "pango"
-  version: ">=1.42.4"
-- category: "app-text"
-  name: "asciidoc"
-  version: ">=8.6.10"
-- category: "app-text"
-  name: "docbook-xsl-stylesheets"
-  version: ">=1.79.1"
-- category: "dev-libs"
-  name: "libxslt"
-  version: ">=1.1.33"
-- category: "media-libs"
-  name: "libv4l"
-  version: ">=1.16.6"
-- category: "media-libs"
-  name: "lv2"
-  version: ">=1.16.0"
-- category: "x11-libs"
-  name: "gtk+"
-  version: ">=2.24.32"
-- category: "dev-python"
-  name: "lxml"
-  version: ">=4.4.2"
-- category: "dev-python"
-  name: "pygments"
-  version: ">=2.4.2"
-- category: "dev-python"
-  name: "rdflib"
-  version: ">=4.2.2"
-- category: "media-libs"
-  name: "lilv"
-  version: ">=0.24.4"
-- category: "dev-libs"
-  name: "serd"
-  version: ">=0.30.2"
-- category: "dev-libs"
-  name: "sord"
-  version: ">=0.16.0"
-- category: "media-libs"
-  name: "sratom"
-  version: ">=0.6.4"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-python"
-  name: "unittest2"
-  version: ">=1.1.0"
-- category: "dev-vcs"
-  name: "git"
-  version: ">=2.24.1"
-- category: "media-libs"
-  name: "libmodplug"
-  version: ">=0.8.9.0"
-- category: "media-libs"
-  name: "openal"
-  version: ">=1.20.0"
-- category: "media-libs"
-  name: "portaudio"
-  version: ">=19.06.00"
-- category: "dev-qt"
-  name: "qtcore"
-  version: ">=5.14.1"
-- category: "dev-qt"
-  name: "qtgui"
-  version: ">=5.14.1"
-- category: "dev-qt"
-  name: "qtwidgets-5"
-  version: ">=5.14.1"
-- category: "media-libs"
-  name: "libsdl2"
-  version: ">=2.0.10"
-- category: "media-libs"
-  name: "opus"
-  version: ">=1.3.1"
-- category: "media-gfx"
-  name: "graphviz"
-  version: ">=2.42.1"
-- category: "media-libs"
-  name: "rubberband"
-  version: ">=1.8.2"
-- category: "media-libs"
-  name: "ladspa-sdk"
-  version: ">=1.13"
-- category: "media-libs"
-  name: "libsamplerate"
-  version: ">=0.1.9"
-- category: "media-libs"
-  name: "vamp-plugin-sdk"
-  version: ">=2.7.1"
-- category: "sci-libs"
-  name: "fftw"
-  version: ">=2.1.5"
-- category: "net-fs"
-  name: "samba"
-  version: ">=4.9.18"
-- category: "app-arch"
-  name: "libarchive"
-  version: ">=3.4.2"
-- category: "dev-libs"
-  name: "libbsd"
-  version: ">=0.9.1"
-- category: "dev-libs"
-  name: "libtasn1"
-  version: ">=4.16.0"
-- category: "dev-libs"
-  name: "popt"
-  version: ">=1.16"
-- category: "net-libs"
-  name: "libnsl"
-  version: ">=1.2.0"
-- category: "sys-apps"
-  name: "dbus"
-  version: ">=1.12.16"
-- category: "sys-libs"
-  name: "e2fsprogs-libs"
-  version: ">=1.45.5"
-- category: "sys-libs"
-  name: "ldb"
-  version: ">=1.4.8"
-- category: "sys-libs"
-  name: "libcap"
-  version: ">=2.27"
-- category: "sys-libs"
-  name: "readline"
-  version: ">=7.0"
-- category: "sys-libs"
-  name: "talloc"
-  version: ">=2.1.14"
-- category: "sys-libs"
-  name: "tdb"
-  version: ">=1.3.16"
-- category: "sys-libs"
-  name: "tevent"
-  version: ">=0.9.37"
-- category: "sys-libs"
-  name: "pam"
-  version: ">=1.3.0"
-- category: "dev-python"
-  name: "subunit"
-  version: ">=1.2.0"
-- category: "net-dns"
-  name: "bind-tools"
-  version: ">=9.14.8"
-- category: "dev-python"
-  name: "dnspython"
-  version: ">=1.16.0"
-- category: "sys-cluster"
-  name: "ceph"
-  version: ">=14.2.7"
-- category: "net-libs"
-  name: "rpcsvc-proto"
-  version: ">=1.4"
-- category: "net-print"
-  name: "cups"
-  version: ">=2.3.1"
-- category: "sys-apps"
-  name: "dmapi"
-  version: ">=2.2.12"
-- category: "app-crypt"
-  name: "gpgme"
-  version: ">=1.13.0"
-- category: "dev-libs"
-  name: "jansson"
-  version: ">=2.12"
-- category: "net-nds"
-  name: "openldap"
-  version: ">=2.4.48"
-- category: "app-crypt"
-  name: "mit-krb5"
-  version: ">=1.17"
-- category: "sys-apps"
-  name: "systemd"
-  version: ">=242"
-- category: "net-dns"
-  name: "avahi"
-  version: ">=0.7"
-- category: "dev-util"
-  name: "cmocka"
-  version: ">=1.1.5"
-- category: "net-libs"
-  name: "libtirpc"
-  version: ">=1.1.4"
-- category: "sys-libs"
-  name: "glibc"
-  version: ">=2.29"
-- category: "sys-libs"
-  name: "nss_wrapper"
-  version: ">=1.1.3"
-- category: "net-libs"
-  name: "socket_wrapper"
-  version: ">=1.1.7"
-- category: "sys-libs"
-  name: "uid_wrapper"
-  version: ">=1.2.4"
-- category: "net-fs"
-  name: "cifs-utils"
-  version: ">=6.9"
-- category: "media-libs"
-  name: "speex"
-  version: ">=1.2.0"
-- category: "media-libs"
-  name: "speexdsp"
-  version: ">=1.2"
-- category: "net-libs"
-  name: "libssh"
-  version: ">=0.9.3"
-- category: "net-libs"
-  name: "mbedtls"
-  version: ">=2.12.0"
-- category: "gnome-base"
-  name: "librsvg-2"
-  version: ">=2.40.21"
-- category: "dev-libs"
-  name: "glib"
-  version: ">=2.60.7"
-- category: "dev-libs"
-  name: "libcroco-0.6"
-  version: ">=0.6.13"
-- category: "x11-libs"
-  name: "gdk-pixbuf-2"
-  version: ">=2.40.0"
-- category: "dev-libs"
-  name: "gobject-introspection"
-  version: ">=1.60.2"
-- category: "dev-libs"
-  name: "gobject-introspection-common"
-  version: ">=1.60.2"
-- category: "dev-libs"
-  name: "vala-common"
-  version: ">=0.46.5"
-- category: "dev-util"
-  name: "glib-utils"
-  version: ">=2.60.7"
-- category: "dev-util"
-  name: "gtk-doc-am"
-  version: ">=1.25"
-- category: "dev-lang"
-  name: "vala"
-  version: ">=0.36.20"
-- category: "dev-lang"
-  name: "vala"
-  version: ">=0.36.20"
-- category: "dev-lang"
-  name: "vala-0.44"
-  version: ">=0.44.11"
-- category: "dev-lang"
-  name: "vala"
-  version: ">=0.36.20"
-- category: "dev-lang"
-  name: "vala"
-  version: ">=0.36.20"
-- category: "dev-util"
-  name: "desktop-file-utils"
-  version: ">=0.24"
-- category: "x11-misc"
-  name: "shared-mime-info"
-  version: ">=1.10"
-- category: "x11-libs"
-  name: "libva"
-  version: ">=2.5.0"
-- category: "dev-libs"
-  name: "wayland"
-  version: ">=1.17.0"
-- category: "x11-libs"
-  name: "libXext"
-  version: ">=1.3.4"
-- category: "x11-libs"
-  name: "libXfixes"
-  version: ">=5.0.3"
-- category: "x11-libs"
-  name: "libva-vdpau-driver"
-  version: ">=0.7.4"
-- category: "x11-libs"
-  name: "libva-intel-driver"
-  version: ">=2.3.0"
-- category: "x11-drivers"
-  name: "nvidia-drivers"
-  version: ">="
-- category: "x11-libs"
-  name: "libvdpau"
-  version: ">=1.3"
-- category: "x11-base"
-  name: "xorg-proto"
-  version: ">=2019.2"
-- category: "x11-base"
-  name: "xorg-server"
-  version: ">=1.20.7"
-- category: "x11-apps"
-  name: "xhost"
-  version: ">=1.0.8"
-- category: "media-libs"
-  name: "vidstab"
-  version: ">=1.1.0"
-- category: "media-libs"
-  name: "libvpx"
-  version: ">=1.7.0"
-- category: "dev-lang"
-  name: "php-7.3"
-  version: ">=7.3.15"
-- category: "x11-libs"
-  name: "libXv"
-  version: ">=1.0.11"
-- category: "x11-misc"
-  name: "util-macros"
-  version: ">=1.19.2"
-- category: "media-fonts"
-  name: "font-util"
-  version: ">=1.3.2"
-- category: "x11-libs"
-  name: "libxcb"
-  version: ">=1.13.1"
-- category: "x11-libs"
-  name: "libXau"
-  version: ">=1.0.9"
-- category: "x11-libs"
-  name: "libXdmcp"
-  version: ">=1.1.3"
-- category: "dev-libs"
-  name: "check"
-  version: ">=0.12.0"
-- category: "x11-base"
-  name: "xcb-proto"
-  version: ">=1.13"
-- category: "dev-ruby"
-  name: "asciidoctor"
-  version: ">=2.0.10"
-- category: "app-text"
-  name: "xmlto"
-  version: ">=0.0.28"
-- category: "app-text"
-  name: "docbook-xml-dtd"
-  version: ">=4.1.2"
-- category: "app-text"
-  name: "docbook-xml-dtd"
-  version: ">=4.2"
-- category: "app-text"
-  name: "docbook-xml-dtd"
-  version: ">=4.3"
-- category: "net-libs"
-  name: "zeromq"
-  version: ">=4.3.2"
-- category: "sys-libs"
-  name: "libunwind"
-  version: ">=1.2.1"
-- category: "dev-libs"
-  name: "libsodium"
-  version: ">=1.0.18"
-- category: "sys-apps"
-  name: "util-linux"
-  version: ">=2.33.2"
-- category: "sys-kernel"
-  name: "linux-headers"
-  version: ">=4.19"
-- category: "sys-devel"
-  name: "clang-9"
-  version: ">=9.0.1"
-- category: "sys-devel"
-  name: "llvm-9"
-  version: ">=9.0.1"
-- category: "sys-devel"
-  name: "clang-common"
-  version: ">=9.0.1"
-- category: "sys-devel"
-  name: "clang-runtime-9.0.1"
-  version: ">=9.0.1"
-- category: "sys-libs"
-  name: "compiler-rt-9.0.1"
-  version: ">=9.0.1"
-- category: "sys-libs"
-  name: "libcxx"
-  version: ">=9.0.1"
-- category: "dev-python"
-  name: "sphinx"
-  version: ">=1.7.5"
-- category: "sys-apps"
-  name: "texinfo"
-  version: ">=6.7"
-- category: "dev-perl"
-  name: "libintl-perl"
-  version: ">=1.310.0"
-- category: "dev-perl"
-  name: "Unicode-EastAsianWidth"
-  version: ">=1.330.0"
-- category: "dev-perl"
-  name: "Text-Unidecode"
-  version: ">=1.300.0"
-- category: "net-misc"
-  name: "wget"
-  version: ">=1.20.3"
-- category: "net-libs"
-  name: "libpsl"
-  version: ">=0.21.0"
-- category: "net-dns"
-  name: "libidn2"
-  version: ">=2.1.1a"
-- category: "dev-libs"
-  name: "libpcre2"
-  version: ">=10.33"
-- category: "dev-perl"
-  name: "HTTP-Daemon"
-  version: ">=6.10.0"
-- category: "dev-perl"
-  name: "HTTP-Message"
-  version: ">=6.130.0"
-- category: "dev-perl"
-  name: "IO-Socket-SSL"
-  version: ">=2.66.0"
-- category: "sys-devel"
-  name: "bc"
-  version: ">=1.07.1"
-- category: "dev-libs"
-  name: "libedit"
-  version: ">=20170329.3.1"
-- category: "sys-devel"
-  name: "flex"
-  version: ">=2.6.4"
+- State: ""
+  category: app-arch
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: bzip2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.0.6'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: yasm
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.3'
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: gmp
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=6'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: alsa-lib
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.0.27.2'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: fdk-aac
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.1.3'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: freetype-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.5.0.1'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libbluray
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.3.0'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libdc1394-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.2.1'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libogg
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.3.0'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libtheora
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.1.1'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libvorbis
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.3.3'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libvpx
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.4.0'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libwebp
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.3.0'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: openal
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.15.1'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: opencore-amr
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.1.3'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: openjpeg-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: opus
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.0.2'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: speex
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.2'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: vidstab
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.1.0'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: x264
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.0.20130506'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: x265
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.6'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: xvid
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.3.2'
+- State: ""
+  category: media-sound
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: gsm
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.0.13'
+- State: ""
+  category: media-sound
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: lame
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=3.99.5'
+- State: ""
+  category: media-sound
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: pulseaudio
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.1'
+- State: ""
+  category: net-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: gnutls
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.12.23'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: make
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=3.81'
+- State: ""
+  category: sys-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libraw1394
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.1.0'
+- State: ""
+  category: sys-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: zlib
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.2.8'
+- State: ""
+  category: x11-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libX11
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.6.2'
+- State: ""
+  category: x11-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libXext
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.3.2'
+- State: ""
+  category: x11-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libXv
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.0.10'
+- State: ""
+  category: x11-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libva
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.2.1'
+- State: ""
+  category: x11-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libvdpau
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.7'
+- State: ""
+  category: x11-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libxcb
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.4'
+- State: ""
+  category: gnome-base
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: librsvg-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libsdl2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: net-misc
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: wget
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: bc
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-kernel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: linux-headers
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- -cpu_flags_arm_vfpv3
+- -cpu_flags_x86_3dnowext
+- vdpau
+- -pic
+- iconv
+- -cpu_flags_x86_aes
+- -openh264
+- bzip2
+- ieee1394
+- fftools_ffeval
+- -cpu_flags_x86_sse3
+- threads
+- -twolame
+- -mipsfpu
+- fftools_ffescape
+- cpu_flags_x86_mmx
+- -mmal
+- split-usr
+- cpu_flags_x86_sse2
+- -cpu_flags_x86_fma4
+- -cpu_flags_arm_v8
+- -cpu_flags_x86_xop
+- -abi_riscv_lp64d
+- -cpu_flags_x86_3dnow
+- fftools_qt-faststart
+- gmp
+- -cpu_flags_arm_v6
+- amd64
+- -zimg
+- -codec2
+- -oss
+- pulseaudio
+- -cpu_flags_arm_thumb2
+- mp3
+- -libtesseract
+- -libaom
+- -doc
+- -gme
+- vaapi
+- opus
+- -libilbc
+- fftools_sidxindex
+- vpx
+- -video_cards_nvidia
+- -iec61883
+- -cdio
+- opengl
+- -abi_s390_64
+- -frei0r
+- -wavpack
+- speex
+- -libaribb24
+- userland_GNU
+- truetype
+- -srt
+- alsa
+- -libsoxr
+- -snappy
+- fftools_trasher
+- -libcaca
+- -abi_mips_n64
+- fftools_fourcc2pixfmt
+- -abi_mips_o32
+- elibc_glibc
+- postproc
+- jpeg2k
+- zlib
+- sdl
+- -libressl
+- -libxml2
+- -gcrypt
+- -ssh
+- -cpu_flags_x86_ssse3
+- -kvazaar
+- -altivec
+- fftools_cws2fws
+- webp
+- bluray
+- -amrenc
+- big-endian
+- -bs2b
+- x265
+- gnutls
+- fftools_ismindex
+- vorbis
+- -cpu_flags_x86_sse4_1
+- -ladspa
+- -libass
+- encode
+- openal
+- theora
+- -zvbi
+- -modplug
+- -cpu_flags_x86_sse4_2
+- -opencl
+- -abi_x86_x32
+- -abi_s390_32
+- cpu_flags_x86_sse
+- -zeromq
+- fdk
+- -fontconfig
+- kernel_linux
+- -debug
+- -chromaprint
+- -mipsdspr2
+- -fribidi
+- -hardcoded-tables
+- -cpu_flags_x86_fma3
+- -cuda
+- cpu_flags_x86_mmxext
+- -libdrm
+- vidstab
+- fftools_aviocat
+- -lzma
+- fftools_graph2dot
+- -lv2
+- cpudetection
+- -cpu_flags_x86_avx2
+- -mipsdspr1
+- jack
+- svg
+- -samba
+- -cpu_flags_arm_thumb
+- abi_x86_64
+- gsm
+- xvid
+- -flite
+- v4l
+- network
+- -cpu_flags_arm_vfp
+- test
+- -abi_riscv_lp64
+- fftools_pktdumper
+- gpl
+- amr
+- -abi_mips_n32
+- -appkit
+- -cpu_flags_arm_neon
+- -cpu_flags_x86_avx
+- abi_x86_32
+- -chromium
+- -rubberband
+- X
+- x264
+- -static-libs
+- fftools_ffhash
+- -openssl
+- -libv4l
+- -dav1d
+- -librtmp
+version: 4.2.2+2

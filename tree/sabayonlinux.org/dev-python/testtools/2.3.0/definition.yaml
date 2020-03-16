@@ -1,86 +1,184 @@
-
-category: "dev-python"
-name: "testtools"
-version: "2.3.0"
+State: ""
+category: dev-python
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: testtools
+provides: null
 requires:
-- category: "dev-python"
-  name: "setuptools"
-  version: ">=44.0.0"
-- category: "dev-python"
-  name: "certifi"
-  version: ">=2019.11.28"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-exec"
-  version: ">=2.4.6"
-- category: "app-arch"
-  name: "unzip"
-  version: ">=6.0"
-- category: "dev-python"
-  name: "mock"
-  version: ">=2.0.0"
-- category: "dev-python"
-  name: "pip"
-  version: ">=19.3.1"
-- category: "dev-python"
-  name: "pytest"
-  version: ">=5.3.5"
-- category: "dev-python"
-  name: "wheel"
-  version: ">=0.33.1"
-- category: "dev-python"
-  name: "extras"
-  version: ">=1.0.0"
-- category: "dev-python"
-  name: "mimeparse"
-  version: ">=1.6.0"
-- category: "dev-python"
-  name: "pbr"
-  version: ">=5.1.1"
-- category: "dev-python"
-  name: "coverage"
-  version: ">=4.5.2"
-- category: "dev-python"
-  name: "fixtures"
-  version: ">=3.0.0"
-- category: "dev-python"
-  name: "subunit"
-  version: ">=1.2.0"
-- category: "dev-python"
-  name: "six"
-  version: ">=1.12.0"
-- category: "dev-python"
-  name: "virtualenv"
-  version: ">=16.0.0"
-- category: "dev-python"
-  name: "sphinx"
-  version: ">=1.7.5"
-- category: "dev-vcs"
-  name: "git"
-  version: ">=2.24.1"
-- category: "dev-python"
-  name: "pyrsistent"
-  version: ">=0.14.4"
-- category: "dev-python"
-  name: "hypothesis"
-  version: ">=3.74.3"
-- category: "dev-python"
-  name: "traceback2"
-  version: ">=1.4.0"
-- category: "dev-python"
-  name: "linecache2"
-  version: ">=1.0.0"
-- category: "dev-python"
-  name: "unittest2"
-  version: ">=1.1.0"
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: python-2.7
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.7.5'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: python-exec-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2'
+- State: ""
+  category: dev-python
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: extras
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.0.0'
+- State: ""
+  category: dev-python
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: fixtures
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.3.0'
+- State: ""
+  category: dev-python
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: pbr
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.11'
+- State: ""
+  category: dev-python
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: six
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.4.0'
+- State: ""
+  category: dev-python
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: unittest2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.0.0'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: python-3.6
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-python
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: mimeparse
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-python
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: pyrsistent
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-python
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: setuptools
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-python
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: traceback2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- -doc
+- -python_targets_pypy
+- python_targets_python2_7
+- -python_targets_python3_5
+- elibc_glibc
+- abi_x86_64
+- -python_targets_pypy3
+- python_targets_python3_6
+- userland_GNU
+- big-endian
+- split-usr
+- -test
+- kernel_linux
+- amd64
+- -python_targets_python3_7
+version: 2.3.0+1

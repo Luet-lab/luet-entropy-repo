@@ -1,8 +1,35 @@
-
-category: "dev-perl"
-name: "Variable-Magic"
-version: "0.620.0"
+State: ""
+category: dev-perl
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: Variable-Magic
+provides: null
 requires:
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: perl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- userland_GNU
+- amd64
+- big-endian
+- -test
+- kernel_linux
+- elibc_glibc
+- -examples
+- abi_x86_64
+- split-usr
+version: 0.620.0+1

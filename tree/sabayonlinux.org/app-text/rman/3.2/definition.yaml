@@ -1,4 +1,18 @@
-
-category: "app-text"
-name: "rman"
-version: "3.2+r1"
+State: ""
+category: app-text
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: rman
+provides: null
+requires: null
+set: false
+uri: null
+use_flags:
+- elibc_glibc
+- kernel_linux
+- userland_GNU
+- amd64
+- abi_x86_64
+version: 3.2+r2

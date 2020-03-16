@@ -1,38 +1,48 @@
-
-category: "dev-tex"
-name: "pgf"
-version: "3.1.4b+r2"
+State: ""
+category: dev-tex
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: pgf
+provides: null
 requires:
-- category: "dev-texlive"
-  name: "texlive-latexrecommended"
-  version: ">=2019"
-- category: "dev-texlive"
-  name: "texlive-fontutils"
-  version: ">=2019"
-- category: "dev-texlive"
-  name: "texlive-fontsrecommended"
-  version: ">=2019"
-- category: "sys-apps"
-  name: "texinfo"
-  version: ">=6.7"
-- category: "sys-libs"
-  name: "ncurses"
-  version: ">=6.1"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "dev-perl"
-  name: "libintl-perl"
-  version: ">=1.310.0"
-- category: "dev-perl"
-  name: "Unicode-EastAsianWidth"
-  version: ">=1.330.0"
-- category: "dev-perl"
-  name: "Text-Unidecode"
-  version: ">=1.300.0"
-- category: "app-arch"
-  name: "xz-utils"
-  version: ">=5.2.4"
-- category: "sys-devel"
-  name: "gettext"
-  version: ">=0.20.1"
+- State: ""
+  category: sys-apps
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: texinfo
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=4.2'
+- State: ""
+  category: dev-texlive
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: texlive-latexrecommended
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- -doc
+- abi_x86_64
+- elibc_glibc
+- userland_GNU
+- -source
+- split-usr
+- big-endian
+- amd64
+- kernel_linux
+version: 3.1.4b+r3

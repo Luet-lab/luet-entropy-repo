@@ -1,56 +1,107 @@
-
-category: "media-libs"
-name: "libart_lgpl"
-version: "2.3.21+r3"
+State: ""
+category: media-libs
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: libart_lgpl
+provides: null
 requires:
-- category: "dev-util"
-  name: "pkgconfig"
-  version: ">=0.29.2"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "app-arch"
-  name: "xz-utils"
-  version: ">=5.2.4"
-- category: "sys-apps"
-  name: "gentoo-functions"
-  version: ">=0.12"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "sys-devel"
-  name: "automake-wrapper"
-  version: ">=11"
-- category: "sys-devel"
-  name: "gnuconfig"
-  version: ">=20190912"
-- category: "app-arch"
-  name: "gzip"
-  version: ">=1.9"
-- category: "sys-apps"
-  name: "help2man"
-  version: ">=1.47.11"
-- category: "sys-devel"
-  name: "automake-1.15"
-  version: ">=1.15.1"
-- category: "sys-devel"
-  name: "libtool-2"
-  version: ">=2.4.6"
-- category: "dev-libs"
-  name: "libltdl"
-  version: ">=2.4.6"
-- category: "dev-util"
-  name: "desktop-file-utils"
-  version: ">=0.24"
-- category: "x11-misc"
-  name: "shared-mime-info"
-  version: ">=1.10"
-- category: "dev-libs"
-  name: "libxml2-2"
-  version: ">=2.9.9"
-- category: "dev-util"
-  name: "intltool"
-  version: ">=0.51.0"
-- category: "sys-devel"
-  name: "gettext"
-  version: ">=0.20.1"
+- State: ""
+  category: app-portage
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: elt-patches
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=20170815'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: autoconf-2.69
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.69'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: automake-1.15
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.15.1'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libtool-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.4'
+- State: ""
+  category: dev-util
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: desktop-file-utils
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: x11-misc
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: shared-mime-info
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- big-endian
+- -abi_s390_32
+- -abi_mips_n32
+- -abi_x86_x32
+- -abi_riscv_lp64d
+- -abi_mips_n64
+- amd64
+- -abi_mips_o32
+- elibc_glibc
+- abi_x86_64
+- kernel_linux
+- abi_x86_32
+- -abi_s390_64
+- split-usr
+- -abi_riscv_lp64
+- userland_GNU
+version: 2.3.21+r5

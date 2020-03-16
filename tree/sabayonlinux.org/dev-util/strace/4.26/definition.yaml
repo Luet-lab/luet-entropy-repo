@@ -1,53 +1,50 @@
-
-category: "dev-util"
-name: "strace"
-version: "4.26"
+State: ""
+category: dev-util
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: strace
+provides: null
 requires:
-- category: "sys-libs"
-  name: "libunwind"
-  version: ">=1.2.1"
-- category: "app-arch"
-  name: "xz-utils"
-  version: ">=5.2.4"
-- category: "dev-libs"
-  name: "libatomic_ops"
-  version: ">=7.6.6"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "sys-devel"
-  name: "automake"
-  version: ">=1.15.1"
-- category: "sys-devel"
-  name: "libtool"
-  version: ">=2.4.6"
-- category: "dev-libs"
-  name: "elfutils"
-  version: ">=0.177"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=1.2.11"
-- category: "app-arch"
-  name: "bzip2"
-  version: ">=1.0.6"
-- category: "dev-util"
-  name: "valgrind"
-  version: ">=3.14.0"
-- category: "sys-devel"
-  name: "gettext"
-  version: ">=0.20.1"
-- category: "sys-devel"
-  name: "flex"
-  version: ">=2.6.4"
-- category: "sys-devel"
-  name: "m4"
-  version: ">=1.4.18"
-- category: "dev-libs"
-  name: "libaio"
-  version: ">=0.3.112"
-- category: "sys-kernel"
-  name: "linux-headers"
-  version: ">=4.19"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: perl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-kernel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: linux-headers
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- elibc_glibc
+- abi_x86_64
+- perl
+- -unwind
+- kernel_linux
+- big-endian
+- userland_GNU
+- -static
+- -aio
+- -elfutils
+- amd64
+version: 4.26+1

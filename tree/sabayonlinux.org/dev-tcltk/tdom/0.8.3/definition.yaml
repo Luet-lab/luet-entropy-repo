@@ -1,23 +1,86 @@
-
-category: "dev-tcltk"
-name: "tdom"
-version: "0.8.3+r4"
+State: ""
+category: dev-tcltk
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: tdom
+provides: null
 requires:
-- category: "dev-lang"
-  name: "tcl"
-  version: ">=8.6.8"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=1.2.11"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "sys-devel"
-  name: "automake-1.15"
-  version: ">=1.15.1"
-- category: "sys-devel"
-  name: "libtool-2"
-  version: ">=2.4.6"
-- category: "dev-libs"
-  name: "expat"
-  version: ">=2.2.8"
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: autoconf-2.69
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.68'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: automake-1.15
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.13'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: tcl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: expat
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libtool-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- -threads
+- -static-libs
+- amd64
+- abi_x86_64
+- multilib
+- kernel_linux
+- userland_GNU
+- elibc_glibc
+version: 0.8.3+r5

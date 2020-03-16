@@ -1,29 +1,86 @@
-
-category: "dev-texlive"
-name: "texlive-mathscience"
-version: "2019"
+State: ""
+category: dev-texlive
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: texlive-mathscience
+provides: null
 requires:
-- category: "dev-texlive"
-  name: "texlive-fontsrecommended"
-  version: ">=2019"
-- category: "dev-texlive"
-  name: "texlive-basic"
-  version: ">=2019"
-- category: "app-text"
-  name: "texlive-core"
-  version: ">=2019"
-- category: "app-arch"
-  name: "xz-utils"
-  version: ">=5.2.4"
-- category: "dev-texlive"
-  name: "texlive-latex"
-  version: ">=2019"
-- category: "dev-texlive"
-  name: "texlive-pstricks"
-  version: ">=2019"
-- category: "dev-texlive"
-  name: "texlive-plaingeneric"
-  version: ">=2019"
-- category: "dev-tex"
-  name: "pgf"
-  version: ">=3.1.4b"
+- State: ""
+  category: app-text
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: texlive-core
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2019'
+- State: ""
+  category: dev-texlive
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: texlive-fontsrecommended
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2019'
+- State: ""
+  category: dev-texlive
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: texlive-latex
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2019'
+- State: ""
+  category: app-arch
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: xz-utils
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-texlive
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: texlive-pstricks
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- elibc_glibc
+- big-endian
+- -source
+- amd64
+- kernel_linux
+- abi_x86_64
+- userland_GNU
+- -doc
+version: 2019+1

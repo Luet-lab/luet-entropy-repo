@@ -1,14 +1,31 @@
-
-category: "app-dicts"
-name: "myspell-nn"
-version: "2.0.10"
+State: ""
+category: app-dicts
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: myspell-nn
+provides: null
 requires:
-- category: "app-arch"
-  name: "unzip"
-  version: ">=6.0"
-- category: "app-arch"
-  name: "bzip2"
-  version: ">=1.0.6"
-- category: "dev-libs"
-  name: "libnatspec"
-  version: ">=0.3.0"
+- State: ""
+  category: app-arch
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: unzip
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- userland_GNU
+- kernel_linux
+- amd64
+- elibc_glibc
+- multilib
+version: 2.0.10+1

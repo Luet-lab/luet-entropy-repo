@@ -1,20 +1,51 @@
-
-category: "dev-ruby"
-name: "erubis"
-version: "2.7.0+r2"
+State: ""
+category: dev-ruby
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: erubis
+provides: null
 requires:
-- category: "dev-ruby"
-  name: "abstract"
-  version: ">=1.0.0"
-- category: "dev-lang"
-  name: "ruby-2.5"
-  version: ">=2.5.7"
-- category: "dev-lang"
-  name: "ruby-2.5"
-  version: ">=2.5.7"
-- category: "dev-lang"
-  name: "ruby-2.5"
-  version: ">=2.5.7"
-- category: "dev-lang"
-  name: "ruby-2.5"
-  version: ">=2.5.7"
+- State: ""
+  category: dev-ruby
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: abstract
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.0.0'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: ruby-2.5
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- -test
+- ruby_targets_ruby25
+- amd64
+- big-endian
+- -doc
+- userland_GNU
+- split-usr
+- abi_x86_64
+- -ruby_targets_ruby26
+- kernel_linux
+- elibc_glibc
+- -ruby_targets_ruby24
+version: 2.7.0+r3

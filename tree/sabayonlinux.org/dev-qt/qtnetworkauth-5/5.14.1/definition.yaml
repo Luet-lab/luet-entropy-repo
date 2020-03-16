@@ -1,56 +1,74 @@
-
-category: "dev-qt"
-name: "qtnetworkauth-5"
-version: "5.14.1"
+State: ""
+category: dev-qt
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: qtnetworkauth-5
+provides: null
 requires:
-- category: "dev-qt"
-  name: "qtcore"
-  version: ">=5.14.1"
-- category: "dev-libs"
-  name: "double-conversion"
-  version: ">=3.1.5"
-- category: "dev-libs"
-  name: "glib"
-  version: ">=2.60.7"
-- category: "dev-libs"
-  name: "libpcre2"
-  version: ">=10.33"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=1.2.11"
-- category: "dev-libs"
-  name: "icu"
-  version: ">=65.1"
-- category: "sys-apps"
-  name: "systemd"
-  version: ">=242"
-- category: "dev-qt"
-  name: "qttest-5"
-  version: ">=5.14.1"
-- category: "dev-qt"
-  name: "qtchooser"
-  version: ">=66"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "dev-qt"
-  name: "qtnetwork-5"
-  version: ">=5.14.1"
-- category: "dev-qt"
-  name: "qtdbus-5"
-  version: ">=5.14.1"
-- category: "net-libs"
-  name: "libproxy"
-  version: ">=0.4.15"
-- category: "net-misc"
-  name: "lksctp-tools"
-  version: ">=1.0.18"
-- category: "dev-libs"
-  name: "openssl"
-  version: ">=1.1.1d"
-- category: "net-misc"
-  name: "connman"
-  version: ">=1.37"
-- category: "net-misc"
-  name: "networkmanager"
-  version: ">=1.18.4"
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: perl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-qt
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: qtchooser
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-qt
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: qtcore-5
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=5.14.1'
+- State: ""
+  category: dev-qt
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: qtnetwork-5
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=5.14.1'
+set: false
+uri: null
+use_flags:
+- amd64
+- -test
+- elibc_glibc
+- -debug
+- split-usr
+- userland_GNU
+- kernel_linux
+- abi_x86_64
+- big-endian
+version: 5.14.1+1

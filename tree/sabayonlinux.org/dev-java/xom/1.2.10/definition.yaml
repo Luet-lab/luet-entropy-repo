@@ -1,68 +1,114 @@
-
-category: "dev-java"
-name: "xom"
-version: "1.2.10"
+State: ""
+category: dev-java
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: xom
+provides: null
 requires:
-- category: "dev-java"
-  name: "icedtea-bin"
-  version: ">=3.12.0"
-- category: "dev-java"
-  name: "openjdk-bin"
-  version: ">=11.0.2"
-- category: "dev-java"
-  name: "openjdk"
-  version: ">=11.0.2"
-- category: "dev-java"
-  name: "oracle-jdk-bin-1.8"
-  version: ">=1.8.0.202"
-- category: "dev-java"
-  name: "jarjar-1"
-  version: ">=1.4"
-- category: "dev-java"
-  name: "asm"
-  version: ">=3.3.1"
-- category: "dev-java"
-  name: "gnu-regexp"
-  version: ">=1.1.4"
-- category: "dev-java"
-  name: "java-getopt-1"
-  version: ">=1.0.14"
-- category: "dev-java"
-  name: "ant-core"
-  version: ">=1.10.5"
-- category: "app-arch"
-  name: "unzip"
-  version: ">=6.0"
-- category: "dev-java"
-  name: "java-config"
-  version: ">=2.2.0"
-- category: "app-arch"
-  name: "zip"
-  version: ">=3.0"
-- category: "dev-java"
-  name: "javatoolkit"
-  version: ">=0.3.0"
-- category: "dev-java"
-  name: "xerces-2"
-  version: ">=2.12.0"
-- category: "dev-java"
-  name: "xjavac-1"
-  version: ">=2.4.0"
-- category: "dev-java"
-  name: "xml-commons-resolver"
-  version: ">=1.2"
-- category: "dev-java"
-  name: "xml-commons-external"
-  version: ">=1.4.01"
-- category: "dev-java"
-  name: "xml-commons-external"
-  version: ">=1.3.04"
-- category: "java-virtuals"
-  name: "servlet-api"
-  version: ">=2.3"
-- category: "dev-java"
-  name: "tomcat-servlet-api"
-  version: ">=4.1.40"
-- category: "dev-java"
-  name: "resin-servlet-api"
-  version: ">=4.0.27"
+- State: ""
+  category: dev-java
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: ant-core
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.8.2'
+- State: ""
+  category: dev-java
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: java-config-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.1.9'
+- State: ""
+  category: dev-java
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: javatoolkit
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.3.0'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: python-3.6
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.4'
+- State: ""
+  category: dev-java
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: jarjar-1
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-java
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: xerces-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-java
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: xml-commons-external-1.4
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- elibc_glibc
+- -doc
+- -examples
+- amd64
+- -elibc_FreeBSD
+- multilib
+- abi_x86_64
+- userland_GNU
+- kernel_linux
+- -source
+version: 1.2.10+1

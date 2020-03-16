@@ -1,65 +1,126 @@
-
-category: "media-libs"
-name: "virglrenderer"
-version: "0.7.0"
+State: ""
+category: media-libs
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: virglrenderer
+provides: null
 requires:
-- category: "x11-libs"
-  name: "libdrm"
-  version: ">=2.4.100"
-- category: "dev-libs"
-  name: "libpthread-stubs"
-  version: ">=0.4"
-- category: "x11-libs"
-  name: "libpciaccess"
-  version: ">=0.16"
-- category: "dev-util"
-  name: "valgrind"
-  version: ">=3.14.0"
-- category: "dev-util"
-  name: "meson"
-  version: ">=0.52.1"
-- category: "dev-util"
-  name: "ninja"
-  version: ">=1.8.2"
-- category: "media-libs"
-  name: "libepoxy"
-  version: ">=1.5.4"
-- category: "x11-libs"
-  name: "libX11"
-  version: ">=1.6.9"
-- category: "media-libs"
-  name: "mesa"
-  version: ">=19.3.4"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "sys-devel"
-  name: "autoconf-archive"
-  version: ">=2018.03.13"
-- category: "x11-misc"
-  name: "util-macros"
-  version: ">=1.19.2"
-- category: "dev-libs"
-  name: "check"
-  version: ">=0.12.0"
-- category: "dev-python"
-  name: "subunit"
-  version: ">=1.2.0"
-- category: "sys-apps"
-  name: "texinfo"
-  version: ">=6.7"
-- category: "app-doc"
-  name: "doxygen"
-  version: ">=1.8.15"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "sys-devel"
-  name: "automake"
-  version: ">=1.15.1"
-- category: "sys-devel"
-  name: "libtool"
-  version: ">=2.4.6"
+- State: ""
+  category: app-portage
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: elt-patches
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=20170815'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: autoconf-2.69
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.69'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: automake-1.15
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.15.1'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libtool-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.4'
+- State: ""
+  category: x11-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libdrm
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.4.50'
+- State: ""
+  category: x11-misc
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: util-macros
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.8'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libepoxy
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: autoconf-archive
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- userland_GNU
+- amd64
+- -static-libs
+- abi_x86_64
+- big-endian
+- elibc_glibc
+- kernel_linux
+- -test
+- split-usr
+version: 0.7.0+1

@@ -1,4 +1,32 @@
-
-category: "sys-apps"
-name: "tcp-wrappers"
-version: "7.6.28"
+State: ""
+category: sys-apps
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: tcp-wrappers
+provides: null
+requires: null
+set: false
+uri: null
+use_flags:
+- big-endian
+- -abi_s390_32
+- -abi_mips_n32
+- -abi_x86_x32
+- -netgroups
+- -abi_mips_n64
+- amd64
+- -abi_mips_o32
+- elibc_glibc
+- abi_x86_64
+- kernel_linux
+- abi_x86_32
+- -static-libs
+- -abi_s390_64
+- userland_GNU
+- ipv6
+- split-usr
+- -abi_riscv_lp64
+- -abi_riscv_lp64d
+version: 7.6.28+2

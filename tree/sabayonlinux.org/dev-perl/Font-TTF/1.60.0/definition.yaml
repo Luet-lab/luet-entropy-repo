@@ -1,17 +1,59 @@
-
-category: "dev-perl"
-name: "Font-TTF"
-version: "1.60.0"
+State: ""
+category: dev-perl
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: Font-TTF
+provides: null
 requires:
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "dev-perl"
-  name: "IO-String"
-  version: ">=1.80.0"
-- category: "dev-perl"
-  name: "XML-Parser"
-  version: ">=2.440.0"
-- category: "dev-libs"
-  name: "expat"
-  version: ">=2.2.8"
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: perl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: IO-String
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: XML-Parser
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- userland_GNU
+- kernel_linux
+- amd64
+- big-endian
+- split-usr
+- elibc_glibc
+- abi_x86_64
+version: 1.60.0+1

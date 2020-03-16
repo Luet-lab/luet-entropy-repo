@@ -1,89 +1,88 @@
-
-category: "media-libs"
-name: "jbig2dec"
-version: "0.17+r1"
+State: ""
+category: media-libs
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: jbig2dec
+provides: null
 requires:
-- category: "media-libs"
-  name: "libpng"
-  version: ">=1.6.37"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=1.2.11"
-- category: "app-arch"
-  name: "xz-utils"
-  version: ">=5.2.4"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "app-arch"
-  name: "unzip"
-  version: ">=6.0"
-- category: "app-arch"
-  name: "bzip2"
-  version: ">=1.0.6"
-- category: "dev-libs"
-  name: "libnatspec"
-  version: ">=0.3.0"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-libs"
-  name: "libffi"
-  version: ">=3.3"
-- category: "sys-apps"
-  name: "util-linux"
-  version: ">=2.33.2"
-- category: "sys-libs"
-  name: "gdbm"
-  version: ">=1.14.1"
-- category: "sys-libs"
-  name: "ncurses"
-  version: ">=6.1"
-- category: "sys-libs"
-  name: "readline"
-  version: ">=7.0"
-- category: "dev-db"
-  name: "sqlite-3"
-  version: ">=3.30.1"
-- category: "dev-libs"
-  name: "openssl"
-  version: ">=1.1.1d"
-- category: "dev-lang"
-  name: "tcl"
-  version: ">=8.6.8"
-- category: "dev-lang"
-  name: "tk"
-  version: ">=8.6.8"
-- category: "dev-tcltk"
-  name: "blt"
-  version: ">=2.4z"
-- category: "dev-tcltk"
-  name: "tix"
-  version: ">=8.4.3"
-- category: "dev-libs"
-  name: "expat"
-  version: ">=2.2.8"
-- category: "net-wireless"
-  name: "bluez"
-  version: ">=5.52"
-- category: "app-eselect"
-  name: "eselect-python"
-  version: ">=20190417"
-- category: "app-misc"
-  name: "mime-types"
-  version: ">=9"
-- category: "sys-devel"
-  name: "automake"
-  version: ">=1.15.1"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "sys-devel"
-  name: "libtool"
-  version: ">=2.4.6"
-- category: "sys-devel"
-  name: "gnuconfig"
-  version: ">=20190912"
-- category: "dev-libs"
-  name: "libltdl"
-  version: ">=2.4.6"
+- State: ""
+  category: app-portage
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: elt-patches
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=20170815'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: autoconf-2.69
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.69'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: automake-1.15
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.15.1'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libtool-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.4'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libpng
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- -static-libs
+- elibc_glibc
+- userland_GNU
+- -test
+- abi_x86_64
+- big-endian
+- kernel_linux
+- split-usr
+- png
+- amd64
+version: 0.17+r2

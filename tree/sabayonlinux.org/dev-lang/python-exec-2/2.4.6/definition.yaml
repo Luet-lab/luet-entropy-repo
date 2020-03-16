@@ -1,4 +1,27 @@
-
-category: "dev-lang"
-name: "python-exec-2"
-version: "2.4.6+r1"
+State: ""
+category: dev-lang
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: python-exec-2
+provides: null
+requires: null
+set: false
+uri: null
+use_flags:
+- abi_x86_64
+- amd64
+- python_targets_python2_7
+- big-endian
+- python_targets_pypy3
+- python_targets_jython2_7
+- python_targets_python3_5
+- python_targets_python3_6
+- python_targets_python3_7
+- kernel_linux
+- elibc_glibc
+- python_targets_pypy
+- split-usr
+- userland_GNU
+version: 2.4.6+r2

@@ -1,170 +1,94 @@
-
-category: "net-libs"
-name: "ldns"
-version: "1.7.1+r1"
+State: ""
+category: net-libs
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: ldns
+provides: null
 requires:
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "app-arch"
-  name: "bzip2"
-  version: ">=1.0.6"
-- category: "dev-libs"
-  name: "libffi"
-  version: ">=3.3"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=1.2.11"
-- category: "sys-libs"
-  name: "db"
-  version: ">=5.3.28"
-- category: "sys-libs"
-  name: "db"
-  version: ">=4.7.25"
-- category: "sys-libs"
-  name: "db"
-  version: ">=4.7.25"
-- category: "sys-libs"
-  name: "db"
-  version: ">=4.7.25"
-- category: "sys-libs"
-  name: "db"
-  version: ">=4.7.25"
-- category: "sys-libs"
-  name: "db"
-  version: ">=4.7.25"
-- category: "sys-libs"
-  name: "db"
-  version: ">=4.7.25"
-- category: "sys-libs"
-  name: "db"
-  version: ">=4.7.25"
-- category: "sys-libs"
-  name: "db"
-  version: ">=4.7.25"
-- category: "sys-libs"
-  name: "gdbm"
-  version: ">=1.14.1"
-- category: "sys-libs"
-  name: "ncurses"
-  version: ">=6.1"
-- category: "sys-libs"
-  name: "readline"
-  version: ">=7.0"
-- category: "dev-db"
-  name: "sqlite-3"
-  version: ">=3.30.1"
-- category: "dev-libs"
-  name: "openssl"
-  version: ">=1.1.1d"
-- category: "dev-lang"
-  name: "tcl"
-  version: ">=8.6.8"
-- category: "dev-lang"
-  name: "tk"
-  version: ">=8.6.8"
-- category: "dev-tcltk"
-  name: "blt"
-  version: ">=2.4z"
-- category: "dev-tcltk"
-  name: "tix"
-  version: ">=8.4.3"
-- category: "dev-libs"
-  name: "expat"
-  version: ">=2.2.8"
-- category: "net-wireless"
-  name: "bluez"
-  version: ">=5.52"
-- category: "app-eselect"
-  name: "eselect-python"
-  version: ">=20190417"
-- category: "app-misc"
-  name: "mime-types"
-  version: ">=9"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "sys-devel"
-  name: "automake"
-  version: ">=1.15.1"
-- category: "dev-lang"
-  name: "python-exec"
-  version: ">=2.4.6"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "app-arch"
-  name: "xz-utils"
-  version: ">=5.2.4"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "sys-apps"
-  name: "util-linux"
-  version: ">=2.33.2"
-- category: "dev-lang"
-  name: "swig"
-  version: ">=3.0.12"
-- category: "app-doc"
-  name: "doxygen"
-  version: ">=1.8.15"
-- category: "sys-devel"
-  name: "flex"
-  version: ">=2.6.4"
-- category: "sys-devel"
-  name: "bison"
-  version: ">=3.1"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "app-text"
-  name: "ghostscript-gpl"
-  version: ">=9.50"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "media-libs"
-  name: "libpng"
-  version: ">=1.6.37"
-- category: "sys-devel"
-  name: "clang-9"
-  version: ">=9.0.1"
-- category: "media-gfx"
-  name: "graphviz"
-  version: ">=2.42.1"
-- category: "media-libs"
-  name: "freetype"
-  version: ">=2.9.1"
-- category: "dev-texlive"
-  name: "texlive-bibtexextra"
-  version: ">=2019"
-- category: "dev-texlive"
-  name: "texlive-fontsextra"
-  version: ">=2019"
-- category: "dev-texlive"
-  name: "texlive-fontutils"
-  version: ">=2019"
-- category: "dev-texlive"
-  name: "texlive-latex"
-  version: ">=2019"
-- category: "dev-texlive"
-  name: "texlive-latexextra"
-  version: ">=2019"
-- category: "dev-libs"
-  name: "xapian"
-  version: ">=1.4.14"
-- category: "dev-qt"
-  name: "qtgui"
-  version: ">=5.14.1"
-- category: "dev-qt"
-  name: "qtwidgets-5"
-  version: ">=5.14.1"
-- category: "dev-qt"
-  name: "qtxml-5"
-  version: ">=5.14.1"
-- category: "sys-devel"
-  name: "make"
-  version: ">=4.2.1"
-- category: "dev-util"
-  name: "cmake"
-  version: ">=3.14.6"
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: python-exec-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2'
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: openssl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.0.1e'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: python-3.6
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: swig
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- big-endian
+- -abi_x86_x32
+- python_single_target_python3_6
+- -abi_s390_32
+- -abi_mips_n32
+- python
+- -abi_mips_n64
+- -doc
+- amd64
+- -abi_mips_o32
+- elibc_glibc
+- -ed448
+- abi_x86_64
+- kernel_linux
+- abi_x86_32
+- -libressl
+- -static-libs
+- dane
+- -abi_s390_64
+- -python_single_target_python3_7
+- userland_GNU
+- -gost
+- split-usr
+- -ed25519
+- -abi_riscv_lp64
+- -vim-syntax
+- -abi_riscv_lp64d
+- -python_single_target_python2_7
+- ecdsa
+version: 1.7.1+r3

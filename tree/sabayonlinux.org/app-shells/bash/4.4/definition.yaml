@@ -1,14 +1,53 @@
-
-category: "app-shells"
-name: "bash"
-version: "4.4+p23r1"
+State: ""
+category: app-shells
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: bash
+provides: null
 requires:
-- category: "sys-libs"
-  name: "ncurses"
-  version: ">=6.1"
-- category: "sys-libs"
-  name: "gpm"
-  version: ">=1.20.7"
-- category: "sys-libs"
-  name: "readline"
-  version: ">=7.0"
+- State: ""
+  category: sys-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: ncurses
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=5.2'
+- State: ""
+  category: sys-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: readline
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=7.0'
+set: false
+uri: null
+use_flags:
+- -bashlogger
+- nls
+- abi_x86_64
+- amd64
+- big-endian
+- -mem-scramble
+- -afs
+- kernel_linux
+- elibc_glibc
+- -examples
+- -plugins
+- readline
+- net
+- userland_GNU
+version: 4.4+p23r1.1

@@ -1,212 +1,329 @@
-
-category: "media-gfx"
-name: "imagemagick"
-version: "7.0.9.16"
+State: ""
+category: media-gfx
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: imagemagick
+provides: null
 requires:
-- category: "dev-libs"
-  name: "libltdl"
-  version: ">=2.4.6"
-- category: "app-arch"
-  name: "xz-utils"
-  version: ">=5.2.4"
-- category: "app-arch"
-  name: "bzip2"
-  version: ">=1.0.6"
-- category: "sci-libs"
-  name: "fftw"
-  version: ">=2.1.5"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "media-libs"
-  name: "libjpeg-turbo"
-  version: ">=2.0.3"
-- category: "media-libs"
-  name: "lcms-2"
-  version: ">=2.9"
-- category: "media-libs"
-  name: "tiff"
-  version: ">=4.1.0"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "media-libs"
-  name: "openexr"
-  version: ">=2.3.0"
-- category: "media-libs"
-  name: "ilmbase"
-  version: ">=2.3.0"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=1.2.11"
-- category: "sys-devel"
-  name: "autoconf-archive"
-  version: ">=2018.03.13"
-- category: "sys-devel"
-  name: "automake"
-  version: ">=1.15.1"
-- category: "sys-devel"
-  name: "libtool"
-  version: ">=2.4.6"
-- category: "x11-libs"
-  name: "pango"
-  version: ">=1.42.4"
-- category: "media-libs"
-  name: "harfbuzz"
-  version: ">=2.6.4"
-- category: "dev-libs"
-  name: "glib"
-  version: ">=2.60.7"
-- category: "media-libs"
-  name: "fontconfig"
-  version: ">=2.13.1"
-- category: "media-libs"
-  name: "freetype"
-  version: ">=2.9.1"
-- category: "x11-libs"
-  name: "cairo"
-  version: ">=1.16.0"
-- category: "dev-libs"
-  name: "fribidi"
-  version: ">=1.0.8"
-- category: "dev-libs"
-  name: "gobject-introspection"
-  version: ">=1.60.2"
-- category: "x11-libs"
-  name: "libXrender"
-  version: ">=0.9.10"
-- category: "x11-libs"
-  name: "libX11"
-  version: ">=1.6.9"
-- category: "x11-libs"
-  name: "libXft"
-  version: ">=2.3.3"
-- category: "dev-util"
-  name: "glib-utils"
-  version: ">=2.60.7"
-- category: "dev-util"
-  name: "gtk-doc-am"
-  version: ">=1.25"
-- category: "media-fonts"
-  name: "cantarell"
-  version: ">=0.111"
-- category: "x11-base"
-  name: "xorg-proto"
-  version: ">=2019.2"
-- category: "dev-util"
-  name: "desktop-file-utils"
-  version: ">=0.24"
-- category: "x11-misc"
-  name: "shared-mime-info"
-  version: ">=1.10"
-- category: "media-libs"
-  name: "libpng"
-  version: ">=1.6.37"
-- category: "gnome-base"
-  name: "librsvg-2"
-  version: ">=2.40.21"
-- category: "dev-libs"
-  name: "libxml2"
-  version: ">=2.9.9"
-- category: "dev-libs"
-  name: "libcroco-0.6"
-  version: ">=0.6.13"
-- category: "x11-libs"
-  name: "gdk-pixbuf-2"
-  version: ">=2.40.0"
-- category: "dev-libs"
-  name: "gobject-introspection-common"
-  version: ">=1.60.2"
-- category: "dev-libs"
-  name: "vala-common"
-  version: ">=0.46.5"
-- category: "dev-lang"
-  name: "vala"
-  version: ">=0.36.20"
-- category: "dev-lang"
-  name: "vala"
-  version: ">=0.36.20"
-- category: "dev-lang"
-  name: "vala-0.44"
-  version: ">=0.44.11"
-- category: "dev-lang"
-  name: "vala"
-  version: ">=0.36.20"
-- category: "dev-lang"
-  name: "vala"
-  version: ">=0.36.20"
-- category: "media-fonts"
-  name: "urw-fonts"
-  version: ">=2.4.9"
-- category: "app-arch"
-  name: "rpm2targz"
-  version: ">=9.0.0.5g"
-- category: "x11-apps"
-  name: "mkfontscale"
-  version: ">=1.2.1"
-- category: "media-fonts"
-  name: "encodings"
-  version: ">=1.0.5"
-- category: "media-libs"
-  name: "libwmf"
-  version: ">=0.2.8.4"
-- category: "app-text"
-  name: "ghostscript-gpl"
-  version: ">=9.50"
-- category: "dev-libs"
-  name: "expat"
-  version: ">=2.2.8"
-- category: "x11-libs"
-  name: "libXt"
-  version: ">=1.2.0"
-- category: "x11-libs"
-  name: "libXpm"
-  version: ">=3.5.13"
-- category: "x11-libs"
-  name: "libICE"
-  version: ">=1.0.10"
-- category: "x11-libs"
-  name: "xtrans"
-  version: ">=1.4.0"
-- category: "dev-libs"
-  name: "libbsd"
-  version: ">=0.9.1"
-- category: "sys-devel"
-  name: "m4"
-  version: ">=1.4.18"
-- category: "x11-misc"
-  name: "util-macros"
-  version: ">=1.19.2"
-- category: "media-fonts"
-  name: "font-util"
-  version: ">=1.3.2"
-- category: "x11-libs"
-  name: "libSM"
-  version: ">=1.2.3"
-- category: "sys-apps"
-  name: "util-linux"
-  version: ">=2.33.2"
-- category: "app-text"
-  name: "asciidoc"
-  version: ">=8.6.10"
-- category: "dev-ruby"
-  name: "asciidoctor"
-  version: ">=2.0.10"
-- category: "app-text"
-  name: "xmlto"
-  version: ">=0.0.28"
-- category: "app-doc"
-  name: "doxygen"
-  version: ">=1.8.15"
-- category: "app-text"
-  name: "docbook-xml-dtd"
-  version: ">=4.1.2"
-- category: "app-text"
-  name: "docbook-xml-dtd"
-  version: ">=4.2"
-- category: "app-text"
-  name: "docbook-xml-dtd"
-  version: ">=4.3"
-- category: "x11-libs"
-  name: "libXext"
-  version: ">=1.3.4"
+- State: ""
+  category: app-portage
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: elt-patches
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=20170815'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: perl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=5.8.8'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: freetype-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2'
+- State: ""
+  category: app-arch
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: bzip2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libltdl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libxml2-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: gnome-base
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: librsvg-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: media-fonts
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: urw-fonts
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: lcms-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libpng
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libwmf
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: openexr
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: tiff
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sci-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: fftw-3.0
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: zlib
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: x11-base
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: xorg-proto
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: x11-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libICE
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: x11-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libSM
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: x11-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libXext
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: x11-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libXt
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: x11-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: pango
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- svg
+- png
+- -q8
+- X
+- -corefonts
+- -postscript
+- userland_GNU
+- big-endian
+- -hdri
+- openmp
+- tiff
+- xml
+- jpeg
+- -lqr
+- split-usr
+- -heif
+- zlib
+- elibc_glibc
+- -webp
+- -djvu
+- -fpx
+- abi_x86_64
+- truetype
+- openexr
+- pango
+- -fontconfig
+- q32
+- -test
+- -jbig
+- bzip2
+- -static-libs
+- -jpeg2k
+- perl
+- kernel_linux
+- amd64
+- -raw
+- wmf
+- -graphviz
+- fftw
+- lcms
+- -opencl
+- -lzma
+- cxx
+version: 7.0.9.16+1

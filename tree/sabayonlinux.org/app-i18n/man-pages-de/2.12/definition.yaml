@@ -1,92 +1,85 @@
-
-category: "app-i18n"
-name: "man-pages-de"
-version: "2.12+r1"
+State: ""
+category: app-i18n
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: man-pages-de
+provides: null
 requires:
-- category: "sys-apps"
-  name: "man-db"
-  version: ">=2.9.0"
-- category: "app-text"
-  name: "po4a"
-  version: ">=0.55"
-- category: "app-text"
-  name: "opensp"
-  version: ">=1.5.2"
-- category: "dev-libs"
-  name: "libxslt"
-  version: ">=1.1.33"
-- category: "dev-perl"
-  name: "Locale-gettext"
-  version: ">=1.70.0"
-- category: "dev-perl"
-  name: "SGMLSpm"
-  version: ">=1.1"
-- category: "dev-perl"
-  name: "TermReadKey"
-  version: ">=2.370.0"
-- category: "dev-perl"
-  name: "Text-WrapI18N"
-  version: ">=0.60.0"
-- category: "dev-perl"
-  name: "Unicode-LineBreak"
-  version: ">=2017.4.0"
-- category: "dev-perl"
-  name: "YAML-Tiny"
-  version: ">=1.730.0"
-- category: "sys-devel"
-  name: "gettext"
-  version: ">=0.20.1"
-- category: "app-text"
-  name: "docbook-xml-dtd"
-  version: ">=4.1.2"
-- category: "app-text"
-  name: "docbook-xsl-stylesheets"
-  version: ">=1.79.1"
-- category: "dev-perl"
-  name: "Module-Build"
-  version: ">=0.422.400"
-- category: "app-text"
-  name: "docbook-sgml-dtd"
-  version: ">=3.0"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "app-arch"
-  name: "xz-utils"
-  version: ">=5.2.4"
-- category: "sys-apps"
-  name: "gentoo-functions"
-  version: ">=0.12"
-- category: "sys-devel"
-  name: "automake-wrapper"
-  version: ">=11"
-- category: "sys-devel"
-  name: "gnuconfig"
-  version: ">=20190912"
-- category: "app-arch"
-  name: "gzip"
-  version: ">=1.9"
-- category: "sys-apps"
-  name: "help2man"
-  version: ">=1.47.11"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "sys-devel"
-  name: "automake"
-  version: ">=1.15.1"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "sys-devel"
-  name: "libtool"
-  version: ">=2.4.6"
-- category: "dev-libs"
-  name: "libltdl"
-  version: ">=2.4.6"
+- State: ""
+  category: app-portage
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: elt-patches
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=20170815'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: autoconf-2.69
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.69'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: automake-1.15
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.15.1'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libtool-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.4'
+- State: ""
+  category: app-text
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: po4a
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- abi_x86_64
+- split-usr
+- amd64
+- big-endian
+- kernel_linux
+- elibc_glibc
+- userland_GNU
+version: 2.12+r2

@@ -1,14 +1,48 @@
-
-category: "dev-perl"
-name: "DBI"
-version: "1.637.0"
+State: ""
+category: dev-perl
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: DBI
+provides: null
 requires:
-- category: "dev-perl"
-  name: "PlRPC"
-  version: ">=0.202.0"
-- category: "dev-perl"
-  name: "Net-Daemon"
-  version: ">=0.480.0"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: PlRPC
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.200.0'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: perl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- userland_GNU
+- abi_x86_64
+- big-endian
+- amd64
+- kernel_linux
+- elibc_glibc
+- -examples
+- -test
+- split-usr
+version: 1.637.0+1

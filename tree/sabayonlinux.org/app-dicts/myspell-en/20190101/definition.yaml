@@ -1,14 +1,38 @@
-
-category: "app-dicts"
-name: "myspell-en"
-version: "20190101"
+State: ""
+category: app-dicts
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: myspell-en
+provides: null
 requires:
-- category: "app-arch"
-  name: "unzip"
-  version: ">=6.0"
-- category: "app-arch"
-  name: "bzip2"
-  version: ">=1.0.6"
-- category: "dev-libs"
-  name: "libnatspec"
-  version: ">=0.3.0"
+- State: ""
+  category: app-arch
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: unzip
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- kernel_linux
+- elibc_glibc
+- big-endian
+- amd64
+- abi_x86_64
+- -l10n_en-CA
+- l10n_en
+- l10n_en-GB
+- -l10n_en-US
+- userland_GNU
+- -l10n_en-ZA
+- -l10n_en-AU
+version: 20190101+1

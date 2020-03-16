@@ -1,26 +1,89 @@
-
-category: "dev-python"
-name: "pickleshare"
-version: "0.7.4+r1"
+State: ""
+category: dev-python
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: pickleshare
+provides: null
 requires:
-- category: "dev-python"
-  name: "path-py"
-  version: ">=11.0.1"
-- category: "dev-python"
-  name: "importlib_metadata"
-  version: ">=1.5.0"
-- category: "dev-python"
-  name: "appdirs"
-  version: ">=1.4.3"
-- category: "dev-lang"
-  name: "python-exec-2"
-  version: ">=2.4.6"
-- category: "dev-python"
-  name: "setuptools"
-  version: ">=44.0.0"
-- category: "dev-python"
-  name: "packaging"
-  version: ">=19.2"
-- category: "dev-python"
-  name: "pytest"
-  version: ">=5.3.5"
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: python-2.7
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.7.5'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: python-exec-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2'
+- State: ""
+  category: dev-python
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: path-py
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=6.2'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: python-3.6
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-python
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: pathlib2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- python_targets_python3_6
+- -python_targets_python3_5
+- kernel_linux
+- -python_targets_python3_4
+- abi_x86_64
+- python_targets_python2_7
+- -test
+- userland_GNU
+- big-endian
+- amd64
+- elibc_glibc
+version: 0.7.4+r2

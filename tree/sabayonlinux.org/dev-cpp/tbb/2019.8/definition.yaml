@@ -1,4 +1,31 @@
-
-category: "dev-cpp"
-name: "tbb"
-version: "2019.8"
+State: ""
+category: dev-cpp
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: tbb
+provides: null
+requires: null
+set: false
+uri: null
+use_flags:
+- -examples
+- big-endian
+- -abi_s390_32
+- -abi_mips_n32
+- -abi_x86_x32
+- -abi_riscv_lp64d
+- -abi_mips_n64
+- amd64
+- -abi_mips_o32
+- elibc_glibc
+- abi_x86_64
+- kernel_linux
+- -debug
+- abi_x86_32
+- -abi_s390_64
+- split-usr
+- -abi_riscv_lp64
+- userland_GNU
+version: 2019.8+2

@@ -1,167 +1,744 @@
-
-category: "app-emulation"
-name: "qemu"
-version: "4.2.0+r1"
+State: ""
+category: app-emulation
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: qemu
+provides: null
 requires:
-- category: "dev-libs"
-  name: "glib"
-  version: ">=2.60.7"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=1.2.11"
-- category: "sys-apps"
-  name: "util-linux"
-  version: ">=2.33.2"
-- category: "sys-apps"
-  name: "attr"
-  version: ">=2.4.48"
-- category: "gnome-base"
-  name: "dconf"
-  version: ">=0.32.0"
-- category: "x11-misc"
-  name: "shared-mime-info"
-  version: ">=1.10"
-- category: "app-text"
-  name: "docbook-xsl-stylesheets"
-  version: ">=1.79.1"
-- category: "dev-libs"
-  name: "libxslt"
-  version: ">=1.1.33"
-- category: "sys-devel"
-  name: "gettext"
-  version: ">=0.20.1"
-- category: "dev-util"
-  name: "gtk-doc"
-  version: ">=1.25"
-- category: "app-text"
-  name: "docbook-xml-dtd"
-  version: ">=4.2"
-- category: "app-text"
-  name: "docbook-xml-dtd"
-  version: ">=4.5"
-- category: "dev-util"
-  name: "systemtap"
-  version: ">=3.1"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "sys-apps"
-  name: "dbus"
-  version: ">=1.12.16"
-- category: "app-arch"
-  name: "xz-utils"
-  version: ">=5.2.4"
-- category: "dev-util"
-  name: "meson"
-  version: ">=0.52.1"
-- category: "dev-util"
-  name: "ninja"
-  version: ">=1.8.2"
-- category: "dev-lang"
-  name: "python-exec"
-  version: ">=2.4.6"
-- category: "dev-libs"
-  name: "libxml2"
-  version: ">=2.9.9"
-- category: "dev-libs"
-  name: "icu"
-  version: ">=65.1"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "sys-libs"
-  name: "readline"
-  version: ">=7.0"
-- category: "dev-util"
-  name: "gtk-doc-am"
-  version: ">=1.25"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "sys-devel"
-  name: "automake"
-  version: ">=1.15.1"
-- category: "sys-devel"
-  name: "libtool"
-  version: ">=2.4.6"
-- category: "x11-libs"
-  name: "libxkbcommon"
-  version: ">=0.9.1"
-- category: "x11-libs"
-  name: "libxcb"
-  version: ">=1.13.1"
-- category: "x11-base"
-  name: "xorg-proto"
-  version: ">=2019.2"
-- category: "sys-devel"
-  name: "bison"
-  version: ">=3.1"
-- category: "app-doc"
-  name: "doxygen"
-  version: ">=1.8.15"
-- category: "x11-libs"
-  name: "pixman"
-  version: ">=0.38.4"
-- category: "app-accessibility"
-  name: "brltty"
-  version: ">=5.2"
-- category: "app-accessibility"
-  name: "at-spi2-core-2"
-  version: ">=2.34.0"
-- category: "dev-libs"
-  name: "libpcre2"
-  version: ">=10.33"
-- category: "net-wireless"
-  name: "bluez"
-  version: ">=5.52"
-- category: "sys-libs"
-  name: "gpm"
-  version: ">=1.20.7"
-- category: "dev-libs"
-  name: "liblouis"
-  version: ">=3.10.0"
-- category: "media-libs"
-  name: "alsa-lib"
-  version: ">=1.2.1.2"
-- category: "sys-libs"
-  name: "ncurses"
-  version: ">=6.1"
-- category: "sys-auth"
-  name: "polkit"
-  version: ">=0.115"
-- category: "app-accessibility"
-  name: "espeak"
-  version: ">=1.48.04"
-- category: "app-accessibility"
-  name: "flite"
-  version: ">=1.4"
-- category: "app-accessibility"
-  name: "speech-dispatcher"
-  version: ">=0.8.7"
-- category: "sys-apps"
-  name: "systemd"
-  version: ">=242"
-- category: "dev-lang"
-  name: "tcl"
-  version: ">=8.6.8"
-- category: "dev-libs"
-  name: "expat"
-  version: ">=2.2.8"
-- category: "x11-libs"
-  name: "libX11"
-  version: ">=1.6.9"
-- category: "x11-libs"
-  name: "libXaw"
-  version: ">=1.0.13"
-- category: "x11-libs"
-  name: "libXt"
-  version: ">=1.2.0"
-- category: "x11-libs"
-  name: "libXtst"
-  version: ">=1.2.3"
+- State: ""
+  category: app-emulation
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libcacard
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.5.0'
+- State: ""
+  category: app-emulation
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: spice
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.12.0'
+- State: ""
+  category: app-emulation
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: spice-protocol
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.12.3'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: python-exec-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2'
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: glib-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.0'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: alsa-lib
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.0.13'
+- State: ""
+  category: net-fs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libnfs
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.9.3'
+- State: ""
+  category: net-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: gnutls
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=3.0'
+- State: ""
+  category: net-misc
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: curl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=7.15.4'
+- State: ""
+  category: sys-apps
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: dtc
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.5.0'
+- State: ""
+  category: sys-apps
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: usbredir
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.6'
+- State: ""
+  category: sys-cluster
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: glusterfs
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=3.4.0'
+- State: ""
+  category: sys-kernel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: linux-headers
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.6.35'
+- State: ""
+  category: sys-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libseccomp
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.1.0'
+- State: ""
+  category: x11-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: pixman
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.28.0'
+- State: ""
+  category: acct-group
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: kvm
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: app-accessibility
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: brltty
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: app-arch
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: bzip2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: perl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: python-3.6
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libaio
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libxml2-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: lzo-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: nettle
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libepoxy
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libpng
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libsdl2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: mesa
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: sdl2-image
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: virglrenderer
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: media-sound
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: pulseaudio
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-apps
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: attr
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-apps
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: texinfo
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-cluster
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: ceph
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: gettext
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-fs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: xfsprogs
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libcap
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libcap-ng
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: ncurses
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: zlib
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: x11-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: gtk+-3
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: x11-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libxkbcommon
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-firmware
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: edk2-ovmf
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=201905'
+- State: ""
+  category: sys-firmware
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: ipxe
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.0.0'
+- State: ""
+  category: sys-firmware
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: seabios
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.12.0'
+- State: ""
+  category: sys-firmware
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: sgabios
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.1'
+set: false
+uri: null
+use_flags:
+- -qemu_softmmu_targets_or1k
+- bzip2
+- pin-upstream-blobs
+- qemu_user_targets_sparc64
+- -oss
+- qemu_user_targets_mips
+- smartcard
+- qemu_softmmu_targets_sh4
+- qemu_softmmu_targets_arm
+- -xen
+- nls
+- -qemu_softmmu_targets_riscv32
+- -qemu_softmmu_targets_riscv64
+- virgl
+- qemu_user_targets_ppc64
+- lzo
+- -qemu_user_targets_tilegx
+- -qemu_user_targets_ppc64le
+- usbredir
+- qemu_softmmu_targets_sparc64
+- qemu_user_targets_sparc32plus
+- usb
+- -qemu_softmmu_targets_tricore
+- big-endian
+- -jemalloc
+- -debug
+- gnutls
+- qemu_user_targets_cris
+- qemu_user_targets_armeb
+- -sasl
+- -qemu_softmmu_targets_lm32
+- qemu_user_targets_i386
+- qemu_softmmu_targets_sh4eb
+- amd64
+- -capstone
+- ncurses
+- qemu_user_targets_microblaze
+- -snappy
+- -qemu_user_targets_mips64el
+- qemu_softmmu_targets_mipsel
+- sdl
+- -qemu_softmmu_targets_nios2
+- qemu_softmmu_targets_ppc
+- accessibility
+- -qemu_softmmu_targets_hppa
+- -qemu_softmmu_targets_microblazeel
+- python_targets_python3_6
+- qemu_softmmu_targets_ppc64
+- -qemu_user_targets_aarch64
+- python
+- -iscsi
+- pulseaudio
+- -infiniband
+- -vhost-user-fs
+- qemu_softmmu_targets_sparc
+- -doc
+- -qemu_softmmu_targets_xtensa
+- -python_targets_python3_7
+- qemu_user_targets_sparc
+- nfs
+- qemu_user_targets_sh4eb
+- -static-user
+- spice
+- opengl
+- vhost-net
+- png
+- glusterfs
+- qemu_softmmu_targets_x86_64
+- -qemu_user_targets_xtensaeb
+- filecaps
+- xkb
+- -qemu_user_targets_riscv32
+- -qemu_user_targets_hppa
+- gtk
+- qemu_softmmu_targets_mips64el
+- -qemu_softmmu_targets_aarch64
+- jpeg
+- -qemu_user_targets_s390x
+- virtfs
+- -numa
+- -qemu_user_targets_or1k
+- qemu_user_targets_ppc
+- -static
+- qemu_softmmu_targets_mips64
+- curl
+- -kernel_FreeBSD
+- xattr
+- qemu_user_targets_arm
+- -vde
+- seccomp
+- -vte
+- xfs
+- qemu_softmmu_targets_i386
+- qemu_softmmu_targets_m68k
+- qemu_user_targets_alpha
+- -qemu_user_targets_aarch64_be
+- qemu_softmmu_targets_microblaze
+- fdt
+- qemu_softmmu_targets_cris
+- -plugins
+- -selinux
+- abi_x86_64
+- -qemu_user_targets_nios2
+- alsa
+- -tci
+- aio
+- vnc
+- split-usr
+- elibc_glibc
+- -qemu_softmmu_targets_unicore32
+- qemu_softmmu_targets_mips
+- -qemu_softmmu_targets_moxie
+- qemu_user_targets_sh4
+- qemu_user_targets_ppc64abi32
+- -qemu_user_targets_riscv64
+- -qemu_user_targets_mips64
+- qemu_user_targets_mipsel
+- rbd
+- -qemu_softmmu_targets_xtensaeb
+- caps
+- -ssh
+- userland_GNU
+- -qemu_user_targets_microblazeel
+- -qemu_user_targets_xtensa
+- kernel_linux
+- -qemu_softmmu_targets_s390x
+- qemu_user_targets_x86_64
+- -qemu_user_targets_mipsn32
+- -test
+- qemu_user_targets_m68k
+- -qemu_user_targets_mipsn32el
+- -systemtap
+- -qemu_softmmu_targets_alpha
+version: 4.2.0+r2

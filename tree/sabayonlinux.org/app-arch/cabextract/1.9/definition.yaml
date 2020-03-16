@@ -1,38 +1,85 @@
-
-category: "app-arch"
-name: "cabextract"
-version: "1.9+r2"
+State: ""
+category: app-arch
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: cabextract
+provides: null
 requires:
-- category: "dev-libs"
-  name: "libmspack"
-  version: ">=0.9.1"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "sys-devel"
-  name: "automake"
-  version: ">=1.15.1"
-- category: "sys-devel"
-  name: "libtool"
-  version: ">=2.4.6"
-- category: "dev-util"
-  name: "pkgconfig"
-  version: ">=0.29.2"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "sys-libs"
-  name: "db"
-  version: ">=6.0.35"
-- category: "sys-libs"
-  name: "gdbm"
-  version: ">=1.14.1"
-- category: "app-arch"
-  name: "bzip2"
-  version: ">=1.0.6"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=1.2.11"
-- category: "app-admin"
-  name: "perl-cleaner"
-  version: ">=2.27"
+- State: ""
+  category: app-portage
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: elt-patches
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=20170815'
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libmspack
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.8'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: autoconf-2.69
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.69'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: automake-1.15
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.15.1'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libtool-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.4'
+set: false
+uri: null
+use_flags:
+- kernel_linux
+- amd64
+- abi_x86_64
+- userland_GNU
+- -extras
+- elibc_glibc
+- big-endian
+version: 1.9+r3

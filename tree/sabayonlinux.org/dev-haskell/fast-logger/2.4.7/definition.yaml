@@ -1,62 +1,114 @@
-
-category: "dev-haskell"
-name: "fast-logger"
-version: "2.4.7"
+State: ""
+category: dev-haskell
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: fast-logger
+provides: null
 requires:
-- category: "dev-haskell"
-  name: "auto-update"
-  version: ">=0.1.4"
-- category: "dev-lang"
-  name: "ghc"
-  version: ">=8.0.2"
-- category: "dev-haskell"
-  name: "cabal"
-  version: ">=1.24.2.0"
-- category: "dev-haskell"
-  name: "exceptions"
-  version: ">=0.8.3"
-- category: "dev-haskell"
-  name: "hunit"
-  version: ">=1.2.5.2"
-- category: "dev-haskell"
-  name: "haddock"
-  version: ">=2.17.2"
-- category: "dev-haskell"
-  name: "hscolour"
-  version: ">=1.24"
-- category: "dev-haskell"
-  name: "bytestring-builder"
-  version: ">=0.10.8.1.0"
-- category: "dev-haskell"
-  name: "easy-file"
-  version: ">=0.2.1"
-- category: "dev-haskell"
-  name: "text"
-  version: ">=1.2.2.1"
-- category: "dev-haskell"
-  name: "binary"
-  version: ">=0.8.3.0"
-- category: "dev-haskell"
-  name: "quickcheck-2"
-  version: ">=2.9.2"
-- category: "dev-haskell"
-  name: "random"
-  version: ">=1.1"
-- category: "dev-haskell"
-  name: "test-framework"
-  version: ">=0.8.1.1"
-- category: "dev-haskell"
-  name: "test-framework-hunit"
-  version: ">=0.3.0.2"
-- category: "dev-haskell"
-  name: "test-framework-quickcheck2"
-  version: ">=0.3.0.3"
-- category: "dev-haskell"
-  name: "unix-time"
-  version: ">=0.3.7"
-- category: "dev-haskell"
-  name: "old-time"
-  version: ">=1.1.0.3"
-- category: "dev-haskell"
-  name: "old-locale"
-  version: ">=1.0.0.7"
+- State: ""
+  category: dev-haskell
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: auto-update
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.1.2'
+- State: ""
+  category: dev-haskell
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: cabal
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.8'
+- State: ""
+  category: dev-haskell
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: easy-file
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.2'
+- State: ""
+  category: dev-haskell
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: unix-time
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.2.2'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: ghc
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=7.4.1'
+- State: ""
+  category: dev-haskell
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: bytestring-builder
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-haskell
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: text
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- userland_GNU
+- abi_x86_64
+- -profile
+- amd64
+- -test
+- elibc_glibc
+- -hscolour
+- -doc
+- kernel_linux
+- big-endian
+version: 2.4.7+1

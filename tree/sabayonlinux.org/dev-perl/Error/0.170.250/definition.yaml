@@ -1,11 +1,47 @@
-
-category: "dev-perl"
-name: "Error"
-version: "0.170.250"
+State: ""
+category: dev-perl
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: Error
+provides: null
 requires:
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "dev-perl"
-  name: "Module-Build"
-  version: ">=0.422.400"
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: Module-Build
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.280.801'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: perl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- amd64
+- -test
+- userland_GNU
+- kernel_linux
+- split-usr
+- abi_x86_64
+- elibc_glibc
+- big-endian
+version: 0.170.250+1

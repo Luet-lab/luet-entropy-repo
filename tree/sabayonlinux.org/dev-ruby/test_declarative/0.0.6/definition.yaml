@@ -1,23 +1,38 @@
-
-category: "dev-ruby"
-name: "test_declarative"
-version: "0.0.6"
+State: ""
+category: dev-ruby
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: test_declarative
+provides: null
 requires:
-- category: "dev-ruby"
-  name: "bundler-2"
-  version: ">=2.1.4"
-- category: "dev-lang"
-  name: "ruby-2.5"
-  version: ">=2.5.7"
-- category: "dev-vcs"
-  name: "git"
-  version: ">=2.24.1"
-- category: "dev-ruby"
-  name: "rdoc"
-  version: ">=6.2.0"
-- category: "dev-ruby"
-  name: "minitest-5"
-  version: ">=5.14.0"
-- category: "dev-ruby"
-  name: "rake"
-  version: ">=12.3.3"
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: ruby-2.5
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- -ruby_targets_ruby24
+- -ruby_targets_ruby27
+- -ruby_targets_ruby26
+- -test
+- abi_x86_64
+- ruby_targets_ruby25
+- big-endian
+- split-usr
+- kernel_linux
+- elibc_glibc
+- amd64
+- userland_GNU
+version: 0.0.6+1

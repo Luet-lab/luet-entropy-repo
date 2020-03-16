@@ -1,23 +1,48 @@
-
-category: "dev-perl"
-name: "JSON-MaybeXS"
-version: "1.3.9"
+State: ""
+category: dev-perl
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: JSON-MaybeXS
+provides: null
 requires:
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "dev-perl"
-  name: "JSON-XS"
-  version: ">=3.40.0"
-- category: "dev-perl"
-  name: "Types-Serialiser"
-  version: ">=1.0.0"
-- category: "dev-perl"
-  name: "common-sense"
-  version: ">=3.740.0"
-- category: "dev-perl"
-  name: "Canary-Stability"
-  version: ">=2012.0.0"
-- category: "perl-core"
-  name: "File-Temp"
-  version: ">=0.230.400"
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: JSON-XS
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=3.0.0'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: perl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- split-usr
+- big-endian
+- xs
+- amd64
+- userland_GNU
+- -test
+- kernel_linux
+- abi_x86_64
+- elibc_glibc
+version: 1.3.9+1

@@ -1,56 +1,40 @@
-
-category: "dev-ruby"
-name: "maruku"
-version: "0.7.3"
+State: ""
+category: dev-ruby
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: maruku
+provides: null
 requires:
-- category: "dev-ruby"
-  name: "nokogiri"
-  version: ">=1.10.4"
-- category: "dev-lang"
-  name: "ruby-2.5"
-  version: ">=2.5.7"
-- category: "dev-lang"
-  name: "ruby-2.5"
-  version: ">=2.5.7"
-- category: "dev-lang"
-  name: "ruby-2.5"
-  version: ">=2.5.7"
-- category: "dev-lang"
-  name: "ruby-2.5"
-  version: ">=2.5.7"
-- category: "dev-ruby"
-  name: "rdoc"
-  version: ">=6.2.0"
-- category: "dev-ruby"
-  name: "rspec"
-  version: ">=2.99.0"
-- category: "dev-ruby"
-  name: "rspec-core-3"
-  version: ">=3.9.1"
-- category: "dev-ruby"
-  name: "syntax"
-  version: ">=1.2.2"
-- category: "dev-ruby"
-  name: "rake"
-  version: ">=12.3.3"
-- category: "dev-libs"
-  name: "xerces-c"
-  version: ">=3.2.2"
-- category: "app-text"
-  name: "texlive-core"
-  version: ">=2019"
-- category: "dev-libs"
-  name: "libxslt"
-  version: ">=1.1.33"
-- category: "dev-tex"
-  name: "latex2html"
-  version: ">=2015"
-- category: "dev-ruby"
-  name: "rspec"
-  version: ">=2.99.0"
-- category: "dev-ruby"
-  name: "rspec-expectations-3"
-  version: ">=3.9.0"
-- category: "dev-ruby"
-  name: "rspec-mocks-3"
-  version: ">=3.9.1"
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: ruby-2.5
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- -test
+- kernel_linux
+- -ruby_targets_ruby24
+- -highlight
+- -ruby_targets_ruby26
+- amd64
+- -ruby_targets_ruby27
+- ruby_targets_ruby25
+- big-endian
+- split-usr
+- -doc
+- userland_GNU
+- abi_x86_64
+- elibc_glibc
+version: 0.7.3+1

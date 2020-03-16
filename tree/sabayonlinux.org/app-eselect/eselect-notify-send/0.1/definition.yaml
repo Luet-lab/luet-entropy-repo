@@ -1,11 +1,32 @@
-
-category: "app-eselect"
-name: "eselect-notify-send"
-version: "0.1"
+State: ""
+category: app-eselect
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: eselect-notify-send
+provides: null
 requires:
-- category: "app-eselect"
-  name: "eselect-lib-bin-symlink"
-  version: ">=0.1.1"
-- category: "app-admin"
-  name: "eselect"
-  version: ">=1.4.15"
+- State: ""
+  category: app-eselect
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: eselect-lib-bin-symlink
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.1.1'
+set: false
+uri: null
+use_flags:
+- big-endian
+- userland_GNU
+- elibc_glibc
+- kernel_linux
+- abi_x86_64
+- amd64
+version: 0.1+1

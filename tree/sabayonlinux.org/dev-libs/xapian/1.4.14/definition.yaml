@@ -1,17 +1,48 @@
-
-category: "dev-libs"
-name: "xapian"
-version: "1.4.14"
+State: ""
+category: dev-libs
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: xapian
+provides: null
 requires:
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=1.2.11"
-- category: "sys-devel"
-  name: "automake"
-  version: ">=1.15.1"
-- category: "sys-devel"
-  name: "libtool"
-  version: ">=2.4.6"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
+- State: ""
+  category: sys-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: zlib
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- big-endian
+- -abi_x86_x32
+- -abi_s390_32
+- -abi_mips_n32
+- cpu_flags_x86_sse
+- -abi_mips_n64
+- -doc
+- amd64
+- -abi_mips_o32
+- elibc_glibc
+- abi_x86_64
+- inmemory
+- kernel_linux
+- abi_x86_32
+- -static-libs
+- -abi_s390_64
+- userland_GNU
+- split-usr
+- cpu_flags_x86_sse2
+- -abi_riscv_lp64
+- -abi_riscv_lp64d
+- remote
+version: 1.4.14+2

@@ -1,35 +1,105 @@
-
-category: "dev-python"
-name: "hypothesis"
-version: "3.74.3"
+State: ""
+category: dev-python
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: hypothesis
+provides: null
 requires:
-- category: "dev-python"
-  name: "attrs"
-  version: ">=19.1.0"
-- category: "dev-python"
-  name: "zope-interface"
-  version: ">=4.6.0"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-exec"
-  version: ">=2.4.6"
-- category: "dev-python"
-  name: "setuptools"
-  version: ">=44.0.0"
-- category: "dev-python"
-  name: "pytest"
-  version: ">=5.3.5"
-- category: "dev-python"
-  name: "enum34"
-  version: ">=1.1.6"
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: python-2.7
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.7.5'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: python-exec-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2'
+- State: ""
+  category: dev-python
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: attrs
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=16.0.0'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: python-3.6
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-python
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: enum34
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-python
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: setuptools
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- -python_targets_pypy3
+- python_targets_python2_7
+- elibc_glibc
+- kernel_linux
+- -python_targets_python3_4
+- -test
+- big-endian
+- python_targets_python3_6
+- -python_targets_python3_7
+- -python_targets_python3_5
+- -python_targets_pypy
+- amd64
+- abi_x86_64
+- userland_GNU
+version: 3.74.3+1

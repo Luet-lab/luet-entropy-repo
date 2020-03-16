@@ -1,35 +1,86 @@
-
-category: "dev-perl"
-name: "Package-DeprecationManager"
-version: "0.170.0"
+State: ""
+category: dev-perl
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: Package-DeprecationManager
+provides: null
 requires:
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "dev-perl"
-  name: "Package-Stash"
-  version: ">=0.370.0"
-- category: "dev-perl"
-  name: "Dist-CheckConflicts"
-  version: ">=0.110.0"
-- category: "dev-perl"
-  name: "Module-Implementation"
-  version: ">=0.90.0"
-- category: "dev-perl"
-  name: "Package-Stash-XS"
-  version: ">=0.280.0"
-- category: "dev-perl"
-  name: "Test-Fatal"
-  version: ">=0.14.0"
-- category: "dev-perl"
-  name: "Test-Requires"
-  version: ">=0.100.0"
-- category: "dev-perl"
-  name: "Params-Util"
-  version: ">=1.70.0"
-- category: "dev-perl"
-  name: "Sub-Install"
-  version: ">=0.928.0"
-- category: "dev-perl"
-  name: "Sub-Name"
-  version: ">=0.210.0"
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: perl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: Package-Stash
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: Params-Util
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: Sub-Install
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: Sub-Name
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- big-endian
+- userland_GNU
+- kernel_linux
+- elibc_glibc
+- amd64
+- split-usr
+- -test
+- abi_x86_64
+version: 0.170.0+1

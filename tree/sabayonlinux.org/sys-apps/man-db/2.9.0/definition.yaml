@@ -1,128 +1,171 @@
-
-category: "sys-apps"
-name: "man-db"
-version: "2.9.0"
+State: ""
+category: sys-apps
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: man-db
+provides: null
 requires:
-- category: "dev-libs"
-  name: "libpipeline"
-  version: ">=1.5.2"
-- category: "dev-libs"
-  name: "check"
-  version: ">=0.12.0"
-- category: "sys-apps"
-  name: "groff"
-  version: ">=1.22.4"
-- category: "x11-libs"
-  name: "libX11"
-  version: ">=1.6.9"
-- category: "x11-libs"
-  name: "libXt"
-  version: ">=1.2.0"
-- category: "x11-libs"
-  name: "libXmu"
-  version: ">=1.1.3"
-- category: "x11-libs"
-  name: "libXaw"
-  version: ">=1.0.13"
-- category: "x11-libs"
-  name: "libSM"
-  version: ">=1.2.3"
-- category: "x11-libs"
-  name: "libICE"
-  version: ">=1.0.10"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "sys-apps"
-  name: "texinfo"
-  version: ">=6.7"
-- category: "sys-libs"
-  name: "gdbm"
-  version: ">=1.14.1"
-- category: "sys-libs"
-  name: "readline"
-  version: ">=7.0"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "sys-devel"
-  name: "automake"
-  version: ">=1.15.1"
-- category: "sys-devel"
-  name: "libtool"
-  version: ">=2.4.6"
-- category: "sys-libs"
-  name: "db"
-  version: ">=6.0.35"
-- category: "dev-lang"
-  name: "tcl"
-  version: ">=8.6.8"
-- category: "dev-java"
-  name: "java-config"
-  version: ">=2.2.0"
-- category: "sys-libs"
-  name: "libseccomp"
-  version: ">=2.4.2"
-- category: "sys-kernel"
-  name: "linux-headers"
-  version: ">=4.19"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=1.2.11"
-- category: "app-text"
-  name: "manpager"
-  version: ">=1"
-- category: "acct-group"
-  name: "man"
-  version: ">=0"
-- category: "acct-user"
-  name: "man"
-  version: ">=1"
-- category: "sys-devel"
-  name: "m4"
-  version: ">=1.4.18"
-- category: "app-arch"
-  name: "xz-utils"
-  version: ">=5.2.4"
-- category: "app-text"
-  name: "po4a"
-  version: ">=0.55"
-- category: "app-text"
-  name: "opensp"
-  version: ">=1.5.2"
-- category: "dev-libs"
-  name: "libxslt"
-  version: ">=1.1.33"
-- category: "dev-perl"
-  name: "Locale-gettext"
-  version: ">=1.70.0"
-- category: "dev-perl"
-  name: "SGMLSpm"
-  version: ">=1.1"
-- category: "dev-perl"
-  name: "TermReadKey"
-  version: ">=2.370.0"
-- category: "dev-perl"
-  name: "Text-WrapI18N"
-  version: ">=0.60.0"
-- category: "dev-perl"
-  name: "Unicode-LineBreak"
-  version: ">=2017.4.0"
-- category: "dev-perl"
-  name: "YAML-Tiny"
-  version: ">=1.730.0"
-- category: "sys-devel"
-  name: "gettext"
-  version: ">=0.20.1"
-- category: "app-text"
-  name: "docbook-xml-dtd"
-  version: ">=4.1.2"
-- category: "app-text"
-  name: "docbook-xsl-stylesheets"
-  version: ">=1.79.1"
-- category: "dev-perl"
-  name: "Module-Build"
-  version: ">=0.422.400"
-- category: "app-text"
-  name: "docbook-sgml-dtd"
-  version: ">=3.0"
+- State: ""
+  category: app-text
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: po4a
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.45'
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libpipeline
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.5.0'
+- State: ""
+  category: acct-group
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: man
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: acct-user
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: man
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: app-arch
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: xz-utils
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: app-text
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: manpager
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-apps
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: groff
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: gettext
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: gdbm
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libseccomp
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: zlib
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- big-endian
+- userland_GNU
+- manpager
+- -berkdb
+- nls
+- -selinux
+- amd64
+- zlib
+- split-usr
+- abi_x86_64
+- -static-libs
+- gdbm
+- seccomp
+- elibc_glibc
+- kernel_linux
+version: 2.9.0+1

@@ -1,59 +1,112 @@
-
-category: "dev-perl"
-name: "DateTime-TimeZone"
-version: "2.130.0"
+State: ""
+category: dev-perl
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: DateTime-TimeZone
+provides: null
 requires:
-- category: "dev-perl"
-  name: "Class-Singleton"
-  version: ">=1.500.0"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "dev-perl"
-  name: "Module-Runtime"
-  version: ">=0.16.0"
-- category: "dev-perl"
-  name: "Module-Build"
-  version: ">=0.422.400"
-- category: "dev-perl"
-  name: "Params-ValidationCompiler"
-  version: ">=0.260.0"
-- category: "dev-perl"
-  name: "Eval-Closure"
-  version: ">=0.140.0"
-- category: "dev-perl"
-  name: "Exception-Class"
-  version: ">=1.430.0"
-- category: "dev-perl"
-  name: "Specio"
-  version: ">=0.420.0"
-- category: "dev-perl"
-  name: "Try-Tiny"
-  version: ">=0.300.0"
-- category: "dev-perl"
-  name: "Sub-Name"
-  version: ">=0.210.0"
-- category: "dev-perl"
-  name: "Capture-Tiny"
-  version: ">=0.480.0"
-- category: "dev-perl"
-  name: "namespace-autoclean"
-  version: ">=0.280.0"
-- category: "dev-perl"
-  name: "B-Hooks-EndOfScope"
-  version: ">=0.240.0"
-- category: "dev-perl"
-  name: "Sub-Identify"
-  version: ">=0.140.0"
-- category: "dev-perl"
-  name: "namespace-clean"
-  version: ">=0.270.0"
-- category: "dev-perl"
-  name: "Test-Requires"
-  version: ">=0.100.0"
-- category: "perl-core"
-  name: "File-Temp"
-  version: ">=0.230.400"
-- category: "dev-perl"
-  name: "Test-Fatal"
-  version: ">=0.14.0"
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: Class-Singleton
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.30.0'
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: Params-ValidationCompiler
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.130.0'
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: Specio
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.150.0'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: perl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: Module-Runtime
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: Try-Tiny
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: namespace-autoclean
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- kernel_linux
+- elibc_glibc
+- userland_GNU
+- big-endian
+- abi_x86_64
+- amd64
+- split-usr
+- -test
+version: 2.130.0+1

@@ -1,38 +1,62 @@
-
-category: "sys-devel"
-name: "bison"
-version: "3.1"
+State: ""
+category: sys-devel
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: bison
+provides: null
 requires:
-- category: "sys-devel"
-  name: "m4"
-  version: ">=1.4.18"
-- category: "app-arch"
-  name: "xz-utils"
-  version: ">=5.2.4"
-- category: "sys-devel"
-  name: "flex"
-  version: ">=2.6.4"
-- category: "sys-devel"
-  name: "gettext"
-  version: ">=0.20.1"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "sys-libs"
-  name: "db"
-  version: ">=6.0.35"
-- category: "sys-libs"
-  name: "gdbm"
-  version: ">=1.14.1"
-- category: "app-arch"
-  name: "bzip2"
-  version: ">=1.0.6"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=1.2.11"
-- category: "app-admin"
-  name: "perl-cleaner"
-  version: ">=2.27"
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: m4
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.4.16'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: flex
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: gettext
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- -test
+- userland_GNU
+- nls
+- amd64
+- kernel_linux
+- big-endian
+- elibc_glibc
+- -static
+- -examples
+- abi_x86_64
+version: 3.1+1

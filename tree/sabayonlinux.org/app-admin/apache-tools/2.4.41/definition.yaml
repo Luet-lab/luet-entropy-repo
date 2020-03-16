@@ -1,68 +1,113 @@
-
-category: "app-admin"
-name: "apache-tools"
-version: "2.4.41"
+State: ""
+category: app-admin
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: apache-tools
+provides: null
 requires:
-- category: "dev-libs"
-  name: "apr"
-  version: ">=1.6.3"
-- category: "sys-apps"
-  name: "util-linux"
-  version: ">=2.33.2"
-- category: "sys-devel"
-  name: "libtool"
-  version: ">=2.4.6"
-- category: "app-doc"
-  name: "doxygen"
-  version: ">=1.8.15"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "sys-devel"
-  name: "automake"
-  version: ">=1.15.1"
-- category: "dev-libs"
-  name: "apr-util"
-  version: ">=1.6.1"
-- category: "dev-libs"
-  name: "expat"
-  version: ">=2.2.8"
-- category: "sys-libs"
-  name: "db"
-  version: ">=6.0.35"
-- category: "sys-libs"
-  name: "gdbm"
-  version: ">=1.14.1"
-- category: "net-nds"
-  name: "openldap"
-  version: ">=2.4.48"
-- category: "dev-db"
-  name: "mariadb-connector-c"
-  version: ">=3.1.6"
-- category: "dev-libs"
-  name: "nss"
-  version: ">=3.50"
-- category: "dev-db"
-  name: "unixODBC"
-  version: ">=2.3.7"
-- category: "dev-libs"
-  name: "openssl"
-  version: ">=1.1.1d"
-- category: "dev-db"
-  name: "postgresql"
-  version: ">=10.12"
-- category: "dev-db"
-  name: "sqlite-3"
-  version: ">=3.30.1"
-- category: "app-arch"
-  name: "bzip2"
-  version: ">=1.0.6"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=1.2.11"
-- category: "dev-libs"
-  name: "libedit"
-  version: ">=20170329.3.1"
-- category: "sys-libs"
-  name: "readline"
-  version: ">=7.0"
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: apr-1
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.5.0'
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: apr-util-1
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: expat
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libpcre-3
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: openssl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-apps
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: util-linux
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libtool-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- split-usr
+- -libressl
+- ssl
+- big-endian
+- amd64
+- abi_x86_64
+- elibc_glibc
+- kernel_linux
+- userland_GNU
+version: 2.4.41+1

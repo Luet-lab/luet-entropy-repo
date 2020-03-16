@@ -1,458 +1,565 @@
-
-category: "dev-lang"
-name: "php-7.3"
-version: "7.3.15"
+State: ""
+category: dev-lang
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: php-7.3
+provides: null
 requires:
-- category: "app-eselect"
-  name: "eselect-php"
-  version: ">=0.9.5"
-- category: "app-admin"
-  name: "eselect"
-  version: ">=1.4.15"
-- category: "www-servers"
-  name: "apache-2"
-  version: ">=2.4.41"
-- category: "dev-libs"
-  name: "libpcre2"
-  version: ">=10.33"
-- category: "app-arch"
-  name: "bzip2"
-  version: ">=1.0.6"
-- category: "dev-libs"
-  name: "libedit"
-  version: ">=20170329.3.1"
-- category: "sys-libs"
-  name: "readline"
-  version: ">=7.0"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=1.2.11"
-- category: "sys-apps"
-  name: "findutils"
-  version: ">=4.7.0"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "sys-apps"
-  name: "acl"
-  version: ">=2.2.53"
-- category: "sys-apps"
-  name: "attr"
-  version: ">=2.4.48"
-- category: "sys-devel"
-  name: "gettext"
-  version: ">=0.20.1"
-- category: "sys-libs"
-  name: "db"
-  version: ">=5.3.28"
-- category: "dev-lang"
-  name: "tcl"
-  version: ">=8.6.8"
-- category: "dev-java"
-  name: "java-config"
-  version: ">=2.2.0"
-- category: "sys-devel"
-  name: "automake"
-  version: ">=1.15.1"
-- category: "sys-devel"
-  name: "libtool"
-  version: ">=2.4.6"
-- category: "sys-libs"
-  name: "db"
-  version: ">=4.7.25"
-- category: "sys-libs"
-  name: "db"
-  version: ">=4.7.25"
-- category: "sys-libs"
-  name: "db"
-  version: ">=4.7.25"
-- category: "sys-libs"
-  name: "db"
-  version: ">=4.7.25"
-- category: "sys-libs"
-  name: "db"
-  version: ">=4.7.25"
-- category: "net-misc"
-  name: "curl"
-  version: ">=7.66.0"
-- category: "net-nds"
-  name: "openldap"
-  version: ">=2.4.48"
-- category: "app-arch"
-  name: "brotli"
-  version: ">=1.0.7"
-- category: "net-libs"
-  name: "gnutls"
-  version: ">=3.6.7"
-- category: "dev-libs"
-  name: "nettle"
-  version: ">=3.4.1"
-- category: "app-misc"
-  name: "ca-certificates"
-  version: ">=20190110.3.43"
-- category: "net-libs"
-  name: "mbedtls"
-  version: ">=2.12.0"
-- category: "dev-libs"
-  name: "openssl"
-  version: ">=1.1.1d"
-- category: "dev-libs"
-  name: "nss"
-  version: ">=3.50"
-- category: "net-libs"
-  name: "nghttp2"
-  version: ">=1.39.2"
-- category: "net-dns"
-  name: "libidn2"
-  version: ">=2.1.1a"
-- category: "net-dns"
-  name: "c-ares"
-  version: ">=1.15.0"
-- category: "media-video"
-  name: "rtmpdump"
-  version: ">=2.4"
-- category: "net-libs"
-  name: "libssh2"
-  version: ">=1.9.0"
-- category: "sys-apps"
-  name: "diffutils"
-  version: ">=3.6"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "media-libs"
-  name: "libjpeg-turbo"
-  version: ">=2.0.3"
-- category: "media-libs"
-  name: "libpng"
-  version: ">=1.6.37"
-- category: "app-arch"
-  name: "xz-utils"
-  version: ">=5.2.4"
-- category: "sys-libs"
-  name: "gdbm"
-  version: ">=1.14.1"
-- category: "dev-libs"
-  name: "gmp"
-  version: ">=6.1.2"
-- category: "sys-devel"
-  name: "m4"
-  version: ">=1.4.18"
-- category: "net-libs"
-  name: "c-client"
-  version: ">=2007f"
-- category: "dev-libs"
-  name: "icu"
-  version: ">=65.1"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "app-doc"
-  name: "doxygen"
-  version: ">=1.8.15"
-- category: "dev-db"
-  name: "unixODBC"
-  version: ">=2.3.7"
-- category: "dev-libs"
-  name: "libltdl"
-  version: ">=2.4.6"
-- category: "sys-libs"
-  name: "ncurses"
-  version: ">=6.1"
-- category: "sys-devel"
-  name: "flex"
-  version: ">=2.6.4"
-- category: "dev-db"
-  name: "postgresql"
-  version: ">=10.12"
-- category: "app-eselect"
-  name: "eselect-postgresql"
-  version: ">=2.4"
-- category: "sys-apps"
-  name: "less"
-  version: ">=551"
-- category: "sys-devel"
-  name: "llvm-9"
-  version: ">=9.0.1"
-- category: "sys-devel"
-  name: "clang-9"
-  version: ">=9.0.1"
-- category: "sys-libs"
-  name: "pam"
-  version: ">=1.3.0"
-- category: "dev-lang"
-  name: "python-exec"
-  version: ">=2.4.6"
-- category: "sys-apps"
-  name: "systemd"
-  version: ">=242"
-- category: "dev-libs"
-  name: "libxml2"
-  version: ">=2.9.9"
-- category: "dev-libs"
-  name: "libxslt"
-  version: ">=1.1.33"
-- category: "sys-apps"
-  name: "util-linux"
-  version: ">=2.33.2"
-- category: "dev-libs"
-  name: "ossp-uuid"
-  version: ">=1.6.2"
-- category: "sys-devel"
-  name: "bison"
-  version: ">=3.1"
-- category: "sys-libs"
-  name: "readline"
-  version: ">=7.0"
-- category: "net-analyzer"
-  name: "net-snmp"
-  version: ">=5.8"
-- category: "dev-libs"
-  name: "elfutils"
-  version: ">=0.177"
-- category: "sys-apps"
-  name: "lm-sensors"
-  version: ">=3.6.0"
-- category: "dev-libs"
-  name: "libnl"
-  version: ">=1.1.4"
-- category: "net-libs"
-  name: "libpcap"
-  version: ">=1.9.1"
-- category: "sys-apps"
-  name: "pciutils"
-  version: ">=3.6.4"
-- category: "dev-python"
-  name: "setuptools"
-  version: ">=44.0.0"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "app-arch"
-  name: "rpm"
-  version: ">=4.14.2.1"
-- category: "dev-libs"
-  name: "popt"
-  version: ">=1.16"
-- category: "sys-apps"
-  name: "tcp-wrappers"
-  version: ">=7.6.28"
-- category: "dev-perl"
-  name: "Tk"
-  version: ">=804.34.0"
-- category: "dev-perl"
-  name: "TermReadKey"
-  version: ">=2.370.0"
-- category: "app-text"
-  name: "aspell"
-  version: ">=0.60.8"
-- category: "app-dicts"
-  name: "aspell-en"
-  version: ">=2018.04.16.0"
-- category: "app-dicts"
-  name: "aspell-af"
-  version: ">=0.50.0"
-- category: "app-dicts"
-  name: "aspell-be"
-  version: ">=0.01"
-- category: "app-dicts"
-  name: "aspell-bg"
-  version: ">=4.1.0"
-- category: "app-dicts"
-  name: "aspell-br"
-  version: ">=0.50.2"
-- category: "app-dicts"
-  name: "aspell-ca"
-  version: ">=2.1.5.1"
-- category: "app-dicts"
-  name: "aspell-cs"
-  version: ">=0.60.20040614"
-- category: "app-dicts"
-  name: "aspell-cy"
-  version: ">=0.50.3"
-- category: "app-dicts"
-  name: "aspell-da"
-  version: ">=1.7.42"
-- category: "app-dicts"
-  name: "aspell-de"
-  version: ">=0.60"
-- category: "app-dicts"
-  name: "aspell-de-alt"
-  version: ">=2.1.1"
-- category: "app-dicts"
-  name: "aspell-el"
-  version: ">=0.50.3"
-- category: "app-dicts"
-  name: "aspell-eo"
-  version: ">=2.1.20000225.2"
-- category: "app-dicts"
-  name: "aspell-es"
-  version: ">=1.11"
-- category: "app-dicts"
-  name: "aspell-et"
-  version: ">=0.1.21.1"
-- category: "app-dicts"
-  name: "aspell-fi"
-  version: ">=0.7.0"
-- category: "app-dicts"
-  name: "aspell-fo"
-  version: ">=0.51.0"
-- category: "app-dicts"
-  name: "aspell-fr"
-  version: ">=0.60"
-- category: "app-dicts"
-  name: "aspell-ga"
-  version: ">=0.50.4"
-- category: "app-dicts"
-  name: "aspell-gl"
-  version: ">=0.5.2"
-- category: "app-dicts"
-  name: "aspell-he"
-  version: ">=1.0.0"
-- category: "app-dicts"
-  name: "aspell-hr"
-  version: ">=0.51.0"
-- category: "app-dicts"
-  name: "aspell-hu"
-  version: ">=0.99.4.2"
-- category: "app-dicts"
-  name: "aspell-hy"
-  version: ">=0.10.0"
-- category: "app-dicts"
-  name: "aspell-is"
-  version: ">=0.51.1.0"
-- category: "app-dicts"
-  name: "aspell-it"
-  version: ">=2.4.20070901"
-- category: "app-dicts"
-  name: "aspell-la"
-  version: ">=6.0.20020503.0"
-- category: "app-dicts"
-  name: "aspell-lt"
-  version: ">=1.0.1"
-- category: "app-dicts"
-  name: "aspell-nl"
-  version: ">=0.50.2"
-- category: "app-dicts"
-  name: "aspell-no"
-  version: ">=0.50.2"
-- category: "app-dicts"
-  name: "aspell-pl"
-  version: ">=6.0.20120418.0"
-- category: "app-dicts"
-  name: "aspell-pt"
-  version: ">=0.50.2"
-- category: "app-dicts"
-  name: "aspell-pt-br"
-  version: ">=6.0.20090702"
-- category: "app-dicts"
-  name: "aspell-ro"
-  version: ">=3.3.2"
-- category: "app-dicts"
-  name: "aspell-ru"
-  version: ">=0.99.1"
-- category: "app-dicts"
-  name: "aspell-sk"
-  version: ">=2.01.2"
-- category: "app-dicts"
-  name: "aspell-sl"
-  version: ">=0.50.0"
-- category: "app-dicts"
-  name: "aspell-sr"
-  version: ">=0.60"
-- category: "app-dicts"
-  name: "aspell-sv"
-  version: ">=0.51.0"
-- category: "app-dicts"
-  name: "aspell-uk"
-  version: ">=1.4.0.0"
-- category: "app-dicts"
-  name: "aspell-vi"
-  version: ">=0.01.1.1"
-- category: "dev-db"
-  name: "sqlite-3"
-  version: ">=3.30.1"
-- category: "app-arch"
-  name: "unzip"
-  version: ">=6.0"
-- category: "sys-devel"
-  name: "make"
-  version: ">=4.2.1"
-- category: "dev-util"
-  name: "cmake"
-  version: ">=3.14.6"
-- category: "app-text"
-  name: "htmltidy"
-  version: ">=20090325"
-- category: "media-libs"
-  name: "freetype"
-  version: ">=2.9.1"
-- category: "media-libs"
-  name: "harfbuzz"
-  version: ">=2.6.4"
-- category: "x11-libs"
-  name: "libX11"
-  version: ">=1.6.9"
-- category: "x11-libs"
-  name: "libXau"
-  version: ">=1.0.9"
-- category: "x11-libs"
-  name: "libXdmcp"
-  version: ">=1.1.3"
-- category: "media-libs"
-  name: "fontconfig-infinality"
-  version: ">=20130404"
-- category: "dev-libs"
-  name: "oniguruma"
-  version: ">=6.9.4"
-- category: "x11-libs"
-  name: "libXpm"
-  version: ">=3.5.13"
-- category: "x11-libs"
-  name: "libXext"
-  version: ">=1.3.4"
-- category: "x11-libs"
-  name: "libXt"
-  version: ">=1.2.0"
-- category: "x11-base"
-  name: "xorg-proto"
-  version: ">=2019.2"
-- category: "x11-misc"
-  name: "util-macros"
-  version: ">=1.19.2"
-- category: "media-fonts"
-  name: "font-util"
-  version: ">=1.3.2"
-- category: "mail-mta"
-  name: "nullmailer"
-  version: ">=2.0"
-- category: "mail-mta"
-  name: "msmtp"
-  version: ">=1.6.6"
-- category: "mail-mta"
-  name: "ssmtp"
-  version: ">=2.64"
-- category: "mail-mta"
-  name: "courier"
-  version: ">=1.0.5"
-- category: "mail-mta"
-  name: "esmtp"
-  version: ">=1.2"
-- category: "mail-mta"
-  name: "exim"
-  version: ">=4.92.2"
-- category: "mail-mta"
-  name: "netqmail"
-  version: ">=1.06"
-- category: "mail-mta"
-  name: "postfix"
-  version: ">=3.4.8"
-- category: "mail-mta"
-  name: "sendmail"
-  version: ">=8.15.2"
-- category: "mail-mta"
-  name: "opensmtpd"
-  version: ">=6.6.2"
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: freetype-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2'
+- State: ""
+  category: app-eselect
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: eselect-php
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.9.1'
+- State: ""
+  category: app-portage
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: elt-patches
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=20170815'
+- State: ""
+  category: app-text
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: aspell
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.50'
+- State: ""
+  category: dev-db
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: sqlite-3
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=3.7.6.3'
+- State: ""
+  category: dev-db
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: unixODBC
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.8.13'
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libpcre2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=10.30'
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libxml2-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.6.8'
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: openssl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.0.1'
+- State: ""
+  category: net-analyzer
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: net-snmp
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=5.2'
+- State: ""
+  category: net-misc
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: curl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=7.10.5'
+- State: ""
+  category: net-nds
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: openldap
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.2.11'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: autoconf-2.69
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.69'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: automake-1.15
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.15.1'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: bison
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=3.0.1'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libtool-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.4'
+- State: ""
+  category: sys-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: gdbm
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.8.0'
+- State: ""
+  category: sys-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: zlib
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.2.0.4'
+- State: ""
+  category: app-arch
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: bzip2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: app-arch
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: xz-utils
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: app-text
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: htmltidy
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-db
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: postgresql-9.5
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: gmp
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: icu
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libxslt
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: oniguruma
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libpng
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-apps
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: acl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-apps
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: systemd
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: gettext
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: db-6.0
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libapparmor
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: readline
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: www-servers
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: apache-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: x11-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libXpm
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- abi_x86_64
+- xmlwriter
+- sockets
+- wddx
+- ftp
+- bcmath
+- -argon2
+- cjk
+- phar
+- truetype
+- opcache
+- iconv
+- split-usr
+- intl
+- systemd
+- spell
+- gdbm
+- xmlreader
+- -sodium
+- unicode
+- -webp
+- posix
+- soap
+- -oci8-instant-client
+- big-endian
+- -threads
+- odbc
+- snmp
+- zip
+- nls
+- mhash
+- apache2
+- xslt
+- xpm
+- ctype
+- kerberos
+- calendar
+- -debug
+- tokenizer
+- -libedit
+- filter
+- json
+- -qdbm
+- -enchant
+- -cdb
+- inifile
+- amd64
+- session
+- xml
+- -ldap-sasl
+- -tokyocabinet
+- -recode
+- -selinux
+- -exif
+- ldap
+- -mssql
+- flatfile
+- readline
+- gmp
+- -firebird
+- fileinfo
+- pdo
+- -phpdbg
+- curl
+- -libressl
+- -session-mm
+- ssl
+- -iodbc
+- tidy
+- elibc_glibc
+- -embed
+- kernel_linux
+- -xmlrpc
+- -lmdb
+- -sharedmem
+- ipv6
+- mysql
+- hash
+- gd
+- bzip2
+- postgres
+- acl
+- cgi
+- zlib
+- imap
+- simplexml
+- sqlite
+- -coverage
+- fpm
+- sysvipc
+- -test
+- berkdb
+- -zip-encryption
+- mysqli
+- cli
+- pcntl
+- userland_GNU
+version: 7.3.15+1

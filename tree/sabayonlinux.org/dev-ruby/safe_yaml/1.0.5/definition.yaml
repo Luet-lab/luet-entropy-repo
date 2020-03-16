@@ -1,23 +1,38 @@
-
-category: "dev-ruby"
-name: "safe_yaml"
-version: "1.0.5"
+State: ""
+category: dev-ruby
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: safe_yaml
+provides: null
 requires:
-- category: "dev-ruby"
-  name: "hashie-4"
-  version: ">=4.0.0"
-- category: "dev-lang"
-  name: "ruby-2.5"
-  version: ">=2.5.7"
-- category: "dev-ruby"
-  name: "activesupport-6.0"
-  version: ">=6.0.2.1"
-- category: "dev-ruby"
-  name: "rdoc"
-  version: ">=6.2.0"
-- category: "dev-ruby"
-  name: "test-unit-2"
-  version: ">=3.3.5"
-- category: "dev-ruby"
-  name: "rake"
-  version: ">=12.3.3"
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: ruby-2.5
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- kernel_linux
+- elibc_glibc
+- big-endian
+- -ruby_targets_ruby24
+- userland_GNU
+- -ruby_targets_ruby26
+- amd64
+- split-usr
+- -doc
+- ruby_targets_ruby25
+- abi_x86_64
+- -test
+version: 1.0.5+1

@@ -1,140 +1,176 @@
-
-category: "media-libs"
-name: "libffado"
-version: "2.4.1"
+State: ""
+category: media-libs
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: libffado
+provides: null
 requires:
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "app-arch"
-  name: "bzip2"
-  version: ">=1.0.6"
-- category: "app-arch"
-  name: "xz-utils"
-  version: ">=5.2.4"
-- category: "dev-libs"
-  name: "libffi"
-  version: ">=3.3"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=1.2.11"
-- category: "sys-libs"
-  name: "gdbm"
-  version: ">=1.14.1"
-- category: "sys-libs"
-  name: "ncurses"
-  version: ">=6.1"
-- category: "sys-libs"
-  name: "readline"
-  version: ">=7.0"
-- category: "dev-db"
-  name: "sqlite-3"
-  version: ">=3.30.1"
-- category: "dev-libs"
-  name: "openssl"
-  version: ">=1.1.1d"
-- category: "dev-lang"
-  name: "tcl"
-  version: ">=8.6.8"
-- category: "dev-lang"
-  name: "tk"
-  version: ">=8.6.8"
-- category: "dev-tcltk"
-  name: "blt"
-  version: ">=2.4z"
-- category: "dev-tcltk"
-  name: "tix"
-  version: ">=8.4.3"
-- category: "dev-libs"
-  name: "expat"
-  version: ">=2.2.8"
-- category: "net-wireless"
-  name: "bluez"
-  version: ">=5.52"
-- category: "app-eselect"
-  name: "eselect-python"
-  version: ">=20190417"
-- category: "app-misc"
-  name: "mime-types"
-  version: ">=9"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "sys-devel"
-  name: "automake"
-  version: ">=1.15.1"
-- category: "dev-lang"
-  name: "python-exec"
-  version: ">=2.4.6"
-- category: "dev-cpp"
-  name: "libxmlpp-2.6"
-  version: ">=2.40.1"
-- category: "dev-libs"
-  name: "libxml2"
-  version: ">=2.9.9"
-- category: "dev-cpp"
-  name: "glibmm-2"
-  version: ">=2.60.1"
-- category: "dev-util"
-  name: "desktop-file-utils"
-  version: ">=0.24"
-- category: "x11-misc"
-  name: "shared-mime-info"
-  version: ">=1.10"
-- category: "dev-libs"
-  name: "dbus-c++"
-  version: ">=0.9.0"
-- category: "sys-apps"
-  name: "dbus"
-  version: ">=1.12.16"
-- category: "dev-libs"
-  name: "efl"
-  version: ">=1.23.1"
-- category: "dev-libs"
-  name: "glib"
-  version: ">=2.60.7"
-- category: "app-doc"
-  name: "doxygen"
-  version: ">=1.8.15"
-- category: "dev-util"
-  name: "cppunit"
-  version: ">=1.14.0"
-- category: "dev-libs"
-  name: "libconfig"
-  version: ">=1.5"
-- category: "sys-apps"
-  name: "texinfo"
-  version: ">=6.7"
-- category: "sys-devel"
-  name: "bison"
-  version: ">=3.1"
-- category: "sys-devel"
-  name: "libtool"
-  version: ">=2.4.6"
-- category: "media-libs"
-  name: "alsa-lib"
-  version: ">=1.2.1.2"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "media-libs"
-  name: "libiec61883"
-  version: ">=1.2.0"
-- category: "sys-libs"
-  name: "libraw1394"
-  version: ">=2.1.2"
-- category: "sys-libs"
-  name: "libavc1394"
-  version: ">=0.5.4"
-- category: "dev-util"
-  name: "scons"
-  version: ">=3.1.2"
-- category: "dev-python"
-  name: "lxml"
-  version: ">=4.4.2"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: python-exec-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2'
+- State: ""
+  category: dev-cpp
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libxmlpp-2.6
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: python-3.6
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: dbus-c++
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libconfig
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-util
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: scons
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: alsa-lib
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libiec61883
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-apps
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: dbus
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libavc1394
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libraw1394
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- big-endian
+- -abi_s390_32
+- python_single_target_python3_6
+- -abi_mips_n32
+- -abi_x86_x32
+- -abi_mips_n64
+- amd64
+- -abi_mips_o32
+- elibc_glibc
+- abi_x86_64
+- kernel_linux
+- -debug
+- abi_x86_32
+- -abi_s390_64
+- userland_GNU
+- -qt5
+- -test-programs
+- split-usr
+- -abi_riscv_lp64
+- -abi_riscv_lp64d
+version: 2.4.1+r3

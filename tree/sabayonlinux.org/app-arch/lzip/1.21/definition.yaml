@@ -1,4 +1,19 @@
-
-category: "app-arch"
-name: "lzip"
-version: "1.21"
+State: ""
+category: app-arch
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: lzip
+provides: null
+requires: null
+set: false
+uri: null
+use_flags:
+- elibc_glibc
+- abi_x86_64
+- big-endian
+- userland_GNU
+- amd64
+- kernel_linux
+version: 1.21+1

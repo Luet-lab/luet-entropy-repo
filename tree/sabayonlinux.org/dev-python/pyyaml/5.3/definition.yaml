@@ -1,50 +1,66 @@
-
-category: "dev-python"
-name: "pyyaml"
-version: "5.3"
+State: ""
+category: dev-python
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: pyyaml
+provides: null
 requires:
-- category: "dev-libs"
-  name: "libyaml"
-  version: ">=0.2.2"
-- category: "app-doc"
-  name: "doxygen"
-  version: ">=1.8.15"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "sys-devel"
-  name: "automake"
-  version: ">=1.15.1"
-- category: "sys-devel"
-  name: "libtool"
-  version: ">=2.4.6"
-- category: "dev-python"
-  name: "cython"
-  version: ">=0.29.14"
-- category: "app-editors"
-  name: "emacs"
-  version: ">=23.4"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-exec"
-  version: ">=2.4.6"
-- category: "dev-python"
-  name: "setuptools"
-  version: ">=44.0.0"
-- category: "dev-python"
-  name: "numpy"
-  version: ">=1.16.5"
-- category: "dev-python"
-  name: "sphinx"
-  version: ">=1.7.5"
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: python-2.7
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.7.5'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: python-exec-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: python-3.6
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- python_targets_python3_6
+- abi_x86_64
+- -python_targets_python3_8
+- -examples
+- userland_GNU
+- big-endian
+- -libyaml
+- split-usr
+- python_targets_python2_7
+- elibc_glibc
+- -python_targets_pypy3
+- kernel_linux
+- -python_targets_python3_7
+- amd64
+version: 5.3+1

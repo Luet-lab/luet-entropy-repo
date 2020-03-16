@@ -1,32 +1,99 @@
-
-category: "dev-perl"
-name: "HTTP-Message"
-version: "6.130.0"
+State: ""
+category: dev-perl
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: HTTP-Message
+provides: null
 requires:
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "dev-perl"
-  name: "URI"
-  version: ">=1.730.0"
-- category: "dev-perl"
-  name: "HTTP-Date"
-  version: ">=6.20.0"
-- category: "dev-perl"
-  name: "IO-HTML"
-  version: ">=1.1.0"
-- category: "dev-perl"
-  name: "Encode-Locale"
-  version: ">=1.50.0"
-- category: "dev-perl"
-  name: "LWP-MediaTypes"
-  version: ">=6.20.0"
-- category: "dev-perl"
-  name: "Try-Tiny"
-  version: ">=0.300.0"
-- category: "dev-perl"
-  name: "Sub-Name"
-  version: ">=0.210.0"
-- category: "dev-perl"
-  name: "Capture-Tiny"
-  version: ">=0.480.0"
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: Encode-Locale
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.0.0'
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: HTTP-Date
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=6.0.0'
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: LWP-MediaTypes
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=6.0.0'
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: URI
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.100.0'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: perl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: IO-HTML
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- userland_GNU
+- abi_x86_64
+- amd64
+- big-endian
+- split-usr
+- -test
+- elibc_glibc
+- kernel_linux
+version: 6.130.0+1

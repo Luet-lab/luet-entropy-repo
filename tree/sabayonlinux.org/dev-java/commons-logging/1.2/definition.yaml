@@ -1,35 +1,65 @@
-
-category: "dev-java"
-name: "commons-logging"
-version: "1.2+r1"
+State: ""
+category: dev-java
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: commons-logging
+provides: null
 requires:
-- category: "dev-java"
-  name: "log4j"
-  version: ">=1.2.17"
-- category: "dev-java"
-  name: "java-config-2"
-  version: ">=2.2.0"
-- category: "app-arch"
-  name: "zip"
-  version: ">=3.0"
-- category: "dev-java"
-  name: "ant-core"
-  version: ">=1.10.5"
-- category: "dev-java"
-  name: "javatoolkit"
-  version: ">=0.3.0"
-- category: "java-virtuals"
-  name: "servlet-api-3.1"
-  version: ">=3.1"
-- category: "dev-java"
-  name: "resin-servlet-api-3.1"
-  version: ">=4.0.46"
-- category: "dev-java"
-  name: "ant-junit"
-  version: ">=1.10.5"
-- category: "dev-java"
-  name: "junit"
-  version: ">=3.8.2"
-- category: "dev-java"
-  name: "junit-4"
-  version: ">=4.12"
+- State: ""
+  category: dev-java
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: ant-core
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.8.2'
+- State: ""
+  category: dev-java
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: java-config-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.2.0'
+- State: ""
+  category: dev-java
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: javatoolkit
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.3.0'
+set: false
+uri: null
+use_flags:
+- -source
+- kernel_linux
+- -servletapi
+- amd64
+- -doc
+- -test
+- -avalon-logkit
+- abi_x86_64
+- -avalon-framework
+- elibc_glibc
+- userland_GNU
+- -log4j
+- -elibc_FreeBSD
+version: 1.2+r2

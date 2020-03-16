@@ -1,38 +1,143 @@
-
-category: "dev-python"
-name: "hyper-h2"
-version: "3.0.1"
+State: ""
+category: dev-python
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: hyper-h2
+provides: null
 requires:
-- category: "dev-python"
-  name: "hyperframe"
-  version: ">=5.1.0"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-exec"
-  version: ">=2.4.6"
-- category: "dev-python"
-  name: "pytest"
-  version: ">=5.3.5"
-- category: "dev-python"
-  name: "setuptools"
-  version: ">=44.0.0"
-- category: "dev-python"
-  name: "hpack"
-  version: ">=3.0.0"
-- category: "dev-python"
-  name: "hypothesis"
-  version: ">=3.74.3"
-- category: "dev-python"
-  name: "enum34"
-  version: ">=1.1.6"
+- State: ""
+  category: dev-python
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: enum34
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: <2.0.0
+- State: ""
+  category: dev-python
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: hpack
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: <4.0.0
+- State: ""
+  category: dev-python
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: hyperframe
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: <6.0.0
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: python-2.7
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.7.5'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: python-exec-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2'
+- State: ""
+  category: dev-python
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: enum34
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.1.6'
+- State: ""
+  category: dev-python
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: hpack
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.3.0'
+- State: ""
+  category: dev-python
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: hyperframe
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=5.0.0'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: python-3.6
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- split-usr
+- amd64
+- kernel_linux
+- elibc_glibc
+- -python_targets_python3_7
+- abi_x86_64
+- python_targets_python3_6
+- -test
+- python_targets_python2_7
+- -python_targets_python3_5
+- userland_GNU
+- -python_targets_pypy
+- big-endian
+version: 3.0.1+1

@@ -1,17 +1,61 @@
-
-category: "dev-texlive"
-name: "texlive-latexrecommended"
-version: "2019+r2"
+State: ""
+category: dev-texlive
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: texlive-latexrecommended
+provides: null
 requires:
-- category: "dev-texlive"
-  name: "texlive-latex"
-  version: ">=2019"
-- category: "dev-texlive"
-  name: "texlive-basic"
-  version: ">=2019"
-- category: "app-text"
-  name: "texlive-core"
-  version: ">=2019"
-- category: "app-arch"
-  name: "xz-utils"
-  version: ">=5.2.4"
+- State: ""
+  category: app-text
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: texlive-core
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2019'
+- State: ""
+  category: dev-texlive
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: texlive-latex
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2019'
+- State: ""
+  category: app-arch
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: xz-utils
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- -doc
+- abi_x86_64
+- elibc_glibc
+- userland_GNU
+- -source
+- split-usr
+- big-endian
+- amd64
+- kernel_linux
+version: 2019+r3

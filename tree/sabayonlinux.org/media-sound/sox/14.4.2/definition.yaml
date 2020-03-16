@@ -1,116 +1,259 @@
-
-category: "media-sound"
-name: "sox"
-version: "14.4.2+r1"
+State: ""
+category: media-sound
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: sox
+provides: null
 requires:
-- category: "dev-libs"
-  name: "libltdl"
-  version: ">=2.4.6"
-- category: "app-arch"
-  name: "xz-utils"
-  version: ">=5.2.4"
-- category: "media-sound"
-  name: "gsm"
-  version: ">=1.0.13"
-- category: "media-libs"
-  name: "alsa-lib"
-  version: ">=1.2.1.2"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-exec"
-  version: ">=2.4.6"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "app-doc"
-  name: "doxygen"
-  version: ">=1.8.15"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "sys-devel"
-  name: "automake"
-  version: ">=1.15.1"
-- category: "sys-devel"
-  name: "libtool"
-  version: ">=2.4.6"
-- category: "media-libs"
-  name: "opencore-amr"
-  version: ">=0.1.5"
-- category: "media-libs"
-  name: "libao"
-  version: ">=1.2.2"
-- category: "media-libs"
-  name: "nas"
-  version: ">=1.9.4"
-- category: "media-sound"
-  name: "pulseaudio"
-  version: ">=13.0"
-- category: "media-sound"
-  name: "lame"
-  version: ">=3.100"
-- category: "sys-libs"
-  name: "ncurses"
-  version: ">=6.1"
-- category: "media-libs"
-  name: "libsndfile"
-  version: ">=1.0.28"
-- category: "sys-devel"
-  name: "gettext"
-  version: ">=0.20.1"
-- category: "dev-lang"
-  name: "nasm"
-  version: ">=2.14.02"
-- category: "media-libs"
-  name: "flac"
-  version: ">=1.3.3"
-- category: "media-libs"
-  name: "libogg"
-  version: ">=1.3.4"
-- category: "media-libs"
-  name: "libid3tag"
-  version: ">=0.15.1b"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=1.2.11"
-- category: "dev-util"
-  name: "gperf"
-  version: ">=3.1"
-- category: "media-libs"
-  name: "ladspa-sdk"
-  version: ">=1.13"
-- category: "sys-apps"
-  name: "sed"
-  version: ">=4.7"
-- category: "media-libs"
-  name: "libmad"
-  version: ">=0.15.1b"
-- category: "media-libs"
-  name: "libvorbis"
-  version: ">=1.3.6"
-- category: "media-libs"
-  name: "opus"
-  version: ">=1.3.1"
-- category: "media-gfx"
-  name: "graphviz"
-  version: ">=2.42.1"
-- category: "media-libs"
-  name: "opusfile"
-  version: ">=0.11"
-- category: "dev-libs"
-  name: "openssl"
-  version: ">=1.1.1d"
-- category: "media-libs"
-  name: "libpng"
-  version: ">=1.6.37"
-- category: "media-sound"
-  name: "twolame"
-  version: ">=0.3.13"
-- category: "media-sound"
-  name: "wavpack"
-  version: ">=5.1.0"
+- State: ""
+  category: app-portage
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: elt-patches
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=20170422'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: flac
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.1.3'
+- State: ""
+  category: media-sound
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: gsm
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.0.12'
+- State: ""
+  category: media-sound
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: lame
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=3.98.4'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: autoconf-2.69
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.69'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: automake-1.15
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.15.1'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libtool-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.4'
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libltdl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: alsa-lib
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libmad
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libogg
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libpng
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libvorbis
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: opus
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: opusfile
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: media-sound
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: pulseaudio
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: zlib
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- -debug
+- encode
+- pulseaudio
+- mad
+- alsa
+- big-endian
+- kernel_linux
+- -sndfile
+- -id3tag
+- userland_GNU
+- -amr
+- opus
+- -ladspa
+- openmp
+- -wavpack
+- png
+- -static-libs
+- amd64
+- ogg
+- flac
+- elibc_glibc
+- -oss
+- abi_x86_64
+- -twolame
+- -ao
+version: 14.4.2+r2

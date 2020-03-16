@@ -1,20 +1,47 @@
-
-category: "dev-java"
-name: "gnu-regexp-1"
-version: "1.1.4+r3"
+State: ""
+category: dev-java
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: gnu-regexp-1
+provides: null
 requires:
-- category: "dev-java"
-  name: "java-getopt-1"
-  version: ">=1.0.14"
-- category: "dev-java"
-  name: "java-config"
-  version: ">=2.2.0"
-- category: "app-arch"
-  name: "zip"
-  version: ">=3.0"
-- category: "dev-java"
-  name: "ant-core"
-  version: ">=1.10.5"
-- category: "dev-java"
-  name: "javatoolkit"
-  version: ">=0.3.0"
+- State: ""
+  category: dev-java
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: java-config-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.2.0'
+- State: ""
+  category: dev-java
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: java-getopt-1
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- -doc
+- kernel_linux
+- abi_x86_64
+- -elibc_FreeBSD
+- userland_GNU
+- elibc_glibc
+- -source
+- amd64
+version: 1.1.4+r4

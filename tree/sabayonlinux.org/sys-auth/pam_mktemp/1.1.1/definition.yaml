@@ -1,65 +1,48 @@
-
-category: "sys-auth"
-name: "pam_mktemp"
-version: "1.1.1"
+State: ""
+category: sys-auth
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: pam_mktemp
+provides: null
 requires:
-- category: "sys-libs"
-  name: "pam"
-  version: ">=1.3.0"
-- category: "sys-process"
-  name: "audit"
-  version: ">=2.8.4"
-- category: "sys-libs"
-  name: "db"
-  version: ">=6.0.35"
-- category: "sys-libs"
-  name: "cracklib"
-  version: ">=2.9.7"
-- category: "net-libs"
-  name: "libtirpc"
-  version: ">=1.1.4"
-- category: "sys-libs"
-  name: "libcap"
-  version: ">=2.27"
-- category: "sys-auth"
-  name: "pambase"
-  version: ">=20190402"
-- category: "app-text"
-  name: "docbook-xml-dtd"
-  version: ">=4.1.2"
-- category: "app-text"
-  name: "docbook-xml-dtd"
-  version: ">=4.3"
-- category: "app-text"
-  name: "docbook-xml-dtd"
-  version: ">=4.1.2"
-- category: "app-text"
-  name: "docbook-xml-dtd"
-  version: ">=4.5"
-- category: "dev-libs"
-  name: "libxslt"
-  version: ">=1.1.33"
-- category: "sys-devel"
-  name: "flex"
-  version: ">=2.6.4"
-- category: "sys-devel"
-  name: "gettext"
-  version: ">=0.20.1"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "sys-devel"
-  name: "automake"
-  version: ">=1.15.1"
-- category: "sys-devel"
-  name: "libtool"
-  version: ">=2.4.6"
-- category: "sys-kernel"
-  name: "linux-headers"
-  version: ">=4.19"
-- category: "app-arch"
-  name: "xz-utils"
-  version: ">=5.2.4"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
+- State: ""
+  category: sys-kernel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: linux-headers
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: pam
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- elibc_glibc
+- big-endian
+- userland_GNU
+- kernel_linux
+- amd64
+- -selinux
+- abi_x86_64
+- prevent-removal
+- split-usr
+version: 1.1.1+1

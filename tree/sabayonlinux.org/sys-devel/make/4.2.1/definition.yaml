@@ -1,32 +1,35 @@
-
-category: "sys-devel"
-name: "make"
-version: "4.2.1+r4"
+State: ""
+category: sys-devel
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: make
+provides: null
 requires:
-- category: "dev-scheme"
-  name: "guile-12"
-  version: ">=2.2.4"
-- category: "dev-libs"
-  name: "boehm-gc"
-  version: ">=8.0.4"
-- category: "dev-libs"
-  name: "gmp"
-  version: ">=6.1.2"
-- category: "dev-libs"
-  name: "libltdl"
-  version: ">=2.4.6"
-- category: "dev-libs"
-  name: "libunistring"
-  version: ">=0.9.10"
-- category: "sys-libs"
-  name: "ncurses"
-  version: ">=6.1"
-- category: "sys-libs"
-  name: "readline"
-  version: ">=7.0"
-- category: "sys-devel"
-  name: "libtool"
-  version: ">=2.4.6"
-- category: "sys-devel"
-  name: "gettext"
-  version: ">=0.20.1"
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: gettext
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- nls
+- abi_x86_64
+- amd64
+- big-endian
+- -guile
+- kernel_linux
+- elibc_glibc
+- -static
+- userland_GNU
+version: 4.2.1+r5

@@ -1,20 +1,74 @@
-
-category: "dev-haskell"
-name: "old-time"
-version: "1.1.0.3+r1"
+State: ""
+category: dev-haskell
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: old-time
+provides: null
 requires:
-- category: "dev-haskell"
-  name: "old-locale"
-  version: ">=1.0.0.7"
-- category: "dev-lang"
-  name: "ghc"
-  version: ">=8.0.2"
-- category: "dev-haskell"
-  name: "cabal"
-  version: ">=1.24.2.0"
-- category: "dev-haskell"
-  name: "haddock"
-  version: ">=2.17.2"
-- category: "dev-haskell"
-  name: "hscolour"
-  version: ">=1.24"
+- State: ""
+  category: dev-haskell
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: old-locale
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: <1.1
+- State: ""
+  category: dev-haskell
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: cabal
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.18.1.2'
+- State: ""
+  category: dev-haskell
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: old-locale
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.0'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: ghc
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=7.4.1'
+set: false
+uri: null
+use_flags:
+- elibc_glibc
+- amd64
+- abi_x86_64
+- -profile
+- userland_GNU
+- -doc
+- -hscolour
+- big-endian
+- kernel_linux
+version: 1.1.0.3+r2

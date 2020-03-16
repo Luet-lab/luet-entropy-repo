@@ -1,11 +1,22 @@
-
-category: "sys-apps"
-name: "debianutils"
-version: "4.9.1"
-requires:
-- category: "sys-kernel"
-  name: "installkernel-gentoo"
-  version: ">=2"
-- category: "sys-apps"
-  name: "systemd"
-  version: ">=242"
+State: ""
+category: sys-apps
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: debianutils
+provides: null
+requires: null
+set: false
+uri: null
+use_flags:
+- -static
+- big-endian
+- installkernel
+- userland_GNU
+- amd64
+- abi_x86_64
+- split-usr
+- elibc_glibc
+- kernel_linux
+version: 4.9.1+1

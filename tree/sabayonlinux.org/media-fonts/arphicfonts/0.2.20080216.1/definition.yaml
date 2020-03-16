@@ -1,101 +1,58 @@
-
-category: "media-fonts"
-name: "arphicfonts"
-version: "0.2.20080216.1+r2"
+State: ""
+category: media-fonts
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: arphicfonts
+provides: null
 requires:
-- category: "media-gfx"
-  name: "fontforge"
-  version: ">=20190801"
-- category: "dev-libs"
-  name: "glib"
-  version: ">=2.60.7"
-- category: "dev-libs"
-  name: "libltdl"
-  version: ">=2.4.6"
-- category: "dev-libs"
-  name: "libxml2"
-  version: ">=2.9.9"
-- category: "media-libs"
-  name: "freetype"
-  version: ">=2.9.1"
-- category: "x11-libs"
-  name: "cairo"
-  version: ">=1.16.0"
-- category: "x11-libs"
-  name: "pango"
-  version: ">=1.42.4"
-- category: "media-libs"
-  name: "giflib"
-  version: ">=5.2.1"
-- category: "media-libs"
-  name: "libpng"
-  version: ">=1.6.37"
-- category: "media-libs"
-  name: "tiff"
-  version: ">=4.1.0"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-exec"
-  version: ">=2.4.6"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "sys-libs"
-  name: "readline"
-  version: ">=7.0"
-- category: "media-libs"
-  name: "libuninameslist"
-  version: ">=20091231"
-- category: "x11-libs"
-  name: "libX11"
-  version: ">=1.6.9"
-- category: "x11-libs"
-  name: "libXi"
-  version: ">=1.7.10"
-- category: "x11-base"
-  name: "xorg-proto"
-  version: ">=2019.2"
-- category: "dev-util"
-  name: "desktop-file-utils"
-  version: ">=0.24"
-- category: "x11-misc"
-  name: "shared-mime-info"
-  version: ">=1.10"
-- category: "sys-devel"
-  name: "gettext"
-  version: ">=0.20.1"
-- category: "x11-apps"
-  name: "mkfontscale"
-  version: ">=1.2.1"
-- category: "x11-libs"
-  name: "libfontenc"
-  version: ">=1.1.4"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=1.2.11"
-- category: "app-arch"
-  name: "bzip2"
-  version: ">=1.0.6"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "sys-devel"
-  name: "automake"
-  version: ">=1.15.1"
-- category: "sys-devel"
-  name: "libtool"
-  version: ">=2.4.6"
-- category: "sys-devel"
-  name: "m4"
-  version: ">=1.4.18"
-- category: "x11-misc"
-  name: "util-macros"
-  version: ">=1.19.2"
-- category: "media-fonts"
-  name: "font-util"
-  version: ">=1.3.2"
-- category: "media-fonts"
-  name: "encodings"
-  version: ">=1.0.5"
+- State: ""
+  category: media-fonts
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: encodings
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: media-gfx
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: fontforge
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: x11-apps
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: mkfontdir
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- kernel_linux
+- abi_x86_64
+- userland_GNU
+- amd64
+- elibc_glibc
+- X
+version: 0.2.20080216.1+r3

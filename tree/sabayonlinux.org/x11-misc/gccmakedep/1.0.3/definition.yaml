@@ -1,14 +1,32 @@
-
-category: "x11-misc"
-name: "gccmakedep"
-version: "1.0.3+r1"
+State: ""
+category: x11-misc
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: gccmakedep
+provides: null
 requires:
-- category: "x11-base"
-  name: "xorg-proto"
-  version: ">=2019.2"
-- category: "dev-util"
-  name: "meson"
-  version: ">=0.52.1"
-- category: "dev-util"
-  name: "ninja"
-  version: ">=1.8.2"
+- State: ""
+  category: x11-base
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: xorg-proto
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- kernel_linux
+- amd64
+- elibc_glibc
+- abi_x86_64
+- userland_GNU
+- big-endian
+version: 1.0.3+r2

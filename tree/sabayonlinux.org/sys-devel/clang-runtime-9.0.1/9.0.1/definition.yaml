@@ -1,59 +1,72 @@
-
-category: "sys-devel"
-name: "clang-runtime-9.0.1"
-version: "9.0.1"
+State: ""
+category: sys-devel
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: clang-runtime-9.0.1
+provides: null
 requires:
-- category: "sys-libs"
-  name: "compiler-rt-9.0.1"
-  version: ">=9.0.1"
-- category: "sys-devel"
-  name: "llvm-9"
-  version: ">=9.0.1"
-- category: "sys-devel"
-  name: "clang-9"
-  version: ">=9.0.1"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "sys-devel"
-  name: "clang-9"
-  version: ">=9.0.1"
-- category: "dev-util"
-  name: "ninja"
-  version: ">=1.8.2"
-- category: "dev-util"
-  name: "cmake"
-  version: ">=3.14.6"
-- category: "sys-libs"
-  name: "compiler-rt-sanitizers-9.0.1"
-  version: ">=9.0.1"
-- category: "net-libs"
-  name: "libtirpc"
-  version: ">=1.1.4"
-- category: "sys-libs"
-  name: "libcxx"
-  version: ">=9.0.1"
-- category: "sys-libs"
-  name: "libcxxabi"
-  version: ">=9.0.1"
-- category: "sys-libs"
-  name: "libomp"
-  version: ">=9.0.1"
-- category: "sys-apps"
-  name: "hwloc"
-  version: ">=1.11.2"
-- category: "dev-libs"
-  name: "libffi"
-  version: ">=3.3"
-- category: "dev-util"
-  name: "nvidia-cuda-toolkit"
-  version: ">=10.2.89"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
+- State: ""
+  category: sys-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libomp
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=9.0.1'
+- State: ""
+  category: sys-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: compiler-rt-9.0.1
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=9.0.1'
+- State: ""
+  category: sys-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: compiler-rt-sanitizers-9.0.1
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=9.0.1'
+set: false
+uri: null
+use_flags:
+- -abi_mips_n32
+- -libcxx
+- big-endian
+- -abi_mips_n64
+- -abi_riscv_lp64d
+- kernel_linux
+- -abi_s390_32
+- -abi_x86_x32
+- openmp
+- abi_x86_64
+- compiler-rt
+- split-usr
+- amd64
+- -abi_s390_64
+- -abi_riscv_lp64
+- abi_x86_32
+- -abi_mips_o32
+- elibc_glibc
+- sanitize
+- userland_GNU
+version: 9.0.1+1

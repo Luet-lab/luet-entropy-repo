@@ -1,11 +1,47 @@
-
-category: "dev-perl"
-name: "Test-Warn"
-version: "0.320.0"
+State: ""
+category: dev-perl
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: Test-Warn
+provides: null
 requires:
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "dev-perl"
-  name: "Sub-Uplevel"
-  version: ">=0.280.0"
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: Sub-Uplevel
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.120.0'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: perl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- amd64
+- abi_x86_64
+- -test
+- elibc_glibc
+- big-endian
+- split-usr
+- userland_GNU
+- kernel_linux
+version: 0.320.0+1

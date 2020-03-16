@@ -1,20 +1,46 @@
-
-category: "dev-perl"
-name: "Sub-Exporter-Progressive"
-version: "0.1.13"
+State: ""
+category: dev-perl
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: Sub-Exporter-Progressive
+provides: null
 requires:
-- category: "dev-perl"
-  name: "Sub-Exporter"
-  version: ">=0.987.0"
-- category: "dev-perl"
-  name: "Sub-Install"
-  version: ">=0.928.0"
-- category: "dev-perl"
-  name: "Data-OptList"
-  version: ">=0.110.0"
-- category: "dev-perl"
-  name: "Params-Util"
-  version: ">=1.70.0"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: perl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: Sub-Exporter
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- userland_GNU
+- abi_x86_64
+- kernel_linux
+- big-endian
+- amd64
+- elibc_glibc
+- split-usr
+version: 0.1.13+1

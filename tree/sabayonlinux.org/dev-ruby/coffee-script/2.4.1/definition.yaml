@@ -1,20 +1,63 @@
-
-category: "dev-ruby"
-name: "coffee-script"
-version: "2.4.1"
+State: ""
+category: dev-ruby
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: coffee-script
+provides: null
 requires:
-- category: "dev-ruby"
-  name: "coffee-script-source"
-  version: ">=1.12.2"
-- category: "dev-lang"
-  name: "ruby-2.5"
-  version: ">=2.5.7"
-- category: "dev-ruby"
-  name: "execjs"
-  version: ">=2.7.0"
-- category: "dev-ruby"
-  name: "rake"
-  version: ">=12.3.3"
-- category: "net-libs"
-  name: "nodejs"
-  version: ">=10.18.0"
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: ruby-2.5
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-ruby
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: coffee-script-source
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-ruby
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: execjs
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- split-usr
+- abi_x86_64
+- kernel_linux
+- elibc_glibc
+- userland_GNU
+- -test
+- ruby_targets_ruby25
+- big-endian
+- -ruby_targets_ruby24
+- -ruby_targets_ruby26
+- amd64
+version: 2.4.1+1

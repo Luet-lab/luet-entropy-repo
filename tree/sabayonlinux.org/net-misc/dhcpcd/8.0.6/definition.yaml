@@ -1,11 +1,23 @@
-
-category: "net-misc"
-name: "dhcpcd"
-version: "8.0.6"
-requires:
-- category: "sys-apps"
-  name: "systemd"
-  version: ">=242"
-- category: "dev-util"
-  name: "pkgconfig"
-  version: ">=0.29.2"
+State: ""
+category: net-misc
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: dhcpcd
+provides: null
+requires: null
+set: false
+uri: null
+use_flags:
+- abi_x86_64
+- amd64
+- embedded
+- userland_GNU
+- kernel_linux
+- elibc_glibc
+- split-usr
+- udev
+- ipv6
+- big-endian
+version: 8.0.6+1

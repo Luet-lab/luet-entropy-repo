@@ -1,8 +1,18 @@
-
-category: "net-misc"
-name: "npapi-sdk"
-version: "0.27.2"
-requires:
-- category: "dev-util"
-  name: "pkgconfig"
-  version: ">=0.29.2"
+State: ""
+category: net-misc
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: npapi-sdk
+provides: null
+requires: null
+set: false
+uri: null
+use_flags:
+- userland_GNU
+- kernel_linux
+- amd64
+- elibc_glibc
+- multilib
+version: 0.27.2+1

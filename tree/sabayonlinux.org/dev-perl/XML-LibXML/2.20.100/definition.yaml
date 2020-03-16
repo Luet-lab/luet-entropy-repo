@@ -1,26 +1,101 @@
-
-category: "dev-perl"
-name: "XML-LibXML"
-version: "2.20.100"
+State: ""
+category: dev-perl
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: XML-LibXML
+provides: null
 requires:
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "dev-perl"
-  name: "XML-SAX"
-  version: ">=1.0.0"
-- category: "dev-perl"
-  name: "XML-SAX-Base"
-  version: ">=1.90.0"
-- category: "dev-perl"
-  name: "XML-NamespaceSupport"
-  version: ">=1.120.0"
-- category: "dev-libs"
-  name: "libxml2"
-  version: ">=2.9.9"
-- category: "dev-perl"
-  name: "Alien-Libxml2"
-  version: ">=0.90.0"
-- category: "dev-perl"
-  name: "Alien-Build"
-  version: ">=1.790.0"
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libxml2-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.6.21'
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: XML-NamespaceSupport
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.70.0'
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: XML-SAX
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.120.0'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: perl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: Alien-Libxml2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: XML-SAX-Base
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- abi_x86_64
+- userland_GNU
+- -minimal
+- kernel_linux
+- -examples
+- elibc_glibc
+- split-usr
+- big-endian
+- -test
+- amd64
+version: 2.20.100+1

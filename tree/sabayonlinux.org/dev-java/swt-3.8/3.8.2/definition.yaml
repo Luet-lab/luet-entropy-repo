@@ -1,8 +1,244 @@
-
-category: "dev-java"
-name: "swt-3.8"
-version: "3.8.2+r2"
+State: ""
+category: dev-java
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: swt-3.8
+provides: null
 requires:
-- category: "dev-java"
-  name: "icedtea-bin"
-  version: ">=3.12.0"
+- State: ""
+  category: dev-java
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: ant-core
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.8.2'
+- State: ""
+  category: dev-java
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: java-config-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.2.0'
+- State: ""
+  category: dev-java
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: javatoolkit
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.3.0'
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: atk
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.10.2'
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: glib-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.6'
+- State: ""
+  category: x11-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: cairo
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.4.14'
+- State: ""
+  category: x11-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: gtk+-3
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.6.8'
+- State: ""
+  category: x11-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libXtst
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.1.0'
+- State: ""
+  category: app-arch
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: unzip
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: gnome-base
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: gnome-vfs-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: gnome-base
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libgnome
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: gnome-base
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libgnomeui
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: x11-base
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: xorg-proto
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: x11-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libX11
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: x11-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libXrender
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: x11-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libXt
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: x11-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libXtst
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- elibc_glibc
+- abi_x86_64
+- cairo
+- amd64
+- opengl
+- kernel_linux
+- -elibc_FreeBSD
+- big-endian
+- gnome
+- userland_GNU
+version: 3.8.2+r3

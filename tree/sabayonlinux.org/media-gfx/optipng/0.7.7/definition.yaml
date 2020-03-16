@@ -1,29 +1,58 @@
-
-category: "media-gfx"
-name: "optipng"
-version: "0.7.7"
+State: ""
+category: media-gfx
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: optipng
+provides: null
 requires:
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=1.2.11"
-- category: "sys-devel"
-  name: "automake-1.15"
-  version: ">=1.15.1"
-- category: "sys-devel"
-  name: "libtool-2"
-  version: ">=2.4.6"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "media-libs"
-  name: "libpng"
-  version: ">=1.6.37"
-- category: "app-arch"
-  name: "xz-utils"
-  version: ">=5.2.4"
-- category: "sys-apps"
-  name: "findutils"
-  version: ">=4.7.0"
-- category: "sys-devel"
-  name: "gettext"
-  version: ">=0.20.1"
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libpng
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-apps
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: findutils
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: zlib
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- userland_GNU
+- elibc_glibc
+- abi_x86_64
+- kernel_linux
+- amd64
+- big-endian
+version: 0.7.7+1

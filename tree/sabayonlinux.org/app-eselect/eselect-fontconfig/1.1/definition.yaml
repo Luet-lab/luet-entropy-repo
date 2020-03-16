@@ -1,59 +1,45 @@
-
-category: "app-eselect"
-name: "eselect-fontconfig"
-version: "1.1+r1"
+State: ""
+category: app-eselect
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: eselect-fontconfig
+provides: null
 requires:
-- category: "app-admin"
-  name: "eselect"
-  version: ">=1.4.15"
-- category: "sys-apps"
-  name: "sed"
-  version: ">=4.7"
-- category: "sys-apps"
-  name: "coreutils"
-  version: ">=8.30"
-- category: "dev-python"
-  name: "docutils"
-  version: ">=0.14"
-- category: "app-vim"
-  name: "eselect-syntax"
-  version: ">=20070506"
-- category: "sys-apps"
-  name: "file"
-  version: ">=5.37"
-- category: "sys-libs"
-  name: "ncurses"
-  version: ">=6.1"
-- category: "media-libs"
-  name: "fontconfig"
-  version: ">=2.13.1"
-- category: "dev-libs"
-  name: "expat"
-  version: ">=2.2.8"
-- category: "media-libs"
-  name: "freetype"
-  version: ">=2.9.1"
-- category: "sys-apps"
-  name: "util-linux"
-  version: ">=2.33.2"
-- category: "dev-util"
-  name: "gperf"
-  version: ">=3.1"
-- category: "sys-devel"
-  name: "gettext"
-  version: ">=0.20.1"
-- category: "app-text"
-  name: "docbook-sgml-dtd"
-  version: ">=3.0"
-- category: "app-text"
-  name: "docbook-sgml-utils"
-  version: ">=0.6.14"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "sys-devel"
-  name: "automake"
-  version: ">=1.15.1"
-- category: "sys-devel"
-  name: "libtool"
-  version: ">=2.4.6"
+- State: ""
+  category: app-admin
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: eselect
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.2.3'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: fontconfig-1.0
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.4'
+set: false
+uri: null
+use_flags:
+- amd64
+- elibc_glibc
+- kernel_linux
+- userland_GNU
+- big-endian
+- abi_x86_64
+version: 1.1+r2

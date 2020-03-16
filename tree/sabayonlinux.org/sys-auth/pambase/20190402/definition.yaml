@@ -1,269 +1,99 @@
-
-category: "sys-auth"
-name: "pambase"
-version: "20190402"
+State: ""
+category: sys-auth
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: pambase
+provides: null
 requires:
-- category: "app-arch"
-  name: "xz-utils"
-  version: ">=5.2.4"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "app-portage"
-  name: "portage-utils"
-  version: ">=0.85"
-- category: "sys-devel"
-  name: "clang-runtime-9.0.1"
-  version: ">=9.0.1"
-- category: "app-crypt"
-  name: "libb2"
-  version: ">=0.98.1"
-- category: "dev-libs"
-  name: "openssl"
-  version: ">=1.1.1d"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=1.2.11"
-- category: "app-crypt"
-  name: "gpgme"
-  version: ">=1.13.0"
-- category: "sys-libs"
-  name: "pam"
-  version: ">=1.3.0"
-- category: "sys-process"
-  name: "audit"
-  version: ">=2.8.4"
-- category: "sys-libs"
-  name: "db"
-  version: ">=6.0.35"
-- category: "sys-libs"
-  name: "cracklib"
-  version: ">=2.9.7"
-- category: "net-libs"
-  name: "libtirpc"
-  version: ">=1.1.4"
-- category: "sys-libs"
-  name: "libcap"
-  version: ">=2.27"
-- category: "app-text"
-  name: "docbook-xml-dtd"
-  version: ">=4.1.2"
-- category: "app-text"
-  name: "docbook-xml-dtd"
-  version: ">=4.3"
-- category: "app-text"
-  name: "docbook-xml-dtd"
-  version: ">=4.1.2"
-- category: "app-text"
-  name: "docbook-xml-dtd"
-  version: ">=4.5"
-- category: "dev-libs"
-  name: "libxslt"
-  version: ">=1.1.33"
-- category: "sys-devel"
-  name: "flex"
-  version: ">=2.6.4"
-- category: "sys-devel"
-  name: "gettext"
-  version: ">=0.20.1"
-- category: "sys-devel"
-  name: "automake"
-  version: ">=1.15.1"
-- category: "sys-devel"
-  name: "libtool"
-  version: ">=2.4.6"
-- category: "dev-libs"
-  name: "glib"
-  version: ">=2.60.7"
-- category: "sys-apps"
-  name: "dbus"
-  version: ">=1.12.16"
-- category: "x11-libs"
-  name: "libX11"
-  version: ">=1.6.9"
-- category: "sys-apps"
-  name: "acl"
-  version: ">=2.2.53"
-- category: "app-admin"
-  name: "cgmanager"
-  version: ">=0.41"
-- category: "sys-libs"
-  name: "libnih"
-  version: ">=1.0.3"
-- category: "dev-libs"
-  name: "libevdev"
-  version: ">=1.8.0"
-- category: "x11-libs"
-  name: "libdrm"
-  version: ">=2.4.100"
-- category: "sys-auth"
-  name: "polkit"
-  version: ">=0.115"
-- category: "app-text"
-  name: "xmlto"
-  version: ">=0.0.28"
-- category: "dev-vcs"
-  name: "git"
-  version: ">=2.24.1"
-- category: "sys-apps"
-  name: "coreutils"
-  version: ">=8.30"
-- category: "sys-power"
-  name: "pm-utils"
-  version: ">=1.4.1"
-- category: "sys-apps"
-  name: "util-linux"
-  version: ">=2.33.2"
-- category: "app-text"
-  name: "docbook-xml-dtd"
-  version: ">=4.2"
-- category: "app-text"
-  name: "docbook-xsl-stylesheets"
-  version: ">=1.79.1"
-- category: "dev-util"
-  name: "gperf"
-  version: ">=3.1"
-- category: "dev-util"
-  name: "intltool"
-  version: ">=0.51.0"
-- category: "dev-util"
-  name: "meson"
-  version: ">=0.52.1"
-- category: "dev-util"
-  name: "ninja"
-  version: ">=1.8.2"
-- category: "sys-auth"
-  name: "pam_mktemp"
-  version: ">=1.1.1"
-- category: "sys-kernel"
-  name: "linux-headers"
-  version: ">=4.19"
-- category: "sys-auth"
-  name: "pam_krb5"
-  version: ">=4.7"
-- category: "sys-auth"
-  name: "pam_ssh"
-  version: ">=2.3"
-- category: "net-misc"
-  name: "openssh"
-  version: ">=8.2"
-- category: "sys-auth"
-  name: "pam_passwdqc"
-  version: ">=1.3.0"
-- category: "sys-auth"
-  name: "passwdqc"
-  version: ">=1.3.0"
-- category: "sys-apps"
-  name: "systemd"
-  version: ">=242"
-- category: "sys-libs"
-  name: "libapparmor"
-  version: ">=2.13.3"
-- category: "sys-fs"
-  name: "cryptsetup"
-  version: ">=2.2.1"
-- category: "net-misc"
-  name: "curl"
-  version: ">=7.66.0"
-- category: "net-libs"
-  name: "gnutls"
-  version: ">=3.6.7"
-- category: "dev-libs"
-  name: "elfutils"
-  version: ">=0.177"
-- category: "dev-libs"
-  name: "libgcrypt"
-  version: ">=1.8.5"
-- category: "net-libs"
-  name: "libmicrohttpd"
-  version: ">=0.9.66"
-- category: "net-dns"
-  name: "libidn2"
-  version: ">=2.1.1a"
-- category: "app-arch"
-  name: "bzip2"
-  version: ">=1.0.6"
-- category: "sys-apps"
-  name: "kmod"
-  version: ">=26"
-- category: "app-arch"
-  name: "lz4"
-  version: ">=1.9.2"
-- category: "net-firewall"
-  name: "iptables"
-  version: ">=1.6.1"
-- category: "app-crypt"
-  name: "p11-kit"
-  version: ">=0.23.16.1"
-- category: "dev-libs"
-  name: "libpcre2"
-  version: ">=10.33"
-- category: "dev-libs"
-  name: "libpwquality"
-  version: ">=1.4.2"
-- category: "media-gfx"
-  name: "qrencode"
-  version: ">=4.0.2"
-- category: "sys-libs"
-  name: "libseccomp"
-  version: ">=2.4.2"
-- category: "x11-libs"
-  name: "libxkbcommon"
-  version: ">=0.9.1"
-- category: "sys-boot"
-  name: "gnu-efi"
-  version: ">=3.0.3"
-- category: "sys-apps"
-  name: "hwids"
-  version: ">=20200204"
-- category: "sys-fs"
-  name: "udev-init-scripts"
-  version: ">=33"
-- category: "sys-apps"
-  name: "gentoo-systemd-integration"
-  version: ">=7"
-- category: "acct-group"
-  name: "tty"
-  version: ">=0"
-- category: "acct-group"
-  name: "utmp"
-  version: ">=0"
-- category: "acct-group"
-  name: "audio"
-  version: ">=0"
-- category: "acct-group"
-  name: "cdrom"
-  version: ">=0"
-- category: "acct-group"
-  name: "disk"
-  version: ">=0"
-- category: "acct-group"
-  name: "kvm"
-  version: ">=0"
-- category: "acct-group"
-  name: "tape"
-  version: ">=0"
-- category: "acct-group"
-  name: "video"
-  version: ">=0"
-- category: "sys-apps"
-  name: "baselayout"
-  version: ">=2.6"
-- category: "sys-process"
-  name: "procps"
-  version: ">=3.3.15"
-- category: "sys-devel"
-  name: "m4"
-  version: ">=1.4.18"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-python"
-  name: "lxml"
-  version: ">=4.4.2"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
+- State: ""
+  category: sys-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: pam
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.1.3'
+- State: ""
+  category: app-arch
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: xz-utils
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: app-portage
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: portage-utils
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-apps
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: systemd
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: pam
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- -selinux
+- big-endian
+- userland_GNU
+- kernel_linux
+- cracklib
+- -passwdqc
+- -mktemp
+- split-usr
+- -consolekit
+- -securetty
+- systemd
+- abi_x86_64
+- amd64
+- -pam_ssh
+- -pam_krb5
+- elibc_glibc
+- -debug
+- nullok
+- sha512
+- -minimal
+- -elogind
+version: 20190402+1

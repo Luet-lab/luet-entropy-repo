@@ -1,11 +1,32 @@
-
-category: "app-eselect"
-name: "eselect-pinentry"
-version: "0.7"
+State: ""
+category: app-eselect
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: eselect-pinentry
+provides: null
 requires:
-- category: "app-eselect"
-  name: "eselect-lib-bin-symlink"
-  version: ">=0.1.1"
-- category: "app-admin"
-  name: "eselect"
-  version: ">=1.4.15"
+- State: ""
+  category: app-eselect
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: eselect-lib-bin-symlink
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.1.1'
+set: false
+uri: null
+use_flags:
+- kernel_linux
+- abi_x86_64
+- amd64
+- big-endian
+- elibc_glibc
+- userland_GNU
+version: 0.7+1

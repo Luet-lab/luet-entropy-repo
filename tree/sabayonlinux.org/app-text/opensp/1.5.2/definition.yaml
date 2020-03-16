@@ -1,104 +1,101 @@
-
-category: "app-text"
-name: "opensp"
-version: "1.5.2+r6"
+State: ""
+category: app-text
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: opensp
+provides: null
 requires:
-- category: "net-libs"
-  name: "libnsl"
-  version: ">=1.2.0"
-- category: "net-libs"
-  name: "libtirpc"
-  version: ">=1.1.4"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "sys-devel"
-  name: "automake"
-  version: ">=1.15.1"
-- category: "sys-devel"
-  name: "libtool"
-  version: ">=2.4.6"
-- category: "sys-devel"
-  name: "gettext"
-  version: ">=0.20.1"
-- category: "dev-libs"
-  name: "libxml2"
-  version: ">=2.9.9"
-- category: "dev-libs"
-  name: "expat"
-  version: ">=2.2.8"
-- category: "sys-libs"
-  name: "ncurses"
-  version: ">=6.1"
-- category: "dev-java"
-  name: "java-config"
-  version: ">=2.2.0"
-- category: "app-emacs"
-  name: "po-mode"
-  version: ">=0.20.1"
-- category: "dev-vcs"
-  name: "cvs"
-  version: ">=1.12.12"
-- category: "dev-vcs"
-  name: "git"
-  version: ">=2.24.1"
-- category: "app-text"
-  name: "xmlto"
-  version: ">=0.0.28"
-- category: "app-text"
-  name: "docbook-xsl-stylesheets"
-  version: ">=1.79.1"
-- category: "app-text"
-  name: "docbook-xml-dtd"
-  version: ">=4.2"
-- category: "app-shells"
-  name: "bash"
-  version: ">=4.4"
-- category: "dev-libs"
-  name: "libxslt"
-  version: ">=1.1.33"
-- category: "sys-apps"
-  name: "sed"
-  version: ">=4.7"
-- category: "sys-apps"
-  name: "coreutils"
-  version: ">=8.30"
-- category: "sys-apps"
-  name: "util-linux"
-  version: ">=2.33.2"
-- category: "sys-apps"
-  name: "which"
-  version: ">=2.21"
-- category: "www-client"
-  name: "lynx"
-  version: ">=2.8.9"
-- category: "www-client"
-  name: "elinks"
-  version: ">=0.13"
-- category: "app-text"
-  name: "passivetex"
-  version: ">=1.25"
-- category: "dev-tex"
-  name: "xmltex"
-  version: ">=1.9"
-- category: "app-text"
-  name: "docbook-xml-dtd"
-  version: ">=4.1.2"
-- category: "app-arch"
-  name: "unzip"
-  version: ">=6.0"
-- category: "app-text"
-  name: "build-docbook-catalog"
-  version: ">=1.21"
-- category: "app-text"
-  name: "sgml-common"
-  version: ">=0.6.3"
-- category: "app-text"
-  name: "docbook-xml-dtd"
-  version: ">=4.5"
-- category: "app-text"
-  name: "openjade"
-  version: ">=1.3.2"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
+- State: ""
+  category: app-portage
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: elt-patches
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=20170422'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: autoconf-2.69
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.69'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: automake-1.15
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.15.1'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libtool-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.4'
+- State: ""
+  category: net-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libnsl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: gettext
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- amd64
+- big-endian
+- kernel_linux
+- -test
+- userland_GNU
+- abi_x86_64
+- -doc
+- -static-libs
+- elibc_glibc
+- nls
+version: 1.5.2+r7

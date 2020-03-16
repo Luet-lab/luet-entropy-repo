@@ -1,194 +1,154 @@
-
-category: "app-text"
-name: "aspell"
-version: "0.60.8"
+State: ""
+category: app-text
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: aspell
+provides: null
 requires:
-- category: "sys-libs"
-  name: "ncurses"
-  version: ">=6.1"
-- category: "sys-libs"
-  name: "gpm"
-  version: ">=1.20.7"
-- category: "app-dicts"
-  name: "aspell-en"
-  version: ">=2018.04.16.0"
-- category: "app-dicts"
-  name: "aspell-af"
-  version: ">=0.50.0"
-- category: "app-dicts"
-  name: "aspell-be"
-  version: ">=0.01"
-- category: "app-dicts"
-  name: "aspell-bg"
-  version: ">=4.1.0"
-- category: "app-dicts"
-  name: "aspell-br"
-  version: ">=0.50.2"
-- category: "app-dicts"
-  name: "aspell-ca"
-  version: ">=2.1.5.1"
-- category: "app-dicts"
-  name: "aspell-cs"
-  version: ">=0.60.20040614"
-- category: "app-dicts"
-  name: "aspell-cy"
-  version: ">=0.50.3"
-- category: "app-dicts"
-  name: "aspell-da"
-  version: ">=1.7.42"
-- category: "app-dicts"
-  name: "aspell-de"
-  version: ">=0.60"
-- category: "app-dicts"
-  name: "aspell-de-alt"
-  version: ">=2.1.1"
-- category: "app-dicts"
-  name: "aspell-el"
-  version: ">=0.50.3"
-- category: "app-dicts"
-  name: "aspell-eo"
-  version: ">=2.1.20000225.2"
-- category: "app-dicts"
-  name: "aspell-es"
-  version: ">=1.11"
-- category: "app-dicts"
-  name: "aspell-et"
-  version: ">=0.1.21.1"
-- category: "app-dicts"
-  name: "aspell-fi"
-  version: ">=0.7.0"
-- category: "app-dicts"
-  name: "aspell-fo"
-  version: ">=0.51.0"
-- category: "app-dicts"
-  name: "aspell-fr"
-  version: ">=0.60"
-- category: "app-dicts"
-  name: "aspell-ga"
-  version: ">=0.50.4"
-- category: "app-dicts"
-  name: "aspell-gl"
-  version: ">=0.5.2"
-- category: "app-dicts"
-  name: "aspell-he"
-  version: ">=1.0.0"
-- category: "app-dicts"
-  name: "aspell-hr"
-  version: ">=0.51.0"
-- category: "app-dicts"
-  name: "aspell-hu"
-  version: ">=0.99.4.2"
-- category: "app-dicts"
-  name: "aspell-hy"
-  version: ">=0.10.0"
-- category: "app-dicts"
-  name: "aspell-is"
-  version: ">=0.51.1.0"
-- category: "app-dicts"
-  name: "aspell-it"
-  version: ">=2.4.20070901"
-- category: "app-dicts"
-  name: "aspell-la"
-  version: ">=6.0.20020503.0"
-- category: "app-dicts"
-  name: "aspell-lt"
-  version: ">=1.0.1"
-- category: "app-dicts"
-  name: "aspell-nl"
-  version: ">=0.50.2"
-- category: "app-dicts"
-  name: "aspell-no"
-  version: ">=0.50.2"
-- category: "app-dicts"
-  name: "aspell-pl"
-  version: ">=6.0.20120418.0"
-- category: "app-dicts"
-  name: "aspell-pt"
-  version: ">=0.50.2"
-- category: "app-dicts"
-  name: "aspell-pt-br"
-  version: ">=6.0.20090702"
-- category: "app-dicts"
-  name: "aspell-ro"
-  version: ">=3.3.2"
-- category: "app-dicts"
-  name: "aspell-ru"
-  version: ">=0.99.1"
-- category: "app-dicts"
-  name: "aspell-sk"
-  version: ">=2.01.2"
-- category: "app-dicts"
-  name: "aspell-sl"
-  version: ">=0.50.0"
-- category: "app-dicts"
-  name: "aspell-sr"
-  version: ">=0.60"
-- category: "app-dicts"
-  name: "aspell-sv"
-  version: ">=0.51.0"
-- category: "app-dicts"
-  name: "aspell-uk"
-  version: ">=1.4.0.0"
-- category: "app-dicts"
-  name: "aspell-vi"
-  version: ">=0.01.1.1"
-- category: "dev-util"
-  name: "pkgconfig"
-  version: ">=0.29.2"
-- category: "sys-devel"
-  name: "gettext"
-  version: ">=0.20.1"
-- category: "dev-libs"
-  name: "libxml2"
-  version: ">=2.9.9"
-- category: "dev-libs"
-  name: "expat"
-  version: ">=2.2.8"
-- category: "dev-java"
-  name: "java-config"
-  version: ">=2.2.0"
-- category: "app-emacs"
-  name: "po-mode"
-  version: ">=0.20.1"
-- category: "dev-vcs"
-  name: "cvs"
-  version: ">=1.12.12"
-- category: "dev-vcs"
-  name: "git"
-  version: ">=2.24.1"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "sys-devel"
-  name: "automake-wrapper"
-  version: ">=11"
-- category: "sys-devel"
-  name: "gnuconfig"
-  version: ">=20190912"
-- category: "app-arch"
-  name: "gzip"
-  version: ">=1.9"
-- category: "sys-apps"
-  name: "help2man"
-  version: ">=1.47.11"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "sys-devel"
-  name: "automake"
-  version: ">=1.15.1"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "sys-devel"
-  name: "libtool"
-  version: ">=2.4.6"
-- category: "dev-libs"
-  name: "libltdl"
-  version: ">=2.4.6"
+- State: ""
+  category: app-portage
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: elt-patches
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=20170815'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: autoconf-2.69
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.69'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: automake-1.15
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.15.1'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libtool-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.4'
+- State: ""
+  category: app-dicts
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: aspell-en
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: gettext
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: ncurses
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- -l10n_ga
+- -l10n_cy
+- -l10n_sr
+- amd64
+- -l10n_da
+- -l10n_sk
+- -l10n_es
+- -l10n_sv
+- -l10n_ca
+- -l10n_fo
+- -l10n_fr
+- -l10n_et
+- -l10n_cs
+- big-endian
+- -l10n_it
+- -l10n_ro
+- -l10n_fi
+- unicode
+- -l10n_is
+- -l10n_pl
+- -l10n_el
+- -l10n_nl
+- -l10n_hu
+- -l10n_lt
+- -l10n_en
+- -l10n_hy
+- nls
+- -l10n_la
+- -l10n_sl
+- -l10n_gl
+- userland_GNU
+- elibc_glibc
+- -l10n_pt
+- -l10n_uk
+- -l10n_eo
+- kernel_linux
+- -l10n_de
+- -l10n_br
+- -l10n_bg
+- -l10n_he
+- -l10n_pt-BR
+- abi_x86_64
+- -l10n_no
+- -l10n_af
+- -l10n_be
+- split-usr
+- -l10n_de-1901
+- -l10n_hr
+- -l10n_vi
+- -l10n_ru
+version: 0.60.8+1

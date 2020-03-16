@@ -1,14 +1,35 @@
-
-category: "sys-process"
-name: "daemontools"
-version: "0.76+r8"
+State: ""
+category: sys-process
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: daemontools
+provides: null
 requires:
-- category: "sys-apps"
-  name: "sed"
-  version: ">=4.7"
-- category: "sys-devel"
-  name: "gettext"
-  version: ">=0.20.1"
-- category: "sys-devel"
-  name: "m4"
-  version: ">=1.4.18"
+- State: ""
+  category: sys-apps
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: sed
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=4'
+set: false
+uri: null
+use_flags:
+- amd64
+- big-endian
+- kernel_linux
+- -static
+- -selinux
+- split-usr
+- elibc_glibc
+- userland_GNU
+- abi_x86_64
+version: 0.76+r9

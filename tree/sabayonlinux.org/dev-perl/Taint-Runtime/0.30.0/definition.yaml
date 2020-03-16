@@ -1,23 +1,33 @@
-
-category: "dev-perl"
-name: "Taint-Runtime"
-version: "0.30.0+r1"
+State: ""
+category: dev-perl
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: Taint-Runtime
+provides: null
 requires:
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "sys-libs"
-  name: "db"
-  version: ">=6.0.35"
-- category: "sys-libs"
-  name: "gdbm"
-  version: ">=1.14.1"
-- category: "app-arch"
-  name: "bzip2"
-  version: ">=1.0.6"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=1.2.11"
-- category: "app-admin"
-  name: "perl-cleaner"
-  version: ">=2.27"
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: perl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- amd64
+- userland_GNU
+- kernel_linux
+- abi_x86_64
+- elibc_glibc
+- split-usr
+- big-endian
+version: 0.30.0+r2

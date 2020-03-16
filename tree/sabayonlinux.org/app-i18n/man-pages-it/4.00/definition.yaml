@@ -1,8 +1,18 @@
-
-category: "app-i18n"
-name: "man-pages-it"
-version: "4.00"
-requires:
-- category: "sys-apps"
-  name: "man-db"
-  version: ">=2.9.0"
+State: ""
+category: app-i18n
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: man-pages-it
+provides: null
+requires: null
+set: false
+uri: null
+use_flags:
+- elibc_glibc
+- amd64
+- userland_GNU
+- abi_x86_64
+- kernel_linux
+version: 4.00+1

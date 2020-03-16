@@ -1,23 +1,44 @@
-
-category: "app-dicts"
-name: "myspell-hu"
-version: "1.6.1"
+State: ""
+category: app-dicts
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: myspell-hu
+provides: null
 requires:
-- category: "app-arch"
-  name: "rpm2targz"
-  version: ">=9.0.0.5g"
-- category: "app-arch"
-  name: "xz-utils"
-  version: ">=5.2.4"
-- category: "app-arch"
-  name: "cpio"
-  version: ">=2.12"
-- category: "app-arch"
-  name: "unzip"
-  version: ">=6.0"
-- category: "app-arch"
-  name: "bzip2"
-  version: ">=1.0.6"
-- category: "dev-libs"
-  name: "libnatspec"
-  version: ">=0.3.0"
+- State: ""
+  category: app-arch
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: rpm2targz
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=9.0.0.3g'
+- State: ""
+  category: app-arch
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: unzip
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- kernel_linux
+- userland_GNU
+- multilib
+- elibc_glibc
+- amd64
+version: 1.6.1+1

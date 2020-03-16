@@ -1,50 +1,101 @@
-
-category: "dev-haskell"
-name: "enclosed-exceptions"
-version: "1.0.2"
+State: ""
+category: dev-haskell
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: enclosed-exceptions
+provides: null
 requires:
-- category: "dev-haskell"
-  name: "lifted-base"
-  version: ">=0.2.3.10"
-- category: "dev-haskell"
-  name: "monad-control"
-  version: ">=1.0.1.0"
-- category: "dev-haskell"
-  name: "transformers-base"
-  version: ">=0.4.4"
-- category: "dev-lang"
-  name: "ghc"
-  version: ">=8.0.2"
-- category: "dev-haskell"
-  name: "cabal"
-  version: ">=1.24.2.0"
-- category: "dev-haskell"
-  name: "hunit"
-  version: ">=1.2.5.2"
-- category: "dev-haskell"
-  name: "test-framework"
-  version: ">=0.8.1.1"
-- category: "dev-haskell"
-  name: "test-framework-hunit"
-  version: ">=0.3.0.2"
-- category: "dev-haskell"
-  name: "transformers"
-  version: ">=0.5.2.0"
-- category: "dev-haskell"
-  name: "transformers-compat"
-  version: ">=0.5.1.4"
-- category: "dev-haskell"
-  name: "haddock"
-  version: ">=2.17.2"
-- category: "dev-haskell"
-  name: "hscolour"
-  version: ">=1.24"
-- category: "dev-haskell"
-  name: "async"
-  version: ">=2.1.1"
-- category: "dev-haskell"
-  name: "stm"
-  version: ">=2.4.4.1"
-- category: "dev-haskell"
-  name: "quickcheck-2"
-  version: ">=2.9.2"
+- State: ""
+  category: dev-haskell
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: cabal
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.8'
+- State: ""
+  category: dev-haskell
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: lifted-base
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.2'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: ghc
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=7.4.1'
+- State: ""
+  category: dev-haskell
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: monad-control
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-haskell
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: transformers
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-haskell
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: transformers-base
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- elibc_glibc
+- abi_x86_64
+- -doc
+- big-endian
+- -profile
+- kernel_linux
+- amd64
+- -test
+- -hscolour
+- userland_GNU
+version: 1.0.2+1

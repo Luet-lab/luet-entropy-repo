@@ -1,71 +1,131 @@
-
-category: "dev-scheme"
-name: "guile-12"
-version: "2.2.4"
+State: ""
+category: dev-scheme
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: guile-12
+provides: null
 requires:
-- category: "dev-libs"
-  name: "boehm-gc"
-  version: ">=8.0.4"
-- category: "dev-libs"
-  name: "libatomic_ops"
-  version: ">=7.6.6"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "dev-libs"
-  name: "gmp"
-  version: ">=6.1.2"
-- category: "sys-devel"
-  name: "m4"
-  version: ">=1.4.18"
-- category: "app-arch"
-  name: "xz-utils"
-  version: ">=5.2.4"
-- category: "dev-libs"
-  name: "libffi"
-  version: ">=3.3"
-- category: "dev-libs"
-  name: "libltdl"
-  version: ">=2.4.6"
-- category: "dev-libs"
-  name: "libunistring"
-  version: ">=0.9.10"
-- category: "sys-libs"
-  name: "ncurses"
-  version: ">=6.1"
-- category: "sys-libs"
-  name: "gpm"
-  version: ">=1.20.7"
-- category: "sys-libs"
-  name: "readline"
-  version: ">=7.0"
-- category: "sys-devel"
-  name: "libtool"
-  version: ">=2.4.6"
-- category: "sys-devel"
-  name: "gnuconfig"
-  version: ">=20190912"
-- category: "sys-devel"
-  name: "automake"
-  version: ">=1.15.1"
-- category: "sys-devel"
-  name: "gettext"
-  version: ">=0.20.1"
-- category: "dev-libs"
-  name: "libxml2"
-  version: ">=2.9.9"
-- category: "dev-libs"
-  name: "expat"
-  version: ">=2.2.8"
-- category: "dev-java"
-  name: "java-config"
-  version: ">=2.2.0"
-- category: "app-emacs"
-  name: "po-mode"
-  version: ">=0.20.1"
-- category: "dev-vcs"
-  name: "cvs"
-  version: ">=1.12.12"
-- category: "dev-vcs"
-  name: "git"
-  version: ">=2.24.1"
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: boehm-gc
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=7.0'
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: gmp
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libltdl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libunistring
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: gettext
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libtool-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: ncurses
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: readline
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- regex
+- nls
+- abi_x86_64
+- amd64
+- big-endian
+- deprecated
+- -debug
+- kernel_linux
+- elibc_glibc
+- networking
+- split-usr
+- threads
+- -debug-malloc
+- userland_GNU
+version: 2.2.4+1

@@ -1,74 +1,236 @@
-
-category: "dev-db"
-name: "mongodb"
-version: "4.0.12"
+State: ""
+category: dev-db
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: mongodb
+provides: null
 requires:
-- category: "app-arch"
-  name: "snappy"
-  version: ">=1.1.8"
-- category: "dev-cpp"
-  name: "gtest"
-  version: ">=1.8.0"
-- category: "dev-util"
-  name: "ninja"
-  version: ">=1.8.2"
-- category: "dev-util"
-  name: "cmake"
-  version: ">=3.14.6"
-- category: "dev-cpp"
-  name: "yaml-cpp"
-  version: ">=0.6.2"
-- category: "dev-libs"
-  name: "boost"
-  version: ">=1.71.0"
-- category: "app-arch"
-  name: "bzip2"
-  version: ">=1.0.6"
-- category: "dev-libs"
-  name: "icu"
-  version: ">=65.1"
-- category: "app-arch"
-  name: "xz-utils"
-  version: ">=5.2.4"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-exec"
-  version: ">=2.4.6"
-- category: "dev-python"
-  name: "numpy"
-  version: ">=1.16.5"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=1.2.11"
-- category: "app-arch"
-  name: "zstd"
-  version: ">=1.3.7"
-- category: "dev-util"
-  name: "boost-build"
-  version: ">=1.71.0"
-- category: "dev-libs"
-  name: "libedit"
-  version: ">=20170329.3.1"
-- category: "sys-libs"
-  name: "readline"
-  version: ">=7.0"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "dev-libs"
-  name: "snowball-stemmer"
-  version: ">=0.20140325"
-- category: "net-libs"
-  name: "libpcap"
-  version: ">=1.9.1"
-- category: "net-wireless"
-  name: "bluez"
-  version: ">=5.52"
+- State: ""
+  category: app-admin
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: mongo-tools
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=4.0.12'
+- State: ""
+  category: app-arch
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: snappy
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.1.3'
+- State: ""
+  category: dev-cpp
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: yaml-cpp
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.5.3'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: python-2.7
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.7.5'
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: boost
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.60'
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libpcre-3
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=8.41'
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: openssl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.0.1g'
+- State: ""
+  category: dev-util
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: scons
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.5.0'
+- State: ""
+  category: sys-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: zlib
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.2.11'
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: cyrus-sasl-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: snowball-stemmer
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-python
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: cheetah
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-python
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: pyyaml
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: net-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libpcap
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: ncurses
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: readline
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- big-endian
+- -libressl
+- kernel_linux
+- -test
+- -mms-agent
+- -lto
+- amd64
+- split-usr
+- ssl
+- elibc_glibc
+- abi_x86_64
+- userland_GNU
+- tools
+- kerberos
+- -debug
+version: 4.0.12+2

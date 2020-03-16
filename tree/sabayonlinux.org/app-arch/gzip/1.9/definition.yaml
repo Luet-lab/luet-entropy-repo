@@ -1,4 +1,21 @@
-
-category: "app-arch"
-name: "gzip"
-version: "1.9"
+State: ""
+category: app-arch
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: gzip
+provides: null
+requires: null
+set: false
+uri: null
+use_flags:
+- -pic
+- abi_x86_64
+- amd64
+- big-endian
+- kernel_linux
+- elibc_glibc
+- -static
+- userland_GNU
+version: 1.9+1

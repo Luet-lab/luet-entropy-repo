@@ -1,26 +1,47 @@
-
-category: "net-firewall"
-name: "ebtables"
-version: "2.0.10.4+r2"
+State: ""
+category: net-firewall
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: ebtables
+provides: null
 requires:
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "sys-libs"
-  name: "db"
-  version: ">=6.0.35"
-- category: "sys-libs"
-  name: "gdbm"
-  version: ">=1.14.1"
-- category: "app-arch"
-  name: "bzip2"
-  version: ">=1.0.6"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=1.2.11"
-- category: "app-admin"
-  name: "perl-cleaner"
-  version: ">=2.27"
-- category: "net-misc"
-  name: "ethertypes"
-  version: ">=0"
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: perl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: net-misc
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: ethertypes
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- amd64
+- elibc_glibc
+- perl
+- kernel_linux
+- abi_x86_64
+- -static
+- big-endian
+- userland_GNU
+version: 2.0.10.4+r3

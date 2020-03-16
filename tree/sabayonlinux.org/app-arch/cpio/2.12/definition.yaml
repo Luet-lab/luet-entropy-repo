@@ -1,4 +1,20 @@
-
-category: "app-arch"
-name: "cpio"
-version: "2.12+r1"
+State: ""
+category: app-arch
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: cpio
+provides: null
+requires: null
+set: false
+uri: null
+use_flags:
+- kernel_linux
+- nls
+- abi_x86_64
+- amd64
+- big-endian
+- elibc_glibc
+- userland_GNU
+version: 2.12+r2

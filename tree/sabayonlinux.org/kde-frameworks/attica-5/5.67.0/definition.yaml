@@ -1,134 +1,101 @@
-
-category: "kde-frameworks"
-name: "attica-5"
-version: "5.67.0"
+State: ""
+category: kde-frameworks
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: attica-5
+provides: null
 requires:
-- category: "dev-qt"
-  name: "qtnetwork-5"
-  version: ">=5.14.1"
-- category: "dev-qt"
-  name: "qtcore-5"
-  version: ">=5.14.1"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=1.2.11"
-- category: "dev-qt"
-  name: "qtdbus-5"
-  version: ">=5.14.1"
-- category: "net-libs"
-  name: "libproxy"
-  version: ">=0.4.15"
-- category: "net-misc"
-  name: "lksctp-tools"
-  version: ">=1.0.18"
-- category: "dev-libs"
-  name: "openssl"
-  version: ">=1.1.1d"
-- category: "dev-qt"
-  name: "qttest-5"
-  version: ">=5.14.1"
-- category: "net-misc"
-  name: "connman"
-  version: ">=1.37"
-- category: "net-misc"
-  name: "networkmanager"
-  version: ">=1.18.4"
-- category: "dev-qt"
-  name: "qtchooser"
-  version: ">=66"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "app-arch"
-  name: "p7zip"
-  version: ">=16.02"
-- category: "kde-frameworks"
-  name: "kf-env-5"
-  version: ">=5"
-- category: "x11-misc"
-  name: "xdg-utils"
-  version: ">=1.1.3"
-- category: "dev-util"
-  name: "ninja"
-  version: ">=1.8.2"
-- category: "app-editors"
-  name: "vim"
-  version: ">=8.2.0210"
-- category: "app-editors"
-  name: "gvim"
-  version: ">=8.2.0210"
-- category: "dev-util"
-  name: "re2c"
-  version: ">=1.3"
-- category: "app-text"
-  name: "asciidoc"
-  version: ">=8.6.10"
-- category: "app-doc"
-  name: "doxygen"
-  version: ">=1.8.15"
-- category: "dev-libs"
-  name: "libxslt"
-  version: ">=1.1.33"
-- category: "dev-cpp"
-  name: "gtest"
-  version: ">=1.8.0"
-- category: "dev-util"
-  name: "cmake"
-  version: ">=3.14.6"
-- category: "app-crypt"
-  name: "rhash"
-  version: ">=1.3.9"
-- category: "app-arch"
-  name: "libarchive"
-  version: ">=3.4.2"
-- category: "dev-libs"
-  name: "expat"
-  version: ">=2.2.8"
-- category: "dev-libs"
-  name: "jsoncpp"
-  version: ">=1.9.1"
-- category: "dev-libs"
-  name: "libuv"
-  version: ">=1.33.1"
-- category: "net-misc"
-  name: "curl"
-  version: ">=7.66.0"
-- category: "sys-libs"
-  name: "ncurses"
-  version: ">=6.1"
-- category: "dev-qt"
-  name: "qtwidgets-5"
-  version: ">=5.14.1"
-- category: "dev-util"
-  name: "desktop-file-utils"
-  version: ">=0.24"
-- category: "x11-misc"
-  name: "shared-mime-info"
-  version: ">=1.10"
-- category: "dev-python"
-  name: "requests"
-  version: ">=2.21.0"
-- category: "dev-python"
-  name: "sphinx"
-  version: ">=1.7.5"
-- category: "x11-base"
-  name: "xorg-server"
-  version: ">=1.20.7"
-- category: "x11-apps"
-  name: "xhost"
-  version: ">=1.0.8"
-- category: "sys-devel"
-  name: "make"
-  version: ">=4.2.1"
-- category: "dev-qt"
-  name: "qthelp-5"
-  version: ">=5.14.1"
-- category: "dev-qt"
-  name: "qtsql-5"
-  version: ">=5.14.1"
-- category: "kde-frameworks"
-  name: "extra-cmake-modules-5"
-  version: ">=5.67.0"
-- category: "dev-qt"
-  name: "linguist-tools-5"
-  version: ">=5.14.1"
+- State: ""
+  category: dev-qt
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: qtnetwork-5
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=5.12.3'
+- State: ""
+  category: kde-frameworks
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: extra-cmake-modules-5
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=5.67'
+- State: ""
+  category: kde-frameworks
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: kf-env-5
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=4'
+- State: ""
+  category: dev-qt
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: qtcore-5
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-util
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: cmake
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-util
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: ninja
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- userland_GNU
+- amd64
+- -doc
+- abi_x86_64
+- elibc_glibc
+- -test
+- big-endian
+- -debug
+- kernel_linux
+- split-usr
+version: 5.67.0+1

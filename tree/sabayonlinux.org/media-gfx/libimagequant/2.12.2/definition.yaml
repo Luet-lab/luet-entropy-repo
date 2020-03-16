@@ -1,4 +1,23 @@
-
-category: "media-gfx"
-name: "libimagequant"
-version: "2.12.2"
+State: ""
+category: media-gfx
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: libimagequant
+provides: null
+requires: null
+set: false
+uri: null
+use_flags:
+- abi_x86_64
+- -static-libs
+- openmp
+- -debug
+- big-endian
+- elibc_glibc
+- amd64
+- userland_GNU
+- kernel_linux
+- cpu_flags_x86_sse2
+version: 2.12.2+1

@@ -1,56 +1,91 @@
-
-category: "dev-python"
-name: "ndg-httpsclient"
-version: "0.4.2+r1"
+State: ""
+category: dev-python
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: ndg-httpsclient
+provides: null
 requires:
-- category: "dev-python"
-  name: "pyopenssl"
-  version: ">=19.0.0"
-- category: "dev-python"
-  name: "six"
-  version: ">=1.12.0"
-- category: "dev-python"
-  name: "cryptography"
-  version: ">=2.8"
-- category: "dev-python"
-  name: "pytest"
-  version: ">=5.3.5"
-- category: "dev-lang"
-  name: "python-exec-2"
-  version: ">=2.4.6"
-- category: "dev-python"
-  name: "sphinx"
-  version: ">=1.7.5"
-- category: "dev-python"
-  name: "sphinx_rtd_theme"
-  version: ">=0.2.4"
-- category: "dev-python"
-  name: "setuptools"
-  version: ">=44.0.0"
-- category: "dev-libs"
-  name: "openssl"
-  version: ">=1.1.1d"
-- category: "app-misc"
-  name: "c_rehash"
-  version: ">=1.7"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=1.2.11"
-- category: "app-misc"
-  name: "ca-certificates"
-  version: ">=20190110.3.43"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "net-misc"
-  name: "lksctp-tools"
-  version: ">=1.0.18"
-- category: "sys-apps"
-  name: "diffutils"
-  version: ">=3.6"
-- category: "sys-devel"
-  name: "bc"
-  version: ">=1.07.1"
-- category: "sys-process"
-  name: "procps"
-  version: ">=3.3.15"
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: python-2.7
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.7.5'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: python-exec-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: python-3.6
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-python
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: pyopenssl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-python
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: setuptools
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- kernel_linux
+- elibc_glibc
+- abi_x86_64
+- userland_GNU
+- amd64
+- -python_targets_python3_5
+- -python_targets_pypy
+- big-endian
+- python_targets_python2_7
+- -test
+- -python_targets_pypy3
+- -python_targets_python3_4
+- python_targets_python3_6
+version: 0.4.2+r2

@@ -1,137 +1,97 @@
-
-category: "dev-libs"
-name: "libsigc++-2"
-version: "2.10.1"
+State: ""
+category: dev-libs
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: libsigc++-2
+provides: null
 requires:
-- category: "sys-devel"
-  name: "m4"
-  version: ">=1.4.18"
-- category: "app-arch"
-  name: "xz-utils"
-  version: ">=5.2.4"
-- category: "app-doc"
-  name: "doxygen"
-  version: ">=1.8.15"
-- category: "sys-devel"
-  name: "flex"
-  version: ">=2.6.4"
-- category: "sys-devel"
-  name: "bison"
-  version: ">=3.1"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "app-text"
-  name: "ghostscript-gpl"
-  version: ">=9.50"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "media-libs"
-  name: "libpng"
-  version: ">=1.6.37"
-- category: "sys-devel"
-  name: "clang-9"
-  version: ">=9.0.1"
-- category: "media-gfx"
-  name: "graphviz"
-  version: ">=2.42.1"
-- category: "media-libs"
-  name: "freetype"
-  version: ">=2.9.1"
-- category: "dev-texlive"
-  name: "texlive-bibtexextra"
-  version: ">=2019"
-- category: "dev-texlive"
-  name: "texlive-fontsextra"
-  version: ">=2019"
-- category: "dev-texlive"
-  name: "texlive-fontutils"
-  version: ">=2019"
-- category: "dev-texlive"
-  name: "texlive-latex"
-  version: ">=2019"
-- category: "dev-texlive"
-  name: "texlive-latexextra"
-  version: ">=2019"
-- category: "dev-libs"
-  name: "xapian"
-  version: ">=1.4.14"
-- category: "dev-qt"
-  name: "qtgui"
-  version: ">=5.14.1"
-- category: "dev-qt"
-  name: "qtwidgets-5"
-  version: ">=5.14.1"
-- category: "dev-qt"
-  name: "qtxml-5"
-  version: ">=5.14.1"
-- category: "dev-db"
-  name: "sqlite-3"
-  version: ">=3.30.1"
-- category: "sys-devel"
-  name: "make"
-  version: ">=4.2.1"
-- category: "dev-util"
-  name: "cmake"
-  version: ">=3.14.6"
-- category: "dev-libs"
-  name: "boost"
-  version: ">=1.71.0"
-- category: "app-arch"
-  name: "bzip2"
-  version: ">=1.0.6"
-- category: "dev-libs"
-  name: "icu"
-  version: ">=65.1"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-exec"
-  version: ">=2.4.6"
-- category: "dev-python"
-  name: "numpy"
-  version: ">=1.16.5"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=1.2.11"
-- category: "app-arch"
-  name: "zstd"
-  version: ">=1.3.7"
-- category: "dev-util"
-  name: "boost-build"
-  version: ">=1.71.0"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "sys-apps"
-  name: "gentoo-functions"
-  version: ">=0.12"
-- category: "dev-util"
-  name: "desktop-file-utils"
-  version: ">=0.24"
-- category: "dev-libs"
-  name: "glib"
-  version: ">=2.60.7"
-- category: "app-editors"
-  name: "emacs"
-  version: ">=23.4"
-- category: "x11-misc"
-  name: "shared-mime-info"
-  version: ">=1.10"
-- category: "dev-libs"
-  name: "libxml2"
-  version: ">=2.9.9"
-- category: "dev-util"
-  name: "intltool"
-  version: ">=0.51.0"
-- category: "sys-devel"
-  name: "gettext"
-  version: ">=0.20.1"
+- State: ""
+  category: app-portage
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: elt-patches
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=20170815'
+- State: ""
+  category: app-arch
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: xz-utils
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-util
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: desktop-file-utils
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: m4
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: x11-misc
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: shared-mime-info
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- big-endian
+- -abi_s390_32
+- -abi_mips_n32
+- -abi_x86_x32
+- -test
+- -abi_mips_n64
+- amd64
+- -abi_mips_o32
+- elibc_glibc
+- abi_x86_64
+- kernel_linux
+- abi_x86_32
+- -static-libs
+- -abi_s390_64
+- userland_GNU
+- split-usr
+- -abi_riscv_lp64
+- -abi_riscv_lp64d
+- -doc
+version: "+1"

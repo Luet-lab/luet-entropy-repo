@@ -1,41 +1,48 @@
-
-category: "dev-perl"
-name: "DBD-SQLite"
-version: "1.580.0"
+State: ""
+category: dev-perl
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: DBD-SQLite
+provides: null
 requires:
-- category: "dev-db"
-  name: "sqlite-3"
-  version: ">=3.30.1"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=1.2.11"
-- category: "dev-libs"
-  name: "icu"
-  version: ">=65.1"
-- category: "sys-libs"
-  name: "readline"
-  version: ">=7.0"
-- category: "dev-lang"
-  name: "tcl"
-  version: ">=8.6.8"
-- category: "app-arch"
-  name: "unzip"
-  version: ">=6.0"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "sys-devel"
-  name: "automake"
-  version: ">=1.15.1"
-- category: "sys-devel"
-  name: "libtool"
-  version: ">=2.4.6"
-- category: "dev-perl"
-  name: "DBI"
-  version: ">=1.637.0"
-- category: "dev-perl"
-  name: "PlRPC"
-  version: ">=0.202.0"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: DBI
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.570.0'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: perl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- userland_GNU
+- abi_x86_64
+- -test
+- amd64
+- split-usr
+- big-endian
+- -system-sqlite
+- kernel_linux
+- elibc_glibc
+version: 1.580.0+1

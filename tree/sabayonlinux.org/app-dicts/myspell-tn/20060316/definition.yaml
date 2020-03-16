@@ -1,14 +1,17 @@
-
-category: "app-dicts"
-name: "myspell-tn"
-version: "20060316"
-requires:
-- category: "app-arch"
-  name: "unzip"
-  version: ">=6.0"
-- category: "app-arch"
-  name: "bzip2"
-  version: ">=1.0.6"
-- category: "dev-libs"
-  name: "libnatspec"
-  version: ">=0.3.0"
+State: ""
+category: app-dicts
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: myspell-tn
+provides: null
+requires: null
+set: false
+uri: null
+use_flags:
+- -userland_GNU
+- -amd64
+- -kernel_linux
+- -elibc_glibc
+version: 20060316+1

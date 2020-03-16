@@ -1,83 +1,86 @@
-
-category: "dev-perl"
-name: "LWP-Protocol-https"
-version: "6.70.0"
+State: ""
+category: dev-perl
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: LWP-Protocol-https
+provides: null
 requires:
-- category: "app-misc"
-  name: "ca-certificates"
-  version: ">=20190110.3.43"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "app-misc"
-  name: "c_rehash"
-  version: ">=1.7"
-- category: "sys-apps"
-  name: "debianutils"
-  version: ">=4.9.1"
-- category: "dev-perl"
-  name: "IO-Socket-SSL"
-  version: ">=2.66.0"
-- category: "dev-perl"
-  name: "Mozilla-CA"
-  version: ">=20999999"
-- category: "dev-perl"
-  name: "Net-SSLeay"
-  version: ">=1.880.0"
-- category: "dev-perl"
-  name: "URI"
-  version: ">=1.730.0"
-- category: "dev-perl"
-  name: "Net-LibIDN"
-  version: ">=0.120.0"
-- category: "dev-perl"
-  name: "Net-IDN-Encode"
-  version: ">=2.500.0"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "dev-perl"
-  name: "libwww-perl"
-  version: ">=6.270.0"
-- category: "dev-perl"
-  name: "Encode-Locale"
-  version: ">=1.50.0"
-- category: "dev-perl"
-  name: "File-Listing"
-  version: ">=6.40.0"
-- category: "dev-perl"
-  name: "HTML-Parser"
-  version: ">=3.720.0"
-- category: "dev-perl"
-  name: "HTTP-Cookies"
-  version: ">=6.40.0"
-- category: "dev-perl"
-  name: "HTTP-Daemon"
-  version: ">=6.10.0"
-- category: "dev-perl"
-  name: "HTTP-Date"
-  version: ">=6.20.0"
-- category: "dev-perl"
-  name: "HTTP-Negotiate"
-  version: ">=6.10.0"
-- category: "dev-perl"
-  name: "HTTP-Message"
-  version: ">=6.130.0"
-- category: "dev-perl"
-  name: "LWP-MediaTypes"
-  version: ">=6.20.0"
-- category: "dev-perl"
-  name: "Net-HTTP"
-  version: ">=6.170.0"
-- category: "dev-perl"
-  name: "Try-Tiny"
-  version: ">=0.300.0"
-- category: "dev-perl"
-  name: "WWW-RobotRules"
-  version: ">=6.20.0"
-- category: "dev-perl"
-  name: "Test-Fatal"
-  version: ">=0.14.0"
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: IO-Socket-SSL
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.540.0'
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: Net-HTTP
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=6'
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libwww-perl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=6.60.0'
+- State: ""
+  category: app-misc
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: ca-certificates
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: perl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- userland_GNU
+- abi_x86_64
+- amd64
+- big-endian
+- split-usr
+- -test
+- elibc_glibc
+- kernel_linux
+version: 6.70.0+1

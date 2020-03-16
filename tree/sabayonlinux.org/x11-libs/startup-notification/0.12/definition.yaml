@@ -1,80 +1,124 @@
-
-category: "x11-libs"
-name: "startup-notification"
-version: "0.12+r1"
+State: ""
+category: x11-libs
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: startup-notification
+provides: null
 requires:
-- category: "x11-libs"
-  name: "libX11"
-  version: ">=1.6.9"
-- category: "x11-libs"
-  name: "libxcb"
-  version: ">=1.13.1"
-- category: "x11-base"
-  name: "xorg-proto"
-  version: ">=2019.2"
-- category: "x11-libs"
-  name: "xtrans"
-  version: ">=1.4.0"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "sys-devel"
-  name: "automake-1.15"
-  version: ">=1.15.1"
-- category: "sys-devel"
-  name: "libtool-2"
-  version: ">=2.4.6"
-- category: "sys-devel"
-  name: "m4"
-  version: ">=1.4.18"
-- category: "x11-misc"
-  name: "util-macros"
-  version: ">=1.19.2"
-- category: "media-fonts"
-  name: "font-util"
-  version: ">=1.3.2"
-- category: "app-text"
-  name: "asciidoc"
-  version: ">=8.6.10"
-- category: "dev-ruby"
-  name: "asciidoctor"
-  version: ">=2.0.10"
-- category: "app-text"
-  name: "xmlto"
-  version: ">=0.0.28"
-- category: "app-doc"
-  name: "doxygen"
-  version: ">=1.8.15"
-- category: "app-text"
-  name: "docbook-xml-dtd-4.2"
-  version: ">=4.2"
-- category: "app-text"
-  name: "docbook-xml-dtd-4.3"
-  version: ">=4.3"
-- category: "x11-libs"
-  name: "xcb-util"
-  version: ">=0.4.0"
-- category: "dev-util"
-  name: "gperf"
-  version: ">=3.1"
-- category: "dev-libs"
-  name: "check"
-  version: ">=0.12.0"
-- category: "x11-libs"
-  name: "xcb-util-cursor"
-  version: ">=0.1.3"
-- category: "x11-libs"
-  name: "xcb-util-image"
-  version: ">=0.4.0"
-- category: "x11-libs"
-  name: "xcb-util-keysyms"
-  version: ">=0.4.0"
-- category: "x11-libs"
-  name: "xcb-util-renderutil"
-  version: ">=0.3.9"
-- category: "x11-libs"
-  name: "xcb-util-wm"
-  version: ">=0.4.1"
+- State: ""
+  category: app-portage
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: elt-patches
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=20170422'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: autoconf-2.69
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.69'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: automake-1.15
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.15.1'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libtool-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.4'
+- State: ""
+  category: x11-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libX11
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.4.3'
+- State: ""
+  category: x11-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: xcb-util
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.3.8'
+- State: ""
+  category: x11-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libxcb
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>1.6'
+- State: ""
+  category: x11-base
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: xorg-proto
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- big-endian
+- kernel_linux
+- elibc_glibc
+- -static-libs
+- abi_x86_64
+- userland_GNU
+- amd64
+version: 0.12+r2

@@ -1,14 +1,48 @@
-
-category: "app-text"
-name: "dvipsk"
-version: "5.999+p20190410"
+State: ""
+category: app-text
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: dvipsk
+provides: null
 requires:
-- category: "dev-libs"
-  name: "kpathsea"
-  version: ">=6.2.3"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "dev-util"
-  name: "pkgconfig"
-  version: ">=0.29.2"
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: kpathsea
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=6.2.1'
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: kpathsea
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- big-endian
+- abi_x86_64
+- elibc_glibc
+- kernel_linux
+- amd64
+- -source
+- userland_GNU
+- -doc
+- split-usr
+version: 5.999+p20190411

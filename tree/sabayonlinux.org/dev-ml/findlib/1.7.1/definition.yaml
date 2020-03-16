@@ -1,32 +1,35 @@
-
-category: "dev-ml"
-name: "findlib"
-version: "1.7.1"
+State: ""
+category: dev-ml
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: findlib
+provides: null
 requires:
-- category: "dev-lang"
-  name: "ocaml"
-  version: ">=4.05.0"
-- category: "sys-libs"
-  name: "binutils-libs"
-  version: ">=2.32"
-- category: "sys-libs"
-  name: "ncurses"
-  version: ">=6.1"
-- category: "sys-libs"
-  name: "libunwind"
-  version: ">=1.2.1"
-- category: "x11-libs"
-  name: "libX11"
-  version: ">=1.6.9"
-- category: "app-emacs"
-  name: "ocaml-mode"
-  version: ">=4.00.1"
-- category: "app-xemacs"
-  name: "ocaml"
-  version: ">=0.10"
-- category: "dev-lang"
-  name: "tk"
-  version: ">=8.6.8"
-- category: "dev-lang"
-  name: "ocaml"
-  version: ">=4.05.0"
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: ocaml
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=4.02.3'
+set: false
+uri: null
+use_flags:
+- big-endian
+- kernel_linux
+- elibc_glibc
+- amd64
+- -tk
+- userland_GNU
+- abi_x86_64
+- ocamlopt
+- -doc
+version: 1.7.1+1

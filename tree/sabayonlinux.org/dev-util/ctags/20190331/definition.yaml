@@ -1,74 +1,113 @@
-
-category: "dev-util"
-name: "ctags"
-version: "20190331"
+State: ""
+category: dev-util
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: ctags
+provides: null
 requires:
-- category: "dev-libs"
-  name: "jansson"
-  version: ">=2.12"
-- category: "dev-python"
-  name: "sphinx"
-  version: ">=1.7.5"
-- category: "dev-libs"
-  name: "libxml2"
-  version: ">=2.9.9"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=1.2.11"
-- category: "dev-libs"
-  name: "icu"
-  version: ">=65.1"
-- category: "app-arch"
-  name: "xz-utils"
-  version: ">=5.2.4"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-exec"
-  version: ">=2.4.6"
-- category: "sys-libs"
-  name: "readline"
-  version: ">=7.0"
-- category: "dev-util"
-  name: "gtk-doc-am"
-  version: ">=1.25"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "sys-devel"
-  name: "automake"
-  version: ">=1.15.1"
-- category: "sys-devel"
-  name: "libtool"
-  version: ">=2.4.6"
-- category: "dev-libs"
-  name: "libyaml"
-  version: ">=0.2.2"
-- category: "app-doc"
-  name: "doxygen"
-  version: ">=1.8.15"
-- category: "dev-python"
-  name: "docutils"
-  version: ">=0.14"
-- category: "dev-python"
-  name: "setuptools"
-  version: ">=44.0.0"
-- category: "dev-python"
-  name: "pygments"
-  version: ">=2.4.2"
-- category: "app-eselect"
-  name: "eselect-ctags"
-  version: ">=1.18"
-- category: "app-admin"
-  name: "eselect"
-  version: ">=1.4.15"
+- State: ""
+  category: app-portage
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: elt-patches
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=20170815'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: autoconf-2.69
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.69'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: automake-1.15
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.15.1'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libtool-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.4'
+- State: ""
+  category: app-eselect
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: eselect-ctags
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libxml2-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-python
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: docutils
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- elibc_glibc
+- kernel_linux
+- amd64
+- userland_GNU
+- abi_x86_64
+- big-endian
+- -yaml
+- -json
+- xml
+version: 20190331+1

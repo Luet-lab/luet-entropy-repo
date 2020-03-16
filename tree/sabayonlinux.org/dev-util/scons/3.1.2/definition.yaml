@@ -1,50 +1,65 @@
-
-category: "dev-util"
-name: "scons"
-version: "3.1.2"
+State: ""
+category: dev-util
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: scons
+provides: null
 requires:
-- category: "dev-libs"
-  name: "libxml2-2"
-  version: ">=2.9.9"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=1.2.11"
-- category: "dev-libs"
-  name: "icu"
-  version: ">=65.1"
-- category: "app-arch"
-  name: "xz-utils"
-  version: ">=5.2.4"
-- category: "dev-lang"
-  name: "python-exec-2"
-  version: ">=2.4.6"
-- category: "sys-libs"
-  name: "readline"
-  version: ">=7.0"
-- category: "dev-util"
-  name: "gtk-doc-am"
-  version: ">=1.25"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "sys-devel"
-  name: "automake-1.15"
-  version: ">=1.15.1"
-- category: "sys-devel"
-  name: "libtool-2"
-  version: ">=2.4.6"
-- category: "dev-python"
-  name: "lxml"
-  version: ">=4.4.2"
-- category: "dev-libs"
-  name: "libxslt"
-  version: ">=1.1.33"
-- category: "dev-python"
-  name: "cython"
-  version: ">=0.29.14"
-- category: "dev-python"
-  name: "setuptools"
-  version: ">=44.0.0"
-- category: "dev-python"
-  name: "cssselect"
-  version: ">=1.0.3"
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: python-2.7
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.7.5'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: python-exec-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: python-3.6
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- split-usr
+- abi_x86_64
+- kernel_linux
+- -doc
+- elibc_glibc
+- amd64
+- python_targets_python2_7
+- userland_GNU
+- big-endian
+- -python_targets_python3_7
+- -python_targets_python3_8
+- python_targets_python3_6
+- -test
+version: 3.1.2+1

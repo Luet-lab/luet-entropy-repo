@@ -1,38 +1,21 @@
-
-category: "mail-filter"
-name: "procmail"
-version: "3.22+r14"
-requires:
-- category: "mail-mta"
-  name: "nullmailer"
-  version: ">=2.0"
-- category: "mail-mta"
-  name: "msmtp"
-  version: ">=1.6.6"
-- category: "mail-mta"
-  name: "ssmtp"
-  version: ">=2.64"
-- category: "mail-mta"
-  name: "courier"
-  version: ">=1.0.5"
-- category: "mail-mta"
-  name: "esmtp"
-  version: ">=1.2"
-- category: "mail-mta"
-  name: "exim"
-  version: ">=4.92.2"
-- category: "mail-mta"
-  name: "netqmail"
-  version: ">=1.06"
-- category: "mail-mta"
-  name: "postfix"
-  version: ">=3.4.8"
-- category: "mail-mta"
-  name: "sendmail"
-  version: ">=8.15.2"
-- category: "mail-mta"
-  name: "opensmtpd"
-  version: ">=6.6.2"
-- category: "sys-devel"
-  name: "m4"
-  version: ">=1.4.18"
+State: ""
+category: mail-filter
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: procmail
+provides: null
+requires: null
+set: false
+uri: null
+use_flags:
+- kernel_linux
+- elibc_glibc
+- mbox
+- amd64
+- abi_x86_64
+- big-endian
+- -selinux
+- userland_GNU
+version: 3.22+r15

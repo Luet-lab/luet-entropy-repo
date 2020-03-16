@@ -1,4 +1,20 @@
-
-category: "app-arch"
-name: "lzma"
-version: "9.20+r1"
+State: ""
+category: app-arch
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: lzma
+provides: null
+requires: null
+set: false
+uri: null
+use_flags:
+- -doc
+- userland_GNU
+- abi_x86_64
+- kernel_linux
+- amd64
+- big-endian
+- elibc_glibc
+version: 9.20+r2

@@ -1,92 +1,71 @@
-
-category: "sys-apps"
-name: "lm-sensors"
-version: "3.6.0"
+State: ""
+category: sys-apps
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: lm-sensors
+provides: null
 requires:
-- category: "net-analyzer"
-  name: "rrdtool"
-  version: ">=1.7.2"
-- category: "dev-libs"
-  name: "glib"
-  version: ">=2.60.7"
-- category: "dev-libs"
-  name: "libxml2"
-  version: ">=2.9.9"
-- category: "dev-db"
-  name: "libdbi"
-  version: ">=0.9.0"
-- category: "media-libs"
-  name: "libpng"
-  version: ">=1.6.37"
-- category: "x11-libs"
-  name: "cairo"
-  version: ">=1.16.0"
-- category: "x11-libs"
-  name: "pango"
-  version: ">=1.42.4"
-- category: "dev-lang"
-  name: "lua"
-  version: ">=5.1.5"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-exec"
-  version: ">=2.4.6"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "sys-cluster"
-  name: "ceph"
-  version: ">=14.2.7"
-- category: "dev-lang"
-  name: "tcl"
-  version: ">=8.6.8"
-- category: "sys-apps"
-  name: "tcp-wrappers"
-  version: ">=7.6.28"
-- category: "sys-apps"
-  name: "groff"
-  version: ">=1.22.4"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "sys-devel"
-  name: "automake"
-  version: ">=1.15.1"
-- category: "sys-devel"
-  name: "libtool"
-  version: ">=2.4.6"
-- category: "app-admin"
-  name: "metalog"
-  version: ">=20181125"
-- category: "app-admin"
-  name: "rsyslog"
-  version: ">=8.1910.0"
-- category: "app-admin"
-  name: "sysklogd"
-  version: ">=1.5.1"
-- category: "app-admin"
-  name: "syslog-ng"
-  version: ">=3.24.1"
-- category: "sys-apps"
-  name: "busybox"
-  version: ">=1.30.1"
-- category: "sys-apps"
-  name: "systemd"
-  version: ">=242"
-- category: "sys-devel"
-  name: "bison"
-  version: ">=3.1"
-- category: "sys-devel"
-  name: "m4"
-  version: ">=1.4.18"
-- category: "sys-devel"
-  name: "flex"
-  version: ">=2.6.4"
-- category: "sys-devel"
-  name: "gettext"
-  version: ">=0.20.1"
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: perl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: bison
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: flex
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- big-endian
+- -abi_s390_32
+- -abi_mips_n32
+- -abi_x86_x32
+- -contrib
+- -abi_mips_n64
+- amd64
+- -abi_mips_o32
+- elibc_glibc
+- abi_x86_64
+- kernel_linux
+- abi_x86_32
+- -static-libs
+- -abi_s390_64
+- userland_GNU
+- split-usr
+- -abi_riscv_lp64
+- -abi_riscv_lp64d
+- -sensord
+version: 3.6.0+2

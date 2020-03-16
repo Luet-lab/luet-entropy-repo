@@ -1,14 +1,60 @@
-
-category: "dev-perl"
-name: "Authen-SASL"
-version: "2.160.0+r1"
+State: ""
+category: dev-perl
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: Authen-SASL
+provides: null
 requires:
-- category: "dev-perl"
-  name: "Digest-HMAC"
-  version: ">=1.30.0"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "dev-perl"
-  name: "GSSAPI"
-  version: ">=0.280.0"
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: perl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: Digest-HMAC
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: GSSAPI
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- amd64
+- kerberos
+- userland_GNU
+- split-usr
+- abi_x86_64
+- elibc_glibc
+- kernel_linux
+- big-endian
+version: 2.160.0+r2

@@ -1,14 +1,60 @@
-
-category: "dev-perl"
-name: "Test-Script"
-version: "1.230.0"
+State: ""
+category: dev-perl
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: Test-Script
+provides: null
 requires:
-- category: "dev-perl"
-  name: "Capture-Tiny"
-  version: ">=0.480.0"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "dev-perl"
-  name: "Probe-Perl"
-  version: ">=0.30.0"
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: Probe-Perl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.10.0'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: perl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: Capture-Tiny
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- big-endian
+- split-usr
+- abi_x86_64
+- amd64
+- -test
+- kernel_linux
+- userland_GNU
+- elibc_glibc
+version: 1.230.0+1

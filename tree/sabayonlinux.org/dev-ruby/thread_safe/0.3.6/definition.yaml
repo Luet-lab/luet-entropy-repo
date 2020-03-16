@@ -1,50 +1,39 @@
-
-category: "dev-ruby"
-name: "thread_safe"
-version: "0.3.6"
+State: ""
+category: dev-ruby
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: thread_safe
+provides: null
 requires:
-- category: "dev-lang"
-  name: "ruby-2.5"
-  version: ">=2.5.7"
-- category: "dev-lang"
-  name: "ruby-2.5"
-  version: ">=2.5.7"
-- category: "dev-lang"
-  name: "ruby-2.5"
-  version: ">=2.5.7"
-- category: "dev-lang"
-  name: "ruby-2.5"
-  version: ">=2.5.7"
-- category: "dev-ruby"
-  name: "rake"
-  version: ">=12.3.3"
-- category: "dev-ruby"
-  name: "rdoc"
-  version: ">=6.2.0"
-- category: "app-eselect"
-  name: "eselect-ruby"
-  version: ">=20190121"
-- category: "dev-ruby"
-  name: "kpeg"
-  version: ">=1.1.0"
-- category: "dev-ruby"
-  name: "racc"
-  version: ">=1.4.16"
-- category: "dev-ruby"
-  name: "bundler-2"
-  version: ">=2.1.4"
-- category: "dev-ruby"
-  name: "minitest-5"
-  version: ">=5.14.0"
-- category: "dev-ruby"
-  name: "rspec"
-  version: ">=2.99.0"
-- category: "dev-ruby"
-  name: "rspec-core-3"
-  version: ">=3.9.1"
-- category: "dev-ruby"
-  name: "rspec-expectations-3"
-  version: ">=3.9.0"
-- category: "dev-ruby"
-  name: "rspec-mocks-3"
-  version: ">=3.9.1"
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: ruby-2.5
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- -ruby_targets_ruby26
+- big-endian
+- abi_x86_64
+- ruby_targets_ruby25
+- kernel_linux
+- userland_GNU
+- split-usr
+- elibc_glibc
+- -test
+- -ruby_targets_ruby27
+- -ruby_targets_ruby24
+- amd64
+- -doc
+version: 0.3.6+1

@@ -1,95 +1,137 @@
-
-category: "gnome-base"
-name: "libgtop-2"
-version: "2.38.0"
+State: ""
+category: gnome-base
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: libgtop-2
+provides: null
 requires:
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=1.2.11"
-- category: "sys-apps"
-  name: "util-linux"
-  version: ">=2.33.2"
-- category: "sys-apps"
-  name: "attr"
-  version: ">=2.4.48"
-- category: "gnome-base"
-  name: "dconf"
-  version: ">=0.32.0"
-- category: "x11-misc"
-  name: "shared-mime-info"
-  version: ">=1.10"
-- category: "app-text"
-  name: "docbook-xsl-stylesheets"
-  version: ">=1.79.1"
-- category: "dev-libs"
-  name: "libxslt"
-  version: ">=1.1.33"
-- category: "sys-devel"
-  name: "gettext"
-  version: ">=0.20.1"
-- category: "dev-util"
-  name: "gtk-doc"
-  version: ">=1.25"
-- category: "app-text"
-  name: "docbook-xml-dtd-4.2"
-  version: ">=4.2"
-- category: "app-text"
-  name: "docbook-xml-dtd-4.5"
-  version: ">=4.5"
-- category: "dev-util"
-  name: "systemtap"
-  version: ">=3.1"
-- category: "sys-apps"
-  name: "dbus"
-  version: ">=1.12.16"
-- category: "app-arch"
-  name: "xz-utils"
-  version: ">=5.2.4"
-- category: "dev-util"
-  name: "meson"
-  version: ">=0.52.1"
-- category: "dev-util"
-  name: "ninja"
-  version: ">=1.8.2"
-- category: "dev-libs"
-  name: "gobject-introspection"
-  version: ">=1.60.2"
-- category: "dev-libs"
-  name: "gobject-introspection-common"
-  version: ">=1.60.2"
-- category: "dev-libs"
-  name: "libffi"
-  version: ">=3.3"
-- category: "dev-python"
-  name: "mako"
-  version: ">=1.0.7"
-- category: "dev-python"
-  name: "markdown"
-  version: ">=3.0.1"
-- category: "dev-lang"
-  name: "python-exec-2"
-  version: ">=2.4.6"
-- category: "app-text"
-  name: "docbook-xml-dtd-4.3"
-  version: ">=4.3"
-- category: "sys-devel"
-  name: "bison"
-  version: ">=3.1"
-- category: "sys-devel"
-  name: "flex"
-  version: ">=2.6.4"
-- category: "x11-libs"
-  name: "cairo"
-  version: ">=1.16.0"
-- category: "dev-util"
-  name: "desktop-file-utils"
-  version: ">=0.24"
-- category: "dev-util"
-  name: "gtk-doc-am"
-  version: ">=1.25"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "sys-apps"
-  name: "gentoo-functions"
-  version: ">=0.12"
+- State: ""
+  category: app-portage
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: elt-patches
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=20170422'
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: glib-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.26'
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: gobject-introspection
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.6.7'
+- State: ""
+  category: dev-util
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: gtk-doc-am
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.4'
+- State: ""
+  category: sys-apps
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: sed
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=4'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: gettext
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.19.4'
+- State: ""
+  category: app-arch
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: xz-utils
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-util
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: desktop-file-utils
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: x11-misc
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: shared-mime-info
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- big-endian
+- kernel_linux
+- elibc_glibc
+- abi_x86_64
+- userland_GNU
+- introspection
+- amd64
+version: 2.38.0+1

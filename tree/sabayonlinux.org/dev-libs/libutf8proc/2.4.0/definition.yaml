@@ -1,11 +1,20 @@
-
-category: "dev-libs"
-name: "libutf8proc"
-version: "2.4.0"
-requires:
-- category: "app-i18n"
-  name: "unicode-data"
-  version: ">=12.0.0"
-- category: "app-arch"
-  name: "unzip"
-  version: ">=6.0"
+State: ""
+category: dev-libs
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: libutf8proc
+provides: null
+requires: null
+set: false
+uri: null
+use_flags:
+- elibc_glibc
+- kernel_linux
+- abi_x86_64
+- userland_GNU
+- big-endian
+- amd64
+- -test
+version: 2.4.0+1

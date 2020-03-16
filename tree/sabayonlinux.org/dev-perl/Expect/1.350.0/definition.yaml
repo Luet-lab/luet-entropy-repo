@@ -1,20 +1,62 @@
-
-category: "dev-perl"
-name: "Expect"
-version: "1.350.0"
+State: ""
+category: dev-perl
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: Expect
+provides: null
 requires:
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "dev-perl"
-  name: "IO-Tty"
-  version: ">=1.120.0"
-- category: "dev-perl"
-  name: "IO-Stty"
-  version: ">=0.30.0"
-- category: "dev-perl"
-  name: "Module-Build"
-  version: ">=0.422.400"
-- category: "perl-core"
-  name: "File-Temp"
-  version: ">=0.230.400"
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: IO-Tty
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.110.0'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: perl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: IO-Stty
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- -examples
+- amd64
+- big-endian
+- -test
+- kernel_linux
+- abi_x86_64
+- split-usr
+- userland_GNU
+- -minimal
+- elibc_glibc
+version: 1.350.0+1

@@ -1,191 +1,210 @@
-
-category: "net-misc"
-name: "openssh"
-version: "8.2+p1r3"
+State: ""
+category: net-misc
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: openssh
+provides: null
 requires:
-- category: "acct-group"
-  name: "sshd"
-  version: ">=0"
-- category: "acct-user"
-  name: "sshd"
-  version: ">=0"
-- category: "sys-process"
-  name: "audit"
-  version: ">=2.8.4"
-- category: "net-nds"
-  name: "openldap"
-  version: ">=2.4.48"
-- category: "sys-libs"
-  name: "libcap-ng"
-  version: ">=0.7.10"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-exec"
-  version: ">=2.4.6"
-- category: "sys-kernel"
-  name: "linux-headers"
-  version: ">=4.19"
-- category: "dev-lang"
-  name: "swig"
-  version: ">=3.0.12"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "sys-devel"
-  name: "automake"
-  version: ">=1.15.1"
-- category: "sys-devel"
-  name: "libtool"
-  version: ">=2.4.6"
-- category: "net-libs"
-  name: "ldns"
-  version: ">=1.7.1"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-libs"
-  name: "openssl"
-  version: ">=1.1.1d"
-- category: "app-doc"
-  name: "doxygen"
-  version: ">=1.8.15"
-- category: "dev-libs"
-  name: "libedit"
-  version: ">=20170329.3.1"
-- category: "sys-libs"
-  name: "ncurses"
-  version: ">=6.1"
-- category: "net-misc"
-  name: "lksctp-tools"
-  version: ">=1.0.18"
-- category: "dev-util"
-  name: "ninja"
-  version: ">=1.8.2"
-- category: "dev-util"
-  name: "cmake"
-  version: ">=3.14.6"
-- category: "sys-libs"
-  name: "libsepol"
-  version: ">=2.8"
-- category: "dev-libs"
-  name: "libpcre2"
-  version: ">=10.33"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "ruby-2.5"
-  version: ">=2.5.7"
-- category: "dev-lang"
-  name: "ruby-2.5"
-  version: ">=2.5.7"
-- category: "dev-lang"
-  name: "ruby-2.5"
-  version: ">=2.5.7"
-- category: "dev-libs"
-  name: "openssl"
-  version: ">=1.1.1d"
-- category: "app-misc"
-  name: "c_rehash"
-  version: ">=1.7"
-- category: "dev-libs"
-  name: "gmp"
-  version: ">=6.1.2"
-- category: "app-crypt"
-  name: "mit-krb5"
-  version: ">=1.17"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=1.2.11"
-- category: "app-misc"
-  name: "ca-certificates"
-  version: ">=20190110.3.43"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "sys-apps"
-  name: "diffutils"
-  version: ">=3.6"
-- category: "sys-devel"
-  name: "bc"
-  version: ">=1.07.1"
-- category: "sys-libs"
-  name: "glibc"
-  version: ">=2.29"
-- category: "sys-libs"
-  name: "glibc"
-  version: ">=2.29"
-- category: "sys-libs"
-  name: "pam"
-  version: ">=1.3.0"
-- category: "sys-libs"
-  name: "db"
-  version: ">=6.0.35"
-- category: "sys-libs"
-  name: "cracklib"
-  version: ">=2.9.7"
-- category: "net-libs"
-  name: "libtirpc"
-  version: ">=1.1.4"
-- category: "sys-libs"
-  name: "libcap"
-  version: ">=2.27"
-- category: "sys-auth"
-  name: "pambase"
-  version: ">=20190402"
-- category: "app-text"
-  name: "docbook-xml-dtd"
-  version: ">=4.1.2"
-- category: "app-text"
-  name: "docbook-xml-dtd"
-  version: ">=4.3"
-- category: "app-text"
-  name: "docbook-xml-dtd"
-  version: ">=4.1.2"
-- category: "app-text"
-  name: "docbook-xml-dtd"
-  version: ">=4.5"
-- category: "dev-libs"
-  name: "libxslt"
-  version: ">=1.1.33"
-- category: "sys-devel"
-  name: "flex"
-  version: ">=2.6.4"
-- category: "sys-devel"
-  name: "gettext"
-  version: ">=0.20.1"
-- category: "sys-apps"
-  name: "shadow"
-  version: ">=4.6"
-- category: "x11-apps"
-  name: "xauth"
-  version: ">=1.1"
-- category: "x11-libs"
-  name: "libX11"
-  version: ">=1.6.9"
-- category: "x11-libs"
-  name: "libXau"
-  version: ">=1.0.9"
-- category: "x11-libs"
-  name: "libXext"
-  version: ">=1.3.4"
-- category: "x11-libs"
-  name: "libXmu"
-  version: ">=1.1.3"
-- category: "x11-base"
-  name: "xorg-proto"
-  version: ">=2019.2"
-- category: "sys-devel"
-  name: "m4"
-  version: ">=1.4.18"
-- category: "x11-misc"
-  name: "util-macros"
-  version: ">=1.19.2"
-- category: "media-fonts"
-  name: "font-util"
-  version: ">=1.3.2"
+- State: ""
+  category: app-portage
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: elt-patches
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=20170815'
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: openssl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.1.0g'
+- State: ""
+  category: sys-auth
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: pambase
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=20081028'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: autoconf-2.69
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.69'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: automake-1.15
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.15.1'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libtool-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.4'
+- State: ""
+  category: sys-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: zlib
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.2.3'
+- State: ""
+  category: acct-group
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: sshd
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: acct-user
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: sshd
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libedit
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: openssl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: autoconf-2.69
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: pam
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- big-endian
+- -libressl
+- -test
+- -xmss
+- userland_GNU
+- -debug
+- -X
+- -sctp
+- ssl
+- -selinux
+- amd64
+- pie
+- -ldns
+- -audit
+- -abi_mips_n32
+- -bindist
+- elibc_glibc
+- split-usr
+- pam
+- -hpn
+- kerberos
+- -static
+- libedit
+- -security-key
+- -livecd
+- -X509
+- abi_x86_64
+- kernel_linux
+version: 8.2+p1r3.1

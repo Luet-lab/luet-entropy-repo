@@ -1,152 +1,109 @@
-
-category: "sys-libs"
-name: "tevent"
-version: "0.9.37"
+State: ""
+category: sys-libs
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: tevent
+provides: null
 requires:
-- category: "dev-libs"
-  name: "libbsd"
-  version: ">=0.9.1"
-- category: "sys-kernel"
-  name: "linux-headers"
-  version: ">=4.19"
-- category: "sys-libs"
-  name: "talloc"
-  version: ">=2.1.14"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-exec"
-  version: ">=2.4.6"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "sys-devel"
-  name: "gettext"
-  version: ">=0.20.1"
-- category: "dev-libs"
-  name: "libxslt"
-  version: ">=1.1.33"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "app-arch"
-  name: "bzip2"
-  version: ">=1.0.6"
-- category: "dev-libs"
-  name: "libffi"
-  version: ">=3.3"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=1.2.11"
-- category: "sys-libs"
-  name: "db"
-  version: ">=5.3.28"
-- category: "sys-libs"
-  name: "db"
-  version: ">=4.7.25"
-- category: "sys-libs"
-  name: "db"
-  version: ">=4.7.25"
-- category: "sys-libs"
-  name: "db"
-  version: ">=4.7.25"
-- category: "sys-libs"
-  name: "db"
-  version: ">=4.7.25"
-- category: "sys-libs"
-  name: "db"
-  version: ">=4.7.25"
-- category: "sys-libs"
-  name: "db"
-  version: ">=4.7.25"
-- category: "sys-libs"
-  name: "db"
-  version: ">=4.7.25"
-- category: "sys-libs"
-  name: "db"
-  version: ">=4.7.25"
-- category: "sys-libs"
-  name: "gdbm"
-  version: ">=1.14.1"
-- category: "sys-libs"
-  name: "ncurses"
-  version: ">=6.1"
-- category: "sys-libs"
-  name: "readline"
-  version: ">=7.0"
-- category: "dev-db"
-  name: "sqlite-3"
-  version: ">=3.30.1"
-- category: "dev-libs"
-  name: "openssl"
-  version: ">=1.1.1d"
-- category: "dev-lang"
-  name: "tcl"
-  version: ">=8.6.8"
-- category: "dev-lang"
-  name: "tk"
-  version: ">=8.6.8"
-- category: "dev-tcltk"
-  name: "blt"
-  version: ">=2.4z"
-- category: "dev-tcltk"
-  name: "tix"
-  version: ">=8.4.3"
-- category: "dev-libs"
-  name: "expat"
-  version: ">=2.2.8"
-- category: "net-wireless"
-  name: "bluez"
-  version: ">=5.52"
-- category: "app-eselect"
-  name: "eselect-python"
-  version: ">=20190417"
-- category: "app-misc"
-  name: "mime-types"
-  version: ">=9"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "sys-devel"
-  name: "automake"
-  version: ">=1.15.1"
-- category: "net-libs"
-  name: "libtirpc"
-  version: ">=1.1.4"
-- category: "app-arch"
-  name: "xz-utils"
-  version: ">=5.2.4"
-- category: "sys-devel"
-  name: "libtool"
-  version: ">=2.4.6"
-- category: "net-libs"
-  name: "rpcsvc-proto"
-  version: ">=1.4"
-- category: "sys-libs"
-  name: "glibc"
-  version: ">=2.29"
-- category: "sys-process"
-  name: "audit"
-  version: ">=2.8.4"
-- category: "sys-libs"
-  name: "libcap"
-  version: ">=2.27"
-- category: "dev-util"
-  name: "systemtap"
-  version: ">=3.1"
-- category: "app-misc"
-  name: "pax-utils"
-  version: ">=1.2.4"
-- category: "sys-devel"
-  name: "gnuconfig"
-  version: ">=20190912"
-- category: "sys-libs"
-  name: "timezone-data"
-  version: ">=2019c"
-- category: "sys-apps"
-  name: "gentoo-functions"
-  version: ">=0.12"
+- State: ""
+  category: sys-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: glibc-2.2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.26'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: python-2.7
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.7.5'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: python-exec-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2'
+- State: ""
+  category: sys-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: talloc
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.1.13'
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libbsd
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: net-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libtirpc
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- big-endian
+- -abi_s390_32
+- -abi_mips_n32
+- -abi_x86_x32
+- -abi_riscv_lp64d
+- python
+- -abi_mips_n64
+- amd64
+- -abi_mips_o32
+- elibc_glibc
+- abi_x86_64
+- python_single_target_python2_7
+- kernel_linux
+- abi_x86_32
+- -abi_s390_64
+- split-usr
+- -abi_riscv_lp64
+- userland_GNU
+version: 0.9.37+2

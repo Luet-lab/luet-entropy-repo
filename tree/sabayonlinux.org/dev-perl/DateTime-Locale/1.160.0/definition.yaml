@@ -1,68 +1,113 @@
-
-category: "dev-perl"
-name: "DateTime-Locale"
-version: "1.160.0"
+State: ""
+category: dev-perl
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: DateTime-Locale
+provides: null
 requires:
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "dev-perl"
-  name: "Dist-CheckConflicts"
-  version: ">=0.110.0"
-- category: "dev-perl"
-  name: "Module-Runtime"
-  version: ">=0.16.0"
-- category: "dev-perl"
-  name: "Test-Fatal"
-  version: ">=0.14.0"
-- category: "dev-perl"
-  name: "File-ShareDir"
-  version: ">=1.104.0"
-- category: "dev-perl"
-  name: "Class-Inspector"
-  version: ">=1.320.0"
-- category: "dev-perl"
-  name: "File-ShareDir-Install"
-  version: ">=0.110.0"
-- category: "dev-perl"
-  name: "Params-ValidationCompiler"
-  version: ">=0.260.0"
-- category: "dev-perl"
-  name: "Eval-Closure"
-  version: ">=0.140.0"
-- category: "dev-perl"
-  name: "Exception-Class"
-  version: ">=1.430.0"
-- category: "dev-perl"
-  name: "Specio"
-  version: ">=0.420.0"
-- category: "dev-perl"
-  name: "namespace-autoclean"
-  version: ">=0.280.0"
-- category: "dev-perl"
-  name: "B-Hooks-EndOfScope"
-  version: ">=0.240.0"
-- category: "dev-perl"
-  name: "Sub-Identify"
-  version: ">=0.140.0"
-- category: "dev-perl"
-  name: "namespace-clean"
-  version: ">=0.270.0"
-- category: "dev-perl"
-  name: "Test-Requires"
-  version: ">=0.100.0"
-- category: "dev-perl"
-  name: "Test-Deep"
-  version: ">=1.127.0"
-- category: "dev-perl"
-  name: "Class-Tiny"
-  version: ">=1.6.0"
-- category: "dev-perl"
-  name: "File-Copy-Recursive"
-  version: ">=0.380.0"
-- category: "dev-perl"
-  name: "Path-Tiny"
-  version: ">=0.104.0"
-- category: "dev-perl"
-  name: "Scope-Guard"
-  version: ">=0.210.0"
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: Dist-CheckConflicts
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.20.0'
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: File-ShareDir-Install
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.60.0'
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: Params-ValidationCompiler
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.130.0'
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: Specio
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.150.0'
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: namespace-autoclean
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.190.0'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: perl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: File-ShareDir
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- kernel_linux
+- elibc_glibc
+- userland_GNU
+- big-endian
+- abi_x86_64
+- amd64
+- -examples
+- split-usr
+- -test
+version: 1.160.0+1

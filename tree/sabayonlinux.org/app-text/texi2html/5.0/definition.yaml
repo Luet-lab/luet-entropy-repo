@@ -1,35 +1,71 @@
-
-category: "app-text"
-name: "texi2html"
-version: "5.0+r1"
+State: ""
+category: app-text
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: texi2html
+provides: null
 requires:
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "sys-libs"
-  name: "db"
-  version: ">=6.0.35"
-- category: "sys-libs"
-  name: "gdbm"
-  version: ">=1.14.1"
-- category: "app-arch"
-  name: "bzip2"
-  version: ">=1.0.6"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=1.2.11"
-- category: "app-admin"
-  name: "perl-cleaner"
-  version: ">=2.27"
-- category: "dev-perl"
-  name: "libintl-perl"
-  version: ">=1.310.0"
-- category: "dev-perl"
-  name: "File-ShareDir"
-  version: ">=1.104.0"
-- category: "dev-perl"
-  name: "Text-Unidecode"
-  version: ">=1.300.0"
-- category: "dev-perl"
-  name: "Unicode-EastAsianWidth"
-  version: ">=1.330.0"
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: perl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=5.10.1'
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: Text-Unidecode
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: Unicode-EastAsianWidth
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libintl-perl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- amd64
+- unicode
+- elibc_glibc
+- multilib
+- kernel_linux
+- userland_GNU
+version: 5.0+r2

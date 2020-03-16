@@ -1,71 +1,114 @@
-
-category: "kde-frameworks"
-name: "kunitconversion-5"
-version: "5.67.0"
+State: ""
+category: kde-frameworks
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: kunitconversion-5
+provides: null
 requires:
-- category: "kde-frameworks"
-  name: "ki18n-5"
-  version: ">=5.67.0"
-- category: "dev-lang"
-  name: "python-exec-2"
-  version: ">=2.4.6"
-- category: "sys-devel"
-  name: "gettext"
-  version: ">=0.20.1"
-- category: "dev-qt"
-  name: "qtconcurrent-5"
-  version: ">=5.14.1"
-- category: "dev-qt"
-  name: "qttest-5"
-  version: ">=5.14.1"
-- category: "dev-qt"
-  name: "qtcore-5"
-  version: ">=5.14.1"
-- category: "kde-frameworks"
-  name: "kf-env-5"
-  version: ">=5"
-- category: "dev-util"
-  name: "ninja"
-  version: ">=1.8.2"
-- category: "dev-util"
-  name: "cmake"
-  version: ">=3.14.6"
-- category: "dev-qt"
-  name: "qthelp-5"
-  version: ">=5.14.1"
-- category: "app-doc"
-  name: "doxygen"
-  version: ">=1.8.15"
-- category: "kde-frameworks"
-  name: "extra-cmake-modules-5"
-  version: ">=5.67.0"
-- category: "dev-qt"
-  name: "qtnetwork-5"
-  version: ">=5.14.1"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=1.2.11"
-- category: "dev-qt"
-  name: "qtdbus-5"
-  version: ">=5.14.1"
-- category: "net-libs"
-  name: "libproxy"
-  version: ">=0.4.15"
-- category: "net-misc"
-  name: "lksctp-tools"
-  version: ">=1.0.18"
-- category: "dev-libs"
-  name: "openssl"
-  version: ">=1.1.1d"
-- category: "net-misc"
-  name: "connman"
-  version: ">=1.37"
-- category: "net-misc"
-  name: "networkmanager"
-  version: ">=1.18.4"
-- category: "dev-qt"
-  name: "qtchooser"
-  version: ">=66"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
+- State: ""
+  category: kde-frameworks
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: ki18n-5
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=5.67'
+- State: ""
+  category: dev-qt
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: qtnetwork-5
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=5.12.3'
+- State: ""
+  category: kde-frameworks
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: extra-cmake-modules-5
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=5.67'
+- State: ""
+  category: kde-frameworks
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: kf-env-5
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=4'
+- State: ""
+  category: dev-qt
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: qtcore-5
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-util
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: cmake
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-util
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: ninja
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- -test
+- kernel_linux
+- abi_x86_64
+- big-endian
+- -debug
+- elibc_glibc
+- split-usr
+- -doc
+- userland_GNU
+- amd64
+version: 5.67.0+1

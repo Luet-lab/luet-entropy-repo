@@ -1,4 +1,20 @@
-
-category: "dev-libs"
-name: "xxhash"
-version: "0.7.0"
+State: ""
+category: dev-libs
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: xxhash
+provides: null
+requires: null
+set: false
+uri: null
+use_flags:
+- amd64
+- big-endian
+- elibc_glibc
+- userland_GNU
+- -static-libs
+- kernel_linux
+- abi_x86_64
+version: 0.7.0+1

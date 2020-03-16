@@ -1,17 +1,61 @@
-
-category: "dev-java"
-name: "piccolo2d"
-version: "3.0+r1"
+State: ""
+category: dev-java
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: piccolo2d
+provides: null
 requires:
-- category: "dev-java"
-  name: "swt"
-  version: ">=3.8.2"
-- category: "app-arch"
-  name: "unzip"
-  version: ">=6.0"
-- category: "x11-base"
-  name: "xorg-proto"
-  version: ">=2019.2"
-- category: "x11-libs"
-  name: "libX11"
-  version: ">=1.6.9"
+- State: ""
+  category: dev-java
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: java-config-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.2.0'
+- State: ""
+  category: app-arch
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: unzip
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-java
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: swt-3.8
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- elibc_glibc
+- abi_x86_64
+- -source
+- amd64
+- -elibc_FreeBSD
+- kernel_linux
+- userland_GNU
+- -examples
+- -doc
+version: 3.0+r2

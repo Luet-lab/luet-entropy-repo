@@ -1,20 +1,46 @@
-
-category: "dev-perl"
-name: "XML-Filter-BufferText"
-version: "1.10.0+r1"
+State: ""
+category: dev-perl
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: XML-Filter-BufferText
+provides: null
 requires:
-- category: "dev-perl"
-  name: "XML-SAX"
-  version: ">=1.0.0"
-- category: "dev-perl"
-  name: "XML-SAX-Base"
-  version: ">=1.90.0"
-- category: "dev-perl"
-  name: "XML-NamespaceSupport"
-  version: ">=1.120.0"
-- category: "dev-libs"
-  name: "libxml2"
-  version: ">=2.9.9"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: XML-SAX
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.12'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: perl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- amd64
+- userland_GNU
+- elibc_glibc
+- abi_x86_64
+- kernel_linux
+- big-endian
+- split-usr
+version: 1.10.0+r2

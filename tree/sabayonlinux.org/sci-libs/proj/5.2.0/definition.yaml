@@ -1,4 +1,21 @@
-
-category: "sci-libs"
-name: "proj"
-version: "5.2.0"
+State: ""
+category: sci-libs
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: proj
+provides: null
+requires: null
+set: false
+uri: null
+use_flags:
+- abi_x86_64
+- big-endian
+- amd64
+- -static-libs
+- elibc_glibc
+- userland_GNU
+- split-usr
+- kernel_linux
+version: 5.2.0+1

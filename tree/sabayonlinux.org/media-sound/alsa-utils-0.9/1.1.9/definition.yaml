@@ -1,44 +1,78 @@
-
-category: "media-sound"
-name: "alsa-utils-0.9"
-version: "1.1.9"
+State: ""
+category: media-sound
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: alsa-utils-0.9
+provides: null
 requires:
-- category: "media-libs"
-  name: "alsa-lib"
-  version: ">=1.2.1.2"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-exec"
-  version: ">=2.4.6"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "app-doc"
-  name: "doxygen"
-  version: ">=1.8.15"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "sys-devel"
-  name: "automake"
-  version: ">=1.15.1"
-- category: "sys-devel"
-  name: "libtool"
-  version: ">=2.4.6"
-- category: "media-libs"
-  name: "libsamplerate"
-  version: ">=0.1.9"
-- category: "media-libs"
-  name: "libsndfile"
-  version: ">=1.0.28"
-- category: "sys-libs"
-  name: "ncurses"
-  version: ">=6.1"
-- category: "sys-libs"
-  name: "gpm"
-  version: ">=1.20.7"
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: alsa-lib
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.1.9'
+- State: ""
+  category: sys-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: ncurses
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=5.7'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libffado
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libsamplerate
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- -selinux
+- kernel_linux
+- -doc
+- nls
+- -bat
+- ncurses
+- userland_GNU
+- amd64
+- libsamplerate
+- big-endian
+- split-usr
+- elibc_glibc
+- abi_x86_64
+version: 1.1.9+1

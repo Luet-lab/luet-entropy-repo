@@ -1,77 +1,46 @@
-
-category: "sys-auth"
-name: "pam_fprint"
-version: "0.2+r1"
+State: ""
+category: sys-auth
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: pam_fprint
+provides: null
 requires:
-- category: "sys-auth"
-  name: "libfprint"
-  version: ">=0.99.0"
-- category: "dev-libs"
-  name: "nss"
-  version: ">=3.50"
-- category: "dev-libs"
-  name: "libgusb"
-  version: ">=0.2.11"
-- category: "x11-libs"
-  name: "pixman"
-  version: ">=0.38.4"
-- category: "x11-libs"
-  name: "libX11"
-  version: ">=1.6.9"
-- category: "x11-libs"
-  name: "libXv"
-  version: ">=1.0.11"
-- category: "dev-util"
-  name: "gtk-doc"
-  version: ">=1.25"
-- category: "dev-util"
-  name: "meson"
-  version: ">=0.52.1"
-- category: "dev-util"
-  name: "ninja"
-  version: ">=1.8.2"
-- category: "sys-libs"
-  name: "pam"
-  version: ">=1.3.0"
-- category: "sys-process"
-  name: "audit"
-  version: ">=2.8.4"
-- category: "sys-libs"
-  name: "db-6.0"
-  version: ">=6.0.35"
-- category: "sys-libs"
-  name: "cracklib"
-  version: ">=2.9.7"
-- category: "net-libs"
-  name: "libtirpc"
-  version: ">=1.1.4"
-- category: "sys-libs"
-  name: "libcap"
-  version: ">=2.27"
-- category: "sys-auth"
-  name: "pambase"
-  version: ">=20190402"
-- category: "app-text"
-  name: "docbook-xml-dtd-4.3"
-  version: ">=4.3"
-- category: "app-text"
-  name: "docbook-xml-dtd-4.5"
-  version: ">=4.5"
-- category: "dev-libs"
-  name: "libxslt"
-  version: ">=1.1.33"
-- category: "sys-devel"
-  name: "flex"
-  version: ">=2.6.4"
-- category: "sys-devel"
-  name: "gettext"
-  version: ">=0.20.1"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "sys-devel"
-  name: "automake-1.15"
-  version: ">=1.15.1"
-- category: "sys-devel"
-  name: "libtool-2"
-  version: ">=2.4.6"
+- State: ""
+  category: sys-auth
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libfprint
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: pam
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- amd64
+- split-usr
+- big-endian
+- elibc_glibc
+- abi_x86_64
+- userland_GNU
+- kernel_linux
+version: 0.2+r3

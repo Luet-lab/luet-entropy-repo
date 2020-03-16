@@ -1,11 +1,22 @@
-
-category: "dev-libs"
-name: "userspace-rcu"
-version: "0.10.1"
-requires:
-- category: "sys-process"
-  name: "time"
-  version: ">=1.9"
-- category: "sys-apps"
-  name: "texinfo"
-  version: ">=6.7"
+State: ""
+category: dev-libs
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: userspace-rcu
+provides: null
+requires: null
+set: false
+uri: null
+use_flags:
+- elibc_glibc
+- userland_GNU
+- -regression-test
+- -static-libs
+- big-endian
+- -test
+- kernel_linux
+- abi_x86_64
+- amd64
+version: 0.10.1+1

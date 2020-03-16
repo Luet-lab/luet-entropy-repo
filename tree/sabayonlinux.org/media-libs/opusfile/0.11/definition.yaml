@@ -1,47 +1,65 @@
-
-category: "media-libs"
-name: "opusfile"
-version: "0.11"
+State: ""
+category: media-libs
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: opusfile
+provides: null
 requires:
-- category: "media-libs"
-  name: "libogg"
-  version: ">=1.3.4"
-- category: "media-libs"
-  name: "opus"
-  version: ">=1.3.1"
-- category: "app-doc"
-  name: "doxygen"
-  version: ">=1.8.15"
-- category: "media-gfx"
-  name: "graphviz"
-  version: ">=2.42.1"
-- category: "dev-libs"
-  name: "openssl"
-  version: ">=1.1.1d"
-- category: "app-misc"
-  name: "c_rehash"
-  version: ">=1.7"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=1.2.11"
-- category: "app-misc"
-  name: "ca-certificates"
-  version: ">=20190110.3.43"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "net-misc"
-  name: "lksctp-tools"
-  version: ">=1.0.18"
-- category: "sys-apps"
-  name: "diffutils"
-  version: ">=3.6"
-- category: "sys-devel"
-  name: "bc"
-  version: ">=1.07.1"
-- category: "sys-process"
-  name: "procps"
-  version: ">=3.3.15"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: openssl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libogg
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: opus
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- userland_GNU
+- kernel_linux
+- split-usr
+- amd64
+- -doc
+- big-endian
+- float
+- http
+- -static-libs
+- abi_x86_64
+- -fixed-point
+- -libressl
+- elibc_glibc
+version: 0.11+1

@@ -1,32 +1,74 @@
-
-category: "dev-perl"
-name: "Eval-Closure"
-version: "0.140.0"
+State: ""
+category: dev-perl
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: Eval-Closure
+provides: null
 requires:
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "dev-perl"
-  name: "Try-Tiny"
-  version: ">=0.300.0"
-- category: "dev-perl"
-  name: "Sub-Name"
-  version: ">=0.210.0"
-- category: "dev-perl"
-  name: "Capture-Tiny"
-  version: ">=0.480.0"
-- category: "dev-perl"
-  name: "Devel-LexAlias"
-  version: ">=0.50.0"
-- category: "dev-perl"
-  name: "Devel-Caller"
-  version: ">=2.60.0"
-- category: "dev-perl"
-  name: "Perl-Tidy"
-  version: ">=20171214.0.0"
-- category: "dev-perl"
-  name: "Test-Fatal"
-  version: ">=0.14.0"
-- category: "dev-perl"
-  name: "Test-Requires"
-  version: ">=0.100.0"
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: Devel-LexAlias
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.50.0'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: perl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: Perl-Tidy
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: Try-Tiny
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- abi_x86_64
+- -test
+- userland_GNU
+- -minimal
+- big-endian
+- amd64
+- kernel_linux
+- split-usr
+- elibc_glibc
+version: 0.140.0+1

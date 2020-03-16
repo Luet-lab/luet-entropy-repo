@@ -1,4 +1,19 @@
-
-category: "dev-libs"
-name: "freexl"
-version: "1.0.2"
+State: ""
+category: dev-libs
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: freexl
+provides: null
+requires: null
+set: false
+uri: null
+use_flags:
+- kernel_linux
+- userland_GNU
+- elibc_glibc
+- amd64
+- abi_x86_64
+- -static-libs
+version: 1.0.2+1

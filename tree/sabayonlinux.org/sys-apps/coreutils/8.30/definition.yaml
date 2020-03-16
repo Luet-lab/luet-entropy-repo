@@ -1,119 +1,85 @@
-
-category: "sys-apps"
-name: "coreutils"
-version: "8.30"
+State: ""
+category: sys-apps
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: coreutils
+provides: null
 requires:
-- category: "sys-apps"
-  name: "acl"
-  version: ">=2.2.53"
-- category: "sys-apps"
-  name: "attr"
-  version: ">=2.4.48"
-- category: "sys-devel"
-  name: "gettext"
-  version: ">=0.20.1"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "sys-libs"
-  name: "libcap"
-  version: ">=2.27"
-- category: "sys-libs"
-  name: "pam"
-  version: ">=1.3.0"
-- category: "sys-kernel"
-  name: "linux-headers"
-  version: ">=4.19"
-- category: "dev-libs"
-  name: "gmp"
-  version: ">=6.1.2"
-- category: "sys-devel"
-  name: "m4"
-  version: ">=1.4.18"
-- category: "app-arch"
-  name: "xz-utils"
-  version: ">=5.2.4"
-- category: "sys-libs"
-  name: "libsepol"
-  version: ">=2.8"
-- category: "dev-libs"
-  name: "libpcre2"
-  version: ">=10.33"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-exec"
-  version: ">=2.4.6"
-- category: "dev-lang"
-  name: "ruby-2.5"
-  version: ">=2.5.7"
-- category: "dev-lang"
-  name: "ruby-2.5"
-  version: ">=2.5.7"
-- category: "dev-lang"
-  name: "ruby-2.5"
-  version: ">=2.5.7"
-- category: "dev-lang"
-  name: "swig"
-  version: ">=3.0.12"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "sys-libs"
-  name: "db"
-  version: ">=6.0.35"
-- category: "sys-libs"
-  name: "gdbm"
-  version: ">=1.14.1"
-- category: "app-arch"
-  name: "bzip2"
-  version: ">=1.0.6"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=1.2.11"
-- category: "app-admin"
-  name: "perl-cleaner"
-  version: ">=2.27"
-- category: "dev-perl"
-  name: "Expect"
-  version: ">=1.350.0"
-- category: "dev-perl"
-  name: "IO-Tty"
-  version: ">=1.120.0"
-- category: "dev-perl"
-  name: "IO-Stty"
-  version: ">=0.30.0"
-- category: "dev-util"
-  name: "strace"
-  version: ">=4.26"
-- category: "sys-libs"
-  name: "libunwind"
-  version: ">=1.2.1"
-- category: "dev-libs"
-  name: "elfutils"
-  version: ">=0.177"
-- category: "dev-libs"
-  name: "libaio"
-  version: ">=0.3.112"
-- category: "sys-devel"
-  name: "automake"
-  version: ">=1.15.1"
-- category: "sys-devel"
-  name: "libtool"
-  version: ">=2.4.6"
-- category: "dev-python"
-  name: "pyinotify"
-  version: ">=0.9.6"
-- category: "dev-python"
-  name: "setuptools"
-  version: ">=44.0.0"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
+- State: ""
+  category: app-arch
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: xz-utils
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: gmp
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-apps
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: acl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-apps
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: attr
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- -selinux
+- nls
+- big-endian
+- -multicall
+- kernel_linux
+- -static
+- split-usr
+- abi_x86_64
+- xattr
+- -test
+- amd64
+- -kill
+- acl
+- -caps
+- elibc_glibc
+- -hostname
+- -userland_BSD
+- gmp
+- -vanilla
+- userland_GNU
+version: 8.30+1

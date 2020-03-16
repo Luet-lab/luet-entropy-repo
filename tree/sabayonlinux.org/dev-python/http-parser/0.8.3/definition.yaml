@@ -1,53 +1,90 @@
-
-category: "dev-python"
-name: "http-parser"
-version: "0.8.3"
+State: ""
+category: dev-python
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: http-parser
+provides: null
 requires:
-- category: "dev-python"
-  name: "setuptools"
-  version: ">=44.0.0"
-- category: "dev-python"
-  name: "certifi"
-  version: ">=2019.11.28"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-exec"
-  version: ">=2.4.6"
-- category: "app-arch"
-  name: "unzip"
-  version: ">=6.0"
-- category: "dev-python"
-  name: "mock"
-  version: ">=2.0.0"
-- category: "dev-python"
-  name: "pip"
-  version: ">=19.3.1"
-- category: "dev-python"
-  name: "pytest"
-  version: ">=5.3.5"
-- category: "dev-python"
-  name: "wheel"
-  version: ">=0.33.1"
-- category: "dev-python"
-  name: "cython"
-  version: ">=0.29.14"
-- category: "app-editors"
-  name: "emacs"
-  version: ">=23.4"
-- category: "dev-python"
-  name: "numpy"
-  version: ">=1.16.5"
-- category: "dev-python"
-  name: "sphinx"
-  version: ">=1.7.5"
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: python-2.7
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.7.5'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: python-exec-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: python-3.6
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-python
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: cython
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-python
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: setuptools
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- big-endian
+- python_targets_python2_7
+- amd64
+- kernel_linux
+- abi_x86_64
+- userland_GNU
+- -python_targets_pypy
+- elibc_glibc
+- python_targets_python3_6
+- -python_targets_python3_4
+- -python_targets_python3_5
+- -examples
+version: 0.8.3+1

@@ -1,4 +1,20 @@
-
-category: "sys-devel"
-name: "llvm-common"
-version: "9.0.1"
+State: ""
+category: sys-devel
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: llvm-common
+provides: null
+requires: null
+set: false
+uri: null
+use_flags:
+- big-endian
+- userland_GNU
+- amd64
+- split-usr
+- elibc_glibc
+- kernel_linux
+- abi_x86_64
+version: 9.0.1+1

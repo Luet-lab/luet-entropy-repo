@@ -1,128 +1,85 @@
-
-category: "dev-tex"
-name: "latex2html"
-version: "2015"
+State: ""
+category: dev-tex
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: latex2html
+provides: null
 requires:
-- category: "app-text"
-  name: "ghostscript-gpl"
-  version: ">=9.50"
-- category: "app-text"
-  name: "libpaper"
-  version: ">=1.1.24"
-- category: "media-libs"
-  name: "fontconfig"
-  version: ">=2.13.1"
-- category: "media-libs"
-  name: "freetype"
-  version: ">=2.9.1"
-- category: "media-libs"
-  name: "jbig2dec"
-  version: ">=0.17"
-- category: "media-libs"
-  name: "lcms-2"
-  version: ">=2.9"
-- category: "media-libs"
-  name: "libpng"
-  version: ">=1.6.37"
-- category: "media-libs"
-  name: "openjpeg-2"
-  version: ">=2.3.1"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=1.2.11"
-- category: "net-print"
-  name: "cups"
-  version: ">=2.3.1"
-- category: "sys-apps"
-  name: "dbus"
-  version: ">=1.12.16"
-- category: "x11-libs"
-  name: "gtk+"
-  version: ">=2.24.32"
-- category: "net-dns"
-  name: "libidn"
-  version: ">=1.35"
-- category: "media-libs"
-  name: "tiff"
-  version: ">=4.1.0"
-- category: "x11-libs"
-  name: "libXt"
-  version: ">=1.2.0"
-- category: "x11-libs"
-  name: "libXext"
-  version: ">=1.3.4"
-- category: "app-text"
-  name: "poppler-data"
-  version: ">=0.4.9"
-- category: "media-fonts"
-  name: "urw-fonts"
-  version: ">=2.4.9"
-- category: "media-fonts"
-  name: "kochi-substitute"
-  version: ">=20030809"
-- category: "media-fonts"
-  name: "baekmuk-fonts"
-  version: ">=2.2"
-- category: "media-fonts"
-  name: "arphicfonts"
-  version: ">=0.2.20080216.1"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "sys-devel"
-  name: "automake"
-  version: ">=1.15.1"
-- category: "sys-devel"
-  name: "libtool"
-  version: ">=2.4.6"
-- category: "dev-texlive"
-  name: "texlive-latexrecommended"
-  version: ">=2019"
-- category: "dev-texlive"
-  name: "texlive-fontutils"
-  version: ">=2019"
-- category: "dev-texlive"
-  name: "texlive-fontsrecommended"
-  version: ">=2019"
-- category: "media-libs"
-  name: "netpbm"
-  version: ">=10.76.00"
-- category: "media-libs"
-  name: "jbigkit"
-  version: ">=2.1"
-- category: "media-libs"
-  name: "urt"
-  version: ">=3.1b"
-- category: "dev-libs"
-  name: "libxml2"
-  version: ">=2.9.9"
-- category: "x11-libs"
-  name: "libX11"
-  version: ">=1.6.9"
-- category: "app-arch"
-  name: "xz-utils"
-  version: ">=5.2.4"
-- category: "sys-devel"
-  name: "flex"
-  version: ">=2.6.4"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "sys-libs"
-  name: "db"
-  version: ">=6.0.35"
-- category: "sys-libs"
-  name: "gdbm"
-  version: ">=1.14.1"
-- category: "app-arch"
-  name: "bzip2"
-  version: ">=1.0.6"
-- category: "app-admin"
-  name: "perl-cleaner"
-  version: ">=2.27"
-- category: "media-libs"
-  name: "giflib"
-  version: ">=5.2.1"
-- category: "app-text"
-  name: "xmlto"
-  version: ">=0.0.28"
+- State: ""
+  category: app-text
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: ghostscript-gpl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: perl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: giflib
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libpng
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: netpbm
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- amd64
+- kernel_linux
+- gif
+- userland_GNU
+- abi_x86_64
+- elibc_glibc
+- png
+version: 2015+1

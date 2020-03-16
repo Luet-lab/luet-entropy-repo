@@ -1,89 +1,113 @@
-
-category: "media-sound"
-name: "lame"
-version: "3.100+r2"
+State: ""
+category: media-sound
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: lame
+provides: null
 requires:
-- category: "sys-libs"
-  name: "ncurses"
-  version: ">=6.1"
-- category: "sys-libs"
-  name: "gpm"
-  version: ">=1.20.7"
-- category: "media-libs"
-  name: "libsndfile"
-  version: ">=1.0.28"
-- category: "media-libs"
-  name: "flac"
-  version: ">=1.3.3"
-- category: "media-libs"
-  name: "libogg"
-  version: ">=1.3.4"
-- category: "media-libs"
-  name: "libvorbis"
-  version: ">=1.3.6"
-- category: "media-libs"
-  name: "opus"
-  version: ">=1.3.1"
-- category: "media-libs"
-  name: "alsa-lib"
-  version: ">=1.2.1.2"
-- category: "dev-db"
-  name: "sqlite-3"
-  version: ">=3.30.1"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "sys-devel"
-  name: "autogen"
-  version: ">=5.18.16"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "sys-devel"
-  name: "automake"
-  version: ">=1.15.1"
-- category: "sys-devel"
-  name: "libtool"
-  version: ">=2.4.6"
-- category: "sys-devel"
-  name: "gettext"
-  version: ">=0.20.1"
-- category: "dev-libs"
-  name: "libxml2"
-  version: ">=2.9.9"
-- category: "dev-libs"
-  name: "expat"
-  version: ">=2.2.8"
-- category: "dev-java"
-  name: "java-config"
-  version: ">=2.2.0"
-- category: "app-emacs"
-  name: "po-mode"
-  version: ">=0.20.1"
-- category: "dev-vcs"
-  name: "cvs"
-  version: ">=1.12.12"
-- category: "dev-vcs"
-  name: "git"
-  version: ">=2.24.1"
-- category: "dev-lang"
-  name: "nasm"
-  version: ">=2.14.02"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "app-text"
-  name: "ghostscript-gpl"
-  version: ">=9.50"
-- category: "dev-perl"
-  name: "Font-TTF"
-  version: ">=1.60.0"
-- category: "dev-perl"
-  name: "Sort-Versions"
-  version: ">=1.620.0"
-- category: "media-fonts"
-  name: "source-pro"
-  version: ">=20170111"
+- State: ""
+  category: app-portage
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: elt-patches
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=20170815'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: autoconf-2.69
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.69'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: automake-1.15
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.15.1'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libtool-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.4'
+- State: ""
+  category: sys-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: ncurses
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=5.7'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: gettext
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- big-endian
+- -abi_x86_x32
+- -abi_s390_32
+- -abi_mips_n32
+- -sndfile
+- frontend
+- -abi_mips_n64
+- mp3rtp
+- amd64
+- -abi_mips_o32
+- elibc_glibc
+- abi_x86_64
+- -cpu_flags_x86_mmx
+- kernel_linux
+- -debug
+- abi_x86_32
+- -static-libs
+- -abi_s390_64
+- userland_GNU
+- split-usr
+- -abi_riscv_lp64
+- -abi_riscv_lp64d
+version: 3.100+r4

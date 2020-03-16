@@ -1,53 +1,81 @@
-
-category: "x11-themes"
-name: "gtk-engines-adwaita"
-version: "3.28+1"
+State: ""
+category: x11-themes
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: gtk-engines-adwaita
+provides: null
 requires:
-- category: "x11-libs"
-  name: "gtk+-2"
-  version: ">=2.24.32"
-- category: "dev-libs"
-  name: "glib-2"
-  version: ">=2.60.7"
-- category: "x11-libs"
-  name: "cairo"
-  version: ">=1.16.0"
-- category: "x11-libs"
-  name: "gdk-pixbuf-2"
-  version: ">=2.40.0"
-- category: "x11-libs"
-  name: "pango"
-  version: ">=1.42.4"
-- category: "x11-misc"
-  name: "shared-mime-info"
-  version: ">=1.10"
-- category: "sys-devel"
-  name: "gettext"
-  version: ">=0.20.1"
-- category: "x11-base"
-  name: "xorg-proto"
-  version: ">=2019.2"
-- category: "x11-themes"
-  name: "hicolor-icon-theme"
-  version: ">=0.17"
-- category: "app-arch"
-  name: "xz-utils"
-  version: ">=5.2.4"
-- category: "dev-util"
-  name: "desktop-file-utils"
-  version: ">=0.24"
-- category: "x11-base"
-  name: "xorg-server"
-  version: ">=1.20.7"
-- category: "dev-util"
-  name: "gtk-update-icon-cache"
-  version: ">=3.24.11"
-- category: "x11-themes"
-  name: "adwaita-icon-theme"
-  version: ">=3.32.0"
-- category: "x11-themes"
-  name: "gnome-themes-standard"
-  version: ">=3.28"
-- category: "dev-util"
-  name: "intltool"
-  version: ">=0.51.0"
+- State: ""
+  category: dev-util
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: intltool
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.40'
+- State: ""
+  category: x11-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: gtk+-3
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.24.15'
+- State: ""
+  category: app-arch
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: xz-utils
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: gettext
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- big-endian
+- -abi_s390_32
+- -abi_mips_n32
+- -abi_x86_x32
+- -abi_riscv_lp64d
+- -abi_mips_n64
+- amd64
+- -abi_mips_o32
+- elibc_glibc
+- abi_x86_64
+- kernel_linux
+- abi_x86_32
+- -abi_s390_64
+- split-usr
+- -abi_riscv_lp64
+- userland_GNU
+version: 3.28+2

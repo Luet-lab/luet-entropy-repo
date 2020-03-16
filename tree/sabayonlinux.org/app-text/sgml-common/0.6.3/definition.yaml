@@ -1,4 +1,20 @@
-
-category: "app-text"
-name: "sgml-common"
-version: "0.6.3+r7"
+State: ""
+category: app-text
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: sgml-common
+provides: null
+requires: null
+set: false
+uri: null
+use_flags:
+- userland_GNU
+- elibc_glibc
+- big-endian
+- amd64
+- abi_x86_64
+- split-usr
+- kernel_linux
+version: 0.6.3+r8

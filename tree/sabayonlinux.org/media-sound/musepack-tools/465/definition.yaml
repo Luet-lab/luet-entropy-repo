@@ -1,17 +1,81 @@
-
-category: "media-sound"
-name: "musepack-tools"
-version: "465+r1"
+State: ""
+category: media-sound
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: musepack-tools
+provides: null
 requires:
-- category: "media-libs"
-  name: "libcuefile"
-  version: ">=477"
-- category: "sys-devel"
-  name: "make"
-  version: ">=4.2.1"
-- category: "dev-util"
-  name: "cmake"
-  version: ">=3.14.6"
-- category: "media-libs"
-  name: "libreplaygain"
-  version: ">=477"
+- State: ""
+  category: dev-util
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: cmake
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=3.9.6'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libcuefile
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=465'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libreplaygain
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=465'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: make
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- big-endian
+- -abi_s390_32
+- -abi_mips_n32
+- -abi_x86_x32
+- -abi_riscv_lp64d
+- -abi_mips_n64
+- amd64
+- -abi_mips_o32
+- elibc_glibc
+- abi_x86_64
+- kernel_linux
+- abi_x86_32
+- -abi_s390_64
+- split-usr
+- -abi_riscv_lp64
+- userland_GNU
+version: 465+r3

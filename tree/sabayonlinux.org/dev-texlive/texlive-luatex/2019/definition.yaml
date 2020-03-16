@@ -1,20 +1,73 @@
-
-category: "dev-texlive"
-name: "texlive-luatex"
-version: "2019"
+State: ""
+category: dev-texlive
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: texlive-luatex
+provides: null
 requires:
-- category: "dev-texlive"
-  name: "texlive-basic"
-  version: ">=2019"
-- category: "app-text"
-  name: "texlive-core"
-  version: ">=2019"
-- category: "app-arch"
-  name: "xz-utils"
-  version: ">=5.2.4"
-- category: "dev-texlive"
-  name: "texlive-latexrecommended"
-  version: ">=2019"
-- category: "dev-texlive"
-  name: "texlive-latex"
-  version: ">=2019"
+- State: ""
+  category: app-text
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: texlive-core
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2019'
+- State: ""
+  category: dev-texlive
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: texlive-basic
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2019'
+- State: ""
+  category: app-arch
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: xz-utils
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-texlive
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: texlive-latexrecommended
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- -source
+- elibc_glibc
+- abi_x86_64
+- kernel_linux
+- userland_GNU
+- -doc
+- amd64
+- big-endian
+version: 2019+1

@@ -1,89 +1,49 @@
-
-category: "dev-libs"
-name: "libclc"
-version: "0.2.0+pre20191024"
+State: ""
+category: dev-libs
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: libclc
+provides: null
 requires:
-- category: "sys-devel"
-  name: "clang-9"
-  version: ">=9.0.1"
-- category: "sys-devel"
-  name: "llvm-9"
-  version: ">=9.0.1"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "dev-libs"
-  name: "libxml2"
-  version: ">=2.9.9"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-exec"
-  version: ">=2.4.6"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "sys-devel"
-  name: "clang-common"
-  version: ">=9.0.1"
-- category: "sys-devel"
-  name: "clang-runtime-9.0.1"
-  version: ">=9.0.1"
-- category: "sys-libs"
-  name: "compiler-rt-9.0.1"
-  version: ">=9.0.1"
-- category: "sys-libs"
-  name: "libcxx"
-  version: ">=9.0.1"
-- category: "dev-python"
-  name: "sphinx"
-  version: ">=1.7.5"
-- category: "dev-util"
-  name: "ninja"
-  version: ">=1.8.2"
-- category: "dev-util"
-  name: "cmake"
-  version: ">=3.14.6"
-- category: "sys-devel"
-  name: "clang-9"
-  version: ">=9.0.1"
-- category: "sys-devel"
-  name: "llvm-9"
-  version: ">=9.0.1"
-- category: "sys-devel"
-  name: "clang-runtime-9.0.1"
-  version: ">=9.0.1"
-- category: "sys-libs"
-  name: "compiler-rt-9.0.1"
-  version: ">=9.0.1"
-- category: "sys-devel"
-  name: "clang-9"
-  version: ">=9.0.1"
-- category: "sys-devel"
-  name: "llvm-9"
-  version: ">=9.0.1"
-- category: "sys-devel"
-  name: "clang-runtime-9.0.1"
-  version: ">=9.0.1"
-- category: "sys-libs"
-  name: "compiler-rt-9.0.1"
-  version: ">=9.0.1"
-- category: "sys-devel"
-  name: "clang-9"
-  version: ">=9.0.1"
-- category: "sys-devel"
-  name: "llvm-9"
-  version: ">=9.0.1"
-- category: "sys-devel"
-  name: "clang-runtime-9.0.1"
-  version: ">=9.0.1"
-- category: "sys-libs"
-  name: "compiler-rt-9.0.1"
-  version: ">=9.0.1"
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: python-2.7
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.7.5'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: clang-9
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- split-usr
+- video_cards_radeonsi
+- kernel_linux
+- abi_x86_64
+- big-endian
+- -video_cards_nvidia
+- userland_GNU
+- elibc_glibc
+- amd64
+- -video_cards_r600
+version: 0.2.0+pre20191024.1

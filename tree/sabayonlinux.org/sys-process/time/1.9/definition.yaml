@@ -1,29 +1,32 @@
-
-category: "sys-process"
-name: "time"
-version: "1.9"
+State: ""
+category: sys-process
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: time
+provides: null
 requires:
-- category: "sys-apps"
-  name: "texinfo"
-  version: ">=6.7"
-- category: "sys-libs"
-  name: "ncurses"
-  version: ">=6.1"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "dev-perl"
-  name: "libintl-perl"
-  version: ">=1.310.0"
-- category: "dev-perl"
-  name: "Unicode-EastAsianWidth"
-  version: ">=1.330.0"
-- category: "dev-perl"
-  name: "Text-Unidecode"
-  version: ">=1.300.0"
-- category: "app-arch"
-  name: "xz-utils"
-  version: ">=5.2.4"
-- category: "sys-devel"
-  name: "gettext"
-  version: ">=0.20.1"
+- State: ""
+  category: sys-apps
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: texinfo
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- big-endian
+- kernel_linux
+- elibc_glibc
+- abi_x86_64
+- amd64
+- userland_GNU
+version: 1.9+1

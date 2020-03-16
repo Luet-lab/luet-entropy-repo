@@ -1,4 +1,21 @@
-
-category: "dev-libs"
-name: "mathjax"
-version: "2.7.4"
+State: ""
+category: dev-libs
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: mathjax
+provides: null
+requires: null
+set: false
+uri: null
+use_flags:
+- abi_x86_64
+- big-endian
+- -examples
+- -doc
+- kernel_linux
+- userland_GNU
+- amd64
+- elibc_glibc
+version: 2.7.4+1

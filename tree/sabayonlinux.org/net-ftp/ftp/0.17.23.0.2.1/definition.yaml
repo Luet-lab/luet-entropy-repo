@@ -1,44 +1,63 @@
-
-category: "net-ftp"
-name: "ftp"
-version: "0.17.23.0.2.1"
+State: ""
+category: net-ftp
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: ftp
+provides: null
 requires:
-- category: "sys-libs"
-  name: "ncurses"
-  version: ">=6.1"
-- category: "sys-libs"
-  name: "gpm"
-  version: ">=1.20.7"
-- category: "sys-libs"
-  name: "readline"
-  version: ">=7.0"
-- category: "dev-libs"
-  name: "openssl"
-  version: ">=1.1.1d"
-- category: "app-misc"
-  name: "c_rehash"
-  version: ">=1.7"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=1.2.11"
-- category: "app-misc"
-  name: "ca-certificates"
-  version: ">=20190110.3.43"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "net-misc"
-  name: "lksctp-tools"
-  version: ">=1.0.18"
-- category: "sys-apps"
-  name: "diffutils"
-  version: ">=3.6"
-- category: "sys-devel"
-  name: "bc"
-  version: ">=1.07.1"
-- category: "sys-process"
-  name: "procps"
-  version: ">=3.3.15"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
+- State: ""
+  category: sys-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: ncurses
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=5.2'
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: openssl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: readline
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- big-endian
+- ssl
+- kernel_linux
+- elibc_glibc
+- abi_x86_64
+- amd64
+- ipv6
+- readline
+- userland_GNU
+- split-usr
+- -libressl
+version: 0.17.23.0.2.1+1

@@ -1,44 +1,65 @@
-
-category: "net-firewall"
-name: "iptables"
-version: "1.6.1+r3"
+State: ""
+category: net-firewall
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: iptables
+provides: null
 requires:
-- category: "net-libs"
-  name: "libnetfilter_conntrack"
-  version: ">=1.0.7"
-- category: "net-libs"
-  name: "libmnl"
-  version: ">=1.0.4"
-- category: "net-libs"
-  name: "libnfnetlink"
-  version: ">=1.0.1"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "sys-devel"
-  name: "automake"
-  version: ">=1.15.1"
-- category: "sys-devel"
-  name: "libtool"
-  version: ">=2.4.6"
-- category: "net-libs"
-  name: "libnftnl"
-  version: ">=1.1.5"
-- category: "net-libs"
-  name: "libpcap"
-  version: ">=1.9.1"
-- category: "net-wireless"
-  name: "bluez"
-  version: ">=5.52"
-- category: "sys-apps"
-  name: "dbus"
-  version: ">=1.12.16"
-- category: "dev-libs"
-  name: "libnl"
-  version: ">=1.1.4"
-- category: "sys-devel"
-  name: "flex"
-  version: ">=2.6.4"
-- category: "sys-kernel"
-  name: "linux-headers"
-  version: ">=4.19"
+- State: ""
+  category: app-portage
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: elt-patches
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=20170815'
+- State: ""
+  category: sys-kernel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: linux-headers
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=4.4'
+- State: ""
+  category: sys-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: glibc-2.2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- -static-libs
+- -conntrack
+- abi_x86_64
+- amd64
+- big-endian
+- -pcap
+- kernel_linux
+- -nftables
+- elibc_glibc
+- ipv6
+- split-usr
+- -netlink
+- userland_GNU
+version: 1.6.1+r4

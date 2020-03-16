@@ -1,4 +1,20 @@
-
-category: "app-emulation"
-name: "spice-protocol"
-version: "0.14.0"
+State: ""
+category: app-emulation
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: spice-protocol
+provides: null
+requires: null
+set: false
+uri: null
+use_flags:
+- userland_GNU
+- kernel_linux
+- amd64
+- big-endian
+- split-usr
+- abi_x86_64
+- elibc_glibc
+version: 0.14.0+1

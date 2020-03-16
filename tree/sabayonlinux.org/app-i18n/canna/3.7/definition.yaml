@@ -1,128 +1,48 @@
-
-category: "app-i18n"
-name: "canna"
-version: "3.7+p3r3"
+State: ""
+category: app-i18n
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: canna
+provides: null
 requires:
-- category: "net-libs"
-  name: "libtirpc"
-  version: ">=1.1.4"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "sys-devel"
-  name: "automake"
-  version: ">=1.15.1"
-- category: "sys-devel"
-  name: "libtool"
-  version: ">=2.4.6"
-- category: "sys-libs"
-  name: "ncurses"
-  version: ">=6.1"
-- category: "sys-libs"
-  name: "gpm"
-  version: ">=1.20.7"
-- category: "x11-misc"
-  name: "gccmakedep"
-  version: ">=1.0.3"
-- category: "x11-base"
-  name: "xorg-proto"
-  version: ">=2019.2"
-- category: "x11-misc"
-  name: "imake"
-  version: ">=1.0.8"
-- category: "x11-misc"
-  name: "xorg-cf-files"
-  version: ">=1.0.6"
-- category: "sys-devel"
-  name: "m4"
-  version: ">=1.4.18"
-- category: "x11-misc"
-  name: "util-macros"
-  version: ">=1.19.2"
-- category: "media-fonts"
-  name: "font-util"
-  version: ">=1.3.2"
-- category: "app-text"
-  name: "ghostscript-gpl"
-  version: ">=9.50"
-- category: "app-text"
-  name: "libpaper"
-  version: ">=1.1.24"
-- category: "media-libs"
-  name: "fontconfig"
-  version: ">=2.13.1"
-- category: "media-libs"
-  name: "freetype"
-  version: ">=2.9.1"
-- category: "media-libs"
-  name: "jbig2dec"
-  version: ">=0.17"
-- category: "media-libs"
-  name: "lcms-2"
-  version: ">=2.9"
-- category: "media-libs"
-  name: "libpng"
-  version: ">=1.6.37"
-- category: "media-libs"
-  name: "openjpeg-2"
-  version: ">=2.3.1"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=1.2.11"
-- category: "net-print"
-  name: "cups"
-  version: ">=2.3.1"
-- category: "sys-apps"
-  name: "dbus"
-  version: ">=1.12.16"
-- category: "x11-libs"
-  name: "gtk+"
-  version: ">=2.24.32"
-- category: "net-dns"
-  name: "libidn"
-  version: ">=1.35"
-- category: "media-libs"
-  name: "tiff"
-  version: ">=4.1.0"
-- category: "x11-libs"
-  name: "libXt"
-  version: ">=1.2.0"
-- category: "x11-libs"
-  name: "libXext"
-  version: ">=1.3.4"
-- category: "app-text"
-  name: "poppler-data"
-  version: ">=0.4.9"
-- category: "media-fonts"
-  name: "urw-fonts"
-  version: ">=2.4.9"
-- category: "media-fonts"
-  name: "kochi-substitute"
-  version: ">=20030809"
-- category: "media-fonts"
-  name: "baekmuk-fonts"
-  version: ">=2.2"
-- category: "media-fonts"
-  name: "arphicfonts"
-  version: ">=0.2.20080216.1"
-- category: "dev-texlive"
-  name: "texlive-langjapanese"
-  version: ">=2019"
-- category: "dev-texlive"
-  name: "texlive-langcjk"
-  version: ">=2019"
-- category: "dev-lang"
-  name: "ruby-2.5"
-  version: ">=2.5.7"
-- category: "app-text"
-  name: "texlive-core"
-  version: ">=2019"
-- category: "app-arch"
-  name: "xz-utils"
-  version: ">=5.2.4"
-- category: "dev-texlive"
-  name: "texlive-latexrecommended"
-  version: ">=2019"
-- category: "dev-texlive"
-  name: "texlive-latex"
-  version: ">=2019"
+- State: ""
+  category: x11-misc
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: gccmakedep
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: x11-misc
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: imake
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- userland_GNU
+- -canuum
+- elibc_glibc
+- abi_x86_64
+- -doc
+- kernel_linux
+- ipv6
+- amd64
+- big-endian
+version: 3.7+p3r3.1

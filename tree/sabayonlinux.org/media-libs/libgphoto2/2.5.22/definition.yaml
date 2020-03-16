@@ -1,98 +1,191 @@
-
-category: "media-libs"
-name: "libgphoto2"
-version: "2.5.22"
+State: ""
+category: media-libs
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: libgphoto2
+provides: null
 requires:
-- category: "acct-group"
-  name: "plugdev"
-  version: ">=0"
-- category: "dev-libs"
-  name: "libxml2"
-  version: ">=2.9.9"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=1.2.11"
-- category: "dev-libs"
-  name: "icu"
-  version: ">=65.1"
-- category: "app-arch"
-  name: "xz-utils"
-  version: ">=5.2.4"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-exec"
-  version: ">=2.4.6"
-- category: "sys-libs"
-  name: "readline"
-  version: ">=7.0"
-- category: "dev-util"
-  name: "gtk-doc-am"
-  version: ">=1.25"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "sys-devel"
-  name: "automake"
-  version: ">=1.15.1"
-- category: "sys-devel"
-  name: "libtool"
-  version: ">=2.4.6"
-- category: "dev-libs"
-  name: "libltdl"
-  version: ">=2.4.6"
-- category: "media-libs"
-  name: "gd"
-  version: ">=2.2.5"
-- category: "media-libs"
-  name: "fontconfig"
-  version: ">=2.13.1"
-- category: "media-libs"
-  name: "libpng"
-  version: ">=1.6.37"
-- category: "media-libs"
-  name: "tiff"
-  version: ">=4.1.0"
-- category: "media-libs"
-  name: "freetype"
-  version: ">=2.9.1"
-- category: "media-libs"
-  name: "libwebp"
-  version: ">=1.0.2"
-- category: "x11-libs"
-  name: "libXpm"
-  version: ">=3.5.13"
-- category: "x11-libs"
-  name: "libXt"
-  version: ">=1.2.0"
-- category: "media-libs"
-  name: "libexif"
-  version: ">=0.6.21"
-- category: "app-doc"
-  name: "doxygen"
-  version: ">=1.8.15"
-- category: "sys-devel"
-  name: "gettext"
-  version: ">=0.20.1"
-- category: "dev-libs"
-  name: "lockdev"
-  version: ">=1.0.3.1.2"
-- category: "sys-devel"
-  name: "flex"
-  version: ">=2.6.4"
-- category: "sys-devel"
-  name: "m4"
-  version: ">=1.4.18"
-- category: "sys-devel"
-  name: "bison"
-  version: ">=3.1"
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libxml2-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.9.1'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libexif
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.6.21'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: gettext
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.14.1'
+- State: ""
+  category: acct-group
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: plugdev
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libltdl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-util
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: gtk-doc-am
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: flex
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- cameras_polaroid_pdc640
+- cameras_panasonic_coolshot
+- cameras_stv0674
+- cameras_panasonic_l859
+- big-endian
+- cameras_panasonic_dc1000
+- cameras_adc65
+- -cameras_topfield
+- cameras_sipix_blink2
+- cameras_gsmart300
+- -cameras_st2205
+- cameras_clicksmart310
+- cameras_polaroid_pdc320
+- split-usr
+- cameras_kodak_ez200
+- -abi_riscv_lp64d
+- cameras_stv0680
+- -abi_x86_x32
+- -abi_s390_32
+- cameras_sonix
+- -cameras_jl2005c
+- cameras_enigma13
+- -cameras_pentax
+- amd64
+- cameras_agfa_cl20
+- kernel_linux
+- cameras_largan
+- cameras_konica_qm150
+- cameras_sony_dscf55
+- cameras_soundvision
+- cameras_sx330z
+- -serial
+- cameras_digita
+- jpeg
+- -doc
+- cameras_polaroid_pdc700
+- cameras_samsung
+- -examples
+- cameras_jd11
+- cameras_jamcam
+- cameras_kodak_dc210
+- -cameras_jl2005a
+- cameras_casio_qv
+- cameras_kodak_dc240
+- cameras_aox
+- cameras_mars
+- cameras_digigr8
+- cameras_spca50x
+- cameras_smal
+- abi_x86_64
+- cameras_dimera3500
+- cameras_sipix_web2
+- cameras_barbie
+- cameras_pccam600
+- cameras_ricoh
+- -cameras_tp6801
+- cameras_kodak_dc120
+- -abi_s390_64
+- cameras_pccam300
+- exif
+- cameras_lg_gsm
+- cameras_kodak_dc3200
+- cameras_directory
+- -abi_riscv_lp64
+- cameras_toshiba_pdrm11
+- userland_GNU
+- cameras_dimagev
+- cameras_sierra
+- nls
+- -abi_mips_n32
+- cameras_konica
+- -abi_mips_n64
+- cameras_sony_dscf1
+- -abi_mips_o32
+- elibc_glibc
+- cameras_ptp2
+- cameras_canon
+- abi_x86_32
+- cameras_ricoh_g3
+- cameras_panasonic_dc1580
+- cameras_hp215
+- cameras_mustek
+- cameras_iclick
+- cameras_sq905
+- -cameras_ax203
+- -gd
+- cameras_fuji
+version: 2.5.22+2

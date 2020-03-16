@@ -1,38 +1,94 @@
-
-category: "media-plugins"
-name: "gst-plugins-cdio-1.0"
-version: "1.14.3"
+State: ""
+category: media-plugins
+conflicts: null
+description: ""
+id: 0
 license: ""
-
-use_flags:
-- "-abi_x86_x32"
-- "userland_GNU"
-- "abi_x86_32"
-- "kernel_linux"
-- "big-endian"
-- "-abi_s390_64"
-- "-abi_mips_n32"
-- "abi_x86_64"
-- "-abi_ppc_64"
-- "elibc_glibc"
-- "-abi_mips_n64"
-- "-abi_ppc_32"
-- "-abi_mips_o32"
-- "-abi_s390_32"
-- "amd64"
+name: gst-plugins-cdio-1.0
+provides: null
 requires:
-- category: "dev-libs"
-  name: "glib-2"
-  version: ">=2.38.2"
-- category: "dev-libs"
-  name: "libcdio"
-  version: ">=0.90"
-- category: "media-libs"
-  name: "gst-plugins-ugly-1.0"
-  version: ">=1.14.3"
-- category: "media-libs"
-  name: "gstreamer-1.0"
-  version: ">=1.2.4"
-- category: "sys-apps"
-  name: "sed"
-  version: ">=4"
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: glib-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.38.2'
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libcdio
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.90'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: gst-plugins-ugly-1.0
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.14.3'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: gstreamer-1.0
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.2.4'
+- State: ""
+  category: sys-apps
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: sed
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=4'
+set: false
+uri: null
+use_flags:
+- big-endian
+- -abi_s390_32
+- -abi_mips_n32
+- -abi_x86_x32
+- -abi_riscv_lp64d
+- -abi_mips_n64
+- amd64
+- -abi_mips_o32
+- elibc_glibc
+- abi_x86_64
+- kernel_linux
+- abi_x86_32
+- -abi_s390_64
+- split-usr
+- -abi_riscv_lp64
+- userland_GNU
+version: 1.14.3+1

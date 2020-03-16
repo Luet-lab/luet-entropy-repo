@@ -1,14 +1,60 @@
-
-category: "dev-perl"
-name: "File-Find-Rule"
-version: "0.340.0"
+State: ""
+category: dev-perl
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: File-Find-Rule
+provides: null
 requires:
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "dev-perl"
-  name: "Number-Compare"
-  version: ">=0.30.0"
-- category: "dev-perl"
-  name: "Text-Glob"
-  version: ">=0.110.0"
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: perl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: Number-Compare
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: Text-Glob
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- abi_x86_64
+- elibc_glibc
+- kernel_linux
+- userland_GNU
+- -test
+- big-endian
+- split-usr
+- amd64
+version: 0.340.0+1

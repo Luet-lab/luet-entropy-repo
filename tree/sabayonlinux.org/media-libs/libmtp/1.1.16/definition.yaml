@@ -1,107 +1,49 @@
-
-category: "media-libs"
-name: "libmtp"
-version: "1.1.16"
+State: ""
+category: media-libs
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: libmtp
+provides: null
 requires:
-- category: "acct-group"
-  name: "plugdev"
-  version: ">=0"
-- category: "dev-libs"
-  name: "libgcrypt"
-  version: ">=1.8.5"
-- category: "dev-libs"
-  name: "libgpg-error"
-  version: ">=1.36"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "sys-devel"
-  name: "automake-1.15"
-  version: ">=1.15.1"
-- category: "sys-devel"
-  name: "libtool-2"
-  version: ">=2.4.6"
-- category: "sys-devel"
-  name: "gettext"
-  version: ">=0.20.1"
-- category: "dev-libs"
-  name: "libxml2-2"
-  version: ">=2.9.9"
-- category: "dev-libs"
-  name: "expat"
-  version: ">=2.2.8"
-- category: "sys-libs"
-  name: "ncurses"
-  version: ">=6.1"
-- category: "dev-java"
-  name: "java-config-2"
-  version: ">=2.2.0"
-- category: "app-emacs"
-  name: "po-mode"
-  version: ">=0.20.1"
-- category: "dev-vcs"
-  name: "cvs"
-  version: ">=1.12.12"
-- category: "dev-vcs"
-  name: "git"
-  version: ">=2.24.1"
-- category: "dev-util"
-  name: "pkgconfig"
-  version: ">=0.29.2"
-- category: "app-doc"
-  name: "doxygen"
-  version: ">=1.8.15"
-- category: "sys-devel"
-  name: "flex"
-  version: ">=2.6.4"
-- category: "sys-devel"
-  name: "bison"
-  version: ">=3.1"
-- category: "app-text"
-  name: "ghostscript-gpl"
-  version: ">=9.50"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "media-libs"
-  name: "libpng"
-  version: ">=1.6.37"
-- category: "media-gfx"
-  name: "graphviz"
-  version: ">=2.42.1"
-- category: "media-libs"
-  name: "freetype-2"
-  version: ">=2.9.1"
-- category: "dev-texlive"
-  name: "texlive-bibtexextra"
-  version: ">=2019"
-- category: "dev-texlive"
-  name: "texlive-fontsextra"
-  version: ">=2019"
-- category: "dev-texlive"
-  name: "texlive-fontutils"
-  version: ">=2019"
-- category: "dev-texlive"
-  name: "texlive-latex"
-  version: ">=2019"
-- category: "dev-texlive"
-  name: "texlive-latexextra"
-  version: ">=2019"
-- category: "dev-libs"
-  name: "xapian"
-  version: ">=1.4.14"
-- category: "dev-qt"
-  name: "qtwidgets-5"
-  version: ">=5.14.1"
-- category: "dev-qt"
-  name: "qtxml-5"
-  version: ">=5.14.1"
-- category: "dev-db"
-  name: "sqlite-3"
-  version: ">=3.30.1"
-- category: "sys-devel"
-  name: "make"
-  version: ">=4.2.1"
-- category: "dev-util"
-  name: "cmake"
-  version: ">=3.14.6"
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libgcrypt
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.5.4'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: gettext
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>0.18.3'
+set: false
+uri: null
+use_flags:
+- userland_GNU
+- elibc_glibc
+- abi_x86_64
+- amd64
+- crypt
+- kernel_linux
+- big-endian
+- -static-libs
+- -examples
+- -doc
+version: 1.1.16+1

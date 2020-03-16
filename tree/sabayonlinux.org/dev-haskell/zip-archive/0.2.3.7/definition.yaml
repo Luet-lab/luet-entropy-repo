@@ -1,83 +1,128 @@
-
-category: "dev-haskell"
-name: "zip-archive"
-version: "0.2.3.7"
+State: ""
+category: dev-haskell
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: zip-archive
+provides: null
 requires:
-- category: "dev-haskell"
-  name: "binary"
-  version: ">=0.8.3.0"
-- category: "dev-lang"
-  name: "ghc"
-  version: ">=8.0.2"
-- category: "dev-haskell"
-  name: "cabal"
-  version: ">=1.24.2.0"
-- category: "dev-haskell"
-  name: "hunit"
-  version: ">=1.2.5.2"
-- category: "dev-haskell"
-  name: "quickcheck-2"
-  version: ">=2.9.2"
-- category: "dev-haskell"
-  name: "random"
-  version: ">=1.1"
-- category: "dev-haskell"
-  name: "test-framework"
-  version: ">=0.8.1.1"
-- category: "dev-haskell"
-  name: "test-framework-quickcheck2"
-  version: ">=0.3.0.3"
-- category: "dev-haskell"
-  name: "haddock"
-  version: ">=2.17.2"
-- category: "dev-haskell"
-  name: "hscolour"
-  version: ">=1.24"
-- category: "dev-haskell"
-  name: "digest"
-  version: ">=0.0.1.2"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=1.2.11"
-- category: "dev-haskell"
-  name: "mtl"
-  version: ">=2.2.1"
-- category: "dev-haskell"
-  name: "transformers"
-  version: ">=0.5.2.0"
-- category: "dev-haskell"
-  name: "old-time"
-  version: ">=1.1.0.3"
-- category: "dev-haskell"
-  name: "old-locale"
-  version: ">=1.0.0.7"
-- category: "dev-haskell"
-  name: "text"
-  version: ">=1.2.2.1"
-- category: "dev-haskell"
-  name: "test-framework-hunit"
-  version: ">=0.3.0.2"
-- category: "dev-haskell"
-  name: "zlib"
-  version: ">=0.6.1.2"
-- category: "dev-haskell"
-  name: "tasty"
-  version: ">=0.11.0.4"
-- category: "dev-haskell"
-  name: "tasty-hunit"
-  version: ">=0.9.2"
-- category: "dev-haskell"
-  name: "tasty-quickcheck"
-  version: ">=0.8.4"
-- category: "app-arch"
-  name: "zip"
-  version: ">=3.0"
-- category: "app-arch"
-  name: "bzip2"
-  version: ">=1.0.6"
-- category: "dev-libs"
-  name: "libnatspec"
-  version: ">=0.3.0"
-- category: "app-arch"
-  name: "unzip"
-  version: ">=6.0"
+- State: ""
+  category: dev-haskell
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: binary
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.5'
+- State: ""
+  category: dev-haskell
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: cabal
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.10'
+- State: ""
+  category: dev-haskell
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: digest
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.0.0.1'
+- State: ""
+  category: dev-haskell
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: text
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.11'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: ghc
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=7.4.1'
+- State: ""
+  category: dev-haskell
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: mtl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-haskell
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: old-time
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-haskell
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: zlib
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- elibc_glibc
+- amd64
+- abi_x86_64
+- userland_GNU
+- -test
+- -profile
+- -executable
+- -doc
+- -hscolour
+- big-endian
+- kernel_linux
+version: 0.2.3.7+1

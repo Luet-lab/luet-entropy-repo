@@ -1,116 +1,116 @@
-
-category: "net-dns"
-name: "dnsmasq"
-version: "2.80+r1"
+State: ""
+category: net-dns
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: dnsmasq
+provides: null
 requires:
-- category: "sys-apps"
-  name: "dbus"
-  version: ">=1.12.16"
-- category: "dev-libs"
-  name: "expat"
-  version: ">=2.2.8"
-- category: "sys-apps"
-  name: "systemd"
-  version: ">=242"
-- category: "x11-libs"
-  name: "libX11"
-  version: ">=1.6.9"
-- category: "x11-libs"
-  name: "libXt"
-  version: ">=1.2.0"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-libs"
-  name: "glib"
-  version: ">=2.60.7"
-- category: "acct-user"
-  name: "messagebus"
-  version: ">=0"
-- category: "app-text"
-  name: "xmlto"
-  version: ">=0.0.28"
-- category: "app-text"
-  name: "docbook-xml-dtd"
-  version: ">=4.1.2"
-- category: "sys-devel"
-  name: "autoconf-archive"
-  version: ">=2018.03.13"
-- category: "app-doc"
-  name: "doxygen"
-  version: ">=1.8.15"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "sys-devel"
-  name: "automake"
-  version: ">=1.15.1"
-- category: "sys-devel"
-  name: "libtool"
-  version: ">=2.4.6"
-- category: "x11-base"
-  name: "xorg-server"
-  version: ">=1.20.7"
-- category: "x11-apps"
-  name: "xhost"
-  version: ">=1.0.8"
-- category: "net-dns"
-  name: "libidn"
-  version: ">=1.35"
-- category: "app-editors"
-  name: "emacs"
-  version: ">=23.4"
-- category: "dev-lang"
-  name: "mono"
-  version: ">=4.8.0.524"
-- category: "sys-devel"
-  name: "gettext"
-  version: ">=0.20.1"
-- category: "dev-java"
-  name: "java-config"
-  version: ">=2.2.0"
-- category: "net-dns"
-  name: "libidn2"
-  version: ">=2.1.1a"
-- category: "dev-libs"
-  name: "libunistring"
-  version: ">=0.9.10"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "sys-apps"
-  name: "help2man"
-  version: ">=1.47.11"
-- category: "dev-lang"
-  name: "lua"
-  version: ">=5.1.5"
-- category: "sys-libs"
-  name: "readline"
-  version: ">=7.0"
-- category: "app-emacs"
-  name: "lua-mode"
-  version: ">=20151025"
-- category: "net-libs"
-  name: "libnetfilter_conntrack"
-  version: ">=1.0.7"
-- category: "net-libs"
-  name: "libmnl"
-  version: ">=1.0.4"
-- category: "net-libs"
-  name: "libnfnetlink"
-  version: ">=1.0.1"
-- category: "dev-libs"
-  name: "nettle"
-  version: ">=3.4.1"
-- category: "dev-libs"
-  name: "gmp"
-  version: ">=6.1.2"
-- category: "sys-devel"
-  name: "m4"
-  version: ">=1.4.18"
-- category: "app-arch"
-  name: "xz-utils"
-  version: ">=5.2.4"
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: nettle
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=3.4'
+- State: ""
+  category: app-arch
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: xz-utils
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: nettle
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: net-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libnetfilter_conntrack
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-apps
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: dbus
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: gettext
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- dnssec
+- -selinux
+- -idn
+- amd64
+- kernel_linux
+- ipv6
+- conntrack
+- split-usr
+- abi_x86_64
+- -static
+- -id
+- script
+- tftp
+- userland_GNU
+- -auth-dns
+- elibc_glibc
+- -lua
+- big-endian
+- dhcp-tools
+- -libidn2
+- inotify
+- nls
+- dumpfile
+- dbus
+- dhcp
+version: 2.80+r2

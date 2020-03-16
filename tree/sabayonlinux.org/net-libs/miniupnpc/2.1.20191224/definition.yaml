@@ -1,14 +1,48 @@
-
-category: "net-libs"
-name: "miniupnpc"
-version: "2.1.20191224"
+State: ""
+category: net-libs
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: miniupnpc
+provides: null
 requires:
-- category: "sys-apps"
-  name: "lsb-release"
-  version: ">=1.4"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "sys-apps"
-  name: "which"
-  version: ">=2.21"
+- State: ""
+  category: sys-apps
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: lsb-release
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-apps
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: which
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- kernel_linux
+- elibc_glibc
+- abi_x86_64
+- split-usr
+- big-endian
+- amd64
+- userland_GNU
+- -static-libs
+- ipv6
+version: 2.1.20191224+1

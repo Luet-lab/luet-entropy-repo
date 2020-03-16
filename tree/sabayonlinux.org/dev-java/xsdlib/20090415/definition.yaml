@@ -1,35 +1,73 @@
-
-category: "dev-java"
-name: "xsdlib"
-version: "20090415"
+State: ""
+category: dev-java
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: xsdlib
+provides: null
 requires:
-- category: "dev-java"
-  name: "xerces-2"
-  version: ">=2.12.0"
-- category: "dev-java"
-  name: "xjavac-1"
-  version: ">=2.4.0"
-- category: "dev-java"
-  name: "xml-commons-resolver"
-  version: ">=1.2"
-- category: "dev-java"
-  name: "xml-commons-external"
-  version: ">=1.4.01"
-- category: "dev-java"
-  name: "java-config"
-  version: ">=2.2.0"
-- category: "app-arch"
-  name: "zip"
-  version: ">=3.0"
-- category: "dev-java"
-  name: "relaxng-datatype"
-  version: ">=1.0"
-- category: "app-arch"
-  name: "unzip"
-  version: ">=6.0"
-- category: "app-arch"
-  name: "bzip2"
-  version: ">=1.0.6"
-- category: "dev-libs"
-  name: "libnatspec"
-  version: ">=0.3.0"
+- State: ""
+  category: dev-java
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: java-config-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.1.9'
+- State: ""
+  category: app-arch
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: unzip
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-java
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: relaxng-datatype
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-java
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: xerces-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- elibc_glibc
+- -doc
+- amd64
+- -elibc_FreeBSD
+- multilib
+- userland_GNU
+- kernel_linux
+- -source
+version: 20090415+1

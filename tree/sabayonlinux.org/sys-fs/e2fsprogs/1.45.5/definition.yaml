@@ -1,95 +1,77 @@
-
-category: "sys-fs"
-name: "e2fsprogs"
-version: "1.45.5"
+State: ""
+category: sys-fs
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: e2fsprogs
+provides: null
 requires:
-- category: "sys-libs"
-  name: "e2fsprogs-libs"
-  version: ">=1.45.5"
-- category: "sys-apps"
-  name: "util-linux"
-  version: ">=2.33.2"
-- category: "sys-libs"
-  name: "libcap-ng"
-  version: ">=0.7.10"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=1.2.11"
-- category: "sys-libs"
-  name: "ncurses"
-  version: ">=6.1"
-- category: "sys-libs"
-  name: "pam"
-  version: ">=1.3.0"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-exec"
-  version: ">=2.4.6"
-- category: "sys-libs"
-  name: "readline"
-  version: ">=7.0"
-- category: "sys-libs"
-  name: "slang"
-  version: ">=2.3.2"
-- category: "sys-apps"
-  name: "systemd"
-  version: ">=242"
-- category: "sys-devel"
-  name: "gettext"
-  version: ">=0.20.1"
-- category: "sys-devel"
-  name: "bc"
-  version: ">=1.07.1"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "sys-fs"
-  name: "lvm2"
-  version: ">=2.02.184"
-- category: "dev-libs"
-  name: "libaio"
-  version: ">=0.3.112"
-- category: "sys-apps"
-  name: "baselayout"
-  version: ">=2.6"
-- category: "sys-block"
-  name: "thin-provisioning-tools"
-  version: ">=0.7.6"
-- category: "sys-devel"
-  name: "autoconf-archive"
-  version: ">=2018.03.13"
-- category: "sys-devel"
-  name: "automake"
-  version: ">=1.15.1"
-- category: "sys-devel"
-  name: "libtool"
-  version: ">=2.4.6"
-- category: "sys-fs"
-  name: "fuse"
-  version: ">=2.9.8"
-- category: "sys-fs"
-  name: "fuse-common"
-  version: ">=3.2.6"
-- category: "sys-apps"
-  name: "texinfo"
-  version: ">=6.7"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "dev-perl"
-  name: "libintl-perl"
-  version: ">=1.310.0"
-- category: "dev-perl"
-  name: "Unicode-EastAsianWidth"
-  version: ">=1.330.0"
-- category: "dev-perl"
-  name: "Text-Unidecode"
-  version: ">=1.300.0"
-- category: "app-arch"
-  name: "xz-utils"
-  version: ">=5.2.4"
+- State: ""
+  category: sys-apps
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: util-linux
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.16'
+- State: ""
+  category: sys-apps
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: texinfo
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: gettext
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: e2fsprogs-libs
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.45.5'
+set: false
+uri: null
+use_flags:
+- big-endian
+- userland_GNU
+- -elibc_FreeBSD
+- amd64
+- nls
+- -fuse
+- -cron
+- split-usr
+- abi_x86_64
+- -static-libs
+- elibc_glibc
+- kernel_linux
+version: 1.45.5+1

@@ -1,77 +1,89 @@
-
-category: "dev-python"
-name: "pykerberos"
-version: "1.2.1"
+State: ""
+category: dev-python
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: pykerberos
+provides: null
 requires:
-- category: "app-crypt"
-  name: "mit-krb5"
-  version: ">=1.17"
-- category: "sys-libs"
-  name: "e2fsprogs-libs"
-  version: ">=1.45.5"
-- category: "dev-libs"
-  name: "libverto"
-  version: ">=0.3.1"
-- category: "sys-apps"
-  name: "keyutils"
-  version: ">=1.6.1"
-- category: "dev-db"
-  name: "lmdb"
-  version: ">=0.9.24"
-- category: "sys-devel"
-  name: "gettext"
-  version: ">=0.20.1"
-- category: "net-nds"
-  name: "openldap"
-  version: ">=2.4.48"
-- category: "dev-libs"
-  name: "openssl"
-  version: ">=1.1.1d"
-- category: "sys-apps"
-  name: "xinetd"
-  version: ">=2.3.15.3"
-- category: "dev-lang"
-  name: "yasm"
-  version: ">=1.3.0"
-- category: "dev-lang"
-  name: "tcl"
-  version: ">=8.6.8"
-- category: "dev-util"
-  name: "dejagnu"
-  version: ">=1.6"
-- category: "dev-util"
-  name: "cmocka"
-  version: ">=1.1.5"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "sys-devel"
-  name: "automake-1.15"
-  version: ">=1.15.1"
-- category: "sys-devel"
-  name: "libtool-2"
-  version: ">=2.4.6"
-- category: "dev-python"
-  name: "setuptools"
-  version: ">=44.0.0"
-- category: "dev-python"
-  name: "certifi"
-  version: ">=2019.11.28"
-- category: "dev-lang"
-  name: "python-exec-2"
-  version: ">=2.4.6"
-- category: "app-arch"
-  name: "unzip"
-  version: ">=6.0"
-- category: "dev-python"
-  name: "mock"
-  version: ">=2.0.0"
-- category: "dev-python"
-  name: "pip"
-  version: ">=19.3.1"
-- category: "dev-python"
-  name: "pytest"
-  version: ">=5.3.5"
-- category: "dev-python"
-  name: "wheel"
-  version: ">=0.33.1"
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: python-2.7
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.7.5'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: python-exec-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2'
+- State: ""
+  category: app-crypt
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: mit-krb5
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: python-3.6
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-python
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: setuptools
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- abi_x86_64
+- elibc_glibc
+- -python_targets_pypy
+- big-endian
+- python_targets_python2_7
+- userland_GNU
+- -python_targets_python3_7
+- amd64
+- python_targets_python3_6
+- -python_targets_python3_5
+- kernel_linux
+version: 1.2.1+1

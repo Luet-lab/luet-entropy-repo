@@ -1,26 +1,32 @@
-
-category: "app-eselect"
-name: "eselect-ruby"
-version: "20190121"
+State: ""
+category: app-eselect
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: eselect-ruby
+provides: null
 requires:
-- category: "app-admin"
-  name: "eselect"
-  version: ">=1.4.15"
-- category: "sys-apps"
-  name: "sed"
-  version: ">=4.7"
-- category: "sys-apps"
-  name: "coreutils"
-  version: ">=8.30"
-- category: "dev-python"
-  name: "docutils"
-  version: ">=0.14"
-- category: "app-vim"
-  name: "eselect-syntax"
-  version: ">=20070506"
-- category: "sys-apps"
-  name: "file"
-  version: ">=5.37"
-- category: "sys-libs"
-  name: "ncurses"
-  version: ">=6.1"
+- State: ""
+  category: app-admin
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: eselect
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.0.2'
+set: false
+uri: null
+use_flags:
+- amd64
+- abi_x86_64
+- elibc_glibc
+- big-endian
+- kernel_linux
+- userland_GNU
+version: 20190121+1

@@ -1,8 +1,33 @@
-
-category: "sys-kernel"
-name: "installkernel-gentoo"
-version: "2"
+State: ""
+category: sys-kernel
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: installkernel-gentoo
+provides: null
 requires:
-- category: "sys-apps"
-  name: "debianutils"
-  version: ">=4.9.1"
+- State: ""
+  category: sys-apps
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: debianutils
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=4.9'
+set: false
+uri: null
+use_flags:
+- split-usr
+- elibc_glibc
+- userland_GNU
+- kernel_linux
+- abi_x86_64
+- amd64
+- big-endian
+version: 2+1

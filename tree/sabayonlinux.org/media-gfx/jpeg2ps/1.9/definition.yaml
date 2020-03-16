@@ -1,4 +1,21 @@
-
-category: "media-gfx"
-name: "jpeg2ps"
-version: "1.9+r2"
+State: ""
+category: media-gfx
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: jpeg2ps
+provides: null
+requires: null
+set: false
+uri: null
+use_flags:
+- big-endian
+- split-usr
+- abi_x86_64
+- elibc_glibc
+- userland_GNU
+- kernel_linux
+- amd64
+- -metric
+version: 1.9+r3

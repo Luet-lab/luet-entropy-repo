@@ -1,125 +1,61 @@
-
-category: "app-shells"
-name: "bash-completion"
-version: "2.10"
+State: ""
+category: app-shells
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: bash-completion
+provides: null
 requires:
-- category: "app-shells"
-  name: "bash"
-  version: ">=4.4"
-- category: "sys-libs"
-  name: "ncurses"
-  version: ">=6.1"
-- category: "sys-libs"
-  name: "readline"
-  version: ">=7.0"
-- category: "sys-apps"
-  name: "miscfiles"
-  version: ">=1.5"
-- category: "app-misc"
-  name: "dtach"
-  version: ">=0.9"
-- category: "dev-util"
-  name: "dejagnu"
-  version: ">=1.6"
-- category: "dev-lang"
-  name: "tcl"
-  version: ">=8.6.8"
-- category: "dev-tcltk"
-  name: "expect"
-  version: ">=5.45.4"
-- category: "dev-tcltk"
-  name: "tcllib"
-  version: ">=1.19"
-- category: "dev-tcltk"
-  name: "tdom"
-  version: ">=0.8.3"
-- category: "x11-base"
-  name: "xorg-server"
-  version: ">=1.20.7"
-- category: "x11-apps"
-  name: "xhost"
-  version: ">=1.0.8"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "app-arch"
-  name: "bzip2"
-  version: ">=1.0.6"
-- category: "app-arch"
-  name: "xz-utils"
-  version: ">=5.2.4"
-- category: "dev-libs"
-  name: "libffi"
-  version: ">=3.3"
-- category: "sys-apps"
-  name: "util-linux"
-  version: ">=2.33.2"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=1.2.11"
-- category: "sys-libs"
-  name: "gdbm"
-  version: ">=1.14.1"
-- category: "dev-db"
-  name: "sqlite-3"
-  version: ">=3.30.1"
-- category: "dev-libs"
-  name: "openssl"
-  version: ">=1.1.1d"
-- category: "dev-lang"
-  name: "tk"
-  version: ">=8.6.8"
-- category: "dev-tcltk"
-  name: "blt"
-  version: ">=2.4z"
-- category: "dev-tcltk"
-  name: "tix"
-  version: ">=8.4.3"
-- category: "dev-libs"
-  name: "expat"
-  version: ">=2.2.8"
-- category: "net-wireless"
-  name: "bluez"
-  version: ">=5.52"
-- category: "app-eselect"
-  name: "eselect-python"
-  version: ">=20190417"
-- category: "app-misc"
-  name: "mime-types"
-  version: ">=9"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "sys-devel"
-  name: "automake"
-  version: ">=1.15.1"
-- category: "dev-python"
-  name: "pexpect"
-  version: ">=4.2.1"
-- category: "dev-python"
-  name: "sphinx"
-  version: ">=1.7.5"
-- category: "dev-python"
-  name: "ptyprocess"
-  version: ">=0.5.2"
-- category: "dev-python"
-  name: "pytest"
-  version: ">=5.3.5"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-exec"
-  version: ">=2.4.6"
-- category: "dev-python"
-  name: "setuptools"
-  version: ">=44.0.0"
-- category: "app-shells"
-  name: "gentoo-bashcomp"
-  version: ">=20190211"
+- State: ""
+  category: app-shells
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: bash
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=4.3'
+- State: ""
+  category: app-shells
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: gentoo-bashcomp
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=20140911'
+- State: ""
+  category: sys-apps
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: miscfiles
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- kernel_linux
+- elibc_glibc
+- userland_GNU
+- abi_x86_64
+- amd64
+- big-endian
+- -test
+- eselect
+- split-usr
+version: 2.10+1

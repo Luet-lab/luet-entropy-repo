@@ -1,77 +1,84 @@
-
-category: "app-text"
-name: "ebook-tools"
-version: "0.2.2+r1"
+State: ""
+category: app-text
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: ebook-tools
+provides: null
 requires:
-- category: "dev-libs"
-  name: "libxml2-2"
-  version: ">=2.9.9"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=1.2.11"
-- category: "dev-libs"
-  name: "icu"
-  version: ">=65.1"
-- category: "app-arch"
-  name: "xz-utils"
-  version: ">=5.2.4"
-- category: "dev-lang"
-  name: "python-exec-2"
-  version: ">=2.4.6"
-- category: "sys-libs"
-  name: "readline"
-  version: ">=7.0"
-- category: "dev-util"
-  name: "gtk-doc-am"
-  version: ">=1.25"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "sys-devel"
-  name: "automake-1.15"
-  version: ">=1.15.1"
-- category: "sys-devel"
-  name: "libtool-2"
-  version: ">=2.4.6"
-- category: "dev-libs"
-  name: "libzip"
-  version: ">=1.5.1"
-- category: "app-arch"
-  name: "bzip2"
-  version: ">=1.0.6"
-- category: "app-arch"
-  name: "lzma"
-  version: ">=9.20"
-- category: "dev-libs"
-  name: "nettle"
-  version: ">=3.4.1"
-- category: "net-libs"
-  name: "gnutls"
-  version: ">=3.6.7"
-- category: "net-libs"
-  name: "mbedtls"
-  version: ">=2.12.0"
-- category: "dev-libs"
-  name: "openssl"
-  version: ">=1.1.1d"
-- category: "dev-util"
-  name: "ninja"
-  version: ">=1.8.2"
-- category: "dev-util"
-  name: "cmake"
-  version: ">=3.14.6"
-- category: "sys-devel"
-  name: "make"
-  version: ">=4.2.1"
-- category: "sys-devel"
-  name: "gettext"
-  version: ">=0.20.1"
-- category: "app-text"
-  name: "convertlit"
-  version: ">=1.8"
-- category: "dev-libs"
-  name: "libtommath"
-  version: ">=1.1.0"
-- category: "app-arch"
-  name: "unzip"
-  version: ">=6.0"
+- State: ""
+  category: dev-util
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: cmake
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=3.7.2'
+- State: ""
+  category: app-text
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: convertlit
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libxml2-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libzip
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: make
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- kernel_linux
+- elibc_glibc
+- userland_GNU
+- amd64
+- lit2epub
+- abi_x86_64
+version: 0.2.2+r2

@@ -1,35 +1,38 @@
-
-category: "dev-ruby"
-name: "thor"
-version: "0.20.3"
+State: ""
+category: dev-ruby
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: thor
+provides: null
 requires:
-- category: "dev-ruby"
-  name: "childlabor"
-  version: ">=0.0.3"
-- category: "dev-lang"
-  name: "ruby-2.5"
-  version: ">=2.5.7"
-- category: "dev-ruby"
-  name: "addressable"
-  version: ">=2.7.0"
-- category: "dev-ruby"
-  name: "crack"
-  version: ">=0.4.3"
-- category: "dev-ruby"
-  name: "hashdiff"
-  version: ">=1.0.0"
-- category: "dev-ruby"
-  name: "minitest-5"
-  version: ">=5.14.0"
-- category: "dev-ruby"
-  name: "test-unit-2"
-  version: ">=3.3.5"
-- category: "dev-ruby"
-  name: "httpclient"
-  version: ">=2.8.3"
-- category: "dev-ruby"
-  name: "rdoc"
-  version: ">=6.2.0"
-- category: "dev-ruby"
-  name: "rake"
-  version: ">=12.3.3"
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: ruby-2.5
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- ruby_targets_ruby25
+- big-endian
+- -test
+- userland_GNU
+- -ruby_targets_ruby26
+- abi_x86_64
+- -ruby_targets_ruby24
+- kernel_linux
+- elibc_glibc
+- -doc
+- split-usr
+- amd64
+version: 0.20.3+1

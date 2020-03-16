@@ -1,68 +1,100 @@
-
-category: "sys-kernel"
-name: "gentoo-sources-4.14.15"
-version: "4.14.15"
+State: ""
+category: sys-kernel
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: gentoo-sources-4.14.15
+provides: null
 requires:
-- category: "sys-apps"
-  name: "sed"
-  version: ">=4.7"
-- category: "sys-devel"
-  name: "gettext"
-  version: ">=0.20.1"
-- category: "sys-devel"
-  name: "binutils-config"
-  version: ">=5"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=1.2.11"
-- category: "sys-apps"
-  name: "texinfo"
-  version: ">=6.7"
-- category: "dev-util"
-  name: "dejagnu"
-  version: ">=1.6"
-- category: "sys-devel"
-  name: "flex"
-  version: ">=2.6.4"
-- category: "sys-devel"
-  name: "gnuconfig"
-  version: ">=20190912"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "sys-libs"
-  name: "ncurses"
-  version: ">=6.1"
-- category: "sys-libs"
-  name: "gpm"
-  version: ">=1.20.7"
-- category: "sys-devel"
-  name: "make"
-  version: ">=4.2.1"
-- category: "dev-scheme"
-  name: "guile-12"
-  version: ">=2.2.4"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "sys-libs"
-  name: "db"
-  version: ">=6.0.35"
-- category: "sys-libs"
-  name: "gdbm"
-  version: ">=1.14.1"
-- category: "app-arch"
-  name: "bzip2"
-  version: ">=1.0.6"
-- category: "app-admin"
-  name: "perl-cleaner"
-  version: ">=2.27"
-- category: "sys-devel"
-  name: "bc"
-  version: ">=1.07.1"
-- category: "dev-libs"
-  name: "libedit"
-  version: ">=20170329.3.1"
-- category: "sys-libs"
-  name: "readline"
-  version: ">=7.0"
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: binutils-2.32
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.11.90.0.31'
+- State: ""
+  category: sys-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: ncurses
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=5.2'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: perl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-apps
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: sed
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: bc
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: make
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- -experimental
+- -build
+- userland_GNU
+- elibc_glibc
+- big-endian
+- -symlink
+- kernel_linux
+- abi_x86_64
+- amd64
+version: 4.14.15+1

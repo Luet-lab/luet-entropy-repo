@@ -1,26 +1,33 @@
-
-category: "app-eselect"
-name: "eselect-lapack"
-version: "0.2"
+State: ""
+category: app-eselect
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: eselect-lapack
+provides: null
 requires:
-- category: "app-admin"
-  name: "eselect"
-  version: ">=1.4.15"
-- category: "sys-apps"
-  name: "sed"
-  version: ">=4.7"
-- category: "sys-apps"
-  name: "coreutils"
-  version: ">=8.30"
-- category: "dev-python"
-  name: "docutils"
-  version: ">=0.14"
-- category: "app-vim"
-  name: "eselect-syntax"
-  version: ">=20070506"
-- category: "sys-apps"
-  name: "file"
-  version: ">=5.37"
-- category: "sys-libs"
-  name: "ncurses"
-  version: ">=6.1"
+- State: ""
+  category: app-admin
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: eselect
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.0.5'
+set: false
+uri: null
+use_flags:
+- userland_GNU
+- big-endian
+- elibc_glibc
+- abi_x86_64
+- amd64
+- split-usr
+- kernel_linux
+version: 0.2+1

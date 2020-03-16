@@ -1,17 +1,48 @@
-
-category: "dev-perl"
-name: "libintl-perl"
-version: "1.310.0"
+State: ""
+category: dev-perl
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: libintl-perl
+provides: null
 requires:
-- category: "dev-perl"
-  name: "File-ShareDir"
-  version: ">=1.104.0"
-- category: "dev-perl"
-  name: "Class-Inspector"
-  version: ">=1.320.0"
-- category: "dev-perl"
-  name: "File-ShareDir-Install"
-  version: ">=0.110.0"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: perl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: File-ShareDir
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- userland_GNU
+- abi_x86_64
+- amd64
+- big-endian
+- split-usr
+- elibc_glibc
+- -examples
+- -minimal
+- kernel_linux
+version: 1.310.0+1

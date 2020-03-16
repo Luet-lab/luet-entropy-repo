@@ -1,4 +1,29 @@
-
-category: "sys-libs"
-name: "libraw1394"
-version: "2.1.2+r1"
+State: ""
+category: sys-libs
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: libraw1394
+provides: null
+requires: null
+set: false
+uri: null
+use_flags:
+- big-endian
+- -abi_s390_32
+- -abi_mips_n32
+- -abi_x86_x32
+- -abi_riscv_lp64d
+- -abi_mips_n64
+- amd64
+- -abi_mips_o32
+- elibc_glibc
+- abi_x86_64
+- kernel_linux
+- abi_x86_32
+- -abi_s390_64
+- split-usr
+- -abi_riscv_lp64
+- userland_GNU
+version: 2.1.2+r3

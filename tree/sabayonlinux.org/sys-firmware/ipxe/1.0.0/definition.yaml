@@ -1,47 +1,30 @@
-
-category: "sys-firmware"
-name: "ipxe"
-version: "1.0.0+p20190728"
-requires:
-- category: "app-arch"
-  name: "xz-utils"
-  version: ">=5.2.4"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "sys-libs"
-  name: "db"
-  version: ">=6.0.35"
-- category: "sys-libs"
-  name: "gdbm"
-  version: ">=1.14.1"
-- category: "app-arch"
-  name: "bzip2"
-  version: ">=1.0.6"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=1.2.11"
-- category: "app-admin"
-  name: "perl-cleaner"
-  version: ">=2.27"
-- category: "sys-boot"
-  name: "syslinux"
-  version: ">=6.04"
-- category: "sys-fs"
-  name: "mtools"
-  version: ">=4.0.23"
-- category: "dev-perl"
-  name: "Crypt-PasswdMD5"
-  version: ">=1.400.0"
-- category: "dev-perl"
-  name: "Digest-SHA1"
-  version: ">=2.130.0"
-- category: "dev-lang"
-  name: "nasm"
-  version: ">=2.14.02"
-- category: "sys-boot"
-  name: "gnu-efi"
-  version: ">=3.0.3"
+State: ""
+category: sys-firmware
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: ipxe
+provides: null
+requires: null
+set: false
+uri: null
+use_flags:
+- abi_x86_64
+- elibc_glibc
+- -efi
+- binary
+- -savedconfig
+- -vmware
+- userland_GNU
+- amd64
+- -undi
+- ipv6
+- -lkrn
+- big-endian
+- -iso
+- qemu
+- kernel_linux
+- split-usr
+- usb
+version: 1.0.0+p20190729

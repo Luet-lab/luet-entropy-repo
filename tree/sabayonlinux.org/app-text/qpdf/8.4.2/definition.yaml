@@ -1,35 +1,51 @@
-
-category: "app-text"
-name: "qpdf"
-version: "8.4.2"
+State: ""
+category: app-text
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: qpdf
+provides: null
 requires:
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=1.2.11"
-- category: "sys-devel"
-  name: "automake"
-  version: ">=1.15.1"
-- category: "sys-devel"
-  name: "libtool"
-  version: ">=2.4.6"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "media-libs"
-  name: "libjpeg-turbo"
-  version: ">=2.0.3"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "sys-libs"
-  name: "db"
-  version: ">=6.0.35"
-- category: "sys-libs"
-  name: "gdbm"
-  version: ">=1.14.1"
-- category: "app-arch"
-  name: "bzip2"
-  version: ">=1.0.6"
-- category: "app-admin"
-  name: "perl-cleaner"
-  version: ">=2.27"
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: perl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=5.8'
+- State: ""
+  category: sys-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: zlib
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- -static-libs
+- elibc_glibc
+- -doc
+- perl
+- -examples
+- -test
+- abi_x86_64
+- userland_GNU
+- big-endian
+- kernel_linux
+- split-usr
+- amd64
+version: 8.4.2+1

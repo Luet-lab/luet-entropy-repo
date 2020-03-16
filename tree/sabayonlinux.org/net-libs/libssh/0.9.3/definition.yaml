@@ -1,68 +1,94 @@
-
-category: "net-libs"
-name: "libssh"
-version: "0.9.3"
+State: ""
+category: net-libs
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: libssh
+provides: null
 requires:
-- category: "dev-libs"
-  name: "openssl"
-  version: ">=1.1.1d"
-- category: "app-misc"
-  name: "c_rehash"
-  version: ">=1.7"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=1.2.11"
-- category: "app-misc"
-  name: "ca-certificates"
-  version: ">=20190110.3.43"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "net-misc"
-  name: "lksctp-tools"
-  version: ">=1.0.18"
-- category: "sys-apps"
-  name: "diffutils"
-  version: ">=3.6"
-- category: "sys-devel"
-  name: "bc"
-  version: ">=1.07.1"
-- category: "sys-process"
-  name: "procps"
-  version: ">=3.3.15"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "dev-libs"
-  name: "libgcrypt"
-  version: ">=1.8.5"
-- category: "dev-libs"
-  name: "libgpg-error"
-  version: ">=1.36"
-- category: "sys-devel"
-  name: "automake-1.15"
-  version: ">=1.15.1"
-- category: "sys-devel"
-  name: "libtool-2"
-  version: ">=2.4.6"
-- category: "app-crypt"
-  name: "mit-krb5"
-  version: ">=1.17"
-- category: "net-libs"
-  name: "mbedtls"
-  version: ">=2.12.0"
-- category: "app-doc"
-  name: "doxygen"
-  version: ">=1.8.15"
-- category: "media-gfx"
-  name: "graphviz"
-  version: ">=2.42.1"
-- category: "dev-util"
-  name: "ninja"
-  version: ">=1.8.2"
-- category: "dev-util"
-  name: "cmake"
-  version: ">=3.14.6"
-- category: "dev-util"
-  name: "cmocka"
-  version: ">=1.1.5"
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: openssl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.0.1h'
+- State: ""
+  category: sys-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: zlib
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.2.8'
+- State: ""
+  category: dev-util
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: cmake
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-util
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: ninja
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- -pcap
+- -examples
+- big-endian
+- -abi_x86_x32
+- -abi_s390_32
+- -abi_mips_n32
+- -test
+- -abi_mips_n64
+- -doc
+- amd64
+- -abi_mips_o32
+- elibc_glibc
+- abi_x86_64
+- kernel_linux
+- abi_x86_32
+- -debug
+- zlib
+- server
+- -libressl
+- -static-libs
+- -abi_s390_64
+- userland_GNU
+- -gcrypt
+- sftp
+- split-usr
+- -mbedtls
+- -abi_riscv_lp64
+- -abi_riscv_lp64d
+- -gssapi
+version: 0.9.3+2

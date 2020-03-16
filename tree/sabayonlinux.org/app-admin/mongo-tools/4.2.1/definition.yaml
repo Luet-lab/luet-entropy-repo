@@ -1,38 +1,61 @@
-
-category: "app-admin"
-name: "mongo-tools"
-version: "4.2.1"
+State: ""
+category: app-admin
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: mongo-tools
+provides: null
 requires:
-- category: "dev-lang"
-  name: "go"
-  version: ">=1.12.15"
-- category: "net-libs"
-  name: "libpcap"
-  version: ">=1.9.1"
-- category: "net-wireless"
-  name: "bluez"
-  version: ">=5.52"
-- category: "sys-apps"
-  name: "dbus"
-  version: ">=1.12.16"
-- category: "dev-libs"
-  name: "libnl"
-  version: ">=1.1.4"
-- category: "sys-devel"
-  name: "flex"
-  version: ">=2.6.4"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "sys-devel"
-  name: "automake"
-  version: ">=1.15.1"
-- category: "sys-devel"
-  name: "libtool"
-  version: ">=2.4.6"
-- category: "dev-libs"
-  name: "cyrus-sasl"
-  version: ">=2.1.27"
-- category: "net-mail"
-  name: "mailbase"
-  version: ">=1.5"
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: go
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: openssl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: net-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libpcap
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- amd64
+- abi_x86_64
+- ssl
+- elibc_glibc
+- userland_GNU
+- -sasl
+- kernel_linux
+- split-usr
+- big-endian
+version: 4.2.1+1

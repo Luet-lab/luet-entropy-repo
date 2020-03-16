@@ -1,233 +1,136 @@
-
-category: "net-wireless"
-name: "wpa_supplicant"
-version: "2.9+r2"
+State: ""
+category: net-wireless
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: wpa_supplicant
+provides: null
 requires:
-- category: "sys-apps"
-  name: "dbus"
-  version: ">=1.12.16"
-- category: "dev-libs"
-  name: "expat"
-  version: ">=2.2.8"
-- category: "sys-apps"
-  name: "systemd"
-  version: ">=242"
-- category: "x11-libs"
-  name: "libX11"
-  version: ">=1.6.9"
-- category: "x11-libs"
-  name: "libXt"
-  version: ">=1.2.0"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-libs"
-  name: "glib"
-  version: ">=2.60.7"
-- category: "acct-user"
-  name: "messagebus"
-  version: ">=0"
-- category: "app-text"
-  name: "xmlto"
-  version: ">=0.0.28"
-- category: "app-text"
-  name: "docbook-xml-dtd"
-  version: ">=4.1.2"
-- category: "sys-devel"
-  name: "autoconf-archive"
-  version: ">=2018.03.13"
-- category: "app-doc"
-  name: "doxygen"
-  version: ">=1.8.15"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "sys-devel"
-  name: "automake"
-  version: ">=1.15.1"
-- category: "sys-devel"
-  name: "libtool"
-  version: ">=2.4.6"
-- category: "x11-base"
-  name: "xorg-server"
-  version: ">=1.20.7"
-- category: "x11-apps"
-  name: "xhost"
-  version: ">=1.0.8"
-- category: "dev-libs"
-  name: "libnl"
-  version: ">=1.1.4"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-exec"
-  version: ">=2.4.6"
-- category: "dev-lang"
-  name: "swig"
-  version: ">=3.0.12"
-- category: "sys-devel"
-  name: "bison"
-  version: ">=3.1"
-- category: "sys-devel"
-  name: "flex"
-  version: ">=2.6.4"
-- category: "net-wireless"
-  name: "crda"
-  version: ">=3.18"
-- category: "dev-libs"
-  name: "openssl"
-  version: ">=1.1.1d"
-- category: "dev-libs"
-  name: "libgcrypt"
-  version: ">=1.8.5"
-- category: "net-wireless"
-  name: "wireless-regdb"
-  version: ">=20190603"
-- category: "dev-python"
-  name: "m2crypto"
-  version: ">=0.35.2"
-- category: "sys-apps"
-  name: "pcsc-lite"
-  version: ">=1.8.25"
-- category: "sys-auth"
-  name: "polkit"
-  version: ">=0.115"
-- category: "acct-group"
-  name: "openct"
-  version: ">=0"
-- category: "acct-group"
-  name: "pcscd"
-  version: ">=0"
-- category: "acct-user"
-  name: "pcscd"
-  version: ">=0"
-- category: "net-libs"
-  name: "libpcap"
-  version: ">=1.9.1"
-- category: "net-wireless"
-  name: "bluez"
-  version: ">=5.52"
-- category: "dev-qt"
-  name: "qtcore"
-  version: ">=5.14.1"
-- category: "dev-libs"
-  name: "double-conversion"
-  version: ">=3.1.5"
-- category: "dev-libs"
-  name: "libpcre2"
-  version: ">=10.33"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=1.2.11"
-- category: "dev-libs"
-  name: "icu"
-  version: ">=65.1"
-- category: "dev-qt"
-  name: "qttest-5"
-  version: ">=5.14.1"
-- category: "dev-qt"
-  name: "qtchooser"
-  version: ">=66"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "dev-qt"
-  name: "qtgui"
-  version: ">=5.14.1"
-- category: "dev-util"
-  name: "gtk-update-icon-cache"
-  version: ">=3.24.11"
-- category: "media-libs"
-  name: "fontconfig"
-  version: ">=2.13.1"
-- category: "media-libs"
-  name: "freetype"
-  version: ">=2.9.1"
-- category: "media-libs"
-  name: "harfbuzz"
-  version: ">=2.6.4"
-- category: "dev-qt"
-  name: "qtdbus-5"
-  version: ">=5.14.1"
-- category: "media-libs"
-  name: "mesa"
-  version: ">=19.3.4"
-- category: "x11-libs"
-  name: "libdrm"
-  version: ">=2.4.100"
-- category: "sys-libs"
-  name: "mtdev"
-  version: ">=1.1.5"
-- category: "dev-libs"
-  name: "libinput"
-  version: ">=1.14.3"
-- category: "x11-libs"
-  name: "libxkbcommon"
-  version: ">=0.9.1"
-- category: "media-libs"
-  name: "libpng"
-  version: ">=1.6.37"
-- category: "x11-libs"
-  name: "tslib"
-  version: ">=1.0"
-- category: "dev-qt"
-  name: "qtnetwork-5"
-  version: ">=5.14.1"
-- category: "dev-util"
-  name: "vulkan-headers"
-  version: ">=1.1.125"
-- category: "x11-libs"
-  name: "libICE"
-  version: ">=1.0.10"
-- category: "x11-libs"
-  name: "libSM"
-  version: ">=1.2.3"
-- category: "x11-libs"
-  name: "libxcb"
-  version: ">=1.13.1"
-- category: "x11-libs"
-  name: "xcb-util-image"
-  version: ">=0.4.0"
-- category: "x11-libs"
-  name: "xcb-util-keysyms"
-  version: ">=0.4.0"
-- category: "x11-libs"
-  name: "xcb-util-renderutil"
-  version: ">=0.3.9"
-- category: "x11-libs"
-  name: "xcb-util-wm"
-  version: ">=0.4.1"
-- category: "sys-kernel"
-  name: "linux-headers"
-  version: ">=4.19"
-- category: "app-i18n"
-  name: "ibus"
-  version: ">=1.5.20"
-- category: "dev-qt"
-  name: "qtwayland-5"
-  version: ">=5.14.1"
-- category: "dev-qt"
-  name: "qtsvg-5"
-  version: ">=5.14.1"
-- category: "dev-qt"
-  name: "qtwidgets-5"
-  version: ">=5.14.1"
-- category: "dev-qt"
-  name: "qtxml-5"
-  version: ">=5.14.1"
-- category: "sys-libs"
-  name: "ncurses"
-  version: ">=6.1"
-- category: "sys-libs"
-  name: "gpm"
-  version: ">=1.20.7"
-- category: "sys-libs"
-  name: "readline"
-  version: ">=7.0"
-- category: "sys-devel"
-  name: "m4"
-  version: ">=1.4.18"
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: openssl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.0.2k'
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libnl-3
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: net-wireless
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: crda
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-apps
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: dbus
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-apps
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: pcsc-lite
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: ncurses
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: readline
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- elibc_glibc
+- eap-sim
+- wps
+- readline
+- -ps3
+- big-endian
+- dbus
+- -eapol-test
+- -privsep
+- fils
+- userland_GNU
+- mbo
+- -wimax
+- -tdls
+- -qt5
+- -fasteap
+- p2p
+- split-usr
+- ap
+- -uncommon-eap-types
+- -selinux
+- -bindist
+- -kernel_FreeBSD
+- abi_x86_64
+- -macsec
+- kernel_linux
+- mesh
+- -libressl
+- -smartcard
+- -broadcom-sta
+- hs2-0
+- amd64
+version: 2.9+r3

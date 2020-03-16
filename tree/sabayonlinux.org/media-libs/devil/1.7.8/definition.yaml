@@ -1,140 +1,232 @@
-
-category: "media-libs"
-name: "devil"
-version: "1.7.8+r2"
+State: ""
+category: media-libs
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: devil
+provides: null
 requires:
-- category: "media-libs"
-  name: "allegro"
-  version: ">=4.4.2"
-- category: "media-libs"
-  name: "alsa-lib"
-  version: ">=1.2.1.2"
-- category: "media-libs"
-  name: "libpng"
-  version: ">=1.6.37"
-- category: "media-libs"
-  name: "libvorbis"
-  version: ">=1.3.6"
-- category: "x11-libs"
-  name: "libX11"
-  version: ">=1.6.9"
-- category: "x11-libs"
-  name: "libXcursor"
-  version: ">=1.2.0"
-- category: "x11-libs"
-  name: "libXext"
-  version: ">=1.3.4"
-- category: "x11-libs"
-  name: "libXpm"
-  version: ">=3.5.13"
-- category: "x11-libs"
-  name: "libXt"
-  version: ">=1.2.0"
-- category: "x11-libs"
-  name: "libXxf86dga"
-  version: ">=1.1.5"
-- category: "x11-libs"
-  name: "libXxf86vm"
-  version: ">=1.1.4"
-- category: "x11-base"
-  name: "xorg-proto"
-  version: ">=2019.2"
-- category: "sys-apps"
-  name: "texinfo"
-  version: ">=6.7"
-- category: "dev-util"
-  name: "ninja"
-  version: ">=1.8.2"
-- category: "dev-util"
-  name: "cmake"
-  version: ">=3.14.6"
-- category: "media-libs"
-  name: "giflib"
-  version: ">=5.2.1"
-- category: "app-text"
-  name: "xmlto"
-  version: ">=0.0.28"
-- category: "media-libs"
-  name: "freeglut"
-  version: ">=3.2.1"
-- category: "x11-libs"
-  name: "libXi"
-  version: ">=1.7.10"
-- category: "x11-libs"
-  name: "libXrandr"
-  version: ">=1.5.2"
-- category: "media-libs"
-  name: "libmng"
-  version: ">=2.0.3"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=1.2.11"
-- category: "media-libs"
-  name: "lcms-2"
-  version: ">=2.9"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "sys-devel"
-  name: "automake"
-  version: ">=1.15.1"
-- category: "sys-devel"
-  name: "libtool"
-  version: ">=2.4.6"
-- category: "media-gfx"
-  name: "nvidia-texture-tools"
-  version: ">=2.0.8"
-- category: "media-libs"
-  name: "ilmbase"
-  version: ">=2.3.0"
-- category: "media-libs"
-  name: "tiff"
-  version: ">=4.1.0"
-- category: "media-gfx"
-  name: "nvidia-cg-toolkit"
-  version: ">=3.1.0013"
-- category: "media-libs"
-  name: "glew"
-  version: ">=2.1.0"
-- category: "media-libs"
-  name: "openexr"
-  version: ">=2.3.0"
-- category: "sys-devel"
-  name: "make"
-  version: ">=4.2.1"
-- category: "media-libs"
-  name: "libsdl"
-  version: ">=1.2.15"
-- category: "media-libs"
-  name: "audiofile"
-  version: ">=0.3.6"
-- category: "media-libs"
-  name: "nas"
-  version: ">=1.9.4"
-- category: "media-libs"
-  name: "aalib"
-  version: ">=1.4"
-- category: "x11-libs"
-  name: "tslib"
-  version: ">=1.0"
-- category: "media-sound"
-  name: "pulseaudio"
-  version: ">=13.0"
-- category: "dev-lang"
-  name: "yasm"
-  version: ">=1.3.0"
-- category: "dev-lang"
-  name: "nasm"
-  version: ">=2.14.02"
-- category: "x11-libs"
-  name: "libXrender"
-  version: ">=0.9.10"
-- category: "sys-devel"
-  name: "m4"
-  version: ">=1.4.18"
-- category: "x11-misc"
-  name: "util-macros"
-  version: ">=1.19.2"
-- category: "media-fonts"
-  name: "font-util"
-  version: ">=1.3.2"
+- State: ""
+  category: app-portage
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: elt-patches
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=20170815'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: autoconf-2.69
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.69'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: automake-1.15
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.15.1'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libtool-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.4'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: giflib
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libmng
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libpng
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libsdl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: openexr
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: tiff
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: x11-base
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: xorg-proto
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: x11-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libX11
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: x11-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libXext
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: x11-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libXpm
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: x11-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libXrender
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- gif
+- elibc_glibc
+- -glut
+- -jpeg2k
+- abi_x86_64
+- amd64
+- -nvtt
+- tiff
+- userland_GNU
+- big-endian
+- -allegro
+- jpeg
+- cpu_flags_x86_sse
+- kernel_linux
+- opengl
+- sdl
+- xpm
+- mng
+- -static-libs
+- X
+- png
+- -cpu_flags_x86_sse3
+- cpu_flags_x86_sse2
+- openexr
+version: 1.7.8+r3

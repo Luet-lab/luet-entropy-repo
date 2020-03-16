@@ -1,20 +1,37 @@
-
-category: "sci-libs"
-name: "scotch"
-version: "6.0.4+r2"
+State: ""
+category: sci-libs
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: scotch
+provides: null
 requires:
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=1.2.11"
-- category: "sys-devel"
-  name: "automake-1.15"
-  version: ">=1.15.1"
-- category: "sys-devel"
-  name: "libtool-2"
-  version: ">=2.4.6"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "sys-cluster"
-  name: "openmpi"
-  version: ">=2.1.6"
+- State: ""
+  category: sys-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: zlib
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- userland_GNU
+- elibc_glibc
+- -tools
+- -doc
+- -static-libs
+- kernel_linux
+- amd64
+- -threads
+- -int64
+- abi_x86_64
+- -mpi
+version: 6.0.4+r3

@@ -1,11 +1,46 @@
-
-category: "dev-perl"
-name: "SGMLSpm"
-version: "1.1+r1"
+State: ""
+category: dev-perl
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: SGMLSpm
+provides: null
 requires:
-- category: "dev-perl"
-  name: "Module-Build"
-  version: ">=0.422.400"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: perl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: Module-Build
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- abi_x86_64
+- userland_GNU
+- amd64
+- big-endian
+- kernel_linux
+- elibc_glibc
+- split-usr
+version: 1.1+r2

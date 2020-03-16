@@ -1,104 +1,154 @@
-
-category: "xfce-base"
-name: "xfconf"
-version: "4.14.1"
+State: ""
+category: xfce-base
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: xfconf
+provides: null
 requires:
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=1.2.11"
-- category: "sys-apps"
-  name: "util-linux"
-  version: ">=2.33.2"
-- category: "sys-apps"
-  name: "attr"
-  version: ">=2.4.48"
-- category: "gnome-base"
-  name: "dconf"
-  version: ">=0.32.0"
-- category: "x11-misc"
-  name: "shared-mime-info"
-  version: ">=1.10"
-- category: "app-text"
-  name: "docbook-xsl-stylesheets"
-  version: ">=1.79.1"
-- category: "dev-libs"
-  name: "libxslt"
-  version: ">=1.1.33"
-- category: "sys-devel"
-  name: "gettext"
-  version: ">=0.20.1"
-- category: "dev-util"
-  name: "gtk-doc"
-  version: ">=1.25"
-- category: "app-text"
-  name: "docbook-xml-dtd-4.2"
-  version: ">=4.2"
-- category: "app-text"
-  name: "docbook-xml-dtd-4.5"
-  version: ">=4.5"
-- category: "dev-util"
-  name: "systemtap"
-  version: ">=3.1"
-- category: "sys-apps"
-  name: "dbus"
-  version: ">=1.12.16"
-- category: "app-arch"
-  name: "xz-utils"
-  version: ">=5.2.4"
-- category: "dev-util"
-  name: "meson"
-  version: ">=0.52.1"
-- category: "dev-util"
-  name: "ninja"
-  version: ">=1.8.2"
-- category: "xfce-base"
-  name: "libxfce4util"
-  version: ">=4.15.0"
-- category: "dev-libs"
-  name: "gobject-introspection"
-  version: ">=1.60.2"
-- category: "dev-util"
-  name: "intltool"
-  version: ">=0.51.0"
-- category: "dev-util"
-  name: "gtk-doc-am"
-  version: ">=1.25"
-- category: "dev-lang"
-  name: "vala-0.44"
-  version: ">=0.44.11"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "sys-libs"
-  name: "db-6.0"
-  version: ">=6.0.35"
-- category: "sys-libs"
-  name: "gdbm"
-  version: ">=1.14.1"
-- category: "app-arch"
-  name: "bzip2"
-  version: ">=1.0.6"
-- category: "app-admin"
-  name: "perl-cleaner"
-  version: ">=2.27"
-- category: "dev-perl"
-  name: "glib-perl"
-  version: ">=1.326.0"
-- category: "dev-perl"
-  name: "ExtUtils-Depends"
-  version: ">=0.405.0"
-- category: "dev-perl"
-  name: "ExtUtils-PkgConfig"
-  version: ">=1.160.0"
-- category: "dev-perl"
-  name: "Log-Agent"
-  version: ">=1.1.0"
-- category: "dev-util"
-  name: "gdbus-codegen"
-  version: ">=2.60.7"
-- category: "dev-lang"
-  name: "python-exec-2"
-  version: ">=2.4.6"
-- category: "dev-util"
-  name: "glib-utils"
-  version: ">=2.60.7"
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: glib-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.42'
+- State: ""
+  category: xfce-base
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libxfce4util
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=4.10'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: perl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: ExtUtils-Depends
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: ExtUtils-PkgConfig
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: glib-perl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-util
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: gdbus-codegen
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-util
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: glib-utils
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-util
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: intltool
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: gettext
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- userland_GNU
+- big-endian
+- -vala
+- perl
+- amd64
+- split-usr
+- -debug
+- elibc_glibc
+- abi_x86_64
+- kernel_linux
+- -introspection
+version: 4.14.1+1

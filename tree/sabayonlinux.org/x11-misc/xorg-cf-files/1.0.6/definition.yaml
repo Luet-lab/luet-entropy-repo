@@ -1,11 +1,32 @@
-
-category: "x11-misc"
-name: "xorg-cf-files"
-version: "1.0.6+r1"
+State: ""
+category: x11-misc
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: xorg-cf-files
+provides: null
 requires:
-- category: "dev-util"
-  name: "pkgconfig"
-  version: ">=0.29.2"
-- category: "app-arch"
-  name: "bzip2"
-  version: ">=1.0.6"
+- State: ""
+  category: app-arch
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: bzip2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- amd64
+- elibc_glibc
+- abi_x86_64
+- kernel_linux
+- big-endian
+- userland_GNU
+version: 1.0.6+r2

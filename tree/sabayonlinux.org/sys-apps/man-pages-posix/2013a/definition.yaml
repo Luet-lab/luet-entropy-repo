@@ -1,8 +1,19 @@
-
-category: "sys-apps"
-name: "man-pages-posix"
-version: "2013a"
-requires:
-- category: "sys-apps"
-  name: "man-db"
-  version: ">=2.9.0"
+State: ""
+category: sys-apps
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: man-pages-posix
+provides: null
+requires: null
+set: false
+uri: null
+use_flags:
+- kernel_linux
+- abi_x86_64
+- amd64
+- big-endian
+- elibc_glibc
+- userland_GNU
+version: 2013a+1

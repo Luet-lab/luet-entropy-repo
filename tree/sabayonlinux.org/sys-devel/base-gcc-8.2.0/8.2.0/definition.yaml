@@ -1,89 +1,243 @@
-
-category: "sys-devel"
-name: "base-gcc-8.2.0"
-version: "8.2.0+r6"
+State: ""
+category: sys-devel
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: base-gcc-8.2.0
+provides: null
 requires:
-- category: "sys-libs"
-  name: "glibc"
-  version: ">=2.29"
-- category: "sys-process"
-  name: "audit"
-  version: ">=2.8.4"
-- category: "sys-libs"
-  name: "libcap"
-  version: ">=2.27"
-- category: "dev-util"
-  name: "systemtap"
-  version: ">=3.1"
-- category: "net-dns"
-  name: "libidn2"
-  version: ">=2.1.1a"
-- category: "sys-devel"
-  name: "gnuconfig"
-  version: ">=20190912"
-- category: "sys-libs"
-  name: "timezone-data"
-  version: ">=2019c"
-- category: "sys-apps"
-  name: "gentoo-functions"
-  version: ">=0.12"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "app-misc"
-  name: "pax-utils"
-  version: ">=1.2.4"
-- category: "sys-devel"
-  name: "bison"
-  version: ">=3.1"
-- category: "sys-apps"
-  name: "texinfo"
-  version: ">=6.7"
-- category: "sys-apps"
-  name: "sed"
-  version: ">=4.7"
-- category: "sys-devel"
-  name: "gettext"
-  version: ">=0.20.1"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "app-arch"
-  name: "xz-utils"
-  version: ">=5.2.4"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=1.2.11"
-- category: "sys-devel"
-  name: "automake"
-  version: ">=1.15.1"
-- category: "sys-devel"
-  name: "libtool"
-  version: ">=2.4.6"
-- category: "dev-libs"
-  name: "gmp"
-  version: ">=6.1.2"
-- category: "sys-devel"
-  name: "m4"
-  version: ">=1.4.18"
-- category: "dev-libs"
-  name: "mpc"
-  version: ">=1.1.0"
-- category: "dev-libs"
-  name: "mpfr"
-  version: ">=3.1.6"
-- category: "dev-libs"
-  name: "boehm-gc"
-  version: ">=8.0.4"
-- category: "dev-libs"
-  name: "libatomic_ops"
-  version: ">=7.6.6"
-- category: "sys-devel"
-  name: "flex"
-  version: ">=2.6.4"
-- category: "sys-devel"
-  name: "gcc-config"
-  version: ">=2.1"
+- State: ""
+  category: app-portage
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: elt-patches
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=20170815'
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: boehm-gc
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=7.4.2'
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: gmp
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=4.3.2'
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: isl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.14'
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: mpc
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.8.1'
+- State: ""
+  category: dev-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: mpfr
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.4.2'
+- State: ""
+  category: sys-apps
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: sed
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=4'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: binutils-2.32
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.20'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: bison
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.875'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: flex
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.5.4'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: gcc-config
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.7'
+- State: ""
+  category: sys-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: glibc-2.2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.13'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: gettext
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: gnuconfig
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: zlib
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- objc-gc
+- big-endian
+- nptl
+- -test
+- pie
+- abi_x86_64
+- -mpx
+- multilib
+- -fixed-point
+- pch
+- -go
+- split-usr
+- openmp
+- graphite
+- cxx
+- objc
+- userland_GNU
+- -pgo
+- -systemtap
+- -vanilla
+- sanitize
+- vtv
+- nls
+- ssp
+- amd64
+- elibc_glibc
+- hardened
+- kernel_linux
+- -debug
+- -jit
+- fortran
+- -libssp
+- -altivec
+- objc++
+- -doc
+version: 8.2.0+r8

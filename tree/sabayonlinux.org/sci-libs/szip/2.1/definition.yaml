@@ -1,4 +1,19 @@
-
-category: "sci-libs"
-name: "szip"
-version: "2.1+r2"
+State: ""
+category: sci-libs
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: szip
+provides: null
+requires: null
+set: false
+uri: null
+use_flags:
+- -static-libs
+- userland_GNU
+- kernel_linux
+- amd64
+- elibc_glibc
+- abi_x86_64
+version: 2.1+r3

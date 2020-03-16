@@ -1,17 +1,48 @@
-
-category: "dev-perl"
-name: "Sub-Quote"
-version: "2.4.0"
+State: ""
+category: dev-perl
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: Sub-Quote
+provides: null
 requires:
-- category: "dev-perl"
-  name: "Sub-Name"
-  version: ">=0.210.0"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "dev-perl"
-  name: "Test-Fatal"
-  version: ">=0.14.0"
-- category: "dev-perl"
-  name: "Try-Tiny"
-  version: ">=0.300.0"
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: Sub-Name
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.80.0'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: perl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- abi_x86_64
+- -test
+- userland_GNU
+- -minimal
+- big-endian
+- amd64
+- kernel_linux
+- split-usr
+- elibc_glibc
+version: 2.4.0+1

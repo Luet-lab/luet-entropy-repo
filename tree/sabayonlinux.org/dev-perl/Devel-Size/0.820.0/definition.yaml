@@ -1,8 +1,34 @@
-
-category: "dev-perl"
-name: "Devel-Size"
-version: "0.820.0"
+State: ""
+category: dev-perl
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: Devel-Size
+provides: null
 requires:
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: perl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- split-usr
+- amd64
+- big-endian
+- -test
+- userland_GNU
+- kernel_linux
+- abi_x86_64
+- elibc_glibc
+version: 0.820.0+1

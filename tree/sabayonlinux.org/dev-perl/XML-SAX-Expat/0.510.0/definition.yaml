@@ -1,26 +1,73 @@
-
-category: "dev-perl"
-name: "XML-SAX-Expat"
-version: "0.510.0"
+State: ""
+category: dev-perl
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: XML-SAX-Expat
+provides: null
 requires:
-- category: "dev-perl"
-  name: "XML-SAX"
-  version: ">=1.0.0"
-- category: "dev-perl"
-  name: "XML-SAX-Base"
-  version: ">=1.90.0"
-- category: "dev-perl"
-  name: "XML-NamespaceSupport"
-  version: ">=1.120.0"
-- category: "dev-libs"
-  name: "libxml2-2"
-  version: ">=2.9.9"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "dev-perl"
-  name: "XML-Parser"
-  version: ">=2.440.0"
-- category: "dev-libs"
-  name: "expat"
-  version: ">=2.2.8"
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: XML-NamespaceSupport
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.09'
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: XML-SAX
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.15'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: perl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: XML-Parser
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- big-endian
+- -test
+- elibc_glibc
+- split-usr
+- userland_GNU
+- abi_x86_64
+- kernel_linux
+- amd64
+version: 0.510.0+1

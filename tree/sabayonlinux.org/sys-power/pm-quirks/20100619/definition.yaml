@@ -1,4 +1,19 @@
-
-category: "sys-power"
-name: "pm-quirks"
-version: "20100619+r1"
+State: ""
+category: sys-power
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: pm-quirks
+provides: null
+requires: null
+set: false
+uri: null
+use_flags:
+- abi_x86_64
+- userland_GNU
+- amd64
+- kernel_linux
+- big-endian
+- elibc_glibc
+version: 20100619+r2

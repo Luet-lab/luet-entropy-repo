@@ -1,116 +1,77 @@
-
-category: "media-libs"
-name: "urt"
-version: "3.1b+r3"
+State: ""
+category: media-libs
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: urt
+provides: null
 requires:
-- category: "x11-libs"
-  name: "libXext"
-  version: ">=1.3.4"
-- category: "x11-libs"
-  name: "libX11"
-  version: ">=1.6.9"
-- category: "x11-base"
-  name: "xorg-proto"
-  version: ">=2019.2"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "sys-devel"
-  name: "automake"
-  version: ">=1.15.1"
-- category: "sys-devel"
-  name: "libtool"
-  version: ">=2.4.6"
-- category: "sys-devel"
-  name: "m4"
-  version: ">=1.4.18"
-- category: "x11-misc"
-  name: "util-macros"
-  version: ">=1.19.2"
-- category: "media-fonts"
-  name: "font-util"
-  version: ">=1.3.2"
-- category: "app-text"
-  name: "asciidoc"
-  version: ">=8.6.10"
-- category: "dev-ruby"
-  name: "asciidoctor"
-  version: ">=2.0.10"
-- category: "app-text"
-  name: "xmlto"
-  version: ">=0.0.28"
-- category: "app-doc"
-  name: "doxygen"
-  version: ">=1.8.15"
-- category: "app-text"
-  name: "docbook-xml-dtd"
-  version: ">=4.1.2"
-- category: "app-text"
-  name: "docbook-xml-dtd"
-  version: ">=4.2"
-- category: "app-text"
-  name: "docbook-xml-dtd"
-  version: ">=4.3"
-- category: "media-libs"
-  name: "giflib"
-  version: ">=5.2.1"
-- category: "app-text"
-  name: "ghostscript-gpl"
-  version: ">=9.50"
-- category: "app-text"
-  name: "libpaper"
-  version: ">=1.1.24"
-- category: "media-libs"
-  name: "fontconfig"
-  version: ">=2.13.1"
-- category: "media-libs"
-  name: "freetype"
-  version: ">=2.9.1"
-- category: "media-libs"
-  name: "jbig2dec"
-  version: ">=0.17"
-- category: "media-libs"
-  name: "lcms-2"
-  version: ">=2.9"
-- category: "media-libs"
-  name: "libpng"
-  version: ">=1.6.37"
-- category: "media-libs"
-  name: "openjpeg-2"
-  version: ">=2.3.1"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=1.2.11"
-- category: "net-print"
-  name: "cups"
-  version: ">=2.3.1"
-- category: "sys-apps"
-  name: "dbus"
-  version: ">=1.12.16"
-- category: "x11-libs"
-  name: "gtk+"
-  version: ">=2.24.32"
-- category: "net-dns"
-  name: "libidn"
-  version: ">=1.35"
-- category: "media-libs"
-  name: "tiff"
-  version: ">=4.1.0"
-- category: "x11-libs"
-  name: "libXt"
-  version: ">=1.2.0"
-- category: "app-text"
-  name: "poppler-data"
-  version: ">=0.4.9"
-- category: "media-fonts"
-  name: "urw-fonts"
-  version: ">=2.4.9"
-- category: "media-fonts"
-  name: "kochi-substitute"
-  version: ">=20030809"
-- category: "media-fonts"
-  name: "baekmuk-fonts"
-  version: ">=2.2"
-- category: "media-fonts"
-  name: "arphicfonts"
-  version: ">=0.2.20080216.1"
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: giflib
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: tiff
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: x11-base
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: xorg-proto
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: x11-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libXext
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- big-endian
+- -static-libs
+- elibc_glibc
+- userland_GNU
+- tiff
+- -tools
+- X
+- -postscript
+- amd64
+- abi_x86_64
+- kernel_linux
+- gif
+version: 3.1b+r4

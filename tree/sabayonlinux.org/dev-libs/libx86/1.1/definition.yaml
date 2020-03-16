@@ -1,4 +1,20 @@
-
-category: "dev-libs"
-name: "libx86"
-version: "1.1+r4"
+State: ""
+category: dev-libs
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: libx86
+provides: null
+requires: null
+set: false
+uri: null
+use_flags:
+- abi_x86_64
+- userland_GNU
+- amd64
+- kernel_linux
+- -static-libs
+- big-endian
+- elibc_glibc
+version: 1.1+r5

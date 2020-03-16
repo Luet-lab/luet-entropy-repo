@@ -1,8 +1,19 @@
-
-category: "app-i18n"
-name: "man-pages-ja"
-version: "20180315"
-requires:
-- category: "sys-apps"
-  name: "man-db"
-  version: ">=2.9.0"
+State: ""
+category: app-i18n
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: man-pages-ja
+provides: null
+requires: null
+set: false
+uri: null
+use_flags:
+- abi_x86_64
+- elibc_glibc
+- big-endian
+- kernel_linux
+- userland_GNU
+- amd64
+version: 20180315+1

@@ -1,35 +1,101 @@
-
-category: "dev-perl"
-name: "Alien-Build"
-version: "1.790.0"
+State: ""
+category: dev-perl
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: Alien-Build
+provides: null
 requires:
-- category: "dev-perl"
-  name: "Archive-Zip"
-  version: ">=1.640.0"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "dev-perl"
-  name: "Capture-Tiny"
-  version: ">=0.480.0"
-- category: "dev-perl"
-  name: "FFI-CheckLib"
-  version: ">=0.250.0"
-- category: "dev-perl"
-  name: "File-Which"
-  version: ">=1.220.0"
-- category: "dev-perl"
-  name: "App-pwhich"
-  version: ">=1.150.0"
-- category: "dev-perl"
-  name: "File-chdir"
-  version: ">=0.101.100"
-- category: "dev-perl"
-  name: "Path-Tiny"
-  version: ">=0.104.0"
-- category: "dev-perl"
-  name: "Unicode-UTF8"
-  version: ">=0.620.0"
-- category: "dev-util"
-  name: "pkgconfig"
-  version: ">=0.29.2"
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: Capture-Tiny
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.170.0'
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: FFI-CheckLib
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.110.0'
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: File-Which
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.100.0'
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: Path-Tiny
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.77.0'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: perl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: File-chdir
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- split-usr
+- elibc_glibc
+- userland_GNU
+- -examples
+- amd64
+- -test
+- abi_x86_64
+- big-endian
+- -zip
+- kernel_linux
+version: 1.790.0+1

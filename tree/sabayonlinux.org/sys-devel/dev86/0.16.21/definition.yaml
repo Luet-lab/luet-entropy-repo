@@ -1,11 +1,45 @@
-
-category: "sys-devel"
-name: "dev86"
-version: "0.16.21+r3"
+State: ""
+category: sys-devel
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: dev86
+provides: null
 requires:
-- category: "dev-util"
-  name: "gperf"
-  version: ">=0"
-- category: "sys-devel"
-  name: "bin86"
-  version: ">=0"
+- State: ""
+  category: dev-util
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: gperf
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: bin86
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- abi_x86_64
+- amd64
+- userland_GNU
+- elibc_glibc
+- kernel_linux
+- big-endian
+version: 0.16.21+r4

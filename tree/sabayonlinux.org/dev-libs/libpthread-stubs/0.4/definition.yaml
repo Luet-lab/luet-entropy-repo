@@ -1,4 +1,29 @@
-
-category: "dev-libs"
-name: "libpthread-stubs"
-version: "0.4+r1"
+State: ""
+category: dev-libs
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: libpthread-stubs
+provides: null
+requires: null
+set: false
+uri: null
+use_flags:
+- -abi_s390_32
+- -abi_riscv_lp64d
+- -abi_x86_x32
+- amd64
+- -abi_mips_n64
+- elibc_glibc
+- abi_x86_64
+- abi_x86_32
+- big-endian
+- -abi_s390_64
+- -abi_riscv_lp64
+- -abi_mips_o32
+- kernel_linux
+- split-usr
+- -abi_mips_n32
+- userland_GNU
+version: 0.4+r3

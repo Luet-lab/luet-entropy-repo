@@ -1,8 +1,35 @@
-
-category: "dev-perl"
-name: "Sub-Name"
-version: "0.210.0"
+State: ""
+category: dev-perl
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: Sub-Name
+provides: null
 requires:
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: perl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- split-usr
+- -suggested
+- kernel_linux
+- elibc_glibc
+- userland_GNU
+- amd64
+- -test
+- abi_x86_64
+- big-endian
+version: 0.210.0+1

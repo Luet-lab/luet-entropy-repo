@@ -1,140 +1,111 @@
-
-category: "media-libs"
-name: "libtheora"
-version: "1.1.1+r2"
+State: ""
+category: media-libs
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: libtheora
+provides: null
 requires:
-- category: "media-libs"
-  name: "libogg"
-  version: ">=1.3.4"
-- category: "media-libs"
-  name: "libvorbis"
-  version: ">=1.3.6"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "sys-devel"
-  name: "automake"
-  version: ">=1.15.1"
-- category: "sys-devel"
-  name: "libtool"
-  version: ">=2.4.6"
-- category: "media-libs"
-  name: "libpng"
-  version: ">=1.6.37"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=1.2.11"
-- category: "app-arch"
-  name: "xz-utils"
-  version: ">=5.2.4"
-- category: "media-libs"
-  name: "libsdl"
-  version: ">=1.2.15"
-- category: "media-libs"
-  name: "audiofile"
-  version: ">=0.3.6"
-- category: "media-libs"
-  name: "alsa-lib"
-  version: ">=1.2.1.2"
-- category: "media-libs"
-  name: "nas"
-  version: ">=1.9.4"
-- category: "x11-libs"
-  name: "libXt"
-  version: ">=1.2.0"
-- category: "x11-libs"
-  name: "libXext"
-  version: ">=1.3.4"
-- category: "x11-libs"
-  name: "libX11"
-  version: ">=1.6.9"
-- category: "x11-libs"
-  name: "libXrandr"
-  version: ">=1.5.2"
-- category: "media-libs"
-  name: "aalib"
-  version: ">=1.4"
-- category: "x11-libs"
-  name: "tslib"
-  version: ">=1.0"
-- category: "media-sound"
-  name: "pulseaudio"
-  version: ">=13.0"
-- category: "x11-base"
-  name: "xorg-proto"
-  version: ">=2019.2"
-- category: "dev-lang"
-  name: "yasm"
-  version: ">=1.3.0"
-- category: "dev-lang"
-  name: "nasm"
-  version: ">=2.14.02"
-- category: "app-doc"
-  name: "doxygen"
-  version: ">=1.8.15"
-- category: "sys-devel"
-  name: "flex"
-  version: ">=2.6.4"
-- category: "sys-devel"
-  name: "bison"
-  version: ">=3.1"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "app-text"
-  name: "ghostscript-gpl"
-  version: ">=9.50"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "sys-devel"
-  name: "clang-9"
-  version: ">=9.0.1"
-- category: "media-gfx"
-  name: "graphviz"
-  version: ">=2.42.1"
-- category: "media-libs"
-  name: "freetype"
-  version: ">=2.9.1"
-- category: "dev-texlive"
-  name: "texlive-bibtexextra"
-  version: ">=2019"
-- category: "dev-texlive"
-  name: "texlive-fontsextra"
-  version: ">=2019"
-- category: "dev-texlive"
-  name: "texlive-fontutils"
-  version: ">=2019"
-- category: "dev-texlive"
-  name: "texlive-latex"
-  version: ">=2019"
-- category: "dev-texlive"
-  name: "texlive-latexextra"
-  version: ">=2019"
-- category: "dev-libs"
-  name: "xapian"
-  version: ">=1.4.14"
-- category: "dev-qt"
-  name: "qtgui"
-  version: ">=5.14.1"
-- category: "dev-qt"
-  name: "qtwidgets-5"
-  version: ">=5.14.1"
-- category: "dev-qt"
-  name: "qtxml-5"
-  version: ">=5.14.1"
-- category: "dev-db"
-  name: "sqlite-3"
-  version: ">=3.30.1"
-- category: "sys-devel"
-  name: "make"
-  version: ">=4.2.1"
-- category: "dev-util"
-  name: "cmake"
-  version: ">=3.14.6"
+- State: ""
+  category: app-portage
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: elt-patches
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=20170815'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libogg
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.3.0'
+- State: ""
+  category: media-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libvorbis
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.3.3'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: autoconf-2.69
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.69'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: automake-1.15
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.15.1'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libtool-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.4'
+set: false
+uri: null
+use_flags:
+- -examples
+- big-endian
+- -abi_s390_32
+- -abi_mips_n32
+- -abi_x86_x32
+- -abi_mips_n64
+- amd64
+- -abi_mips_o32
+- elibc_glibc
+- abi_x86_64
+- kernel_linux
+- abi_x86_32
+- -static-libs
+- -abi_s390_64
+- encode
+- userland_GNU
+- split-usr
+- -abi_riscv_lp64
+- -abi_riscv_lp64d
+- -doc
+version: 1.1.1+r4

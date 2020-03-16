@@ -1,4 +1,21 @@
-
-category: "app-crypt"
-name: "argon2"
-version: "20190702"
+State: ""
+category: app-crypt
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: argon2
+provides: null
+requires: null
+set: false
+uri: null
+use_flags:
+- -static-libs
+- abi_x86_64
+- amd64
+- big-endian
+- kernel_linux
+- elibc_glibc
+- split-usr
+- userland_GNU
+version: 20190702+1

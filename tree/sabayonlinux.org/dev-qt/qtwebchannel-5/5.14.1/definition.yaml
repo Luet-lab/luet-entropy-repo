@@ -1,59 +1,75 @@
-
-category: "dev-qt"
-name: "qtwebchannel-5"
-version: "5.14.1"
+State: ""
+category: dev-qt
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: qtwebchannel-5
+provides: null
 requires:
-- category: "dev-qt"
-  name: "qtcore"
-  version: ">=5.14.1"
-- category: "dev-libs"
-  name: "double-conversion"
-  version: ">=3.1.5"
-- category: "dev-libs"
-  name: "glib"
-  version: ">=2.60.7"
-- category: "dev-libs"
-  name: "libpcre2"
-  version: ">=10.33"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=1.2.11"
-- category: "dev-libs"
-  name: "icu"
-  version: ">=65.1"
-- category: "sys-apps"
-  name: "systemd"
-  version: ">=242"
-- category: "dev-qt"
-  name: "qttest-5"
-  version: ">=5.14.1"
-- category: "dev-qt"
-  name: "qtchooser"
-  version: ">=66"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "dev-qt"
-  name: "qtdeclarative-5"
-  version: ">=5.14.1"
-- category: "dev-qt"
-  name: "qtgui"
-  version: ">=5.14.1"
-- category: "dev-qt"
-  name: "qtnetwork-5"
-  version: ">=5.14.1"
-- category: "dev-qt"
-  name: "qtsql-5"
-  version: ">=5.14.1"
-- category: "dev-qt"
-  name: "qtwidgets-5"
-  version: ">=5.14.1"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: perl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-qt
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: qtchooser
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-qt
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: qtcore-5
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=5.14.1'
+- State: ""
+  category: dev-qt
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: qtdeclarative-5
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=5.14.1'
+set: false
+uri: null
+use_flags:
+- elibc_glibc
+- -debug
+- userland_GNU
+- abi_x86_64
+- -test
+- big-endian
+- qml
+- kernel_linux
+- split-usr
+- amd64
+version: 5.14.1+1

@@ -1,32 +1,73 @@
-
-category: "dev-perl"
-name: "namespace-autoclean"
-version: "0.280.0"
+State: ""
+category: dev-perl
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: namespace-autoclean
+provides: null
 requires:
-- category: "dev-perl"
-  name: "B-Hooks-EndOfScope"
-  version: ">=0.240.0"
-- category: "dev-perl"
-  name: "Module-Implementation"
-  version: ">=0.90.0"
-- category: "dev-perl"
-  name: "Sub-Exporter-Progressive"
-  version: ">=0.1.13"
-- category: "dev-perl"
-  name: "Variable-Magic"
-  version: ">=0.620.0"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
-- category: "dev-perl"
-  name: "Sub-Identify"
-  version: ">=0.140.0"
-- category: "dev-perl"
-  name: "namespace-clean"
-  version: ">=0.270.0"
-- category: "dev-perl"
-  name: "Package-Stash"
-  version: ">=0.370.0"
-- category: "dev-perl"
-  name: "Test-Requires"
-  version: ">=0.100.0"
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: B-Hooks-EndOfScope
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.120.0'
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: namespace-clean
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.200.0'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: perl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: Sub-Identify
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- split-usr
+- -test
+- kernel_linux
+- big-endian
+- elibc_glibc
+- userland_GNU
+- amd64
+- abi_x86_64
+version: 0.280.0+1

@@ -1,20 +1,33 @@
-
-category: "sci-libs"
-name: "ccolamd"
-version: "2.8.0"
+State: ""
+category: sci-libs
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: ccolamd
+provides: null
 requires:
-- category: "sci-libs"
-  name: "suitesparseconfig"
-  version: ">=4.2.1"
-- category: "dev-util"
-  name: "pkgconfig"
-  version: ">=0.29.2"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "app-arch"
-  name: "xz-utils"
-  version: ">=5.2.4"
-- category: "sys-apps"
-  name: "gentoo-functions"
-  version: ">=0.12"
+- State: ""
+  category: sci-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: suitesparseconfig
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- elibc_glibc
+- amd64
+- userland_GNU
+- abi_x86_64
+- multilib
+- -static-libs
+- kernel_linux
+version: 2.8.0+1

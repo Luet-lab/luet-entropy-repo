@@ -1,68 +1,91 @@
-
-category: "dev-python"
-name: "setuptools"
-version: "44.0.0"
+State: ""
+category: dev-python
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: setuptools
+provides: null
 requires:
-- category: "dev-python"
-  name: "certifi"
-  version: ">=2019.11.28"
-- category: "app-misc"
-  name: "ca-certificates"
-  version: ">=20190110.3.43"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.17"
-- category: "dev-lang"
-  name: "python-exec"
-  version: ">=2.4.6"
-- category: "app-arch"
-  name: "unzip"
-  version: ">=6.0"
-- category: "app-arch"
-  name: "bzip2"
-  version: ">=1.0.6"
-- category: "dev-libs"
-  name: "libnatspec"
-  version: ">=0.3.0"
-- category: "dev-python"
-  name: "mock"
-  version: ">=2.0.0"
-- category: "dev-python"
-  name: "six"
-  version: ">=1.12.0"
-- category: "dev-python"
-  name: "pip"
-  version: ">=19.3.1"
-- category: "dev-python"
-  name: "cryptography"
-  version: ">=2.8"
-- category: "dev-python"
-  name: "pytest"
-  version: ">=5.3.5"
-- category: "dev-python"
-  name: "pyyaml"
-  version: ">=5.3"
-- category: "dev-python"
-  name: "virtualenv"
-  version: ">=16.0.0"
-- category: "dev-python"
-  name: "werkzeug"
-  version: ">=1.0.0"
-- category: "dev-python"
-  name: "wheel"
-  version: ">=0.33.1"
-- category: "dev-python"
-  name: "setuptools-git"
-  version: ">=1.2"
-- category: "dev-python"
-  name: "futures"
-  version: ">=3.1.1"
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: python-2.7
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.7.5'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: python-exec-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2'
+- State: ""
+  category: dev-python
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: certifi
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2016.9.26'
+- State: ""
+  category: app-arch
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: unzip
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: python-3.6
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- big-endian
+- -python_targets_python3_8
+- -test
+- userland_GNU
+- -python_targets_python3_7
+- python_targets_python3_6
+- amd64
+- python_targets_python2_7
+- split-usr
+- abi_x86_64
+- -python_targets_pypy3
+- elibc_glibc
+- kernel_linux
+version: 44.0.0+1

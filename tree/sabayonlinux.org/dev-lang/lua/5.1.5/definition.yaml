@@ -1,32 +1,59 @@
-
-category: "dev-lang"
-name: "lua"
-version: "5.1.5+r4"
+State: ""
+category: dev-lang
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: lua
+provides: null
 requires:
-- category: "sys-libs"
-  name: "readline"
-  version: ">=7.0"
-- category: "sys-libs"
-  name: "ncurses"
-  version: ">=6.1"
-- category: "sys-devel"
-  name: "libtool"
-  version: ">=2.4.6"
-- category: "sys-devel"
-  name: "gnuconfig"
-  version: ">=20190912"
-- category: "dev-libs"
-  name: "libltdl"
-  version: ">=2.4.6"
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170826.1"
-- category: "sys-devel"
-  name: "automake"
-  version: ">=1.15.1"
-- category: "app-emacs"
-  name: "lua-mode"
-  version: ">=20151025"
-- category: "app-editors"
-  name: "emacs"
-  version: ">=23.4"
+- State: ""
+  category: sys-libs
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: readline
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=6.2'
+- State: ""
+  category: sys-devel
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: libtool-2
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- big-endian
+- -abi_s390_32
+- -abi_mips_n32
+- -static
+- -abi_x86_x32
+- readline
+- -abi_mips_n64
+- amd64
+- -abi_mips_o32
+- elibc_glibc
+- abi_x86_64
+- kernel_linux
+- abi_x86_32
+- -abi_s390_64
+- userland_GNU
+- deprecated
+- split-usr
+- -emacs
+- -abi_riscv_lp64
+- -abi_riscv_lp64d
+version: 5.1.5+r6

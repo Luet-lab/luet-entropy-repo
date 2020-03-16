@@ -1,4 +1,20 @@
-
-category: "sys-firmware"
-name: "sgabios"
-version: "0.1+pre8r1"
+State: ""
+category: sys-firmware
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: sgabios
+provides: null
+requires: null
+set: false
+uri: null
+use_flags:
+- abi_x86_64
+- binary
+- userland_GNU
+- big-endian
+- kernel_linux
+- elibc_glibc
+- amd64
+version: 0.1+pre8r1.1

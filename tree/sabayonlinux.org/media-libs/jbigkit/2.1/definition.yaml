@@ -1,4 +1,37 @@
-
-category: "media-libs"
-name: "jbigkit"
-version: "2.1"
+State: ""
+category: media-libs
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: jbigkit
+provides: null
+requires:
+- State: ""
+  category: sys-apps
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: coreutils
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=8.5'
+set: false
+uri: null
+use_flags:
+- -abi_mips_o32
+- kernel_linux
+- -abi_x86_32
+- elibc_glibc
+- userland_GNU
+- -static-libs
+- -abi_x86_x32
+- amd64
+- -abi_mips_n64
+- abi_x86_64
+- -abi_mips_n32
+version: 2.1+1

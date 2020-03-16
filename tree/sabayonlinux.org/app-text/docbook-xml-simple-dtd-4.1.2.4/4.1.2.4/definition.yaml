@@ -1,14 +1,58 @@
-
-category: "app-text"
-name: "docbook-xml-simple-dtd-4.1.2.4"
-version: "4.1.2.4+r3"
+State: ""
+category: app-text
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: docbook-xml-simple-dtd-4.1.2.4
+provides: null
 requires:
-- category: "app-arch"
-  name: "unzip"
-  version: ">=5.41"
-- category: "app-text"
-  name: "build-docbook-catalog"
-  version: ">=1.6"
-- category: "app-text"
-  name: "sgml-common"
-  version: ">=0.6.3"
+- State: ""
+  category: app-arch
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: unzip
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=5.41'
+- State: ""
+  category: app-text
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: build-docbook-catalog
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=1.6'
+- State: ""
+  category: app-text
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: sgml-common
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0.6.3'
+set: false
+uri: null
+use_flags:
+- kernel_linux
+- abi_x86_64
+- userland_GNU
+- elibc_glibc
+- amd64
+- multilib
+version: 4.1.2.4+r4

@@ -1,8 +1,19 @@
-
-category: "app-emacs"
-name: "ocaml-mode"
-version: "4.00.1"
-requires:
-- category: "app-editors"
-  name: "emacs"
-  version: ">=23.4"
+State: ""
+category: app-emacs
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: ocaml-mode
+provides: null
+requires: null
+set: false
+uri: null
+use_flags:
+- userland_GNU
+- elibc_glibc
+- abi_x86_64
+- kernel_linux
+- amd64
+- multilib
+version: 4.00.1+1

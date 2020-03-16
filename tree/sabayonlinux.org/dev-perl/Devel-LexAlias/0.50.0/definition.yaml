@@ -1,14 +1,46 @@
-
-category: "dev-perl"
-name: "Devel-LexAlias"
-version: "0.50.0"
+State: ""
+category: dev-perl
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: Devel-LexAlias
+provides: null
 requires:
-- category: "dev-perl"
-  name: "Devel-Caller"
-  version: ">=2.60.0"
-- category: "dev-perl"
-  name: "PadWalker"
-  version: ">=2.300.0"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=5.28.2"
+- State: ""
+  category: dev-perl
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: Devel-Caller
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=2.03'
+- State: ""
+  category: dev-lang
+  conflicts: null
+  description: ""
+  id: 0
+  license: ""
+  name: perl
+  provides: null
+  requires: null
+  set: false
+  uri: null
+  use_flags: null
+  version: '>=0'
+set: false
+uri: null
+use_flags:
+- abi_x86_64
+- big-endian
+- elibc_glibc
+- userland_GNU
+- kernel_linux
+- amd64
+- split-usr
+version: 0.50.0+1

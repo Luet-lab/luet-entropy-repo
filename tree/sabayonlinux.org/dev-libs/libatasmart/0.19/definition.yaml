@@ -1,11 +1,21 @@
-
-category: "dev-libs"
-name: "libatasmart"
-version: "0.19+p5"
-requires:
-- category: "sys-apps"
-  name: "systemd"
-  version: ">=242"
-- category: "dev-util"
-  name: "pkgconfig"
-  version: ">=0.29.2"
+State: ""
+category: dev-libs
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: libatasmart
+provides: null
+requires: null
+set: false
+uri: null
+use_flags:
+- userland_GNU
+- elibc_glibc
+- abi_x86_64
+- split-usr
+- amd64
+- kernel_linux
+- big-endian
+- -static-libs
+version: 0.19+p6

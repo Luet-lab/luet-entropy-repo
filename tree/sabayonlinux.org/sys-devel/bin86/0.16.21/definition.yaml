@@ -1,4 +1,19 @@
-
-category: "sys-devel"
-name: "bin86"
-version: "0.16.21"
+State: ""
+category: sys-devel
+conflicts: null
+description: ""
+id: 0
+license: ""
+name: bin86
+provides: null
+requires: null
+set: false
+uri: null
+use_flags:
+- amd64
+- elibc_glibc
+- abi_x86_64
+- kernel_linux
+- big-endian
+- userland_GNU
+version: 0.16.21+1
