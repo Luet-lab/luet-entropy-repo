@@ -1,0 +1,42 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/check-0.14.0
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/checkmk$
+- /usr/include$
+- /usr/include/check.h$
+- /usr/include/check_stdint.h$
+- /usr/lib$
+- /usr/lib/libcheck.so$
+- /usr/lib/libcheck.so.0$
+- /usr/lib/libcheck.so.0.0.0$
+- /usr/lib/pkgconfig$
+- /usr/lib/pkgconfig/check.pc$
+- /usr/lib64$
+- /usr/lib64/libcheck.so$
+- /usr/lib64/libcheck.so.0$
+- /usr/lib64/libcheck.so.0.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/check.pc$
+- /usr/share$
+- /usr/share/aclocal$
+- /usr/share/aclocal/check.m4$
+- /usr/share/doc$
+- /usr/share/doc/check-0.14.0$
+- /usr/share/doc/check-0.14.0/AUTHORS.bz2$
+- /usr/share/doc/check-0.14.0/ChangeLog.bz2$
+- /usr/share/doc/check-0.14.0/NEWS.bz2$
+- /usr/share/doc/check-0.14.0/README.md.bz2$
+- /usr/share/doc/check-0.14.0/THANKS.bz2$
+- /usr/share/doc/check-0.14.0/TODO.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/checkmk.1.bz2$

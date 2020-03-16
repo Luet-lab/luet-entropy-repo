@@ -1,0 +1,44 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/libburn-1.5.0
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/cdrskin$
+- /usr/include$
+- /usr/include/libburn$
+- /usr/include/libburn/libburn.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libburn.so$
+- /usr/lib64/libburn.so.4$
+- /usr/lib64/libburn.so.4.103.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libburn-1.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libburn-1.5.0$
+- /usr/share/doc/libburn-1.5.0/AUTHORS$
+- /usr/share/doc/libburn-1.5.0/CONTRIBUTORS$
+- /usr/share/doc/libburn-1.5.0/ChangeLog.bz2$
+- /usr/share/doc/libburn-1.5.0/NEWS$
+- /usr/share/doc/libburn-1.5.0/README.bz2$
+- /usr/share/doc/libburn-1.5.0/cdrskin$
+- /usr/share/doc/libburn-1.5.0/cdrskin/README.bz2$
+- /usr/share/doc/libburn-1.5.0/cdrskin/changelog.txt.bz2$
+- /usr/share/doc/libburn-1.5.0/cdrskin/html$
+- /usr/share/doc/libburn-1.5.0/cdrskin/html/cdrskin_eng.html$
+- /usr/share/doc/libburn-1.5.0/cdrskin/wiki_plain.txt.bz2$
+- /usr/share/doc/libburn-1.5.0/cdtext.txt.bz2$
+- /usr/share/doc/libburn-1.5.0/comments.bz2$
+- /usr/share/doc/libburn-1.5.0/cookbook.txt.bz2$
+- /usr/share/doc/libburn-1.5.0/mediainfo.txt.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/cdrskin.1.bz2$

@@ -1,0 +1,26 @@
+
+category: "dev-libs"
+name: "libisofs"
+version: "1.5.0"
+license: ""
+
+use_flags:
+- "abi_x86_64"
+- "amd64"
+- "xattr"
+- "-static-libs"
+- "big-endian"
+- "userland_GNU"
+- "elibc_glibc"
+- "-debug"
+- "-verbose-debug"
+- "kernel_linux"
+- "acl"
+- "zlib"
+requires:
+- category: "sys-apps"
+  name: "attr"
+  version: ">=0"
+- category: "sys-libs"
+  name: "zlib"
+  version: ">=0"

@@ -1,0 +1,45 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-text/enchant-1.6.1-r1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/enchant$
+- /usr/bin/enchant-lsmod$
+- /usr/include$
+- /usr/include/enchant$
+- /usr/include/enchant/enchant++.h$
+- /usr/include/enchant/enchant-provider.h$
+- /usr/include/enchant/enchant.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/enchant$
+- /usr/lib64/enchant/libenchant_aspell.so$
+- /usr/lib64/enchant/libenchant_myspell.so$
+- /usr/lib64/libenchant.so$
+- /usr/lib64/libenchant.so.1$
+- /usr/lib64/libenchant.so.1.6.1$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/enchant.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/enchant-1.6.1-r1$
+- /usr/share/doc/enchant-1.6.1-r1/AUTHORS.bz2$
+- /usr/share/doc/enchant-1.6.1-r1/BUGS$
+- /usr/share/doc/enchant-1.6.1-r1/ChangeLog.bz2$
+- /usr/share/doc/enchant-1.6.1-r1/HACKING.bz2$
+- /usr/share/doc/enchant-1.6.1-r1/MAINTAINERS$
+- /usr/share/doc/enchant-1.6.1-r1/NEWS.bz2$
+- /usr/share/doc/enchant-1.6.1-r1/README.bz2$
+- /usr/share/doc/enchant-1.6.1-r1/TODO$
+- /usr/share/enchant$
+- /usr/share/enchant/enchant.ordering$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/enchant.1.bz2$

@@ -1,0 +1,71 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-db/mariadb-connector-c-3.1.7
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/i686-pc-linux-gnu-mariadb_config$
+- /usr/bin/mariadb_config$
+- /usr/bin/x86_64-pc-linux-gnu-mariadb_config$
+- /usr/include$
+- /usr/include/i686-pc-linux-gnu$
+- /usr/include/i686-pc-linux-gnu/mariadb$
+- /usr/include/i686-pc-linux-gnu/mariadb/mariadb_version.h$
+- /usr/include/mariadb$
+- /usr/include/mariadb/errmsg.h$
+- /usr/include/mariadb/ma_list.h$
+- /usr/include/mariadb/ma_pvio.h$
+- /usr/include/mariadb/ma_tls.h$
+- /usr/include/mariadb/mariadb$
+- /usr/include/mariadb/mariadb/ma_io.h$
+- /usr/include/mariadb/mariadb_com.h$
+- /usr/include/mariadb/mariadb_ctype.h$
+- /usr/include/mariadb/mariadb_dyncol.h$
+- /usr/include/mariadb/mariadb_rpl.h$
+- /usr/include/mariadb/mariadb_stmt.h$
+- /usr/include/mariadb/mariadb_version.h$
+- /usr/include/mariadb/mysql$
+- /usr/include/mariadb/mysql.h$
+- /usr/include/mariadb/mysql/client_plugin.h$
+- /usr/include/mariadb/mysql/plugin_auth.h$
+- /usr/include/mariadb/mysql/plugin_auth_common.h$
+- /usr/include/mariadb/mysqld_error.h$
+- /usr/include/x86_64-pc-linux-gnu$
+- /usr/include/x86_64-pc-linux-gnu/mariadb$
+- /usr/include/x86_64-pc-linux-gnu/mariadb/mariadb_version.h$
+- /usr/lib$
+- /usr/lib/libmariadb.so$
+- /usr/lib/libmariadb.so.3$
+- /usr/lib/mariadb$
+- /usr/lib/mariadb/plugin$
+- /usr/lib/mariadb/plugin/auth_gssapi_client.so$
+- /usr/lib/mariadb/plugin/caching_sha2_password.so$
+- /usr/lib/mariadb/plugin/client_ed25519.so$
+- /usr/lib/mariadb/plugin/dialog.so$
+- /usr/lib/mariadb/plugin/mysql_clear_password.so$
+- /usr/lib/mariadb/plugin/remote_io.so$
+- /usr/lib/pkgconfig$
+- /usr/lib/pkgconfig/libmariadb.pc$
+- /usr/lib64$
+- /usr/lib64/libmariadb.so$
+- /usr/lib64/libmariadb.so.3$
+- /usr/lib64/mariadb$
+- /usr/lib64/mariadb/plugin$
+- /usr/lib64/mariadb/plugin/auth_gssapi_client.so$
+- /usr/lib64/mariadb/plugin/caching_sha2_password.so$
+- /usr/lib64/mariadb/plugin/client_ed25519.so$
+- /usr/lib64/mariadb/plugin/dialog.so$
+- /usr/lib64/mariadb/plugin/mysql_clear_password.so$
+- /usr/lib64/mariadb/plugin/remote_io.so$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libmariadb.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/mariadb-connector-c-3.1.7$
+- /usr/share/doc/mariadb-connector-c-3.1.7/README.bz2$

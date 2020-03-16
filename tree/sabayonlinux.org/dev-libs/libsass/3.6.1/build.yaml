@@ -1,0 +1,73 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/libsass-3.6.1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/sass$
+- /usr/include/sass.h$
+- /usr/include/sass/base.h$
+- /usr/include/sass/context.h$
+- /usr/include/sass/functions.h$
+- /usr/include/sass/values.h$
+- /usr/include/sass/version.h$
+- /usr/include/sass2scss.h$
+- /usr/lib$
+- /usr/lib/libsass.so$
+- /usr/lib/libsass.so.1$
+- /usr/lib/libsass.so.1.0.0$
+- /usr/lib/pkgconfig$
+- /usr/lib/pkgconfig/libsass.pc$
+- /usr/lib64$
+- /usr/lib64/libsass.so$
+- /usr/lib64/libsass.so.1$
+- /usr/lib64/libsass.so.1.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libsass.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libsass-3.6.1$
+- /usr/share/doc/libsass-3.6.1/Readme.md.bz2$
+- /usr/share/doc/libsass-3.6.1/SECURITY.md.bz2$
+- /usr/share/doc/libsass-3.6.1/docs$
+- /usr/share/doc/libsass-3.6.1/docs/README.md.bz2$
+- /usr/share/doc/libsass-3.6.1/docs/api-context-example.md.bz2$
+- /usr/share/doc/libsass-3.6.1/docs/api-context-internal.md.bz2$
+- /usr/share/doc/libsass-3.6.1/docs/api-context.md.bz2$
+- /usr/share/doc/libsass-3.6.1/docs/api-doc.md.bz2$
+- /usr/share/doc/libsass-3.6.1/docs/api-function-example.md.bz2$
+- /usr/share/doc/libsass-3.6.1/docs/api-function-internal.md.bz2$
+- /usr/share/doc/libsass-3.6.1/docs/api-function.md.bz2$
+- /usr/share/doc/libsass-3.6.1/docs/api-importer-example.md.bz2$
+- /usr/share/doc/libsass-3.6.1/docs/api-importer-internal.md.bz2$
+- /usr/share/doc/libsass-3.6.1/docs/api-importer.md.bz2$
+- /usr/share/doc/libsass-3.6.1/docs/api-value-example.md.bz2$
+- /usr/share/doc/libsass-3.6.1/docs/api-value-internal.md.bz2$
+- /usr/share/doc/libsass-3.6.1/docs/api-value.md.bz2$
+- /usr/share/doc/libsass-3.6.1/docs/build-on-darwin.md.bz2$
+- /usr/share/doc/libsass-3.6.1/docs/build-on-gentoo.md.bz2$
+- /usr/share/doc/libsass-3.6.1/docs/build-on-windows.md.bz2$
+- /usr/share/doc/libsass-3.6.1/docs/build-shared-library.md.bz2$
+- /usr/share/doc/libsass-3.6.1/docs/build-with-autotools.md.bz2$
+- /usr/share/doc/libsass-3.6.1/docs/build-with-makefiles.md.bz2$
+- /usr/share/doc/libsass-3.6.1/docs/build-with-mingw.md.bz2$
+- /usr/share/doc/libsass-3.6.1/docs/build-with-visual-studio.md.bz2$
+- /usr/share/doc/libsass-3.6.1/docs/build.md.bz2$
+- /usr/share/doc/libsass-3.6.1/docs/compatibility-plan.md.bz2$
+- /usr/share/doc/libsass-3.6.1/docs/contributing.md.bz2$
+- /usr/share/doc/libsass-3.6.1/docs/custom-functions-internal.md.bz2$
+- /usr/share/doc/libsass-3.6.1/docs/dev-ast-memory.md.bz2$
+- /usr/share/doc/libsass-3.6.1/docs/dev-profiling.md.bz2$
+- /usr/share/doc/libsass-3.6.1/docs/implementations.md.bz2$
+- /usr/share/doc/libsass-3.6.1/docs/plugins.md.bz2$
+- /usr/share/doc/libsass-3.6.1/docs/setup-environment.md.bz2$
+- /usr/share/doc/libsass-3.6.1/docs/source-map-internals.md.bz2$
+- /usr/share/doc/libsass-3.6.1/docs/trace.md.bz2$
+- /usr/share/doc/libsass-3.6.1/docs/triage.md.bz2$
+- /usr/share/doc/libsass-3.6.1/docs/unicode.md.bz2$

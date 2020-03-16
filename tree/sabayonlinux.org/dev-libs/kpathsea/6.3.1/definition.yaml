@@ -1,0 +1,21 @@
+
+category: "dev-libs"
+name: "kpathsea"
+version: "6.3.1+p20190410"
+license: ""
+
+use_flags:
+- "big-endian"
+- "-static-libs"
+- "-source"
+- "amd64"
+- "split-usr"
+- "elibc_glibc"
+- "abi_x86_64"
+- "userland_GNU"
+- "kernel_linux"
+- "-doc"
+requires:
+- category: "app-portage"
+  name: "elt-patches"
+  version: ">=20170815"

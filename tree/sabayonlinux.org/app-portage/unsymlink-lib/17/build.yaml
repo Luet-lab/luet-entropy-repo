@@ -1,0 +1,21 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-portage/unsymlink-lib-17
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/unsymlink-lib$
+- /usr/lib$
+- /usr/lib/python-exec$
+- /usr/lib/python-exec/python3.6$
+- /usr/lib/python-exec/python3.6/unsymlink-lib$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/unsymlink-lib-17$
+- /usr/share/doc/unsymlink-lib-17/README.bz2$

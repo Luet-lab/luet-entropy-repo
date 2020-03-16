@@ -1,0 +1,79 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/libedit-20191211.3.1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /lib64$
+- /lib64/libedit.so.0$
+- /lib64/libedit.so.0.0.62$
+- /usr$
+- /usr/include$
+- /usr/include/editline$
+- /usr/include/editline/readline.h$
+- /usr/include/histedit.h$
+- /usr/lib$
+- /usr/lib/libedit.so$
+- /usr/lib/libedit.so.0$
+- /usr/lib/libedit.so.0.0.62$
+- /usr/lib/pkgconfig$
+- /usr/lib/pkgconfig/libedit.pc$
+- /usr/lib64$
+- /usr/lib64/libedit.so$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libedit.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libedit-20191211.3.1$
+- /usr/share/doc/libedit-20191211.3.1/ChangeLog.bz2$
+- /usr/share/doc/libedit-20191211.3.1/THANKS$
+- /usr/share/man$
+- /usr/share/man/man3$
+- /usr/share/man/man3/editline.3.bz2$
+- /usr/share/man/man3/el_deletestr.3.bz2$
+- /usr/share/man/man3/el_end.3.bz2$
+- /usr/share/man/man3/el_get.3.bz2$
+- /usr/share/man/man3/el_getc.3.bz2$
+- /usr/share/man/man3/el_gets.3.bz2$
+- /usr/share/man/man3/el_init.3.bz2$
+- /usr/share/man/man3/el_init_fd.3.bz2$
+- /usr/share/man/man3/el_insertstr.3.bz2$
+- /usr/share/man/man3/el_line.3.bz2$
+- /usr/share/man/man3/el_parse.3.bz2$
+- /usr/share/man/man3/el_push.3.bz2$
+- /usr/share/man/man3/el_reset.3.bz2$
+- /usr/share/man/man3/el_resize.3.bz2$
+- /usr/share/man/man3/el_set.3.bz2$
+- /usr/share/man/man3/el_source.3.bz2$
+- /usr/share/man/man3/el_wdeletestr.3.bz2$
+- /usr/share/man/man3/el_wget.3.bz2$
+- /usr/share/man/man3/el_wgetc.3.bz2$
+- /usr/share/man/man3/el_wgets.3.bz2$
+- /usr/share/man/man3/el_winsertstr.3.bz2$
+- /usr/share/man/man3/el_wline.3.bz2$
+- /usr/share/man/man3/el_wparse.3.bz2$
+- /usr/share/man/man3/el_wpush.3.bz2$
+- /usr/share/man/man3/el_wset.3.bz2$
+- /usr/share/man/man3/history_end.3.bz2$
+- /usr/share/man/man3/history_init.3.bz2$
+- /usr/share/man/man3/history_w.3.bz2$
+- /usr/share/man/man3/history_wend.3.bz2$
+- /usr/share/man/man3/history_winit.3.bz2$
+- /usr/share/man/man3/tok_end.3.bz2$
+- /usr/share/man/man3/tok_init.3.bz2$
+- /usr/share/man/man3/tok_line.3.bz2$
+- /usr/share/man/man3/tok_reset.3.bz2$
+- /usr/share/man/man3/tok_str.3.bz2$
+- /usr/share/man/man3/tok_wend.3.bz2$
+- /usr/share/man/man3/tok_winit.3.bz2$
+- /usr/share/man/man3/tok_wline.3.bz2$
+- /usr/share/man/man3/tok_wreset.3.bz2$
+- /usr/share/man/man3/tok_wstr.3.bz2$
+- /usr/share/man/man5$
+- /usr/share/man/man5/editrc.5.bz2$
+- /usr/share/man/man7$
+- /usr/share/man/man7/editline.7.bz2$

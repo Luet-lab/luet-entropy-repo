@@ -1,0 +1,54 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/libconfig-1.7.2
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/libconfig.h$
+- /usr/include/libconfig.h++$
+- /usr/lib$
+- /usr/lib/cmake$
+- /usr/lib/cmake/libconfig$
+- /usr/lib/cmake/libconfig++$
+- /usr/lib/cmake/libconfig++/libconfig++Config.cmake$
+- /usr/lib/cmake/libconfig/libconfigConfig.cmake$
+- /usr/lib/libconfig++.so$
+- /usr/lib/libconfig++.so.11$
+- /usr/lib/libconfig++.so.11.0.2$
+- /usr/lib/libconfig.so$
+- /usr/lib/libconfig.so.11$
+- /usr/lib/libconfig.so.11.0.2$
+- /usr/lib/pkgconfig$
+- /usr/lib/pkgconfig/libconfig++.pc$
+- /usr/lib/pkgconfig/libconfig.pc$
+- /usr/lib64$
+- /usr/lib64/cmake$
+- /usr/lib64/cmake/libconfig$
+- /usr/lib64/cmake/libconfig++$
+- /usr/lib64/cmake/libconfig++/libconfig++Config.cmake$
+- /usr/lib64/cmake/libconfig/libconfigConfig.cmake$
+- /usr/lib64/libconfig++.so$
+- /usr/lib64/libconfig++.so.11$
+- /usr/lib64/libconfig++.so.11.0.2$
+- /usr/lib64/libconfig.so$
+- /usr/lib64/libconfig.so.11$
+- /usr/lib64/libconfig.so.11.0.2$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libconfig++.pc$
+- /usr/lib64/pkgconfig/libconfig.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libconfig-1.7.2$
+- /usr/share/doc/libconfig-1.7.2/AUTHORS.bz2$
+- /usr/share/doc/libconfig-1.7.2/ChangeLog.bz2$
+- /usr/share/doc/libconfig-1.7.2/README.bz2$
+- /usr/share/doc/libconfig-1.7.2/README.md.bz2$
+- /usr/share/doc/libconfig-1.7.2/TODO.bz2$
+- /usr/share/info$
+- /usr/share/info/libconfig.info.bz2$

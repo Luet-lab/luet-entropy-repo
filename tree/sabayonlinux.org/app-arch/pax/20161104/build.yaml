@@ -1,0 +1,22 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-arch/pax-20161104
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/pax$
+- /usr/bin/paxcpio$
+- /usr/bin/paxtar$
+- /usr/lib$
+- /usr/share$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/pax.1.bz2$
+- /usr/share/man/man1/paxcpio.1.bz2$
+- /usr/share/man/man1/paxtar.1.bz2$

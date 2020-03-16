@@ -1,0 +1,26 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-dotnet/libgdiplus-6.0.2
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libgdiplus.so$
+- /usr/lib64/libgdiplus.so.0$
+- /usr/lib64/libgdiplus.so.0.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libgdiplus.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libgdiplus-6.0.2$
+- /usr/share/doc/libgdiplus-6.0.2/AUTHORS.bz2$
+- /usr/share/doc/libgdiplus-6.0.2/ChangeLog$
+- /usr/share/doc/libgdiplus-6.0.2/NEWS$
+- /usr/share/doc/libgdiplus-6.0.2/README.md.bz2$
+- /usr/share/doc/libgdiplus-6.0.2/TODO.bz2$

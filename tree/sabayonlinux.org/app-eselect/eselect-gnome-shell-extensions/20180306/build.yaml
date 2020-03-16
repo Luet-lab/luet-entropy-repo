@@ -1,0 +1,22 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-eselect/eselect-gnome-shell-extensions-20180306
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /etc$
+- /etc/eselect$
+- /etc/eselect/gnome-shell-extensions$
+- /etc/eselect/gnome-shell-extensions/.keep_app-eselect_eselect-gnome-shell-extensions-0$
+- /usr$
+- /usr/share$
+- /usr/share/eselect$
+- /usr/share/eselect/modules$
+- /usr/share/eselect/modules/gnome-shell-extensions.eselect$
+- /usr/share/glib-2.0$
+- /usr/share/glib-2.0/schemas$
+- /usr/share/glib-2.0/schemas/eselect-gnome-shell-extensions.gschema.override$
