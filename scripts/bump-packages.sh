@@ -227,6 +227,7 @@ process_packages () {
     export DEBUG_BUMP
     export ENTROPY_DB
     export REPOSITORY
+    export PKG_SLOT_SEPARATOR
     export -f process_package
     parallel -j ${PARALLEL_JOBS} --will-cite -k process_package ::: ${PACKAGES}
   else
