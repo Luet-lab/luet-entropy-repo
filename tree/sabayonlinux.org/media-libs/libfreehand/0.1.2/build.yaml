@@ -1,0 +1,33 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/libfreehand-0.1.2
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/fh2raw$
+- /usr/bin/fh2svg$
+- /usr/bin/fh2text$
+- /usr/include$
+- /usr/include/libfreehand-0.1$
+- /usr/include/libfreehand-0.1/libfreehand$
+- /usr/include/libfreehand-0.1/libfreehand/FreeHandDocument.h$
+- /usr/include/libfreehand-0.1/libfreehand/libfreehand.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libfreehand-0.1.so$
+- /usr/lib64/libfreehand-0.1.so.1$
+- /usr/lib64/libfreehand-0.1.so.1.0.2$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libfreehand-0.1.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libfreehand-0.1.2$
+- /usr/share/doc/libfreehand-0.1.2/AUTHORS.bz2$
+- /usr/share/doc/libfreehand-0.1.2/ChangeLog.bz2$
+- /usr/share/doc/libfreehand-0.1.2/NEWS.bz2$

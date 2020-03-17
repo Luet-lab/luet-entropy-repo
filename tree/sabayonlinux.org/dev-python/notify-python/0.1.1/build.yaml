@@ -1,0 +1,33 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/notify-python-0.1.1-r3
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/notify-python.pc$
+- /usr/lib64/python2.7$
+- /usr/lib64/python2.7/site-packages$
+- /usr/lib64/python2.7/site-packages/gtk-2.0$
+- /usr/lib64/python2.7/site-packages/gtk-2.0/pynotify$
+- /usr/lib64/python2.7/site-packages/gtk-2.0/pynotify/__init__.py$
+- /usr/lib64/python2.7/site-packages/gtk-2.0/pynotify/__init__.pyc$
+- /usr/lib64/python2.7/site-packages/gtk-2.0/pynotify/__init__.pyo$
+- /usr/lib64/python2.7/site-packages/gtk-2.0/pynotify/_pynotify.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/notify-python-0.1.1-r3$
+- /usr/share/doc/notify-python-0.1.1-r3/AUTHORS$
+- /usr/share/doc/notify-python-0.1.1-r3/ChangeLog.bz2$
+- /usr/share/doc/notify-python-0.1.1-r3/NEWS.bz2$
+- /usr/share/pygtk$
+- /usr/share/pygtk/2.0$
+- /usr/share/pygtk/2.0/defs$
+- /usr/share/pygtk/2.0/defs/pynotify.defs$

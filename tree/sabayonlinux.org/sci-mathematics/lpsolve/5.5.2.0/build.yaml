@@ -1,0 +1,49 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i sci-mathematics/lpsolve-5.5.2.0
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/lp_demo$
+- /usr/bin/lp_solve$
+- /usr/include$
+- /usr/include/lpsolve$
+- /usr/include/lpsolve/lp_Hash.h$
+- /usr/include/lpsolve/lp_MDO.h$
+- /usr/include/lpsolve/lp_MPS.h$
+- /usr/include/lpsolve/lp_SOS.h$
+- /usr/include/lpsolve/lp_bit.h$
+- /usr/include/lpsolve/lp_crash.h$
+- /usr/include/lpsolve/lp_explicit.h$
+- /usr/include/lpsolve/lp_fortify.h$
+- /usr/include/lpsolve/lp_lib.h$
+- /usr/include/lpsolve/lp_matrix.h$
+- /usr/include/lpsolve/lp_mipbb.h$
+- /usr/include/lpsolve/lp_presolve.h$
+- /usr/include/lpsolve/lp_price.h$
+- /usr/include/lpsolve/lp_pricePSE.h$
+- /usr/include/lpsolve/lp_report.h$
+- /usr/include/lpsolve/lp_rlp.h$
+- /usr/include/lpsolve/lp_scale.h$
+- /usr/include/lpsolve/lp_simplex.h$
+- /usr/include/lpsolve/lp_solveDLL.h$
+- /usr/include/lpsolve/lp_types.h$
+- /usr/include/lpsolve/lp_utils.h$
+- /usr/include/lpsolve/lp_wlp.h$
+- /usr/include/lpsolve/lpkit.h$
+- /usr/include/lpsolve/lpsolve.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/liblpsolve55.so$
+- /usr/lib64/liblpsolve55.so.0$
+- /usr/lib64/liblpsolve55.so.0.0.0$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/lpsolve-5.5.2.0$
+- /usr/share/doc/lpsolve-5.5.2.0/README.txt.bz2$

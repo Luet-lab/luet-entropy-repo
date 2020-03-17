@@ -1,0 +1,37 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-text/libwps-0.4.10
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/wks2csv$
+- /usr/bin/wks2raw$
+- /usr/bin/wks2text$
+- /usr/bin/wps2html$
+- /usr/bin/wps2raw$
+- /usr/bin/wps2text$
+- /usr/include$
+- /usr/include/libwps-0.4$
+- /usr/include/libwps-0.4/libwps$
+- /usr/include/libwps-0.4/libwps/WPSDocument.h$
+- /usr/include/libwps-0.4/libwps/libwps.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libwps-0.4.so$
+- /usr/lib64/libwps-0.4.so.4$
+- /usr/lib64/libwps-0.4.so.4.0.10$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libwps-0.4.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libwps-0.4.10$
+- /usr/share/doc/libwps-0.4.10/CREDITS.bz2$
+- /usr/share/doc/libwps-0.4.10/ChangeLog.bz2$
+- /usr/share/doc/libwps-0.4.10/NEWS.bz2$
+- /usr/share/doc/libwps-0.4.10/README.bz2$

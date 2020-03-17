@@ -1,0 +1,23 @@
+
+category: "dev-cpp"
+name: "clucene-1"
+version: "2.3.3.4+r6"
+license: ""
+
+use_flags:
+- "big-endian"
+- "amd64"
+- "-doc"
+- "-debug"
+- "kernel_linux"
+- "elibc_glibc"
+- "abi_x86_64"
+- "userland_GNU"
+- "-static-libs"
+requires:
+- category: "dev-util"
+  name: "cmake"
+  version: ">=3.7.2"
+- category: "sys-devel"
+  name: "make"
+  version: ">=0"

@@ -1,0 +1,36 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-text/libepubgen-0.1.1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/libepubgen-0.1$
+- /usr/include/libepubgen-0.1/libepubgen$
+- /usr/include/libepubgen-0.1/libepubgen/EPUBDrawingGenerator.h$
+- /usr/include/libepubgen-0.1/libepubgen/EPUBPackage.h$
+- /usr/include/libepubgen-0.1/libepubgen/EPUBPresentationGenerator.h$
+- /usr/include/libepubgen-0.1/libepubgen/EPUBTextGenerator.h$
+- /usr/include/libepubgen-0.1/libepubgen/libepubgen-api.h$
+- /usr/include/libepubgen-0.1/libepubgen/libepubgen-decls.h$
+- /usr/include/libepubgen-0.1/libepubgen/libepubgen.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libepubgen-0.1.so$
+- /usr/lib64/libepubgen-0.1.so.1$
+- /usr/lib64/libepubgen-0.1.so.1.0.1$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libepubgen-0.1.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libepubgen-0.1.1$
+- /usr/share/doc/libepubgen-0.1.1/AUTHORS.bz2$
+- /usr/share/doc/libepubgen-0.1.1/ChangeLog.bz2$
+- /usr/share/doc/libepubgen-0.1.1/NEWS.bz2$
+- /usr/share/doc/libepubgen-0.1.1/README.bz2$
+- /usr/share/doc/libepubgen-0.1.1/TODO.bz2$

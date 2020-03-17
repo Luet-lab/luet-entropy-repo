@@ -1,0 +1,17 @@
+
+category: "sci-mathematics"
+name: "lpsolve"
+version: "5.5.2.0"
+license: ""
+
+use_flags:
+- "elibc_glibc"
+- "kernel_linux"
+- "amd64"
+- "-static-libs"
+- "userland_GNU"
+- "multilib"
+requires:
+- category: "sci-libs"
+  name: "colamd"
+  version: ">=0"

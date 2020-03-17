@@ -1,0 +1,67 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-cpp/libcmis-0.5.2-r1
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/libcmis-0.5$
+- /usr/include/libcmis-0.5/libcmis$
+- /usr/include/libcmis-0.5/libcmis/allowable-actions.hxx$
+- /usr/include/libcmis-0.5/libcmis/document.hxx$
+- /usr/include/libcmis-0.5/libcmis/exception.hxx$
+- /usr/include/libcmis-0.5/libcmis/folder.hxx$
+- /usr/include/libcmis-0.5/libcmis/libcmis-api.h$
+- /usr/include/libcmis-0.5/libcmis/libcmis.hxx$
+- /usr/include/libcmis-0.5/libcmis/oauth2-data.hxx$
+- /usr/include/libcmis-0.5/libcmis/object-type.hxx$
+- /usr/include/libcmis-0.5/libcmis/object.hxx$
+- /usr/include/libcmis-0.5/libcmis/property-type.hxx$
+- /usr/include/libcmis-0.5/libcmis/property.hxx$
+- /usr/include/libcmis-0.5/libcmis/rendition.hxx$
+- /usr/include/libcmis-0.5/libcmis/repository.hxx$
+- /usr/include/libcmis-0.5/libcmis/session-factory.hxx$
+- /usr/include/libcmis-0.5/libcmis/session.hxx$
+- /usr/include/libcmis-0.5/libcmis/xml-utils.hxx$
+- /usr/include/libcmis-0.5/libcmis/xmlserializable.hxx$
+- /usr/include/libcmis-c-0.5$
+- /usr/include/libcmis-c-0.5/libcmis-c$
+- /usr/include/libcmis-c-0.5/libcmis-c/allowable-actions.h$
+- /usr/include/libcmis-c-0.5/libcmis-c/document.h$
+- /usr/include/libcmis-c-0.5/libcmis-c/error.h$
+- /usr/include/libcmis-c-0.5/libcmis-c/folder.h$
+- /usr/include/libcmis-c-0.5/libcmis-c/libcmis-c-api.h$
+- /usr/include/libcmis-c-0.5/libcmis-c/libcmis-c.h$
+- /usr/include/libcmis-c-0.5/libcmis-c/oauth2-data.h$
+- /usr/include/libcmis-c-0.5/libcmis-c/object-type.h$
+- /usr/include/libcmis-c-0.5/libcmis-c/object.h$
+- /usr/include/libcmis-c-0.5/libcmis-c/property-type.h$
+- /usr/include/libcmis-c-0.5/libcmis-c/property.h$
+- /usr/include/libcmis-c-0.5/libcmis-c/rendition.h$
+- /usr/include/libcmis-c-0.5/libcmis-c/repository.h$
+- /usr/include/libcmis-c-0.5/libcmis-c/session-factory.h$
+- /usr/include/libcmis-c-0.5/libcmis-c/session.h$
+- /usr/include/libcmis-c-0.5/libcmis-c/types.h$
+- /usr/include/libcmis-c-0.5/libcmis-c/vectors.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libcmis-0.5.so$
+- /usr/lib64/libcmis-0.5.so.5$
+- /usr/lib64/libcmis-0.5.so.5.0.0$
+- /usr/lib64/libcmis-c-0.5.so$
+- /usr/lib64/libcmis-c-0.5.so.5$
+- /usr/lib64/libcmis-c-0.5.so.5.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libcmis-0.5.pc$
+- /usr/lib64/pkgconfig/libcmis-c-0.5.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libcmis-0.5.2-r1$
+- /usr/share/doc/libcmis-0.5.2-r1/AUTHORS.bz2$
+- /usr/share/doc/libcmis-0.5.2-r1/NEWS.bz2$
+- /usr/share/doc/libcmis-0.5.2-r1/README.md.bz2$

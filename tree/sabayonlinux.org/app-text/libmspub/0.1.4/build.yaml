@@ -1,0 +1,33 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-text/libmspub-0.1.4
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/pub2raw$
+- /usr/bin/pub2xhtml$
+- /usr/include$
+- /usr/include/libmspub-0.1$
+- /usr/include/libmspub-0.1/libmspub$
+- /usr/include/libmspub-0.1/libmspub/MSPUBDocument.h$
+- /usr/include/libmspub-0.1/libmspub/libmspub.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libmspub-0.1.so$
+- /usr/lib64/libmspub-0.1.so.1$
+- /usr/lib64/libmspub-0.1.so.1.0.4$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libmspub-0.1.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libmspub-0.1.4$
+- /usr/share/doc/libmspub-0.1.4/AUTHORS.bz2$
+- /usr/share/doc/libmspub-0.1.4/ChangeLog.bz2$
+- /usr/share/doc/libmspub-0.1.4/NEWS.bz2$
+- /usr/share/doc/libmspub-0.1.4/README.bz2$

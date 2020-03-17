@@ -1,0 +1,31 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/sdl2-mixer-2.0.4
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/SDL2$
+- /usr/include/SDL2/SDL_mixer.h$
+- /usr/lib$
+- /usr/lib/libSDL2_mixer-2.0.so.0$
+- /usr/lib/libSDL2_mixer-2.0.so.0.2.2$
+- /usr/lib/libSDL2_mixer.so$
+- /usr/lib/pkgconfig$
+- /usr/lib/pkgconfig/SDL2_mixer.pc$
+- /usr/lib64$
+- /usr/lib64/libSDL2_mixer-2.0.so.0$
+- /usr/lib64/libSDL2_mixer-2.0.so.0.2.2$
+- /usr/lib64/libSDL2_mixer.so$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/SDL2_mixer.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/sdl2-mixer-2.0.4$
+- /usr/share/doc/sdl2-mixer-2.0.4/CHANGES.txt.bz2$
+- /usr/share/doc/sdl2-mixer-2.0.4/README.txt.bz2$

@@ -1,0 +1,30 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/libpagemaker-0.0.4
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/libpagemaker-0.0$
+- /usr/include/libpagemaker-0.0/libpagemaker$
+- /usr/include/libpagemaker-0.0/libpagemaker/PMDocument.h$
+- /usr/include/libpagemaker-0.0/libpagemaker/libpagemaker.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libpagemaker-0.0.so$
+- /usr/lib64/libpagemaker-0.0.so.0$
+- /usr/lib64/libpagemaker-0.0.so.0.0.4$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libpagemaker-0.0.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libpagemaker-0.0.4$
+- /usr/share/doc/libpagemaker-0.0.4/AUTHORS.bz2$
+- /usr/share/doc/libpagemaker-0.0.4/ChangeLog.bz2$
+- /usr/share/doc/libpagemaker-0.0.4/NEWS.bz2$
+- /usr/share/doc/libpagemaker-0.0.4/README.bz2$

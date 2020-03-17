@@ -1,0 +1,31 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/sdl2-ttf-2.0.15
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/SDL2$
+- /usr/include/SDL2/SDL_ttf.h$
+- /usr/lib$
+- /usr/lib/libSDL2_ttf-2.0.so.0$
+- /usr/lib/libSDL2_ttf-2.0.so.0.14.1$
+- /usr/lib/libSDL2_ttf.so$
+- /usr/lib/pkgconfig$
+- /usr/lib/pkgconfig/SDL2_ttf.pc$
+- /usr/lib64$
+- /usr/lib64/libSDL2_ttf-2.0.so.0$
+- /usr/lib64/libSDL2_ttf-2.0.so.0.14.1$
+- /usr/lib64/libSDL2_ttf.so$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/SDL2_ttf.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/sdl2-ttf-2.0.15$
+- /usr/share/doc/sdl2-ttf-2.0.15/CHANGES.txt.bz2$
+- /usr/share/doc/sdl2-ttf-2.0.15/README.txt.bz2$

@@ -1,0 +1,30 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-text/libstaroffice-0.0.6
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/libstaroffice-0.0$
+- /usr/include/libstaroffice-0.0/libstaroffice$
+- /usr/include/libstaroffice-0.0/libstaroffice/STOFFDocument.hxx$
+- /usr/include/libstaroffice-0.0/libstaroffice/libstaroffice.hxx$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libstaroffice-0.0.so$
+- /usr/lib64/libstaroffice-0.0.so.0$
+- /usr/lib64/libstaroffice-0.0.so.0.0.6$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libstaroffice-0.0.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libstaroffice-0.0.6$
+- /usr/share/doc/libstaroffice-0.0.6/CREDITS.bz2$
+- /usr/share/doc/libstaroffice-0.0.6/ChangeLog.bz2$
+- /usr/share/doc/libstaroffice-0.0.6/NEWS.bz2$
+- /usr/share/doc/libstaroffice-0.0.6/README.bz2$

@@ -1,0 +1,41 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-text/libetonyek-0.1.9
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/key2raw$
+- /usr/bin/key2text$
+- /usr/bin/key2xhtml$
+- /usr/bin/numbers2csv$
+- /usr/bin/numbers2raw$
+- /usr/bin/numbers2text$
+- /usr/bin/pages2html$
+- /usr/bin/pages2raw$
+- /usr/bin/pages2text$
+- /usr/include$
+- /usr/include/libetonyek-0.1$
+- /usr/include/libetonyek-0.1/libetonyek$
+- /usr/include/libetonyek-0.1/libetonyek/EtonyekDocument.h$
+- /usr/include/libetonyek-0.1/libetonyek/libetonyek.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libetonyek-0.1.so$
+- /usr/lib64/libetonyek-0.1.so.1$
+- /usr/lib64/libetonyek-0.1.so.1.0.9$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libetonyek-0.1.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libetonyek-0.1.9$
+- /usr/share/doc/libetonyek-0.1.9/AUTHORS.bz2$
+- /usr/share/doc/libetonyek-0.1.9/ChangeLog.bz2$
+- /usr/share/doc/libetonyek-0.1.9/NEWS.bz2$
+- /usr/share/doc/libetonyek-0.1.9/README.bz2$
+- /usr/share/doc/libetonyek-0.1.9/TODO.bz2$

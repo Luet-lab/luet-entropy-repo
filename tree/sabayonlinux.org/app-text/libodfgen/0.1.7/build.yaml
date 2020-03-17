@@ -1,0 +1,35 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-text/libodfgen-0.1.7
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/libodfgen-0.1$
+- /usr/include/libodfgen-0.1/libodfgen$
+- /usr/include/libodfgen-0.1/libodfgen/OdfDocumentHandler.hxx$
+- /usr/include/libodfgen-0.1/libodfgen/OdgGenerator.hxx$
+- /usr/include/libodfgen-0.1/libodfgen/OdpGenerator.hxx$
+- /usr/include/libodfgen-0.1/libodfgen/OdsGenerator.hxx$
+- /usr/include/libodfgen-0.1/libodfgen/OdtGenerator.hxx$
+- /usr/include/libodfgen-0.1/libodfgen/libodfgen-api.hxx$
+- /usr/include/libodfgen-0.1/libodfgen/libodfgen.hxx$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libodfgen-0.1.so$
+- /usr/lib64/libodfgen-0.1.so.1$
+- /usr/lib64/libodfgen-0.1.so.1.0.7$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libodfgen-0.1.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libodfgen-0.1.7$
+- /usr/share/doc/libodfgen-0.1.7/AUTHORS.bz2$
+- /usr/share/doc/libodfgen-0.1.7/ChangeLog.bz2$
+- /usr/share/doc/libodfgen-0.1.7/NEWS.bz2$
+- /usr/share/doc/libodfgen-0.1.7/README.bz2$

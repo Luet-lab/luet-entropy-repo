@@ -1,0 +1,21 @@
+
+category: "app-text"
+name: "libwps"
+version: "0.4.10"
+license: ""
+
+use_flags:
+- "big-endian"
+- "amd64"
+- "-doc"
+- "-debug"
+- "kernel_linux"
+- "tools"
+- "elibc_glibc"
+- "abi_x86_64"
+- "userland_GNU"
+- "-static-libs"
+requires:
+- category: "dev-libs"
+  name: "librevenge"
+  version: ">=0"

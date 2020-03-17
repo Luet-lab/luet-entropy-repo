@@ -1,0 +1,26 @@
+
+category: "app-text"
+name: "liblangtag"
+version: "0.6.3"
+license: ""
+
+use_flags:
+- "big-endian"
+- "-introspection"
+- "amd64"
+- "-debug"
+- "-doc"
+- "kernel_linux"
+- "elibc_glibc"
+- "split-usr"
+- "-test"
+- "abi_x86_64"
+- "userland_GNU"
+- "-static-libs"
+requires:
+- category: "dev-libs"
+  name: "libxml2-2"
+  version: ">=0"
+- category: "sys-devel"
+  name: "gettext"
+  version: ">=0"

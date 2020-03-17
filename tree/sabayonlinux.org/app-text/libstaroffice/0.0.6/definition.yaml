@@ -1,0 +1,27 @@
+
+category: "app-text"
+name: "libstaroffice"
+version: "0.0.6"
+license: ""
+
+use_flags:
+- "big-endian"
+- "amd64"
+- "-debug"
+- "-doc"
+- "kernel_linux"
+- "zlib"
+- "elibc_glibc"
+- "abi_x86_64"
+- "-tools"
+- "userland_GNU"
+requires:
+- category: "dev-libs"
+  name: "librevenge"
+  version: ">=0"
+- category: "sys-libs"
+  name: "glibc-2.2"
+  version: ">=0"
+- category: "sys-libs"
+  name: "zlib"
+  version: ">=0"

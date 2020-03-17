@@ -1,0 +1,33 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-text/libqxp-0.0.2
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/libqxp-0.0$
+- /usr/include/libqxp-0.0/libqxp$
+- /usr/include/libqxp-0.0/libqxp/QXPDocument.h$
+- /usr/include/libqxp-0.0/libqxp/QXPPathResolver.h$
+- /usr/include/libqxp-0.0/libqxp/libqxp.h$
+- /usr/include/libqxp-0.0/libqxp/libqxp_api.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libqxp-0.0.so$
+- /usr/lib64/libqxp-0.0.so.0$
+- /usr/lib64/libqxp-0.0.so.0.0.2$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libqxp-0.0.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libqxp-0.0.2$
+- /usr/share/doc/libqxp-0.0.2/AUTHORS.bz2$
+- /usr/share/doc/libqxp-0.0.2/ChangeLog.bz2$
+- /usr/share/doc/libqxp-0.0.2/NEWS.bz2$
+- /usr/share/doc/libqxp-0.0.2/README.bz2$
+- /usr/share/doc/libqxp-0.0.2/TODO$

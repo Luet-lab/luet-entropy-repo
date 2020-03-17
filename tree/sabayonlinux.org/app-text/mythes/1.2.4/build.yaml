@@ -1,0 +1,28 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-text/mythes-1.2.4
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/th_gen_idx.pl$
+- /usr/include$
+- /usr/include/mythes.hxx$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libmythes-1.2.so$
+- /usr/lib64/libmythes-1.2.so.0$
+- /usr/lib64/libmythes-1.2.so.0.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/mythes.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/mythes-1.2.4$
+- /usr/share/doc/mythes-1.2.4/AUTHORS$
+- /usr/share/doc/mythes-1.2.4/ChangeLog.bz2$
+- /usr/share/doc/mythes-1.2.4/README.bz2$
