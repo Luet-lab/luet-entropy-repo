@@ -1,0 +1,14 @@
+
+category: "sys-devel"
+name: "ucpp"
+version: "1.3.4"
+license: ""
+
+use_flags:
+- "amd64"
+- "abi_x86_64"
+- "multilib"
+- "userland_GNU"
+- "kernel_linux"
+- "elibc_glibc"
+- "-static-libs"

@@ -1,0 +1,63 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i games-strategy/0ad-0.0.23b_alpha
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/0ad$
+- /usr/bin/0ad-ActorEditor$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/0ad$
+- /usr/lib64/0ad/libAtlasUI.so$
+- /usr/lib64/0ad/libCollada.so$
+- /usr/lib64/0ad/libmozjs38-ps-release.so$
+- /usr/share$
+- /usr/share/0ad$
+- /usr/share/0ad/l10n$
+- /usr/share/0ad/l10n/.tx$
+- /usr/share/0ad/l10n/.tx/config$
+- /usr/share/0ad/l10n/ast.engine.po$
+- /usr/share/0ad/l10n/bg.engine.po$
+- /usr/share/0ad/l10n/ca.engine.po$
+- /usr/share/0ad/l10n/cs.engine.po$
+- /usr/share/0ad/l10n/de.engine.po$
+- /usr/share/0ad/l10n/el.engine.po$
+- /usr/share/0ad/l10n/en_GB.engine.po$
+- /usr/share/0ad/l10n/engine.pot$
+- /usr/share/0ad/l10n/es.engine.po$
+- /usr/share/0ad/l10n/eu.engine.po$
+- /usr/share/0ad/l10n/fr.engine.po$
+- /usr/share/0ad/l10n/gd.engine.po$
+- /usr/share/0ad/l10n/gl.engine.po$
+- /usr/share/0ad/l10n/hu.engine.po$
+- /usr/share/0ad/l10n/id.engine.po$
+- /usr/share/0ad/l10n/it.engine.po$
+- /usr/share/0ad/l10n/messages.json$
+- /usr/share/0ad/l10n/ms.engine.po$
+- /usr/share/0ad/l10n/nb.engine.po$
+- /usr/share/0ad/l10n/nl.engine.po$
+- /usr/share/0ad/l10n/pl.engine.po$
+- /usr/share/0ad/l10n/pt_BR.engine.po$
+- /usr/share/0ad/l10n/pt_PT.engine.po$
+- /usr/share/0ad/l10n/ru.engine.po$
+- /usr/share/0ad/l10n/sk.engine.po$
+- /usr/share/0ad/l10n/sv.engine.po$
+- /usr/share/0ad/l10n/tr.engine.po$
+- /usr/share/0ad/l10n/uk.engine.po$
+- /usr/share/applications$
+- /usr/share/applications/0ad-0ad.desktop$
+- /usr/share/doc$
+- /usr/share/doc/0ad-0.0.23b_alpha$
+- /usr/share/doc/0ad-0.0.23b_alpha/readme.txt.bz2$
+- /usr/share/icons$
+- /usr/share/icons/hicolor$
+- /usr/share/icons/hicolor/128x128$
+- /usr/share/icons/hicolor/128x128/apps$
+- /usr/share/icons/hicolor/128x128/apps/0ad.png$

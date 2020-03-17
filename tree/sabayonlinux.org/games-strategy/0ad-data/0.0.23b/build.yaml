@@ -1,0 +1,73 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i games-strategy/0ad-data-0.0.23b_alpha
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/0ad$
+- /usr/share/0ad/config$
+- /usr/share/0ad/config/default.cfg$
+- /usr/share/0ad/config/keys.txt$
+- /usr/share/0ad/mods$
+- /usr/share/0ad/mods/mod$
+- /usr/share/0ad/mods/mod/mod.zip$
+- /usr/share/0ad/mods/public$
+- /usr/share/0ad/mods/public/public.zip$
+- /usr/share/0ad/tools$
+- /usr/share/0ad/tools/atlas$
+- /usr/share/0ad/tools/atlas/buttons$
+- /usr/share/0ad/tools/atlas/buttons/next_s.bmp$
+- /usr/share/0ad/tools/atlas/buttons/pause_s.bmp$
+- /usr/share/0ad/tools/atlas/buttons/play_s.bmp$
+- /usr/share/0ad/tools/atlas/buttons/previous_s.bmp$
+- /usr/share/0ad/tools/atlas/buttons/record_s.bmp$
+- /usr/share/0ad/tools/atlas/buttons/stop_s.bmp$
+- /usr/share/0ad/tools/atlas/help.json$
+- /usr/share/0ad/tools/atlas/icons$
+- /usr/share/0ad/tools/atlas/icons/ScenarioEditor.ico$
+- /usr/share/0ad/tools/atlas/lists.xml$
+- /usr/share/0ad/tools/atlas/toolbar$
+- /usr/share/0ad/tools/atlas/toolbar/alterelevation.png$
+- /usr/share/0ad/tools/atlas/toolbar/alterelevation_s.png$
+- /usr/share/0ad/tools/atlas/toolbar/cinematic.png$
+- /usr/share/0ad/tools/atlas/toolbar/default.png$
+- /usr/share/0ad/tools/atlas/toolbar/default_s.png$
+- /usr/share/0ad/tools/atlas/toolbar/environment.png$
+- /usr/share/0ad/tools/atlas/toolbar/flattenelevation.png$
+- /usr/share/0ad/tools/atlas/toolbar/flattenelevation_s.png$
+- /usr/share/0ad/tools/atlas/toolbar/map.png$
+- /usr/share/0ad/tools/atlas/toolbar/mapsettings.png$
+- /usr/share/0ad/tools/atlas/toolbar/moveobject.png$
+- /usr/share/0ad/tools/atlas/toolbar/moveobject_s.png$
+- /usr/share/0ad/tools/atlas/toolbar/movepath.png$
+- /usr/share/0ad/tools/atlas/toolbar/object.png$
+- /usr/share/0ad/tools/atlas/toolbar/objects.png$
+- /usr/share/0ad/tools/atlas/toolbar/paintterrain.png$
+- /usr/share/0ad/tools/atlas/toolbar/paintterrain_s.png$
+- /usr/share/0ad/tools/atlas/toolbar/player.png$
+- /usr/share/0ad/tools/atlas/toolbar/redo.png$
+- /usr/share/0ad/tools/atlas/toolbar/smoothelevation.png$
+- /usr/share/0ad/tools/atlas/toolbar/terrain.png$
+- /usr/share/0ad/tools/atlas/toolbar/trigger.png$
+- /usr/share/0ad/tools/atlas/toolbar/undo.png$
+- /usr/share/0ad/tools/fontbuilder$
+- /usr/share/0ad/tools/fontbuilder/fonts$
+- /usr/share/0ad/tools/fontbuilder/fonts/DejaVuSansMono.ttf$
+- /usr/share/0ad/tools/fontbuilder/fonts/FreeMono.ttf$
+- /usr/share/0ad/tools/fontbuilder/fonts/FreeSans.ttf$
+- /usr/share/0ad/tools/fontbuilder/fonts/FreeSansBold.ttf$
+- /usr/share/0ad/tools/fontbuilder/fonts/FreeSansOblique.ttf$
+- /usr/share/0ad/tools/fontbuilder/fonts/FreeSerif.ttf$
+- /usr/share/0ad/tools/fontbuilder/fonts/FreeSerifBold.ttf$
+- /usr/share/0ad/tools/fontbuilder/fonts/LinBiolinum_Kah.ttf$
+- /usr/share/0ad/tools/fontbuilder/fonts/LinBiolinum_RBah.ttf$
+- /usr/share/0ad/tools/fontbuilder/fonts/LinBiolinum_RIah.ttf$
+- /usr/share/0ad/tools/fontbuilder/fonts/LinBiolinum_Rah.ttf$
+- /usr/share/0ad/tools/fontbuilder/fonts/texgyrepagella-bold.otf$
+- /usr/share/0ad/tools/fontbuilder/fonts/texgyrepagella-regular.otf$

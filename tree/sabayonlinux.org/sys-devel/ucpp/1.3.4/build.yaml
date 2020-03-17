@@ -1,0 +1,39 @@
+
+steps:
+- source /etc/profile && equo up
+- source /etc/profile && ACCEPT_LICENSE=* equo i sys-devel/ucpp-1.3.4
+unpack: true
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/ucpp$
+- /usr/include$
+- /usr/include/libucpp$
+- /usr/include/libucpp/cpp.h$
+- /usr/include/libucpp/hash.h$
+- /usr/include/libucpp/mem.h$
+- /usr/include/libucpp/nhash.h$
+- /usr/include/libucpp/tune.h$
+- /usr/include/libucpp/ucpp-config.h$
+- /usr/include/libucpp/ucppi.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libucpp.so$
+- /usr/lib64/libucpp.so.13$
+- /usr/lib64/libucpp.so.13.0.4$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libucpp.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/ucpp-1.3.4$
+- /usr/share/doc/ucpp-1.3.4/AUTHORS.bz2$
+- /usr/share/doc/ucpp-1.3.4/ChangeLog.bz2$
+- /usr/share/doc/ucpp-1.3.4/README.bz2$
+- /usr/share/doc/ucpp-1.3.4/TODO.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/ucpp.1.bz2$
