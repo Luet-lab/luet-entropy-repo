@@ -14,6 +14,7 @@ PARALLEL_JOBS=${PARALLEL_JOBS:-40}
 BACKGROUND_MODE=${BACKGROUND_MODE:-0}
 #ENTROPY_DB=${ENTROPY_DB:-/var/lib/entropy/client/database/amd64/${REPOSITORY}/amd64/5/packages.db}
 ENTROPY_DB=${ENTROPY_DB:-/var/lib/entropy/client/database/amd64/equo.db}
+PKG_SLOT_SEPARATOR=${PKG_SLOT_SEPARATOR:--}
 
 
 process_package () {
@@ -58,7 +59,7 @@ process_package () {
   slot=$(echo "${slot}" | sed 's:/.*::g')
   local luet_name="${name}"
   if [ "$slot" != "0" ] ; then
-    luet_name="${name}-${slot}"
+    luet_name="${name}${PKG_SLOT_SEPARATOR}${slot}"
   fi
 
   local pkgdir="${cat}/${luet_name}/${version}"
@@ -126,7 +127,8 @@ requires:
       echo "includes:" >> $pkgdir/build.yaml
     fi
     let inc_counter++ || true
-    # Check if include contains 
+    # Check if include contains + char and fix regex
+    inc=$(echo "$inc" | sed -e 's|\+|\[+\]|g')
     echo "- ${inc}$" >> $pkgdir/build.yaml
   done
 
@@ -179,7 +181,7 @@ requires:
     fi
 
     if [ "${dep_slot}" != "0" ] ; then
-      dep_luet_name="${dep_name}-${dep_slot}"
+      dep_luet_name="${dep_name}${PKG_SLOT_SEPARATOR}${dep_slot}"
     fi
 
     if [ $dep_num -eq 0 ] ; then
