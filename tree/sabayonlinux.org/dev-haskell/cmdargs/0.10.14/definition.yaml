@@ -1,63 +1,28 @@
-State: ""
-category: dev-haskell
-conflicts: null
-description: ""
-id: 0
+
+category: "dev-haskell"
+name: "cmdargs"
+version: "0.10.14"
 license: ""
-name: cmdargs
-provides: null
-requires:
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: cabal
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=1.6'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: transformers
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=0.2'
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: ghc
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=7.4.1'
-set: false
-uri: null
+
 use_flags:
-- big-endian
-- amd64
-- -testprog
-- quotation
-- userland_GNU
-- -doc
-- elibc_glibc
-- -hscolour
-- kernel_linux
-- -profile
-- abi_x86_64
-version: 0.10.14+1
+- "big-endian"
+- "amd64"
+- "-testprog"
+- "quotation"
+- "userland_GNU"
+- "-doc"
+- "elibc_glibc"
+- "-hscolour"
+- "kernel_linux"
+- "-profile"
+- "abi_x86_64"
+requires:
+- category: "dev-haskell"
+  name: "cabal"
+  version: ">=1.6"
+- category: "dev-haskell"
+  name: "transformers"
+  version: ">=0.2"
+- category: "dev-lang"
+  name: "ghc"
+  version: ">=7.4.1"

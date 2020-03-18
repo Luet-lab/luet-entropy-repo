@@ -1,61 +1,26 @@
-State: ""
-category: dev-haskell
-conflicts: null
-description: ""
-id: 0
+
+category: "dev-haskell"
+name: "data-default-instances-containers"
+version: "0.0.1"
 license: ""
-name: data-default-instances-containers
-provides: null
-requires:
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: cabal
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=1.6'
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: ghc
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=6.10.4'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: data-default-class
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=0'
-set: false
-uri: null
+
 use_flags:
-- userland_GNU
-- -doc
-- abi_x86_64
-- -hscolour
-- -profile
-- kernel_linux
-- amd64
-- elibc_glibc
-- big-endian
-version: 0.0.1+1
+- "userland_GNU"
+- "-doc"
+- "abi_x86_64"
+- "-hscolour"
+- "-profile"
+- "kernel_linux"
+- "amd64"
+- "elibc_glibc"
+- "big-endian"
+requires:
+- category: "dev-haskell"
+  name: "cabal"
+  version: ">=1.6"
+- category: "dev-lang"
+  name: "ghc"
+  version: ">=6.10.4"
+- category: "dev-haskell"
+  name: "data-default-class"
+  version: ">=0"

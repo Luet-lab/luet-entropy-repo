@@ -1,127 +1,42 @@
-State: ""
-category: dev-haskell
-conflicts: null
-description: ""
-id: 0
+
+category: "dev-haskell"
+name: "pandoc-types"
+version: "1.17.0.4"
 license: ""
-name: pandoc-types
-provides: null
-requires:
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: aeson
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: <1.1
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: syb
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: <0.7
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: aeson
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=0.6.2'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: cabal
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=1.8'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: deepseq-generics
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=0.1'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: quickcheck-2
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=2'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: syb
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=0.1'
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: ghc
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=7.4.1'
-set: false
-uri: null
+
 use_flags:
-- big-endian
-- kernel_linux
-- -doc
-- amd64
-- -hscolour
-- elibc_glibc
-- userland_GNU
-- -profile
-- -test
-- abi_x86_64
-version: 1.17.0.4+1
+- "big-endian"
+- "kernel_linux"
+- "-doc"
+- "amd64"
+- "-hscolour"
+- "elibc_glibc"
+- "userland_GNU"
+- "-profile"
+- "-test"
+- "abi_x86_64"
+requires:
+- category: "dev-haskell"
+  name: "aeson"
+  version: "<1.1"
+- category: "dev-haskell"
+  name: "syb"
+  version: "<0.7"
+- category: "dev-haskell"
+  name: "aeson"
+  version: ">=0.6.2"
+- category: "dev-haskell"
+  name: "cabal"
+  version: ">=1.8"
+- category: "dev-haskell"
+  name: "deepseq-generics"
+  version: ">=0.1"
+- category: "dev-haskell"
+  name: "quickcheck-2"
+  version: ">=2"
+- category: "dev-haskell"
+  name: "syb"
+  version: ">=0.1"
+- category: "dev-lang"
+  name: "ghc"
+  version: ">=7.4.1"

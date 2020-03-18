@@ -1,114 +1,39 @@
-State: ""
-category: dev-haskell
-conflicts: null
-description: ""
-id: 0
+
+category: "dev-haskell"
+name: "http-client-tls"
+version: "0.2.4"
 license: ""
-name: http-client-tls
-provides: null
-requires:
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: cabal
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=1.10'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: connection
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=0.2.2'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: http-client
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=0.3.5'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: tls
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=1.2'
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: ghc
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=7.4.1'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: data-default-class
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=0'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: network
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=0'
-set: false
-uri: null
+
 use_flags:
-- big-endian
-- kernel_linux
-- -doc
-- amd64
-- -hscolour
-- elibc_glibc
-- userland_GNU
-- -profile
-- -test
-- abi_x86_64
-version: 0.2.4+1
+- "big-endian"
+- "kernel_linux"
+- "-doc"
+- "amd64"
+- "-hscolour"
+- "elibc_glibc"
+- "userland_GNU"
+- "-profile"
+- "-test"
+- "abi_x86_64"
+requires:
+- category: "dev-haskell"
+  name: "cabal"
+  version: ">=1.10"
+- category: "dev-haskell"
+  name: "connection"
+  version: ">=0.2.2"
+- category: "dev-haskell"
+  name: "http-client"
+  version: ">=0.3.5"
+- category: "dev-haskell"
+  name: "tls"
+  version: ">=1.2"
+- category: "dev-lang"
+  name: "ghc"
+  version: ">=7.4.1"
+- category: "dev-haskell"
+  name: "data-default-class"
+  version: ">=0"
+- category: "dev-haskell"
+  name: "network"
+  version: ">=0"

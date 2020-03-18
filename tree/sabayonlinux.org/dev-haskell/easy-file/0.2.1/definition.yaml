@@ -1,48 +1,23 @@
-State: ""
-category: dev-haskell
-conflicts: null
-description: ""
-id: 0
+
+category: "dev-haskell"
+name: "easy-file"
+version: "0.2.1"
 license: ""
-name: easy-file
-provides: null
-requires:
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: cabal
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=1.6'
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: ghc
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=7.4.1'
-set: false
-uri: null
+
 use_flags:
-- userland_GNU
-- abi_x86_64
-- -profile
-- amd64
-- elibc_glibc
-- -hscolour
-- -doc
-- kernel_linux
-- big-endian
-version: 0.2.1+1
+- "userland_GNU"
+- "abi_x86_64"
+- "-profile"
+- "amd64"
+- "elibc_glibc"
+- "-hscolour"
+- "-doc"
+- "kernel_linux"
+- "big-endian"
+requires:
+- category: "dev-haskell"
+  name: "cabal"
+  version: ">=1.6"
+- category: "dev-lang"
+  name: "ghc"
+  version: ">=7.4.1"

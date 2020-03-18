@@ -1,76 +1,31 @@
-State: ""
-category: dev-haskell
-conflicts: null
-description: ""
-id: 0
+
+category: "dev-haskell"
+name: "sha"
+version: "1.6.4.2"
 license: ""
-name: sha
-provides: null
-requires:
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: binary
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: <10000
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: binary
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=0.7'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: cabal
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=1.8'
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: ghc
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=7.4.1'
-set: false
-uri: null
+
 use_flags:
-- big-endian
-- -exe
-- kernel_linux
-- -doc
-- amd64
-- -hscolour
-- elibc_glibc
-- userland_GNU
-- -profile
-- -test
-- abi_x86_64
-version: 1.6.4.2+1
+- "big-endian"
+- "-exe"
+- "kernel_linux"
+- "-doc"
+- "amd64"
+- "-hscolour"
+- "elibc_glibc"
+- "userland_GNU"
+- "-profile"
+- "-test"
+- "abi_x86_64"
+requires:
+- category: "dev-haskell"
+  name: "binary"
+  version: "<10000"
+- category: "dev-haskell"
+  name: "binary"
+  version: ">=0.7"
+- category: "dev-haskell"
+  name: "cabal"
+  version: ">=1.8"
+- category: "dev-lang"
+  name: "ghc"
+  version: ">=7.4.1"

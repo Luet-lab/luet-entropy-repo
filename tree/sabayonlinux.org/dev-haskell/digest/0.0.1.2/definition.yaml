@@ -1,61 +1,26 @@
-State: ""
-category: dev-haskell
-conflicts: null
-description: ""
-id: 0
+
+category: "dev-haskell"
+name: "digest"
+version: "0.0.1.2"
 license: ""
-name: digest
-provides: null
-requires:
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: cabal
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=1.6'
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: ghc
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=6.10.4'
-- State: ""
-  category: sys-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: zlib
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=0'
-set: false
-uri: null
+
 use_flags:
-- -doc
-- elibc_glibc
-- amd64
-- abi_x86_64
-- kernel_linux
-- userland_GNU
-- -hscolour
-- -profile
-- big-endian
-version: 0.0.1.2+1
+- "-doc"
+- "elibc_glibc"
+- "amd64"
+- "abi_x86_64"
+- "kernel_linux"
+- "userland_GNU"
+- "-hscolour"
+- "-profile"
+- "big-endian"
+requires:
+- category: "dev-haskell"
+  name: "cabal"
+  version: ">=1.6"
+- category: "dev-lang"
+  name: "ghc"
+  version: ">=6.10.4"
+- category: "sys-libs"
+  name: "zlib"
+  version: ">=0"

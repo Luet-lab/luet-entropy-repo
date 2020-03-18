@@ -1,101 +1,36 @@
-State: ""
-category: dev-haskell
-conflicts: null
-description: ""
-id: 0
+
+category: "dev-haskell"
+name: "cookie"
+version: "0.4.2.1"
 license: ""
-name: cookie
-provides: null
-requires:
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: blaze-builder
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=0.2.1'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: cabal
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=1.8'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: old-locale
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=1'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: text
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=0.7'
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: ghc
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=7.4.1'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: data-default-class
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=0'
-set: false
-uri: null
+
 use_flags:
-- elibc_glibc
-- abi_x86_64
-- -doc
-- big-endian
-- -profile
-- kernel_linux
-- amd64
-- -test
-- -hscolour
-- userland_GNU
-version: 0.4.2.1+1
+- "elibc_glibc"
+- "abi_x86_64"
+- "-doc"
+- "big-endian"
+- "-profile"
+- "kernel_linux"
+- "amd64"
+- "-test"
+- "-hscolour"
+- "userland_GNU"
+requires:
+- category: "dev-haskell"
+  name: "blaze-builder"
+  version: ">=0.2.1"
+- category: "dev-haskell"
+  name: "cabal"
+  version: ">=1.8"
+- category: "dev-haskell"
+  name: "old-locale"
+  version: ">=1"
+- category: "dev-haskell"
+  name: "text"
+  version: ">=0.7"
+- category: "dev-lang"
+  name: "ghc"
+  version: ">=7.4.1"
+- category: "dev-haskell"
+  name: "data-default-class"
+  version: ">=0"

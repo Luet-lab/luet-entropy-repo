@@ -1,62 +1,27 @@
-State: ""
-category: dev-haskell
-conflicts: null
-description: ""
-id: 0
+
+category: "dev-haskell"
+name: "regex-applicative"
+version: "0.3.3"
 license: ""
-name: regex-applicative
-provides: null
-requires:
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: cabal
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=1.10'
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: ghc
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=7.4.1'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: transformers
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=0'
-set: false
-uri: null
+
 use_flags:
-- elibc_glibc
-- amd64
-- abi_x86_64
-- -test
-- -profile
-- userland_GNU
-- -doc
-- -hscolour
-- big-endian
-- kernel_linux
-version: 0.3.3+1
+- "elibc_glibc"
+- "amd64"
+- "abi_x86_64"
+- "-test"
+- "-profile"
+- "userland_GNU"
+- "-doc"
+- "-hscolour"
+- "big-endian"
+- "kernel_linux"
+requires:
+- category: "dev-haskell"
+  name: "cabal"
+  version: ">=1.10"
+- category: "dev-lang"
+  name: "ghc"
+  version: ">=7.4.1"
+- category: "dev-haskell"
+  name: "transformers"
+  version: ">=0"

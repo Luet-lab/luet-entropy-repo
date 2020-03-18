@@ -1,49 +1,24 @@
-State: ""
-category: dev-haskell
-conflicts: null
-description: ""
-id: 0
+
+category: "dev-haskell"
+name: "base64-bytestring"
+version: "1.0.0.1"
 license: ""
-name: base64-bytestring
-provides: null
-requires:
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: cabal
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=1.8'
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: ghc
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=6.10.4'
-set: false
-uri: null
+
 use_flags:
-- elibc_glibc
-- abi_x86_64
-- -doc
-- big-endian
-- -profile
-- kernel_linux
-- amd64
-- -test
-- -hscolour
-- userland_GNU
-version: 1.0.0.1+1
+- "elibc_glibc"
+- "abi_x86_64"
+- "-doc"
+- "big-endian"
+- "-profile"
+- "kernel_linux"
+- "amd64"
+- "-test"
+- "-hscolour"
+- "userland_GNU"
+requires:
+- category: "dev-haskell"
+  name: "cabal"
+  version: ">=1.8"
+- category: "dev-lang"
+  name: "ghc"
+  version: ">=6.10.4"

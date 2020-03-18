@@ -1,72 +1,27 @@
-State: ""
-category: dev-haskell
-conflicts: null
-description: ""
-id: 0
+
+category: "dev-haskell"
+name: "haddock"
+version: "2.17.2"
 license: ""
-name: haddock
-provides: null
-requires:
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: haddock-api
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: <2.18
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: cabal
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=1.10'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: haddock-api
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=2.17'
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: ghc
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=7.4.1'
-set: false
-uri: null
+
 use_flags:
-- amd64
-- abi_x86_64
-- elibc_glibc
-- kernel_linux
-- userland_GNU
-- big-endian
-- -test
-version: 2.17.2+1
+- "amd64"
+- "abi_x86_64"
+- "elibc_glibc"
+- "kernel_linux"
+- "userland_GNU"
+- "big-endian"
+- "-test"
+requires:
+- category: "dev-haskell"
+  name: "haddock-api"
+  version: "<2.18"
+- category: "dev-haskell"
+  name: "cabal"
+  version: ">=1.10"
+- category: "dev-haskell"
+  name: "haddock-api"
+  version: ">=2.17"
+- category: "dev-lang"
+  name: "ghc"
+  version: ">=7.4.1"

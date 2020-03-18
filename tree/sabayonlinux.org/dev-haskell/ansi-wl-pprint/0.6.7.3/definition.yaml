@@ -1,75 +1,30 @@
-State: ""
-category: dev-haskell
-conflicts: null
-description: ""
-id: 0
+
+category: "dev-haskell"
+name: "ansi-wl-pprint"
+version: "0.6.7.3"
 license: ""
-name: ansi-wl-pprint
-provides: null
-requires:
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: ansi-terminal
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: <0.7
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: ansi-terminal
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=0.4.0'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: cabal
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=1.6'
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: ghc
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=7.4.1'
-set: false
-uri: null
+
 use_flags:
-- -doc
-- -profile
-- amd64
-- big-endian
-- userland_GNU
-- -hscolour
-- kernel_linux
-- -example
-- abi_x86_64
-- elibc_glibc
-version: 0.6.7.3+1
+- "-doc"
+- "-profile"
+- "amd64"
+- "big-endian"
+- "userland_GNU"
+- "-hscolour"
+- "kernel_linux"
+- "-example"
+- "abi_x86_64"
+- "elibc_glibc"
+requires:
+- category: "dev-haskell"
+  name: "ansi-terminal"
+  version: "<0.7"
+- category: "dev-haskell"
+  name: "ansi-terminal"
+  version: ">=0.4.0"
+- category: "dev-haskell"
+  name: "cabal"
+  version: ">=1.6"
+- category: "dev-lang"
+  name: "ghc"
+  version: ">=7.4.1"

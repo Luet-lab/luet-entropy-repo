@@ -1,48 +1,23 @@
-State: ""
-category: dev-haskell
-conflicts: null
-description: ""
-id: 0
+
+category: "dev-haskell"
+name: "xhtml"
+version: "3000.2.1+r1"
 license: ""
-name: xhtml
-provides: null
-requires:
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: cabal
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=1.6'
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: ghc
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=6.10.4'
-set: false
-uri: null
+
 use_flags:
-- amd64
-- -profile
-- elibc_glibc
-- -doc
-- big-endian
-- abi_x86_64
-- -hscolour
-- kernel_linux
-- userland_GNU
-version: 3000.2.1+r2
+- "amd64"
+- "-profile"
+- "elibc_glibc"
+- "-doc"
+- "big-endian"
+- "abi_x86_64"
+- "-hscolour"
+- "kernel_linux"
+- "userland_GNU"
+requires:
+- category: "dev-haskell"
+  name: "cabal"
+  version: ">=1.6"
+- category: "dev-lang"
+  name: "ghc"
+  version: ">=6.10.4"

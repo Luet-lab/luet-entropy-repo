@@ -1,114 +1,39 @@
-State: ""
-category: dev-haskell
-conflicts: null
-description: ""
-id: 0
+
+category: "dev-haskell"
+name: "hxt-regex-xmlschema"
+version: "9.2.0.3"
 license: ""
-name: hxt-regex-xmlschema
-provides: null
-requires:
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: hxt-charproperties
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: <10
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: parsec
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: <4
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: cabal
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=1.16.0'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: hxt-charproperties
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=9'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: parsec
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=2.1'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: text
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=0.10'
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: ghc
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=7.6.1'
-set: false
-uri: null
+
 use_flags:
-- big-endian
-- kernel_linux
-- -doc
-- amd64
-- -hscolour
-- elibc_glibc
-- userland_GNU
-- -profile
-- -test
-- abi_x86_64
-version: 9.2.0.3+1
+- "big-endian"
+- "kernel_linux"
+- "-doc"
+- "amd64"
+- "-hscolour"
+- "elibc_glibc"
+- "userland_GNU"
+- "-profile"
+- "-test"
+- "abi_x86_64"
+requires:
+- category: "dev-haskell"
+  name: "hxt-charproperties"
+  version: "<10"
+- category: "dev-haskell"
+  name: "parsec"
+  version: "<4"
+- category: "dev-haskell"
+  name: "cabal"
+  version: ">=1.16.0"
+- category: "dev-haskell"
+  name: "hxt-charproperties"
+  version: ">=9"
+- category: "dev-haskell"
+  name: "parsec"
+  version: ">=2.1"
+- category: "dev-haskell"
+  name: "text"
+  version: ">=0.10"
+- category: "dev-lang"
+  name: "ghc"
+  version: ">=7.6.1"

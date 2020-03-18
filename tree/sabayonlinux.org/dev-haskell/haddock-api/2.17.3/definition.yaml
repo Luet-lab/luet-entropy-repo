@@ -1,153 +1,48 @@
-State: ""
-category: dev-haskell
-conflicts: null
-description: ""
-id: 0
+
+category: "dev-haskell"
+name: "haddock-api"
+version: "2.17.3"
 license: ""
-name: haddock-api
-provides: null
-requires:
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: haddock-library
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: <1.5
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: xhtml
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: <3000.3
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: ghc
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: <8.2
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: cabal
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=1.10'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: cabal
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=1.24.0.0'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: haddock-library
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=1.4'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: xhtml
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=3000.2'
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: ghc
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=8.0'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: ghc-paths
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=0'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: transformers
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=0'
-set: false
-uri: null
+
 use_flags:
-- amd64
-- -profile
-- elibc_glibc
-- -doc
-- big-endian
-- abi_x86_64
-- -hscolour
-- kernel_linux
-- userland_GNU
-- -test
-version: 2.17.3+1
+- "amd64"
+- "-profile"
+- "elibc_glibc"
+- "-doc"
+- "big-endian"
+- "abi_x86_64"
+- "-hscolour"
+- "kernel_linux"
+- "userland_GNU"
+- "-test"
+requires:
+- category: "dev-haskell"
+  name: "haddock-library"
+  version: "<1.5"
+- category: "dev-haskell"
+  name: "xhtml"
+  version: "<3000.3"
+- category: "dev-lang"
+  name: "ghc"
+  version: "<8.2"
+- category: "dev-haskell"
+  name: "cabal"
+  version: ">=1.10"
+- category: "dev-haskell"
+  name: "cabal"
+  version: ">=1.24.0.0"
+- category: "dev-haskell"
+  name: "haddock-library"
+  version: ">=1.4"
+- category: "dev-haskell"
+  name: "xhtml"
+  version: ">=3000.2"
+- category: "dev-lang"
+  name: "ghc"
+  version: ">=8.0"
+- category: "dev-haskell"
+  name: "ghc-paths"
+  version: ">=0"
+- category: "dev-haskell"
+  name: "transformers"
+  version: ">=0"

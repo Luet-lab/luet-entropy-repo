@@ -1,64 +1,29 @@
-State: ""
-category: dev-haskell
-conflicts: null
-description: ""
-id: 0
+
+category: "dev-haskell"
+name: "hslua"
+version: "0.3.13"
 license: ""
-name: hslua
-provides: null
-requires:
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: cabal
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=1.8'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: mtl
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=2.1'
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: ghc
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=7.4.1'
-set: false
-uri: null
+
 use_flags:
-- userland_GNU
-- -doc
-- -system-lua
-- abi_x86_64
-- -test
-- -hscolour
-- -profile
-- -apicheck
-- kernel_linux
-- amd64
-- elibc_glibc
-- big-endian
-version: 0.3.13+1
+- "userland_GNU"
+- "-doc"
+- "-system-lua"
+- "abi_x86_64"
+- "-test"
+- "-hscolour"
+- "-profile"
+- "-apicheck"
+- "kernel_linux"
+- "amd64"
+- "elibc_glibc"
+- "big-endian"
+requires:
+- category: "dev-haskell"
+  name: "cabal"
+  version: ">=1.8"
+- category: "dev-haskell"
+  name: "mtl"
+  version: ">=2.1"
+- category: "dev-lang"
+  name: "ghc"
+  version: ">=7.4.1"

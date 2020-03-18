@@ -1,48 +1,23 @@
-State: ""
-category: dev-haskell
-conflicts: null
-description: ""
-id: 0
+
+category: "dev-haskell"
+name: "hunit"
+version: "1.2.5.2+r1"
 license: ""
-name: hunit
-provides: null
-requires:
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: cabal
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=1.8'
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: ghc
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=6.10.4'
-set: false
-uri: null
+
 use_flags:
-- elibc_glibc
-- amd64
-- userland_GNU
-- -doc
-- kernel_linux
-- big-endian
-- -profile
-- abi_x86_64
-- -hscolour
-version: 1.2.5.2+r2
+- "elibc_glibc"
+- "amd64"
+- "userland_GNU"
+- "-doc"
+- "kernel_linux"
+- "big-endian"
+- "-profile"
+- "abi_x86_64"
+- "-hscolour"
+requires:
+- category: "dev-haskell"
+  name: "cabal"
+  version: ">=1.8"
+- category: "dev-lang"
+  name: "ghc"
+  version: ">=6.10.4"

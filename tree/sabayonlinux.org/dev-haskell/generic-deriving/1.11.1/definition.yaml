@@ -1,49 +1,24 @@
-State: ""
-category: dev-haskell
-conflicts: null
-description: ""
-id: 0
+
+category: "dev-haskell"
+name: "generic-deriving"
+version: "1.11.1"
 license: ""
-name: generic-deriving
-provides: null
-requires:
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: cabal
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=1.10'
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: ghc
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=7.4.1'
-set: false
-uri: null
+
 use_flags:
-- -hscolour
-- userland_GNU
-- elibc_glibc
-- big-endian
-- -profile
-- abi_x86_64
-- amd64
-- kernel_linux
-- -doc
-- -test
-version: 1.11.1+1
+- "-hscolour"
+- "userland_GNU"
+- "elibc_glibc"
+- "big-endian"
+- "-profile"
+- "abi_x86_64"
+- "amd64"
+- "kernel_linux"
+- "-doc"
+- "-test"
+requires:
+- category: "dev-haskell"
+  name: "cabal"
+  version: ">=1.10"
+- category: "dev-lang"
+  name: "ghc"
+  version: ">=7.4.1"

@@ -1,46 +1,21 @@
-State: ""
-category: dev-haskell
-conflicts: null
-description: ""
-id: 0
+
+category: "dev-haskell"
+name: "ghc-paths"
+version: "0.1.0.9"
 license: ""
-name: ghc-paths
-provides: null
-requires:
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: cabal
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=1.6'
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: ghc
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=6.8.2'
-set: false
-uri: null
+
 use_flags:
-- amd64
-- -profile
-- abi_x86_64
-- elibc_glibc
-- kernel_linux
-- userland_GNU
-- big-endian
-version: 0.1.0.9+1
+- "amd64"
+- "-profile"
+- "abi_x86_64"
+- "elibc_glibc"
+- "kernel_linux"
+- "userland_GNU"
+- "big-endian"
+requires:
+- category: "dev-haskell"
+  name: "cabal"
+  version: ">=1.6"
+- category: "dev-lang"
+  name: "ghc"
+  version: ">=6.8.2"

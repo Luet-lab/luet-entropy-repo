@@ -1,178 +1,53 @@
-State: ""
-category: dev-haskell
-conflicts: null
-description: ""
-id: 0
+
+category: "dev-haskell"
+name: "x509-store"
+version: "1.6.2"
 license: ""
-name: x509-store
-provides: null
-requires:
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: asn1-encoding
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: <0.10
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: asn1-types
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: <0.4
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: pem
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: <0.3
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: x509
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: <1.7
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: asn1-encoding
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=0.9'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: asn1-types
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=0.3'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: cabal
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=1.8'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: pem
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=0.1'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: x509
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=1.6'
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: ghc
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=7.4.1'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: cryptonite
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=0'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: mtl
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=0'
-set: false
-uri: null
+
 use_flags:
-- big-endian
-- kernel_linux
-- -doc
-- amd64
-- -hscolour
-- elibc_glibc
-- userland_GNU
-- -profile
-- abi_x86_64
-version: 1.6.2+1
+- "big-endian"
+- "kernel_linux"
+- "-doc"
+- "amd64"
+- "-hscolour"
+- "elibc_glibc"
+- "userland_GNU"
+- "-profile"
+- "abi_x86_64"
+requires:
+- category: "dev-haskell"
+  name: "asn1-encoding"
+  version: "<0.10"
+- category: "dev-haskell"
+  name: "asn1-types"
+  version: "<0.4"
+- category: "dev-haskell"
+  name: "pem"
+  version: "<0.3"
+- category: "dev-haskell"
+  name: "x509"
+  version: "<1.7"
+- category: "dev-haskell"
+  name: "asn1-encoding"
+  version: ">=0.9"
+- category: "dev-haskell"
+  name: "asn1-types"
+  version: ">=0.3"
+- category: "dev-haskell"
+  name: "cabal"
+  version: ">=1.8"
+- category: "dev-haskell"
+  name: "pem"
+  version: ">=0.1"
+- category: "dev-haskell"
+  name: "x509"
+  version: ">=1.6"
+- category: "dev-lang"
+  name: "ghc"
+  version: ">=7.4.1"
+- category: "dev-haskell"
+  name: "cryptonite"
+  version: ">=0"
+- category: "dev-haskell"
+  name: "mtl"
+  version: ">=0"

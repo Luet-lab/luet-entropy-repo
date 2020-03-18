@@ -1,128 +1,43 @@
-State: ""
-category: dev-haskell
-conflicts: null
-description: ""
-id: 0
+
+category: "dev-haskell"
+name: "zip-archive"
+version: "0.2.3.7"
 license: ""
-name: zip-archive
-provides: null
-requires:
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: binary
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=0.5'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: cabal
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=1.10'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: digest
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=0.0.0.1'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: text
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=0.11'
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: ghc
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=7.4.1'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: mtl
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=0'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: old-time
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=0'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
-  name: zlib
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
-  version: '>=0'
-set: false
-uri: null
+
 use_flags:
-- elibc_glibc
-- amd64
-- abi_x86_64
-- userland_GNU
-- -test
-- -profile
-- -executable
-- -doc
-- -hscolour
-- big-endian
-- kernel_linux
-version: 0.2.3.7+1
+- "elibc_glibc"
+- "amd64"
+- "abi_x86_64"
+- "userland_GNU"
+- "-test"
+- "-profile"
+- "-executable"
+- "-doc"
+- "-hscolour"
+- "big-endian"
+- "kernel_linux"
+requires:
+- category: "dev-haskell"
+  name: "binary"
+  version: ">=0.5"
+- category: "dev-haskell"
+  name: "cabal"
+  version: ">=1.10"
+- category: "dev-haskell"
+  name: "digest"
+  version: ">=0.0.0.1"
+- category: "dev-haskell"
+  name: "text"
+  version: ">=0.11"
+- category: "dev-lang"
+  name: "ghc"
+  version: ">=7.4.1"
+- category: "dev-haskell"
+  name: "mtl"
+  version: ">=0"
+- category: "dev-haskell"
+  name: "old-time"
+  version: ">=0"
+- category: "dev-haskell"
+  name: "zlib"
+  version: ">=0"
