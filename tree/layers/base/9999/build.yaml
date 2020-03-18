@@ -1,1 +1,4 @@
 image: "sabayon/base-amd64"
+unpack: true
+steps:
+- ./installer.sh
