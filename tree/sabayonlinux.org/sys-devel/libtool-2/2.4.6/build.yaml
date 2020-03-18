@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i sys-devel/libtool-2.4.6-r6
+
+- source /etc/profile && echo Prepare sys-devel/libtool-2.4.6-r6
 unpack: true
 requires:
 - category: "layer"

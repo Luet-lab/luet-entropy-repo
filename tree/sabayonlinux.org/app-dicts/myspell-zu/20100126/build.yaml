@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i app-dicts/myspell-zu-20100126
+
+- source /etc/profile && echo Prepare app-dicts/myspell-zu-20100126
 unpack: true
 requires:
 - category: "layer"

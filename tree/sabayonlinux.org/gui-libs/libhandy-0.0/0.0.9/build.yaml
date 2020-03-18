@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i gui-libs/libhandy-0.0.9
+
+- source /etc/profile && echo Prepare gui-libs/libhandy-0.0.9
 unpack: true
 requires:
 - category: "layer"

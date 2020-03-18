@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i app-i18n/man-pages-ru-4.16.2383.2383.20180422
+
+- source /etc/profile && echo Prepare app-i18n/man-pages-ru-4.16.2383.2383.20180422
 unpack: true
 requires:
 - category: "layer"

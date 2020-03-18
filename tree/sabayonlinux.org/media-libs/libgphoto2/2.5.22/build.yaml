@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/libgphoto2-2.5.22
+
+- source /etc/profile && echo Prepare media-libs/libgphoto2-2.5.22
 unpack: true
 requires:
 - category: "layer"

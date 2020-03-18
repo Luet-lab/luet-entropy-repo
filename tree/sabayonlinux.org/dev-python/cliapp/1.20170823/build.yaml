@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/cliapp-1.20170823
+
+- source /etc/profile && echo Prepare dev-python/cliapp-1.20170823
 unpack: true
 requires:
 - category: "layer"

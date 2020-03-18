@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-perl/Module-Build-0.422.400
+
+- source /etc/profile && echo Prepare dev-perl/Module-Build-0.422.400
 unpack: true
 requires:
 - category: "layer"

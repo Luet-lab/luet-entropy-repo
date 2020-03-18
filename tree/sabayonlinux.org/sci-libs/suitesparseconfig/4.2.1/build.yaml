@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i sci-libs/suitesparseconfig-4.2.1-r1
+
+- source /etc/profile && echo Prepare sci-libs/suitesparseconfig-4.2.1-r1
 unpack: true
 requires:
 - category: "layer"

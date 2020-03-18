@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/totem-pl-parser-3.26.3
+
+- source /etc/profile && echo Prepare dev-libs/totem-pl-parser-3.26.3
 unpack: true
 requires:
 - category: "layer"

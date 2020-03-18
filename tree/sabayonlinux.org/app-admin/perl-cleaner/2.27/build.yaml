@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i app-admin/perl-cleaner-2.27
+
+- source /etc/profile && echo Prepare app-admin/perl-cleaner-2.27
 unpack: true
 requires:
 - category: "layer"

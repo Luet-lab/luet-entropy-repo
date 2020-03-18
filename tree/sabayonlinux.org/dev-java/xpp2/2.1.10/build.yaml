@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-java/xpp2-2.1.10-r2
+
+- source /etc/profile && echo Prepare dev-java/xpp2-2.1.10-r2
 unpack: true
 requires:
 - category: "layer"

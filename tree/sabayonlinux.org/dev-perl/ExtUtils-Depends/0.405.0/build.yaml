@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-perl/ExtUtils-Depends-0.405.0
+
+- source /etc/profile && echo Prepare dev-perl/ExtUtils-Depends-0.405.0
 unpack: true
 requires:
 - category: "layer"

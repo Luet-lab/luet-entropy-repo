@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i net-libs/libvncserver-0.9.12-r4
+
+- source /etc/profile && echo Prepare net-libs/libvncserver-0.9.12-r4
 unpack: true
 requires:
 - category: "layer"

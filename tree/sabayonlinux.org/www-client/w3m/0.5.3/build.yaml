@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i www-client/w3m-0.5.3_p20190105
+
+- source /etc/profile && echo Prepare www-client/w3m-0.5.3_p20190105
 unpack: true
 requires:
 - category: "layer"

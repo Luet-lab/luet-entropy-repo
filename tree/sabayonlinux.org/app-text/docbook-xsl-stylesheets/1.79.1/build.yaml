@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i app-text/docbook-xsl-stylesheets-1.79.1-r2
+
+- source /etc/profile && echo Prepare app-text/docbook-xsl-stylesheets-1.79.1-r2
 unpack: true
 requires:
 - category: "layer"

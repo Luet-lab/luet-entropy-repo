@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i net-misc/vde-2.3.2-r4
+
+- source /etc/profile && echo Prepare net-misc/vde-2.3.2-r4
 unpack: true
 requires:
 - category: "layer"

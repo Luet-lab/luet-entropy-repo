@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-db/spatialite-4.3.0a
+
+- source /etc/profile && echo Prepare dev-db/spatialite-4.3.0a
 unpack: true
 requires:
 - category: "layer"

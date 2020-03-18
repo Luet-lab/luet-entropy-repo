@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/openssl-compat-1.0.2u
+
+- source /etc/profile && echo Prepare dev-libs/openssl-compat-1.0.2u
 unpack: true
 requires:
 - category: "layer"

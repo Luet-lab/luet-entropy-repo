@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i app-text/libpaper-1.1.24_p5
+
+- source /etc/profile && echo Prepare app-text/libpaper-1.1.24_p5
 unpack: true
 requires:
 - category: "layer"

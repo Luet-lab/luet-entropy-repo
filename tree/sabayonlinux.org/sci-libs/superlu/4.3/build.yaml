@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i sci-libs/superlu-4.3-r1
+
+- source /etc/profile && echo Prepare sci-libs/superlu-4.3-r1
 unpack: true
 requires:
 - category: "layer"

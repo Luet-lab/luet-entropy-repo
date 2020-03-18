@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/sdl2-ttf-2.0.15
+
+- source /etc/profile && echo Prepare media-libs/sdl2-ttf-2.0.15
 unpack: true
 requires:
 - category: "layer"

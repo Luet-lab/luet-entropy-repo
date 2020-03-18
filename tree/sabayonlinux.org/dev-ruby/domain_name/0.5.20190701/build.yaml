@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/domain_name-0.5.20190701
+
+- source /etc/profile && echo Prepare dev-ruby/domain_name-0.5.20190701
 unpack: true
 requires:
 - category: "layer"

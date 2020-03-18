@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i sys-apps/man-pages-posix-2013a
+
+- source /etc/profile && echo Prepare sys-apps/man-pages-posix-2013a
 unpack: true
 requires:
 - category: "layer"

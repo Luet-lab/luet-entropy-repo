@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i net-libs/libmbim-1.18.0
+
+- source /etc/profile && echo Prepare net-libs/libmbim-1.18.0
 unpack: true
 requires:
 - category: "layer"

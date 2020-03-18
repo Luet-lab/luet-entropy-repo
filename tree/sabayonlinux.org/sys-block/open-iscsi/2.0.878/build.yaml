@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i sys-block/open-iscsi-2.0.878
+
+- source /etc/profile && echo Prepare sys-block/open-iscsi-2.0.878
 unpack: true
 requires:
 - category: "layer"

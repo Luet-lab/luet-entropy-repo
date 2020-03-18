@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-util/itstool-2.0.2
+
+- source /etc/profile && echo Prepare dev-util/itstool-2.0.2
 unpack: true
 requires:
 - category: "layer"

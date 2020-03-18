@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/webrtc-audio-processing-0.3.1
+
+- source /etc/profile && echo Prepare media-libs/webrtc-audio-processing-0.3.1
 unpack: true
 requires:
 - category: "layer"

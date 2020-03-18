@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/libid3tag-0.15.1b-r4
+
+- source /etc/profile && echo Prepare media-libs/libid3tag-0.15.1b-r4
 unpack: true
 requires:
 - category: "layer"

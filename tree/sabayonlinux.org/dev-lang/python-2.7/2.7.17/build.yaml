@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-lang/python-2.7.17
+
+- source /etc/profile && echo Prepare dev-lang/python-2.7.17
 unpack: true
 requires:
 - category: "layer"

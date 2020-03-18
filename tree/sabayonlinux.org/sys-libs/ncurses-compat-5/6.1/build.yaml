@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i sys-libs/ncurses-compat-6.1_p20190609
+
+- source /etc/profile && echo Prepare sys-libs/ncurses-compat-6.1_p20190609
 unpack: true
 requires:
 - category: "layer"

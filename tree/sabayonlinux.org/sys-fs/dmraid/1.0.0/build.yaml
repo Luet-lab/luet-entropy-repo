@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i sys-fs/dmraid-1.0.0_rc16-r4
+
+- source /etc/profile && echo Prepare sys-fs/dmraid-1.0.0_rc16-r4
 unpack: true
 requires:
 - category: "layer"

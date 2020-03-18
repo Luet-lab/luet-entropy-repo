@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-db/redis-4.0.14
+
+- source /etc/profile && echo Prepare dev-db/redis-4.0.14
 unpack: true
 requires:
 - category: "layer"

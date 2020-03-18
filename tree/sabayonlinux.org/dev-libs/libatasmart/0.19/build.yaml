@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/libatasmart-0.19_p5
+
+- source /etc/profile && echo Prepare dev-libs/libatasmart-0.19_p5
 unpack: true
 requires:
 - category: "layer"

@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i sys-libs/libcap-ng-0.7.10
+
+- source /etc/profile && echo Prepare sys-libs/libcap-ng-0.7.10
 unpack: true
 requires:
 - category: "layer"

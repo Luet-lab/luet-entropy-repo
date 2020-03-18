@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/volume_key-0.3.12
+
+- source /etc/profile && echo Prepare dev-libs/volume_key-0.3.12
 unpack: true
 requires:
 - category: "layer"

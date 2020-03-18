@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/clutter-gst-3.0.27
+
+- source /etc/profile && echo Prepare media-libs/clutter-gst-3.0.27
 unpack: true
 requires:
 - category: "layer"

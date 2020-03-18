@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/ustr-1.0.4-r8
+
+- source /etc/profile && echo Prepare dev-libs/ustr-1.0.4-r8
 unpack: true
 requires:
 - category: "layer"

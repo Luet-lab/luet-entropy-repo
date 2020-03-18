@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i sys-libs/libnih-1.0.3-r3
+
+- source /etc/profile && echo Prepare sys-libs/libnih-1.0.3-r3
 unpack: true
 requires:
 - category: "layer"

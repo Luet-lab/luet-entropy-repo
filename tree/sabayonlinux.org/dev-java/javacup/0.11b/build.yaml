@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-java/javacup-0.11b_p20151001
+
+- source /etc/profile && echo Prepare dev-java/javacup-0.11b_p20151001
 unpack: true
 requires:
 - category: "layer"

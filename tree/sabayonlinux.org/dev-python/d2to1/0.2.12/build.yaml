@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/d2to1-0.2.12_p1
+
+- source /etc/profile && echo Prepare dev-python/d2to1-0.2.12_p1
 unpack: true
 requires:
 - category: "layer"

@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/rb-inotify-0.10.1
+
+- source /etc/profile && echo Prepare dev-ruby/rb-inotify-0.10.1
 unpack: true
 requires:
 - category: "layer"

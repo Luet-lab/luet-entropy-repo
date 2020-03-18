@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i media-fonts/dejavu-2.37
+
+- source /etc/profile && echo Prepare media-fonts/dejavu-2.37
 unpack: true
 requires:
 - category: "layer"

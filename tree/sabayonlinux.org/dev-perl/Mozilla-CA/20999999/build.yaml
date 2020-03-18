@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-perl/Mozilla-CA-20999999
+
+- source /etc/profile && echo Prepare dev-perl/Mozilla-CA-20999999
 unpack: true
 requires:
 - category: "layer"

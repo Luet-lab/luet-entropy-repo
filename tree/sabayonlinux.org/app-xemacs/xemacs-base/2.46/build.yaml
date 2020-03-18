@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i app-xemacs/xemacs-base-2.46
+
+- source /etc/profile && echo Prepare app-xemacs/xemacs-base-2.46
 unpack: true
 requires:
 - category: "layer"

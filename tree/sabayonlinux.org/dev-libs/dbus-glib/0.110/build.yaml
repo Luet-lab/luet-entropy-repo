@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/dbus-glib-0.110
+
+- source /etc/profile && echo Prepare dev-libs/dbus-glib-0.110
 unpack: true
 requires:
 - category: "layer"

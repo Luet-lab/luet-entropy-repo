@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i app-admin/metalog-20181125
+
+- source /etc/profile && echo Prepare app-admin/metalog-20181125
 unpack: true
 requires:
 - category: "layer"

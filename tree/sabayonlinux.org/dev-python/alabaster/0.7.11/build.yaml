@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/alabaster-0.7.11
+
+- source /etc/profile && echo Prepare dev-python/alabaster-0.7.11
 unpack: true
 requires:
 - category: "layer"

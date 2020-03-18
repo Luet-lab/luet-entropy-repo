@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i app-dicts/aspell-hu-0.99.4.2
+
+- source /etc/profile && echo Prepare app-dicts/aspell-hu-0.99.4.2
 unpack: true
 requires:
 - category: "layer"

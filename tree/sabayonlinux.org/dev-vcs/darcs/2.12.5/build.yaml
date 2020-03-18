@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-vcs/darcs-2.12.5
+
+- source /etc/profile && echo Prepare dev-vcs/darcs-2.12.5
 unpack: true
 requires:
 - category: "layer"

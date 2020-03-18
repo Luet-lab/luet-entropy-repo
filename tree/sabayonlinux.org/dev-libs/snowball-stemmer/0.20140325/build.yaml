@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/snowball-stemmer-0.20140325
+
+- source /etc/profile && echo Prepare dev-libs/snowball-stemmer-0.20140325
 unpack: true
 requires:
 - category: "layer"

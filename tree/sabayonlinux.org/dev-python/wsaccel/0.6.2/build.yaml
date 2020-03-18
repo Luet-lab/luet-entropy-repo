@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/wsaccel-0.6.2_p20170108
+
+- source /etc/profile && echo Prepare dev-python/wsaccel-0.6.2_p20170108
 unpack: true
 requires:
 - category: "layer"

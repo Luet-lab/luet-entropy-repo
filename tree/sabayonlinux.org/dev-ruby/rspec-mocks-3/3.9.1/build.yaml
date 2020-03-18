@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/rspec-mocks-3.9.1
+
+- source /etc/profile && echo Prepare dev-ruby/rspec-mocks-3.9.1
 unpack: true
 requires:
 - category: "layer"

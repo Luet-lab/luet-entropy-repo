@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i www-client/elinks-0.13_pre_pre20180225
+
+- source /etc/profile && echo Prepare www-client/elinks-0.13_pre_pre20180225
 unpack: true
 requires:
 - category: "layer"

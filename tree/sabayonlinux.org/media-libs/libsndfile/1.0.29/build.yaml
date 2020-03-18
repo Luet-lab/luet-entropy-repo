@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/libsndfile-1.0.29_pre2_p20191024
+
+- source /etc/profile && echo Prepare media-libs/libsndfile-1.0.29_pre2_p20191024
 unpack: true
 requires:
 - category: "layer"

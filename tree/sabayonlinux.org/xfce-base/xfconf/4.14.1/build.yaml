@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i xfce-base/xfconf-4.14.1
+
+- source /etc/profile && echo Prepare xfce-base/xfconf-4.14.1
 unpack: true
 requires:
 - category: "layer"

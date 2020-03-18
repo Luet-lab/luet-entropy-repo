@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-lang/lua-5.1.5-r4
+
+- source /etc/profile && echo Prepare dev-lang/lua-5.1.5-r4
 unpack: true
 requires:
 - category: "layer"

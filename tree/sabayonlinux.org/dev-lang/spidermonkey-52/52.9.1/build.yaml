@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-lang/spidermonkey-52.9.1_pre1
+
+- source /etc/profile && echo Prepare dev-lang/spidermonkey-52.9.1_pre1
 unpack: true
 requires:
 - category: "layer"

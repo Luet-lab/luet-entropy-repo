@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i sci-physics/bullet-2.86
+
+- source /etc/profile && echo Prepare sci-physics/bullet-2.86
 unpack: true
 requires:
 - category: "layer"

@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-vcs/git-2.24.1
+
+- source /etc/profile && echo Prepare dev-vcs/git-2.24.1
 unpack: true
 requires:
 - category: "layer"

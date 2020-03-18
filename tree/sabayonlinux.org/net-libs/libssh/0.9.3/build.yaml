@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i net-libs/libssh-0.9.3
+
+- source /etc/profile && echo Prepare net-libs/libssh-0.9.3
 unpack: true
 requires:
 - category: "layer"

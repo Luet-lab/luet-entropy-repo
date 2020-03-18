@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i net-misc/wget-1.20.3-r3
+
+- source /etc/profile && echo Prepare net-misc/wget-1.20.3-r3
 unpack: true
 requires:
 - category: "layer"

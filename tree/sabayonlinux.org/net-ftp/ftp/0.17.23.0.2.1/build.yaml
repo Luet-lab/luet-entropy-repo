@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i net-ftp/ftp-0.17.23.0.2.1
+
+- source /etc/profile && echo Prepare net-ftp/ftp-0.17.23.0.2.1
 unpack: true
 requires:
 - category: "layer"

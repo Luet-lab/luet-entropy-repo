@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/ascii85-1.0.3
+
+- source /etc/profile && echo Prepare dev-ruby/ascii85-1.0.3
 unpack: true
 requires:
 - category: "layer"

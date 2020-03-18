@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i x11-libs/wxGTK-3.0.4-r302
+
+- source /etc/profile && echo Prepare x11-libs/wxGTK-3.0.4-r302
 unpack: true
 requires:
 - category: "layer"

@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i sys-firmware/edk2-ovmf-201905
+
+- source /etc/profile && echo Prepare sys-firmware/edk2-ovmf-201905
 unpack: true
 requires:
 - category: "layer"

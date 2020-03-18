@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/bz2file-0.98
+
+- source /etc/profile && echo Prepare dev-python/bz2file-0.98
 unpack: true
 requires:
 - category: "layer"

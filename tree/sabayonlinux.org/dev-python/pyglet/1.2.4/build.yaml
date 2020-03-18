@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/pyglet-1.2.4
+
+- source /etc/profile && echo Prepare dev-python/pyglet-1.2.4
 unpack: true
 requires:
 - category: "layer"

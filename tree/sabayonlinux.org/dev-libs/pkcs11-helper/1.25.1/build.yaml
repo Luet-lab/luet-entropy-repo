@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/pkcs11-helper-1.25.1
+
+- source /etc/profile && echo Prepare dev-libs/pkcs11-helper-1.25.1
 unpack: true
 requires:
 - category: "layer"

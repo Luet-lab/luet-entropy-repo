@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-util/dirstr-0_p1-r1
+
+- source /etc/profile && echo Prepare dev-util/dirstr-0_p1-r1
 unpack: true
 requires:
 - category: "layer"

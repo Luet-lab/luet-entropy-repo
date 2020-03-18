@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/keybinder-0.3.2-r300
+
+- source /etc/profile && echo Prepare dev-libs/keybinder-0.3.2-r300
 unpack: true
 requires:
 - category: "layer"

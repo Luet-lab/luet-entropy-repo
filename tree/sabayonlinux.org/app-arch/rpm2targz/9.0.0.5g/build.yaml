@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i app-arch/rpm2targz-9.0.0.5g
+
+- source /etc/profile && echo Prepare app-arch/rpm2targz-9.0.0.5g
 unpack: true
 requires:
 - category: "layer"

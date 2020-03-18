@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i net-analyzer/net-snmp-5.8-r4
+
+- source /etc/profile && echo Prepare net-analyzer/net-snmp-5.8-r4
 unpack: true
 requires:
 - category: "layer"

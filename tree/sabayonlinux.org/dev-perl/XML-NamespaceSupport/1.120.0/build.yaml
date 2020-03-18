@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-perl/XML-NamespaceSupport-1.120.0
+
+- source /etc/profile && echo Prepare dev-perl/XML-NamespaceSupport-1.120.0
 unpack: true
 requires:
 - category: "layer"

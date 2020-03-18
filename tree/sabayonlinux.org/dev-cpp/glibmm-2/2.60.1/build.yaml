@@ -1,7 +1,7 @@
 
 steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-cpp/glibmm-2.60.1
+
+- source /etc/profile && echo Prepare dev-cpp/glibmm-2.60.1
 unpack: true
 requires:
 - category: "layer"
