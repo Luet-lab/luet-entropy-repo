@@ -1,5 +1,7 @@
 #!/bin/bash
 
+source /etc/profile
+
 LUET_ENTROPY_REPO=${LUET_ENTROPY_REPO:-https://github.com/Luet-lab/luet-entropy-repo.git}
 
 export ACCEPT_LICENSE=*
