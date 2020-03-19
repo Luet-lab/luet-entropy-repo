@@ -1,14 +1,5 @@
-State: ""
 category: sys-devel
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: llvm-common
-provides: null
-requires: null
-set: false
-uri: null
 use_flags:
 - big-endian
 - userland_GNU
@@ -17,4 +8,4 @@ use_flags:
 - elibc_glibc
 - kernel_linux
 - abi_x86_64
-version: 9.0.1+1
+version: 9.0.1+2

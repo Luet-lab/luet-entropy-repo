@@ -1,170 +1,42 @@
-State: ""
 category: net-misc
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: connman
-provides: null
 requires:
-- State: ""
-  category: app-portage
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-portage
   name: elt-patches
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=20170815'
-- State: ""
-  category: dev-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-libs
   name: glib-2
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=2.16'
-- State: ""
-  category: net-firewall
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: net-firewall
   name: iptables
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.4.8'
-- State: ""
-  category: net-wireless
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: net-wireless
   name: wpa_supplicant
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=2.0'
-- State: ""
-  category: sys-apps
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-apps
   name: dbus
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.2.24'
-- State: ""
-  category: sys-devel
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-devel
   name: autoconf-2.69
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=2.69'
-- State: ""
-  category: sys-devel
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-devel
   name: automake-1.15
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.15.1'
-- State: ""
-  category: sys-devel
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-devel
   name: libtool-2
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=2.4'
-- State: ""
-  category: sys-kernel
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-kernel
   name: linux-headers
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=2.6.39'
-- State: ""
-  category: net-wireless
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: net-wireless
   name: bluez
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: sys-auth
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-auth
   name: polkit
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: sys-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-libs
   name: readline
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - -examples
 - ethernet
@@ -191,4 +63,4 @@ use_flags:
 - -wispr
 - userland_GNU
 - -doc
-version: 1.37+1
+version: 1.37+2

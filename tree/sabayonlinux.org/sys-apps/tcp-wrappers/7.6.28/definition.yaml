@@ -1,14 +1,5 @@
-State: ""
 category: sys-apps
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: tcp-wrappers
-provides: null
-requires: null
-set: false
-uri: null
 use_flags:
 - big-endian
 - -abi_s390_32
@@ -29,4 +20,4 @@ use_flags:
 - split-usr
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
-version: 7.6.28+2
+version: 7.6.28+3

@@ -1,66 +1,18 @@
-State: ""
 category: sci-libs
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: lapack
-provides: null
 requires:
-- State: ""
-  category: app-eselect
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-eselect
   name: eselect-blas
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.2'
-- State: ""
-  category: app-eselect
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-eselect
   name: eselect-lapack
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.2'
-- State: ""
-  category: dev-util
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-util
   name: cmake
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=3.9.6'
-- State: ""
-  category: sys-devel
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-devel
   name: make
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - -doc
 - elibc_glibc
@@ -72,4 +24,4 @@ use_flags:
 - eselect-ldso
 - amd64
 - big-endian
-version: 3.8.0+1
+version: 3.8.0+2

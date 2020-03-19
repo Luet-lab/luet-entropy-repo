@@ -1,40 +1,12 @@
-State: ""
 category: dev-java
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: icedtea-sound
-provides: null
 requires:
-- State: ""
-  category: dev-java
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-java
   name: java-config-2
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=2.1.9'
-- State: ""
-  category: media-sound
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-sound
   name: pulseaudio
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.9.11'
-set: false
-uri: null
 use_flags:
 - elibc_glibc
 - -elibc_FreeBSD
@@ -44,4 +16,4 @@ use_flags:
 - doc
 - kernel_linux
 - amd64
-version: 1.0.1+1
+version: 1.0.1+2

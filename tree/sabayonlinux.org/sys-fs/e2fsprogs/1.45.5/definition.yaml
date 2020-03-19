@@ -1,66 +1,18 @@
-State: ""
 category: sys-fs
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: e2fsprogs
-provides: null
 requires:
-- State: ""
-  category: sys-apps
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-apps
   name: util-linux
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=2.16'
-- State: ""
-  category: sys-apps
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-apps
   name: texinfo
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: sys-devel
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-devel
   name: gettext
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: sys-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-libs
   name: e2fsprogs-libs
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.45.5'
-set: false
-uri: null
 use_flags:
 - big-endian
 - userland_GNU
@@ -74,4 +26,4 @@ use_flags:
 - -static-libs
 - elibc_glibc
 - kernel_linux
-version: 1.45.5+1
+version: 1.45.5+2

@@ -1,40 +1,12 @@
-State: ""
 category: app-doc
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: xmltoman
-provides: null
 requires:
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-lang
   name: perl
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-perl
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-perl
   name: XML-Parser
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - abi_x86_64
 - big-endian
@@ -42,4 +14,4 @@ use_flags:
 - userland_GNU
 - amd64
 - elibc_glibc
-version: 0.4+r2
+version: 0.4+r3

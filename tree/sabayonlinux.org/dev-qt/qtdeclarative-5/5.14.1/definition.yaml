@@ -1,118 +1,30 @@
-State: ""
 category: dev-qt
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: qtdeclarative-5
-provides: null
 requires:
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-lang
   name: perl
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-lang
   name: python-3.6
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-qt
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-qt
   name: qtchooser
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-qt
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-qt
   name: qtcore-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=5.14.1'
-- State: ""
-  category: dev-qt
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-qt
   name: qtgui-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=5.14.1'
-- State: ""
-  category: dev-qt
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-qt
   name: qtnetwork-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=5.14.1'
-- State: ""
-  category: dev-qt
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-qt
   name: qttest-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=5.14.1'
-- State: ""
-  category: dev-qt
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-qt
   name: qtwidgets-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=5.14.1'
-set: false
-uri: null
 use_flags:
 - jit
 - elibc_glibc
@@ -127,4 +39,4 @@ use_flags:
 - kernel_linux
 - split-usr
 - amd64
-version: 5.14.1+1
+version: 5.14.1+2

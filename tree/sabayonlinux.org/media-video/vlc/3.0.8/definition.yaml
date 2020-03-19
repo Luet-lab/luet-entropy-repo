@@ -1,1080 +1,252 @@
-State: ""
 category: media-video
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: vlc
-provides: null
 requires:
-- State: ""
-  category: app-portage
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-portage
   name: elt-patches
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=20170815'
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-lang
   name: lua
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=5.1'
-- State: ""
-  category: dev-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-libs
   name: libebml
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.3.6'
-- State: ""
-  category: dev-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-libs
   name: protobuf
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=2.5.0'
-- State: ""
-  category: dev-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-libs
   name: wayland
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.15'
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: libdvbpsi
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.2.0'
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: libdvdnav
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=4.9'
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: libdvdread
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=4.9'
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: opus
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.0.3'
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: soxr
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.1.2'
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: speex
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.2.0'
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: taglib
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.9'
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: x264
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.0.20190214'
-- State: ""
-  category: media-video
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-video
   name: ffmpeg
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=3.1.3'
-- State: ""
-  category: net-fs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: net-fs
   name: samba
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=4.0.0'
-- State: ""
-  category: net-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: net-libs
   name: libmicrodns
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.0.9'
-- State: ""
-  category: sys-devel
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-devel
   name: autoconf-2.69
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=2.69'
-- State: ""
-  category: sys-devel
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-devel
   name: automake-1.15
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.15.1'
-- State: ""
-  category: sys-devel
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-devel
   name: gettext
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.19.8'
-- State: ""
-  category: sys-devel
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-devel
   name: libtool-2
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=2.4'
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-lang
   name: yasm
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-libs
   name: fribidi
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-libs
   name: glib-2
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-libs
   name: libgcrypt
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-libs
   name: libgpg-error
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-libs
   name: libxml2-2
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-libs
   name: wayland-protocols
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-qt
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-qt
   name: qtcore-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-qt
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-qt
   name: qtgui-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-qt
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-qt
   name: qtsvg-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-qt
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-qt
   name: qtwidgets-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-qt
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-qt
   name: qtx11extras-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-util
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-util
   name: desktop-file-utils
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: a52dec
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: alsa-lib
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: flac
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: fontconfig-1.0
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: freetype-2
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: harfbuzz
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: libass
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: libbluray
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: libcddb
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: libdca
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: libmad
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: libmatroska
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: libmpeg2
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: libogg
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: libpng
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: libsamplerate
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: libtheora
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: libv4l
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: libvorbis
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: speexdsp
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: x265
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: media-plugins
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-plugins
   name: live
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: media-sound
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-sound
   name: mpg123
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: media-sound
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-sound
   name: musepack-tools
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: media-sound
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-sound
   name: pulseaudio
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: net-dns
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: net-dns
   name: avahi-gtk3
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: net-dns
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: net-dns
   name: libidn
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: net-fs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: net-fs
   name: libnfs
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: net-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: net-libs
   name: gnutls
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: net-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: net-libs
   name: libupnp
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: sys-apps
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-apps
   name: dbus
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: sys-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-libs
   name: libavc1394
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: sys-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-libs
   name: libraw1394
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: sys-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-libs
   name: ncurses
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: sys-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-libs
   name: zlib
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: x11-base
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: x11-base
   name: xorg-proto
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: x11-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: x11-libs
   name: gdk-pixbuf-2
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: x11-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: x11-libs
   name: gtk+-3
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: x11-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: x11-libs
   name: libX11
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: x11-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: x11-libs
   name: libXext
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: x11-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: x11-libs
   name: libXinerama
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: x11-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: x11-libs
   name: libXpm
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: x11-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: x11-libs
   name: libnotify
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: x11-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: x11-libs
   name: libva
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: x11-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: x11-libs
   name: libvdpau
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: x11-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: x11-libs
   name: libxcb
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: x11-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: x11-libs
   name: xcb-util
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: x11-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: x11-libs
   name: xcb-util-keysyms
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: x11-misc
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: x11-misc
   name: shared-mime-info
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - -gstreamer
 - -tremor
@@ -1184,4 +356,4 @@ use_flags:
 - -libtar
 - -dav1d
 - bluray
-version: 3.0.8+2
+version: 3.0.8+3

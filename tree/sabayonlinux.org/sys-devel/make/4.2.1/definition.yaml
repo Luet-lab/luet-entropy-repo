@@ -1,27 +1,9 @@
-State: ""
 category: sys-devel
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: make
-provides: null
 requires:
-- State: ""
-  category: sys-devel
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-devel
   name: gettext
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - nls
 - abi_x86_64
@@ -32,4 +14,4 @@ use_flags:
 - elibc_glibc
 - -static
 - userland_GNU
-version: 4.2.1+r5
+version: 4.2.1+r6

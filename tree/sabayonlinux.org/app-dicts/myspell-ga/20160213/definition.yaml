@@ -1,27 +1,9 @@
-State: ""
 category: app-dicts
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: myspell-ga
-provides: null
 requires:
-- State: ""
-  category: app-arch
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-arch
   name: unzip
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - kernel_linux
 - abi_x86_64
@@ -29,4 +11,4 @@ use_flags:
 - big-endian
 - amd64
 - userland_GNU
-version: 20160213+1
+version: 20160213+2

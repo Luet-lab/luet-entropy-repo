@@ -1,14 +1,5 @@
-State: ""
 category: sys-firmware
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: seabios
-provides: null
-requires: null
-set: false
-uri: null
 use_flags:
 - userland_GNU
 - amd64
@@ -20,4 +11,4 @@ use_flags:
 - binary
 - split-usr
 - -debug
-version: 1.12.0+1
+version: 1.12.0+2

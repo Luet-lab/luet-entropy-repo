@@ -1,79 +1,21 @@
-State: ""
 category: sys-kernel
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: sabayon-dracut
-provides: null
 requires:
-- State: ""
-  category: sys-boot
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-boot
   name: plymouth
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: sys-fs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-fs
   name: btrfs-progs
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: sys-fs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-fs
   name: lvm2
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: sys-fs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-fs
   name: mdadm
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: sys-kernel
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-kernel
   name: dracut
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - kernel_linux
 - abi_x86_64
@@ -82,4 +24,4 @@ use_flags:
 - elibc_glibc
 - userland_GNU
 - split-usr
-version: 1.4+r2
+version: 1.4+r3

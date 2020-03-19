@@ -1,53 +1,15 @@
-State: ""
 category: sys-devel
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: bison
-provides: null
 requires:
-- State: ""
-  category: sys-devel
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-devel
   name: m4
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.4.16'
-- State: ""
-  category: sys-devel
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-devel
   name: flex
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: sys-devel
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-devel
   name: gettext
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - -test
 - userland_GNU
@@ -59,4 +21,4 @@ use_flags:
 - -static
 - -examples
 - abi_x86_64
-version: 3.1+1
+version: 3.1+2

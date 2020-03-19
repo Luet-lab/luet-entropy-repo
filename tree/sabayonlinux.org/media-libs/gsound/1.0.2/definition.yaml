@@ -1,131 +1,33 @@
-State: ""
 category: media-libs
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: gsound
-provides: null
 requires:
-- State: ""
-  category: app-portage
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-portage
   name: elt-patches
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=20170815'
-- State: ""
-  category: dev-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-libs
   name: glib-2
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=2.36'
-- State: ""
-  category: dev-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-libs
   name: gobject-introspection
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.2.9'
-- State: ""
-  category: dev-util
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-util
   name: gtk-doc-am
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.20'
-- State: ""
-  category: app-arch
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-arch
   name: xz-utils
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-lang
   name: vala-0.44
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-util
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-util
   name: desktop-file-utils
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: libcanberra
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: x11-misc
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: x11-misc
   name: shared-mime-info
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - kernel_linux
 - elibc_glibc
@@ -136,4 +38,4 @@ use_flags:
 - vala
 - big-endian
 - introspection
-version: 1.0.2+r2
+version: 1.0.2+r3

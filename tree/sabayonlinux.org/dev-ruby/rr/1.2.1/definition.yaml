@@ -1,27 +1,9 @@
-State: ""
 category: dev-ruby
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: rr
-provides: null
 requires:
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-lang
   name: ruby-2.5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - -test
 - userland_GNU
@@ -35,4 +17,4 @@ use_flags:
 - split-usr
 - ruby_targets_ruby25
 - -ruby_targets_ruby26
-version: 1.2.1+1
+version: 1.2.1+2

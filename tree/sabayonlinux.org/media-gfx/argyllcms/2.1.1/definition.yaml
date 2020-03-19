@@ -1,196 +1,48 @@
-State: ""
 category: media-gfx
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: argyllcms
-provides: null
 requires:
-- State: ""
-  category: app-arch
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-arch
   name: unzip
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-libs
   name: openssl
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-util
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-util
   name: ftjam
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: libpng
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: tiff
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: sys-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-libs
   name: zlib
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: x11-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: x11-libs
   name: libX11
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: x11-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: x11-libs
   name: libXScrnSaver
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: x11-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: x11-libs
   name: libXau
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: x11-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: x11-libs
   name: libXdmcp
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: x11-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: x11-libs
   name: libXext
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: x11-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: x11-libs
   name: libXinerama
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: x11-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: x11-libs
   name: libXrandr
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: x11-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: x11-libs
   name: libXxf86vm
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - userland_GNU
 - amd64
@@ -201,4 +53,4 @@ use_flags:
 - -libressl
 - elibc_glibc
 - big-endian
-version: 2.1.1+r2
+version: 2.1.1+r3

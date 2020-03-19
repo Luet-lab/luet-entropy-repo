@@ -1,27 +1,9 @@
-State: ""
 category: dev-perl
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: Test-Requires
-provides: null
 requires:
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-lang
   name: perl
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - kernel_linux
 - split-usr
@@ -30,4 +12,4 @@ use_flags:
 - big-endian
 - amd64
 - abi_x86_64
-version: 0.100.0+1
+version: 0.100.0+2

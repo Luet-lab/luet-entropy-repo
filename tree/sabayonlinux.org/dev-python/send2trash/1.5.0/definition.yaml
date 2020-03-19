@@ -1,66 +1,18 @@
-State: ""
 category: dev-python
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: send2trash
-provides: null
 requires:
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-lang
   name: python-2.7
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=2.7.5'
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-lang
   name: python-exec-2
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=2'
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-lang
   name: python-3.6
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-python
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-python
   name: setuptools
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - abi_x86_64
 - big-endian
@@ -73,4 +25,4 @@ use_flags:
 - python_targets_python2_7
 - -python_targets_python3_5
 - elibc_glibc
-version: 1.5.0+1
+version: 1.5.0+2

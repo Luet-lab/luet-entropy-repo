@@ -1,27 +1,9 @@
-State: ""
 category: app-vim
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: gtk-syntax
-provides: null
 requires:
-- State: ""
-  category: app-editors
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-editors
   name: gvim
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=7.3'
-set: false
-uri: null
 use_flags:
 - amd64
 - kernel_linux
@@ -29,4 +11,4 @@ use_flags:
 - multilib
 - elibc_glibc
 - userland_GNU
-version: 20130716+1
+version: 20130716+2

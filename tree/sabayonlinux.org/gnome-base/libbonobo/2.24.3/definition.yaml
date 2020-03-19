@@ -1,157 +1,39 @@
-State: ""
 category: gnome-base
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: libbonobo
-provides: null
 requires:
-- State: ""
-  category: dev-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-libs
   name: dbus-glib
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.74'
-- State: ""
-  category: dev-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-libs
   name: glib-2
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=2.14'
-- State: ""
-  category: dev-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-libs
   name: libxml2-2
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=2.4.20'
-- State: ""
-  category: dev-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-libs
   name: popt
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.5'
-- State: ""
-  category: dev-util
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-util
   name: intltool
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.35'
-- State: ""
-  category: gnome-base
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: gnome-base
   name: orbit-2
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=2.14.0'
-- State: ""
-  category: sys-apps
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-apps
   name: dbus
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.0.0'
-- State: ""
-  category: sys-apps
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-apps
   name: sed
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=4'
-- State: ""
-  category: dev-util
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-util
   name: gtk-doc-am
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: sys-devel
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-devel
   name: flex
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: x11-apps
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: x11-apps
   name: xrdb
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - elibc_glibc
 - abi_x86_64
@@ -161,4 +43,4 @@ use_flags:
 - kernel_linux
 - userland_GNU
 - -examples
-version: 2.24.3+r2
+version: 2.24.3+r3

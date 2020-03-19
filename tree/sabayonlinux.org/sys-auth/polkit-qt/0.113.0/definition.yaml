@@ -1,118 +1,30 @@
-State: ""
 category: sys-auth
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: polkit-qt
-provides: null
 requires:
-- State: ""
-  category: dev-util
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-util
   name: cmake
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=3.9.6'
-- State: ""
-  category: sys-auth
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-auth
   name: polkit
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.103'
-- State: ""
-  category: dev-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-libs
   name: glib-2
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-qt
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-qt
   name: qtcore-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-qt
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-qt
   name: qtdbus-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-qt
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-qt
   name: qtgui-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-qt
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-qt
   name: qtwidgets-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-util
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-util
   name: ninja
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - big-endian
 - amd64
@@ -122,4 +34,4 @@ use_flags:
 - userland_GNU
 - elibc_glibc
 - split-usr
-version: 0.113.0+1
+version: 0.113.0+2

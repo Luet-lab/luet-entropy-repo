@@ -1,27 +1,9 @@
-State: ""
 category: app-vim
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: dhcpd-syntax
-provides: null
 requires:
-- State: ""
-  category: app-editors
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-editors
   name: gvim
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=7.3'
-set: false
-uri: null
 use_flags:
 - big-endian
 - abi_x86_64
@@ -29,4 +11,4 @@ use_flags:
 - kernel_linux
 - userland_GNU
 - amd64
-version: 20030825+r2
+version: 20030825+r3

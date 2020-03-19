@@ -1,105 +1,27 @@
-State: ""
 category: x11-misc
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: notification-daemon
-provides: null
 requires:
-- State: ""
-  category: dev-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-libs
   name: glib-2
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=2.28'
-- State: ""
-  category: sys-devel
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-devel
   name: gettext
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.19.4'
-- State: ""
-  category: x11-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: x11-libs
   name: gtk+-3
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=3.19.5'
-- State: ""
-  category: app-arch
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-arch
   name: xz-utils
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-util
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-util
   name: gdbus-codegen
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: sys-apps
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-apps
   name: dbus
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: x11-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: x11-libs
   name: libX11
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - kernel_linux
 - big-endian
@@ -107,4 +29,4 @@ use_flags:
 - userland_GNU
 - amd64
 - elibc_glibc
-version: 3.20.0+1
+version: 3.20.0+2

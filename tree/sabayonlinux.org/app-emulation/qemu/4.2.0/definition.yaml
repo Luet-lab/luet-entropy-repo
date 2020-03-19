@@ -1,612 +1,144 @@
-State: ""
 category: app-emulation
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: qemu
-provides: null
 requires:
-- State: ""
-  category: app-emulation
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-emulation
   name: libcacard
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=2.5.0'
-- State: ""
-  category: app-emulation
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-emulation
   name: spice
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.12.0'
-- State: ""
-  category: app-emulation
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-emulation
   name: spice-protocol
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.12.3'
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-lang
   name: python-exec-2
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=2'
-- State: ""
-  category: dev-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-libs
   name: glib-2
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=2.0'
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: alsa-lib
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.0.13'
-- State: ""
-  category: net-fs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: net-fs
   name: libnfs
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.9.3'
-- State: ""
-  category: net-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: net-libs
   name: gnutls
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=3.0'
-- State: ""
-  category: net-misc
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: net-misc
   name: curl
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=7.15.4'
-- State: ""
-  category: sys-apps
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-apps
   name: dtc
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.5.0'
-- State: ""
-  category: sys-apps
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-apps
   name: usbredir
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.6'
-- State: ""
-  category: sys-cluster
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-cluster
   name: glusterfs
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=3.4.0'
-- State: ""
-  category: sys-kernel
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-kernel
   name: linux-headers
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=2.6.35'
-- State: ""
-  category: sys-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-libs
   name: libseccomp
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=2.1.0'
-- State: ""
-  category: x11-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: x11-libs
   name: pixman
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.28.0'
-- State: ""
-  category: acct-group
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: acct-group
   name: kvm
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: app-accessibility
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-accessibility
   name: brltty
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: app-arch
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-arch
   name: bzip2
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-lang
   name: perl
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-lang
   name: python-3.6
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-libs
   name: libaio
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-libs
   name: libxml2-2
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-libs
   name: lzo-2
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-libs
   name: nettle
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: libepoxy
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: libpng
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: libsdl2
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: mesa
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: sdl2-image
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: virglrenderer
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: media-sound
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-sound
   name: pulseaudio
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: sys-apps
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-apps
   name: attr
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: sys-apps
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-apps
   name: texinfo
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: sys-cluster
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-cluster
   name: ceph
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: sys-devel
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-devel
   name: gettext
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: sys-fs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-fs
   name: xfsprogs
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: sys-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-libs
   name: libcap
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: sys-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-libs
   name: libcap-ng
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: sys-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-libs
   name: ncurses
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: sys-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-libs
   name: zlib
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: x11-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: x11-libs
   name: gtk+-3
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: x11-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: x11-libs
   name: libxkbcommon
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: sys-firmware
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-firmware
   name: edk2-ovmf
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=201905'
-- State: ""
-  category: sys-firmware
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-firmware
   name: ipxe
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.0.0'
-- State: ""
-  category: sys-firmware
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-firmware
   name: seabios
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.12.0'
-- State: ""
-  category: sys-firmware
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-firmware
   name: sgabios
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.1'
-set: false
-uri: null
 use_flags:
 - -qemu_softmmu_targets_or1k
 - bzip2
@@ -741,4 +273,4 @@ use_flags:
 - -qemu_user_targets_mipsn32el
 - -systemtap
 - -qemu_softmmu_targets_alpha
-version: 4.2.0+r2
+version: 4.2.0+r3

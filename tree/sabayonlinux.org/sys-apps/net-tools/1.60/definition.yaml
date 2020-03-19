@@ -1,27 +1,9 @@
-State: ""
 category: sys-apps
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: net-tools
-provides: null
 requires:
-- State: ""
-  category: app-arch
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-arch
   name: xz-utils
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - arp
 - -nis
@@ -38,4 +20,4 @@ use_flags:
 - -static
 - -plipconfig
 - userland_GNU
-version: 1.60+p20180626073014
+version: 1.60+p20180626073015

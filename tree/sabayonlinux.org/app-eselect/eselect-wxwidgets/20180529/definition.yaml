@@ -1,27 +1,9 @@
-State: ""
 category: app-eselect
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: eselect-wxwidgets
-provides: null
 requires:
-- State: ""
-  category: app-admin
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-admin
   name: eselect
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.4.13'
-set: false
-uri: null
 use_flags:
 - split-usr
 - elibc_glibc
@@ -30,4 +12,4 @@ use_flags:
 - amd64
 - abi_x86_64
 - kernel_linux
-version: 20180529+1
+version: 20180529+2

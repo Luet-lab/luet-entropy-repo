@@ -1,131 +1,33 @@
-State: ""
 category: dev-ruby
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: kramdown
-provides: null
 requires:
-- State: ""
-  category: dev-ruby
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-ruby
   name: prawn-table
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.2'
-- State: ""
-  category: dev-ruby
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-ruby
   name: coderay
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.0.0'
-- State: ""
-  category: dev-ruby
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-ruby
   name: itextomml
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.5'
-- State: ""
-  category: dev-ruby
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-ruby
   name: prawn-table
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.2.2'
-- State: ""
-  category: dev-ruby
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-ruby
   name: ritex
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.0'
-- State: ""
-  category: dev-ruby
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-ruby
   name: rouge-2
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.8'
-- State: ""
-  category: dev-ruby
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-ruby
   name: stringex
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.5.1'
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-lang
   name: ruby-2.5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-ruby
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-ruby
   name: prawn-2
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - -doc
 - big-endian
@@ -140,4 +42,4 @@ use_flags:
 - -test
 - -ruby_targets_ruby26
 - abi_x86_64
-version: 1.17.0+1
+version: 1.17.0+2

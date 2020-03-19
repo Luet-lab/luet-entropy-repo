@@ -1,57 +1,19 @@
-State: ""
 category: lxde-base
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: lxde-common
-provides: null
 requires:
-- State: ""
-  category: lxde-base
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: lxde-base
   name: lxde-icon-theme
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: sys-devel
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-devel
   name: gettext
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: x11-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: x11-libs
   name: gtk+-3
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - abi_x86_64
 - kernel_linux
 - userland_GNU
 - amd64
 - elibc_glibc
-version: 0.99.1+1
+version: 0.99.1+2

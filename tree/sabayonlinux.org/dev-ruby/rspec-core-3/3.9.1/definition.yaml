@@ -1,40 +1,12 @@
-State: ""
 category: dev-ruby
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: rspec-core-3
-provides: null
 requires:
-- State: ""
-  category: dev-ruby
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-ruby
   name: rspec-support-3
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=3.9'
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-lang
   name: ruby-2.5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - -ruby_targets_ruby24
 - kernel_linux
@@ -50,4 +22,4 @@ use_flags:
 - -ruby_targets_ruby26
 - -ruby_targets_ruby27
 - big-endian
-version: 3.9.1+1
+version: 3.9.1+2

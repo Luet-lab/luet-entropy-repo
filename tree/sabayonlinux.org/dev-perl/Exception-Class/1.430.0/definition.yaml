@@ -1,53 +1,15 @@
-State: ""
 category: dev-perl
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: Exception-Class
-provides: null
 requires:
-- State: ""
-  category: dev-perl
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-perl
   name: Class-Data-Inheritable
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.20.0'
-- State: ""
-  category: dev-perl
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-perl
   name: Devel-StackTrace
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=2.0.0'
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-lang
   name: perl
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - amd64
 - big-endian
@@ -58,4 +20,4 @@ use_flags:
 - kernel_linux
 - split-usr
 - abi_x86_64
-version: 1.430.0+1
+version: 1.430.0+2

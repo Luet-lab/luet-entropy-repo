@@ -1,66 +1,18 @@
-State: ""
 category: net-vpn
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: vpnc
-provides: null
 requires:
-- State: ""
-  category: sys-apps
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-apps
   name: iproute2
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=2.6.19.20061214'
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-lang
   name: perl
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-libs
   name: libgcrypt
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: net-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: net-libs
   name: gnutls
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - -resolvconf
 - big-endian
@@ -71,4 +23,4 @@ use_flags:
 - -selinux
 - elibc_glibc
 - gnutls
-version: 0.5.3+p551
+version: 0.5.3+p552

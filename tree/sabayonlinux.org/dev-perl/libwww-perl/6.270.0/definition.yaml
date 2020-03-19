@@ -1,209 +1,51 @@
-State: ""
 category: dev-perl
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: libwww-perl
-provides: null
 requires:
-- State: ""
-  category: dev-perl
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-perl
   name: File-Listing
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=6.0.0'
-- State: ""
-  category: dev-perl
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-perl
   name: HTML-Parser
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=3.340.0'
-- State: ""
-  category: dev-perl
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-perl
   name: HTTP-Cookies
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=6.0.0'
-- State: ""
-  category: dev-perl
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-perl
   name: HTTP-Daemon
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=6.0.0'
-- State: ""
-  category: dev-perl
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-perl
   name: HTTP-Date
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=6.0.0'
-- State: ""
-  category: dev-perl
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-perl
   name: HTTP-Message
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=6.0.0'
-- State: ""
-  category: dev-perl
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-perl
   name: HTTP-Negotiate
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=6.0.0'
-- State: ""
-  category: dev-perl
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-perl
   name: LWP-MediaTypes
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=6.0.0'
-- State: ""
-  category: dev-perl
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-perl
   name: LWP-Protocol-https
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=6.20.0'
-- State: ""
-  category: dev-perl
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-perl
   name: Net-HTTP
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=6.70.0'
-- State: ""
-  category: dev-perl
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-perl
   name: URI
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.100.0'
-- State: ""
-  category: dev-perl
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-perl
   name: WWW-RobotRules
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=6.0.0'
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-lang
   name: perl
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-perl
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-perl
   name: Encode-Locale
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-perl
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-perl
   name: Try-Tiny
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - userland_GNU
 - abi_x86_64
@@ -214,4 +56,4 @@ use_flags:
 - ssl
 - elibc_glibc
 - kernel_linux
-version: 6.270.0+1
+version: 6.270.0+2

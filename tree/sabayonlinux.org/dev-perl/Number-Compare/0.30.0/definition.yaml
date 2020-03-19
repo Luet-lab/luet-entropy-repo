@@ -1,27 +1,9 @@
-State: ""
 category: dev-perl
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: Number-Compare
-provides: null
 requires:
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-lang
   name: perl
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - abi_x86_64
 - userland_GNU
@@ -30,4 +12,4 @@ use_flags:
 - kernel_linux
 - split-usr
 - amd64
-version: 0.30.0+r2
+version: 0.30.0+r3

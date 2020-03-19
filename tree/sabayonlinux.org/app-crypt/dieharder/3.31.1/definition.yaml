@@ -1,27 +1,9 @@
-State: ""
 category: app-crypt
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: dieharder
-provides: null
 requires:
-- State: ""
-  category: sci-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sci-libs
   name: gsl
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - -doc
 - elibc_glibc
@@ -31,4 +13,4 @@ use_flags:
 - userland_GNU
 - amd64
 - big-endian
-version: 3.31.1+r4
+version: 3.31.1+r5

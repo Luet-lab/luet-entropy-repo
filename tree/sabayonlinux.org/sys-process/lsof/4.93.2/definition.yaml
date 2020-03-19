@@ -1,40 +1,12 @@
-State: ""
 category: sys-process
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: lsof
-provides: null
 requires:
-- State: ""
-  category: net-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: net-libs
   name: libtirpc
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: sys-apps
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-apps
   name: groff
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - elibc_glibc
 - rpc
@@ -47,4 +19,4 @@ use_flags:
 - kernel_linux
 - split-usr
 - amd64
-version: 4.93.2+r2
+version: 4.93.2+r3

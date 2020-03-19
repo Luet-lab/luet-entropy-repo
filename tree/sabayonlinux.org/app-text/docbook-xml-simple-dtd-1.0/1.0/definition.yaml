@@ -1,53 +1,15 @@
-State: ""
 category: app-text
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: docbook-xml-simple-dtd-1.0
-provides: null
 requires:
-- State: ""
-  category: app-arch
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-arch
   name: unzip
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=5.41'
-- State: ""
-  category: app-text
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-text
   name: build-docbook-catalog
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.6'
-- State: ""
-  category: app-text
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-text
   name: sgml-common
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.6.3'
-set: false
-uri: null
 use_flags:
 - abi_x86_64
 - split-usr
@@ -56,4 +18,4 @@ use_flags:
 - userland_GNU
 - kernel_linux
 - amd64
-version: 1.0+r4
+version: 1.0+r5

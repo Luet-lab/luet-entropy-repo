@@ -1,53 +1,15 @@
-State: ""
 category: sys-apps
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: xinetd
-provides: null
 requires:
-- State: ""
-  category: sys-apps
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-apps
   name: tcp-wrappers
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=7.6'
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-lang
   name: perl
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: net-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: net-libs
   name: libtirpc
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - tcpd
 - abi_x86_64
@@ -58,4 +20,4 @@ use_flags:
 - perl
 - kernel_linux
 - elibc_glibc
-version: 2.3.15.3+1
+version: 2.3.15.3+2

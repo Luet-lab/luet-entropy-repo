@@ -1,53 +1,15 @@
-State: ""
 category: media-libs
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: chromaprint
-provides: null
 requires:
-- State: ""
-  category: media-video
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-video
   name: ffmpeg
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=2.6'
-- State: ""
-  category: dev-util
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-util
   name: cmake
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-util
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-util
   name: ninja
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - big-endian
 - -abi_s390_32
@@ -68,4 +30,4 @@ use_flags:
 - userland_GNU
 - tools
 - -libav
-version: 1.4.3+2
+version: 1.4.3+3

@@ -1,40 +1,12 @@
-State: ""
 category: net-firewall
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: ipset
-provides: null
 requires:
-- State: ""
-  category: net-firewall
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: net-firewall
   name: iptables
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.4.7'
-- State: ""
-  category: net-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: net-libs
   name: libmnl
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - -modules
 - amd64
@@ -44,4 +16,4 @@ use_flags:
 - userland_GNU
 - kernel_linux
 - split-usr
-version: 6.38+1
+version: 6.38+2

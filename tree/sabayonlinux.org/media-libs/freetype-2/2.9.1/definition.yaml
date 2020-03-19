@@ -1,92 +1,24 @@
-State: ""
 category: media-libs
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: freetype-2
-provides: null
 requires:
-- State: ""
-  category: app-arch
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-arch
   name: bzip2
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.0.6'
-- State: ""
-  category: app-portage
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-portage
   name: elt-patches
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=20170815'
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: harfbuzz
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.3.0'
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: libpng
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.2.51'
-- State: ""
-  category: sys-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-libs
   name: zlib
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.2.8'
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: fontconfig-infinality
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - -X
 - static-libs
@@ -117,4 +49,4 @@ use_flags:
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
 - -doc
-version: 2.9.1+r5
+version: 2.9.1+r6

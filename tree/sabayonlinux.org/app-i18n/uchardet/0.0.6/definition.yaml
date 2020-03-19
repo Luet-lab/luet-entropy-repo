@@ -1,40 +1,12 @@
-State: ""
 category: app-i18n
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: uchardet
-provides: null
 requires:
-- State: ""
-  category: dev-util
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-util
   name: cmake
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=3.7.2'
-- State: ""
-  category: sys-devel
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-devel
   name: make
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - -static-libs
 - cpu_flags_x86_sse2
@@ -45,4 +17,4 @@ use_flags:
 - elibc_glibc
 - -test
 - userland_GNU
-version: 0.0.6+r3
+version: 0.0.6+r4

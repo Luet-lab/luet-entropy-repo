@@ -1,40 +1,12 @@
-State: ""
 category: sci-libs
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: parmetis
-provides: null
 requires:
-- State: ""
-  category: dev-util
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-util
   name: cmake
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=3.9.6'
-- State: ""
-  category: sys-devel
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-devel
   name: make
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - -examples
 - big-endian
@@ -51,4 +23,4 @@ use_flags:
 - userland_GNU
 - kernel_linux
 - -doc
-version: 4.0.3+r3
+version: 4.0.3+r4

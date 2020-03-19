@@ -1,53 +1,15 @@
-State: ""
 category: media-libs
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: x265
-provides: null
 requires:
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-lang
   name: yasm
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.2.0'
-- State: ""
-  category: dev-util
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-util
   name: cmake
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=3.9.6'
-- State: ""
-  category: sys-devel
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-devel
   name: make
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - big-endian
 - -pic
@@ -72,4 +34,4 @@ use_flags:
 - 12bit
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
-version: 3.1.2+2
+version: 3.1.2+3

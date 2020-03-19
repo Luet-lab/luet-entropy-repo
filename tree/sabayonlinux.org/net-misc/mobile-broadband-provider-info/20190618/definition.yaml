@@ -1,40 +1,12 @@
-State: ""
 category: net-misc
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: mobile-broadband-provider-info
-provides: null
 requires:
-- State: ""
-  category: app-arch
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-arch
   name: xz-utils
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-libs
   name: libxslt
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - elibc_glibc
 - userland_GNU
@@ -44,4 +16,4 @@ use_flags:
 - kernel_linux
 - split-usr
 - amd64
-version: 20190618+1
+version: 20190618+2

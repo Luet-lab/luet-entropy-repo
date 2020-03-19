@@ -1,131 +1,33 @@
-State: ""
 category: dev-texlive
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: texlive-xetex
-provides: null
 requires:
-- State: ""
-  category: app-text
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-text
   name: texlive-core
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=2010'
-- State: ""
-  category: app-text
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-text
   name: texlive-core
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=2019'
-- State: ""
-  category: dev-texlive
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-texlive
   name: texlive-basic
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=2019'
-- State: ""
-  category: dev-texlive
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-texlive
   name: texlive-latexextra
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=2010'
-- State: ""
-  category: x11-apps
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: x11-apps
   name: mkfontscale
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.2.0'
-- State: ""
-  category: app-arch
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-arch
   name: xz-utils
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-texlive
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-texlive
   name: texlive-luatex
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-texlive
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-texlive
   name: texlive-mathscience
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: media-fonts
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-fonts
   name: encodings
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - elibc_glibc
 - big-endian
@@ -136,4 +38,4 @@ use_flags:
 - abi_x86_64
 - userland_GNU
 - -doc
-version: 2019+1
+version: 2019+2

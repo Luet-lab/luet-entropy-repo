@@ -1,14 +1,5 @@
-State: ""
 category: sys-libs
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: timezone-data
-provides: null
-requires: null
-set: false
-uri: null
 use_flags:
 - big-endian
 - abi_x86_64
@@ -20,4 +11,4 @@ use_flags:
 - userland_GNU
 - split-usr
 - -elibc_FreeBSD
-version: 2019c+1
+version: 2019c+2

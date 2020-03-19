@@ -1,40 +1,12 @@
-State: ""
 category: sys-devel
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: autogen
-provides: null
 requires:
-- State: ""
-  category: dev-scheme
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-scheme
   name: guile-12
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=2.0'
-- State: ""
-  category: dev-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-libs
   name: libxml2-2
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - big-endian
 - userland_GNU
@@ -45,4 +17,4 @@ use_flags:
 - -static-libs
 - elibc_glibc
 - kernel_linux
-version: 5.18.16+r2
+version: 5.18.16+r3

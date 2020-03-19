@@ -1,118 +1,30 @@
-State: ""
 category: dev-perl
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: XML-Twig
-provides: null
 requires:
-- State: ""
-  category: dev-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-libs
   name: expat
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.95.5'
-- State: ""
-  category: dev-perl
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-perl
   name: HTML-Parser
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=3.690.0'
-- State: ""
-  category: dev-perl
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-perl
   name: Text-Iconv
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.2'
-- State: ""
-  category: dev-perl
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-perl
   name: XML-Parser
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=2.31'
-- State: ""
-  category: dev-perl
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-perl
   name: libwww-perl
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=6.40.0'
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-lang
   name: perl
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-perl
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-perl
   name: Tie-IxHash
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-perl
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-perl
   name: XML-XPath
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - elibc_glibc
 - userland_GNU
@@ -123,4 +35,4 @@ use_flags:
 - kernel_linux
 - split-usr
 - amd64
-version: 3.520.0+1
+version: 3.520.0+2

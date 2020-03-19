@@ -1,14 +1,5 @@
-State: ""
 category: app-arch
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: cpio
-provides: null
-requires: null
-set: false
-uri: null
 use_flags:
 - kernel_linux
 - nls
@@ -17,4 +8,4 @@ use_flags:
 - big-endian
 - elibc_glibc
 - userland_GNU
-version: 2.12+r2
+version: 2.12+r3

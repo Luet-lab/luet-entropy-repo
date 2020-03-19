@@ -1,14 +1,5 @@
-State: ""
 category: dev-libs
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: userspace-rcu
-provides: null
-requires: null
-set: false
-uri: null
 use_flags:
 - elibc_glibc
 - userland_GNU
@@ -19,4 +10,4 @@ use_flags:
 - kernel_linux
 - abi_x86_64
 - amd64
-version: 0.10.1+1
+version: 0.10.1+2

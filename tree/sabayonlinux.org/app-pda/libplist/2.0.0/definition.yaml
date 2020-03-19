@@ -1,118 +1,30 @@
-State: ""
 category: app-pda
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: libplist
-provides: null
 requires:
-- State: ""
-  category: app-portage
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-portage
   name: elt-patches
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=20170815'
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-lang
   name: python-2.7
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=2.7.5'
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-lang
   name: python-exec-2
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=2'
-- State: ""
-  category: dev-python
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-python
   name: cython
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.17'
-- State: ""
-  category: sys-devel
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-devel
   name: autoconf-2.69
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=2.69'
-- State: ""
-  category: sys-devel
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-devel
   name: automake-1.15
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.15.1'
-- State: ""
-  category: sys-devel
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-devel
   name: libtool-2
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=2.4'
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-lang
   name: python-3.6
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - abi_x86_64
 - -python_targets_python3_5
@@ -126,4 +38,4 @@ use_flags:
 - kernel_linux
 - -static-libs
 - python_targets_python3_6
-version: 2.0.0+1
+version: 2.0.0+2

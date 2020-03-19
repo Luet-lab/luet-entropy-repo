@@ -1,261 +1,63 @@
-State: ""
 category: net-print
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: cups-filters
-provides: null
 requires:
-- State: ""
-  category: app-text
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-text
   name: ghostscript-gpl
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=9.09'
-- State: ""
-  category: app-text
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-text
   name: poppler-base
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.32'
-- State: ""
-  category: app-text
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-text
   name: qpdf
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=8.3.0'
-- State: ""
-  category: net-print
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: net-print
   name: cups
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.7.3'
-- State: ""
-  category: sys-devel
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-devel
   name: gettext
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.18.3'
-- State: ""
-  category: app-text
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-text
   name: mupdf
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-lang
   name: perl
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-libs
   name: glib-2
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-util
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-util
   name: gdbus-codegen
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: fontconfig-1.0
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: freetype-2
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: lcms-2
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: libpng
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: tiff
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: net-dns
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: net-dns
   name: avahi-gtk3
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: net-nds
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: net-nds
   name: openldap
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: sys-apps
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-apps
   name: dbus
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: sys-devel
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-devel
   name: bc
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: sys-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-libs
   name: zlib
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - ipp_autosetup
 - pclm
@@ -278,4 +80,4 @@ use_flags:
 - elibc_glibc
 - split-usr
 - png
-version: 1.25.11+1
+version: 1.25.11+2

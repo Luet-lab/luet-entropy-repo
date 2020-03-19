@@ -1,40 +1,12 @@
-State: ""
 category: dev-ruby
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: rake
-provides: null
 requires:
-- State: ""
-  category: app-arch
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-arch
   name: gzip
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-lang
   name: ruby-2.5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - -test
 - amd64
@@ -48,4 +20,4 @@ use_flags:
 - ruby_targets_ruby25
 - kernel_linux
 - userland_GNU
-version: 12.3.3+1
+version: 12.3.3+2

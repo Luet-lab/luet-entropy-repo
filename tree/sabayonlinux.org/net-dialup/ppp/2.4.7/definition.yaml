@@ -1,66 +1,18 @@
-State: ""
 category: net-dialup
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: ppp
-provides: null
 requires:
-- State: ""
-  category: dev-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-libs
   name: openssl
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: net-dialup
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: net-dialup
   name: linux-atm
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: net-dialup
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: net-dialup
   name: ppp-scripts
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: sys-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-libs
   name: pam
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - abi_x86_64
 - -eap-tls
@@ -78,4 +30,4 @@ use_flags:
 - pam
 - ipv6
 - big-endian
-version: 2.4.7+r8
+version: 2.4.7+r9

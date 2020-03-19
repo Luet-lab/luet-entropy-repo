@@ -1,27 +1,9 @@
-State: ""
 category: dev-lang
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: swig
-provides: null
 requires:
-- State: ""
-  category: dev-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-libs
   name: libpcre-3
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - pcre
 - elibc_glibc
@@ -32,4 +14,4 @@ use_flags:
 - userland_GNU
 - big-endian
 - abi_x86_64
-version: 3.0.12+1
+version: 3.0.12+2

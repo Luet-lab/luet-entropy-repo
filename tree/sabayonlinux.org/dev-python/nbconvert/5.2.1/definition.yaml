@@ -1,209 +1,51 @@
-State: ""
 category: dev-python
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: nbconvert
-provides: null
 requires:
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-lang
   name: python-2.7
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=2.7.5'
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-lang
   name: python-exec-2
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=2'
-- State: ""
-  category: dev-python
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-python
   name: entrypoints
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.2.2'
-- State: ""
-  category: dev-python
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-python
   name: mistune
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.7.4'
-- State: ""
-  category: dev-python
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-python
   name: pandocfilters
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.4.1'
-- State: ""
-  category: dev-python
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-python
   name: traitlets
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=4.2.1'
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-lang
   name: python-3.6
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-python
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-python
   name: bleach
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-python
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-python
   name: jinja
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-python
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-python
   name: jupyter_core
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-python
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-python
   name: nbformat
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-python
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-python
   name: pygments
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-python
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-python
   name: setuptools
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-python
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-python
   name: testpath
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: www-servers
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: www-servers
   name: tornado
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - abi_x86_64
 - big-endian
@@ -217,4 +59,4 @@ use_flags:
 - python_targets_python2_7
 - -python_targets_python3_5
 - elibc_glibc
-version: 5.2.1+1
+version: 5.2.1+2

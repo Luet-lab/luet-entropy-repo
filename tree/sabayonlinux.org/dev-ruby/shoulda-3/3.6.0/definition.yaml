@@ -1,53 +1,15 @@
-State: ""
 category: dev-ruby
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: shoulda-3
-provides: null
 requires:
-- State: ""
-  category: dev-ruby
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-ruby
   name: shoulda-context
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.0.1'
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-lang
   name: ruby-2.5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-ruby
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-ruby
   name: shoulda-matchers-3
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - big-endian
 - split-usr
@@ -60,4 +22,4 @@ use_flags:
 - userland_GNU
 - -ruby_targets_ruby26
 - -ruby_targets_ruby24
-version: 3.6.0+1
+version: 3.6.0+2

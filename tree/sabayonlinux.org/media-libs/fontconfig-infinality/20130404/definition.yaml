@@ -1,92 +1,24 @@
-State: ""
 category: media-libs
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: fontconfig-infinality
-provides: null
 requires:
-- State: ""
-  category: x11-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: x11-libs
   name: libXft
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=2.3.0'
-- State: ""
-  category: app-eselect
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-eselect
   name: eselect-fontconfig
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: app-eselect
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-eselect
   name: eselect-infinality
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: app-eselect
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-eselect
   name: eselect-lcdfilter
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: media-fonts
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-fonts
   name: croscorefonts
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: freetype-2
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - amd64
 - split-usr
@@ -96,4 +28,4 @@ use_flags:
 - elibc_glibc
 - kernel_linux
 - abi_x86_64
-version: 20130404+1
+version: 20130404+2

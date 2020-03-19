@@ -1,27 +1,9 @@
-State: ""
 category: media-libs
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: vamp-plugin-sdk
-provides: null
 requires:
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: libsndfile
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - big-endian
 - -abi_s390_32
@@ -40,4 +22,4 @@ use_flags:
 - -abi_riscv_lp64
 - userland_GNU
 - -doc
-version: 2.7.1+2
+version: 2.7.1+3

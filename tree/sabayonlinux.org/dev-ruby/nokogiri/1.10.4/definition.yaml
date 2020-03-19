@@ -1,105 +1,27 @@
-State: ""
 category: dev-ruby
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: nokogiri
-provides: null
 requires:
-- State: ""
-  category: dev-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-libs
   name: libxml2-2
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=2.9.9'
-- State: ""
-  category: dev-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-libs
   name: libxslt
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.1.33'
-- State: ""
-  category: dev-ruby
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-ruby
   name: pkg-config
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.1.7'
-- State: ""
-  category: dev-ruby
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-ruby
   name: rexical
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.0.7'
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-lang
   name: ruby-2.5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-ruby
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-ruby
   name: racc
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-ruby
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-ruby
   name: rdoc
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - abi_x86_64
 - elibc_glibc
@@ -114,4 +36,4 @@ use_flags:
 - -test
 - split-usr
 - ruby_targets_ruby25
-version: 1.10.4+1
+version: 1.10.4+2

@@ -1,14 +1,5 @@
-State: ""
 category: sys-libs
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: libutempter
-provides: null
-requires: null
-set: false
-uri: null
 use_flags:
 - amd64
 - -elibc_FreeBSD
@@ -17,4 +8,4 @@ use_flags:
 - -static-libs
 - elibc_glibc
 - abi_x86_64
-version: 1.1.6+r3
+version: 1.1.6+r4

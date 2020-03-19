@@ -1,40 +1,12 @@
-State: ""
 category: dev-perl
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: DBD-SQLite
-provides: null
 requires:
-- State: ""
-  category: dev-perl
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-perl
   name: DBI
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.570.0'
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-lang
   name: perl
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - userland_GNU
 - abi_x86_64
@@ -45,4 +17,4 @@ use_flags:
 - -system-sqlite
 - kernel_linux
 - elibc_glibc
-version: 1.580.0+1
+version: 1.580.0+2

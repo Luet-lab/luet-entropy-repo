@@ -1,40 +1,12 @@
-State: ""
 category: app-arch
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: lz4
-provides: null
 requires:
-- State: ""
-  category: dev-util
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-util
   name: cmake
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=3.9.6'
-- State: ""
-  category: dev-util
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-util
   name: ninja
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - big-endian
 - -abi_s390_32
@@ -53,4 +25,4 @@ use_flags:
 - split-usr
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
-version: 1.9.2+2
+version: 1.9.2+3

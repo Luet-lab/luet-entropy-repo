@@ -1,66 +1,18 @@
-State: ""
 category: app-editors
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: nano
-provides: null
 requires:
-- State: ""
-  category: sys-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-libs
   name: ncurses
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=5.9'
-- State: ""
-  category: sys-apps
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-apps
   name: file
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: sys-devel
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-devel
   name: gettext
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: sys-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-libs
   name: ncurses
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - big-endian
 - ncurses
@@ -79,4 +31,4 @@ use_flags:
 - unicode
 - spell
 - kernel_linux
-version: 4.6+1
+version: 4.6+2

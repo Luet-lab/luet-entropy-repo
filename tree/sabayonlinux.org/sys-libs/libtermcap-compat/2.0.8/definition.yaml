@@ -1,14 +1,5 @@
-State: ""
 category: sys-libs
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: libtermcap-compat
-provides: null
-requires: null
-set: false
-uri: null
 use_flags:
 - big-endian
 - -abi_s390_32
@@ -26,4 +17,4 @@ use_flags:
 - split-usr
 - -abi_riscv_lp64
 - userland_GNU
-version: 2.0.8+r6
+version: 2.0.8+r7

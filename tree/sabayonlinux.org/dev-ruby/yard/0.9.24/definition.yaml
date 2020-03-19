@@ -1,27 +1,9 @@
-State: ""
 category: dev-ruby
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: yard
-provides: null
 requires:
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-lang
   name: ruby-2.5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - userland_GNU
 - -ruby_targets_ruby24
@@ -35,4 +17,4 @@ use_flags:
 - amd64
 - big-endian
 - -test
-version: 0.9.24+1
+version: 0.9.24+2

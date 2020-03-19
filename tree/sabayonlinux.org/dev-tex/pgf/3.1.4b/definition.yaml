@@ -1,40 +1,12 @@
-State: ""
 category: dev-tex
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: pgf
-provides: null
 requires:
-- State: ""
-  category: sys-apps
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-apps
   name: texinfo
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=4.2'
-- State: ""
-  category: dev-texlive
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-texlive
   name: texlive-latexrecommended
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - -doc
 - abi_x86_64
@@ -45,4 +17,4 @@ use_flags:
 - big-endian
 - amd64
 - kernel_linux
-version: 3.1.4b+r3
+version: 3.1.4b+r4

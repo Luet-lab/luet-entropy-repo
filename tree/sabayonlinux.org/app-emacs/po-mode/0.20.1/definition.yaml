@@ -1,27 +1,9 @@
-State: ""
 category: app-emacs
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: po-mode
-provides: null
 requires:
-- State: ""
-  category: app-editors
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-editors
   name: emacs-26
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=23.1'
-set: false
-uri: null
 use_flags:
 - amd64
 - kernel_linux
@@ -30,4 +12,4 @@ use_flags:
 - userland_GNU
 - elibc_glibc
 - split-usr
-version: 0.20.1+1
+version: 0.20.1+2

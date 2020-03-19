@@ -1,222 +1,54 @@
-State: ""
 category: dev-qt
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: qtmultimedia-5
-provides: null
 requires:
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-lang
   name: perl
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-libs
   name: glib-2
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-qt
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-qt
   name: qtchooser
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: alsa-lib
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: gst-plugins-bad-1.0
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: gst-plugins-base-1.0
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: gstreamer-1.0
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: openal
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: media-sound
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-sound
   name: pulseaudio
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: x11-base
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: x11-base
   name: xorg-proto
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-qt
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-qt
   name: qtcore-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=5.14.1'
-- State: ""
-  category: dev-qt
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-qt
   name: qtdeclarative-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=5.14.1'
-- State: ""
-  category: dev-qt
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-qt
   name: qtgui-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=5.14.1'
-- State: ""
-  category: dev-qt
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-qt
   name: qtnetwork-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=5.14.1'
-- State: ""
-  category: dev-qt
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-qt
   name: qtopengl-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=5.14.1'
-- State: ""
-  category: dev-qt
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-qt
   name: qtwidgets-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=5.14.1'
-set: false
-uri: null
 use_flags:
 - openal
 - -debug
@@ -234,4 +66,4 @@ use_flags:
 - -gles2
 - elibc_glibc
 - split-usr
-version: 5.14.1+1
+version: 5.14.1+2

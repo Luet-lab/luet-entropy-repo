@@ -1,31 +1,13 @@
-State: ""
 category: www-client
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: fetch
-provides: null
 requires:
-- State: ""
-  category: dev-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-libs
   name: http-fetcher
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - amd64
 - abi_x86_64
 - kernel_linux
 - elibc_glibc
 - userland_GNU
-version: 1.0+r4
+version: 1.0+r5

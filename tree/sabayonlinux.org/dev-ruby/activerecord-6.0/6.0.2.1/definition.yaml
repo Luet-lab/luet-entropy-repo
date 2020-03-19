@@ -1,79 +1,21 @@
-State: ""
 category: dev-ruby
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: activerecord-6.0
-provides: null
 requires:
-- State: ""
-  category: dev-ruby
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-ruby
   name: pg-1
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.18.0'
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-lang
   name: ruby-2.5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-ruby
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-ruby
   name: arel-9.0
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-ruby
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-ruby
   name: activemodel-6.0
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=6.0.2.1'
-- State: ""
-  category: dev-ruby
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-ruby
   name: activesupport-6.0
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=6.0.2.1'
-set: false
-uri: null
 use_flags:
 - -test
 - big-endian
@@ -88,4 +30,4 @@ use_flags:
 - postgres
 - split-usr
 - userland_GNU
-version: 6.0.2.1+1
+version: 6.0.2.1+2

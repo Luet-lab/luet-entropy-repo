@@ -1,40 +1,12 @@
-State: ""
 category: app-eselect
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: eselect-fontconfig
-provides: null
 requires:
-- State: ""
-  category: app-admin
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-admin
   name: eselect
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.2.3'
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: fontconfig-1.0
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=2.4'
-set: false
-uri: null
 use_flags:
 - amd64
 - elibc_glibc
@@ -42,4 +14,4 @@ use_flags:
 - userland_GNU
 - big-endian
 - abi_x86_64
-version: 1.1+r2
+version: 1.1+r3

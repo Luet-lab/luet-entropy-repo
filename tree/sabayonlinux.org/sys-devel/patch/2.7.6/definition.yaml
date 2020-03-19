@@ -1,27 +1,9 @@
-State: ""
 category: sys-devel
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: patch
-provides: null
 requires:
-- State: ""
-  category: sys-apps
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-apps
   name: attr
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - -test
 - amd64
@@ -33,4 +15,4 @@ use_flags:
 - abi_x86_64
 - xattr
 - userland_GNU
-version: 2.7.6+r5
+version: 2.7.6+r6

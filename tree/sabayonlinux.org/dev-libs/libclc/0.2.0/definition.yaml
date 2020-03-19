@@ -1,40 +1,12 @@
-State: ""
 category: dev-libs
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: libclc
-provides: null
 requires:
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-lang
   name: python-2.7
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=2.7.5'
-- State: ""
-  category: sys-devel
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-devel
   name: clang-9
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - split-usr
 - video_cards_radeonsi
@@ -46,4 +18,4 @@ use_flags:
 - elibc_glibc
 - amd64
 - -video_cards_r600
-version: 0.2.0+pre20191024.1
+version: 0.2.0+pre20191024.2

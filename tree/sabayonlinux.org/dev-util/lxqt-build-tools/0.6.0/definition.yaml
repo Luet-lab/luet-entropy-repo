@@ -1,66 +1,18 @@
-State: ""
 category: dev-util
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: lxqt-build-tools
-provides: null
 requires:
-- State: ""
-  category: dev-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-libs
   name: glib-2
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=2.50.0'
-- State: ""
-  category: dev-util
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-util
   name: cmake
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=3.9.6'
-- State: ""
-  category: dev-qt
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-qt
   name: qtcore-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-util
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-util
   name: ninja
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - big-endian
 - kernel_linux
@@ -68,4 +20,4 @@ use_flags:
 - userland_GNU
 - abi_x86_64
 - amd64
-version: 0.6.0+1
+version: 0.6.0+2

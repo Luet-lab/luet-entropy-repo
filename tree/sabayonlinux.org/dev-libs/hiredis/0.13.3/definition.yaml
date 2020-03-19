@@ -1,14 +1,5 @@
-State: ""
 category: dev-libs
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: hiredis
-provides: null
-requires: null
-set: false
-uri: null
 use_flags:
 - abi_x86_64
 - kernel_linux
@@ -18,4 +9,4 @@ use_flags:
 - amd64
 - -static-libs
 - elibc_glibc
-version: 0.13.3+1
+version: 0.13.3+2

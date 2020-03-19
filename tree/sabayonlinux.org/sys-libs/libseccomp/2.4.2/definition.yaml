@@ -1,27 +1,9 @@
-State: ""
 category: sys-libs
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: libseccomp
-provides: null
 requires:
-- State: ""
-  category: sys-kernel
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-kernel
   name: linux-headers
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=4.3'
-set: false
-uri: null
 use_flags:
 - big-endian
 - -abi_s390_32
@@ -40,4 +22,4 @@ use_flags:
 - split-usr
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
-version: 2.4.2+r3
+version: 2.4.2+r4

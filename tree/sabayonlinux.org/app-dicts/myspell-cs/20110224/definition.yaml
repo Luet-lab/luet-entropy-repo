@@ -1,31 +1,13 @@
-State: ""
 category: app-dicts
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: myspell-cs
-provides: null
 requires:
-- State: ""
-  category: app-arch
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-arch
   name: unzip
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - amd64
 - elibc_glibc
 - multilib
 - kernel_linux
 - userland_GNU
-version: 20110224+1
+version: 20110224+2

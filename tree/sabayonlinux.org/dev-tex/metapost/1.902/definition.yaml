@@ -1,83 +1,25 @@
-State: ""
 category: dev-tex
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: metapost
-provides: null
 requires:
-- State: ""
-  category: app-eselect
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-eselect
   name: eselect-mpost
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.3'
-- State: ""
-  category: dev-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-libs
   name: kpathsea
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=6.1.0'
-- State: ""
-  category: x11-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: x11-libs
   name: cairo
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.12'
-- State: ""
-  category: x11-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: x11-libs
   name: pixman
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>0.18'
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: libpng
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - elibc_glibc
 - abi_x86_64
 - amd64
 - kernel_linux
 - userland_GNU
-version: 1.902+1
+version: 1.902+2

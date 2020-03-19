@@ -1,40 +1,12 @@
-State: ""
 category: app-text
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: cmark
-provides: null
 requires:
-- State: ""
-  category: dev-util
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-util
   name: cmake
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=3.9.6'
-- State: ""
-  category: dev-util
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-util
   name: ninja
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - big-endian
 - kernel_linux
@@ -44,4 +16,4 @@ use_flags:
 - userland_GNU
 - -test
 - abi_x86_64
-version: 0.29.0+1
+version: 0.29.0+2

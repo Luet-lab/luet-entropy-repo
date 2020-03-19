@@ -1,118 +1,30 @@
-State: ""
 category: dev-java
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: dom4j-1
-provides: null
 requires:
-- State: ""
-  category: dev-java
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-java
   name: ant-core
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.8.2'
-- State: ""
-  category: dev-java
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-java
   name: java-config-2
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=2.2.0'
-- State: ""
-  category: dev-java
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-java
   name: javatoolkit
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.3.0'
-- State: ""
-  category: dev-java
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-java
   name: jaxen-1.1
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-java
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-java
   name: relaxng-datatype
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-java
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-java
   name: xpp2
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-java
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-java
   name: xpp3
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-java
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-java
   name: xsdlib
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - -test
 - elibc_glibc
@@ -123,4 +35,4 @@ use_flags:
 - userland_GNU
 - kernel_linux
 - -source
-version: 1.6.1+r8
+version: 1.6.1+r9

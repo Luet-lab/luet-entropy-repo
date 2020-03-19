@@ -1,27 +1,9 @@
-State: ""
 category: dev-lua
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: lpeg
-provides: null
 requires:
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-lang
   name: luajit-2
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - -doc
 - luajit
@@ -31,4 +13,4 @@ use_flags:
 - kernel_linux
 - amd64
 - elibc_glibc
-version: 1.0.1+1
+version: 1.0.1+2

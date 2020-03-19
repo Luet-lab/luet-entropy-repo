@@ -1,14 +1,5 @@
-State: ""
 category: sys-fs
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: lsscsi
-provides: null
-requires: null
-set: false
-uri: null
 use_flags:
 - kernel_linux
 - elibc_glibc
@@ -16,4 +7,4 @@ use_flags:
 - userland_GNU
 - amd64
 - big-endian
-version: 0.30+1
+version: 0.30+2

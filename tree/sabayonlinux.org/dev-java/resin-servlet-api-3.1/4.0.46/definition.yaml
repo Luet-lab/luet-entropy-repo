@@ -1,66 +1,18 @@
-State: ""
 category: dev-java
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: resin-servlet-api-3.1
-provides: null
 requires:
-- State: ""
-  category: dev-java
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-java
   name: ant-core
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.8.2'
-- State: ""
-  category: dev-java
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-java
   name: java-config-2
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=2.2.0'
-- State: ""
-  category: dev-java
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-java
   name: javatoolkit
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.3.0'
-- State: ""
-  category: app-arch
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-arch
   name: unzip
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - userland_GNU
 - -source
@@ -69,4 +21,4 @@ use_flags:
 - elibc_glibc
 - amd64
 - kernel_linux
-version: 4.0.46+1
+version: 4.0.46+2

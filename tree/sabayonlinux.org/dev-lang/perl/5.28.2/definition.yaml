@@ -1,79 +1,21 @@
-State: ""
 category: dev-lang
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: perl
-provides: null
 requires:
-- State: ""
-  category: app-admin
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-admin
   name: perl-cleaner
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=2.5'
-- State: ""
-  category: sys-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-libs
   name: gdbm
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.8.3'
-- State: ""
-  category: app-arch
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-arch
   name: bzip2
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: sys-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-libs
   name: db-6.0
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: sys-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-libs
   name: zlib
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - split-usr
 - amd64
@@ -87,4 +29,4 @@ use_flags:
 - abi_x86_64
 - gdbm
 - userland_GNU
-version: 5.28.2+r2
+version: 5.28.2+r3

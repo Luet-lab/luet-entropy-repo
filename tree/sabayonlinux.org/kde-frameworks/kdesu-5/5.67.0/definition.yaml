@@ -1,170 +1,42 @@
-State: ""
 category: kde-frameworks
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: kdesu-5
-provides: null
 requires:
-- State: ""
-  category: kde-frameworks
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: kde-frameworks
   name: kconfig-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=5.67'
-- State: ""
-  category: kde-frameworks
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: kde-frameworks
   name: kcoreaddons-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=5.67'
-- State: ""
-  category: kde-frameworks
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: kde-frameworks
   name: ki18n-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=5.67'
-- State: ""
-  category: kde-frameworks
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: kde-frameworks
   name: kpty-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=5.67'
-- State: ""
-  category: kde-frameworks
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: kde-frameworks
   name: kservice-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=5.67'
-- State: ""
-  category: kde-frameworks
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: kde-frameworks
   name: extra-cmake-modules-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=5.67'
-- State: ""
-  category: kde-frameworks
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: kde-frameworks
   name: kf-env-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=4'
-- State: ""
-  category: dev-qt
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-qt
   name: qtcore-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-util
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-util
   name: cmake
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-util
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-util
   name: ninja
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: x11-base
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: x11-base
   name: xorg-proto
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: x11-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: x11-libs
   name: libX11
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - userland_GNU
 - amd64
@@ -177,4 +49,4 @@ use_flags:
 - -debug
 - X
 - split-usr
-version: 5.67.0+1
+version: 5.67.0+2

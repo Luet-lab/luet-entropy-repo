@@ -1,40 +1,12 @@
-State: ""
 category: app-xemacs
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: fsf-compat
-provides: null
 requires:
-- State: ""
-  category: app-editors
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-editors
   name: xemacs
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: app-xemacs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-xemacs
   name: xemacs-base
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - elibc_glibc
 - userland_GNU
@@ -42,4 +14,4 @@ use_flags:
 - abi_x86_64
 - big-endian
 - kernel_linux
-version: 1.24+1
+version: 1.24+2

@@ -1,27 +1,9 @@
-State: ""
 category: dev-libs
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: wayland-protocols
-provides: null
 requires:
-- State: ""
-  category: dev-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-libs
   name: wayland
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - big-endian
 - userland_GNU
@@ -30,4 +12,4 @@ use_flags:
 - elibc_glibc
 - kernel_linux
 - abi_x86_64
-version: 1.18+1
+version: 1.18+2

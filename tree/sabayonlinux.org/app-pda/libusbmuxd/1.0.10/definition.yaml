@@ -1,40 +1,12 @@
-State: ""
 category: app-pda
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: libusbmuxd
-provides: null
 requires:
-- State: ""
-  category: app-pda
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-pda
   name: libplist
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.11'
-- State: ""
-  category: app-portage
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-portage
   name: elt-patches
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=20170815'
-set: false
-uri: null
 use_flags:
 - abi_x86_64
 - big-endian
@@ -43,4 +15,4 @@ use_flags:
 - -static-libs
 - userland_GNU
 - amd64
-version: 1.0.10+1
+version: 1.0.10+2

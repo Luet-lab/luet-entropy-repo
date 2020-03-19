@@ -1,79 +1,21 @@
-State: ""
 category: dev-db
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: mariadb
-provides: null
 requires:
-- State: ""
-  category: dev-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-libs
   name: libpcre-3
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=8.41'
-- State: ""
-  category: dev-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-libs
   name: openssl
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.0.0'
-- State: ""
-  category: dev-perl
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-perl
   name: DBD-mysql
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=2.9004'
-- State: ""
-  category: sys-apps
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-apps
   name: sed
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=4'
-- State: ""
-  category: sys-apps
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-apps
   name: texinfo
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=4.7'
-set: false
-uri: null
 use_flags:
 - -bindist
 - odbc
@@ -118,4 +60,4 @@ use_flags:
 - -sst-mariabackup
 - -sst-rsync
 - -elibc_FreeBSD
-version: 10.4.12+1
+version: 10.4.12+2

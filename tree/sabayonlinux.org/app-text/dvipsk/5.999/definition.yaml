@@ -1,40 +1,12 @@
-State: ""
 category: app-text
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: dvipsk
-provides: null
 requires:
-- State: ""
-  category: dev-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-libs
   name: kpathsea
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=6.2.1'
-- State: ""
-  category: dev-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-libs
   name: kpathsea
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - big-endian
 - abi_x86_64
@@ -45,4 +17,4 @@ use_flags:
 - userland_GNU
 - -doc
 - split-usr
-version: 5.999+p20190411
+version: 5.999+p20190412

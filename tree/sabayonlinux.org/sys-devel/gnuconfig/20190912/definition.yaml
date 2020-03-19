@@ -1,14 +1,5 @@
-State: ""
 category: sys-devel
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: gnuconfig
-provides: null
-requires: null
-set: false
-uri: null
 use_flags:
 - kernel_linux
 - abi_x86_64
@@ -17,4 +8,4 @@ use_flags:
 - elibc_glibc
 - userland_GNU
 - split-usr
-version: 20190912+1
+version: 20190912+2

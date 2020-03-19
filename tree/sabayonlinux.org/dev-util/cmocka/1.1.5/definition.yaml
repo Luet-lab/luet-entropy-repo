@@ -1,40 +1,12 @@
-State: ""
 category: dev-util
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: cmocka
-provides: null
 requires:
-- State: ""
-  category: dev-util
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-util
   name: cmake
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-util
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-util
   name: ninja
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - -examples
 - big-endian
@@ -56,4 +28,4 @@ use_flags:
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
 - -doc
-version: 1.1.5+2
+version: 1.1.5+3

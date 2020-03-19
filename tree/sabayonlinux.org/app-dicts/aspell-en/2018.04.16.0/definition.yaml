@@ -1,27 +1,9 @@
-State: ""
 category: app-dicts
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: aspell-en
-provides: null
 requires:
-- State: ""
-  category: app-text
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-text
   name: aspell
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.60'
-set: false
-uri: null
 use_flags:
 - big-endian
 - amd64
@@ -29,4 +11,4 @@ use_flags:
 - elibc_glibc
 - kernel_linux
 - userland_GNU
-version: 2018.04.16.0+1
+version: 2018.04.16.0+2

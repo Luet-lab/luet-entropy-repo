@@ -1,40 +1,12 @@
-State: ""
 category: java-virtuals
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: servlet-api-3.1
-provides: null
 requires:
-- State: ""
-  category: dev-java
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-java
   name: java-config-2
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=2.2.0'
-- State: ""
-  category: dev-java
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-java
   name: resin-servlet-api-3.1
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - big-endian
 - amd64
@@ -43,4 +15,4 @@ use_flags:
 - abi_x86_64
 - userland_GNU
 - -elibc_FreeBSD
-version: 3.1+r2
+version: 3.1+r3

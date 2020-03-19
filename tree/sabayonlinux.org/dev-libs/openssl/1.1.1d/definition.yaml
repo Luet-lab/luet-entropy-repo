@@ -1,66 +1,18 @@
-State: ""
 category: dev-libs
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: openssl
-provides: null
 requires:
-- State: ""
-  category: app-misc
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-misc
   name: c_rehash
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.7'
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-lang
   name: perl
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=5'
-- State: ""
-  category: sys-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-libs
   name: zlib
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.2.8'
-- State: ""
-  category: app-misc
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-misc
   name: ca-certificates
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - static-libs
 - big-endian
@@ -90,4 +42,4 @@ use_flags:
 - -abi_riscv_lp64d
 - -elibc_musl
 - -vanilla
-version: 1.1.1+d-r3.2
+version: 1.1.1+d-r3.3

@@ -1,53 +1,15 @@
-State: ""
 category: app-shells
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: bash-completion
-provides: null
 requires:
-- State: ""
-  category: app-shells
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-shells
   name: bash
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=4.3'
-- State: ""
-  category: app-shells
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-shells
   name: gentoo-bashcomp
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=20140911'
-- State: ""
-  category: sys-apps
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-apps
   name: miscfiles
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - kernel_linux
 - elibc_glibc
@@ -58,4 +20,4 @@ use_flags:
 - -test
 - eselect
 - split-usr
-version: 2.10+1
+version: 2.10+2

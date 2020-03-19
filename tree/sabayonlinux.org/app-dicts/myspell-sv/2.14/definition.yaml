@@ -1,27 +1,9 @@
-State: ""
 category: app-dicts
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: myspell-sv
-provides: null
 requires:
-- State: ""
-  category: app-arch
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-arch
   name: unzip
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - amd64
 - userland_GNU
@@ -29,4 +11,4 @@ use_flags:
 - kernel_linux
 - elibc_glibc
 - multilib
-version: 2.14+1
+version: 2.14+2

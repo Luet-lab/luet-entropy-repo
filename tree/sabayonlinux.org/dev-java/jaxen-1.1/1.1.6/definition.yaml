@@ -1,53 +1,15 @@
-State: ""
 category: dev-java
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: jaxen-1.1
-provides: null
 requires:
-- State: ""
-  category: dev-java
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-java
   name: java-config-2
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=2.2.0'
-- State: ""
-  category: dev-java
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-java
   name: dom4j-1
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-java
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-java
   name: jdom
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - elibc_glibc
 - -doc
@@ -59,4 +21,4 @@ use_flags:
 - kernel_linux
 - -source
 - split-usr
-version: 1.1.6+r2
+version: 1.1.6+r3

@@ -1,31 +1,13 @@
-State: ""
 category: app-eselect
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: eselect-cdparanoia
-provides: null
 requires:
-- State: ""
-  category: app-eselect
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-eselect
   name: eselect-lib-bin-symlink
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.1.1'
-set: false
-uri: null
 use_flags:
 - abi_x86_64
 - elibc_glibc
 - kernel_linux
 - userland_GNU
 - amd64
-version: 0.1+1
+version: 0.1+2

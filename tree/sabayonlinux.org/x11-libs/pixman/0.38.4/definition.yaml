@@ -1,40 +1,12 @@
-State: ""
 category: x11-libs
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: pixman
-provides: null
 requires:
-- State: ""
-  category: dev-util
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-util
   name: meson
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.51.2'
-- State: ""
-  category: dev-util
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-util
   name: ninja
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.8.2'
-set: false
-uri: null
 use_flags:
 - big-endian
 - -abi_x86_x32
@@ -60,4 +32,4 @@ use_flags:
 - -altivec
 - -abi_riscv_lp64d
 - -cpu_flags_arm_iwmmxt
-version: 0.38.4+2
+version: 0.38.4+3

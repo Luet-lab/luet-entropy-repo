@@ -1,40 +1,12 @@
-State: ""
 category: sys-power
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: iasl
-provides: null
 requires:
-- State: ""
-  category: sys-devel
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-devel
   name: bison
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: sys-devel
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-devel
   name: flex
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - big-endian
 - amd64
@@ -44,4 +16,4 @@ use_flags:
 - elibc_glibc
 - kernel_linux
 - -test
-version: 20190703+1
+version: 20190703+2

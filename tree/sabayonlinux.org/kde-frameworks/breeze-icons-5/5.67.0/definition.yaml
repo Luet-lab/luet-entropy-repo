@@ -1,66 +1,18 @@
-State: ""
 category: kde-frameworks
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: breeze-icons-5
-provides: null
 requires:
-- State: ""
-  category: kde-frameworks
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: kde-frameworks
   name: extra-cmake-modules-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=5.67'
-- State: ""
-  category: dev-qt
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-qt
   name: qtcore-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-util
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-util
   name: cmake
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-util
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-util
   name: ninja
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - big-endian
 - userland_GNU
@@ -70,4 +22,4 @@ use_flags:
 - -test
 - elibc_glibc
 - abi_x86_64
-version: 5.67.0+1
+version: 5.67.0+2

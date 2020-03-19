@@ -1,40 +1,12 @@
-State: ""
 category: app-portage
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: elt-patches
-provides: null
 requires:
-- State: ""
-  category: app-arch
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-arch
   name: xz-utils
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: sys-apps
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-apps
   name: gentoo-functions
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - kernel_linux
 - abi_x86_64
@@ -42,4 +14,4 @@ use_flags:
 - big-endian
 - elibc_glibc
 - userland_GNU
-version: 20170826.1+1
+version: 20170826.1+2

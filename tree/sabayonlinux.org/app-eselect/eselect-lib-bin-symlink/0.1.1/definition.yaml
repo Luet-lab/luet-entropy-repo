@@ -1,27 +1,9 @@
-State: ""
 category: app-eselect
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: eselect-lib-bin-symlink
-provides: null
 requires:
-- State: ""
-  category: app-admin
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-admin
   name: eselect
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - kernel_linux
 - abi_x86_64
@@ -30,4 +12,4 @@ use_flags:
 - elibc_glibc
 - userland_GNU
 - split-usr
-version: 0.1.1+r2
+version: 0.1.1+r3

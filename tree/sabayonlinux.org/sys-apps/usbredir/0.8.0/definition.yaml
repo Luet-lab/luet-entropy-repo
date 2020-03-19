@@ -1,14 +1,5 @@
-State: ""
 category: sys-apps
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: usbredir
-provides: null
-requires: null
-set: false
-uri: null
 use_flags:
 - userland_GNU
 - amd64
@@ -18,4 +9,4 @@ use_flags:
 - elibc_glibc
 - kernel_linux
 - split-usr
-version: 0.8.0+1
+version: 0.8.0+2

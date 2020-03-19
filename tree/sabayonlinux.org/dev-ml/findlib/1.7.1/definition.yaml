@@ -1,27 +1,9 @@
-State: ""
 category: dev-ml
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: findlib
-provides: null
 requires:
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-lang
   name: ocaml
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=4.02.3'
-set: false
-uri: null
 use_flags:
 - big-endian
 - kernel_linux
@@ -32,4 +14,4 @@ use_flags:
 - abi_x86_64
 - ocamlopt
 - -doc
-version: 1.7.1+1
+version: 1.7.1+2

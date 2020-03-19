@@ -1,40 +1,12 @@
-State: ""
 category: dev-java
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: javatoolkit
-provides: null
 requires:
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-lang
   name: python-2.7
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=2.7.5'
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-lang
   name: python-exec-2
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - amd64
 - abi_x86_64
@@ -42,4 +14,4 @@ use_flags:
 - kernel_linux
 - userland_GNU
 - elibc_glibc
-version: 0.3.0+r10
+version: 0.3.0+r11

@@ -1,66 +1,18 @@
-State: ""
 category: net-mail
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: mailbase
-provides: null
 requires:
-- State: ""
-  category: acct-group
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: acct-group
   name: mail
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: acct-user
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: acct-user
   name: mail
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: acct-user
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: acct-user
   name: postmaster
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: sys-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-libs
   name: pam
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - abi_x86_64
 - amd64
@@ -70,4 +22,4 @@ use_flags:
 - split-usr
 - pam
 - userland_GNU
-version: 1.5+r2
+version: 1.5+r3

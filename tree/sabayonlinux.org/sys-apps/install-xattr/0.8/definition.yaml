@@ -1,14 +1,5 @@
-State: ""
 category: sys-apps
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: install-xattr
-provides: null
-requires: null
-set: false
-uri: null
 use_flags:
 - big-endian
 - abi_x86_64
@@ -17,4 +8,4 @@ use_flags:
 - kernel_linux
 - elibc_glibc
 - amd64
-version: 0.8+1
+version: 0.8+2

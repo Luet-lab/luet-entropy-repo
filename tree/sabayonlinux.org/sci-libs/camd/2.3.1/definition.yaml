@@ -1,27 +1,9 @@
-State: ""
 category: sci-libs
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: camd
-provides: null
 requires:
-- State: ""
-  category: sci-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sci-libs
   name: suitesparseconfig
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - -doc
 - amd64
@@ -31,4 +13,4 @@ use_flags:
 - abi_x86_64
 - multilib
 - elibc_glibc
-version: 2.3.1+1
+version: 2.3.1+2

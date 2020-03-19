@@ -1,14 +1,5 @@
-State: ""
 category: dev-libs
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: libatasmart
-provides: null
-requires: null
-set: false
-uri: null
 use_flags:
 - userland_GNU
 - elibc_glibc
@@ -18,4 +9,4 @@ use_flags:
 - kernel_linux
 - big-endian
 - -static-libs
-version: 0.19+p6
+version: 0.19+p7

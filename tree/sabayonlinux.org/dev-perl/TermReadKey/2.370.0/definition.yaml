@@ -1,27 +1,9 @@
-State: ""
 category: dev-perl
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: TermReadKey
-provides: null
 requires:
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-lang
   name: perl
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - amd64
 - big-endian
@@ -31,4 +13,4 @@ use_flags:
 - kernel_linux
 - elibc_glibc
 - split-usr
-version: 2.370.0+1
+version: 2.370.0+2

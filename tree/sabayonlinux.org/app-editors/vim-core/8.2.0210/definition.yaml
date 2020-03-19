@@ -1,40 +1,12 @@
-State: ""
 category: app-editors
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: vim-core
-provides: null
 requires:
-- State: ""
-  category: app-vim
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-vim
   name: gentoo-syntax
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: sys-devel
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-devel
   name: autoconf-2.69
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - amd64
 - elibc_glibc
@@ -46,4 +18,4 @@ use_flags:
 - abi_x86_64
 - kernel_linux
 - userland_GNU
-version: 8.2.0210+1
+version: 8.2.0210+2

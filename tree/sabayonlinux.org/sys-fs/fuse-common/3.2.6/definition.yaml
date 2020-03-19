@@ -1,40 +1,12 @@
-State: ""
 category: sys-fs
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: fuse-common
-provides: null
 requires:
-- State: ""
-  category: dev-util
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-util
   name: meson
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.45.1'
-- State: ""
-  category: dev-util
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-util
   name: ninja
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.7.2'
-set: false
-uri: null
 use_flags:
 - kernel_linux
 - elibc_glibc
@@ -42,4 +14,4 @@ use_flags:
 - big-endian
 - userland_GNU
 - amd64
-version: 3.2.6+1
+version: 3.2.6+2

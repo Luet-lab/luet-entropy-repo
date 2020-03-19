@@ -1,53 +1,15 @@
-State: ""
 category: media-video
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: rtmpdump
-provides: null
 requires:
-- State: ""
-  category: net-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: net-libs
   name: gnutls
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=2.12.23'
-- State: ""
-  category: sys-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-libs
   name: zlib
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.2.8'
-- State: ""
-  category: dev-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-libs
   name: nettle
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - big-endian
 - -abi_s390_32
@@ -68,4 +30,4 @@ use_flags:
 - ssl
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
-version: 2.4+p20161210r3.2
+version: 2.4+p20161210r3.3

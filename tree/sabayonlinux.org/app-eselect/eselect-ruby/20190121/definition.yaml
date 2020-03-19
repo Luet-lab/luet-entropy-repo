@@ -1,27 +1,9 @@
-State: ""
 category: app-eselect
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: eselect-ruby
-provides: null
 requires:
-- State: ""
-  category: app-admin
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-admin
   name: eselect
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.0.2'
-set: false
-uri: null
 use_flags:
 - amd64
 - abi_x86_64
@@ -29,4 +11,4 @@ use_flags:
 - big-endian
 - kernel_linux
 - userland_GNU
-version: 20190121+1
+version: 20190121+2

@@ -1,27 +1,9 @@
-State: ""
 category: net-libs
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: liboauth
-provides: null
 requires:
-- State: ""
-  category: dev-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-libs
   name: nss
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - elibc_glibc
 - abi_x86_64
@@ -34,4 +16,4 @@ use_flags:
 - userland_GNU
 - -libressl
 - -doc
-version: 1.0.3+r2
+version: 1.0.3+r3

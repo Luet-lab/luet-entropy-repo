@@ -1,27 +1,9 @@
-State: ""
 category: sys-auth
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: realtime-base
-provides: null
 requires:
-- State: ""
-  category: sys-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-libs
   name: pam
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - big-endian
 - amd64
@@ -30,4 +12,4 @@ use_flags:
 - split-usr
 - userland_GNU
 - abi_x86_64
-version: 0.1+1
+version: 0.1+2

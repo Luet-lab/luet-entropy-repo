@@ -1,27 +1,9 @@
-State: ""
 category: gnome-extra
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: cinnamon-translations
-provides: null
 requires:
-- State: ""
-  category: gnome-extra
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: gnome-extra
   name: cinnamon-settings-daemon
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>3.6'
-set: false
-uri: null
 use_flags:
 - kernel_linux
 - amd64
@@ -29,4 +11,4 @@ use_flags:
 - abi_x86_64
 - elibc_glibc
 - big-endian
-version: 4.0.0+1
+version: 4.0.0+2

@@ -1,40 +1,12 @@
-State: ""
 category: app-arch
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: zip
-provides: null
 requires:
-- State: ""
-  category: app-arch
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-arch
   name: bzip2
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: app-arch
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-arch
   name: unzip
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - big-endian
 - -natspec
@@ -46,4 +18,4 @@ use_flags:
 - unicode
 - amd64
 - abi_x86_64
-version: 3.0+r4
+version: 3.0+r5

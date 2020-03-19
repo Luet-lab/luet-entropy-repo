@@ -1,40 +1,12 @@
-State: ""
 category: media-fonts
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: dejavu
-provides: null
 requires:
-- State: ""
-  category: media-fonts
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-fonts
   name: encodings
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: x11-apps
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: x11-apps
   name: mkfontdir
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - kernel_linux
 - X
@@ -43,4 +15,4 @@ use_flags:
 - userland_GNU
 - abi_x86_64
 - elibc_glibc
-version: 2.37+1
+version: 2.37+2

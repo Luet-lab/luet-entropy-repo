@@ -1,40 +1,12 @@
-State: ""
 category: dev-util
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: desktop-file-utils
-provides: null
 requires:
-- State: ""
-  category: dev-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-libs
   name: glib-2
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=2.12'
-- State: ""
-  category: app-arch
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-arch
   name: xz-utils
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - elibc_glibc
 - -emacs
@@ -44,4 +16,4 @@ use_flags:
 - kernel_linux
 - split-usr
 - amd64
-version: 0.24+1
+version: 0.24+2

@@ -1,31 +1,13 @@
-State: ""
 category: app-dicts
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: aspell-hr
-provides: null
 requires:
-- State: ""
-  category: app-text
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-text
   name: aspell
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.50'
-set: false
-uri: null
 use_flags:
 - userland_GNU
 - abi_x86_64
 - kernel_linux
 - elibc_glibc
 - amd64
-version: 0.51.0+1
+version: 0.51.0+2

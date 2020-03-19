@@ -1,14 +1,5 @@
-State: ""
 category: app-crypt
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: openpgp-keys-gentoo-release
-provides: null
-requires: null
-set: false
-uri: null
 use_flags:
 - big-endian
 - -test
@@ -18,4 +9,4 @@ use_flags:
 - abi_x86_64
 - elibc_glibc
 - split-usr
-version: 20191030+1
+version: 20191030+2

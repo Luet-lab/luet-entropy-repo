@@ -1,40 +1,12 @@
-State: ""
 category: sci-libs
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: openblas
-provides: null
 requires:
-- State: ""
-  category: app-eselect
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-eselect
   name: eselect-blas
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.2'
-- State: ""
-  category: app-eselect
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-eselect
   name: eselect-lapack
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.2'
-set: false
-uri: null
 use_flags:
 - split-usr
 - userland_GNU
@@ -48,4 +20,4 @@ use_flags:
 - openmp
 - kernel_linux
 - amd64
-version: 0.3.7+1
+version: 0.3.7+2

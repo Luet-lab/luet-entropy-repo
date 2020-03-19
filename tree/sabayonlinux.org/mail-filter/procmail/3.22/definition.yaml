@@ -1,14 +1,5 @@
-State: ""
 category: mail-filter
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: procmail
-provides: null
-requires: null
-set: false
-uri: null
 use_flags:
 - kernel_linux
 - elibc_glibc
@@ -18,4 +9,4 @@ use_flags:
 - big-endian
 - -selinux
 - userland_GNU
-version: 3.22+r15
+version: 3.22+r16

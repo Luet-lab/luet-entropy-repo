@@ -1,27 +1,9 @@
-State: ""
 category: sys-apps
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: man-pages
-provides: null
 requires:
-- State: ""
-  category: sys-apps
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-apps
   name: man-pages-posix
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - nls
 - -l10n_zh-CN
@@ -40,4 +22,4 @@ use_flags:
 - -l10n_nl
 - -l10n_ru
 - userland_GNU
-version: 5.04+1
+version: 5.04+2

@@ -1,14 +1,5 @@
-State: ""
 category: sys-power
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: pm-quirks
-provides: null
-requires: null
-set: false
-uri: null
 use_flags:
 - abi_x86_64
 - userland_GNU
@@ -16,4 +7,4 @@ use_flags:
 - kernel_linux
 - big-endian
 - elibc_glibc
-version: 20100619+r2
+version: 20100619+r3

@@ -1,31 +1,13 @@
-State: ""
 category: app-doc
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: zsh-lovers
-provides: null
 requires:
-- State: ""
-  category: app-text
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-text
   name: asciidoc
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - abi_x86_64
 - elibc_glibc
 - userland_GNU
 - amd64
 - kernel_linux
-version: 0.9.0+1
+version: 0.9.0+2

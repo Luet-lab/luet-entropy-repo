@@ -1,14 +1,5 @@
-State: ""
 category: dev-libs
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: libpipeline
-provides: null
-requires: null
-set: false
-uri: null
 use_flags:
 - big-endian
 - -test
@@ -19,4 +10,4 @@ use_flags:
 - -static-libs
 - elibc_glibc
 - kernel_linux
-version: 1.5.2+1
+version: 1.5.2+2

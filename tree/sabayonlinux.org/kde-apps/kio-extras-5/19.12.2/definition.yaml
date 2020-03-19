@@ -1,521 +1,123 @@
-State: ""
 category: kde-apps
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: kio-extras-5
-provides: null
 requires:
-- State: ""
-  category: dev-qt
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-qt
   name: qtdbus-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=5.12.3'
-- State: ""
-  category: dev-qt
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-qt
   name: qtgui-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=5.12.3'
-- State: ""
-  category: dev-qt
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-qt
   name: qtnetwork-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=5.12.3'
-- State: ""
-  category: dev-qt
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-qt
   name: qtsvg-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=5.12.3'
-- State: ""
-  category: dev-qt
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-qt
   name: qtwidgets-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=5.12.3'
-- State: ""
-  category: dev-qt
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-qt
   name: qtxml-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=5.12.3'
-- State: ""
-  category: kde-frameworks
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: kde-frameworks
   name: extra-cmake-modules-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=5.63.0'
-- State: ""
-  category: kde-frameworks
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: kde-frameworks
   name: karchive-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=5.63.0'
-- State: ""
-  category: kde-frameworks
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: kde-frameworks
   name: kbookmarks-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=5.63.0'
-- State: ""
-  category: kde-frameworks
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: kde-frameworks
   name: kcodecs-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=5.63.0'
-- State: ""
-  category: kde-frameworks
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: kde-frameworks
   name: kconfig-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=5.63.0'
-- State: ""
-  category: kde-frameworks
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: kde-frameworks
   name: kconfigwidgets-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=5.63.0'
-- State: ""
-  category: kde-frameworks
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: kde-frameworks
   name: kcoreaddons-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=5.63.0'
-- State: ""
-  category: kde-frameworks
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: kde-frameworks
   name: kdbusaddons-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=5.63.0'
-- State: ""
-  category: kde-frameworks
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: kde-frameworks
   name: kded-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=5.63.0'
-- State: ""
-  category: kde-frameworks
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: kde-frameworks
   name: kdnssd-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=5.63.0'
-- State: ""
-  category: kde-frameworks
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: kde-frameworks
   name: kdoctools-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=5.63.0'
-- State: ""
-  category: kde-frameworks
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: kde-frameworks
   name: kf-env-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=4'
-- State: ""
-  category: kde-frameworks
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: kde-frameworks
   name: kguiaddons-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=5.63.0'
-- State: ""
-  category: kde-frameworks
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: kde-frameworks
   name: ki18n-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=5.63.0'
-- State: ""
-  category: kde-frameworks
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: kde-frameworks
   name: kiconthemes-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=5.63.0'
-- State: ""
-  category: kde-frameworks
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: kde-frameworks
   name: kio-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=5.63.0'
-- State: ""
-  category: kde-frameworks
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: kde-frameworks
   name: kparts-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=5.63.0'
-- State: ""
-  category: kde-frameworks
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: kde-frameworks
   name: kpty-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=5.63.0'
-- State: ""
-  category: kde-frameworks
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: kde-frameworks
   name: kservice-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=5.63.0'
-- State: ""
-  category: kde-frameworks
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: kde-frameworks
   name: kxmlgui-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=5.63.0'
-- State: ""
-  category: kde-frameworks
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: kde-frameworks
   name: solid-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=5.63.0'
-- State: ""
-  category: kde-frameworks
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: kde-frameworks
   name: syntax-highlighting-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=5.63.0'
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: libmtp
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.1.16'
-- State: ""
-  category: dev-qt
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-qt
   name: qtcore-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-util
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-util
   name: cmake
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-util
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-util
   name: desktop-file-utils
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-util
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-util
   name: gperf
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-util
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-util
   name: ninja
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: kde-frameworks
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: kde-frameworks
   name: oxygen-icons-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: openexr
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: net-fs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: net-fs
   name: samba
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: net-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: net-libs
   name: libssh
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: x11-misc
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: x11-misc
   name: shared-mime-info
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - mtp
 - elibc_glibc
@@ -535,4 +137,4 @@ use_flags:
 - big-endian
 - -debug
 - split-usr
-version: 19.12.2+1
+version: 19.12.2+2

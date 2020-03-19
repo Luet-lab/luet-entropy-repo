@@ -1,40 +1,12 @@
-State: ""
 category: net-firewall
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: ebtables
-provides: null
 requires:
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-lang
   name: perl
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: net-misc
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: net-misc
   name: ethertypes
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - amd64
 - elibc_glibc
@@ -44,4 +16,4 @@ use_flags:
 - -static
 - big-endian
 - userland_GNU
-version: 2.0.10.4+r3
+version: 2.0.10.4+r4

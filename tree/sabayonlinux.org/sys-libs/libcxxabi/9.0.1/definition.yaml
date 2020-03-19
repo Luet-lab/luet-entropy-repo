@@ -1,53 +1,15 @@
-State: ""
 category: sys-libs
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: libcxxabi
-provides: null
 requires:
-- State: ""
-  category: dev-util
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-util
   name: cmake
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=3.9.6'
-- State: ""
-  category: sys-devel
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-devel
   name: llvm-9
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=6'
-- State: ""
-  category: dev-util
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-util
   name: ninja
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - static-libs
 - big-endian
@@ -69,4 +31,4 @@ use_flags:
 - -abi_riscv_lp64d
 - -elibc_musl
 - -libunwind
-version: 9.0.1+2
+version: 9.0.1+3

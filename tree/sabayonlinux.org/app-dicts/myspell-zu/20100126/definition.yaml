@@ -1,27 +1,9 @@
-State: ""
 category: app-dicts
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: myspell-zu
-provides: null
 requires:
-- State: ""
-  category: app-arch
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-arch
   name: unzip
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - amd64
 - abi_x86_64
@@ -29,4 +11,4 @@ use_flags:
 - userland_GNU
 - elibc_glibc
 - kernel_linux
-version: 20100126+1
+version: 20100126+2

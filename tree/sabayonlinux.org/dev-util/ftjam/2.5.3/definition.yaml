@@ -1,27 +1,9 @@
-State: ""
 category: dev-util
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: ftjam
-provides: null
 requires:
-- State: ""
-  category: sys-devel
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-devel
   name: bison
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - amd64
 - kernel_linux
@@ -29,4 +11,4 @@ use_flags:
 - elibc_glibc
 - big-endian
 - abi_x86_64
-version: 2.5.3+rc2r2.1
+version: 2.5.3+rc2r2.2

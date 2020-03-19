@@ -1,989 +1,231 @@
-State: ""
 category: app-text
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: pandoc
-provides: null
 requires:
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: aeson
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: <1.2
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: base64-bytestring
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: <1.1
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: blaze-html
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: <0.10
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: blaze-markup
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: <0.9
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: cmark
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: <0.6
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: data-default
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: <0.8
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: doctemplates
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: <0.2
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: extensible-exceptions
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: <0.2
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: filemanip
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: <0.4
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: haddock-library
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: <1.5
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: hslua
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: <0.5
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: http
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: <4000.4
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: http-client
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: <0.6
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: http-client-tls
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: <0.4
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: http-types
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: <0.10
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: juicypixels
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: <3.3
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: mtl
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: <2.3
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: network-uri
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: <2.7
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: old-locale
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: <1.1
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: pandoc-types
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: <1.18
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: parsec
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: <3.2
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: random
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: <1.2
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: scientific
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: <0.4
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: sha
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: <1.7
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: syb
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: <0.7
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: tagsoup
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: <0.15
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: temporary
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: <1.3
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: texmath
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: <0.10
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: text
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: <1.3
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: unordered-containers
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: <0.3
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: vector
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: <0.13
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: xml
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: <1.4
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: yaml
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: <0.9
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: zip-archive
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: <0.4
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: zlib
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: <0.7
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: aeson
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.7.0.5'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: base64-bytestring
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.1'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: blaze-html
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.5'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: blaze-markup
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.5.1'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: cabal
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.18.1.3'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: cmark
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.5'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: data-default
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.4'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: doctemplates
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.1'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: extensible-exceptions
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.1'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: filemanip
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.3'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: haddock-library
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.1'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: hslua
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.3'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: http
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=4000.0.5'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: http-client
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.4.30'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: http-client-tls
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.2.4'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: http-types
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.8'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: juicypixels
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=3.1.6.1'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: mtl
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=2.2'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: network
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=2.6'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: network-uri
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=2.6'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: old-locale
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: pandoc-types
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.17'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: parsec
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=3.1'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: random
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: scientific
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.2'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: sha
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.6'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: skylighting
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.1.1.4'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: syb
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.1'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: tagsoup
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.13.7'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: temporary
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.1'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: texmath
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.9'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: text
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.11'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: unordered-containers
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.2'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: vector
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.10'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: xml
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.3.12'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: yaml
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.8.8.2'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: zip-archive
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.2.3.4'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: zlib
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.5'
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-lang
   name: ghc
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=7.8.2'
-- State: ""
-  category: dev-haskell
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-haskell
   name: old-time
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - big-endian
 - network-uri
@@ -1000,4 +242,4 @@ use_flags:
 - -weigh-pandoc
 - -test
 - abi_x86_64
-version: 1.19.2.1+r2
+version: 1.19.2.1+r3

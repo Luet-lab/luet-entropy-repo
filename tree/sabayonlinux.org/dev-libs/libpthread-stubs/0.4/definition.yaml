@@ -1,14 +1,5 @@
-State: ""
 category: dev-libs
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: libpthread-stubs
-provides: null
-requires: null
-set: false
-uri: null
 use_flags:
 - -abi_s390_32
 - -abi_riscv_lp64d
@@ -26,4 +17,4 @@ use_flags:
 - split-usr
 - -abi_mips_n32
 - userland_GNU
-version: 0.4+r3
+version: 0.4+r4

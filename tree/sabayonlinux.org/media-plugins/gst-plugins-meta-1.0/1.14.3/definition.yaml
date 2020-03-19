@@ -1,339 +1,81 @@
-State: ""
 category: media-plugins
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: gst-plugins-meta-1.0
-provides: null
 requires:
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: gst-plugins-bad-1.0
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.14.3'
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: gst-plugins-base-1.0
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.14.3'
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: gst-plugins-good-1.0
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.14.3'
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: gst-plugins-ugly-1.0
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.14.3'
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: gstreamer-1.0
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.14.3'
-- State: ""
-  category: media-plugins
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-plugins
   name: gst-plugins-a52dec-1.0
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.14.3'
-- State: ""
-  category: media-plugins
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-plugins
   name: gst-plugins-cdio-1.0
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.14.3'
-- State: ""
-  category: media-plugins
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-plugins
   name: gst-plugins-dts-1.0
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.14.3'
-- State: ""
-  category: media-plugins
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-plugins
   name: gst-plugins-dv-1.0
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.14.3'
-- State: ""
-  category: media-plugins
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-plugins
   name: gst-plugins-dvb-1.0
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.14.3'
-- State: ""
-  category: media-plugins
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-plugins
   name: gst-plugins-dvdread-1.0
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.14.3'
-- State: ""
-  category: media-plugins
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-plugins
   name: gst-plugins-faad-1.0
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.14.3'
-- State: ""
-  category: media-plugins
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-plugins
   name: gst-plugins-flac-1.0
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.14.3'
-- State: ""
-  category: media-plugins
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-plugins
   name: gst-plugins-jack-1.0
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.14.3'
-- State: ""
-  category: media-plugins
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-plugins
   name: gst-plugins-lame-1.0
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.14.3'
-- State: ""
-  category: media-plugins
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-plugins
   name: gst-plugins-libav-1.0
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.14.2'
-- State: ""
-  category: media-plugins
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-plugins
   name: gst-plugins-libmms-1.0
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.14.3'
-- State: ""
-  category: media-plugins
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-plugins
   name: gst-plugins-mpeg2dec-1.0
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.14.3'
-- State: ""
-  category: media-plugins
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-plugins
   name: gst-plugins-mpg123-1.0
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.14.3'
-- State: ""
-  category: media-plugins
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-plugins
   name: gst-plugins-opus-1.0
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.14.3'
-- State: ""
-  category: media-plugins
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-plugins
   name: gst-plugins-pulse-1.0
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.14.3'
-- State: ""
-  category: media-plugins
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-plugins
   name: gst-plugins-resindvd-1.0
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.14.3'
-- State: ""
-  category: media-plugins
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-plugins
   name: gst-plugins-soup-1.0
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.14.3'
-- State: ""
-  category: media-plugins
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-plugins
   name: gst-plugins-v4l2-1.0
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.14.3'
-- State: ""
-  category: media-plugins
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-plugins
   name: gst-plugins-x264-1.0
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.14.3'
-set: false
-uri: null
 use_flags:
 - aac
 - mms
@@ -383,4 +125,4 @@ use_flags:
 - mpeg
 - -taglib
 - -abi_mips_n32
-version: 1.14.3+1
+version: 1.14.3+2

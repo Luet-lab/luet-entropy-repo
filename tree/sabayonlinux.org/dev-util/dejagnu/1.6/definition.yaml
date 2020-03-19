@@ -1,40 +1,12 @@
-State: ""
 category: dev-util
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: dejagnu
-provides: null
 requires:
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-lang
   name: tcl
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-tcltk
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-tcltk
   name: expect
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - kernel_linux
 - abi_x86_64
@@ -42,4 +14,4 @@ use_flags:
 - userland_GNU
 - elibc_glibc
 - -doc
-version: 1.6+1
+version: 1.6+2

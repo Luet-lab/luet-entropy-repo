@@ -1,27 +1,9 @@
-State: ""
 category: x11-misc
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: xorg-cf-files
-provides: null
 requires:
-- State: ""
-  category: app-arch
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-arch
   name: bzip2
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - amd64
 - elibc_glibc
@@ -29,4 +11,4 @@ use_flags:
 - kernel_linux
 - big-endian
 - userland_GNU
-version: 1.0.6+r2
+version: 1.0.6+r3

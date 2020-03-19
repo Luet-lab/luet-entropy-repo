@@ -1,44 +1,16 @@
-State: ""
 category: media-gfx
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: ebdftopcf
-provides: null
 requires:
-- State: ""
-  category: app-arch
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-arch
   name: gzip
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: x11-apps
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: x11-apps
   name: bdftopcf
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - multilib
 - kernel_linux
 - userland_GNU
 - amd64
 - elibc_glibc
-version: 2+1
+version: 2+2

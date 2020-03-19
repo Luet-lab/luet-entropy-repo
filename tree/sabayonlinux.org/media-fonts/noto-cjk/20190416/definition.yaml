@@ -1,40 +1,12 @@
-State: ""
 category: media-fonts
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: noto-cjk
-provides: null
 requires:
-- State: ""
-  category: x11-apps
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: x11-apps
   name: mkfontscale
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.2.0'
-- State: ""
-  category: media-fonts
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-fonts
   name: encodings
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - abi_x86_64
 - elibc_glibc
@@ -43,4 +15,4 @@ use_flags:
 - kernel_linux
 - X
 - amd64
-version: 20190416+1
+version: 20190416+2

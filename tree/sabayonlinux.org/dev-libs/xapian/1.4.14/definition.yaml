@@ -1,27 +1,9 @@
-State: ""
 category: dev-libs
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: xapian
-provides: null
 requires:
-- State: ""
-  category: sys-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-libs
   name: zlib
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - big-endian
 - -abi_x86_x32
@@ -45,4 +27,4 @@ use_flags:
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
 - remote
-version: 1.4.14+2
+version: 1.4.14+3

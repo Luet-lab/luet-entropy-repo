@@ -1,14 +1,5 @@
-State: ""
 category: sys-kernel
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: linux-firmware
-provides: null
-requires: null
-set: false
-uri: null
 use_flags:
 - split-usr
 - abi_x86_64
@@ -21,4 +12,4 @@ use_flags:
 - amd64
 - -unknown-license
 - elibc_glibc
-version: 20200122+1
+version: 20200122+2

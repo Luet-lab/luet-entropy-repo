@@ -1,53 +1,15 @@
-State: ""
 category: app-admin
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: gamin
-provides: null
 requires:
-- State: ""
-  category: app-admin
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-admin
   name: gam-server
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.1.10'
-- State: ""
-  category: dev-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-libs
   name: libgamin
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.1.10'
-- State: ""
-  category: sys-apps
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-apps
   name: coreutils
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=8.5'
-set: false
-uri: null
 use_flags:
 - multilib
 - userland_GNU
@@ -60,4 +22,4 @@ use_flags:
 - -abi_mips_o32
 - amd64
 - elibc_glibc
-version: 0.1.10+r2
+version: 0.1.10+r3

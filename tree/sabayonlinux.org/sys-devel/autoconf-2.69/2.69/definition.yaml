@@ -1,53 +1,15 @@
-State: ""
 category: sys-devel
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: autoconf-2.69
-provides: null
 requires:
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-lang
   name: perl
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=5.6'
-- State: ""
-  category: sys-devel
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-devel
   name: autoconf-wrapper
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=13'
-- State: ""
-  category: sys-devel
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-devel
   name: m4
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.4.16'
-set: false
-uri: null
 use_flags:
 - kernel_linux
 - abi_x86_64
@@ -56,4 +18,4 @@ use_flags:
 - elibc_glibc
 - -emacs
 - userland_GNU
-version: 2.69+r5
+version: 2.69+r6

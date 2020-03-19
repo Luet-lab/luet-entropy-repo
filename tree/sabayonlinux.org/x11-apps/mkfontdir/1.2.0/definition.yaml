@@ -1,27 +1,9 @@
-State: ""
 category: x11-apps
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: mkfontdir
-provides: null
 requires:
-- State: ""
-  category: x11-apps
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: x11-apps
   name: mkfontscale
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.2.0'
-set: false
-uri: null
 use_flags:
 - amd64
 - kernel_linux
@@ -29,4 +11,4 @@ use_flags:
 - elibc_glibc
 - abi_x86_64
 - big-endian
-version: 1.2.0+1
+version: 1.2.0+2

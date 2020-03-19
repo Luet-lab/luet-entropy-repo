@@ -1,79 +1,21 @@
-State: ""
 category: x11-base
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: xorg-drivers
-provides: null
 requires:
-- State: ""
-  category: x11-drivers
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: x11-drivers
   name: xf86-input-evdev
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=2.10.6'
-- State: ""
-  category: x11-drivers
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: x11-drivers
   name: xf86-video-ati
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=18.0.1'
-- State: ""
-  category: x11-drivers
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: x11-drivers
   name: xf86-video-fbdev
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.5.0'
-- State: ""
-  category: x11-drivers
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: x11-drivers
   name: xf86-input-void
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: x11-drivers
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: x11-drivers
   name: xf86-video-vesa
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - -input_devices_keyboard
 - -video_cards_omap
@@ -118,4 +60,4 @@ use_flags:
 - amd64
 - -input_devices_synaptics
 - -video_cards_nvidia
-version: 1.20+r2
+version: 1.20+r3

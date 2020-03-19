@@ -1,27 +1,9 @@
-State: ""
 category: dev-ruby
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: coffee-script-source
-provides: null
 requires:
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-lang
   name: ruby-2.5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - split-usr
 - abi_x86_64
@@ -34,4 +16,4 @@ use_flags:
 - -ruby_targets_ruby24
 - -ruby_targets_ruby26
 - amd64
-version: 1.12.2+1
+version: 1.12.2+2

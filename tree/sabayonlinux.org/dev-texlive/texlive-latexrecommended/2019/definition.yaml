@@ -1,53 +1,15 @@
-State: ""
 category: dev-texlive
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: texlive-latexrecommended
-provides: null
 requires:
-- State: ""
-  category: app-text
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-text
   name: texlive-core
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=2019'
-- State: ""
-  category: dev-texlive
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-texlive
   name: texlive-latex
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=2019'
-- State: ""
-  category: app-arch
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-arch
   name: xz-utils
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - -doc
 - abi_x86_64
@@ -58,4 +20,4 @@ use_flags:
 - big-endian
 - amd64
 - kernel_linux
-version: 2019+r3
+version: 2019+r4

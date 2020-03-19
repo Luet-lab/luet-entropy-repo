@@ -1,40 +1,12 @@
-State: ""
 category: app-arch
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: tar
-provides: null
 requires:
-- State: ""
-  category: sys-devel
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-devel
   name: gettext
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.10.35'
-- State: ""
-  category: sys-apps
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-apps
   name: attr
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - -selinux
 - nls
@@ -48,4 +20,4 @@ use_flags:
 - xattr
 - -minimal
 - userland_GNU
-version: 1.32+1
+version: 1.32+2

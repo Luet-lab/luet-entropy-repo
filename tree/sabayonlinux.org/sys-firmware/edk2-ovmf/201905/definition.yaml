@@ -1,14 +1,5 @@
-State: ""
 category: sys-firmware
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: edk2-ovmf
-provides: null
-requires: null
-set: false
-uri: null
 use_flags:
 - userland_GNU
 - amd64
@@ -18,4 +9,4 @@ use_flags:
 - kernel_linux
 - binary
 - split-usr
-version: 201905+1
+version: 201905+2

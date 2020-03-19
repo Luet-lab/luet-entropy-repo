@@ -1,27 +1,9 @@
-State: ""
 category: dev-libs
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: tre
-provides: null
 requires:
-- State: ""
-  category: sys-devel
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-devel
   name: gettext
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - userland_GNU
 - amd64
@@ -30,4 +12,4 @@ use_flags:
 - kernel_linux
 - abi_x86_64
 - -static-libs
-version: 0.8.0+r2
+version: 0.8.0+r3

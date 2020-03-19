@@ -1,40 +1,12 @@
-State: ""
 category: dev-libs
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: pkcs11-helper
-provides: null
 requires:
-- State: ""
-  category: dev-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-libs
   name: openssl
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.9.7'
-- State: ""
-  category: net-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: net-libs
   name: gnutls
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.4.4'
-set: false
-uri: null
 use_flags:
 - abi_x86_64
 - -libressl
@@ -49,4 +21,4 @@ use_flags:
 - -nss
 - gnutls
 - userland_GNU
-version: 1.25.1+1
+version: 1.25.1+2

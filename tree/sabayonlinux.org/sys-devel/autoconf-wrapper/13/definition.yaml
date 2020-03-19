@@ -1,14 +1,5 @@
-State: ""
 category: sys-devel
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: autoconf-wrapper
-provides: null
-requires: null
-set: false
-uri: null
 use_flags:
 - kernel_linux
 - abi_x86_64
@@ -16,4 +7,4 @@ use_flags:
 - big-endian
 - elibc_glibc
 - userland_GNU
-version: 13+r2
+version: 13+r3

@@ -1,53 +1,15 @@
-State: ""
 category: media-fonts
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: arphicfonts
-provides: null
 requires:
-- State: ""
-  category: media-fonts
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-fonts
   name: encodings
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: media-gfx
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-gfx
   name: fontforge
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: x11-apps
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: x11-apps
   name: mkfontdir
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - kernel_linux
 - abi_x86_64
@@ -55,4 +17,4 @@ use_flags:
 - amd64
 - elibc_glibc
 - X
-version: 0.2.20080216.1+r3
+version: 0.2.20080216.1+r4

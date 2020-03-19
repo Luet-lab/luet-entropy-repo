@@ -1,40 +1,12 @@
-State: ""
 category: x11-base
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: xorg-proto
-provides: null
 requires:
-- State: ""
-  category: dev-util
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-util
   name: meson
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.48.2'
-- State: ""
-  category: dev-util
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-util
   name: ninja
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=1.7.2'
-set: false
-uri: null
 use_flags:
 - elibc_glibc
 - amd64
@@ -43,4 +15,4 @@ use_flags:
 - kernel_linux
 - split-usr
 - big-endian
-version: 2019.2+1
+version: 2019.2+2

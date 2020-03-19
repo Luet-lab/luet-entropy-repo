@@ -1,27 +1,9 @@
-State: ""
 category: sys-process
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: time
-provides: null
 requires:
-- State: ""
-  category: sys-apps
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-apps
   name: texinfo
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - big-endian
 - kernel_linux
@@ -29,4 +11,4 @@ use_flags:
 - abi_x86_64
 - amd64
 - userland_GNU
-version: 1.9+1
+version: 1.9+2

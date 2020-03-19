@@ -1,40 +1,12 @@
-State: ""
 category: dev-ruby
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: activemodel-6.0
-provides: null
 requires:
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-lang
   name: ruby-2.5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-ruby
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-ruby
   name: activesupport-6.0
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=6.0.2.1'
-set: false
-uri: null
 use_flags:
 - big-endian
 - userland_GNU
@@ -47,4 +19,4 @@ use_flags:
 - -doc
 - abi_x86_64
 - kernel_linux
-version: 6.0.2.1+1
+version: 6.0.2.1+2

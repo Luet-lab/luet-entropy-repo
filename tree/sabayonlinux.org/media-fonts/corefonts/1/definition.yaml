@@ -1,53 +1,15 @@
-State: ""
 category: media-fonts
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: corefonts
-provides: null
 requires:
-- State: ""
-  category: app-arch
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-arch
   name: cabextract
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: media-fonts
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-fonts
   name: encodings
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: x11-apps
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: x11-apps
   name: mkfontdir
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - X
 - elibc_glibc
@@ -56,4 +18,4 @@ use_flags:
 - amd64
 - userland_GNU
 - abi_x86_64
-version: 1+r8
+version: 1+r9

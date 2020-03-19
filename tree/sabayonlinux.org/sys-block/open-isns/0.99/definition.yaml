@@ -1,27 +1,9 @@
-State: ""
 category: sys-block
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: open-isns
-provides: null
 requires:
-- State: ""
-  category: dev-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-libs
   name: openssl
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - big-endian
 - -static
@@ -35,4 +17,4 @@ use_flags:
 - kernel_linux
 - ssl
 - split-usr
-version: 0.99+1
+version: 0.99+2

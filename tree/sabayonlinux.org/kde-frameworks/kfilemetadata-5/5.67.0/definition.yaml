@@ -1,183 +1,45 @@
-State: ""
 category: kde-frameworks
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: kfilemetadata-5
-provides: null
 requires:
-- State: ""
-  category: kde-frameworks
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: kde-frameworks
   name: kcoreaddons-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=5.67'
-- State: ""
-  category: kde-frameworks
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: kde-frameworks
   name: ki18n-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=5.67'
-- State: ""
-  category: dev-qt
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-qt
   name: qtxml-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=5.12.3'
-- State: ""
-  category: kde-frameworks
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: kde-frameworks
   name: extra-cmake-modules-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=5.67'
-- State: ""
-  category: kde-frameworks
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: kde-frameworks
   name: kf-env-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=4'
-- State: ""
-  category: app-text
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-text
   name: poppler-qt5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-qt
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-qt
   name: qtcore-5
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-util
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-util
   name: cmake
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-util
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-util
   name: ninja
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: media-gfx
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-gfx
   name: exiv2
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: media-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-libs
   name: taglib
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: media-video
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: media-video
   name: ffmpeg
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: sys-apps
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-apps
   name: attr
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - -epub
 - -libav
@@ -196,4 +58,4 @@ use_flags:
 - taglib
 - -office
 - split-usr
-version: 5.67.0+1
+version: 5.67.0+2

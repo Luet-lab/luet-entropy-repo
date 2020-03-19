@@ -1,27 +1,9 @@
-State: ""
 category: dev-perl
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: Switch
-provides: null
 requires:
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-lang
   name: perl
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - userland_GNU
 - split-usr
@@ -30,4 +12,4 @@ use_flags:
 - elibc_glibc
 - kernel_linux
 - abi_x86_64
-version: 2.170.0+1
+version: 2.170.0+2

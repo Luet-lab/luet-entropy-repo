@@ -1,40 +1,12 @@
-State: ""
 category: dev-cpp
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: asio
-provides: null
 requires:
-- State: ""
-  category: dev-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-libs
   name: boost
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: dev-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-libs
   name: openssl
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - -doc
 - userland_GNU
@@ -47,4 +19,4 @@ use_flags:
 - split-usr
 - big-endian
 - elibc_glibc
-version: 1.10.8+1
+version: 1.10.8+2

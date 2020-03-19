@@ -1,27 +1,9 @@
-State: ""
 category: sys-apps
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: busybox
-provides: null
 requires:
-- State: ""
-  category: sys-kernel
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-kernel
   name: linux-headers
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=2.6.39'
-set: false
-uri: null
 use_flags:
 - -selinux
 - big-endian
@@ -43,4 +25,4 @@ use_flags:
 - ipv6
 - -debug
 - userland_GNU
-version: 1.30.1+1
+version: 1.30.1+2

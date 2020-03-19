@@ -1,27 +1,9 @@
-State: ""
 category: dev-perl
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: File-chdir
-provides: null
 requires:
-- State: ""
-  category: dev-lang
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: dev-lang
   name: perl
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - split-usr
 - elibc_glibc
@@ -31,4 +13,4 @@ use_flags:
 - big-endian
 - -test
 - kernel_linux
-version: 0.101.100+1
+version: 0.101.100+2

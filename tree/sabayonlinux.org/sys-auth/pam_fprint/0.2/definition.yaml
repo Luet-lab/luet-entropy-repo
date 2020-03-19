@@ -1,40 +1,12 @@
-State: ""
 category: sys-auth
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: pam_fprint
-provides: null
 requires:
-- State: ""
-  category: sys-auth
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-auth
   name: libfprint
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-- State: ""
-  category: sys-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-libs
   name: pam
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - amd64
 - split-usr
@@ -43,4 +15,4 @@ use_flags:
 - abi_x86_64
 - userland_GNU
 - kernel_linux
-version: 0.2+r3
+version: 0.2+r4

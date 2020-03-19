@@ -1,53 +1,15 @@
-State: ""
 category: sys-devel
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: clang-runtime-9.0.1
-provides: null
 requires:
-- State: ""
-  category: sys-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-libs
   name: libomp
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=9.0.1'
-- State: ""
-  category: sys-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-libs
   name: compiler-rt-9.0.1
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=9.0.1'
-- State: ""
-  category: sys-libs
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-libs
   name: compiler-rt-sanitizers-9.0.1
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=9.0.1'
-set: false
-uri: null
 use_flags:
 - -abi_mips_n32
 - -libcxx
@@ -69,4 +31,4 @@ use_flags:
 - elibc_glibc
 - sanitize
 - userland_GNU
-version: 9.0.1+1
+version: 9.0.1+2

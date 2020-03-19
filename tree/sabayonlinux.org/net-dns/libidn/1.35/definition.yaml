@@ -1,40 +1,12 @@
-State: ""
 category: net-dns
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: libidn
-provides: null
 requires:
-- State: ""
-  category: app-portage
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-portage
   name: elt-patches
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=20170815'
-- State: ""
-  category: sys-devel
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: sys-devel
   name: gettext
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0.17'
-set: false
-uri: null
 use_flags:
 - -java
 - big-endian
@@ -59,4 +31,4 @@ use_flags:
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
 - -doc
-version: 1.35+2
+version: 1.35+3

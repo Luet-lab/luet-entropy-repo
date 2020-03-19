@@ -1,27 +1,9 @@
-State: ""
 category: dev-libs
-conflicts: null
-description: ""
-id: 0
-license: ""
 name: gobject-introspection-common
-provides: null
 requires:
-- State: ""
-  category: app-arch
-  conflicts: null
-  description: ""
-  id: 0
-  license: ""
+- category: app-arch
   name: xz-utils
-  provides: null
-  requires: null
-  set: false
-  uri: null
-  use_flags: null
   version: '>=0'
-set: false
-uri: null
 use_flags:
 - userland_GNU
 - big-endian
@@ -30,4 +12,4 @@ use_flags:
 - split-usr
 - kernel_linux
 - amd64
-version: 1.60.2+1
+version: 1.60.2+2
