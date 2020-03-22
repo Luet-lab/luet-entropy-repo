@@ -1,9 +1,6 @@
-
 steps:
-
-- source /etc/profile && echo Prepare app-admin/gamin-0.1.10-r1
-unpack: true
+- echo Prepare app-admin/gamin-0.1.10-r1
 requires:
-- category: "layer"
-  name: "sabayon-base-set-a"
-  version: "9999"
+- category: "distro"
+  name: "apline"
+  version: "3.11.3"
