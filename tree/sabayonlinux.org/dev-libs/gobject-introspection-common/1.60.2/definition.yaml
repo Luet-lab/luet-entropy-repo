@@ -1,8 +1,16 @@
+Labels: null
 category: dev-libs
+conflicts: null
+id: 0
+license: HPND
 name: gobject-introspection-common
 requires:
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: xz-utils
+  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU
@@ -12,5 +20,4 @@ use_flags:
 - split-usr
 - kernel_linux
 - amd64
-version: 1.60.2+2
-license: "HPND"
+version: 1.60.2+3

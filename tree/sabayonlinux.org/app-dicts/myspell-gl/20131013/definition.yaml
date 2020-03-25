@@ -1,8 +1,16 @@
+Labels: null
 category: app-dicts
+conflicts: null
+id: 0
+license: GPL-2 LGPL-2.1
 name: myspell-gl
 requires:
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: unzip
+  requires: null
   version: '>=0'
 use_flags:
 - abi_x86_64
@@ -11,5 +19,4 @@ use_flags:
 - big-endian
 - kernel_linux
 - userland_GNU
-version: 20131013+2
-license: "GPL-2 LGPL-2.1"
+version: 20131013+3

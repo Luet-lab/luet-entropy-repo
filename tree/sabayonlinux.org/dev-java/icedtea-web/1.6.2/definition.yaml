@@ -1,32 +1,72 @@
+Labels: null
 category: dev-java
+conflicts: null
+id: 0
+license: GPL-2 GPL-2-with-linking-exception LGPL-2
 name: icedtea-web
 requires:
-- category: app-eselect
+- Labels: null
+  category: app-eselect
+  conflicts: null
+  id: 0
   name: eselect-java
+  requires: null
   version: '>=0.2.0'
-- category: app-portage
+- Labels: null
+  category: app-portage
+  conflicts: null
+  id: 0
   name: elt-patches
+  requires: null
   version: '>=20170422'
-- category: dev-java
+- Labels: null
+  category: dev-java
+  conflicts: null
+  id: 0
   name: java-config-2
+  requires: null
   version: '>=2.2.0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: glib-2
+  requires: null
   version: '>=2.16'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: autoconf-2.69
+  requires: null
   version: '>=2.69'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: automake-1.15
+  requires: null
   version: '>=1.15'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: libtool-2
+  requires: null
   version: '>=2.4'
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: zip
+  requires: null
   version: '>=0'
-- category: net-misc
+- Labels: null
+  category: net-misc
+  conflicts: null
+  id: 0
   name: npapi-sdk
+  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc
@@ -41,5 +81,4 @@ use_flags:
 - -tagsoup
 - kernel_linux
 - amd64
-version: 1.6.2+2
-license: "GPL-2 GPL-2-with-linking-exception LGPL-2"
+version: 1.6.2+3

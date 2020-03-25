@@ -1,20 +1,44 @@
+Labels: null
 category: gnome-base
+conflicts: null
+id: 0
+license: GPL-3
 name: gnome-common-3
 requires:
-- category: app-portage
+- Labels: null
+  category: app-portage
+  conflicts: null
+  id: 0
   name: elt-patches
+  requires: null
   version: '>=20170422'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: sed
+  requires: null
   version: '>=4'
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: xz-utils
+  requires: null
   version: '>=0'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: desktop-file-utils
+  requires: null
   version: '>=0'
-- category: x11-misc
+- Labels: null
+  category: x11-misc
+  conflicts: null
+  id: 0
   name: shared-mime-info
+  requires: null
   version: '>=0'
 use_flags:
 - abi_x86_64
@@ -24,5 +48,4 @@ use_flags:
 - big-endian
 - elibc_glibc
 - userland_GNU
-version: 3.18.0+r3
-license: "GPL-3"
+version: 3.18.0+r4

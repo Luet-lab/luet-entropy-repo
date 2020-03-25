@@ -1,14 +1,30 @@
+Labels: null
 category: dev-ruby
+conflicts: null
+id: 0
+license: BSD
 name: sqlite3
 requires:
-- category: dev-db
+- Labels: null
+  category: dev-db
+  conflicts: null
+  id: 0
   name: sqlite-3
+  requires: null
   version: '>=3.6.16'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: ruby-2.5
+  requires: null
   version: '>=0'
-- category: dev-ruby
+- Labels: null
+  category: dev-ruby
+  conflicts: null
+  id: 0
   name: rake-compiler
+  requires: null
   version: '>=0'
 use_flags:
 - -test
@@ -23,5 +39,4 @@ use_flags:
 - kernel_linux
 - -ruby_targets_ruby26
 - -doc
-version: 1.4.2+2
-license: "BSD"
+version: 1.4.2+3

@@ -1,5 +1,10 @@
+Labels: null
 category: sys-firmware
+conflicts: null
+id: 0
+license: Apache-2.0
 name: sgabios
+requires: null
 use_flags:
 - abi_x86_64
 - binary
@@ -8,5 +13,4 @@ use_flags:
 - kernel_linux
 - elibc_glibc
 - amd64
-version: 0.1+pre8r1.2
-license: "Apache-2.0"
+version: 0.1+pre8r1.3

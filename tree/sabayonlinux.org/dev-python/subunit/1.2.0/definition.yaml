@@ -1,32 +1,72 @@
+Labels: null
 category: dev-python
+conflicts: null
+id: 0
+license: Apache-2.0 BSD
 name: subunit
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-2.7
+  requires: null
   version: '>=2.7.5'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-exec-2
+  requires: null
   version: '>=2'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: check
+  requires: null
   version: '>=0.9.11'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: testtools
+  requires: null
   version: '>=0.9.34'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: cppunit
+  requires: null
   version: '>=1.13.2'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: perl
+  requires: null
   version: '>=0'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-3.6
+  requires: null
   version: '>=0'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: extras
+  requires: null
   version: '>=0'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: setuptools
+  requires: null
   version: '>=0'
 use_flags:
 - -python_targets_python3_7
@@ -52,5 +92,4 @@ use_flags:
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
 - -python_targets_python3_8
-version: 1.2.0+r4
-license: "Apache-2.0 BSD"
+version: 1.2.0+r5

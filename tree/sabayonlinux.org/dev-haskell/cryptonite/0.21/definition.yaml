@@ -1,33 +1,46 @@
-
-category: "dev-haskell"
-name: "cryptonite"
-version: "0.21"
-
-use_flags:
-- "amd64"
-- "-support_pclmuldq"
-- "abi_x86_64"
-- "support_aesni"
-- "-test"
-- "userland_GNU"
-- "-profile"
-- "big-endian"
-- "-doc"
-- "elibc_glibc"
-- "support_deepseq"
-- "integer-gmp"
-- "kernel_linux"
-- "-support_blake2_sse"
-- "-hscolour"
-- "support_rdrand"
+Labels: null
+category: dev-haskell
+conflicts: null
+id: 0
+license: BSD
+name: cryptonite
 requires:
-- category: "dev-haskell"
-  name: "cabal"
-  version: ">=1.10"
-- category: "dev-haskell"
-  name: "memory"
-  version: ">=0.8"
-- category: "dev-lang"
-  name: "ghc"
-  version: ">=7.4.1"
-license: "BSD"
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: cabal
+  requires: null
+  version: '>=1.10'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: memory
+  requires: null
+  version: '>=0.8'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: ghc
+  requires: null
+  version: '>=7.4.1'
+use_flags:
+- amd64
+- -support_pclmuldq
+- abi_x86_64
+- support_aesni
+- -test
+- userland_GNU
+- -profile
+- big-endian
+- -doc
+- elibc_glibc
+- support_deepseq
+- integer-gmp
+- kernel_linux
+- -support_blake2_sse
+- -hscolour
+- support_rdrand
+version: 0.21+1

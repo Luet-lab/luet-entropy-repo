@@ -1,23 +1,51 @@
+Labels: null
 category: app-text
+conflicts: null
+id: 0
+license: CPL-0.5 LGPL-2.1
 name: teckit
 requires:
-- category: app-portage
+- Labels: null
+  category: app-portage
+  conflicts: null
+  id: 0
   name: elt-patches
+  requires: null
   version: '>=20170422'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: autoconf-2.69
+  requires: null
   version: '>=2.69'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: automake-1.15
+  requires: null
   version: '>=1.15'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: libtool-2
+  requires: null
   version: '>=2.4'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: expat
+  requires: null
   version: '>=0'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: zlib
+  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU
@@ -27,5 +55,4 @@ use_flags:
 - elibc_glibc
 - kernel_linux
 - amd64
-version: 2.5.6+2
-license: "CPL-0.5 LGPL-2.1"
+version: 2.5.6+3

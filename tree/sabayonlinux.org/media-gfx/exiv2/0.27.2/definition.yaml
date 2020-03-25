@@ -1,20 +1,44 @@
+Labels: null
 category: media-gfx
+conflicts: null
+id: 0
+license: GPL-2
 name: exiv2
 requires:
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: expat
+  requires: null
   version: '>=0'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: cmake
+  requires: null
   version: '>=0'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: ninja
+  requires: null
   version: '>=0'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: gettext
+  requires: null
   version: '>=0'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: zlib
+  requires: null
   version: '>=0'
 use_flags:
 - -webready
@@ -39,5 +63,4 @@ use_flags:
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
 - -doc
-version: 0.27.2+3
-license: "GPL-2"
+version: 0.27.2+4

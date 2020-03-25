@@ -1,11 +1,23 @@
+Labels: null
 category: dev-libs
+conflicts: null
+id: 0
+license: MIT public-domain
 name: jsoncpp
 requires:
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: cmake
+  requires: null
   version: '>=3.9.6'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: make
+  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc
@@ -17,5 +29,4 @@ use_flags:
 - kernel_linux
 - big-endian
 - split-usr
-version: 1.9.1+2
-license: "MIT public-domain"
+version: 1.9.1+3

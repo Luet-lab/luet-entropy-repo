@@ -1,14 +1,30 @@
+Labels: null
 category: app-accessibility
+conflicts: null
+id: 0
+license: GPL-3
 name: espeak
 requires:
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: unzip
+  requires: null
   version: '>=0'
-- category: media-sound
+- Labels: null
+  category: media-sound
+  conflicts: null
+  id: 0
   name: pulseaudio
+  requires: null
   version: '>=0'
-- category: media-sound
+- Labels: null
+  category: media-sound
+  conflicts: null
+  id: 0
   name: sox
+  requires: null
   version: '>=0'
 use_flags:
 - -portaudio
@@ -19,5 +35,4 @@ use_flags:
 - elibc_glibc
 - abi_x86_64
 - userland_GNU
-version: 1.48.04+r3
-license: "GPL-3"
+version: 1.48.04+r4

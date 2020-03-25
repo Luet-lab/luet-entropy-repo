@@ -1,11 +1,23 @@
+Labels: null
 category: media-libs
+conflicts: null
+id: 0
+license: GPL-2 LGPL-2.1
 name: libiec61883
 requires:
-- category: app-portage
+- Labels: null
+  category: app-portage
+  conflicts: null
+  id: 0
   name: elt-patches
+  requires: null
   version: '>=20170815'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: libraw1394
+  requires: null
   version: '>=2.1.0'
 use_flags:
 - -examples
@@ -26,5 +38,4 @@ use_flags:
 - split-usr
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
-version: 1.2.0+r4
-license: "GPL-2 LGPL-2.1"
+version: 1.2.0+r5

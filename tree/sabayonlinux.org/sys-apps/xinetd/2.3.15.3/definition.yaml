@@ -1,14 +1,30 @@
+Labels: null
 category: sys-apps
+conflicts: null
+id: 0
+license: BSD
 name: xinetd
 requires:
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: tcp-wrappers
+  requires: null
   version: '>=7.6'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: perl
+  requires: null
   version: '>=0'
-- category: net-libs
+- Labels: null
+  category: net-libs
+  conflicts: null
+  id: 0
   name: libtirpc
+  requires: null
   version: '>=0'
 use_flags:
 - tcpd
@@ -20,5 +36,4 @@ use_flags:
 - perl
 - kernel_linux
 - elibc_glibc
-version: 2.3.15.3+2
-license: "BSD"
+version: 2.3.15.3+3

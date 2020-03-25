@@ -1,8 +1,16 @@
+Labels: null
 category: sys-auth
+conflicts: null
+id: 0
+license: public-domain
 name: realtime-base
 requires:
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: pam
+  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -12,5 +20,4 @@ use_flags:
 - split-usr
 - userland_GNU
 - abi_x86_64
-version: 0.1+2
-license: "public-domain"
+version: 0.1+3

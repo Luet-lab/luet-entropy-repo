@@ -1,20 +1,44 @@
+Labels: null
 category: media-libs
+conflicts: null
+id: 0
+license: ISC
 name: libass
 requires:
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: fribidi
+  requires: null
   version: '>=0.19.5'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: fontconfig-1.0
+  requires: null
   version: '>=2.10.92'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: freetype-2
+  requires: null
   version: '>=2.5.0.1'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: harfbuzz
+  requires: null
   version: '>=0.9.12'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: nasm
+  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -36,5 +60,4 @@ use_flags:
 - harfbuzz
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
-version: 0.14.0+3
-license: "ISC"
+version: 0.14.0+4

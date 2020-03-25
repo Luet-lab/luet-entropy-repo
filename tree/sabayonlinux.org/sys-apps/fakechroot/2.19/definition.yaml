@@ -1,5 +1,10 @@
+Labels: null
 category: sys-apps
+conflicts: null
+id: 0
+license: LGPL-2.1
 name: fakechroot
+requires: null
 use_flags:
 - userland_GNU
 - amd64
@@ -7,5 +12,4 @@ use_flags:
 - big-endian
 - kernel_linux
 - abi_x86_64
-version: 2.19+2
-license: "LGPL-2.1"
+version: 2.19+3

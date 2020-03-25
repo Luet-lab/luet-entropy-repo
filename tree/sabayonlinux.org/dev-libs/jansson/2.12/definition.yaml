@@ -1,5 +1,10 @@
+Labels: null
 category: dev-libs
+conflicts: null
+id: 0
+license: MIT
 name: jansson
+requires: null
 use_flags:
 - big-endian
 - -abi_s390_32
@@ -19,5 +24,4 @@ use_flags:
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
 - -doc
-version: 2.12+3
-license: "MIT"
+version: 2.12+4

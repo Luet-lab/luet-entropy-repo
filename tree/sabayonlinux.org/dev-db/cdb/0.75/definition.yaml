@@ -1,8 +1,16 @@
+Labels: null
 category: dev-db
+conflicts: null
+id: 0
+license: public-domain
 name: cdb
 requires:
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: sed
+  requires: null
   version: '>=4'
 use_flags:
 - kernel_linux
@@ -10,5 +18,4 @@ use_flags:
 - amd64
 - userland_GNU
 - elibc_glibc
-version: 0.75+r6
-license: "public-domain"
+version: 0.75+r7

@@ -1,42 +1,63 @@
-
-category: "dev-libs"
-name: "libgpg-error"
-version: "1.37"
-
-use_flags:
-- "static-libs"
-- "nls"
-- "-abi_s390_32"
-- "-abi_mips_n32"
-- "big-endian"
-- "-abi_x86_x32"
-- "-abi_riscv_lp64d"
-- "-abi_mips_n64"
-- "amd64"
-- "-abi_mips_o32"
-- "elibc_glibc"
-- "abi_x86_64"
-- "kernel_linux"
-- "abi_x86_32"
-- "-common-lisp"
-- "-abi_s390_64"
-- "split-usr"
-- "-abi_riscv_lp64"
-- "userland_GNU"
+Labels: null
+category: dev-libs
+conflicts: null
+id: 0
+license: GPL-2 LGPL-2.1
+name: libgpg-error
 requires:
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170815"
-- category: "sys-devel"
-  name: "autoconf-2.69"
-  version: ">=2.69"
-- category: "sys-devel"
-  name: "automake-1.15"
-  version: ">=1.15.1"
-- category: "sys-devel"
-  name: "libtool-2"
-  version: ">=2.4"
-- category: "sys-devel"
-  name: "gettext"
-  version: ">=0"
-license: "GPL-2 LGPL-2.1"
+- Labels: null
+  category: app-portage
+  conflicts: null
+  id: 0
+  name: elt-patches
+  requires: null
+  version: '>=20170815'
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
+  name: autoconf-2.69
+  requires: null
+  version: '>=2.69'
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
+  name: automake-1.15
+  requires: null
+  version: '>=1.15.1'
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
+  name: libtool-2
+  requires: null
+  version: '>=2.4'
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
+  name: gettext
+  requires: null
+  version: '>=0'
+use_flags:
+- static-libs
+- nls
+- -abi_s390_32
+- -abi_mips_n32
+- big-endian
+- -abi_x86_x32
+- -abi_riscv_lp64d
+- -abi_mips_n64
+- amd64
+- -abi_mips_o32
+- elibc_glibc
+- abi_x86_64
+- kernel_linux
+- abi_x86_32
+- -common-lisp
+- -abi_s390_64
+- split-usr
+- -abi_riscv_lp64
+- userland_GNU
+version: 1.37+1

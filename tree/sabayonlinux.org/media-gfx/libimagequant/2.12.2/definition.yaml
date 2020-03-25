@@ -1,5 +1,10 @@
+Labels: null
 category: media-gfx
+conflicts: null
+id: 0
+license: GPL-3
 name: libimagequant
+requires: null
 use_flags:
 - abi_x86_64
 - -static-libs
@@ -11,5 +16,4 @@ use_flags:
 - userland_GNU
 - kernel_linux
 - cpu_flags_x86_sse2
-version: 2.12.2+2
-license: "GPL-3"
+version: 2.12.2+3

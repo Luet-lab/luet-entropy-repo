@@ -1,36 +1,61 @@
-
-category: "dev-haskell"
-name: "tasty-quickcheck"
-version: "0.8.4"
-
-use_flags:
-- "elibc_glibc"
-- "kernel_linux"
-- "amd64"
-- "abi_x86_64"
-- "-hscolour"
-- "-doc"
-- "userland_GNU"
-- "big-endian"
-- "-profile"
-- "-test"
+Labels: null
+category: dev-haskell
+conflicts: null
+id: 0
+license: MIT
+name: tasty-quickcheck
 requires:
-- category: "dev-haskell"
-  name: "quickcheck-2"
-  version: "<3"
-- category: "dev-haskell"
-  name: "cabal"
-  version: ">=1.10"
-- category: "dev-haskell"
-  name: "quickcheck-2"
-  version: ">=2.5"
-- category: "dev-haskell"
-  name: "tasty"
-  version: ">=0.10.1"
-- category: "dev-lang"
-  name: "ghc"
-  version: ">=7.4.1"
-- category: "dev-haskell"
-  name: "tagged"
-  version: ">=0"
-license: "MIT"
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: quickcheck-2
+  requires: null
+  version: <3
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: cabal
+  requires: null
+  version: '>=1.10'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: quickcheck-2
+  requires: null
+  version: '>=2.5'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: tasty
+  requires: null
+  version: '>=0.10.1'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: ghc
+  requires: null
+  version: '>=7.4.1'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: tagged
+  requires: null
+  version: '>=0'
+use_flags:
+- elibc_glibc
+- kernel_linux
+- amd64
+- abi_x86_64
+- -hscolour
+- -doc
+- userland_GNU
+- big-endian
+- -profile
+- -test
+version: 0.8.4+1

@@ -1,17 +1,37 @@
+Labels: null
 category: net-vpn
+conflicts: null
+id: 0
+license: BSD GPL-2
 name: vpnc
 requires:
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: iproute2
+  requires: null
   version: '>=2.6.19.20061214'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: perl
+  requires: null
   version: '>=0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: libgcrypt
+  requires: null
   version: '>=0'
-- category: net-libs
+- Labels: null
+  category: net-libs
+  conflicts: null
+  id: 0
   name: gnutls
+  requires: null
   version: '>=0'
 use_flags:
 - -resolvconf
@@ -23,5 +43,4 @@ use_flags:
 - -selinux
 - elibc_glibc
 - gnutls
-version: 0.5.3+p552
-license: "BSD GPL-2"
+version: 0.5.3+p553

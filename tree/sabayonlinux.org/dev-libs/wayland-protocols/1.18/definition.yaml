@@ -1,8 +1,16 @@
+Labels: null
 category: dev-libs
+conflicts: null
+id: 0
+license: MIT
 name: wayland-protocols
 requires:
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: wayland
+  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -12,5 +20,4 @@ use_flags:
 - elibc_glibc
 - kernel_linux
 - abi_x86_64
-version: 1.18+2
-license: "MIT"
+version: 1.18+3

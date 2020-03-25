@@ -1,29 +1,65 @@
+Labels: null
 category: net-misc
+conflicts: null
+id: 0
+license: LGPL-2.1+
 name: libteam
 requires:
-- category: app-portage
+- Labels: null
+  category: app-portage
+  conflicts: null
+  id: 0
   name: elt-patches
+  requires: null
   version: '>=20170815'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: jansson
+  requires: null
   version: '>=2.4'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: libnl-3
+  requires: null
   version: '>=3.2.19'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: autoconf-2.69
+  requires: null
   version: '>=2.69'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: automake-1.15
+  requires: null
   version: '>=1.15.1'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: libtool-2
+  requires: null
   version: '>=2.4'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: libdaemon
+  requires: null
   version: '>=0'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: dbus
+  requires: null
   version: '>=0'
 use_flags:
 - split-usr
@@ -39,5 +75,4 @@ use_flags:
 - syslog
 - abi_x86_64
 - -debug
-version: 1.29+2
-license: "LGPL-2.1+"
+version: 1.29+3

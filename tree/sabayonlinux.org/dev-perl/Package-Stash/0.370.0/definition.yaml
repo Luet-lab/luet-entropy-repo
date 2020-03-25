@@ -1,17 +1,37 @@
+Labels: null
 category: dev-perl
+conflicts: null
+id: 0
+license: Artistic GPL-1+
 name: Package-Stash
 requires:
-- category: dev-perl
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
   name: Dist-CheckConflicts
+  requires: null
   version: '>=0.20.0'
-- category: dev-perl
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
   name: Module-Implementation
+  requires: null
   version: '>=0.60.0'
-- category: dev-perl
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
   name: Package-Stash-XS
+  requires: null
   version: '>=0.260.0'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: perl
+  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU
@@ -23,5 +43,4 @@ use_flags:
 - elibc_glibc
 - -minimal
 - kernel_linux
-version: 0.370.0+2
-license: "Artistic GPL-1+"
+version: 0.370.0+3

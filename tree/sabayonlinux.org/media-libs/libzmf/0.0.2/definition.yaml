@@ -1,34 +1,55 @@
-
-category: "media-libs"
-name: "libzmf"
-version: "0.0.2"
-
-use_flags:
-- "big-endian"
-- "abi_x86_64"
-- "amd64"
-- "-debug"
-- "-doc"
-- "elibc_glibc"
-- "split-usr"
-- "-test"
-- "kernel_linux"
-- "-tools"
-- "userland_GNU"
+Labels: null
+category: media-libs
+conflicts: null
+id: 0
+license: MPL-2.0
+name: libzmf
 requires:
-- category: "dev-libs"
-  name: "boost"
-  version: ">=0"
-- category: "dev-libs"
-  name: "icu"
-  version: ">=0"
-- category: "dev-libs"
-  name: "librevenge"
-  version: ">=0"
-- category: "media-libs"
-  name: "libpng"
-  version: ">=0"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=0"
-license: "MPL-2.0"
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
+  name: boost
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
+  name: icu
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
+  name: librevenge
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
+  name: libpng
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
+  name: zlib
+  requires: null
+  version: '>=0'
+use_flags:
+- big-endian
+- abi_x86_64
+- amd64
+- -debug
+- -doc
+- elibc_glibc
+- split-usr
+- -test
+- kernel_linux
+- -tools
+- userland_GNU
+version: 0.0.2+1

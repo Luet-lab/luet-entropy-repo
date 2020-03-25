@@ -1,8 +1,16 @@
+Labels: null
 category: dev-ruby
+conflicts: null
+id: 0
+license: BSD-2
 name: hashery
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: ruby-2.5
+  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU
@@ -17,5 +25,4 @@ use_flags:
 - abi_x86_64
 - ruby_targets_ruby25
 - -doc
-version: 2.1.2+2
-license: "BSD-2"
+version: 2.1.2+3

@@ -1,14 +1,30 @@
+Labels: null
 category: dev-python
+conflicts: null
+id: 0
+license: BSD
 name: flup
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-2.7
+  requires: null
   version: '>=2.7.5'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-exec-2
+  requires: null
   version: '>=0'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: setuptools
+  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU
@@ -18,5 +34,4 @@ use_flags:
 - kernel_linux
 - amd64
 - elibc_glibc
-version: 1.0.2+r3
-license: "BSD"
+version: 1.0.2+r4

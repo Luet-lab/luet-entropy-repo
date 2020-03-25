@@ -1,23 +1,51 @@
+Labels: null
 category: dev-embedded
+conflicts: null
+id: 0
+license: LGPL-2
 name: libftdi-1
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-exec-2
+  requires: null
   version: '>=2'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: cmake
+  requires: null
   version: '>=3.9.6'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-3.6
+  requires: null
   version: '>=0'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: swig
+  requires: null
   version: '>=0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: boost
+  requires: null
   version: '>=0'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: make
+  requires: null
   version: '>=0'
 use_flags:
 - python_targets_python3_6
@@ -41,5 +69,4 @@ use_flags:
 - kernel_linux
 - -python_single_target_python2_7
 - python_targets_python2_7
-version: 1.4+2
-license: "LGPL-2"
+version: 1.4+3

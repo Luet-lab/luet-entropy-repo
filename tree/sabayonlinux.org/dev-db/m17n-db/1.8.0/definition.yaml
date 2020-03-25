@@ -1,8 +1,16 @@
+Labels: null
 category: dev-db
+conflicts: null
+id: 0
+license: LGPL-2.1
 name: m17n-db
 requires:
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: gettext
+  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -11,5 +19,4 @@ use_flags:
 - userland_GNU
 - kernel_linux
 - amd64
-version: 1.8.0+2
-license: "LGPL-2.1"
+version: 1.8.0+3

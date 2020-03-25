@@ -1,26 +1,35 @@
-
-category: "dev-libs"
-name: "libisofs"
-version: "1.5.0"
-
-use_flags:
-- "abi_x86_64"
-- "amd64"
-- "xattr"
-- "-static-libs"
-- "big-endian"
-- "userland_GNU"
-- "elibc_glibc"
-- "-debug"
-- "-verbose-debug"
-- "kernel_linux"
-- "acl"
-- "zlib"
+Labels: null
+category: dev-libs
+conflicts: null
+id: 0
+license: GPL-2
+name: libisofs
 requires:
-- category: "sys-apps"
-  name: "attr"
-  version: ">=0"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=0"
-license: "GPL-2"
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
+  name: attr
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
+  name: zlib
+  requires: null
+  version: '>=0'
+use_flags:
+- abi_x86_64
+- amd64
+- xattr
+- -static-libs
+- big-endian
+- userland_GNU
+- elibc_glibc
+- -debug
+- -verbose-debug
+- kernel_linux
+- acl
+- zlib
+version: 1.5.0+1

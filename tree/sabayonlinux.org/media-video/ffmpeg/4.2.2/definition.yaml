@@ -1,125 +1,289 @@
+Labels: null
 category: media-video
+conflicts: null
+id: 0
+license: GPL-2 GPL-3
 name: ffmpeg
 requires:
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: bzip2
+  requires: null
   version: '>=1.0.6'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: yasm
+  requires: null
   version: '>=1.3'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: gmp
+  requires: null
   version: '>=6'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: alsa-lib
+  requires: null
   version: '>=1.0.27.2'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: fdk-aac
+  requires: null
   version: '>=0.1.3'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: freetype-2
+  requires: null
   version: '>=2.5.0.1'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: libbluray
+  requires: null
   version: '>=0.3.0'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: libdc1394-2
+  requires: null
   version: '>=2.2.1'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: libogg
+  requires: null
   version: '>=1.3.0'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: libtheora
+  requires: null
   version: '>=1.1.1'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: libvorbis
+  requires: null
   version: '>=1.3.3'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: libvpx
+  requires: null
   version: '>=1.4.0'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: libwebp
+  requires: null
   version: '>=0.3.0'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: openal
+  requires: null
   version: '>=1.15.1'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: opencore-amr
+  requires: null
   version: '>=0.1.3'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: openjpeg-2
+  requires: null
   version: '>=2'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: opus
+  requires: null
   version: '>=1.0.2'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: speex
+  requires: null
   version: '>=1.2'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: vidstab
+  requires: null
   version: '>=1.1.0'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: x264
+  requires: null
   version: '>=0.0.20130506'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: x265
+  requires: null
   version: '>=1.6'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: xvid
+  requires: null
   version: '>=1.3.2'
-- category: media-sound
+- Labels: null
+  category: media-sound
+  conflicts: null
+  id: 0
   name: gsm
+  requires: null
   version: '>=1.0.13'
-- category: media-sound
+- Labels: null
+  category: media-sound
+  conflicts: null
+  id: 0
   name: lame
+  requires: null
   version: '>=3.99.5'
-- category: media-sound
+- Labels: null
+  category: media-sound
+  conflicts: null
+  id: 0
   name: pulseaudio
+  requires: null
   version: '>=2.1'
-- category: net-libs
+- Labels: null
+  category: net-libs
+  conflicts: null
+  id: 0
   name: gnutls
+  requires: null
   version: '>=2.12.23'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: make
+  requires: null
   version: '>=3.81'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: libraw1394
+  requires: null
   version: '>=2.1.0'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: zlib
+  requires: null
   version: '>=1.2.8'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libX11
+  requires: null
   version: '>=1.6.2'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libXext
+  requires: null
   version: '>=1.3.2'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libXv
+  requires: null
   version: '>=1.0.10'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libva
+  requires: null
   version: '>=1.2.1'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libvdpau
+  requires: null
   version: '>=0.7'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libxcb
+  requires: null
   version: '>=1.4'
-- category: gnome-base
+- Labels: null
+  category: gnome-base
+  conflicts: null
+  id: 0
   name: librsvg-2
+  requires: null
   version: '>=0'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: libsdl2
+  requires: null
   version: '>=0'
-- category: net-misc
+- Labels: null
+  category: net-misc
+  conflicts: null
+  id: 0
   name: wget
+  requires: null
   version: '>=0'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: bc
+  requires: null
   version: '>=0'
-- category: sys-kernel
+- Labels: null
+  category: sys-kernel
+  conflicts: null
+  id: 0
   name: linux-headers
+  requires: null
   version: '>=0'
 use_flags:
 - -cpu_flags_arm_vfpv3
@@ -272,5 +436,4 @@ use_flags:
 - -libv4l
 - -dav1d
 - -librtmp
-version: 4.2.2+3
-license: "GPL-2 GPL-3"
+version: 4.2.2+4

@@ -1,35 +1,48 @@
-
-category: "sys-libs"
-name: "libcap"
-version: "2.32"
-
-use_flags:
-- "big-endian"
-- "-abi_s390_32"
-- "-abi_mips_n32"
-- "-abi_x86_x32"
-- "-abi_mips_n64"
-- "pam"
-- "amd64"
-- "-abi_mips_o32"
-- "elibc_glibc"
-- "abi_x86_64"
-- "kernel_linux"
-- "abi_x86_32"
-- "-static-libs"
-- "-abi_s390_64"
-- "userland_GNU"
-- "split-usr"
-- "-abi_riscv_lp64"
-- "-abi_riscv_lp64d"
+Labels: null
+category: sys-libs
+conflicts: null
+id: 0
+license: BSD GPL-2
+name: libcap
 requires:
-- category: "sys-apps"
-  name: "attr"
-  version: ">=2.4.47"
-- category: "sys-kernel"
-  name: "linux-headers"
-  version: ">=0"
-- category: "sys-libs"
-  name: "pam"
-  version: ">=0"
-license: "BSD GPL-2"
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
+  name: attr
+  requires: null
+  version: '>=2.4.47'
+- Labels: null
+  category: sys-kernel
+  conflicts: null
+  id: 0
+  name: linux-headers
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
+  name: pam
+  requires: null
+  version: '>=0'
+use_flags:
+- big-endian
+- -abi_s390_32
+- -abi_mips_n32
+- -abi_x86_x32
+- -abi_mips_n64
+- pam
+- amd64
+- -abi_mips_o32
+- elibc_glibc
+- abi_x86_64
+- kernel_linux
+- abi_x86_32
+- -static-libs
+- -abi_s390_64
+- userland_GNU
+- split-usr
+- -abi_riscv_lp64
+- -abi_riscv_lp64d
+version: 2.32+1

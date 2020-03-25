@@ -1,5 +1,10 @@
+Labels: null
 category: dev-lang
+conflicts: null
+id: 0
+license: BSD
 name: go
+requires: null
 use_flags:
 - userland_GNU
 - -system-bootstrap
@@ -10,5 +15,4 @@ use_flags:
 - elibc_glibc
 - amd64
 - kernel_linux
-version: 1.12.15+2
-license: "BSD"
+version: 1.12.15+3

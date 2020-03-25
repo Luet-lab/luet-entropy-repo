@@ -1,5 +1,10 @@
+Labels: null
 category: sys-apps
+conflicts: null
+id: 0
+license: tcp_wrappers_license
 name: tcp-wrappers
+requires: null
 use_flags:
 - big-endian
 - -abi_s390_32
@@ -20,5 +25,4 @@ use_flags:
 - split-usr
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
-version: 7.6.28+3
-license: "tcp_wrappers_license"
+version: 7.6.28+4

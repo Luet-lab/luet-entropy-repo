@@ -1,5 +1,10 @@
+Labels: null
 category: sys-apps
+conflicts: null
+id: 0
+license: BSD GPL-2 SMAIL
 name: debianutils
+requires: null
 use_flags:
 - -static
 - big-endian
@@ -10,5 +15,4 @@ use_flags:
 - split-usr
 - elibc_glibc
 - kernel_linux
-version: 4.9.1+2
-license: "BSD GPL-2 SMAIL"
+version: 4.9.1+3

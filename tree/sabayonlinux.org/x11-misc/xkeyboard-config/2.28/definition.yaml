@@ -1,11 +1,23 @@
+Labels: null
 category: x11-misc
+conflicts: null
+id: 0
+license: MIT
 name: xkeyboard-config
 requires:
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: intltool
+  requires: null
   version: '>=0'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: gettext
+  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -15,5 +27,4 @@ use_flags:
 - split-usr
 - userland_GNU
 - abi_x86_64
-version: 2.28+2
-license: "MIT"
+version: 2.28+3

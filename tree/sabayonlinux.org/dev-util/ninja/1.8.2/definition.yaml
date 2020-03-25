@@ -1,11 +1,23 @@
+Labels: null
 category: dev-util
+conflicts: null
+id: 0
+license: Apache-2.0
 name: ninja
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-2.7
+  requires: null
   version: '>=2.7.5'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: re2c
+  requires: null
   version: '>=0'
 use_flags:
 - kernel_linux
@@ -19,5 +31,4 @@ use_flags:
 - elibc_glibc
 - amd64
 - -emacs
-version: 1.8.2+2
-license: "Apache-2.0"
+version: 1.8.2+3

@@ -1,24 +1,33 @@
-
-category: "dev-haskell"
-name: "base-compat"
-version: "0.9.1"
-
-use_flags:
-- "-doc"
-- "elibc_glibc"
-- "amd64"
-- "abi_x86_64"
-- "kernel_linux"
-- "-test"
-- "userland_GNU"
-- "-hscolour"
-- "-profile"
-- "big-endian"
+Labels: null
+category: dev-haskell
+conflicts: null
+id: 0
+license: MIT
+name: base-compat
 requires:
-- category: "dev-haskell"
-  name: "cabal"
-  version: ">=1.8"
-- category: "dev-lang"
-  name: "ghc"
-  version: ">=7.4.1"
-license: "MIT"
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: cabal
+  requires: null
+  version: '>=1.8'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: ghc
+  requires: null
+  version: '>=7.4.1'
+use_flags:
+- -doc
+- elibc_glibc
+- amd64
+- abi_x86_64
+- kernel_linux
+- -test
+- userland_GNU
+- -hscolour
+- -profile
+- big-endian
+version: 0.9.1+1

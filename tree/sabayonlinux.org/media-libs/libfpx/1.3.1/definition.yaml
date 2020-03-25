@@ -1,8 +1,16 @@
+Labels: null
 category: media-libs
+conflicts: null
+id: 0
+license: Flashpix
 name: libfpx
 requires:
-- category: app-portage
+- Labels: null
+  category: app-portage
+  conflicts: null
+  id: 0
   name: elt-patches
+  requires: null
   version: '>=20170422'
 use_flags:
 - -static-libs
@@ -12,5 +20,4 @@ use_flags:
 - elibc_glibc
 - kernel_linux
 - big-endian
-version: 1.3.1+p12
-license: "Flashpix"
+version: 1.3.1+p13

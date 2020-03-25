@@ -1,27 +1,40 @@
-
-category: "dev-haskell"
-name: "system-filepath"
-version: "0.4.13.4"
-
-use_flags:
-- "-test"
-- "kernel_linux"
-- "abi_x86_64"
-- "big-endian"
-- "elibc_glibc"
-- "-doc"
-- "userland_GNU"
-- "-hscolour"
-- "-profile"
-- "amd64"
+Labels: null
+category: dev-haskell
+conflicts: null
+id: 0
+license: MIT
+name: system-filepath
 requires:
-- category: "dev-haskell"
-  name: "cabal"
-  version: ">=1.8"
-- category: "dev-haskell"
-  name: "text"
-  version: ">=0.11.0.6"
-- category: "dev-lang"
-  name: "ghc"
-  version: ">=7.4.1"
-license: "MIT"
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: cabal
+  requires: null
+  version: '>=1.8'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: text
+  requires: null
+  version: '>=0.11.0.6'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: ghc
+  requires: null
+  version: '>=7.4.1'
+use_flags:
+- -test
+- kernel_linux
+- abi_x86_64
+- big-endian
+- elibc_glibc
+- -doc
+- userland_GNU
+- -hscolour
+- -profile
+- amd64
+version: 0.4.13.4+1

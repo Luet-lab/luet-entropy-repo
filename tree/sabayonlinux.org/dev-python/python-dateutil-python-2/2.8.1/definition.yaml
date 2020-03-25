@@ -1,42 +1,71 @@
-
-category: "dev-python"
-name: "python-dateutil-python-2"
-version: "2.8.1+r1"
-
-use_flags:
-- "split-usr"
-- "abi_x86_64"
-- "amd64"
-- "-python_targets_python3_7"
-- "python_targets_python3_6"
-- "userland_GNU"
-- "-test"
-- "-python_targets_pypy3"
-- "kernel_linux"
-- "big-endian"
-- "python_targets_python2_7"
-- "elibc_glibc"
-- "-python_targets_python3_8"
+Labels: null
+category: dev-python
+conflicts: null
+id: 0
+license: BSD
+name: python-dateutil-python-2
 requires:
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.5"
-- category: "dev-lang"
-  name: "python-exec-2"
-  version: ">=2"
-- category: "dev-python"
-  name: "six"
-  version: ">=1.5"
-- category: "dev-lang"
-  name: "python-3.6"
-  version: ">=0"
-- category: "dev-python"
-  name: "setuptools"
-  version: ">=0"
-- category: "dev-python"
-  name: "setuptools_scm"
-  version: ">=0"
-- category: "sys-libs"
-  name: "timezone-data"
-  version: ">=0"
-license: "BSD"
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: python-2.7
+  requires: null
+  version: '>=2.7.5'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: python-exec-2
+  requires: null
+  version: '>=2'
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
+  name: six
+  requires: null
+  version: '>=1.5'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: python-3.6
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
+  name: setuptools
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
+  name: setuptools_scm
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
+  name: timezone-data
+  requires: null
+  version: '>=0'
+use_flags:
+- split-usr
+- abi_x86_64
+- amd64
+- -python_targets_python3_7
+- python_targets_python3_6
+- userland_GNU
+- -test
+- -python_targets_pypy3
+- kernel_linux
+- big-endian
+- python_targets_python2_7
+- elibc_glibc
+- -python_targets_python3_8
+version: 2.8.1+r2

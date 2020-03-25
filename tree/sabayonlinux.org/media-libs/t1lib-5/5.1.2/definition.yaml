@@ -1,20 +1,44 @@
+Labels: null
 category: media-libs
+conflicts: null
+id: 0
+license: GPL-2 LGPL-2
 name: t1lib-5
 requires:
-- category: app-portage
+- Labels: null
+  category: app-portage
+  conflicts: null
+  id: 0
   name: elt-patches
+  requires: null
   version: '>=20170422'
-- category: x11-base
+- Labels: null
+  category: x11-base
+  conflicts: null
+  id: 0
   name: xorg-proto
+  requires: null
   version: '>=0'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libX11
+  requires: null
   version: '>=0'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libXaw
+  requires: null
   version: '>=0'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libXt
+  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -26,5 +50,4 @@ use_flags:
 - elibc_glibc
 - userland_GNU
 - amd64
-version: 5.1.2+r4
-license: "GPL-2 LGPL-2"
+version: 5.1.2+r5

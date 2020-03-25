@@ -1,29 +1,46 @@
-
-category: "dev-haskell"
-name: "regex-compat-tdfa"
-version: "0.95.1.4"
-
-use_flags:
-- "elibc_glibc"
-- "amd64"
-- "abi_x86_64"
-- "-profile"
-- "userland_GNU"
-- "-doc"
-- "-hscolour"
-- "big-endian"
-- "kernel_linux"
+Labels: null
+category: dev-haskell
+conflicts: null
+id: 0
+license: BSD
+name: regex-compat-tdfa
 requires:
-- category: "dev-haskell"
-  name: "cabal"
-  version: ">=1.6.0.3"
-- category: "dev-haskell"
-  name: "regex-base"
-  version: ">=0.93"
-- category: "dev-haskell"
-  name: "regex-tdfa"
-  version: ">=1.1.0"
-- category: "dev-lang"
-  name: "ghc"
-  version: ">=6.10.4"
-license: "BSD"
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: cabal
+  requires: null
+  version: '>=1.6.0.3'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: regex-base
+  requires: null
+  version: '>=0.93'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: regex-tdfa
+  requires: null
+  version: '>=1.1.0'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: ghc
+  requires: null
+  version: '>=6.10.4'
+use_flags:
+- elibc_glibc
+- amd64
+- abi_x86_64
+- -profile
+- userland_GNU
+- -doc
+- -hscolour
+- big-endian
+- kernel_linux
+version: 0.95.1.4+1

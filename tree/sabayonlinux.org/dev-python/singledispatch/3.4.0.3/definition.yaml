@@ -1,17 +1,37 @@
+Labels: null
 category: dev-python
+conflicts: null
+id: 0
+license: MIT
 name: singledispatch
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-2.7
+  requires: null
   version: '>=2.7.5'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-exec-2
+  requires: null
   version: '>=2'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: setuptools
+  requires: null
   version: '>=0'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: six
+  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc
@@ -22,5 +42,4 @@ use_flags:
 - python_targets_python2_7
 - userland_GNU
 - kernel_linux
-version: 3.4.0.3+2
-license: "MIT"
+version: 3.4.0.3+3

@@ -1,23 +1,51 @@
+Labels: null
 category: net-dns
+conflicts: null
+id: 0
+license: GPL-2 GPL-3
 name: dnsmasq
 requires:
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: nettle
+  requires: null
   version: '>=3.4'
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: xz-utils
+  requires: null
   version: '>=0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: nettle
+  requires: null
   version: '>=0'
-- category: net-libs
+- Labels: null
+  category: net-libs
+  conflicts: null
+  id: 0
   name: libnetfilter_conntrack
+  requires: null
   version: '>=0'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: dbus
+  requires: null
   version: '>=0'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: gettext
+  requires: null
   version: '>=0'
 use_flags:
 - dnssec
@@ -45,5 +73,4 @@ use_flags:
 - dumpfile
 - dbus
 - dhcp
-version: 2.80+r3
-license: "GPL-2 GPL-3"
+version: 2.80+r4

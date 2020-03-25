@@ -1,8 +1,16 @@
+Labels: null
 category: dev-ruby
+conflicts: null
+id: 0
+license: Apache-2.0
 name: thread_safe
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: ruby-2.5
+  requires: null
   version: '>=0'
 use_flags:
 - -ruby_targets_ruby26
@@ -18,5 +26,4 @@ use_flags:
 - -ruby_targets_ruby24
 - amd64
 - -doc
-version: 0.3.6+2
-license: "Apache-2.0"
+version: 0.3.6+3

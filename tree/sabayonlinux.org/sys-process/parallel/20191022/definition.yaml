@@ -1,11 +1,23 @@
+Labels: null
 category: sys-process
+conflicts: null
+id: 0
+license: GPL-3
 name: parallel
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: perl
+  requires: null
   version: '>=0'
-- category: dev-perl
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
   name: Devel-Size
+  requires: null
   version: '>=0'
 use_flags:
 - split-usr
@@ -15,5 +27,4 @@ use_flags:
 - elibc_glibc
 - userland_GNU
 - kernel_linux
-version: 20191022+2
-license: "GPL-3"
+version: 20191022+3

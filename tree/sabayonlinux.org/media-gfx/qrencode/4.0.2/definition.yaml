@@ -1,8 +1,16 @@
+Labels: null
 category: media-gfx
+conflicts: null
+id: 0
+license: LGPL-2
 name: qrencode
 requires:
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: libpng
+  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -12,5 +20,4 @@ use_flags:
 - kernel_linux
 - userland_GNU
 - abi_x86_64
-version: 4.0.2+2
-license: "LGPL-2"
+version: 4.0.2+3

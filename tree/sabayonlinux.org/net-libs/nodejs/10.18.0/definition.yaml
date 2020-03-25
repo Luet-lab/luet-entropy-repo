@@ -1,29 +1,65 @@
+Labels: null
 category: net-libs
+conflicts: null
+id: 0
+license: Apache-1.1 Apache-2.0 BSD BSD-2 MIT
 name: nodejs
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-2.7
+  requires: null
   version: '>=2.7.5'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: icu
+  requires: null
   version: '>=64.2'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: libuv
+  requires: null
   version: '>=1.28.0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: openssl
+  requires: null
   version: '>=1.1.1'
-- category: net-dns
+- Labels: null
+  category: net-dns
+  conflicts: null
+  id: 0
   name: c-ares
+  requires: null
   version: '>=1.15.0'
-- category: net-libs
+- Labels: null
+  category: net-libs
+  conflicts: null
+  id: 0
   name: http-parser
+  requires: null
   version: '>=2.9.0'
-- category: net-libs
+- Labels: null
+  category: net-libs
+  conflicts: null
+  id: 0
   name: nghttp2
+  requires: null
   version: '>=1.39.2'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: zlib
+  requires: null
   version: '>=0'
 use_flags:
 - npm
@@ -43,5 +79,4 @@ use_flags:
 - -test
 - -systemtap
 - big-endian
-version: 10.18.0+2
-license: "Apache-1.1 Apache-2.0 BSD BSD-2 MIT"
+version: 10.18.0+3

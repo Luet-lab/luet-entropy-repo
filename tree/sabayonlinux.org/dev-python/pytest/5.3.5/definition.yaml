@@ -1,41 +1,93 @@
+Labels: null
 category: dev-python
+conflicts: null
+id: 0
+license: MIT
 name: pytest
 requires:
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: pluggy
+  requires: null
   version: <1
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-exec-2
+  requires: null
   version: '>=2'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: attrs
+  requires: null
   version: '>=17.4.0'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: more-itertools
+  requires: null
   version: '>=4.0.0'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: pluggy
+  requires: null
   version: '>=0.12'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: py
+  requires: null
   version: '>=1.5.0'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-3.6
+  requires: null
   version: '>=0'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: importlib_metadata
+  requires: null
   version: '>=0'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: packaging
+  requires: null
   version: '>=0'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: setuptools
+  requires: null
   version: '>=0'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: six
+  requires: null
   version: '>=0'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: wcwidth
+  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -50,5 +102,4 @@ use_flags:
 - abi_x86_64
 - -python_targets_python3_8
 - -test
-version: 5.3.5+2
-license: "MIT"
+version: 5.3.5+3

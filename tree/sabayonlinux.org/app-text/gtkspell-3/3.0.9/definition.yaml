@@ -1,44 +1,100 @@
+Labels: null
 category: app-text
+conflicts: null
+id: 0
+license: GPL-2+
 name: gtkspell-3
 requires:
-- category: app-portage
+- Labels: null
+  category: app-portage
+  conflicts: null
+  id: 0
   name: elt-patches
+  requires: null
   version: '>=20170815'
-- category: app-text
+- Labels: null
+  category: app-text
+  conflicts: null
+  id: 0
   name: enchant-2
+  requires: null
   version: '>=1.1.6'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: gobject-introspection
+  requires: null
   version: '>=1.30'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: gtk-doc-am
+  requires: null
   version: '>=1.17'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: intltool
+  requires: null
   version: '>=0.35.0'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: pango
+  requires: null
   version: '>=1.8.0'
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: xz-utils
+  requires: null
   version: '>=0'
-- category: app-text
+- Labels: null
+  category: app-text
+  conflicts: null
+  id: 0
   name: iso-codes
+  requires: null
   version: '>=0'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: vala-0.44
+  requires: null
   version: '>=0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: glib-2
+  requires: null
   version: '>=0'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: desktop-file-utils
+  requires: null
   version: '>=0'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: gtk+-3
+  requires: null
   version: '>=0'
-- category: x11-misc
+- Labels: null
+  category: x11-misc
+  conflicts: null
+  id: 0
   name: shared-mime-info
+  requires: null
   version: '>=0'
 use_flags:
 - amd64
@@ -50,5 +106,4 @@ use_flags:
 - abi_x86_64
 - vala
 - big-endian
-version: 3.0.9+2
-license: "GPL-2+"
+version: 3.0.9+3

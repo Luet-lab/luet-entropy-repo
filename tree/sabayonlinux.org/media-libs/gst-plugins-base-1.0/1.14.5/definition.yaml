@@ -1,86 +1,198 @@
+Labels: null
 category: media-libs
+conflicts: null
+id: 0
+license: GPL-2+ LGPL-2+
 name: gst-plugins-base-1.0
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: orc
+  requires: null
   version: '>=0.4.24'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: glib-2
+  requires: null
   version: '>=2.38.2'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: glib-2
+  requires: null
   version: '>=2.40.0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: gobject-introspection
+  requires: null
   version: '>=1.31.1'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: gtk-doc-am
+  requires: null
   version: '>=1.12'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: alsa-lib
+  requires: null
   version: '>=1.0.27.2'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: graphene
+  requires: null
   version: '>=1.4.0'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: gstreamer-1.0
+  requires: null
   version: '>=1.14.5'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: gstreamer-1.0
+  requires: null
   version: '>=1.2.4'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: libogg
+  requires: null
   version: '>=1.3.0'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: libtheora
+  requires: null
   version: '>=1.1.1'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: libvorbis
+  requires: null
   version: '>=1.3.3'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: mesa
+  requires: null
   version: '>=9.0'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: sed
+  requires: null
   version: '>=4'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: gettext
+  requires: null
   version: '>=0.17'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: zlib
+  requires: null
   version: '>=1.2.8'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libX11
+  requires: null
   version: '>=1.6.2'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libXext
+  requires: null
   version: '>=1.3.2'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libXv
+  requires: null
   version: '>=1.0.10'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: pango
+  requires: null
   version: '>=1.36.3'
-- category: app-text
+- Labels: null
+  category: app-text
+  conflicts: null
+  id: 0
   name: iso-codes
+  requires: null
   version: '>=0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: libgudev
+  requires: null
   version: '>=0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: wayland
+  requires: null
   version: '>=0'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: glib-utils
+  requires: null
   version: '>=0'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: libpng
+  requires: null
   version: '>=0'
-- category: x11-base
+- Labels: null
+  category: x11-base
+  conflicts: null
+  id: 0
   name: xorg-proto
+  requires: null
   version: '>=0'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libdrm
+  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -114,5 +226,4 @@ use_flags:
 - -gbm
 - -abi_riscv_lp64d
 - alsa
-version: 1.14.5+r4
-license: "GPL-2+ LGPL-2+"
+version: 1.14.5+r5

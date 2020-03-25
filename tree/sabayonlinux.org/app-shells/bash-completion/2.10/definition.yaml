@@ -1,14 +1,30 @@
+Labels: null
 category: app-shells
+conflicts: null
+id: 0
+license: GPL-2+
 name: bash-completion
 requires:
-- category: app-shells
+- Labels: null
+  category: app-shells
+  conflicts: null
+  id: 0
   name: bash
+  requires: null
   version: '>=4.3'
-- category: app-shells
+- Labels: null
+  category: app-shells
+  conflicts: null
+  id: 0
   name: gentoo-bashcomp
+  requires: null
   version: '>=20140911'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: miscfiles
+  requires: null
   version: '>=0'
 use_flags:
 - kernel_linux
@@ -20,5 +36,4 @@ use_flags:
 - -test
 - eselect
 - split-usr
-version: 2.10+2
-license: "GPL-2+"
+version: 2.10+3

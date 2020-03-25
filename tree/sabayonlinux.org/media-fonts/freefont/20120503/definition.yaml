@@ -1,17 +1,37 @@
+Labels: null
 category: media-fonts
+conflicts: null
+id: 0
+license: GPL-3
 name: freefont
 requires:
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: fontconfig-1.0
+  requires: null
   version: '>=2.4.0'
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: unzip
+  requires: null
   version: '>=0'
-- category: media-fonts
+- Labels: null
+  category: media-fonts
+  conflicts: null
+  id: 0
   name: encodings
+  requires: null
   version: '>=0'
-- category: x11-apps
+- Labels: null
+  category: x11-apps
+  conflicts: null
+  id: 0
   name: mkfontdir
+  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc
@@ -21,5 +41,4 @@ use_flags:
 - X
 - multilib
 - abi_x86_64
-version: 20120503+2
-license: "GPL-3"
+version: 20120503+3

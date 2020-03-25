@@ -1,35 +1,79 @@
+Labels: null
 category: media-libs
+conflicts: null
+id: 0
+license: Apache-2.0 GPL-2 LGPL-2.1
 name: raptor-2
 requires:
-- category: app-portage
+- Labels: null
+  category: app-portage
+  conflicts: null
+  id: 0
   name: elt-patches
+  requires: null
   version: '>=20170815'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: autoconf-2.69
+  requires: null
   version: '>=2.69'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: automake-1.15
+  requires: null
   version: '>=1.15.1'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: bison
+  requires: null
   version: '>=3'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: flex
+  requires: null
   version: '>=2.5.36'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: libtool-2
+  requires: null
   version: '>=2.4'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: icu
+  requires: null
   version: '>=0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: libxml2-2
+  requires: null
   version: '>=0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: libxslt
+  requires: null
   version: '>=0'
-- category: net-misc
+- Labels: null
+  category: net-misc
+  conflicts: null
+  id: 0
   name: curl
+  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU
@@ -44,5 +88,4 @@ use_flags:
 - unicode
 - big-endian
 - -json
-version: 2.0.15+r4
-license: "Apache-2.0 GPL-2 LGPL-2.1"
+version: 2.0.15+r5

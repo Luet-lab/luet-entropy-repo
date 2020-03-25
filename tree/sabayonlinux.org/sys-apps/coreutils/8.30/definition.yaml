@@ -1,17 +1,37 @@
+Labels: null
 category: sys-apps
+conflicts: null
+id: 0
+license: GPL-3
 name: coreutils
 requires:
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: xz-utils
+  requires: null
   version: '>=0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: gmp
+  requires: null
   version: '>=0'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: acl
+  requires: null
   version: '>=0'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: attr
+  requires: null
   version: '>=0'
 use_flags:
 - -selinux
@@ -34,5 +54,4 @@ use_flags:
 - gmp
 - -vanilla
 - userland_GNU
-version: 8.30+2
-license: "GPL-3"
+version: 8.30+3

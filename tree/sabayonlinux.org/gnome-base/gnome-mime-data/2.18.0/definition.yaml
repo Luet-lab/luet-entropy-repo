@@ -1,10 +1,14 @@
+Labels: null
 category: gnome-base
+conflicts: null
+id: 0
+license: GPL-2
 name: gnome-mime-data
+requires: null
 use_flags:
 - multilib
 - elibc_glibc
 - userland_GNU
 - amd64
 - kernel_linux
-version: 2.18.0+2
-license: "GPL-2"
+version: 2.18.0+3

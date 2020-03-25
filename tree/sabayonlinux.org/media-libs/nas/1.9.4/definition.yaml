@@ -1,50 +1,114 @@
+Labels: null
 category: media-libs
+conflicts: null
+id: 0
+license: HPND MIT
 name: nas
 requires:
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libXau
+  requires: null
   version: '>=1.0.7'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libXt
+  requires: null
   version: '>=1.1.4'
-- category: app-text
+- Labels: null
+  category: app-text
+  conflicts: null
+  id: 0
   name: rman
+  requires: null
   version: '>=0'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: bison
+  requires: null
   version: '>=0'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: flex
+  requires: null
   version: '>=0'
-- category: x11-base
+- Labels: null
+  category: x11-base
+  conflicts: null
+  id: 0
   name: xorg-proto
+  requires: null
   version: '>=0'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libICE
+  requires: null
   version: '>=0'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libSM
+  requires: null
   version: '>=0'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libX11
+  requires: null
   version: '>=0'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libXaw
+  requires: null
   version: '>=0'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libXext
+  requires: null
   version: '>=0'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libXmu
+  requires: null
   version: '>=0'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libXpm
+  requires: null
   version: '>=0'
-- category: x11-misc
+- Labels: null
+  category: x11-misc
+  conflicts: null
+  id: 0
   name: gccmakedep
+  requires: null
   version: '>=0'
-- category: x11-misc
+- Labels: null
+  category: x11-misc
+  conflicts: null
+  id: 0
   name: imake
+  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -65,5 +129,4 @@ use_flags:
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
 - -doc
-version: 1.9.4+r5
-license: "HPND MIT"
+version: 1.9.4+r6

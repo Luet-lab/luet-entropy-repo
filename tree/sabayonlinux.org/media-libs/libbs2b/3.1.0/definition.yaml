@@ -1,8 +1,16 @@
+Labels: null
 category: media-libs
+conflicts: null
+id: 0
+license: MIT
 name: libbs2b
 requires:
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: libsndfile
+  requires: null
   version: '>=1.0.25'
 use_flags:
 - big-endian
@@ -21,5 +29,4 @@ use_flags:
 - split-usr
 - -abi_riscv_lp64
 - userland_GNU
-version: 3.1.0+r5
-license: "MIT"
+version: 3.1.0+r6

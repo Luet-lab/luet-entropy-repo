@@ -1,14 +1,30 @@
+Labels: null
 category: media-fonts
+conflicts: null
+id: 0
+license: GPL-2
 name: urw-fonts
 requires:
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: rpm2targz
+  requires: null
   version: '>=9.0.0.3g'
-- category: media-fonts
+- Labels: null
+  category: media-fonts
+  conflicts: null
+  id: 0
   name: encodings
+  requires: null
   version: '>=0'
-- category: x11-apps
+- Labels: null
+  category: x11-apps
+  conflicts: null
+  id: 0
   name: mkfontdir
+  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -18,5 +34,4 @@ use_flags:
 - elibc_glibc
 - userland_GNU
 - abi_x86_64
-version: 2.4.9+2
-license: "GPL-2"
+version: 2.4.9+3

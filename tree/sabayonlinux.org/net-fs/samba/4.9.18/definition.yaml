@@ -1,110 +1,254 @@
+Labels: null
 category: net-fs
+conflicts: null
+id: 0
+license: GPL-3
 name: samba
 requires:
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: glibc-2.2
+  requires: null
   version: '>=2.26'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: ldb
+  requires: null
   version: <1.5.0
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: libarchive
+  requires: null
   version: '>=3.1.2'
-- category: app-crypt
+- Labels: null
+  category: app-crypt
+  conflicts: null
+  id: 0
   name: mit-krb5
+  requires: null
   version: '>=1.15.1'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-2.7
+  requires: null
   version: '>=2.7.5'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-exec-2
+  requires: null
   version: '>=2'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: cmocka
+  requires: null
   version: '>=1.1.1'
-- category: net-libs
+- Labels: null
+  category: net-libs
+  conflicts: null
+  id: 0
   name: gnutls
+  requires: null
   version: '>=1.4.0'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: ldb
+  requires: null
   version: '>=1.4.8'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: talloc
+  requires: null
   version: '>=2.1.14'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: tdb
+  requires: null
   version: '>=1.3.16'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: tevent
+  requires: null
   version: '>=0.9.37'
-- category: app-text
+- Labels: null
+  category: app-text
+  conflicts: null
+  id: 0
   name: docbook-xsl-stylesheets
+  requires: null
   version: '>=0'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: perl
+  requires: null
   version: '>=0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: iniparser
+  requires: null
   version: '>=0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: libaio
+  requires: null
   version: '>=0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: libbsd
+  requires: null
   version: '>=0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: libgcrypt
+  requires: null
   version: '>=0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: libxslt
+  requires: null
   version: '>=0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: popt
+  requires: null
   version: '>=0'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: subunit
+  requires: null
   version: '>=0'
-- category: net-dns
+- Labels: null
+  category: net-dns
+  conflicts: null
+  id: 0
   name: avahi-base
+  requires: null
   version: '>=0'
-- category: net-fs
+- Labels: null
+  category: net-fs
+  conflicts: null
+  id: 0
   name: cifs-utils
+  requires: null
   version: '>=0'
-- category: net-libs
+- Labels: null
+  category: net-libs
+  conflicts: null
+  id: 0
   name: libnsl
+  requires: null
   version: '>=0'
-- category: net-libs
+- Labels: null
+  category: net-libs
+  conflicts: null
+  id: 0
   name: libtirpc
+  requires: null
   version: '>=0'
-- category: net-nds
+- Labels: null
+  category: net-nds
+  conflicts: null
+  id: 0
   name: openldap
+  requires: null
   version: '>=0'
-- category: net-print
+- Labels: null
+  category: net-print
+  conflicts: null
+  id: 0
   name: cups
+  requires: null
   version: '>=0'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: attr
+  requires: null
   version: '>=0'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: systemd
+  requires: null
   version: '>=0'
-- category: sys-cluster
+- Labels: null
+  category: sys-cluster
+  conflicts: null
+  id: 0
   name: glusterfs
+  requires: null
   version: '>=0'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: libcap
+  requires: null
   version: '>=0'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: ncurses
+  requires: null
   version: '>=0'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: pam
+  requires: null
   version: '>=0'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: readline
+  requires: null
   version: '>=0'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: zlib
+  requires: null
   version: '>=0'
 use_flags:
 - -addc
@@ -152,5 +296,4 @@ use_flags:
 - -selinux
 - -cluster
 - -json
-version: 4.9.18+3
-license: "GPL-3"
+version: 4.9.18+4

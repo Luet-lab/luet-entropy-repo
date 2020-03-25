@@ -1,17 +1,37 @@
+Labels: null
 category: dev-python
+conflicts: null
+id: 0
+license: LGPL-3+
 name: psycopg-2
 requires:
-- category: dev-db
+- Labels: null
+  category: dev-db
+  conflicts: null
+  id: 0
   name: postgresql-9.5
+  requires: null
   version: '>=8.1'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-2.7
+  requires: null
   version: '>=2.7.5'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-exec-2
+  requires: null
   version: '>=2'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-3.6
+  requires: null
   version: '>=0'
 use_flags:
 - abi_x86_64
@@ -27,5 +47,4 @@ use_flags:
 - python_targets_python2_7
 - kernel_linux
 - -python_targets_python3_5
-version: 2.7.7+2
-license: "LGPL-3+"
+version: 2.7.7+3

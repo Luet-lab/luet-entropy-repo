@@ -1,14 +1,30 @@
+Labels: null
 category: app-text
+conflicts: null
+id: 0
+license: docbook
 name: docbook-xml-simple-dtd-1.0
 requires:
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: unzip
+  requires: null
   version: '>=5.41'
-- category: app-text
+- Labels: null
+  category: app-text
+  conflicts: null
+  id: 0
   name: build-docbook-catalog
+  requires: null
   version: '>=1.6'
-- category: app-text
+- Labels: null
+  category: app-text
+  conflicts: null
+  id: 0
   name: sgml-common
+  requires: null
   version: '>=0.6.3'
 use_flags:
 - abi_x86_64
@@ -18,5 +34,4 @@ use_flags:
 - userland_GNU
 - kernel_linux
 - amd64
-version: 1.0+r5
-license: "docbook"
+version: 1.0+r6

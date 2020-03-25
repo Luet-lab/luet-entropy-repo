@@ -1,34 +1,47 @@
-
-category: "net-dns"
-name: "libidn2"
-version: "2.3.0"
-
-use_flags:
-- "static-libs"
-- "big-endian"
-- "-abi_s390_32"
-- "-abi_mips_n32"
-- "-abi_x86_x32"
-- "-abi_riscv_lp64d"
-- "-abi_mips_n64"
-- "amd64"
-- "-abi_mips_o32"
-- "elibc_glibc"
-- "abi_x86_64"
-- "kernel_linux"
-- "abi_x86_32"
-- "-abi_s390_64"
-- "split-usr"
-- "-abi_riscv_lp64"
-- "userland_GNU"
+Labels: null
+category: net-dns
+conflicts: null
+id: 0
+license: GPL-2+ LGPL-3+
+name: libidn2
 requires:
-- category: "dev-lang"
-  name: "perl"
-  version: ">=0"
-- category: "dev-libs"
-  name: "libunistring"
-  version: ">=0"
-- category: "sys-apps"
-  name: "help2man"
-  version: ">=0"
-license: "GPL-2+ LGPL-3+"
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: perl
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
+  name: libunistring
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
+  name: help2man
+  requires: null
+  version: '>=0'
+use_flags:
+- static-libs
+- big-endian
+- -abi_s390_32
+- -abi_mips_n32
+- -abi_x86_x32
+- -abi_riscv_lp64d
+- -abi_mips_n64
+- amd64
+- -abi_mips_o32
+- elibc_glibc
+- abi_x86_64
+- kernel_linux
+- abi_x86_32
+- -abi_s390_64
+- split-usr
+- -abi_riscv_lp64
+- userland_GNU
+version: 2.3.0+1

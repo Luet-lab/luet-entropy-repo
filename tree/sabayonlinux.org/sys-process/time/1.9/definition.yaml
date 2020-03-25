@@ -1,8 +1,16 @@
+Labels: null
 category: sys-process
+conflicts: null
+id: 0
+license: GPL-3+
 name: time
 requires:
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: texinfo
+  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -11,5 +19,4 @@ use_flags:
 - abi_x86_64
 - amd64
 - userland_GNU
-version: 1.9+2
-license: "GPL-3+"
+version: 1.9+3

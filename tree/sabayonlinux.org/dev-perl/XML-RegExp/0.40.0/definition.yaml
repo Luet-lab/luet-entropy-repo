@@ -1,11 +1,23 @@
+Labels: null
 category: dev-perl
+conflicts: null
+id: 0
+license: Artistic GPL-1+
 name: XML-RegExp
 requires:
-- category: dev-perl
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
   name: XML-Parser
+  requires: null
   version: '>=2.29'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: perl
+  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU
@@ -15,5 +27,4 @@ use_flags:
 - abi_x86_64
 - amd64
 - kernel_linux
-version: 0.40.0+r3
-license: "Artistic GPL-1+"
+version: 0.40.0+r4

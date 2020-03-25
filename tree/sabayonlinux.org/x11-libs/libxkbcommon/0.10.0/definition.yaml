@@ -1,42 +1,63 @@
-
-category: "x11-libs"
-name: "libxkbcommon"
-version: "0.10.0"
-
-use_flags:
-- "big-endian"
-- "-abi_s390_32"
-- "-abi_mips_n32"
-- "-abi_x86_x32"
-- "-test"
-- "-abi_mips_n64"
-- "amd64"
-- "-abi_mips_o32"
-- "elibc_glibc"
-- "abi_x86_64"
-- "kernel_linux"
-- "abi_x86_32"
-- "X"
-- "-abi_s390_64"
-- "userland_GNU"
-- "split-usr"
-- "-abi_riscv_lp64"
-- "-abi_riscv_lp64d"
-- "-doc"
+Labels: null
+category: x11-libs
+conflicts: null
+id: 0
+license: MIT
+name: libxkbcommon
 requires:
-- category: "dev-util"
-  name: "meson"
-  version: ">=0.51.2"
-- category: "dev-util"
-  name: "ninja"
-  version: ">=1.8.2"
-- category: "x11-libs"
-  name: "libxcb"
-  version: ">=1.10"
-- category: "sys-devel"
-  name: "bison"
-  version: ">=0"
-- category: "x11-base"
-  name: "xorg-proto"
-  version: ">=0"
-license: "MIT"
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
+  name: meson
+  requires: null
+  version: '>=0.51.2'
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
+  name: ninja
+  requires: null
+  version: '>=1.8.2'
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
+  name: libxcb
+  requires: null
+  version: '>=1.10'
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
+  name: bison
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: x11-base
+  conflicts: null
+  id: 0
+  name: xorg-proto
+  requires: null
+  version: '>=0'
+use_flags:
+- big-endian
+- -abi_s390_32
+- -abi_mips_n32
+- -abi_x86_x32
+- -test
+- -abi_mips_n64
+- amd64
+- -abi_mips_o32
+- elibc_glibc
+- abi_x86_64
+- kernel_linux
+- abi_x86_32
+- X
+- -abi_s390_64
+- userland_GNU
+- split-usr
+- -abi_riscv_lp64
+- -abi_riscv_lp64d
+- -doc
+version: 0.10.0+1

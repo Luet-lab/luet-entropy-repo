@@ -1,17 +1,37 @@
+Labels: null
 category: app-text
+conflicts: null
+id: 0
+license: docbook
 name: docbook-xml-dtd-4.3
 requires:
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: unzip
+  requires: null
   version: '>=5.41'
-- category: app-text
+- Labels: null
+  category: app-text
+  conflicts: null
+  id: 0
   name: build-docbook-catalog
+  requires: null
   version: '>=1.2'
-- category: app-text
+- Labels: null
+  category: app-text
+  conflicts: null
+  id: 0
   name: docbook-xsl-stylesheets
+  requires: null
   version: '>=1.65'
-- category: app-text
+- Labels: null
+  category: app-text
+  conflicts: null
+  id: 0
   name: sgml-common
+  requires: null
   version: '>=0.6.3'
 use_flags:
 - amd64
@@ -21,5 +41,4 @@ use_flags:
 - split-usr
 - kernel_linux
 - big-endian
-version: 4.3+r4
-license: "docbook"
+version: 4.3+r5

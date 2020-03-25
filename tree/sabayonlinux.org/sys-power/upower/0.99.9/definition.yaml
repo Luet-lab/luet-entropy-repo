@@ -1,29 +1,65 @@
+Labels: null
 category: sys-power
+conflicts: null
+id: 0
+license: GPL-2
 name: upower
 requires:
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: dbus-glib
+  requires: null
   version: '>=0.100'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: glib-2
+  requires: null
   version: '>=2.34'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: gettext
+  requires: null
   version: '>=0.17'
-- category: app-text
+- Labels: null
+  category: app-text
+  conflicts: null
+  id: 0
   name: docbook-xsl-stylesheets
+  requires: null
   version: '>=0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: gobject-introspection
+  requires: null
   version: '>=0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: libxslt
+  requires: null
   version: '>=0'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: intltool
+  requires: null
   version: '>=0'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: dbus
+  requires: null
   version: '>=0'
 use_flags:
 - amd64
@@ -37,5 +73,4 @@ use_flags:
 - big-endian
 - -doc
 - elibc_glibc
-version: 0.99.9+r3
-license: "GPL-2"
+version: 0.99.9+r4

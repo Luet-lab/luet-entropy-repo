@@ -1,35 +1,79 @@
+Labels: null
 category: sys-apps
+conflicts: null
+id: 0
+license: BSD-4 GPL-2 LGPL-2.1 MIT public-domain
 name: util-linux
 requires:
-- category: app-portage
+- Labels: null
+  category: app-portage
+  conflicts: null
+  id: 0
   name: elt-patches
+  requires: null
   version: '>=20170815'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-exec-2
+  requires: null
   version: '>=2'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: ncurses
+  requires: null
   version: '>=5.2'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-3.6
+  requires: null
   version: '>=0'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: systemd
+  requires: null
   version: '>=0'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: gettext
+  requires: null
   version: '>=0'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: libcap-ng
+  requires: null
   version: '>=0'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: pam
+  requires: null
   version: '>=0'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: readline
+  requires: null
   version: '>=0'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: zlib
+  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -69,5 +113,4 @@ use_flags:
 - -fdformat
 - -selinux
 - -build
-version: 2.33.2+3
-license: "BSD-4 GPL-2 LGPL-2.1 MIT public-domain"
+version: 2.33.2+4

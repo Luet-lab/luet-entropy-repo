@@ -1,11 +1,23 @@
+Labels: null
 category: app-text
+conflicts: null
+id: 0
+license: LGPL-2.1+
 name: iso-codes
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-3.6
+  requires: null
   version: '>=0'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: gettext
+  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -15,5 +27,4 @@ use_flags:
 - split-usr
 - userland_GNU
 - abi_x86_64
-version: 4.4+2
-license: "LGPL-2.1+"
+version: 4.4+3

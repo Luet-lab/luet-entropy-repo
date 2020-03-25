@@ -1,11 +1,23 @@
+Labels: null
 category: media-fonts
+conflicts: null
+id: 0
+license: GFL LPPL-1.3c
 name: tex-gyre
 requires:
-- category: media-fonts
+- Labels: null
+  category: media-fonts
+  conflicts: null
+  id: 0
   name: encodings
+  requires: null
   version: '>=0'
-- category: x11-apps
+- Labels: null
+  category: x11-apps
+  conflicts: null
+  id: 0
   name: mkfontdir
+  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc
@@ -15,5 +27,4 @@ use_flags:
 - amd64
 - kernel_linux
 - X
-version: 2.005+2
-license: "GFL LPPL-1.3c"
+version: 2.005+3

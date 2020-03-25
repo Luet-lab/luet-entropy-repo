@@ -1,20 +1,44 @@
+Labels: null
 category: sci-libs
+conflicts: null
+id: 0
+license: GPL-2
 name: cholmod
 requires:
-- category: sci-libs
+- Labels: null
+  category: sci-libs
+  conflicts: null
+  id: 0
   name: amd
+  requires: null
   version: '>=2.3'
-- category: sci-libs
+- Labels: null
+  category: sci-libs
+  conflicts: null
+  id: 0
   name: colamd
+  requires: null
   version: '>=2.8'
-- category: sci-libs
+- Labels: null
+  category: sci-libs
+  conflicts: null
+  id: 0
   name: amd
+  requires: null
   version: '>=0'
-- category: sci-libs
+- Labels: null
+  category: sci-libs
+  conflicts: null
+  id: 0
   name: colamd
+  requires: null
   version: '>=0'
-- category: sci-libs
+- Labels: null
+  category: sci-libs
+  conflicts: null
+  id: 0
   name: suitesparseconfig
+  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc
@@ -29,5 +53,4 @@ use_flags:
 - kernel_linux
 - abi_x86_64
 - multilib
-version: 2.1.2+2
-license: "GPL-2"
+version: 2.1.2+3

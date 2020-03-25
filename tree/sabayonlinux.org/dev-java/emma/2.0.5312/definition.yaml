@@ -1,17 +1,37 @@
+Labels: null
 category: dev-java
+conflicts: null
+id: 0
+license: CPL-1.0
 name: emma
 requires:
-- category: dev-java
+- Labels: null
+  category: dev-java
+  conflicts: null
+  id: 0
   name: ant-core
+  requires: null
   version: '>=1.8.2'
-- category: dev-java
+- Labels: null
+  category: dev-java
+  conflicts: null
+  id: 0
   name: java-config-2
+  requires: null
   version: '>=2.2.0'
-- category: dev-java
+- Labels: null
+  category: dev-java
+  conflicts: null
+  id: 0
   name: javatoolkit
+  requires: null
   version: '>=0.3.0'
-- category: dev-java
+- Labels: null
+  category: dev-java
+  conflicts: null
+  id: 0
   name: ant-core
+  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU
@@ -22,5 +42,4 @@ use_flags:
 - kernel_linux
 - amd64
 - elibc_glibc
-version: 2.0.5312+r5
-license: "CPL-1.0"
+version: 2.0.5312+r6

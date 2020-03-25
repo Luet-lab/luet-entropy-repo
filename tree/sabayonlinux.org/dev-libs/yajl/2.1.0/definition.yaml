@@ -1,11 +1,23 @@
+Labels: null
 category: dev-libs
+conflicts: null
+id: 0
+license: ISC
 name: yajl
 requires:
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: cmake
+  requires: null
   version: '>=3.9.6'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: make
+  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -25,5 +37,4 @@ use_flags:
 - split-usr
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
-version: 2.1.0+r5
-license: "ISC"
+version: 2.1.0+r6

@@ -1,8 +1,14 @@
-
-category: "acct-user"
-name: "smtpd"
-version: "0"
+Labels: null
+category: acct-user
+conflicts: null
+id: 0
+name: smtpd
 requires:
-- category: "acct-group"
-  name: "smtpd"
-  version: ">=0"
+- Labels: null
+  category: acct-group
+  conflicts: null
+  id: 0
+  name: smtpd
+  requires: null
+  version: '>=0'
+version: 0+1

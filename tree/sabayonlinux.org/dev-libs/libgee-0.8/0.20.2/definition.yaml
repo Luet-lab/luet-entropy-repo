@@ -1,23 +1,51 @@
+Labels: null
 category: dev-libs
+conflicts: null
+id: 0
+license: LGPL-2.1+
 name: libgee-0.8
 requires:
-- category: app-portage
+- Labels: null
+  category: app-portage
+  conflicts: null
+  id: 0
   name: elt-patches
+  requires: null
   version: '>=20170815'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: glib-2
+  requires: null
   version: '>=2.36'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: gobject-introspection
+  requires: null
   version: '>=0.9.6'
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: xz-utils
+  requires: null
   version: '>=0'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: desktop-file-utils
+  requires: null
   version: '>=0'
-- category: x11-misc
+- Labels: null
+  category: x11-misc
+  conflicts: null
+  id: 0
   name: shared-mime-info
+  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU
@@ -28,5 +56,4 @@ use_flags:
 - abi_x86_64
 - elibc_glibc
 - big-endian
-version: 0.20.2+2
-license: "LGPL-2.1+"
+version: 0.20.2+3

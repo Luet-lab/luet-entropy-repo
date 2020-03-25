@@ -1,11 +1,23 @@
+Labels: null
 category: sys-process
+conflicts: null
+id: 0
+license: GPL-2
 name: procps
 requires:
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: ncurses
+  requires: null
   version: '>=5.7'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: systemd
+  requires: null
   version: '>=0'
 use_flags:
 - -modern-top
@@ -25,5 +37,4 @@ use_flags:
 - elibc_glibc
 - -elogind
 - userland_GNU
-version: 3.3.15+r3
-license: "GPL-2"
+version: 3.3.15+r4

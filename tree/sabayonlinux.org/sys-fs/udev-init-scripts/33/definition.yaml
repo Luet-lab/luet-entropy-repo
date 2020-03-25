@@ -1,5 +1,10 @@
+Labels: null
 category: sys-fs
+conflicts: null
+id: 0
+license: GPL-2
 name: udev-init-scripts
+requires: null
 use_flags:
 - kernel_linux
 - elibc_glibc
@@ -7,5 +12,4 @@ use_flags:
 - amd64
 - userland_GNU
 - abi_x86_64
-version: 33+2
-license: "GPL-2"
+version: 33+3

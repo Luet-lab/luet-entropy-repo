@@ -1,32 +1,72 @@
+Labels: null
 category: gnome-extra
+conflicts: null
+id: 0
+license: GPL-3+
 name: chrome-gnome-shell
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-exec-2
+  requires: null
   version: '>=2'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: cmake
+  requires: null
   version: '>=3.9.6'
-- category: app-misc
+- Labels: null
+  category: app-misc
+  conflicts: null
+  id: 0
   name: jq
+  requires: null
   version: '>=0'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-3.6
+  requires: null
   version: '>=0'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: pygobject-base-3
+  requires: null
   version: '>=0'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: requests
+  requires: null
   version: '>=0'
-- category: gnome-base
+- Labels: null
+  category: gnome-base
+  conflicts: null
+  id: 0
   name: gnome-shell
+  requires: null
   version: '>=0'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: coreutils
+  requires: null
   version: '>=0'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: make
+  requires: null
   version: '>=0'
 use_flags:
 - kernel_linux
@@ -41,5 +81,4 @@ use_flags:
 - -python_single_target_python2_7
 - python_single_target_python3_6
 - python_targets_python3_6
-version: 10+r3
-license: "GPL-3+"
+version: 10+r4

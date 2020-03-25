@@ -1,20 +1,44 @@
+Labels: null
 category: dev-qt
+conflicts: null
+id: 0
+license: GPL-3
 name: qtcharts-5
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: perl
+  requires: null
   version: '>=0'
-- category: dev-qt
+- Labels: null
+  category: dev-qt
+  conflicts: null
+  id: 0
   name: qtchooser
+  requires: null
   version: '>=0'
-- category: dev-qt
+- Labels: null
+  category: dev-qt
+  conflicts: null
+  id: 0
   name: qtcore-5
+  requires: null
   version: '>=5.14.1'
-- category: dev-qt
+- Labels: null
+  category: dev-qt
+  conflicts: null
+  id: 0
   name: qtgui-5
+  requires: null
   version: '>=5.14.1'
-- category: dev-qt
+- Labels: null
+  category: dev-qt
+  conflicts: null
+  id: 0
   name: qtwidgets-5
+  requires: null
   version: '>=5.14.1'
 use_flags:
 - elibc_glibc
@@ -27,5 +51,4 @@ use_flags:
 - kernel_linux
 - split-usr
 - amd64
-version: 5.14.1+2
-license: "GPL-3"
+version: 5.14.1+3

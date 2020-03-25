@@ -1,11 +1,23 @@
+Labels: null
 category: dev-java
+conflicts: null
+id: 0
+license: CPL-1.0
 name: junit
 requires:
-- category: dev-java
+- Labels: null
+  category: dev-java
+  conflicts: null
+  id: 0
   name: java-config-2
+  requires: null
   version: '>=2.2.0'
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: zip
+  requires: null
   version: '>=0'
 use_flags:
 - -doc
@@ -17,5 +29,4 @@ use_flags:
 - elibc_glibc
 - -elibc_FreeBSD
 - source
-version: 3.8.2+r4
-license: "CPL-1.0"
+version: 3.8.2+r5

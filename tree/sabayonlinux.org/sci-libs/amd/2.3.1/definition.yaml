@@ -1,8 +1,16 @@
+Labels: null
 category: sci-libs
+conflicts: null
+id: 0
+license: LGPL-2.1
 name: amd
 requires:
-- category: sci-libs
+- Labels: null
+  category: sci-libs
+  conflicts: null
+  id: 0
   name: suitesparseconfig
+  requires: null
   version: '>=0'
 use_flags:
 - fortran
@@ -14,5 +22,4 @@ use_flags:
 - kernel_linux
 - abi_x86_64
 - multilib
-version: 2.3.1+2
-license: "LGPL-2.1"
+version: 2.3.1+3

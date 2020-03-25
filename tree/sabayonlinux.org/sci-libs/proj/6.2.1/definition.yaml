@@ -1,21 +1,26 @@
-
-category: "sci-libs"
-name: "proj"
-version: "6.2.1"
-license: "MIT"
-
-use_flags:
-- "-static-libs"
-- "elibc_glibc"
-- "abi_x86_64"
-- "userland_GNU"
-- "split-usr"
-- "amd64"
-- "-europe"
-- "kernel_linux"
-- "-test"
-- "big-endian"
+Labels: null
+category: sci-libs
+conflicts: null
+id: 0
+license: MIT
+name: proj
 requires:
-- category: "dev-db"
-  name: "sqlite-3"
-  version: ">=0"
+- Labels: null
+  category: dev-db
+  conflicts: null
+  id: 0
+  name: sqlite-3
+  requires: null
+  version: '>=0'
+use_flags:
+- -static-libs
+- elibc_glibc
+- abi_x86_64
+- userland_GNU
+- split-usr
+- amd64
+- -europe
+- kernel_linux
+- -test
+- big-endian
+version: 6.2.1+1

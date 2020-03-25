@@ -1,32 +1,72 @@
+Labels: null
 category: sys-libs
+conflicts: null
+id: 0
+license: LGPL-2+
 name: libblockdev
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-exec-2
+  requires: null
   version: '>=2'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: glib-2
+  requires: null
   version: '>=2.42.2'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: kmod
+  requires: null
   version: '>=19'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: util-linux
+  requires: null
   version: '>=2.27'
-- category: sys-block
+- Labels: null
+  category: sys-block
+  conflicts: null
+  id: 0
   name: parted
+  requires: null
   version: '>=3.1'
-- category: sys-fs
+- Labels: null
+  category: sys-fs
+  conflicts: null
+  id: 0
   name: cryptsetup
+  requires: null
   version: '>=1.6.7'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-3.6
+  requires: null
   version: '>=0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: libbytesize
+  requires: null
   version: '>=0'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: gtk-doc-am
+  requires: null
   version: '>=0'
 use_flags:
 - -device-mapper
@@ -50,5 +90,4 @@ use_flags:
 - -lvm
 - -vdo
 - -gtk-doc
-version: 2.23+2
-license: "LGPL-2+"
+version: 2.23+3

@@ -1,11 +1,21 @@
-
-category: "acct-user"
-name: "postfix"
-version: "0"
+Labels: null
+category: acct-user
+conflicts: null
+id: 0
+name: postfix
 requires:
-- category: "acct-group"
-  name: "postfix"
-  version: ">=0"
-- category: "acct-group"
-  name: "mail"
-  version: ">=0"
+- Labels: null
+  category: acct-group
+  conflicts: null
+  id: 0
+  name: postfix
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: acct-group
+  conflicts: null
+  id: 0
+  name: mail
+  requires: null
+  version: '>=0'
+version: 0+1

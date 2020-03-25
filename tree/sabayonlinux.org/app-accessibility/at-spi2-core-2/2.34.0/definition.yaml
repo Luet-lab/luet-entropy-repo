@@ -1,38 +1,86 @@
+Labels: null
 category: app-accessibility
+conflicts: null
+id: 0
+license: LGPL-2.1+
 name: at-spi2-core-2
 requires:
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: glib-2
+  requires: null
   version: '>=2.36'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: gobject-introspection
+  requires: null
   version: '>=1.54.0'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: meson
+  requires: null
   version: '>=0.50.0'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: meson
+  requires: null
   version: '>=0.51.2'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: ninja
+  requires: null
   version: '>=1.8.2'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: dbus
+  requires: null
   version: '>=1.5'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: gettext
+  requires: null
   version: '>=0.19.8'
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: xz-utils
+  requires: null
   version: '>=0'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: desktop-file-utils
+  requires: null
   version: '>=0'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: glib-utils
+  requires: null
   version: '>=0'
-- category: x11-misc
+- Labels: null
+  category: x11-misc
+  conflicts: null
+  id: 0
   name: shared-mime-info
+  requires: null
   version: '>=0'
 use_flags:
 - -X
@@ -55,5 +103,4 @@ use_flags:
 - split-usr
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
-version: 2.34.0+3
-license: "LGPL-2.1+"
+version: 2.34.0+4

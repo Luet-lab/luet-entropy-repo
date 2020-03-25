@@ -1,11 +1,23 @@
+Labels: null
 category: sys-fs
+conflicts: null
+id: 0
+license: GPL-2 LGPL-2.1
 name: fuse-common
 requires:
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: meson
+  requires: null
   version: '>=0.45.1'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: ninja
+  requires: null
   version: '>=1.7.2'
 use_flags:
 - kernel_linux
@@ -14,5 +26,4 @@ use_flags:
 - big-endian
 - userland_GNU
 - amd64
-version: 3.2.6+2
-license: "GPL-2 LGPL-2.1"
+version: 3.2.6+3

@@ -1,20 +1,44 @@
+Labels: null
 category: media-libs
+conflicts: null
+id: 0
+license: GPL-2
 name: rubberband
 requires:
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: ladspa-sdk
+  requires: null
   version: '>=0'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: libsamplerate
+  requires: null
   version: '>=0'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: libsndfile
+  requires: null
   version: '>=0'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: vamp-plugin-sdk
+  requires: null
   version: '>=0'
-- category: sci-libs
+- Labels: null
+  category: sci-libs
+  conflicts: null
+  id: 0
   name: fftw-3.0
+  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -34,5 +58,4 @@ use_flags:
 - split-usr
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
-version: 1.8.2+3
-license: "GPL-2"
+version: 1.8.2+4

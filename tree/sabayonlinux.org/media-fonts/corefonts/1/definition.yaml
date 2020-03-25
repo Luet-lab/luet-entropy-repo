@@ -1,14 +1,30 @@
+Labels: null
 category: media-fonts
+conflicts: null
+id: 0
+license: MSttfEULA
 name: corefonts
 requires:
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: cabextract
+  requires: null
   version: '>=0'
-- category: media-fonts
+- Labels: null
+  category: media-fonts
+  conflicts: null
+  id: 0
   name: encodings
+  requires: null
   version: '>=0'
-- category: x11-apps
+- Labels: null
+  category: x11-apps
+  conflicts: null
+  id: 0
   name: mkfontdir
+  requires: null
   version: '>=0'
 use_flags:
 - X
@@ -18,5 +34,4 @@ use_flags:
 - amd64
 - userland_GNU
 - abi_x86_64
-version: 1+r9
-license: "MSttfEULA"
+version: 1+r10

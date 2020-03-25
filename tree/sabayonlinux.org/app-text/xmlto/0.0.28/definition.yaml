@@ -1,8 +1,16 @@
+Labels: null
 category: app-text
+conflicts: null
+id: 0
+license: GPL-2
 name: xmlto
 requires:
-- category: app-text
+- Labels: null
+  category: app-text
+  conflicts: null
+  id: 0
   name: docbook-xsl-stylesheets
+  requires: null
   version: '>=1.62.0'
 use_flags:
 - userland_GNU
@@ -13,5 +21,4 @@ use_flags:
 - -latex
 - text
 - abi_x86_64
-version: 0.0.28+r3
-license: "GPL-2"
+version: 0.0.28+r4

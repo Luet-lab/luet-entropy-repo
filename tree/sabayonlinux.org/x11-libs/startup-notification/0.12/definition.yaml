@@ -1,29 +1,65 @@
+Labels: null
 category: x11-libs
+conflicts: null
+id: 0
+license: LGPL-2 MIT
 name: startup-notification
 requires:
-- category: app-portage
+- Labels: null
+  category: app-portage
+  conflicts: null
+  id: 0
   name: elt-patches
+  requires: null
   version: '>=20170422'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: autoconf-2.69
+  requires: null
   version: '>=2.69'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: automake-1.15
+  requires: null
   version: '>=1.15.1'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: libtool-2
+  requires: null
   version: '>=2.4'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libX11
+  requires: null
   version: '>=1.4.3'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: xcb-util
+  requires: null
   version: '>=0.3.8'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libxcb
+  requires: null
   version: '>1.6'
-- category: x11-base
+- Labels: null
+  category: x11-base
+  conflicts: null
+  id: 0
   name: xorg-proto
+  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -33,5 +69,4 @@ use_flags:
 - abi_x86_64
 - userland_GNU
 - amd64
-version: 0.12+r3
-license: "LGPL-2 MIT"
+version: 0.12+r4

@@ -1,26 +1,58 @@
+Labels: null
 category: media-sound
+conflicts: null
+id: 0
+license: GPL-2 LGPL-2.1
 name: mpg123
 requires:
-- category: app-portage
+- Labels: null
+  category: app-portage
+  conflicts: null
+  id: 0
   name: elt-patches
+  requires: null
   version: '>=20170815'
-- category: app-eselect
+- Labels: null
+  category: app-eselect
+  conflicts: null
+  id: 0
   name: eselect-mpg123
+  requires: null
   version: '>=0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: libltdl
+  requires: null
   version: '>=0'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: alsa-lib
+  requires: null
   version: '>=0'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: libsdl
+  requires: null
   version: '>=0'
-- category: media-sound
+- Labels: null
+  category: media-sound
+  conflicts: null
+  id: 0
   name: pulseaudio
+  requires: null
   version: '>=0'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: libtool-2
+  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -54,5 +86,4 @@ use_flags:
 - -abi_riscv_lp64d
 - alsa
 - -cpu_flags_x86_3dnow
-version: 1.25.13+3
-license: "GPL-2 LGPL-2.1"
+version: 1.25.13+4

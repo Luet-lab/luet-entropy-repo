@@ -1,8 +1,16 @@
+Labels: null
 category: sys-apps
+conflicts: null
+id: 0
+license: GPL-2
 name: dmidecode
 requires:
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: glibc-2.2
+  requires: null
   version: '>=0'
 use_flags:
 - amd64
@@ -12,5 +20,4 @@ use_flags:
 - abi_x86_64
 - big-endian
 - userland_GNU
-version: 3.2+2
-license: "GPL-2"
+version: 3.2+3

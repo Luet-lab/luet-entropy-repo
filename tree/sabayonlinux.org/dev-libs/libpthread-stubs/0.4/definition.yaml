@@ -1,5 +1,10 @@
+Labels: null
 category: dev-libs
+conflicts: null
+id: 0
+license: MIT
 name: libpthread-stubs
+requires: null
 use_flags:
 - -abi_s390_32
 - -abi_riscv_lp64d
@@ -17,5 +22,4 @@ use_flags:
 - split-usr
 - -abi_mips_n32
 - userland_GNU
-version: 0.4+r4
-license: "MIT"
+version: 0.4+r5

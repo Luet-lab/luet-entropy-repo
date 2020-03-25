@@ -1,29 +1,65 @@
+Labels: null
 category: media-libs
+conflicts: null
+id: 0
+license: MIT
 name: virglrenderer
 requires:
-- category: app-portage
+- Labels: null
+  category: app-portage
+  conflicts: null
+  id: 0
   name: elt-patches
+  requires: null
   version: '>=20170815'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: autoconf-2.69
+  requires: null
   version: '>=2.69'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: automake-1.15
+  requires: null
   version: '>=1.15.1'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: libtool-2
+  requires: null
   version: '>=2.4'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libdrm
+  requires: null
   version: '>=2.4.50'
-- category: x11-misc
+- Labels: null
+  category: x11-misc
+  conflicts: null
+  id: 0
   name: util-macros
+  requires: null
   version: '>=1.8'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: libepoxy
+  requires: null
   version: '>=0'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: autoconf-archive
+  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU
@@ -35,5 +71,4 @@ use_flags:
 - kernel_linux
 - -test
 - split-usr
-version: 0.7.0+2
-license: "MIT"
+version: 0.7.0+3

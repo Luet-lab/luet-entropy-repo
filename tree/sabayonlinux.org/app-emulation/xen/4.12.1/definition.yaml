@@ -1,14 +1,30 @@
+Labels: null
 category: app-emulation
+conflicts: null
+id: 0
+license: GPL-2
 name: xen
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-2.7
+  requires: null
   version: '>=2.7.5'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: binutils-2.32
+  requires: null
   version: '>=2.22'
-- category: app-emulation
+- Labels: null
+  category: app-emulation
+  conflicts: null
+  id: 0
   name: xen-tools
+  requires: null
   version: '>=4.12.1'
 use_flags:
 - abi_x86_64
@@ -21,5 +37,4 @@ use_flags:
 - amd64
 - -efi
 - -flask
-version: 4.12.1+r6
-license: "GPL-2"
+version: 4.12.1+r7

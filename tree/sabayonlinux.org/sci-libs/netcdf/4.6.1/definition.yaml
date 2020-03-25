@@ -1,11 +1,23 @@
+Labels: null
 category: sci-libs
+conflicts: null
+id: 0
+license: UCAR-Unidata
 name: netcdf
 requires:
-- category: net-misc
+- Labels: null
+  category: net-misc
+  conflicts: null
+  id: 0
   name: curl
+  requires: null
   version: '>=0'
-- category: sci-libs
+- Labels: null
+  category: sci-libs
+  conflicts: null
+  id: 0
   name: hdf5
+  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -23,5 +35,4 @@ use_flags:
 - userland_GNU
 - -static-libs
 - abi_x86_64
-version: 4.6.1+r3
-license: "UCAR-Unidata"
+version: 4.6.1+r4

@@ -1,23 +1,51 @@
+Labels: null
 category: dev-python
+conflicts: null
+id: 0
+license: MIT
 name: tempora
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-exec-2
+  requires: null
   version: '>=2'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: jaraco-functools
+  requires: null
   version: '>=1.20'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-3.6
+  requires: null
   version: '>=0'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: pytz
+  requires: null
   version: '>=0'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: setuptools
+  requires: null
   version: '>=0'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: six
+  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU
@@ -33,5 +61,4 @@ use_flags:
 - -doc
 - -python_targets_python3_8
 - split-usr
-version: 1.14.1+r3
-license: "MIT"
+version: 1.14.1+r4

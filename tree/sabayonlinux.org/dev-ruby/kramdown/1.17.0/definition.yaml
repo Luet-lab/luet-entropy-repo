@@ -1,32 +1,72 @@
+Labels: null
 category: dev-ruby
+conflicts: null
+id: 0
+license: MIT
 name: kramdown
 requires:
-- category: dev-ruby
+- Labels: null
+  category: dev-ruby
+  conflicts: null
+  id: 0
   name: prawn-table
+  requires: null
   version: '>=0.2'
-- category: dev-ruby
+- Labels: null
+  category: dev-ruby
+  conflicts: null
+  id: 0
   name: coderay
+  requires: null
   version: '>=1.0.0'
-- category: dev-ruby
+- Labels: null
+  category: dev-ruby
+  conflicts: null
+  id: 0
   name: itextomml
+  requires: null
   version: '>=1.5'
-- category: dev-ruby
+- Labels: null
+  category: dev-ruby
+  conflicts: null
+  id: 0
   name: prawn-table
+  requires: null
   version: '>=0.2.2'
-- category: dev-ruby
+- Labels: null
+  category: dev-ruby
+  conflicts: null
+  id: 0
   name: ritex
+  requires: null
   version: '>=1.0'
-- category: dev-ruby
+- Labels: null
+  category: dev-ruby
+  conflicts: null
+  id: 0
   name: rouge-2
+  requires: null
   version: '>=1.8'
-- category: dev-ruby
+- Labels: null
+  category: dev-ruby
+  conflicts: null
+  id: 0
   name: stringex
+  requires: null
   version: '>=1.5.1'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: ruby-2.5
+  requires: null
   version: '>=0'
-- category: dev-ruby
+- Labels: null
+  category: dev-ruby
+  conflicts: null
+  id: 0
   name: prawn-2
+  requires: null
   version: '>=0'
 use_flags:
 - -doc
@@ -42,5 +82,4 @@ use_flags:
 - -test
 - -ruby_targets_ruby26
 - abi_x86_64
-version: 1.17.0+2
-license: "MIT"
+version: 1.17.0+3

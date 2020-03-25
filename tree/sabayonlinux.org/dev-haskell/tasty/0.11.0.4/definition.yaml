@@ -1,50 +1,95 @@
-
-category: "dev-haskell"
-name: "tasty"
-version: "0.11.0.4"
-
-use_flags:
-- "elibc_glibc"
-- "-hscolour"
-- "userland_GNU"
-- "-doc"
-- "abi_x86_64"
-- "big-endian"
-- "-profile"
-- "kernel_linux"
-- "amd64"
+Labels: null
+category: dev-haskell
+conflicts: null
+id: 0
+license: MIT
+name: tasty
 requires:
-- category: "dev-haskell"
-  name: "ansi-terminal"
-  version: ">=0.6.2"
-- category: "dev-haskell"
-  name: "async"
-  version: ">=2.0"
-- category: "dev-haskell"
-  name: "cabal"
-  version: ">=1.10"
-- category: "dev-haskell"
-  name: "clock"
-  version: ">=0.4.4.0"
-- category: "dev-haskell"
-  name: "optparse-applicative"
-  version: ">=0.11"
-- category: "dev-haskell"
-  name: "regex-tdfa"
-  version: ">=1.1.8.2"
-- category: "dev-haskell"
-  name: "stm"
-  version: ">=2.3"
-- category: "dev-haskell"
-  name: "tagged"
-  version: ">=0.5"
-- category: "dev-haskell"
-  name: "unbounded-delays"
-  version: ">=0.1"
-- category: "dev-lang"
-  name: "ghc"
-  version: ">=7.4.1"
-- category: "dev-haskell"
-  name: "mtl"
-  version: ">=0"
-license: "MIT"
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: ansi-terminal
+  requires: null
+  version: '>=0.6.2'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: async
+  requires: null
+  version: '>=2.0'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: cabal
+  requires: null
+  version: '>=1.10'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: clock
+  requires: null
+  version: '>=0.4.4.0'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: optparse-applicative
+  requires: null
+  version: '>=0.11'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: regex-tdfa
+  requires: null
+  version: '>=1.1.8.2'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: stm
+  requires: null
+  version: '>=2.3'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: tagged
+  requires: null
+  version: '>=0.5'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: unbounded-delays
+  requires: null
+  version: '>=0.1'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: ghc
+  requires: null
+  version: '>=7.4.1'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: mtl
+  requires: null
+  version: '>=0'
+use_flags:
+- elibc_glibc
+- -hscolour
+- userland_GNU
+- -doc
+- abi_x86_64
+- big-endian
+- -profile
+- kernel_linux
+- amd64
+version: 0.11.0.4+1

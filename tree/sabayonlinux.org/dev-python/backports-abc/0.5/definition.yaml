@@ -1,14 +1,30 @@
+Labels: null
 category: dev-python
+conflicts: null
+id: 0
+license: PSF-2
 name: backports-abc
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-2.7
+  requires: null
   version: '>=2.7.5'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-exec-2
+  requires: null
   version: '>=2'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-3.6
+  requires: null
   version: '>=0'
 use_flags:
 - -python_targets_python3_5
@@ -23,5 +39,4 @@ use_flags:
 - elibc_glibc
 - big-endian
 - python_targets_python3_6
-version: 0.5+2
-license: "PSF-2"
+version: 0.5+3

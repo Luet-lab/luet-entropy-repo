@@ -1,8 +1,16 @@
+Labels: null
 category: media-libs
+conflicts: null
+id: 0
+license: GPL-2
 name: x264
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: nasm
+  requires: null
   version: '>=2.13'
 use_flags:
 - big-endian
@@ -28,5 +36,4 @@ use_flags:
 - -altivec
 - -abi_riscv_lp64d
 - -opencl
-version: 0.0.20190903+3
-license: "GPL-2"
+version: 0.0.20190903+4

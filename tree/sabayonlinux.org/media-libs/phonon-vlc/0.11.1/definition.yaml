@@ -1,44 +1,100 @@
+Labels: null
 category: media-libs
+conflicts: null
+id: 0
+license: LGPL-2.1 LGPL-2.1+ LGPL-3
 name: phonon-vlc
 requires:
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: cmake
+  requires: null
   version: '>=3.9.6'
-- category: kde-frameworks
+- Labels: null
+  category: kde-frameworks
+  conflicts: null
+  id: 0
   name: extra-cmake-modules-5
+  requires: null
   version: '>=5.64.0'
-- category: kde-frameworks
+- Labels: null
+  category: kde-frameworks
+  conflicts: null
+  id: 0
   name: kf-env-5
+  requires: null
   version: '>=4'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: phonon
+  requires: null
   version: '>=4.10.60'
-- category: dev-qt
+- Labels: null
+  category: dev-qt
+  conflicts: null
+  id: 0
   name: linguist-tools-5
+  requires: null
   version: '>=0'
-- category: dev-qt
+- Labels: null
+  category: dev-qt
+  conflicts: null
+  id: 0
   name: qtcore-5
+  requires: null
   version: '>=0'
-- category: dev-qt
+- Labels: null
+  category: dev-qt
+  conflicts: null
+  id: 0
   name: qtgui-5
+  requires: null
   version: '>=0'
-- category: dev-qt
+- Labels: null
+  category: dev-qt
+  conflicts: null
+  id: 0
   name: qtwidgets-5
+  requires: null
   version: '>=0'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: desktop-file-utils
+  requires: null
   version: '>=0'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: ninja
+  requires: null
   version: '>=0'
-- category: kde-frameworks
+- Labels: null
+  category: kde-frameworks
+  conflicts: null
+  id: 0
   name: oxygen-icons-5
+  requires: null
   version: '>=0'
-- category: media-video
+- Labels: null
+  category: media-video
+  conflicts: null
+  id: 0
   name: vlc
+  requires: null
   version: '>=0'
-- category: x11-misc
+- Labels: null
+  category: x11-misc
+  conflicts: null
+  id: 0
   name: shared-mime-info
+  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU
@@ -49,5 +105,4 @@ use_flags:
 - -debug
 - kernel_linux
 - split-usr
-version: 0.11.1+2
-license: "LGPL-2.1 LGPL-2.1+ LGPL-3"
+version: 0.11.1+3

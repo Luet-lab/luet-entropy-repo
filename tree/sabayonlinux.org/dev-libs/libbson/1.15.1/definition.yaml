@@ -1,14 +1,30 @@
+Labels: null
 category: dev-libs
+conflicts: null
+id: 0
+license: Apache-2.0
 name: libbson
 requires:
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: cmake
+  requires: null
   version: '>=3.9.6'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: sphinx
+  requires: null
   version: '>=0'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: ninja
+  requires: null
   version: '>=0'
 use_flags:
 - split-usr
@@ -20,5 +36,4 @@ use_flags:
 - elibc_glibc
 - abi_x86_64
 - -examples
-version: 1.15.1+2
-license: "Apache-2.0"
+version: 1.15.1+3

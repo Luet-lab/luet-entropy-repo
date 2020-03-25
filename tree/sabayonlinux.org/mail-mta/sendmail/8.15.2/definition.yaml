@@ -1,29 +1,65 @@
+Labels: null
 category: mail-mta
+conflicts: null
+id: 0
+license: GPL-2 Sendmail
 name: sendmail
 requires:
-- category: net-mail
+- Labels: null
+  category: net-mail
+  conflicts: null
+  id: 0
   name: mailbase
+  requires: null
   version: '>=0.00'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: db-6.0
+  requires: null
   version: '>=3.2'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: openssl
+  requires: null
   version: '>=0'
-- category: mail-filter
+- Labels: null
+  category: mail-filter
+  conflicts: null
+  id: 0
   name: procmail
+  requires: null
   version: '>=0'
-- category: net-mail
+- Labels: null
+  category: net-mail
+  conflicts: null
+  id: 0
   name: mailbase
+  requires: null
   version: '>=0'
-- category: net-nds
+- Labels: null
+  category: net-nds
+  conflicts: null
+  id: 0
   name: openldap
+  requires: null
   version: '>=0'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: tcp-wrappers
+  requires: null
   version: '>=0'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: m4
+  requires: null
   version: '>=0'
 use_flags:
 - tcpd
@@ -42,5 +78,4 @@ use_flags:
 - -sockets
 - -nis
 - -sasl
-version: 8.15.2+r4
-license: "GPL-2 Sendmail"
+version: 8.15.2+r5

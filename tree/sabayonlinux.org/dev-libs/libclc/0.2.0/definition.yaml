@@ -1,11 +1,23 @@
+Labels: null
 category: dev-libs
+conflicts: null
+id: 0
+license: Apache-2.0-with-LLVM-exceptions BSD MIT
 name: libclc
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-2.7
+  requires: null
   version: '>=2.7.5'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: clang-9
+  requires: null
   version: '>=0'
 use_flags:
 - split-usr
@@ -18,5 +30,4 @@ use_flags:
 - elibc_glibc
 - amd64
 - -video_cards_r600
-version: 0.2.0+pre20191024.2
-license: "Apache-2.0-with-LLVM-exceptions BSD MIT"
+version: 0.2.0+pre20191024.3

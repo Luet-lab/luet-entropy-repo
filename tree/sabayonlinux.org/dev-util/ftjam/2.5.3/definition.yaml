@@ -1,8 +1,16 @@
+Labels: null
 category: dev-util
+conflicts: null
+id: 0
+license: GPL-2 perforce
 name: ftjam
 requires:
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: bison
+  requires: null
   version: '>=0'
 use_flags:
 - amd64
@@ -11,5 +19,4 @@ use_flags:
 - elibc_glibc
 - big-endian
 - abi_x86_64
-version: 2.5.3+rc2r2.2
-license: "GPL-2 perforce"
+version: 2.5.3+rc2r2.3

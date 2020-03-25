@@ -1,56 +1,128 @@
+Labels: null
 category: dev-java
+conflicts: null
+id: 0
+license: CPL-1.0 LGPL-2.1 MPL-1.1
 name: swt-3.8
 requires:
-- category: dev-java
+- Labels: null
+  category: dev-java
+  conflicts: null
+  id: 0
   name: ant-core
+  requires: null
   version: '>=1.8.2'
-- category: dev-java
+- Labels: null
+  category: dev-java
+  conflicts: null
+  id: 0
   name: java-config-2
+  requires: null
   version: '>=2.2.0'
-- category: dev-java
+- Labels: null
+  category: dev-java
+  conflicts: null
+  id: 0
   name: javatoolkit
+  requires: null
   version: '>=0.3.0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: atk
+  requires: null
   version: '>=1.10.2'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: glib-2
+  requires: null
   version: '>=2.6'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: cairo
+  requires: null
   version: '>=1.4.14'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: gtk+-3
+  requires: null
   version: '>=2.6.8'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libXtst
+  requires: null
   version: '>=1.1.0'
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: unzip
+  requires: null
   version: '>=0'
-- category: gnome-base
+- Labels: null
+  category: gnome-base
+  conflicts: null
+  id: 0
   name: gnome-vfs-2
+  requires: null
   version: '>=0'
-- category: gnome-base
+- Labels: null
+  category: gnome-base
+  conflicts: null
+  id: 0
   name: libgnome
+  requires: null
   version: '>=0'
-- category: gnome-base
+- Labels: null
+  category: gnome-base
+  conflicts: null
+  id: 0
   name: libgnomeui
+  requires: null
   version: '>=0'
-- category: x11-base
+- Labels: null
+  category: x11-base
+  conflicts: null
+  id: 0
   name: xorg-proto
+  requires: null
   version: '>=0'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libX11
+  requires: null
   version: '>=0'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libXrender
+  requires: null
   version: '>=0'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libXt
+  requires: null
   version: '>=0'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libXtst
+  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc
@@ -63,5 +135,4 @@ use_flags:
 - big-endian
 - gnome
 - userland_GNU
-version: 3.8.2+r4
-license: "CPL-1.0 LGPL-2.1 MPL-1.1"
+version: 3.8.2+r5

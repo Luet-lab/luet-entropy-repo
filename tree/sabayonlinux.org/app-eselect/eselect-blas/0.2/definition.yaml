@@ -1,8 +1,16 @@
+Labels: null
 category: app-eselect
+conflicts: null
+id: 0
+license: GPL-2
 name: eselect-blas
 requires:
-- category: app-admin
+- Labels: null
+  category: app-admin
+  conflicts: null
+  id: 0
   name: eselect
+  requires: null
   version: '>=1.0.5'
 use_flags:
 - userland_GNU
@@ -12,5 +20,4 @@ use_flags:
 - amd64
 - split-usr
 - kernel_linux
-version: 0.2+2
-license: "GPL-2"
+version: 0.2+3

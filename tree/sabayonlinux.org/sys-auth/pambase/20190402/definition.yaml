@@ -1,20 +1,44 @@
+Labels: null
 category: sys-auth
+conflicts: null
+id: 0
+license: GPL-2
 name: pambase
 requires:
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: pam
+  requires: null
   version: '>=1.1.3'
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: xz-utils
+  requires: null
   version: '>=0'
-- category: app-portage
+- Labels: null
+  category: app-portage
+  conflicts: null
+  id: 0
   name: portage-utils
+  requires: null
   version: '>=0'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: systemd
+  requires: null
   version: '>=0'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: pam
+  requires: null
   version: '>=0'
 use_flags:
 - -selinux
@@ -38,5 +62,4 @@ use_flags:
 - sha512
 - -minimal
 - -elogind
-version: 20190402+2
-license: "GPL-2"
+version: 20190402+3

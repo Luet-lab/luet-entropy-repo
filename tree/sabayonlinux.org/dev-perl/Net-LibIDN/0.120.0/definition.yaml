@@ -1,11 +1,23 @@
+Labels: null
 category: dev-perl
+conflicts: null
+id: 0
+license: Artistic GPL-1+
 name: Net-LibIDN
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: perl
+  requires: null
   version: '>=0'
-- category: net-dns
+- Labels: null
+  category: net-dns
+  conflicts: null
+  id: 0
   name: libidn
+  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU
@@ -15,5 +27,4 @@ use_flags:
 - kernel_linux
 - elibc_glibc
 - abi_x86_64
-version: 0.120.0+r4
-license: "Artistic GPL-1+"
+version: 0.120.0+r5

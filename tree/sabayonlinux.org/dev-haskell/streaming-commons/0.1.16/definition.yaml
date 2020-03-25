@@ -1,48 +1,89 @@
-
-category: "dev-haskell"
-name: "streaming-commons"
-version: "0.1.16"
-
-use_flags:
-- "elibc_glibc"
-- "abi_x86_64"
-- "-doc"
-- "big-endian"
-- "-profile"
-- "kernel_linux"
-- "amd64"
-- "-test"
-- "-hscolour"
-- "userland_GNU"
+Labels: null
+category: dev-haskell
+conflicts: null
+id: 0
+license: MIT
+name: streaming-commons
 requires:
-- category: "dev-haskell"
-  name: "blaze-builder"
-  version: "<0.5"
-- category: "dev-haskell"
-  name: "blaze-builder"
-  version: ">=0.3"
-- category: "dev-haskell"
-  name: "cabal"
-  version: ">=1.18.1.3"
-- category: "dev-haskell"
-  name: "network"
-  version: ">=2.4.0.0"
-- category: "dev-lang"
-  name: "ghc"
-  version: ">=7.8.2"
-- category: "dev-haskell"
-  name: "async"
-  version: ">=0"
-- category: "dev-haskell"
-  name: "random"
-  version: ">=0"
-- category: "dev-haskell"
-  name: "stm"
-  version: ">=0"
-- category: "dev-haskell"
-  name: "text"
-  version: ">=0"
-- category: "dev-haskell"
-  name: "zlib"
-  version: ">=0"
-license: "MIT"
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: blaze-builder
+  requires: null
+  version: <0.5
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: blaze-builder
+  requires: null
+  version: '>=0.3'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: cabal
+  requires: null
+  version: '>=1.18.1.3'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: network
+  requires: null
+  version: '>=2.4.0.0'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: ghc
+  requires: null
+  version: '>=7.8.2'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: async
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: random
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: stm
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: text
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: zlib
+  requires: null
+  version: '>=0'
+use_flags:
+- elibc_glibc
+- abi_x86_64
+- -doc
+- big-endian
+- -profile
+- kernel_linux
+- amd64
+- -test
+- -hscolour
+- userland_GNU
+version: 0.1.16+1

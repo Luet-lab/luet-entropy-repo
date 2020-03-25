@@ -1,32 +1,72 @@
+Labels: null
 category: dev-libs
+conflicts: null
+id: 0
+license: BSD-with-attribution
 name: cyrus-sasl-2
 requires:
-- category: app-portage
+- Labels: null
+  category: app-portage
+  conflicts: null
+  id: 0
   name: elt-patches
+  requires: null
   version: '>=20170815'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: openssl
+  requires: null
   version: '>=1.0.1h'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: autoconf-2.69
+  requires: null
   version: '>=2.69'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: automake-1.15
+  requires: null
   version: '>=1.15.1'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: libtool-2
+  requires: null
   version: '>=2.4'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: db-6.0
+  requires: null
   version: '>=4.8.30'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: gdbm
+  requires: null
   version: '>=1.10'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: pam
+  requires: null
   version: '>=0'
-- category: net-mail
+- Labels: null
+  category: net-mail
+  conflicts: null
+  id: 0
   name: mailbase
+  requires: null
   version: '>=0'
 use_flags:
 - -java
@@ -64,5 +104,4 @@ use_flags:
 - -authdaemond
 - -urandom
 - -srp
-version: 2.1.27+r6
-license: "BSD-with-attribution"
+version: 2.1.27+r7

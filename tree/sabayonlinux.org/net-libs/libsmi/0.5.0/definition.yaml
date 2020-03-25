@@ -1,5 +1,10 @@
+Labels: null
 category: net-libs
+conflicts: null
+id: 0
+license: BSD
 name: libsmi
+requires: null
 use_flags:
 - kernel_linux
 - abi_x86_64
@@ -7,5 +12,4 @@ use_flags:
 - userland_GNU
 - elibc_glibc
 - amd64
-version: 0.5.0+2
-license: "BSD"
+version: 0.5.0+3

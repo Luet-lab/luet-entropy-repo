@@ -1,13 +1,15 @@
-
-category: "app-misc"
-name: "sabayon-skel"
-version: "17+r8"
-
+Labels: null
+category: app-misc
+conflicts: null
+id: 0
+license: GPL-2
+name: sabayon-skel
+requires: null
 use_flags:
-- "abi_x86_64"
-- "amd64"
-- "userland_GNU"
-- "elibc_glibc"
-- "kernel_linux"
-- "big-endian"
-license: "GPL-2"
+- abi_x86_64
+- amd64
+- userland_GNU
+- elibc_glibc
+- kernel_linux
+- big-endian
+version: 17+r9

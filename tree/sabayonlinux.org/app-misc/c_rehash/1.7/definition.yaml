@@ -1,5 +1,10 @@
+Labels: null
 category: app-misc
+conflicts: null
+id: 0
+license: openssl
 name: c_rehash
+requires: null
 use_flags:
 - kernel_linux
 - abi_x86_64
@@ -7,5 +12,4 @@ use_flags:
 - big-endian
 - elibc_glibc
 - userland_GNU
-version: 1.7+r3
-license: "openssl"
+version: 1.7+r4

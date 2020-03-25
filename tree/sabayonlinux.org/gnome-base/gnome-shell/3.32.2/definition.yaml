@@ -1,185 +1,429 @@
+Labels: null
 category: gnome-base
+conflicts: null
+id: 0
+license: GPL-2+ LGPL-2+
 name: gnome-shell
 requires:
-- category: app-accessibility
+- Labels: null
+  category: app-accessibility
+  conflicts: null
+  id: 0
   name: at-spi2-atk-2
+  requires: null
   version: '>=2.5.3'
-- category: app-crypt
+- Labels: null
+  category: app-crypt
+  conflicts: null
+  id: 0
   name: gcr
+  requires: null
   version: '>=3.7.5'
-- category: app-crypt
+- Labels: null
+  category: app-crypt
+  conflicts: null
+  id: 0
   name: libsecret
+  requires: null
   version: '>=0.18'
-- category: app-i18n
+- Labels: null
+  category: app-i18n
+  conflicts: null
+  id: 0
   name: ibus
+  requires: null
   version: '>=1.4.99'
-- category: app-i18n
+- Labels: null
+  category: app-i18n
+  conflicts: null
+  id: 0
   name: ibus
+  requires: null
   version: '>=1.5.2'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-exec-2
+  requires: null
   version: '>=2'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: atk
+  requires: null
   version: '>=2'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: gjs
+  requires: null
   version: '>=1.54.0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: glib-2
+  requires: null
   version: '>=2.57.2'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: gobject-introspection
+  requires: null
   version: '>=1.49.1'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: libcroco-0.6
+  requires: null
   version: '>=0.6.8'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: libgweather-2
+  requires: null
   version: '>=3.26'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: gdbus-codegen
+  requires: null
   version: '>=2.45.3'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: meson
+  requires: null
   version: '>=0.51.2'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: ninja
+  requires: null
   version: '>=1.8.2'
-- category: gnome-base
+- Labels: null
+  category: gnome-base
+  conflicts: null
+  id: 0
   name: gdm
+  requires: null
   version: '>=3.5'
-- category: gnome-base
+- Labels: null
+  category: gnome-base
+  conflicts: null
+  id: 0
   name: gnome-control-center-2
+  requires: null
   version: '>=3.26'
-- category: gnome-base
+- Labels: null
+  category: gnome-base
+  conflicts: null
+  id: 0
   name: gnome-desktop-3
+  requires: null
   version: '>=3.7.90'
-- category: gnome-base
+- Labels: null
+  category: gnome-base
+  conflicts: null
+  id: 0
   name: gnome-session
+  requires: null
   version: '>=2.91.91'
-- category: gnome-base
+- Labels: null
+  category: gnome-base
+  conflicts: null
+  id: 0
   name: gnome-settings-daemon
+  requires: null
   version: '>=3.8.3'
-- category: gnome-base
+- Labels: null
+  category: gnome-base
+  conflicts: null
+  id: 0
   name: gsettings-desktop-schemas
+  requires: null
   version: '>=3.27.90'
-- category: gnome-extra
+- Labels: null
+  category: gnome-extra
+  conflicts: null
+  id: 0
   name: evolution-data-server
+  requires: null
   version: '>=3.17.2'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: gstreamer-1.0
+  requires: null
   version: '>=0.11.92'
-- category: media-sound
+- Labels: null
+  category: media-sound
+  conflicts: null
+  id: 0
   name: pulseaudio
+  requires: null
   version: '>=2'
-- category: net-misc
+- Labels: null
+  category: net-misc
+  conflicts: null
+  id: 0
   name: networkmanager
+  requires: null
   version: '>=1.10.4'
-- category: net-wireless
+- Labels: null
+  category: net-wireless
+  conflicts: null
+  id: 0
   name: gnome-bluetooth-2
+  requires: null
   version: '>=3.9'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: accountsservice
+  requires: null
   version: '>=0.6.14'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: systemd
+  requires: null
   version: '>=31'
-- category: sys-auth
+- Labels: null
+  category: sys-auth
+  conflicts: null
+  id: 0
   name: polkit
+  requires: null
   version: '>=0.100'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: gettext
+  requires: null
   version: '>=0.19.8'
-- category: sys-power
+- Labels: null
+  category: sys-power
+  conflicts: null
+  id: 0
   name: upower
+  requires: null
   version: '>=0.99'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: gtk+-3
+  requires: null
   version: '>=3.15.0'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libXfixes
+  requires: null
   version: '>=5.0'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: startup-notification
+  requires: null
   version: '>=0.11'
-- category: x11-themes
+- Labels: null
+  category: x11-themes
+  conflicts: null
+  id: 0
   name: adwaita-icon-theme
+  requires: null
   version: '>=3.26'
-- category: x11-wm
+- Labels: null
+  category: x11-wm
+  conflicts: null
+  id: 0
   name: mutter
+  requires: null
   version: '>=3.32.0'
-- category: app-accessibility
+- Labels: null
+  category: app-accessibility
+  conflicts: null
+  id: 0
   name: at-spi2-core-2
+  requires: null
   version: '>=0'
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: xz-utils
+  requires: null
   version: '>=0'
-- category: app-misc
+- Labels: null
+  category: app-misc
+  conflicts: null
+  id: 0
   name: geoclue-2.0
+  requires: null
   version: '>=0'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-3.6
+  requires: null
   version: '>=0'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: sassc
+  requires: null
   version: '>=0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: dbus-glib
+  requires: null
   version: '>=0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: libical
+  requires: null
   version: '>=0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: libxml2-2
+  requires: null
   version: '>=0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: libxslt
+  requires: null
   version: '>=0'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: pygobject-base-3
+  requires: null
   version: '>=0'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: desktop-file-utils
+  requires: null
   version: '>=0'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: glib-utils
+  requires: null
   version: '>=0'
-- category: gnome-base
+- Labels: null
+  category: gnome-base
+  conflicts: null
+  id: 0
   name: librsvg-2
+  requires: null
   version: '>=0'
-- category: gnome-extra
+- Labels: null
+  category: gnome-extra
+  conflicts: null
+  id: 0
   name: chrome-gnome-shell
+  requires: null
   version: '>=0'
-- category: media-fonts
+- Labels: null
+  category: media-fonts
+  conflicts: null
+  id: 0
   name: cantarell
+  requires: null
   version: '>=0'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: gst-plugins-base-1.0
+  requires: null
   version: '>=0'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: mesa
+  requires: null
   version: '>=0'
-- category: net-misc
+- Labels: null
+  category: net-misc
+  conflicts: null
+  id: 0
   name: mobile-broadband-provider-info
+  requires: null
   version: '>=0'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: timezone-data
+  requires: null
   version: '>=0'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: gdk-pixbuf-2
+  requires: null
   version: '>=0'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libX11
+  requires: null
   version: '>=0'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: pango
+  requires: null
   version: '>=0'
-- category: x11-misc
+- Labels: null
+  category: x11-misc
+  conflicts: null
+  id: 0
   name: shared-mime-info
+  requires: null
   version: '>=0'
-- category: x11-misc
+- Labels: null
+  category: x11-misc
+  conflicts: null
+  id: 0
   name: xdg-utils
+  requires: null
   version: '>=0'
 use_flags:
 - -gtk-doc
@@ -202,5 +446,4 @@ use_flags:
 - -python_targets_python3_7
 - browser-extension
 - -test
-version: 3.32.2+r4
-license: "GPL-2+ LGPL-2+"
+version: 3.32.2+r5

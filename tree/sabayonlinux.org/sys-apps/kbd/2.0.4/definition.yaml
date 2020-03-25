@@ -1,11 +1,23 @@
+Labels: null
 category: sys-apps
+conflicts: null
+id: 0
+license: GPL-2
 name: kbd
 requires:
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: gzip
+  requires: null
   version: '>=0'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: pam
+  requires: null
   version: '>=0'
 use_flags:
 - nls
@@ -18,5 +30,4 @@ use_flags:
 - abi_x86_64
 - pam
 - userland_GNU
-version: 2.0.4+2
-license: "GPL-2"
+version: 2.0.4+3

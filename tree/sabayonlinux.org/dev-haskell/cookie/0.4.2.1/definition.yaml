@@ -1,36 +1,61 @@
-
-category: "dev-haskell"
-name: "cookie"
-version: "0.4.2.1"
-
-use_flags:
-- "elibc_glibc"
-- "abi_x86_64"
-- "-doc"
-- "big-endian"
-- "-profile"
-- "kernel_linux"
-- "amd64"
-- "-test"
-- "-hscolour"
-- "userland_GNU"
+Labels: null
+category: dev-haskell
+conflicts: null
+id: 0
+license: MIT
+name: cookie
 requires:
-- category: "dev-haskell"
-  name: "blaze-builder"
-  version: ">=0.2.1"
-- category: "dev-haskell"
-  name: "cabal"
-  version: ">=1.8"
-- category: "dev-haskell"
-  name: "old-locale"
-  version: ">=1"
-- category: "dev-haskell"
-  name: "text"
-  version: ">=0.7"
-- category: "dev-lang"
-  name: "ghc"
-  version: ">=7.4.1"
-- category: "dev-haskell"
-  name: "data-default-class"
-  version: ">=0"
-license: "MIT"
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: blaze-builder
+  requires: null
+  version: '>=0.2.1'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: cabal
+  requires: null
+  version: '>=1.8'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: old-locale
+  requires: null
+  version: '>=1'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: text
+  requires: null
+  version: '>=0.7'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: ghc
+  requires: null
+  version: '>=7.4.1'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: data-default-class
+  requires: null
+  version: '>=0'
+use_flags:
+- elibc_glibc
+- abi_x86_64
+- -doc
+- big-endian
+- -profile
+- kernel_linux
+- amd64
+- -test
+- -hscolour
+- userland_GNU
+version: 0.4.2.1+1

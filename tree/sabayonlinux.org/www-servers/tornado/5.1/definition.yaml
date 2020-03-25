@@ -1,26 +1,58 @@
+Labels: null
 category: www-servers
+conflicts: null
+id: 0
+license: Apache-2.0
 name: tornado
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-2.7
+  requires: null
   version: '>=2.7.5'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-exec-2
+  requires: null
   version: '>=2'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: pycurl
+  requires: null
   version: '>=7.19.3.1'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: twisted-core
+  requires: null
   version: '>=16.0.0'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-3.6
+  requires: null
   version: '>=0'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: futures
+  requires: null
   version: '>=0'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: setuptools
+  requires: null
   version: '>=0'
 use_flags:
 - -python_targets_python3_7
@@ -37,5 +69,4 @@ use_flags:
 - elibc_glibc
 - big-endian
 - python_targets_python3_6
-version: 5.1+3
-license: "Apache-2.0"
+version: 5.1+4

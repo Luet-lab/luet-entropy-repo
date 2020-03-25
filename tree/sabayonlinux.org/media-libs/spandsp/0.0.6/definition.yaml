@@ -1,8 +1,16 @@
+Labels: null
 category: media-libs
+conflicts: null
+id: 0
+license: LGPL-2.1
 name: spandsp
 requires:
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: tiff
+  requires: null
   version: '>=0'
 use_flags:
 - amd64
@@ -20,5 +28,4 @@ use_flags:
 - kernel_linux
 - abi_x86_64
 - -static-libs
-version: 0.0.6+2
-license: "LGPL-2.1"
+version: 0.0.6+3

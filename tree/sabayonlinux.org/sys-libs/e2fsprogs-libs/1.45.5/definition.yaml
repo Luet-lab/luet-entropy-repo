@@ -1,5 +1,10 @@
+Labels: null
 category: sys-libs
+conflicts: null
+id: 0
+license: GPL-2
 name: e2fsprogs-libs
+requires: null
 use_flags:
 - static-libs
 - big-endian
@@ -18,5 +23,4 @@ use_flags:
 - split-usr
 - -abi_riscv_lp64
 - userland_GNU
-version: 1.45.5+3
-license: "GPL-2"
+version: 1.45.5+4

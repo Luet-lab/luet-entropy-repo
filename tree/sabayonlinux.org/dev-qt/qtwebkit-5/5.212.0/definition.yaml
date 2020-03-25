@@ -1,89 +1,205 @@
+Labels: null
 category: dev-qt
+conflicts: null
+id: 0
+license: BSD LGPL-2+
 name: qtwebkit-5
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-2.7
+  requires: null
   version: '>=2.7.5'
-- category: dev-qt
+- Labels: null
+  category: dev-qt
+  conflicts: null
+  id: 0
   name: qtcore-5
+  requires: null
   version: '>=5.9.1'
-- category: dev-qt
+- Labels: null
+  category: dev-qt
+  conflicts: null
+  id: 0
   name: qtgui-5
+  requires: null
   version: '>=5.9.1'
-- category: dev-qt
+- Labels: null
+  category: dev-qt
+  conflicts: null
+  id: 0
   name: qtnetwork-5
+  requires: null
   version: '>=5.9.1'
-- category: dev-qt
+- Labels: null
+  category: dev-qt
+  conflicts: null
+  id: 0
   name: qtopengl-5
+  requires: null
   version: '>=5.9.1'
-- category: dev-qt
+- Labels: null
+  category: dev-qt
+  conflicts: null
+  id: 0
   name: qtprintsupport-5
+  requires: null
   version: '>=5.9.1'
-- category: dev-qt
+- Labels: null
+  category: dev-qt
+  conflicts: null
+  id: 0
   name: qtwidgets-5
+  requires: null
   version: '>=5.9.1'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: cmake
+  requires: null
   version: '>=3.9.6'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: bison
+  requires: null
   version: '>=2.4.3'
-- category: dev-db
+- Labels: null
+  category: dev-db
+  conflicts: null
+  id: 0
   name: sqlite-3
+  requires: null
   version: '>=0'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: perl
+  requires: null
   version: '>=0'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: ruby-2.5
+  requires: null
   version: '>=0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: glib-2
+  requires: null
   version: '>=0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: hyphen
+  requires: null
   version: '>=0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: icu
+  requires: null
   version: '>=0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: libxml2-2
+  requires: null
   version: '>=0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: libxslt
+  requires: null
   version: '>=0'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: gperf
+  requires: null
   version: '>=0'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: ninja
+  requires: null
   version: '>=0'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: gst-plugins-bad-1.0
+  requires: null
   version: '>=0'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: gst-plugins-base-1.0
+  requires: null
   version: '>=0'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: gstreamer-1.0
+  requires: null
   version: '>=0'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: libpng
+  requires: null
   version: '>=0'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: woff2
+  requires: null
   version: '>=0'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: flex
+  requires: null
   version: '>=0'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libX11
+  requires: null
   version: '>=0'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libXcomposite
+  requires: null
   version: '>=0'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libXrender
+  requires: null
   version: '>=0'
 use_flags:
 - hyphen
@@ -106,5 +222,4 @@ use_flags:
 - -gles2
 - elibc_glibc
 - split-usr
-version: 5.212.0+pre20190629.2
-license: "BSD LGPL-2+"
+version: 5.212.0+pre20190629.3

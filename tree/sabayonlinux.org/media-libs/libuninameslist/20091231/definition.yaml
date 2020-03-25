@@ -1,5 +1,10 @@
+Labels: null
 category: media-libs
+conflicts: null
+id: 0
+license: BSD
 name: libuninameslist
+requires: null
 use_flags:
 - elibc_glibc
 - amd64
@@ -7,5 +12,4 @@ use_flags:
 - big-endian
 - kernel_linux
 - abi_x86_64
-version: 20091231+r3
-license: "BSD"
+version: 20091231+r4

@@ -1,8 +1,16 @@
+Labels: null
 category: dev-ruby
+conflicts: null
+id: 0
+license: MIT
 name: stringex
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: ruby-2.5
+  requires: null
   version: '>=0'
 use_flags:
 - -doc
@@ -17,5 +25,4 @@ use_flags:
 - -test
 - -ruby_targets_ruby26
 - abi_x86_64
-version: 2.8.5+2
-license: "MIT"
+version: 2.8.5+3

@@ -1,5 +1,10 @@
+Labels: null
 category: app-emacs
+conflicts: null
+id: 0
+license: GPL-2+
 name: ocaml-mode
+requires: null
 use_flags:
 - userland_GNU
 - elibc_glibc
@@ -7,5 +12,4 @@ use_flags:
 - kernel_linux
 - amd64
 - multilib
-version: 4.00.1+2
-license: "GPL-2+"
+version: 4.00.1+3

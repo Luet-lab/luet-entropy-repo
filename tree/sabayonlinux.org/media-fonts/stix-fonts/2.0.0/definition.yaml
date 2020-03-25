@@ -1,14 +1,30 @@
+Labels: null
 category: media-fonts
+conflicts: null
+id: 0
+license: OFL-1.1
 name: stix-fonts
 requires:
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: unzip
+  requires: null
   version: '>=0'
-- category: media-fonts
+- Labels: null
+  category: media-fonts
+  conflicts: null
+  id: 0
   name: encodings
+  requires: null
   version: '>=0'
-- category: x11-apps
+- Labels: null
+  category: x11-apps
+  conflicts: null
+  id: 0
   name: mkfontdir
+  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU
@@ -17,5 +33,4 @@ use_flags:
 - elibc_glibc
 - amd64
 - abi_x86_64
-version: 2.0.0+2
-license: "OFL-1.1"
+version: 2.0.0+3

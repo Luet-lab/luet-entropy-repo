@@ -1,38 +1,86 @@
+Labels: null
 category: dev-libs
+conflicts: null
+id: 0
+license: Apache-2.0
 name: apr-util-1
 requires:
-- category: net-nds
+- Labels: null
+  category: net-nds
+  conflicts: null
+  id: 0
   name: openldap
+  requires: null
   version: '>=2'
-- category: app-portage
+- Labels: null
+  category: app-portage
+  conflicts: null
+  id: 0
   name: elt-patches
+  requires: null
   version: '>=20170815'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: apr-1
+  requires: null
   version: '>=1.6.2'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: autoconf-2.69
+  requires: null
   version: '>=2.69'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: automake-1.15
+  requires: null
   version: '>=1.15.1'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: libtool-2
+  requires: null
   version: '>=2.4'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: libtool-2
+  requires: null
   version: '>=2.4.2'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: db-6.0
+  requires: null
   version: '>=4'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: expat
+  requires: null
   version: '>=0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: openssl
+  requires: null
   version: '>=0'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: gdbm
+  requires: null
   version: '>=0'
 use_flags:
 - gdbm
@@ -54,5 +102,4 @@ use_flags:
 - -nss
 - userland_GNU
 - amd64
-version: 1.6.1+r5
-license: "Apache-2.0"
+version: 1.6.1+r6

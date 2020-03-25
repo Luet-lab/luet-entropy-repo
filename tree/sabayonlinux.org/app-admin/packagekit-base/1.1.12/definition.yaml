@@ -1,80 +1,184 @@
+Labels: null
 category: app-admin
+conflicts: null
+id: 0
+license: GPL-2
 name: packagekit-base
 requires:
-- category: app-portage
+- Labels: null
+  category: app-portage
+  conflicts: null
+  id: 0
   name: elt-patches
+  requires: null
   version: '>=20170815'
-- category: app-portage
+- Labels: null
+  category: app-portage
+  conflicts: null
+  id: 0
   name: layman
+  requires: null
   version: '>=2'
-- category: app-shells
+- Labels: null
+  category: app-shells
+  conflicts: null
+  id: 0
   name: bash-completion
+  requires: null
   version: '>=2'
-- category: dev-cpp
+- Labels: null
+  category: dev-cpp
+  conflicts: null
+  id: 0
   name: glibmm-2
+  requires: null
   version: '>=2.4'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-2.7
+  requires: null
   version: '>=2.7.5'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-exec-2
+  requires: null
   version: '>=2'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: dbus-glib
+  requires: null
   version: '>=0.74'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: glib-2
+  requires: null
   version: '>=2.54.0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: gobject-introspection
+  requires: null
   version: '>=0.9.9'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: gtk-doc-am
+  requires: null
   version: '>=1.11'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: intltool
+  requires: null
   version: '>=0.35.0'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: dbus
+  requires: null
   version: '>=1.3.0'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: entropy
+  requires: null
   version: '>=234'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: systemd
+  requires: null
   version: '>=213'
-- category: sys-auth
+- Labels: null
+  category: sys-auth
+  conflicts: null
+  id: 0
   name: polkit
+  requires: null
   version: '>=0.114'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: autoconf-2.69
+  requires: null
   version: '>=2.69'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: automake-1.15
+  requires: null
   version: '>=1.15.1'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: libtool-2
+  requires: null
   version: '>=2.4'
-- category: app-text
+- Labels: null
+  category: app-text
+  conflicts: null
+  id: 0
   name: docbook-xsl-stylesheets
+  requires: null
   version: '>=0'
-- category: dev-db
+- Labels: null
+  category: dev-db
+  conflicts: null
+  id: 0
   name: sqlite-3
+  requires: null
   version: '>=0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: libxml2-2
+  requires: null
   version: '>=0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: libxslt
+  requires: null
   version: '>=0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: vala-common
+  requires: null
   version: '>=0'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: desktop-file-utils
+  requires: null
   version: '>=0'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: glib-utils
+  requires: null
   version: '>=0'
 use_flags:
 - -command-not-found
@@ -92,5 +196,4 @@ use_flags:
 - -vala
 - introspection
 - entropy
-version: 1.1.12+2
-license: "GPL-2"
+version: 1.1.12+3

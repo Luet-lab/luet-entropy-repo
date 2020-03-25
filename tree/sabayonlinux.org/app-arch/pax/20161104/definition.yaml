@@ -1,20 +1,29 @@
-
-category: "app-arch"
-name: "pax"
-version: "20161104"
-
-use_flags:
-- "abi_x86_64"
-- "amd64"
-- "userland_GNU"
-- "elibc_glibc"
-- "kernel_linux"
-- "big-endian"
+Labels: null
+category: app-arch
+conflicts: null
+id: 0
+license: BSD
+name: pax
 requires:
-- category: "app-arch"
-  name: "cpio"
-  version: ">=0"
-- category: "dev-libs"
-  name: "libbsd"
-  version: ">=0"
-license: "BSD"
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
+  name: cpio
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
+  name: libbsd
+  requires: null
+  version: '>=0'
+use_flags:
+- abi_x86_64
+- amd64
+- userland_GNU
+- elibc_glibc
+- kernel_linux
+- big-endian
+version: 20161104+1

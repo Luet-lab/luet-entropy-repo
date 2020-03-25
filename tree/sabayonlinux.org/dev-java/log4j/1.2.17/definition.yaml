@@ -1,14 +1,30 @@
+Labels: null
 category: dev-java
+conflicts: null
+id: 0
+license: Apache-2.0
 name: log4j
 requires:
-- category: dev-java
+- Labels: null
+  category: dev-java
+  conflicts: null
+  id: 0
   name: ant-core
+  requires: null
   version: '>=1.8.2'
-- category: dev-java
+- Labels: null
+  category: dev-java
+  conflicts: null
+  id: 0
   name: java-config-2
+  requires: null
   version: '>=2.2.0'
-- category: dev-java
+- Labels: null
+  category: dev-java
+  conflicts: null
+  id: 0
   name: javatoolkit
+  requires: null
   version: '>=0.3.0'
 use_flags:
 - abi_x86_64
@@ -21,5 +37,4 @@ use_flags:
 - -elibc_FreeBSD
 - userland_GNU
 - -jms
-version: 1.2.17+r5
-license: "Apache-2.0"
+version: 1.2.17+r6

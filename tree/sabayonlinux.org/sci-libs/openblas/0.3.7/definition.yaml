@@ -1,11 +1,23 @@
+Labels: null
 category: sci-libs
+conflicts: null
+id: 0
+license: BSD
 name: openblas
 requires:
-- category: app-eselect
+- Labels: null
+  category: app-eselect
+  conflicts: null
+  id: 0
   name: eselect-blas
+  requires: null
   version: '>=0.2'
-- category: app-eselect
+- Labels: null
+  category: app-eselect
+  conflicts: null
+  id: 0
   name: eselect-lapack
+  requires: null
   version: '>=0.2'
 use_flags:
 - split-usr
@@ -20,5 +32,4 @@ use_flags:
 - openmp
 - kernel_linux
 - amd64
-version: 0.3.7+2
-license: "BSD"
+version: 0.3.7+3

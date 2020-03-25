@@ -1,24 +1,33 @@
-
-category: "dev-haskell"
-name: "silently"
-version: "1.2.5"
-
-use_flags:
-- "-test"
-- "userland_GNU"
-- "elibc_glibc"
-- "-profile"
-- "-doc"
-- "big-endian"
-- "-hscolour"
-- "amd64"
-- "abi_x86_64"
-- "kernel_linux"
+Labels: null
+category: dev-haskell
+conflicts: null
+id: 0
+license: BSD
+name: silently
 requires:
-- category: "dev-haskell"
-  name: "cabal"
-  version: ">=1.8"
-- category: "dev-lang"
-  name: "ghc"
-  version: ">=7.4.1"
-license: "BSD"
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: cabal
+  requires: null
+  version: '>=1.8'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: ghc
+  requires: null
+  version: '>=7.4.1'
+use_flags:
+- -test
+- userland_GNU
+- elibc_glibc
+- -profile
+- -doc
+- big-endian
+- -hscolour
+- amd64
+- abi_x86_64
+- kernel_linux
+version: 1.2.5+1

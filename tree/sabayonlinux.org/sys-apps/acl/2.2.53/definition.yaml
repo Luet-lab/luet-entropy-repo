@@ -1,14 +1,30 @@
+Labels: null
 category: sys-apps
+conflicts: null
+id: 0
+license: LGPL-2.1
 name: acl
 requires:
-- category: app-portage
+- Labels: null
+  category: app-portage
+  conflicts: null
+  id: 0
   name: elt-patches
+  requires: null
   version: '>=20170815'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: attr
+  requires: null
   version: '>=2.4.47'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: gettext
+  requires: null
   version: '>=0'
 use_flags:
 - nls
@@ -29,5 +45,4 @@ use_flags:
 - split-usr
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
-version: 2.2.53+3
-license: "LGPL-2.1"
+version: 2.2.53+4

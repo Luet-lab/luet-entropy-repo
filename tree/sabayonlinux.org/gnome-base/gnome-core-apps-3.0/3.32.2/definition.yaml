@@ -1,77 +1,158 @@
-
-category: "gnome-base"
-name: "gnome-core-apps-3.0"
-version: "3.32.2"
-
-use_flags:
-- "abi_x86_64"
-- "amd64"
-- "split-usr"
-- "big-endian"
-- "userland_GNU"
-- "elibc_glibc"
-- "bluetooth"
-- "cups"
-- "kernel_linux"
+Labels: null
+category: gnome-base
+conflicts: null
+id: 0
+license: metapackage
+name: gnome-core-apps-3.0
 requires:
-- category: "app-crypt"
-  name: "gcr"
-  version: ">=3.28.1"
-- category: "app-crypt"
-  name: "seahorse"
-  version: ">=3.32.2"
-- category: "app-editors"
-  name: "gedit"
-  version: ">=3.32.0"
-- category: "app-text"
-  name: "evince"
-  version: ">=3.32.0"
-- category: "gnome-base"
-  name: "gnome-control-center-2"
-  version: ">=3.32.1"
-- category: "gnome-base"
-  name: "gnome-core-libs-3.0"
-  version: ">=3.32.2"
-- category: "gnome-base"
-  name: "gnome-keyring"
-  version: ">=3.31.91"
-- category: "gnome-base"
-  name: "gnome-session"
-  version: ">=3.32.0"
-- category: "gnome-base"
-  name: "gnome-settings-daemon"
-  version: ">=3.32.0"
-- category: "gnome-base"
-  name: "nautilus"
-  version: ">=3.32.1"
-- category: "gnome-extra"
-  name: "evolution-data-server"
-  version: ">=3.32.2"
-- category: "gnome-extra"
-  name: "gnome-color-manager"
-  version: ">=3.32.0"
-- category: "gnome-extra"
-  name: "gnome-contacts"
-  version: ">=3.32.1"
-- category: "gnome-extra"
-  name: "gnome-user-docs"
-  version: ">=3.32.2"
-- category: "gnome-extra"
-  name: "yelp"
-  version: ">=3.32.2"
-- category: "media-gfx"
-  name: "eog-1"
-  version: ">=3.32.1"
-- category: "media-video"
-  name: "totem"
-  version: ">=3.32.0"
-- category: "net-wireless"
-  name: "gnome-bluetooth-2"
-  version: ">=3.32.1"
-- category: "x11-terms"
-  name: "gnome-terminal"
-  version: ">=3.32.2"
-- category: "x11-themes"
-  name: "adwaita-icon-theme"
-  version: ">=3.32.0"
-license: "metapackage"
+- Labels: null
+  category: app-crypt
+  conflicts: null
+  id: 0
+  name: gcr
+  requires: null
+  version: '>=3.28.1'
+- Labels: null
+  category: app-crypt
+  conflicts: null
+  id: 0
+  name: seahorse
+  requires: null
+  version: '>=3.32.2'
+- Labels: null
+  category: app-editors
+  conflicts: null
+  id: 0
+  name: gedit
+  requires: null
+  version: '>=3.32.0'
+- Labels: null
+  category: app-text
+  conflicts: null
+  id: 0
+  name: evince
+  requires: null
+  version: '>=3.32.0'
+- Labels: null
+  category: gnome-base
+  conflicts: null
+  id: 0
+  name: gnome-control-center-2
+  requires: null
+  version: '>=3.32.1'
+- Labels: null
+  category: gnome-base
+  conflicts: null
+  id: 0
+  name: gnome-core-libs-3.0
+  requires: null
+  version: '>=3.32.2'
+- Labels: null
+  category: gnome-base
+  conflicts: null
+  id: 0
+  name: gnome-keyring
+  requires: null
+  version: '>=3.31.91'
+- Labels: null
+  category: gnome-base
+  conflicts: null
+  id: 0
+  name: gnome-session
+  requires: null
+  version: '>=3.32.0'
+- Labels: null
+  category: gnome-base
+  conflicts: null
+  id: 0
+  name: gnome-settings-daemon
+  requires: null
+  version: '>=3.32.0'
+- Labels: null
+  category: gnome-base
+  conflicts: null
+  id: 0
+  name: nautilus
+  requires: null
+  version: '>=3.32.1'
+- Labels: null
+  category: gnome-extra
+  conflicts: null
+  id: 0
+  name: evolution-data-server
+  requires: null
+  version: '>=3.32.2'
+- Labels: null
+  category: gnome-extra
+  conflicts: null
+  id: 0
+  name: gnome-color-manager
+  requires: null
+  version: '>=3.32.0'
+- Labels: null
+  category: gnome-extra
+  conflicts: null
+  id: 0
+  name: gnome-contacts
+  requires: null
+  version: '>=3.32.1'
+- Labels: null
+  category: gnome-extra
+  conflicts: null
+  id: 0
+  name: gnome-user-docs
+  requires: null
+  version: '>=3.32.2'
+- Labels: null
+  category: gnome-extra
+  conflicts: null
+  id: 0
+  name: yelp
+  requires: null
+  version: '>=3.32.2'
+- Labels: null
+  category: media-gfx
+  conflicts: null
+  id: 0
+  name: eog-1
+  requires: null
+  version: '>=3.32.1'
+- Labels: null
+  category: media-video
+  conflicts: null
+  id: 0
+  name: totem
+  requires: null
+  version: '>=3.32.0'
+- Labels: null
+  category: net-wireless
+  conflicts: null
+  id: 0
+  name: gnome-bluetooth-2
+  requires: null
+  version: '>=3.32.1'
+- Labels: null
+  category: x11-terms
+  conflicts: null
+  id: 0
+  name: gnome-terminal
+  requires: null
+  version: '>=3.32.2'
+- Labels: null
+  category: x11-themes
+  conflicts: null
+  id: 0
+  name: adwaita-icon-theme
+  requires: null
+  version: '>=3.32.0'
+use_flags:
+- abi_x86_64
+- amd64
+- split-usr
+- big-endian
+- userland_GNU
+- elibc_glibc
+- bluetooth
+- cups
+- kernel_linux
+version: 3.32.2+1

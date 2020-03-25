@@ -1,14 +1,30 @@
+Labels: null
 category: app-xemacs
+conflicts: null
+id: 0
+license: GPL-2+
 name: apel
 requires:
-- category: app-editors
+- Labels: null
+  category: app-editors
+  conflicts: null
+  id: 0
   name: xemacs
+  requires: null
   version: '>=0'
-- category: app-xemacs
+- Labels: null
+  category: app-xemacs
+  conflicts: null
+  id: 0
   name: fsf-compat
+  requires: null
   version: '>=0'
-- category: app-xemacs
+- Labels: null
+  category: app-xemacs
+  conflicts: null
+  id: 0
   name: xemacs-base
+  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc
@@ -17,5 +33,4 @@ use_flags:
 - abi_x86_64
 - big-endian
 - kernel_linux
-version: 1.36+2
-license: "GPL-2+"
+version: 1.36+3

@@ -1,11 +1,23 @@
+Labels: null
 category: app-text
+conflicts: null
+id: 0
+license: GPL-2
 name: djvu
 requires:
-- category: media-gfx
+- Labels: null
+  category: media-gfx
+  conflicts: null
+  id: 0
   name: inkscape
+  requires: null
   version: '>=0'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: tiff
+  requires: null
   version: '>=0'
 use_flags:
 - jpeg
@@ -20,5 +32,4 @@ use_flags:
 - amd64
 - big-endian
 - -debug
-version: 3.5.27+r3
-license: "GPL-2"
+version: 3.5.27+r4

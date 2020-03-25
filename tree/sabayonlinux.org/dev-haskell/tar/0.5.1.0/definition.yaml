@@ -1,39 +1,68 @@
-
-category: "dev-haskell"
-name: "tar"
-version: "0.5.1.0"
-
-use_flags:
-- "elibc_glibc"
-- "amd64"
-- "abi_x86_64"
-- "-test"
-- "-profile"
-- "userland_GNU"
-- "-doc"
-- "-hscolour"
-- "big-endian"
-- "kernel_linux"
+Labels: null
+category: dev-haskell
+conflicts: null
+id: 0
+license: BSD
+name: tar
 requires:
-- category: "dev-haskell"
-  name: "bytestring-builder"
-  version: "<0.11"
-- category: "dev-haskell"
-  name: "old-time"
-  version: "<1.2"
-- category: "dev-haskell"
-  name: "semigroups"
-  version: "<0.19"
-- category: "dev-haskell"
-  name: "bytestring-builder"
-  version: ">=0.10.4.0.2"
-- category: "dev-haskell"
-  name: "cabal"
-  version: ">=1.8"
-- category: "dev-haskell"
-  name: "semigroups"
-  version: ">=0.18"
-- category: "dev-lang"
-  name: "ghc"
-  version: ">=7.4.1"
-license: "BSD"
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: bytestring-builder
+  requires: null
+  version: <0.11
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: old-time
+  requires: null
+  version: <1.2
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: semigroups
+  requires: null
+  version: <0.19
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: bytestring-builder
+  requires: null
+  version: '>=0.10.4.0.2'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: cabal
+  requires: null
+  version: '>=1.8'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: semigroups
+  requires: null
+  version: '>=0.18'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: ghc
+  requires: null
+  version: '>=7.4.1'
+use_flags:
+- elibc_glibc
+- amd64
+- abi_x86_64
+- -test
+- -profile
+- userland_GNU
+- -doc
+- -hscolour
+- big-endian
+- kernel_linux
+version: 0.5.1.0+1

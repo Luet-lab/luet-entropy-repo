@@ -1,5 +1,10 @@
+Labels: null
 category: media-libs
+conflicts: null
+id: 0
+license: MIT
 name: giflib
+requires: null
 use_flags:
 - big-endian
 - -abi_s390_32
@@ -19,5 +24,4 @@ use_flags:
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
 - -doc
-version: 5.2.1+r4
-license: "MIT"
+version: 5.2.1+r5

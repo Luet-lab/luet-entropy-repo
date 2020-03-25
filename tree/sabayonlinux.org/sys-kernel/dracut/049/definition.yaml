@@ -1,35 +1,79 @@
+Labels: null
 category: sys-kernel
+conflicts: null
+id: 0
+license: GPL-2
 name: dracut
 requires:
-- category: app-shells
+- Labels: null
+  category: app-shells
+  conflicts: null
+  id: 0
   name: bash
+  requires: null
   version: '>=4.0'
-- category: app-text
+- Labels: null
+  category: app-text
+  conflicts: null
+  id: 0
   name: docbook-xsl-stylesheets
+  requires: null
   version: '>=1.75.2'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: libxslt
+  requires: null
   version: '>=1.1.26'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: kmod
+  requires: null
   version: '>=23'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: util-linux
+  requires: null
   version: '>=2.21'
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: cpio
+  requires: null
   version: '>=0'
-- category: app-text
+- Labels: null
+  category: app-text
+  conflicts: null
+  id: 0
   name: asciidoc
+  requires: null
   version: '>=0'
-- category: app-text
+- Labels: null
+  category: app-text
+  conflicts: null
+  id: 0
   name: docbook-xml-dtd-4.5
+  requires: null
   version: '>=0'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: coreutils
+  requires: null
   version: '>=0'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: systemd
+  requires: null
   version: '>=0'
 use_flags:
 - -selinux
@@ -40,5 +84,4 @@ use_flags:
 - elibc_glibc
 - split-usr
 - userland_GNU
-version: 049+r3
-license: "GPL-2"
+version: 049+r4

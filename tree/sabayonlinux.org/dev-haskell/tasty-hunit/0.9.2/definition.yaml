@@ -1,26 +1,39 @@
-
-category: "dev-haskell"
-name: "tasty-hunit"
-version: "0.9.2"
-
-use_flags:
-- "big-endian"
-- "elibc_glibc"
-- "abi_x86_64"
-- "kernel_linux"
-- "-doc"
-- "-profile"
-- "amd64"
-- "-hscolour"
-- "userland_GNU"
+Labels: null
+category: dev-haskell
+conflicts: null
+id: 0
+license: MIT
+name: tasty-hunit
 requires:
-- category: "dev-haskell"
-  name: "cabal"
-  version: ">=1.10"
-- category: "dev-haskell"
-  name: "tasty"
-  version: ">=0.8"
-- category: "dev-lang"
-  name: "ghc"
-  version: ">=7.4.1"
-license: "MIT"
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: cabal
+  requires: null
+  version: '>=1.10'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: tasty
+  requires: null
+  version: '>=0.8'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: ghc
+  requires: null
+  version: '>=7.4.1'
+use_flags:
+- big-endian
+- elibc_glibc
+- abi_x86_64
+- kernel_linux
+- -doc
+- -profile
+- amd64
+- -hscolour
+- userland_GNU
+version: 0.9.2+1

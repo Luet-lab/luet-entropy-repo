@@ -1,14 +1,30 @@
+Labels: null
 category: dev-python
+conflicts: null
+id: 0
+license: MIT
 name: u-msgpack
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-2.7
+  requires: null
   version: '>=2.7.5'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-exec-2
+  requires: null
   version: '>=2'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-3.6
+  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -25,5 +41,4 @@ use_flags:
 - amd64
 - -python_targets_python3_5
 - kernel_linux
-version: 2.4.1+2
-license: "MIT"
+version: 2.4.1+3

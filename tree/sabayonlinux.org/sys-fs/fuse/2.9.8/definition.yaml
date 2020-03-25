@@ -1,11 +1,23 @@
+Labels: null
 category: sys-fs
+conflicts: null
+id: 0
+license: GPL-2
 name: fuse
 requires:
-- category: app-portage
+- Labels: null
+  category: app-portage
+  conflicts: null
+  id: 0
   name: elt-patches
+  requires: null
   version: '>=20170815'
-- category: sys-fs
+- Labels: null
+  category: sys-fs
+  conflicts: null
+  id: 0
   name: fuse-common
+  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc
@@ -17,5 +29,4 @@ use_flags:
 - kernel_linux
 - -static-libs
 - amd64
-version: 2.9.8+2
-license: "GPL-2"
+version: 2.9.8+3

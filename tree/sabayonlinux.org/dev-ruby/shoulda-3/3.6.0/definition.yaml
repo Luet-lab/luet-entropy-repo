@@ -1,14 +1,30 @@
+Labels: null
 category: dev-ruby
+conflicts: null
+id: 0
+license: MIT
 name: shoulda-3
 requires:
-- category: dev-ruby
+- Labels: null
+  category: dev-ruby
+  conflicts: null
+  id: 0
   name: shoulda-context
+  requires: null
   version: '>=1.0.1'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: ruby-2.5
+  requires: null
   version: '>=0'
-- category: dev-ruby
+- Labels: null
+  category: dev-ruby
+  conflicts: null
+  id: 0
   name: shoulda-matchers-3
+  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -22,5 +38,4 @@ use_flags:
 - userland_GNU
 - -ruby_targets_ruby26
 - -ruby_targets_ruby24
-version: 3.6.0+2
-license: "MIT"
+version: 3.6.0+3

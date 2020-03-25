@@ -1,54 +1,103 @@
-
-category: "dev-haskell"
-name: "wai"
-version: "3.2.1.1"
-
-use_flags:
-- "-hscolour"
-- "-test"
-- "big-endian"
-- "-doc"
-- "abi_x86_64"
-- "elibc_glibc"
-- "-profile"
-- "userland_GNU"
-- "kernel_linux"
-- "amd64"
+Labels: null
+category: dev-haskell
+conflicts: null
+id: 0
+license: MIT
+name: wai
 requires:
-- category: "dev-haskell"
-  name: "blaze-builder"
-  version: "<0.5"
-- category: "dev-haskell"
-  name: "bytestring-builder"
-  version: "<0.11"
-- category: "dev-haskell"
-  name: "vault"
-  version: "<0.4"
-- category: "dev-haskell"
-  name: "blaze-builder"
-  version: ">=0.2.1.4"
-- category: "dev-haskell"
-  name: "bytestring-builder"
-  version: ">=0.10.4.0"
-- category: "dev-haskell"
-  name: "cabal"
-  version: ">=1.16.0"
-- category: "dev-haskell"
-  name: "http-types"
-  version: ">=0.7"
-- category: "dev-haskell"
-  name: "network"
-  version: ">=2.2.1.5"
-- category: "dev-haskell"
-  name: "text"
-  version: ">=0.7"
-- category: "dev-haskell"
-  name: "transformers"
-  version: ">=0.0"
-- category: "dev-haskell"
-  name: "vault"
-  version: ">=0.3"
-- category: "dev-lang"
-  name: "ghc"
-  version: ">=7.6.1"
-license: "MIT"
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: blaze-builder
+  requires: null
+  version: <0.5
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: bytestring-builder
+  requires: null
+  version: <0.11
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: vault
+  requires: null
+  version: <0.4
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: blaze-builder
+  requires: null
+  version: '>=0.2.1.4'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: bytestring-builder
+  requires: null
+  version: '>=0.10.4.0'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: cabal
+  requires: null
+  version: '>=1.16.0'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: http-types
+  requires: null
+  version: '>=0.7'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: network
+  requires: null
+  version: '>=2.2.1.5'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: text
+  requires: null
+  version: '>=0.7'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: transformers
+  requires: null
+  version: '>=0.0'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: vault
+  requires: null
+  version: '>=0.3'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: ghc
+  requires: null
+  version: '>=7.6.1'
+use_flags:
+- -hscolour
+- -test
+- big-endian
+- -doc
+- abi_x86_64
+- elibc_glibc
+- -profile
+- userland_GNU
+- kernel_linux
+- amd64
+version: 3.2.1.1+1

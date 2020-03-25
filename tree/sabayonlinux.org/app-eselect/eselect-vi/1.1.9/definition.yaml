@@ -1,8 +1,16 @@
+Labels: null
 category: app-eselect
+conflicts: null
+id: 0
+license: GPL-2
 name: eselect-vi
 requires:
-- category: app-admin
+- Labels: null
+  category: app-admin
+  conflicts: null
+  id: 0
   name: eselect
+  requires: null
   version: '>=0'
 use_flags:
 - amd64
@@ -12,5 +20,4 @@ use_flags:
 - big-endian
 - kernel_linux
 - userland_GNU
-version: 1.1.9+r3
-license: "GPL-2"
+version: 1.1.9+r4

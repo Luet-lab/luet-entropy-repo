@@ -1,11 +1,23 @@
+Labels: null
 category: dev-java
+conflicts: null
+id: 0
+license: GPL-2
 name: javatoolkit
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-2.7
+  requires: null
   version: '>=2.7.5'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-exec-2
+  requires: null
   version: '>=0'
 use_flags:
 - amd64
@@ -14,5 +26,4 @@ use_flags:
 - kernel_linux
 - userland_GNU
 - elibc_glibc
-version: 0.3.0+r11
-license: "GPL-2"
+version: 0.3.0+r12

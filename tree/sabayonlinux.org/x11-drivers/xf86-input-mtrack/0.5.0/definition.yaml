@@ -1,25 +1,38 @@
-
-category: "x11-drivers"
-name: "xf86-input-mtrack"
-version: "0.5.0"
-
-use_flags:
-- "abi_x86_64"
-- "amd64"
-- "split-usr"
-- "big-endian"
-- "userland_GNU"
-- "elibc_glibc"
-- "-debug"
-- "kernel_linux"
+Labels: null
+category: x11-drivers
+conflicts: null
+id: 0
+license: GPL-2
+name: xf86-input-mtrack
 requires:
-- category: "sys-libs"
-  name: "mtdev"
-  version: ">=1.0"
-- category: "x11-base"
-  name: "xorg-proto"
-  version: ">=0"
-- category: "x11-base"
-  name: "xorg-server"
-  version: ">=0"
-license: "GPL-2"
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
+  name: mtdev
+  requires: null
+  version: '>=1.0'
+- Labels: null
+  category: x11-base
+  conflicts: null
+  id: 0
+  name: xorg-proto
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: x11-base
+  conflicts: null
+  id: 0
+  name: xorg-server
+  requires: null
+  version: '>=0'
+use_flags:
+- abi_x86_64
+- amd64
+- split-usr
+- big-endian
+- userland_GNU
+- elibc_glibc
+- -debug
+- kernel_linux
+version: 0.5.0+1

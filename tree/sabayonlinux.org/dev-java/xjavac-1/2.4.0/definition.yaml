@@ -1,11 +1,23 @@
+Labels: null
 category: dev-java
+conflicts: null
+id: 0
+license: Apache-2.0
 name: xjavac-1
 requires:
-- category: dev-java
+- Labels: null
+  category: dev-java
+  conflicts: null
+  id: 0
   name: java-config-2
+  requires: null
   version: '>=2.2.0'
-- category: dev-java
+- Labels: null
+  category: dev-java
+  conflicts: null
+  id: 0
   name: ant-core
+  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc
@@ -18,5 +30,4 @@ use_flags:
 - kernel_linux
 - -source
 - split-usr
-version: 2.4.0+2
-license: "Apache-2.0"
+version: 2.4.0+3

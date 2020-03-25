@@ -1,8 +1,16 @@
+Labels: null
 category: sys-devel
+conflicts: null
+id: 0
+license: GPL-3+
 name: make
 requires:
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: gettext
+  requires: null
   version: '>=0'
 use_flags:
 - nls
@@ -14,5 +22,4 @@ use_flags:
 - elibc_glibc
 - -static
 - userland_GNU
-version: 4.2.1+r6
-license: "GPL-3+"
+version: 4.2.1+r7

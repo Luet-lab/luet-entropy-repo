@@ -1,81 +1,142 @@
-
-category: "app-editors"
-name: "vim"
-version: "8.2.0360"
-license: "vim"
-
-use_flags:
-- "-python_single_target_python3_7"
-- "-python_single_target_python3_8"
-- "nls"
-- "-luajit"
-- "elibc_glibc"
-- "vim-pager"
-- "gpm"
-- "abi_x86_64"
-- "userland_GNU"
-- "-sound"
-- "python_single_target_python3_6"
-- "cscope"
-- "amd64"
-- "perl"
-- "big-endian"
-- "-minimal"
-- "-selinux"
-- "X"
-- "lua"
-- "ruby"
-- "-tcl"
-- "split-usr"
-- "python"
-- "-terminal"
-- "-racket"
-- "acl"
-- "-debug"
-- "kernel_linux"
+Labels: null
+category: app-editors
+conflicts: null
+id: 0
+license: vim
+name: vim
 requires:
-- category: "app-eselect"
-  name: "eselect-vi"
-  version: ">=1.1"
-- category: "dev-lang"
-  name: "python-exec-2"
-  version: ">=2"
-- category: "sys-libs"
-  name: "gpm"
-  version: ">=1.19.3"
-- category: "sys-libs"
-  name: "ncurses"
-  version: ">=5.2"
-- category: "app-editors"
-  name: "vim-core"
-  version: ">=0"
-- category: "dev-lang"
-  name: "lua"
-  version: ">=0"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=0"
-- category: "dev-lang"
-  name: "python-3.6"
-  version: ">=0"
-- category: "dev-lang"
-  name: "ruby-2.5"
-  version: ">=0"
-- category: "dev-util"
-  name: "cscope"
-  version: ">=0"
-- category: "sys-apps"
-  name: "acl"
-  version: ">=0"
-- category: "sys-devel"
-  name: "autoconf-2.69"
-  version: ">=0"
-- category: "sys-devel"
-  name: "gettext"
-  version: ">=0"
-- category: "x11-libs"
-  name: "libXt"
-  version: ">=0"
-- category: "app-editors"
-  name: "vim-core"
-  version: ">=8.2.0360"
+- Labels: null
+  category: app-eselect
+  conflicts: null
+  id: 0
+  name: eselect-vi
+  requires: null
+  version: '>=1.1'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: python-exec-2
+  requires: null
+  version: '>=2'
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
+  name: gpm
+  requires: null
+  version: '>=1.19.3'
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
+  name: ncurses
+  requires: null
+  version: '>=5.2'
+- Labels: null
+  category: app-editors
+  conflicts: null
+  id: 0
+  name: vim-core
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: lua
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: perl
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: python-3.6
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: ruby-2.5
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
+  name: cscope
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
+  name: acl
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
+  name: autoconf-2.69
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
+  name: gettext
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
+  name: libXt
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: app-editors
+  conflicts: null
+  id: 0
+  name: vim-core
+  requires: null
+  version: '>=8.2.0360'
+use_flags:
+- -python_single_target_python3_7
+- -python_single_target_python3_8
+- nls
+- -luajit
+- elibc_glibc
+- vim-pager
+- gpm
+- abi_x86_64
+- userland_GNU
+- -sound
+- python_single_target_python3_6
+- cscope
+- amd64
+- perl
+- big-endian
+- -minimal
+- -selinux
+- X
+- lua
+- ruby
+- -tcl
+- split-usr
+- python
+- -terminal
+- -racket
+- acl
+- -debug
+- kernel_linux
+version: 8.2.0360+1

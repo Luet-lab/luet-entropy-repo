@@ -1,11 +1,23 @@
+Labels: null
 category: dev-tex
+conflicts: null
+id: 0
+license: FDL-1.2 GPL-2 LPPL-1.3c
 name: pgf
 requires:
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: texinfo
+  requires: null
   version: '>=4.2'
-- category: dev-texlive
+- Labels: null
+  category: dev-texlive
+  conflicts: null
+  id: 0
   name: texlive-latexrecommended
+  requires: null
   version: '>=0'
 use_flags:
 - -doc
@@ -17,5 +29,4 @@ use_flags:
 - big-endian
 - amd64
 - kernel_linux
-version: 3.1.4b+r4
-license: "FDL-1.2 GPL-2 LPPL-1.3c"
+version: 3.1.4b+r5

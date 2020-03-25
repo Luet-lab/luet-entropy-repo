@@ -1,20 +1,44 @@
+Labels: null
 category: dev-tcltk
+conflicts: null
+id: 0
+license: BSD
 name: blt
 requires:
-- category: app-portage
+- Labels: null
+  category: app-portage
+  conflicts: null
+  id: 0
   name: elt-patches
+  requires: null
   version: '>=20170422'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: autoconf-2.69
+  requires: null
   version: '>=2.69'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: automake-1.15
+  requires: null
   version: '>=1.15.1'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: libtool-2
+  requires: null
   version: '>=2.4'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: tk
+  requires: null
   version: '>=0'
 use_flags:
 - -static-libs
@@ -26,5 +50,4 @@ use_flags:
 - amd64
 - userland_GNU
 - elibc_glibc
-version: 2.4z+r15
-license: "BSD"
+version: 2.4z+r16

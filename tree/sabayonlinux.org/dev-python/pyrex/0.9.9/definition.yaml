@@ -1,11 +1,23 @@
+Labels: null
 category: dev-python
+conflicts: null
+id: 0
+license: Apache-2.0
 name: pyrex
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-2.7
+  requires: null
   version: '>=2.7.5'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-exec-2
+  requires: null
   version: '>=0'
 use_flags:
 - abi_x86_64
@@ -16,5 +28,4 @@ use_flags:
 - userland_GNU
 - python_targets_python2_7
 - -examples
-version: 0.9.9+r3
-license: "Apache-2.0"
+version: 0.9.9+r4

@@ -1,23 +1,51 @@
+Labels: null
 category: dev-python
+conflicts: null
+id: 0
+license: MPL-2.0
 name: hypothesis
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-2.7
+  requires: null
   version: '>=2.7.5'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-exec-2
+  requires: null
   version: '>=2'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: attrs
+  requires: null
   version: '>=16.0.0'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-3.6
+  requires: null
   version: '>=0'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: enum34
+  requires: null
   version: '>=0'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: setuptools
+  requires: null
   version: '>=0'
 use_flags:
 - -python_targets_pypy3
@@ -34,5 +62,4 @@ use_flags:
 - amd64
 - abi_x86_64
 - userland_GNU
-version: 3.74.3+2
-license: "MPL-2.0"
+version: 3.74.3+3

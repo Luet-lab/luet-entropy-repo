@@ -1,8 +1,16 @@
+Labels: null
 category: app-dicts
+conflicts: null
+id: 0
+license: GPL-2 MIT
 name: myspell-pt
 requires:
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: unzip
+  requires: null
   version: '>=0'
 use_flags:
 - preao
@@ -11,5 +19,4 @@ use_flags:
 - multilib
 - amd64
 - kernel_linux
-version: 20120420+2
-license: "GPL-2 MIT"
+version: 20120420+3

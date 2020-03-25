@@ -1,5 +1,10 @@
+Labels: null
 category: sys-apps
+conflicts: null
+id: 0
+license: GPL-3
 name: install-xattr
+requires: null
 use_flags:
 - big-endian
 - abi_x86_64
@@ -8,5 +13,4 @@ use_flags:
 - kernel_linux
 - elibc_glibc
 - amd64
-version: 0.8+2
-license: "GPL-3"
+version: 0.8+3

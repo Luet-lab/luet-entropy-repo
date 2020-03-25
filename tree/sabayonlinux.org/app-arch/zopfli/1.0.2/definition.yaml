@@ -1,5 +1,10 @@
+Labels: null
 category: app-arch
+conflicts: null
+id: 0
+license: Apache-2.0
 name: zopfli
+requires: null
 use_flags:
 - big-endian
 - elibc_glibc
@@ -7,5 +12,4 @@ use_flags:
 - userland_GNU
 - kernel_linux
 - abi_x86_64
-version: 1.0.2+2
-license: "Apache-2.0"
+version: 1.0.2+3

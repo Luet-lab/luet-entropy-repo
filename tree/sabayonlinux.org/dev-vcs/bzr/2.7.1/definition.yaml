@@ -1,20 +1,44 @@
+Labels: null
 category: dev-vcs
+conflicts: null
+id: 0
+license: GPL-2
 name: bzr
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-2.7
+  requires: null
   version: '>=2.7.5'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-exec-2
+  requires: null
   version: '>=2'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: paramiko
+  requires: null
   version: '>=0'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: pycurl
+  requires: null
   version: '>=0'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: pyrex
+  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -28,5 +52,4 @@ use_flags:
 - kernel_linux
 - -doc
 - userland_GNU
-version: 2.7.1+pre.2
-license: "GPL-2"
+version: 2.7.1+pre.3

@@ -1,21 +1,30 @@
-
-category: "dev-util"
-name: "spirv-headers"
-version: "1.5.1"
-
-use_flags:
-- "kernel_linux"
-- "abi_x86_64"
-- "split-usr"
-- "big-endian"
-- "amd64"
-- "elibc_glibc"
-- "userland_GNU"
+Labels: null
+category: dev-util
+conflicts: null
+id: 0
+license: MIT
+name: spirv-headers
 requires:
-- category: "dev-util"
-  name: "cmake"
-  version: ">=3.9.6"
-- category: "dev-util"
-  name: "ninja"
-  version: ">=0"
-license: "MIT"
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
+  name: cmake
+  requires: null
+  version: '>=3.9.6'
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
+  name: ninja
+  requires: null
+  version: '>=0'
+use_flags:
+- kernel_linux
+- abi_x86_64
+- split-usr
+- big-endian
+- amd64
+- elibc_glibc
+- userland_GNU
+version: 1.5.1+1

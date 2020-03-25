@@ -1,26 +1,58 @@
+Labels: null
 category: dev-python
+conflicts: null
+id: 0
+license: BSD
 name: pyquery
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-2.7
+  requires: null
   version: '>=2.7.5'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-exec-2
+  requires: null
   version: '>=2'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: lxml
+  requires: null
   version: '>=2.1'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: webob
+  requires: null
   version: '>=1.1.9'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: cssselect
+  requires: null
   version: '>0.7.9'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-3.6
+  requires: null
   version: '>=0'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: setuptools
+  requires: null
   version: '>=0'
 use_flags:
 - abi_x86_64
@@ -34,5 +66,4 @@ use_flags:
 - elibc_glibc
 - userland_GNU
 - -python_targets_python3_7
-version: 1.4.0+2
-license: "BSD"
+version: 1.4.0+3

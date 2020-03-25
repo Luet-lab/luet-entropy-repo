@@ -1,98 +1,226 @@
+Labels: null
 category: gnome-extra
+conflicts: null
+id: 0
+license: GPL-2+
 name: cinnamon-settings-daemon
 requires:
-- category: app-portage
+- Labels: null
+  category: app-portage
+  conflicts: null
+  id: 0
   name: elt-patches
+  requires: null
   version: '>=20170815'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: glib-2
+  requires: null
   version: '>=2.38'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: intltool
+  requires: null
   version: '>=0.37.1'
-- category: gnome-base
+- Labels: null
+  category: gnome-base
+  conflicts: null
+  id: 0
   name: libgnomekbd
+  requires: null
   version: '>=3.6'
-- category: gnome-base
+- Labels: null
+  category: gnome-base
+  conflicts: null
+  id: 0
   name: librsvg-2
+  requires: null
   version: '>=2.36.2'
-- category: gnome-extra
+- Labels: null
+  category: gnome-extra
+  conflicts: null
+  id: 0
   name: cinnamon-desktop
+  requires: null
   version: '>=2.8.0'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: lcms-2
+  requires: null
   version: '>=2.2'
-- category: net-print
+- Labels: null
+  category: net-print
+  conflicts: null
+  id: 0
   name: cups
+  requires: null
   version: '>=1.4'
-- category: sys-auth
+- Labels: null
+  category: sys-auth
+  conflicts: null
+  id: 0
   name: polkit
+  requires: null
   version: '>=0.97'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: autoconf-2.69
+  requires: null
   version: '>=2.69'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: automake-1.15
+  requires: null
   version: '>=1.15.1'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: libtool-2
+  requires: null
   version: '>=2.4'
-- category: sys-power
+- Labels: null
+  category: sys-power
+  conflicts: null
+  id: 0
   name: upower
+  requires: null
   version: '>=0.9.11'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: gtk+-3
+  requires: null
   version: '>=3.9.10'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libnotify
+  requires: null
   version: '>=0.7.3'
-- category: x11-misc
+- Labels: null
+  category: x11-misc
+  conflicts: null
+  id: 0
   name: colord
+  requires: null
   version: '>=0.1.27'
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: xz-utils
+  requires: null
   version: '>=0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: libxml2-2
+  requires: null
   version: '>=0'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: desktop-file-utils
+  requires: null
   version: '>=0'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: fontconfig-1.0
+  requires: null
   version: '>=0'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: libcanberra
+  requires: null
   version: '>=0'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: dbus
+  requires: null
   version: '>=0'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: systemd
+  requires: null
   version: '>=0'
-- category: x11-base
+- Labels: null
+  category: x11-base
+  conflicts: null
+  id: 0
   name: xorg-proto
+  requires: null
   version: '>=0'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: gdk-pixbuf-2
+  requires: null
   version: '>=0'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libX11
+  requires: null
   version: '>=0'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libXext
+  requires: null
   version: '>=0'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libXfixes
+  requires: null
   version: '>=0'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libXi
+  requires: null
   version: '>=0'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libxklavier
+  requires: null
   version: '>=0'
-- category: x11-misc
+- Labels: null
+  category: x11-misc
+  conflicts: null
+  id: 0
   name: shared-mime-info
+  requires: null
   version: '>=0'
 use_flags:
 - colord
@@ -107,5 +235,4 @@ use_flags:
 - abi_x86_64
 - elibc_glibc
 - big-endian
-version: 4.0.2+2
-license: "GPL-2+"
+version: 4.0.2+3

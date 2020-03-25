@@ -1,5 +1,10 @@
+Labels: null
 category: app-crypt
+conflicts: null
+id: 0
+license: Apache-2.0 CC0-1.0
 name: argon2
+requires: null
 use_flags:
 - -static-libs
 - abi_x86_64
@@ -9,5 +14,4 @@ use_flags:
 - elibc_glibc
 - split-usr
 - userland_GNU
-version: 20190702+2
-license: "Apache-2.0 CC0-1.0"
+version: 20190702+3

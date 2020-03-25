@@ -1,17 +1,37 @@
+Labels: null
 category: dev-tcltk
+conflicts: null
+id: 0
+license: BSD
 name: tix
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: tk
+  requires: null
   version: '>=0'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libX11
+  requires: null
   version: '>=0'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libXau
+  requires: null
   version: '>=0'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libXdmcp
+  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc
@@ -20,5 +40,4 @@ use_flags:
 - big-endian
 - abi_x86_64
 - userland_GNU
-version: 8.4.3+r3
-license: "BSD"
+version: 8.4.3+r4

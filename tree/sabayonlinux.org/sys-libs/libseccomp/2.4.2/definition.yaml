@@ -1,8 +1,16 @@
+Labels: null
 category: sys-libs
+conflicts: null
+id: 0
+license: LGPL-2.1
 name: libseccomp
 requires:
-- category: sys-kernel
+- Labels: null
+  category: sys-kernel
+  conflicts: null
+  id: 0
   name: linux-headers
+  requires: null
   version: '>=4.3'
 use_flags:
 - big-endian
@@ -22,5 +30,4 @@ use_flags:
 - split-usr
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
-version: 2.4.2+r4
-license: "LGPL-2.1"
+version: 2.4.2+r5

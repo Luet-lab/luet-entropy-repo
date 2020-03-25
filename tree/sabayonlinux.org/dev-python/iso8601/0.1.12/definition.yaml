@@ -1,17 +1,37 @@
+Labels: null
 category: dev-python
+conflicts: null
+id: 0
+license: MIT
 name: iso8601
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-2.7
+  requires: null
   version: '>=2.7.5'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-exec-2
+  requires: null
   version: '>=2'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-3.6
+  requires: null
   version: '>=0'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: setuptools
+  requires: null
   version: '>=0'
 use_flags:
 - -python_targets_pypy3
@@ -28,5 +48,4 @@ use_flags:
 - amd64
 - -test
 - userland_GNU
-version: 0.1.12+2
-license: "MIT"
+version: 0.1.12+3

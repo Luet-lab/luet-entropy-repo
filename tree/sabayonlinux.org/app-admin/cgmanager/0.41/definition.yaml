@@ -1,20 +1,44 @@
+Labels: null
 category: app-admin
+conflicts: null
+id: 0
+license: LGPL-2.1
 name: cgmanager
 requires:
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: autoconf-2.69
+  requires: null
   version: '>=2.69'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: automake-1.15
+  requires: null
   version: '>=1.15'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: libtool-2
+  requires: null
   version: '>=2.4'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: dbus
+  requires: null
   version: '>=0'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: libnih
+  requires: null
   version: '>=0'
 use_flags:
 - abi_x86_64
@@ -24,5 +48,4 @@ use_flags:
 - amd64
 - pam
 - -selinux
-version: 0.41+2
-license: "LGPL-2.1"
+version: 0.41+3

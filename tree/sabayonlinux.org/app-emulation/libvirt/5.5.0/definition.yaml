@@ -1,146 +1,338 @@
+Labels: null
 category: app-emulation
+conflicts: null
+id: 0
+license: LGPL-2.1
 name: libvirt
 requires:
-- category: app-emulation
+- Labels: null
+  category: app-emulation
+  conflicts: null
+  id: 0
   name: qemu
+  requires: null
   version: '>=1.5.0'
-- category: app-emulation
+- Labels: null
+  category: app-emulation
+  conflicts: null
+  id: 0
   name: virtualbox-bin
+  requires: null
   version: '>=2.2.0'
-- category: app-emulation
+- Labels: null
+  category: app-emulation
+  conflicts: null
+  id: 0
   name: xen
+  requires: null
   version: '>=4.6.0'
-- category: app-portage
+- Labels: null
+  category: app-portage
+  conflicts: null
+  id: 0
   name: elt-patches
+  requires: null
   version: '>=20170815'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: libxml2-2
+  requires: null
   version: '>=2.7.6'
-- category: net-analyzer
+- Labels: null
+  category: net-analyzer
+  conflicts: null
+  id: 0
   name: openbsd-netcat
+  requires: null
   version: '>=1.105'
-- category: net-firewall
+- Labels: null
+  category: net-firewall
+  conflicts: null
+  id: 0
   name: iptables
+  requires: null
   version: '>=1.4.10'
-- category: net-libs
+- Labels: null
+  category: net-libs
+  conflicts: null
+  id: 0
   name: gnutls
+  requires: null
   version: '>=1.0.25'
-- category: net-misc
+- Labels: null
+  category: net-misc
+  conflicts: null
+  id: 0
   name: curl
+  requires: null
   version: '>=7.18.0'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: util-linux
+  requires: null
   version: '>=2.17'
-- category: sys-auth
+- Labels: null
+  category: sys-auth
+  conflicts: null
+  id: 0
   name: polkit
+  requires: null
   version: '>=0.9'
-- category: sys-block
+- Labels: null
+  category: sys-block
+  conflicts: null
+  id: 0
   name: parted
+  requires: null
   version: '>=1.8'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: autoconf-2.69
+  requires: null
   version: '>=2.69'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: automake-1.15
+  requires: null
   version: '>=1.15.1'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: libtool-2
+  requires: null
   version: '>=2.4'
-- category: sys-fs
+- Labels: null
+  category: sys-fs
+  conflicts: null
+  id: 0
   name: fuse
+  requires: null
   version: '>=2.8.6'
-- category: sys-fs
+- Labels: null
+  category: sys-fs
+  conflicts: null
+  id: 0
   name: lvm2
+  requires: null
   version: '>=2.02.48'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libpciaccess
+  requires: null
   version: '>=0.10.9'
-- category: acct-group
+- Labels: null
+  category: acct-group
+  conflicts: null
+  id: 0
   name: libvirt
+  requires: null
   version: '>=0'
-- category: acct-user
+- Labels: null
+  category: acct-user
+  conflicts: null
+  id: 0
   name: qemu
+  requires: null
   version: '>=0'
-- category: app-emulation
+- Labels: null
+  category: app-emulation
+  conflicts: null
+  id: 0
   name: xen-tools
+  requires: null
   version: '>=0'
-- category: app-misc
+- Labels: null
+  category: app-misc
+  conflicts: null
+  id: 0
   name: scrub
+  requires: null
   version: '>=0'
-- category: app-text
+- Labels: null
+  category: app-text
+  conflicts: null
+  id: 0
   name: xhtml1
+  requires: null
   version: '>=0'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: perl
+  requires: null
   version: '>=0'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-3.6
+  requires: null
   version: '>=0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: libgcrypt
+  requires: null
   version: '>=0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: libnl-3
+  requires: null
   version: '>=0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: libxslt
+  requires: null
   version: '>=0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: yajl
+  requires: null
   version: '>=0'
-- category: dev-perl
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
   name: XML-XPath
+  requires: null
   version: '>=0'
-- category: net-dns
+- Labels: null
+  category: net-dns
+  conflicts: null
+  id: 0
   name: dnsmasq
+  requires: null
   version: '>=0'
-- category: net-firewall
+- Labels: null
+  category: net-firewall
+  conflicts: null
+  id: 0
   name: ebtables
+  requires: null
   version: '>=0'
-- category: net-fs
+- Labels: null
+  category: net-fs
+  conflicts: null
+  id: 0
   name: nfs-utils
+  requires: null
   version: '>=0'
-- category: net-libs
+- Labels: null
+  category: net-libs
+  conflicts: null
+  id: 0
   name: libssh2
+  requires: null
   version: '>=0'
-- category: net-libs
+- Labels: null
+  category: net-libs
+  conflicts: null
+  id: 0
   name: libtirpc
+  requires: null
   version: '>=0'
-- category: net-libs
+- Labels: null
+  category: net-libs
+  conflicts: null
+  id: 0
   name: rpcsvc-proto
+  requires: null
   version: '>=0'
-- category: net-misc
+- Labels: null
+  category: net-misc
+  conflicts: null
+  id: 0
   name: radvd
+  requires: null
   version: '>=0'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: dbus
+  requires: null
   version: '>=0'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: dmidecode
+  requires: null
   version: '>=0'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: iproute2
+  requires: null
   version: '>=0'
-- category: sys-block
+- Labels: null
+  category: sys-block
+  conflicts: null
+  id: 0
   name: open-iscsi
+  requires: null
   version: '>=0'
-- category: sys-cluster
+- Labels: null
+  category: sys-cluster
+  conflicts: null
+  id: 0
   name: ceph
+  requires: null
   version: '>=0'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: gettext
+  requires: null
   version: '>=0'
-- category: sys-fs
+- Labels: null
+  category: sys-fs
+  conflicts: null
+  id: 0
   name: lvm2
+  requires: null
   version: '>=0'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: libcap-ng
+  requires: null
   version: '>=0'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: ncurses
+  requires: null
   version: '>=0'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: readline
+  requires: null
   version: '>=0'
 use_flags:
 - fuse
@@ -184,5 +376,4 @@ use_flags:
 - parted
 - lxc
 - -libssh
-version: 5.5.0+r3
-license: "LGPL-2.1"
+version: 5.5.0+r4

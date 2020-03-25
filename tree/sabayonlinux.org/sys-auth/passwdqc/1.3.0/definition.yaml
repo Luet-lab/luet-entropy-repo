@@ -1,8 +1,16 @@
+Labels: null
 category: sys-auth
+conflicts: null
+id: 0
+license: BSD Openwall public-domain
 name: passwdqc
 requires:
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: pam
+  requires: null
   version: '>=0'
 use_flags:
 - pam
@@ -14,5 +22,4 @@ use_flags:
 - -utils
 - elibc_glibc
 - userland_GNU
-version: 1.3.0+2
-license: "BSD Openwall public-domain"
+version: 1.3.0+3

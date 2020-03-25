@@ -1,8 +1,16 @@
+Labels: null
 category: sys-apps
+conflicts: null
+id: 0
+license: BSD
 name: gentoo-systemd-integration
 requires:
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: systemd
+  requires: null
   version: '>=207'
 use_flags:
 - elibc_glibc
@@ -11,5 +19,4 @@ use_flags:
 - abi_x86_64
 - kernel_linux
 - big-endian
-version: 7+2
-license: "BSD"
+version: 7+3

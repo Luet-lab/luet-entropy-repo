@@ -1,38 +1,86 @@
+Labels: null
 category: sys-fs
+conflicts: null
+id: 0
+license: BSD-2 CDDL MIT
 name: zfs
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-exec-2
+  requires: null
   version: '>=2'
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: cpio
+  requires: null
   version: '>=0'
-- category: app-misc
+- Labels: null
+  category: app-misc
+  conflicts: null
+  id: 0
   name: pax-utils
+  requires: null
   version: '>=0'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-3.6
+  requires: null
   version: '>=0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: openssl
+  requires: null
   version: '>=0'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: setuptools
+  requires: null
   version: '>=0'
-- category: net-libs
+- Labels: null
+  category: net-libs
+  conflicts: null
+  id: 0
   name: libtirpc
+  requires: null
   version: '>=0'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: sed
+  requires: null
   version: '>=0'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: util-linux
+  requires: null
   version: '>=0'
-- category: sys-fs
+- Labels: null
+  category: sys-fs
+  conflicts: null
+  id: 0
   name: udev-init-scripts
+  requires: null
   version: '>=0'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: zlib
+  requires: null
   version: '>=0'
 use_flags:
 - split-usr
@@ -52,5 +100,4 @@ use_flags:
 - kernel-builtin
 - userland_GNU
 - -test-suite
-version: 0.8.2+r4
-license: "BSD-2 CDDL MIT"
+version: 0.8.2+r5

@@ -1,26 +1,39 @@
-
-category: "app-text"
-name: "libmwaw"
-version: "0.3.15"
-
-use_flags:
-- "big-endian"
-- "amd64"
-- "-doc"
-- "kernel_linux"
-- "elibc_glibc"
-- "abi_x86_64"
-- "-tools"
-- "userland_GNU"
-- "-static-libs"
+Labels: null
+category: app-text
+conflicts: null
+id: 0
+license: LGPL-2.1
+name: libmwaw
 requires:
-- category: "dev-libs"
-  name: "librevenge"
-  version: ">=0"
-- category: "sys-devel"
-  name: "libtool-2"
-  version: ">=0"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=0"
-license: "LGPL-2.1"
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
+  name: librevenge
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
+  name: libtool-2
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
+  name: zlib
+  requires: null
+  version: '>=0'
+use_flags:
+- big-endian
+- amd64
+- -doc
+- kernel_linux
+- elibc_glibc
+- abi_x86_64
+- -tools
+- userland_GNU
+- -static-libs
+version: 0.3.15+1

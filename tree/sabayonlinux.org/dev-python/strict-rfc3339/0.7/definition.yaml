@@ -1,14 +1,30 @@
+Labels: null
 category: dev-python
+conflicts: null
+id: 0
+license: GPL-3+
 name: strict-rfc3339
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-2.7
+  requires: null
   version: '>=2.7.5'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-exec-2
+  requires: null
   version: '>=2'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-3.6
+  requires: null
   version: '>=0'
 use_flags:
 - python_targets_python2_7
@@ -24,5 +40,4 @@ use_flags:
 - -python_targets_pypy
 - -python_targets_python3_4
 - amd64
-version: 0.7+2
-license: "GPL-3+"
+version: 0.7+3

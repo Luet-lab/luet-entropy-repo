@@ -1,17 +1,37 @@
+Labels: null
 category: app-editors
+conflicts: null
+id: 0
+license: GPL-3
 name: nano
 requires:
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: ncurses
+  requires: null
   version: '>=5.9'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: file
+  requires: null
   version: '>=0'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: gettext
+  requires: null
   version: '>=0'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: ncurses
+  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -31,5 +51,4 @@ use_flags:
 - unicode
 - spell
 - kernel_linux
-version: 4.6+2
-license: "GPL-3"
+version: 4.6+3

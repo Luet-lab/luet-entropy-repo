@@ -1,5 +1,11 @@
+Labels: null
 category: sys-kernel
+conflicts: null
+id: 0
+license: BSD BSD-2 BSD-4 GPL-2 GPL-2+ GPL-3 ISC MIT MPL-1.1 linux-fw-redistributable
+  no-source-code
 name: linux-firmware
+requires: null
 use_flags:
 - split-usr
 - abi_x86_64
@@ -12,5 +18,4 @@ use_flags:
 - amd64
 - -unknown-license
 - elibc_glibc
-version: 20200122+2
-license: "BSD BSD-2 BSD-4 GPL-2 GPL-2+ GPL-3 ISC MIT MPL-1.1 linux-fw-redistributable no-source-code"
+version: 20200122+3

@@ -1,8 +1,16 @@
+Labels: null
 category: x11-misc
+conflicts: null
+id: 0
+license: MIT
 name: xorg-cf-files
 requires:
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: bzip2
+  requires: null
   version: '>=0'
 use_flags:
 - amd64
@@ -11,5 +19,4 @@ use_flags:
 - kernel_linux
 - big-endian
 - userland_GNU
-version: 1.0.6+r3
-license: "MIT"
+version: 1.0.6+r4

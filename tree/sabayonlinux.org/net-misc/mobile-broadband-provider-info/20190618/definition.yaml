@@ -1,11 +1,23 @@
+Labels: null
 category: net-misc
+conflicts: null
+id: 0
+license: CC-PD
 name: mobile-broadband-provider-info
 requires:
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: xz-utils
+  requires: null
   version: '>=0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: libxslt
+  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc
@@ -16,5 +28,4 @@ use_flags:
 - kernel_linux
 - split-usr
 - amd64
-version: 20190618+2
-license: "CC-PD"
+version: 20190618+3

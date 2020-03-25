@@ -1,11 +1,23 @@
+Labels: null
 category: dev-perl
+conflicts: null
+id: 0
+license: Artistic GPL-1+
 name: Devel-LexAlias
 requires:
-- category: dev-perl
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
   name: Devel-Caller
+  requires: null
   version: '>=2.03'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: perl
+  requires: null
   version: '>=0'
 use_flags:
 - abi_x86_64
@@ -15,5 +27,4 @@ use_flags:
 - kernel_linux
 - amd64
 - split-usr
-version: 0.50.0+2
-license: "Artistic GPL-1+"
+version: 0.50.0+3

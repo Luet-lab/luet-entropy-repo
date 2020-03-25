@@ -1,14 +1,30 @@
+Labels: null
 category: dev-libs
+conflicts: null
+id: 0
+license: MIT
 name: libxdg-basedir
 requires:
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: autoconf-2.69
+  requires: null
   version: '>=2.68'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: automake-1.15
+  requires: null
   version: '>=1.14'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: libtool-2
+  requires: null
   version: '>=0'
 use_flags:
 - -static-libs
@@ -18,5 +34,4 @@ use_flags:
 - kernel_linux
 - abi_x86_64
 - amd64
-version: 1.2.0+r3
-license: "MIT"
+version: 1.2.0+r4

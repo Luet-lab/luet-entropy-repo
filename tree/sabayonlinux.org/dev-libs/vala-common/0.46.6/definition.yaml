@@ -1,18 +1,23 @@
-
-category: "dev-libs"
-name: "vala-common"
-version: "0.46.6"
-
-use_flags:
-- "kernel_linux"
-- "abi_x86_64"
-- "split-usr"
-- "big-endian"
-- "amd64"
-- "elibc_glibc"
-- "userland_GNU"
+Labels: null
+category: dev-libs
+conflicts: null
+id: 0
+license: LGPL-2.1+
+name: vala-common
 requires:
-- category: "app-arch"
-  name: "xz-utils"
-  version: ">=0"
-license: "LGPL-2.1+"
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
+  name: xz-utils
+  requires: null
+  version: '>=0'
+use_flags:
+- kernel_linux
+- abi_x86_64
+- split-usr
+- big-endian
+- amd64
+- elibc_glibc
+- userland_GNU
+version: 0.46.6+1

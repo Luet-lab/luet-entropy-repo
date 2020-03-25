@@ -1,23 +1,51 @@
+Labels: null
 category: dev-db
+conflicts: null
+id: 0
+license: BSD
 name: redis
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: lua
+  requires: null
   version: '>=5.1'
-- category: app-portage
+- Labels: null
+  category: app-portage
+  conflicts: null
+  id: 0
   name: elt-patches
+  requires: null
   version: '>=20170815'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: jemalloc
+  requires: null
   version: '>=3.2'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: autoconf-2.69
+  requires: null
   version: '>=2.69'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: automake-1.15
+  requires: null
   version: '>=1.15.1'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: libtool-2
+  requires: null
   version: '>=2.4'
 use_flags:
 - big-endian
@@ -31,5 +59,4 @@ use_flags:
 - kernel_linux
 - -test
 - -luajit
-version: 4.0.14+2
-license: "BSD"
+version: 4.0.14+3

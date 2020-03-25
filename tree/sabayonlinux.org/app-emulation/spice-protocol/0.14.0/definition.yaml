@@ -1,5 +1,10 @@
+Labels: null
 category: app-emulation
+conflicts: null
+id: 0
+license: BSD
 name: spice-protocol
+requires: null
 use_flags:
 - userland_GNU
 - kernel_linux
@@ -8,5 +13,4 @@ use_flags:
 - split-usr
 - abi_x86_64
 - elibc_glibc
-version: 0.14.0+2
-license: "BSD"
+version: 0.14.0+3

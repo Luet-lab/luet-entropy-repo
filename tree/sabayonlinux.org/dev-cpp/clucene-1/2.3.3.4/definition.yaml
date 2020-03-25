@@ -1,23 +1,32 @@
-
-category: "dev-cpp"
-name: "clucene-1"
-version: "2.3.3.4+r6"
-
-use_flags:
-- "big-endian"
-- "amd64"
-- "-doc"
-- "-debug"
-- "kernel_linux"
-- "elibc_glibc"
-- "abi_x86_64"
-- "userland_GNU"
-- "-static-libs"
+Labels: null
+category: dev-cpp
+conflicts: null
+id: 0
+license: Apache-2.0 LGPL-2.1
+name: clucene-1
 requires:
-- category: "dev-util"
-  name: "cmake"
-  version: ">=3.7.2"
-- category: "sys-devel"
-  name: "make"
-  version: ">=0"
-license: "Apache-2.0 LGPL-2.1"
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
+  name: cmake
+  requires: null
+  version: '>=3.7.2'
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
+  name: make
+  requires: null
+  version: '>=0'
+use_flags:
+- big-endian
+- amd64
+- -doc
+- -debug
+- kernel_linux
+- elibc_glibc
+- abi_x86_64
+- userland_GNU
+- -static-libs
+version: 2.3.3.4+r7

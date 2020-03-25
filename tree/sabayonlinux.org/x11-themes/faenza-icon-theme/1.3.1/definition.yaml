@@ -1,14 +1,30 @@
+Labels: null
 category: x11-themes
+conflicts: null
+id: 0
+license: GPL-3
 name: faenza-icon-theme
 requires:
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: sed
+  requires: null
   version: '>=4'
-- category: x11-themes
+- Labels: null
+  category: x11-themes
+  conflicts: null
+  id: 0
   name: adwaita-icon-theme
+  requires: null
   version: '>=0'
-- category: x11-themes
+- Labels: null
+  category: x11-themes
+  conflicts: null
+  id: 0
   name: hicolor-icon-theme
+  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -18,5 +34,4 @@ use_flags:
 - elibc_glibc
 - amd64
 - -minimal
-version: 1.3.1+2
-license: "GPL-3"
+version: 1.3.1+3

@@ -1,14 +1,30 @@
+Labels: null
 category: media-libs
+conflicts: null
+id: 0
+license: LGPL-2.1 MPL-1.1
 name: taglib
 requires:
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: zlib
+  requires: null
   version: '>=1.2.8'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: cmake
+  requires: null
   version: '>=0'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: ninja
+  requires: null
   version: '>=0'
 use_flags:
 - -examples
@@ -30,5 +46,4 @@ use_flags:
 - split-usr
 - -abi_riscv_lp64
 - userland_GNU
-version: 1.11.1+p20190920r1.3
-license: "LGPL-2.1 MPL-1.1"
+version: 1.11.1+p20190920r1.4

@@ -1,32 +1,72 @@
+Labels: null
 category: xfce-base
+conflicts: null
+id: 0
+license: GPL-2+ LGPL-2.1+
 name: exo
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: perl
+  requires: null
   version: '>=5.6'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: glib-2
+  requires: null
   version: '>=2.42'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: gtk+-3
+  requires: null
   version: '>=3.22'
-- category: xfce-base
+- Labels: null
+  category: xfce-base
+  conflicts: null
+  id: 0
   name: libxfce4ui
+  requires: null
   version: '>=4.12'
-- category: xfce-base
+- Labels: null
+  category: xfce-base
+  conflicts: null
+  id: 0
   name: libxfce4util
+  requires: null
   version: '>=4.12'
-- category: dev-perl
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
   name: URI
+  requires: null
   version: '>=0'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: gtk-doc-am
+  requires: null
   version: '>=0'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: intltool
+  requires: null
   version: '>=0'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: gettext
+  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU
@@ -37,5 +77,4 @@ use_flags:
 - elibc_glibc
 - -gtk2
 - kernel_linux
-version: 0.12.11+2
-license: "GPL-2+ LGPL-2.1+"
+version: 0.12.11+3

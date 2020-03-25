@@ -1,8 +1,16 @@
+Labels: null
 category: app-dicts
+conflicts: null
+id: 0
+license: FDL-1.2
 name: myspell-ms
 requires:
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: unzip
+  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU
@@ -11,5 +19,4 @@ use_flags:
 - kernel_linux
 - abi_x86_64
 - elibc_glibc
-version: 20100407+2
-license: "FDL-1.2"
+version: 20100407+3

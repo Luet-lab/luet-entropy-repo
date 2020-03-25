@@ -1,48 +1,89 @@
-
-category: "dev-haskell"
-name: "juicypixels"
-version: "3.2.8"
-
-use_flags:
-- "elibc_glibc"
-- "abi_x86_64"
-- "-doc"
-- "big-endian"
-- "-profile"
-- "kernel_linux"
-- "amd64"
-- "-hscolour"
-- "userland_GNU"
-- "-mmap"
+Labels: null
+category: dev-haskell
+conflicts: null
+id: 0
+license: BSD
+name: juicypixels
 requires:
-- category: "dev-haskell"
-  name: "mtl"
-  version: "<2.3"
-- category: "dev-haskell"
-  name: "primitive"
-  version: "<0.7"
-- category: "dev-haskell"
-  name: "vector"
-  version: "<0.12"
-- category: "dev-haskell"
-  name: "zlib"
-  version: "<0.7"
-- category: "dev-haskell"
-  name: "cabal"
-  version: ">=1.18.1.3"
-- category: "dev-haskell"
-  name: "mtl"
-  version: ">=1.1"
-- category: "dev-haskell"
-  name: "primitive"
-  version: ">=0.4"
-- category: "dev-haskell"
-  name: "vector"
-  version: ">=0.10"
-- category: "dev-haskell"
-  name: "zlib"
-  version: ">=0.5.3.1"
-- category: "dev-lang"
-  name: "ghc"
-  version: ">=7.8.2"
-license: "BSD"
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: mtl
+  requires: null
+  version: <2.3
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: primitive
+  requires: null
+  version: <0.7
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: vector
+  requires: null
+  version: <0.12
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: zlib
+  requires: null
+  version: <0.7
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: cabal
+  requires: null
+  version: '>=1.18.1.3'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: mtl
+  requires: null
+  version: '>=1.1'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: primitive
+  requires: null
+  version: '>=0.4'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: vector
+  requires: null
+  version: '>=0.10'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: zlib
+  requires: null
+  version: '>=0.5.3.1'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: ghc
+  requires: null
+  version: '>=7.8.2'
+use_flags:
+- elibc_glibc
+- abi_x86_64
+- -doc
+- big-endian
+- -profile
+- kernel_linux
+- amd64
+- -hscolour
+- userland_GNU
+- -mmap
+version: 3.2.8+1

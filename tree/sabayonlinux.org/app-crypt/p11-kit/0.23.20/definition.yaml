@@ -1,37 +1,50 @@
-
-category: "app-crypt"
-name: "p11-kit"
-version: "0.23.20+r1"
-
-use_flags:
-- "big-endian"
-- "-abi_s390_32"
-- "-abi_mips_n32"
-- "-abi_x86_x32"
-- "-abi_riscv_lp64d"
-- "-abi_mips_n64"
-- "asn1"
-- "amd64"
-- "-abi_mips_o32"
-- "elibc_glibc"
-- "abi_x86_64"
-- "libffi"
-- "kernel_linux"
-- "-debug"
-- "abi_x86_32"
-- "trust"
-- "-abi_s390_64"
-- "split-usr"
-- "-abi_riscv_lp64"
-- "userland_GNU"
+Labels: null
+category: app-crypt
+conflicts: null
+id: 0
+license: MIT
+name: p11-kit
 requires:
-- category: "dev-libs"
-  name: "libtasn1"
-  version: ">=3.4"
-- category: "app-misc"
-  name: "ca-certificates"
-  version: ">=0"
-- category: "dev-libs"
-  name: "libffi"
-  version: ">=0"
-license: "MIT"
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
+  name: libtasn1
+  requires: null
+  version: '>=3.4'
+- Labels: null
+  category: app-misc
+  conflicts: null
+  id: 0
+  name: ca-certificates
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
+  name: libffi
+  requires: null
+  version: '>=0'
+use_flags:
+- big-endian
+- -abi_s390_32
+- -abi_mips_n32
+- -abi_x86_x32
+- -abi_riscv_lp64d
+- -abi_mips_n64
+- asn1
+- amd64
+- -abi_mips_o32
+- elibc_glibc
+- abi_x86_64
+- libffi
+- kernel_linux
+- -debug
+- abi_x86_32
+- trust
+- -abi_s390_64
+- split-usr
+- -abi_riscv_lp64
+- userland_GNU
+version: 0.23.20+r2

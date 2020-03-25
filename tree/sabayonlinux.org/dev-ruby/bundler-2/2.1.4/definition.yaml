@@ -1,14 +1,30 @@
+Labels: null
 category: dev-ruby
+conflicts: null
+id: 0
+license: MIT
 name: bundler-2
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: ruby-2.5
+  requires: null
   version: '>=0'
-- category: dev-ruby
+- Labels: null
+  category: dev-ruby
+  conflicts: null
+  id: 0
   name: rdoc
+  requires: null
   version: '>=0'
-- category: dev-vcs
+- Labels: null
+  category: dev-vcs
+  conflicts: null
+  id: 0
   name: git
+  requires: null
   version: '>=0'
 use_flags:
 - -ruby_targets_ruby27
@@ -24,5 +40,4 @@ use_flags:
 - userland_GNU
 - -ruby_targets_ruby24
 - kernel_linux
-version: 2.1.4+2
-license: "MIT"
+version: 2.1.4+3

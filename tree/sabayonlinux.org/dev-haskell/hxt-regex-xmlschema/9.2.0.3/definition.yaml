@@ -1,39 +1,68 @@
-
-category: "dev-haskell"
-name: "hxt-regex-xmlschema"
-version: "9.2.0.3"
-
-use_flags:
-- "big-endian"
-- "kernel_linux"
-- "-doc"
-- "amd64"
-- "-hscolour"
-- "elibc_glibc"
-- "userland_GNU"
-- "-profile"
-- "-test"
-- "abi_x86_64"
+Labels: null
+category: dev-haskell
+conflicts: null
+id: 0
+license: MIT
+name: hxt-regex-xmlschema
 requires:
-- category: "dev-haskell"
-  name: "hxt-charproperties"
-  version: "<10"
-- category: "dev-haskell"
-  name: "parsec"
-  version: "<4"
-- category: "dev-haskell"
-  name: "cabal"
-  version: ">=1.16.0"
-- category: "dev-haskell"
-  name: "hxt-charproperties"
-  version: ">=9"
-- category: "dev-haskell"
-  name: "parsec"
-  version: ">=2.1"
-- category: "dev-haskell"
-  name: "text"
-  version: ">=0.10"
-- category: "dev-lang"
-  name: "ghc"
-  version: ">=7.6.1"
-license: "MIT"
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: hxt-charproperties
+  requires: null
+  version: <10
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: parsec
+  requires: null
+  version: <4
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: cabal
+  requires: null
+  version: '>=1.16.0'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: hxt-charproperties
+  requires: null
+  version: '>=9'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: parsec
+  requires: null
+  version: '>=2.1'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: text
+  requires: null
+  version: '>=0.10'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: ghc
+  requires: null
+  version: '>=7.6.1'
+use_flags:
+- big-endian
+- kernel_linux
+- -doc
+- amd64
+- -hscolour
+- elibc_glibc
+- userland_GNU
+- -profile
+- -test
+- abi_x86_64
+version: 9.2.0.3+1

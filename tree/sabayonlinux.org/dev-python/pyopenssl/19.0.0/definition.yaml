@@ -1,20 +1,44 @@
+Labels: null
 category: dev-python
+conflicts: null
+id: 0
+license: Apache-2.0
 name: pyopenssl
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-2.7
+  requires: null
   version: '>=2.7.5'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-exec-2
+  requires: null
   version: '>=2'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: cryptography
+  requires: null
   version: '>=2.3'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: six
+  requires: null
   version: '>=1.5.2'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-3.6
+  requires: null
   version: '>=0'
 use_flags:
 - -python_targets_pypy3
@@ -32,5 +56,4 @@ use_flags:
 - -python_targets_python3_7
 - amd64
 - big-endian
-version: 19.0.0+2
-license: "Apache-2.0"
+version: 19.0.0+3

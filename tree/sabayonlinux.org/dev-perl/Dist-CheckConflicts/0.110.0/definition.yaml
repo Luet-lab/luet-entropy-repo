@@ -1,11 +1,23 @@
+Labels: null
 category: dev-perl
+conflicts: null
+id: 0
+license: Artistic GPL-1+
 name: Dist-CheckConflicts
 requires:
-- category: dev-perl
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
   name: Module-Runtime
+  requires: null
   version: '>=0.9.0'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: perl
+  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU
@@ -16,5 +28,4 @@ use_flags:
 - -test
 - elibc_glibc
 - kernel_linux
-version: 0.110.0+2
-license: "Artistic GPL-1+"
+version: 0.110.0+3

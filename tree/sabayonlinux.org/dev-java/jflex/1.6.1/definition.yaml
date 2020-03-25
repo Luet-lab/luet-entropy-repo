@@ -1,14 +1,30 @@
+Labels: null
 category: dev-java
+conflicts: null
+id: 0
+license: BSD
 name: jflex
 requires:
-- category: dev-java
+- Labels: null
+  category: dev-java
+  conflicts: null
+  id: 0
   name: java-config-2
+  requires: null
   version: '>=2.2.0'
-- category: dev-java
+- Labels: null
+  category: dev-java
+  conflicts: null
+  id: 0
   name: javacup
+  requires: null
   version: '>=0.11b'
-- category: dev-java
+- Labels: null
+  category: dev-java
+  conflicts: null
+  id: 0
   name: ant-core
+  requires: null
   version: '>=0'
 use_flags:
 - -test
@@ -22,5 +38,4 @@ use_flags:
 - amd64
 - abi_x86_64
 - -doc
-version: 1.6.1+2
-license: "BSD"
+version: 1.6.1+3

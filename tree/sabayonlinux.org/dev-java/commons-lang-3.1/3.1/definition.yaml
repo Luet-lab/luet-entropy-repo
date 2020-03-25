@@ -1,14 +1,30 @@
+Labels: null
 category: dev-java
+conflicts: null
+id: 0
+license: Apache-2.0
 name: commons-lang-3.1
 requires:
-- category: dev-java
+- Labels: null
+  category: dev-java
+  conflicts: null
+  id: 0
   name: ant-core
+  requires: null
   version: '>=1.8.2'
-- category: dev-java
+- Labels: null
+  category: dev-java
+  conflicts: null
+  id: 0
   name: java-config-2
+  requires: null
   version: '>=2.1.9'
-- category: dev-java
+- Labels: null
+  category: dev-java
+  conflicts: null
+  id: 0
   name: javatoolkit
+  requires: null
   version: '>=0.3.0'
 use_flags:
 - elibc_glibc
@@ -20,5 +36,4 @@ use_flags:
 - userland_GNU
 - abi_x86_64
 - amd64
-version: 3.1+2
-license: "Apache-2.0"
+version: 3.1+3

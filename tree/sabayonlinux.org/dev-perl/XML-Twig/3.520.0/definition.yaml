@@ -1,29 +1,65 @@
+Labels: null
 category: dev-perl
+conflicts: null
+id: 0
+license: Artistic GPL-1+
 name: XML-Twig
 requires:
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: expat
+  requires: null
   version: '>=1.95.5'
-- category: dev-perl
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
   name: HTML-Parser
+  requires: null
   version: '>=3.690.0'
-- category: dev-perl
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
   name: Text-Iconv
+  requires: null
   version: '>=1.2'
-- category: dev-perl
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
   name: XML-Parser
+  requires: null
   version: '>=2.31'
-- category: dev-perl
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
   name: libwww-perl
+  requires: null
   version: '>=6.40.0'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: perl
+  requires: null
   version: '>=0'
-- category: dev-perl
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
   name: Tie-IxHash
+  requires: null
   version: '>=0'
-- category: dev-perl
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
   name: XML-XPath
+  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc
@@ -35,5 +71,4 @@ use_flags:
 - kernel_linux
 - split-usr
 - amd64
-version: 3.520.0+2
-license: "Artistic GPL-1+"
+version: 3.520.0+3

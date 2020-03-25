@@ -1,29 +1,65 @@
+Labels: null
 category: dev-lang
+conflicts: null
+id: 0
+license: GPL-2 GPL-3 LGPL-2.1
 name: R
 requires:
-- category: app-portage
+- Labels: null
+  category: app-portage
+  conflicts: null
+  id: 0
   name: elt-patches
+  requires: null
   version: '>=20170815'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: libpcre-3
+  requires: null
   version: '>=8.35'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: autoconf-2.69
+  requires: null
   version: '>=2.69'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: automake-1.15
+  requires: null
   version: '>=1.15.1'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: libtool-2
+  requires: null
   version: '>=2.4'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: zlib
+  requires: null
   version: '>=1.2.5.1'
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: bzip2
+  requires: null
   version: '>=0'
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: xz-utils
+  requires: null
   version: '>=0'
 use_flags:
 - -minimal
@@ -51,5 +87,4 @@ use_flags:
 - perl
 - -prefix
 - big-endian
-version: 3.5.3+2
-license: "GPL-2 GPL-3 LGPL-2.1"
+version: 3.5.3+3

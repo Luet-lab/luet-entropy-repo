@@ -1,23 +1,52 @@
+Labels: null
 category: dev-texlive
+conflicts: null
+id: 0
+license: Apache-2.0 Artistic BSD CC-BY-SA-4.0 GPL-1 GPL-2 GPL-3 GPL-3+ LGPL-2 LGPL-3
+  LPPL-1.2 LPPL-1.3 LPPL-1.3c MIT TeX-other-free public-domain
 name: texlive-latexextra
 requires:
-- category: app-text
+- Labels: null
+  category: app-text
+  conflicts: null
+  id: 0
   name: texlive-core
+  requires: null
   version: '>=2019'
-- category: dev-texlive
+- Labels: null
+  category: dev-texlive
+  conflicts: null
+  id: 0
   name: texlive-fontsrecommended
+  requires: null
   version: '>=2014'
-- category: dev-texlive
+- Labels: null
+  category: dev-texlive
+  conflicts: null
+  id: 0
   name: texlive-latexrecommended
+  requires: null
   version: '>=2019'
-- category: dev-texlive
+- Labels: null
+  category: dev-texlive
+  conflicts: null
+  id: 0
   name: texlive-pictures
+  requires: null
   version: '>=2019'
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: xz-utils
+  requires: null
   version: '>=0'
-- category: dev-perl
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
   name: Spreadsheet-ParseExcel
+  requires: null
   version: '>=0'
 use_flags:
 - -doc
@@ -28,5 +57,4 @@ use_flags:
 - big-endian
 - amd64
 - kernel_linux
-version: 2019+r4
-license: "Apache-2.0 Artistic BSD CC-BY-SA-4.0 GPL-1 GPL-2 GPL-3 GPL-3+ LGPL-2 LGPL-3 LPPL-1.2 LPPL-1.3 LPPL-1.3c MIT TeX-other-free public-domain"
+version: 2019+r5

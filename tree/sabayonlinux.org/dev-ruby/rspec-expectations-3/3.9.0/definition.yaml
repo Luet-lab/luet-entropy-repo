@@ -1,17 +1,37 @@
+Labels: null
 category: dev-ruby
+conflicts: null
+id: 0
+license: MIT
 name: rspec-expectations-3
 requires:
-- category: dev-ruby
+- Labels: null
+  category: dev-ruby
+  conflicts: null
+  id: 0
   name: diff-lcs
+  requires: null
   version: <2
-- category: dev-ruby
+- Labels: null
+  category: dev-ruby
+  conflicts: null
+  id: 0
   name: rspec-support-3
+  requires: null
   version: '>=3.9'
-- category: dev-ruby
+- Labels: null
+  category: dev-ruby
+  conflicts: null
+  id: 0
   name: diff-lcs
+  requires: null
   version: '>=1.2.0'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: ruby-2.5
+  requires: null
   version: '>=0'
 use_flags:
 - amd64
@@ -26,5 +46,4 @@ use_flags:
 - abi_x86_64
 - elibc_glibc
 - ruby_targets_ruby25
-version: 3.9.0+2
-license: "MIT"
+version: 3.9.0+3

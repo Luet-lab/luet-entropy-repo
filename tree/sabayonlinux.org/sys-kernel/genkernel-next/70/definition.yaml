@@ -1,38 +1,86 @@
+Labels: null
 category: sys-kernel
+conflicts: null
+id: 0
+license: GPL-2
 name: genkernel-next
 requires:
-- category: app-misc
+- Labels: null
+  category: app-misc
+  conflicts: null
+  id: 0
   name: pax-utils
+  requires: null
   version: '>=0.6'
-- category: sys-fs
+- Labels: null
+  category: sys-fs
+  conflicts: null
+  id: 0
   name: dmraid
+  requires: null
   version: '>=1.0.0'
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: cpio
+  requires: null
   version: '>=0'
-- category: app-portage
+- Labels: null
+  category: app-portage
+  conflicts: null
+  id: 0
   name: portage-utils
+  requires: null
   version: '>=0'
-- category: app-text
+- Labels: null
+  category: app-text
+  conflicts: null
+  id: 0
   name: asciidoc
+  requires: null
   version: '>=0'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: util-linux
+  requires: null
   version: '>=0'
-- category: sys-block
+- Labels: null
+  category: sys-block
+  conflicts: null
+  id: 0
   name: thin-provisioning-tools
+  requires: null
   version: '>=0'
-- category: sys-fs
+- Labels: null
+  category: sys-fs
+  conflicts: null
+  id: 0
   name: cryptsetup
+  requires: null
   version: '>=0'
-- category: sys-fs
+- Labels: null
+  category: sys-fs
+  conflicts: null
+  id: 0
   name: e2fsprogs
+  requires: null
   version: '>=0'
-- category: sys-fs
+- Labels: null
+  category: sys-fs
+  conflicts: null
+  id: 0
   name: lvm2
+  requires: null
   version: '>=0'
-- category: sys-fs
+- Labels: null
+  category: sys-fs
+  conflicts: null
+  id: 0
   name: mdadm
+  requires: null
   version: '>=0'
 use_flags:
 - abi_x86_64
@@ -49,5 +97,4 @@ use_flags:
 - -selinux
 - -plymouth
 - cryptsetup
-version: 70+2
-license: "GPL-2"
+version: 70+3

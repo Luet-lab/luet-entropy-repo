@@ -1,5 +1,10 @@
+Labels: null
 category: sys-apps
+conflicts: null
+id: 0
+license: GPL-2
 name: baselayout
+requires: null
 use_flags:
 - abi_x86_64
 - amd64
@@ -10,5 +15,4 @@ use_flags:
 - split-usr
 - -kernel_FreeBSD
 - userland_GNU
-version: 2.6+r3
-license: "GPL-2"
+version: 2.6+r4

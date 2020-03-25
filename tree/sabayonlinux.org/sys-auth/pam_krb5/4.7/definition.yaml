@@ -1,8 +1,16 @@
+Labels: null
 category: sys-auth
+conflicts: null
+id: 0
+license: BSD-2 GPL-2
 name: pam_krb5
 requires:
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: pam
+  requires: null
   version: '>=0'
 use_flags:
 - kernel_linux
@@ -12,5 +20,4 @@ use_flags:
 - big-endian
 - amd64
 - elibc_glibc
-version: 4.7+2
-license: "BSD-2 GPL-2"
+version: 4.7+3

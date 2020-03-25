@@ -1,20 +1,44 @@
+Labels: null
 category: dev-python
+conflicts: null
+id: 0
+license: MPL-2.0
 name: certifi
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-2.7
+  requires: null
   version: '>=2.7.5'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-exec-2
+  requires: null
   version: '>=2'
-- category: app-misc
+- Labels: null
+  category: app-misc
+  conflicts: null
+  id: 0
   name: ca-certificates
+  requires: null
   version: '>=0'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-3.6
+  requires: null
   version: '>=0'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: setuptools
+  requires: null
   version: '>=0'
 use_flags:
 - python_targets_python3_6
@@ -29,5 +53,4 @@ use_flags:
 - big-endian
 - -python_targets_pypy3
 - kernel_linux
-version: 2019.11.28+2
-license: "MPL-2.0"
+version: 2019.11.28+3

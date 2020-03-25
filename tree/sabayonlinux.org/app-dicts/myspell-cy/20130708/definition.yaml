@@ -1,8 +1,16 @@
+Labels: null
 category: app-dicts
+conflicts: null
+id: 0
+license: GPL-2 LGPL-2.1
 name: myspell-cy
 requires:
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: unzip
+  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc
@@ -10,5 +18,4 @@ use_flags:
 - abi_x86_64
 - amd64
 - userland_GNU
-version: 20130708+2
-license: "GPL-2 LGPL-2.1"
+version: 20130708+3

@@ -1,27 +1,40 @@
-
-category: "dev-haskell"
-name: "haddock-library"
-version: "1.4.2"
-
-use_flags:
-- "amd64"
-- "-profile"
-- "elibc_glibc"
-- "-doc"
-- "big-endian"
-- "abi_x86_64"
-- "-hscolour"
-- "kernel_linux"
-- "userland_GNU"
-- "-test"
+Labels: null
+category: dev-haskell
+conflicts: null
+id: 0
+license: BSD
+name: haddock-library
 requires:
-- category: "dev-haskell"
-  name: "cabal"
-  version: ">=1.10"
-- category: "dev-lang"
-  name: "ghc"
-  version: ">=7.4.1"
-- category: "dev-haskell"
-  name: "transformers"
-  version: ">=0"
-license: "BSD"
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: cabal
+  requires: null
+  version: '>=1.10'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: ghc
+  requires: null
+  version: '>=7.4.1'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: transformers
+  requires: null
+  version: '>=0'
+use_flags:
+- amd64
+- -profile
+- elibc_glibc
+- -doc
+- big-endian
+- abi_x86_64
+- -hscolour
+- kernel_linux
+- userland_GNU
+- -test
+version: 1.4.2+1

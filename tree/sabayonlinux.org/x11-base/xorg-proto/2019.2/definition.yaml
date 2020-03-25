@@ -1,11 +1,23 @@
+Labels: null
 category: x11-base
+conflicts: null
+id: 0
+license: MIT
 name: xorg-proto
 requires:
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: meson
+  requires: null
   version: '>=0.48.2'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: ninja
+  requires: null
   version: '>=1.7.2'
 use_flags:
 - elibc_glibc
@@ -15,5 +27,4 @@ use_flags:
 - kernel_linux
 - split-usr
 - big-endian
-version: 2019.2+2
-license: "MIT"
+version: 2019.2+3

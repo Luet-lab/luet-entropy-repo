@@ -1,8 +1,16 @@
+Labels: null
 category: sys-power
+conflicts: null
+id: 0
+license: GPL-2
 name: acpid
 requires:
-- category: sys-kernel
+- Labels: null
+  category: sys-kernel
+  conflicts: null
+  id: 0
   name: linux-headers
+  requires: null
   version: '>=3'
 use_flags:
 - userland_GNU
@@ -13,5 +21,4 @@ use_flags:
 - elibc_glibc
 - split-usr
 - amd64
-version: 2.0.32+r3
-license: "GPL-2"
+version: 2.0.32+r4

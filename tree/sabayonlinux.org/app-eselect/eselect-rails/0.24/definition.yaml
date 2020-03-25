@@ -1,8 +1,16 @@
+Labels: null
 category: app-eselect
+conflicts: null
+id: 0
+license: GPL-2
 name: eselect-rails
 requires:
-- category: app-admin
+- Labels: null
+  category: app-admin
+  conflicts: null
+  id: 0
   name: eselect
+  requires: null
   version: '>=1.2.0'
 use_flags:
 - abi_x86_64
@@ -11,5 +19,4 @@ use_flags:
 - elibc_glibc
 - amd64
 - userland_GNU
-version: 0.24+2
-license: "GPL-2"
+version: 0.24+3

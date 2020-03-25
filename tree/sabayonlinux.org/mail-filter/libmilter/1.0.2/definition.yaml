@@ -1,5 +1,10 @@
+Labels: null
 category: mail-filter
+conflicts: null
+id: 0
+license: Sendmail
 name: libmilter
+requires: null
 use_flags:
 - ipv6
 - amd64
@@ -8,5 +13,4 @@ use_flags:
 - -poll
 - kernel_linux
 - multilib
-version: 1.0.2+2
-license: "Sendmail"
+version: 1.0.2+3

@@ -1,8 +1,16 @@
+Labels: null
 category: media-libs
+conflicts: null
+id: 0
+license: LGPL-2.1
 name: ladspa-sdk
 requires:
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: sed
+  requires: null
   version: '>=4'
 use_flags:
 - big-endian
@@ -21,5 +29,4 @@ use_flags:
 - split-usr
 - -abi_riscv_lp64
 - userland_GNU
-version: 1.13+r5
-license: "LGPL-2.1"
+version: 1.13+r6

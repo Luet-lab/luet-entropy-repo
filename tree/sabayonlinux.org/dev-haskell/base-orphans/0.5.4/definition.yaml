@@ -1,24 +1,33 @@
-
-category: "dev-haskell"
-name: "base-orphans"
-version: "0.5.4"
-
-use_flags:
-- "-hscolour"
-- "-profile"
-- "kernel_linux"
-- "elibc_glibc"
-- "abi_x86_64"
-- "userland_GNU"
-- "amd64"
-- "big-endian"
-- "-doc"
-- "-test"
+Labels: null
+category: dev-haskell
+conflicts: null
+id: 0
+license: MIT
+name: base-orphans
 requires:
-- category: "dev-haskell"
-  name: "cabal"
-  version: ">=1.10"
-- category: "dev-lang"
-  name: "ghc"
-  version: ">=7.4.1"
-license: "MIT"
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: cabal
+  requires: null
+  version: '>=1.10'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: ghc
+  requires: null
+  version: '>=7.4.1'
+use_flags:
+- -hscolour
+- -profile
+- kernel_linux
+- elibc_glibc
+- abi_x86_64
+- userland_GNU
+- amd64
+- big-endian
+- -doc
+- -test
+version: 0.5.4+1

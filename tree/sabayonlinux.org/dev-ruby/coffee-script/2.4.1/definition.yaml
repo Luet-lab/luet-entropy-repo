@@ -1,14 +1,30 @@
+Labels: null
 category: dev-ruby
+conflicts: null
+id: 0
+license: MIT
 name: coffee-script
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: ruby-2.5
+  requires: null
   version: '>=0'
-- category: dev-ruby
+- Labels: null
+  category: dev-ruby
+  conflicts: null
+  id: 0
   name: coffee-script-source
+  requires: null
   version: '>=0'
-- category: dev-ruby
+- Labels: null
+  category: dev-ruby
+  conflicts: null
+  id: 0
   name: execjs
+  requires: null
   version: '>=0'
 use_flags:
 - split-usr
@@ -22,5 +38,4 @@ use_flags:
 - -ruby_targets_ruby24
 - -ruby_targets_ruby26
 - amd64
-version: 2.4.1+2
-license: "MIT"
+version: 2.4.1+3

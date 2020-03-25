@@ -1,14 +1,30 @@
+Labels: null
 category: media-libs
+conflicts: null
+id: 0
+license: GPL-2
 name: x265
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: yasm
+  requires: null
   version: '>=1.2.0'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: cmake
+  requires: null
   version: '>=3.9.6'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: make
+  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -34,5 +50,4 @@ use_flags:
 - 12bit
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
-version: 3.1.2+3
-license: "GPL-2"
+version: 3.1.2+4

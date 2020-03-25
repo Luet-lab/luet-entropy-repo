@@ -1,11 +1,23 @@
+Labels: null
 category: app-text
+conflicts: null
+id: 0
+license: LGPL-2.1 MPL-2.0
 name: libwpd-0.10
 requires:
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: boost
+  requires: null
   version: '>=0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: librevenge
+  requires: null
   version: '>=0'
 use_flags:
 - amd64
@@ -16,5 +28,4 @@ use_flags:
 - tools
 - userland_GNU
 - big-endian
-version: 0.10.3+2
-license: "LGPL-2.1 MPL-2.0"
+version: 0.10.3+3

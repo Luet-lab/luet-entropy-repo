@@ -1,14 +1,30 @@
+Labels: null
 category: app-admin
+conflicts: null
+id: 0
+license: Apache-2.0
 name: mongo-tools
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: go
+  requires: null
   version: '>=0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: openssl
+  requires: null
   version: '>=0'
-- category: net-libs
+- Labels: null
+  category: net-libs
+  conflicts: null
+  id: 0
   name: libpcap
+  requires: null
   version: '>=0'
 use_flags:
 - amd64
@@ -20,5 +36,4 @@ use_flags:
 - kernel_linux
 - split-usr
 - big-endian
-version: 4.2.1+2
-license: "Apache-2.0"
+version: 4.2.1+3

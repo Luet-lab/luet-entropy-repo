@@ -1,8 +1,16 @@
+Labels: null
 category: net-fs
+conflicts: null
+id: 0
+license: GPL-3
 name: cifs-utils
 requires:
-- category: app-portage
+- Labels: null
+  category: app-portage
+  conflicts: null
+  id: 0
   name: elt-patches
+  requires: null
   version: '>=20170815'
 use_flags:
 - elibc_glibc
@@ -17,5 +25,4 @@ use_flags:
 - userland_GNU
 - amd64
 - abi_x86_64
-version: 6.9+r3
-license: "GPL-3"
+version: 6.9+r4

@@ -1,13 +1,15 @@
-
-category: "games-strategy"
-name: "0ad-data"
-version: "0.0.23b+alpha"
-
+Labels: null
+category: games-strategy
+conflicts: null
+id: 0
+license: BitstreamVera CC-BY-SA-3.0 GPL-2 LPPL-1.3c
+name: 0ad-data
+requires: null
 use_flags:
-- "abi_x86_64"
-- "userland_GNU"
-- "kernel_linux"
-- "big-endian"
-- "elibc_glibc"
-- "amd64"
-license: "BitstreamVera CC-BY-SA-3.0 GPL-2 LPPL-1.3c"
+- abi_x86_64
+- userland_GNU
+- kernel_linux
+- big-endian
+- elibc_glibc
+- amd64
+version: 0.0.23b+alpha.1

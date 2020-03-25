@@ -1,26 +1,58 @@
+Labels: null
 category: dev-ruby
+conflicts: null
+id: 0
+license: MIT
 name: railties-6.0
 requires:
-- category: app-eselect
+- Labels: null
+  category: app-eselect
+  conflicts: null
+  id: 0
   name: eselect-rails
+  requires: null
   version: '>=0.24'
-- category: dev-ruby
+- Labels: null
+  category: dev-ruby
+  conflicts: null
+  id: 0
   name: rake
+  requires: null
   version: '>=0.8.7'
-- category: dev-ruby
+- Labels: null
+  category: dev-ruby
+  conflicts: null
+  id: 0
   name: thor
+  requires: null
   version: '>=0.20.3'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: ruby-2.5
+  requires: null
   version: '>=0'
-- category: dev-ruby
+- Labels: null
+  category: dev-ruby
+  conflicts: null
+  id: 0
   name: method_source
+  requires: null
   version: '>=0'
-- category: dev-ruby
+- Labels: null
+  category: dev-ruby
+  conflicts: null
+  id: 0
   name: actionpack-6.0
+  requires: null
   version: '>=6.0.2.1'
-- category: dev-ruby
+- Labels: null
+  category: dev-ruby
+  conflicts: null
+  id: 0
   name: activesupport-6.0
+  requires: null
   version: '>=6.0.2.1'
 use_flags:
 - ruby_targets_ruby25
@@ -33,5 +65,4 @@ use_flags:
 - elibc_glibc
 - split-usr
 - amd64
-version: 6.0.2.1+2
-license: "MIT"
+version: 6.0.2.1+3

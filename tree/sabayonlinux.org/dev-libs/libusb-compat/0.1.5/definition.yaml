@@ -1,5 +1,10 @@
+Labels: null
 category: dev-libs
+conflicts: null
+id: 0
+license: LGPL-2.1
 name: libusb-compat
+requires: null
 use_flags:
 - -examples
 - big-endian
@@ -20,5 +25,4 @@ use_flags:
 - split-usr
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
-version: 0.1.5+r6
-license: "LGPL-2.1"
+version: 0.1.5+r7

@@ -1,11 +1,23 @@
+Labels: null
 category: x11-libs
+conflicts: null
+id: 0
+license: MIT
 name: pixman
 requires:
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: meson
+  requires: null
   version: '>=0.51.2'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: ninja
+  requires: null
   version: '>=1.8.2'
 use_flags:
 - big-endian
@@ -32,5 +44,4 @@ use_flags:
 - -altivec
 - -abi_riscv_lp64d
 - -cpu_flags_arm_iwmmxt
-version: 0.38.4+3
-license: "MIT"
+version: 0.38.4+4

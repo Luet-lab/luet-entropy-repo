@@ -1,56 +1,128 @@
+Labels: null
 category: net-fs
+conflicts: null
+id: 0
+license: GPL-2
 name: nfs-utils
 requires:
-- category: app-portage
+- Labels: null
+  category: app-portage
+  conflicts: null
+  id: 0
   name: elt-patches
+  requires: null
   version: '>=20170815'
-- category: dev-db
+- Labels: null
+  category: dev-db
+  conflicts: null
+  id: 0
   name: sqlite-3
+  requires: null
   version: '>=3.3'
-- category: net-libs
+- Labels: null
+  category: net-libs
+  conflicts: null
+  id: 0
   name: libtirpc
+  requires: null
   version: '>=0.2.4'
-- category: net-nds
+- Labels: null
+  category: net-nds
+  conflicts: null
+  id: 0
   name: rpcbind
+  requires: null
   version: '>=0.2.4'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: keyutils
+  requires: null
   version: '>=1.5.9'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: autoconf-2.69
+  requires: null
   version: '>=2.69'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: automake-1.15
+  requires: null
   version: '>=1.15.1'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: libtool-2
+  requires: null
   version: '>=2.4'
-- category: app-crypt
+- Labels: null
+  category: app-crypt
+  conflicts: null
+  id: 0
   name: mit-krb5
+  requires: null
   version: '>=0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: libevent
+  requires: null
   version: '>=0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: libxml2-2
+  requires: null
   version: '>=0'
-- category: net-libs
+- Labels: null
+  category: net-libs
+  conflicts: null
+  id: 0
   name: libtirpc
+  requires: null
   version: '>=0'
-- category: net-libs
+- Labels: null
+  category: net-libs
+  conflicts: null
+  id: 0
   name: rpcsvc-proto
+  requires: null
   version: '>=0'
-- category: net-nds
+- Labels: null
+  category: net-nds
+  conflicts: null
+  id: 0
   name: openldap
+  requires: null
   version: '>=0'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: tcp-wrappers
+  requires: null
   version: '>=0'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: util-linux
+  requires: null
   version: '>=0'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: e2fsprogs-libs
+  requires: null
   version: '>=0'
 use_flags:
 - ipv6
@@ -73,5 +145,4 @@ use_flags:
 - nfsv4
 - -caps
 - -junction
-version: 2.4.1+r6
-license: "GPL-2"
+version: 2.4.1+r7

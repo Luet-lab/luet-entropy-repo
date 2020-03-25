@@ -1,8 +1,16 @@
+Labels: null
 category: dev-libs
+conflicts: null
+id: 0
+license: BSD-2
 name: tre
 requires:
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: gettext
+  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU
@@ -12,5 +20,4 @@ use_flags:
 - kernel_linux
 - abi_x86_64
 - -static-libs
-version: 0.8.0+r3
-license: "BSD-2"
+version: 0.8.0+r4

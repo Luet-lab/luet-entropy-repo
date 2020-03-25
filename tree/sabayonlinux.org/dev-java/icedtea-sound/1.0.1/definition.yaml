@@ -1,11 +1,23 @@
+Labels: null
 category: dev-java
+conflicts: null
+id: 0
+license: GPL-2-with-linking-exception
 name: icedtea-sound
 requires:
-- category: dev-java
+- Labels: null
+  category: dev-java
+  conflicts: null
+  id: 0
   name: java-config-2
+  requires: null
   version: '>=2.1.9'
-- category: media-sound
+- Labels: null
+  category: media-sound
+  conflicts: null
+  id: 0
   name: pulseaudio
+  requires: null
   version: '>=0.9.11'
 use_flags:
 - elibc_glibc
@@ -16,5 +28,4 @@ use_flags:
 - doc
 - kernel_linux
 - amd64
-version: 1.0.1+2
-license: "GPL-2-with-linking-exception"
+version: 1.0.1+3

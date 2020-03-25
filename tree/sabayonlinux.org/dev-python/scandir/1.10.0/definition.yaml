@@ -1,17 +1,37 @@
+Labels: null
 category: dev-python
+conflicts: null
+id: 0
+license: BSD
 name: scandir
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-2.7
+  requires: null
   version: '>=2.7.5'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-exec-2
+  requires: null
   version: '>=2'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-3.6
+  requires: null
   version: '>=0'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: setuptools
+  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -25,5 +45,4 @@ use_flags:
 - -test
 - -python_targets_python3_5
 - python_targets_python2_7
-version: 1.10.0+2
-license: "BSD"
+version: 1.10.0+3

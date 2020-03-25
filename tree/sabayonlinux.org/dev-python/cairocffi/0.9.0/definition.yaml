@@ -1,29 +1,65 @@
+Labels: null
 category: dev-python
+conflicts: null
+id: 0
+license: BSD
 name: cairocffi
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-2.7
+  requires: null
   version: '>=2.7.5'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-exec-2
+  requires: null
   version: '>=2'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: cffi
+  requires: null
   version: '>=1.1.0'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: xcffib
+  requires: null
   version: '>=0.3.2'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-3.6
+  requires: null
   version: '>=0'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: setuptools
+  requires: null
   version: '>=0'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: cairo
+  requires: null
   version: '>=0'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: gdk-pixbuf-2
+  requires: null
   version: '>=0'
 use_flags:
 - -python_targets_python3_7
@@ -38,5 +74,4 @@ use_flags:
 - userland_GNU
 - kernel_linux
 - -doc
-version: 0.9.0+r4
-license: "BSD"
+version: 0.9.0+r5

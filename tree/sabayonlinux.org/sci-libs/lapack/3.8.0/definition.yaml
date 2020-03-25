@@ -1,17 +1,37 @@
+Labels: null
 category: sci-libs
+conflicts: null
+id: 0
+license: BSD
 name: lapack
 requires:
-- category: app-eselect
+- Labels: null
+  category: app-eselect
+  conflicts: null
+  id: 0
   name: eselect-blas
+  requires: null
   version: '>=0.2'
-- category: app-eselect
+- Labels: null
+  category: app-eselect
+  conflicts: null
+  id: 0
   name: eselect-lapack
+  requires: null
   version: '>=0.2'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: cmake
+  requires: null
   version: '>=3.9.6'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: make
+  requires: null
   version: '>=0'
 use_flags:
 - -doc
@@ -24,5 +44,4 @@ use_flags:
 - eselect-ldso
 - amd64
 - big-endian
-version: 3.8.0+2
-license: "BSD"
+version: 3.8.0+3

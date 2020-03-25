@@ -1,11 +1,23 @@
+Labels: null
 category: dev-lua
+conflicts: null
+id: 0
+license: MIT
 name: luafilesystem
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: lua
+  requires: null
   version: '>=5.1'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: glibc-2.2
+  requires: null
   version: '>=0'
 use_flags:
 - -luajit
@@ -14,5 +26,4 @@ use_flags:
 - amd64
 - kernel_linux
 - userland_GNU
-version: 1.6.3+2
-license: "MIT"
+version: 1.6.3+3

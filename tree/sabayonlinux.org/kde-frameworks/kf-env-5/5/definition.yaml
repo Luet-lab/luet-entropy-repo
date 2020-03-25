@@ -1,8 +1,16 @@
+Labels: null
 category: kde-frameworks
+conflicts: null
+id: 0
+license: GPL-2
 name: kf-env-5
 requires:
-- category: x11-misc
+- Labels: null
+  category: x11-misc
+  conflicts: null
+  id: 0
   name: xdg-utils
+  requires: null
   version: '>=1.1.1'
 use_flags:
 - big-endian
@@ -11,5 +19,4 @@ use_flags:
 - elibc_glibc
 - abi_x86_64
 - amd64
-version: 5+2
-license: "GPL-2"
+version: 5+3

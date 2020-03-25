@@ -1,26 +1,58 @@
+Labels: null
 category: dev-python
+conflicts: null
+id: 0
+license: GPL-2
 name: ssl-fetch
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-2.7
+  requires: null
   version: '>=2.7.5'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-exec-2
+  requires: null
   version: '>=2'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: pyopenssl
+  requires: null
   version: '>=0.13'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: requests
+  requires: null
   version: '>=1.2.1'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-3.6
+  requires: null
   version: '>=0'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: ndg-httpsclient
+  requires: null
   version: '>=0'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: pyasn1
+  requires: null
   version: '>=0'
 use_flags:
 - kernel_linux
@@ -35,5 +67,4 @@ use_flags:
 - python_targets_python2_7
 - split-usr
 - python_targets_python3_6
-version: 0.4+2
-license: "GPL-2"
+version: 0.4+3

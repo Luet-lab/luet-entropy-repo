@@ -1,65 +1,149 @@
+Labels: null
 category: media-libs
+conflicts: null
+id: 0
+license: LGPL-2.1 LGPL-2.1+ LGPL-3
 name: phonon-gstreamer
 requires:
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: cmake
+  requires: null
   version: '>=3.9.6'
-- category: kde-frameworks
+- Labels: null
+  category: kde-frameworks
+  conflicts: null
+  id: 0
   name: extra-cmake-modules-5
+  requires: null
   version: '>=5.64.0'
-- category: kde-frameworks
+- Labels: null
+  category: kde-frameworks
+  conflicts: null
+  id: 0
   name: kf-env-5
+  requires: null
   version: '>=4'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: phonon
+  requires: null
   version: '>=4.10.60'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: glib-2
+  requires: null
   version: '>=0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: libxml2-2
+  requires: null
   version: '>=0'
-- category: dev-qt
+- Labels: null
+  category: dev-qt
+  conflicts: null
+  id: 0
   name: linguist-tools-5
+  requires: null
   version: '>=0'
-- category: dev-qt
+- Labels: null
+  category: dev-qt
+  conflicts: null
+  id: 0
   name: qtcore-5
+  requires: null
   version: '>=0'
-- category: dev-qt
+- Labels: null
+  category: dev-qt
+  conflicts: null
+  id: 0
   name: qtgui-5
+  requires: null
   version: '>=0'
-- category: dev-qt
+- Labels: null
+  category: dev-qt
+  conflicts: null
+  id: 0
   name: qtopengl-5
+  requires: null
   version: '>=0'
-- category: dev-qt
+- Labels: null
+  category: dev-qt
+  conflicts: null
+  id: 0
   name: qtwidgets-5
+  requires: null
   version: '>=0'
-- category: dev-qt
+- Labels: null
+  category: dev-qt
+  conflicts: null
+  id: 0
   name: qtx11extras-5
+  requires: null
   version: '>=0'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: desktop-file-utils
+  requires: null
   version: '>=0'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: ninja
+  requires: null
   version: '>=0'
-- category: kde-frameworks
+- Labels: null
+  category: kde-frameworks
+  conflicts: null
+  id: 0
   name: oxygen-icons-5
+  requires: null
   version: '>=0'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: gst-plugins-base-1.0
+  requires: null
   version: '>=0'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: gstreamer-1.0
+  requires: null
   version: '>=0'
-- category: media-plugins
+- Labels: null
+  category: media-plugins
+  conflicts: null
+  id: 0
   name: gst-plugins-meta-1.0
+  requires: null
   version: '>=0'
-- category: media-plugins
+- Labels: null
+  category: media-plugins
+  conflicts: null
+  id: 0
   name: gst-plugins-soup-1.0
+  requires: null
   version: '>=0'
-- category: x11-misc
+- Labels: null
+  category: x11-misc
+  conflicts: null
+  id: 0
   name: shared-mime-info
+  requires: null
   version: '>=0'
 use_flags:
 - amd64
@@ -72,5 +156,4 @@ use_flags:
 - alsa
 - split-usr
 - big-endian
-version: 4.10.0+2
-license: "LGPL-2.1 LGPL-2.1+ LGPL-3"
+version: 4.10.0+3

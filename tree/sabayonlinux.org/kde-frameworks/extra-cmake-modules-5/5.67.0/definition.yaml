@@ -1,14 +1,30 @@
+Labels: null
 category: kde-frameworks
+conflicts: null
+id: 0
+license: BSD
 name: extra-cmake-modules-5
 requires:
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: libarchive
+  requires: null
   version: '>=0'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: cmake
+  requires: null
   version: '>=0'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: ninja
+  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc
@@ -20,5 +36,4 @@ use_flags:
 - big-endian
 - amd64
 - userland_GNU
-version: 5.67.0+2
-license: "BSD"
+version: 5.67.0+3

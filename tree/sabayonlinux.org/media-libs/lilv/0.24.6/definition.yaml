@@ -1,46 +1,71 @@
-
-category: "media-libs"
-name: "lilv"
-version: "0.24.6"
-
-use_flags:
-- "big-endian"
-- "-abi_s390_32"
-- "-abi_mips_n32"
-- "-abi_x86_x32"
-- "-test"
-- "-abi_mips_n64"
-- "-doc"
-- "amd64"
-- "-abi_mips_o32"
-- "elibc_glibc"
-- "abi_x86_64"
-- "kernel_linux"
-- "abi_x86_32"
-- "-static-libs"
-- "-abi_s390_64"
-- "userland_GNU"
-- "split-usr"
-- "-abi_riscv_lp64"
-- "-abi_riscv_lp64d"
-- "dyn-manifest"
+Labels: null
+category: media-libs
+conflicts: null
+id: 0
+license: ISC
+name: lilv
 requires:
-- category: "dev-libs"
-  name: "serd"
-  version: ">=0.30.0"
-- category: "dev-libs"
-  name: "sord"
-  version: ">=0.16.0"
-- category: "media-libs"
-  name: "lv2"
-  version: ">=1.16.0"
-- category: "dev-lang"
-  name: "python-3.6"
-  version: ">=0"
-- category: "media-libs"
-  name: "libsndfile"
-  version: ">=0"
-- category: "media-libs"
-  name: "sratom"
-  version: ">=0"
-license: "ISC"
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
+  name: serd
+  requires: null
+  version: '>=0.30.0'
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
+  name: sord
+  requires: null
+  version: '>=0.16.0'
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
+  name: lv2
+  requires: null
+  version: '>=1.16.0'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: python-3.6
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
+  name: libsndfile
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
+  name: sratom
+  requires: null
+  version: '>=0'
+use_flags:
+- big-endian
+- -abi_s390_32
+- -abi_mips_n32
+- -abi_x86_x32
+- -test
+- -abi_mips_n64
+- -doc
+- amd64
+- -abi_mips_o32
+- elibc_glibc
+- abi_x86_64
+- kernel_linux
+- abi_x86_32
+- -static-libs
+- -abi_s390_64
+- userland_GNU
+- split-usr
+- -abi_riscv_lp64
+- -abi_riscv_lp64d
+- dyn-manifest
+version: 0.24.6+1

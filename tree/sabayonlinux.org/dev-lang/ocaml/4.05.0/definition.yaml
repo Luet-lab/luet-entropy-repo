@@ -1,14 +1,30 @@
+Labels: null
 category: dev-lang
+conflicts: null
+id: 0
+license: LGPL-2 QPL-1.0
 name: ocaml
 requires:
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: binutils-libs
+  requires: null
   version: '>=0'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: ncurses
+  requires: null
   version: '>=0'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libX11
+  requires: null
   version: '>=0'
 use_flags:
 - ocamlopt
@@ -26,5 +42,4 @@ use_flags:
 - abi_x86_64
 - -latex
 - elibc_glibc
-version: 4.05.0+r3
-license: "LGPL-2 QPL-1.0"
+version: 4.05.0+r4

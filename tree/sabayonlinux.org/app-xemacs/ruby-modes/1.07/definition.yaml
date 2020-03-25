@@ -1,14 +1,30 @@
+Labels: null
 category: app-xemacs
+conflicts: null
+id: 0
+license: GPL-2+
 name: ruby-modes
 requires:
-- category: app-editors
+- Labels: null
+  category: app-editors
+  conflicts: null
+  id: 0
   name: xemacs
+  requires: null
   version: '>=0'
-- category: app-xemacs
+- Labels: null
+  category: app-xemacs
+  conflicts: null
+  id: 0
   name: debug
+  requires: null
   version: '>=0'
-- category: app-xemacs
+- Labels: null
+  category: app-xemacs
+  conflicts: null
+  id: 0
   name: xemacs-base
+  requires: null
   version: '>=0'
 use_flags:
 - kernel_linux
@@ -17,5 +33,4 @@ use_flags:
 - amd64
 - abi_x86_64
 - elibc_glibc
-version: 1.07+2
-license: "GPL-2+"
+version: 1.07+3

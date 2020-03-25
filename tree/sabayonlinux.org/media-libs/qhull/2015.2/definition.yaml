@@ -1,11 +1,23 @@
+Labels: null
 category: media-libs
+conflicts: null
+id: 0
+license: BSD
 name: qhull
 requires:
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: cmake
+  requires: null
   version: '>=3.7.2'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: make
+  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -16,5 +28,4 @@ use_flags:
 - -static-libs
 - amd64
 - kernel_linux
-version: 2015.2+2
-license: "BSD"
+version: 2015.2+3

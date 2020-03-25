@@ -1,5 +1,10 @@
+Labels: null
 category: sys-power
+conflicts: null
+id: 0
+license: GPL-2
 name: pm-quirks
+requires: null
 use_flags:
 - abi_x86_64
 - userland_GNU
@@ -7,5 +12,4 @@ use_flags:
 - kernel_linux
 - big-endian
 - elibc_glibc
-version: 20100619+r3
-license: "GPL-2"
+version: 20100619+r4

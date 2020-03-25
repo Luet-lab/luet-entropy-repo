@@ -1,11 +1,23 @@
+Labels: null
 category: sys-power
+conflicts: null
+id: 0
+license: iASL
 name: iasl
 requires:
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: bison
+  requires: null
   version: '>=0'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: flex
+  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -16,5 +28,4 @@ use_flags:
 - elibc_glibc
 - kernel_linux
 - -test
-version: 20190703+2
-license: "iASL"
+version: 20190703+3

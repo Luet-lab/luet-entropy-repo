@@ -1,14 +1,28 @@
-
-category: "acct-user"
-name: "pcscd"
-version: "0"
+Labels: null
+category: acct-user
+conflicts: null
+id: 0
+name: pcscd
 requires:
-- category: "acct-group"
-  name: "pcscd"
-  version: ">=0"
-- category: "acct-group"
-  name: "openct"
-  version: ">=0"
-- category: "acct-group"
-  name: "usb"
-  version: ">=0"
+- Labels: null
+  category: acct-group
+  conflicts: null
+  id: 0
+  name: pcscd
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: acct-group
+  conflicts: null
+  id: 0
+  name: openct
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: acct-group
+  conflicts: null
+  id: 0
+  name: usb
+  requires: null
+  version: '>=0'
+version: 0+1

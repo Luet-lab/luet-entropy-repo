@@ -1,15 +1,17 @@
-
-category: "dev-util"
-name: "boost-build"
-version: "1.72.0"
-
+Labels: null
+category: dev-util
+conflicts: null
+id: 0
+license: Boost-1.0
+name: boost-build
+requires: null
 use_flags:
-- "-examples"
-- "big-endian"
-- "split-usr"
-- "amd64"
-- "elibc_glibc"
-- "abi_x86_64"
-- "userland_GNU"
-- "kernel_linux"
-license: "Boost-1.0"
+- -examples
+- big-endian
+- split-usr
+- amd64
+- elibc_glibc
+- abi_x86_64
+- userland_GNU
+- kernel_linux
+version: 1.72.0+1

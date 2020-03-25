@@ -1,20 +1,44 @@
+Labels: null
 category: dev-python
+conflicts: null
+id: 0
+license: MIT
 name: pastedeploy
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-2.7
+  requires: null
   version: '>=2.7.5'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-exec-2
+  requires: null
   version: '>=2'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-3.6
+  requires: null
   version: '>=0'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: namespace-paste
+  requires: null
   version: '>=0'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: setuptools
+  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc
@@ -31,5 +55,4 @@ use_flags:
 - -python_targets_pypy3
 - amd64
 - -python_targets_python3_8
-version: 2.0.1+r3
-license: "MIT"
+version: 2.0.1+r4

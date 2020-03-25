@@ -1,20 +1,44 @@
+Labels: null
 category: net-libs
+conflicts: null
+id: 0
+license: GPL-2
 name: libnftnl
 requires:
-- category: app-portage
+- Labels: null
+  category: app-portage
+  conflicts: null
+  id: 0
   name: elt-patches
+  requires: null
   version: '>=20170815'
-- category: net-libs
+- Labels: null
+  category: net-libs
+  conflicts: null
+  id: 0
   name: libmnl
+  requires: null
   version: '>=1.0.3'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: autoconf-2.69
+  requires: null
   version: '>=2.69'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: automake-1.15
+  requires: null
   version: '>=1.15.1'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: libtool-2
+  requires: null
   version: '>=2.4'
 use_flags:
 - big-endian
@@ -27,5 +51,4 @@ use_flags:
 - abi_x86_64
 - kernel_linux
 - elibc_glibc
-version: 1.1.5+2
-license: "GPL-2"
+version: 1.1.5+3

@@ -1,8 +1,16 @@
+Labels: null
 category: sys-devel
+conflicts: null
+id: 0
+license: GPL-3+
 name: patch
 requires:
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: attr
+  requires: null
   version: '>=0'
 use_flags:
 - -test
@@ -15,5 +23,4 @@ use_flags:
 - abi_x86_64
 - xattr
 - userland_GNU
-version: 2.7.6+r6
-license: "GPL-3+"
+version: 2.7.6+r7

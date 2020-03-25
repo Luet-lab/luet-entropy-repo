@@ -1,20 +1,44 @@
+Labels: null
 category: sys-fs
+conflicts: null
+id: 0
+license: GPL-3
 name: mtools
 requires:
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libICE
+  requires: null
   version: '>=0'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libSM
+  requires: null
   version: '>=0'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libX11
+  requires: null
   version: '>=0'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libXau
+  requires: null
   version: '>=0'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libXt
+  requires: null
   version: '>=0'
 use_flags:
 - X
@@ -24,5 +48,4 @@ use_flags:
 - userland_GNU
 - kernel_linux
 - abi_x86_64
-version: 4.0.23+2
-license: "GPL-3"
+version: 4.0.23+3

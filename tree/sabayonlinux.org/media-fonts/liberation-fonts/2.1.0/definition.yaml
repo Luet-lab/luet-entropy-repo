@@ -1,11 +1,23 @@
+Labels: null
 category: media-fonts
+conflicts: null
+id: 0
+license: OFL-1.1
 name: liberation-fonts
 requires:
-- category: x11-apps
+- Labels: null
+  category: x11-apps
+  conflicts: null
+  id: 0
   name: mkfontscale
+  requires: null
   version: '>=1.2.0'
-- category: media-fonts
+- Labels: null
+  category: media-fonts
+  conflicts: null
+  id: 0
   name: encodings
+  requires: null
   version: '>=0'
 use_flags:
 - abi_x86_64
@@ -17,5 +29,4 @@ use_flags:
 - big-endian
 - amd64
 - kernel_linux
-version: 2.1.0+2
-license: "OFL-1.1"
+version: 2.1.0+3

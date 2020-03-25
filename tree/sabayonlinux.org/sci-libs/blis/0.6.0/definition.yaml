@@ -1,11 +1,23 @@
+Labels: null
 category: sci-libs
+conflicts: null
+id: 0
+license: BSD
 name: blis
 requires:
-- category: app-eselect
+- Labels: null
+  category: app-eselect
+  conflicts: null
+  id: 0
   name: eselect-blas
+  requires: null
   version: '>=0.2'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-2.7
+  requires: null
   version: '>=2.7.5'
 use_flags:
 - abi_x86_64
@@ -22,5 +34,4 @@ use_flags:
 - -doc
 - split-usr
 - big-endian
-version: 0.6.0+2
-license: "BSD"
+version: 0.6.0+3

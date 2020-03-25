@@ -1,14 +1,30 @@
+Labels: null
 category: x11-libs
+conflicts: null
+id: 0
+license: MIT
 name: libdrm
 requires:
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: meson
+  requires: null
   version: '>=0.51.2'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: ninja
+  requires: null
   version: '>=1.8.2'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libpciaccess
+  requires: null
   version: '>=0.13.1'
 use_flags:
 - video_cards_amdgpu
@@ -40,5 +56,4 @@ use_flags:
 - -abi_riscv_lp64
 - -video_cards_vivante
 - -abi_riscv_lp64d
-version: 2.4.100+3
-license: "MIT"
+version: 2.4.100+4

@@ -1,8 +1,16 @@
+Labels: null
 category: dev-perl
+conflicts: null
+id: 0
+license: Artistic GPL-1+
 name: Encode-EUCJPASCII
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: perl
+  requires: null
   version: '>=0'
 use_flags:
 - abi_x86_64
@@ -12,5 +20,4 @@ use_flags:
 - kernel_linux
 - elibc_glibc
 - split-usr
-version: 0.30.0+2
-license: "Artistic GPL-1+"
+version: 0.30.0+3

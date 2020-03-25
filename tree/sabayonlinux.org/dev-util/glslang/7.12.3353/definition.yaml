@@ -1,33 +1,46 @@
-
-category: "dev-util"
-name: "glslang"
-version: "7.12.3353+pre20191027r2"
-
-use_flags:
-- "big-endian"
-- "-abi_s390_32"
-- "-abi_mips_n32"
-- "-abi_x86_x32"
-- "-abi_riscv_lp64d"
-- "-abi_mips_n64"
-- "amd64"
-- "-abi_mips_o32"
-- "elibc_glibc"
-- "abi_x86_64"
-- "kernel_linux"
-- "abi_x86_32"
-- "-abi_s390_64"
-- "split-usr"
-- "-abi_riscv_lp64"
-- "userland_GNU"
+Labels: null
+category: dev-util
+conflicts: null
+id: 0
+license: BSD
+name: glslang
 requires:
-- category: "dev-util"
-  name: "cmake"
-  version: ">=3.9.6"
-- category: "dev-lang"
-  name: "python-3.6"
-  version: ">=0"
-- category: "dev-util"
-  name: "ninja"
-  version: ">=0"
-license: "BSD"
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
+  name: cmake
+  requires: null
+  version: '>=3.9.6'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: python-3.6
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
+  name: ninja
+  requires: null
+  version: '>=0'
+use_flags:
+- big-endian
+- -abi_s390_32
+- -abi_mips_n32
+- -abi_x86_x32
+- -abi_riscv_lp64d
+- -abi_mips_n64
+- amd64
+- -abi_mips_o32
+- elibc_glibc
+- abi_x86_64
+- kernel_linux
+- abi_x86_32
+- -abi_s390_64
+- split-usr
+- -abi_riscv_lp64
+- userland_GNU
+version: 7.12.3353+pre20191027r2.1

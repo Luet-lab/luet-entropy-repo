@@ -1,20 +1,44 @@
+Labels: null
 category: dev-texlive
+conflicts: null
+id: 0
+license: BSD GPL-2 GPL-3 LPPL-1.3 LPPL-1.3c MIT TeX
 name: texlive-langcjk
 requires:
-- category: app-text
+- Labels: null
+  category: app-text
+  conflicts: null
+  id: 0
   name: texlive-core
+  requires: null
   version: '>=2010'
-- category: app-text
+- Labels: null
+  category: app-text
+  conflicts: null
+  id: 0
   name: texlive-core
+  requires: null
   version: '>=2019'
-- category: dev-texlive
+- Labels: null
+  category: dev-texlive
+  conflicts: null
+  id: 0
   name: texlive-basic
+  requires: null
   version: '>=2019'
-- category: dev-texlive
+- Labels: null
+  category: dev-texlive
+  conflicts: null
+  id: 0
   name: texlive-latex
+  requires: null
   version: '>=2011'
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: xz-utils
+  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -25,5 +49,4 @@ use_flags:
 - -source
 - kernel_linux
 - -doc
-version: 2019+2
-license: "BSD GPL-2 GPL-3 LPPL-1.3 LPPL-1.3c MIT TeX"
+version: 2019+3

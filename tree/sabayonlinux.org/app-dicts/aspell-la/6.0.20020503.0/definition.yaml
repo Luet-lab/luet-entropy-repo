@@ -1,8 +1,16 @@
+Labels: null
 category: app-dicts
+conflicts: null
+id: 0
+license: GPL-2
 name: aspell-la
 requires:
-- category: app-text
+- Labels: null
+  category: app-text
+  conflicts: null
+  id: 0
   name: aspell
+  requires: null
   version: '>=0.60'
 use_flags:
 - elibc_glibc
@@ -10,5 +18,4 @@ use_flags:
 - kernel_linux
 - userland_GNU
 - amd64
-version: 6.0.20020503.0+2
-license: "GPL-2"
+version: 6.0.20020503.0+3

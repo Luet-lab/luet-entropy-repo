@@ -1,14 +1,30 @@
+Labels: null
 category: dev-perl
+conflicts: null
+id: 0
+license: Artistic GPL-1+ MIT
 name: X11-Protocol
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: perl
+  requires: null
   version: '>=0'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libXext
+  requires: null
   version: '>=0'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libXrender
+  requires: null
   version: '>=0'
 use_flags:
 - -examples
@@ -20,5 +36,4 @@ use_flags:
 - elibc_glibc
 - split-usr
 - amd64
-version: 0.560.0+r4
-license: "Artistic GPL-1+ MIT"
+version: 0.560.0+r5

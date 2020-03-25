@@ -1,11 +1,23 @@
+Labels: null
 category: sys-fs
+conflicts: null
+id: 0
+license: GPL-2
 name: mdadm
 requires:
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: util-linux
+  requires: null
   version: '>=2.16'
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: xz-utils
+  requires: null
   version: '>=0'
 use_flags:
 - kernel_linux
@@ -15,5 +27,4 @@ use_flags:
 - big-endian
 - elibc_glibc
 - userland_GNU
-version: 4.1+2
-license: "GPL-2"
+version: 4.1+3

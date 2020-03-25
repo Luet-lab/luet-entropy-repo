@@ -1,14 +1,30 @@
+Labels: null
 category: dev-python
+conflicts: null
+id: 0
+license: BSD
 name: pandocfilters
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-2.7
+  requires: null
   version: '>=2.7.5'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-exec-2
+  requires: null
   version: '>=2'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-3.6
+  requires: null
   version: '>=0'
 use_flags:
 - abi_x86_64
@@ -21,5 +37,4 @@ use_flags:
 - python_targets_python2_7
 - -python_targets_python3_5
 - elibc_glibc
-version: 1.4.2+r3
-license: "BSD"
+version: 1.4.2+r4

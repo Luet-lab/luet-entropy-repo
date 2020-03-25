@@ -1,88 +1,173 @@
-
-category: "dev-python"
-name: "twisted-core"
-version: "18.7.0"
-
-use_flags:
-- "python_targets_python3_6"
-- "-python_targets_python3_4"
-- "crypt"
-- "-python_targets_python3_5"
-- "-test"
-- "-serial"
-- "kernel_linux"
-- "abi_x86_64"
-- "big-endian"
-- "amd64"
-- "elibc_glibc"
-- "userland_GNU"
-- "-python_targets_python3_7"
-- "http2"
-- "conch"
-- "soap"
-- "python_targets_python2_7"
+Labels: null
+category: dev-python
+conflicts: null
+id: 0
+license: MIT
+name: twisted-core
 requires:
-- category: "dev-python"
-  name: "hyper-h2"
-  version: "<4.0.0"
-- category: "dev-python"
-  name: "priority"
-  version: "<2.0"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.5"
-- category: "dev-lang"
-  name: "python-exec-2"
-  version: ">=2"
-- category: "dev-python"
-  name: "appdirs"
-  version: ">=1.4.0"
-- category: "dev-python"
-  name: "attrs"
-  version: ">=17.4.0"
-- category: "dev-python"
-  name: "automat"
-  version: ">=0.3.0"
-- category: "dev-python"
-  name: "constantly"
-  version: ">=15.1.0"
-- category: "dev-python"
-  name: "cryptography"
-  version: ">=1.5.0"
-- category: "dev-python"
-  name: "hyper-h2"
-  version: ">=3.0.0"
-- category: "dev-python"
-  name: "hyperlink"
-  version: ">=17.1.1"
-- category: "dev-python"
-  name: "idna"
-  version: ">=0.6"
-- category: "dev-python"
-  name: "incremental"
-  version: ">=16.10.1"
-- category: "dev-python"
-  name: "priority"
-  version: ">=1.1.0"
-- category: "dev-python"
-  name: "pyhamcrest"
-  version: ">=1.9.0"
-- category: "dev-python"
-  name: "pyopenssl"
-  version: ">=16.0.0"
-- category: "dev-python"
-  name: "zope-interface"
-  version: ">=4.4.2"
-- category: "dev-lang"
-  name: "python-3.6"
-  version: ">=0"
-- category: "dev-python"
-  name: "pyasn1"
-  version: ">=0"
-- category: "dev-python"
-  name: "service_identity"
-  version: ">=0"
-- category: "dev-python"
-  name: "soappy"
-  version: ">=0"
-license: "MIT"
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
+  name: hyper-h2
+  requires: null
+  version: <4.0.0
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
+  name: priority
+  requires: null
+  version: <2.0
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: python-2.7
+  requires: null
+  version: '>=2.7.5'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: python-exec-2
+  requires: null
+  version: '>=2'
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
+  name: appdirs
+  requires: null
+  version: '>=1.4.0'
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
+  name: attrs
+  requires: null
+  version: '>=17.4.0'
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
+  name: automat
+  requires: null
+  version: '>=0.3.0'
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
+  name: constantly
+  requires: null
+  version: '>=15.1.0'
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
+  name: cryptography
+  requires: null
+  version: '>=1.5.0'
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
+  name: hyper-h2
+  requires: null
+  version: '>=3.0.0'
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
+  name: hyperlink
+  requires: null
+  version: '>=17.1.1'
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
+  name: idna
+  requires: null
+  version: '>=0.6'
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
+  name: incremental
+  requires: null
+  version: '>=16.10.1'
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
+  name: priority
+  requires: null
+  version: '>=1.1.0'
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
+  name: pyhamcrest
+  requires: null
+  version: '>=1.9.0'
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
+  name: pyopenssl
+  requires: null
+  version: '>=16.0.0'
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
+  name: zope-interface
+  requires: null
+  version: '>=4.4.2'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: python-3.6
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
+  name: pyasn1
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
+  name: service_identity
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
+  name: soappy
+  requires: null
+  version: '>=0'
+use_flags:
+- python_targets_python3_6
+- -python_targets_python3_4
+- crypt
+- -python_targets_python3_5
+- -test
+- -serial
+- kernel_linux
+- abi_x86_64
+- big-endian
+- amd64
+- elibc_glibc
+- userland_GNU
+- -python_targets_python3_7
+- http2
+- conch
+- soap
+- python_targets_python2_7
+version: 18.7.0+1

@@ -1,5 +1,10 @@
+Labels: null
 category: app-text
+conflicts: null
+id: 0
+license: GPL-2
 name: build-docbook-catalog
+requires: null
 use_flags:
 - userland_GNU
 - elibc_glibc
@@ -7,5 +12,4 @@ use_flags:
 - amd64
 - abi_x86_64
 - kernel_linux
-version: 1.21+2
-license: "GPL-2"
+version: 1.21+3

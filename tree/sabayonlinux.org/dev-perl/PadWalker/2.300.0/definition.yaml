@@ -1,8 +1,16 @@
+Labels: null
 category: dev-perl
+conflicts: null
+id: 0
+license: Artistic GPL-1+
 name: PadWalker
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: perl
+  requires: null
   version: '>=0'
 use_flags:
 - abi_x86_64
@@ -12,5 +20,4 @@ use_flags:
 - kernel_linux
 - amd64
 - split-usr
-version: 2.300.0+2
-license: "Artistic GPL-1+"
+version: 2.300.0+3

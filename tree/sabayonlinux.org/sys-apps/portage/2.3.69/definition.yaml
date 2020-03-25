@@ -1,65 +1,149 @@
+Labels: null
 category: sys-apps
+conflicts: null
+id: 0
+license: GPL-2
 name: portage
 requires:
-- category: app-admin
+- Labels: null
+  category: app-admin
+  conflicts: null
+  id: 0
   name: eselect
+  requires: null
   version: '>=1.2'
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: tar
+  requires: null
   version: '>=1.27'
-- category: app-crypt
+- Labels: null
+  category: app-crypt
+  conflicts: null
+  id: 0
   name: gnupg
+  requires: null
   version: '>=2.2.4'
-- category: app-crypt
+- Labels: null
+  category: app-crypt
+  conflicts: null
+  id: 0
   name: openpgp-keys-gentoo-release
+  requires: null
   version: '>=20180706'
-- category: app-misc
+- Labels: null
+  category: app-misc
+  conflicts: null
+  id: 0
   name: pax-utils
+  requires: null
   version: '>=0.1.17'
-- category: app-portage
+- Labels: null
+  category: app-portage
+  conflicts: null
+  id: 0
   name: gemato
+  requires: null
   version: '>=14'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-2.7
+  requires: null
   version: '>=2.7.5'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-exec-2
+  requires: null
   version: '>=2'
-- category: net-misc
+- Labels: null
+  category: net-misc
+  conflicts: null
+  id: 0
   name: rsync
+  requires: null
   version: '>=2.6.4'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: coreutils
+  requires: null
   version: '>=6.4'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: install-xattr
+  requires: null
   version: '>=0.3'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: sandbox
+  requires: null
   version: '>=2.2'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: sed
+  requires: null
   version: '>=4.0.5'
-- category: app-shells
+- Labels: null
+  category: app-shells
+  conflicts: null
+  id: 0
   name: bash
+  requires: null
   version: '>=0'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-3.6
+  requires: null
   version: '>=0'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-exec-2
+  requires: null
   version: '>=0'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: pyblake2
+  requires: null
   version: '>=0'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: pyxattr
+  requires: null
   version: '>=0'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: util-linux
+  requires: null
   version: '>=0'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: patch
+  requires: null
   version: '>=0'
 use_flags:
 - native-extensions
@@ -83,5 +167,4 @@ use_flags:
 - -python_targets_python3_7
 - userland_GNU
 - -doc
-version: 2.3.69+2
-license: "GPL-2"
+version: 2.3.69+3

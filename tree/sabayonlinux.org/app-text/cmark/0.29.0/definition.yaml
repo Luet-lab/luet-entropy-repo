@@ -1,11 +1,23 @@
+Labels: null
 category: app-text
+conflicts: null
+id: 0
+license: BSD-2
 name: cmark
 requires:
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: cmake
+  requires: null
   version: '>=3.9.6'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: ninja
+  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -16,5 +28,4 @@ use_flags:
 - userland_GNU
 - -test
 - abi_x86_64
-version: 0.29.0+2
-license: "BSD-2"
+version: 0.29.0+3

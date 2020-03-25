@@ -1,8 +1,16 @@
+Labels: null
 category: sys-libs
+conflicts: null
+id: 0
+license: MIT
 name: mtdev
 requires:
-- category: sys-kernel
+- Labels: null
+  category: sys-kernel
+  conflicts: null
+  id: 0
   name: linux-headers
+  requires: null
   version: '>=2.6.31'
 use_flags:
 - -static-libs
@@ -12,5 +20,4 @@ use_flags:
 - elibc_glibc
 - userland_GNU
 - abi_x86_64
-version: 1.1.5+2
-license: "MIT"
+version: 1.1.5+3

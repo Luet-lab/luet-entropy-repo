@@ -1,14 +1,30 @@
+Labels: null
 category: lxde-base
+conflicts: null
+id: 0
+license: GPL-2
 name: lxde-common
 requires:
-- category: lxde-base
+- Labels: null
+  category: lxde-base
+  conflicts: null
+  id: 0
   name: lxde-icon-theme
+  requires: null
   version: '>=0'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: gettext
+  requires: null
   version: '>=0'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: gtk+-3
+  requires: null
   version: '>=0'
 use_flags:
 - abi_x86_64
@@ -16,5 +32,4 @@ use_flags:
 - userland_GNU
 - amd64
 - elibc_glibc
-version: 0.99.1+2
-license: "GPL-2"
+version: 0.99.1+3

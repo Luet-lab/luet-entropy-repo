@@ -1,23 +1,51 @@
+Labels: null
 category: dev-scheme
+conflicts: null
+id: 0
+license: GPL-3+ LGPL-3
 name: racket
 requires:
-- category: dev-db
+- Labels: null
+  category: dev-db
+  conflicts: null
+  id: 0
   name: sqlite-3
+  requires: null
   version: '>=0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: libedit
+  requires: null
   version: '>=0'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: libpng
+  requires: null
   version: '>=0'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: cairo
+  requires: null
   version: '>=0'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: gtk+-3
+  requires: null
   version: '>=0'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: pango
+  requires: null
   version: '>=0'
 use_flags:
 - abi_x86_64
@@ -35,5 +63,4 @@ use_flags:
 - elibc_glibc
 - userland_GNU
 - places
-version: 7.3+2
-license: "GPL-3+ LGPL-3"
+version: 7.3+3

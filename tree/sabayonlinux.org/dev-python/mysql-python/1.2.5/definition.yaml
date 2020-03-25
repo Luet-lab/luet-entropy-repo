@@ -1,17 +1,37 @@
+Labels: null
 category: dev-python
+conflicts: null
+id: 0
+license: GPL-2
 name: mysql-python
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-2.7
+  requires: null
   version: '>=2.7.5'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-exec-2
+  requires: null
   version: '>=2'
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: unzip
+  requires: null
   version: '>=0'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: setuptools
+  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -23,5 +43,4 @@ use_flags:
 - kernel_linux
 - userland_GNU
 - python_targets_python2_7
-version: 1.2.5+r3
-license: "GPL-2"
+version: 1.2.5+r4

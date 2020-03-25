@@ -1,5 +1,10 @@
+Labels: null
 category: sys-apps
+conflicts: null
+id: 0
+license: BSD GPL-2 public-domain
 name: hwids
+requires: null
 use_flags:
 - big-endian
 - userland_GNU
@@ -12,5 +17,4 @@ use_flags:
 - split-usr
 - udev
 - kernel_linux
-version: 20200204+2
-license: "BSD GPL-2 public-domain"
+version: 20200204+3

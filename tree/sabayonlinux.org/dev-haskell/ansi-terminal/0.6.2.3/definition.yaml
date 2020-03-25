@@ -1,24 +1,33 @@
-
-category: "dev-haskell"
-name: "ansi-terminal"
-version: "0.6.2.3"
-
-use_flags:
-- "-doc"
-- "-profile"
-- "amd64"
-- "big-endian"
-- "userland_GNU"
-- "-hscolour"
-- "kernel_linux"
-- "-example"
-- "abi_x86_64"
-- "elibc_glibc"
+Labels: null
+category: dev-haskell
+conflicts: null
+id: 0
+license: BSD
+name: ansi-terminal
 requires:
-- category: "dev-haskell"
-  name: "cabal"
-  version: ">=1.6"
-- category: "dev-lang"
-  name: "ghc"
-  version: ">=7.4.1"
-license: "BSD"
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: cabal
+  requires: null
+  version: '>=1.6'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: ghc
+  requires: null
+  version: '>=7.4.1'
+use_flags:
+- -doc
+- -profile
+- amd64
+- big-endian
+- userland_GNU
+- -hscolour
+- kernel_linux
+- -example
+- abi_x86_64
+- elibc_glibc
+version: 0.6.2.3+1

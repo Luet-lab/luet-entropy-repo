@@ -1,32 +1,57 @@
-
-category: "x11-themes"
-name: "sabayon-artwork-gnome"
-version: "15+r2"
-
-use_flags:
-- "abi_x86_64"
-- "amd64"
-- "userland_GNU"
-- "elibc_glibc"
-- "kernel_linux"
-- "big-endian"
+Labels: null
+category: x11-themes
+conflicts: null
+id: 0
+license: CCPL-Attribution-ShareAlike-3.0
+name: sabayon-artwork-gnome
 requires:
-- category: "gnome-extra"
-  name: "gnome-shell-extensions"
-  version: ">=3.12"
-- category: "sys-apps"
-  name: "sed"
-  version: ">=4"
-- category: "x11-themes"
-  name: "arc-theme"
-  version: ">=0"
-- category: "x11-themes"
-  name: "numix-icon-theme"
-  version: ">=0"
-- category: "x11-themes"
-  name: "numix-icon-theme-circle"
-  version: ">=0"
-- category: "x11-themes"
-  name: "sabayon-artwork-core"
-  version: ">=0"
-license: "CCPL-Attribution-ShareAlike-3.0"
+- Labels: null
+  category: gnome-extra
+  conflicts: null
+  id: 0
+  name: gnome-shell-extensions
+  requires: null
+  version: '>=3.12'
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
+  name: sed
+  requires: null
+  version: '>=4'
+- Labels: null
+  category: x11-themes
+  conflicts: null
+  id: 0
+  name: arc-theme
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: x11-themes
+  conflicts: null
+  id: 0
+  name: numix-icon-theme
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: x11-themes
+  conflicts: null
+  id: 0
+  name: numix-icon-theme-circle
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: x11-themes
+  conflicts: null
+  id: 0
+  name: sabayon-artwork-core
+  requires: null
+  version: '>=0'
+use_flags:
+- abi_x86_64
+- amd64
+- userland_GNU
+- elibc_glibc
+- kernel_linux
+- big-endian
+version: 15+r3

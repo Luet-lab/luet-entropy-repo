@@ -1,17 +1,37 @@
+Labels: null
 category: dev-perl
+conflicts: null
+id: 0
+license: Artistic GPL-1+
 name: DateTime-Format-ISO8601
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: perl
+  requires: null
   version: '>=0'
-- category: dev-perl
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
   name: DateTime
+  requires: null
   version: '>=0'
-- category: dev-perl
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
   name: DateTime-Format-Builder
+  requires: null
   version: '>=0'
-- category: dev-perl
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
   name: Module-Build
+  requires: null
   version: '>=0'
 use_flags:
 - split-usr
@@ -22,5 +42,4 @@ use_flags:
 - big-endian
 - kernel_linux
 - amd64
-version: 0.80.0+r3
-license: "Artistic GPL-1+"
+version: 0.80.0+r4

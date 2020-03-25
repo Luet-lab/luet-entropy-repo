@@ -1,45 +1,78 @@
-
-category: "x11-themes"
-name: "arc-theme"
-version: "20190330"
-
-use_flags:
-- "abi_x86_64"
-- "amd64"
-- "pre-rendered"
-- "-mate"
-- "gtk2"
-- "-xfce"
-- "big-endian"
-- "userland_GNU"
-- "elibc_glibc"
-- "gtk3"
-- "-gnome-shell"
-- "kernel_linux"
-- "-cinnamon"
+Labels: null
+category: x11-themes
+conflicts: null
+id: 0
+license: GPL-3
+name: arc-theme
 requires:
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170815"
-- category: "sys-devel"
-  name: "autoconf-2.69"
-  version: ">=2.69"
-- category: "sys-devel"
-  name: "automake-1.15"
-  version: ">=1.15.1"
-- category: "sys-devel"
-  name: "libtool-2"
-  version: ">=2.4"
-- category: "x11-libs"
-  name: "gtk+-3"
-  version: ">=3.18"
-- category: "dev-lang"
-  name: "sassc"
-  version: ">=0"
-- category: "x11-themes"
-  name: "gnome-themes-standard"
-  version: ">=0"
-- category: "x11-themes"
-  name: "gtk-engines-murrine"
-  version: ">=0"
-license: "GPL-3"
+- Labels: null
+  category: app-portage
+  conflicts: null
+  id: 0
+  name: elt-patches
+  requires: null
+  version: '>=20170815'
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
+  name: autoconf-2.69
+  requires: null
+  version: '>=2.69'
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
+  name: automake-1.15
+  requires: null
+  version: '>=1.15.1'
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
+  name: libtool-2
+  requires: null
+  version: '>=2.4'
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
+  name: gtk+-3
+  requires: null
+  version: '>=3.18'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: sassc
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: x11-themes
+  conflicts: null
+  id: 0
+  name: gnome-themes-standard
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: x11-themes
+  conflicts: null
+  id: 0
+  name: gtk-engines-murrine
+  requires: null
+  version: '>=0'
+use_flags:
+- abi_x86_64
+- amd64
+- pre-rendered
+- -mate
+- gtk2
+- -xfce
+- big-endian
+- userland_GNU
+- elibc_glibc
+- gtk3
+- -gnome-shell
+- kernel_linux
+- -cinnamon
+version: 20190330+1

@@ -1,8 +1,15 @@
+Labels: null
 category: app-text
+conflicts: null
+id: 0
+license: X11
 name: docbook-sgml-dtd-4.4
 requires:
-- category: app-text
+- Labels: null
+  category: app-text
+  conflicts: null
+  id: 0
   name: sgml-common
+  requires: null
   version: '>=0'
-version: 4.4+2
-license: "X11"
+version: 4.4+3

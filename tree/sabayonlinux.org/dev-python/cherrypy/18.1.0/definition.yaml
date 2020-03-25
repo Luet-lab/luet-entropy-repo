@@ -1,32 +1,72 @@
+Labels: null
 category: dev-python
+conflicts: null
+id: 0
+license: BSD
 name: cherrypy
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-exec-2
+  requires: null
   version: '>=2'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: cheroot
+  requires: null
   version: '>=6.2.4'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: portend
+  requires: null
   version: '>=2.1.1'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-3.6
+  requires: null
   version: '>=0'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: more-itertools
+  requires: null
   version: '>=0'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: pyopenssl
+  requires: null
   version: '>=0'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: setuptools
+  requires: null
   version: '>=0'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: setuptools_scm
+  requires: null
   version: '>=0'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: zc-lockfile
+  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU
@@ -40,5 +80,4 @@ use_flags:
 - kernel_linux
 - ssl
 - split-usr
-version: 18.1.0+r3
-license: "BSD"
+version: 18.1.0+r4

@@ -1,21 +1,26 @@
-
-category: "app-text"
-name: "libwps"
-version: "0.4.10"
-
-use_flags:
-- "big-endian"
-- "amd64"
-- "-doc"
-- "-debug"
-- "kernel_linux"
-- "tools"
-- "elibc_glibc"
-- "abi_x86_64"
-- "userland_GNU"
-- "-static-libs"
+Labels: null
+category: app-text
+conflicts: null
+id: 0
+license: LGPL-2.1 MPL-2.0
+name: libwps
 requires:
-- category: "dev-libs"
-  name: "librevenge"
-  version: ">=0"
-license: "LGPL-2.1 MPL-2.0"
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
+  name: librevenge
+  requires: null
+  version: '>=0'
+use_flags:
+- big-endian
+- amd64
+- -doc
+- -debug
+- kernel_linux
+- tools
+- elibc_glibc
+- abi_x86_64
+- userland_GNU
+- -static-libs
+version: 0.4.10+1

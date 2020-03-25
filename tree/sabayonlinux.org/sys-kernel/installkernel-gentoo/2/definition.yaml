@@ -1,8 +1,16 @@
+Labels: null
 category: sys-kernel
+conflicts: null
+id: 0
+license: GPL-2+
 name: installkernel-gentoo
 requires:
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: debianutils
+  requires: null
   version: '>=4.9'
 use_flags:
 - split-usr
@@ -12,5 +20,4 @@ use_flags:
 - abi_x86_64
 - amd64
 - big-endian
-version: 2+2
-license: "GPL-2+"
+version: 2+3

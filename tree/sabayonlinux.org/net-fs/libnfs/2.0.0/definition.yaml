@@ -1,17 +1,37 @@
+Labels: null
 category: net-fs
+conflicts: null
+id: 0
+license: GPL-3 LGPL-2.1
 name: libnfs
 requires:
-- category: app-portage
+- Labels: null
+  category: app-portage
+  conflicts: null
+  id: 0
   name: elt-patches
+  requires: null
   version: '>=20170422'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: autoconf-2.69
+  requires: null
   version: '>=2.69'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: automake-1.15
+  requires: null
   version: '>=1.15'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: libtool-2
+  requires: null
   version: '>=2.4'
 use_flags:
 - userland_GNU
@@ -22,5 +42,4 @@ use_flags:
 - big-endian
 - elibc_glibc
 - kernel_linux
-version: 2.0.0+2
-license: "GPL-3 LGPL-2.1"
+version: 2.0.0+3

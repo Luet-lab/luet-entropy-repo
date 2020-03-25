@@ -1,17 +1,22 @@
-
-category: "sys-fs"
-name: "growpart"
-version: "0.0.30"
-
-use_flags:
-- "big-endian"
-- "elibc_glibc"
-- "abi_x86_64"
-- "amd64"
-- "userland_GNU"
-- "kernel_linux"
+Labels: null
+category: sys-fs
+conflicts: null
+id: 0
+license: GPL-3
+name: growpart
 requires:
-- category: "sys-apps"
-  name: "gptfdisk"
-  version: ">=0"
-license: "GPL-3"
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
+  name: gptfdisk
+  requires: null
+  version: '>=0'
+use_flags:
+- big-endian
+- elibc_glibc
+- abi_x86_64
+- amd64
+- userland_GNU
+- kernel_linux
+version: 0.0.30+1

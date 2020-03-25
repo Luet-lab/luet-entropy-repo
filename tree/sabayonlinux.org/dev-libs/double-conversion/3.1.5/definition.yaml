@@ -1,11 +1,23 @@
+Labels: null
 category: dev-libs
+conflicts: null
+id: 0
+license: BSD
 name: double-conversion
 requires:
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: cmake
+  requires: null
   version: '>=0'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: ninja
+  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -15,5 +27,4 @@ use_flags:
 - kernel_linux
 - elibc_glibc
 - amd64
-version: 3.1.5+2
-license: "BSD"
+version: 3.1.5+3

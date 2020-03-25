@@ -1,11 +1,23 @@
+Labels: null
 category: media-fonts
+conflicts: null
+id: 0
+license: MIT
 name: hack
 requires:
-- category: media-fonts
+- Labels: null
+  category: media-fonts
+  conflicts: null
+  id: 0
   name: encodings
+  requires: null
   version: '>=0'
-- category: x11-apps
+- Labels: null
+  category: x11-apps
+  conflicts: null
+  id: 0
   name: mkfontdir
+  requires: null
   version: '>=0'
 use_flags:
 - abi_x86_64
@@ -15,5 +27,4 @@ use_flags:
 - amd64
 - kernel_linux
 - X
-version: 3.003+2
-license: "MIT"
+version: 3.003+3

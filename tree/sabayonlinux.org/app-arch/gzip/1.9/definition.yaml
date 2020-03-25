@@ -1,5 +1,10 @@
+Labels: null
 category: app-arch
+conflicts: null
+id: 0
+license: GPL-3
 name: gzip
+requires: null
 use_flags:
 - -pic
 - abi_x86_64
@@ -9,5 +14,4 @@ use_flags:
 - elibc_glibc
 - -static
 - userland_GNU
-version: 1.9+2
-license: "GPL-3"
+version: 1.9+3

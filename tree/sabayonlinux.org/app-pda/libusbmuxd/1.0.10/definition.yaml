@@ -1,11 +1,23 @@
+Labels: null
 category: app-pda
+conflicts: null
+id: 0
+license: GPL-2+ LGPL-2.1+
 name: libusbmuxd
 requires:
-- category: app-pda
+- Labels: null
+  category: app-pda
+  conflicts: null
+  id: 0
   name: libplist
+  requires: null
   version: '>=1.11'
-- category: app-portage
+- Labels: null
+  category: app-portage
+  conflicts: null
+  id: 0
   name: elt-patches
+  requires: null
   version: '>=20170815'
 use_flags:
 - abi_x86_64
@@ -15,5 +27,4 @@ use_flags:
 - -static-libs
 - userland_GNU
 - amd64
-version: 1.0.10+2
-license: "GPL-2+ LGPL-2.1+"
+version: 1.0.10+3

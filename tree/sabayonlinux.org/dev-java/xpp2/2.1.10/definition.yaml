@@ -1,17 +1,37 @@
+Labels: null
 category: dev-java
+conflicts: null
+id: 0
+license: Apache-1.1 IBM
 name: xpp2
 requires:
-- category: dev-java
+- Labels: null
+  category: dev-java
+  conflicts: null
+  id: 0
   name: ant-core
+  requires: null
   version: '>=1.8.2'
-- category: dev-java
+- Labels: null
+  category: dev-java
+  conflicts: null
+  id: 0
   name: java-config-2
+  requires: null
   version: '>=2.2.0'
-- category: dev-java
+- Labels: null
+  category: dev-java
+  conflicts: null
+  id: 0
   name: javatoolkit
+  requires: null
   version: '>=0.3.0'
-- category: dev-java
+- Labels: null
+  category: dev-java
+  conflicts: null
+  id: 0
   name: xerces-2
+  requires: null
   version: '>=0'
 use_flags:
 - -test
@@ -23,5 +43,4 @@ use_flags:
 - userland_GNU
 - kernel_linux
 - -source
-version: 2.1.10+r4
-license: "Apache-1.1 IBM"
+version: 2.1.10+r5

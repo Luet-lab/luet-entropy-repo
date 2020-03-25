@@ -1,14 +1,30 @@
+Labels: null
 category: app-admin
+conflicts: null
+id: 0
+license: LGPL-2
 name: gamin
 requires:
-- category: app-admin
+- Labels: null
+  category: app-admin
+  conflicts: null
+  id: 0
   name: gam-server
+  requires: null
   version: '>=0.1.10'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: libgamin
+  requires: null
   version: '>=0.1.10'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: coreutils
+  requires: null
   version: '>=8.5'
 use_flags:
 - multilib
@@ -22,5 +38,4 @@ use_flags:
 - -abi_mips_o32
 - amd64
 - elibc_glibc
-version: 0.1.10+r4
-license: "LGPL-2"
+version: 0.1.10+r5

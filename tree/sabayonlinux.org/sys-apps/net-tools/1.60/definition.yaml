@@ -1,8 +1,16 @@
+Labels: null
 category: sys-apps
+conflicts: null
+id: 0
+license: GPL-2
 name: net-tools
 requires:
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: xz-utils
+  requires: null
   version: '>=0'
 use_flags:
 - arp
@@ -20,5 +28,4 @@ use_flags:
 - -static
 - -plipconfig
 - userland_GNU
-version: 1.60+p20180626073015
-license: "GPL-2"
+version: 1.60+p20180626073016

@@ -1,30 +1,51 @@
-
-category: "dev-perl"
-name: "glib-perl"
-version: "1.329.100"
-license: "LGPL-2.1"
-
-use_flags:
-- "split-usr"
-- "big-endian"
-- "amd64"
-- "elibc_glibc"
-- "kernel_linux"
-- "abi_x86_64"
-- "userland_GNU"
+Labels: null
+category: dev-perl
+conflicts: null
+id: 0
+license: LGPL-2.1
+name: glib-perl
 requires:
-- category: "dev-libs"
-  name: "glib-2"
-  version: ">=2"
-- category: "dev-perl"
-  name: "ExtUtils-Depends"
-  version: ">=0.300.0"
-- category: "dev-perl"
-  name: "ExtUtils-PkgConfig"
-  version: ">=1.0.0"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=0"
-- category: "dev-perl"
-  name: "Log-Agent"
-  version: ">=0"
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
+  name: glib-2
+  requires: null
+  version: '>=2'
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
+  name: ExtUtils-Depends
+  requires: null
+  version: '>=0.300.0'
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
+  name: ExtUtils-PkgConfig
+  requires: null
+  version: '>=1.0.0'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: perl
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
+  name: Log-Agent
+  requires: null
+  version: '>=0'
+use_flags:
+- split-usr
+- big-endian
+- amd64
+- elibc_glibc
+- kernel_linux
+- abi_x86_64
+- userland_GNU
+version: 1.329.100+1

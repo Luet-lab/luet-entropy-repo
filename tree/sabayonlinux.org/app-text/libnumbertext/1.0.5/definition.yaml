@@ -1,13 +1,15 @@
-
-category: "app-text"
-name: "libnumbertext"
-version: "1.0.5"
-
+Labels: null
+category: app-text
+conflicts: null
+id: 0
+license: LGPL-3+
+name: libnumbertext
+requires: null
 use_flags:
-- "big-endian"
-- "elibc_glibc"
-- "abi_x86_64"
-- "amd64"
-- "userland_GNU"
-- "kernel_linux"
-license: "LGPL-3+"
+- big-endian
+- elibc_glibc
+- abi_x86_64
+- amd64
+- userland_GNU
+- kernel_linux
+version: 1.0.5+1

@@ -1,8 +1,16 @@
+Labels: null
 category: dev-perl
+conflicts: null
+id: 0
+license: Artistic GPL-1+
 name: Module-Build
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: perl
+  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU
@@ -13,5 +21,4 @@ use_flags:
 - -test
 - elibc_glibc
 - kernel_linux
-version: 0.422.400+2
-license: "Artistic GPL-1+"
+version: 0.422.400+3

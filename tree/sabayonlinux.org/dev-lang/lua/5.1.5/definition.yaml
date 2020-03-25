@@ -1,11 +1,23 @@
+Labels: null
 category: dev-lang
+conflicts: null
+id: 0
+license: MIT
 name: lua
 requires:
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: readline
+  requires: null
   version: '>=6.2'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: libtool-2
+  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -28,5 +40,4 @@ use_flags:
 - -emacs
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
-version: 5.1.5+r7
-license: "MIT"
+version: 5.1.5+r8

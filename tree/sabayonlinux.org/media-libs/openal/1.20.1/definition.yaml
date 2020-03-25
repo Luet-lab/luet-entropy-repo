@@ -1,52 +1,73 @@
-
-category: "media-libs"
-name: "openal"
-version: "1.20.1"
-
-use_flags:
-- "big-endian"
-- "-abi_x86_x32"
-- "-abi_s390_32"
-- "-abi_mips_n32"
-- "cpu_flags_x86_sse"
-- "-cpu_flags_arm_neon"
-- "-abi_mips_n64"
-- "jack"
-- "amd64"
-- "-abi_mips_o32"
-- "elibc_glibc"
-- "abi_x86_64"
-- "kernel_linux"
-- "abi_x86_32"
-- "-oss"
-- "pulseaudio"
-- "-debug"
-- "sdl"
-- "-cpu_flags_x86_sse4_1"
-- "-coreaudio"
-- "-abi_s390_64"
-- "userland_GNU"
-- "-qt5"
-- "split-usr"
-- "cpu_flags_x86_sse2"
-- "-portaudio"
-- "-abi_riscv_lp64"
-- "-abi_riscv_lp64d"
-- "alsa"
+Labels: null
+category: media-libs
+conflicts: null
+id: 0
+license: LGPL-2+
+name: openal
 requires:
-- category: "media-libs"
-  name: "alsa-lib"
-  version: ">=1.0.27.2"
-- category: "media-sound"
-  name: "pulseaudio"
-  version: ">=2.1"
-- category: "dev-util"
-  name: "cmake"
-  version: ">=0"
-- category: "dev-util"
-  name: "ninja"
-  version: ">=0"
-- category: "media-libs"
-  name: "libsdl2"
-  version: ">=0"
-license: "LGPL-2+"
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
+  name: alsa-lib
+  requires: null
+  version: '>=1.0.27.2'
+- Labels: null
+  category: media-sound
+  conflicts: null
+  id: 0
+  name: pulseaudio
+  requires: null
+  version: '>=2.1'
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
+  name: cmake
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
+  name: ninja
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
+  name: libsdl2
+  requires: null
+  version: '>=0'
+use_flags:
+- big-endian
+- -abi_x86_x32
+- -abi_s390_32
+- -abi_mips_n32
+- cpu_flags_x86_sse
+- -cpu_flags_arm_neon
+- -abi_mips_n64
+- jack
+- amd64
+- -abi_mips_o32
+- elibc_glibc
+- abi_x86_64
+- kernel_linux
+- abi_x86_32
+- -oss
+- pulseaudio
+- -debug
+- sdl
+- -cpu_flags_x86_sse4_1
+- -coreaudio
+- -abi_s390_64
+- userland_GNU
+- -qt5
+- split-usr
+- cpu_flags_x86_sse2
+- -portaudio
+- -abi_riscv_lp64
+- -abi_riscv_lp64d
+- alsa
+version: 1.20.1+1

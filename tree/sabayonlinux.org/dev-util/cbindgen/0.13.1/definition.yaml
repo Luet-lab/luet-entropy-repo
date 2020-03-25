@@ -1,15 +1,17 @@
-
-category: "dev-util"
-name: "cbindgen"
-version: "0.13.1"
-
+Labels: null
+category: dev-util
+conflicts: null
+id: 0
+license: MIT MPL-2.0
+name: cbindgen
+requires: null
 use_flags:
-- "big-endian"
-- "split-usr"
-- "amd64"
-- "elibc_glibc"
-- "abi_x86_64"
-- "userland_GNU"
-- "kernel_linux"
-- "-debug"
-license: "MIT MPL-2.0"
+- big-endian
+- split-usr
+- amd64
+- elibc_glibc
+- abi_x86_64
+- userland_GNU
+- kernel_linux
+- -debug
+version: 0.13.1+1

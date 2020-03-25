@@ -1,5 +1,10 @@
+Labels: null
 category: dev-lang
+conflicts: null
+id: 0
+license: LGPL-2
 name: cfortran
+requires: null
 use_flags:
 - abi_x86_64
 - elibc_glibc
@@ -8,5 +13,4 @@ use_flags:
 - kernel_linux
 - -examples
 - multilib
-version: 4.4+r5
-license: "LGPL-2"
+version: 4.4+r6

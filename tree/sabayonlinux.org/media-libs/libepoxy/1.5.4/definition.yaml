@@ -1,20 +1,44 @@
+Labels: null
 category: media-libs
+conflicts: null
+id: 0
+license: MIT
 name: libepoxy
 requires:
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: meson
+  requires: null
   version: '>=0.51.2'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: ninja
+  requires: null
   version: '>=1.8.2'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-3.6
+  requires: null
   version: '>=0'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: mesa
+  requires: null
   version: '>=0'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libX11
+  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -36,5 +60,4 @@ use_flags:
 - -abi_riscv_lp64
 - egl
 - -abi_riscv_lp64d
-version: 1.5.4+3
-license: "MIT"
+version: 1.5.4+4

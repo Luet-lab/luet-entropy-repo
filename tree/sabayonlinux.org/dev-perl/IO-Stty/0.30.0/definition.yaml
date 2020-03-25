@@ -1,11 +1,23 @@
+Labels: null
 category: dev-perl
+conflicts: null
+id: 0
+license: Artistic GPL-1+
 name: IO-Stty
 requires:
-- category: dev-perl
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
   name: Module-Build
+  requires: null
   version: '>=0.350.0'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: perl
+  requires: null
   version: '>=0'
 use_flags:
 - amd64
@@ -16,5 +28,4 @@ use_flags:
 - split-usr
 - userland_GNU
 - elibc_glibc
-version: 0.30.0+2
-license: "Artistic GPL-1+"
+version: 0.30.0+3

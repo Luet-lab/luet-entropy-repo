@@ -1,35 +1,79 @@
+Labels: null
 category: gnome-base
+conflicts: null
+id: 0
+license: LGPL-2
 name: libgnome
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: perl
+  requires: null
   version: '>=5'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: glib-2
+  requires: null
   version: '>=2.16'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: popt
+  requires: null
   version: '>=1.7'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: intltool
+  requires: null
   version: '>=0.40'
-- category: gnome-base
+- Labels: null
+  category: gnome-base
+  conflicts: null
+  id: 0
   name: gconf-2
+  requires: null
   version: '>=2'
-- category: gnome-base
+- Labels: null
+  category: gnome-base
+  conflicts: null
+  id: 0
   name: gnome-vfs-2
+  requires: null
   version: '>=2.5.3'
-- category: gnome-base
+- Labels: null
+  category: gnome-base
+  conflicts: null
+  id: 0
   name: libbonobo
+  requires: null
   version: '>=2.13'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: sed
+  requires: null
   version: '>=4'
-- category: gnome-base
+- Labels: null
+  category: gnome-base
+  conflicts: null
+  id: 0
   name: gvfs
+  requires: null
   version: '>=0'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: libcanberra
+  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU
@@ -40,5 +84,4 @@ use_flags:
 - multilib
 - -doc
 - -branding
-version: 2.32.1+r3
-license: "LGPL-2"
+version: 2.32.1+r4

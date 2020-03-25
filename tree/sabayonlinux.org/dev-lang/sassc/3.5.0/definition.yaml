@@ -1,20 +1,44 @@
+Labels: null
 category: dev-lang
+conflicts: null
+id: 0
+license: MIT
 name: sassc
 requires:
-- category: app-portage
+- Labels: null
+  category: app-portage
+  conflicts: null
+  id: 0
   name: elt-patches
+  requires: null
   version: '>=20170815'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: libsass
+  requires: null
   version: '>=3.5'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: autoconf-2.69
+  requires: null
   version: '>=2.69'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: automake-1.15
+  requires: null
   version: '>=1.15.1'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: libtool-2
+  requires: null
   version: '>=2.4'
 use_flags:
 - abi_x86_64
@@ -23,5 +47,4 @@ use_flags:
 - amd64
 - big-endian
 - kernel_linux
-version: 3.5.0+2
-license: "MIT"
+version: 3.5.0+3

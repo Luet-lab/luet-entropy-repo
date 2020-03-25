@@ -1,11 +1,23 @@
+Labels: null
 category: app-arch
+conflicts: null
+id: 0
+license: GPL-3+
 name: tar
 requires:
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: gettext
+  requires: null
   version: '>=0.10.35'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: attr
+  requires: null
   version: '>=0'
 use_flags:
 - -selinux
@@ -20,5 +32,4 @@ use_flags:
 - xattr
 - -minimal
 - userland_GNU
-version: 1.32+2
-license: "GPL-3+"
+version: 1.32+3

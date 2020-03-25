@@ -1,17 +1,37 @@
+Labels: null
 category: dev-java
+conflicts: null
+id: 0
+license: GPL-2
 name: resin-servlet-api-3.1
 requires:
-- category: dev-java
+- Labels: null
+  category: dev-java
+  conflicts: null
+  id: 0
   name: ant-core
+  requires: null
   version: '>=1.8.2'
-- category: dev-java
+- Labels: null
+  category: dev-java
+  conflicts: null
+  id: 0
   name: java-config-2
+  requires: null
   version: '>=2.2.0'
-- category: dev-java
+- Labels: null
+  category: dev-java
+  conflicts: null
+  id: 0
   name: javatoolkit
+  requires: null
   version: '>=0.3.0'
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: unzip
+  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU
@@ -21,5 +41,4 @@ use_flags:
 - elibc_glibc
 - amd64
 - kernel_linux
-version: 4.0.46+2
-license: "GPL-2"
+version: 4.0.46+3

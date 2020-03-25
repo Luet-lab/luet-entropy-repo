@@ -1,14 +1,30 @@
+Labels: null
 category: net-nds
+conflicts: null
+id: 0
+license: BSD
 name: rpcbind
 requires:
-- category: net-libs
+- Labels: null
+  category: net-libs
+  conflicts: null
+  id: 0
   name: libtirpc
+  requires: null
   version: '>=0.2.3'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: systemd
+  requires: null
   version: '>=0'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: tcp-wrappers
+  requires: null
   version: '>=0'
 use_flags:
 - abi_x86_64
@@ -24,5 +40,4 @@ use_flags:
 - userland_GNU
 - amd64
 - -selinux
-version: 1.2.5+2
-license: "BSD"
+version: 1.2.5+3

@@ -1,35 +1,48 @@
-
-category: "media-libs"
-name: "sdl2-ttf"
-version: "2.0.15"
-
-use_flags:
-- "-abi_x86_x32"
-- "-abi_s390_64"
-- "amd64"
-- "-static-libs"
-- "elibc_glibc"
-- "-abi_s390_32"
-- "split-usr"
-- "-abi_riscv_lp64d"
-- "-abi_riscv_lp64"
-- "kernel_linux"
-- "userland_GNU"
-- "big-endian"
-- "abi_x86_32"
-- "X"
-- "-abi_mips_o32"
-- "-abi_mips_n64"
-- "abi_x86_64"
-- "-abi_mips_n32"
+Labels: null
+category: media-libs
+conflicts: null
+id: 0
+license: ZLIB
+name: sdl2-ttf
 requires:
-- category: "media-libs"
-  name: "freetype-2"
-  version: ">=2.5.0.1"
-- category: "media-libs"
-  name: "libsdl2"
-  version: ">=2.0.1"
-- category: "x11-libs"
-  name: "libXt"
-  version: ">=1.1.4"
-license: "ZLIB"
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
+  name: freetype-2
+  requires: null
+  version: '>=2.5.0.1'
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
+  name: libsdl2
+  requires: null
+  version: '>=2.0.1'
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
+  name: libXt
+  requires: null
+  version: '>=1.1.4'
+use_flags:
+- -abi_x86_x32
+- -abi_s390_64
+- amd64
+- -static-libs
+- elibc_glibc
+- -abi_s390_32
+- split-usr
+- -abi_riscv_lp64d
+- -abi_riscv_lp64
+- kernel_linux
+- userland_GNU
+- big-endian
+- abi_x86_32
+- X
+- -abi_mips_o32
+- -abi_mips_n64
+- abi_x86_64
+- -abi_mips_n32
+version: 2.0.15+1

@@ -1,5 +1,10 @@
+Labels: null
 category: app-arch
+conflicts: null
+id: 0
+license: GPL-2+
 name: lzip
+requires: null
 use_flags:
 - elibc_glibc
 - abi_x86_64
@@ -7,5 +12,4 @@ use_flags:
 - userland_GNU
 - amd64
 - kernel_linux
-version: 1.21+2
-license: "GPL-2+"
+version: 1.21+3

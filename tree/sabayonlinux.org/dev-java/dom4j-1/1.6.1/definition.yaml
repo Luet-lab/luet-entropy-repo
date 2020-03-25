@@ -1,29 +1,65 @@
+Labels: null
 category: dev-java
+conflicts: null
+id: 0
+license: dom4j
 name: dom4j-1
 requires:
-- category: dev-java
+- Labels: null
+  category: dev-java
+  conflicts: null
+  id: 0
   name: ant-core
+  requires: null
   version: '>=1.8.2'
-- category: dev-java
+- Labels: null
+  category: dev-java
+  conflicts: null
+  id: 0
   name: java-config-2
+  requires: null
   version: '>=2.2.0'
-- category: dev-java
+- Labels: null
+  category: dev-java
+  conflicts: null
+  id: 0
   name: javatoolkit
+  requires: null
   version: '>=0.3.0'
-- category: dev-java
+- Labels: null
+  category: dev-java
+  conflicts: null
+  id: 0
   name: jaxen-1.1
+  requires: null
   version: '>=0'
-- category: dev-java
+- Labels: null
+  category: dev-java
+  conflicts: null
+  id: 0
   name: relaxng-datatype
+  requires: null
   version: '>=0'
-- category: dev-java
+- Labels: null
+  category: dev-java
+  conflicts: null
+  id: 0
   name: xpp2
+  requires: null
   version: '>=0'
-- category: dev-java
+- Labels: null
+  category: dev-java
+  conflicts: null
+  id: 0
   name: xpp3
+  requires: null
   version: '>=0'
-- category: dev-java
+- Labels: null
+  category: dev-java
+  conflicts: null
+  id: 0
   name: xsdlib
+  requires: null
   version: '>=0'
 use_flags:
 - -test
@@ -35,5 +71,4 @@ use_flags:
 - userland_GNU
 - kernel_linux
 - -source
-version: 1.6.1+r9
-license: "dom4j"
+version: 1.6.1+r10

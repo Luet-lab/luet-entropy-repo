@@ -1,8 +1,16 @@
+Labels: null
 category: dev-util
+conflicts: null
+id: 0
+license: Ruby
 name: cucumber-wire
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: ruby-2.5
+  requires: null
   version: '>=0'
 use_flags:
 - ruby_targets_ruby25
@@ -17,5 +25,4 @@ use_flags:
 - split-usr
 - -test
 - -ruby_targets_ruby24
-version: 0.0.1+r3
-license: "Ruby"
+version: 0.0.1+r4

@@ -1,8 +1,16 @@
+Labels: null
 category: net-dns
+conflicts: null
+id: 0
+license: public-domain
 name: dnssec-root
 requires:
-- category: dev-perl
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
   name: XML-XPath
+  requires: null
   version: '>=1.420.0'
 use_flags:
 - kernel_linux
@@ -12,5 +20,4 @@ use_flags:
 - elibc_glibc
 - userland_GNU
 - split-usr
-version: 20181220+r3
-license: "public-domain"
+version: 20181220+r4

@@ -1,8 +1,16 @@
+Labels: null
 category: gnome-extra
+conflicts: null
+id: 0
+license: GPL-2
 name: cinnamon-translations
 requires:
-- category: gnome-extra
+- Labels: null
+  category: gnome-extra
+  conflicts: null
+  id: 0
   name: cinnamon-settings-daemon
+  requires: null
   version: '>3.6'
 use_flags:
 - kernel_linux
@@ -11,5 +19,4 @@ use_flags:
 - abi_x86_64
 - elibc_glibc
 - big-endian
-version: 4.0.0+2
-license: "GPL-2"
+version: 4.0.0+3

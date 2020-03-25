@@ -1,29 +1,65 @@
+Labels: null
 category: x11-themes
+conflicts: null
+id: 0
+license: CC-BY-SA-3.0 LGPL-3
 name: adwaita-icon-theme
 requires:
-- category: app-portage
+- Labels: null
+  category: app-portage
+  conflicts: null
+  id: 0
   name: elt-patches
+  requires: null
   version: '>=20170815'
-- category: x11-themes
+- Labels: null
+  category: x11-themes
+  conflicts: null
+  id: 0
   name: hicolor-icon-theme
+  requires: null
   version: '>=0.10'
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: xz-utils
+  requires: null
   version: '>=0'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: desktop-file-utils
+  requires: null
   version: '>=0'
-- category: gnome-base
+- Labels: null
+  category: gnome-base
+  conflicts: null
+  id: 0
   name: librsvg-2
+  requires: null
   version: '>=0'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: gettext
+  requires: null
   version: '>=0'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: gtk+-3
+  requires: null
   version: '>=0'
-- category: x11-misc
+- Labels: null
+  category: x11-misc
+  conflicts: null
+  id: 0
   name: shared-mime-info
+  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc
@@ -34,5 +70,4 @@ use_flags:
 - kernel_linux
 - split-usr
 - amd64
-version: 3.32.0+2
-license: "CC-BY-SA-3.0 LGPL-3"
+version: 3.32.0+3

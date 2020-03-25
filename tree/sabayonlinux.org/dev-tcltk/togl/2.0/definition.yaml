@@ -1,8 +1,16 @@
+Labels: null
 category: dev-tcltk
+conflicts: null
+id: 0
+license: BSD
 name: togl
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: tk
+  requires: null
   version: '>=0'
 use_flags:
 - multilib
@@ -12,5 +20,4 @@ use_flags:
 - elibc_glibc
 - amd64
 - -debug
-version: 2.0+r4
-license: "BSD"
+version: 2.0+r5

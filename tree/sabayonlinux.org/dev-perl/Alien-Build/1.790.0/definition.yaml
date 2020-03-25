@@ -1,23 +1,51 @@
+Labels: null
 category: dev-perl
+conflicts: null
+id: 0
+license: Artistic GPL-1+
 name: Alien-Build
 requires:
-- category: dev-perl
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
   name: Capture-Tiny
+  requires: null
   version: '>=0.170.0'
-- category: dev-perl
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
   name: FFI-CheckLib
+  requires: null
   version: '>=0.110.0'
-- category: dev-perl
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
   name: File-Which
+  requires: null
   version: '>=1.100.0'
-- category: dev-perl
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
   name: Path-Tiny
+  requires: null
   version: '>=0.77.0'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: perl
+  requires: null
   version: '>=0'
-- category: dev-perl
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
   name: File-chdir
+  requires: null
   version: '>=0'
 use_flags:
 - split-usr
@@ -30,5 +58,4 @@ use_flags:
 - big-endian
 - -zip
 - kernel_linux
-version: 1.790.0+2
-license: "Artistic GPL-1+"
+version: 1.790.0+3

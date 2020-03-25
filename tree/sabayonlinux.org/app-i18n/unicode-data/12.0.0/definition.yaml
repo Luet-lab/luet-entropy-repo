@@ -1,8 +1,16 @@
+Labels: null
 category: app-i18n
+conflicts: null
+id: 0
+license: unicode
 name: unicode-data
 requires:
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: unzip
+  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU
@@ -12,5 +20,4 @@ use_flags:
 - abi_x86_64
 - big-endian
 - elibc_glibc
-version: 12.0.0+2
-license: "unicode"
+version: 12.0.0+3

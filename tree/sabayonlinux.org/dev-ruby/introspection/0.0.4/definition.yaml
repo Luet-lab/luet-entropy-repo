@@ -1,11 +1,23 @@
+Labels: null
 category: dev-ruby
+conflicts: null
+id: 0
+license: MIT
 name: introspection
 requires:
-- category: dev-ruby
+- Labels: null
+  category: dev-ruby
+  conflicts: null
+  id: 0
   name: metaclass
+  requires: null
   version: '>=0.0.1'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: ruby-2.5
+  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -20,5 +32,4 @@ use_flags:
 - elibc_glibc
 - abi_x86_64
 - -test
-version: 0.0.4+2
-license: "MIT"
+version: 0.0.4+3

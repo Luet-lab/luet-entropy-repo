@@ -1,20 +1,44 @@
+Labels: null
 category: dev-python
+conflicts: null
+id: 0
+license: MIT
 name: setuptools
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-2.7
+  requires: null
   version: '>=2.7.5'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-exec-2
+  requires: null
   version: '>=2'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: certifi
+  requires: null
   version: '>=2016.9.26'
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: unzip
+  requires: null
   version: '>=0'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-3.6
+  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -30,5 +54,4 @@ use_flags:
 - -python_targets_pypy3
 - elibc_glibc
 - kernel_linux
-version: 44.0.0+2
-license: "MIT"
+version: 44.0.0+3

@@ -1,12 +1,14 @@
-
-category: "net-analyzer"
-name: "macchanger"
-version: "1.7.0+r1"
-
+Labels: null
+category: net-analyzer
+conflicts: null
+id: 0
+license: GPL-2
+name: macchanger
+requires: null
 use_flags:
-- "elibc_glibc"
-- "abi_x86_64"
-- "amd64"
-- "userland_GNU"
-- "kernel_linux"
-license: "GPL-2"
+- elibc_glibc
+- abi_x86_64
+- amd64
+- userland_GNU
+- kernel_linux
+version: 1.7.0+r2

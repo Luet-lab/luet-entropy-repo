@@ -1,23 +1,51 @@
+Labels: null
 category: dev-python
+conflicts: null
+id: 0
+license: LGPL-2+
 name: gst-python-1.0
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-2.7
+  requires: null
   version: '>=2.7.5'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-exec-2
+  requires: null
   version: '>=2'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: pygobject-base-3
+  requires: null
   version: '>=3.8'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: gst-plugins-base-1.0
+  requires: null
   version: '>=1.14.1'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: gstreamer-1.0
+  requires: null
   version: '>=1.14.1'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-3.6
+  requires: null
   version: '>=0'
 use_flags:
 - kernel_linux
@@ -30,5 +58,4 @@ use_flags:
 - python_targets_python2_7
 - -python_targets_python3_4
 - python_targets_python3_6
-version: 1.14.1+r3
-license: "LGPL-2+"
+version: 1.14.1+r4

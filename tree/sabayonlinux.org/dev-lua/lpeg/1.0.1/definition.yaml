@@ -1,8 +1,16 @@
+Labels: null
 category: dev-lua
+conflicts: null
+id: 0
+license: MIT
 name: lpeg
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: luajit-2
+  requires: null
   version: '>=0'
 use_flags:
 - -doc
@@ -13,5 +21,4 @@ use_flags:
 - kernel_linux
 - amd64
 - elibc_glibc
-version: 1.0.1+2
-license: "MIT"
+version: 1.0.1+3

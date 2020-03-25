@@ -1,31 +1,48 @@
-
-category: "dev-haskell"
-name: "sha"
-version: "1.6.4.2"
-
-use_flags:
-- "big-endian"
-- "-exe"
-- "kernel_linux"
-- "-doc"
-- "amd64"
-- "-hscolour"
-- "elibc_glibc"
-- "userland_GNU"
-- "-profile"
-- "-test"
-- "abi_x86_64"
+Labels: null
+category: dev-haskell
+conflicts: null
+id: 0
+license: BSD
+name: sha
 requires:
-- category: "dev-haskell"
-  name: "binary"
-  version: "<10000"
-- category: "dev-haskell"
-  name: "binary"
-  version: ">=0.7"
-- category: "dev-haskell"
-  name: "cabal"
-  version: ">=1.8"
-- category: "dev-lang"
-  name: "ghc"
-  version: ">=7.4.1"
-license: "BSD"
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: binary
+  requires: null
+  version: <10000
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: binary
+  requires: null
+  version: '>=0.7'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: cabal
+  requires: null
+  version: '>=1.8'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: ghc
+  requires: null
+  version: '>=7.4.1'
+use_flags:
+- big-endian
+- -exe
+- kernel_linux
+- -doc
+- amd64
+- -hscolour
+- elibc_glibc
+- userland_GNU
+- -profile
+- -test
+- abi_x86_64
+version: 1.6.4.2+1

@@ -1,35 +1,79 @@
+Labels: null
 category: sci-libs
+conflicts: null
+id: 0
+license: BSD LGPL-2
 name: scipy
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-2.7
+  requires: null
   version: '>=2.7.5'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-exec-2
+  requires: null
   version: '>=2'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: cython
+  requires: null
   version: '>=0.22'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: numpy
+  requires: null
   version: '>=1.10'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: setuptools
+  requires: null
   version: '>=36'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-3.6
+  requires: null
   version: '>=0'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: swig
+  requires: null
   version: '>=0'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: pillow
+  requires: null
   version: '>=0'
-- category: sci-libs
+- Labels: null
+  category: sci-libs
+  conflicts: null
+  id: 0
   name: arpack
+  requires: null
   version: '>=0'
-- category: sci-libs
+- Labels: null
+  category: sci-libs
+  conflicts: null
+  id: 0
   name: umfpack
+  requires: null
   version: '>=0'
 use_flags:
 - python_targets_python2_7
@@ -46,5 +90,4 @@ use_flags:
 - -python_targets_python3_7
 - python_targets_python3_6
 - -python_targets_python3_5
-version: 1.1.0+2
-license: "BSD LGPL-2"
+version: 1.1.0+3

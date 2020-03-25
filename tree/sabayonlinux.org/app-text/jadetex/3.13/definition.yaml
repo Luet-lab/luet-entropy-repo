@@ -1,14 +1,30 @@
+Labels: null
 category: app-text
+conflicts: null
+id: 0
+license: MIT
 name: jadetex
 requires:
-- category: app-text
+- Labels: null
+  category: app-text
+  conflicts: null
+  id: 0
   name: openjade
+  requires: null
   version: '>=1.3.1'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: texinfo
+  requires: null
   version: '>=4.2'
-- category: dev-texlive
+- Labels: null
+  category: dev-texlive
+  conflicts: null
+  id: 0
   name: texlive-fontsrecommended
+  requires: null
   version: '>=0'
 use_flags:
 - abi_x86_64
@@ -16,5 +32,4 @@ use_flags:
 - elibc_glibc
 - kernel_linux
 - userland_GNU
-version: 3.13+r9
-license: "MIT"
+version: 3.13+r10

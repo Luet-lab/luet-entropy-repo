@@ -1,26 +1,58 @@
+Labels: null
 category: dev-ruby
+conflicts: null
+id: 0
+license: MIT
 name: actionview-6.0
 requires:
-- category: dev-ruby
+- Labels: null
+  category: dev-ruby
+  conflicts: null
+  id: 0
   name: builder-3.2
+  requires: null
   version: '>=3'
-- category: dev-ruby
+- Labels: null
+  category: dev-ruby
+  conflicts: null
+  id: 0
   name: builder-3.2
+  requires: null
   version: '>=3.1'
-- category: dev-ruby
+- Labels: null
+  category: dev-ruby
+  conflicts: null
+  id: 0
   name: erubi
+  requires: null
   version: '>=1.4'
-- category: dev-ruby
+- Labels: null
+  category: dev-ruby
+  conflicts: null
+  id: 0
   name: rails-html-sanitizer-1
+  requires: null
   version: '>=1.2.0'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: ruby-2.5
+  requires: null
   version: '>=0'
-- category: dev-ruby
+- Labels: null
+  category: dev-ruby
+  conflicts: null
+  id: 0
   name: rails-dom-testing-2
+  requires: null
   version: '>=0'
-- category: dev-ruby
+- Labels: null
+  category: dev-ruby
+  conflicts: null
+  id: 0
   name: activesupport-6.0
+  requires: null
   version: '>=6.0.2.1'
 use_flags:
 - ruby_targets_ruby25
@@ -34,5 +66,4 @@ use_flags:
 - elibc_glibc
 - split-usr
 - amd64
-version: 6.0.2.1+2
-license: "MIT"
+version: 6.0.2.1+3

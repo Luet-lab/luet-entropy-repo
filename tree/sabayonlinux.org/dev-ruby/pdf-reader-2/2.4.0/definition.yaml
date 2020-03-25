@@ -1,26 +1,58 @@
+Labels: null
 category: dev-ruby
+conflicts: null
+id: 0
+license: MIT
 name: pdf-reader-2
 requires:
-- category: dev-ruby
+- Labels: null
+  category: dev-ruby
+  conflicts: null
+  id: 0
   name: afm
+  requires: null
   version: '>=0.2'
-- category: dev-ruby
+- Labels: null
+  category: dev-ruby
+  conflicts: null
+  id: 0
   name: ascii85
+  requires: null
   version: '>=1'
-- category: dev-ruby
+- Labels: null
+  category: dev-ruby
+  conflicts: null
+  id: 0
   name: hashery
+  requires: null
   version: '>=2'
-- category: dev-ruby
+- Labels: null
+  category: dev-ruby
+  conflicts: null
+  id: 0
   name: afm
+  requires: null
   version: '>=0.2.1'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: ruby-2.5
+  requires: null
   version: '>=0'
-- category: dev-ruby
+- Labels: null
+  category: dev-ruby
+  conflicts: null
+  id: 0
   name: ruby-rc4
+  requires: null
   version: '>=0'
-- category: dev-ruby
+- Labels: null
+  category: dev-ruby
+  conflicts: null
+  id: 0
   name: ttfunk-1.5
+  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU
@@ -35,5 +67,4 @@ use_flags:
 - abi_x86_64
 - ruby_targets_ruby25
 - -doc
-version: 2.4.0+2
-license: "MIT"
+version: 2.4.0+3

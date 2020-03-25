@@ -1,29 +1,65 @@
+Labels: null
 category: media-libs
+conflicts: null
+id: 0
+license: ISC Old-MIT icu
 name: harfbuzz
 requires:
-- category: app-portage
+- Labels: null
+  category: app-portage
+  conflicts: null
+  id: 0
   name: elt-patches
+  requires: null
   version: '>=20170815'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: glib-2
+  requires: null
   version: '>=2.38'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: gobject-introspection
+  requires: null
   version: '>=1.34'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: icu
+  requires: null
   version: '>=51.2'
-- category: media-gfx
+- Labels: null
+  category: media-gfx
+  conflicts: null
+  id: 0
   name: graphite2
+  requires: null
   version: '>=1.2.1'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: freetype-2
+  requires: null
   version: '>=2.5.0.1'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: gtk-doc-am
+  requires: null
   version: '>=0'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: cairo
+  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -51,5 +87,4 @@ use_flags:
 - graphite
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
-version: 2.6.4+3
-license: "ISC Old-MIT icu"
+version: 2.6.4+4

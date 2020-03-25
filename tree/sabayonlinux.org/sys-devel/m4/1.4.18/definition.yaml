@@ -1,8 +1,16 @@
+Labels: null
 category: sys-devel
+conflicts: null
+id: 0
+license: GPL-3
 name: m4
 requires:
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: xz-utils
+  requires: null
   version: '>=0'
 use_flags:
 - kernel_linux
@@ -12,5 +20,4 @@ use_flags:
 - elibc_glibc
 - userland_GNU
 - -examples
-version: 1.4.18+r3
-license: "GPL-3"
+version: 1.4.18+r4

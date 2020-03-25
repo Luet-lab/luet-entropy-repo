@@ -1,14 +1,30 @@
+Labels: null
 category: app-misc
+conflicts: null
+id: 0
+license: MPL-1.1
 name: ca-certificates
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-2.7
+  requires: null
   version: '>=2.7.5'
-- category: app-misc
+- Labels: null
+  category: app-misc
+  conflicts: null
+  id: 0
   name: c_rehash
+  requires: null
   version: '>=0'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: debianutils
+  requires: null
   version: '>=0'
 use_flags:
 - abi_x86_64
@@ -18,5 +34,4 @@ use_flags:
 - kernel_linux
 - -cacert
 - big-endian
-version: 20190110.3.43+2
-license: "MPL-1.1"
+version: 20190110.3.43+3

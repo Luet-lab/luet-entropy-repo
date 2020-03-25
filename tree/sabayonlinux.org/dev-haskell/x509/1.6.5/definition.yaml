@@ -1,60 +1,117 @@
-
-category: "dev-haskell"
-name: "x509"
-version: "1.6.5"
-
-use_flags:
-- "big-endian"
-- "kernel_linux"
-- "-doc"
-- "amd64"
-- "-hscolour"
-- "elibc_glibc"
-- "userland_GNU"
-- "-profile"
-- "-test"
-- "abi_x86_64"
+Labels: null
+category: dev-haskell
+conflicts: null
+id: 0
+license: BSD
+name: x509
 requires:
-- category: "dev-haskell"
-  name: "asn1-encoding"
-  version: "<0.10"
-- category: "dev-haskell"
-  name: "asn1-parse"
-  version: "<0.10"
-- category: "dev-haskell"
-  name: "asn1-types"
-  version: "<0.4"
-- category: "dev-haskell"
-  name: "pem"
-  version: "<0.3"
-- category: "dev-haskell"
-  name: "asn1-encoding"
-  version: ">=0.9"
-- category: "dev-haskell"
-  name: "asn1-parse"
-  version: ">=0.9.3"
-- category: "dev-haskell"
-  name: "asn1-types"
-  version: ">=0.3.1"
-- category: "dev-haskell"
-  name: "cabal"
-  version: ">=1.8"
-- category: "dev-haskell"
-  name: "pem"
-  version: ">=0.1"
-- category: "dev-lang"
-  name: "ghc"
-  version: ">=7.4.1"
-- category: "dev-haskell"
-  name: "cryptonite"
-  version: ">=0"
-- category: "dev-haskell"
-  name: "hourglass"
-  version: ">=0"
-- category: "dev-haskell"
-  name: "memory"
-  version: ">=0"
-- category: "dev-haskell"
-  name: "mtl"
-  version: ">=0"
-license: "BSD"
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: asn1-encoding
+  requires: null
+  version: <0.10
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: asn1-parse
+  requires: null
+  version: <0.10
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: asn1-types
+  requires: null
+  version: <0.4
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: pem
+  requires: null
+  version: <0.3
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: asn1-encoding
+  requires: null
+  version: '>=0.9'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: asn1-parse
+  requires: null
+  version: '>=0.9.3'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: asn1-types
+  requires: null
+  version: '>=0.3.1'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: cabal
+  requires: null
+  version: '>=1.8'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: pem
+  requires: null
+  version: '>=0.1'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: ghc
+  requires: null
+  version: '>=7.4.1'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: cryptonite
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: hourglass
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: memory
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: mtl
+  requires: null
+  version: '>=0'
+use_flags:
+- big-endian
+- kernel_linux
+- -doc
+- amd64
+- -hscolour
+- elibc_glibc
+- userland_GNU
+- -profile
+- -test
+- abi_x86_64
+version: 1.6.5+1

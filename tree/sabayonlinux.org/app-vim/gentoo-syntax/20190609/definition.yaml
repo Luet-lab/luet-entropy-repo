@@ -1,8 +1,16 @@
+Labels: null
 category: app-vim
+conflicts: null
+id: 0
+license: vim
 name: gentoo-syntax
 requires:
-- category: app-editors
+- Labels: null
+  category: app-editors
+  conflicts: null
+  id: 0
   name: gvim
+  requires: null
   version: '>=7.3'
 use_flags:
 - amd64
@@ -13,5 +21,4 @@ use_flags:
 - abi_x86_64
 - kernel_linux
 - userland_GNU
-version: 20190609+2
-license: "vim"
+version: 20190609+3

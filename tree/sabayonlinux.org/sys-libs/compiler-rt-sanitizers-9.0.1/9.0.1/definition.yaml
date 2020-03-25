@@ -1,23 +1,51 @@
+Labels: null
 category: sys-libs
+conflicts: null
+id: 0
+license: Apache-2.0-with-LLVM-exceptions MIT UoI-NCSA
 name: compiler-rt-sanitizers-9.0.1
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-2.7
+  requires: null
   version: '>=2.7.5'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: cmake
+  requires: null
   version: '>=3.9.6'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: llvm-9
+  requires: null
   version: '>=6'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: ninja
+  requires: null
   version: '>=0'
-- category: net-libs
+- Labels: null
+  category: net-libs
+  conflicts: null
+  id: 0
   name: libtirpc
+  requires: null
   version: '>=0'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: clang-9
+  requires: null
   version: '>=0'
 use_flags:
 - profile
@@ -33,5 +61,4 @@ use_flags:
 - -test
 - userland_GNU
 - split-usr
-version: 9.0.1+2
-license: "Apache-2.0-with-LLVM-exceptions MIT UoI-NCSA"
+version: 9.0.1+3

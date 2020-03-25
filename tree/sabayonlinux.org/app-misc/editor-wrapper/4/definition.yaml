@@ -1,5 +1,10 @@
+Labels: null
 category: app-misc
+conflicts: null
+id: 0
+license: MIT
 name: editor-wrapper
+requires: null
 use_flags:
 - kernel_linux
 - abi_x86_64
@@ -8,5 +13,4 @@ use_flags:
 - elibc_glibc
 - userland_GNU
 - split-usr
-version: 4+r3
-license: "MIT"
+version: 4+r4

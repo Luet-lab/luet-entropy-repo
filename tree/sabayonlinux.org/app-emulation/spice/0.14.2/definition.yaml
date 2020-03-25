@@ -1,53 +1,121 @@
+Labels: null
 category: app-emulation
+conflicts: null
+id: 0
+license: LGPL-2.1
 name: spice
 requires:
-- category: app-emulation
+- Labels: null
+  category: app-emulation
+  conflicts: null
+  id: 0
   name: libcacard
+  requires: null
   version: '>=0.1.2'
-- category: app-emulation
+- Labels: null
+  category: app-emulation
+  conflicts: null
+  id: 0
   name: spice-protocol
+  requires: null
   version: '>=0.14.0'
-- category: app-portage
+- Labels: null
+  category: app-portage
+  conflicts: null
+  id: 0
   name: elt-patches
+  requires: null
   version: '>=20170815'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: glib-2
+  requires: null
   version: '>=2.22'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: pyparsing
+  requires: null
   version: '>=1.5.6'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: autoconf-2.69
+  requires: null
   version: '>=2.69'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: automake-1.15
+  requires: null
   version: '>=1.15.1'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: libtool-2
+  requires: null
   version: '>=2.4'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: pixman
+  requires: null
   version: '>=0.17.7'
-- category: app-emulation
+- Labels: null
+  category: app-emulation
+  conflicts: null
+  id: 0
   name: qemu
+  requires: null
   version: '>=0'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: orc
+  requires: null
   version: '>=0'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-3.6
+  requires: null
   version: '>=0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: openssl
+  requires: null
   version: '>=0'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: six
+  requires: null
   version: '>=0'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: opus
+  requires: null
   version: '>=0'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: zlib
+  requires: null
   version: '>=0'
 use_flags:
 - -libressl
@@ -63,5 +131,4 @@ use_flags:
 - abi_x86_64
 - userland_GNU
 - big-endian
-version: 0.14.2+2
-license: "LGPL-2.1"
+version: 0.14.2+3

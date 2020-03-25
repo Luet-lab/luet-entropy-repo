@@ -1,8 +1,16 @@
+Labels: null
 category: sys-apps
+conflicts: null
+id: 0
+license: GPL-3
 name: ed
 requires:
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: texinfo
+  requires: null
   version: '>=0'
 use_flags:
 - kernel_linux
@@ -12,5 +20,4 @@ use_flags:
 - big-endian
 - abi_x86_64
 - userland_GNU
-version: 1.15+r3
-license: "GPL-3"
+version: 1.15+r4

@@ -1,11 +1,23 @@
+Labels: null
 category: dev-ruby
+conflicts: null
+id: 0
+license: BSD-2
 name: domain_name
 requires:
-- category: dev-ruby
+- Labels: null
+  category: dev-ruby
+  conflicts: null
+  id: 0
   name: unf
+  requires: null
   version: '>=0.0.5'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: ruby-2.5
+  requires: null
   version: '>=0'
 use_flags:
 - -ruby_targets_ruby24
@@ -19,5 +31,4 @@ use_flags:
 - elibc_glibc
 - amd64
 - big-endian
-version: 0.5.20190701+2
-license: "BSD-2"
+version: 0.5.20190701+3

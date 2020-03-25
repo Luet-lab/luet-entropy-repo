@@ -1,47 +1,68 @@
-
-category: "dev-libs"
-name: "elfutils"
-version: "0.178"
-
-use_flags:
-- "static-libs"
-- "-lzma"
-- "big-endian"
-- "nls"
-- "-abi_s390_32"
-- "-test"
-- "-abi_riscv_lp64d"
-- "-abi_mips_n32"
-- "-abi_x86_x32"
-- "-abi_mips_n64"
-- "bzip2"
-- "amd64"
-- "-abi_mips_o32"
-- "elibc_glibc"
-- "abi_x86_64"
-- "-threads"
-- "kernel_linux"
-- "abi_x86_32"
-- "-valgrind"
-- "utils"
-- "-abi_s390_64"
-- "split-usr"
-- "-abi_riscv_lp64"
-- "userland_GNU"
+Labels: null
+category: dev-libs
+conflicts: null
+id: 0
+license: GPL-2+ GPL-3+ LGPL-3+
+name: elfutils
 requires:
-- category: "app-arch"
-  name: "bzip2"
-  version: ">=1.0.6"
-- category: "sys-devel"
-  name: "flex"
-  version: ">=2.5.4a"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=1.2.8"
-- category: "sys-devel"
-  name: "gettext"
-  version: ">=0"
-- category: "sys-devel"
-  name: "m4"
-  version: ">=0"
-license: "GPL-2+ GPL-3+ LGPL-3+"
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
+  name: bzip2
+  requires: null
+  version: '>=1.0.6'
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
+  name: flex
+  requires: null
+  version: '>=2.5.4a'
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
+  name: zlib
+  requires: null
+  version: '>=1.2.8'
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
+  name: gettext
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
+  name: m4
+  requires: null
+  version: '>=0'
+use_flags:
+- static-libs
+- -lzma
+- big-endian
+- nls
+- -abi_s390_32
+- -test
+- -abi_riscv_lp64d
+- -abi_mips_n32
+- -abi_x86_x32
+- -abi_mips_n64
+- bzip2
+- amd64
+- -abi_mips_o32
+- elibc_glibc
+- abi_x86_64
+- -threads
+- kernel_linux
+- abi_x86_32
+- -valgrind
+- utils
+- -abi_s390_64
+- split-usr
+- -abi_riscv_lp64
+- userland_GNU
+version: 0.178+1

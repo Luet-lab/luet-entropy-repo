@@ -1,55 +1,108 @@
-
-category: "app-text"
-name: "po4a"
-version: "0.57"
-license: "GPL-2"
-
-use_flags:
-- "elibc_glibc"
-- "split-usr"
-- "abi_x86_64"
-- "userland_GNU"
-- "amd64"
-- "kernel_linux"
-- "-test"
-- "big-endian"
+Labels: null
+category: app-text
+conflicts: null
+id: 0
+license: GPL-2
+name: po4a
 requires:
-- category: "app-text"
-  name: "docbook-xml-dtd-4.5"
-  version: ">=0"
-- category: "app-text"
-  name: "docbook-xsl-stylesheets"
-  version: ">=0"
-- category: "app-text"
-  name: "opensp"
-  version: ">=0"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=0"
-- category: "dev-libs"
-  name: "libxslt"
-  version: ">=0"
-- category: "dev-perl"
-  name: "Locale-gettext"
-  version: ">=0"
-- category: "dev-perl"
-  name: "Module-Build"
-  version: ">=0"
-- category: "dev-perl"
-  name: "SGMLSpm"
-  version: ">=0"
-- category: "dev-perl"
-  name: "TermReadKey"
-  version: ">=0"
-- category: "dev-perl"
-  name: "Text-WrapI18N"
-  version: ">=0"
-- category: "dev-perl"
-  name: "Unicode-LineBreak"
-  version: ">=0"
-- category: "dev-perl"
-  name: "YAML-Tiny"
-  version: ">=0"
-- category: "sys-devel"
-  name: "gettext"
-  version: ">=0"
+- Labels: null
+  category: app-text
+  conflicts: null
+  id: 0
+  name: docbook-xml-dtd-4.5
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: app-text
+  conflicts: null
+  id: 0
+  name: docbook-xsl-stylesheets
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: app-text
+  conflicts: null
+  id: 0
+  name: opensp
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: perl
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
+  name: libxslt
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
+  name: Locale-gettext
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
+  name: Module-Build
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
+  name: SGMLSpm
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
+  name: TermReadKey
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
+  name: Text-WrapI18N
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
+  name: Unicode-LineBreak
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
+  name: YAML-Tiny
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
+  name: gettext
+  requires: null
+  version: '>=0'
+use_flags:
+- elibc_glibc
+- split-usr
+- abi_x86_64
+- userland_GNU
+- amd64
+- kernel_linux
+- -test
+- big-endian
+version: 0.57+1

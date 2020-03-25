@@ -1,8 +1,16 @@
+Labels: null
 category: app-dicts
+conflicts: null
+id: 0
+license: ipadic
 name: mecab-ipadic
 requires:
-- category: app-text
+- Labels: null
+  category: app-text
+  conflicts: null
+  id: 0
   name: mecab
+  requires: null
   version: '>=0.90'
 use_flags:
 - unicode
@@ -11,5 +19,4 @@ use_flags:
 - kernel_linux
 - elibc_glibc
 - multilib
-version: 2.7.0.20070801+2
-license: "ipadic"
+version: 2.7.0.20070801+3

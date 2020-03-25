@@ -1,14 +1,30 @@
+Labels: null
 category: dev-java
+conflicts: null
+id: 0
+license: JDOM
 name: jaxen-1.1
 requires:
-- category: dev-java
+- Labels: null
+  category: dev-java
+  conflicts: null
+  id: 0
   name: java-config-2
+  requires: null
   version: '>=2.2.0'
-- category: dev-java
+- Labels: null
+  category: dev-java
+  conflicts: null
+  id: 0
   name: dom4j-1
+  requires: null
   version: '>=0'
-- category: dev-java
+- Labels: null
+  category: dev-java
+  conflicts: null
+  id: 0
   name: jdom
+  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc
@@ -21,5 +37,4 @@ use_flags:
 - kernel_linux
 - -source
 - split-usr
-version: 1.1.6+r3
-license: "JDOM"
+version: 1.1.6+r4

@@ -1,14 +1,30 @@
+Labels: null
 category: app-text
+conflicts: null
+id: 0
+license: as-is
 name: docbook-sgml-dtd-4.2
 requires:
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: unzip
+  requires: null
   version: '>=5.41'
-- category: app-text
+- Labels: null
+  category: app-text
+  conflicts: null
+  id: 0
   name: sgml-common
+  requires: null
   version: '>=0.6.3'
-- category: app-text
+- Labels: null
+  category: app-text
+  conflicts: null
+  id: 0
   name: sgml-common
+  requires: null
   version: '>=0'
 use_flags:
 - multilib
@@ -16,5 +32,4 @@ use_flags:
 - userland_GNU
 - kernel_linux
 - amd64
-version: 4.2+r4
-license: "as-is"
+version: 4.2+r5

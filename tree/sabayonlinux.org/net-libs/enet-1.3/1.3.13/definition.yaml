@@ -1,13 +1,15 @@
-
-category: "net-libs"
-name: "enet-1.3"
-version: "1.3.13"
-
+Labels: null
+category: net-libs
+conflicts: null
+id: 0
+license: MIT
+name: enet-1.3
+requires: null
 use_flags:
-- "abi_x86_64"
-- "userland_GNU"
-- "kernel_linux"
-- "elibc_glibc"
-- "-static-libs"
-- "amd64"
-license: "MIT"
+- abi_x86_64
+- userland_GNU
+- kernel_linux
+- elibc_glibc
+- -static-libs
+- amd64
+version: 1.3.13+1

@@ -1,29 +1,46 @@
-
-category: "dev-haskell"
-name: "asn1-types"
-version: "0.3.2"
-
-use_flags:
-- "big-endian"
-- "kernel_linux"
-- "-doc"
-- "amd64"
-- "-hscolour"
-- "elibc_glibc"
-- "userland_GNU"
-- "-profile"
-- "abi_x86_64"
+Labels: null
+category: dev-haskell
+conflicts: null
+id: 0
+license: BSD
+name: asn1-types
 requires:
-- category: "dev-haskell"
-  name: "cabal"
-  version: ">=1.6"
-- category: "dev-lang"
-  name: "ghc"
-  version: ">=7.4.1"
-- category: "dev-haskell"
-  name: "hourglass"
-  version: ">=0"
-- category: "dev-haskell"
-  name: "memory"
-  version: ">=0"
-license: "BSD"
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: cabal
+  requires: null
+  version: '>=1.6'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: ghc
+  requires: null
+  version: '>=7.4.1'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: hourglass
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: memory
+  requires: null
+  version: '>=0'
+use_flags:
+- big-endian
+- kernel_linux
+- -doc
+- amd64
+- -hscolour
+- elibc_glibc
+- userland_GNU
+- -profile
+- abi_x86_64
+version: 0.3.2+1

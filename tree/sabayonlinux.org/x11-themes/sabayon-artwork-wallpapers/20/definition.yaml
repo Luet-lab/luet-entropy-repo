@@ -1,14 +1,16 @@
-
-category: "x11-themes"
-name: "sabayon-artwork-wallpapers"
-version: "20"
-
+Labels: null
+category: x11-themes
+conflicts: null
+id: 0
+license: CCPL-Attribution-ShareAlike-3.0
+name: sabayon-artwork-wallpapers
+requires: null
 use_flags:
-- "abi_x86_64"
-- "amd64"
-- "userland_GNU"
-- "elibc_glibc"
-- "split-usr"
-- "kernel_linux"
-- "big-endian"
-license: "CCPL-Attribution-ShareAlike-3.0"
+- abi_x86_64
+- amd64
+- userland_GNU
+- elibc_glibc
+- split-usr
+- kernel_linux
+- big-endian
+version: 20+1

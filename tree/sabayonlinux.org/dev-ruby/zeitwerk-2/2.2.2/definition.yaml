@@ -1,8 +1,16 @@
+Labels: null
 category: dev-ruby
+conflicts: null
+id: 0
+license: MIT
 name: zeitwerk-2
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: ruby-2.5
+  requires: null
   version: '>=0'
 use_flags:
 - ruby_targets_ruby25
@@ -18,5 +26,4 @@ use_flags:
 - -doc
 - split-usr
 - amd64
-version: 2.2.2+2
-license: "MIT"
+version: 2.2.2+3

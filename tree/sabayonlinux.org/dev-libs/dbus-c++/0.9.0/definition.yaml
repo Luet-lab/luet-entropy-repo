@@ -1,14 +1,30 @@
+Labels: null
 category: dev-libs
+conflicts: null
+id: 0
+license: LGPL-2.1+
 name: dbus-c++
 requires:
-- category: app-portage
+- Labels: null
+  category: app-portage
+  conflicts: null
+  id: 0
   name: elt-patches
+  requires: null
   version: '>=20170815'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: cppunit
+  requires: null
   version: '>=0'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: dbus
+  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -33,4 +49,3 @@ use_flags:
 - -abi_riscv_lp64d
 - -doc
 version: "+1"
-license: "LGPL-2.1+"

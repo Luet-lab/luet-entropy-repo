@@ -1,11 +1,23 @@
+Labels: null
 category: media-libs
+conflicts: null
+id: 0
+license: LGPL-2.1
 name: libexif
 requires:
-- category: app-portage
+- Labels: null
+  category: app-portage
+  conflicts: null
+  id: 0
   name: elt-patches
+  requires: null
   version: '>=20170815'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: gettext
+  requires: null
   version: '>=0'
 use_flags:
 - nls
@@ -27,5 +39,4 @@ use_flags:
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
 - -doc
-version: 0.6.21+r6
-license: "LGPL-2.1"
+version: 0.6.21+r7

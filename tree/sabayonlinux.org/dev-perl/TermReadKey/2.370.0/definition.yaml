@@ -1,8 +1,16 @@
+Labels: null
 category: dev-perl
+conflicts: null
+id: 0
+license: Artistic GPL-1+
 name: TermReadKey
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: perl
+  requires: null
   version: '>=0'
 use_flags:
 - amd64
@@ -13,5 +21,4 @@ use_flags:
 - kernel_linux
 - elibc_glibc
 - split-usr
-version: 2.370.0+2
-license: "Artistic GPL-1+"
+version: 2.370.0+3

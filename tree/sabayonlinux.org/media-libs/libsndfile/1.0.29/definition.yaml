@@ -1,32 +1,37 @@
-
-category: "media-libs"
-name: "libsndfile"
-version: "1.0.29+pre2_p20191024"
-
-use_flags:
-- "big-endian"
-- "-abi_x86_x32"
-- "-abi_s390_32"
-- "-abi_mips_n32"
-- "-test"
-- "-abi_mips_n64"
-- "amd64"
-- "-abi_mips_o32"
-- "elibc_glibc"
-- "abi_x86_64"
-- "kernel_linux"
-- "abi_x86_32"
-- "-minimal"
-- "-sqlite"
-- "-static-libs"
-- "-abi_s390_64"
-- "userland_GNU"
-- "split-usr"
-- "-abi_riscv_lp64"
-- "-abi_riscv_lp64d"
-- "alsa"
+Labels: null
+category: media-libs
+conflicts: null
+id: 0
+license: LGPL-2.1
+name: libsndfile
 requires:
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170815"
-license: "LGPL-2.1"
+- Labels: null
+  category: app-portage
+  conflicts: null
+  id: 0
+  name: elt-patches
+  requires: null
+  version: '>=20170815'
+use_flags:
+- big-endian
+- -abi_x86_x32
+- -abi_s390_32
+- -abi_mips_n32
+- -test
+- -abi_mips_n64
+- amd64
+- -abi_mips_o32
+- elibc_glibc
+- abi_x86_64
+- kernel_linux
+- abi_x86_32
+- -minimal
+- -sqlite
+- -static-libs
+- -abi_s390_64
+- userland_GNU
+- split-usr
+- -abi_riscv_lp64
+- -abi_riscv_lp64d
+- alsa
+version: 1.0.29+pre2_p20191024.1

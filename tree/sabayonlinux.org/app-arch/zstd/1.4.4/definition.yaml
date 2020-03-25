@@ -1,32 +1,41 @@
-
-category: "app-arch"
-name: "zstd"
-version: "1.4.4+r2"
-
-use_flags:
-- "big-endian"
-- "-abi_s390_32"
-- "-abi_mips_n32"
-- "-abi_x86_x32"
-- "-abi_mips_n64"
-- "amd64"
-- "-abi_mips_o32"
-- "elibc_glibc"
-- "abi_x86_64"
-- "kernel_linux"
-- "abi_x86_32"
-- "lz4"
-- "-static-libs"
-- "-abi_s390_64"
-- "userland_GNU"
-- "split-usr"
-- "-abi_riscv_lp64"
-- "-abi_riscv_lp64d"
+Labels: null
+category: app-arch
+conflicts: null
+id: 0
+license: BSD GPL-2
+name: zstd
 requires:
-- category: "app-arch"
-  name: "lz4"
-  version: ">=0"
-- category: "app-arch"
-  name: "xz-utils"
-  version: ">=0"
-license: "BSD GPL-2"
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
+  name: lz4
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
+  name: xz-utils
+  requires: null
+  version: '>=0'
+use_flags:
+- big-endian
+- -abi_s390_32
+- -abi_mips_n32
+- -abi_x86_x32
+- -abi_mips_n64
+- amd64
+- -abi_mips_o32
+- elibc_glibc
+- abi_x86_64
+- kernel_linux
+- abi_x86_32
+- lz4
+- -static-libs
+- -abi_s390_64
+- userland_GNU
+- split-usr
+- -abi_riscv_lp64
+- -abi_riscv_lp64d
+version: 1.4.4+r3

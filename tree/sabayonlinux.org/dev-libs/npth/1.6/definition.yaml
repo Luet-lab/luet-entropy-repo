@@ -1,8 +1,16 @@
+Labels: null
 category: dev-libs
+conflicts: null
+id: 0
+license: LGPL-2.1+
 name: npth
 requires:
-- category: app-portage
+- Labels: null
+  category: app-portage
+  conflicts: null
+  id: 0
   name: elt-patches
+  requires: null
   version: '>=20170815'
 use_flags:
 - big-endian
@@ -13,5 +21,4 @@ use_flags:
 - split-usr
 - elibc_glibc
 - kernel_linux
-version: 1.6+r3
-license: "LGPL-2.1+"
+version: 1.6+r4

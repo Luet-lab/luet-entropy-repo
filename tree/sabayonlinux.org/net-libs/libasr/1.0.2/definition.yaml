@@ -1,10 +1,14 @@
+Labels: null
 category: net-libs
+conflicts: null
+id: 0
+license: BSD BSD-1 BSD-2 BSD-4 ISC
 name: libasr
+requires: null
 use_flags:
 - elibc_glibc
 - kernel_linux
 - userland_GNU
 - amd64
 - abi_x86_64
-version: 1.0.2+2
-license: "BSD BSD-1 BSD-2 BSD-4 ISC"
+version: 1.0.2+3

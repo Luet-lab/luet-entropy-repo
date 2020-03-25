@@ -1,5 +1,10 @@
+Labels: null
 category: net-wireless
+conflicts: null
+id: 0
+license: ISC
 name: wireless-regdb
+requires: null
 use_flags:
 - abi_x86_64
 - elibc_glibc
@@ -7,5 +12,4 @@ use_flags:
 - big-endian
 - kernel_linux
 - userland_GNU
-version: 20190603+2
-license: "ISC"
+version: 20190603+3

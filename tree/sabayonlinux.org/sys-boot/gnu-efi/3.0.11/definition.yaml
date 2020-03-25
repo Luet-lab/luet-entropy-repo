@@ -1,16 +1,18 @@
-
-category: "sys-boot"
-name: "gnu-efi"
-version: "3.0.11"
-
+Labels: null
+category: sys-boot
+conflicts: null
+id: 0
+license: BSD BSD-2 GPL-2+
+name: gnu-efi
+requires: null
 use_flags:
-- "kernel_linux"
-- "split-usr"
-- "amd64"
-- "-custom-cflags"
-- "elibc_glibc"
-- "abi_x86_64"
-- "abi_x86_32"
-- "big-endian"
-- "userland_GNU"
-license: "BSD BSD-2 GPL-2+"
+- kernel_linux
+- split-usr
+- amd64
+- -custom-cflags
+- elibc_glibc
+- abi_x86_64
+- abi_x86_32
+- big-endian
+- userland_GNU
+version: 3.0.11+1

@@ -1,20 +1,44 @@
+Labels: null
 category: dev-libs
+conflicts: null
+id: 0
+license: BSD-2
 name: liblogging
 requires:
-- category: app-portage
+- Labels: null
+  category: app-portage
+  conflicts: null
+  id: 0
   name: elt-patches
+  requires: null
   version: '>=20170317'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: autoconf-2.69
+  requires: null
   version: '>=2.69'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: automake-1.15
+  requires: null
   version: '>=1.15'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: libtool-2
+  requires: null
   version: '>=2.4'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: systemd
+  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc
@@ -26,5 +50,4 @@ use_flags:
 - -rfc3195
 - systemd
 - userland_GNU
-version: 1.0.6+2
-license: "BSD-2"
+version: 1.0.6+3

@@ -1,11 +1,23 @@
+Labels: null
 category: dev-libs
+conflicts: null
+id: 0
+license: GPL-3 LGPL-2.1
 name: libtasn1
 requires:
-- category: app-portage
+- Labels: null
+  category: app-portage
+  conflicts: null
+  id: 0
   name: elt-patches
+  requires: null
   version: '>=20170815'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: help2man
+  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -28,5 +40,4 @@ use_flags:
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
 - -doc
-version: 4.16.0+3
-license: "GPL-3 LGPL-2.1"
+version: 4.16.0+4

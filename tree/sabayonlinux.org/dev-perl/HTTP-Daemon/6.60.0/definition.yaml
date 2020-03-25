@@ -1,31 +1,52 @@
-
-category: "dev-perl"
-name: "HTTP-Daemon"
-version: "6.60.0"
-license: "Artistic GPL-1+"
-
-use_flags:
-- "elibc_glibc"
-- "split-usr"
-- "abi_x86_64"
-- "userland_GNU"
-- "amd64"
-- "kernel_linux"
-- "-test"
-- "big-endian"
+Labels: null
+category: dev-perl
+conflicts: null
+id: 0
+license: Artistic GPL-1+
+name: HTTP-Daemon
 requires:
-- category: "dev-perl"
-  name: "HTTP-Date"
-  version: ">=6.0.0"
-- category: "dev-perl"
-  name: "HTTP-Message"
-  version: ">=6.0.0"
-- category: "dev-perl"
-  name: "LWP-MediaTypes"
-  version: ">=6.0.0"
-- category: "dev-perl"
-  name: "Module-Build-Tiny"
-  version: ">=0.34.0"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=0"
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
+  name: HTTP-Date
+  requires: null
+  version: '>=6.0.0'
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
+  name: HTTP-Message
+  requires: null
+  version: '>=6.0.0'
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
+  name: LWP-MediaTypes
+  requires: null
+  version: '>=6.0.0'
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
+  name: Module-Build-Tiny
+  requires: null
+  version: '>=0.34.0'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: perl
+  requires: null
+  version: '>=0'
+use_flags:
+- elibc_glibc
+- split-usr
+- abi_x86_64
+- userland_GNU
+- amd64
+- kernel_linux
+- -test
+- big-endian
+version: 6.60.0+1

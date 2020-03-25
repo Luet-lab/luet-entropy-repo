@@ -1,17 +1,37 @@
+Labels: null
 category: net-libs
+conflicts: null
+id: 0
+license: LGPL-2.1
 name: libssh
 requires:
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: openssl
+  requires: null
   version: '>=1.0.1h'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: zlib
+  requires: null
   version: '>=1.2.8'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: cmake
+  requires: null
   version: '>=0'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: ninja
+  requires: null
   version: '>=0'
 use_flags:
 - -pcap
@@ -43,5 +63,4 @@ use_flags:
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
 - -gssapi
-version: 0.9.3+3
-license: "LGPL-2.1"
+version: 0.9.3+4

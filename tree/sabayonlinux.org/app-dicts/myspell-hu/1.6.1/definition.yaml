@@ -1,11 +1,23 @@
+Labels: null
 category: app-dicts
+conflicts: null
+id: 0
+license: GPL-2 GPL-3 LGPL-2.1 MPL-1.1
 name: myspell-hu
 requires:
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: rpm2targz
+  requires: null
   version: '>=9.0.0.3g'
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: unzip
+  requires: null
   version: '>=0'
 use_flags:
 - kernel_linux
@@ -13,5 +25,4 @@ use_flags:
 - multilib
 - elibc_glibc
 - amd64
-version: 1.6.1+2
-license: "GPL-2 GPL-3 LGPL-2.1 MPL-1.1"
+version: 1.6.1+3

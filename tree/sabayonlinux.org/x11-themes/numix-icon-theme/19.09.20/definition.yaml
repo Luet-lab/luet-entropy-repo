@@ -1,14 +1,16 @@
-
-category: "x11-themes"
-name: "numix-icon-theme"
-version: "19.09.20"
-
+Labels: null
+category: x11-themes
+conflicts: null
+id: 0
+license: GPL-3
+name: numix-icon-theme
+requires: null
 use_flags:
-- "abi_x86_64"
-- "amd64"
-- "userland_GNU"
-- "elibc_glibc"
-- "split-usr"
-- "kernel_linux"
-- "big-endian"
-license: "GPL-3"
+- abi_x86_64
+- amd64
+- userland_GNU
+- elibc_glibc
+- split-usr
+- kernel_linux
+- big-endian
+version: 19.09.20+1

@@ -1,20 +1,44 @@
+Labels: null
 category: media-plugins
+conflicts: null
+id: 0
+license: GPL-2
 name: frei0r-plugins
 requires:
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: cmake
+  requires: null
   version: '>=3.9.6'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: gavl
+  requires: null
   version: '>=1.2.0'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: opencv
+  requires: null
   version: '>=2.3.0'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: make
+  requires: null
   version: '>=0'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: cairo
+  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -27,5 +51,4 @@ use_flags:
 - userland_GNU
 - kernel_linux
 - scale0tilt
-version: 1.6.1+3
-license: "GPL-2"
+version: 1.6.1+4

@@ -1,17 +1,37 @@
+Labels: null
 category: dev-perl
+conflicts: null
+id: 0
+license: Artistic GPL-1+
 name: JSON-XS
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: perl
+  requires: null
   version: '>=0'
-- category: dev-perl
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
   name: Canary-Stability
+  requires: null
   version: '>=0'
-- category: dev-perl
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
   name: Types-Serialiser
+  requires: null
   version: '>=0'
-- category: dev-perl
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
   name: common-sense
+  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU
@@ -23,5 +43,4 @@ use_flags:
 - elibc_glibc
 - -examples
 - kernel_linux
-version: 3.40.0+2
-license: "Artistic GPL-1+"
+version: 3.40.0+3

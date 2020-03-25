@@ -1,38 +1,67 @@
-
-category: "dev-haskell"
-name: "test-framework-quickcheck2"
-version: "0.3.0.3+r2"
-
-use_flags:
-- "-doc"
-- "userland_GNU"
-- "kernel_linux"
-- "abi_x86_64"
-- "amd64"
-- "-profile"
-- "big-endian"
-- "-hscolour"
-- "elibc_glibc"
+Labels: null
+category: dev-haskell
+conflicts: null
+id: 0
+license: BSD
+name: test-framework-quickcheck2
 requires:
-- category: "dev-haskell"
-  name: "extensible-exceptions"
-  version: "<0.2.0"
-- category: "dev-haskell"
-  name: "cabal"
-  version: ">=1.6"
-- category: "dev-haskell"
-  name: "extensible-exceptions"
-  version: ">=0.1.1"
-- category: "dev-haskell"
-  name: "quickcheck-2"
-  version: ">=2.4"
-- category: "dev-haskell"
-  name: "random"
-  version: ">=1"
-- category: "dev-haskell"
-  name: "test-framework"
-  version: ">=0.7.1"
-- category: "dev-lang"
-  name: "ghc"
-  version: ">=7.4.1"
-license: "BSD"
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: extensible-exceptions
+  requires: null
+  version: <0.2.0
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: cabal
+  requires: null
+  version: '>=1.6'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: extensible-exceptions
+  requires: null
+  version: '>=0.1.1'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: quickcheck-2
+  requires: null
+  version: '>=2.4'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: random
+  requires: null
+  version: '>=1'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: test-framework
+  requires: null
+  version: '>=0.7.1'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: ghc
+  requires: null
+  version: '>=7.4.1'
+use_flags:
+- -doc
+- userland_GNU
+- kernel_linux
+- abi_x86_64
+- amd64
+- -profile
+- big-endian
+- -hscolour
+- elibc_glibc
+version: 0.3.0.3+r3

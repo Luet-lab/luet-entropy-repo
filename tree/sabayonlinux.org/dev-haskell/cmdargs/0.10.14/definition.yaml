@@ -1,28 +1,41 @@
-
-category: "dev-haskell"
-name: "cmdargs"
-version: "0.10.14"
-
-use_flags:
-- "big-endian"
-- "amd64"
-- "-testprog"
-- "quotation"
-- "userland_GNU"
-- "-doc"
-- "elibc_glibc"
-- "-hscolour"
-- "kernel_linux"
-- "-profile"
-- "abi_x86_64"
+Labels: null
+category: dev-haskell
+conflicts: null
+id: 0
+license: BSD
+name: cmdargs
 requires:
-- category: "dev-haskell"
-  name: "cabal"
-  version: ">=1.6"
-- category: "dev-haskell"
-  name: "transformers"
-  version: ">=0.2"
-- category: "dev-lang"
-  name: "ghc"
-  version: ">=7.4.1"
-license: "BSD"
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: cabal
+  requires: null
+  version: '>=1.6'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: transformers
+  requires: null
+  version: '>=0.2'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: ghc
+  requires: null
+  version: '>=7.4.1'
+use_flags:
+- big-endian
+- amd64
+- -testprog
+- quotation
+- userland_GNU
+- -doc
+- elibc_glibc
+- -hscolour
+- kernel_linux
+- -profile
+- abi_x86_64
+version: 0.10.14+1

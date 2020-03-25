@@ -1,48 +1,89 @@
-
-category: "dev-haskell"
-name: "optparse-applicative"
-version: "0.14.2.0"
-
-use_flags:
-- "elibc_glibc"
-- "-hscolour"
-- "userland_GNU"
-- "-doc"
-- "-test"
-- "abi_x86_64"
-- "big-endian"
-- "-profile"
-- "kernel_linux"
-- "amd64"
+Labels: null
+category: dev-haskell
+conflicts: null
+id: 0
+license: BSD
+name: optparse-applicative
 requires:
-- category: "dev-haskell"
-  name: "ansi-wl-pprint"
-  version: "<0.7"
-- category: "dev-haskell"
-  name: "fail"
-  version: "<4.10"
-- category: "dev-haskell"
-  name: "semigroups"
-  version: "<0.19"
-- category: "dev-haskell"
-  name: "transformers-compat"
-  version: "<0.7"
-- category: "dev-haskell"
-  name: "ansi-wl-pprint"
-  version: ">=0.6.6"
-- category: "dev-haskell"
-  name: "cabal"
-  version: ">=1.18.1.3"
-- category: "dev-haskell"
-  name: "fail"
-  version: ">=4.9"
-- category: "dev-haskell"
-  name: "semigroups"
-  version: ">=0.10"
-- category: "dev-haskell"
-  name: "transformers-compat"
-  version: ">=0.3"
-- category: "dev-lang"
-  name: "ghc"
-  version: ">=7.8.2"
-license: "BSD"
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: ansi-wl-pprint
+  requires: null
+  version: <0.7
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: fail
+  requires: null
+  version: <4.10
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: semigroups
+  requires: null
+  version: <0.19
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: transformers-compat
+  requires: null
+  version: <0.7
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: ansi-wl-pprint
+  requires: null
+  version: '>=0.6.6'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: cabal
+  requires: null
+  version: '>=1.18.1.3'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: fail
+  requires: null
+  version: '>=4.9'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: semigroups
+  requires: null
+  version: '>=0.10'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: transformers-compat
+  requires: null
+  version: '>=0.3'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: ghc
+  requires: null
+  version: '>=7.8.2'
+use_flags:
+- elibc_glibc
+- -hscolour
+- userland_GNU
+- -doc
+- -test
+- abi_x86_64
+- big-endian
+- -profile
+- kernel_linux
+- amd64
+version: 0.14.2.0+1

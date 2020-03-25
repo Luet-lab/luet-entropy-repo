@@ -1,26 +1,58 @@
+Labels: null
 category: mail-filter
+conflicts: null
+id: 0
+license: BSD
 name: opendmarc
 requires:
-- category: dev-perl
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
   name: DBD-mysql
+  requires: null
   version: '>=0'
-- category: dev-perl
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
   name: DBI
+  requires: null
   version: '>=0'
-- category: dev-perl
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
   name: HTTP-Message
+  requires: null
   version: '>=0'
-- category: dev-perl
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
   name: Switch
+  requires: null
   version: '>=0'
-- category: mail-filter
+- Labels: null
+  category: mail-filter
+  conflicts: null
+  id: 0
   name: libspf2
+  requires: null
   version: '>=0'
-- category: mail-mta
+- Labels: null
+  category: mail-mta
+  conflicts: null
+  id: 0
   name: sendmail
+  requires: null
   version: '>=0'
-- category: net-dns
+- Labels: null
+  category: net-dns
+  conflicts: null
+  id: 0
   name: libidn
+  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU
@@ -33,5 +65,4 @@ use_flags:
 - reports
 - -static-libs
 - split-usr
-version: 1.3.2+r5
-license: "BSD"
+version: 1.3.2+r6

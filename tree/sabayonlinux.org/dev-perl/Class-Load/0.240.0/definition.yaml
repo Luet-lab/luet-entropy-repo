@@ -1,23 +1,51 @@
+Labels: null
 category: dev-perl
+conflicts: null
+id: 0
+license: Artistic GPL-1+
 name: Class-Load
 requires:
-- category: dev-perl
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
   name: Module-Implementation
+  requires: null
   version: '>=0.40.0'
-- category: dev-perl
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
   name: Module-Runtime
+  requires: null
   version: '>=0.12.0'
-- category: dev-perl
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
   name: Package-Stash
+  requires: null
   version: '>=0.140.0'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: perl
+  requires: null
   version: '>=0'
-- category: dev-perl
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
   name: Data-OptList
+  requires: null
   version: '>=0'
-- category: dev-perl
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
   name: Try-Tiny
+  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU
@@ -28,5 +56,4 @@ use_flags:
 - -test
 - elibc_glibc
 - kernel_linux
-version: 0.240.0+2
-license: "Artistic GPL-1+"
+version: 0.240.0+3

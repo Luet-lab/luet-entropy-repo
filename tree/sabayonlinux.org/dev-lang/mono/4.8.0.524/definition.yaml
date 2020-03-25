@@ -1,32 +1,72 @@
+Labels: null
 category: dev-lang
+conflicts: null
+id: 0
+license: BSD-4 GPL-2 GPL-2-with-linking-exception IDPL LGPL-2.1 MIT Ms-PL NPL-1.1
 name: mono
 requires:
-- category: app-portage
+- Labels: null
+  category: app-portage
+  conflicts: null
+  id: 0
   name: elt-patches
+  requires: null
   version: '>=20170815'
-- category: dev-dotnet
+- Labels: null
+  category: dev-dotnet
+  conflicts: null
+  id: 0
   name: libgdiplus
+  requires: null
   version: '>=2.10'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: autoconf-2.69
+  requires: null
   version: '>=2.69'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: automake-1.15
+  requires: null
   version: '>=1.15.1'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: libtool-2
+  requires: null
   version: '>=2.4'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: cmake
+  requires: null
   version: '>=0'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: bc
+  requires: null
   version: '>=0'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: gettext
+  requires: null
   version: '>=0'
-- category: www-client
+- Labels: null
+  category: www-client
+  conflicts: null
+  id: 0
   name: lynx
+  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -50,5 +90,4 @@ use_flags:
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
 - -doc
-version: 4.8.0.524+3
-license: "BSD-4 GPL-2 GPL-2-with-linking-exception IDPL LGPL-2.1 MIT Ms-PL NPL-1.1"
+version: 4.8.0.524+4

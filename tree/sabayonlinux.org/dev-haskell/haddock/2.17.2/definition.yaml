@@ -1,27 +1,44 @@
-
-category: "dev-haskell"
-name: "haddock"
-version: "2.17.2"
-
-use_flags:
-- "amd64"
-- "abi_x86_64"
-- "elibc_glibc"
-- "kernel_linux"
-- "userland_GNU"
-- "big-endian"
-- "-test"
+Labels: null
+category: dev-haskell
+conflicts: null
+id: 0
+license: BSD
+name: haddock
 requires:
-- category: "dev-haskell"
-  name: "haddock-api"
-  version: "<2.18"
-- category: "dev-haskell"
-  name: "cabal"
-  version: ">=1.10"
-- category: "dev-haskell"
-  name: "haddock-api"
-  version: ">=2.17"
-- category: "dev-lang"
-  name: "ghc"
-  version: ">=7.4.1"
-license: "BSD"
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: haddock-api
+  requires: null
+  version: <2.18
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: cabal
+  requires: null
+  version: '>=1.10'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: haddock-api
+  requires: null
+  version: '>=2.17'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: ghc
+  requires: null
+  version: '>=7.4.1'
+use_flags:
+- amd64
+- abi_x86_64
+- elibc_glibc
+- kernel_linux
+- userland_GNU
+- big-endian
+- -test
+version: 2.17.2+1

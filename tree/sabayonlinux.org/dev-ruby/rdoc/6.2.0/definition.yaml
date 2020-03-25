@@ -1,20 +1,44 @@
+Labels: null
 category: dev-ruby
+conflicts: null
+id: 0
+license: MIT Ruby
 name: rdoc
 requires:
-- category: app-eselect
+- Labels: null
+  category: app-eselect
+  conflicts: null
+  id: 0
   name: eselect-ruby
+  requires: null
   version: '>=20181225'
-- category: dev-ruby
+- Labels: null
+  category: dev-ruby
+  conflicts: null
+  id: 0
   name: kpeg-1
+  requires: null
   version: '>=1.1.0'
-- category: dev-ruby
+- Labels: null
+  category: dev-ruby
+  conflicts: null
+  id: 0
   name: racc
+  requires: null
   version: '>1.4.10'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: ruby-2.5
+  requires: null
   version: '>=0'
-- category: dev-ruby
+- Labels: null
+  category: dev-ruby
+  conflicts: null
+  id: 0
   name: rake
+  requires: null
   version: '>=0'
 use_flags:
 - -test
@@ -30,5 +54,4 @@ use_flags:
 - ruby_targets_ruby25
 - kernel_linux
 - userland_GNU
-version: 6.2.0+2
-license: "MIT Ruby"
+version: 6.2.0+3

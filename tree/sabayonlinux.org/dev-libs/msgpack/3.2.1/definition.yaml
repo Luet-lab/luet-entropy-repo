@@ -1,36 +1,45 @@
-
-category: "dev-libs"
-name: "msgpack"
-version: "3.2.1"
-
-use_flags:
-- "-examples"
-- "big-endian"
-- "-abi_x86_x32"
-- "-abi_s390_32"
-- "-abi_mips_n32"
-- "-test"
-- "-abi_mips_n64"
-- "amd64"
-- "-abi_mips_o32"
-- "elibc_glibc"
-- "abi_x86_64"
-- "kernel_linux"
-- "abi_x86_32"
-- "-static-libs"
-- "-abi_s390_64"
-- "userland_GNU"
-- "split-usr"
-- "-abi_riscv_lp64"
-- "cxx"
-- "-abi_riscv_lp64d"
-- "-boost"
-- "-doc"
+Labels: null
+category: dev-libs
+conflicts: null
+id: 0
+license: Boost-1.0
+name: msgpack
 requires:
-- category: "dev-util"
-  name: "cmake"
-  version: ">=3.9.6"
-- category: "dev-util"
-  name: "ninja"
-  version: ">=0"
-license: "Boost-1.0"
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
+  name: cmake
+  requires: null
+  version: '>=3.9.6'
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
+  name: ninja
+  requires: null
+  version: '>=0'
+use_flags:
+- -examples
+- big-endian
+- -abi_x86_x32
+- -abi_s390_32
+- -abi_mips_n32
+- -test
+- -abi_mips_n64
+- amd64
+- -abi_mips_o32
+- elibc_glibc
+- abi_x86_64
+- kernel_linux
+- abi_x86_32
+- -static-libs
+- -abi_s390_64
+- userland_GNU
+- split-usr
+- -abi_riscv_lp64
+- cxx
+- -abi_riscv_lp64d
+- -boost
+- -doc
+version: 3.2.1+1

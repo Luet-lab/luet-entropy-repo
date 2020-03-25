@@ -1,26 +1,39 @@
-
-category: "dev-haskell"
-name: "pcre-light"
-version: "0.4.0.4"
-
-use_flags:
-- "-profile"
-- "abi_x86_64"
-- "userland_GNU"
-- "kernel_linux"
-- "elibc_glibc"
-- "big-endian"
-- "amd64"
-- "-hscolour"
-- "-doc"
+Labels: null
+category: dev-haskell
+conflicts: null
+id: 0
+license: BSD
+name: pcre-light
 requires:
-- category: "dev-haskell"
-  name: "cabal"
-  version: ">=1.2.0"
-- category: "dev-lang"
-  name: "ghc"
-  version: ">=7.4.1"
-- category: "dev-libs"
-  name: "libpcre-3"
-  version: ">=0"
-license: "BSD"
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: cabal
+  requires: null
+  version: '>=1.2.0'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: ghc
+  requires: null
+  version: '>=7.4.1'
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
+  name: libpcre-3
+  requires: null
+  version: '>=0'
+use_flags:
+- -profile
+- abi_x86_64
+- userland_GNU
+- kernel_linux
+- elibc_glibc
+- big-endian
+- amd64
+- -hscolour
+- -doc
+version: 0.4.0.4+1

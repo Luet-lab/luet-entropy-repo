@@ -1,86 +1,163 @@
-
-category: "net-print"
-name: "cups-filters"
-version: "1.27.1"
-license: "GPL-2 MIT"
-
-use_flags:
-- "dbus"
-- "elibc_glibc"
-- "abi_x86_64"
-- "userland_GNU"
-- "amd64"
-- "tiff"
-- "pdf"
-- "ldap"
-- "perl"
-- "postscript"
-- "-test"
-- "big-endian"
-- "ipp_autosetup"
-- "zeroconf"
-- "-static-libs"
-- "foomatic"
-- "pclm"
-- "split-usr"
-- "png"
-- "jpeg"
-- "kernel_linux"
+Labels: null
+category: net-print
+conflicts: null
+id: 0
+license: GPL-2 MIT
+name: cups-filters
 requires:
-- category: "app-text"
-  name: "ghostscript-gpl"
-  version: ">=9.09"
-- category: "app-text"
-  name: "poppler-base"
-  version: ">=0.32"
-- category: "app-text"
-  name: "qpdf"
-  version: ">=8.3.0"
-- category: "net-print"
-  name: "cups"
-  version: ">=1.7.3"
-- category: "sys-devel"
-  name: "gettext"
-  version: ">=0.18.3"
-- category: "app-text"
-  name: "mupdf"
-  version: ">=0"
-- category: "dev-lang"
-  name: "perl"
-  version: ">=0"
-- category: "dev-libs"
-  name: "glib-2"
-  version: ">=0"
-- category: "dev-util"
-  name: "gdbus-codegen"
-  version: ">=0"
-- category: "media-libs"
-  name: "fontconfig-1.0"
-  version: ">=0"
-- category: "media-libs"
-  name: "freetype-2"
-  version: ">=0"
-- category: "media-libs"
-  name: "lcms-2"
-  version: ">=0"
-- category: "media-libs"
-  name: "libpng"
-  version: ">=0"
-- category: "media-libs"
-  name: "tiff"
-  version: ">=0"
-- category: "net-dns"
-  name: "avahi-gtk3"
-  version: ">=0"
-- category: "net-nds"
-  name: "openldap"
-  version: ">=0"
-- category: "sys-apps"
-  name: "dbus"
-  version: ">=0"
-- category: "sys-devel"
-  name: "bc"
-  version: ">=0"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=0"
+- Labels: null
+  category: app-text
+  conflicts: null
+  id: 0
+  name: ghostscript-gpl
+  requires: null
+  version: '>=9.09'
+- Labels: null
+  category: app-text
+  conflicts: null
+  id: 0
+  name: poppler-base
+  requires: null
+  version: '>=0.32'
+- Labels: null
+  category: app-text
+  conflicts: null
+  id: 0
+  name: qpdf
+  requires: null
+  version: '>=8.3.0'
+- Labels: null
+  category: net-print
+  conflicts: null
+  id: 0
+  name: cups
+  requires: null
+  version: '>=1.7.3'
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
+  name: gettext
+  requires: null
+  version: '>=0.18.3'
+- Labels: null
+  category: app-text
+  conflicts: null
+  id: 0
+  name: mupdf
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: perl
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
+  name: glib-2
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
+  name: gdbus-codegen
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
+  name: fontconfig-1.0
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
+  name: freetype-2
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
+  name: lcms-2
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
+  name: libpng
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
+  name: tiff
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: net-dns
+  conflicts: null
+  id: 0
+  name: avahi-gtk3
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: net-nds
+  conflicts: null
+  id: 0
+  name: openldap
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
+  name: dbus
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
+  name: bc
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
+  name: zlib
+  requires: null
+  version: '>=0'
+use_flags:
+- dbus
+- elibc_glibc
+- abi_x86_64
+- userland_GNU
+- amd64
+- tiff
+- pdf
+- ldap
+- perl
+- postscript
+- -test
+- big-endian
+- ipp_autosetup
+- zeroconf
+- -static-libs
+- foomatic
+- pclm
+- split-usr
+- png
+- jpeg
+- kernel_linux
+version: 1.27.1+1

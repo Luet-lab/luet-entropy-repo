@@ -1,23 +1,32 @@
-
-category: "dev-haskell"
-name: "safe"
-version: "0.3.9"
-
-use_flags:
-- "userland_GNU"
-- "-hscolour"
-- "-doc"
-- "kernel_linux"
-- "abi_x86_64"
-- "-profile"
-- "amd64"
-- "big-endian"
-- "elibc_glibc"
+Labels: null
+category: dev-haskell
+conflicts: null
+id: 0
+license: BSD
+name: safe
 requires:
-- category: "dev-haskell"
-  name: "cabal"
-  version: ">=1.6"
-- category: "dev-lang"
-  name: "ghc"
-  version: ">=7.4.1"
-license: "BSD"
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: cabal
+  requires: null
+  version: '>=1.6'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: ghc
+  requires: null
+  version: '>=7.4.1'
+use_flags:
+- userland_GNU
+- -hscolour
+- -doc
+- kernel_linux
+- abi_x86_64
+- -profile
+- amd64
+- big-endian
+- elibc_glibc
+version: 0.3.9+1

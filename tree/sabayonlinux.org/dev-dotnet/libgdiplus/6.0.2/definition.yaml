@@ -1,55 +1,108 @@
-
-category: "dev-dotnet"
-name: "libgdiplus"
-version: "6.0.2"
-
-use_flags:
-- "big-endian"
-- "cairo"
-- "split-usr"
-- "amd64"
-- "elibc_glibc"
-- "abi_x86_64"
-- "userland_GNU"
-- "kernel_linux"
+Labels: null
+category: dev-dotnet
+conflicts: null
+id: 0
+license: MIT
+name: libgdiplus
 requires:
-- category: "media-libs"
-  name: "giflib"
-  version: ">=5.1.2"
-- category: "dev-lang"
-  name: "mono"
-  version: ">=0"
-- category: "dev-libs"
-  name: "glib-2"
-  version: ">=0"
-- category: "media-libs"
-  name: "fontconfig-1.0"
-  version: ">=0"
-- category: "media-libs"
-  name: "freetype-2"
-  version: ">=0"
-- category: "media-libs"
-  name: "libexif"
-  version: ">=0"
-- category: "media-libs"
-  name: "libpng"
-  version: ">=0"
-- category: "media-libs"
-  name: "tiff"
-  version: ">=0"
-- category: "x11-libs"
-  name: "cairo"
-  version: ">=0"
-- category: "x11-libs"
-  name: "libX11"
-  version: ">=0"
-- category: "x11-libs"
-  name: "libXrender"
-  version: ">=0"
-- category: "x11-libs"
-  name: "libXt"
-  version: ">=0"
-- category: "x11-libs"
-  name: "pango"
-  version: ">=0"
-license: "MIT"
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
+  name: giflib
+  requires: null
+  version: '>=5.1.2'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: mono
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
+  name: glib-2
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
+  name: fontconfig-1.0
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
+  name: freetype-2
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
+  name: libexif
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
+  name: libpng
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
+  name: tiff
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
+  name: cairo
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
+  name: libX11
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
+  name: libXrender
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
+  name: libXt
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
+  name: pango
+  requires: null
+  version: '>=0'
+use_flags:
+- big-endian
+- cairo
+- split-usr
+- amd64
+- elibc_glibc
+- abi_x86_64
+- userland_GNU
+- kernel_linux
+version: 6.0.2+1

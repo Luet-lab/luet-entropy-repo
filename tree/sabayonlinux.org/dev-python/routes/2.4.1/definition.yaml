@@ -1,23 +1,51 @@
+Labels: null
 category: dev-python
+conflicts: null
+id: 0
+license: BSD
 name: routes
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-2.7
+  requires: null
   version: '>=2.7.5'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-exec-2
+  requires: null
   version: '>=2'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: repoze-lru
+  requires: null
   version: '>=0.3'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-3.6
+  requires: null
   version: '>=0'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: setuptools
+  requires: null
   version: '>=0'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: six
+  requires: null
   version: '>=0'
 use_flags:
 - python_targets_python3_6
@@ -31,5 +59,4 @@ use_flags:
 - amd64
 - -doc
 - elibc_glibc
-version: 2.4.1+2
-license: "BSD"
+version: 2.4.1+3

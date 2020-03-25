@@ -1,37 +1,42 @@
-
-category: "net-libs"
-name: "nghttp2"
-version: "1.40.0"
-
-use_flags:
-- "big-endian"
-- "-abi_x86_x32"
-- "-abi_s390_32"
-- "-abi_mips_n32"
-- "-test"
-- "-abi_mips_n64"
-- "amd64"
-- "-abi_mips_o32"
-- "elibc_glibc"
-- "abi_x86_64"
-- "kernel_linux"
-- "abi_x86_32"
-- "threads"
-- "-debug"
-- "-utils"
-- "xml"
-- "-libressl"
-- "-static-libs"
-- "-jemalloc"
-- "-abi_s390_64"
-- "userland_GNU"
-- "-hpack-tools"
-- "split-usr"
-- "-abi_riscv_lp64"
-- "-abi_riscv_lp64d"
-- "-cxx"
+Labels: null
+category: net-libs
+conflicts: null
+id: 0
+license: MIT
+name: nghttp2
 requires:
-- category: "dev-libs"
-  name: "libxml2-2"
-  version: ">=2.7.7"
-license: "MIT"
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
+  name: libxml2-2
+  requires: null
+  version: '>=2.7.7'
+use_flags:
+- big-endian
+- -abi_x86_x32
+- -abi_s390_32
+- -abi_mips_n32
+- -test
+- -abi_mips_n64
+- amd64
+- -abi_mips_o32
+- elibc_glibc
+- abi_x86_64
+- kernel_linux
+- abi_x86_32
+- threads
+- -debug
+- -utils
+- xml
+- -libressl
+- -static-libs
+- -jemalloc
+- -abi_s390_64
+- userland_GNU
+- -hpack-tools
+- split-usr
+- -abi_riscv_lp64
+- -abi_riscv_lp64d
+- -cxx
+version: 1.40.0+1

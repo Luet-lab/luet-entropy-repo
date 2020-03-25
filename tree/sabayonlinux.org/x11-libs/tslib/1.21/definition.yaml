@@ -1,36 +1,49 @@
-
-category: "x11-libs"
-name: "tslib"
-version: "1.21"
-
-use_flags:
-- "-evdev"
-- "big-endian"
-- "-abi_s390_32"
-- "-abi_mips_n32"
-- "-abi_x86_x32"
-- "-abi_mips_n64"
-- "amd64"
-- "-abi_mips_o32"
-- "elibc_glibc"
-- "-uinput"
-- "abi_x86_64"
-- "kernel_linux"
-- "abi_x86_32"
-- "sdl"
-- "-abi_s390_64"
-- "userland_GNU"
-- "split-usr"
-- "-abi_riscv_lp64"
-- "-abi_riscv_lp64d"
+Labels: null
+category: x11-libs
+conflicts: null
+id: 0
+license: LGPL-2
+name: tslib
 requires:
-- category: "dev-util"
-  name: "cmake"
-  version: ">=3.9.6"
-- category: "dev-util"
-  name: "ninja"
-  version: ">=0"
-- category: "media-libs"
-  name: "libsdl2"
-  version: ">=0"
-license: "LGPL-2"
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
+  name: cmake
+  requires: null
+  version: '>=3.9.6'
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
+  name: ninja
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
+  name: libsdl2
+  requires: null
+  version: '>=0'
+use_flags:
+- -evdev
+- big-endian
+- -abi_s390_32
+- -abi_mips_n32
+- -abi_x86_x32
+- -abi_mips_n64
+- amd64
+- -abi_mips_o32
+- elibc_glibc
+- -uinput
+- abi_x86_64
+- kernel_linux
+- abi_x86_32
+- sdl
+- -abi_s390_64
+- userland_GNU
+- split-usr
+- -abi_riscv_lp64
+- -abi_riscv_lp64d
+version: 1.21+1

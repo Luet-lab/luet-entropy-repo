@@ -1,39 +1,60 @@
-
-category: "media-plugins"
-name: "gst-plugins-taglib-1.0"
-version: "1.14.5"
-
-use_flags:
-- "-abi_mips_n32"
-- "-abi_riscv_lp64"
-- "-abi_s390_32"
-- "userland_GNU"
-- "abi_x86_32"
-- "kernel_linux"
-- "-abi_mips_o32"
-- "abi_x86_64"
-- "amd64"
-- "-abi_riscv_lp64d"
-- "split-usr"
-- "-abi_s390_64"
-- "-abi_x86_x32"
-- "big-endian"
-- "elibc_glibc"
-- "-abi_mips_n64"
+Labels: null
+category: media-plugins
+conflicts: null
+id: 0
+license: GPL-2
+name: gst-plugins-taglib-1.0
 requires:
-- category: "dev-libs"
-  name: "glib-2"
-  version: ">=2.38.2"
-- category: "media-libs"
-  name: "gst-plugins-good-1.0"
-  version: ">=1.14.5"
-- category: "media-libs"
-  name: "gstreamer-1.0"
-  version: ">=1.2.4"
-- category: "media-libs"
-  name: "taglib"
-  version: ">=1.9.1"
-- category: "sys-apps"
-  name: "sed"
-  version: ">=4"
-license: "GPL-2"
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
+  name: glib-2
+  requires: null
+  version: '>=2.38.2'
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
+  name: gst-plugins-good-1.0
+  requires: null
+  version: '>=1.14.5'
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
+  name: gstreamer-1.0
+  requires: null
+  version: '>=1.2.4'
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
+  name: taglib
+  requires: null
+  version: '>=1.9.1'
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
+  name: sed
+  requires: null
+  version: '>=4'
+use_flags:
+- -abi_mips_n32
+- -abi_riscv_lp64
+- -abi_s390_32
+- userland_GNU
+- abi_x86_32
+- kernel_linux
+- -abi_mips_o32
+- abi_x86_64
+- amd64
+- -abi_riscv_lp64d
+- split-usr
+- -abi_s390_64
+- -abi_x86_x32
+- big-endian
+- elibc_glibc
+- -abi_mips_n64
+version: 1.14.5+1

@@ -1,5 +1,10 @@
+Labels: null
 category: sys-apps
+conflicts: null
+id: 0
+license: man-pages-posix-2013
 name: man-pages-posix
+requires: null
 use_flags:
 - kernel_linux
 - abi_x86_64
@@ -7,5 +12,4 @@ use_flags:
 - big-endian
 - elibc_glibc
 - userland_GNU
-version: 2013a+2
-license: "man-pages-posix-2013"
+version: 2013a+3

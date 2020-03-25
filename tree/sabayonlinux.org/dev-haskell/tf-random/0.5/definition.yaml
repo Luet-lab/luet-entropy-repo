@@ -1,27 +1,44 @@
-
-category: "dev-haskell"
-name: "tf-random"
-version: "0.5"
-
-use_flags:
-- "kernel_linux"
-- "abi_x86_64"
-- "amd64"
-- "big-endian"
-- "userland_GNU"
-- "elibc_glibc"
-- "-profile"
+Labels: null
+category: dev-haskell
+conflicts: null
+id: 0
+license: BSD
+name: tf-random
 requires:
-- category: "dev-haskell"
-  name: "cabal"
-  version: ">=1.8"
-- category: "dev-haskell"
-  name: "primitive"
-  version: ">=0.3"
-- category: "dev-lang"
-  name: "ghc"
-  version: ">=7.4.1"
-- category: "dev-haskell"
-  name: "random"
-  version: ">=0"
-license: "BSD"
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: cabal
+  requires: null
+  version: '>=1.8'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: primitive
+  requires: null
+  version: '>=0.3'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: ghc
+  requires: null
+  version: '>=7.4.1'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: random
+  requires: null
+  version: '>=0'
+use_flags:
+- kernel_linux
+- abi_x86_64
+- amd64
+- big-endian
+- userland_GNU
+- elibc_glibc
+- -profile
+version: 0.5+1

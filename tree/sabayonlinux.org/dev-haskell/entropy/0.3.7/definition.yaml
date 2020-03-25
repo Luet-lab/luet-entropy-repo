@@ -1,24 +1,33 @@
-
-category: "dev-haskell"
-name: "entropy"
-version: "0.3.7"
-
-use_flags:
-- "amd64"
-- "abi_x86_64"
-- "-halvm"
-- "big-endian"
-- "elibc_glibc"
-- "userland_GNU"
-- "-profile"
-- "-hscolour"
-- "-doc"
-- "kernel_linux"
+Labels: null
+category: dev-haskell
+conflicts: null
+id: 0
+license: BSD
+name: entropy
 requires:
-- category: "dev-haskell"
-  name: "cabal"
-  version: ">=1.10"
-- category: "dev-lang"
-  name: "ghc"
-  version: ">=7.4.1"
-license: "BSD"
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: cabal
+  requires: null
+  version: '>=1.10'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: ghc
+  requires: null
+  version: '>=7.4.1'
+use_flags:
+- amd64
+- abi_x86_64
+- -halvm
+- big-endian
+- elibc_glibc
+- userland_GNU
+- -profile
+- -hscolour
+- -doc
+- kernel_linux
+version: 0.3.7+1

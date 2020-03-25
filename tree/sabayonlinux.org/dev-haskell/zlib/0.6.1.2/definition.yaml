@@ -1,28 +1,41 @@
-
-category: "dev-haskell"
-name: "zlib"
-version: "0.6.1.2"
-
-use_flags:
-- "elibc_glibc"
-- "amd64"
-- "abi_x86_64"
-- "-non-blocking-ffi"
-- "-test"
-- "-profile"
-- "userland_GNU"
-- "-doc"
-- "-hscolour"
-- "big-endian"
-- "kernel_linux"
+Labels: null
+category: dev-haskell
+conflicts: null
+id: 0
+license: BSD
+name: zlib
 requires:
-- category: "dev-haskell"
-  name: "cabal"
-  version: ">=1.10"
-- category: "dev-lang"
-  name: "ghc"
-  version: ">=7.4.1"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=0"
-license: "BSD"
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: cabal
+  requires: null
+  version: '>=1.10'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: ghc
+  requires: null
+  version: '>=7.4.1'
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
+  name: zlib
+  requires: null
+  version: '>=0'
+use_flags:
+- elibc_glibc
+- amd64
+- abi_x86_64
+- -non-blocking-ffi
+- -test
+- -profile
+- userland_GNU
+- -doc
+- -hscolour
+- big-endian
+- kernel_linux
+version: 0.6.1.2+1

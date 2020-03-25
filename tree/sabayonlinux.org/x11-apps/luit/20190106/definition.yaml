@@ -1,11 +1,23 @@
+Labels: null
 category: x11-apps
+conflicts: null
+id: 0
+license: MIT
 name: luit
 requires:
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: groff
+  requires: null
   version: '>=0'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: zlib
+  requires: null
   version: '>=0'
 use_flags:
 - amd64
@@ -14,5 +26,4 @@ use_flags:
 - elibc_glibc
 - abi_x86_64
 - big-endian
-version: 20190106+2
-license: "MIT"
+version: 20190106+3

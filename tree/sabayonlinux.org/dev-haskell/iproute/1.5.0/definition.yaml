@@ -1,33 +1,54 @@
-
-category: "dev-haskell"
-name: "iproute"
-version: "1.5.0"
-
-use_flags:
-- "userland_GNU"
-- "abi_x86_64"
-- "-profile"
-- "amd64"
-- "-test"
-- "elibc_glibc"
-- "-hscolour"
-- "-doc"
-- "kernel_linux"
-- "big-endian"
+Labels: null
+category: dev-haskell
+conflicts: null
+id: 0
+license: BSD
+name: iproute
 requires:
-- category: "dev-haskell"
-  name: "cabal"
-  version: ">=1.10"
-- category: "dev-lang"
-  name: "ghc"
-  version: ">=7.6.1"
-- category: "dev-haskell"
-  name: "appar"
-  version: ">=0"
-- category: "dev-haskell"
-  name: "byteorder"
-  version: ">=0"
-- category: "dev-haskell"
-  name: "network"
-  version: ">=0"
-license: "BSD"
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: cabal
+  requires: null
+  version: '>=1.10'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: ghc
+  requires: null
+  version: '>=7.6.1'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: appar
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: byteorder
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: network
+  requires: null
+  version: '>=0'
+use_flags:
+- userland_GNU
+- abi_x86_64
+- -profile
+- amd64
+- -test
+- elibc_glibc
+- -hscolour
+- -doc
+- kernel_linux
+- big-endian
+version: 1.5.0+1

@@ -1,11 +1,23 @@
+Labels: null
 category: app-shells
+conflicts: null
+id: 0
+license: GPL-3
 name: bash
 requires:
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: ncurses
+  requires: null
   version: '>=5.2'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: readline
+  requires: null
   version: '>=7.0'
 use_flags:
 - -bashlogger
@@ -22,5 +34,4 @@ use_flags:
 - readline
 - net
 - userland_GNU
-version: 4.4+p23r1.2
-license: "GPL-3"
+version: 4.4+p23r1.3

@@ -1,5 +1,10 @@
+Labels: null
 category: media-libs
+conflicts: null
+id: 0
+license: Apache-2.0
 name: vo-aacenc
+requires: null
 use_flags:
 - -examples
 - big-endian
@@ -20,5 +25,4 @@ use_flags:
 - split-usr
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
-version: 0.1.3+3
-license: "Apache-2.0"
+version: 0.1.3+4

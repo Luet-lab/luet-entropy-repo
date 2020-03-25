@@ -1,11 +1,23 @@
+Labels: null
 category: net-firewall
+conflicts: null
+id: 0
+license: GPL-2
 name: ipset
 requires:
-- category: net-firewall
+- Labels: null
+  category: net-firewall
+  conflicts: null
+  id: 0
   name: iptables
+  requires: null
   version: '>=1.4.7'
-- category: net-libs
+- Labels: null
+  category: net-libs
+  conflicts: null
+  id: 0
   name: libmnl
+  requires: null
   version: '>=0'
 use_flags:
 - -modules
@@ -16,5 +28,4 @@ use_flags:
 - userland_GNU
 - kernel_linux
 - split-usr
-version: 6.38+2
-license: "GPL-2"
+version: 6.38+3

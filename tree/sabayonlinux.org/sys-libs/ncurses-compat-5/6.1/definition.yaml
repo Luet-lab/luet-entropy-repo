@@ -1,30 +1,35 @@
-
-category: "sys-libs"
-name: "ncurses-compat-5"
-version: "6.1+p20190609"
-
-use_flags:
-- "unicode"
-- "big-endian"
-- "-abi_s390_32"
-- "-abi_mips_n32"
-- "-abi_x86_x32"
-- "-abi_riscv_lp64d"
-- "-abi_mips_n64"
-- "amd64"
-- "-abi_mips_o32"
-- "elibc_glibc"
-- "abi_x86_64"
-- "kernel_linux"
-- "abi_x86_32"
-- "-abi_s390_64"
-- "tinfo"
-- "split-usr"
-- "-abi_riscv_lp64"
-- "userland_GNU"
-- "gpm"
+Labels: null
+category: sys-libs
+conflicts: null
+id: 0
+license: MIT
+name: ncurses-compat-5
 requires:
-- category: "sys-libs"
-  name: "gpm"
-  version: ">=0"
-license: "MIT"
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
+  name: gpm
+  requires: null
+  version: '>=0'
+use_flags:
+- unicode
+- big-endian
+- -abi_s390_32
+- -abi_mips_n32
+- -abi_x86_x32
+- -abi_riscv_lp64d
+- -abi_mips_n64
+- amd64
+- -abi_mips_o32
+- elibc_glibc
+- abi_x86_64
+- kernel_linux
+- abi_x86_32
+- -abi_s390_64
+- tinfo
+- split-usr
+- -abi_riscv_lp64
+- userland_GNU
+- gpm
+version: 6.1+p20190610

@@ -1,5 +1,10 @@
+Labels: null
 category: app-arch
+conflicts: null
+id: 0
+license: GPL-3
 name: cpio
+requires: null
 use_flags:
 - kernel_linux
 - nls
@@ -8,5 +13,4 @@ use_flags:
 - big-endian
 - elibc_glibc
 - userland_GNU
-version: 2.12+r3
-license: "GPL-3"
+version: 2.12+r4

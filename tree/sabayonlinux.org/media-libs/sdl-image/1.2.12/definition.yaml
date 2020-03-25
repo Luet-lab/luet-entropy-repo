@@ -1,17 +1,37 @@
+Labels: null
 category: media-libs
+conflicts: null
+id: 0
+license: ZLIB
 name: sdl-image
 requires:
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: libpng
+  requires: null
   version: '>=1.6.10'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: libsdl
+  requires: null
   version: '>=1.2.15'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: tiff
+  requires: null
   version: '>=3.9.7'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: zlib
+  requires: null
   version: '>=1.2.8'
 use_flags:
 - -webp
@@ -36,5 +56,4 @@ use_flags:
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
 - tiff
-version: 1.2.12+r5
-license: "ZLIB"
+version: 1.2.12+r6

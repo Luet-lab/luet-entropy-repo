@@ -1,23 +1,25 @@
-
-category: "dev-libs"
-name: "libatomic_ops"
-version: "7.6.10"
-
+Labels: null
+category: dev-libs
+conflicts: null
+id: 0
+license: GPL-2+ MIT boehm-gc
+name: libatomic_ops
+requires: null
 use_flags:
-- "-abi_s390_32"
-- "-abi_riscv_lp64d"
-- "-abi_x86_x32"
-- "amd64"
-- "-abi_mips_n64"
-- "elibc_glibc"
-- "abi_x86_64"
-- "abi_x86_32"
-- "big-endian"
-- "-abi_s390_64"
-- "-abi_riscv_lp64"
-- "-abi_mips_o32"
-- "kernel_linux"
-- "split-usr"
-- "-abi_mips_n32"
-- "userland_GNU"
-license: "GPL-2+ MIT boehm-gc"
+- -abi_s390_32
+- -abi_riscv_lp64d
+- -abi_x86_x32
+- amd64
+- -abi_mips_n64
+- elibc_glibc
+- abi_x86_64
+- abi_x86_32
+- big-endian
+- -abi_s390_64
+- -abi_riscv_lp64
+- -abi_mips_o32
+- kernel_linux
+- split-usr
+- -abi_mips_n32
+- userland_GNU
+version: 7.6.10+1

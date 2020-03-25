@@ -1,35 +1,56 @@
-
-category: "dev-python"
-name: "jsonpatch"
-version: "1.21"
-
-use_flags:
-- "big-endian"
-- "userland_GNU"
-- "amd64"
-- "-python_targets_python3_5"
-- "-python_targets_python3_4"
-- "kernel_linux"
-- "python_targets_python3_6"
-- "elibc_glibc"
-- "-test"
-- "abi_x86_64"
-- "python_targets_python2_7"
-- "-python_targets_pypy"
+Labels: null
+category: dev-python
+conflicts: null
+id: 0
+license: BSD
+name: jsonpatch
 requires:
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.5"
-- category: "dev-lang"
-  name: "python-exec-2"
-  version: ">=2"
-- category: "dev-python"
-  name: "jsonpointer"
-  version: ">=1.9"
-- category: "dev-lang"
-  name: "python-3.6"
-  version: ">=0"
-- category: "dev-python"
-  name: "setuptools"
-  version: ">=0"
-license: "BSD"
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: python-2.7
+  requires: null
+  version: '>=2.7.5'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: python-exec-2
+  requires: null
+  version: '>=2'
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
+  name: jsonpointer
+  requires: null
+  version: '>=1.9'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: python-3.6
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
+  name: setuptools
+  requires: null
+  version: '>=0'
+use_flags:
+- big-endian
+- userland_GNU
+- amd64
+- -python_targets_python3_5
+- -python_targets_python3_4
+- kernel_linux
+- python_targets_python3_6
+- elibc_glibc
+- -test
+- abi_x86_64
+- python_targets_python2_7
+- -python_targets_pypy
+version: 1.21+1

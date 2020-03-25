@@ -1,35 +1,48 @@
-
-category: "dev-libs"
-name: "confuse"
-version: "3.2.2"
-
-use_flags:
-- "nls"
-- "-abi_s390_32"
-- "-abi_mips_n32"
-- "big-endian"
-- "-abi_x86_x32"
-- "-abi_mips_n64"
-- "amd64"
-- "-abi_mips_o32"
-- "elibc_glibc"
-- "abi_x86_64"
-- "kernel_linux"
-- "abi_x86_32"
-- "-static-libs"
-- "-abi_s390_64"
-- "userland_GNU"
-- "split-usr"
-- "-abi_riscv_lp64"
-- "-abi_riscv_lp64d"
+Labels: null
+category: dev-libs
+conflicts: null
+id: 0
+license: ISC
+name: confuse
 requires:
-- category: "sys-devel"
-  name: "flex"
-  version: ">=0"
-- category: "sys-devel"
-  name: "gettext"
-  version: ">=0"
-- category: "sys-devel"
-  name: "libtool-2"
-  version: ">=0"
-license: "ISC"
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
+  name: flex
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
+  name: gettext
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
+  name: libtool-2
+  requires: null
+  version: '>=0'
+use_flags:
+- nls
+- -abi_s390_32
+- -abi_mips_n32
+- big-endian
+- -abi_x86_x32
+- -abi_mips_n64
+- amd64
+- -abi_mips_o32
+- elibc_glibc
+- abi_x86_64
+- kernel_linux
+- abi_x86_32
+- -static-libs
+- -abi_s390_64
+- userland_GNU
+- split-usr
+- -abi_riscv_lp64
+- -abi_riscv_lp64d
+version: 3.2.2+1

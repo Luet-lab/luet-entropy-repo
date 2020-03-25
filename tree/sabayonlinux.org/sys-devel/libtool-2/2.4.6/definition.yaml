@@ -1,23 +1,51 @@
+Labels: null
 category: sys-devel
+conflicts: null
+id: 0
+license: GPL-2
 name: libtool-2
 requires:
-- category: app-portage
+- Labels: null
+  category: app-portage
+  conflicts: null
+  id: 0
   name: elt-patches
+  requires: null
   version: '>=20170815'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: autoconf-2.69
+  requires: null
   version: '>=2.69'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: automake-1.15
+  requires: null
   version: '>=1.13'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: automake-1.15
+  requires: null
   version: '>=1.15.1'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: libltdl
+  requires: null
   version: '>=0'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: gnuconfig
+  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -28,5 +56,4 @@ use_flags:
 - split-usr
 - elibc_glibc
 - kernel_linux
-version: 2.4.6+r8
-license: "GPL-2"
+version: 2.4.6+r9

@@ -1,11 +1,23 @@
+Labels: null
 category: dev-ruby
+conflicts: null
+id: 0
+license: GPL-2
 name: ritex
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: ruby-2.5
+  requires: null
   version: '>=0'
-- category: dev-ruby
+- Labels: null
+  category: dev-ruby
+  conflicts: null
+  id: 0
   name: racc
+  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -19,5 +31,4 @@ use_flags:
 - abi_x86_64
 - -test
 - -ruby_targets_ruby26
-version: 1.0.1+2
-license: "GPL-2"
+version: 1.0.1+3

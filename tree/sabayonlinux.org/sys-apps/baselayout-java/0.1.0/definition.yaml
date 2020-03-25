@@ -1,11 +1,23 @@
+Labels: null
 category: sys-apps
+conflicts: null
+id: 0
+license: GPL-2
 name: baselayout-java
 requires:
-- category: app-crypt
+- Labels: null
+  category: app-crypt
+  conflicts: null
+  id: 0
   name: p11-kit
+  requires: null
   version: '>=0'
-- category: app-misc
+- Labels: null
+  category: app-misc
+  conflicts: null
+  id: 0
   name: ca-certificates
+  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -14,5 +26,4 @@ use_flags:
 - elibc_glibc
 - userland_GNU
 - abi_x86_64
-version: 0.1.0+r3
-license: "GPL-2"
+version: 0.1.0+r4

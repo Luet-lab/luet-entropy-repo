@@ -1,14 +1,30 @@
+Labels: null
 category: net-firewall
+conflicts: null
+id: 0
+license: GPL-2
 name: iptables
 requires:
-- category: app-portage
+- Labels: null
+  category: app-portage
+  conflicts: null
+  id: 0
   name: elt-patches
+  requires: null
   version: '>=20170815'
-- category: sys-kernel
+- Labels: null
+  category: sys-kernel
+  conflicts: null
+  id: 0
   name: linux-headers
+  requires: null
   version: '>=4.4'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: glibc-2.2
+  requires: null
   version: '>=0'
 use_flags:
 - -static-libs
@@ -24,5 +40,4 @@ use_flags:
 - split-usr
 - -netlink
 - userland_GNU
-version: 1.6.1+r5
-license: "GPL-2"
+version: 1.6.1+r6

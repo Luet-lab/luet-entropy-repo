@@ -1,20 +1,44 @@
+Labels: null
 category: dev-texlive
+conflicts: null
+id: 0
+license: BSD BSD-2 CC-BY-SA-4.0 GPL-1 GPL-2 GPL-3 GPL-3+
 name: texlive-mathscience
 requires:
-- category: app-text
+- Labels: null
+  category: app-text
+  conflicts: null
+  id: 0
   name: texlive-core
+  requires: null
   version: '>=2019'
-- category: dev-texlive
+- Labels: null
+  category: dev-texlive
+  conflicts: null
+  id: 0
   name: texlive-fontsrecommended
+  requires: null
   version: '>=2019'
-- category: dev-texlive
+- Labels: null
+  category: dev-texlive
+  conflicts: null
+  id: 0
   name: texlive-latex
+  requires: null
   version: '>=2019'
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: xz-utils
+  requires: null
   version: '>=0'
-- category: dev-texlive
+- Labels: null
+  category: dev-texlive
+  conflicts: null
+  id: 0
   name: texlive-pstricks
+  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc
@@ -25,5 +49,4 @@ use_flags:
 - abi_x86_64
 - userland_GNU
 - -doc
-version: 2019+2
-license: "BSD BSD-2 CC-BY-SA-4.0 GPL-1 GPL-2 GPL-3 GPL-3+"
+version: 2019+3

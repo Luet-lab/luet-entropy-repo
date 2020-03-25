@@ -1,29 +1,65 @@
+Labels: null
 category: dev-python
+conflicts: null
+id: 0
+license: BSD
 name: jupyter_client
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-2.7
+  requires: null
   version: '>=2.7.5'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-exec-2
+  requires: null
   version: '>=2'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: pyzmq
+  requires: null
   version: '>=14.4.0'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-3.6
+  requires: null
   version: '>=0'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: jupyter_core
+  requires: null
   version: '>=0'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: python-dateutil-python-2
+  requires: null
   version: '>=0'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: setuptools
+  requires: null
   version: '>=0'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: traitlets
+  requires: null
   version: '>=0'
 use_flags:
 - python_targets_python3_6
@@ -37,5 +73,4 @@ use_flags:
 - big-endian
 - amd64
 - elibc_glibc
-version: 5.2.3+3
-license: "BSD"
+version: 5.2.3+4

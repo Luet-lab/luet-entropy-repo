@@ -1,23 +1,51 @@
+Labels: null
 category: sys-power
+conflicts: null
+id: 0
+license: GPL-2
 name: pm-utils
 requires:
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: util-linux
+  requires: null
   version: '>=2.13'
-- category: app-laptop
+- Labels: null
+  category: app-laptop
+  conflicts: null
+  id: 0
   name: radeontool
+  requires: null
   version: '>=0'
-- category: media-sound
+- Labels: null
+  category: media-sound
+  conflicts: null
+  id: 0
   name: alsa-utils-0.9
+  requires: null
   version: '>=0'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: dbus
+  requires: null
   version: '>=0'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: vbetool
+  requires: null
   version: '>=0'
-- category: sys-power
+- Labels: null
+  category: sys-power
+  conflicts: null
+  id: 0
   name: pm-quirks
+  requires: null
   version: '>=0'
 use_flags:
 - abi_x86_64
@@ -30,5 +58,4 @@ use_flags:
 - -debug
 - video_cards_radeon
 - kernel_linux
-version: 1.4.1+r9
-license: "GPL-2"
+version: 1.4.1+r10

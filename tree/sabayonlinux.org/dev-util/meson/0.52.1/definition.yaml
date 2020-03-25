@@ -1,14 +1,30 @@
+Labels: null
 category: dev-util
+conflicts: null
+id: 0
+license: Apache-2.0
 name: meson
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-exec-2
+  requires: null
   version: '>=2'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-3.6
+  requires: null
   version: '>=0'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: setuptools
+  requires: null
   version: '>=0'
 use_flags:
 - -test
@@ -22,5 +38,4 @@ use_flags:
 - amd64
 - -python_targets_python3_7
 - big-endian
-version: 0.52.1+2
-license: "Apache-2.0"
+version: 0.52.1+3

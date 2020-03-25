@@ -1,11 +1,23 @@
+Labels: null
 category: app-portage
+conflicts: null
+id: 0
+license: GPL-2
 name: elt-patches
 requires:
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: xz-utils
+  requires: null
   version: '>=0'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: gentoo-functions
+  requires: null
   version: '>=0'
 use_flags:
 - kernel_linux
@@ -14,5 +26,4 @@ use_flags:
 - big-endian
 - elibc_glibc
 - userland_GNU
-version: 20170826.1+2
-license: "GPL-2"
+version: 20170826.1+3

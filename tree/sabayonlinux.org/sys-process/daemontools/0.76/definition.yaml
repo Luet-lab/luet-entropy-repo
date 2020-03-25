@@ -1,8 +1,16 @@
+Labels: null
 category: sys-process
+conflicts: null
+id: 0
+license: public-domain
 name: daemontools
 requires:
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: sed
+  requires: null
   version: '>=4'
 use_flags:
 - amd64
@@ -14,5 +22,4 @@ use_flags:
 - elibc_glibc
 - userland_GNU
 - abi_x86_64
-version: 0.76+r10
-license: "public-domain"
+version: 0.76+r11

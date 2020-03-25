@@ -1,18 +1,23 @@
-
-category: "sys-devel"
-name: "binutils-config"
-version: "5.2"
-
-use_flags:
-- "kernel_linux"
-- "abi_x86_64"
-- "split-usr"
-- "big-endian"
-- "amd64"
-- "elibc_glibc"
-- "userland_GNU"
+Labels: null
+category: sys-devel
+conflicts: null
+id: 0
+license: GPL-2
+name: binutils-config
 requires:
-- category: "sys-apps"
-  name: "gentoo-functions"
-  version: ">=0"
-license: "GPL-2"
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
+  name: gentoo-functions
+  requires: null
+  version: '>=0'
+use_flags:
+- kernel_linux
+- abi_x86_64
+- split-usr
+- big-endian
+- amd64
+- elibc_glibc
+- userland_GNU
+version: 5.2+1

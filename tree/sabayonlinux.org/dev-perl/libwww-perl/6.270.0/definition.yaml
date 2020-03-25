@@ -1,50 +1,114 @@
+Labels: null
 category: dev-perl
+conflicts: null
+id: 0
+license: Artistic GPL-1+
 name: libwww-perl
 requires:
-- category: dev-perl
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
   name: File-Listing
+  requires: null
   version: '>=6.0.0'
-- category: dev-perl
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
   name: HTML-Parser
+  requires: null
   version: '>=3.340.0'
-- category: dev-perl
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
   name: HTTP-Cookies
+  requires: null
   version: '>=6.0.0'
-- category: dev-perl
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
   name: HTTP-Daemon
+  requires: null
   version: '>=6.0.0'
-- category: dev-perl
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
   name: HTTP-Date
+  requires: null
   version: '>=6.0.0'
-- category: dev-perl
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
   name: HTTP-Message
+  requires: null
   version: '>=6.0.0'
-- category: dev-perl
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
   name: HTTP-Negotiate
+  requires: null
   version: '>=6.0.0'
-- category: dev-perl
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
   name: LWP-MediaTypes
+  requires: null
   version: '>=6.0.0'
-- category: dev-perl
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
   name: LWP-Protocol-https
+  requires: null
   version: '>=6.20.0'
-- category: dev-perl
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
   name: Net-HTTP
+  requires: null
   version: '>=6.70.0'
-- category: dev-perl
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
   name: URI
+  requires: null
   version: '>=1.100.0'
-- category: dev-perl
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
   name: WWW-RobotRules
+  requires: null
   version: '>=6.0.0'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: perl
+  requires: null
   version: '>=0'
-- category: dev-perl
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
   name: Encode-Locale
+  requires: null
   version: '>=0'
-- category: dev-perl
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
   name: Try-Tiny
+  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU
@@ -56,5 +120,4 @@ use_flags:
 - ssl
 - elibc_glibc
 - kernel_linux
-version: 6.270.0+2
-license: "Artistic GPL-1+"
+version: 6.270.0+3

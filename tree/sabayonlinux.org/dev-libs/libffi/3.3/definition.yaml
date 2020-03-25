@@ -1,5 +1,10 @@
+Labels: null
 category: dev-libs
+conflicts: null
+id: 0
+license: MIT
 name: libffi
+requires: null
 use_flags:
 - big-endian
 - -abi_x86_x32
@@ -22,5 +27,4 @@ use_flags:
 - -pax_kernel
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
-version: 3.3+r4
-license: "MIT"
+version: 3.3+r5

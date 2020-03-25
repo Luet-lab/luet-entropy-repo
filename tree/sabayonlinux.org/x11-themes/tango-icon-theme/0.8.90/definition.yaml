@@ -1,26 +1,58 @@
+Labels: null
 category: x11-themes
+conflicts: null
+id: 0
+license: public-domain
 name: tango-icon-theme
 requires:
-- category: gnome-base
+- Labels: null
+  category: gnome-base
+  conflicts: null
+  id: 0
   name: librsvg-2
+  requires: null
   version: '>=2.34'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: sed
+  requires: null
   version: '>=4'
-- category: x11-misc
+- Labels: null
+  category: x11-misc
+  conflicts: null
+  id: 0
   name: icon-naming-utils
+  requires: null
   version: '>=0.8.90'
-- category: x11-themes
+- Labels: null
+  category: x11-themes
+  conflicts: null
+  id: 0
   name: hicolor-icon-theme
+  requires: null
   version: '>=0.12'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: intltool
+  requires: null
   version: '>=0'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: gettext
+  requires: null
   version: '>=0'
-- category: x11-themes
+- Labels: null
+  category: x11-themes
+  conflicts: null
+  id: 0
   name: adwaita-icon-theme
+  requires: null
   version: '>=0'
 use_flags:
 - amd64
@@ -31,5 +63,4 @@ use_flags:
 - abi_x86_64
 - branding
 - png
-version: 0.8.90+r3
-license: "public-domain"
+version: 0.8.90+r4

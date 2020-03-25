@@ -1,116 +1,268 @@
+Labels: null
 category: gnome-extra
+conflicts: null
+id: 0
+license: GPL-2+
 name: cinnamon-control-center
 requires:
-- category: app-portage
+- Labels: null
+  category: app-portage
+  conflicts: null
+  id: 0
   name: elt-patches
+  requires: null
   version: '>=20170815'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: glib-2
+  requires: null
   version: '>=2.31'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: intltool
+  requires: null
   version: '>=0.40.1'
-- category: gnome-base
+- Labels: null
+  category: gnome-base
+  conflicts: null
+  id: 0
   name: libgnomekbd
+  requires: null
   version: '>=2.91.91'
-- category: gnome-extra
+- Labels: null
+  category: gnome-extra
+  conflicts: null
+  id: 0
   name: cinnamon-desktop
+  requires: null
   version: '>=1.0'
-- category: gnome-extra
+- Labels: null
+  category: gnome-extra
+  conflicts: null
+  id: 0
   name: cinnamon-menus
+  requires: null
   version: '>=1.0'
-- category: gnome-extra
+- Labels: null
+  category: gnome-extra
+  conflicts: null
+  id: 0
   name: cinnamon-settings-daemon
+  requires: null
   version: '>=1.0'
-- category: gnome-extra
+- Labels: null
+  category: gnome-extra
+  conflicts: null
+  id: 0
   name: gnome-color-manager
+  requires: null
   version: '>=3'
-- category: gnome-extra
+- Labels: null
+  category: gnome-extra
+  conflicts: null
+  id: 0
   name: nm-applet
+  requires: null
   version: '>=0.9.8'
-- category: net-misc
+- Labels: null
+  category: net-misc
+  conflicts: null
+  id: 0
   name: modemmanager
+  requires: null
   version: '>=0.7'
-- category: net-misc
+- Labels: null
+  category: net-misc
+  conflicts: null
+  id: 0
   name: networkmanager
+  requires: null
   version: '>=0.9.8'
-- category: net-print
+- Labels: null
+  category: net-print
+  conflicts: null
+  id: 0
   name: cups
+  requires: null
   version: '>=1.4'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: systemd
+  requires: null
   version: '>=31'
-- category: sys-auth
+- Labels: null
+  category: sys-auth
+  conflicts: null
+  id: 0
   name: polkit
+  requires: null
   version: '>=0.103'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: autoconf-2.69
+  requires: null
   version: '>=2.69'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: automake-1.15
+  requires: null
   version: '>=1.15.1'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: gettext
+  requires: null
   version: '>=0.17'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: libtool-2
+  requires: null
   version: '>=2.4'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: gdk-pixbuf-2
+  requires: null
   version: '>=2.23.0'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: gtk+-3
+  requires: null
   version: '>=3.4.1'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libnotify
+  requires: null
   version: '>=0.7.3'
-- category: x11-misc
+- Labels: null
+  category: x11-misc
+  conflicts: null
+  id: 0
   name: colord
+  requires: null
   version: '>=0.1.14'
-- category: app-admin
+- Labels: null
+  category: app-admin
+  conflicts: null
+  id: 0
   name: system-config-printer
+  requires: null
   version: '>=0'
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: xz-utils
+  requires: null
   version: '>=0'
-- category: app-text
+- Labels: null
+  category: app-text
+  conflicts: null
+  id: 0
   name: iso-codes
+  requires: null
   version: '>=0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: libxml2-2
+  requires: null
   version: '>=0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: libxslt
+  requires: null
   version: '>=0'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: desktop-file-utils
+  requires: null
   version: '>=0'
-- category: gnome-base
+- Labels: null
+  category: gnome-base
+  conflicts: null
+  id: 0
   name: gnome-common-3
+  requires: null
   version: '>=0'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: fontconfig-1.0
+  requires: null
   version: '>=0'
-- category: net-print
+- Labels: null
+  category: net-print
+  conflicts: null
+  id: 0
   name: cups-pk-helper
+  requires: null
   version: '>=0'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: autoconf-archive
+  requires: null
   version: '>=0'
-- category: x11-base
+- Labels: null
+  category: x11-base
+  conflicts: null
+  id: 0
   name: xorg-proto
+  requires: null
   version: '>=0'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libX11
+  requires: null
   version: '>=0'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libxklavier
+  requires: null
   version: '>=0'
-- category: x11-misc
+- Labels: null
+  category: x11-misc
+  conflicts: null
+  id: 0
   name: shared-mime-info
+  requires: null
   version: '>=0'
-- category: x11-themes
+- Labels: null
+  category: x11-themes
+  conflicts: null
+  id: 0
   name: adwaita-icon-theme
+  requires: null
   version: '>=0'
 use_flags:
 - colord
@@ -124,5 +276,4 @@ use_flags:
 - abi_x86_64
 - elibc_glibc
 - big-endian
-version: 4.0.0+2
-license: "GPL-2+"
+version: 4.0.0+3

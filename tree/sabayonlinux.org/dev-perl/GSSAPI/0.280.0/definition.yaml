@@ -1,8 +1,16 @@
+Labels: null
 category: dev-perl
+conflicts: null
+id: 0
+license: Artistic GPL-1+
 name: GSSAPI
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: perl
+  requires: null
   version: '>=0'
 use_flags:
 - amd64
@@ -13,5 +21,4 @@ use_flags:
 - abi_x86_64
 - elibc_glibc
 - big-endian
-version: 0.280.0+r3
-license: "Artistic GPL-1+"
+version: 0.280.0+r4

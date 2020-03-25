@@ -1,8 +1,16 @@
+Labels: null
 category: media-libs
+conflicts: null
+id: 0
+license: MIT
 name: portaudio
 requires:
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: alsa-lib
+  requires: null
   version: '>=1.0.27.2'
 use_flags:
 - big-endian
@@ -28,5 +36,4 @@ use_flags:
 - -abi_riscv_lp64d
 - alsa
 - -doc
-version: 19.06.00+r5
-license: "MIT"
+version: 19.06.00+r6

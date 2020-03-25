@@ -1,20 +1,44 @@
+Labels: null
 category: app-admin
+conflicts: null
+id: 0
+license: LGPL-2
 name: gam-server
 requires:
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: glib-2
+  requires: null
   version: '>=2'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: libgamin
+  requires: null
   version: '>=0.1.10'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: autoconf-2.69
+  requires: null
   version: '>=2.68'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: automake-1.15
+  requires: null
   version: '>=1.14'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: libtool-2
+  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU
@@ -23,5 +47,4 @@ use_flags:
 - elibc_glibc
 - abi_x86_64
 - amd64
-version: 0.1.10+r4
-license: "LGPL-2"
+version: 0.1.10+r5

@@ -1,5 +1,10 @@
+Labels: null
 category: net-libs
+conflicts: null
+id: 0
+license: GPL-3
 name: courier-unicode
+requires: null
 use_flags:
 - big-endian
 - abi_x86_64
@@ -7,5 +12,4 @@ use_flags:
 - userland_GNU
 - elibc_glibc
 - kernel_linux
-version: 2.1+2
-license: "GPL-3"
+version: 2.1+3

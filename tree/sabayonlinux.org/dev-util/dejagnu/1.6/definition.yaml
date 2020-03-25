@@ -1,11 +1,23 @@
+Labels: null
 category: dev-util
+conflicts: null
+id: 0
+license: GPL-3
 name: dejagnu
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: tcl
+  requires: null
   version: '>=0'
-- category: dev-tcltk
+- Labels: null
+  category: dev-tcltk
+  conflicts: null
+  id: 0
   name: expect
+  requires: null
   version: '>=0'
 use_flags:
 - kernel_linux
@@ -14,5 +26,4 @@ use_flags:
 - userland_GNU
 - elibc_glibc
 - -doc
-version: 1.6+2
-license: "GPL-3"
+version: 1.6+3

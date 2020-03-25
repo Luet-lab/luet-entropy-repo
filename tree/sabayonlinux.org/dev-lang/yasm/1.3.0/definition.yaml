@@ -1,17 +1,37 @@
+Labels: null
 category: dev-lang
+conflicts: null
+id: 0
+license: Artistic BSD BSD-2 GPL-2 LGPL-2
 name: yasm
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-2.7
+  requires: null
   version: '>=2.7.5'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-exec-2
+  requires: null
   version: '>=2'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: cython
+  requires: null
   version: '>=0.14'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: gettext
+  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc
@@ -23,5 +43,4 @@ use_flags:
 - amd64
 - big-endian
 - python_targets_python2_7
-version: 1.3.0+2
-license: "Artistic BSD BSD-2 GPL-2 LGPL-2"
+version: 1.3.0+3

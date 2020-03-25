@@ -1,5 +1,10 @@
+Labels: null
 category: sys-firmware
+conflicts: null
+id: 0
+license: GPL-2
 name: ipxe
+requires: null
 use_flags:
 - abi_x86_64
 - elibc_glibc
@@ -18,5 +23,4 @@ use_flags:
 - kernel_linux
 - split-usr
 - usb
-version: 1.0.0+p20190730
-license: "GPL-2"
+version: 1.0.0+p20190731

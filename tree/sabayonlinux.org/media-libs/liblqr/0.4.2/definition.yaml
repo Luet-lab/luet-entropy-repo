@@ -1,8 +1,16 @@
+Labels: null
 category: media-libs
+conflicts: null
+id: 0
+license: GPL-3 LGPL-3
 name: liblqr
 requires:
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: glib-2
+  requires: null
   version: '>=0'
 use_flags:
 - multilib
@@ -11,5 +19,4 @@ use_flags:
 - kernel_linux
 - abi_x86_64
 - userland_GNU
-version: 0.4.2+r3
-license: "GPL-3 LGPL-3"
+version: 0.4.2+r4

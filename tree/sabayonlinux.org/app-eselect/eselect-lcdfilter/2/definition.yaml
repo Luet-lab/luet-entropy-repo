@@ -1,11 +1,23 @@
+Labels: null
 category: app-eselect
+conflicts: null
+id: 0
+license: GPL-2
 name: eselect-lcdfilter
 requires:
-- category: app-admin
+- Labels: null
+  category: app-admin
+  conflicts: null
+  id: 0
   name: eselect
+  requires: null
   version: '>=0'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: freetype-2
+  requires: null
   version: '>=0'
 use_flags:
 - amd64
@@ -14,5 +26,4 @@ use_flags:
 - userland_GNU
 - big-endian
 - abi_x86_64
-version: 2+2
-license: "GPL-2"
+version: 2+3

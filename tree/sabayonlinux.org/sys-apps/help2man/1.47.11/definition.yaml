@@ -1,11 +1,23 @@
+Labels: null
 category: sys-apps
+conflicts: null
+id: 0
+license: GPL-3
 name: help2man
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: perl
+  requires: null
   version: '>=0'
-- category: dev-perl
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
   name: Locale-gettext
+  requires: null
   version: '>=0'
 use_flags:
 - amd64
@@ -16,5 +28,4 @@ use_flags:
 - elibc_glibc
 - split-usr
 - kernel_linux
-version: 1.47.11+2
-license: "GPL-3"
+version: 1.47.11+3

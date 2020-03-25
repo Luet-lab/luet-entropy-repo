@@ -1,8 +1,16 @@
+Labels: null
 category: app-text
+conflicts: null
+id: 0
+license: X11
 name: docbook-sgml-dtd-4.5
 requires:
-- category: app-text
+- Labels: null
+  category: app-text
+  conflicts: null
+  id: 0
   name: sgml-common
+  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU
@@ -10,5 +18,4 @@ use_flags:
 - kernel_linux
 - amd64
 - multilib
-version: 4.5+2
-license: "X11"
+version: 4.5+3

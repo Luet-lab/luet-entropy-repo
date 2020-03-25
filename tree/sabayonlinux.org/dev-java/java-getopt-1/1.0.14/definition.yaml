@@ -1,14 +1,30 @@
+Labels: null
 category: dev-java
+conflicts: null
+id: 0
+license: LGPL-2.1
 name: java-getopt-1
 requires:
-- category: dev-java
+- Labels: null
+  category: dev-java
+  conflicts: null
+  id: 0
   name: ant-core
+  requires: null
   version: '>=1.8.2'
-- category: dev-java
+- Labels: null
+  category: dev-java
+  conflicts: null
+  id: 0
   name: java-config-2
+  requires: null
   version: '>=2.1.9'
-- category: dev-java
+- Labels: null
+  category: dev-java
+  conflicts: null
+  id: 0
   name: javatoolkit
+  requires: null
   version: '>=0.3.0'
 use_flags:
 - -doc
@@ -19,5 +35,4 @@ use_flags:
 - elibc_glibc
 - -source
 - amd64
-version: 1.0.14+2
-license: "LGPL-2.1"
+version: 1.0.14+3

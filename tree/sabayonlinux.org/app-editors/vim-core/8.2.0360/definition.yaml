@@ -1,24 +1,33 @@
-
-category: "app-editors"
-name: "vim-core"
-version: "8.2.0360"
-license: "vim"
-
-use_flags:
-- "-minimal"
-- "nls"
-- "elibc_glibc"
-- "abi_x86_64"
-- "userland_GNU"
-- "split-usr"
-- "amd64"
-- "acl"
-- "kernel_linux"
-- "big-endian"
+Labels: null
+category: app-editors
+conflicts: null
+id: 0
+license: vim
+name: vim-core
 requires:
-- category: "app-vim"
-  name: "gentoo-syntax"
-  version: ">=0"
-- category: "sys-devel"
-  name: "autoconf-2.69"
-  version: ">=0"
+- Labels: null
+  category: app-vim
+  conflicts: null
+  id: 0
+  name: gentoo-syntax
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
+  name: autoconf-2.69
+  requires: null
+  version: '>=0'
+use_flags:
+- -minimal
+- nls
+- elibc_glibc
+- abi_x86_64
+- userland_GNU
+- split-usr
+- amd64
+- acl
+- kernel_linux
+- big-endian
+version: 8.2.0360+1

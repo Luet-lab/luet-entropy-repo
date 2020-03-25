@@ -1,20 +1,44 @@
+Labels: null
 category: dev-python
+conflicts: null
+id: 0
+license: BSD
 name: wstools
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-2.7
+  requires: null
   version: '>=2.7.5'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-exec-2
+  requires: null
   version: '>=2'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-3.6
+  requires: null
   version: '>=0'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: setuptools
+  requires: null
   version: '>=0'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: six
+  requires: null
   version: '>=0'
 use_flags:
 - split-usr
@@ -30,5 +54,4 @@ use_flags:
 - userland_GNU
 - -python_targets_pypy
 - big-endian
-version: 0.4.5+r3
-license: "BSD"
+version: 0.4.5+r4

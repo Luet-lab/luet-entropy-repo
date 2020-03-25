@@ -1,8 +1,16 @@
+Labels: null
 category: dev-lua
+conflicts: null
+id: 0
+license: MIT
 name: luasocket
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: lua
+  requires: null
   version: '>=5.1.5'
 use_flags:
 - big-endian
@@ -22,5 +30,4 @@ use_flags:
 - split-usr
 - -abi_riscv_lp64
 - userland_GNU
-version: 3.0+rc1r4.3
-license: "MIT"
+version: 3.0+rc1r4.4

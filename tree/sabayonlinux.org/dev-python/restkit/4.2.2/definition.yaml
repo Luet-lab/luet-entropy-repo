@@ -1,23 +1,51 @@
+Labels: null
 category: dev-python
+conflicts: null
+id: 0
+license: MIT
 name: restkit
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-2.7
+  requires: null
   version: '>=2.7.5'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-exec-2
+  requires: null
   version: '>=2'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: http-parser
+  requires: null
   version: '>=0.8.3'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: socketpool
+  requires: null
   version: '>=0.5.3'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: setuptools
+  requires: null
   version: '>=0'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: webob
+  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -32,5 +60,4 @@ use_flags:
 - -test
 - -cli
 - -examples
-version: 4.2.2+2
-license: "MIT"
+version: 4.2.2+3

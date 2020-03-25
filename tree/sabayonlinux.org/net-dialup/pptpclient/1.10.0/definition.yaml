@@ -1,14 +1,30 @@
+Labels: null
 category: net-dialup
+conflicts: null
+id: 0
+license: GPL-2
 name: pptpclient
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: perl
+  requires: null
   version: '>=0'
-- category: net-dialup
+- Labels: null
+  category: net-dialup
+  conflicts: null
+  id: 0
   name: ppp
+  requires: null
   version: '>=0'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: iproute2
+  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc
@@ -18,5 +34,4 @@ use_flags:
 - userland_GNU
 - -tk
 - abi_x86_64
-version: 1.10.0+2
-license: "GPL-2"
+version: 1.10.0+3

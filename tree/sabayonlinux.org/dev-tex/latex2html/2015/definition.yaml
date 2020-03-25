@@ -1,20 +1,44 @@
+Labels: null
 category: dev-tex
+conflicts: null
+id: 0
+license: GPL-2
 name: latex2html
 requires:
-- category: app-text
+- Labels: null
+  category: app-text
+  conflicts: null
+  id: 0
   name: ghostscript-gpl
+  requires: null
   version: '>=0'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: perl
+  requires: null
   version: '>=0'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: giflib
+  requires: null
   version: '>=0'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: libpng
+  requires: null
   version: '>=0'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: netpbm
+  requires: null
   version: '>=0'
 use_flags:
 - amd64
@@ -24,5 +48,4 @@ use_flags:
 - abi_x86_64
 - elibc_glibc
 - png
-version: 2015+2
-license: "GPL-2"
+version: 2015+3

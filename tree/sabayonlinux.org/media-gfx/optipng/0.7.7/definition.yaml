@@ -1,14 +1,30 @@
+Labels: null
 category: media-gfx
+conflicts: null
+id: 0
+license: ZLIB
 name: optipng
 requires:
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: libpng
+  requires: null
   version: '>=0'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: findutils
+  requires: null
   version: '>=0'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: zlib
+  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU
@@ -17,5 +33,4 @@ use_flags:
 - kernel_linux
 - amd64
 - big-endian
-version: 0.7.7+2
-license: "ZLIB"
+version: 0.7.7+3

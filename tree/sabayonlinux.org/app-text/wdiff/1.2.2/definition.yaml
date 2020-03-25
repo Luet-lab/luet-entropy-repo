@@ -1,17 +1,37 @@
+Labels: null
 category: app-text
+conflicts: null
+id: 0
+license: GPL-3
 name: wdiff
 requires:
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: diffutils
+  requires: null
   version: '>=0'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: less
+  requires: null
   version: '>=0'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: texinfo
+  requires: null
   version: '>=0'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: ncurses
+  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc
@@ -22,5 +42,4 @@ use_flags:
 - big-endian
 - kernel_linux
 - -test
-version: 1.2.2+r3
-license: "GPL-3"
+version: 1.2.2+r4

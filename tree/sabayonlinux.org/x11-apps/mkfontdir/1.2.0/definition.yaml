@@ -1,8 +1,16 @@
+Labels: null
 category: x11-apps
+conflicts: null
+id: 0
+license: MIT
 name: mkfontdir
 requires:
-- category: x11-apps
+- Labels: null
+  category: x11-apps
+  conflicts: null
+  id: 0
   name: mkfontscale
+  requires: null
   version: '>=1.2.0'
 use_flags:
 - amd64
@@ -11,5 +19,4 @@ use_flags:
 - elibc_glibc
 - abi_x86_64
 - big-endian
-version: 1.2.0+2
-license: "MIT"
+version: 1.2.0+3

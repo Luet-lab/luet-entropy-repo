@@ -1,11 +1,23 @@
+Labels: null
 category: media-libs
+conflicts: null
+id: 0
+license: HappyBunny MIT
 name: glm
 requires:
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: cmake
+  requires: null
   version: '>=3.9.6'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: ninja
+  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU
@@ -20,5 +32,4 @@ use_flags:
 - abi_x86_64
 - kernel_linux
 - -cpu_flags_x86_sse3
-version: 0.9.9.7+2
-license: "HappyBunny MIT"
+version: 0.9.9.7+3

@@ -1,143 +1,331 @@
+Labels: null
 category: app-emulation
+conflicts: null
+id: 0
+license: BSD-2 GPL-2 LGPL-2
 name: qemu
 requires:
-- category: app-emulation
+- Labels: null
+  category: app-emulation
+  conflicts: null
+  id: 0
   name: libcacard
+  requires: null
   version: '>=2.5.0'
-- category: app-emulation
+- Labels: null
+  category: app-emulation
+  conflicts: null
+  id: 0
   name: spice
+  requires: null
   version: '>=0.12.0'
-- category: app-emulation
+- Labels: null
+  category: app-emulation
+  conflicts: null
+  id: 0
   name: spice-protocol
+  requires: null
   version: '>=0.12.3'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-exec-2
+  requires: null
   version: '>=2'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: glib-2
+  requires: null
   version: '>=2.0'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: alsa-lib
+  requires: null
   version: '>=1.0.13'
-- category: net-fs
+- Labels: null
+  category: net-fs
+  conflicts: null
+  id: 0
   name: libnfs
+  requires: null
   version: '>=1.9.3'
-- category: net-libs
+- Labels: null
+  category: net-libs
+  conflicts: null
+  id: 0
   name: gnutls
+  requires: null
   version: '>=3.0'
-- category: net-misc
+- Labels: null
+  category: net-misc
+  conflicts: null
+  id: 0
   name: curl
+  requires: null
   version: '>=7.15.4'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: dtc
+  requires: null
   version: '>=1.5.0'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: usbredir
+  requires: null
   version: '>=0.6'
-- category: sys-cluster
+- Labels: null
+  category: sys-cluster
+  conflicts: null
+  id: 0
   name: glusterfs
+  requires: null
   version: '>=3.4.0'
-- category: sys-kernel
+- Labels: null
+  category: sys-kernel
+  conflicts: null
+  id: 0
   name: linux-headers
+  requires: null
   version: '>=2.6.35'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: libseccomp
+  requires: null
   version: '>=2.1.0'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: pixman
+  requires: null
   version: '>=0.28.0'
-- category: acct-group
+- Labels: null
+  category: acct-group
+  conflicts: null
+  id: 0
   name: kvm
+  requires: null
   version: '>=0'
-- category: app-accessibility
+- Labels: null
+  category: app-accessibility
+  conflicts: null
+  id: 0
   name: brltty
+  requires: null
   version: '>=0'
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: bzip2
+  requires: null
   version: '>=0'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: perl
+  requires: null
   version: '>=0'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-3.6
+  requires: null
   version: '>=0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: libaio
+  requires: null
   version: '>=0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: libxml2-2
+  requires: null
   version: '>=0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: lzo-2
+  requires: null
   version: '>=0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: nettle
+  requires: null
   version: '>=0'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: libepoxy
+  requires: null
   version: '>=0'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: libpng
+  requires: null
   version: '>=0'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: libsdl2
+  requires: null
   version: '>=0'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: mesa
+  requires: null
   version: '>=0'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: sdl2-image
+  requires: null
   version: '>=0'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: virglrenderer
+  requires: null
   version: '>=0'
-- category: media-sound
+- Labels: null
+  category: media-sound
+  conflicts: null
+  id: 0
   name: pulseaudio
+  requires: null
   version: '>=0'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: attr
+  requires: null
   version: '>=0'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: texinfo
+  requires: null
   version: '>=0'
-- category: sys-cluster
+- Labels: null
+  category: sys-cluster
+  conflicts: null
+  id: 0
   name: ceph
+  requires: null
   version: '>=0'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: gettext
+  requires: null
   version: '>=0'
-- category: sys-fs
+- Labels: null
+  category: sys-fs
+  conflicts: null
+  id: 0
   name: xfsprogs
+  requires: null
   version: '>=0'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: libcap
+  requires: null
   version: '>=0'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: libcap-ng
+  requires: null
   version: '>=0'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: ncurses
+  requires: null
   version: '>=0'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: zlib
+  requires: null
   version: '>=0'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: gtk+-3
+  requires: null
   version: '>=0'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libxkbcommon
+  requires: null
   version: '>=0'
-- category: sys-firmware
+- Labels: null
+  category: sys-firmware
+  conflicts: null
+  id: 0
   name: edk2-ovmf
+  requires: null
   version: '>=201905'
-- category: sys-firmware
+- Labels: null
+  category: sys-firmware
+  conflicts: null
+  id: 0
   name: ipxe
+  requires: null
   version: '>=1.0.0'
-- category: sys-firmware
+- Labels: null
+  category: sys-firmware
+  conflicts: null
+  id: 0
   name: seabios
+  requires: null
   version: '>=1.12.0'
-- category: sys-firmware
+- Labels: null
+  category: sys-firmware
+  conflicts: null
+  id: 0
   name: sgabios
+  requires: null
   version: '>=0.1'
 use_flags:
 - -qemu_softmmu_targets_or1k
@@ -273,5 +461,4 @@ use_flags:
 - -qemu_user_targets_mipsn32el
 - -systemtap
 - -qemu_softmmu_targets_alpha
-version: 4.2.0+r3
-license: "BSD-2 GPL-2 LGPL-2"
+version: 4.2.0+r4

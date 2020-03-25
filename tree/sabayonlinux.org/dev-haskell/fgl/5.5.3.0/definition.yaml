@@ -1,27 +1,40 @@
-
-category: "dev-haskell"
-name: "fgl"
-version: "5.5.3.0"
-
-use_flags:
-- "elibc_glibc"
-- "amd64"
-- "abi_x86_64"
-- "-test"
-- "-profile"
-- "userland_GNU"
-- "-doc"
-- "-hscolour"
-- "big-endian"
-- "kernel_linux"
+Labels: null
+category: dev-haskell
+conflicts: null
+id: 0
+license: BSD
+name: fgl
 requires:
-- category: "dev-haskell"
-  name: "cabal"
-  version: ">=1.10"
-- category: "dev-lang"
-  name: "ghc"
-  version: ">=7.4.1"
-- category: "dev-haskell"
-  name: "transformers"
-  version: ">=0"
-license: "BSD"
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: cabal
+  requires: null
+  version: '>=1.10'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: ghc
+  requires: null
+  version: '>=7.4.1'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: transformers
+  requires: null
+  version: '>=0'
+use_flags:
+- elibc_glibc
+- amd64
+- abi_x86_64
+- -test
+- -profile
+- userland_GNU
+- -doc
+- -hscolour
+- big-endian
+- kernel_linux
+version: 5.5.3.0+1

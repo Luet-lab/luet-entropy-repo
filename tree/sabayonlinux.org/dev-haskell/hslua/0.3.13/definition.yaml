@@ -1,29 +1,42 @@
-
-category: "dev-haskell"
-name: "hslua"
-version: "0.3.13"
-
-use_flags:
-- "userland_GNU"
-- "-doc"
-- "-system-lua"
-- "abi_x86_64"
-- "-test"
-- "-hscolour"
-- "-profile"
-- "-apicheck"
-- "kernel_linux"
-- "amd64"
-- "elibc_glibc"
-- "big-endian"
+Labels: null
+category: dev-haskell
+conflicts: null
+id: 0
+license: MIT
+name: hslua
 requires:
-- category: "dev-haskell"
-  name: "cabal"
-  version: ">=1.8"
-- category: "dev-haskell"
-  name: "mtl"
-  version: ">=2.1"
-- category: "dev-lang"
-  name: "ghc"
-  version: ">=7.4.1"
-license: "MIT"
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: cabal
+  requires: null
+  version: '>=1.8'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: mtl
+  requires: null
+  version: '>=2.1'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: ghc
+  requires: null
+  version: '>=7.4.1'
+use_flags:
+- userland_GNU
+- -doc
+- -system-lua
+- abi_x86_64
+- -test
+- -hscolour
+- -profile
+- -apicheck
+- kernel_linux
+- amd64
+- elibc_glibc
+- big-endian
+version: 0.3.13+1

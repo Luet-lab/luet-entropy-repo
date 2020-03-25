@@ -1,8 +1,16 @@
+Labels: null
 category: sys-devel
+conflicts: null
+id: 0
+license: GPL-2
 name: gcc-config
 requires:
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: gentoo-functions
+  requires: null
   version: '>=0.10'
 use_flags:
 - big-endian
@@ -12,5 +20,4 @@ use_flags:
 - kernel_linux
 - elibc_glibc
 - amd64
-version: 2.1+2
-license: "GPL-2"
+version: 2.1+3

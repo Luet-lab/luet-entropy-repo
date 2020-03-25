@@ -1,8 +1,16 @@
+Labels: null
 category: app-dicts
+conflicts: null
+id: 0
+license: LGPL-3
 name: myspell-af
 requires:
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: unzip
+  requires: null
   version: '>=0'
 use_flags:
 - multilib
@@ -10,5 +18,4 @@ use_flags:
 - userland_GNU
 - amd64
 - kernel_linux
-version: 20080701+2
-license: "LGPL-3"
+version: 20080701+3

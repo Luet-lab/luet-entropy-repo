@@ -1,14 +1,30 @@
+Labels: null
 category: sci-physics
+conflicts: null
+id: 0
+license: ZLIB
 name: bullet
 requires:
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: cmake
+  requires: null
   version: '>=3.9.6'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: freeglut
+  requires: null
   version: '>=0'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: make
+  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU
@@ -23,5 +39,4 @@ use_flags:
 - bullet3
 - amd64
 - -extras
-version: 2.86+2
-license: "ZLIB"
+version: 2.86+3

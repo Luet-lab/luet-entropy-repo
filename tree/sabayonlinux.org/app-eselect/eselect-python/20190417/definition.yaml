@@ -1,11 +1,23 @@
+Labels: null
 category: app-eselect
+conflicts: null
+id: 0
+license: GPL-2
 name: eselect-python
 requires:
-- category: app-admin
+- Labels: null
+  category: app-admin
+  conflicts: null
+  id: 0
   name: eselect
+  requires: null
   version: '>=1.2.3'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-exec-2
+  requires: null
   version: '>=2.4.2'
 use_flags:
 - kernel_linux
@@ -15,5 +27,4 @@ use_flags:
 - elibc_glibc
 - userland_GNU
 - split-usr
-version: 20190417+2
-license: "GPL-2"
+version: 20190417+3

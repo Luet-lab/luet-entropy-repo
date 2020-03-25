@@ -1,17 +1,37 @@
+Labels: null
 category: dev-java
+conflicts: null
+id: 0
+license: BSD
 name: junitperf
 requires:
-- category: dev-java
+- Labels: null
+  category: dev-java
+  conflicts: null
+  id: 0
   name: ant-core
+  requires: null
   version: '>=1.8.2'
-- category: dev-java
+- Labels: null
+  category: dev-java
+  conflicts: null
+  id: 0
   name: java-config-2
+  requires: null
   version: '>=2.2.0'
-- category: dev-java
+- Labels: null
+  category: dev-java
+  conflicts: null
+  id: 0
   name: javatoolkit
+  requires: null
   version: '>=0.3.0'
-- category: dev-java
+- Labels: null
+  category: dev-java
+  conflicts: null
+  id: 0
   name: junit-4
+  requires: null
   version: '>=0'
 use_flags:
 - abi_x86_64
@@ -23,5 +43,4 @@ use_flags:
 - -doc
 - -test
 - -elibc_FreeBSD
-version: 1.9.1+r4
-license: "BSD"
+version: 1.9.1+r5

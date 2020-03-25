@@ -1,11 +1,23 @@
+Labels: null
 category: media-libs
+conflicts: null
+id: 0
+license: GPL-2+
 name: vidstab
 requires:
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: cmake
+  requires: null
   version: '>=0'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: ninja
+  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -26,5 +38,4 @@ use_flags:
 - openmp
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
-version: 1.1.0+r5
-license: "GPL-2+"
+version: 1.1.0+r6

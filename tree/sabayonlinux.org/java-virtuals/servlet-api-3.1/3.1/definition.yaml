@@ -1,11 +1,23 @@
+Labels: null
 category: java-virtuals
+conflicts: null
+id: 0
+license: public-domain
 name: servlet-api-3.1
 requires:
-- category: dev-java
+- Labels: null
+  category: dev-java
+  conflicts: null
+  id: 0
   name: java-config-2
+  requires: null
   version: '>=2.2.0'
-- category: dev-java
+- Labels: null
+  category: dev-java
+  conflicts: null
+  id: 0
   name: resin-servlet-api-3.1
+  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -15,5 +27,4 @@ use_flags:
 - abi_x86_64
 - userland_GNU
 - -elibc_FreeBSD
-version: 3.1+r3
-license: "public-domain"
+version: 3.1+r4

@@ -1,14 +1,30 @@
+Labels: null
 category: mail-filter
+conflicts: null
+id: 0
+license: BSD-2 LGPL-2.1
 name: libspf2
 requires:
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: autoconf-2.69
+  requires: null
   version: '>=2.69'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: automake-1.15
+  requires: null
   version: '>=1.14'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: libtool-2
+  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU
@@ -18,5 +34,4 @@ use_flags:
 - -static-libs
 - -static
 - elibc_glibc
-version: 1.2.10+2
-license: "BSD-2 LGPL-2.1"
+version: 1.2.10+3

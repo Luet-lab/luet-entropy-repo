@@ -1,5 +1,10 @@
+Labels: null
 category: media-sound
+conflicts: null
+id: 0
+license: gsm
 name: gsm
+requires: null
 use_flags:
 - big-endian
 - -abi_s390_32
@@ -17,5 +22,4 @@ use_flags:
 - split-usr
 - -abi_riscv_lp64
 - userland_GNU
-version: 1.0.13+r4
-license: "gsm"
+version: 1.0.13+r5

@@ -1,17 +1,37 @@
+Labels: null
 category: media-sound
+conflicts: null
+id: 0
+license: GPL-2
 name: alsa-utils-0.9
 requires:
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: alsa-lib
+  requires: null
   version: '>=1.1.9'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: ncurses
+  requires: null
   version: '>=5.7'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: libffado
+  requires: null
   version: '>=0'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: libsamplerate
+  requires: null
   version: '>=0'
 use_flags:
 - -selinux
@@ -27,5 +47,4 @@ use_flags:
 - split-usr
 - elibc_glibc
 - abi_x86_64
-version: 1.1.9+2
-license: "GPL-2"
+version: 1.1.9+3

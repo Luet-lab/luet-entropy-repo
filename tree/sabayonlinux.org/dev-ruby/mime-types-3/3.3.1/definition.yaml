@@ -1,11 +1,23 @@
+Labels: null
 category: dev-ruby
+conflicts: null
+id: 0
+license: MIT
 name: mime-types-3
 requires:
-- category: dev-ruby
+- Labels: null
+  category: dev-ruby
+  conflicts: null
+  id: 0
   name: mime-types-data-3
+  requires: null
   version: '>=3.2015'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: ruby-2.5
+  requires: null
   version: '>=0'
 use_flags:
 - -ruby_targets_ruby26
@@ -20,5 +32,4 @@ use_flags:
 - -doc
 - amd64
 - big-endian
-version: 3.3.1+2
-license: "MIT"
+version: 3.3.1+3

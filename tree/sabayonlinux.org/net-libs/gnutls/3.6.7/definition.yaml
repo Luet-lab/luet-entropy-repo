@@ -1,32 +1,72 @@
+Labels: null
 category: net-libs
+conflicts: null
+id: 0
+license: GPL-3 LGPL-2.1+
 name: gnutls
 requires:
-- category: app-portage
+- Labels: null
+  category: app-portage
+  conflicts: null
+  id: 0
   name: elt-patches
+  requires: null
   version: '>=20170815'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: gmp
+  requires: null
   version: '>=5.1.3'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: libtasn1
+  requires: null
   version: '>=4.9'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: nettle
+  requires: null
   version: '>=3.4.1'
-- category: net-dns
+- Labels: null
+  category: net-dns
+  conflicts: null
+  id: 0
   name: libidn2
+  requires: null
   version: '>=0.16'
-- category: net-dns
+- Labels: null
+  category: net-dns
+  conflicts: null
+  id: 0
   name: unbound
+  requires: null
   version: '>=1.4.20'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: libunistring
+  requires: null
   version: '>=0'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: autogen
+  requires: null
   version: '>=0'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: gettext
+  requires: null
   version: '>=0'
 use_flags:
 - -examples
@@ -63,5 +103,4 @@ use_flags:
 - dane
 - -pkcs11
 - -doc
-version: 3.6.7+r4
-license: "GPL-3 LGPL-2.1+"
+version: 3.6.7+r5

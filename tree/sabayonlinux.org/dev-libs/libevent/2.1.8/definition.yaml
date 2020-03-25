@@ -1,8 +1,16 @@
+Labels: null
 category: dev-libs
+conflicts: null
+id: 0
+license: BSD
 name: libevent
 requires:
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: openssl
+  requires: null
   version: '>=1.0.1h'
 use_flags:
 - big-endian
@@ -27,5 +35,4 @@ use_flags:
 - ssl
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
-version: 2.1.8+3
-license: "BSD"
+version: 2.1.8+4

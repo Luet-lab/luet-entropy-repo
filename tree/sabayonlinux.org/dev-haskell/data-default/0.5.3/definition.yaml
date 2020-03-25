@@ -1,38 +1,67 @@
-
-category: "dev-haskell"
-name: "data-default"
-version: "0.5.3"
-
-use_flags:
-- "userland_GNU"
-- "-doc"
-- "abi_x86_64"
-- "-hscolour"
-- "-profile"
-- "kernel_linux"
-- "amd64"
-- "elibc_glibc"
-- "big-endian"
+Labels: null
+category: dev-haskell
+conflicts: null
+id: 0
+license: BSD
+name: data-default
 requires:
-- category: "dev-haskell"
-  name: "cabal"
-  version: ">=1.6"
-- category: "dev-lang"
-  name: "ghc"
-  version: ">=6.10.4"
-- category: "dev-haskell"
-  name: "data-default-class"
-  version: ">=0"
-- category: "dev-haskell"
-  name: "data-default-instances-base"
-  version: ">=0"
-- category: "dev-haskell"
-  name: "data-default-instances-containers"
-  version: ">=0"
-- category: "dev-haskell"
-  name: "data-default-instances-dlist"
-  version: ">=0"
-- category: "dev-haskell"
-  name: "data-default-instances-old-locale"
-  version: ">=0"
-license: "BSD"
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: cabal
+  requires: null
+  version: '>=1.6'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: ghc
+  requires: null
+  version: '>=6.10.4'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: data-default-class
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: data-default-instances-base
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: data-default-instances-containers
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: data-default-instances-dlist
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: data-default-instances-old-locale
+  requires: null
+  version: '>=0'
+use_flags:
+- userland_GNU
+- -doc
+- abi_x86_64
+- -hscolour
+- -profile
+- kernel_linux
+- amd64
+- elibc_glibc
+- big-endian
+version: 0.5.3+1

@@ -1,26 +1,58 @@
+Labels: null
 category: media-sound
+conflicts: null
+id: 0
+license: GPL-2 LGPL-2.1
 name: jack-audio-connection-kit
 requires:
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: alsa-lib
+  requires: null
   version: '>=1.0.27.2'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: libsamplerate
+  requires: null
   version: '>=0.1.8'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: libsndfile
+  requires: null
   version: '>=1.0.0'
-- category: sys-auth
+- Labels: null
+  category: sys-auth
+  conflicts: null
+  id: 0
   name: realtime-base
+  requires: null
   version: '>=0'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: db-6.0
+  requires: null
   version: '>=0'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: readline
+  requires: null
   version: '>=0'
-- category: sys-process
+- Labels: null
+  category: sys-process
+  conflicts: null
+  id: 0
   name: lsof
+  requires: null
   version: '>=0'
 use_flags:
 - -examples
@@ -50,5 +82,4 @@ use_flags:
 - -abi_riscv_lp64d
 - alsa
 - -cpu_flags_x86_3dnow
-version: 0.125.0+3
-license: "GPL-2 LGPL-2.1"
+version: 0.125.0+4

@@ -1,14 +1,30 @@
+Labels: null
 category: dev-python
+conflicts: null
+id: 0
+license: BSD BSD-2 MIT
 name: snakeoil
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-exec-2
+  requires: null
   version: '>=2'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-3.6
+  requires: null
   version: '>=0'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: setuptools
+  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc
@@ -22,5 +38,4 @@ use_flags:
 - -python_targets_python3_8
 - -test
 - kernel_linux
-version: 0.8.8+2
-license: "BSD BSD-2 MIT"
+version: 0.8.8+3

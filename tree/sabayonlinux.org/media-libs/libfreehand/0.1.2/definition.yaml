@@ -1,35 +1,60 @@
-
-category: "media-libs"
-name: "libfreehand"
-version: "0.1.2"
-
-use_flags:
-- "big-endian"
-- "amd64"
-- "-doc"
-- "kernel_linux"
-- "elibc_glibc"
-- "-test"
-- "abi_x86_64"
-- "userland_GNU"
-- "-static-libs"
+Labels: null
+category: media-libs
+conflicts: null
+id: 0
+license: MPL-2.0
+name: libfreehand
 requires:
-- category: "dev-libs"
-  name: "icu"
-  version: ">=0"
-- category: "dev-libs"
-  name: "librevenge"
-  version: ">=0"
-- category: "dev-util"
-  name: "gperf"
-  version: ">=0"
-- category: "media-libs"
-  name: "lcms-2"
-  version: ">=0"
-- category: "sys-devel"
-  name: "libtool-2"
-  version: ">=0"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=0"
-license: "MPL-2.0"
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
+  name: icu
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
+  name: librevenge
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
+  name: gperf
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
+  name: lcms-2
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
+  name: libtool-2
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
+  name: zlib
+  requires: null
+  version: '>=0'
+use_flags:
+- big-endian
+- amd64
+- -doc
+- kernel_linux
+- elibc_glibc
+- -test
+- abi_x86_64
+- userland_GNU
+- -static-libs
+version: 0.1.2+1

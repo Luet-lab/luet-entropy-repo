@@ -1,50 +1,114 @@
+Labels: null
 category: kde-frameworks
+conflicts: null
+id: 0
+license: LGPL-2+ LGPL-2.1+
 name: ktextwidgets-5
 requires:
-- category: kde-frameworks
+- Labels: null
+  category: kde-frameworks
+  conflicts: null
+  id: 0
   name: kcompletion-5
+  requires: null
   version: '>=5.67'
-- category: kde-frameworks
+- Labels: null
+  category: kde-frameworks
+  conflicts: null
+  id: 0
   name: kconfig-5
+  requires: null
   version: '>=5.67'
-- category: kde-frameworks
+- Labels: null
+  category: kde-frameworks
+  conflicts: null
+  id: 0
   name: kconfigwidgets-5
+  requires: null
   version: '>=5.67'
-- category: kde-frameworks
+- Labels: null
+  category: kde-frameworks
+  conflicts: null
+  id: 0
   name: kcoreaddons-5
+  requires: null
   version: '>=5.67'
-- category: kde-frameworks
+- Labels: null
+  category: kde-frameworks
+  conflicts: null
+  id: 0
   name: ki18n-5
+  requires: null
   version: '>=5.67'
-- category: kde-frameworks
+- Labels: null
+  category: kde-frameworks
+  conflicts: null
+  id: 0
   name: kservice-5
+  requires: null
   version: '>=5.67'
-- category: kde-frameworks
+- Labels: null
+  category: kde-frameworks
+  conflicts: null
+  id: 0
   name: kwidgetsaddons-5
+  requires: null
   version: '>=5.67'
-- category: kde-frameworks
+- Labels: null
+  category: kde-frameworks
+  conflicts: null
+  id: 0
   name: sonnet-5
+  requires: null
   version: '>=5.67'
-- category: dev-qt
+- Labels: null
+  category: dev-qt
+  conflicts: null
+  id: 0
   name: qtgui-5
+  requires: null
   version: '>=5.12.3'
-- category: dev-qt
+- Labels: null
+  category: dev-qt
+  conflicts: null
+  id: 0
   name: qtwidgets-5
+  requires: null
   version: '>=5.12.3'
-- category: kde-frameworks
+- Labels: null
+  category: kde-frameworks
+  conflicts: null
+  id: 0
   name: extra-cmake-modules-5
+  requires: null
   version: '>=5.67'
-- category: kde-frameworks
+- Labels: null
+  category: kde-frameworks
+  conflicts: null
+  id: 0
   name: kf-env-5
+  requires: null
   version: '>=4'
-- category: dev-qt
+- Labels: null
+  category: dev-qt
+  conflicts: null
+  id: 0
   name: qtcore-5
+  requires: null
   version: '>=0'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: cmake
+  requires: null
   version: '>=0'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: ninja
+  requires: null
   version: '>=0'
 use_flags:
 - -test
@@ -59,5 +123,4 @@ use_flags:
 - -designer
 - userland_GNU
 - amd64
-version: 5.67.0+2
-license: "LGPL-2+ LGPL-2.1+"
+version: 5.67.0+3

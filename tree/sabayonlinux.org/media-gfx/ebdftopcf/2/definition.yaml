@@ -1,11 +1,23 @@
+Labels: null
 category: media-gfx
+conflicts: null
+id: 0
+license: GPL-2
 name: ebdftopcf
 requires:
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: gzip
+  requires: null
   version: '>=0'
-- category: x11-apps
+- Labels: null
+  category: x11-apps
+  conflicts: null
+  id: 0
   name: bdftopcf
+  requires: null
   version: '>=0'
 use_flags:
 - multilib
@@ -13,5 +25,4 @@ use_flags:
 - userland_GNU
 - amd64
 - elibc_glibc
-version: 2+2
-license: "GPL-2"
+version: 2+3

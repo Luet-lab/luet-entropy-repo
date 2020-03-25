@@ -1,5 +1,10 @@
+Labels: null
 category: net-misc
+conflicts: null
+id: 0
+license: BSD-2
 name: dhcpcd
+requires: null
 use_flags:
 - abi_x86_64
 - amd64
@@ -11,5 +16,4 @@ use_flags:
 - udev
 - ipv6
 - big-endian
-version: 8.0.6+2
-license: "BSD-2"
+version: 8.0.6+3

@@ -1,50 +1,114 @@
+Labels: null
 category: lxqt-base
+conflicts: null
+id: 0
+license: BSD LGPL-2.1+
 name: liblxqt
 requires:
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: libqtxdg
+  requires: null
   version: '>=3.3.1'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: cmake
+  requires: null
   version: '>=3.9.6'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: lxqt-build-tools
+  requires: null
   version: '>=0.6.0'
-- category: dev-qt
+- Labels: null
+  category: dev-qt
+  conflicts: null
+  id: 0
   name: linguist-tools-5
+  requires: null
   version: '>=0'
-- category: dev-qt
+- Labels: null
+  category: dev-qt
+  conflicts: null
+  id: 0
   name: qtcore-5
+  requires: null
   version: '>=0'
-- category: dev-qt
+- Labels: null
+  category: dev-qt
+  conflicts: null
+  id: 0
   name: qtdbus-5
+  requires: null
   version: '>=0'
-- category: dev-qt
+- Labels: null
+  category: dev-qt
+  conflicts: null
+  id: 0
   name: qtgui-5
+  requires: null
   version: '>=0'
-- category: dev-qt
+- Labels: null
+  category: dev-qt
+  conflicts: null
+  id: 0
   name: qtwidgets-5
+  requires: null
   version: '>=0'
-- category: dev-qt
+- Labels: null
+  category: dev-qt
+  conflicts: null
+  id: 0
   name: qtx11extras-5
+  requires: null
   version: '>=0'
-- category: dev-qt
+- Labels: null
+  category: dev-qt
+  conflicts: null
+  id: 0
   name: qtxml-5
+  requires: null
   version: '>=0'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: ninja
+  requires: null
   version: '>=0'
-- category: kde-frameworks
+- Labels: null
+  category: kde-frameworks
+  conflicts: null
+  id: 0
   name: kwindowsystem-5
+  requires: null
   version: '>=0'
-- category: sys-auth
+- Labels: null
+  category: sys-auth
+  conflicts: null
+  id: 0
   name: polkit-qt
+  requires: null
   version: '>=0'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libX11
+  requires: null
   version: '>=0'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libXScrnSaver
+  requires: null
   version: '>=0'
 use_flags:
 - amd64
@@ -53,5 +117,4 @@ use_flags:
 - userland_GNU
 - big-endian
 - kernel_linux
-version: 0.14.1+2
-license: "BSD LGPL-2.1+"
+version: 0.14.1+3

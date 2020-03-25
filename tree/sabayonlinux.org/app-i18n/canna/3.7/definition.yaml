@@ -1,11 +1,23 @@
+Labels: null
 category: app-i18n
+conflicts: null
+id: 0
+license: GPL-2 MIT
 name: canna
 requires:
-- category: x11-misc
+- Labels: null
+  category: x11-misc
+  conflicts: null
+  id: 0
   name: gccmakedep
+  requires: null
   version: '>=0'
-- category: x11-misc
+- Labels: null
+  category: x11-misc
+  conflicts: null
+  id: 0
   name: imake
+  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU
@@ -17,5 +29,4 @@ use_flags:
 - ipv6
 - amd64
 - big-endian
-version: 3.7+p3r3.2
-license: "GPL-2 MIT"
+version: 3.7+p3r3.3

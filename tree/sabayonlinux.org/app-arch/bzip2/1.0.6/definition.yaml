@@ -1,5 +1,10 @@
+Labels: null
 category: app-arch
+conflicts: null
+id: 0
+license: BZIP2
 name: bzip2
+requires: null
 use_flags:
 - static-libs
 - big-endian
@@ -19,5 +24,4 @@ use_flags:
 - split-usr
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
-version: 1.0.6+r14
-license: "BZIP2"
+version: 1.0.6+r15

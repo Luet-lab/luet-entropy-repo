@@ -1,32 +1,72 @@
+Labels: null
 category: dev-python
+conflicts: null
+id: 0
+license: wxWinLL-3
 name: wxpython-4.0
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-exec-2
+  requires: null
   version: '>=2'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: wxGTK-3.0-gtk3
+  requires: null
   version: '>=3.0.4'
-- category: app-doc
+- Labels: null
+  category: app-doc
+  conflicts: null
+  id: 0
   name: doxygen
+  requires: null
   version: '>=0'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-3.6
+  requires: null
   version: '>=0'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: pathlib2
+  requires: null
   version: '>=0'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: setuptools
+  requires: null
   version: '>=0'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: six
+  requires: null
   version: '>=0'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: libpng
+  requires: null
   version: '>=0'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: tiff
+  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU
@@ -41,5 +81,4 @@ use_flags:
 - python_targets_python3_6
 - split-usr
 - big-endian
-version: 4.0.6+2
-license: "wxWinLL-3"
+version: 4.0.6+3

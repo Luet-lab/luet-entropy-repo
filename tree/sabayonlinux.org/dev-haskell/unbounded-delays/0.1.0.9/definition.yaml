@@ -1,23 +1,32 @@
-
-category: "dev-haskell"
-name: "unbounded-delays"
-version: "0.1.0.9"
-
-use_flags:
-- "elibc_glibc"
-- "-hscolour"
-- "userland_GNU"
-- "-doc"
-- "abi_x86_64"
-- "big-endian"
-- "-profile"
-- "kernel_linux"
-- "amd64"
+Labels: null
+category: dev-haskell
+conflicts: null
+id: 0
+license: BSD
+name: unbounded-delays
 requires:
-- category: "dev-haskell"
-  name: "cabal"
-  version: ">=1.6"
-- category: "dev-lang"
-  name: "ghc"
-  version: ">=7.4.1"
-license: "BSD"
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: cabal
+  requires: null
+  version: '>=1.6'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: ghc
+  requires: null
+  version: '>=7.4.1'
+use_flags:
+- elibc_glibc
+- -hscolour
+- userland_GNU
+- -doc
+- abi_x86_64
+- big-endian
+- -profile
+- kernel_linux
+- amd64
+version: 0.1.0.9+1

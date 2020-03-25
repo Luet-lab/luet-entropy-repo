@@ -1,17 +1,37 @@
+Labels: null
 category: sys-apps
+conflicts: null
+id: 0
+license: GPL-3
 name: texinfo
 requires:
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: gettext
+  requires: null
   version: '>=0.19.6'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: ncurses
+  requires: null
   version: '>=5.2'
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: xz-utils
+  requires: null
   version: '>=0'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: perl
+  requires: null
   version: '>=0'
 use_flags:
 - nls
@@ -24,5 +44,4 @@ use_flags:
 - -static
 - split-usr
 - userland_GNU
-version: 6.7+2
-license: "GPL-3"
+version: 6.7+3

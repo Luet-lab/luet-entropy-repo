@@ -1,57 +1,78 @@
-
-category: "sys-cluster"
-name: "openmpi"
-version: "4.0.2"
-
-use_flags:
-- "-cma"
-- "-java"
-- "big-endian"
-- "-openmpi_fabrics_ofed"
-- "-elibc_FreeBSD"
-- "abi_x86_64"
-- "-heterogeneous"
-- "-abi_s390_64"
-- "split-usr"
-- "-openmpi_ofed_features_control-hdr-padding"
-- "-openmpi_rm_pbs"
-- "-abi_riscv_lp64"
-- "cxx"
-- "userland_GNU"
-- "-abi_riscv_lp64d"
-- "-abi_x86_x32"
-- "-abi_s390_32"
-- "-abi_mips_n32"
-- "-openmpi_ofed_features_dynamic-sl"
-- "-openmpi_fabrics_knem"
-- "-abi_mips_n64"
-- "romio"
-- "amd64"
-- "-abi_mips_o32"
-- "elibc_glibc"
-- "kernel_linux"
-- "abi_x86_32"
-- "-cuda"
-- "ipv6"
-- "-openmpi_ofed_features_rdmacm"
-- "-openmpi_fabrics_psm"
-- "fortran"
-- "-openmpi_rm_slurm"
-- "-openmpi_ofed_features_udcm"
+Labels: null
+category: sys-cluster
+conflicts: null
+id: 0
+license: BSD
+name: openmpi
 requires:
-- category: "dev-libs"
-  name: "libevent"
-  version: ">=2.0.22"
-- category: "sys-apps"
-  name: "hwloc"
-  version: ">=2.0.2"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=1.2.8"
-- category: "dev-libs"
-  name: "libltdl"
-  version: ">=0"
-- category: "dev-libs"
-  name: "libnl-3"
-  version: ">=0"
-license: "BSD"
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
+  name: libevent
+  requires: null
+  version: '>=2.0.22'
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
+  name: hwloc
+  requires: null
+  version: '>=2.0.2'
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
+  name: zlib
+  requires: null
+  version: '>=1.2.8'
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
+  name: libltdl
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
+  name: libnl-3
+  requires: null
+  version: '>=0'
+use_flags:
+- -cma
+- -java
+- big-endian
+- -openmpi_fabrics_ofed
+- -elibc_FreeBSD
+- abi_x86_64
+- -heterogeneous
+- -abi_s390_64
+- split-usr
+- -openmpi_ofed_features_control-hdr-padding
+- -openmpi_rm_pbs
+- -abi_riscv_lp64
+- cxx
+- userland_GNU
+- -abi_riscv_lp64d
+- -abi_x86_x32
+- -abi_s390_32
+- -abi_mips_n32
+- -openmpi_ofed_features_dynamic-sl
+- -openmpi_fabrics_knem
+- -abi_mips_n64
+- romio
+- amd64
+- -abi_mips_o32
+- elibc_glibc
+- kernel_linux
+- abi_x86_32
+- -cuda
+- ipv6
+- -openmpi_ofed_features_rdmacm
+- -openmpi_fabrics_psm
+- fortran
+- -openmpi_rm_slurm
+- -openmpi_ofed_features_udcm
+version: 4.0.2+1

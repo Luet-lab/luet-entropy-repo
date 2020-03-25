@@ -1,18 +1,23 @@
-
-category: "sys-apps"
-name: "sabayon-lib-migration"
-version: "1"
-
-use_flags:
-- "amd64"
-- "split-usr"
-- "big-endian"
-- "elibc_glibc"
-- "abi_x86_64"
-- "userland_GNU"
-- "kernel_linux"
+Labels: null
+category: sys-apps
+conflicts: null
+id: 0
+license: metapackage
+name: sabayon-lib-migration
 requires:
-- category: "app-portage"
-  name: "unsymlink-lib"
-  version: ">=0"
-license: "metapackage"
+- Labels: null
+  category: app-portage
+  conflicts: null
+  id: 0
+  name: unsymlink-lib
+  requires: null
+  version: '>=0'
+use_flags:
+- amd64
+- split-usr
+- big-endian
+- elibc_glibc
+- abi_x86_64
+- userland_GNU
+- kernel_linux
+version: 1+1

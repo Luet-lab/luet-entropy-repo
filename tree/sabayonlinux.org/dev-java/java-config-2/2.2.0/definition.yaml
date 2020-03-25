@@ -1,20 +1,44 @@
+Labels: null
 category: dev-java
+conflicts: null
+id: 0
+license: GPL-2
 name: java-config-2
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-exec-2
+  requires: null
   version: '>=2'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-3.6
+  requires: null
   version: '>=0'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: setuptools
+  requires: null
   version: '>=0'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: baselayout-java
+  requires: null
   version: '>=0'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: portage
+  requires: null
   version: '>=0'
 use_flags:
 - -python_targets_python3_7
@@ -27,5 +51,4 @@ use_flags:
 - elibc_glibc
 - split-usr
 - amd64
-version: 2.2.0+r6
-license: "GPL-2"
+version: 2.2.0+r7

@@ -1,8 +1,16 @@
+Labels: null
 category: app-dicts
+conflicts: null
+id: 0
+license: GPL-2
 name: myspell-nb
 requires:
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: unzip
+  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU
@@ -10,5 +18,4 @@ use_flags:
 - amd64
 - kernel_linux
 - elibc_glibc
-version: 2.0.10+2
-license: "GPL-2"
+version: 2.0.10+3

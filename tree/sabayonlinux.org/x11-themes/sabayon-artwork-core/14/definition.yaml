@@ -1,28 +1,49 @@
-
-category: "x11-themes"
-name: "sabayon-artwork-core"
-version: "14+r2"
-
-use_flags:
-- "abi_x86_64"
-- "amd64"
-- "userland_GNU"
-- "elibc_glibc"
-- "kernel_linux"
+Labels: null
+category: x11-themes
+conflicts: null
+id: 0
+license: CCPL-Attribution-ShareAlike-3.0
+name: sabayon-artwork-core
 requires:
-- category: "sys-apps"
-  name: "findutils"
-  version: ">=0"
-- category: "x11-themes"
-  name: "sabayon-artwork-cursor"
-  version: ">=0"
-- category: "x11-themes"
-  name: "sabayon-artwork-grub"
-  version: ">=0"
-- category: "x11-themes"
-  name: "sabayon-artwork-plymouth-default"
-  version: ">=0"
-- category: "x11-themes"
-  name: "sabayon-artwork-wallpapers"
-  version: ">=0"
-license: "CCPL-Attribution-ShareAlike-3.0"
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
+  name: findutils
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: x11-themes
+  conflicts: null
+  id: 0
+  name: sabayon-artwork-cursor
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: x11-themes
+  conflicts: null
+  id: 0
+  name: sabayon-artwork-grub
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: x11-themes
+  conflicts: null
+  id: 0
+  name: sabayon-artwork-plymouth-default
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: x11-themes
+  conflicts: null
+  id: 0
+  name: sabayon-artwork-wallpapers
+  requires: null
+  version: '>=0'
+use_flags:
+- abi_x86_64
+- amd64
+- userland_GNU
+- elibc_glibc
+- kernel_linux
+version: 14+r3

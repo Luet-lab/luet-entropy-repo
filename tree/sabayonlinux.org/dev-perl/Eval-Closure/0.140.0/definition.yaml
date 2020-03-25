@@ -1,17 +1,37 @@
+Labels: null
 category: dev-perl
+conflicts: null
+id: 0
+license: Artistic GPL-1+
 name: Eval-Closure
 requires:
-- category: dev-perl
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
   name: Devel-LexAlias
+  requires: null
   version: '>=0.50.0'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: perl
+  requires: null
   version: '>=0'
-- category: dev-perl
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
   name: Perl-Tidy
+  requires: null
   version: '>=0'
-- category: dev-perl
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
   name: Try-Tiny
+  requires: null
   version: '>=0'
 use_flags:
 - abi_x86_64
@@ -23,5 +43,4 @@ use_flags:
 - kernel_linux
 - split-usr
 - elibc_glibc
-version: 0.140.0+2
-license: "Artistic GPL-1+"
+version: 0.140.0+3

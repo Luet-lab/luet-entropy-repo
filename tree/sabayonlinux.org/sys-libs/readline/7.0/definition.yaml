@@ -1,8 +1,16 @@
+Labels: null
 category: sys-libs
+conflicts: null
+id: 0
+license: GPL-3
 name: readline
 requires:
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: ncurses
+  requires: null
   version: '>=5.9'
 use_flags:
 - static-libs
@@ -24,5 +32,4 @@ use_flags:
 - split-usr
 - -abi_riscv_lp64
 - userland_GNU
-version: 7.0+p5r1.3
-license: "GPL-3"
+version: 7.0+p5r1.4

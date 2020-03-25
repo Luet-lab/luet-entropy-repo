@@ -1,48 +1,89 @@
-
-category: "dev-haskell"
-name: "haddock-api"
-version: "2.17.3"
-
-use_flags:
-- "amd64"
-- "-profile"
-- "elibc_glibc"
-- "-doc"
-- "big-endian"
-- "abi_x86_64"
-- "-hscolour"
-- "kernel_linux"
-- "userland_GNU"
-- "-test"
+Labels: null
+category: dev-haskell
+conflicts: null
+id: 0
+license: BSD
+name: haddock-api
 requires:
-- category: "dev-haskell"
-  name: "haddock-library"
-  version: "<1.5"
-- category: "dev-haskell"
-  name: "xhtml"
-  version: "<3000.3"
-- category: "dev-lang"
-  name: "ghc"
-  version: "<8.2"
-- category: "dev-haskell"
-  name: "cabal"
-  version: ">=1.10"
-- category: "dev-haskell"
-  name: "cabal"
-  version: ">=1.24.0.0"
-- category: "dev-haskell"
-  name: "haddock-library"
-  version: ">=1.4"
-- category: "dev-haskell"
-  name: "xhtml"
-  version: ">=3000.2"
-- category: "dev-lang"
-  name: "ghc"
-  version: ">=8.0"
-- category: "dev-haskell"
-  name: "ghc-paths"
-  version: ">=0"
-- category: "dev-haskell"
-  name: "transformers"
-  version: ">=0"
-license: "BSD"
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: haddock-library
+  requires: null
+  version: <1.5
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: xhtml
+  requires: null
+  version: <3000.3
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: ghc
+  requires: null
+  version: <8.2
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: cabal
+  requires: null
+  version: '>=1.10'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: cabal
+  requires: null
+  version: '>=1.24.0.0'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: haddock-library
+  requires: null
+  version: '>=1.4'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: xhtml
+  requires: null
+  version: '>=3000.2'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: ghc
+  requires: null
+  version: '>=8.0'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: ghc-paths
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: transformers
+  requires: null
+  version: '>=0'
+use_flags:
+- amd64
+- -profile
+- elibc_glibc
+- -doc
+- big-endian
+- abi_x86_64
+- -hscolour
+- kernel_linux
+- userland_GNU
+- -test
+version: 2.17.3+1

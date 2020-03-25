@@ -1,14 +1,30 @@
+Labels: null
 category: sys-devel
+conflicts: null
+id: 0
+license: metapackage
 name: clang-runtime-9.0.1
 requires:
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: libomp
+  requires: null
   version: '>=9.0.1'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: compiler-rt-9.0.1
+  requires: null
   version: '>=9.0.1'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: compiler-rt-sanitizers-9.0.1
+  requires: null
   version: '>=9.0.1'
 use_flags:
 - -abi_mips_n32
@@ -31,5 +47,4 @@ use_flags:
 - elibc_glibc
 - sanitize
 - userland_GNU
-version: 9.0.1+2
-license: "metapackage"
+version: 9.0.1+3

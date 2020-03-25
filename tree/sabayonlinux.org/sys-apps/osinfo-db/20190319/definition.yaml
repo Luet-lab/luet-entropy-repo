@@ -1,8 +1,16 @@
+Labels: null
 category: sys-apps
+conflicts: null
+id: 0
+license: GPL-2+
 name: osinfo-db
 requires:
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: osinfo-db-tools
+  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU
@@ -11,5 +19,4 @@ use_flags:
 - amd64
 - big-endian
 - kernel_linux
-version: 20190319+2
-license: "GPL-2+"
+version: 20190319+3

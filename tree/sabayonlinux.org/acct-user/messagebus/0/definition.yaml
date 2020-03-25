@@ -1,8 +1,14 @@
-
-category: "acct-user"
-name: "messagebus"
-version: "0"
+Labels: null
+category: acct-user
+conflicts: null
+id: 0
+name: messagebus
 requires:
-- category: "acct-group"
-  name: "messagebus"
-  version: ">=0"
+- Labels: null
+  category: acct-group
+  conflicts: null
+  id: 0
+  name: messagebus
+  requires: null
+  version: '>=0'
+version: 0+1

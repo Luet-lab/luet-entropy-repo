@@ -1,8 +1,16 @@
+Labels: null
 category: sys-apps
+conflicts: null
+id: 0
+license: LGPL-2.1
 name: dmapi
 requires:
-- category: sys-fs
+- Labels: null
+  category: sys-fs
+  conflicts: null
+  id: 0
   name: xfsprogs
+  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -22,5 +30,4 @@ use_flags:
 - split-usr
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
-version: 2.2.12+r4
-license: "LGPL-2.1"
+version: 2.2.12+r5

@@ -1,23 +1,51 @@
+Labels: null
 category: net-libs
+conflicts: null
+id: 0
+license: Apache-2.0
 name: serf-1
 requires:
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: scons
+  requires: null
   version: '>=2.3.0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: apr-1
+  requires: null
   version: '>=0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: apr-util-1
+  requires: null
   version: '>=0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: openssl
+  requires: null
   version: '>=0'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: scons
+  requires: null
   version: '>=0'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: zlib
+  requires: null
   version: '>=0'
 use_flags:
 - -static-libs
@@ -30,5 +58,4 @@ use_flags:
 - elibc_glibc
 - split-usr
 - amd64
-version: 1.3.9+2
-license: "Apache-2.0"
+version: 1.3.9+3

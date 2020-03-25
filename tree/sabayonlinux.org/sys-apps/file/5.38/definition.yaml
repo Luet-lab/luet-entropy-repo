@@ -1,54 +1,83 @@
-
-category: "sys-apps"
-name: "file"
-version: "5.38"
-
-use_flags:
-- "-python_targets_python3_7"
-- "python_targets_python2_7"
-- "-lzma"
-- "big-endian"
-- "-abi_x86_x32"
-- "-abi_s390_32"
-- "-abi_mips_n32"
-- "python"
-- "-abi_mips_n64"
-- "bzip2"
-- "amd64"
-- "-abi_mips_o32"
-- "elibc_glibc"
-- "abi_x86_64"
-- "kernel_linux"
-- "abi_x86_32"
-- "zlib"
-- "python_targets_python3_6"
-- "-static-libs"
-- "-abi_s390_64"
-- "userland_GNU"
-- "split-usr"
-- "-abi_riscv_lp64"
-- "-abi_riscv_lp64d"
-- "-python_targets_python3_8"
+Labels: null
+category: sys-apps
+conflicts: null
+id: 0
+license: BSD-2
+name: file
 requires:
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170815"
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.5"
-- category: "dev-lang"
-  name: "python-exec-2"
-  version: ">=2"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=1.2.8"
-- category: "app-arch"
-  name: "bzip2"
-  version: ">=0"
-- category: "dev-lang"
-  name: "python-3.6"
-  version: ">=0"
-- category: "dev-python"
-  name: "setuptools"
-  version: ">=0"
-license: "BSD-2"
+- Labels: null
+  category: app-portage
+  conflicts: null
+  id: 0
+  name: elt-patches
+  requires: null
+  version: '>=20170815'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: python-2.7
+  requires: null
+  version: '>=2.7.5'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: python-exec-2
+  requires: null
+  version: '>=2'
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
+  name: zlib
+  requires: null
+  version: '>=1.2.8'
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
+  name: bzip2
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: python-3.6
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
+  name: setuptools
+  requires: null
+  version: '>=0'
+use_flags:
+- -python_targets_python3_7
+- python_targets_python2_7
+- -lzma
+- big-endian
+- -abi_x86_x32
+- -abi_s390_32
+- -abi_mips_n32
+- python
+- -abi_mips_n64
+- bzip2
+- amd64
+- -abi_mips_o32
+- elibc_glibc
+- abi_x86_64
+- kernel_linux
+- abi_x86_32
+- zlib
+- python_targets_python3_6
+- -static-libs
+- -abi_s390_64
+- userland_GNU
+- split-usr
+- -abi_riscv_lp64
+- -abi_riscv_lp64d
+- -python_targets_python3_8
+version: 5.38+1

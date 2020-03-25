@@ -1,18 +1,23 @@
-
-category: "app-text"
-name: "mythes"
-version: "1.2.4"
-
-use_flags:
-- "big-endian"
-- "elibc_glibc"
-- "abi_x86_64"
-- "amd64"
-- "-static-libs"
-- "userland_GNU"
-- "kernel_linux"
+Labels: null
+category: app-text
+conflicts: null
+id: 0
+license: MIT
+name: mythes
 requires:
-- category: "app-text"
-  name: "hunspell"
-  version: ">=0"
-license: "MIT"
+- Labels: null
+  category: app-text
+  conflicts: null
+  id: 0
+  name: hunspell
+  requires: null
+  version: '>=0'
+use_flags:
+- big-endian
+- elibc_glibc
+- abi_x86_64
+- amd64
+- -static-libs
+- userland_GNU
+- kernel_linux
+version: 1.2.4+1

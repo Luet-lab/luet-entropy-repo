@@ -1,8 +1,16 @@
+Labels: null
 category: app-eselect
+conflicts: null
+id: 0
+license: GPL-2
 name: eselect-postgresql
 requires:
-- category: app-admin
+- Labels: null
+  category: app-admin
+  conflicts: null
+  id: 0
   name: eselect
+  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU
@@ -11,5 +19,4 @@ use_flags:
 - kernel_linux
 - abi_x86_64
 - amd64
-version: 2.4+2
-license: "GPL-2"
+version: 2.4+3

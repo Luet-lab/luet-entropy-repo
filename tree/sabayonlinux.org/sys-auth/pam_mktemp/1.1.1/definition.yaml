@@ -1,11 +1,23 @@
+Labels: null
 category: sys-auth
+conflicts: null
+id: 0
+license: BSD-2
 name: pam_mktemp
 requires:
-- category: sys-kernel
+- Labels: null
+  category: sys-kernel
+  conflicts: null
+  id: 0
   name: linux-headers
+  requires: null
   version: '>=0'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: pam
+  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc
@@ -17,5 +29,4 @@ use_flags:
 - abi_x86_64
 - prevent-removal
 - split-usr
-version: 1.1.1+2
-license: "BSD-2"
+version: 1.1.1+3

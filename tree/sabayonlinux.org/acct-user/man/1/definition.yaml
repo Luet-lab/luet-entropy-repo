@@ -1,8 +1,14 @@
-
-category: "acct-user"
-name: "man"
-version: "1"
+Labels: null
+category: acct-user
+conflicts: null
+id: 0
+name: man
 requires:
-- category: "acct-group"
-  name: "man"
-  version: ">=0"
+- Labels: null
+  category: acct-group
+  conflicts: null
+  id: 0
+  name: man
+  requires: null
+  version: '>=0'
+version: 1+1

@@ -1,5 +1,10 @@
+Labels: null
 category: sys-firmware
+conflicts: null
+id: 0
+license: BSD-2 MIT
 name: edk2-ovmf
+requires: null
 use_flags:
 - userland_GNU
 - amd64
@@ -9,5 +14,4 @@ use_flags:
 - kernel_linux
 - binary
 - split-usr
-version: 201905+2
-license: "BSD-2 MIT"
+version: 201905+3

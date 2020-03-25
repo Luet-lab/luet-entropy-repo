@@ -1,8 +1,16 @@
+Labels: null
 category: app-dicts
+conflicts: null
+id: 0
+license: Ispell Princeton myspell-en_CA-KevinAtkinson public-domain
 name: aspell-en
 requires:
-- category: app-text
+- Labels: null
+  category: app-text
+  conflicts: null
+  id: 0
   name: aspell
+  requires: null
   version: '>=0.60'
 use_flags:
 - big-endian
@@ -11,5 +19,4 @@ use_flags:
 - elibc_glibc
 - kernel_linux
 - userland_GNU
-version: 2018.04.16.0+2
-license: "Ispell Princeton myspell-en_CA-KevinAtkinson public-domain"
+version: 2018.04.16.0+3

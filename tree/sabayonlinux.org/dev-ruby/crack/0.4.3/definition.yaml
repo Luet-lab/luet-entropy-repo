@@ -1,11 +1,23 @@
+Labels: null
 category: dev-ruby
+conflicts: null
+id: 0
+license: MIT
 name: crack
 requires:
-- category: dev-ruby
+- Labels: null
+  category: dev-ruby
+  conflicts: null
+  id: 0
   name: safe_yaml
+  requires: null
   version: '>=1.0.4'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: ruby-2.5
+  requires: null
   version: '>=0'
 use_flags:
 - kernel_linux
@@ -20,5 +32,4 @@ use_flags:
 - ruby_targets_ruby25
 - abi_x86_64
 - -test
-version: 0.4.3+r4
-license: "MIT"
+version: 0.4.3+r5

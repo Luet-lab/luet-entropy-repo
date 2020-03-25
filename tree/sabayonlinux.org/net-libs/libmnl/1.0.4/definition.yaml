@@ -1,8 +1,16 @@
+Labels: null
 category: net-libs
+conflicts: null
+id: 0
+license: LGPL-2.1
 name: libmnl
 requires:
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: glibc-2.2
+  requires: null
   version: '>=0'
 use_flags:
 - -static-libs
@@ -14,5 +22,4 @@ use_flags:
 - -examples
 - split-usr
 - userland_GNU
-version: 1.0.4+2
-license: "LGPL-2.1"
+version: 1.0.4+3

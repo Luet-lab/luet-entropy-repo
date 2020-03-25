@@ -1,11 +1,23 @@
+Labels: null
 category: dev-java
+conflicts: null
+id: 0
+license: Apache-2.0
 name: ant-core
 requires:
-- category: dev-java
+- Labels: null
+  category: dev-java
+  conflicts: null
+  id: 0
   name: java-config-2
+  requires: null
   version: '>=2.2.0'
-- category: dev-java
+- Labels: null
+  category: dev-java
+  conflicts: null
+  id: 0
   name: javatoolkit
+  requires: null
   version: '>=0.3.0'
 use_flags:
 - -doc
@@ -17,5 +29,4 @@ use_flags:
 - abi_x86_64
 - amd64
 - -source
-version: 1.10.5+r4
-license: "Apache-2.0"
+version: 1.10.5+r5

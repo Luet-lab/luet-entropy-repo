@@ -1,14 +1,30 @@
+Labels: null
 category: dev-lua
+conflicts: null
+id: 0
+license: MIT
 name: lgi
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: lua
+  requires: null
   version: '>=5.1'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: glib-2
+  requires: null
   version: '>=0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: gobject-introspection
+  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc
@@ -18,5 +34,4 @@ use_flags:
 - -test
 - kernel_linux
 - userland_GNU
-version: 0.9.0+2
-license: "MIT"
+version: 0.9.0+3

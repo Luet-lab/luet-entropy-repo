@@ -1,41 +1,93 @@
+Labels: null
 category: dev-python
+conflicts: null
+id: 0
+license: Apache-2.0
 name: requests
 requires:
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: chardet
+  requires: null
   version: <3.1.0
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: idna
+  requires: null
   version: <2.9
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: urllib3
+  requires: null
   version: <1.25
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-2.7
+  requires: null
   version: '>=2.7.5'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-exec-2
+  requires: null
   version: '>=2'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: certifi
+  requires: null
   version: '>=2017.4.17'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: chardet
+  requires: null
   version: '>=3.0.2'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: cryptography
+  requires: null
   version: '>=1.3.4'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: idna
+  requires: null
   version: '>=2.5'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: pyopenssl
+  requires: null
   version: '>=0.14'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-3.6
+  requires: null
   version: '>=0'
-- category: dev-python
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
   name: setuptools
+  requires: null
   version: '>=0'
 use_flags:
 - -python_targets_pypy3
@@ -53,5 +105,4 @@ use_flags:
 - -python_targets_python3_7
 - amd64
 - big-endian
-version: 2.21.0+r3
-license: "Apache-2.0"
+version: 2.21.0+r4

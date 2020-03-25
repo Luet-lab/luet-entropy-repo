@@ -1,11 +1,23 @@
+Labels: null
 category: dev-util
+conflicts: null
+id: 0
+license: Apache-2.0
 name: dirstr
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-exec-2
+  requires: null
   version: '>=2'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-3.6
+  requires: null
   version: '>=0'
 use_flags:
 - python_targets_python3_6
@@ -17,5 +29,4 @@ use_flags:
 - elibc_glibc
 - amd64
 - -python_targets_python3_5
-version: 0+p1r1.2
-license: "Apache-2.0"
+version: 0+p1r1.3

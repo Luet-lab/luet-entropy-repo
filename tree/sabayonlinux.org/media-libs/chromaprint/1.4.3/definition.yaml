@@ -1,14 +1,30 @@
+Labels: null
 category: media-libs
+conflicts: null
+id: 0
+license: LGPL-2.1
 name: chromaprint
 requires:
-- category: media-video
+- Labels: null
+  category: media-video
+  conflicts: null
+  id: 0
   name: ffmpeg
+  requires: null
   version: '>=2.6'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: cmake
+  requires: null
   version: '>=0'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: ninja
+  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -30,5 +46,4 @@ use_flags:
 - userland_GNU
 - tools
 - -libav
-version: 1.4.3+3
-license: "LGPL-2.1"
+version: 1.4.3+4

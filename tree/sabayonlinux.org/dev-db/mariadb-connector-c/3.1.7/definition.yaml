@@ -1,37 +1,46 @@
-
-category: "dev-db"
-name: "mariadb-connector-c"
-version: "3.1.7"
-
-use_flags:
-- "big-endian"
-- "-abi_x86_x32"
-- "-abi_s390_32"
-- "-abi_mips_n32"
-- "-test"
-- "-abi_mips_n64"
-- "gnutls"
-- "amd64"
-- "-abi_mips_o32"
-- "elibc_glibc"
-- "abi_x86_64"
-- "kernel_linux"
-- "abi_x86_32"
-- "-libressl"
-- "-static-libs"
-- "-abi_s390_64"
-- "userland_GNU"
-- "split-usr"
-- "ssl"
-- "-abi_riscv_lp64"
-- "-abi_riscv_lp64d"
-- "kerberos"
-- "curl"
+Labels: null
+category: dev-db
+conflicts: null
+id: 0
+license: LGPL-2.1
+name: mariadb-connector-c
 requires:
-- category: "dev-util"
-  name: "cmake"
-  version: ">=3.9.6"
-- category: "net-libs"
-  name: "gnutls"
-  version: ">=3.3.24"
-license: "LGPL-2.1"
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
+  name: cmake
+  requires: null
+  version: '>=3.9.6'
+- Labels: null
+  category: net-libs
+  conflicts: null
+  id: 0
+  name: gnutls
+  requires: null
+  version: '>=3.3.24'
+use_flags:
+- big-endian
+- -abi_x86_x32
+- -abi_s390_32
+- -abi_mips_n32
+- -test
+- -abi_mips_n64
+- gnutls
+- amd64
+- -abi_mips_o32
+- elibc_glibc
+- abi_x86_64
+- kernel_linux
+- abi_x86_32
+- -libressl
+- -static-libs
+- -abi_s390_64
+- userland_GNU
+- split-usr
+- ssl
+- -abi_riscv_lp64
+- -abi_riscv_lp64d
+- kerberos
+- curl
+version: 3.1.7+1

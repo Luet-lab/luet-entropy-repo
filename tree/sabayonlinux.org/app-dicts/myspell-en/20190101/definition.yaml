@@ -1,8 +1,16 @@
+Labels: null
 category: app-dicts
+conflicts: null
+id: 0
+license: BSD LGPL-3+ MIT
 name: myspell-en
 requires:
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: unzip
+  requires: null
   version: '>=0'
 use_flags:
 - kernel_linux
@@ -17,5 +25,4 @@ use_flags:
 - userland_GNU
 - -l10n_en-ZA
 - -l10n_en-AU
-version: 20190101+2
-license: "BSD LGPL-3+ MIT"
+version: 20190101+3

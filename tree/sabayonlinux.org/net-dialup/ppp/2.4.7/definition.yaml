@@ -1,17 +1,37 @@
+Labels: null
 category: net-dialup
+conflicts: null
+id: 0
+license: BSD GPL-2
 name: ppp
 requires:
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: openssl
+  requires: null
   version: '>=0'
-- category: net-dialup
+- Labels: null
+  category: net-dialup
+  conflicts: null
+  id: 0
   name: linux-atm
+  requires: null
   version: '>=0'
-- category: net-dialup
+- Labels: null
+  category: net-dialup
+  conflicts: null
+  id: 0
   name: ppp-scripts
+  requires: null
   version: '>=0'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: pam
+  requires: null
   version: '>=0'
 use_flags:
 - abi_x86_64
@@ -30,5 +50,4 @@ use_flags:
 - pam
 - ipv6
 - big-endian
-version: 2.4.7+r9
-license: "BSD GPL-2"
+version: 2.4.7+r10

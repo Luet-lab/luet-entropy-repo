@@ -1,8 +1,16 @@
+Labels: null
 category: dev-ruby
+conflicts: null
+id: 0
+license: GPL-2 MIT Ruby
 name: rubygems
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: ruby-2.5
+  requires: null
   version: '>=0'
 use_flags:
 - -test
@@ -18,5 +26,4 @@ use_flags:
 - ruby_targets_ruby25
 - kernel_linux
 - userland_GNU
-version: 3.1.2+2
-license: "GPL-2 MIT Ruby"
+version: 3.1.2+3

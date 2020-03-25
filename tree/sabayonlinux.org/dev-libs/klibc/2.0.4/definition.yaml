@@ -1,11 +1,23 @@
+Labels: null
 category: dev-libs
+conflicts: null
+id: 0
+license: GPL-2 LGPL-2
 name: klibc
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: perl
+  requires: null
   version: '>=0'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: bc
+  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc
@@ -17,5 +29,4 @@ use_flags:
 - big-endian
 - amd64
 - kernel_linux
-version: 2.0.4+r5
-license: "GPL-2 LGPL-2"
+version: 2.0.4+r6

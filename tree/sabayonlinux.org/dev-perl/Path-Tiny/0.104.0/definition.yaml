@@ -1,11 +1,23 @@
+Labels: null
 category: dev-perl
+conflicts: null
+id: 0
+license: Apache-2.0
 name: Path-Tiny
 requires:
-- category: dev-perl
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
   name: Unicode-UTF8
+  requires: null
   version: '>=0.580.0'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: perl
+  requires: null
   version: '>=0'
 use_flags:
 - split-usr
@@ -17,5 +29,4 @@ use_flags:
 - -test
 - kernel_linux
 - big-endian
-version: 0.104.0+2
-license: "Apache-2.0"
+version: 0.104.0+3

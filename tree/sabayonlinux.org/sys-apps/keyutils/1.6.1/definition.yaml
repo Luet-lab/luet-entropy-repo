@@ -1,8 +1,16 @@
+Labels: null
 category: sys-apps
+conflicts: null
+id: 0
+license: GPL-2 LGPL-2.1
 name: keyutils
 requires:
-- category: sys-kernel
+- Labels: null
+  category: sys-kernel
+  conflicts: null
+  id: 0
   name: linux-headers
+  requires: null
   version: '>=2.6.11'
 use_flags:
 - big-endian
@@ -24,5 +32,4 @@ use_flags:
 - split-usr
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
-version: 1.6.1+3
-license: "GPL-2 LGPL-2.1"
+version: 1.6.1+4

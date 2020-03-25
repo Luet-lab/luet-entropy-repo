@@ -1,11 +1,23 @@
+Labels: null
 category: dev-util
+conflicts: null
+id: 0
+license: GPL-2
 name: pkgconfig
 requires:
-- category: app-portage
+- Labels: null
+  category: app-portage
+  conflicts: null
+  id: 0
   name: elt-patches
+  requires: null
   version: '>=20170422'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: glib-2
+  requires: null
   version: '>=2.34.3'
 use_flags:
 - -abi_mips_n32
@@ -26,5 +38,4 @@ use_flags:
 - -elibc_FreeBSD
 - -internal-glib
 - userland_GNU
-version: 0.29.2+2
-license: "GPL-2"
+version: 0.29.2+3

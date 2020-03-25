@@ -1,32 +1,45 @@
-
-category: "app-portage"
-name: "unsymlink-lib"
-version: "17"
-
-use_flags:
-- "-python_targets_python3_7"
-- "python_targets_python3_6"
-- "python_targets_python2_7"
-- "big-endian"
-- "python_single_target_python3_6"
-- "-python_targets_python3_5"
-- "-python_single_target_python3_7"
-- "amd64"
-- "split-usr"
-- "elibc_glibc"
-- "abi_x86_64"
-- "-python_single_target_python2_7"
-- "userland_GNU"
-- "kernel_linux"
-- "-python_single_target_python3_5"
+Labels: null
+category: app-portage
+conflicts: null
+id: 0
+license: BSD-2
+name: unsymlink-lib
 requires:
-- category: "dev-lang"
-  name: "python-exec-2"
-  version: ">=2"
-- category: "dev-lang"
-  name: "python-3.6"
-  version: ">=0"
-- category: "sys-apps"
-  name: "portage"
-  version: ">=0"
-license: "BSD-2"
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: python-exec-2
+  requires: null
+  version: '>=2'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: python-3.6
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
+  name: portage
+  requires: null
+  version: '>=0'
+use_flags:
+- -python_targets_python3_7
+- python_targets_python3_6
+- python_targets_python2_7
+- big-endian
+- python_single_target_python3_6
+- -python_targets_python3_5
+- -python_single_target_python3_7
+- amd64
+- split-usr
+- elibc_glibc
+- abi_x86_64
+- -python_single_target_python2_7
+- userland_GNU
+- kernel_linux
+- -python_single_target_python3_5
+version: 17+1

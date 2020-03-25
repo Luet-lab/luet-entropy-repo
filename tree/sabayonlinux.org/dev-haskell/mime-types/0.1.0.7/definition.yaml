@@ -1,26 +1,39 @@
-
-category: "dev-haskell"
-name: "mime-types"
-version: "0.1.0.7"
-
-use_flags:
-- "big-endian"
-- "kernel_linux"
-- "-doc"
-- "amd64"
-- "-hscolour"
-- "elibc_glibc"
-- "userland_GNU"
-- "-profile"
-- "abi_x86_64"
+Labels: null
+category: dev-haskell
+conflicts: null
+id: 0
+license: MIT
+name: mime-types
 requires:
-- category: "dev-haskell"
-  name: "cabal"
-  version: ">=1.8"
-- category: "dev-lang"
-  name: "ghc"
-  version: ">=7.4.1"
-- category: "dev-haskell"
-  name: "text"
-  version: ">=0"
-license: "MIT"
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: cabal
+  requires: null
+  version: '>=1.8'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: ghc
+  requires: null
+  version: '>=7.4.1'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: text
+  requires: null
+  version: '>=0'
+use_flags:
+- big-endian
+- kernel_linux
+- -doc
+- amd64
+- -hscolour
+- elibc_glibc
+- userland_GNU
+- -profile
+- abi_x86_64
+version: 0.1.0.7+1

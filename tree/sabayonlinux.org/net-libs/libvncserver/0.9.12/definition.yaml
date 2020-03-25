@@ -1,26 +1,58 @@
+Labels: null
 category: net-libs
+conflicts: null
+id: 0
+license: BSD GPL-2+ LGPL-2.1+ MIT
 name: libvncserver
 requires:
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: libpng
+  requires: null
   version: '>=1.6.10'
-- category: net-libs
+- Labels: null
+  category: net-libs
+  conflicts: null
+  id: 0
   name: gnutls
+  requires: null
   version: '>=2.12.23'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: zlib
+  requires: null
   version: '>=1.2.8'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: lzo-2
+  requires: null
   version: '>=0'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: cmake
+  requires: null
   version: '>=0'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: ninja
+  requires: null
   version: '>=0'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: systemd
+  requires: null
   version: '>=0'
 use_flags:
 - ipv6
@@ -43,5 +75,4 @@ use_flags:
 - abi_x86_64
 - 24bpp
 - threads
-version: 0.9.12+r6
-license: "BSD GPL-2+ LGPL-2.1+ MIT"
+version: 0.9.12+r7

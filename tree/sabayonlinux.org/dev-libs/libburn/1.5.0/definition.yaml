@@ -1,15 +1,17 @@
-
-category: "dev-libs"
-name: "libburn"
-version: "1.5.0"
-
+Labels: null
+category: dev-libs
+conflicts: null
+id: 0
+license: GPL-2
+name: libburn
+requires: null
 use_flags:
-- "abi_x86_64"
-- "amd64"
-- "-static-libs"
-- "big-endian"
-- "userland_GNU"
-- "elibc_glibc"
-- "-debug"
-- "kernel_linux"
-license: "GPL-2"
+- abi_x86_64
+- amd64
+- -static-libs
+- big-endian
+- userland_GNU
+- elibc_glibc
+- -debug
+- kernel_linux
+version: 1.5.0+1

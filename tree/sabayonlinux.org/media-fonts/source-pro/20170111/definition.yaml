@@ -1,17 +1,37 @@
+Labels: null
 category: media-fonts
+conflicts: null
+id: 0
+license: OFL-1.1
 name: source-pro
 requires:
-- category: media-fonts
+- Labels: null
+  category: media-fonts
+  conflicts: null
+  id: 0
   name: encodings
+  requires: null
   version: '>=0'
-- category: media-fonts
+- Labels: null
+  category: media-fonts
+  conflicts: null
+  id: 0
   name: source-han-sans
+  requires: null
   version: '>=0'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: fontconfig-1.0
+  requires: null
   version: '>=0'
-- category: x11-apps
+- Labels: null
+  category: x11-apps
+  conflicts: null
+  id: 0
   name: mkfontdir
+  requires: null
   version: '>=0'
 use_flags:
 - X
@@ -21,5 +41,4 @@ use_flags:
 - userland_GNU
 - cjk
 - abi_x86_64
-version: 20170111+2
-license: "OFL-1.1"
+version: 20170111+3

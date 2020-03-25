@@ -1,28 +1,41 @@
-
-category: "app-text"
-name: "enchant"
-version: "1.6.1+r1"
-
-use_flags:
-- "abi_x86_64"
-- "amd64"
-- "hunspell"
-- "-static-libs"
-- "split-usr"
-- "big-endian"
-- "userland_GNU"
-- "elibc_glibc"
-- "aspell"
-- "kernel_linux"
-- "-test"
+Labels: null
+category: app-text
+conflicts: null
+id: 0
+license: LGPL-2.1
+name: enchant
 requires:
-- category: "app-text"
-  name: "hunspell"
-  version: ">=1.2.1"
-- category: "dev-libs"
-  name: "glib-2"
-  version: ">=2.6"
-- category: "app-text"
-  name: "aspell"
-  version: ">=0"
-license: "LGPL-2.1"
+- Labels: null
+  category: app-text
+  conflicts: null
+  id: 0
+  name: hunspell
+  requires: null
+  version: '>=1.2.1'
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
+  name: glib-2
+  requires: null
+  version: '>=2.6'
+- Labels: null
+  category: app-text
+  conflicts: null
+  id: 0
+  name: aspell
+  requires: null
+  version: '>=0'
+use_flags:
+- abi_x86_64
+- amd64
+- hunspell
+- -static-libs
+- split-usr
+- big-endian
+- userland_GNU
+- elibc_glibc
+- aspell
+- kernel_linux
+- -test
+version: 1.6.1+r2

@@ -1,17 +1,22 @@
-
-category: "sci-mathematics"
-name: "lpsolve"
-version: "5.5.2.0"
-
-use_flags:
-- "elibc_glibc"
-- "kernel_linux"
-- "amd64"
-- "-static-libs"
-- "userland_GNU"
-- "multilib"
+Labels: null
+category: sci-mathematics
+conflicts: null
+id: 0
+license: LGPL-2.1
+name: lpsolve
 requires:
-- category: "sci-libs"
-  name: "colamd"
-  version: ">=0"
-license: "LGPL-2.1"
+- Labels: null
+  category: sci-libs
+  conflicts: null
+  id: 0
+  name: colamd
+  requires: null
+  version: '>=0'
+use_flags:
+- elibc_glibc
+- kernel_linux
+- amd64
+- -static-libs
+- userland_GNU
+- multilib
+version: 5.5.2.0+1

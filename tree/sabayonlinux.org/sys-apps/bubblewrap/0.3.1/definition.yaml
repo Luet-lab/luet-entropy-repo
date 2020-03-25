@@ -1,20 +1,44 @@
+Labels: null
 category: sys-apps
+conflicts: null
+id: 0
+license: LGPL-2+
 name: bubblewrap
 requires:
-- category: app-text
+- Labels: null
+  category: app-text
+  conflicts: null
+  id: 0
   name: docbook-xml-dtd-4.5
+  requires: null
   version: '>=0'
-- category: app-text
+- Labels: null
+  category: app-text
+  conflicts: null
+  id: 0
   name: docbook-xsl-stylesheets
+  requires: null
   version: '>=0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: libxslt
+  requires: null
   version: '>=0'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: libcap
+  requires: null
   version: '>=0'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: libseccomp
+  requires: null
   version: '>=0'
 use_flags:
 - abi_x86_64
@@ -25,5 +49,4 @@ use_flags:
 - userland_GNU
 - kernel_linux
 - big-endian
-version: 0.3.1+r3
-license: "LGPL-2+"
+version: 0.3.1+r4

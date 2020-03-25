@@ -1,14 +1,30 @@
+Labels: null
 category: app-text
+conflicts: null
+id: 0
+license: W3C
 name: xhtml1
 requires:
-- category: app-text
+- Labels: null
+  category: app-text
+  conflicts: null
+  id: 0
   name: sgml-common
+  requires: null
   version: '>=0.6.3'
-- category: app-text
+- Labels: null
+  category: app-text
+  conflicts: null
+  id: 0
   name: sgml-common
+  requires: null
   version: '>=0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: libxml2-2
+  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc
@@ -18,5 +34,4 @@ use_flags:
 - abi_x86_64
 - amd64
 - kernel_linux
-version: 20020801+r8
-license: "W3C"
+version: 20020801+r9

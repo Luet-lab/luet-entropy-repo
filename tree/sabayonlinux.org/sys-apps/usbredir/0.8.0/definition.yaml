@@ -1,5 +1,10 @@
+Labels: null
 category: sys-apps
+conflicts: null
+id: 0
+license: GPL-2 LGPL-2.1
 name: usbredir
+requires: null
 use_flags:
 - userland_GNU
 - amd64
@@ -9,5 +14,4 @@ use_flags:
 - elibc_glibc
 - kernel_linux
 - split-usr
-version: 0.8.0+2
-license: "GPL-2 LGPL-2.1"
+version: 0.8.0+3

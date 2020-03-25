@@ -1,17 +1,37 @@
+Labels: null
 category: sys-libs
+conflicts: null
+id: 0
+license: GPL-3 LGPL-3
 name: binutils-libs
 requires:
-- category: app-portage
+- Labels: null
+  category: app-portage
+  conflicts: null
+  id: 0
   name: elt-patches
+  requires: null
   version: '>=20170815'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: binutils-config
+  requires: null
   version: '>=5'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: gettext
+  requires: null
   version: '>=0'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: zlib
+  requires: null
   version: '>=0'
 use_flags:
 - nls
@@ -34,5 +54,4 @@ use_flags:
 - split-usr
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
-version: 2.32+r4
-license: "GPL-3 LGPL-3"
+version: 2.32+r5

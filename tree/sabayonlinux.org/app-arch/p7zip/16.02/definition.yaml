@@ -1,8 +1,16 @@
+Labels: null
 category: app-arch
+conflicts: null
+id: 0
+license: LGPL-2.1 unRAR
 name: p7zip
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: yasm
+  requires: null
   version: '>=0'
 use_flags:
 - -kde
@@ -18,5 +26,4 @@ use_flags:
 - -wxwidgets
 - kernel_linux
 - big-endian
-version: 16.02+r6
-license: "LGPL-2.1 unRAR"
+version: 16.02+r7

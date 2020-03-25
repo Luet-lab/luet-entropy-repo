@@ -1,31 +1,44 @@
-
-category: "net-libs"
-name: "gloox"
-version: "1.0.22"
-
-use_flags:
-- "-debug"
-- "abi_x86_64"
-- "zlib"
-- "-static-libs"
-- "ssl"
-- "big-endian"
-- "gnutls"
-- "amd64"
-- "-idn"
-- "-libressl"
-- "userland_GNU"
-- "kernel_linux"
-- "elibc_glibc"
-- "-test"
+Labels: null
+category: net-libs
+conflicts: null
+id: 0
+license: GPL-3
+name: gloox
 requires:
-- category: "dev-libs"
-  name: "openssl"
-  version: ">=0"
-- category: "net-libs"
-  name: "gnutls"
-  version: ">=0"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=0"
-license: "GPL-3"
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
+  name: openssl
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: net-libs
+  conflicts: null
+  id: 0
+  name: gnutls
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
+  name: zlib
+  requires: null
+  version: '>=0'
+use_flags:
+- -debug
+- abi_x86_64
+- zlib
+- -static-libs
+- ssl
+- big-endian
+- gnutls
+- amd64
+- -idn
+- -libressl
+- userland_GNU
+- kernel_linux
+- elibc_glibc
+- -test
+version: 1.0.22+1

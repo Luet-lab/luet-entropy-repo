@@ -1,17 +1,37 @@
+Labels: null
 category: media-sound
+conflicts: null
+id: 0
+license: BSD LGPL-2.1
 name: musepack-tools
 requires:
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: cmake
+  requires: null
   version: '>=3.9.6'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: libcuefile
+  requires: null
   version: '>=465'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: libreplaygain
+  requires: null
   version: '>=465'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: make
+  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -30,5 +50,4 @@ use_flags:
 - split-usr
 - -abi_riscv_lp64
 - userland_GNU
-version: 465+r4
-license: "BSD LGPL-2.1"
+version: 465+r5

@@ -1,11 +1,23 @@
+Labels: null
 category: dev-perl
+conflicts: null
+id: 0
+license: Artistic GPL-1+
 name: Locale-gettext
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: perl
+  requires: null
   version: '>=0'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: gettext
+  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -15,5 +27,4 @@ use_flags:
 - abi_x86_64
 - split-usr
 - amd64
-version: 1.70.0+2
-license: "Artistic GPL-1+"
+version: 1.70.0+3

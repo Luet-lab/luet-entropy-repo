@@ -1,5 +1,10 @@
+Labels: null
 category: dev-qt
+conflicts: null
+id: 0
+license: GPL-3 LGPL-2.1
 name: qtchooser
+requires: null
 use_flags:
 - kernel_linux
 - -test
@@ -8,5 +13,4 @@ use_flags:
 - big-endian
 - elibc_glibc
 - userland_GNU
-version: 66+2
-license: "GPL-3 LGPL-2.1"
+version: 66+3

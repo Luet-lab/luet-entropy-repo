@@ -1,11 +1,23 @@
+Labels: null
 category: app-text
+conflicts: null
+id: 0
+license: LGPL-2.1 MPL-2.0
 name: libwpg-0.3
 requires:
-- category: app-text
+- Labels: null
+  category: app-text
+  conflicts: null
+  id: 0
   name: libwpd-0.10
+  requires: null
   version: '>=0'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: librevenge
+  requires: null
   version: '>=0'
 use_flags:
 - -static-libs
@@ -16,5 +28,4 @@ use_flags:
 - kernel_linux
 - userland_GNU
 - big-endian
-version: 0.3.3+2
-license: "LGPL-2.1 MPL-2.0"
+version: 0.3.3+3

@@ -1,11 +1,23 @@
+Labels: null
 category: app-arch
+conflicts: null
+id: 0
+license: Info-ZIP
 name: zip
 requires:
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: bzip2
+  requires: null
   version: '>=0'
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: unzip
+  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -18,5 +30,4 @@ use_flags:
 - unicode
 - amd64
 - abi_x86_64
-version: 3.0+r5
-license: "Info-ZIP"
+version: 3.0+r6

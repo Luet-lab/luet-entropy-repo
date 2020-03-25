@@ -1,14 +1,30 @@
+Labels: null
 category: dev-ruby
+conflicts: null
+id: 0
+license: MIT
 name: hoe
 requires:
-- category: dev-ruby
+- Labels: null
+  category: dev-ruby
+  conflicts: null
+  id: 0
   name: rake
+  requires: null
   version: <15.0
-- category: dev-ruby
+- Labels: null
+  category: dev-ruby
+  conflicts: null
+  id: 0
   name: rake
+  requires: null
   version: '>=0.8.7'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: ruby-2.5
+  requires: null
   version: '>=0'
 use_flags:
 - -ruby_targets_ruby24
@@ -24,5 +40,4 @@ use_flags:
 - -test
 - -ruby_targets_ruby27
 - ruby_targets_ruby25
-version: 3.21.0+2
-license: "MIT"
+version: 3.21.0+3

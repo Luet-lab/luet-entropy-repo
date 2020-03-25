@@ -1,21 +1,30 @@
-
-category: "dev-haskell"
-name: "bytestring-builder"
-version: "0.10.8.1.0"
-
-use_flags:
-- "elibc_glibc"
-- "amd64"
-- "userland_GNU"
-- "big-endian"
-- "abi_x86_64"
-- "kernel_linux"
-- "-profile"
+Labels: null
+category: dev-haskell
+conflicts: null
+id: 0
+license: BSD
+name: bytestring-builder
 requires:
-- category: "dev-haskell"
-  name: "cabal"
-  version: ">=1.8"
-- category: "dev-lang"
-  name: "ghc"
-  version: ">=7.4.1"
-license: "BSD"
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: cabal
+  requires: null
+  version: '>=1.8'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: ghc
+  requires: null
+  version: '>=7.4.1'
+use_flags:
+- elibc_glibc
+- amd64
+- userland_GNU
+- big-endian
+- abi_x86_64
+- kernel_linux
+- -profile
+version: 0.10.8.1.0+1

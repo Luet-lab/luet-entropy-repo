@@ -1,49 +1,70 @@
-
-category: "dev-libs"
-name: "libpcre2"
-version: "10.34"
-
-use_flags:
-- "unicode"
-- "big-endian"
-- "-abi_x86_x32"
-- "-abi_s390_32"
-- "-abi_mips_n32"
-- "pcre16"
-- "readline"
-- "recursion-limit"
-- "-abi_mips_n64"
-- "pcre32"
-- "bzip2"
-- "amd64"
-- "-abi_mips_o32"
-- "elibc_glibc"
-- "abi_x86_64"
-- "kernel_linux"
-- "abi_x86_32"
-- "zlib"
-- "-libedit"
-- "-static-libs"
-- "-abi_s390_64"
-- "userland_GNU"
-- "split-usr"
-- "jit"
-- "-abi_riscv_lp64"
-- "-abi_riscv_lp64d"
+Labels: null
+category: dev-libs
+conflicts: null
+id: 0
+license: BSD
+name: libpcre2
 requires:
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170815"
-- category: "sys-apps"
-  name: "findutils"
-  version: ">=4.4.0"
-- category: "app-arch"
-  name: "bzip2"
-  version: ">=0"
-- category: "sys-libs"
-  name: "readline"
-  version: ">=0"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=0"
-license: "BSD"
+- Labels: null
+  category: app-portage
+  conflicts: null
+  id: 0
+  name: elt-patches
+  requires: null
+  version: '>=20170815'
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
+  name: findutils
+  requires: null
+  version: '>=4.4.0'
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
+  name: bzip2
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
+  name: readline
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
+  name: zlib
+  requires: null
+  version: '>=0'
+use_flags:
+- unicode
+- big-endian
+- -abi_x86_x32
+- -abi_s390_32
+- -abi_mips_n32
+- pcre16
+- readline
+- recursion-limit
+- -abi_mips_n64
+- pcre32
+- bzip2
+- amd64
+- -abi_mips_o32
+- elibc_glibc
+- abi_x86_64
+- kernel_linux
+- abi_x86_32
+- zlib
+- -libedit
+- -static-libs
+- -abi_s390_64
+- userland_GNU
+- split-usr
+- jit
+- -abi_riscv_lp64
+- -abi_riscv_lp64d
+version: 10.34+1

@@ -1,20 +1,44 @@
+Labels: null
 category: sys-libs
+conflicts: null
+id: 0
+license: Sleepycat
 name: db-5.3
 requires:
-- category: app-portage
+- Labels: null
+  category: app-portage
+  conflicts: null
+  id: 0
   name: elt-patches
+  requires: null
   version: '>=20170815'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: autoconf-2.69
+  requires: null
   version: '>=2.69'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: automake-1.15
+  requires: null
   version: '>=1.15.1'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: binutils-2.32
+  requires: null
   version: '>=2.16.1'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: libtool-2
+  requires: null
   version: '>=2.4'
 use_flags:
 - -examples
@@ -40,5 +64,4 @@ use_flags:
 - cxx
 - -abi_riscv_lp64d
 - -doc
-version: 5.3.28+r7
-license: "Sleepycat"
+version: 5.3.28+r8

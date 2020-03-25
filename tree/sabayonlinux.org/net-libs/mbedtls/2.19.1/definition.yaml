@@ -1,39 +1,48 @@
-
-category: "net-libs"
-name: "mbedtls"
-version: "2.19.1+r2"
-
-use_flags:
-- "big-endian"
-- "-abi_x86_x32"
-- "-abi_s390_32"
-- "-abi_mips_n32"
-- "-test"
-- "-zlib"
-- "-abi_mips_n64"
-- "amd64"
-- "-abi_mips_o32"
-- "elibc_glibc"
-- "-programs"
-- "abi_x86_64"
-- "-threads"
-- "kernel_linux"
-- "abi_x86_32"
-- "-libressl"
-- "-static-libs"
-- "-abi_s390_64"
-- "userland_GNU"
-- "havege"
-- "split-usr"
-- "cpu_flags_x86_sse2"
-- "-abi_riscv_lp64"
-- "-abi_riscv_lp64d"
-- "-doc"
+Labels: null
+category: net-libs
+conflicts: null
+id: 0
+license: Apache-2.0
+name: mbedtls
 requires:
-- category: "dev-util"
-  name: "cmake"
-  version: ">=3.9.6"
-- category: "dev-util"
-  name: "ninja"
-  version: ">=0"
-license: "Apache-2.0"
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
+  name: cmake
+  requires: null
+  version: '>=3.9.6'
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
+  name: ninja
+  requires: null
+  version: '>=0'
+use_flags:
+- big-endian
+- -abi_x86_x32
+- -abi_s390_32
+- -abi_mips_n32
+- -test
+- -zlib
+- -abi_mips_n64
+- amd64
+- -abi_mips_o32
+- elibc_glibc
+- -programs
+- abi_x86_64
+- -threads
+- kernel_linux
+- abi_x86_32
+- -libressl
+- -static-libs
+- -abi_s390_64
+- userland_GNU
+- havege
+- split-usr
+- cpu_flags_x86_sse2
+- -abi_riscv_lp64
+- -abi_riscv_lp64d
+- -doc
+version: 2.19.1+r3

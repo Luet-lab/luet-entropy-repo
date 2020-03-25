@@ -1,20 +1,44 @@
+Labels: null
 category: dev-qt
+conflicts: null
+id: 0
+license: FDL-1.3 GPL-2 GPL-3 LGPL-3
 name: qtxmlpatterns-5
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: perl
+  requires: null
   version: '>=0'
-- category: dev-qt
+- Labels: null
+  category: dev-qt
+  conflicts: null
+  id: 0
   name: qtchooser
+  requires: null
   version: '>=0'
-- category: dev-qt
+- Labels: null
+  category: dev-qt
+  conflicts: null
+  id: 0
   name: qtcore-5
+  requires: null
   version: '>=5.14.1'
-- category: dev-qt
+- Labels: null
+  category: dev-qt
+  conflicts: null
+  id: 0
   name: qtdeclarative-5
+  requires: null
   version: '>=5.14.1'
-- category: dev-qt
+- Labels: null
+  category: dev-qt
+  conflicts: null
+  id: 0
   name: qtnetwork-5
+  requires: null
   version: '>=5.14.1'
 use_flags:
 - -test
@@ -27,5 +51,4 @@ use_flags:
 - split-usr
 - abi_x86_64
 - userland_GNU
-version: 5.14.1+2
-license: "FDL-1.3 GPL-2 GPL-3 LGPL-3"
+version: 5.14.1+3

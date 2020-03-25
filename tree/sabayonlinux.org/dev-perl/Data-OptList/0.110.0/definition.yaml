@@ -1,14 +1,30 @@
+Labels: null
 category: dev-perl
+conflicts: null
+id: 0
+license: Artistic GPL-1+
 name: Data-OptList
 requires:
-- category: dev-perl
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
   name: Sub-Install
+  requires: null
   version: '>=0.921.0'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: perl
+  requires: null
   version: '>=0'
-- category: dev-perl
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
   name: Params-Util
+  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU
@@ -19,5 +35,4 @@ use_flags:
 - -test
 - elibc_glibc
 - kernel_linux
-version: 0.110.0+2
-license: "Artistic GPL-1+"
+version: 0.110.0+3

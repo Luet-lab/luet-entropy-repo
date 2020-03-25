@@ -1,11 +1,23 @@
+Labels: null
 category: app-crypt
+conflicts: null
+id: 0
+license: MIT
 name: rhash
 requires:
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: openssl
+  requires: null
   version: '>=0'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: gettext
+  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -29,5 +41,4 @@ use_flags:
 - ssl
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
-version: 1.3.9+r5
-license: "MIT"
+version: 1.3.9+r6

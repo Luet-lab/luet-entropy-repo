@@ -1,36 +1,61 @@
-
-category: "dev-haskell"
-name: "enclosed-exceptions"
-version: "1.0.2"
-
-use_flags:
-- "elibc_glibc"
-- "abi_x86_64"
-- "-doc"
-- "big-endian"
-- "-profile"
-- "kernel_linux"
-- "amd64"
-- "-test"
-- "-hscolour"
-- "userland_GNU"
+Labels: null
+category: dev-haskell
+conflicts: null
+id: 0
+license: MIT
+name: enclosed-exceptions
 requires:
-- category: "dev-haskell"
-  name: "cabal"
-  version: ">=1.8"
-- category: "dev-haskell"
-  name: "lifted-base"
-  version: ">=0.2"
-- category: "dev-lang"
-  name: "ghc"
-  version: ">=7.4.1"
-- category: "dev-haskell"
-  name: "monad-control"
-  version: ">=0"
-- category: "dev-haskell"
-  name: "transformers"
-  version: ">=0"
-- category: "dev-haskell"
-  name: "transformers-base"
-  version: ">=0"
-license: "MIT"
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: cabal
+  requires: null
+  version: '>=1.8'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: lifted-base
+  requires: null
+  version: '>=0.2'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: ghc
+  requires: null
+  version: '>=7.4.1'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: monad-control
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: transformers
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: transformers-base
+  requires: null
+  version: '>=0'
+use_flags:
+- elibc_glibc
+- abi_x86_64
+- -doc
+- big-endian
+- -profile
+- kernel_linux
+- amd64
+- -test
+- -hscolour
+- userland_GNU
+version: 1.0.2+1

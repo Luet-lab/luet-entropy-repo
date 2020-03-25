@@ -1,11 +1,23 @@
+Labels: null
 category: dev-vcs
+conflicts: null
+id: 0
+license: GPL-2 LGPL-2
 name: cvs
 requires:
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: zlib
+  requires: null
   version: '>=1.1.4'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: pam
+  requires: null
   version: '>=0'
 use_flags:
 - pam
@@ -21,5 +33,4 @@ use_flags:
 - nls
 - abi_x86_64
 - crypt
-version: 1.12.12+r14
-license: "GPL-2 LGPL-2"
+version: 1.12.12+r15

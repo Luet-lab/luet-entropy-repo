@@ -1,8 +1,16 @@
+Labels: null
 category: app-dicts
+conflicts: null
+id: 0
+license: GPL-2 LGPL-2
 name: myspell-he
 requires:
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: unzip
+  requires: null
   version: '>=0'
 use_flags:
 - abi_x86_64
@@ -10,5 +18,4 @@ use_flags:
 - amd64
 - userland_GNU
 - elibc_glibc
-version: 2012.08.15+2
-license: "GPL-2 LGPL-2"
+version: 2012.08.15+3

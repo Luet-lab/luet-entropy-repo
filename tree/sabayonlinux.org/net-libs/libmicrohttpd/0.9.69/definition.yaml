@@ -1,34 +1,43 @@
-
-category: "net-libs"
-name: "libmicrohttpd"
-version: "0.9.69"
-
-use_flags:
-- "big-endian"
-- "-abi_s390_32"
-- "-abi_mips_n32"
-- "-abi_x86_x32"
-- "-test"
-- "-abi_mips_n64"
-- "amd64"
-- "-abi_mips_o32"
-- "elibc_glibc"
-- "abi_x86_64"
-- "kernel_linux"
-- "abi_x86_32"
-- "-static-libs"
-- "-abi_s390_64"
-- "userland_GNU"
-- "split-usr"
-- "ssl"
-- "-abi_riscv_lp64"
-- "epoll"
-- "-abi_riscv_lp64d"
+Labels: null
+category: net-libs
+conflicts: null
+id: 0
+license: LGPL-2.1
+name: libmicrohttpd
 requires:
-- category: "dev-libs"
-  name: "libgcrypt"
-  version: ">=0"
-- category: "net-libs"
-  name: "gnutls"
-  version: ">=0"
-license: "LGPL-2.1"
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
+  name: libgcrypt
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: net-libs
+  conflicts: null
+  id: 0
+  name: gnutls
+  requires: null
+  version: '>=0'
+use_flags:
+- big-endian
+- -abi_s390_32
+- -abi_mips_n32
+- -abi_x86_x32
+- -test
+- -abi_mips_n64
+- amd64
+- -abi_mips_o32
+- elibc_glibc
+- abi_x86_64
+- kernel_linux
+- abi_x86_32
+- -static-libs
+- -abi_s390_64
+- userland_GNU
+- split-usr
+- ssl
+- -abi_riscv_lp64
+- epoll
+- -abi_riscv_lp64d
+version: 0.9.69+1

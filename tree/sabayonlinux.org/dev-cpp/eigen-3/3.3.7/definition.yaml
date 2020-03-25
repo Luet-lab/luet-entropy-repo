@@ -1,11 +1,23 @@
+Labels: null
 category: dev-cpp
+conflicts: null
+id: 0
+license: MPL-2.0
 name: eigen-3
 requires:
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: cmake
+  requires: null
   version: '>=3.9.6'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: make
+  requires: null
   version: '>=0'
 use_flags:
 - amd64
@@ -22,5 +34,4 @@ use_flags:
 - -c++11
 - -cuda
 - kernel_linux
-version: 3.3.7+2
-license: "MPL-2.0"
+version: 3.3.7+3

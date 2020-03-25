@@ -1,48 +1,89 @@
-
-category: "dev-haskell"
-name: "hxt"
-version: "9.3.1.16"
-
-use_flags:
-- "big-endian"
-- "network-uri"
-- "kernel_linux"
-- "-doc"
-- "amd64"
-- "-hscolour"
-- "elibc_glibc"
-- "userland_GNU"
-- "-profile"
-- "abi_x86_64"
+Labels: null
+category: dev-haskell
+conflicts: null
+id: 0
+license: MIT
+name: hxt
 requires:
-- category: "dev-haskell"
-  name: "mtl"
-  version: "<3"
-- category: "dev-haskell"
-  name: "parsec"
-  version: "<4"
-- category: "dev-haskell"
-  name: "cabal"
-  version: ">=1.8"
-- category: "dev-haskell"
-  name: "hxt-charproperties"
-  version: ">=9.1"
-- category: "dev-haskell"
-  name: "hxt-regex-xmlschema"
-  version: ">=9.2"
-- category: "dev-haskell"
-  name: "hxt-unicode"
-  version: ">=9.0.1"
-- category: "dev-haskell"
-  name: "mtl"
-  version: ">=2.0.1"
-- category: "dev-haskell"
-  name: "network-uri"
-  version: ">=2.6"
-- category: "dev-haskell"
-  name: "parsec"
-  version: ">=2.1"
-- category: "dev-lang"
-  name: "ghc"
-  version: ">=7.4.1"
-license: "MIT"
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: mtl
+  requires: null
+  version: <3
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: parsec
+  requires: null
+  version: <4
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: cabal
+  requires: null
+  version: '>=1.8'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: hxt-charproperties
+  requires: null
+  version: '>=9.1'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: hxt-regex-xmlschema
+  requires: null
+  version: '>=9.2'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: hxt-unicode
+  requires: null
+  version: '>=9.0.1'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: mtl
+  requires: null
+  version: '>=2.0.1'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: network-uri
+  requires: null
+  version: '>=2.6'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: parsec
+  requires: null
+  version: '>=2.1'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: ghc
+  requires: null
+  version: '>=7.4.1'
+use_flags:
+- big-endian
+- network-uri
+- kernel_linux
+- -doc
+- amd64
+- -hscolour
+- elibc_glibc
+- userland_GNU
+- -profile
+- abi_x86_64
+version: 9.3.1.16+1

@@ -1,26 +1,58 @@
+Labels: null
 category: kde-frameworks
+conflicts: null
+id: 0
+license: LGPL-2.1+
 name: kholidays-5
 requires:
-- category: dev-qt
+- Labels: null
+  category: dev-qt
+  conflicts: null
+  id: 0
   name: linguist-tools-5
+  requires: null
   version: '>=5.12.3'
-- category: dev-qt
+- Labels: null
+  category: dev-qt
+  conflicts: null
+  id: 0
   name: qtdeclarative-5
+  requires: null
   version: '>=5.12.3'
-- category: kde-frameworks
+- Labels: null
+  category: kde-frameworks
+  conflicts: null
+  id: 0
   name: extra-cmake-modules-5
+  requires: null
   version: '>=5.67'
-- category: kde-frameworks
+- Labels: null
+  category: kde-frameworks
+  conflicts: null
+  id: 0
   name: kf-env-5
+  requires: null
   version: '>=4'
-- category: dev-qt
+- Labels: null
+  category: dev-qt
+  conflicts: null
+  id: 0
   name: qtcore-5
+  requires: null
   version: '>=0'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: cmake
+  requires: null
   version: '>=0'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: ninja
+  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU
@@ -33,5 +65,4 @@ use_flags:
 - -debug
 - kernel_linux
 - split-usr
-version: 5.67.0+2
-license: "LGPL-2.1+"
+version: 5.67.0+3

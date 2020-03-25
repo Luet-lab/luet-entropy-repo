@@ -1,5 +1,10 @@
+Labels: null
 category: sys-libs
+conflicts: null
+id: 0
+license: BSD public-domain
 name: timezone-data
+requires: null
 use_flags:
 - big-endian
 - abi_x86_64
@@ -11,5 +16,4 @@ use_flags:
 - userland_GNU
 - split-usr
 - -elibc_FreeBSD
-version: 2019c+2
-license: "BSD public-domain"
+version: 2019c+3

@@ -1,38 +1,86 @@
+Labels: null
 category: sys-libs
+conflicts: null
+id: 0
+license: BSD HPND ISC LGPL-2.1+ PCRE inner-net rc
 name: glibc-2.2
 requires:
-- category: app-misc
+- Labels: null
+  category: app-misc
+  conflicts: null
+  id: 0
   name: pax-utils
+  requires: null
   version: '>=0.1.10'
-- category: net-dns
+- Labels: null
+  category: net-dns
+  conflicts: null
+  id: 0
   name: libidn2
+  requires: null
   version: '>=2.0.5'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: binutils-2.32
+  requires: null
   version: '>=2.24'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: gcc-8.2.0
+  requires: null
   version: '>=6'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-3.6
+  requires: null
   version: '>=0'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: gentoo-functions
+  requires: null
   version: '>=0'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: sabayon-lib-migration
+  requires: null
   version: '>=0'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: sabayon-lib-migration-check
+  requires: null
   version: '>=0'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: bison
+  requires: null
   version: '>=0'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: gnuconfig
+  requires: null
   version: '>=0'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: timezone-data
+  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -59,5 +107,4 @@ use_flags:
 - userland_GNU
 - -systemtap
 - -vanilla
-version: 2.29+r10
-license: "BSD HPND ISC LGPL-2.1+ PCRE inner-net rc"
+version: 2.29+r11

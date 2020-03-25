@@ -1,11 +1,23 @@
+Labels: null
 category: dev-perl
+conflicts: null
+id: 0
+license: Artistic GPL-1+ MIT
 name: Error
 requires:
-- category: dev-perl
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
   name: Module-Build
+  requires: null
   version: '>=0.280.801'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: perl
+  requires: null
   version: '>=0'
 use_flags:
 - amd64
@@ -16,5 +28,4 @@ use_flags:
 - abi_x86_64
 - elibc_glibc
 - big-endian
-version: 0.170.250+2
-license: "Artistic GPL-1+ MIT"
+version: 0.170.250+3

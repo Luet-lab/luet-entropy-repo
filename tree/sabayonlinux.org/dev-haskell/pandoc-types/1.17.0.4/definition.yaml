@@ -1,42 +1,75 @@
-
-category: "dev-haskell"
-name: "pandoc-types"
-version: "1.17.0.4"
-
-use_flags:
-- "big-endian"
-- "kernel_linux"
-- "-doc"
-- "amd64"
-- "-hscolour"
-- "elibc_glibc"
-- "userland_GNU"
-- "-profile"
-- "-test"
-- "abi_x86_64"
+Labels: null
+category: dev-haskell
+conflicts: null
+id: 0
+license: BSD
+name: pandoc-types
 requires:
-- category: "dev-haskell"
-  name: "aeson"
-  version: "<1.1"
-- category: "dev-haskell"
-  name: "syb"
-  version: "<0.7"
-- category: "dev-haskell"
-  name: "aeson"
-  version: ">=0.6.2"
-- category: "dev-haskell"
-  name: "cabal"
-  version: ">=1.8"
-- category: "dev-haskell"
-  name: "deepseq-generics"
-  version: ">=0.1"
-- category: "dev-haskell"
-  name: "quickcheck-2"
-  version: ">=2"
-- category: "dev-haskell"
-  name: "syb"
-  version: ">=0.1"
-- category: "dev-lang"
-  name: "ghc"
-  version: ">=7.4.1"
-license: "BSD"
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: aeson
+  requires: null
+  version: <1.1
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: syb
+  requires: null
+  version: <0.7
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: aeson
+  requires: null
+  version: '>=0.6.2'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: cabal
+  requires: null
+  version: '>=1.8'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: deepseq-generics
+  requires: null
+  version: '>=0.1'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: quickcheck-2
+  requires: null
+  version: '>=2'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: syb
+  requires: null
+  version: '>=0.1'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: ghc
+  requires: null
+  version: '>=7.4.1'
+use_flags:
+- big-endian
+- kernel_linux
+- -doc
+- amd64
+- -hscolour
+- elibc_glibc
+- userland_GNU
+- -profile
+- -test
+- abi_x86_64
+version: 1.17.0.4+1

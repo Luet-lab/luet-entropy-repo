@@ -1,32 +1,53 @@
-
-category: "dev-haskell"
-name: "regex-tdfa"
-version: "1.2.2"
-
-use_flags:
-- "-doc"
-- "elibc_glibc"
-- "amd64"
-- "abi_x86_64"
-- "kernel_linux"
-- "userland_GNU"
-- "-hscolour"
-- "-profile"
-- "big-endian"
+Labels: null
+category: dev-haskell
+conflicts: null
+id: 0
+license: BSD
+name: regex-tdfa
 requires:
-- category: "dev-haskell"
-  name: "cabal"
-  version: ">=1.6"
-- category: "dev-haskell"
-  name: "regex-base"
-  version: ">=0.93.1"
-- category: "dev-lang"
-  name: "ghc"
-  version: ">=7.4.1"
-- category: "dev-haskell"
-  name: "mtl"
-  version: ">=0"
-- category: "dev-haskell"
-  name: "parsec"
-  version: ">=0"
-license: "BSD"
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: cabal
+  requires: null
+  version: '>=1.6'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: regex-base
+  requires: null
+  version: '>=0.93.1'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: ghc
+  requires: null
+  version: '>=7.4.1'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: mtl
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-haskell
+  conflicts: null
+  id: 0
+  name: parsec
+  requires: null
+  version: '>=0'
+use_flags:
+- -doc
+- elibc_glibc
+- amd64
+- abi_x86_64
+- kernel_linux
+- userland_GNU
+- -hscolour
+- -profile
+- big-endian
+version: 1.2.2+1

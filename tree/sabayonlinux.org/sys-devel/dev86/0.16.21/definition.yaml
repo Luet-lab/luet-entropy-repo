@@ -1,11 +1,23 @@
+Labels: null
 category: sys-devel
+conflicts: null
+id: 0
+license: GPL-2
 name: dev86
 requires:
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: gperf
+  requires: null
   version: '>=0'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: bin86
+  requires: null
   version: '>=0'
 use_flags:
 - abi_x86_64
@@ -14,5 +26,4 @@ use_flags:
 - elibc_glibc
 - kernel_linux
 - big-endian
-version: 0.16.21+r5
-license: "GPL-2"
+version: 0.16.21+r6

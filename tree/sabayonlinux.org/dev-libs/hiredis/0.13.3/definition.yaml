@@ -1,5 +1,10 @@
+Labels: null
 category: dev-libs
+conflicts: null
+id: 0
+license: BSD
 name: hiredis
+requires: null
 use_flags:
 - abi_x86_64
 - kernel_linux
@@ -9,5 +14,4 @@ use_flags:
 - amd64
 - -static-libs
 - elibc_glibc
-version: 0.13.3+2
-license: "BSD"
+version: 0.13.3+3

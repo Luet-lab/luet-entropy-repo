@@ -1,11 +1,23 @@
+Labels: null
 category: java-virtuals
+conflicts: null
+id: 0
+license: GPL-2
 name: jms
 requires:
-- category: dev-java
+- Labels: null
+  category: dev-java
+  conflicts: null
+  id: 0
   name: java-config-2
+  requires: null
   version: '>=2.1.6'
-- category: dev-java
+- Labels: null
+  category: dev-java
+  conflicts: null
+  id: 0
   name: sun-jms
+  requires: null
   version: '>=0'
 use_flags:
 - amd64
@@ -13,5 +25,4 @@ use_flags:
 - elibc_glibc
 - userland_GNU
 - kernel_linux
-version: 1.1+2
-license: "GPL-2"
+version: 1.1+3

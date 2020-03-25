@@ -1,14 +1,30 @@
+Labels: null
 category: media-fonts
+conflicts: null
+id: 0
+license: Arphic
 name: arphicfonts
 requires:
-- category: media-fonts
+- Labels: null
+  category: media-fonts
+  conflicts: null
+  id: 0
   name: encodings
+  requires: null
   version: '>=0'
-- category: media-gfx
+- Labels: null
+  category: media-gfx
+  conflicts: null
+  id: 0
   name: fontforge
+  requires: null
   version: '>=0'
-- category: x11-apps
+- Labels: null
+  category: x11-apps
+  conflicts: null
+  id: 0
   name: mkfontdir
+  requires: null
   version: '>=0'
 use_flags:
 - kernel_linux
@@ -17,5 +33,4 @@ use_flags:
 - amd64
 - elibc_glibc
 - X
-version: 0.2.20080216.1+r4
-license: "Arphic"
+version: 0.2.20080216.1+r5

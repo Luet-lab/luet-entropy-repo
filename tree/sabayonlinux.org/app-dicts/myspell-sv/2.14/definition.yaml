@@ -1,8 +1,16 @@
+Labels: null
 category: app-dicts
+conflicts: null
+id: 0
+license: CC-BY-SA-3.0 GPL-2 LGPL-3
 name: myspell-sv
 requires:
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: unzip
+  requires: null
   version: '>=0'
 use_flags:
 - amd64
@@ -11,5 +19,4 @@ use_flags:
 - kernel_linux
 - elibc_glibc
 - multilib
-version: 2.14+2
-license: "CC-BY-SA-3.0 GPL-2 LGPL-3"
+version: 2.14+3

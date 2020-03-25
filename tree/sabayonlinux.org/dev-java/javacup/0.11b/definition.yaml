@@ -1,20 +1,44 @@
+Labels: null
 category: dev-java
+conflicts: null
+id: 0
+license: GPL-2
 name: javacup
 requires:
-- category: dev-java
+- Labels: null
+  category: dev-java
+  conflicts: null
+  id: 0
   name: ant-core
+  requires: null
   version: '>=1.7.0'
-- category: dev-java
+- Labels: null
+  category: dev-java
+  conflicts: null
+  id: 0
   name: ant-core
+  requires: null
   version: '>=1.8.2'
-- category: dev-java
+- Labels: null
+  category: dev-java
+  conflicts: null
+  id: 0
   name: java-config-2
+  requires: null
   version: '>=2.2.0'
-- category: dev-java
+- Labels: null
+  category: dev-java
+  conflicts: null
+  id: 0
   name: javatoolkit
+  requires: null
   version: '>=0.3.0'
-- category: dev-java
+- Labels: null
+  category: dev-java
+  conflicts: null
+  id: 0
   name: jflex
+  requires: null
   version: '>=1.6.1'
 use_flags:
 - -doc
@@ -25,5 +49,4 @@ use_flags:
 - abi_x86_64
 - elibc_glibc
 - -source
-version: 0.11b+p20151003
-license: "GPL-2"
+version: 0.11b+p20151004

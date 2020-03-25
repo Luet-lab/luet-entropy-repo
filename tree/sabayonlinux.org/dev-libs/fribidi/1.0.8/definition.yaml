@@ -1,5 +1,10 @@
+Labels: null
 category: dev-libs
+conflicts: null
+id: 0
+license: LGPL-2.1+
 name: fribidi
+requires: null
 use_flags:
 - big-endian
 - -abi_s390_32
@@ -18,5 +23,4 @@ use_flags:
 - split-usr
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
-version: 1.0.8+3
-license: "LGPL-2.1+"
+version: 1.0.8+4

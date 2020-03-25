@@ -1,23 +1,51 @@
+Labels: null
 category: media-plugins
+conflicts: null
+id: 0
+license: GPL-2
 name: gst-plugins-gtk-1.0
 requires:
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: glib-2
+  requires: null
   version: '>=2.38.2'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: gst-plugins-base-1.0
+  requires: null
   version: '>=1.14.5'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: gst-plugins-good-1.0
+  requires: null
   version: '>=1.14.5'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: gstreamer-1.0
+  requires: null
   version: '>=1.2.4'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: sed
+  requires: null
   version: '>=4'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: gtk+-3
+  requires: null
   version: '>=3.15'
 use_flags:
 - big-endian
@@ -41,5 +69,4 @@ use_flags:
 - -abi_riscv_lp64
 - egl
 - -abi_riscv_lp64d
-version: 1.14.5+3
-license: "GPL-2"
+version: 1.14.5+4

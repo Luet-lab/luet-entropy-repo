@@ -1,8 +1,16 @@
+Labels: null
 category: dev-ruby
+conflicts: null
+id: 0
+license: MIT
 name: rspec-support-3
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: ruby-2.5
+  requires: null
   version: '>=0'
 use_flags:
 - kernel_linux
@@ -18,5 +26,4 @@ use_flags:
 - abi_x86_64
 - ruby_targets_ruby25
 - -ruby_targets_ruby26
-version: 3.9.2+2
-license: "MIT"
+version: 3.9.2+3

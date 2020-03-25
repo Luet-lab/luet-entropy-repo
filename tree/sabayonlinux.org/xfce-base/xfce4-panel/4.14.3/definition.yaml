@@ -1,50 +1,114 @@
+Labels: null
 category: xfce-base
+conflicts: null
+id: 0
+license: GPL-2+ LGPL-2.1+
 name: xfce4-panel
 requires:
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: glib-2
+  requires: null
   version: '>=2.42'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: cairo
+  requires: null
   version: '>=1'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: gtk+-3
+  requires: null
   version: '>=2.20'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: gtk+-3
+  requires: null
   version: '>=3.22'
-- category: xfce-base
+- Labels: null
+  category: xfce-base
+  conflicts: null
+  id: 0
   name: exo
+  requires: null
   version: '>=0.11.2'
-- category: xfce-base
+- Labels: null
+  category: xfce-base
+  conflicts: null
+  id: 0
   name: garcon
+  requires: null
   version: '>=0.5'
-- category: xfce-base
+- Labels: null
+  category: xfce-base
+  conflicts: null
+  id: 0
   name: libxfce4ui
+  requires: null
   version: '>=4.13'
-- category: xfce-base
+- Labels: null
+  category: xfce-base
+  conflicts: null
+  id: 0
   name: libxfce4util
+  requires: null
   version: '>=4.13'
-- category: xfce-base
+- Labels: null
+  category: xfce-base
+  conflicts: null
+  id: 0
   name: xfconf
+  requires: null
   version: '>=4.13'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: perl
+  requires: null
   version: '>=0'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: gtk-doc-am
+  requires: null
   version: '>=0'
-- category: dev-util
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
   name: intltool
+  requires: null
   version: '>=0'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: gettext
+  requires: null
   version: '>=0'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libX11
+  requires: null
   version: '>=0'
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libwnck-3
+  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU
@@ -57,5 +121,4 @@ use_flags:
 - gtk2
 - kernel_linux
 - -introspection
-version: 4.14.3+2
-license: "GPL-2+ LGPL-2.1+"
+version: 4.14.3+3

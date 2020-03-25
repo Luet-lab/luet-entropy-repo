@@ -1,11 +1,23 @@
+Labels: null
 category: sys-process
+conflicts: null
+id: 0
+license: lsof
 name: lsof
 requires:
-- category: net-libs
+- Labels: null
+  category: net-libs
+  conflicts: null
+  id: 0
   name: libtirpc
+  requires: null
   version: '>=0'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: groff
+  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc
@@ -19,5 +31,4 @@ use_flags:
 - kernel_linux
 - split-usr
 - amd64
-version: 4.93.2+r3
-license: "lsof"
+version: 4.93.2+r4

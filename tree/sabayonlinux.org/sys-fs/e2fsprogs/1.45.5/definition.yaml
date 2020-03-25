@@ -1,17 +1,37 @@
+Labels: null
 category: sys-fs
+conflicts: null
+id: 0
+license: BSD GPL-2
 name: e2fsprogs
 requires:
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: util-linux
+  requires: null
   version: '>=2.16'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: texinfo
+  requires: null
   version: '>=0'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: gettext
+  requires: null
   version: '>=0'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: e2fsprogs-libs
+  requires: null
   version: '>=1.45.5'
 use_flags:
 - big-endian
@@ -26,5 +46,4 @@ use_flags:
 - -static-libs
 - elibc_glibc
 - kernel_linux
-version: 1.45.5+2
-license: "BSD GPL-2"
+version: 1.45.5+3

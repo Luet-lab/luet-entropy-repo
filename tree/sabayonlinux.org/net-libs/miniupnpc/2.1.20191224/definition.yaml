@@ -1,11 +1,23 @@
+Labels: null
 category: net-libs
+conflicts: null
+id: 0
+license: BSD
 name: miniupnpc
 requires:
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: lsb-release
+  requires: null
   version: '>=0'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: which
+  requires: null
   version: '>=0'
 use_flags:
 - kernel_linux
@@ -17,5 +29,4 @@ use_flags:
 - userland_GNU
 - -static-libs
 - ipv6
-version: 2.1.20191224+2
-license: "BSD"
+version: 2.1.20191224+3

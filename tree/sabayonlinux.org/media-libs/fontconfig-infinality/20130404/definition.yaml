@@ -1,23 +1,51 @@
+Labels: null
 category: media-libs
+conflicts: null
+id: 0
+license: MIT
 name: fontconfig-infinality
 requires:
-- category: x11-libs
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
   name: libXft
+  requires: null
   version: '>=2.3.0'
-- category: app-eselect
+- Labels: null
+  category: app-eselect
+  conflicts: null
+  id: 0
   name: eselect-fontconfig
+  requires: null
   version: '>=0'
-- category: app-eselect
+- Labels: null
+  category: app-eselect
+  conflicts: null
+  id: 0
   name: eselect-infinality
+  requires: null
   version: '>=0'
-- category: app-eselect
+- Labels: null
+  category: app-eselect
+  conflicts: null
+  id: 0
   name: eselect-lcdfilter
+  requires: null
   version: '>=0'
-- category: media-fonts
+- Labels: null
+  category: media-fonts
+  conflicts: null
+  id: 0
   name: croscorefonts
+  requires: null
   version: '>=0'
-- category: media-libs
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
   name: freetype-2
+  requires: null
   version: '>=0'
 use_flags:
 - amd64
@@ -28,5 +56,4 @@ use_flags:
 - elibc_glibc
 - kernel_linux
 - abi_x86_64
-version: 20130404+2
-license: "MIT"
+version: 20130404+3

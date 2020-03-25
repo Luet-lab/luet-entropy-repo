@@ -1,8 +1,16 @@
+Labels: null
 category: dev-ruby
+conflicts: null
+id: 0
+license: GPL-2 GPL-3 Ruby
 name: pdf-core
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: ruby-2.5
+  requires: null
   version: '>=0'
 use_flags:
 - -doc
@@ -17,5 +25,4 @@ use_flags:
 - -test
 - -ruby_targets_ruby26
 - abi_x86_64
-version: 0.7.0+2
-license: "GPL-2 GPL-3 Ruby"
+version: 0.7.0+3

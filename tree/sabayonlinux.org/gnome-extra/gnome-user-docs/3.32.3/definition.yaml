@@ -1,28 +1,45 @@
-
-category: "gnome-extra"
-name: "gnome-user-docs"
-version: "3.32.3"
-
-use_flags:
-- "abi_x86_64"
-- "amd64"
-- "split-usr"
-- "big-endian"
-- "userland_GNU"
-- "elibc_glibc"
-- "kernel_linux"
-- "-test"
+Labels: null
+category: gnome-extra
+conflicts: null
+id: 0
+license: CC-BY-3.0
+name: gnome-user-docs
 requires:
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170815"
-- category: "app-arch"
-  name: "xz-utils"
-  version: ">=0"
-- category: "dev-util"
-  name: "desktop-file-utils"
-  version: ">=0"
-- category: "x11-misc"
-  name: "shared-mime-info"
-  version: ">=0"
-license: "CC-BY-3.0"
+- Labels: null
+  category: app-portage
+  conflicts: null
+  id: 0
+  name: elt-patches
+  requires: null
+  version: '>=20170815'
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
+  name: xz-utils
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
+  name: desktop-file-utils
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: x11-misc
+  conflicts: null
+  id: 0
+  name: shared-mime-info
+  requires: null
+  version: '>=0'
+use_flags:
+- abi_x86_64
+- amd64
+- split-usr
+- big-endian
+- userland_GNU
+- elibc_glibc
+- kernel_linux
+- -test
+version: 3.32.3+1

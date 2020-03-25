@@ -1,77 +1,114 @@
-
-category: "net-misc"
-name: "curl"
-version: "7.68.0"
-
-use_flags:
-- "-curl_ssl_libressl"
-- "big-endian"
-- "-test"
-- "-elibc_Winnt"
-- "-samba"
-- "-metalink"
-- "abi_x86_64"
-- "-quiche"
-- "-curl_ssl_winssl"
-- "-rtmp"
-- "-abi_s390_64"
-- "split-usr"
-- "ssl"
-- "-adns"
-- "-abi_riscv_lp64"
-- "userland_GNU"
-- "ldap"
-- "kerberos"
-- "-abi_riscv_lp64d"
-- "-alt-svc"
-- "static-libs"
-- "curl_ssl_openssl"
-- "-abi_x86_x32"
-- "-abi_s390_32"
-- "-abi_mips_n32"
-- "-abi_mips_n64"
-- "-curl_ssl_nss"
-- "http2"
-- "amd64"
-- "idn"
-- "-abi_mips_o32"
-- "elibc_glibc"
-- "progress-meter"
-- "-nghttp3"
-- "-threads"
-- "kernel_linux"
-- "abi_x86_32"
-- "-curl_ssl_mbedtls"
-- "-curl_ssl_gnutls"
-- "-ssh"
-- "ipv6"
-- "-brotli"
+Labels: null
+category: net-misc
+conflicts: null
+id: 0
+license: MIT
+name: curl
 requires:
-- category: "app-portage"
-  name: "elt-patches"
-  version: ">=20170815"
-- category: "sys-devel"
-  name: "autoconf-2.69"
-  version: ">=2.69"
-- category: "sys-devel"
-  name: "automake-1.15"
-  version: ">=1.15.1"
-- category: "sys-devel"
-  name: "libtool-2"
-  version: ">=2.4"
-- category: "dev-libs"
-  name: "openssl"
-  version: ">=0"
-- category: "net-dns"
-  name: "libidn2"
-  version: ">=0"
-- category: "net-libs"
-  name: "nghttp2"
-  version: ">=0"
-- category: "net-nds"
-  name: "openldap"
-  version: ">=0"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=0"
-license: "MIT"
+- Labels: null
+  category: app-portage
+  conflicts: null
+  id: 0
+  name: elt-patches
+  requires: null
+  version: '>=20170815'
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
+  name: autoconf-2.69
+  requires: null
+  version: '>=2.69'
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
+  name: automake-1.15
+  requires: null
+  version: '>=1.15.1'
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
+  name: libtool-2
+  requires: null
+  version: '>=2.4'
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
+  name: openssl
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: net-dns
+  conflicts: null
+  id: 0
+  name: libidn2
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: net-libs
+  conflicts: null
+  id: 0
+  name: nghttp2
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: net-nds
+  conflicts: null
+  id: 0
+  name: openldap
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
+  name: zlib
+  requires: null
+  version: '>=0'
+use_flags:
+- -curl_ssl_libressl
+- big-endian
+- -test
+- -elibc_Winnt
+- -samba
+- -metalink
+- abi_x86_64
+- -quiche
+- -curl_ssl_winssl
+- -rtmp
+- -abi_s390_64
+- split-usr
+- ssl
+- -adns
+- -abi_riscv_lp64
+- userland_GNU
+- ldap
+- kerberos
+- -abi_riscv_lp64d
+- -alt-svc
+- static-libs
+- curl_ssl_openssl
+- -abi_x86_x32
+- -abi_s390_32
+- -abi_mips_n32
+- -abi_mips_n64
+- -curl_ssl_nss
+- http2
+- amd64
+- idn
+- -abi_mips_o32
+- elibc_glibc
+- progress-meter
+- -nghttp3
+- -threads
+- kernel_linux
+- abi_x86_32
+- -curl_ssl_mbedtls
+- -curl_ssl_gnutls
+- -ssh
+- ipv6
+- -brotli
+version: 7.68.0+1

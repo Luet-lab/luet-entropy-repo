@@ -1,17 +1,37 @@
+Labels: null
 category: net-mail
+conflicts: null
+id: 0
+license: GPL-2
 name: mailbase
 requires:
-- category: acct-group
+- Labels: null
+  category: acct-group
+  conflicts: null
+  id: 0
   name: mail
+  requires: null
   version: '>=0'
-- category: acct-user
+- Labels: null
+  category: acct-user
+  conflicts: null
+  id: 0
   name: mail
+  requires: null
   version: '>=0'
-- category: acct-user
+- Labels: null
+  category: acct-user
+  conflicts: null
+  id: 0
   name: postmaster
+  requires: null
   version: '>=0'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: pam
+  requires: null
   version: '>=0'
 use_flags:
 - abi_x86_64
@@ -22,5 +42,4 @@ use_flags:
 - split-usr
 - pam
 - userland_GNU
-version: 1.5+r3
-license: "GPL-2"
+version: 1.5+r4

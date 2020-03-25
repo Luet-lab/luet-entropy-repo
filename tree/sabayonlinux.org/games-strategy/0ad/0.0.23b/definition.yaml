@@ -1,77 +1,154 @@
-
-category: "games-strategy"
-name: "0ad"
-version: "0.0.23b+alpha"
-
-use_flags:
-- "-nvtt"
-- "abi_x86_64"
-- "split-usr"
-- "-pch"
-- "big-endian"
-- "lobby"
-- "amd64"
-- "editor"
-- "userland_GNU"
-- "kernel_linux"
-- "elibc_glibc"
-- "-test"
+Labels: null
+category: games-strategy
+conflicts: null
+id: 0
+license: CC-BY-SA-3.0 GPL-2 LGPL-2.1 MIT ZLIB
+name: 0ad
 requires:
-- category: "dev-lang"
-  name: "python-2.7"
-  version: ">=2.7.5"
-- category: "net-libs"
-  name: "gloox"
-  version: ">=1.0.20"
-- category: "dev-libs"
-  name: "boost"
-  version: ">=0"
-- category: "dev-libs"
-  name: "icu"
-  version: ">=0"
-- category: "dev-libs"
-  name: "libsodium"
-  version: ">=0"
-- category: "dev-libs"
-  name: "libxml2-2"
-  version: ">=0"
-- category: "dev-libs"
-  name: "nspr"
-  version: ">=0"
-- category: "media-libs"
-  name: "libpng"
-  version: ">=0"
-- category: "media-libs"
-  name: "libsdl2"
-  version: ">=0"
-- category: "media-libs"
-  name: "libvorbis"
-  version: ">=0"
-- category: "media-libs"
-  name: "openal"
-  version: ">=0"
-- category: "net-libs"
-  name: "enet-1.3"
-  version: ">=0"
-- category: "net-libs"
-  name: "miniupnpc"
-  version: ">=0"
-- category: "net-misc"
-  name: "curl"
-  version: ">=0"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=0"
-- category: "x11-libs"
-  name: "libX11"
-  version: ">=0"
-- category: "x11-libs"
-  name: "libXcursor"
-  version: ">=0"
-- category: "x11-libs"
-  name: "wxGTK-3.0-gtk3"
-  version: ">=0"
-- category: "games-strategy"
-  name: "0ad-data"
-  version: ">=0.0.23b"
-license: "CC-BY-SA-3.0 GPL-2 LGPL-2.1 MIT ZLIB"
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: python-2.7
+  requires: null
+  version: '>=2.7.5'
+- Labels: null
+  category: net-libs
+  conflicts: null
+  id: 0
+  name: gloox
+  requires: null
+  version: '>=1.0.20'
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
+  name: boost
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
+  name: icu
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
+  name: libsodium
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
+  name: libxml2-2
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
+  name: nspr
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
+  name: libpng
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
+  name: libsdl2
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
+  name: libvorbis
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
+  name: openal
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: net-libs
+  conflicts: null
+  id: 0
+  name: enet-1.3
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: net-libs
+  conflicts: null
+  id: 0
+  name: miniupnpc
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: net-misc
+  conflicts: null
+  id: 0
+  name: curl
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
+  name: zlib
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
+  name: libX11
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
+  name: libXcursor
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: x11-libs
+  conflicts: null
+  id: 0
+  name: wxGTK-3.0-gtk3
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: games-strategy
+  conflicts: null
+  id: 0
+  name: 0ad-data
+  requires: null
+  version: '>=0.0.23b'
+use_flags:
+- -nvtt
+- abi_x86_64
+- split-usr
+- -pch
+- big-endian
+- lobby
+- amd64
+- editor
+- userland_GNU
+- kernel_linux
+- elibc_glibc
+- -test
+version: 0.0.23b+alpha.1

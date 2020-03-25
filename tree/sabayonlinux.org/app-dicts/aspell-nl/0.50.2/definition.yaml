@@ -1,8 +1,16 @@
+Labels: null
 category: app-dicts
+conflicts: null
+id: 0
+license: freedist
 name: aspell-nl
 requires:
-- category: app-text
+- Labels: null
+  category: app-text
+  conflicts: null
+  id: 0
   name: aspell
+  requires: null
   version: '>=0.50'
 use_flags:
 - amd64
@@ -10,5 +18,4 @@ use_flags:
 - elibc_glibc
 - multilib
 - userland_GNU
-version: 0.50.2+2
-license: "freedist"
+version: 0.50.2+3

@@ -1,11 +1,23 @@
+Labels: null
 category: sys-apps
+conflicts: null
+id: 0
+license: GPL-2
 name: pciutils
 requires:
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: hwids
+  requires: null
   version: '>=0'
-- category: sys-apps
+- Labels: null
+  category: sys-apps
+  conflicts: null
+  id: 0
   name: kmod
+  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -29,5 +41,4 @@ use_flags:
 - split-usr
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
-version: 3.6.4+3
-license: "GPL-2"
+version: 3.6.4+4

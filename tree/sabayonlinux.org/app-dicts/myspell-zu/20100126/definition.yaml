@@ -1,8 +1,16 @@
+Labels: null
 category: app-dicts
+conflicts: null
+id: 0
+license: LGPL-2.1
 name: myspell-zu
 requires:
-- category: app-arch
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
   name: unzip
+  requires: null
   version: '>=0'
 use_flags:
 - amd64
@@ -11,5 +19,4 @@ use_flags:
 - userland_GNU
 - elibc_glibc
 - kernel_linux
-version: 20100126+2
-license: "LGPL-2.1"
+version: 20100126+3

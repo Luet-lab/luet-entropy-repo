@@ -1,8 +1,16 @@
+Labels: null
 category: dev-perl
+conflicts: null
+id: 0
+license: Apache-2.0
 name: Capture-Tiny
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: perl
+  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU
@@ -14,5 +22,4 @@ use_flags:
 - elibc_glibc
 - -examples
 - kernel_linux
-version: 0.480.0+2
-license: "Apache-2.0"
+version: 0.480.0+3

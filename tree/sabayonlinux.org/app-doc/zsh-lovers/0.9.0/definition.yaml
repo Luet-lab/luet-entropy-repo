@@ -1,8 +1,16 @@
+Labels: null
 category: app-doc
+conflicts: null
+id: 0
+license: GPL-2
 name: zsh-lovers
 requires:
-- category: app-text
+- Labels: null
+  category: app-text
+  conflicts: null
+  id: 0
   name: asciidoc
+  requires: null
   version: '>=0'
 use_flags:
 - abi_x86_64
@@ -10,5 +18,4 @@ use_flags:
 - userland_GNU
 - amd64
 - kernel_linux
-version: 0.9.0+2
-license: "GPL-2"
+version: 0.9.0+3

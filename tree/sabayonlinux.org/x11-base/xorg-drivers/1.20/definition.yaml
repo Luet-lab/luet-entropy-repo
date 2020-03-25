@@ -1,20 +1,44 @@
+Labels: null
 category: x11-base
+conflicts: null
+id: 0
+license: metapackage
 name: xorg-drivers
 requires:
-- category: x11-drivers
+- Labels: null
+  category: x11-drivers
+  conflicts: null
+  id: 0
   name: xf86-input-evdev
+  requires: null
   version: '>=2.10.6'
-- category: x11-drivers
+- Labels: null
+  category: x11-drivers
+  conflicts: null
+  id: 0
   name: xf86-video-ati
+  requires: null
   version: '>=18.0.1'
-- category: x11-drivers
+- Labels: null
+  category: x11-drivers
+  conflicts: null
+  id: 0
   name: xf86-video-fbdev
+  requires: null
   version: '>=0.5.0'
-- category: x11-drivers
+- Labels: null
+  category: x11-drivers
+  conflicts: null
+  id: 0
   name: xf86-input-void
+  requires: null
   version: '>=0'
-- category: x11-drivers
+- Labels: null
+  category: x11-drivers
+  conflicts: null
+  id: 0
   name: xf86-video-vesa
+  requires: null
   version: '>=0'
 use_flags:
 - -input_devices_keyboard
@@ -60,5 +84,4 @@ use_flags:
 - amd64
 - -input_devices_synaptics
 - -video_cards_nvidia
-version: 1.20+r3
-license: "metapackage"
+version: 1.20+r4

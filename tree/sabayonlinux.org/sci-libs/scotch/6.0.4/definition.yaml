@@ -1,8 +1,16 @@
+Labels: null
 category: sci-libs
+conflicts: null
+id: 0
+license: CeCILL-2
 name: scotch
 requires:
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: zlib
+  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU
@@ -16,5 +24,4 @@ use_flags:
 - -int64
 - abi_x86_64
 - -mpi
-version: 6.0.4+r4
-license: "CeCILL-2"
+version: 6.0.4+r5

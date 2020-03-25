@@ -1,14 +1,30 @@
+Labels: null
 category: sys-devel
+conflicts: null
+id: 0
+license: GPL-2
 name: bison
 requires:
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: m4
+  requires: null
   version: '>=1.4.16'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: flex
+  requires: null
   version: '>=0'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: gettext
+  requires: null
   version: '>=0'
 use_flags:
 - -test
@@ -21,5 +37,4 @@ use_flags:
 - -static
 - -examples
 - abi_x86_64
-version: 3.1+2
-license: "GPL-2"
+version: 3.1+3

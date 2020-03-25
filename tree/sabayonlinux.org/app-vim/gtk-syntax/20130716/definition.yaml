@@ -1,8 +1,16 @@
+Labels: null
 category: app-vim
+conflicts: null
+id: 0
+license: vim
 name: gtk-syntax
 requires:
-- category: app-editors
+- Labels: null
+  category: app-editors
+  conflicts: null
+  id: 0
   name: gvim
+  requires: null
   version: '>=7.3'
 use_flags:
 - amd64
@@ -11,5 +19,4 @@ use_flags:
 - multilib
 - elibc_glibc
 - userland_GNU
-version: 20130716+2
-license: "vim"
+version: 20130716+3

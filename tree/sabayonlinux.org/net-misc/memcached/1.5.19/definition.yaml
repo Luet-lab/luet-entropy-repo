@@ -1,26 +1,58 @@
+Labels: null
 category: net-misc
+conflicts: null
+id: 0
+license: BSD
 name: memcached
 requires:
-- category: app-portage
+- Labels: null
+  category: app-portage
+  conflicts: null
+  id: 0
   name: elt-patches
+  requires: null
   version: '>=20170815'
-- category: dev-libs
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
   name: libevent
+  requires: null
   version: '>=1.4'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: autoconf-2.69
+  requires: null
   version: '>=2.69'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: automake-1.15
+  requires: null
   version: '>=1.15.1'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: libtool-2
+  requires: null
   version: '>=2.4'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: perl
+  requires: null
   version: '>=0'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: libseccomp
+  requires: null
   version: '>=0'
 use_flags:
 - -sasl
@@ -36,5 +68,4 @@ use_flags:
 - abi_x86_64
 - -slabs-reassign
 - kernel_linux
-version: 1.5.19+2
-license: "BSD"
+version: 1.5.19+3

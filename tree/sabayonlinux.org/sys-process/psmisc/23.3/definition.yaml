@@ -1,14 +1,30 @@
+Labels: null
 category: sys-process
+conflicts: null
+id: 0
+license: GPL-2
 name: psmisc
 requires:
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: libtool-2
+  requires: null
   version: '>=2.2.6b'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: ncurses
+  requires: null
   version: '>=5.7'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: gettext
+  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -22,5 +38,4 @@ use_flags:
 - ipv6
 - elibc_glibc
 - kernel_linux
-version: 23.3+r3
-license: "GPL-2"
+version: 23.3+r4

@@ -1,20 +1,44 @@
+Labels: null
 category: dev-libs
+conflicts: null
+id: 0
+license: BSD GPL-2
 name: libpwquality
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-exec-2
+  requires: null
   version: '>=2'
-- category: sys-devel
+- Labels: null
+  category: sys-devel
+  conflicts: null
+  id: 0
   name: gettext
+  requires: null
   version: '>=0.18.2'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: cracklib
+  requires: null
   version: '>=2.8'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: python-3.6
+  requires: null
   version: '>=0'
-- category: sys-libs
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
   name: pam
+  requires: null
   version: '>=0'
 use_flags:
 - kernel_linux
@@ -30,5 +54,4 @@ use_flags:
 - split-usr
 - pam
 - amd64
-version: 1.4.2+2
-license: "BSD GPL-2"
+version: 1.4.2+3

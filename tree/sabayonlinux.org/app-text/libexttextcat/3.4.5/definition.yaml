@@ -1,14 +1,16 @@
-
-category: "app-text"
-name: "libexttextcat"
-version: "3.4.5"
-
+Labels: null
+category: app-text
+conflicts: null
+id: 0
+license: BSD-2
+name: libexttextcat
+requires: null
 use_flags:
-- "big-endian"
-- "elibc_glibc"
-- "abi_x86_64"
-- "amd64"
-- "-static-libs"
-- "userland_GNU"
-- "kernel_linux"
-license: "BSD-2"
+- big-endian
+- elibc_glibc
+- abi_x86_64
+- amd64
+- -static-libs
+- userland_GNU
+- kernel_linux
+version: 3.4.5+1

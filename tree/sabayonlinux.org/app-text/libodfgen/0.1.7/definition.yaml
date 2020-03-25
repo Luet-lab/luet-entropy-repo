@@ -1,18 +1,23 @@
-
-category: "app-text"
-name: "libodfgen"
-version: "0.1.7"
-
-use_flags:
-- "big-endian"
-- "elibc_glibc"
-- "abi_x86_64"
-- "amd64"
-- "userland_GNU"
-- "-doc"
-- "kernel_linux"
+Labels: null
+category: app-text
+conflicts: null
+id: 0
+license: LGPL-2.1 MPL-2.0
+name: libodfgen
 requires:
-- category: "dev-libs"
-  name: "librevenge"
-  version: ">=0"
-license: "LGPL-2.1 MPL-2.0"
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
+  name: librevenge
+  requires: null
+  version: '>=0'
+use_flags:
+- big-endian
+- elibc_glibc
+- abi_x86_64
+- amd64
+- userland_GNU
+- -doc
+- kernel_linux
+version: 0.1.7+1

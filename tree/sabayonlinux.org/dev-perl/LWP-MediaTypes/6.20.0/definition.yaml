@@ -1,8 +1,16 @@
+Labels: null
 category: dev-perl
+conflicts: null
+id: 0
+license: Artistic GPL-1+
 name: LWP-MediaTypes
 requires:
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: perl
+  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc
@@ -12,5 +20,4 @@ use_flags:
 - big-endian
 - split-usr
 - kernel_linux
-version: 6.20.0+r3
-license: "Artistic GPL-1+"
+version: 6.20.0+r4

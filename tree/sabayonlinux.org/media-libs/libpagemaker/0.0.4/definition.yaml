@@ -1,23 +1,32 @@
-
-category: "media-libs"
-name: "libpagemaker"
-version: "0.0.4"
-
-use_flags:
-- "big-endian"
-- "amd64"
-- "-debug"
-- "-doc"
-- "kernel_linux"
-- "elibc_glibc"
-- "abi_x86_64"
-- "-tools"
-- "userland_GNU"
+Labels: null
+category: media-libs
+conflicts: null
+id: 0
+license: MPL-2.0
+name: libpagemaker
 requires:
-- category: "dev-libs"
-  name: "boost"
-  version: ">=0"
-- category: "dev-libs"
-  name: "librevenge"
-  version: ">=0"
-license: "MPL-2.0"
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
+  name: boost
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
+  name: librevenge
+  requires: null
+  version: '>=0'
+use_flags:
+- big-endian
+- amd64
+- -debug
+- -doc
+- kernel_linux
+- elibc_glibc
+- abi_x86_64
+- -tools
+- userland_GNU
+version: 0.0.4+1

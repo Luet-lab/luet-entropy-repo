@@ -1,150 +1,243 @@
-
-category: "media-libs"
-name: "opencv"
-version: "4.1.2+r3"
-
-use_flags:
-- "-glog"
-- "-gdal"
-- "-gstreamer"
-- "gphoto2"
-- "-dnnsamples"
-- "big-endian"
-- "-vaapi"
-- "-testprograms"
-- "ieee1394"
-- "-vtk"
-- "-tesseract"
-- "-cpu_flags_x86_sse3"
-- "-cpu_flags_x86_sse4_1"
-- "-gflags"
-- "contrib"
-- "qt5"
-- "split-usr"
-- "cpu_flags_x86_sse2"
-- "ffmpeg"
-- "-abi_riscv_lp64d"
-- "tiff"
-- "-cpu_flags_x86_sse4_2"
-- "-opencl"
-- "eigen"
-- "-opencvapps"
-- "-python_targets_python3_7"
-- "-libav"
-- "-abi_x86_x32"
-- "-abi_s390_32"
-- "-contribdnn"
-- "cpu_flags_x86_sse"
-- "python"
-- "-download"
-- "amd64"
-- "-pch"
-- "-threads"
-- "kernel_linux"
-- "-debug"
-- "-contribxfeatures2d"
-- "-jpeg2k"
-- "-cpu_flags_x86_fma3"
-- "-cuda"
-- "jpeg"
-- "features2d"
-- "-contribhdf"
-- "-webp"
-- "-examples"
-- "-java"
-- "-cpu_flags_x86_avx2"
-- "-elibc_FreeBSD"
-- "abi_x86_64"
-- "opengl"
-- "v4l"
-- "-abi_s390_64"
-- "-contribcvv"
-- "openmp"
-- "-abi_riscv_lp64"
-- "-cpu_flags_x86_popcnt"
-- "userland_GNU"
-- "-abi_mips_n32"
-- "-contribsfm"
-- "-abi_mips_n64"
-- "-cpu_flags_x86_avx"
-- "-gtk3"
-- "png"
-- "-abi_mips_o32"
-- "elibc_glibc"
-- "-lapack"
-- "abi_x86_32"
-- "openexr"
-- "python_targets_python3_6"
-- "-cpu_flags_x86_ssse3"
-- "xine"
+Labels: null
+category: media-libs
+conflicts: null
+id: 0
+license: BSD
+name: opencv
 requires:
-- category: "dev-lang"
-  name: "python-exec-2"
-  version: ">=2"
-- category: "dev-util"
-  name: "cmake"
-  version: ">=3.9.6"
-- category: "media-libs"
-  name: "libv4l"
-  version: ">=0.8.3"
-- category: "app-arch"
-  name: "bzip2"
-  version: ">=0"
-- category: "dev-cpp"
-  name: "eigen-3"
-  version: ">=0"
-- category: "dev-lang"
-  name: "python-3.6"
-  version: ">=0"
-- category: "dev-libs"
-  name: "protobuf"
-  version: ">=0"
-- category: "dev-python"
-  name: "numpy"
-  version: ">=0"
-- category: "dev-qt"
-  name: "qtconcurrent-5"
-  version: ">=0"
-- category: "dev-qt"
-  name: "qtgui-5"
-  version: ">=0"
-- category: "dev-qt"
-  name: "qtopengl-5"
-  version: ">=0"
-- category: "dev-qt"
-  name: "qttest-5"
-  version: ">=0"
-- category: "dev-qt"
-  name: "qtwidgets-5"
-  version: ">=0"
-- category: "dev-util"
-  name: "ninja"
-  version: ">=0"
-- category: "media-libs"
-  name: "libdc1394-2"
-  version: ">=0"
-- category: "media-libs"
-  name: "libgphoto2"
-  version: ">=0"
-- category: "media-libs"
-  name: "libpng"
-  version: ">=0"
-- category: "media-libs"
-  name: "openexr"
-  version: ">=0"
-- category: "media-libs"
-  name: "tiff"
-  version: ">=0"
-- category: "media-libs"
-  name: "xine-lib-1"
-  version: ">=0"
-- category: "media-video"
-  name: "ffmpeg"
-  version: ">=0"
-- category: "sys-libs"
-  name: "libraw1394"
-  version: ">=0"
-- category: "sys-libs"
-  name: "zlib"
-  version: ">=0"
-license: "BSD"
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: python-exec-2
+  requires: null
+  version: '>=2'
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
+  name: cmake
+  requires: null
+  version: '>=3.9.6'
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
+  name: libv4l
+  requires: null
+  version: '>=0.8.3'
+- Labels: null
+  category: app-arch
+  conflicts: null
+  id: 0
+  name: bzip2
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-cpp
+  conflicts: null
+  id: 0
+  name: eigen-3
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
+  name: python-3.6
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-libs
+  conflicts: null
+  id: 0
+  name: protobuf
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-python
+  conflicts: null
+  id: 0
+  name: numpy
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-qt
+  conflicts: null
+  id: 0
+  name: qtconcurrent-5
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-qt
+  conflicts: null
+  id: 0
+  name: qtgui-5
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-qt
+  conflicts: null
+  id: 0
+  name: qtopengl-5
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-qt
+  conflicts: null
+  id: 0
+  name: qttest-5
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-qt
+  conflicts: null
+  id: 0
+  name: qtwidgets-5
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: dev-util
+  conflicts: null
+  id: 0
+  name: ninja
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
+  name: libdc1394-2
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
+  name: libgphoto2
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
+  name: libpng
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
+  name: openexr
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
+  name: tiff
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: media-libs
+  conflicts: null
+  id: 0
+  name: xine-lib-1
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: media-video
+  conflicts: null
+  id: 0
+  name: ffmpeg
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
+  name: libraw1394
+  requires: null
+  version: '>=0'
+- Labels: null
+  category: sys-libs
+  conflicts: null
+  id: 0
+  name: zlib
+  requires: null
+  version: '>=0'
+use_flags:
+- -glog
+- -gdal
+- -gstreamer
+- gphoto2
+- -dnnsamples
+- big-endian
+- -vaapi
+- -testprograms
+- ieee1394
+- -vtk
+- -tesseract
+- -cpu_flags_x86_sse3
+- -cpu_flags_x86_sse4_1
+- -gflags
+- contrib
+- qt5
+- split-usr
+- cpu_flags_x86_sse2
+- ffmpeg
+- -abi_riscv_lp64d
+- tiff
+- -cpu_flags_x86_sse4_2
+- -opencl
+- eigen
+- -opencvapps
+- -python_targets_python3_7
+- -libav
+- -abi_x86_x32
+- -abi_s390_32
+- -contribdnn
+- cpu_flags_x86_sse
+- python
+- -download
+- amd64
+- -pch
+- -threads
+- kernel_linux
+- -debug
+- -contribxfeatures2d
+- -jpeg2k
+- -cpu_flags_x86_fma3
+- -cuda
+- jpeg
+- features2d
+- -contribhdf
+- -webp
+- -examples
+- -java
+- -cpu_flags_x86_avx2
+- -elibc_FreeBSD
+- abi_x86_64
+- opengl
+- v4l
+- -abi_s390_64
+- -contribcvv
+- openmp
+- -abi_riscv_lp64
+- -cpu_flags_x86_popcnt
+- userland_GNU
+- -abi_mips_n32
+- -contribsfm
+- -abi_mips_n64
+- -cpu_flags_x86_avx
+- -gtk3
+- png
+- -abi_mips_o32
+- elibc_glibc
+- -lapack
+- abi_x86_32
+- openexr
+- python_targets_python3_6
+- -cpu_flags_x86_ssse3
+- xine
+version: 4.1.2+r4

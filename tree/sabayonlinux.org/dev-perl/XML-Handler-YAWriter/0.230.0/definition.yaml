@@ -1,11 +1,23 @@
+Labels: null
 category: dev-perl
+conflicts: null
+id: 0
+license: GPL-2
 name: XML-Handler-YAWriter
 requires:
-- category: dev-perl
+- Labels: null
+  category: dev-perl
+  conflicts: null
+  id: 0
   name: libxml-perl
+  requires: null
   version: '>=0.07'
-- category: dev-lang
+- Labels: null
+  category: dev-lang
+  conflicts: null
+  id: 0
   name: perl
+  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc
@@ -15,5 +27,4 @@ use_flags:
 - kernel_linux
 - amd64
 - split-usr
-version: 0.230.0+r4
-license: "GPL-2"
+version: 0.230.0+r5
