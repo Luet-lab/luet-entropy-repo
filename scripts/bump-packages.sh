@@ -26,7 +26,7 @@ process_package () {
   local version=$(pkgs-checker pkg info $pkg | grep "version:" --color=none | awk '{ print $2 }')
   local ver_suffix=$(pkgs-checker pkg info $pkg | grep "version_suffix" --color=none | awk '{ print $2 }')
   local ver_build=$(pkgs-checker pkg info $pkg | grep "version_build" --color=none | awk '{ print $2 }')
-  local licence=$(pkgs-checker entropy info $pkg -d ${ENTROPY_DB} | grep "license:" --color=none | awk '{ print $2 }')
+  local license=$(pkgs-checker entropy info $pkg -d ${ENTROPY_DB} | grep "license:" --color=none | sed -e 's|license: ||g')
   local uses=$(pkgs-checker entropy info $pkg -d ${ENTROPY_DB} | grep "uses" --color=none | sed -e 's|^uses: ||g')
 
   ver_suffix=${ver_suffix/-}
@@ -112,10 +112,9 @@ license: \"${license}\"
 
   # we need unpack: tree because also if package is reinstalled container has same files.
   echo "
-steps:
-- source /etc/profile && equo up
-- source /etc/profile && ACCEPT_LICENSE=* equo i ${pkg}
 unpack: true
+steps:
+- source /etc/profile && ACCEPT_LICENSE=* equo i ${pkg} && equo cleanup
 requires:
 - category: \"layer\"
   name: \"sabayon-base\"
