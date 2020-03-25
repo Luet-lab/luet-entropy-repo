@@ -1,0 +1,34 @@
+
+unpack: true
+steps:
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-editors/vim-8.2.0360 && equo cleanup
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/rview$
+- /usr/bin/rvim$
+- /usr/bin/vim$
+- /usr/bin/vimdiff$
+- /usr/bin/vimmanpager$
+- /usr/bin/vimpager$
+- /usr/lib$
+- /usr/share$
+- /usr/share/applications$
+- /usr/share/applications/vim.desktop$
+- /usr/share/bash-completion$
+- /usr/share/bash-completion/completions$
+- /usr/share/bash-completion/completions/ex$
+- /usr/share/bash-completion/completions/rview$
+- /usr/share/bash-completion/completions/rvim$
+- /usr/share/bash-completion/completions/vi$
+- /usr/share/bash-completion/completions/view$
+- /usr/share/bash-completion/completions/vim$
+- /usr/share/bash-completion/completions/vimdiff$
+- /usr/share/vim$
+- /usr/share/vim/vim82$
+- /usr/share/vim/vim82/macros$
+- /usr/share/vim/vim82/macros/manpager.sh$

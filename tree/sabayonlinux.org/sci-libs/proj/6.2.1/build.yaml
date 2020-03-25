@@ -1,0 +1,97 @@
+
+unpack: true
+steps:
+- source /etc/profile && ACCEPT_LICENSE=* equo i sci-libs/proj-6.2.1 && equo cleanup
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/cct$
+- /usr/bin/cs2cs$
+- /usr/bin/geod$
+- /usr/bin/gie$
+- /usr/bin/invgeod$
+- /usr/bin/invproj$
+- /usr/bin/proj$
+- /usr/bin/projinfo$
+- /usr/include$
+- /usr/include/geodesic.h$
+- /usr/include/org_proj4_PJ.h$
+- /usr/include/proj$
+- /usr/include/proj.h$
+- /usr/include/proj/common.hpp$
+- /usr/include/proj/coordinateoperation.hpp$
+- /usr/include/proj/coordinatesystem.hpp$
+- /usr/include/proj/crs.hpp$
+- /usr/include/proj/datum.hpp$
+- /usr/include/proj/io.hpp$
+- /usr/include/proj/metadata.hpp$
+- /usr/include/proj/nn.hpp$
+- /usr/include/proj/util.hpp$
+- /usr/include/proj_api.h$
+- /usr/include/proj_constants.h$
+- /usr/include/proj_experimental.h$
+- /usr/include/proj_json_streaming_writer.hpp$
+- /usr/include/proj_symbol_rename.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libproj.so$
+- /usr/lib64/libproj.so.15$
+- /usr/lib64/libproj.so.15.2.1$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/proj.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/proj-6.2.1$
+- /usr/share/doc/proj-6.2.1/AUTHORS.bz2$
+- /usr/share/doc/proj-6.2.1/ChangeLog.bz2$
+- /usr/share/doc/proj-6.2.1/NEWS.bz2$
+- /usr/share/doc/proj-6.2.1/README.DATA.bz2$
+- /usr/share/doc/proj-6.2.1/README.DATUMGRID.bz2$
+- /usr/share/doc/proj-6.2.1/README.bz2$
+- /usr/share/doc/proj-6.2.1/README.md.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/cct.1.bz2$
+- /usr/share/man/man1/cs2cs.1.bz2$
+- /usr/share/man/man1/geod.1.bz2$
+- /usr/share/man/man1/gie.1.bz2$
+- /usr/share/man/man1/proj.1.bz2$
+- /usr/share/man/man1/projinfo.1.bz2$
+- /usr/share/man/man3$
+- /usr/share/man/man3/geodesic.3.bz2$
+- /usr/share/man/man3/pj_init.3.bz2$
+- /usr/share/proj$
+- /usr/share/proj/BETA2007.gsb$
+- /usr/share/proj/CH$
+- /usr/share/proj/FL$
+- /usr/share/proj/GL27$
+- /usr/share/proj/ITRF2000$
+- /usr/share/proj/ITRF2008$
+- /usr/share/proj/ITRF2014$
+- /usr/share/proj/MD$
+- /usr/share/proj/TN$
+- /usr/share/proj/WI$
+- /usr/share/proj/WO$
+- /usr/share/proj/alaska$
+- /usr/share/proj/conus$
+- /usr/share/proj/egm96_15.gtx$
+- /usr/share/proj/hawaii$
+- /usr/share/proj/nad.lst$
+- /usr/share/proj/nad27$
+- /usr/share/proj/nad83$
+- /usr/share/proj/ntf_r93.gsb$
+- /usr/share/proj/ntv1_can.dat$
+- /usr/share/proj/null$
+- /usr/share/proj/nzgd2kgrid0005.gsb$
+- /usr/share/proj/other.extra$
+- /usr/share/proj/proj.db$
+- /usr/share/proj/projjson.schema.json$
+- /usr/share/proj/prvi$
+- /usr/share/proj/stgeorge$
+- /usr/share/proj/stlrnc$
+- /usr/share/proj/stpaul$
+- /usr/share/proj/world$

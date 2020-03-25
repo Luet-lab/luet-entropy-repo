@@ -1,0 +1,18 @@
+
+category: "perl-core"
+name: "File-Temp"
+version: "0.230.900"
+license: "Artistic GPL-1+"
+
+use_flags:
+- "split-usr"
+- "big-endian"
+- "amd64"
+- "elibc_glibc"
+- "kernel_linux"
+- "abi_x86_64"
+- "userland_GNU"
+requires:
+- category: "dev-lang"
+  name: "perl"
+  version: ">=0"

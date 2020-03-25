@@ -1,0 +1,17 @@
+
+category: "sci-libs"
+name: "geos"
+version: "3.8.0+r1"
+license: "LGPL-2.1"
+
+use_flags:
+- "-static-libs"
+- "-ruby"
+- "elibc_glibc"
+- "abi_x86_64"
+- "userland_GNU"
+- "split-usr"
+- "-doc"
+- "amd64"
+- "kernel_linux"
+- "big-endian"

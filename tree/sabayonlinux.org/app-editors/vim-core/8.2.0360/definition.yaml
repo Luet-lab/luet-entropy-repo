@@ -1,0 +1,24 @@
+
+category: "app-editors"
+name: "vim-core"
+version: "8.2.0360"
+license: "vim"
+
+use_flags:
+- "-minimal"
+- "nls"
+- "elibc_glibc"
+- "abi_x86_64"
+- "userland_GNU"
+- "split-usr"
+- "amd64"
+- "acl"
+- "kernel_linux"
+- "big-endian"
+requires:
+- category: "app-vim"
+  name: "gentoo-syntax"
+  version: ">=0"
+- category: "sys-devel"
+  name: "autoconf-2.69"
+  version: ">=0"

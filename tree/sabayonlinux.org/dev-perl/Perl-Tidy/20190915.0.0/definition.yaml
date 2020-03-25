@@ -1,0 +1,19 @@
+
+category: "dev-perl"
+name: "Perl-Tidy"
+version: "20190915.0.0"
+license: "GPL-2+"
+
+use_flags:
+- "elibc_glibc"
+- "split-usr"
+- "abi_x86_64"
+- "userland_GNU"
+- "-examples"
+- "amd64"
+- "kernel_linux"
+- "big-endian"
+requires:
+- category: "dev-lang"
+  name: "perl"
+  version: ">=0"
