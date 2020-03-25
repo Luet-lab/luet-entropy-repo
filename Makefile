@@ -53,8 +53,10 @@ create-repo:
     --descr "Luet Entropy Repo" \
     --urls "http://localhost:8000" \
     --tree-compression gzip \
-    --tree-path tree.tar \
-    --type http
+    --tree-filename tree.tar \
+    --meta-compression gzip \
+    --type http \
+
 
 .PHONY: serve-repo
 serve-repo:
