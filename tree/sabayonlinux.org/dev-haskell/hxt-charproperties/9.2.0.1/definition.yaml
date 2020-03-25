@@ -2,7 +2,6 @@
 category: "dev-haskell"
 name: "hxt-charproperties"
 version: "9.2.0.1"
-license: ""
 
 use_flags:
 - "big-endian"
@@ -21,3 +20,4 @@ requires:
 - category: "dev-lang"
   name: "ghc"
   version: ">=7.4.1"
+license: "MIT"

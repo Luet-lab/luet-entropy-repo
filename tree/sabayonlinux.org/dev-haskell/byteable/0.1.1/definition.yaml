@@ -2,7 +2,6 @@
 category: "dev-haskell"
 name: "byteable"
 version: "0.1.1"
-license: ""
 
 use_flags:
 - "-doc"
@@ -21,3 +20,4 @@ requires:
 - category: "dev-lang"
   name: "ghc"
   version: ">=6.10.4"
+license: "BSD"

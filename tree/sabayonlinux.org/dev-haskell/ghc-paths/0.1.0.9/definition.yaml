@@ -2,7 +2,6 @@
 category: "dev-haskell"
 name: "ghc-paths"
 version: "0.1.0.9"
-license: ""
 
 use_flags:
 - "amd64"
@@ -19,3 +18,4 @@ requires:
 - category: "dev-lang"
   name: "ghc"
   version: ">=6.8.2"
+license: "BSD"

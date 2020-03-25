@@ -2,7 +2,6 @@
 category: "gnome-extra"
 name: "sushi"
 version: "3.32.1"
-license: ""
 
 use_flags:
 - "abi_x86_64"
@@ -86,3 +85,4 @@ requires:
 - category: "x11-misc"
   name: "shared-mime-info"
   version: ">=0"
+license: "GPL-2+"

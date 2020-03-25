@@ -2,7 +2,6 @@
 category: "dev-haskell"
 name: "pandoc-types"
 version: "1.17.0.4"
-license: ""
 
 use_flags:
 - "big-endian"
@@ -40,3 +39,4 @@ requires:
 - category: "dev-lang"
   name: "ghc"
   version: ">=7.4.1"
+license: "BSD"

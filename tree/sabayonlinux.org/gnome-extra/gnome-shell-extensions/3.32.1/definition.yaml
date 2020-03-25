@@ -2,7 +2,6 @@
 category: "gnome-extra"
 name: "gnome-shell-extensions"
 version: "3.32.1"
-license: ""
 
 use_flags:
 - "abi_x86_64"
@@ -80,3 +79,4 @@ requires:
 - category: "x11-themes"
   name: "adwaita-icon-theme"
   version: ">=0"
+license: "GPL-2+"

@@ -2,7 +2,6 @@
 category: "dev-haskell"
 name: "optparse-applicative"
 version: "0.14.2.0"
-license: ""
 
 use_flags:
 - "elibc_glibc"
@@ -46,3 +45,4 @@ requires:
 - category: "dev-lang"
   name: "ghc"
   version: ">=7.8.2"
+license: "BSD"

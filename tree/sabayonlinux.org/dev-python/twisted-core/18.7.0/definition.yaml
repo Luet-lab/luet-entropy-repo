@@ -2,7 +2,6 @@
 category: "dev-python"
 name: "twisted-core"
 version: "18.7.0"
-license: ""
 
 use_flags:
 - "python_targets_python3_6"
@@ -86,3 +85,4 @@ requires:
 - category: "dev-python"
   name: "soappy"
   version: ">=0"
+license: "MIT"

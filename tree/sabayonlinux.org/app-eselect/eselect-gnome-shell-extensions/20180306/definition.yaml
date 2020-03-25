@@ -2,7 +2,6 @@
 category: "app-eselect"
 name: "eselect-gnome-shell-extensions"
 version: "20180306"
-license: ""
 
 use_flags:
 - "abi_x86_64"
@@ -33,3 +32,4 @@ requires:
 - category: "gnome-base"
   name: "gsettings-desktop-schemas"
   version: ">=0"
+license: "GPL-2+"

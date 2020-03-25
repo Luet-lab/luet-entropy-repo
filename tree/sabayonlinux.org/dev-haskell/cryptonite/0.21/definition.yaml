@@ -2,7 +2,6 @@
 category: "dev-haskell"
 name: "cryptonite"
 version: "0.21"
-license: ""
 
 use_flags:
 - "amd64"
@@ -31,3 +30,4 @@ requires:
 - category: "dev-lang"
   name: "ghc"
   version: ">=7.4.1"
+license: "BSD"

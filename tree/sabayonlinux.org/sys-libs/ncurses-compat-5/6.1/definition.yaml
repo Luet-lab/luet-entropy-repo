@@ -2,7 +2,6 @@
 category: "sys-libs"
 name: "ncurses-compat-5"
 version: "6.1+p20190609"
-license: ""
 
 use_flags:
 - "unicode"
@@ -28,3 +27,4 @@ requires:
 - category: "sys-libs"
   name: "gpm"
   version: ">=0"
+license: "MIT"

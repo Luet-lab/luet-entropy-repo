@@ -2,7 +2,6 @@
 category: "x11-libs"
 name: "libva-intel-driver"
 version: "2.4.0+pre1"
-license: ""
 
 use_flags:
 - "big-endian"
@@ -48,3 +47,4 @@ requires:
 - category: "x11-libs"
   name: "libva"
   version: ">=2.4.0"
+license: "MIT"

@@ -2,7 +2,6 @@
 category: "dev-libs"
 name: "libnl-3"
 version: "3.5.0"
-license: ""
 
 use_flags:
 - "-python_targets_python3_7"
@@ -48,3 +47,4 @@ requires:
 - category: "sys-devel"
   name: "flex"
   version: ">=0"
+license: "GPL-2 LGPL-2.1"

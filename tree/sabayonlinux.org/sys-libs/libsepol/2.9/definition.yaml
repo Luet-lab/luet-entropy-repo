@@ -2,7 +2,6 @@
 category: "sys-libs"
 name: "libsepol"
 version: "2.9"
-license: ""
 
 use_flags:
 - "big-endian"
@@ -21,3 +20,4 @@ use_flags:
 - "split-usr"
 - "-abi_riscv_lp64"
 - "userland_GNU"
+license: "GPL-2"

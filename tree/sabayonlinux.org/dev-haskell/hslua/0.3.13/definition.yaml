@@ -2,7 +2,6 @@
 category: "dev-haskell"
 name: "hslua"
 version: "0.3.13"
-license: ""
 
 use_flags:
 - "userland_GNU"
@@ -27,3 +26,4 @@ requires:
 - category: "dev-lang"
   name: "ghc"
   version: ">=7.4.1"
+license: "MIT"

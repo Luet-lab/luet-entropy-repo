@@ -2,7 +2,6 @@
 category: "dev-haskell"
 name: "fgl"
 version: "5.5.3.0"
-license: ""
 
 use_flags:
 - "elibc_glibc"
@@ -25,3 +24,4 @@ requires:
 - category: "dev-haskell"
   name: "transformers"
   version: ">=0"
+license: "BSD"

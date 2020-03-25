@@ -2,7 +2,6 @@
 category: "dev-haskell"
 name: "cabal"
 version: "1.24.2.0"
-license: ""
 
 use_flags:
 - "big-endian"
@@ -17,3 +16,4 @@ requires:
 - category: "dev-lang"
   name: "ghc"
   version: ">=7.8.1"
+license: "BSD"

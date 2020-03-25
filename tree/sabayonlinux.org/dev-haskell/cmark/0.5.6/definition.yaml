@@ -2,7 +2,6 @@
 category: "dev-haskell"
 name: "cmark"
 version: "0.5.6"
-license: ""
 
 use_flags:
 - "big-endian"
@@ -33,3 +32,4 @@ requires:
 - category: "app-text"
   name: "cmark"
   version: ">=0"
+license: "BSD"

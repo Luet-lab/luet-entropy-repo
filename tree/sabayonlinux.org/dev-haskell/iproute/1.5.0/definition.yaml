@@ -2,7 +2,6 @@
 category: "dev-haskell"
 name: "iproute"
 version: "1.5.0"
-license: ""
 
 use_flags:
 - "userland_GNU"
@@ -31,3 +30,4 @@ requires:
 - category: "dev-haskell"
   name: "network"
   version: ">=0"
+license: "BSD"

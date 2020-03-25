@@ -2,7 +2,6 @@
 category: "app-text"
 name: "libepubgen"
 version: "0.1.1"
-license: ""
 
 use_flags:
 - "big-endian"
@@ -21,3 +20,4 @@ requires:
 - category: "dev-libs"
   name: "librevenge"
   version: ">=0"
+license: "MPL-2.0"

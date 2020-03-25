@@ -2,7 +2,6 @@
 category: "app-text"
 name: "libexttextcat"
 version: "3.4.5"
-license: ""
 
 use_flags:
 - "big-endian"
@@ -12,3 +11,4 @@ use_flags:
 - "-static-libs"
 - "userland_GNU"
 - "kernel_linux"
+license: "BSD-2"

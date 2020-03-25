@@ -2,7 +2,6 @@
 category: "dev-haskell"
 name: "blaze-builder"
 version: "0.4.0.2"
-license: ""
 
 use_flags:
 - "userland_GNU"
@@ -31,3 +30,4 @@ requires:
 - category: "dev-haskell"
   name: "bytestring-builder"
   version: ">=0"
+license: "BSD"

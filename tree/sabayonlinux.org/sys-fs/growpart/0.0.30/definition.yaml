@@ -2,7 +2,6 @@
 category: "sys-fs"
 name: "growpart"
 version: "0.0.30"
-license: ""
 
 use_flags:
 - "big-endian"
@@ -15,3 +14,4 @@ requires:
 - category: "sys-apps"
   name: "gptfdisk"
   version: ">=0"
+license: "GPL-3"

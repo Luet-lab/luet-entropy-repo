@@ -2,7 +2,6 @@
 category: "dev-util"
 name: "cbindgen"
 version: "0.13.1"
-license: ""
 
 use_flags:
 - "big-endian"
@@ -13,3 +12,4 @@ use_flags:
 - "userland_GNU"
 - "kernel_linux"
 - "-debug"
+license: "MIT MPL-2.0"

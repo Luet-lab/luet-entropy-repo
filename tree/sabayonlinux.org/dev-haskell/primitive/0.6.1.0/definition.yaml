@@ -2,7 +2,6 @@
 category: "dev-haskell"
 name: "primitive"
 version: "0.6.1.0+r1"
-license: ""
 
 use_flags:
 - "-doc"
@@ -25,3 +24,4 @@ requires:
 - category: "dev-lang"
   name: "ghc"
   version: ">=7.4.1"
+license: "BSD"

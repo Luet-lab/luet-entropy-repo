@@ -2,7 +2,6 @@
 category: "dev-dotnet"
 name: "libgdiplus"
 version: "6.0.2"
-license: ""
 
 use_flags:
 - "big-endian"
@@ -53,3 +52,4 @@ requires:
 - category: "x11-libs"
   name: "pango"
   version: ">=0"
+license: "MIT"

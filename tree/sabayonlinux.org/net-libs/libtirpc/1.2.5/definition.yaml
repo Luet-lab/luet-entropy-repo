@@ -2,7 +2,6 @@
 category: "net-libs"
 name: "libtirpc"
 version: "1.2.5"
-license: ""
 
 use_flags:
 - "big-endian"
@@ -40,3 +39,4 @@ requires:
 - category: "app-arch"
   name: "xz-utils"
   version: ">=0"
+license: "GPL-2"

@@ -2,7 +2,6 @@
 category: "dev-libs"
 name: "sord"
 version: "0.16.4"
-license: ""
 
 use_flags:
 - "big-endian"
@@ -34,3 +33,4 @@ requires:
 - category: "dev-libs"
   name: "libpcre-3"
   version: ">=0"
+license: "ISC"

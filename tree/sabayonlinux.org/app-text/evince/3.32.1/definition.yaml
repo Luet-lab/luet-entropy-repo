@@ -2,7 +2,6 @@
 category: "app-text"
 name: "evince"
 version: "3.32.1"
-license: ""
 
 use_flags:
 - "introspection"
@@ -134,3 +133,4 @@ requires:
 - category: "x11-misc"
   name: "shared-mime-info"
   version: ">=0"
+license: "CC-BY-SA-3.0 GPL-2+"

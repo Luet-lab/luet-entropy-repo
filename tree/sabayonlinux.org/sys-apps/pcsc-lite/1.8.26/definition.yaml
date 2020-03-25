@@ -2,7 +2,6 @@
 category: "sys-apps"
 name: "pcsc-lite"
 version: "1.8.26"
-license: ""
 
 use_flags:
 - "big-endian"
@@ -49,3 +48,4 @@ requires:
 - category: "dev-lang"
   name: "python-3.6"
   version: ">=0"
+license: "BSD GPL-2 GPL-3+ ISC MIT"

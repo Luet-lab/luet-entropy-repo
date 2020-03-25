@@ -2,7 +2,6 @@
 category: "media-libs"
 name: "libfreehand"
 version: "0.1.2"
-license: ""
 
 use_flags:
 - "big-endian"
@@ -33,3 +32,4 @@ requires:
 - category: "sys-libs"
   name: "zlib"
   version: ">=0"
+license: "MPL-2.0"

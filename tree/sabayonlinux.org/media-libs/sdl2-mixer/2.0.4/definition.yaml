@@ -2,7 +2,6 @@
 category: "media-libs"
 name: "sdl2-mixer"
 version: "2.0.4"
-license: ""
 
 use_flags:
 - "-abi_x86_x32"
@@ -58,3 +57,4 @@ requires:
 - category: "media-sound"
   name: "timidity++"
   version: ">=0"
+license: "ZLIB"

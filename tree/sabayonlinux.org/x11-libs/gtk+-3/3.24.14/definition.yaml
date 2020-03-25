@@ -2,7 +2,6 @@
 category: "x11-libs"
 name: "gtk+-3"
 version: "3.24.14"
-license: ""
 
 use_flags:
 - "-examples"
@@ -167,3 +166,4 @@ requires:
 - category: "x11-misc"
   name: "shared-mime-info"
   version: ">=0"
+license: "LGPL-2+"

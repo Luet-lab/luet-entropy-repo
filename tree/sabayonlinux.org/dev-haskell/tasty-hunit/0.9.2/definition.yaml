@@ -2,7 +2,6 @@
 category: "dev-haskell"
 name: "tasty-hunit"
 version: "0.9.2"
-license: ""
 
 use_flags:
 - "big-endian"
@@ -24,3 +23,4 @@ requires:
 - category: "dev-lang"
   name: "ghc"
   version: ">=7.4.1"
+license: "MIT"

@@ -2,7 +2,6 @@
 category: "app-text"
 name: "libetonyek"
 version: "0.1.9"
-license: ""
 
 use_flags:
 - "big-endian"
@@ -39,3 +38,4 @@ requires:
 - category: "sys-libs"
   name: "zlib"
   version: ">=0"
+license: "GPL-2+ LGPL-2.1 MPL-1.1"

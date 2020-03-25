@@ -2,7 +2,6 @@
 category: "dev-haskell"
 name: "unix-compat"
 version: "0.4.3.1"
-license: ""
 
 use_flags:
 - "elibc_glibc"
@@ -22,3 +21,4 @@ requires:
 - category: "dev-lang"
   name: "ghc"
   version: ">=7.4.1"
+license: "BSD"

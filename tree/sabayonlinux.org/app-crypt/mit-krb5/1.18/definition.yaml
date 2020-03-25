@@ -2,7 +2,6 @@
 category: "app-crypt"
 name: "mit-krb5"
 version: "1.18"
-license: ""
 
 use_flags:
 - "-abi_riscv_lp64"
@@ -67,3 +66,4 @@ requires:
 - category: "sys-devel"
   name: "gettext"
   version: ">=0"
+license: "BSD BSD-2 BSD-4 CC-BY-SA-3.0 GPL-2+ HPND ISC MIT OPENLDAP RSA openafs-krb5-a"

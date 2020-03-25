@@ -2,7 +2,6 @@
 category: "net-libs"
 name: "neon"
 version: "0.30.2"
-license: ""
 
 use_flags:
 - "-abi_mips_n32"
@@ -57,3 +56,4 @@ requires:
 - category: "sys-libs"
   name: "zlib"
   version: ">=0"
+license: "GPL-2"

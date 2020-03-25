@@ -2,7 +2,6 @@
 category: "dev-util"
 name: "gdbus-codegen"
 version: "2.62.5"
-license: ""
 
 use_flags:
 - "kernel_linux"
@@ -31,3 +30,4 @@ requires:
 - category: "dev-libs"
   name: "libxslt"
   version: ">=0"
+license: "LGPL-2+"

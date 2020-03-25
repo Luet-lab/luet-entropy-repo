@@ -2,7 +2,6 @@
 category: "sci-mathematics"
 name: "lpsolve"
 version: "5.5.2.0"
-license: ""
 
 use_flags:
 - "elibc_glibc"
@@ -15,3 +14,4 @@ requires:
 - category: "sci-libs"
   name: "colamd"
   version: ">=0"
+license: "LGPL-2.1"

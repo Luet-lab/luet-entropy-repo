@@ -2,7 +2,6 @@
 category: "dev-libs"
 name: "libuv"
 version: "1.34.2"
-license: ""
 
 use_flags:
 - "big-endian"
@@ -38,3 +37,4 @@ requires:
 - category: "sys-devel"
   name: "libtool-2"
   version: ">=0"
+license: "BSD BSD-2 ISC MIT"

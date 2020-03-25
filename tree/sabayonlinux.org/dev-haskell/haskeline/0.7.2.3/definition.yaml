@@ -2,7 +2,6 @@
 category: "dev-haskell"
 name: "haskeline"
 version: "0.7.2.3"
-license: ""
 
 use_flags:
 - "elibc_glibc"
@@ -36,3 +35,4 @@ requires:
 - category: "dev-lang"
   name: "ghc"
   version: ">=7.4.1"
+license: "BSD"

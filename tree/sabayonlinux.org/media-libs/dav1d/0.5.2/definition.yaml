@@ -2,7 +2,6 @@
 category: "media-libs"
 name: "dav1d"
 version: "0.5.2"
-license: ""
 
 use_flags:
 - "big-endian"
@@ -34,3 +33,4 @@ requires:
 - category: "dev-util"
   name: "ninja"
   version: ">=1.8.2"
+license: "BSD-2"

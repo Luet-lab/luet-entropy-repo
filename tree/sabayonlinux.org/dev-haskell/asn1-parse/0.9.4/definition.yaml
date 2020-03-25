@@ -2,7 +2,6 @@
 category: "dev-haskell"
 name: "asn1-parse"
 version: "0.9.4"
-license: ""
 
 use_flags:
 - "big-endian"
@@ -30,3 +29,4 @@ requires:
 - category: "dev-lang"
   name: "ghc"
   version: ">=7.4.1"
+license: "BSD"

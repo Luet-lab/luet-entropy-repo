@@ -2,7 +2,6 @@
 category: "dev-haskell"
 name: "haddock"
 version: "2.17.2"
-license: ""
 
 use_flags:
 - "amd64"
@@ -25,3 +24,4 @@ requires:
 - category: "dev-lang"
   name: "ghc"
   version: ">=7.4.1"
+license: "BSD"

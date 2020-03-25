@@ -2,7 +2,6 @@
 category: "dev-haskell"
 name: "vector"
 version: "0.11.0.0"
-license: ""
 
 use_flags:
 - "elibc_glibc"
@@ -30,3 +29,4 @@ requires:
 - category: "dev-lang"
   name: "ghc"
   version: ">=7.4.1"
+license: "BSD"

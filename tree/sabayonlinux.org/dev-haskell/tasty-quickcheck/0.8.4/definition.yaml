@@ -2,7 +2,6 @@
 category: "dev-haskell"
 name: "tasty-quickcheck"
 version: "0.8.4"
-license: ""
 
 use_flags:
 - "elibc_glibc"
@@ -34,3 +33,4 @@ requires:
 - category: "dev-haskell"
   name: "tagged"
   version: ">=0"
+license: "MIT"

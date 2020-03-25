@@ -2,7 +2,6 @@
 category: "dev-libs"
 name: "protobuf"
 version: "3.11.4"
-license: ""
 
 use_flags:
 - "-examples"
@@ -42,3 +41,4 @@ requires:
 - category: "sys-libs"
   name: "zlib"
   version: ">=0"
+license: "BSD"

@@ -2,7 +2,6 @@
 category: "dev-libs"
 name: "libbsd"
 version: "0.10.0"
-license: ""
 
 use_flags:
 - "big-endian"
@@ -26,3 +25,4 @@ requires:
 - category: "sys-kernel"
   name: "linux-headers"
   version: ">=3.17"
+license: "BSD BSD-2 BSD-4 ISC"

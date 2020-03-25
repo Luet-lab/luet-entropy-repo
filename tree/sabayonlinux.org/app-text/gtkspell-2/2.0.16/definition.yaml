@@ -2,7 +2,6 @@
 category: "app-text"
 name: "gtkspell-2"
 version: "2.0.16"
-license: ""
 
 use_flags:
 - "userland_GNU"
@@ -24,3 +23,4 @@ requires:
 - category: "x11-libs"
   name: "gtk+-3"
   version: ">=0"
+license: "GPL-2"

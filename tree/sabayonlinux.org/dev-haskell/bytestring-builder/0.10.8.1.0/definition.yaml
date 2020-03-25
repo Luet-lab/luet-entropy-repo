@@ -2,7 +2,6 @@
 category: "dev-haskell"
 name: "bytestring-builder"
 version: "0.10.8.1.0"
-license: ""
 
 use_flags:
 - "elibc_glibc"
@@ -19,3 +18,4 @@ requires:
 - category: "dev-lang"
   name: "ghc"
   version: ">=7.4.1"
+license: "BSD"

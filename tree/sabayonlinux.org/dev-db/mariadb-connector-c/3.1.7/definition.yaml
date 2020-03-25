@@ -2,7 +2,6 @@
 category: "dev-db"
 name: "mariadb-connector-c"
 version: "3.1.7"
-license: ""
 
 use_flags:
 - "big-endian"
@@ -35,3 +34,4 @@ requires:
 - category: "net-libs"
   name: "gnutls"
   version: ">=3.3.24"
+license: "LGPL-2.1"

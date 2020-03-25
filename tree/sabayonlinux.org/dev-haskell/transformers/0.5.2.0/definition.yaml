@@ -2,7 +2,6 @@
 category: "dev-haskell"
 name: "transformers"
 version: "0.5.2.0"
-license: ""
 
 use_flags:
 - "-doc"
@@ -21,3 +20,4 @@ requires:
 - category: "dev-lang"
   name: "ghc"
   version: ">=7.4.1"
+license: "BSD"

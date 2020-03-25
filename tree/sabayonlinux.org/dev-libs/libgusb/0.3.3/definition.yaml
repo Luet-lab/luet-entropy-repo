@@ -2,7 +2,6 @@
 category: "dev-libs"
 name: "libgusb"
 version: "0.3.3"
-license: ""
 
 use_flags:
 - "big-endian"
@@ -45,3 +44,4 @@ requires:
 - category: "sys-apps"
   name: "hwids"
   version: ">=0"
+license: "LGPL-2.1+"

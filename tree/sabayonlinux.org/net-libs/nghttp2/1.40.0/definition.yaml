@@ -2,7 +2,6 @@
 category: "net-libs"
 name: "nghttp2"
 version: "1.40.0"
-license: ""
 
 use_flags:
 - "big-endian"
@@ -35,3 +34,4 @@ requires:
 - category: "dev-libs"
   name: "libxml2-2"
   version: ">=2.7.7"
+license: "MIT"

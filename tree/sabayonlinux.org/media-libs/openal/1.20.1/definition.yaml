@@ -2,7 +2,6 @@
 category: "media-libs"
 name: "openal"
 version: "1.20.1"
-license: ""
 
 use_flags:
 - "big-endian"
@@ -50,3 +49,4 @@ requires:
 - category: "media-libs"
   name: "libsdl2"
   version: ">=0"
+license: "LGPL-2+"

@@ -2,7 +2,6 @@
 category: "dev-libs"
 name: "openssl-compat-1.0.0"
 version: "1.0.2u"
-license: ""
 
 use_flags:
 - "big-endian"
@@ -48,3 +47,4 @@ requires:
 - category: "sys-libs"
   name: "zlib"
   version: ">=1.2.8"
+license: "openssl"

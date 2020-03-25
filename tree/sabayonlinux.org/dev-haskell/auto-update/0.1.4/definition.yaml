@@ -2,7 +2,6 @@
 category: "dev-haskell"
 name: "auto-update"
 version: "0.1.4"
-license: ""
 
 use_flags:
 - "userland_GNU"
@@ -21,3 +20,4 @@ requires:
 - category: "dev-lang"
   name: "ghc"
   version: ">=7.4.1"
+license: "MIT"

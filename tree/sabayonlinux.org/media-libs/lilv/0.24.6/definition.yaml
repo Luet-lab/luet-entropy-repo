@@ -2,7 +2,6 @@
 category: "media-libs"
 name: "lilv"
 version: "0.24.6"
-license: ""
 
 use_flags:
 - "big-endian"
@@ -44,3 +43,4 @@ requires:
 - category: "media-libs"
   name: "sratom"
   version: ">=0"
+license: "ISC"

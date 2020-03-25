@@ -2,7 +2,6 @@
 category: "dev-libs"
 name: "ell"
 version: "0.28"
-license: ""
 
 use_flags:
 - "-pie"
@@ -23,3 +22,4 @@ use_flags:
 - "-glib"
 - "-abi_riscv_lp64"
 - "-abi_riscv_lp64d"
+license: "LGPL-2.1"

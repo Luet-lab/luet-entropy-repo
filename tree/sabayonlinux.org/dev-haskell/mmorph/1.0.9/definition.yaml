@@ -2,7 +2,6 @@
 category: "dev-haskell"
 name: "mmorph"
 version: "1.0.9"
-license: ""
 
 use_flags:
 - "-doc"
@@ -33,3 +32,4 @@ requires:
 - category: "dev-lang"
   name: "ghc"
   version: ">=7.8.2"
+license: "BSD"

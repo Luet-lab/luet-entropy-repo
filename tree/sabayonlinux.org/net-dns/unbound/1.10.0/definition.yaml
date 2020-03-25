@@ -2,7 +2,6 @@
 category: "net-dns"
 name: "unbound"
 version: "1.10.0"
-license: ""
 
 use_flags:
 - "big-endian"
@@ -78,3 +77,4 @@ requires:
 - category: "sys-apps"
   name: "systemd"
   version: ">=0"
+license: "BSD GPL-2"

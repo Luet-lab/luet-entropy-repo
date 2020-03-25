@@ -2,7 +2,6 @@
 category: "kde-plasma"
 name: "plasma-workspace-5"
 version: "5.18.2"
-license: ""
 
 use_flags:
 - "big-endian"
@@ -313,3 +312,4 @@ requires:
 - category: "x11-misc"
   name: "shared-mime-info"
   version: ">=0"
+license: "GPL-2"

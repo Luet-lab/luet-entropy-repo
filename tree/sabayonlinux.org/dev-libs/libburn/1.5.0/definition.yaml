@@ -2,7 +2,6 @@
 category: "dev-libs"
 name: "libburn"
 version: "1.5.0"
-license: ""
 
 use_flags:
 - "abi_x86_64"
@@ -13,3 +12,4 @@ use_flags:
 - "elibc_glibc"
 - "-debug"
 - "kernel_linux"
+license: "GPL-2"

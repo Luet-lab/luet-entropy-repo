@@ -2,7 +2,6 @@
 category: "media-sound"
 name: "timidity-freepats"
 version: "20060219+r1"
-license: ""
 
 use_flags:
 - "kernel_linux"
@@ -14,3 +13,4 @@ requires:
 - category: "app-eselect"
   name: "eselect-timidity"
   version: ">=20061203"
+license: "GPL-2"

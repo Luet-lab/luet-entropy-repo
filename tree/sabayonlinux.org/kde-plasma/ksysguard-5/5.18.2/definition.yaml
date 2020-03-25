@@ -2,7 +2,6 @@
 category: "kde-plasma"
 name: "ksysguard-5"
 version: "5.18.2"
-license: ""
 
 use_flags:
 - "-pcap"
@@ -104,3 +103,4 @@ requires:
 - category: "x11-misc"
   name: "shared-mime-info"
   version: ">=0"
+license: "GPL-2+"

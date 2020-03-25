@@ -2,7 +2,6 @@
 category: "dev-python"
 name: "python-dateutil-python-2"
 version: "2.8.1+r1"
-license: ""
 
 use_flags:
 - "split-usr"
@@ -40,3 +39,4 @@ requires:
 - category: "sys-libs"
   name: "timezone-data"
   version: ">=0"
+license: "BSD"

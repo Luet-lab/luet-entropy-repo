@@ -2,7 +2,6 @@
 category: "dev-libs"
 name: "libpcre2"
 version: "10.34"
-license: ""
 
 use_flags:
 - "unicode"
@@ -47,3 +46,4 @@ requires:
 - category: "sys-libs"
   name: "zlib"
   version: ">=0"
+license: "BSD"

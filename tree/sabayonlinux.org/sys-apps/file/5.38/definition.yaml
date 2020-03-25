@@ -2,7 +2,6 @@
 category: "sys-apps"
 name: "file"
 version: "5.38"
-license: ""
 
 use_flags:
 - "-python_targets_python3_7"
@@ -52,3 +51,4 @@ requires:
 - category: "dev-python"
   name: "setuptools"
   version: ">=0"
+license: "BSD-2"

@@ -2,7 +2,6 @@
 category: "dev-libs"
 name: "elfutils"
 version: "0.178"
-license: ""
 
 use_flags:
 - "static-libs"
@@ -45,3 +44,4 @@ requires:
 - category: "sys-devel"
   name: "m4"
   version: ">=0"
+license: "GPL-2+ GPL-3+ LGPL-3+"

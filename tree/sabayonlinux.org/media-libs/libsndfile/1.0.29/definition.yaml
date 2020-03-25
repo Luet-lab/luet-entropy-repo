@@ -2,7 +2,6 @@
 category: "media-libs"
 name: "libsndfile"
 version: "1.0.29+pre2_p20191024"
-license: ""
 
 use_flags:
 - "big-endian"
@@ -30,3 +29,4 @@ requires:
 - category: "app-portage"
   name: "elt-patches"
   version: ">=20170815"
+license: "LGPL-2.1"

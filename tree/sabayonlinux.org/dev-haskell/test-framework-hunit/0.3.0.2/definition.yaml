@@ -2,7 +2,6 @@
 category: "dev-haskell"
 name: "test-framework-hunit"
 version: "0.3.0.2"
-license: ""
 
 use_flags:
 - "abi_x86_64"
@@ -36,3 +35,4 @@ requires:
 - category: "dev-lang"
   name: "ghc"
   version: ">=7.4.1"
+license: "BSD"

@@ -2,7 +2,6 @@
 category: "net-libs"
 name: "gupnp"
 version: "1.2.2"
-license: ""
 
 use_flags:
 - "-python_single_target_python3_8"
@@ -81,3 +80,4 @@ requires:
 - category: "x11-misc"
   name: "shared-mime-info"
   version: ">=0"
+license: "GPL-2+ LGPL-2+"

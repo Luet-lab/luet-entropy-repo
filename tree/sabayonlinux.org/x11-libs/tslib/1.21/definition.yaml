@@ -2,7 +2,6 @@
 category: "x11-libs"
 name: "tslib"
 version: "1.21"
-license: ""
 
 use_flags:
 - "-evdev"
@@ -34,3 +33,4 @@ requires:
 - category: "media-libs"
   name: "libsdl2"
   version: ">=0"
+license: "LGPL-2"

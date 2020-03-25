@@ -2,7 +2,6 @@
 category: "sys-libs"
 name: "nss_wrapper"
 version: "1.1.6"
-license: ""
 
 use_flags:
 - "big-endian"
@@ -29,3 +28,4 @@ requires:
 - category: "sys-devel"
   name: "make"
   version: ">=0"
+license: "BSD"

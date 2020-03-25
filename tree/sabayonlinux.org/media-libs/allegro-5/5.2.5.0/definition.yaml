@@ -2,7 +2,6 @@
 category: "media-libs"
 name: "allegro-5"
 version: "5.2.5.0"
-license: ""
 
 use_flags:
 - "-webp"
@@ -97,3 +96,4 @@ requires:
 - category: "x11-libs"
   name: "libXpm"
   version: ">=0"
+license: "BSD ZLIB"

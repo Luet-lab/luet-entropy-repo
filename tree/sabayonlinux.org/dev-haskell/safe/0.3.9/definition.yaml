@@ -2,7 +2,6 @@
 category: "dev-haskell"
 name: "safe"
 version: "0.3.9"
-license: ""
 
 use_flags:
 - "userland_GNU"
@@ -21,3 +20,4 @@ requires:
 - category: "dev-lang"
   name: "ghc"
   version: ">=7.4.1"
+license: "BSD"

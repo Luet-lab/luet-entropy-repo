@@ -2,7 +2,6 @@
 category: "media-sound"
 name: "twolame"
 version: "0.4.0"
-license: ""
 
 use_flags:
 - "big-endian"
@@ -28,3 +27,4 @@ requires:
 - category: "media-libs"
   name: "libsndfile"
   version: ">=1.0.25"
+license: "GPL-2"

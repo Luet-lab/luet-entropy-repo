@@ -2,7 +2,6 @@
 category: "net-libs"
 name: "dleyna-connector-dbus-1.0"
 version: "0.3.0"
-license: ""
 
 use_flags:
 - "abi_x86_64"
@@ -34,3 +33,4 @@ requires:
 - category: "sys-devel"
   name: "libtool-2"
   version: ">=2.4"
+license: "LGPL-2.1"

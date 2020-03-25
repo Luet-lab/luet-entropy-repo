@@ -2,7 +2,6 @@
 category: "dev-haskell"
 name: "graphviz"
 version: "2999.18.1.2"
-license: ""
 
 use_flags:
 - "elibc_glibc"
@@ -67,3 +66,4 @@ requires:
 - category: "dev-haskell"
   name: "text"
   version: ">=0"
+license: "BSD"

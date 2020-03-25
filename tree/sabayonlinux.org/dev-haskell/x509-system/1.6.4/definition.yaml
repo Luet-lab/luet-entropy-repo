@@ -2,7 +2,6 @@
 category: "dev-haskell"
 name: "x509-system"
 version: "1.6.4"
-license: ""
 
 use_flags:
 - "big-endian"
@@ -42,3 +41,4 @@ requires:
 - category: "dev-haskell"
   name: "mtl"
   version: ">=0"
+license: "BSD"

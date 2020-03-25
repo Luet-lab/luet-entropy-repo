@@ -2,7 +2,6 @@
 category: "dev-cpp"
 name: "gtest"
 version: "1.10.0"
-license: ""
 
 use_flags:
 - "-examples"
@@ -31,3 +30,4 @@ requires:
 - category: "dev-util"
   name: "ninja"
   version: ">=0"
+license: "BSD"

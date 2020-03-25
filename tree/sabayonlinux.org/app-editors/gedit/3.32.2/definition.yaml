@@ -2,7 +2,6 @@
 category: "app-editors"
 name: "gedit"
 version: "3.32.2+r1"
-license: ""
 
 use_flags:
 - "introspection"
@@ -102,3 +101,4 @@ requires:
 - category: "x11-themes"
   name: "adwaita-icon-theme"
   version: ">=0"
+license: "CC-BY-SA-3.0 GPL-2+"

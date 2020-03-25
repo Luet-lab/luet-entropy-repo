@@ -2,7 +2,6 @@
 category: "dev-libs"
 name: "libatomic_ops"
 version: "7.6.10"
-license: ""
 
 use_flags:
 - "-abi_s390_32"
@@ -21,3 +20,4 @@ use_flags:
 - "split-usr"
 - "-abi_mips_n32"
 - "userland_GNU"
+license: "GPL-2+ MIT boehm-gc"

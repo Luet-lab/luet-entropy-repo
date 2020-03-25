@@ -2,7 +2,6 @@
 category: "app-crypt"
 name: "p11-kit"
 version: "0.23.20+r1"
-license: ""
 
 use_flags:
 - "big-endian"
@@ -35,3 +34,4 @@ requires:
 - category: "dev-libs"
   name: "libffi"
   version: ">=0"
+license: "MIT"

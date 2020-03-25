@@ -2,7 +2,6 @@
 category: "net-misc"
 name: "dleyna-server"
 version: "0.6.0"
-license: ""
 
 use_flags:
 - "amd64"
@@ -49,3 +48,4 @@ requires:
 - category: "dev-libs"
   name: "libxml2-2"
   version: ">=0"
+license: "LGPL-2.1"

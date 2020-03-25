@@ -2,7 +2,6 @@
 category: "dev-python"
 name: "pygobject-cairo-3"
 version: "3.34.0"
-license: ""
 
 use_flags:
 - "abi_x86_64"
@@ -58,3 +57,4 @@ requires:
 - category: "dev-python"
   name: "pygobject-base-3"
   version: ">=3.34.0"
+license: "LGPL-2.1+"

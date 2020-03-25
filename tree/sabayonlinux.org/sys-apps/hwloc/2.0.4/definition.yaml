@@ -2,7 +2,6 @@
 category: "sys-apps"
 name: "hwloc"
 version: "2.0.4"
-license: ""
 
 use_flags:
 - "big-endian"
@@ -59,3 +58,4 @@ requires:
 - category: "x11-libs"
   name: "libpciaccess"
   version: ">=0.13.1"
+license: "BSD"

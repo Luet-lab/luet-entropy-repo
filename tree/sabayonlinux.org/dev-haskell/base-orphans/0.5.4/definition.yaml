@@ -2,7 +2,6 @@
 category: "dev-haskell"
 name: "base-orphans"
 version: "0.5.4"
-license: ""
 
 use_flags:
 - "-hscolour"
@@ -22,3 +21,4 @@ requires:
 - category: "dev-lang"
   name: "ghc"
   version: ">=7.4.1"
+license: "MIT"

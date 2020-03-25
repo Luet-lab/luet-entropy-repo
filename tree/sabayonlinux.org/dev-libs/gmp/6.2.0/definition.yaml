@@ -2,7 +2,6 @@
 category: "dev-libs"
 name: "gmp"
 version: "6.2.0+r1"
-license: ""
 
 use_flags:
 - "static-libs"
@@ -36,3 +35,4 @@ requires:
 - category: "sys-devel"
   name: "m4"
   version: ">=0"
+license: "GPL-2+ LGPL-3+"

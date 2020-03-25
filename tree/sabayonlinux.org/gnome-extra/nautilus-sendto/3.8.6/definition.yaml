@@ -2,7 +2,6 @@
 category: "gnome-extra"
 name: "nautilus-sendto"
 version: "3.8.6"
-license: ""
 
 use_flags:
 - "abi_x86_64"
@@ -31,3 +30,4 @@ requires:
 - category: "dev-libs"
   name: "appstream-glib"
   version: ">=0"
+license: "GPL-2+"

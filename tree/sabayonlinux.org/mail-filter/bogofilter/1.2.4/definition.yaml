@@ -2,7 +2,6 @@
 category: "mail-filter"
 name: "bogofilter"
 version: "1.2.4+r2"
-license: ""
 
 use_flags:
 - "abi_x86_64"
@@ -37,3 +36,4 @@ requires:
 - category: "sci-libs"
   name: "gsl"
   version: ">=0"
+license: "GPL-2"

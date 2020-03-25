@@ -2,7 +2,6 @@
 category: "net-dns"
 name: "libidn2"
 version: "2.3.0"
-license: ""
 
 use_flags:
 - "static-libs"
@@ -32,3 +31,4 @@ requires:
 - category: "sys-apps"
   name: "help2man"
   version: ">=0"
+license: "GPL-2+ LGPL-3+"

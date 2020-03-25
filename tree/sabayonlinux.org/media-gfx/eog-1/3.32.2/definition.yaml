@@ -2,7 +2,6 @@
 category: "media-gfx"
 name: "eog-1"
 version: "3.32.2"
-license: ""
 
 use_flags:
 - "abi_x86_64"
@@ -84,3 +83,4 @@ requires:
 - category: "x11-misc"
   name: "shared-mime-info"
   version: ">=0"
+license: "GPL-2+"

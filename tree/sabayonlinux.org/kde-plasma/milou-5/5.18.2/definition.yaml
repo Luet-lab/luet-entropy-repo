@@ -2,7 +2,6 @@
 category: "kde-plasma"
 name: "milou-5"
 version: "5.18.2"
-license: ""
 
 use_flags:
 - "big-endian"
@@ -72,3 +71,4 @@ requires:
 - category: "x11-misc"
   name: "shared-mime-info"
   version: ">=0"
+license: "GPL-2 LGPL-2.1"

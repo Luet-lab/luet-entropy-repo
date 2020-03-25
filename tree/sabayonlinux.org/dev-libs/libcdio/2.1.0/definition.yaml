@@ -2,7 +2,6 @@
 category: "dev-libs"
 name: "libcdio"
 version: "2.1.0+r1"
-license: ""
 
 use_flags:
 - "big-endian"
@@ -51,3 +50,4 @@ requires:
 - category: "sys-devel"
   name: "gettext"
   version: ">=0"
+license: "GPL-3"

@@ -2,7 +2,6 @@
 category: "dev-python"
 name: "sip"
 version: "4.19.21"
-license: ""
 
 use_flags:
 - "-python_targets_python3_7"
@@ -27,3 +26,4 @@ requires:
 - category: "dev-lang"
   name: "python-3.6"
   version: ">=0"
+license: "GPL-2 GPL-3 SIP"

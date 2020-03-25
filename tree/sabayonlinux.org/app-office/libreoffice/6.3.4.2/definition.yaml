@@ -2,7 +2,6 @@
 category: "app-office"
 name: "libreoffice"
 version: "6.3.4.2+r1"
-license: ""
 
 use_flags:
 - "-kde"
@@ -339,3 +338,4 @@ requires:
 - category: "x11-libs"
   name: "pango"
   version: ">=0"
+license: "LGPL-3 MPL-1.1"

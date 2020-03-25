@@ -2,7 +2,6 @@
 category: "media-libs"
 name: "fdk-aac"
 version: "2.0.1"
-license: ""
 
 use_flags:
 - "-examples"
@@ -23,3 +22,4 @@ use_flags:
 - "split-usr"
 - "-abi_riscv_lp64"
 - "-abi_riscv_lp64d"
+license: "FraunhoferFDK"

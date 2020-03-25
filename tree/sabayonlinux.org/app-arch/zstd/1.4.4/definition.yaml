@@ -2,7 +2,6 @@
 category: "app-arch"
 name: "zstd"
 version: "1.4.4+r2"
-license: ""
 
 use_flags:
 - "big-endian"
@@ -30,3 +29,4 @@ requires:
 - category: "app-arch"
   name: "xz-utils"
   version: ">=0"
+license: "BSD GPL-2"

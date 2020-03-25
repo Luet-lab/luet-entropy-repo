@@ -2,7 +2,6 @@
 category: "dev-haskell"
 name: "yaml"
 version: "0.8.21.2"
-license: ""
 
 use_flags:
 - "elibc_glibc"
@@ -62,3 +61,4 @@ requires:
 - category: "dev-haskell"
   name: "vector"
   version: ">=0"
+license: "BSD"

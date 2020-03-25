@@ -2,7 +2,6 @@
 category: "games-strategy"
 name: "wesnoth"
 version: "1.14.9"
-license: ""
 
 use_flags:
 - "-server"
@@ -77,3 +76,4 @@ requires:
 - category: "x11-misc"
   name: "shared-mime-info"
   version: ">=0"
+license: "GPL-2"

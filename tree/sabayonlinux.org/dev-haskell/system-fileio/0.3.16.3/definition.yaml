@@ -2,7 +2,6 @@
 category: "dev-haskell"
 name: "system-fileio"
 version: "0.3.16.3"
-license: ""
 
 use_flags:
 - "-test"
@@ -31,3 +30,4 @@ requires:
 - category: "dev-lang"
   name: "ghc"
   version: ">=7.4.1"
+license: "MIT"

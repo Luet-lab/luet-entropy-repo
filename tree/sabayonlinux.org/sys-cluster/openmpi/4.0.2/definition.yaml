@@ -2,7 +2,6 @@
 category: "sys-cluster"
 name: "openmpi"
 version: "4.0.2"
-license: ""
 
 use_flags:
 - "-cma"
@@ -55,3 +54,4 @@ requires:
 - category: "dev-libs"
   name: "libnl-3"
   version: ">=0"
+license: "BSD"

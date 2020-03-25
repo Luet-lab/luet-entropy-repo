@@ -2,7 +2,6 @@
 category: "x11-apps"
 name: "xdm"
 version: "1.1.12"
-license: ""
 
 use_flags:
 - "abi_x86_64"
@@ -98,3 +97,4 @@ requires:
 - category: "x11-libs"
   name: "libXt"
   version: ">=0"
+license: "MIT"

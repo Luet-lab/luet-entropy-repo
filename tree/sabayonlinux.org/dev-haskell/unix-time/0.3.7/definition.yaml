@@ -2,7 +2,6 @@
 category: "dev-haskell"
 name: "unix-time"
 version: "0.3.7"
-license: ""
 
 use_flags:
 - "userland_GNU"
@@ -25,3 +24,4 @@ requires:
 - category: "dev-haskell"
   name: "old-time"
   version: ">=0"
+license: "BSD"

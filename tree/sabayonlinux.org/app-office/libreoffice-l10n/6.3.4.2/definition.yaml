@@ -2,7 +2,6 @@
 category: "app-office"
 name: "libreoffice-l10n"
 version: "6.3.4.2"
-license: ""
 
 use_flags:
 - "-l10n_it"
@@ -131,3 +130,4 @@ requires:
 - category: "app-text"
   name: "hunspell"
   version: ">=0"
+license: "LGPL-3 MPL-1.1"

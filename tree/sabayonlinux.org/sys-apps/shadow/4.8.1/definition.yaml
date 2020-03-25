@@ -2,7 +2,6 @@
 category: "sys-apps"
 name: "shadow"
 version: "4.8.1+r1"
-license: ""
 
 use_flags:
 - "nls"
@@ -56,3 +55,4 @@ requires:
 - category: "sys-libs"
   name: "pam"
   version: ">=0"
+license: "BSD GPL-2"

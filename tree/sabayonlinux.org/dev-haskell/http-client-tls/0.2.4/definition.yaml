@@ -2,7 +2,6 @@
 category: "dev-haskell"
 name: "http-client-tls"
 version: "0.2.4"
-license: ""
 
 use_flags:
 - "big-endian"
@@ -37,3 +36,4 @@ requires:
 - category: "dev-haskell"
   name: "network"
   version: ">=0"
+license: "MIT"

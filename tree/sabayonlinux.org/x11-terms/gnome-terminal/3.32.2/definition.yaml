@@ -2,7 +2,6 @@
 category: "x11-terms"
 name: "gnome-terminal"
 version: "3.32.2"
-license: ""
 
 use_flags:
 - "abi_x86_64"
@@ -74,3 +73,4 @@ requires:
 - category: "x11-misc"
   name: "shared-mime-info"
   version: ">=0"
+license: "GPL-3+"

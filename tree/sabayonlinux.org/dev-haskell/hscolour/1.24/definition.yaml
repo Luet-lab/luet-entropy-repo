@@ -2,7 +2,6 @@
 category: "dev-haskell"
 name: "hscolour"
 version: "1.24"
-license: ""
 
 use_flags:
 - "abi_x86_64"
@@ -20,3 +19,4 @@ requires:
 - category: "dev-lang"
   name: "ghc"
   version: ">=7.4.1"
+license: "GPL-2"

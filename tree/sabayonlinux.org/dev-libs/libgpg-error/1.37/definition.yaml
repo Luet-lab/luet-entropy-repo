@@ -2,7 +2,6 @@
 category: "dev-libs"
 name: "libgpg-error"
 version: "1.37"
-license: ""
 
 use_flags:
 - "static-libs"
@@ -40,3 +39,4 @@ requires:
 - category: "sys-devel"
   name: "gettext"
   version: ">=0"
+license: "GPL-2 LGPL-2.1"

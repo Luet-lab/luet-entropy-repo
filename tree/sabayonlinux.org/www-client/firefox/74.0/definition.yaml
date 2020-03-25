@@ -2,7 +2,6 @@
 category: "www-client"
 name: "firefox"
 version: "74.0+r1"
-license: ""
 
 use_flags:
 - "system-harfbuzz"
@@ -185,3 +184,4 @@ requires:
 - category: "media-libs"
   name: "mesa"
   version: ">=10.2"
+license: "GPL-2 LGPL-2.1 MPL-2.0"

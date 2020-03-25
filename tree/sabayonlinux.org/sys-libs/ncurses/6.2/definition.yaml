@@ -2,7 +2,6 @@
 category: "sys-libs"
 name: "ncurses"
 version: "6.2+r1"
-license: ""
 
 use_flags:
 - "static-libs"
@@ -38,3 +37,4 @@ requires:
 - category: "sys-libs"
   name: "gpm"
   version: ">=0"
+license: "MIT"

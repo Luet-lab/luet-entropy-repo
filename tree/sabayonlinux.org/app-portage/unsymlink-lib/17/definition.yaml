@@ -2,7 +2,6 @@
 category: "app-portage"
 name: "unsymlink-lib"
 version: "17"
-license: ""
 
 use_flags:
 - "-python_targets_python3_7"
@@ -30,3 +29,4 @@ requires:
 - category: "sys-apps"
   name: "portage"
   version: ">=0"
+license: "BSD-2"

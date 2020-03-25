@@ -2,7 +2,6 @@
 category: "dev-libs"
 name: "expat"
 version: "2.2.9"
-license: ""
 
 use_flags:
 - "-examples"
@@ -38,3 +37,4 @@ requires:
 - category: "sys-devel"
   name: "libtool-2"
   version: ">=2.4"
+license: "MIT"

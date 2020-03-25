@@ -2,7 +2,6 @@
 category: "gnome-base"
 name: "nautilus"
 version: "3.32.3"
-license: ""
 
 use_flags:
 - "introspection"
@@ -110,3 +109,4 @@ requires:
 - category: "x11-themes"
   name: "adwaita-icon-theme"
   version: ">=0"
+license: "GPL-3+ LGPL-2.1+"

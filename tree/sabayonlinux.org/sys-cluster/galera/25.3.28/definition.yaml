@@ -2,7 +2,6 @@
 category: "sys-cluster"
 name: "galera"
 version: "25.3.28+r1"
-license: ""
 
 use_flags:
 - "big-endian"
@@ -40,3 +39,4 @@ requires:
 - category: "dev-util"
   name: "scons"
   version: ">=0"
+license: "BSD GPL-2"

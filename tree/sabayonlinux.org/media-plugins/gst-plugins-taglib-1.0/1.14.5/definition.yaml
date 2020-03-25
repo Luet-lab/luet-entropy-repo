@@ -2,7 +2,6 @@
 category: "media-plugins"
 name: "gst-plugins-taglib-1.0"
 version: "1.14.5"
-license: ""
 
 use_flags:
 - "-abi_mips_n32"
@@ -37,3 +36,4 @@ requires:
 - category: "sys-apps"
   name: "sed"
   version: ">=4"
+license: "GPL-2"
