@@ -1,11 +1,10 @@
 
-steps:
-
-- source /etc/profile && echo Prepare sys-auth/pam_ssh-2.3
 unpack: true
+steps:
+- source /etc/profile && ACCEPT_LICENSE=* equo i sys-auth/pam_ssh-2.3 && equo cleanup
 requires:
 - category: "layer"
-  name: "sabayon-base-set-a"
+  name: "sabayon-base"
   version: "9999"
 includes:
 - /lib64$

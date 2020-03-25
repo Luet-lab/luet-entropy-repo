@@ -1,11 +1,10 @@
 
-steps:
-
-- source /etc/profile && echo Prepare gnome-extra/libgsf-1.14.43
 unpack: true
+steps:
+- source /etc/profile && ACCEPT_LICENSE=* equo i gnome-extra/libgsf-1.14.43 && equo cleanup
 requires:
 - category: "layer"
-  name: "sabayon-base-set-a"
+  name: "sabayon-base"
   version: "9999"
 includes:
 - /usr$

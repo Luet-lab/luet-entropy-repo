@@ -1,14 +1,14 @@
 
-steps:
-
-- source /etc/profile && echo Prepare dev-python/mysql-python-1.2.5-r1
 unpack: true
+steps:
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/mysql-python-1.2.5-r3 && equo cleanup
 requires:
 - category: "layer"
-  name: "sabayon-base-set-a"
+  name: "sabayon-base"
   version: "9999"
 includes:
 - /usr$
+- /usr/lib$
 - /usr/lib64$
 - /usr/lib64/python2.7$
 - /usr/lib64/python2.7/site-packages$
@@ -64,8 +64,8 @@ includes:
 - /usr/lib64/python2.7/site-packages/_mysql_exceptions.pyo$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/mysql-python-1.2.5-r1$
-- /usr/share/doc/mysql-python-1.2.5-r1/FAQ.rst.bz2$
-- /usr/share/doc/mysql-python-1.2.5-r1/HISTORY.bz2$
-- /usr/share/doc/mysql-python-1.2.5-r1/MySQLdb.rst.bz2$
-- /usr/share/doc/mysql-python-1.2.5-r1/README.md.bz2$
+- /usr/share/doc/mysql-python-1.2.5-r3$
+- /usr/share/doc/mysql-python-1.2.5-r3/FAQ.rst.bz2$
+- /usr/share/doc/mysql-python-1.2.5-r3/HISTORY.bz2$
+- /usr/share/doc/mysql-python-1.2.5-r3/MySQLdb.rst.bz2$
+- /usr/share/doc/mysql-python-1.2.5-r3/README.md.bz2$

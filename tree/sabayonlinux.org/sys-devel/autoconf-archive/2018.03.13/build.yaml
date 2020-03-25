@@ -1,11 +1,10 @@
 
-steps:
-
-- source /etc/profile && echo Prepare sys-devel/autoconf-archive-2018.03.13
 unpack: true
+steps:
+- source /etc/profile && ACCEPT_LICENSE=* equo i sys-devel/autoconf-archive-2018.03.13 && equo cleanup
 requires:
 - category: "layer"
-  name: "sabayon-base-set-a"
+  name: "sabayon-base"
   version: "9999"
 includes:
 - /usr$

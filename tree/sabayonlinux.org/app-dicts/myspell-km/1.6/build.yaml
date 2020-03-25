@@ -1,11 +1,10 @@
 
-steps:
-
-- source /etc/profile && echo Prepare app-dicts/myspell-km-1.6
 unpack: true
+steps:
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-dicts/myspell-km-1.6 && equo cleanup
 requires:
 - category: "layer"
-  name: "sabayon-base-set-a"
+  name: "sabayon-base"
   version: "9999"
 includes:
 - /usr$

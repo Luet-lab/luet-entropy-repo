@@ -1,11 +1,10 @@
 
-steps:
-
-- source /etc/profile && echo Prepare dev-perl/HTML-Parser-3.720.0
 unpack: true
+steps:
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-perl/HTML-Parser-3.720.0 && equo cleanup
 requires:
 - category: "layer"
-  name: "sabayon-base-set-a"
+  name: "sabayon-base"
   version: "9999"
 includes:
 - /usr$
@@ -13,21 +12,21 @@ includes:
 - /usr/lib64$
 - /usr/lib64/perl5$
 - /usr/lib64/perl5/vendor_perl$
-- /usr/lib64/perl5/vendor_perl/5.28.2$
-- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi$
-- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/HTML$
-- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/HTML/Entities.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/HTML/Filter.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/HTML/HeadParser.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/HTML/LinkExtor.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/HTML/Parser.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/HTML/PullParser.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/HTML/TokeParser.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto$
-- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/HTML$
-- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/HTML/Parser$
-- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/HTML/Parser/.packlist$
-- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/HTML/Parser/Parser.so$
+- /usr/lib64/perl5/vendor_perl/5.30.1$
+- /usr/lib64/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi$
+- /usr/lib64/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/HTML$
+- /usr/lib64/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/HTML/Entities.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/HTML/Filter.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/HTML/HeadParser.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/HTML/LinkExtor.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/HTML/Parser.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/HTML/PullParser.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/HTML/TokeParser.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/auto$
+- /usr/lib64/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/auto/HTML$
+- /usr/lib64/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/auto/HTML/Parser$
+- /usr/lib64/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/auto/HTML/Parser/.packlist$
+- /usr/lib64/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/auto/HTML/Parser/Parser.so$
 - /usr/share$
 - /usr/share/doc$
 - /usr/share/doc/HTML-Parser-3.720.0$

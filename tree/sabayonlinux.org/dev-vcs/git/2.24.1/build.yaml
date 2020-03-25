@@ -1,11 +1,10 @@
 
-steps:
-
-- source /etc/profile && echo Prepare dev-vcs/git-2.24.1
 unpack: true
+steps:
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-vcs/git-2.24.1 && equo cleanup
 requires:
 - category: "layer"
-  name: "sabayon-base-set-a"
+  name: "sabayon-base"
   version: "9999"
 includes:
 - /etc$
@@ -31,29 +30,29 @@ includes:
 - /usr/lib64$
 - /usr/lib64/perl5$
 - /usr/lib64/perl5/vendor_perl$
-- /usr/lib64/perl5/vendor_perl/5.28.2$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Git$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Git.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Git/I18N.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Git/IndexInfo.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Git/LoadCPAN$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Git/LoadCPAN.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Git/LoadCPAN/Error.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Git/LoadCPAN/Mail$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Git/LoadCPAN/Mail/Address.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Git/Packet.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Git/SVN$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Git/SVN.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Git/SVN/Editor.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Git/SVN/Fetcher.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Git/SVN/GlobSpec.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Git/SVN/Log.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Git/SVN/Memoize$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Git/SVN/Memoize/YAML.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Git/SVN/Migration.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Git/SVN/Prompt.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Git/SVN/Ra.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Git/SVN/Utils.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Git$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Git.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Git/I18N.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Git/IndexInfo.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Git/LoadCPAN$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Git/LoadCPAN.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Git/LoadCPAN/Error.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Git/LoadCPAN/Mail$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Git/LoadCPAN/Mail/Address.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Git/Packet.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Git/SVN$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Git/SVN.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Git/SVN/Editor.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Git/SVN/Fetcher.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Git/SVN/GlobSpec.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Git/SVN/Log.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Git/SVN/Memoize$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Git/SVN/Memoize/YAML.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Git/SVN/Migration.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Git/SVN/Prompt.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Git/SVN/Ra.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Git/SVN/Utils.pm$
 - /usr/libexec$
 - /usr/libexec/git-core$
 - /usr/libexec/git-core/git$

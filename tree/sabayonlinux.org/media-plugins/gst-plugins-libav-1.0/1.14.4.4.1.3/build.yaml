@@ -1,11 +1,10 @@
 
-steps:
-
-- source /etc/profile && echo Prepare media-plugins/gst-plugins-libav-1.14.4.4.1.3_p20190329
 unpack: true
+steps:
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-plugins/gst-plugins-libav-1.14.4.4.1.3_p20190329 && equo cleanup
 requires:
 - category: "layer"
-  name: "sabayon-base-set-a"
+  name: "sabayon-base"
   version: "9999"
 includes:
 - /usr$

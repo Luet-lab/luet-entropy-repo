@@ -1,11 +1,10 @@
 
-steps:
-
-- source /etc/profile && echo Prepare net-dialup/xl2tpd-1.3.10
 unpack: true
+steps:
+- source /etc/profile && ACCEPT_LICENSE=* equo i net-dialup/xl2tpd-1.3.10 && equo cleanup
 requires:
 - category: "layer"
-  name: "sabayon-base-set-a"
+  name: "sabayon-base"
   version: "9999"
 includes:
 - /etc$

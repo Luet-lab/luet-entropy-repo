@@ -1,11 +1,10 @@
 
-steps:
-
-- source /etc/profile && echo Prepare x11-themes/gtk-engines-adwaita-3.28
 unpack: true
+steps:
+- source /etc/profile && ACCEPT_LICENSE=* equo i x11-themes/gtk-engines-adwaita-3.28 && equo cleanup
 requires:
 - category: "layer"
-  name: "sabayon-base-set-a"
+  name: "sabayon-base"
   version: "9999"
 includes:
 - /usr$

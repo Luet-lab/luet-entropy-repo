@@ -1,11 +1,10 @@
 
-steps:
-
-- source /etc/profile && echo Prepare x11-misc/xdg-user-dirs-gtk-0.10-r1
 unpack: true
+steps:
+- source /etc/profile && ACCEPT_LICENSE=* equo i x11-misc/xdg-user-dirs-gtk-0.10-r1 && equo cleanup
 requires:
 - category: "layer"
-  name: "sabayon-base-set-a"
+  name: "sabayon-base"
   version: "9999"
 includes:
 - /etc$

@@ -1,11 +1,10 @@
 
-steps:
-
-- source /etc/profile && echo Prepare x11-libs/libXpm-3.5.13
 unpack: true
+steps:
+- source /etc/profile && ACCEPT_LICENSE=* equo i x11-libs/libXpm-3.5.13 && equo cleanup
 requires:
 - category: "layer"
-  name: "sabayon-base-set-a"
+  name: "sabayon-base"
   version: "9999"
 includes:
 - /usr$

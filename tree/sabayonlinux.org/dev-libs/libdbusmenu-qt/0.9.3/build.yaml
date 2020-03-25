@@ -1,11 +1,10 @@
 
-steps:
-
-- source /etc/profile && echo Prepare dev-libs/libdbusmenu-qt-0.9.3_pre20160218-r3
 unpack: true
+steps:
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/libdbusmenu-qt-0.9.3_pre20160218-r3 && equo cleanup
 requires:
 - category: "layer"
-  name: "sabayon-base-set-a"
+  name: "sabayon-base"
   version: "9999"
 includes:
 - /usr$

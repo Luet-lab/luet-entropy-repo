@@ -1,11 +1,10 @@
 
-steps:
-
-- source /etc/profile && echo Prepare dev-ruby/childlabor-0.0.3-r1
 unpack: true
+steps:
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ruby/childlabor-0.0.3-r1 && equo cleanup
 requires:
 - category: "layer"
-  name: "sabayon-base-set-a"
+  name: "sabayon-base"
   version: "9999"
 includes:
 - /usr$

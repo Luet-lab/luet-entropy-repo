@@ -1,69 +1,68 @@
 
-steps:
-
-- source /etc/profile && echo Prepare dev-perl/Specio-0.420.0
 unpack: true
+steps:
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-perl/Specio-0.420.0 && equo cleanup
 requires:
 - category: "layer"
-  name: "sabayon-base-set-a"
+  name: "sabayon-base"
   version: "9999"
 includes:
 - /usr$
 - /usr/lib64$
 - /usr/lib64/perl5$
 - /usr/lib64/perl5/vendor_perl$
-- /usr/lib64/perl5/vendor_perl/5.28.2$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Specio$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Specio.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Specio/Coercion.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Specio/Constraint$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Specio/Constraint/AnyCan.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Specio/Constraint/AnyDoes.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Specio/Constraint/AnyIsa.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Specio/Constraint/Enum.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Specio/Constraint/Intersection.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Specio/Constraint/ObjectCan.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Specio/Constraint/ObjectDoes.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Specio/Constraint/ObjectIsa.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Specio/Constraint/Parameterizable.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Specio/Constraint/Parameterized.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Specio/Constraint/Role$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Specio/Constraint/Role/CanType.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Specio/Constraint/Role/DoesType.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Specio/Constraint/Role/Interface.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Specio/Constraint/Role/IsaType.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Specio/Constraint/Simple.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Specio/Constraint/Structurable.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Specio/Constraint/Structured.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Specio/Constraint/Union.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Specio/Declare.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Specio/DeclaredAt.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Specio/Exception.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Specio/Exporter.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Specio/Helpers.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Specio/Library$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Specio/Library/Builtins.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Specio/Library/Numeric.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Specio/Library/Perl.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Specio/Library/String.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Specio/Library/Structured$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Specio/Library/Structured.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Specio/Library/Structured/Dict.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Specio/Library/Structured/Map.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Specio/Library/Structured/Tuple.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Specio/OO.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Specio/PartialDump.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Specio/Registry.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Specio/Role$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Specio/Role/Inlinable.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Specio/Subs.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Specio/TypeChecks.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Test$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Test/Specio.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi$
-- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto$
-- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/Specio$
-- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/Specio/.packlist$
+- /usr/lib64/perl5/vendor_perl/5.30.1$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Specio$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Specio.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Specio/Coercion.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Specio/Constraint$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Specio/Constraint/AnyCan.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Specio/Constraint/AnyDoes.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Specio/Constraint/AnyIsa.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Specio/Constraint/Enum.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Specio/Constraint/Intersection.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Specio/Constraint/ObjectCan.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Specio/Constraint/ObjectDoes.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Specio/Constraint/ObjectIsa.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Specio/Constraint/Parameterizable.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Specio/Constraint/Parameterized.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Specio/Constraint/Role$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Specio/Constraint/Role/CanType.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Specio/Constraint/Role/DoesType.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Specio/Constraint/Role/Interface.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Specio/Constraint/Role/IsaType.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Specio/Constraint/Simple.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Specio/Constraint/Structurable.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Specio/Constraint/Structured.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Specio/Constraint/Union.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Specio/Declare.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Specio/DeclaredAt.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Specio/Exception.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Specio/Exporter.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Specio/Helpers.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Specio/Library$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Specio/Library/Builtins.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Specio/Library/Numeric.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Specio/Library/Perl.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Specio/Library/String.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Specio/Library/Structured$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Specio/Library/Structured.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Specio/Library/Structured/Dict.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Specio/Library/Structured/Map.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Specio/Library/Structured/Tuple.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Specio/OO.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Specio/PartialDump.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Specio/Registry.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Specio/Role$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Specio/Role/Inlinable.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Specio/Subs.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Specio/TypeChecks.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Test$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Test/Specio.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi$
+- /usr/lib64/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/auto$
+- /usr/lib64/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/auto/Specio$
+- /usr/lib64/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/auto/Specio/.packlist$
 - /usr/share$
 - /usr/share/doc$
 - /usr/share/doc/Specio-0.420.0$

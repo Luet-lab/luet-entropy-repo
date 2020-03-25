@@ -1,11 +1,10 @@
 
-steps:
-
-- source /etc/profile && echo Prepare dev-libs/keybinder-0.3.2-r300
 unpack: true
+steps:
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/keybinder-0.3.2-r300 && equo cleanup
 requires:
 - category: "layer"
-  name: "sabayon-base-set-a"
+  name: "sabayon-base"
   version: "9999"
 includes:
 - /usr$

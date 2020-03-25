@@ -1,11 +1,10 @@
 
-steps:
-
-- source /etc/profile && echo Prepare dev-python/d2to1-0.2.12_p1
 unpack: true
+steps:
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/d2to1-0.2.12_p1 && equo cleanup
 requires:
 - category: "layer"
-  name: "sabayon-base-set-a"
+  name: "sabayon-base"
   version: "9999"
 includes:
 - /usr$

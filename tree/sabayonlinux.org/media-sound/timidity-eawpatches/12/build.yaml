@@ -1,11 +1,10 @@
 
-steps:
-
-- source /etc/profile && echo Prepare media-sound/timidity-eawpatches-12-r5
 unpack: true
+steps:
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-sound/timidity-eawpatches-12-r5 && equo cleanup
 requires:
 - category: "layer"
-  name: "sabayon-base-set-a"
+  name: "sabayon-base"
   version: "9999"
 includes:
 - /usr$

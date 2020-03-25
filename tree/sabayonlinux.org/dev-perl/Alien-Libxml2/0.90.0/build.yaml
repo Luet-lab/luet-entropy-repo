@@ -1,35 +1,34 @@
 
-steps:
-
-- source /etc/profile && echo Prepare dev-perl/Alien-Libxml2-0.90.0
 unpack: true
+steps:
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-perl/Alien-Libxml2-0.90.0 && equo cleanup
 requires:
 - category: "layer"
-  name: "sabayon-base-set-a"
+  name: "sabayon-base"
   version: "9999"
 includes:
 - /usr$
 - /usr/lib64$
 - /usr/lib64/perl5$
 - /usr/lib64/perl5/vendor_perl$
-- /usr/lib64/perl5/vendor_perl/5.28.2$
-- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi$
-- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/Alien$
-- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/Alien/Libxml2$
-- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/Alien/Libxml2.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/Alien/Libxml2/Install$
-- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/Alien/Libxml2/Install/Files.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto$
-- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/Alien$
-- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/Alien/Libxml2$
-- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/Alien/Libxml2/.packlist$
-- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/Alien/Libxml2/Libxml2.txt$
-- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/share$
-- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/share/dist$
-- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/share/dist/Alien-Libxml2$
-- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/share/dist/Alien-Libxml2/_alien$
-- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/share/dist/Alien-Libxml2/_alien/alien.json$
-- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/share/dist/Alien-Libxml2/_alien/alienfile$
+- /usr/lib64/perl5/vendor_perl/5.30.1$
+- /usr/lib64/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi$
+- /usr/lib64/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/Alien$
+- /usr/lib64/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/Alien/Libxml2$
+- /usr/lib64/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/Alien/Libxml2.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/Alien/Libxml2/Install$
+- /usr/lib64/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/Alien/Libxml2/Install/Files.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/auto$
+- /usr/lib64/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/auto/Alien$
+- /usr/lib64/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/auto/Alien/Libxml2$
+- /usr/lib64/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/auto/Alien/Libxml2/.packlist$
+- /usr/lib64/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/auto/Alien/Libxml2/Libxml2.txt$
+- /usr/lib64/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/auto/share$
+- /usr/lib64/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/auto/share/dist$
+- /usr/lib64/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/auto/share/dist/Alien-Libxml2$
+- /usr/lib64/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/auto/share/dist/Alien-Libxml2/_alien$
+- /usr/lib64/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/auto/share/dist/Alien-Libxml2/_alien/alien.json$
+- /usr/lib64/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/auto/share/dist/Alien-Libxml2/_alien/alienfile$
 - /usr/share$
 - /usr/share/doc$
 - /usr/share/doc/Alien-Libxml2-0.90.0$

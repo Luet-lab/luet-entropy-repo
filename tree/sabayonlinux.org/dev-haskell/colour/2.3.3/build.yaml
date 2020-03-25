@@ -1,11 +1,10 @@
 
-steps:
-
-- source /etc/profile && echo Prepare dev-haskell/colour-2.3.3-r1
 unpack: true
+steps:
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-haskell/colour-2.3.3-r1 && equo cleanup
 requires:
 - category: "layer"
-  name: "sabayon-base-set-a"
+  name: "sabayon-base"
   version: "9999"
 includes:
 - /usr$

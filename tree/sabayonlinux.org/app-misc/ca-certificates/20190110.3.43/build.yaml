@@ -1,11 +1,10 @@
 
-steps:
-
-- source /etc/profile && echo Prepare app-misc/ca-certificates-20190110.3.43
 unpack: true
+steps:
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-misc/ca-certificates-20190110.3.43 && equo cleanup
 requires:
 - category: "layer"
-  name: "sabayon-base-set-a"
+  name: "sabayon-base"
   version: "9999"
 includes:
 - /etc$

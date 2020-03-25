@@ -1,11 +1,10 @@
 
-steps:
-
-- source /etc/profile && echo Prepare media-libs/ladspa-cmt-1.16-r4
 unpack: true
+steps:
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/ladspa-cmt-1.16-r4 && equo cleanup
 requires:
 - category: "layer"
-  name: "sabayon-base-set-a"
+  name: "sabayon-base"
   version: "9999"
 includes:
 - /usr$

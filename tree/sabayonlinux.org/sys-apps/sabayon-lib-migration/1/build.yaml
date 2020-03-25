@@ -1,9 +1,8 @@
 
-steps:
-
-- source /etc/profile && echo Prepare sys-apps/sabayon-lib-migration-1
 unpack: true
+steps:
+- source /etc/profile && ACCEPT_LICENSE=* equo i sys-apps/sabayon-lib-migration-1 && equo cleanup
 requires:
 - category: "layer"
-  name: "sabayon-base-set-a"
+  name: "sabayon-base"
   version: "9999"

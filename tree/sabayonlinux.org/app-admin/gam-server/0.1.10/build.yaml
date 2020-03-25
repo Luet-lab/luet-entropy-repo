@@ -1,11 +1,10 @@
 
-steps:
-
-- source /etc/profile && echo Prepare app-admin/gam-server-0.1.10-r2
 unpack: true
+steps:
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-admin/gam-server-0.1.10-r2 && equo cleanup
 requires:
 - category: "layer"
-  name: "sabayon-base-set-a"
+  name: "sabayon-base"
   version: "9999"
 includes:
 - /usr$

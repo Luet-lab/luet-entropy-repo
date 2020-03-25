@@ -1,11 +1,10 @@
 
-steps:
-
-- source /etc/profile && echo Prepare media-libs/libsndfile-1.0.29_pre2_p20191024
 unpack: true
+steps:
+- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/libsndfile-1.0.29_pre2_p20191024 && equo cleanup
 requires:
 - category: "layer"
-  name: "sabayon-base-set-a"
+  name: "sabayon-base"
   version: "9999"
 includes:
 - /usr$

@@ -1,11 +1,10 @@
 
-steps:
-
-- source /etc/profile && echo Prepare dev-python/pastedeploy-2.0.1-r1
 unpack: true
+steps:
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/pastedeploy-2.0.1-r1 && equo cleanup
 requires:
 - category: "layer"
-  name: "sabayon-base-set-a"
+  name: "sabayon-base"
   version: "9999"
 includes:
 - /usr$
@@ -94,7 +93,11 @@ includes:
 - /usr/lib64/python3.6/site-packages/paste/deploy/paster_templates$
 - /usr/lib64/python3.6/site-packages/paste/deploy/paster_templates.py$
 - /usr/lib64/python3.6/site-packages/paste/deploy/paster_templates/paste_deploy$
-- /usr/lib64/python3.6/site-packages/paste/deploy/paster_templates/paste_deploy/.*
+- /usr/lib64/python3.6/site-packages/paste/deploy/paster_templates/paste_deploy/[+]package[+]$
+- /usr/lib64/python3.6/site-packages/paste/deploy/paster_templates/paste_deploy/[+]package[+]/sampleapp.py_tmpl$
+- /usr/lib64/python3.6/site-packages/paste/deploy/paster_templates/paste_deploy/[+]package[+]/wsgiapp.py_tmpl$
+- /usr/lib64/python3.6/site-packages/paste/deploy/paster_templates/paste_deploy/docs$
+- /usr/lib64/python3.6/site-packages/paste/deploy/paster_templates/paste_deploy/docs/devel_config.ini_tmpl$
 - /usr/lib64/python3.6/site-packages/paste/deploy/util.py$
 - /usr/share$
 - /usr/share/doc$

@@ -1,33 +1,32 @@
 
-steps:
-
-- source /etc/profile && echo Prepare dev-perl/PlRPC-0.202.0-r3
 unpack: true
+steps:
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-perl/PlRPC-0.202.0-r3 && equo cleanup
 requires:
 - category: "layer"
-  name: "sabayon-base-set-a"
+  name: "sabayon-base"
   version: "9999"
 includes:
 - /usr$
 - /usr/lib64$
 - /usr/lib64/perl5$
 - /usr/lib64/perl5/vendor_perl$
-- /usr/lib64/perl5/vendor_perl/5.28.2$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Bundle$
-- /usr/lib64/perl5/vendor_perl/5.28.2/Bundle/PlRPC.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/RPC$
-- /usr/lib64/perl5/vendor_perl/5.28.2/RPC/PlClient$
-- /usr/lib64/perl5/vendor_perl/5.28.2/RPC/PlClient.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/RPC/PlClient/Comm.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/RPC/PlServer$
-- /usr/lib64/perl5/vendor_perl/5.28.2/RPC/PlServer.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/RPC/PlServer/Comm.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/RPC/PlServer/Test.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi$
-- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto$
-- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/RPC$
-- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/RPC/PlServer$
-- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/RPC/PlServer/.packlist$
+- /usr/lib64/perl5/vendor_perl/5.30.1$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Bundle$
+- /usr/lib64/perl5/vendor_perl/5.30.1/Bundle/PlRPC.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/RPC$
+- /usr/lib64/perl5/vendor_perl/5.30.1/RPC/PlClient$
+- /usr/lib64/perl5/vendor_perl/5.30.1/RPC/PlClient.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/RPC/PlClient/Comm.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/RPC/PlServer$
+- /usr/lib64/perl5/vendor_perl/5.30.1/RPC/PlServer.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/RPC/PlServer/Comm.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/RPC/PlServer/Test.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi$
+- /usr/lib64/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/auto$
+- /usr/lib64/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/auto/RPC$
+- /usr/lib64/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/auto/RPC/PlServer$
+- /usr/lib64/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/auto/RPC/PlServer/.packlist$
 - /usr/share$
 - /usr/share/doc$
 - /usr/share/doc/PlRPC-0.202.0-r3$

@@ -1,11 +1,10 @@
 
-steps:
-
-- source /etc/profile && echo Prepare dev-python/pygobject-2.28.6-r55
 unpack: true
+steps:
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/pygobject-2.28.6-r55 && equo cleanup
 requires:
 - category: "layer"
-  name: "sabayon-base-set-a"
+  name: "sabayon-base"
   version: "9999"
 includes:
 - /usr$

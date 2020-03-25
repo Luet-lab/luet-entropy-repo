@@ -1,11 +1,10 @@
 
-steps:
-
-- source /etc/profile && echo Prepare mate-base/mate-common-1.22.0
 unpack: true
+steps:
+- source /etc/profile && ACCEPT_LICENSE=* equo i mate-base/mate-common-1.22.0 && equo cleanup
 requires:
 - category: "layer"
-  name: "sabayon-base-set-a"
+  name: "sabayon-base"
   version: "9999"
 includes:
 - /usr$

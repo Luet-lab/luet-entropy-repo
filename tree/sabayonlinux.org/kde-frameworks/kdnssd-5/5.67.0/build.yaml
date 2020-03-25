@@ -1,11 +1,10 @@
 
-steps:
-
-- source /etc/profile && echo Prepare kde-frameworks/kdnssd-5.67.0
 unpack: true
+steps:
+- source /etc/profile && ACCEPT_LICENSE=* equo i kde-frameworks/kdnssd-5.67.0 && equo cleanup
 requires:
 - category: "layer"
-  name: "sabayon-base-set-a"
+  name: "sabayon-base"
   version: "9999"
 includes:
 - /usr$

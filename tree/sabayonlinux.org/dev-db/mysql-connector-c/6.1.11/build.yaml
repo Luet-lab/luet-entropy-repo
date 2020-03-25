@@ -1,11 +1,10 @@
 
-steps:
-
-- source /etc/profile && echo Prepare dev-db/mysql-connector-c-6.1.11-r2
 unpack: true
+steps:
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-db/mysql-connector-c-6.1.11-r2 && equo cleanup
 requires:
 - category: "layer"
-  name: "sabayon-base-set-a"
+  name: "sabayon-base"
   version: "9999"
 includes:
 - /usr$

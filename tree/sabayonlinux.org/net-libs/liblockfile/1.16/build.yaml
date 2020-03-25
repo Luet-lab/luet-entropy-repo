@@ -1,11 +1,10 @@
 
-steps:
-
-- source /etc/profile && echo Prepare net-libs/liblockfile-1.16
 unpack: true
+steps:
+- source /etc/profile && ACCEPT_LICENSE=* equo i net-libs/liblockfile-1.16 && equo cleanup
 requires:
 - category: "layer"
-  name: "sabayon-base-set-a"
+  name: "sabayon-base"
   version: "9999"
 includes:
 - /usr$

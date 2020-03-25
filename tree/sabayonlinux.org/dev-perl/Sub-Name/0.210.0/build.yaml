@@ -1,11 +1,10 @@
 
-steps:
-
-- source /etc/profile && echo Prepare dev-perl/Sub-Name-0.210.0
 unpack: true
+steps:
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-perl/Sub-Name-0.210.0 && equo cleanup
 requires:
 - category: "layer"
-  name: "sabayon-base-set-a"
+  name: "sabayon-base"
   version: "9999"
 includes:
 - /usr$
@@ -13,15 +12,15 @@ includes:
 - /usr/lib64$
 - /usr/lib64/perl5$
 - /usr/lib64/perl5/vendor_perl$
-- /usr/lib64/perl5/vendor_perl/5.28.2$
-- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi$
-- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/Sub$
-- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/Sub/Name.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto$
-- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/Sub$
-- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/Sub/Name$
-- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/Sub/Name/.packlist$
-- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/Sub/Name/Name.so$
+- /usr/lib64/perl5/vendor_perl/5.30.1$
+- /usr/lib64/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi$
+- /usr/lib64/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/Sub$
+- /usr/lib64/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/Sub/Name.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/auto$
+- /usr/lib64/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/auto/Sub$
+- /usr/lib64/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/auto/Sub/Name$
+- /usr/lib64/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/auto/Sub/Name/.packlist$
+- /usr/lib64/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/auto/Sub/Name/Name.so$
 - /usr/share$
 - /usr/share/doc$
 - /usr/share/doc/Sub-Name-0.210.0$

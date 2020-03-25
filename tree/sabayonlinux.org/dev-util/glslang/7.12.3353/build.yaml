@@ -1,11 +1,10 @@
 
-steps:
-
-- source /etc/profile && echo Prepare dev-util/glslang-7.12.3353_pre20191027-r2
 unpack: true
+steps:
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-util/glslang-7.12.3353_pre20191027-r2 && equo cleanup
 requires:
 - category: "layer"
-  name: "sabayon-base-set-a"
+  name: "sabayon-base"
   version: "9999"
 includes:
 - /usr$

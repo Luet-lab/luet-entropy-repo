@@ -1,11 +1,10 @@
 
-steps:
-
-- source /etc/profile && echo Prepare sys-libs/libapparmor-2.13.3
 unpack: true
+steps:
+- source /etc/profile && ACCEPT_LICENSE=* equo i sys-libs/libapparmor-2.13.3-r1 && equo cleanup
 requires:
 - category: "layer"
-  name: "sabayon-base-set-a"
+  name: "sabayon-base"
   version: "9999"
 includes:
 - /usr$
@@ -23,26 +22,15 @@ includes:
 - /usr/lib64/libapparmor.so.1.6.1$
 - /usr/lib64/perl5$
 - /usr/lib64/perl5/vendor_perl$
-- /usr/lib64/perl5/vendor_perl/5.28.2$
-- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi$
-- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/LibAppArmor.pm$
-- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto$
-- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/LibAppArmor$
-- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/LibAppArmor/.packlist$
-- /usr/lib64/perl5/vendor_perl/5.28.2/x86_64-linux-thread-multi/auto/LibAppArmor/LibAppArmor.so$
+- /usr/lib64/perl5/vendor_perl/5.30.1$
+- /usr/lib64/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi$
+- /usr/lib64/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/LibAppArmor.pm$
+- /usr/lib64/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/auto$
+- /usr/lib64/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/auto/LibAppArmor$
+- /usr/lib64/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/auto/LibAppArmor/.packlist$
+- /usr/lib64/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/auto/LibAppArmor/LibAppArmor.so$
 - /usr/lib64/pkgconfig$
 - /usr/lib64/pkgconfig/libapparmor.pc$
-- /usr/lib64/python2.7$
-- /usr/lib64/python2.7/site-packages$
-- /usr/lib64/python2.7/site-packages/LibAppArmor$
-- /usr/lib64/python2.7/site-packages/LibAppArmor-2.13.3-py2.7.egg-info$
-- /usr/lib64/python2.7/site-packages/LibAppArmor/LibAppArmor.py$
-- /usr/lib64/python2.7/site-packages/LibAppArmor/LibAppArmor.pyc$
-- /usr/lib64/python2.7/site-packages/LibAppArmor/LibAppArmor.pyo$
-- /usr/lib64/python2.7/site-packages/LibAppArmor/_LibAppArmor.so$
-- /usr/lib64/python2.7/site-packages/LibAppArmor/__init__.py$
-- /usr/lib64/python2.7/site-packages/LibAppArmor/__init__.pyc$
-- /usr/lib64/python2.7/site-packages/LibAppArmor/__init__.pyo$
 - /usr/lib64/python3.6$
 - /usr/lib64/python3.6/site-packages$
 - /usr/lib64/python3.6/site-packages/LibAppArmor$
@@ -59,8 +47,8 @@ includes:
 - /usr/lib64/python3.6/site-packages/LibAppArmor/__pycache__/__init__.cpython-36.pyc$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/libapparmor-2.13.3$
-- /usr/share/doc/libapparmor-2.13.3/AUTHORS$
-- /usr/share/doc/libapparmor-2.13.3/ChangeLog$
-- /usr/share/doc/libapparmor-2.13.3/NEWS$
-- /usr/share/doc/libapparmor-2.13.3/README$
+- /usr/share/doc/libapparmor-2.13.3-r1$
+- /usr/share/doc/libapparmor-2.13.3-r1/AUTHORS$
+- /usr/share/doc/libapparmor-2.13.3-r1/ChangeLog$
+- /usr/share/doc/libapparmor-2.13.3-r1/NEWS$
+- /usr/share/doc/libapparmor-2.13.3-r1/README$

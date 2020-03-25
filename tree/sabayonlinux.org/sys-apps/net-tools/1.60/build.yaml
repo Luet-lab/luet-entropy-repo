@@ -1,11 +1,10 @@
 
-steps:
-
-- source /etc/profile && echo Prepare sys-apps/net-tools-1.60_p20180626073013
 unpack: true
+steps:
+- source /etc/profile && ACCEPT_LICENSE=* equo i sys-apps/net-tools-1.60_p20180626073013 && equo cleanup
 requires:
 - category: "layer"
-  name: "sabayon-base-set-a"
+  name: "sabayon-base"
   version: "9999"
 includes:
 - /bin$
