@@ -4,8 +4,6 @@
 # Don't run this script on the local system. It downloads and evals remote content.
 # Consider yourself warned
 
-set -e
-
 # e.g. <0> acct-user/amule output
 
 PACKAGE="${1}"
@@ -16,8 +14,10 @@ BUILD_DEP_VERSION="${BUILD_DEP_VERSION:-3.11.3}"
 ENTITIY_PACKAGE_VERSION="${ENTITY_PACKAGE_VERSION:-0+1}"
 
 PACKAGE_NAME="$(echo $PACKAGE | grep -oP '.*\/\K.*')"
-EBUILD="$PACKAGE_NAME-0.ebuild"
-content=$(curl -s "https://raw.githubusercontent.com/gentoo/gentoo/master/${PACKAGE}/${EBUILD}")
+
+EBUILD=$(curl -s -H "Authorization: token ${GITHUB_TOKEN}" https://api.github.com/repos/gentoo/gentoo/contents/$PACKAGE | jq -r '.[] | select (.name | contains("ebuild")).name')
+
+content=$(curl -s -H "Authorization: token ${GITHUB_TOKEN}" "https://raw.githubusercontent.com/gentoo/gentoo/master/${PACKAGE}/${EBUILD}")
 
 ## Shadow eclass functions
 inherit() {
@@ -38,19 +38,26 @@ if [[ "$PACKAGE" == acct-user* ]]; then
 
     echo "User package"
     eval "$content"
-    echo $ACCT_USER_ID
-    echo $ACCT_USER_GROUPS
+    echo "-- uid: $ACCT_USER_ID"
+    echo "-- user group: $ACCT_USER_GROUPS"
     RDEPEND=$(echo -e "${RDEPEND}" | tr -d '[:space:]')
     RDEPEND_PACKAGE_NAME="$(echo $RDEPEND | grep -oP '.*\/\K.*')"
 
-    (($(curl --silent -I https://raw.githubusercontent.com/gentoo/gentoo/master/acct-group/$PACKAGE_NAME/${EBUILD} \
+    # Matching group is available
+    if (($(curl --silent -I https://raw.githubusercontent.com/gentoo/gentoo/master/acct-group/$PACKAGE_NAME/${EBUILD} \
     | grep -E "^HTTP" \
-    | awk -F " " '{print $2}') == 200)) \
-    && group=$(curl -s "https://raw.githubusercontent.com/gentoo/gentoo/master/acct-group/$PACKAGE_NAME/${EBUILD}")
+    | awk -F " " '{print $2}') == 200)); then
+    group=$(curl -s "https://raw.githubusercontent.com/gentoo/gentoo/master/acct-group/$PACKAGE_NAME/${EBUILD}")
+    elif [ -n "${RDEPEND_PACKAGE_NAME}" ]; then
+      RDEPEND_EBUILD=$(curl -s -H "Authorization: token ${GITHUB_TOKEN}" https://api.github.com/repos/gentoo/gentoo/contents/acct-group/$RDEPEND_PACKAGE_NAME | jq -r '.[] | select (.name | contains("ebuild")).name')
+      group=$(curl -s "https://raw.githubusercontent.com/gentoo/gentoo/master/$RDEPEND/${RDEPEND_EBUILD}")
+    else
     group=$(curl -s "https://raw.githubusercontent.com/gentoo/gentoo/master/$RDEPEND/${RDEPEND_PACKAGE_NAME}-0.ebuild")
+    fi
 
     eval "$group"
 
+    echo "-- gid: ${ACCT_GROUP_ID}"
 if [ "$ACCT_USER_SHELL" == "-1" ];
 then
 ACCT_USER_SHELL="/sbin/nologin"
