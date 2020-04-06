@@ -1,14 +1,7 @@
-
 steps:
-
-- source /etc/profile && echo Prepare acct-user/postmaster-0
-unpack: true
+- mkdir /etc/entities/|| true
+- cp -rfv postmaster*.yaml /etc/entities/
 requires:
-- category: "layer"
-  name: "sabayon-base-set-a"
-  version: "9999"
-includes:
-- /var$
-- /var/spool$
-- /var/spool/mail$
-- /var/spool/mail/.keep_acct-user_postmaster-0$
+- category: "distro"
+  name: "alpine"
+  version: "3.11.3"

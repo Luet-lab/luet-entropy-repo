@@ -1,14 +1,7 @@
-Labels: null
-category: acct-group
-conflicts: null
-id: 0
-name: mysql
+category: "acct-group"
+name: "mysql"
+version: "0+1"
 requires:
-- Labels: null
-  category: system
-  conflicts: null
-  id: 0
-  name: entities
-  requires: null
-  version: '>=0.1'
-version: 0+2
+- category: "system"
+  name: "entities"
+  version: ">=0.1"

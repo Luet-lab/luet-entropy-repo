@@ -1,13 +1,7 @@
-
 steps:
-
-- source /etc/profile && echo Prepare acct-user/sshd-0
-unpack: true
+- mkdir /etc/entities/|| true
+- cp -rfv sshd*.yaml /etc/entities/
 requires:
-- category: "layer"
-  name: "sabayon-base-set-a"
-  version: "9999"
-includes:
-- /var$
-- /var/empty$
-- /var/empty/.keep_acct-user_sshd-0$
+- category: "distro"
+  name: "alpine"
+  version: "3.11.3"

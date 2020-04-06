@@ -1,14 +1,10 @@
-Labels: null
-category: acct-user
-conflicts: null
-id: 0
-name: qmails
+category: "acct-user"
+name: "qmails"
+version: "0+1"
 requires:
-- Labels: null
-  category: acct-group
-  conflicts: null
-  id: 0
-  name: qmail
-  requires: null
-  version: '>=0'
-version: 0+1
+- category: "acct-group"
+  name: "qmails"
+  version: ">=0"
+- category: "system"
+  name: "entities"
+  version: ">=0.1"

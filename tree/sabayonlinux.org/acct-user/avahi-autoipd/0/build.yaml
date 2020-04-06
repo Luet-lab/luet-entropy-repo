@@ -1,10 +1,7 @@
-
 steps:
-
-- source /etc/profile && echo Prepare acct-user/avahi-autoipd-0
-unpack: true
+- mkdir /etc/entities/|| true
+- cp -rfv avahi-autoipd*.yaml /etc/entities/
 requires:
-- category: "layer"
-  name: "sabayon-base-set-a"
-  version: "9999"
-includes:
+- category: "distro"
+  name: "alpine"
+  version: "3.11.3"
