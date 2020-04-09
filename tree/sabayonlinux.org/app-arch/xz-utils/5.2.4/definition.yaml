@@ -4,14 +4,6 @@ conflicts: null
 id: 0
 license: GPL-2+ LGPL-2.1+ public-domain
 name: xz-utils
-requires:
-- Labels: null
-  category: app-portage
-  conflicts: null
-  id: 0
-  name: elt-patches
-  requires: null
-  version: '>=20170815'
 use_flags:
 - big-endian
 - nls
