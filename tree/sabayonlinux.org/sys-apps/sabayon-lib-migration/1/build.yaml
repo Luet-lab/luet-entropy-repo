@@ -1,5 +1,3 @@
-
-unpack: true
 steps:
 - source /etc/profile && ACCEPT_LICENSE=* equo i sys-apps/sabayon-lib-migration-1 && equo cleanup
 requires:
