@@ -3,8 +3,17 @@ general:
 
 repositories:
    - name: "sabayonlinux.org"
+     description: "Sabayon Linux Repository"
      type: "http"
      enable: true
      priority: 1
      urls:
        - "https://dispatcher.sabayon.org/sbi/namespace/luet-entropy-repo"
+   - name: "luet-embedded"
+     description: "Luet toolkit Repository"
+     type: "http"
+     enable: true
+     priority: 1
+     urls:
+       - "https://raw.githubusercontent.com/Luet-lab/luet-repo/gh-pages"
+
