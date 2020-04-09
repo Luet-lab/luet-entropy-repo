@@ -1,8 +1,4 @@
-
-unpack: true
-steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i sys-auth/pam_passwdqc-1.3.0 && equo cleanup
 requires:
-- category: "layer"
-  name: "sabayon-base"
-  version: "9999"
+- category: "distro"
+  name: "alpine"
+  version: "3.11.3"
