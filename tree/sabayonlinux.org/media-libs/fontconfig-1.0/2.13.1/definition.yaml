@@ -1,80 +1,13 @@
-Labels: null
 category: media-libs
-conflicts: null
-id: 0
 license: MIT
 name: fontconfig-1.0
 requires:
-- Labels: null
-  category: app-portage
-  conflicts: null
-  id: 0
-  name: elt-patches
-  requires: null
-  version: '>=20170815'
-- Labels: null
-  category: dev-libs
-  conflicts: null
-  id: 0
+- category: dev-libs
   name: expat
-  requires: null
   version: '>=2.1.0'
-- Labels: null
-  category: media-libs
-  conflicts: null
-  id: 0
+- category: media-libs
   name: freetype-2
-  requires: null
   version: '>=2.9'
-- Labels: null
-  category: sys-devel
-  conflicts: null
-  id: 0
-  name: autoconf-2.69
-  requires: null
-  version: '>=2.69'
-- Labels: null
-  category: sys-devel
-  conflicts: null
-  id: 0
-  name: automake-1.15
-  requires: null
-  version: '>=1.15.1'
-- Labels: null
-  category: sys-devel
-  conflicts: null
-  id: 0
-  name: gettext
-  requires: null
-  version: '>=0.19.8'
-- Labels: null
-  category: sys-devel
-  conflicts: null
-  id: 0
-  name: libtool-2
-  requires: null
-  version: '>=2.4'
-- Labels: null
-  category: app-eselect
-  conflicts: null
-  id: 0
-  name: eselect-fontconfig
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: gperf
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: sys-apps
-  conflicts: null
-  id: 0
-  name: util-linux
-  requires: null
-  version: '>=0'
 use_flags:
 - big-endian
 - -abi_s390_32
