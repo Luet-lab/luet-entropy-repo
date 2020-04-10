@@ -1,93 +1,21 @@
-Labels: null
 category: sys-libs
-conflicts: null
-id: 0
 license: BSD GPL-2
 name: pam
 requires:
-- Labels: null
-  category: app-portage
-  conflicts: null
-  id: 0
-  name: elt-patches
-  requires: null
-  version: '>=20170815'
-- Labels: null
-  category: sys-devel
-  conflicts: null
-  id: 0
-  name: autoconf-2.69
-  requires: null
-  version: '>=2.69'
-- Labels: null
-  category: sys-devel
-  conflicts: null
-  id: 0
-  name: automake-1.15
-  requires: null
-  version: '>=1.15.1'
-- Labels: null
-  category: sys-devel
-  conflicts: null
-  id: 0
-  name: libtool-2
-  requires: null
-  version: '>=2.4'
-- Labels: null
-  category: sys-libs
-  conflicts: null
-  id: 0
+- category: sys-libs
   name: cracklib
-  requires: null
   version: '>=2.9.1'
-- Labels: null
-  category: sys-libs
-  conflicts: null
-  id: 0
+- category: sys-libs
   name: db-6.0
-  requires: null
   version: '>=4.8.30'
-- Labels: null
-  category: app-text
-  conflicts: null
-  id: 0
-  name: docbook-xml-dtd-4.5
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-libs
-  conflicts: null
-  id: 0
+- category: dev-libs
   name: libxslt
-  requires: null
   version: '>=0'
-- Labels: null
-  category: sys-auth
-  conflicts: null
-  id: 0
+- category: sys-auth
   name: pambase
-  requires: null
   version: '>=0'
-- Labels: null
-  category: sys-devel
-  conflicts: null
-  id: 0
-  name: flex
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: sys-devel
-  conflicts: null
-  id: 0
-  name: gettext
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: sys-libs
-  conflicts: null
-  id: 0
+- category: sys-libs
   name: libcap
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian
