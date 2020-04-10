@@ -1,38 +1,13 @@
-Labels: null
 category: dev-libs
-conflicts: null
-id: 0
 license: openssl
 name: openssl
 requires:
-- Labels: null
-  category: app-misc
-  conflicts: null
-  id: 0
+- category: app-misc
   name: c_rehash
-  requires: null
   version: '>=1.7'
-- Labels: null
-  category: dev-lang
-  conflicts: null
-  id: 0
-  name: perl
-  requires: null
-  version: '>=5'
-- Labels: null
-  category: sys-libs
-  conflicts: null
-  id: 0
+- category: sys-libs
   name: zlib
-  requires: null
   version: '>=1.2.8'
-- Labels: null
-  category: app-misc
-  conflicts: null
-  id: 0
-  name: ca-certificates
-  requires: null
-  version: '>=0'
 use_flags:
 - static-libs
 - big-endian
