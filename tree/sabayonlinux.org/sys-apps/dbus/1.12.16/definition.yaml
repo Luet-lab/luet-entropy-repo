@@ -1,100 +1,18 @@
-Labels: null
 category: sys-apps
-conflicts: null
-id: 0
 license: AFL-2.1 GPL-2
 name: dbus
 requires:
-- Labels: null
-  category: app-portage
-  conflicts: null
-  id: 0
-  name: elt-patches
-  requires: null
-  version: '>=20170815'
-- Labels: null
-  category: dev-libs
-  conflicts: null
-  id: 0
+- category: dev-libs
   name: expat
-  requires: null
   version: '>=2.1.0'
-- Labels: null
-  category: sys-devel
-  conflicts: null
-  id: 0
-  name: autoconf-2.69
-  requires: null
-  version: '>=2.69'
-- Labels: null
-  category: sys-devel
-  conflicts: null
-  id: 0
-  name: automake-1.15
-  requires: null
-  version: '>=1.15.1'
-- Labels: null
-  category: sys-devel
-  conflicts: null
-  id: 0
-  name: libtool-2
-  requires: null
-  version: '>=2.4'
-- Labels: null
-  category: acct-user
-  conflicts: null
-  id: 0
+- category: acct-user
   name: messagebus
-  requires: null
   version: '>=0'
-- Labels: null
-  category: app-text
-  conflicts: null
-  id: 0
-  name: docbook-xml-dtd-4.5
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: app-text
-  conflicts: null
-  id: 0
-  name: xmlto
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-libs
-  conflicts: null
-  id: 0
-  name: expat
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: sys-apps
-  conflicts: null
-  id: 0
-  name: systemd
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: sys-devel
-  conflicts: null
-  id: 0
-  name: autoconf-archive
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: x11-libs
-  conflicts: null
-  id: 0
+- category: x11-libs
   name: libX11
-  requires: null
   version: '>=0'
-- Labels: null
-  category: x11-libs
-  conflicts: null
-  id: 0
+- category: x11-libs
   name: libXt
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian
