@@ -5,7 +5,7 @@ CI_ARGS?=
 # Abs path only. It gets copied in chroot in pre-seed stages
 LUET?=/usr/bin/luet
 export ROOT_DIR:=$(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))
-DESTINATION?=$(ROOT_DIR)/output
+DESTINATION?=$(ROOT_DIR)/build
 TARGET?=targets
 COMPRESSION?=gzip
 CLEAN?=false
@@ -47,15 +47,15 @@ rebuild-all:
 .PHONY: create-repo
 create-repo:
 	$(SUDO) $(LUET) create-repo --tree "$(TREE)" \
-    --output $(ROOT_DIR)/build \
-    --packages $(ROOT_DIR)/build \
+    --output $(DESTINATION) \
+    --packages $(DESTINATION) \
     --name "luet-entropy-repo" \
     --descr "Luet Entropy Repo" \
     --urls "http://localhost:8000" \
     --tree-compression gzip \
     --tree-filename tree.tar \
     --meta-compression gzip \
-    --type http \
+    --type http
 
 
 .PHONY: serve-repo
