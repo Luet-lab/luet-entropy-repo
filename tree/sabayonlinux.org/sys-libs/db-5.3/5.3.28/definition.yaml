@@ -1,15 +1,6 @@
 category: sys-libs
 license: Sleepycat
 name: db-5.3
-requires:
-- Labels: null
-  category: sys-devel
-  name: binutils-2.32
-  version: '>=2.16.1'
-- Labels: null
-  category: sys-devel
-  name: libtool-2
-  version: '>=2.4'
 use_flags:
 - -examples
 - -java
