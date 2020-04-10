@@ -1,44 +1,18 @@
-Labels: null
 category: dev-lang
-conflicts: null
-id: 0
 license: Artistic GPL-1+
 name: perl
 requires:
-- Labels: null
-  category: app-admin
-  conflicts: null
-  id: 0
-  name: perl-cleaner
-  requires: null
-  version: '>=2.5'
-- Labels: null
-  category: sys-libs
-  conflicts: null
-  id: 0
+- category: sys-libs
   name: gdbm
-  requires: null
   version: '>=1.8.3'
-- Labels: null
-  category: app-arch
-  conflicts: null
-  id: 0
+- category: app-arch
   name: bzip2
-  requires: null
   version: '>=0'
-- Labels: null
-  category: sys-libs
-  conflicts: null
-  id: 0
+- category: sys-libs
   name: db-6.0
-  requires: null
   version: '>=0'
-- Labels: null
-  category: sys-libs
-  conflicts: null
-  id: 0
+- category: sys-libs
   name: zlib
-  requires: null
   version: '>=0'
 use_flags:
 - gdbm
