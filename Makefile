@@ -3,13 +3,13 @@ CONCURRENCY?=1
 CI_ARGS?=
 
 # Abs path only. It gets copied in chroot in pre-seed stages
-LUET?=/usr/bin/luet
+export LUET?=/usr/bin/luet
 export ROOT_DIR:=$(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))
 DESTINATION?=$(ROOT_DIR)/build
 TARGET?=targets
 COMPRESSION?=gzip
 CLEAN?=false
-TREE?=tree
+export TREE?=tree
 BUILD_ARGS?=--pull --image-repository sabayonarm/luetcache
 SUDO?=
 
@@ -61,3 +61,7 @@ create-repo:
 .PHONY: serve-repo
 serve-repo:
 	LUET_NOLOCK=true $(LUET) serve-repo --port 8000 --dir $(ROOT_DIR)/build
+
+.PHONY: validate
+validate:
+	$(ROOT_DIR)/scripts/validate.sh
