@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-if [ -d "$ROOT_DIR" ]; then
+if [ ! -d "$ROOT_DIR/luet-repo" ]; then
   git clone https://github.com/Luet-lab/luet-repo $ROOT_DIR/luet-repo
 fi
 
