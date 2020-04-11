@@ -1,23 +1,9 @@
-Labels: null
 category: dev-libs
-conflicts: null
-id: 0
 license: LGPL-2.1
 name: mpfr
 requires:
-- Labels: null
-  category: app-portage
-  conflicts: null
-  id: 0
-  name: elt-patches
-  requires: null
-  version: '>=20170815'
-- Labels: null
-  category: dev-libs
-  conflicts: null
-  id: 0
+- category: dev-libs
   name: gmp
-  requires: null
   version: '>=4.1.4'
 use_flags:
 - big-endian
