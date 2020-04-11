@@ -1,24 +1,6 @@
-Labels: null
 category: dev-libs
-conflicts: null
-id: 0
 license: Apache-2.0-with-LLVM-exceptions BSD MIT
 name: libclc
-requires:
-- Labels: null
-  category: dev-lang
-  conflicts: null
-  id: 0
-  name: python-2.7
-  requires: null
-  version: '>=2.7.5'
-- Labels: null
-  category: sys-devel
-  conflicts: null
-  id: 0
-  name: clang-9
-  requires: null
-  version: '>=0'
 use_flags:
 - split-usr
 - video_cards_radeonsi
