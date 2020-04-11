@@ -1,44 +1,23 @@
-Labels: null
 category: dev-perl
-conflicts: null
-id: 0
 license: Artistic GPL-1+
 name: LWP-Protocol-https
 requires:
-- Labels: null
-  category: dev-perl
-  conflicts: null
-  id: 0
+- category: dev-perl
   name: IO-Socket-SSL
-  requires: null
   version: '>=1.540.0'
-- Labels: null
-  category: dev-perl
-  conflicts: null
-  id: 0
+- category: dev-perl
   name: Net-HTTP
-  requires: null
   version: '>=6'
-- Labels: null
-  category: dev-perl
-  conflicts: null
-  id: 0
-  name: libwww-perl
-  requires: null
-  version: '>=6.60.0'
-- Labels: null
-  category: app-misc
-  conflicts: null
-  id: 0
+# Drop this dependency available in Gentoo
+# but that generate cycle dep
+#- category: dev-perl
+#  name: libwww-perl
+#  version: '>=6.60.0'
+- category: app-misc
   name: ca-certificates
-  requires: null
   version: '>=0'
-- Labels: null
-  category: dev-lang
-  conflicts: null
-  id: 0
+- category: dev-lang
   name: perl
-  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU
