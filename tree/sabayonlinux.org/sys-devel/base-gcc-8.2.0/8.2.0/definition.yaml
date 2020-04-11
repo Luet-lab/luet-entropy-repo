@@ -17,24 +17,9 @@ requires:
 - category: dev-libs
   name: mpfr
   version: '>=2.4.2'
-- category: sys-devel
-  name: binutils-2.32
-  version: '>=2.20'
-- category: sys-devel
-  name: bison
-  version: '>=1.875'
-- category: sys-devel
-  name: gcc-config
-  version: '>=1.7'
 - category: sys-libs
   name: glibc-2.2
   version: '>=2.13'
-- category: sys-devel
-  name: gettext
-  version: '>=0'
-- category: sys-devel
-  name: gnuconfig
-  version: '>=0'
 - category: sys-libs
   name: zlib
   version: '>=0'
