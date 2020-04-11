@@ -1,66 +1,27 @@
-Labels: null
 category: media-libs
-conflicts: null
-id: 0
 license: ISC Old-MIT icu
 name: harfbuzz
 requires:
-- Labels: null
-  category: app-portage
-  conflicts: null
-  id: 0
-  name: elt-patches
-  requires: null
-  version: '>=20170815'
-- Labels: null
-  category: dev-libs
-  conflicts: null
-  id: 0
+- category: dev-libs
   name: glib-2
-  requires: null
   version: '>=2.38'
-- Labels: null
-  category: dev-libs
-  conflicts: null
-  id: 0
+- category: dev-libs
   name: gobject-introspection
-  requires: null
   version: '>=1.34'
-- Labels: null
-  category: dev-libs
-  conflicts: null
-  id: 0
+- category: dev-libs
   name: icu
-  requires: null
   version: '>=51.2'
-- Labels: null
-  category: media-gfx
-  conflicts: null
-  id: 0
+- category: media-gfx
   name: graphite2
-  requires: null
   version: '>=1.2.1'
-- Labels: null
-  category: media-libs
-  conflicts: null
-  id: 0
-  name: freetype-2
-  requires: null
-  version: '>=2.5.0.1'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: gtk-doc-am
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: x11-libs
-  conflicts: null
-  id: 0
-  name: cairo
-  requires: null
-  version: '>=0'
+# In gentoo we have this deps that generate cycle with freetype
+#- category: media-libs
+#  name: freetype-2
+#  version: '>=2.5.0.1'
+#  This generate cycle because cairo depends on freetype-2
+#- category: x11-libs
+#  name: cairo
+#  version: '>=0'
 use_flags:
 - big-endian
 - -abi_x86_x32
