@@ -1,44 +1,9 @@
-Labels: null
 category: app-misc
-conflicts: null
-id: 0
 license: GPL-2
 name: pax-utils
 requires:
-- Labels: null
-  category: dev-lang
-  conflicts: null
-  id: 0
-  name: python-exec-2
-  requires: null
-  version: '>=2'
-- Labels: null
-  category: app-arch
-  conflicts: null
-  id: 0
-  name: xz-utils
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-lang
-  conflicts: null
-  id: 0
-  name: python-3.6
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-python
-  conflicts: null
-  id: 0
-  name: pyelftools
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: sys-libs
-  conflicts: null
-  id: 0
+- category: sys-libs
   name: libseccomp
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian
