@@ -1,128 +1,54 @@
-Labels: null
 category: net-print
-conflicts: null
-id: 0
 license: GPL-2 MIT
 name: cups-filters
 requires:
-- Labels: null
-  category: app-text
-  conflicts: null
-  id: 0
+- category: app-text
   name: ghostscript-gpl
-  requires: null
   version: '>=9.09'
-- Labels: null
-  category: app-text
-  conflicts: null
-  id: 0
+- category: app-text
   name: poppler-base
-  requires: null
   version: '>=0.32'
-- Labels: null
-  category: app-text
-  conflicts: null
-  id: 0
+- category: app-text
   name: qpdf
-  requires: null
   version: '>=8.3.0'
-- Labels: null
-  category: net-print
-  conflicts: null
-  id: 0
-  name: cups
-  requires: null
-  version: '>=1.7.3'
-- Labels: null
-  category: app-text
-  conflicts: null
-  id: 0
+- category: app-text
   name: mupdf
-  requires: null
   version: '>=0'
-- Labels: null
-  category: dev-lang
-  conflicts: null
-  id: 0
+- category: dev-lang
   name: perl
-  requires: null
   version: '>=0'
-- Labels: null
-  category: dev-libs
-  conflicts: null
-  id: 0
+- category: dev-libs
   name: glib-2
-  requires: null
   version: '>=0'
-- Labels: null
-  category: media-libs
-  conflicts: null
-  id: 0
+- category: media-libs
   name: fontconfig-1.0
-  requires: null
   version: '>=0'
-- Labels: null
-  category: media-libs
-  conflicts: null
-  id: 0
+- category: media-libs
   name: freetype-2
-  requires: null
   version: '>=0'
-- Labels: null
-  category: media-libs
-  conflicts: null
-  id: 0
+- category: media-libs
   name: lcms-2
-  requires: null
   version: '>=0'
-- Labels: null
-  category: media-libs
-  conflicts: null
-  id: 0
+- category: media-libs
   name: libpng
-  requires: null
   version: '>=0'
-- Labels: null
-  category: media-libs
-  conflicts: null
-  id: 0
+- category: media-libs
   name: tiff
-  requires: null
   version: '>=0'
-- Labels: null
-  category: net-dns
-  conflicts: null
-  id: 0
+- category: net-dns
   name: avahi-gtk3
-  requires: null
   version: '>=0'
-- Labels: null
-  category: net-nds
-  conflicts: null
-  id: 0
+- category: net-nds
   name: openldap
-  requires: null
   version: '>=0'
-- Labels: null
-  category: sys-apps
-  conflicts: null
-  id: 0
+- category: sys-apps
   name: dbus
-  requires: null
   version: '>=0'
-- Labels: null
-  category: sys-devel
-  conflicts: null
-  id: 0
+- category: sys-devel
   name: bc
-  requires: null
   version: '>=0'
-- Labels: null
-  category: sys-libs
-  conflicts: null
-  id: 0
+- category: sys-libs
   name: zlib
-  requires: null
   version: '>=0'
 use_flags:
 - dbus
