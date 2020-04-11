@@ -13,13 +13,6 @@ requires:
   requires: null
   version: '>=1.0.6'
 - Labels: null
-  category: dev-lang
-  conflicts: null
-  id: 0
-  name: yasm
-  requires: null
-  version: '>=1.3'
-- Labels: null
   category: dev-libs
   conflicts: null
   id: 0
@@ -188,13 +181,6 @@ requires:
   requires: null
   version: '>=2.12.23'
 - Labels: null
-  category: sys-devel
-  conflicts: null
-  id: 0
-  name: make
-  requires: null
-  version: '>=3.81'
-- Labels: null
   category: sys-libs
   conflicts: null
   id: 0
@@ -262,27 +248,6 @@ requires:
   conflicts: null
   id: 0
   name: libsdl2
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: net-misc
-  conflicts: null
-  id: 0
-  name: wget
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: sys-devel
-  conflicts: null
-  id: 0
-  name: bc
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: sys-kernel
-  conflicts: null
-  id: 0
-  name: linux-headers
   requires: null
   version: '>=0'
 use_flags:
