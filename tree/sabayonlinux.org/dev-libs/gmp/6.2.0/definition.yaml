@@ -1,30 +1,9 @@
-Labels: null
 category: dev-libs
-conflicts: null
-id: 0
 license: GPL-2+ LGPL-3+
 name: gmp
 requires:
-- Labels: null
-  category: app-portage
-  conflicts: null
-  id: 0
-  name: elt-patches
-  requires: null
-  version: '>=20170815'
-- Labels: null
-  category: app-arch
-  conflicts: null
-  id: 0
+- category: app-arch
   name: xz-utils
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: sys-devel
-  conflicts: null
-  id: 0
-  name: m4
-  requires: null
   version: '>=0'
 use_flags:
 - static-libs
