@@ -1,87 +1,13 @@
-Labels: null
 category: x11-libs
-conflicts: null
-id: 0
 license: MIT
 name: xcb-util
 requires:
-- Labels: null
-  category: app-portage
-  conflicts: null
-  id: 0
-  name: elt-patches
-  requires: null
-  version: '>=20170815'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
+- category: dev-util
   name: gperf
-  requires: null
   version: '>=3.0.1'
-- Labels: null
-  category: sys-devel
-  conflicts: null
-  id: 0
-  name: autoconf-2.69
-  requires: null
-  version: '>=2.69'
-- Labels: null
-  category: sys-devel
-  conflicts: null
-  id: 0
-  name: automake-1.15
-  requires: null
-  version: '>=1.15.1'
-- Labels: null
-  category: sys-devel
-  conflicts: null
-  id: 0
-  name: libtool-2
-  requires: null
-  version: '>=2.4'
-- Labels: null
-  category: x11-libs
-  conflicts: null
-  id: 0
+- category: x11-libs
   name: libxcb
-  requires: null
   version: '>=1.9.1'
-- Labels: null
-  category: x11-libs
-  conflicts: null
-  id: 0
-  name: xcb-util-cursor
-  requires: null
-  version: '>=0.1.1'
-- Labels: null
-  category: x11-libs
-  conflicts: null
-  id: 0
-  name: xcb-util-image
-  requires: null
-  version: '>=0.4.0'
-- Labels: null
-  category: x11-libs
-  conflicts: null
-  id: 0
-  name: xcb-util-keysyms
-  requires: null
-  version: '>=0.4.0'
-- Labels: null
-  category: x11-libs
-  conflicts: null
-  id: 0
-  name: xcb-util-renderutil
-  requires: null
-  version: '>=0.3.9'
-- Labels: null
-  category: x11-libs
-  conflicts: null
-  id: 0
-  name: xcb-util-wm
-  requires: null
-  version: '>=0.4.0'
 use_flags:
 - big-endian
 - -abi_s390_32
