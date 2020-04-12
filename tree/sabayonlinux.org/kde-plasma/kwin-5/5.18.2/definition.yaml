@@ -356,27 +356,6 @@ requires:
   requires: null
   version: '>=0'
 - Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: cmake
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: desktop-file-utils
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: ninja
-  requires: null
-  version: '>=0'
-- Labels: null
   category: kde-frameworks
   conflicts: null
   id: 0
@@ -409,13 +388,6 @@ requires:
   conflicts: null
   id: 0
   name: mesa
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: x11-base
-  conflicts: null
-  id: 0
-  name: xorg-proto
   requires: null
   version: '>=0'
 - Labels: null
@@ -479,13 +451,6 @@ requires:
   conflicts: null
   id: 0
   name: xcb-util-wm
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: x11-misc
-  conflicts: null
-  id: 0
-  name: shared-mime-info
   requires: null
   version: '>=0'
 use_flags:
