@@ -6,13 +6,6 @@ license: GPL-2 LGPL-2.1
 name: mpg123
 requires:
 - Labels: null
-  category: app-portage
-  conflicts: null
-  id: 0
-  name: elt-patches
-  requires: null
-  version: '>=20170815'
-- Labels: null
   category: app-eselect
   conflicts: null
   id: 0
@@ -45,13 +38,6 @@ requires:
   conflicts: null
   id: 0
   name: pulseaudio
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: sys-devel
-  conflicts: null
-  id: 0
-  name: libtool-2
   requires: null
   version: '>=0'
 use_flags:
