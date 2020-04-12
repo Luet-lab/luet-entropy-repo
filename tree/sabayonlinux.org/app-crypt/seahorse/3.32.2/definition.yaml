@@ -41,20 +41,6 @@ requires:
   requires: null
   version: '>=2.44'
 - Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: meson
-  requires: null
-  version: '>=0.48.2'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: ninja
-  requires: null
-  version: '>=1.7.2'
-- Labels: null
   category: net-dns
   conflicts: null
   id: 0
@@ -69,26 +55,12 @@ requires:
   requires: null
   version: '>=2.33.92'
 - Labels: null
-  category: sys-devel
-  conflicts: null
-  id: 0
-  name: gettext
-  requires: null
-  version: '>=0.19.8'
-- Labels: null
   category: x11-libs
   conflicts: null
   id: 0
   name: gtk+-3
   requires: null
   version: '>=3.22.0'
-- Labels: null
-  category: app-arch
-  conflicts: null
-  id: 0
-  name: xz-utils
-  requires: null
-  version: '>=0'
 - Labels: null
   category: app-crypt
   conflicts: null
@@ -114,49 +86,7 @@ requires:
   category: dev-libs
   conflicts: null
   id: 0
-  name: appstream-glib
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-libs
-  conflicts: null
-  id: 0
   name: libpwquality
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-libs
-  conflicts: null
-  id: 0
-  name: libxml2-2
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: desktop-file-utils
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: gdbus-codegen
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: glib-utils
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: itstool
   requires: null
   version: '>=0'
 - Labels: null
@@ -171,13 +101,6 @@ requires:
   conflicts: null
   id: 0
   name: openldap
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: x11-misc
-  conflicts: null
-  id: 0
-  name: shared-mime-info
   requires: null
   version: '>=0'
 use_flags:
