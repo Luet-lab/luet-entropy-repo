@@ -6,13 +6,6 @@ license: LGPL-2.1+
 name: libcanberra
 requires:
 - Labels: null
-  category: app-portage
-  conflicts: null
-  id: 0
-  name: elt-patches
-  requires: null
-  version: '>=20170815'
-- Labels: null
   category: dev-libs
   conflicts: null
   id: 0
@@ -33,13 +26,6 @@ requires:
   name: gtk+-3
   requires: null
   version: '>=2.20.0'
-- Labels: null
-  category: app-arch
-  conflicts: null
-  id: 0
-  name: xz-utils
-  requires: null
-  version: '>=0'
 - Labels: null
   category: dev-libs
   conflicts: null
