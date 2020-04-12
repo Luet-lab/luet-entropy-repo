@@ -47,13 +47,6 @@ requires:
   name: jupyter_client
   requires: null
   version: '>=0'
-- Labels: null
-  category: dev-python
-  conflicts: null
-  id: 0
-  name: setuptools
-  requires: null
-  version: '>=0'
 use_flags:
 - -python_targets_python3_7
 - python_targets_python3_6
