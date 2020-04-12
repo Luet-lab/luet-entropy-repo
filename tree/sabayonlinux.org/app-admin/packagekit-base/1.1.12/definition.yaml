@@ -9,13 +9,6 @@ requires:
   category: app-portage
   conflicts: null
   id: 0
-  name: elt-patches
-  requires: null
-  version: '>=20170815'
-- Labels: null
-  category: app-portage
-  conflicts: null
-  id: 0
   name: layman
   requires: null
   version: '>=2'
@@ -26,13 +19,6 @@ requires:
   name: bash-completion
   requires: null
   version: '>=2'
-- Labels: null
-  category: dev-cpp
-  conflicts: null
-  id: 0
-  name: glibmm-2
-  requires: null
-  version: '>=2.4'
 - Labels: null
   category: dev-lang
   conflicts: null
@@ -69,20 +55,6 @@ requires:
   requires: null
   version: '>=0.9.9'
 - Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: gtk-doc-am
-  requires: null
-  version: '>=1.11'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: intltool
-  requires: null
-  version: '>=0.35.0'
-- Labels: null
   category: sys-apps
   conflicts: null
   id: 0
@@ -111,73 +83,10 @@ requires:
   requires: null
   version: '>=0.114'
 - Labels: null
-  category: sys-devel
-  conflicts: null
-  id: 0
-  name: autoconf-2.69
-  requires: null
-  version: '>=2.69'
-- Labels: null
-  category: sys-devel
-  conflicts: null
-  id: 0
-  name: automake-1.15
-  requires: null
-  version: '>=1.15.1'
-- Labels: null
-  category: sys-devel
-  conflicts: null
-  id: 0
-  name: libtool-2
-  requires: null
-  version: '>=2.4'
-- Labels: null
-  category: app-text
-  conflicts: null
-  id: 0
-  name: docbook-xsl-stylesheets
-  requires: null
-  version: '>=0'
-- Labels: null
   category: dev-db
   conflicts: null
   id: 0
   name: sqlite-3
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-libs
-  conflicts: null
-  id: 0
-  name: libxml2-2
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-libs
-  conflicts: null
-  id: 0
-  name: libxslt
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-libs
-  conflicts: null
-  id: 0
-  name: vala-common
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: desktop-file-utils
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: glib-utils
   requires: null
   version: '>=0'
 use_flags:
