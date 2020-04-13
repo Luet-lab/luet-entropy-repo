@@ -18,4 +18,6 @@ RUN rm -rf /var/cache/luet/packages/ /var/cache/luet/repos/
 # Temporay until TMPDIR is clean
 RUN rm -rf /tree*
 
+RUN mkdir /tmp
+ENV TMPDIR=/tmp
 ENTRYPOINT ["/bin/bash"]
