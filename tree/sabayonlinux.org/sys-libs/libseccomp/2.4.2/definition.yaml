@@ -1,17 +1,6 @@
-Labels: null
 category: sys-libs
-conflicts: null
-id: 0
 license: LGPL-2.1
 name: libseccomp
-requires:
-- Labels: null
-  category: sys-kernel
-  conflicts: null
-  id: 0
-  name: linux-headers
-  requires: null
-  version: '>=4.3'
 use_flags:
 - big-endian
 - -abi_s390_32
