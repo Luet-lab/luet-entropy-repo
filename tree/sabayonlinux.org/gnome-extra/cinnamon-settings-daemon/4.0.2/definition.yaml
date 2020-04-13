@@ -6,26 +6,12 @@ license: GPL-2+
 name: cinnamon-settings-daemon
 requires:
 - Labels: null
-  category: app-portage
-  conflicts: null
-  id: 0
-  name: elt-patches
-  requires: null
-  version: '>=20170815'
-- Labels: null
   category: dev-libs
   conflicts: null
   id: 0
   name: glib-2
   requires: null
   version: '>=2.38'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: intltool
-  requires: null
-  version: '>=0.37.1'
 - Labels: null
   category: gnome-base
   conflicts: null
@@ -69,27 +55,6 @@ requires:
   requires: null
   version: '>=0.97'
 - Labels: null
-  category: sys-devel
-  conflicts: null
-  id: 0
-  name: autoconf-2.69
-  requires: null
-  version: '>=2.69'
-- Labels: null
-  category: sys-devel
-  conflicts: null
-  id: 0
-  name: automake-1.15
-  requires: null
-  version: '>=1.15.1'
-- Labels: null
-  category: sys-devel
-  conflicts: null
-  id: 0
-  name: libtool-2
-  requires: null
-  version: '>=2.4'
-- Labels: null
   category: sys-power
   conflicts: null
   id: 0
@@ -118,27 +83,6 @@ requires:
   requires: null
   version: '>=0.1.27'
 - Labels: null
-  category: app-arch
-  conflicts: null
-  id: 0
-  name: xz-utils
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-libs
-  conflicts: null
-  id: 0
-  name: libxml2-2
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: desktop-file-utils
-  requires: null
-  version: '>=0'
-- Labels: null
   category: media-libs
   conflicts: null
   id: 0
@@ -164,13 +108,6 @@ requires:
   conflicts: null
   id: 0
   name: systemd
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: x11-base
-  conflicts: null
-  id: 0
-  name: xorg-proto
   requires: null
   version: '>=0'
 - Labels: null
@@ -213,13 +150,6 @@ requires:
   conflicts: null
   id: 0
   name: libxklavier
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: x11-misc
-  conflicts: null
-  id: 0
-  name: shared-mime-info
   requires: null
   version: '>=0'
 use_flags:
