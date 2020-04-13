@@ -1,24 +1,6 @@
-Labels: null
 category: sys-kernel
-conflicts: null
-id: 0
 license: GPL-2
 name: linux-headers
-requires:
-- Labels: null
-  category: app-arch
-  conflicts: null
-  id: 0
-  name: xz-utils
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-lang
-  conflicts: null
-  id: 0
-  name: perl
-  requires: null
-  version: '>=0'
 use_flags:
 - abi_x86_64
 - amd64
