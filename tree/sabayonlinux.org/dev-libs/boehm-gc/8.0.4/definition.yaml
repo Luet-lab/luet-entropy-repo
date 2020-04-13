@@ -1,23 +1,9 @@
-Labels: null
 category: dev-libs
-conflicts: null
-id: 0
 license: boehm-gc
 name: boehm-gc
 requires:
-- Labels: null
-  category: app-portage
-  conflicts: null
-  id: 0
-  name: elt-patches
-  requires: null
-  version: '>=20170815'
-- Labels: null
-  category: dev-libs
-  conflicts: null
-  id: 0
+- category: dev-libs
   name: libatomic_ops
-  requires: null
   version: '>=7.4'
 use_flags:
 - big-endian
