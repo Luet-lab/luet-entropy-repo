@@ -5,27 +5,6 @@ id: 0
 license: Apache-2.0
 name: libbson
 requires:
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: cmake
-  requires: null
-  version: '>=3.9.6'
-- Labels: null
-  category: dev-python
-  conflicts: null
-  id: 0
-  name: sphinx
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: ninja
-  requires: null
-  version: '>=0'
 use_flags:
 - split-usr
 - big-endian
