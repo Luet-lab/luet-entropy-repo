@@ -34,20 +34,6 @@ requires:
   requires: null
   version: '>=0.27'
 - Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: meson
-  requires: null
-  version: '>=0.48.2'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: ninja
-  requires: null
-  version: '>=1.7.2'
-- Labels: null
   category: gnome-base
   conflicts: null
   id: 0
@@ -181,13 +167,6 @@ requires:
   requires: null
   version: '>=0.114'
 - Labels: null
-  category: sys-devel
-  conflicts: null
-  id: 0
-  name: gettext
-  requires: null
-  version: '>=0.19.8'
-- Labels: null
   category: sys-fs
   conflicts: null
   id: 0
@@ -244,13 +223,6 @@ requires:
   requires: null
   version: '>=0'
 - Labels: null
-  category: app-arch
-  conflicts: null
-  id: 0
-  name: xz-utils
-  requires: null
-  version: '>=0'
-- Labels: null
   category: app-crypt
   conflicts: null
   id: 0
@@ -262,20 +234,6 @@ requires:
   conflicts: null
   id: 0
   name: mit-krb5
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: app-text
-  conflicts: null
-  id: 0
-  name: docbook-xml-dtd-4.5
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: app-text
-  conflicts: null
-  id: 0
-  name: docbook-xsl-stylesheets
   requires: null
   version: '>=0'
 - Labels: null
@@ -297,27 +255,6 @@ requires:
   conflicts: null
   id: 0
   name: libxslt
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: desktop-file-utils
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: gdbus-codegen
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: glib-utils
   requires: null
   version: '>=0'
 - Labels: null
@@ -353,13 +290,6 @@ requires:
   conflicts: null
   id: 0
   name: cups-pk-helper
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: x11-base
-  conflicts: null
-  id: 0
-  name: xorg-proto
   requires: null
   version: '>=0'
 - Labels: null
