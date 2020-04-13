@@ -1,31 +1,10 @@
-Labels: null
 category: sys-apps
-conflicts: null
-id: 0
 license: LGPL-2.1
 name: acl
 requires:
-- Labels: null
-  category: app-portage
-  conflicts: null
-  id: 0
-  name: elt-patches
-  requires: null
-  version: '>=20170815'
-- Labels: null
-  category: sys-apps
-  conflicts: null
-  id: 0
+- category: sys-apps
   name: attr
-  requires: null
   version: '>=2.4.47'
-- Labels: null
-  category: sys-devel
-  conflicts: null
-  id: 0
-  name: gettext
-  requires: null
-  version: '>=0'
 use_flags:
 - nls
 - -abi_s390_32
