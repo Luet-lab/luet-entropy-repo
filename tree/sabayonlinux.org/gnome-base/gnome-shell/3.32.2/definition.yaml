@@ -90,27 +90,6 @@ requires:
   requires: null
   version: '>=3.26'
 - Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: gdbus-codegen
-  requires: null
-  version: '>=2.45.3'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: meson
-  requires: null
-  version: '>=0.51.2'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: ninja
-  requires: null
-  version: '>=1.8.2'
-- Labels: null
   category: gnome-base
   conflicts: null
   id: 0
@@ -209,13 +188,6 @@ requires:
   requires: null
   version: '>=0.100'
 - Labels: null
-  category: sys-devel
-  conflicts: null
-  id: 0
-  name: gettext
-  requires: null
-  version: '>=0.19.8'
-- Labels: null
   category: sys-power
   conflicts: null
   id: 0
@@ -262,13 +234,6 @@ requires:
   conflicts: null
   id: 0
   name: at-spi2-core-2
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: app-arch
-  conflicts: null
-  id: 0
-  name: xz-utils
   requires: null
   version: '>=0'
 - Labels: null
@@ -325,20 +290,6 @@ requires:
   conflicts: null
   id: 0
   name: pygobject-base-3
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: desktop-file-utils
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: glib-utils
   requires: null
   version: '>=0'
 - Labels: null
@@ -409,13 +360,6 @@ requires:
   conflicts: null
   id: 0
   name: pango
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: x11-misc
-  conflicts: null
-  id: 0
-  name: shared-mime-info
   requires: null
   version: '>=0'
 - Labels: null
