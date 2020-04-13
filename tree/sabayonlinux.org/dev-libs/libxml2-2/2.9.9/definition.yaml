@@ -2,18 +2,12 @@ category: dev-libs
 license: MIT
 name: libxml2-2
 requires:
-- category: dev-lang
-  name: python-2.7
-  version: '>=2.7.5'
 - category: dev-libs
   name: icu
   version: '>=51.2'
 - category: sys-libs
   name: zlib
   version: '>=1.2.8'
-- category: dev-lang
-  name: python-3.6
-  version: '>=0'
 - category: sys-libs
   name: readline
   version: '>=0'
