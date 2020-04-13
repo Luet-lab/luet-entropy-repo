@@ -20,20 +20,6 @@ requires:
   requires: null
   version: '>=2.0.28'
 - Labels: null
-  category: app-eselect
-  conflicts: null
-  id: 0
-  name: eselect-pinentry
-  requires: null
-  version: '>=0.5'
-- Labels: null
-  category: app-portage
-  conflicts: null
-  id: 0
-  name: elt-patches
-  requires: null
-  version: '>=20170815'
-- Labels: null
   category: dev-libs
   conflicts: null
   id: 0
@@ -47,20 +33,6 @@ requires:
   name: libgcrypt
   requires: null
   version: '>=1.2.2'
-- Labels: null
-  category: sys-devel
-  conflicts: null
-  id: 0
-  name: gettext
-  requires: null
-  version: '>=0.19.8'
-- Labels: null
-  category: app-arch
-  conflicts: null
-  id: 0
-  name: xz-utils
-  requires: null
-  version: '>=0'
 - Labels: null
   category: app-crypt
   conflicts: null
@@ -76,38 +48,10 @@ requires:
   requires: null
   version: '>=0'
 - Labels: null
-  category: app-text
-  conflicts: null
-  id: 0
-  name: docbook-xml-dtd-4.5
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-libs
-  conflicts: null
-  id: 0
-  name: libxslt
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: desktop-file-utils
-  requires: null
-  version: '>=0'
-- Labels: null
   category: net-misc
   conflicts: null
   id: 0
   name: openssh
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: sys-libs
-  conflicts: null
-  id: 0
-  name: libcap
   requires: null
   version: '>=0'
 - Labels: null
@@ -122,13 +66,6 @@ requires:
   conflicts: null
   id: 0
   name: pam
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: x11-misc
-  conflicts: null
-  id: 0
-  name: shared-mime-info
   requires: null
   version: '>=0'
 use_flags:
