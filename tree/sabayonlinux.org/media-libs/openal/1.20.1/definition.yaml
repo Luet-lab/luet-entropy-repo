@@ -1,31 +1,6 @@
-Labels: null
 category: media-libs
-conflicts: null
-id: 0
 license: LGPL-2+
 name: openal
-requires:
-- Labels: null
-  category: media-libs
-  conflicts: null
-  id: 0
-  name: alsa-lib
-  requires: null
-  version: '>=1.0.27.2'
-- Labels: null
-  category: media-sound
-  conflicts: null
-  id: 0
-  name: pulseaudio
-  requires: null
-  version: '>=2.1'
-- Labels: null
-  category: media-libs
-  conflicts: null
-  id: 0
-  name: libsdl2
-  requires: null
-  version: '>=0'
 use_flags:
 - big-endian
 - -abi_x86_x32
