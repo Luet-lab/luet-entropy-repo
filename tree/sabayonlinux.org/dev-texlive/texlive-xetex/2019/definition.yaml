@@ -34,20 +34,6 @@ requires:
   requires: null
   version: '>=2010'
 - Labels: null
-  category: x11-apps
-  conflicts: null
-  id: 0
-  name: mkfontscale
-  requires: null
-  version: '>=1.2.0'
-- Labels: null
-  category: app-arch
-  conflicts: null
-  id: 0
-  name: xz-utils
-  requires: null
-  version: '>=0'
-- Labels: null
   category: dev-texlive
   conflicts: null
   id: 0
@@ -59,13 +45,6 @@ requires:
   conflicts: null
   id: 0
   name: texlive-mathscience
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: media-fonts
-  conflicts: null
-  id: 0
-  name: encodings
   requires: null
   version: '>=0'
 use_flags:
