@@ -6,13 +6,6 @@ license: BSD LGPL-2+
 name: webkit-gtk-4
 requires:
 - Labels: null
-  category: app-accessibility
-  conflicts: null
-  id: 0
-  name: at-spi2-core-2
-  requires: null
-  version: '>=2.5.3'
-- Labels: null
   category: app-misc
   conflicts: null
   id: 0
@@ -20,26 +13,12 @@ requires:
   requires: null
   version: '>=2.1.5'
 - Labels: null
-  category: app-portage
-  conflicts: null
-  id: 0
-  name: elt-patches
-  requires: null
-  version: '>=20170815'
-- Labels: null
   category: app-text
   conflicts: null
   id: 0
   name: enchant-2
   requires: null
   version: '>=0.22'
-- Labels: null
-  category: dev-lang
-  conflicts: null
-  id: 0
-  name: perl
-  requires: null
-  version: '>=5.10'
 - Labels: null
   category: dev-libs
   conflicts: null
@@ -89,20 +68,6 @@ requires:
   name: libxslt
   requires: null
   version: '>=1.1.7'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: cmake
-  requires: null
-  version: '>=3.10'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: gperf
-  requires: null
-  version: '>=3.0.1'
 - Labels: null
   category: gui-libs
   conflicts: null
@@ -195,20 +160,6 @@ requires:
   requires: null
   version: '>=0.3.1'
 - Labels: null
-  category: sys-devel
-  conflicts: null
-  id: 0
-  name: bison
-  requires: null
-  version: '>=2.4.3'
-- Labels: null
-  category: sys-devel
-  conflicts: null
-  id: 0
-  name: clang-9
-  requires: null
-  version: '>=5'
-- Labels: null
   category: x11-libs
   conflicts: null
   id: 0
@@ -223,31 +174,10 @@ requires:
   requires: null
   version: '>=3.22.0'
 - Labels: null
-  category: app-arch
-  conflicts: null
-  id: 0
-  name: xz-utils
-  requires: null
-  version: '>=0'
-- Labels: null
   category: dev-db
   conflicts: null
   id: 0
   name: sqlite-3
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-lang
-  conflicts: null
-  id: 0
-  name: python-3.6
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-lang
-  conflicts: null
-  id: 0
-  name: ruby-2.5
   requires: null
   version: '>=0'
 - Labels: null
@@ -262,34 +192,6 @@ requires:
   conflicts: null
   id: 0
   name: libtasn1
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: desktop-file-utils
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: gdbus-codegen
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: glib-utils
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: ninja
   requires: null
   version: '>=0'
 - Labels: null
@@ -318,13 +220,6 @@ requires:
   conflicts: null
   id: 0
   name: xdg-dbus-proxy
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: sys-devel
-  conflicts: null
-  id: 0
-  name: gettext
   requires: null
   version: '>=0'
 - Labels: null
@@ -381,13 +276,6 @@ requires:
   conflicts: null
   id: 0
   name: libnotify
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: x11-misc
-  conflicts: null
-  id: 0
-  name: shared-mime-info
   requires: null
   version: '>=0'
 use_flags:
