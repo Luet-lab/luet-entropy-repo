@@ -1,191 +1,75 @@
-Labels: null
 category: media-sound
-conflicts: null
-id: 0
 license: GPL-2
 name: pulseaudio
 requires:
-- Labels: null
-  category: dev-lang
-  conflicts: null
-  id: 0
-  name: orc
-  requires: null
-  version: '>=0.4.15'
-- Labels: null
-  category: dev-libs
-  conflicts: null
-  id: 0
+- category: dev-libs
   name: glib-2
-  requires: null
   version: '>=2.26.0'
-- Labels: null
-  category: media-libs
-  conflicts: null
-  id: 0
+- category: media-libs
   name: alsa-lib
-  requires: null
   version: '>=1.0.19'
-- Labels: null
-  category: media-libs
-  conflicts: null
-  id: 0
+- category: media-libs
   name: libsndfile
-  requires: null
   version: '>=1.0.20'
-- Labels: null
-  category: media-libs
-  conflicts: null
-  id: 0
+- category: media-libs
   name: webrtc-audio-processing
-  requires: null
   version: '>=0.2'
-- Labels: null
-  category: media-plugins
-  conflicts: null
-  id: 0
-  name: alsa-plugins
-  requires: null
-  version: '>=1.0.27'
-- Labels: null
-  category: net-dns
-  conflicts: null
-  id: 0
-  name: avahi-gtk3
-  requires: null
-  version: '>=0.6.12'
-- Labels: null
-  category: net-misc
-  conflicts: null
-  id: 0
+- category: net-misc
   name: ofono
-  requires: null
   version: '>=1.13'
-- Labels: null
-  category: net-wireless
-  conflicts: null
-  id: 0
+- category: net-wireless
   name: bluez
-  requires: null
   version: '>=5'
-- Labels: null
-  category: sys-apps
-  conflicts: null
-  id: 0
+- category: sys-apps
   name: dbus
-  requires: null
   version: '>=1.0.0'
-- Labels: null
-  category: sys-libs
-  conflicts: null
-  id: 0
+- category: sys-libs
   name: libcap
-  requires: null
   version: '>=2.22'
-- Labels: null
-  category: x11-libs
-  conflicts: null
-  id: 0
+- category: x11-libs
   name: libX11
-  requires: null
   version: '>=1.4.0'
-- Labels: null
-  category: x11-libs
-  conflicts: null
-  id: 0
+- category: x11-libs
   name: libXtst
-  requires: null
   version: '>=1.0.99.2'
-- Labels: null
-  category: x11-libs
-  conflicts: null
-  id: 0
+- category: x11-libs
   name: libxcb
-  requires: null
   version: '>=1.6'
-- Labels: null
-  category: dev-libs
-  conflicts: null
-  id: 0
+- category: dev-libs
   name: libltdl
-  requires: null
   version: '>=0'
-- Labels: null
-  category: dev-libs
-  conflicts: null
-  id: 0
+- category: dev-libs
   name: libpcre-3
-  requires: null
   version: '>=0'
-- Labels: null
-  category: dev-libs
-  conflicts: null
-  id: 0
+- category: dev-libs
   name: openssl
-  requires: null
   version: '>=0'
-- Labels: null
-  category: media-libs
-  conflicts: null
-  id: 0
+- category: media-libs
   name: sbc
-  requires: null
   version: '>=0'
-- Labels: null
-  category: media-libs
-  conflicts: null
-  id: 0
+- category: media-libs
   name: speexdsp
-  requires: null
   version: '>=0'
-- Labels: null
-  category: net-libs
-  conflicts: null
-  id: 0
+- category: net-libs
   name: libasyncns
-  requires: null
   version: '>=0'
-- Labels: null
-  category: sys-apps
-  conflicts: null
-  id: 0
+- category: sys-apps
   name: systemd
-  requires: null
   version: '>=0'
-- Labels: null
-  category: sys-apps
-  conflicts: null
-  id: 0
+- category: sys-apps
   name: tcp-wrappers
-  requires: null
   version: '>=0'
-- Labels: null
-  category: sys-libs
-  conflicts: null
-  id: 0
+- category: sys-libs
   name: gdbm
-  requires: null
   version: '>=0'
-- Labels: null
-  category: x11-libs
-  conflicts: null
-  id: 0
+- category: x11-libs
   name: libICE
-  requires: null
   version: '>=0'
-- Labels: null
-  category: x11-libs
-  conflicts: null
-  id: 0
+- category: x11-libs
   name: libSM
-  requires: null
   version: '>=0'
-- Labels: null
-  category: x11-libs
-  conflicts: null
-  id: 0
+- category: x11-libs
   name: libXtst
-  requires: null
   version: '>=0'
 use_flags:
 - tcpd
