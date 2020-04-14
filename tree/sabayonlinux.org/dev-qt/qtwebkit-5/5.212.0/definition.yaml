@@ -6,13 +6,6 @@ license: BSD LGPL-2+
 name: qtwebkit-5
 requires:
 - Labels: null
-  category: dev-lang
-  conflicts: null
-  id: 0
-  name: python-2.7
-  requires: null
-  version: '>=2.7.5'
-- Labels: null
   category: dev-qt
   conflicts: null
   id: 0
@@ -55,38 +48,10 @@ requires:
   requires: null
   version: '>=5.9.1'
 - Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: cmake
-  requires: null
-  version: '>=3.9.6'
-- Labels: null
-  category: sys-devel
-  conflicts: null
-  id: 0
-  name: bison
-  requires: null
-  version: '>=2.4.3'
-- Labels: null
   category: dev-db
   conflicts: null
   id: 0
   name: sqlite-3
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-lang
-  conflicts: null
-  id: 0
-  name: perl
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-lang
-  conflicts: null
-  id: 0
-  name: ruby-2.5
   requires: null
   version: '>=0'
 - Labels: null
@@ -122,20 +87,6 @@ requires:
   conflicts: null
   id: 0
   name: libxslt
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: gperf
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: ninja
   requires: null
   version: '>=0'
 - Labels: null
