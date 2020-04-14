@@ -62,27 +62,6 @@ requires:
   requires: null
   version: '>=1.0.21'
 - Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: meson
-  requires: null
-  version: '>=0.49'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: meson
-  requires: null
-  version: '>=0.51.2'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: ninja
-  requires: null
-  version: '>=1.8.2'
-- Labels: null
   category: media-libs
   conflicts: null
   id: 0
@@ -146,13 +125,6 @@ requires:
   requires: null
   version: '>=0.114'
 - Labels: null
-  category: sys-devel
-  conflicts: null
-  id: 0
-  name: gettext
-  requires: null
-  version: '>=0.19.8'
-- Labels: null
   category: sys-fs
   conflicts: null
   id: 0
@@ -174,13 +146,6 @@ requires:
   requires: null
   version: '>=0'
 - Labels: null
-  category: app-arch
-  conflicts: null
-  id: 0
-  name: xz-utils
-  requires: null
-  version: '>=0'
-- Labels: null
   category: app-crypt
   conflicts: null
   id: 0
@@ -192,20 +157,6 @@ requires:
   conflicts: null
   id: 0
   name: libsecret
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: app-text
-  conflicts: null
-  id: 0
-  name: docbook-xml-dtd-4.5
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: app-text
-  conflicts: null
-  id: 0
-  name: docbook-xsl-stylesheets
   requires: null
   version: '>=0'
 - Labels: null
@@ -227,27 +178,6 @@ requires:
   conflicts: null
   id: 0
   name: libxslt
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: desktop-file-utils
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: gdbus-codegen
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: glib-utils
   requires: null
   version: '>=0'
 - Labels: null
@@ -276,13 +206,6 @@ requires:
   conflicts: null
   id: 0
   name: libcap
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: x11-misc
-  conflicts: null
-  id: 0
-  name: shared-mime-info
   requires: null
   version: '>=0'
 use_flags:
