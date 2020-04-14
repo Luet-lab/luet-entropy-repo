@@ -41,54 +41,12 @@ requires:
   requires: null
   version: '>=3.4.1'
 - Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: gdbus-codegen
-  requires: null
-  version: '>=2.44'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: meson
-  requires: null
-  version: '>=0.48.2'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: ninja
-  requires: null
-  version: '>=1.7.2'
-- Labels: null
   category: media-libs
   conflicts: null
   id: 0
   name: grilo-0.3
   requires: null
   version: '>=0.3.8'
-- Labels: null
-  category: sys-devel
-  conflicts: null
-  id: 0
-  name: gettext
-  requires: null
-  version: '>=0.19.8'
-- Labels: null
-  category: app-arch
-  conflicts: null
-  id: 0
-  name: xz-utils
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: app-text
-  conflicts: null
-  id: 0
-  name: docbook-xml-dtd-4.5
-  requires: null
-  version: '>=0'
 - Labels: null
   category: dev-db
   conflicts: null
@@ -108,20 +66,6 @@ requires:
   conflicts: null
   id: 0
   name: libxml2-2
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: desktop-file-utils
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: itstool
   requires: null
   version: '>=0'
 - Labels: null
@@ -157,13 +101,6 @@ requires:
   conflicts: null
   id: 0
   name: dleyna-server
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: x11-misc
-  conflicts: null
-  id: 0
-  name: shared-mime-info
   requires: null
   version: '>=0'
 use_flags:
