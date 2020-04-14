@@ -1,79 +1,22 @@
-Labels: null
 category: app-crypt
-conflicts: null
-id: 0
 license: GPL-2
 name: pinentry-base
 requires:
-- Labels: null
-  category: app-portage
-  conflicts: null
-  id: 0
-  name: elt-patches
-  requires: null
   version: '>=20170815'
-- Labels: null
-  category: dev-libs
-  conflicts: null
-  id: 0
+- category: dev-libs
   name: libassuan
-  requires: null
   version: '>=2.1'
-- Labels: null
-  category: dev-libs
-  conflicts: null
-  id: 0
+- category: dev-libs
   name: libgcrypt
-  requires: null
   version: '>=1.6.3'
-- Labels: null
-  category: dev-libs
-  conflicts: null
-  id: 0
+- category: dev-libs
   name: libgpg-error
-  requires: null
   version: '>=1.17'
-- Labels: null
-  category: sys-devel
-  conflicts: null
-  id: 0
-  name: autoconf-2.69
-  requires: null
-  version: '>=2.69'
-- Labels: null
-  category: sys-devel
-  conflicts: null
-  id: 0
-  name: automake-1.15
-  requires: null
-  version: '>=1.15.1'
-- Labels: null
-  category: sys-devel
-  conflicts: null
-  id: 0
-  name: libtool-2
-  requires: null
-  version: '>=2.4'
-- Labels: null
-  category: app-eselect
-  conflicts: null
-  id: 0
+- category: app-eselect
   name: eselect-pinentry
-  requires: null
   version: '>=0'
-- Labels: null
-  category: sys-devel
-  conflicts: null
-  id: 0
-  name: gettext
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: sys-libs
-  conflicts: null
-  id: 0
+- category: sys-libs
   name: ncurses
-  requires: null
   version: '>=0'
 use_flags:
 - qt5
