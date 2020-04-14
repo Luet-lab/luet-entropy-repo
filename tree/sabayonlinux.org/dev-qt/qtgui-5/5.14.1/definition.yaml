@@ -159,6 +159,13 @@ requires:
   name: qtdbus-5
   requires: null
   version: '>=5.14.1'
+- Labels: null
+  category: dev-qt
+  conflicts: null
+  id: 0
+  name: qtwayland-5
+  requires: null
+  version: '>=5.14.1'
 use_flags:
 - -vnc
 - accessibility
