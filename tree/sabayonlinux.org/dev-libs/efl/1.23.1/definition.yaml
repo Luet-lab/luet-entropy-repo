@@ -6,20 +6,6 @@ license: BSD-2 GPL-2 LGPL-2.1 ZLIB
 name: efl
 requires:
 - Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: meson
-  requires: null
-  version: '>=0.48.2'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: ninja
-  requires: null
-  version: '>=1.7.2'
-- Labels: null
   category: app-arch
   conflicts: null
   id: 0
@@ -185,13 +171,6 @@ requires:
   conflicts: null
   id: 0
   name: systemd
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: sys-devel
-  conflicts: null
-  id: 0
-  name: gettext
   requires: null
   version: '>=0'
 - Labels: null
