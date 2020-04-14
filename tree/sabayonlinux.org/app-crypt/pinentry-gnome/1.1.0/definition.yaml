@@ -1,37 +1,18 @@
-Labels: null
 category: app-crypt
-conflicts: null
-id: 0
 license: GPL-2
 name: pinentry-gnome
 requires:
-- Labels: null
-  category: app-crypt
-  conflicts: null
-  id: 0
+- category: app-crypt
   name: gcr
-  requires: null
   version: '>=0'
-- Labels: null
-  category: app-crypt
-  conflicts: null
-  id: 0
+- category: app-crypt
   name: libsecret
-  requires: null
   version: '>=0'
-- Labels: null
-  category: sys-libs
-  conflicts: null
-  id: 0
+- category: sys-libs
   name: ncurses
-  requires: null
   version: '>=0'
-- Labels: null
-  category: app-crypt
-  conflicts: null
-  id: 0
+- category: app-crypt
   name: pinentry-base
-  requires: null
   version: '>=1.1.0'
 use_flags:
 - userland_GNU
