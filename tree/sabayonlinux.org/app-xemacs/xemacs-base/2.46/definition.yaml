@@ -4,14 +4,6 @@ conflicts: null
 id: 0
 license: GPL-2+
 name: xemacs-base
-requires:
-- Labels: null
-  category: app-editors
-  conflicts: null
-  id: 0
-  name: xemacs
-  requires: null
-  version: '>=0'
 use_flags:
 - elibc_glibc
 - abi_x86_64
