@@ -1,65 +1,15 @@
-Labels: null
 category: media-libs
-conflicts: null
-id: 0
 license: LGPL-2+
 name: gstreamer-1.0
 requires:
-- Labels: null
-  category: dev-libs
-  conflicts: null
-  id: 0
+- category: dev-libs
   name: glib-2
-  requires: null
   version: '>=2.40.0'
-- Labels: null
-  category: dev-libs
-  conflicts: null
-  id: 0
+- category: dev-libs
   name: gobject-introspection
-  requires: null
   version: '>=1.31.1'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: gtk-doc-am
-  requires: null
-  version: '>=1.12'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: glib-utils
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: sys-devel
-  conflicts: null
-  id: 0
-  name: bison
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: sys-devel
-  conflicts: null
-  id: 0
-  name: flex
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: sys-devel
-  conflicts: null
-  id: 0
-  name: gettext
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: sys-libs
-  conflicts: null
-  id: 0
+- category: sys-libs
   name: libcap
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian
