@@ -4,21 +4,6 @@ conflicts: null
 id: 0
 license: vim
 name: vim-core
-requires:
-- Labels: null
-  category: app-vim
-  conflicts: null
-  id: 0
-  name: gentoo-syntax
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: sys-devel
-  conflicts: null
-  id: 0
-  name: autoconf-2.69
-  requires: null
-  version: '>=0'
 use_flags:
 - -minimal
 - nls
