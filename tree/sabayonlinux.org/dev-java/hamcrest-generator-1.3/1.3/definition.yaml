@@ -9,13 +9,6 @@ requires:
   category: dev-java
   conflicts: null
   id: 0
-  name: ant-core
-  requires: null
-  version: '>=1.8.2'
-- Labels: null
-  category: dev-java
-  conflicts: null
-  id: 0
   name: java-config-2
   requires: null
   version: '>=2.1.9'
@@ -23,30 +16,9 @@ requires:
   category: dev-java
   conflicts: null
   id: 0
-  name: javatoolkit
-  requires: null
-  version: '>=0.3.0'
-- Labels: null
-  category: dev-java
-  conflicts: null
-  id: 0
   name: qdox-1.12
   requires: null
   version: '>=1.12'
-- Labels: null
-  category: dev-lang
-  conflicts: null
-  id: 0
-  name: python-3.6
-  requires: null
-  version: '>=2.4'
-- Labels: null
-  category: sys-apps
-  conflicts: null
-  id: 0
-  name: findutils
-  requires: null
-  version: '>=0'
 use_flags:
 - kernel_linux
 - -test
