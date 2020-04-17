@@ -12,7 +12,8 @@ includes:
 - /etc/env.d/50baselayout$
 - /etc/filesystems$
 - /etc/gentoo-release$
-- /etc/hosts$
+# Disable this file to avoid issue on install/upgrade inside container
+#- /etc/hosts$
 - /etc/inputrc$
 - /etc/issue$
 - /etc/issue.logo$
