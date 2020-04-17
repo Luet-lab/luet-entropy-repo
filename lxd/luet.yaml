@@ -1,0 +1,100 @@
+image:
+  distribution: sabayon
+  decription: Sabayon
+  expiry: 30d
+  architecture: amd64
+
+source:
+  downloader: docker-http
+  # For docker is mandatory for now use 
+  #url: luet/base:develop
+  url: luetpm/entropy-minimal
+
+environment:
+  clear_defaults: true
+  variables:
+    - key: "PATH"
+      value: "/sbin:/bin:/usr/sbin:/usr/bin:/usr/local/sbin:/usr/local/bin"
+    - key: "SHELL"
+      value: "/bin/bash"
+    - key: "LUET_NOLOCK"
+      value: "true"
+
+targets:
+  lxc:
+    create-message: |
+      You just created a Sabayon container (arch={{ image.architecture }})
+
+    config:
+      - type: all
+        before: 5
+        content: |-
+          lxc.include = LXC_TEMPLATE_CONFIG/sabayon.common.conf
+
+      - type: user
+        before: 5
+        content: |-
+          lxc.include = LXC_TEMPLATE_CONFIG/sabayon.userns.conf
+
+      - type: all
+        after: 4
+        content: |-
+          lxc.include = LXC_TEMPLATE_CONFIG/common.conf
+
+      - type: user
+        after: 4
+        content: |-
+          lxc.include = LXC_TEMPLATE_CONFIG/userns.conf
+
+      - type: all
+        content: |-
+          lxc.arch = {{ image.architecture_kernel }}
+
+files:
+ - path: /etc/hostname
+   generator: hostname
+
+ - path: /etc/hosts
+   generator: hosts
+
+ - path: /etc/luet/.luet.yaml
+   generator: dump
+   content: |
+     general:
+       debug: false
+     repositories:
+       - name: "sabayonlinux.org"
+         description: "Sabayon Linux Repository"
+         type: "http"
+         enable: true
+         priority: 1
+         urls:
+           - "https://dispatcher.sabayon.org/sbi/namespace/luet-entropy-repo"
+       - name: "luet-embedded"
+         description: "Luet toolkit Repository"
+         type: "http"
+         enable: true
+         priority: 1
+         urls:
+           - "https://raw.githubusercontent.com/Luet-lab/luet-repo/gh-pages"
+
+packages:
+  manager: luet
+
+  update: false
+  cleanup: false
+
+  sets:
+    - packages:
+        - sys-apps/systemd
+      action: install
+
+actions:
+
+  #  - trigger: post-packages
+  #  action: |-
+  #    rm -rf /var/cache/luet/packages/ /var/cache/luet/repos/
+
+mappings:
+  architecture_map: debian
+
