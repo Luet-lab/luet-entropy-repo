@@ -1,0 +1,14 @@
+
+unpack: true
+steps:
+- source /etc/profile && ACCEPT_LICENSE=* equo i app-eselect/eselect-sh-0.4-r2 && equo cleanup
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/eselect$
+- /usr/share/eselect/modules$
+- /usr/share/eselect/modules/sh.eselect$
