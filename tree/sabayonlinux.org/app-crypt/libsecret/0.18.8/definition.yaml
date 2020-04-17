@@ -1,30 +1,15 @@
-Labels: null
 category: app-crypt
-conflicts: null
-id: 0
 license: Apache-2.0 LGPL-2.1+
 name: libsecret
 requires:
-- Labels: null
-  category: dev-libs
-  conflicts: null
-  id: 0
+- category: dev-libs
   name: glib-2
-  requires: null
   version: '>=2.44'
-- Labels: null
-  category: dev-libs
-  conflicts: null
-  id: 0
+- category: dev-libs
   name: gobject-introspection
-  requires: null
   version: '>=1.29'
-- Labels: null
-  category: dev-libs
-  conflicts: null
-  id: 0
+- category: dev-libs
   name: libgcrypt
-  requires: null
   version: '>=1.2.2'
 use_flags:
 - big-endian
