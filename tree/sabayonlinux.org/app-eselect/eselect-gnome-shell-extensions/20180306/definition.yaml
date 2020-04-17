@@ -1,58 +1,27 @@
-Labels: null
 category: app-eselect
-conflicts: null
-id: 0
 license: GPL-2+
 name: eselect-gnome-shell-extensions
 requires:
-- Labels: null
-  category: dev-libs
-  conflicts: null
-  id: 0
+- category: dev-libs
   name: glib-2
-  requires: null
   version: '>=2.26'
-- Labels: null
-  category: app-admin
-  conflicts: null
-  id: 0
+- category: app-admin
   name: eselect
-  requires: null
   version: '>=0'
-- Labels: null
-  category: app-arch
-  conflicts: null
-  id: 0
+- category: app-arch
   name: xz-utils
-  requires: null
   version: '>=0'
-- Labels: null
-  category: dev-lang
-  conflicts: null
-  id: 0
+- category: dev-lang
   name: perl
-  requires: null
   version: '>=0'
-- Labels: null
-  category: dev-perl
-  conflicts: null
-  id: 0
+- category: dev-perl
   name: JSON
-  requires: null
   version: '>=0'
-- Labels: null
-  category: gnome-base
-  conflicts: null
-  id: 0
+- category: gnome-base
   name: gnome-shell
-  requires: null
   version: '>=0'
-- Labels: null
-  category: gnome-base
-  conflicts: null
-  id: 0
+- category: gnome-base
   name: gsettings-desktop-schemas
-  requires: null
   version: '>=0'
 use_flags:
 - abi_x86_64
