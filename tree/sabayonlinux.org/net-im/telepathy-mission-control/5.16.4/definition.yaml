@@ -1,37 +1,18 @@
-Labels: null
 category: net-im
-conflicts: null
-id: 0
 license: LGPL-2.1+
 name: telepathy-mission-control
 requires:
-- Labels: null
-  category: dev-libs
-  conflicts: null
-  id: 0
+- category: dev-libs
   name: dbus-glib
-  requires: null
   version: '>=0.82'
-- Labels: null
-  category: dev-libs
-  conflicts: null
-  id: 0
+- category: dev-libs
   name: glib-2
-  requires: null
   version: '>=2.46'
-- Labels: null
-  category: net-libs
-  conflicts: null
-  id: 0
+- category: net-libs
   name: telepathy-glib
-  requires: null
   version: '>=0.20'
-- Labels: null
-  category: sys-apps
-  conflicts: null
-  id: 0
+- category: sys-apps
   name: dbus
-  requires: null
   version: '>=0.95'
 use_flags:
 - -networkmanager
