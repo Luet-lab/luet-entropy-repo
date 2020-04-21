@@ -1,79 +1,27 @@
-Labels: null
 category: dev-util
-conflicts: null
-id: 0
 license: CMake
 name: cmake
 requires:
-- Labels: null
-  category: app-arch
-  conflicts: null
-  id: 0
+- category: app-arch
   name: libarchive
-  requires: null
   version: '>=3.0.0'
-- Labels: null
-  category: dev-libs
-  conflicts: null
-  id: 0
+- category: dev-libs
   name: expat
-  requires: null
   version: '>=2.0.1'
-- Labels: null
-  category: dev-libs
-  conflicts: null
-  id: 0
+- category: dev-libs
   name: libuv
-  requires: null
   version: '>=1.10.0'
-- Labels: null
-  category: net-misc
-  conflicts: null
-  id: 0
+- category: net-misc
   name: curl
-  requires: null
   version: '>=7.21.5'
-- Labels: null
-  category: app-crypt
-  conflicts: null
-  id: 0
+- category: app-crypt
   name: rhash
-  requires: null
   version: '>=0'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: desktop-file-utils
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: sys-devel
-  conflicts: null
-  id: 0
-  name: make
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: sys-libs
-  conflicts: null
-  id: 0
+- category: sys-libs
   name: ncurses
-  requires: null
   version: '>=0'
-- Labels: null
-  category: sys-libs
-  conflicts: null
-  id: 0
+- category: sys-libs
   name: zlib
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: x11-misc
-  conflicts: null
-  id: 0
-  name: shared-mime-info
-  requires: null
   version: '>=0'
 use_flags:
 - -system-jsoncpp
@@ -89,4 +37,4 @@ use_flags:
 - split-usr
 - ncurses
 - -doc
-version: 3.14.6+3
+version: 3.14.6+4
