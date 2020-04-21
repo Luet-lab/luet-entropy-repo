@@ -1,0 +1,10 @@
+shell:
+- /bin/bash
+- -c
+
+install:
+- ln -s /bin/bash /bin/sh
+- | 
+ [ ! -e "/etc/passwd" ] && touch /etc/passwd || true
+- |
+ [ ! -e "/etc/group" ] && touch /etc/group || true

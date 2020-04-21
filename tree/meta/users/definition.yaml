@@ -1,0 +1,13 @@
+category: "meta"
+name: "users"
+version: "0"
+requires:
+- category: "app-shells"
+  name: "bash"
+  version: ">=0.1"
+- category: "sys-apps"
+  name: "coreutils"
+  version: ">=0.1"
+- category: "sys-devel"
+  name: "base-gcc-8.2.0"
+  version: ">=0.1"
