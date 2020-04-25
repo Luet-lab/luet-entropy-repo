@@ -65,3 +65,7 @@ serve-repo:
 .PHONY: validate
 validate:
 	$(ROOT_DIR)/scripts/validate.sh
+
+.PHONY: auto-bump
+auto-bump:
+	$(ROOT_DIR)/scripts/auto-bump.sh
