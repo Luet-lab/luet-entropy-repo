@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i kde-plasma/kactivitymanagerd-5.18.2 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -30,10 +31,10 @@ includes:
 - /usr/share/dbus-1/services$
 - /usr/share/dbus-1/services/org.kde.activitymanager.service$
 - /usr/share/doc$
-- /usr/share/doc/kactivitymanagerd-5.18.2$
-- /usr/share/doc/kactivitymanagerd-5.18.2/README.developers.bz2$
-- /usr/share/doc/kactivitymanagerd-5.18.2/README.md.bz2$
-- /usr/share/doc/kactivitymanagerd-5.18.2/TODO.bz2$
+- /usr/share/doc/kactivitymanagerd-5.18.4.1$
+- /usr/share/doc/kactivitymanagerd-5.18.4.1/README.developers.bz2$
+- /usr/share/doc/kactivitymanagerd-5.18.4.1/README.md.bz2$
+- /usr/share/doc/kactivitymanagerd-5.18.4.1/TODO.bz2$
 - /usr/share/kservices5$
 - /usr/share/kservices5/kactivitymanagerd.desktop$
 - /usr/share/kservicetypes5$
@@ -167,3 +168,6 @@ includes:
 - /usr/share/locale/zh_TW/LC_MESSAGES/kactivities5.mo$
 - /usr/share/qlogging-categories5$
 - /usr/share/qlogging-categories5/kactivitymanagerd.categories$
+env:
+- ORIGINAL_ATOM=kde-plasma/kactivitymanagerd
+- ORIGINAL_PACKAGE=kde-plasma/kactivitymanagerd-5.18.4.1
