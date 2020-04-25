@@ -1,0 +1,27 @@
+unpack: true
+steps:
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/libimagequant.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libimagequant.so$
+- /usr/lib64/libimagequant.so.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/imagequant.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libimagequant-2.12.3$
+- /usr/share/doc/libimagequant-2.12.3/CHANGELOG.bz2$
+- /usr/share/doc/libimagequant-2.12.3/README.md.bz2$
+env:
+- ORIGINAL_ATOM=media-gfx/libimagequant
+- ORIGINAL_PACKAGE=media-gfx/libimagequant-2.12.3
