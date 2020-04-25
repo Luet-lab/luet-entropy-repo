@@ -120,11 +120,9 @@ use_flags:
 - userland_GNU
 - kernel_linux
 - -debug
-version: 5.18.2+1
-
+version: "5.18.4.1"
 Labels:
   original.package.name: "libkworkspace"
   original.package.category: "kde-plasma"
   original.package.version: "5.18.2"
   original.package.slot: "5"
-
