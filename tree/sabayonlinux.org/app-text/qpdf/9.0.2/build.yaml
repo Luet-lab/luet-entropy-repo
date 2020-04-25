@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i app-text/qpdf-8.4.2 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -33,6 +34,7 @@ includes:
 - /usr/include/qpdf/Pl_RunLength.hh$
 - /usr/include/qpdf/Pl_StdioFile.hh$
 - /usr/include/qpdf/PointerHolder.hh$
+- /usr/include/qpdf/QIntC.hh$
 - /usr/include/qpdf/QPDF.hh$
 - /usr/include/qpdf/QPDFAcroFormDocumentHelper.hh$
 - /usr/include/qpdf/QPDFAnnotationObjectHelper.hh$
@@ -62,21 +64,24 @@ includes:
 - /usr/lib$
 - /usr/lib64$
 - /usr/lib64/libqpdf.so$
-- /usr/lib64/libqpdf.so.21$
-- /usr/lib64/libqpdf.so.21.4.2$
+- /usr/lib64/libqpdf.so.26$
+- /usr/lib64/libqpdf.so.26.0.2$
 - /usr/lib64/pkgconfig$
 - /usr/lib64/pkgconfig/libqpdf.pc$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/qpdf-8.4.2$
-- /usr/share/doc/qpdf-8.4.2/ChangeLog.bz2$
-- /usr/share/doc/qpdf-8.4.2/README.md.bz2$
-- /usr/share/doc/qpdf-8.4.2/TODO.bz2$
-- /usr/share/doc/qpdf-8.4.2/qpdf-manual.html$
-- /usr/share/doc/qpdf-8.4.2/qpdf-manual.pdf$
-- /usr/share/doc/qpdf-8.4.2/stylesheet.css$
+- /usr/share/doc/qpdf-9.0.2$
+- /usr/share/doc/qpdf-9.0.2/ChangeLog.bz2$
+- /usr/share/doc/qpdf-9.0.2/README.md.bz2$
+- /usr/share/doc/qpdf-9.0.2/TODO.bz2$
+- /usr/share/doc/qpdf-9.0.2/qpdf-manual.html$
+- /usr/share/doc/qpdf-9.0.2/qpdf-manual.pdf$
+- /usr/share/doc/qpdf-9.0.2/stylesheet.css$
 - /usr/share/man$
 - /usr/share/man/man1$
 - /usr/share/man/man1/fix-qdf.1.bz2$
 - /usr/share/man/man1/qpdf.1.bz2$
 - /usr/share/man/man1/zlib-flate.1.bz2$
+env:
+- ORIGINAL_ATOM=app-text/qpdf
+- ORIGINAL_PACKAGE=app-text/qpdf-9.0.2
