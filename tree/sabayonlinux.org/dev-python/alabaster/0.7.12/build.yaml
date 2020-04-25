@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/alabaster-0.7.11 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -12,12 +13,12 @@ includes:
 - /usr/lib64/python2.7$
 - /usr/lib64/python2.7/site-packages$
 - /usr/lib64/python2.7/site-packages/alabaster$
-- /usr/lib64/python2.7/site-packages/alabaster-0.7.11-py2.7.egg-info$
-- /usr/lib64/python2.7/site-packages/alabaster-0.7.11-py2.7.egg-info/PKG-INFO$
-- /usr/lib64/python2.7/site-packages/alabaster-0.7.11-py2.7.egg-info/SOURCES.txt$
-- /usr/lib64/python2.7/site-packages/alabaster-0.7.11-py2.7.egg-info/dependency_links.txt$
-- /usr/lib64/python2.7/site-packages/alabaster-0.7.11-py2.7.egg-info/entry_points.txt$
-- /usr/lib64/python2.7/site-packages/alabaster-0.7.11-py2.7.egg-info/top_level.txt$
+- /usr/lib64/python2.7/site-packages/alabaster-0.7.12-py2.7.egg-info$
+- /usr/lib64/python2.7/site-packages/alabaster-0.7.12-py2.7.egg-info/PKG-INFO$
+- /usr/lib64/python2.7/site-packages/alabaster-0.7.12-py2.7.egg-info/SOURCES.txt$
+- /usr/lib64/python2.7/site-packages/alabaster-0.7.12-py2.7.egg-info/dependency_links.txt$
+- /usr/lib64/python2.7/site-packages/alabaster-0.7.12-py2.7.egg-info/entry_points.txt$
+- /usr/lib64/python2.7/site-packages/alabaster-0.7.12-py2.7.egg-info/top_level.txt$
 - /usr/lib64/python2.7/site-packages/alabaster/__init__.py$
 - /usr/lib64/python2.7/site-packages/alabaster/__init__.pyc$
 - /usr/lib64/python2.7/site-packages/alabaster/__init__.pyo$
@@ -39,12 +40,12 @@ includes:
 - /usr/lib64/python3.6$
 - /usr/lib64/python3.6/site-packages$
 - /usr/lib64/python3.6/site-packages/alabaster$
-- /usr/lib64/python3.6/site-packages/alabaster-0.7.11-py3.6.egg-info$
-- /usr/lib64/python3.6/site-packages/alabaster-0.7.11-py3.6.egg-info/PKG-INFO$
-- /usr/lib64/python3.6/site-packages/alabaster-0.7.11-py3.6.egg-info/SOURCES.txt$
-- /usr/lib64/python3.6/site-packages/alabaster-0.7.11-py3.6.egg-info/dependency_links.txt$
-- /usr/lib64/python3.6/site-packages/alabaster-0.7.11-py3.6.egg-info/entry_points.txt$
-- /usr/lib64/python3.6/site-packages/alabaster-0.7.11-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/alabaster-0.7.12-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/alabaster-0.7.12-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/alabaster-0.7.12-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/alabaster-0.7.12-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/alabaster-0.7.12-py3.6.egg-info/entry_points.txt$
+- /usr/lib64/python3.6/site-packages/alabaster-0.7.12-py3.6.egg-info/top_level.txt$
 - /usr/lib64/python3.6/site-packages/alabaster/__init__.py$
 - /usr/lib64/python3.6/site-packages/alabaster/__pycache__$
 - /usr/lib64/python3.6/site-packages/alabaster/__pycache__/__init__.cpython-36.opt-1.pyc$
@@ -69,5 +70,8 @@ includes:
 - /usr/lib64/python3.6/site-packages/alabaster/theme.conf$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/alabaster-0.7.11$
-- /usr/share/doc/alabaster-0.7.11/README.rst.bz2$
+- /usr/share/doc/alabaster-0.7.12$
+- /usr/share/doc/alabaster-0.7.12/README.rst.bz2$
+env:
+- ORIGINAL_ATOM=dev-python/alabaster
+- ORIGINAL_PACKAGE=dev-python/alabaster-0.7.12
