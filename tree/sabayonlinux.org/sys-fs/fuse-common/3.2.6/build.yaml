@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i sys-fs/fuse-common-3.2.6 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -15,11 +16,6 @@ includes:
 - /lib/udev$
 - /lib/udev/rules.d$
 - /lib/udev/rules.d/99-fuse.rules$
-- /usr$
-- /usr/lib$
-- /usr/sbin$
-- /usr/sbin/mount.fuse$
-- /usr/share$
-- /usr/share/man$
-- /usr/share/man/man8$
-- /usr/share/man/man8/mount.fuse.8.bz2$
+env:
+- ORIGINAL_ATOM=sys-fs/fuse-common
+- ORIGINAL_PACKAGE=sys-fs/fuse-common-3.9.0
