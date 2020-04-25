@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i app-emacs/ocaml-mode-4.00.1 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -10,9 +11,9 @@ includes:
 - /usr$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/ocaml-mode-4.00.1$
-- /usr/share/doc/ocaml-mode-4.00.1/README.bz2$
-- /usr/share/doc/ocaml-mode-4.00.1/README.itz.bz2$
+- /usr/share/doc/ocaml-mode-4.05.0$
+- /usr/share/doc/ocaml-mode-4.05.0/README.bz2$
+- /usr/share/doc/ocaml-mode-4.05.0/README.itz.bz2$
 - /usr/share/emacs$
 - /usr/share/emacs/site-lisp$
 - /usr/share/emacs/site-lisp/ocaml-mode$
@@ -40,3 +41,6 @@ includes:
 - /usr/share/emacs/site-lisp/ocaml-mode/inf-caml.elc$
 - /usr/share/emacs/site-lisp/site-gentoo.d$
 - /usr/share/emacs/site-lisp/site-gentoo.d/50ocaml-mode-gentoo.el$
+env:
+- ORIGINAL_ATOM=app-emacs/ocaml-mode
+- ORIGINAL_PACKAGE=app-emacs/ocaml-mode-4.05.0
