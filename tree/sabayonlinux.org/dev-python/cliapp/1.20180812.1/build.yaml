@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/cliapp-1.20170823 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -12,7 +13,7 @@ includes:
 - /usr/lib64/python2.7$
 - /usr/lib64/python2.7/site-packages$
 - /usr/lib64/python2.7/site-packages/cliapp$
-- /usr/lib64/python2.7/site-packages/cliapp-1.20170823-py2.7.egg-info$
+- /usr/lib64/python2.7/site-packages/cliapp-1.20180812.1-py2.7.egg-info$
 - /usr/lib64/python2.7/site-packages/cliapp/__init__.py$
 - /usr/lib64/python2.7/site-packages/cliapp/__init__.pyc$
 - /usr/lib64/python2.7/site-packages/cliapp/__init__.pyo$
@@ -76,7 +77,7 @@ includes:
 - /usr/lib64/python3.6$
 - /usr/lib64/python3.6/site-packages$
 - /usr/lib64/python3.6/site-packages/cliapp$
-- /usr/lib64/python3.6/site-packages/cliapp-1.20170823-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/cliapp-1.20180812.1-py3.6.egg-info$
 - /usr/lib64/python3.6/site-packages/cliapp/__init__.py$
 - /usr/lib64/python3.6/site-packages/cliapp/__pycache__$
 - /usr/lib64/python3.6/site-packages/cliapp/__pycache__/__init__.cpython-36.opt-1.pyc$
@@ -160,9 +161,12 @@ includes:
 - /usr/lib64/python3.6/site-packages/cliapp/version.py$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/cliapp-1.20170823$
-- /usr/share/doc/cliapp-1.20170823/NEWS.bz2$
-- /usr/share/doc/cliapp-1.20170823/README.bz2$
+- /usr/share/doc/cliapp-1.20180812.1$
+- /usr/share/doc/cliapp-1.20180812.1/NEWS.bz2$
+- /usr/share/doc/cliapp-1.20180812.1/README.bz2$
 - /usr/share/man$
 - /usr/share/man/man5$
 - /usr/share/man/man5/cliapp.5.bz2$
+env:
+- ORIGINAL_ATOM=dev-python/cliapp
+- ORIGINAL_PACKAGE=dev-python/cliapp-1.20180812.1
