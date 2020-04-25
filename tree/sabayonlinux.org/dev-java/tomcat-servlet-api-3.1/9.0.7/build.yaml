@@ -1,0 +1,21 @@
+unpack: true
+steps:
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/tomcat-servlet-api-4.0$
+- /usr/share/tomcat-servlet-api-4.0/lib$
+- /usr/share/tomcat-servlet-api-4.0/lib/el-api.jar$
+- /usr/share/tomcat-servlet-api-4.0/lib/jsp-api.jar$
+- /usr/share/tomcat-servlet-api-4.0/lib/servlet-api.jar$
+- /usr/share/tomcat-servlet-api-4.0/package.env$
+env:
+- ORIGINAL_ATOM=dev-java/tomcat-servlet-api
+- ORIGINAL_PACKAGE=dev-java/tomcat-servlet-api-9.0.7
