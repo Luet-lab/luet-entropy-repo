@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i kde-frameworks/knotifyconfig-5.67.0 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -25,15 +26,15 @@ includes:
 - /usr/lib64/cmake/KF5NotifyConfig/KF5NotifyConfigTargets.cmake$
 - /usr/lib64/libKF5NotifyConfig.so$
 - /usr/lib64/libKF5NotifyConfig.so.5$
-- /usr/lib64/libKF5NotifyConfig.so.5.67.0$
+- /usr/lib64/libKF5NotifyConfig.so.5.69.0$
 - /usr/lib64/qt5$
 - /usr/lib64/qt5/mkspecs$
 - /usr/lib64/qt5/mkspecs/modules$
 - /usr/lib64/qt5/mkspecs/modules/qt_KNotifyConfig.pri$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/knotifyconfig-5.67.0$
-- /usr/share/doc/knotifyconfig-5.67.0/README.md.bz2$
+- /usr/share/doc/knotifyconfig-5.69.0$
+- /usr/share/doc/knotifyconfig-5.69.0/README.md.bz2$
 - /usr/share/locale$
 - /usr/share/locale/af$
 - /usr/share/locale/af/LC_MESSAGES$
@@ -218,3 +219,6 @@ includes:
 - /usr/share/locale/zh_TW$
 - /usr/share/locale/zh_TW/LC_MESSAGES$
 - /usr/share/locale/zh_TW/LC_MESSAGES/knotifyconfig5.mo$
+env:
+- ORIGINAL_ATOM=kde-frameworks/knotifyconfig
+- ORIGINAL_PACKAGE=kde-frameworks/knotifyconfig-5.69.0
