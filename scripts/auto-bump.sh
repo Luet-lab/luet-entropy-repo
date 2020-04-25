@@ -18,7 +18,7 @@ START_GIT_BRANCH="$(git rev-parse --abbrev-ref HEAD)"
 HUB_ARGS="${HUB_ARGS:--b $START_GIT_BRANCH}"
 
 # Fetch depedendencies if not available
-PATH=$PATH:$ROOT_DIR/.bin/luet
+PATH=$PATH:$ROOT_DIR/.bin
 hash luet 2>/dev/null || {
     mkdir $ROOT_DIR/.bin/;
     wget https://github.com/mudler/luet/releases/download/0.7.4/luet-0.7.4-linux-amd64 -O $ROOT_DIR/.bin/luet
