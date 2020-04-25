@@ -1,0 +1,21 @@
+unpack: true
+steps:
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/sassc$
+- /usr/lib$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/sassc-3.6.0$
+- /usr/share/doc/sassc-3.6.0/Readme.md.bz2$
+env:
+- ORIGINAL_ATOM=dev-lang/sassc
+- ORIGINAL_PACKAGE=dev-lang/sassc-3.6.0
