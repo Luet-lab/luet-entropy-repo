@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/future-0.17.0 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -43,12 +44,12 @@ includes:
 - /usr/lib64/python2.7/site-packages/copyreg/__init__.pyc$
 - /usr/lib64/python2.7/site-packages/copyreg/__init__.pyo$
 - /usr/lib64/python2.7/site-packages/future$
-- /usr/lib64/python2.7/site-packages/future-0.17.0-py2.7.egg-info$
-- /usr/lib64/python2.7/site-packages/future-0.17.0-py2.7.egg-info/PKG-INFO$
-- /usr/lib64/python2.7/site-packages/future-0.17.0-py2.7.egg-info/SOURCES.txt$
-- /usr/lib64/python2.7/site-packages/future-0.17.0-py2.7.egg-info/dependency_links.txt$
-- /usr/lib64/python2.7/site-packages/future-0.17.0-py2.7.egg-info/entry_points.txt$
-- /usr/lib64/python2.7/site-packages/future-0.17.0-py2.7.egg-info/top_level.txt$
+- /usr/lib64/python2.7/site-packages/future-0.18.2-py2.7.egg-info$
+- /usr/lib64/python2.7/site-packages/future-0.18.2-py2.7.egg-info/PKG-INFO$
+- /usr/lib64/python2.7/site-packages/future-0.18.2-py2.7.egg-info/SOURCES.txt$
+- /usr/lib64/python2.7/site-packages/future-0.18.2-py2.7.egg-info/dependency_links.txt$
+- /usr/lib64/python2.7/site-packages/future-0.18.2-py2.7.egg-info/entry_points.txt$
+- /usr/lib64/python2.7/site-packages/future-0.18.2-py2.7.egg-info/top_level.txt$
 - /usr/lib64/python2.7/site-packages/future/__init__.py$
 - /usr/lib64/python2.7/site-packages/future/__init__.pyc$
 - /usr/lib64/python2.7/site-packages/future/__init__.pyo$
@@ -255,6 +256,9 @@ includes:
 - /usr/lib64/python2.7/site-packages/future/builtins/misc.py$
 - /usr/lib64/python2.7/site-packages/future/builtins/misc.pyc$
 - /usr/lib64/python2.7/site-packages/future/builtins/misc.pyo$
+- /usr/lib64/python2.7/site-packages/future/builtins/new_min_max.py$
+- /usr/lib64/python2.7/site-packages/future/builtins/new_min_max.pyc$
+- /usr/lib64/python2.7/site-packages/future/builtins/new_min_max.pyo$
 - /usr/lib64/python2.7/site-packages/future/builtins/newnext.py$
 - /usr/lib64/python2.7/site-packages/future/builtins/newnext.pyc$
 - /usr/lib64/python2.7/site-packages/future/builtins/newnext.pyo$
@@ -550,6 +554,9 @@ includes:
 - /usr/lib64/python2.7/site-packages/libfuturize/fixes/fix_future_standard_library_urllib.py$
 - /usr/lib64/python2.7/site-packages/libfuturize/fixes/fix_future_standard_library_urllib.pyc$
 - /usr/lib64/python2.7/site-packages/libfuturize/fixes/fix_future_standard_library_urllib.pyo$
+- /usr/lib64/python2.7/site-packages/libfuturize/fixes/fix_input.py$
+- /usr/lib64/python2.7/site-packages/libfuturize/fixes/fix_input.pyc$
+- /usr/lib64/python2.7/site-packages/libfuturize/fixes/fix_input.pyo$
 - /usr/lib64/python2.7/site-packages/libfuturize/fixes/fix_metaclass.py$
 - /usr/lib64/python2.7/site-packages/libfuturize/fixes/fix_metaclass.pyc$
 - /usr/lib64/python2.7/site-packages/libfuturize/fixes/fix_metaclass.pyo$
@@ -680,10 +687,6 @@ includes:
 - /usr/lib64/python2.7/site-packages/past/builtins/noniterators.py$
 - /usr/lib64/python2.7/site-packages/past/builtins/noniterators.pyc$
 - /usr/lib64/python2.7/site-packages/past/builtins/noniterators.pyo$
-- /usr/lib64/python2.7/site-packages/past/tests$
-- /usr/lib64/python2.7/site-packages/past/tests/__init__.py$
-- /usr/lib64/python2.7/site-packages/past/tests/__init__.pyc$
-- /usr/lib64/python2.7/site-packages/past/tests/__init__.pyo$
 - /usr/lib64/python2.7/site-packages/past/translation$
 - /usr/lib64/python2.7/site-packages/past/translation/__init__.py$
 - /usr/lib64/python2.7/site-packages/past/translation/__init__.pyc$
@@ -774,12 +777,12 @@ includes:
 - /usr/lib64/python3.6$
 - /usr/lib64/python3.6/site-packages$
 - /usr/lib64/python3.6/site-packages/future$
-- /usr/lib64/python3.6/site-packages/future-0.17.0-py3.6.egg-info$
-- /usr/lib64/python3.6/site-packages/future-0.17.0-py3.6.egg-info/PKG-INFO$
-- /usr/lib64/python3.6/site-packages/future-0.17.0-py3.6.egg-info/SOURCES.txt$
-- /usr/lib64/python3.6/site-packages/future-0.17.0-py3.6.egg-info/dependency_links.txt$
-- /usr/lib64/python3.6/site-packages/future-0.17.0-py3.6.egg-info/entry_points.txt$
-- /usr/lib64/python3.6/site-packages/future-0.17.0-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/future-0.18.2-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/future-0.18.2-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/future-0.18.2-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/future-0.18.2-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/future-0.18.2-py3.6.egg-info/entry_points.txt$
+- /usr/lib64/python3.6/site-packages/future-0.18.2-py3.6.egg-info/top_level.txt$
 - /usr/lib64/python3.6/site-packages/future/__init__.py$
 - /usr/lib64/python3.6/site-packages/future/__pycache__$
 - /usr/lib64/python3.6/site-packages/future/__pycache__/__init__.cpython-36.opt-1.pyc$
@@ -1054,6 +1057,9 @@ includes:
 - /usr/lib64/python3.6/site-packages/future/builtins/__pycache__/misc.cpython-36.opt-1.pyc$
 - /usr/lib64/python3.6/site-packages/future/builtins/__pycache__/misc.cpython-36.opt-2.pyc$
 - /usr/lib64/python3.6/site-packages/future/builtins/__pycache__/misc.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/future/builtins/__pycache__/new_min_max.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/future/builtins/__pycache__/new_min_max.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/future/builtins/__pycache__/new_min_max.cpython-36.pyc$
 - /usr/lib64/python3.6/site-packages/future/builtins/__pycache__/newnext.cpython-36.opt-1.pyc$
 - /usr/lib64/python3.6/site-packages/future/builtins/__pycache__/newnext.cpython-36.opt-2.pyc$
 - /usr/lib64/python3.6/site-packages/future/builtins/__pycache__/newnext.cpython-36.pyc$
@@ -1066,6 +1072,7 @@ includes:
 - /usr/lib64/python3.6/site-packages/future/builtins/disabled.py$
 - /usr/lib64/python3.6/site-packages/future/builtins/iterators.py$
 - /usr/lib64/python3.6/site-packages/future/builtins/misc.py$
+- /usr/lib64/python3.6/site-packages/future/builtins/new_min_max.py$
 - /usr/lib64/python3.6/site-packages/future/builtins/newnext.py$
 - /usr/lib64/python3.6/site-packages/future/builtins/newround.py$
 - /usr/lib64/python3.6/site-packages/future/builtins/newsuper.py$
@@ -1416,6 +1423,9 @@ includes:
 - /usr/lib64/python3.6/site-packages/libfuturize/fixes/__pycache__/fix_future_standard_library_urllib.cpython-36.opt-1.pyc$
 - /usr/lib64/python3.6/site-packages/libfuturize/fixes/__pycache__/fix_future_standard_library_urllib.cpython-36.opt-2.pyc$
 - /usr/lib64/python3.6/site-packages/libfuturize/fixes/__pycache__/fix_future_standard_library_urllib.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/libfuturize/fixes/__pycache__/fix_input.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/libfuturize/fixes/__pycache__/fix_input.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/libfuturize/fixes/__pycache__/fix_input.cpython-36.pyc$
 - /usr/lib64/python3.6/site-packages/libfuturize/fixes/__pycache__/fix_metaclass.cpython-36.opt-1.pyc$
 - /usr/lib64/python3.6/site-packages/libfuturize/fixes/__pycache__/fix_metaclass.cpython-36.opt-2.pyc$
 - /usr/lib64/python3.6/site-packages/libfuturize/fixes/__pycache__/fix_metaclass.cpython-36.pyc$
@@ -1464,6 +1474,7 @@ includes:
 - /usr/lib64/python3.6/site-packages/libfuturize/fixes/fix_future_builtins.py$
 - /usr/lib64/python3.6/site-packages/libfuturize/fixes/fix_future_standard_library.py$
 - /usr/lib64/python3.6/site-packages/libfuturize/fixes/fix_future_standard_library_urllib.py$
+- /usr/lib64/python3.6/site-packages/libfuturize/fixes/fix_input.py$
 - /usr/lib64/python3.6/site-packages/libfuturize/fixes/fix_metaclass.py$
 - /usr/lib64/python3.6/site-packages/libfuturize/fixes/fix_next_call.py$
 - /usr/lib64/python3.6/site-packages/libfuturize/fixes/fix_object.py$
@@ -1601,12 +1612,6 @@ includes:
 - /usr/lib64/python3.6/site-packages/past/builtins/__pycache__/noniterators.cpython-36.pyc$
 - /usr/lib64/python3.6/site-packages/past/builtins/misc.py$
 - /usr/lib64/python3.6/site-packages/past/builtins/noniterators.py$
-- /usr/lib64/python3.6/site-packages/past/tests$
-- /usr/lib64/python3.6/site-packages/past/tests/__init__.py$
-- /usr/lib64/python3.6/site-packages/past/tests/__pycache__$
-- /usr/lib64/python3.6/site-packages/past/tests/__pycache__/__init__.cpython-36.opt-1.pyc$
-- /usr/lib64/python3.6/site-packages/past/tests/__pycache__/__init__.cpython-36.opt-2.pyc$
-- /usr/lib64/python3.6/site-packages/past/tests/__pycache__/__init__.cpython-36.pyc$
 - /usr/lib64/python3.6/site-packages/past/translation$
 - /usr/lib64/python3.6/site-packages/past/translation/__init__.py$
 - /usr/lib64/python3.6/site-packages/past/translation/__pycache__$
@@ -1639,5 +1644,8 @@ includes:
 - /usr/lib64/python3.6/site-packages/past/utils/__pycache__/__init__.cpython-36.pyc$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/future-0.17.0$
-- /usr/share/doc/future-0.17.0/README.rst.bz2$
+- /usr/share/doc/future-0.18.2$
+- /usr/share/doc/future-0.18.2/README.rst.bz2$
+env:
+- ORIGINAL_ATOM=dev-python/future
+- ORIGINAL_PACKAGE=dev-python/future-0.18.2
