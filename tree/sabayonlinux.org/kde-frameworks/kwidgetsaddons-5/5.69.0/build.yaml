@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i kde-frameworks/kwidgetsaddons-5.67.0 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -32,6 +33,7 @@ includes:
 - /usr/include/KF5/KWidgetsAddons/KEditListWidget$
 - /usr/include/KF5/KWidgetsAddons/KFontAction$
 - /usr/include/KF5/KWidgetsAddons/KFontChooser$
+- /usr/include/KF5/KWidgetsAddons/KFontChooserDialog$
 - /usr/include/KF5/KWidgetsAddons/KFontRequester$
 - /usr/include/KF5/KWidgetsAddons/KFontSizeAction$
 - /usr/include/KF5/KWidgetsAddons/KGradientSelector$
@@ -107,6 +109,7 @@ includes:
 - /usr/include/KF5/KWidgetsAddons/keditlistwidget.h$
 - /usr/include/KF5/KWidgetsAddons/kfontaction.h$
 - /usr/include/KF5/KWidgetsAddons/kfontchooser.h$
+- /usr/include/KF5/KWidgetsAddons/kfontchooserdialog.h$
 - /usr/include/KF5/KWidgetsAddons/kfontrequester.h$
 - /usr/include/KF5/KWidgetsAddons/kfontsizeaction.h$
 - /usr/include/KF5/KWidgetsAddons/kguiitem.h$
@@ -168,15 +171,15 @@ includes:
 - /usr/lib64/cmake/KF5WidgetsAddons/KF5WidgetsAddonsTargets.cmake$
 - /usr/lib64/libKF5WidgetsAddons.so$
 - /usr/lib64/libKF5WidgetsAddons.so.5$
-- /usr/lib64/libKF5WidgetsAddons.so.5.67.0$
+- /usr/lib64/libKF5WidgetsAddons.so.5.69.0$
 - /usr/lib64/qt5$
 - /usr/lib64/qt5/mkspecs$
 - /usr/lib64/qt5/mkspecs/modules$
 - /usr/lib64/qt5/mkspecs/modules/qt_KWidgetsAddons.pri$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/kwidgetsaddons-5.67.0$
-- /usr/share/doc/kwidgetsaddons-5.67.0/README.md.bz2$
+- /usr/share/doc/kwidgetsaddons-5.69.0$
+- /usr/share/doc/kwidgetsaddons-5.69.0/README.md.bz2$
 - /usr/share/kf5$
 - /usr/share/kf5/kcharselect$
 - /usr/share/kf5/kcharselect/kcharselect-data$
@@ -367,3 +370,6 @@ includes:
 - /usr/share/locale/zh_TW$
 - /usr/share/locale/zh_TW/LC_MESSAGES$
 - /usr/share/locale/zh_TW/LC_MESSAGES/kwidgetsaddons5_qt.qm$
+env:
+- ORIGINAL_ATOM=kde-frameworks/kwidgetsaddons
+- ORIGINAL_PACKAGE=kde-frameworks/kwidgetsaddons-5.69.0
