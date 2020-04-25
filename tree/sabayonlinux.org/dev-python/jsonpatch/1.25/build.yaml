@@ -1,0 +1,41 @@
+unpack: true
+steps:
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/jsondiff$
+- /usr/bin/jsonpatch$
+- /usr/lib$
+- /usr/lib/python-exec$
+- /usr/lib/python-exec/python3.6$
+- /usr/lib/python-exec/python3.6/jsondiff$
+- /usr/lib/python-exec/python3.6/jsonpatch$
+- /usr/lib64$
+- /usr/lib64/python3.6$
+- /usr/lib64/python3.6/site-packages$
+- /usr/lib64/python3.6/site-packages/__pycache__$
+- /usr/lib64/python3.6/site-packages/__pycache__/jsonpatch.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/__pycache__/jsonpatch.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/__pycache__/jsonpatch.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/jsonpatch-1.25-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/jsonpatch-1.25-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/jsonpatch-1.25-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/jsonpatch-1.25-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/jsonpatch-1.25-py3.6.egg-info/requires.txt$
+- /usr/lib64/python3.6/site-packages/jsonpatch-1.25-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/jsonpatch.py$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/jsonpatch-1.25$
+- /usr/share/doc/jsonpatch-1.25/AUTHORS.bz2$
+- /usr/share/doc/jsonpatch-1.25/README.md.bz2$
+env:
+- ORIGINAL_ATOM=dev-python/jsonpatch
+- ORIGINAL_PACKAGE=dev-python/jsonpatch-1.25
