@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i kde-frameworks/kdesu-5.67.0 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -40,7 +41,7 @@ includes:
 - /usr/lib64/cmake/KF5Su/KF5SuTargets.cmake$
 - /usr/lib64/libKF5Su.so$
 - /usr/lib64/libKF5Su.so.5$
-- /usr/lib64/libKF5Su.so.5.67.0$
+- /usr/lib64/libKF5Su.so.5.69.0$
 - /usr/lib64/libexec$
 - /usr/lib64/libexec/kf5$
 - /usr/lib64/libexec/kf5/kdesu_stub$
@@ -51,8 +52,8 @@ includes:
 - /usr/lib64/qt5/mkspecs/modules/qt_KDESu.pri$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/kdesu-5.67.0$
-- /usr/share/doc/kdesu-5.67.0/README.md.bz2$
+- /usr/share/doc/kdesu-5.69.0$
+- /usr/share/doc/kdesu-5.69.0/README.md.bz2$
 - /usr/share/locale$
 - /usr/share/locale/ar$
 - /usr/share/locale/ar/LC_MESSAGES$
@@ -171,3 +172,6 @@ includes:
 - /usr/share/locale/zh_TW$
 - /usr/share/locale/zh_TW/LC_MESSAGES$
 - /usr/share/locale/zh_TW/LC_MESSAGES/kdesud5.mo$
+env:
+- ORIGINAL_ATOM=kde-frameworks/kdesu
+- ORIGINAL_PACKAGE=kde-frameworks/kdesu-5.69.0
