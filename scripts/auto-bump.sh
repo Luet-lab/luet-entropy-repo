@@ -136,21 +136,28 @@ for i in $(echo "$PKG_LIST" | jq -r '.packages[].path'); do
             git checkout -b $BRANCH_NAME
         fi
 
-        # Update runtime version
-        yq w -i $PACKAGE_PATH/definition.yaml version "$VERSION" --style double
+        # Generate new folder after the new version
+        # e.g. tree/package/1.1 to tree/package/1.2
+        package_dir=$(dirname $PACKAGE_PATH)
+        new_version=$package_dir/$VERSION
+        # Copy content from previous version
+        cp -rfv $PACKAGE_PATH $new_version
 
-        yq w -i $PACKAGE_PATH/build.yaml env.[0] "ORIGINAL_ATOM=$ORIGINAL_PACKAGE_CATEGORY/$ORIGINAL_PACKAGE_NAME"
-        yq w -i $PACKAGE_PATH/build.yaml env.[1] "ORIGINAL_PACKAGE=$ORIGINAL_PACKAGE_CATEGORY/$ORIGINAL_PACKAGE_NAME-$VERSION"
-        yq w -i $PACKAGE_PATH/build.yaml steps.[0] "$STEP" --style folded
+        # Update runtime version
+        yq w -i $new_version/definition.yaml version "$VERSION" --style double
+
+        yq w -i $new_version/build.yaml env.[0] "ORIGINAL_ATOM=$ORIGINAL_PACKAGE_CATEGORY/$ORIGINAL_PACKAGE_NAME"
+        yq w -i $new_version/build.yaml env.[1] "ORIGINAL_PACKAGE=$ORIGINAL_PACKAGE_CATEGORY/$ORIGINAL_PACKAGE_NAME-$VERSION"
+        yq w -i $new_version/build.yaml steps.[0] "$STEP" --style folded
 
         # Sync with repos. we need to run in a sabayon O.S. for this feature
         if [ "${WITH_SABAYON_FILES}" == "true" ]; then
             ACCEPT_LICENSE=* equo i $ORIGINAL_PACKAGE_CATEGORY/$ORIGINAL_PACKAGE_NAME-$VERSION > /dev/null
             includes=$(equo q files $ORIGINAL_PACKAGE_CATEGORY/$ORIGINAL_PACKAGE_NAME-$VERSION -q)
-            yq w -i $PACKAGE_PATH/build.yaml -i 'includes'
+            yq w -i $new_version/build.yaml -i 'includes'
             for inc in ${includes} ; do
                 inc=$(echo "$inc" | sed -e 's|\+|\[+\]|g')
-                yq w -i $PACKAGE_PATH/build.yaml -i 'includes[+]' "$inc\$"
+                yq w -i $new_version/build.yaml -i 'includes[+]' "$inc\$"
             done
         fi
 
@@ -158,7 +165,8 @@ for i in $(echo "$PKG_LIST" | jq -r '.packages[].path'); do
         echo "Revdeps: $REVDEP_LIST" # TODO: Bump revdeps version incrementing value after "+"
 
         if [ "${AUTO_GIT}" == "true" ]; then
-            git add $PACKAGE_PATH/
+            git add $new_version/
+            git rm -r $PACKAGE_PATH
             git commit -m "Bump $ORIGINAL_PACKAGE_CATEGORY/$ORIGINAL_PACKAGE_NAME to $VERSION"
             git push -f -v origin $BRANCH_NAME
 
