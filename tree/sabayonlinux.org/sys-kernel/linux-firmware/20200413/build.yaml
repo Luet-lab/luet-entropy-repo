@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i sys-kernel/linux-firmware-20200122 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -11,7 +12,7 @@ includes:
 - /etc/portage$
 - /etc/portage/savedconfig$
 - /etc/portage/savedconfig/sys-kernel$
-- /etc/portage/savedconfig/sys-kernel/linux-firmware-20200122$
+- /etc/portage/savedconfig/sys-kernel/linux-firmware-20200413$
 - /lib$
 - /lib/firmware$
 - /lib/firmware/3com$
@@ -266,6 +267,17 @@ includes:
 - /lib/firmware/amdgpu/raven_sdma.bin$
 - /lib/firmware/amdgpu/raven_ta.bin$
 - /lib/firmware/amdgpu/raven_vcn.bin$
+- /lib/firmware/amdgpu/renoir_asd.bin$
+- /lib/firmware/amdgpu/renoir_ce.bin$
+- /lib/firmware/amdgpu/renoir_dmcub.bin$
+- /lib/firmware/amdgpu/renoir_gpu_info.bin$
+- /lib/firmware/amdgpu/renoir_me.bin$
+- /lib/firmware/amdgpu/renoir_mec.bin$
+- /lib/firmware/amdgpu/renoir_mec2.bin$
+- /lib/firmware/amdgpu/renoir_pfp.bin$
+- /lib/firmware/amdgpu/renoir_rlc.bin$
+- /lib/firmware/amdgpu/renoir_sdma.bin$
+- /lib/firmware/amdgpu/renoir_vcn.bin$
 - /lib/firmware/amdgpu/si58_mc.bin$
 - /lib/firmware/amdgpu/stoney_ce.bin$
 - /lib/firmware/amdgpu/stoney_me.bin$
@@ -847,7 +859,9 @@ includes:
 - /lib/firmware/i915/skl_huc_2.0.0.bin$
 - /lib/firmware/i915/skl_huc_ver01_07_1398.bin$
 - /lib/firmware/i915/tgl_dmc_ver2_04.bin$
+- /lib/firmware/i915/tgl_dmc_ver2_06.bin$
 - /lib/firmware/i915/tgl_guc_35.2.0.bin$
+- /lib/firmware/i915/tgl_huc_7.0.12.bin$
 - /lib/firmware/i915/tgl_huc_7.0.3.bin$
 - /lib/firmware/imx$
 - /lib/firmware/imx/sdma$
@@ -1093,11 +1107,20 @@ includes:
 - /lib/firmware/mediatek/mt7615_cr4.bin$
 - /lib/firmware/mediatek/mt7615_n9.bin$
 - /lib/firmware/mediatek/mt7615_rom_patch.bin$
+- /lib/firmware/mediatek/mt7622_n9.bin$
+- /lib/firmware/mediatek/mt7622_rom_patch.bin$
 - /lib/firmware/mediatek/mt7622pr2h.bin$
 - /lib/firmware/mediatek/mt7650e.bin$
 - /lib/firmware/mediatek/mt7662u.bin$
 - /lib/firmware/mediatek/mt7662u_rom_patch.bin$
+- /lib/firmware/mediatek/mt7663_n9_v3.bin$
+- /lib/firmware/mediatek/mt7663pr2h.bin$
 - /lib/firmware/mediatek/mt7668pr2h.bin$
+- /lib/firmware/mediatek/mt8173$
+- /lib/firmware/mediatek/mt8173/vpu_d.bin$
+- /lib/firmware/mediatek/mt8173/vpu_p.bin$
+- /lib/firmware/mediatek/mt8183$
+- /lib/firmware/mediatek/mt8183/scp.img$
 - /lib/firmware/mellanox$
 - /lib/firmware/mellanox/mlxsw_spectrum-13.1420.122.mfa2$
 - /lib/firmware/mellanox/mlxsw_spectrum-13.1530.152.mfa2$
@@ -1114,6 +1137,7 @@ includes:
 - /lib/firmware/meson$
 - /lib/firmware/meson/vdec$
 - /lib/firmware/meson/vdec/g12a_h264.bin$
+- /lib/firmware/meson/vdec/g12a_hevc_mmu.bin$
 - /lib/firmware/meson/vdec/g12a_vp9.bin$
 - /lib/firmware/meson/vdec/gxbb_h264.bin$
 - /lib/firmware/meson/vdec/gxl_h263.bin$
@@ -1123,7 +1147,10 @@ includes:
 - /lib/firmware/meson/vdec/gxl_mjpeg.bin$
 - /lib/firmware/meson/vdec/gxl_mpeg12.bin$
 - /lib/firmware/meson/vdec/gxl_mpeg4_5.bin$
+- /lib/firmware/meson/vdec/gxl_vp9.bin$
 - /lib/firmware/meson/vdec/gxm_h264.bin$
+- /lib/firmware/meson/vdec/sm1_hevc_mmu.bin$
+- /lib/firmware/meson/vdec/sm1_vp9_mmu.bin$
 - /lib/firmware/microchip$
 - /lib/firmware/microchip/mscc_vsc8574_revb_int8051_29e8.bin$
 - /lib/firmware/microchip/mscc_vsc8584_revb_int8051_fb48.bin$
@@ -1614,6 +1641,60 @@ includes:
 - /lib/firmware/nvidia/tu10x/typec/ccg_boot.cyacd$
 - /lib/firmware/nvidia/tu10x/typec/ccg_primary.cyacd$
 - /lib/firmware/nvidia/tu10x/typec/ccg_secondary.cyacd$
+- /lib/firmware/nvidia/tu116$
+- /lib/firmware/nvidia/tu116/acr$
+- /lib/firmware/nvidia/tu116/acr/bl.bin$
+- /lib/firmware/nvidia/tu116/acr/ucode_ahesasc.bin$
+- /lib/firmware/nvidia/tu116/acr/ucode_asb.bin$
+- /lib/firmware/nvidia/tu116/acr/ucode_unload.bin$
+- /lib/firmware/nvidia/tu116/acr/unload_bl.bin$
+- /lib/firmware/nvidia/tu116/gr$
+- /lib/firmware/nvidia/tu116/gr/fecs_bl.bin$
+- /lib/firmware/nvidia/tu116/gr/fecs_data.bin$
+- /lib/firmware/nvidia/tu116/gr/fecs_inst.bin$
+- /lib/firmware/nvidia/tu116/gr/fecs_sig.bin$
+- /lib/firmware/nvidia/tu116/gr/gpccs_bl.bin$
+- /lib/firmware/nvidia/tu116/gr/gpccs_data.bin$
+- /lib/firmware/nvidia/tu116/gr/gpccs_inst.bin$
+- /lib/firmware/nvidia/tu116/gr/gpccs_sig.bin$
+- /lib/firmware/nvidia/tu116/gr/sw_bundle_init.bin$
+- /lib/firmware/nvidia/tu116/gr/sw_ctx.bin$
+- /lib/firmware/nvidia/tu116/gr/sw_method_init.bin$
+- /lib/firmware/nvidia/tu116/gr/sw_nonctx.bin$
+- /lib/firmware/nvidia/tu116/gr/sw_veid_bundle_init.bin$
+- /lib/firmware/nvidia/tu116/nvdec$
+- /lib/firmware/nvidia/tu116/nvdec/scrubber.bin$
+- /lib/firmware/nvidia/tu116/sec2$
+- /lib/firmware/nvidia/tu116/sec2/desc.bin$
+- /lib/firmware/nvidia/tu116/sec2/image.bin$
+- /lib/firmware/nvidia/tu116/sec2/sig.bin$
+- /lib/firmware/nvidia/tu117$
+- /lib/firmware/nvidia/tu117/acr$
+- /lib/firmware/nvidia/tu117/acr/bl.bin$
+- /lib/firmware/nvidia/tu117/acr/ucode_ahesasc.bin$
+- /lib/firmware/nvidia/tu117/acr/ucode_asb.bin$
+- /lib/firmware/nvidia/tu117/acr/ucode_unload.bin$
+- /lib/firmware/nvidia/tu117/acr/unload_bl.bin$
+- /lib/firmware/nvidia/tu117/gr$
+- /lib/firmware/nvidia/tu117/gr/fecs_bl.bin$
+- /lib/firmware/nvidia/tu117/gr/fecs_data.bin$
+- /lib/firmware/nvidia/tu117/gr/fecs_inst.bin$
+- /lib/firmware/nvidia/tu117/gr/fecs_sig.bin$
+- /lib/firmware/nvidia/tu117/gr/gpccs_bl.bin$
+- /lib/firmware/nvidia/tu117/gr/gpccs_data.bin$
+- /lib/firmware/nvidia/tu117/gr/gpccs_inst.bin$
+- /lib/firmware/nvidia/tu117/gr/gpccs_sig.bin$
+- /lib/firmware/nvidia/tu117/gr/sw_bundle_init.bin$
+- /lib/firmware/nvidia/tu117/gr/sw_ctx.bin$
+- /lib/firmware/nvidia/tu117/gr/sw_method_init.bin$
+- /lib/firmware/nvidia/tu117/gr/sw_nonctx.bin$
+- /lib/firmware/nvidia/tu117/gr/sw_veid_bundle_init.bin$
+- /lib/firmware/nvidia/tu117/nvdec$
+- /lib/firmware/nvidia/tu117/nvdec/scrubber.bin$
+- /lib/firmware/nvidia/tu117/sec2$
+- /lib/firmware/nvidia/tu117/sec2/desc.bin$
+- /lib/firmware/nvidia/tu117/sec2/image.bin$
+- /lib/firmware/nvidia/tu117/sec2/sig.bin$
 - /lib/firmware/phanfw.bin$
 - /lib/firmware/qat_895xcc.bin$
 - /lib/firmware/qat_895xcc_mmp.bin$
@@ -1624,14 +1705,21 @@ includes:
 - /lib/firmware/qca$
 - /lib/firmware/qca/NOTICE.txt$
 - /lib/firmware/qca/crbtfw21.tlv$
+- /lib/firmware/qca/crbtfw32.tlv$
 - /lib/firmware/qca/crnv21.bin$
+- /lib/firmware/qca/crnv32.bin$
+- /lib/firmware/qca/htbtfw20.tlv$
+- /lib/firmware/qca/htnv20.bin$
 - /lib/firmware/qca/nvm_00130300.bin$
 - /lib/firmware/qca/nvm_00130302.bin$
 - /lib/firmware/qca/nvm_00440302.bin$
+- /lib/firmware/qca/nvm_00440302_eu.bin$
+- /lib/firmware/qca/nvm_00440302_i2s_eu.bin$
 - /lib/firmware/qca/nvm_usb_00000200.bin$
 - /lib/firmware/qca/nvm_usb_00000201.bin$
 - /lib/firmware/qca/nvm_usb_00000300.bin$
 - /lib/firmware/qca/nvm_usb_00000302.bin$
+- /lib/firmware/qca/nvm_usb_00000302_eu.bin$
 - /lib/firmware/qca/rampatch_00130300.bin$
 - /lib/firmware/qca/rampatch_00130302.bin$
 - /lib/firmware/qca/rampatch_00440302.bin$
@@ -1653,6 +1741,7 @@ includes:
 - /lib/firmware/qcom/a630_gmu.bin$
 - /lib/firmware/qcom/a630_sqe.fw$
 - /lib/firmware/qcom/sdm845$
+- /lib/firmware/qcom/sdm845/a630_zap.mbn$
 - /lib/firmware/qcom/sdm845/adsp.mbn$
 - /lib/firmware/qcom/sdm845/adspr.jsn$
 - /lib/firmware/qcom/sdm845/adspua.jsn$
@@ -2009,6 +2098,8 @@ includes:
 - /lib/firmware/rtl_bt/rtl8821c_fw.bin$
 - /lib/firmware/rtl_bt/rtl8822b_config.bin$
 - /lib/firmware/rtl_bt/rtl8822b_fw.bin$
+- /lib/firmware/rtl_bt/rtl8822cs_config.bin$
+- /lib/firmware/rtl_bt/rtl8822cs_fw.bin$
 - /lib/firmware/rtl_bt/rtl8822cu_config.bin$
 - /lib/firmware/rtl_bt/rtl8822cu_fw.bin$
 - /lib/firmware/rtl_nic$
@@ -2181,11 +2272,12 @@ includes:
 - /lib/firmware/v4l-cx23885-avcore-01.fw$
 - /lib/firmware/v4l-cx25840.fw$
 - /lib/firmware/vntwusb.fw$
-- /lib/firmware/vpu_d.bin$
-- /lib/firmware/vpu_p.bin$
 - /lib/firmware/vxge$
 - /lib/firmware/vxge/X3fw-pxe.ncf$
 - /lib/firmware/vxge/X3fw.ncf$
 - /lib/firmware/wil6210.brd$
 - /lib/firmware/wil6210.fw$
 - /lib/firmware/wsm_22.bin$
+env:
+- ORIGINAL_ATOM=sys-kernel/linux-firmware
+- ORIGINAL_PACKAGE=sys-kernel/linux-firmware-20200413
