@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i gnome-extra/yelp-3.32.2 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -44,12 +45,12 @@ includes:
 - /usr/share/applications$
 - /usr/share/applications/yelp.desktop$
 - /usr/share/doc$
-- /usr/share/doc/yelp-3.32.2$
-- /usr/share/doc/yelp-3.32.2/AUTHORS.bz2$
-- /usr/share/doc/yelp-3.32.2/ChangeLog.bz2$
-- /usr/share/doc/yelp-3.32.2/NEWS.bz2$
-- /usr/share/doc/yelp-3.32.2/README.bz2$
-- /usr/share/doc/yelp-3.32.2/TODO.bz2$
+- /usr/share/doc/yelp-3.34.0$
+- /usr/share/doc/yelp-3.34.0/AUTHORS.bz2$
+- /usr/share/doc/yelp-3.34.0/ChangeLog.bz2$
+- /usr/share/doc/yelp-3.34.0/NEWS.bz2$
+- /usr/share/doc/yelp-3.34.0/README.bz2$
+- /usr/share/doc/yelp-3.34.0/TODO.bz2$
 - /usr/share/glib-2.0$
 - /usr/share/glib-2.0/schemas$
 - /usr/share/glib-2.0/schemas/org.gnome.yelp.gschema.xml$
@@ -561,3 +562,6 @@ includes:
 - /usr/share/yelp/xslt/mal2html.xsl$
 - /usr/share/yelp/xslt/man2html.xsl$
 - /usr/share/yelp/xslt/yelp-common.xsl$
+env:
+- ORIGINAL_ATOM=gnome-extra/yelp
+- ORIGINAL_PACKAGE=gnome-extra/yelp-3.34.0
