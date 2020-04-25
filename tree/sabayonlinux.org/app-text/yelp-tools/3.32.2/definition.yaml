@@ -75,11 +75,9 @@ use_flags:
 - elibc_glibc
 - userland_GNU
 - kernel_linux
-version: 3.28.0+3
-
+version: "3.32.2"
 Labels:
   original.package.name: "yelp-tools"
   original.package.category: "app-text"
   original.package.version: "3.28.0"
   original.package.slot: "0"
-
