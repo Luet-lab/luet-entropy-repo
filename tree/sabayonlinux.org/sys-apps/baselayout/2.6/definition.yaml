@@ -16,3 +16,10 @@ use_flags:
 - -kernel_FreeBSD
 - userland_GNU
 version: 2.6+r4
+
+Labels:
+  original.package.name: "baselayout"
+  original.package.category: "sys-apps"
+  original.package.version: "2.6"
+  original.package.slot: "0"
+

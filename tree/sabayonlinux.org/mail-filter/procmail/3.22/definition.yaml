@@ -15,3 +15,10 @@ use_flags:
 - -selinux
 - userland_GNU
 version: 3.22+r17
+
+Labels:
+  original.package.name: "procmail"
+  original.package.category: "mail-filter"
+  original.package.version: "3.22"
+  original.package.slot: "0"
+
