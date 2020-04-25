@@ -98,11 +98,9 @@ use_flags:
 - seccomp
 - elibc_glibc
 - kernel_linux
-version: 2.9.0+3
-
+version: "2.9.1"
 Labels:
   original.package.name: "man-db"
   original.package.category: "sys-apps"
   original.package.version: "2.9.0"
   original.package.slot: "0"
-
