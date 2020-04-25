@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i kde-frameworks/kdoctools-5.67.0 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -29,12 +30,12 @@ includes:
 - /usr/lib64/cmake/KF5DocTools/KF5DocToolsToolsTargets.cmake$
 - /usr/lib64/libKF5DocTools.so$
 - /usr/lib64/libKF5DocTools.so.5$
-- /usr/lib64/libKF5DocTools.so.5.67.0$
+- /usr/lib64/libKF5DocTools.so.5.69.0$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/kdoctools-5.67.0$
-- /usr/share/doc/kdoctools-5.67.0/README.md.bz2$
-- /usr/share/doc/kdoctools-5.67.0/TODO.bz2$
+- /usr/share/doc/kdoctools-5.69.0$
+- /usr/share/doc/kdoctools-5.69.0/README.md.bz2$
+- /usr/share/doc/kdoctools-5.69.0/TODO.bz2$
 - /usr/share/help$
 - /usr/share/help/af$
 - /usr/share/help/af/kdoctools5-common$
@@ -1434,3 +1435,6 @@ includes:
 - /usr/share/man/uk/man7$
 - /usr/share/man/uk/man7/kf5options.7.bz2$
 - /usr/share/man/uk/man7/qt5options.7.bz2$
+env:
+- ORIGINAL_ATOM=kde-frameworks/kdoctools
+- ORIGINAL_PACKAGE=kde-frameworks/kdoctools-5.69.0
