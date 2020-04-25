@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/ipykernel-5.1.3 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -16,12 +17,12 @@ includes:
 - /usr/lib64/python3.6/site-packages/__pycache__/ipykernel_launcher.cpython-36.opt-2.pyc$
 - /usr/lib64/python3.6/site-packages/__pycache__/ipykernel_launcher.cpython-36.pyc$
 - /usr/lib64/python3.6/site-packages/ipykernel$
-- /usr/lib64/python3.6/site-packages/ipykernel-5.1.3-py3.6.egg-info$
-- /usr/lib64/python3.6/site-packages/ipykernel-5.1.3-py3.6.egg-info/PKG-INFO$
-- /usr/lib64/python3.6/site-packages/ipykernel-5.1.3-py3.6.egg-info/SOURCES.txt$
-- /usr/lib64/python3.6/site-packages/ipykernel-5.1.3-py3.6.egg-info/dependency_links.txt$
-- /usr/lib64/python3.6/site-packages/ipykernel-5.1.3-py3.6.egg-info/requires.txt$
-- /usr/lib64/python3.6/site-packages/ipykernel-5.1.3-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/ipykernel-5.1.4-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/ipykernel-5.1.4-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/ipykernel-5.1.4-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/ipykernel-5.1.4-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/ipykernel-5.1.4-py3.6.egg-info/requires.txt$
+- /usr/lib64/python3.6/site-packages/ipykernel-5.1.4-py3.6.egg-info/top_level.txt$
 - /usr/lib64/python3.6/site-packages/ipykernel/__init__.py$
 - /usr/lib64/python3.6/site-packages/ipykernel/__main__.py$
 - /usr/lib64/python3.6/site-packages/ipykernel/__pycache__$
@@ -277,11 +278,14 @@ includes:
 - /usr/lib64/python3.6/site-packages/ipykernel_launcher.py$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/ipykernel-5.1.3$
-- /usr/share/doc/ipykernel-5.1.3/README.md.bz2$
+- /usr/share/doc/ipykernel-5.1.4$
+- /usr/share/doc/ipykernel-5.1.4/README.md.bz2$
 - /usr/share/jupyter$
 - /usr/share/jupyter/kernels$
 - /usr/share/jupyter/kernels/python3$
 - /usr/share/jupyter/kernels/python3/kernel.json$
 - /usr/share/jupyter/kernels/python3/logo-32x32.png$
 - /usr/share/jupyter/kernels/python3/logo-64x64.png$
+env:
+- ORIGINAL_ATOM=dev-python/ipykernel
+- ORIGINAL_PACKAGE=dev-python/ipykernel-5.1.4
