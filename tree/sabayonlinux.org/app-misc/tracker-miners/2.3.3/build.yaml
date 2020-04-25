@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i app-misc/tracker-miners-2.2.2 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -43,9 +44,8 @@ includes:
 - /usr/lib64/tracker-miners-2.0/extract-modules/libextract-text.so$
 - /usr/lib64/tracker-miners-2.0/extract-modules/libextract-tiff.so$
 - /usr/lib64/tracker-miners-2.0/libtracker-extract.so$
-- /usr/lib64/tracker-miners-2.0/libtracker-miners-common.so$
 - /usr/lib64/tracker-miners-2.0/writeback-modules$
-- /usr/lib64/tracker-miners-2.0/writeback-modules/libwriteback-taglib.so$
+- /usr/lib64/tracker-miners-2.0/writeback-modules/libwriteback-gstreamer.so$
 - /usr/libexec$
 - /usr/libexec/tracker-extract$
 - /usr/libexec/tracker-miner-fs$
@@ -59,10 +59,10 @@ includes:
 - /usr/share/dbus-1/services/org.freedesktop.Tracker1.Miner.RSS.service$
 - /usr/share/dbus-1/services/org.freedesktop.Tracker1.Writeback.service$
 - /usr/share/doc$
-- /usr/share/doc/tracker-miners-2.2.2$
-- /usr/share/doc/tracker-miners-2.2.2/AUTHORS.bz2$
-- /usr/share/doc/tracker-miners-2.2.2/NEWS.bz2$
-- /usr/share/doc/tracker-miners-2.2.2/README.md.bz2$
+- /usr/share/doc/tracker-miners-2.3.3$
+- /usr/share/doc/tracker-miners-2.3.3/AUTHORS.bz2$
+- /usr/share/doc/tracker-miners-2.3.3/NEWS.bz2$
+- /usr/share/doc/tracker-miners-2.3.3/README.md.bz2$
 - /usr/share/glib-2.0$
 - /usr/share/glib-2.0/schemas$
 - /usr/share/glib-2.0/schemas/org.freedesktop.Tracker.Extract.gschema.xml$
@@ -76,6 +76,9 @@ includes:
 - /usr/share/locale/as$
 - /usr/share/locale/as/LC_MESSAGES$
 - /usr/share/locale/as/LC_MESSAGES/tracker-miners.mo$
+- /usr/share/locale/be$
+- /usr/share/locale/be/LC_MESSAGES$
+- /usr/share/locale/be/LC_MESSAGES/tracker-miners.mo$
 - /usr/share/locale/be@latin$
 - /usr/share/locale/be@latin/LC_MESSAGES$
 - /usr/share/locale/be@latin/LC_MESSAGES/tracker-miners.mo$
@@ -169,6 +172,9 @@ includes:
 - /usr/share/locale/ml$
 - /usr/share/locale/ml/LC_MESSAGES$
 - /usr/share/locale/ml/LC_MESSAGES/tracker-miners.mo$
+- /usr/share/locale/ms$
+- /usr/share/locale/ms/LC_MESSAGES$
+- /usr/share/locale/ms/LC_MESSAGES/tracker-miners.mo$
 - /usr/share/locale/nb$
 - /usr/share/locale/nb/LC_MESSAGES$
 - /usr/share/locale/nb/LC_MESSAGES/tracker-miners.mo$
@@ -281,3 +287,6 @@ includes:
 - /usr/share/tracker/miners/org.freedesktop.Tracker1.Miner.Extract.service$
 - /usr/share/tracker/miners/org.freedesktop.Tracker1.Miner.Files.service$
 - /usr/share/tracker/miners/org.freedesktop.Tracker1.Miner.RSS.service$
+env:
+- ORIGINAL_ATOM=app-misc/tracker-miners
+- ORIGINAL_PACKAGE=app-misc/tracker-miners-2.3.3
