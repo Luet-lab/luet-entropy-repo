@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i media-video/totem-3.32.1-r2 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -35,9 +36,6 @@ includes:
 - /usr/lib64/totem/plugins/autoload-subtitles$
 - /usr/lib64/totem/plugins/autoload-subtitles/autoload-subtitles.plugin$
 - /usr/lib64/totem/plugins/autoload-subtitles/libautoload-subtitles.so$
-- /usr/lib64/totem/plugins/brasero-disc-recorder$
-- /usr/lib64/totem/plugins/brasero-disc-recorder/brasero-disc-recorder.plugin$
-- /usr/lib64/totem/plugins/brasero-disc-recorder/libbrasero-disc-recorder.so$
 - /usr/lib64/totem/plugins/dbus$
 - /usr/lib64/totem/plugins/dbus/__pycache__$
 - /usr/lib64/totem/plugins/dbus/__pycache__/dbusservice.cpython-36.opt-1.pyc$
@@ -49,8 +47,11 @@ includes:
 - /usr/lib64/totem/plugins/im-status/libtotem-im-status.so$
 - /usr/lib64/totem/plugins/im-status/totem-im-status.plugin$
 - /usr/lib64/totem/plugins/media-player-keys$
-- /usr/lib64/totem/plugins/media-player-keys/libmedia_player_keys.so$
+- /usr/lib64/totem/plugins/media-player-keys/libmedia-player-keys.so$
 - /usr/lib64/totem/plugins/media-player-keys/media-player-keys.plugin$
+- /usr/lib64/totem/plugins/open-directory$
+- /usr/lib64/totem/plugins/open-directory/libopen-directory.so$
+- /usr/lib64/totem/plugins/open-directory/open-directory.plugin$
 - /usr/lib64/totem/plugins/opensubtitles$
 - /usr/lib64/totem/plugins/opensubtitles/__pycache__$
 - /usr/lib64/totem/plugins/opensubtitles/__pycache__/hash.cpython-36.opt-1.pyc$
@@ -117,10 +118,10 @@ includes:
 - /usr/share/dbus-1/services$
 - /usr/share/dbus-1/services/org.gnome.Totem.service$
 - /usr/share/doc$
-- /usr/share/doc/totem-3.32.1-r2$
-- /usr/share/doc/totem-3.32.1-r2/AUTHORS$
-- /usr/share/doc/totem-3.32.1-r2/NEWS.bz2$
-- /usr/share/doc/totem-3.32.1-r2/README.bz2$
+- /usr/share/doc/totem-3.34.1$
+- /usr/share/doc/totem-3.34.1/AUTHORS$
+- /usr/share/doc/totem-3.34.1/NEWS.bz2$
+- /usr/share/doc/totem-3.34.1/README.bz2$
 - /usr/share/gir-1.0$
 - /usr/share/gir-1.0/Totem-1.0.gir$
 - /usr/share/glib-2.0$
@@ -1142,6 +1143,9 @@ includes:
 - /usr/share/locale/mg$
 - /usr/share/locale/mg/LC_MESSAGES$
 - /usr/share/locale/mg/LC_MESSAGES/totem.mo$
+- /usr/share/locale/mjw$
+- /usr/share/locale/mjw/LC_MESSAGES$
+- /usr/share/locale/mjw/LC_MESSAGES/totem.mo$
 - /usr/share/locale/mk$
 - /usr/share/locale/mk/LC_MESSAGES$
 - /usr/share/locale/mk/LC_MESSAGES/totem.mo$
@@ -1274,3 +1278,6 @@ includes:
 - /usr/share/totem/shortcuts.ui$
 - /usr/share/totem/totem.ui$
 - /usr/share/totem/uri.ui$
+env:
+- ORIGINAL_ATOM=media-video/totem
+- ORIGINAL_PACKAGE=media-video/totem-3.34.1
