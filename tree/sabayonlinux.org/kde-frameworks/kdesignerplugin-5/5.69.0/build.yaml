@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i kde-frameworks/kdesignerplugin-5.67.0 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -21,8 +22,8 @@ includes:
 - /usr/lib64/cmake/KF5DesignerPlugin/KF5DesignerPluginTargets.cmake$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/kdesignerplugin-5.67.0$
-- /usr/share/doc/kdesignerplugin-5.67.0/README.md.bz2$
+- /usr/share/doc/kdesignerplugin-5.69.0$
+- /usr/share/doc/kdesignerplugin-5.69.0/README.md.bz2$
 - /usr/share/locale$
 - /usr/share/locale/af$
 - /usr/share/locale/af/LC_MESSAGES$
@@ -214,6 +215,9 @@ includes:
 - /usr/share/man/de$
 - /usr/share/man/de/man1$
 - /usr/share/man/de/man1/kgendesignerplugin.1.bz2$
+- /usr/share/man/es$
+- /usr/share/man/es/man1$
+- /usr/share/man/es/man1/kgendesignerplugin.1.bz2$
 - /usr/share/man/it$
 - /usr/share/man/it/man1$
 - /usr/share/man/it/man1/kgendesignerplugin.1.bz2$
@@ -234,3 +238,6 @@ includes:
 - /usr/share/man/uk$
 - /usr/share/man/uk/man1$
 - /usr/share/man/uk/man1/kgendesignerplugin.1.bz2$
+env:
+- ORIGINAL_ATOM=kde-frameworks/kdesignerplugin
+- ORIGINAL_PACKAGE=kde-frameworks/kdesignerplugin-5.69.0
