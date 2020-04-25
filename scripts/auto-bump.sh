@@ -13,6 +13,7 @@ SABAYON_DATABASE="${SABAYON_DATABASE:-http://sabayonlinux.mirror.garr.it/sabayon
 VERSIONING_STRATEGY="${VERSIONING_STRATEGY:-sabayon}"
 STEP_TEMPLATE="${STEP_TEMPLATE:-$ROOT_DIR/scripts/templates/sabayon_step.tmpl}"
 AUTO_GIT="${AUTO_GIT:-false}"
+WITH_SABAYON_FILES="${WITH_SABAYON_FILES:-true}"
 
 START_GIT_BRANCH="$(git rev-parse --abbrev-ref HEAD)"
 HUB_ARGS="${HUB_ARGS:--b $START_GIT_BRANCH}"
@@ -61,6 +62,11 @@ latest_gentoo() {
             | jq -r '.Packages[0].Version')
 }
 
+# Sync with repos. we need to run in a sabayon O.S. for this feature
+if [ "${WITH_SABAYON_FILES}" == "true" ]; then
+    equo up
+fi
+
 # For each package in the tree, get the path where the spec resides
 # e.g. tree/sabayonlinux.org/acct-group/amavis/0/
 for i in $(echo "$PKG_LIST" | jq -r '.packages[].path'); do
@@ -87,7 +93,7 @@ for i in $(echo "$PKG_LIST" | jq -r '.packages[].path'); do
         ORIGINAL_PACKAGE_VERSION=$STRIPPED_PACKAGE_VERSION
     fi
 
-    # We generate acct-group/* and acct-user/*
+    # We generate acct-group/* and acct-user/*, skip them
     if [ "$PACKAGE_CATEGORY" == "acct-group" ] || [ "$PACKAGE_CATEGORY" == "acct-user" ]; then
         continue
     fi
@@ -136,6 +142,16 @@ for i in $(echo "$PKG_LIST" | jq -r '.packages[].path'); do
         yq w -i $PACKAGE_PATH/build.yaml env.[0] "ORIGINAL_ATOM=$ORIGINAL_PACKAGE_CATEGORY/$ORIGINAL_PACKAGE_NAME"
         yq w -i $PACKAGE_PATH/build.yaml env.[1] "ORIGINAL_PACKAGE=$ORIGINAL_PACKAGE_CATEGORY/$ORIGINAL_PACKAGE_NAME-$VERSION"
         yq w -i $PACKAGE_PATH/build.yaml steps.[0] "$STEP" --style folded
+
+        # Sync with repos. we need to run in a sabayon O.S. for this feature
+        if [ "${WITH_SABAYON_FILES}" == "true" ]; then
+            includes=$(equo q files $ORIGINAL_PACKAGE_CATEGORY/$ORIGINAL_PACKAGE_NAME-$VERSION -q)
+            yq w -i $PACKAGE_PATH/build.yaml -i 'includes'
+            for inc in ${includes} ; do
+                inc=$(echo "$inc" | sed -e 's|\+|\[+\]|g')
+                yq w -i $PACKAGE_PATH/build.yaml -i 'includes[+]' "$inc\$"
+            done
+        fi
 
         REVDEP_LIST=$(luet tree pkglist --tree $ROOT_DIR/tree --buildtime --revdeps -m $PACKAGE_CATEGORY/$PACKAGE_NAME -o json --debug=false)
         echo "Revdeps: $REVDEP_LIST" # TODO: Bump revdeps version incrementing value after "+"
