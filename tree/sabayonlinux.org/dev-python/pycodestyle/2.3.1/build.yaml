@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/pycodestyle-2.3.1 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -49,3 +50,6 @@ includes:
 - /usr/share/doc$
 - /usr/share/doc/pycodestyle-2.3.1$
 - /usr/share/doc/pycodestyle-2.3.1/README.rst.bz2$
+env:
+- ORIGINAL_ATOM=dev-python/pycodestyle
+- ORIGINAL_PACKAGE=dev-python/pycodestyle-2.5.0
