@@ -1,0 +1,30 @@
+unpack: true
+steps:
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/python2.7$
+- /usr/lib64/python2.7/site-packages$
+- /usr/lib64/python2.7/site-packages/ipaddress-1.0.23-py2.7.egg-info$
+- /usr/lib64/python2.7/site-packages/ipaddress-1.0.23-py2.7.egg-info/PKG-INFO$
+- /usr/lib64/python2.7/site-packages/ipaddress-1.0.23-py2.7.egg-info/SOURCES.txt$
+- /usr/lib64/python2.7/site-packages/ipaddress-1.0.23-py2.7.egg-info/dependency_links.txt$
+- /usr/lib64/python2.7/site-packages/ipaddress-1.0.23-py2.7.egg-info/top_level.txt$
+- /usr/lib64/python2.7/site-packages/ipaddress.py$
+- /usr/lib64/python2.7/site-packages/ipaddress.pyc$
+- /usr/lib64/python2.7/site-packages/ipaddress.pyo$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/ipaddress-1.0.23$
+- /usr/share/doc/ipaddress-1.0.23/README.bz2$
+- /usr/share/doc/ipaddress-1.0.23/README.md.bz2$
+env:
+- ORIGINAL_ATOM=dev-python/ipaddress
+- ORIGINAL_PACKAGE=dev-python/ipaddress-1.0.23
