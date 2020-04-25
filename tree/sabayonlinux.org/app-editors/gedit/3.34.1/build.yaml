@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i app-editors/gedit-3.32.2-r1 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -210,9 +211,6 @@ includes:
 - /usr/lib64/python3.6/site-packages/gi/overrides/__pycache__/Gedit.cpython-36.opt-1.pyc$
 - /usr/lib64/python3.6/site-packages/gi/overrides/__pycache__/Gedit.cpython-36.opt-2.pyc$
 - /usr/lib64/python3.6/site-packages/gi/overrides/__pycache__/Gedit.cpython-36.pyc$
-- /usr/libexec$
-- /usr/libexec/gedit$
-- /usr/libexec/gedit/gedit-bugreport.sh$
 - /usr/share$
 - /usr/share/applications$
 - /usr/share/applications/org.gnome.gedit.desktop$
@@ -220,10 +218,10 @@ includes:
 - /usr/share/dbus-1/services$
 - /usr/share/dbus-1/services/org.gnome.gedit.service$
 - /usr/share/doc$
-- /usr/share/doc/gedit-3.32.2-r1$
-- /usr/share/doc/gedit-3.32.2-r1/AUTHORS.bz2$
-- /usr/share/doc/gedit-3.32.2-r1/NEWS.bz2$
-- /usr/share/doc/gedit-3.32.2-r1/README.md.bz2$
+- /usr/share/doc/gedit-3.34.1$
+- /usr/share/doc/gedit-3.34.1/AUTHORS.bz2$
+- /usr/share/doc/gedit-3.34.1/NEWS.bz2$
+- /usr/share/doc/gedit-3.34.1/README.md.bz2$
 - /usr/share/gedit$
 - /usr/share/gedit/gir-1.0$
 - /usr/share/gedit/gir-1.0/Gedit-3.0.gir$
@@ -281,6 +279,7 @@ includes:
 - /usr/share/glib-2.0/schemas/org.gnome.gedit.plugins.filebrowser.enums.xml$
 - /usr/share/glib-2.0/schemas/org.gnome.gedit.plugins.filebrowser.gschema.xml$
 - /usr/share/glib-2.0/schemas/org.gnome.gedit.plugins.pythonconsole.gschema.xml$
+- /usr/share/glib-2.0/schemas/org.gnome.gedit.plugins.spell.gschema.xml$
 - /usr/share/glib-2.0/schemas/org.gnome.gedit.plugins.time.enums.xml$
 - /usr/share/glib-2.0/schemas/org.gnome.gedit.plugins.time.gschema.xml$
 - /usr/share/help$
@@ -1913,6 +1912,9 @@ includes:
 - /usr/share/locale/mi$
 - /usr/share/locale/mi/LC_MESSAGES$
 - /usr/share/locale/mi/LC_MESSAGES/gedit.mo$
+- /usr/share/locale/mjw$
+- /usr/share/locale/mjw/LC_MESSAGES$
+- /usr/share/locale/mjw/LC_MESSAGES/gedit.mo$
 - /usr/share/locale/mk$
 - /usr/share/locale/mk/LC_MESSAGES$
 - /usr/share/locale/mk/LC_MESSAGES/gedit.mo$
@@ -2044,3 +2046,6 @@ includes:
 - /usr/share/man/man1/gedit.1.bz2$
 - /usr/share/metainfo$
 - /usr/share/metainfo/org.gnome.gedit.appdata.xml$
+env:
+- ORIGINAL_ATOM=app-editors/gedit
+- ORIGINAL_PACKAGE=app-editors/gedit-3.34.1
