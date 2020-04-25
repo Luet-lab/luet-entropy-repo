@@ -59,10 +59,10 @@ process_package () {
 
       echo "
 Labels:
-  original.package.name: "${name}"
-  original.package.category: "${cat}"
-  original.package.version: "${version}${version_suffix}"
-  original.package.slot: "${slot}"
+  original.package.name: \"${name}\"
+  original.package.category: \"${cat}\"
+  original.package.version: \"${version}${version_suffix}\"
+  original.package.slot: \"${slot}\"
 " >> $pkgdir/definition.yaml
   fi
 
