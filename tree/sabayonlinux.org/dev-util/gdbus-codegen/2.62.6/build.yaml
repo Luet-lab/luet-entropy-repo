@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-util/gdbus-codegen-2.62.5 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -14,7 +15,7 @@ includes:
 - /usr/lib64/python3.6$
 - /usr/lib64/python3.6/site-packages$
 - /usr/lib64/python3.6/site-packages/gdbus_codegen$
-- /usr/lib64/python3.6/site-packages/gdbus_codegen-2.62.5-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/gdbus_codegen-2.62.6-py3.6.egg-info$
 - /usr/lib64/python3.6/site-packages/gdbus_codegen/__init__.py$
 - /usr/lib64/python3.6/site-packages/gdbus_codegen/__pycache__$
 - /usr/lib64/python3.6/site-packages/gdbus_codegen/__pycache__/__init__.cpython-36.opt-1.pyc$
@@ -52,3 +53,6 @@ includes:
 - /usr/share/man$
 - /usr/share/man/man1$
 - /usr/share/man/man1/gdbus-codegen.1.bz2$
+env:
+- ORIGINAL_ATOM=dev-util/gdbus-codegen
+- ORIGINAL_PACKAGE=dev-util/gdbus-codegen-2.62.6
