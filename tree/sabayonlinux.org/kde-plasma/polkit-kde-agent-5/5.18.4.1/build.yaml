@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i kde-plasma/polkit-kde-agent-5.18.2 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -163,3 +164,6 @@ includes:
 - /usr/share/locale/zh_TW$
 - /usr/share/locale/zh_TW/LC_MESSAGES$
 - /usr/share/locale/zh_TW/LC_MESSAGES/polkit-kde-authentication-agent-1.mo$
+env:
+- ORIGINAL_ATOM=kde-plasma/polkit-kde-agent
+- ORIGINAL_PACKAGE=kde-plasma/polkit-kde-agent-5.18.4.1
