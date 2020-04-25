@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i app-misc/tracker-2.2.2 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -50,20 +51,24 @@ includes:
 - /usr/lib64/girepository-1.0/TrackerMiner-2.0.typelib$
 - /usr/lib64/libtracker-control-2.0.so$
 - /usr/lib64/libtracker-control-2.0.so.0$
-- /usr/lib64/libtracker-control-2.0.so.0.202.0$
+- /usr/lib64/libtracker-control-2.0.so.0.304.0$
 - /usr/lib64/libtracker-miner-2.0.so$
 - /usr/lib64/libtracker-miner-2.0.so.0$
-- /usr/lib64/libtracker-miner-2.0.so.0.202.0$
+- /usr/lib64/libtracker-miner-2.0.so.0.304.0$
 - /usr/lib64/libtracker-sparql-2.0.so$
 - /usr/lib64/libtracker-sparql-2.0.so.0$
-- /usr/lib64/libtracker-sparql-2.0.so.0.202.0$
+- /usr/lib64/libtracker-sparql-2.0.so.0.304.0$
 - /usr/lib64/pkgconfig$
 - /usr/lib64/pkgconfig/tracker-control-2.0.pc$
 - /usr/lib64/pkgconfig/tracker-miner-2.0.pc$
 - /usr/lib64/pkgconfig/tracker-sparql-2.0.pc$
 - /usr/lib64/tracker-2.0$
-- /usr/lib64/tracker-2.0/libtracker-common.so$
 - /usr/lib64/tracker-2.0/libtracker-data.so$
+- /usr/lib64/tracker-2.0/trackertestutils$
+- /usr/lib64/tracker-2.0/trackertestutils/__init__.py$
+- /usr/lib64/tracker-2.0/trackertestutils/dconf.py$
+- /usr/lib64/tracker-2.0/trackertestutils/helpers.py$
+- /usr/lib64/tracker-2.0/trackertestutils/mainloop.py$
 - /usr/libexec$
 - /usr/libexec/tracker-store$
 - /usr/share$
@@ -74,10 +79,10 @@ includes:
 - /usr/share/dbus-1/services$
 - /usr/share/dbus-1/services/org.freedesktop.Tracker1.service$
 - /usr/share/doc$
-- /usr/share/doc/tracker-2.2.2$
-- /usr/share/doc/tracker-2.2.2/AUTHORS.bz2$
-- /usr/share/doc/tracker-2.2.2/NEWS.bz2$
-- /usr/share/doc/tracker-2.2.2/README.md.bz2$
+- /usr/share/doc/tracker-2.3.4$
+- /usr/share/doc/tracker-2.3.4/AUTHORS.bz2$
+- /usr/share/doc/tracker-2.3.4/NEWS.bz2$
+- /usr/share/doc/tracker-2.3.4/README.md.bz2$
 - /usr/share/gir-1.0$
 - /usr/share/gir-1.0/Tracker-2.0.gir$
 - /usr/share/gir-1.0/TrackerControl-2.0.gir$
@@ -192,6 +197,9 @@ includes:
 - /usr/share/locale/ml$
 - /usr/share/locale/ml/LC_MESSAGES$
 - /usr/share/locale/ml/LC_MESSAGES/tracker.mo$
+- /usr/share/locale/ms$
+- /usr/share/locale/ms/LC_MESSAGES$
+- /usr/share/locale/ms/LC_MESSAGES/tracker.mo$
 - /usr/share/locale/nb$
 - /usr/share/locale/nb/LC_MESSAGES$
 - /usr/share/locale/nb/LC_MESSAGES/tracker.mo$
@@ -343,3 +351,6 @@ includes:
 - /usr/share/vala/vapi/tracker-miner-2.0.vapi$
 - /usr/share/vala/vapi/tracker-sparql-2.0.deps$
 - /usr/share/vala/vapi/tracker-sparql-2.0.vapi$
+env:
+- ORIGINAL_ATOM=app-misc/tracker
+- ORIGINAL_PACKAGE=app-misc/tracker-2.3.4
