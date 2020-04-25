@@ -13,7 +13,7 @@ SABAYON_DATABASE="${SABAYON_DATABASE:-http://sabayonlinux.mirror.garr.it/sabayon
 VERSIONING_STRATEGY="${VERSIONING_STRATEGY:-sabayon}"
 STEP_TEMPLATE="${STEP_TEMPLATE:-$ROOT_DIR/scripts/templates/sabayon_step.tmpl}"
 AUTO_GIT="${AUTO_GIT:-false}"
-WITH_SABAYON_FILES="${WITH_SABAYON_FILES:-true}"
+WITH_SABAYON_FILES="${WITH_SABAYON_FILES:-false}" # It installs packages. don't enable it
 
 START_GIT_BRANCH="$(git rev-parse --abbrev-ref HEAD)"
 HUB_ARGS="${HUB_ARGS:--b $START_GIT_BRANCH}"
@@ -145,6 +145,7 @@ for i in $(echo "$PKG_LIST" | jq -r '.packages[].path'); do
 
         # Sync with repos. we need to run in a sabayon O.S. for this feature
         if [ "${WITH_SABAYON_FILES}" == "true" ]; then
+            ACCEPT_LICENSE=* equo i $ORIGINAL_PACKAGE_CATEGORY/$ORIGINAL_PACKAGE_NAME-$VERSION > /dev/null
             includes=$(equo q files $ORIGINAL_PACKAGE_CATEGORY/$ORIGINAL_PACKAGE_NAME-$VERSION -q)
             yq w -i $PACKAGE_PATH/build.yaml -i 'includes'
             for inc in ${includes} ; do
