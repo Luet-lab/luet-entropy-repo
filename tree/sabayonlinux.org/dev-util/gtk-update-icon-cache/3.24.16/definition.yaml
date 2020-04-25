@@ -69,11 +69,9 @@ use_flags:
 - abi_x86_64
 - elibc_glibc
 - kernel_linux
-version: 3.24.11+3
-
+version: "3.24.16"
 Labels:
   original.package.name: "gtk-update-icon-cache"
   original.package.category: "dev-util"
   original.package.version: "3.24.11"
   original.package.slot: "0"
-
