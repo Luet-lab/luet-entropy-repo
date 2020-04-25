@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i app-crypt/gnupg-2.2.17 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -50,37 +51,37 @@ includes:
 - /usr/sbin/applygnupgdefaults$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/gnupg-2.2.17$
-- /usr/share/doc/gnupg-2.2.17/ChangeLog.bz2$
-- /usr/share/doc/gnupg-2.2.17/DCO.bz2$
-- /usr/share/doc/gnupg-2.2.17/DETAILS.bz2$
-- /usr/share/doc/gnupg-2.2.17/FAQ.bz2$
-- /usr/share/doc/gnupg-2.2.17/HACKING.bz2$
-- /usr/share/doc/gnupg-2.2.17/KEYSERVER.bz2$
-- /usr/share/doc/gnupg-2.2.17/NEWS.bz2$
-- /usr/share/doc/gnupg-2.2.17/OpenPGP.bz2$
-- /usr/share/doc/gnupg-2.2.17/README.bz2$
-- /usr/share/doc/gnupg-2.2.17/THANKS.bz2$
-- /usr/share/doc/gnupg-2.2.17/TODO.bz2$
-- /usr/share/doc/gnupg-2.2.17/TRANSLATE.bz2$
-- /usr/share/doc/gnupg-2.2.17/VERSION$
-- /usr/share/doc/gnupg-2.2.17/examples$
-- /usr/share/doc/gnupg-2.2.17/examples/README.bz2$
-- /usr/share/doc/gnupg-2.2.17/examples/debug.prf.bz2$
-- /usr/share/doc/gnupg-2.2.17/examples/gpgconf.conf.bz2$
-- /usr/share/doc/gnupg-2.2.17/examples/pwpattern.list.bz2$
-- /usr/share/doc/gnupg-2.2.17/examples/scd-event.bz2$
-- /usr/share/doc/gnupg-2.2.17/examples/systemd-user$
-- /usr/share/doc/gnupg-2.2.17/examples/systemd-user/README.bz2$
-- /usr/share/doc/gnupg-2.2.17/examples/systemd-user/dirmngr.service.bz2$
-- /usr/share/doc/gnupg-2.2.17/examples/systemd-user/dirmngr.socket.bz2$
-- /usr/share/doc/gnupg-2.2.17/examples/systemd-user/gpg-agent-browser.socket.bz2$
-- /usr/share/doc/gnupg-2.2.17/examples/systemd-user/gpg-agent-extra.socket.bz2$
-- /usr/share/doc/gnupg-2.2.17/examples/systemd-user/gpg-agent-ssh.socket.bz2$
-- /usr/share/doc/gnupg-2.2.17/examples/systemd-user/gpg-agent.service.bz2$
-- /usr/share/doc/gnupg-2.2.17/examples/systemd-user/gpg-agent.socket.bz2$
-- /usr/share/doc/gnupg-2.2.17/examples/trustlist.txt.bz2$
-- /usr/share/doc/gnupg-2.2.17/examples/vsnfd.prf.bz2$
+- /usr/share/doc/gnupg-2.2.19$
+- /usr/share/doc/gnupg-2.2.19/ChangeLog.bz2$
+- /usr/share/doc/gnupg-2.2.19/DCO.bz2$
+- /usr/share/doc/gnupg-2.2.19/DETAILS.bz2$
+- /usr/share/doc/gnupg-2.2.19/FAQ.bz2$
+- /usr/share/doc/gnupg-2.2.19/HACKING.bz2$
+- /usr/share/doc/gnupg-2.2.19/KEYSERVER.bz2$
+- /usr/share/doc/gnupg-2.2.19/NEWS.bz2$
+- /usr/share/doc/gnupg-2.2.19/OpenPGP.bz2$
+- /usr/share/doc/gnupg-2.2.19/README.bz2$
+- /usr/share/doc/gnupg-2.2.19/THANKS.bz2$
+- /usr/share/doc/gnupg-2.2.19/TODO.bz2$
+- /usr/share/doc/gnupg-2.2.19/TRANSLATE.bz2$
+- /usr/share/doc/gnupg-2.2.19/VERSION$
+- /usr/share/doc/gnupg-2.2.19/examples$
+- /usr/share/doc/gnupg-2.2.19/examples/README.bz2$
+- /usr/share/doc/gnupg-2.2.19/examples/debug.prf.bz2$
+- /usr/share/doc/gnupg-2.2.19/examples/gpgconf.conf.bz2$
+- /usr/share/doc/gnupg-2.2.19/examples/pwpattern.list.bz2$
+- /usr/share/doc/gnupg-2.2.19/examples/scd-event.bz2$
+- /usr/share/doc/gnupg-2.2.19/examples/systemd-user$
+- /usr/share/doc/gnupg-2.2.19/examples/systemd-user/README.bz2$
+- /usr/share/doc/gnupg-2.2.19/examples/systemd-user/dirmngr.service.bz2$
+- /usr/share/doc/gnupg-2.2.19/examples/systemd-user/dirmngr.socket.bz2$
+- /usr/share/doc/gnupg-2.2.19/examples/systemd-user/gpg-agent-browser.socket.bz2$
+- /usr/share/doc/gnupg-2.2.19/examples/systemd-user/gpg-agent-extra.socket.bz2$
+- /usr/share/doc/gnupg-2.2.19/examples/systemd-user/gpg-agent-ssh.socket.bz2$
+- /usr/share/doc/gnupg-2.2.19/examples/systemd-user/gpg-agent.service.bz2$
+- /usr/share/doc/gnupg-2.2.19/examples/systemd-user/gpg-agent.socket.bz2$
+- /usr/share/doc/gnupg-2.2.19/examples/trustlist.txt.bz2$
+- /usr/share/doc/gnupg-2.2.19/examples/vsnfd.prf.bz2$
 - /usr/share/gnupg$
 - /usr/share/gnupg/distsigkey.gpg$
 - /usr/share/gnupg/help.be.txt$
@@ -217,3 +218,6 @@ includes:
 - /usr/share/man/man8/addgnupghome.8.bz2$
 - /usr/share/man/man8/applygnupgdefaults.8.bz2$
 - /usr/share/man/man8/dirmngr.8.bz2$
+env:
+- ORIGINAL_ATOM=app-crypt/gnupg
+- ORIGINAL_PACKAGE=app-crypt/gnupg-2.2.19
