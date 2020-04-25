@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-java/ant-junit-1.10.5-r1 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -16,5 +17,8 @@ includes:
 - /usr/share/ant-junit/package.env$
 - /usr/share/ant/lib$
 - /usr/share/ant/lib/ant-junit.jar$
-- /usr/share/ant/tasks-1.10.5$
-- /usr/share/ant/tasks-1.10.5/ant-junit$
+- /usr/share/ant/tasks-1.10.7$
+- /usr/share/ant/tasks-1.10.7/ant-junit$
+env:
+- ORIGINAL_ATOM=dev-java/ant-junit
+- ORIGINAL_PACKAGE=dev-java/ant-junit-1.10.7
