@@ -1,4 +1,5 @@
-Labels: null
+Labels:
+  original.package.version: "5.69.0"
 category: kde-frameworks
 conflicts: null
 id: 0
@@ -128,11 +129,10 @@ use_flags:
 - -debug
 - kernel_linux
 - split-usr
-version: 5.67.0+r4
-
+version: "5.69.0"
 Labels:
   original.package.name: "baloo"
   original.package.category: "kde-frameworks"
   original.package.version: "5.67.0"
   original.package.slot: "5"
-
+  original.package.version:
