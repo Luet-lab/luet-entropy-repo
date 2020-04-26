@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i x11-terms/gnome-terminal-3.32.2 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -27,12 +28,12 @@ includes:
 - /usr/share/dbus-1/services$
 - /usr/share/dbus-1/services/org.gnome.Terminal.service$
 - /usr/share/doc$
-- /usr/share/doc/gnome-terminal-3.32.2$
-- /usr/share/doc/gnome-terminal-3.32.2/AUTHORS$
-- /usr/share/doc/gnome-terminal-3.32.2/ChangeLog.bz2$
-- /usr/share/doc/gnome-terminal-3.32.2/HACKING.bz2$
-- /usr/share/doc/gnome-terminal-3.32.2/NEWS.bz2$
-- /usr/share/doc/gnome-terminal-3.32.2/README.gentoo.bz2$
+- /usr/share/doc/gnome-terminal-3.34.2$
+- /usr/share/doc/gnome-terminal-3.34.2/AUTHORS$
+- /usr/share/doc/gnome-terminal-3.34.2/ChangeLog.bz2$
+- /usr/share/doc/gnome-terminal-3.34.2/HACKING.bz2$
+- /usr/share/doc/gnome-terminal-3.34.2/NEWS.bz2$
+- /usr/share/doc/gnome-terminal-3.34.2/README.gentoo.bz2$
 - /usr/share/glib-2.0$
 - /usr/share/glib-2.0/schemas$
 - /usr/share/glib-2.0/schemas/org.gnome.Terminal.gschema.override$
@@ -811,3 +812,6 @@ includes:
 - /usr/share/metainfo$
 - /usr/share/metainfo/org.gnome.Terminal.Nautilus.metainfo.xml$
 - /usr/share/metainfo/org.gnome.Terminal.appdata.xml$
+env:
+- ORIGINAL_ATOM=x11-terms/gnome-terminal
+- ORIGINAL_PACKAGE=x11-terms/gnome-terminal-3.34.2
