@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i kde-plasma/kscreenlocker-5.18.2 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -30,7 +31,7 @@ includes:
 - /usr/lib64/cmake/ScreenSaverDBusInterface/ScreenSaverDBusInterfaceConfig.cmake$
 - /usr/lib64/libKScreenLocker.so$
 - /usr/lib64/libKScreenLocker.so.5$
-- /usr/lib64/libKScreenLocker.so.5.18.2$
+- /usr/lib64/libKScreenLocker.so.5.18.4$
 - /usr/lib64/libexec$
 - /usr/lib64/libexec/kcheckpass$
 - /usr/lib64/libexec/kscreenlocker_greet$
@@ -43,8 +44,8 @@ includes:
 - /usr/share/dbus-1/interfaces/kf5_org.freedesktop.ScreenSaver.xml$
 - /usr/share/dbus-1/interfaces/org.kde.screensaver.xml$
 - /usr/share/doc$
-- /usr/share/doc/kscreenlocker-5.18.2$
-- /usr/share/doc/kscreenlocker-5.18.2/README.pam.bz2$
+- /usr/share/doc/kscreenlocker-5.18.4.1$
+- /usr/share/doc/kscreenlocker-5.18.4.1/README.pam.bz2$
 - /usr/share/kconf_update$
 - /usr/share/kconf_update/kscreenlocker.upd$
 - /usr/share/kconf_update/ksreenlocker_5_3_separate_autologin.pl$
@@ -263,3 +264,6 @@ includes:
 - /usr/share/locale/zh_TW/LC_MESSAGES/kscreenlocker.mo$
 - /usr/share/locale/zh_TW/LC_MESSAGES/kscreenlocker_greet.mo$
 - /usr/share/locale/zh_TW/LC_MESSAGES/screenlocker_kcm.mo$
+env:
+- ORIGINAL_ATOM=kde-plasma/kscreenlocker
+- ORIGINAL_PACKAGE=kde-plasma/kscreenlocker-5.18.4.1
