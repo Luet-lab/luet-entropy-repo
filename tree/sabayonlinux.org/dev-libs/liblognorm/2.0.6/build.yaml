@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/liblognorm-2.0.5 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -19,6 +20,7 @@ includes:
 - /usr/include/parser.h$
 - /usr/include/pdag.h$
 - /usr/include/samp.h$
+- /usr/lib$
 - /usr/lib64$
 - /usr/lib64/liblognorm.so$
 - /usr/lib64/liblognorm.so.5$
@@ -27,5 +29,8 @@ includes:
 - /usr/lib64/pkgconfig/lognorm.pc$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/liblognorm-2.0.5$
-- /usr/share/doc/liblognorm-2.0.5/ChangeLog.bz2$
+- /usr/share/doc/liblognorm-2.0.6$
+- /usr/share/doc/liblognorm-2.0.6/ChangeLog.bz2$
+env:
+- ORIGINAL_ATOM=dev-libs/liblognorm
+- ORIGINAL_PACKAGE=dev-libs/liblognorm-2.0.6
