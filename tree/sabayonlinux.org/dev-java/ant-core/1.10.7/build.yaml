@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-java/ant-core-1.10.5-r2 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -54,8 +55,11 @@ includes:
 - /usr/share/ant/lib/ant-launcher.jar$
 - /usr/share/ant/lib/ant.jar$
 - /usr/share/doc$
-- /usr/share/doc/ant-core-1.10.5-r2$
-- /usr/share/doc/ant-core-1.10.5-r2/KEYS.bz2$
-- /usr/share/doc/ant-core-1.10.5-r2/NOTICE.bz2$
-- /usr/share/doc/ant-core-1.10.5-r2/README.bz2$
-- /usr/share/doc/ant-core-1.10.5-r2/WHATSNEW.bz2$
+- /usr/share/doc/ant-core-1.10.7$
+- /usr/share/doc/ant-core-1.10.7/KEYS.bz2$
+- /usr/share/doc/ant-core-1.10.7/NOTICE.bz2$
+- /usr/share/doc/ant-core-1.10.7/README.bz2$
+- /usr/share/doc/ant-core-1.10.7/WHATSNEW.bz2$
+env:
+- ORIGINAL_ATOM=dev-java/ant-core
+- ORIGINAL_PACKAGE=dev-java/ant-core-1.10.7
