@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/coverage-4.5.2 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -28,13 +29,13 @@ includes:
 - /usr/lib64/python2.7$
 - /usr/lib64/python2.7/site-packages$
 - /usr/lib64/python2.7/site-packages/coverage$
-- /usr/lib64/python2.7/site-packages/coverage-4.5.2-py2.7.egg-info$
-- /usr/lib64/python2.7/site-packages/coverage-4.5.2-py2.7.egg-info/PKG-INFO$
-- /usr/lib64/python2.7/site-packages/coverage-4.5.2-py2.7.egg-info/SOURCES.txt$
-- /usr/lib64/python2.7/site-packages/coverage-4.5.2-py2.7.egg-info/dependency_links.txt$
-- /usr/lib64/python2.7/site-packages/coverage-4.5.2-py2.7.egg-info/entry_points.txt$
-- /usr/lib64/python2.7/site-packages/coverage-4.5.2-py2.7.egg-info/not-zip-safe$
-- /usr/lib64/python2.7/site-packages/coverage-4.5.2-py2.7.egg-info/top_level.txt$
+- /usr/lib64/python2.7/site-packages/coverage-4.5.4-py2.7.egg-info$
+- /usr/lib64/python2.7/site-packages/coverage-4.5.4-py2.7.egg-info/PKG-INFO$
+- /usr/lib64/python2.7/site-packages/coverage-4.5.4-py2.7.egg-info/SOURCES.txt$
+- /usr/lib64/python2.7/site-packages/coverage-4.5.4-py2.7.egg-info/dependency_links.txt$
+- /usr/lib64/python2.7/site-packages/coverage-4.5.4-py2.7.egg-info/entry_points.txt$
+- /usr/lib64/python2.7/site-packages/coverage-4.5.4-py2.7.egg-info/not-zip-safe$
+- /usr/lib64/python2.7/site-packages/coverage-4.5.4-py2.7.egg-info/top_level.txt$
 - /usr/lib64/python2.7/site-packages/coverage/__init__.py$
 - /usr/lib64/python2.7/site-packages/coverage/__init__.pyc$
 - /usr/lib64/python2.7/site-packages/coverage/__init__.pyo$
@@ -148,13 +149,13 @@ includes:
 - /usr/lib64/python3.6$
 - /usr/lib64/python3.6/site-packages$
 - /usr/lib64/python3.6/site-packages/coverage$
-- /usr/lib64/python3.6/site-packages/coverage-4.5.2-py3.6.egg-info$
-- /usr/lib64/python3.6/site-packages/coverage-4.5.2-py3.6.egg-info/PKG-INFO$
-- /usr/lib64/python3.6/site-packages/coverage-4.5.2-py3.6.egg-info/SOURCES.txt$
-- /usr/lib64/python3.6/site-packages/coverage-4.5.2-py3.6.egg-info/dependency_links.txt$
-- /usr/lib64/python3.6/site-packages/coverage-4.5.2-py3.6.egg-info/entry_points.txt$
-- /usr/lib64/python3.6/site-packages/coverage-4.5.2-py3.6.egg-info/not-zip-safe$
-- /usr/lib64/python3.6/site-packages/coverage-4.5.2-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/coverage-4.5.4-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/coverage-4.5.4-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/coverage-4.5.4-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/coverage-4.5.4-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/coverage-4.5.4-py3.6.egg-info/entry_points.txt$
+- /usr/lib64/python3.6/site-packages/coverage-4.5.4-py3.6.egg-info/not-zip-safe$
+- /usr/lib64/python3.6/site-packages/coverage-4.5.4-py3.6.egg-info/top_level.txt$
 - /usr/lib64/python3.6/site-packages/coverage/__init__.py$
 - /usr/lib64/python3.6/site-packages/coverage/__main__.py$
 - /usr/lib64/python3.6/site-packages/coverage/__pycache__$
@@ -301,5 +302,8 @@ includes:
 - /usr/lib64/python3.6/site-packages/coverage/xmlreport.py$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/coverage-4.5.2$
-- /usr/share/doc/coverage-4.5.2/README.rst.bz2$
+- /usr/share/doc/coverage-4.5.4$
+- /usr/share/doc/coverage-4.5.4/README.rst.bz2$
+env:
+- ORIGINAL_ATOM=dev-python/coverage
+- ORIGINAL_PACKAGE=dev-python/coverage-4.5.4
