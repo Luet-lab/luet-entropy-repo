@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/cheroot-8.2.1 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -18,13 +19,13 @@ includes:
 - /usr/lib64/python3.6$
 - /usr/lib64/python3.6/site-packages$
 - /usr/lib64/python3.6/site-packages/cheroot$
-- /usr/lib64/python3.6/site-packages/cheroot-8.2.1-py3.6.egg-info$
-- /usr/lib64/python3.6/site-packages/cheroot-8.2.1-py3.6.egg-info/PKG-INFO$
-- /usr/lib64/python3.6/site-packages/cheroot-8.2.1-py3.6.egg-info/SOURCES.txt$
-- /usr/lib64/python3.6/site-packages/cheroot-8.2.1-py3.6.egg-info/dependency_links.txt$
-- /usr/lib64/python3.6/site-packages/cheroot-8.2.1-py3.6.egg-info/entry_points.txt$
-- /usr/lib64/python3.6/site-packages/cheroot-8.2.1-py3.6.egg-info/requires.txt$
-- /usr/lib64/python3.6/site-packages/cheroot-8.2.1-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/cheroot-8.3.0-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/cheroot-8.3.0-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/cheroot-8.3.0-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/cheroot-8.3.0-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/cheroot-8.3.0-py3.6.egg-info/entry_points.txt$
+- /usr/lib64/python3.6/site-packages/cheroot-8.3.0-py3.6.egg-info/requires.txt$
+- /usr/lib64/python3.6/site-packages/cheroot-8.3.0-py3.6.egg-info/top_level.txt$
 - /usr/lib64/python3.6/site-packages/cheroot/__init__.py$
 - /usr/lib64/python3.6/site-packages/cheroot/__main__.py$
 - /usr/lib64/python3.6/site-packages/cheroot/__pycache__$
@@ -93,6 +94,9 @@ includes:
 - /usr/lib64/python3.6/site-packages/cheroot/test/__pycache__/test__compat.cpython-36.opt-1.pyc$
 - /usr/lib64/python3.6/site-packages/cheroot/test/__pycache__/test__compat.cpython-36.opt-2.pyc$
 - /usr/lib64/python3.6/site-packages/cheroot/test/__pycache__/test__compat.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/cheroot/test/__pycache__/test_cli.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/cheroot/test/__pycache__/test_cli.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/cheroot/test/__pycache__/test_cli.cpython-36.pyc$
 - /usr/lib64/python3.6/site-packages/cheroot/test/__pycache__/test_conn.cpython-36.opt-1.pyc$
 - /usr/lib64/python3.6/site-packages/cheroot/test/__pycache__/test_conn.cpython-36.opt-2.pyc$
 - /usr/lib64/python3.6/site-packages/cheroot/test/__pycache__/test_conn.cpython-36.pyc$
@@ -120,6 +124,7 @@ includes:
 - /usr/lib64/python3.6/site-packages/cheroot/test/conftest.py$
 - /usr/lib64/python3.6/site-packages/cheroot/test/helper.py$
 - /usr/lib64/python3.6/site-packages/cheroot/test/test__compat.py$
+- /usr/lib64/python3.6/site-packages/cheroot/test/test_cli.py$
 - /usr/lib64/python3.6/site-packages/cheroot/test/test_conn.py$
 - /usr/lib64/python3.6/site-packages/cheroot/test/test_core.py$
 - /usr/lib64/python3.6/site-packages/cheroot/test/test_dispatch.py$
@@ -142,5 +147,8 @@ includes:
 - /usr/lib64/python3.6/site-packages/cheroot/wsgi.py$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/cheroot-8.2.1$
-- /usr/share/doc/cheroot-8.2.1/README.rst.bz2$
+- /usr/share/doc/cheroot-8.3.0$
+- /usr/share/doc/cheroot-8.3.0/README.rst.bz2$
+env:
+- ORIGINAL_ATOM=dev-python/cheroot
+- ORIGINAL_PACKAGE=dev-python/cheroot-8.3.0
