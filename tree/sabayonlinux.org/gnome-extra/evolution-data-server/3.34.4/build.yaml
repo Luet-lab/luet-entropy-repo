@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i gnome-extra/evolution-data-server-3.32.5 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -175,8 +176,9 @@ includes:
 - /usr/include/evolution-data-server/libebook$
 - /usr/include/evolution-data-server/libebook-contacts$
 - /usr/include/evolution-data-server/libebook-contacts/e-address-western.h$
+- /usr/include/evolution-data-server/libebook-contacts/e-book-contacts-enums.h$
 - /usr/include/evolution-data-server/libebook-contacts/e-book-contacts-enumtypes.h$
-- /usr/include/evolution-data-server/libebook-contacts/e-book-contacts-types.h$
+- /usr/include/evolution-data-server/libebook-contacts/e-book-contacts-utils.h$
 - /usr/include/evolution-data-server/libebook-contacts/e-book-query.h$
 - /usr/include/evolution-data-server/libebook-contacts/e-contact.h$
 - /usr/include/evolution-data-server/libebook-contacts/e-name-western.h$
@@ -198,15 +200,27 @@ includes:
 - /usr/include/evolution-data-server/libecal/e-cal-check-timezones.h$
 - /usr/include/evolution-data-server/libecal/e-cal-client-view.h$
 - /usr/include/evolution-data-server/libecal/e-cal-client.h$
+- /usr/include/evolution-data-server/libecal/e-cal-component-alarm-instance.h$
+- /usr/include/evolution-data-server/libecal/e-cal-component-alarm-repeat.h$
+- /usr/include/evolution-data-server/libecal/e-cal-component-alarm-trigger.h$
+- /usr/include/evolution-data-server/libecal/e-cal-component-alarm.h$
+- /usr/include/evolution-data-server/libecal/e-cal-component-alarms.h$
+- /usr/include/evolution-data-server/libecal/e-cal-component-attendee.h$
+- /usr/include/evolution-data-server/libecal/e-cal-component-datetime.h$
+- /usr/include/evolution-data-server/libecal/e-cal-component-id.h$
+- /usr/include/evolution-data-server/libecal/e-cal-component-organizer.h$
+- /usr/include/evolution-data-server/libecal/e-cal-component-parameter-bag.h$
+- /usr/include/evolution-data-server/libecal/e-cal-component-period.h$
+- /usr/include/evolution-data-server/libecal/e-cal-component-property-bag.h$
+- /usr/include/evolution-data-server/libecal/e-cal-component-range.h$
+- /usr/include/evolution-data-server/libecal/e-cal-component-text.h$
 - /usr/include/evolution-data-server/libecal/e-cal-component.h$
+- /usr/include/evolution-data-server/libecal/e-cal-enums.h$
 - /usr/include/evolution-data-server/libecal/e-cal-enumtypes.h$
 - /usr/include/evolution-data-server/libecal/e-cal-recur.h$
 - /usr/include/evolution-data-server/libecal/e-cal-system-timezone.h$
 - /usr/include/evolution-data-server/libecal/e-cal-time-util.h$
-- /usr/include/evolution-data-server/libecal/e-cal-types.h$
 - /usr/include/evolution-data-server/libecal/e-cal-util.h$
-- /usr/include/evolution-data-server/libecal/e-cal-view.h$
-- /usr/include/evolution-data-server/libecal/e-cal.h$
 - /usr/include/evolution-data-server/libecal/e-reminder-watcher.h$
 - /usr/include/evolution-data-server/libecal/e-timezone-cache.h$
 - /usr/include/evolution-data-server/libecal/libecal.h$
@@ -217,6 +231,7 @@ includes:
 - /usr/include/evolution-data-server/libedata-book/e-book-backend-sexp.h$
 - /usr/include/evolution-data-server/libedata-book/e-book-backend-sqlitedb.h$
 - /usr/include/evolution-data-server/libedata-book/e-book-backend-summary.h$
+- /usr/include/evolution-data-server/libedata-book/e-book-backend-sync.h$
 - /usr/include/evolution-data-server/libedata-book/e-book-backend.h$
 - /usr/include/evolution-data-server/libedata-book/e-book-cache.h$
 - /usr/include/evolution-data-server/libedata-book/e-book-meta-backend.h$
@@ -232,11 +247,9 @@ includes:
 - /usr/include/evolution-data-server/libedata-book/e-system-locale-watcher.h$
 - /usr/include/evolution-data-server/libedata-book/libedata-book.h$
 - /usr/include/evolution-data-server/libedata-cal$
-- /usr/include/evolution-data-server/libedata-cal/e-cal-backend-cache.h$
 - /usr/include/evolution-data-server/libedata-cal/e-cal-backend-factory.h$
 - /usr/include/evolution-data-server/libedata-cal/e-cal-backend-intervaltree.h$
 - /usr/include/evolution-data-server/libedata-cal/e-cal-backend-sexp.h$
-- /usr/include/evolution-data-server/libedata-cal/e-cal-backend-store.h$
 - /usr/include/evolution-data-server/libedata-cal/e-cal-backend-sync.h$
 - /usr/include/evolution-data-server/libedata-cal/e-cal-backend-util.h$
 - /usr/include/evolution-data-server/libedata-cal/e-cal-backend.h$
@@ -392,8 +405,12 @@ includes:
 - /usr/lib64/evolution-data-server/registry-modules/module-yahoo-backend.so$
 - /usr/lib64/girepository-1.0$
 - /usr/lib64/girepository-1.0/Camel-1.2.typelib$
+- /usr/lib64/girepository-1.0/EBackend-1.2.typelib$
 - /usr/lib64/girepository-1.0/EBook-1.2.typelib$
 - /usr/lib64/girepository-1.0/EBookContacts-1.2.typelib$
+- /usr/lib64/girepository-1.0/ECal-2.0.typelib$
+- /usr/lib64/girepository-1.0/EDataBook-1.2.typelib$
+- /usr/lib64/girepository-1.0/EDataCal-2.0.typelib$
 - /usr/lib64/girepository-1.0/EDataServer-1.2.typelib$
 - /usr/lib64/girepository-1.0/EDataServerUI-1.2.typelib$
 - /usr/lib64/libcamel-1.2.so$
@@ -403,20 +420,20 @@ includes:
 - /usr/lib64/libebackend-1.2.so.10$
 - /usr/lib64/libebackend-1.2.so.10.0.0$
 - /usr/lib64/libebook-1.2.so$
-- /usr/lib64/libebook-1.2.so.19$
-- /usr/lib64/libebook-1.2.so.19.1.3$
+- /usr/lib64/libebook-1.2.so.20$
+- /usr/lib64/libebook-1.2.so.20.1.3$
 - /usr/lib64/libebook-contacts-1.2.so$
-- /usr/lib64/libebook-contacts-1.2.so.2$
-- /usr/lib64/libebook-contacts-1.2.so.2.0.0$
-- /usr/lib64/libecal-1.2.so$
-- /usr/lib64/libecal-1.2.so.19$
-- /usr/lib64/libecal-1.2.so.19.0.0$
+- /usr/lib64/libebook-contacts-1.2.so.3$
+- /usr/lib64/libebook-contacts-1.2.so.3.0.0$
+- /usr/lib64/libecal-2.0.so$
+- /usr/lib64/libecal-2.0.so.1$
+- /usr/lib64/libecal-2.0.so.1.0.0$
 - /usr/lib64/libedata-book-1.2.so$
-- /usr/lib64/libedata-book-1.2.so.25$
-- /usr/lib64/libedata-book-1.2.so.25.0.0$
-- /usr/lib64/libedata-cal-1.2.so$
-- /usr/lib64/libedata-cal-1.2.so.29$
-- /usr/lib64/libedata-cal-1.2.so.29.0.0$
+- /usr/lib64/libedata-book-1.2.so.26$
+- /usr/lib64/libedata-book-1.2.so.26.0.0$
+- /usr/lib64/libedata-cal-2.0.so$
+- /usr/lib64/libedata-cal-2.0.so.1$
+- /usr/lib64/libedata-cal-2.0.so.1.0.0$
 - /usr/lib64/libedataserver-1.2.so$
 - /usr/lib64/libedataserver-1.2.so.24$
 - /usr/lib64/libedataserver-1.2.so.24.0.0$
@@ -429,9 +446,9 @@ includes:
 - /usr/lib64/pkgconfig/libebackend-1.2.pc$
 - /usr/lib64/pkgconfig/libebook-1.2.pc$
 - /usr/lib64/pkgconfig/libebook-contacts-1.2.pc$
-- /usr/lib64/pkgconfig/libecal-1.2.pc$
+- /usr/lib64/pkgconfig/libecal-2.0.pc$
 - /usr/lib64/pkgconfig/libedata-book-1.2.pc$
-- /usr/lib64/pkgconfig/libedata-cal-1.2.pc$
+- /usr/lib64/pkgconfig/libedata-cal-2.0.pc$
 - /usr/lib64/pkgconfig/libedataserver-1.2.pc$
 - /usr/lib64/pkgconfig/libedataserverui-1.2.pc$
 - /usr/libexec$
@@ -463,17 +480,20 @@ includes:
 - /usr/share/dbus-1/services/org.gnome.evolution.dataserver.Sources.service$
 - /usr/share/dbus-1/services/org.gnome.evolution.dataserver.UserPrompter.service$
 - /usr/share/doc$
-- /usr/share/doc/evolution-data-server-3.32.5$
-- /usr/share/doc/evolution-data-server-3.32.5/ChangeLog.bz2$
-- /usr/share/doc/evolution-data-server-3.32.5/NEWS.bz2$
-- /usr/share/doc/evolution-data-server-3.32.5/README.bz2$
-- /usr/share/doc/evolution-data-server-3.32.5/TODO.bz2$
+- /usr/share/doc/evolution-data-server-3.34.4$
+- /usr/share/doc/evolution-data-server-3.34.4/ChangeLog.bz2$
+- /usr/share/doc/evolution-data-server-3.34.4/NEWS.bz2$
+- /usr/share/doc/evolution-data-server-3.34.4/README.bz2$
 - /usr/share/evolution-data-server$
 - /usr/share/evolution-data-server/evolutionperson.schema$
 - /usr/share/gir-1.0$
 - /usr/share/gir-1.0/Camel-1.2.gir$
+- /usr/share/gir-1.0/EBackend-1.2.gir$
 - /usr/share/gir-1.0/EBook-1.2.gir$
 - /usr/share/gir-1.0/EBookContacts-1.2.gir$
+- /usr/share/gir-1.0/ECal-2.0.gir$
+- /usr/share/gir-1.0/EDataBook-1.2.gir$
+- /usr/share/gir-1.0/EDataCal-2.0.gir$
 - /usr/share/gir-1.0/EDataServer-1.2.gir$
 - /usr/share/gir-1.0/EDataServerUI-1.2.gir$
 - /usr/share/glib-2.0$
@@ -773,11 +793,22 @@ includes:
 - /usr/share/vala/vapi$
 - /usr/share/vala/vapi/camel-1.2.deps$
 - /usr/share/vala/vapi/camel-1.2.vapi$
+- /usr/share/vala/vapi/libebackend-1.2.deps$
+- /usr/share/vala/vapi/libebackend-1.2.vapi$
 - /usr/share/vala/vapi/libebook-1.2.deps$
 - /usr/share/vala/vapi/libebook-1.2.vapi$
 - /usr/share/vala/vapi/libebook-contacts-1.2.deps$
 - /usr/share/vala/vapi/libebook-contacts-1.2.vapi$
+- /usr/share/vala/vapi/libecal-2.0.deps$
+- /usr/share/vala/vapi/libecal-2.0.vapi$
+- /usr/share/vala/vapi/libedata-book-1.2.deps$
+- /usr/share/vala/vapi/libedata-book-1.2.vapi$
+- /usr/share/vala/vapi/libedata-cal-2.0.deps$
+- /usr/share/vala/vapi/libedata-cal-2.0.vapi$
 - /usr/share/vala/vapi/libedataserver-1.2.deps$
 - /usr/share/vala/vapi/libedataserver-1.2.vapi$
 - /usr/share/vala/vapi/libedataserverui-1.2.deps$
 - /usr/share/vala/vapi/libedataserverui-1.2.vapi$
+env:
+- ORIGINAL_ATOM=gnome-extra/evolution-data-server
+- ORIGINAL_PACKAGE=gnome-extra/evolution-data-server-3.34.4
