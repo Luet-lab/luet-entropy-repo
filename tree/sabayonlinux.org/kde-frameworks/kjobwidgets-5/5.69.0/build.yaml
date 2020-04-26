@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i kde-frameworks/kjobwidgets-5.67.0 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -35,7 +36,7 @@ includes:
 - /usr/lib64/cmake/KF5JobWidgets/KF5JobWidgetsTargets.cmake$
 - /usr/lib64/libKF5JobWidgets.so$
 - /usr/lib64/libKF5JobWidgets.so.5$
-- /usr/lib64/libKF5JobWidgets.so.5.67.0$
+- /usr/lib64/libKF5JobWidgets.so.5.69.0$
 - /usr/lib64/qt5$
 - /usr/lib64/qt5/mkspecs$
 - /usr/lib64/qt5/mkspecs/modules$
@@ -47,8 +48,8 @@ includes:
 - /usr/share/dbus-1/interfaces/kf5_org.kde.JobViewServer.xml$
 - /usr/share/dbus-1/interfaces/kf5_org.kde.JobViewV2.xml$
 - /usr/share/doc$
-- /usr/share/doc/kjobwidgets-5.67.0$
-- /usr/share/doc/kjobwidgets-5.67.0/README.md.bz2$
+- /usr/share/doc/kjobwidgets-5.69.0$
+- /usr/share/doc/kjobwidgets-5.69.0/README.md.bz2$
 - /usr/share/locale$
 - /usr/share/locale/af$
 - /usr/share/locale/af/LC_MESSAGES$
@@ -238,3 +239,6 @@ includes:
 - /usr/share/locale/zh_TW/LC_MESSAGES/kjobwidgets5_qt.qm$
 - /usr/share/qlogging-categories5$
 - /usr/share/qlogging-categories5/kjobwidgets.categories$
+env:
+- ORIGINAL_ATOM=kde-frameworks/kjobwidgets
+- ORIGINAL_PACKAGE=kde-frameworks/kjobwidgets-5.69.0
