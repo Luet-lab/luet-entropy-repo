@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i gnome-extra/libgsf-1.14.43 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -64,24 +65,25 @@ includes:
 - /usr/include/libgsf-1/gsf/gsf-timestamp.h$
 - /usr/include/libgsf-1/gsf/gsf-utils.h$
 - /usr/include/libgsf-1/gsf/gsf.h$
+- /usr/lib$
 - /usr/lib64$
 - /usr/lib64/girepository-1.0$
 - /usr/lib64/girepository-1.0/Gsf-1.typelib$
 - /usr/lib64/libgsf-1.so$
 - /usr/lib64/libgsf-1.so.114$
-- /usr/lib64/libgsf-1.so.114.0.43$
+- /usr/lib64/libgsf-1.so.114.0.46$
 - /usr/lib64/pkgconfig$
 - /usr/lib64/pkgconfig/libgsf-1.pc$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/libgsf-1.14.43$
-- /usr/share/doc/libgsf-1.14.43/AUTHORS.bz2$
-- /usr/share/doc/libgsf-1.14.43/BUGS.bz2$
-- /usr/share/doc/libgsf-1.14.43/ChangeLog.bz2$
-- /usr/share/doc/libgsf-1.14.43/HACKING.bz2$
-- /usr/share/doc/libgsf-1.14.43/NEWS.bz2$
-- /usr/share/doc/libgsf-1.14.43/README.bz2$
-- /usr/share/doc/libgsf-1.14.43/TODO.bz2$
+- /usr/share/doc/libgsf-1.14.46$
+- /usr/share/doc/libgsf-1.14.46/AUTHORS.bz2$
+- /usr/share/doc/libgsf-1.14.46/BUGS.bz2$
+- /usr/share/doc/libgsf-1.14.46/ChangeLog.bz2$
+- /usr/share/doc/libgsf-1.14.46/HACKING.bz2$
+- /usr/share/doc/libgsf-1.14.46/NEWS.bz2$
+- /usr/share/doc/libgsf-1.14.46/README.bz2$
+- /usr/share/doc/libgsf-1.14.46/TODO.bz2$
 - /usr/share/gir-1.0$
 - /usr/share/gir-1.0/Gsf-1.gir$
 - /usr/share/gtk-doc$
@@ -248,3 +250,6 @@ includes:
 - /usr/share/man/man1/gsf.1.bz2$
 - /usr/share/thumbnailers$
 - /usr/share/thumbnailers/gsf-office.thumbnailer$
+env:
+- ORIGINAL_ATOM=gnome-extra/libgsf
+- ORIGINAL_PACKAGE=gnome-extra/libgsf-1.14.46
