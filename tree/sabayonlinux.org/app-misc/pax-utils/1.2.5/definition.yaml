@@ -20,11 +20,9 @@ use_flags:
 - seccomp
 - elibc_glibc
 - kernel_linux
-version: 1.2.4+r4
-
+version: "1.2.5"
 Labels:
   original.package.name: "pax-utils"
   original.package.category: "app-misc"
   original.package.version: "1.2.4"
   original.package.slot: "0"
-

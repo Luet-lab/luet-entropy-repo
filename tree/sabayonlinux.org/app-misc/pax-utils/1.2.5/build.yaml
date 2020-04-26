@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i app-misc/pax-utils-1.2.4-r1 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -18,13 +19,16 @@ includes:
 - /usr/lib$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/pax-utils-1.2.4-r1$
-- /usr/share/doc/pax-utils-1.2.4-r1/BUGS.bz2$
-- /usr/share/doc/pax-utils-1.2.4-r1/README.md.bz2$
-- /usr/share/doc/pax-utils-1.2.4-r1/TODO.bz2$
+- /usr/share/doc/pax-utils-1.2.5$
+- /usr/share/doc/pax-utils-1.2.5/BUGS.bz2$
+- /usr/share/doc/pax-utils-1.2.5/README.md.bz2$
+- /usr/share/doc/pax-utils-1.2.5/TODO.bz2$
 - /usr/share/man$
 - /usr/share/man/man1$
 - /usr/share/man/man1/dumpelf.1.bz2$
 - /usr/share/man/man1/pspax.1.bz2$
 - /usr/share/man/man1/scanelf.1.bz2$
 - /usr/share/man/man1/scanmacho.1.bz2$
+env:
+- ORIGINAL_ATOM=app-misc/pax-utils
+- ORIGINAL_PACKAGE=app-misc/pax-utils-1.2.5
