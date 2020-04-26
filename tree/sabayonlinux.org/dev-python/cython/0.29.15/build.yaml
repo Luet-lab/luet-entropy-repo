@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/cython-0.29.14-r1 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -26,13 +27,13 @@ includes:
 - /usr/lib64/python2.7$
 - /usr/lib64/python2.7/site-packages$
 - /usr/lib64/python2.7/site-packages/Cython$
-- /usr/lib64/python2.7/site-packages/Cython-0.29.14-py2.7.egg-info$
-- /usr/lib64/python2.7/site-packages/Cython-0.29.14-py2.7.egg-info/PKG-INFO$
-- /usr/lib64/python2.7/site-packages/Cython-0.29.14-py2.7.egg-info/SOURCES.txt$
-- /usr/lib64/python2.7/site-packages/Cython-0.29.14-py2.7.egg-info/dependency_links.txt$
-- /usr/lib64/python2.7/site-packages/Cython-0.29.14-py2.7.egg-info/entry_points.txt$
-- /usr/lib64/python2.7/site-packages/Cython-0.29.14-py2.7.egg-info/not-zip-safe$
-- /usr/lib64/python2.7/site-packages/Cython-0.29.14-py2.7.egg-info/top_level.txt$
+- /usr/lib64/python2.7/site-packages/Cython-0.29.15-py2.7.egg-info$
+- /usr/lib64/python2.7/site-packages/Cython-0.29.15-py2.7.egg-info/PKG-INFO$
+- /usr/lib64/python2.7/site-packages/Cython-0.29.15-py2.7.egg-info/SOURCES.txt$
+- /usr/lib64/python2.7/site-packages/Cython-0.29.15-py2.7.egg-info/dependency_links.txt$
+- /usr/lib64/python2.7/site-packages/Cython-0.29.15-py2.7.egg-info/entry_points.txt$
+- /usr/lib64/python2.7/site-packages/Cython-0.29.15-py2.7.egg-info/not-zip-safe$
+- /usr/lib64/python2.7/site-packages/Cython-0.29.15-py2.7.egg-info/top_level.txt$
 - /usr/lib64/python2.7/site-packages/Cython/Build$
 - /usr/lib64/python2.7/site-packages/Cython/Build/BuildExecutable.py$
 - /usr/lib64/python2.7/site-packages/Cython/Build/BuildExecutable.pyc$
@@ -584,13 +585,13 @@ includes:
 - /usr/lib64/python3.6$
 - /usr/lib64/python3.6/site-packages$
 - /usr/lib64/python3.6/site-packages/Cython$
-- /usr/lib64/python3.6/site-packages/Cython-0.29.14-py3.6.egg-info$
-- /usr/lib64/python3.6/site-packages/Cython-0.29.14-py3.6.egg-info/PKG-INFO$
-- /usr/lib64/python3.6/site-packages/Cython-0.29.14-py3.6.egg-info/SOURCES.txt$
-- /usr/lib64/python3.6/site-packages/Cython-0.29.14-py3.6.egg-info/dependency_links.txt$
-- /usr/lib64/python3.6/site-packages/Cython-0.29.14-py3.6.egg-info/entry_points.txt$
-- /usr/lib64/python3.6/site-packages/Cython-0.29.14-py3.6.egg-info/not-zip-safe$
-- /usr/lib64/python3.6/site-packages/Cython-0.29.14-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/Cython-0.29.15-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/Cython-0.29.15-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/Cython-0.29.15-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/Cython-0.29.15-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/Cython-0.29.15-py3.6.egg-info/entry_points.txt$
+- /usr/lib64/python3.6/site-packages/Cython-0.29.15-py3.6.egg-info/not-zip-safe$
+- /usr/lib64/python3.6/site-packages/Cython-0.29.15-py3.6.egg-info/top_level.txt$
 - /usr/lib64/python3.6/site-packages/Cython/Build$
 - /usr/lib64/python3.6/site-packages/Cython/Build/BuildExecutable.py$
 - /usr/lib64/python3.6/site-packages/Cython/Build/Cythonize.py$
@@ -1270,8 +1271,11 @@ includes:
 - /usr/lib64/python3.6/site-packages/pyximport/pyximport.py$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/cython-0.29.14-r1$
-- /usr/share/doc/cython-0.29.14-r1/CHANGES.rst.bz2$
-- /usr/share/doc/cython-0.29.14-r1/README.rst.bz2$
-- /usr/share/doc/cython-0.29.14-r1/ToDo.txt.bz2$
-- /usr/share/doc/cython-0.29.14-r1/USAGE.txt.bz2$
+- /usr/share/doc/cython-0.29.15$
+- /usr/share/doc/cython-0.29.15/CHANGES.rst.bz2$
+- /usr/share/doc/cython-0.29.15/README.rst.bz2$
+- /usr/share/doc/cython-0.29.15/ToDo.txt.bz2$
+- /usr/share/doc/cython-0.29.15/USAGE.txt.bz2$
+env:
+- ORIGINAL_ATOM=dev-python/cython
+- ORIGINAL_PACKAGE=dev-python/cython-0.29.15
