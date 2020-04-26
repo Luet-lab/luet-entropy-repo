@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i gnome-extra/gnome-contacts-3.32.1 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -21,10 +22,10 @@ includes:
 - /usr/share/dbus-1/services/org.gnome.Contacts.SearchProvider.service$
 - /usr/share/dbus-1/services/org.gnome.Contacts.service$
 - /usr/share/doc$
-- /usr/share/doc/gnome-contacts-3.32.1$
-- /usr/share/doc/gnome-contacts-3.32.1/AUTHORS$
-- /usr/share/doc/gnome-contacts-3.32.1/NEWS.bz2$
-- /usr/share/doc/gnome-contacts-3.32.1/README.md.bz2$
+- /usr/share/doc/gnome-contacts-3.34.1$
+- /usr/share/doc/gnome-contacts-3.34.1/AUTHORS$
+- /usr/share/doc/gnome-contacts-3.34.1/NEWS.bz2$
+- /usr/share/doc/gnome-contacts-3.34.1/README.md.bz2$
 - /usr/share/glib-2.0$
 - /usr/share/glib-2.0/schemas$
 - /usr/share/glib-2.0/schemas/org.gnome.Contacts.gschema.xml$
@@ -163,6 +164,9 @@ includes:
 - /usr/share/locale/lv$
 - /usr/share/locale/lv/LC_MESSAGES$
 - /usr/share/locale/lv/LC_MESSAGES/gnome-contacts.mo$
+- /usr/share/locale/mjw$
+- /usr/share/locale/mjw/LC_MESSAGES$
+- /usr/share/locale/mjw/LC_MESSAGES/gnome-contacts.mo$
 - /usr/share/locale/mk$
 - /usr/share/locale/mk/LC_MESSAGES$
 - /usr/share/locale/mk/LC_MESSAGES/gnome-contacts.mo$
@@ -172,6 +176,9 @@ includes:
 - /usr/share/locale/mr$
 - /usr/share/locale/mr/LC_MESSAGES$
 - /usr/share/locale/mr/LC_MESSAGES/gnome-contacts.mo$
+- /usr/share/locale/ms$
+- /usr/share/locale/ms/LC_MESSAGES$
+- /usr/share/locale/ms/LC_MESSAGES/gnome-contacts.mo$
 - /usr/share/locale/nb$
 - /usr/share/locale/nb/LC_MESSAGES$
 - /usr/share/locale/nb/LC_MESSAGES/gnome-contacts.mo$
@@ -258,3 +265,6 @@ includes:
 - /usr/share/man/man1/gnome-contacts.1.bz2$
 - /usr/share/metainfo$
 - /usr/share/metainfo/org.gnome.Contacts.appdata.xml$
+env:
+- ORIGINAL_ATOM=gnome-extra/gnome-contacts
+- ORIGINAL_PACKAGE=gnome-extra/gnome-contacts-3.34.1
