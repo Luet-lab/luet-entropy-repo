@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/parso-0.3.1 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -9,91 +10,15 @@ requires:
 includes:
 - /usr$
 - /usr/lib64$
-- /usr/lib64/python2.7$
-- /usr/lib64/python2.7/site-packages$
-- /usr/lib64/python2.7/site-packages/parso$
-- /usr/lib64/python2.7/site-packages/parso-0.3.1-py2.7.egg-info$
-- /usr/lib64/python2.7/site-packages/parso-0.3.1-py2.7.egg-info/PKG-INFO$
-- /usr/lib64/python2.7/site-packages/parso-0.3.1-py2.7.egg-info/SOURCES.txt$
-- /usr/lib64/python2.7/site-packages/parso-0.3.1-py2.7.egg-info/dependency_links.txt$
-- /usr/lib64/python2.7/site-packages/parso-0.3.1-py2.7.egg-info/top_level.txt$
-- /usr/lib64/python2.7/site-packages/parso/__init__.py$
-- /usr/lib64/python2.7/site-packages/parso/__init__.pyc$
-- /usr/lib64/python2.7/site-packages/parso/__init__.pyo$
-- /usr/lib64/python2.7/site-packages/parso/_compatibility.py$
-- /usr/lib64/python2.7/site-packages/parso/_compatibility.pyc$
-- /usr/lib64/python2.7/site-packages/parso/_compatibility.pyo$
-- /usr/lib64/python2.7/site-packages/parso/cache.py$
-- /usr/lib64/python2.7/site-packages/parso/cache.pyc$
-- /usr/lib64/python2.7/site-packages/parso/cache.pyo$
-- /usr/lib64/python2.7/site-packages/parso/grammar.py$
-- /usr/lib64/python2.7/site-packages/parso/grammar.pyc$
-- /usr/lib64/python2.7/site-packages/parso/grammar.pyo$
-- /usr/lib64/python2.7/site-packages/parso/normalizer.py$
-- /usr/lib64/python2.7/site-packages/parso/normalizer.pyc$
-- /usr/lib64/python2.7/site-packages/parso/normalizer.pyo$
-- /usr/lib64/python2.7/site-packages/parso/parser.py$
-- /usr/lib64/python2.7/site-packages/parso/parser.pyc$
-- /usr/lib64/python2.7/site-packages/parso/parser.pyo$
-- /usr/lib64/python2.7/site-packages/parso/pgen2$
-- /usr/lib64/python2.7/site-packages/parso/pgen2/__init__.py$
-- /usr/lib64/python2.7/site-packages/parso/pgen2/__init__.pyc$
-- /usr/lib64/python2.7/site-packages/parso/pgen2/__init__.pyo$
-- /usr/lib64/python2.7/site-packages/parso/pgen2/generator.py$
-- /usr/lib64/python2.7/site-packages/parso/pgen2/generator.pyc$
-- /usr/lib64/python2.7/site-packages/parso/pgen2/generator.pyo$
-- /usr/lib64/python2.7/site-packages/parso/pgen2/grammar_parser.py$
-- /usr/lib64/python2.7/site-packages/parso/pgen2/grammar_parser.pyc$
-- /usr/lib64/python2.7/site-packages/parso/pgen2/grammar_parser.pyo$
-- /usr/lib64/python2.7/site-packages/parso/python$
-- /usr/lib64/python2.7/site-packages/parso/python/__init__.py$
-- /usr/lib64/python2.7/site-packages/parso/python/__init__.pyc$
-- /usr/lib64/python2.7/site-packages/parso/python/__init__.pyo$
-- /usr/lib64/python2.7/site-packages/parso/python/diff.py$
-- /usr/lib64/python2.7/site-packages/parso/python/diff.pyc$
-- /usr/lib64/python2.7/site-packages/parso/python/diff.pyo$
-- /usr/lib64/python2.7/site-packages/parso/python/errors.py$
-- /usr/lib64/python2.7/site-packages/parso/python/errors.pyc$
-- /usr/lib64/python2.7/site-packages/parso/python/errors.pyo$
-- /usr/lib64/python2.7/site-packages/parso/python/grammar26.txt$
-- /usr/lib64/python2.7/site-packages/parso/python/grammar27.txt$
-- /usr/lib64/python2.7/site-packages/parso/python/grammar33.txt$
-- /usr/lib64/python2.7/site-packages/parso/python/grammar34.txt$
-- /usr/lib64/python2.7/site-packages/parso/python/grammar35.txt$
-- /usr/lib64/python2.7/site-packages/parso/python/grammar36.txt$
-- /usr/lib64/python2.7/site-packages/parso/python/grammar37.txt$
-- /usr/lib64/python2.7/site-packages/parso/python/parser.py$
-- /usr/lib64/python2.7/site-packages/parso/python/parser.pyc$
-- /usr/lib64/python2.7/site-packages/parso/python/parser.pyo$
-- /usr/lib64/python2.7/site-packages/parso/python/pep8.py$
-- /usr/lib64/python2.7/site-packages/parso/python/pep8.pyc$
-- /usr/lib64/python2.7/site-packages/parso/python/pep8.pyo$
-- /usr/lib64/python2.7/site-packages/parso/python/prefix.py$
-- /usr/lib64/python2.7/site-packages/parso/python/prefix.pyc$
-- /usr/lib64/python2.7/site-packages/parso/python/prefix.pyo$
-- /usr/lib64/python2.7/site-packages/parso/python/token.py$
-- /usr/lib64/python2.7/site-packages/parso/python/token.pyc$
-- /usr/lib64/python2.7/site-packages/parso/python/token.pyo$
-- /usr/lib64/python2.7/site-packages/parso/python/tokenize.py$
-- /usr/lib64/python2.7/site-packages/parso/python/tokenize.pyc$
-- /usr/lib64/python2.7/site-packages/parso/python/tokenize.pyo$
-- /usr/lib64/python2.7/site-packages/parso/python/tree.py$
-- /usr/lib64/python2.7/site-packages/parso/python/tree.pyc$
-- /usr/lib64/python2.7/site-packages/parso/python/tree.pyo$
-- /usr/lib64/python2.7/site-packages/parso/tree.py$
-- /usr/lib64/python2.7/site-packages/parso/tree.pyc$
-- /usr/lib64/python2.7/site-packages/parso/tree.pyo$
-- /usr/lib64/python2.7/site-packages/parso/utils.py$
-- /usr/lib64/python2.7/site-packages/parso/utils.pyc$
-- /usr/lib64/python2.7/site-packages/parso/utils.pyo$
 - /usr/lib64/python3.6$
 - /usr/lib64/python3.6/site-packages$
 - /usr/lib64/python3.6/site-packages/parso$
-- /usr/lib64/python3.6/site-packages/parso-0.3.1-py3.6.egg-info$
-- /usr/lib64/python3.6/site-packages/parso-0.3.1-py3.6.egg-info/PKG-INFO$
-- /usr/lib64/python3.6/site-packages/parso-0.3.1-py3.6.egg-info/SOURCES.txt$
-- /usr/lib64/python3.6/site-packages/parso-0.3.1-py3.6.egg-info/dependency_links.txt$
-- /usr/lib64/python3.6/site-packages/parso-0.3.1-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/parso-0.5.2-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/parso-0.5.2-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/parso-0.5.2-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/parso-0.5.2-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/parso-0.5.2-py3.6.egg-info/requires.txt$
+- /usr/lib64/python3.6/site-packages/parso-0.5.2-py3.6.egg-info/top_level.txt$
 - /usr/lib64/python3.6/site-packages/parso/__init__.py$
 - /usr/lib64/python3.6/site-packages/parso/__pycache__$
 - /usr/lib64/python3.6/site-packages/parso/__pycache__/__init__.cpython-36.opt-1.pyc$
@@ -105,6 +30,9 @@ includes:
 - /usr/lib64/python3.6/site-packages/parso/__pycache__/cache.cpython-36.opt-1.pyc$
 - /usr/lib64/python3.6/site-packages/parso/__pycache__/cache.cpython-36.opt-2.pyc$
 - /usr/lib64/python3.6/site-packages/parso/__pycache__/cache.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/parso/__pycache__/file_io.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/parso/__pycache__/file_io.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/parso/__pycache__/file_io.cpython-36.pyc$
 - /usr/lib64/python3.6/site-packages/parso/__pycache__/grammar.cpython-36.opt-1.pyc$
 - /usr/lib64/python3.6/site-packages/parso/__pycache__/grammar.cpython-36.opt-2.pyc$
 - /usr/lib64/python3.6/site-packages/parso/__pycache__/grammar.cpython-36.pyc$
@@ -122,6 +50,7 @@ includes:
 - /usr/lib64/python3.6/site-packages/parso/__pycache__/utils.cpython-36.pyc$
 - /usr/lib64/python3.6/site-packages/parso/_compatibility.py$
 - /usr/lib64/python3.6/site-packages/parso/cache.py$
+- /usr/lib64/python3.6/site-packages/parso/file_io.py$
 - /usr/lib64/python3.6/site-packages/parso/grammar.py$
 - /usr/lib64/python3.6/site-packages/parso/normalizer.py$
 - /usr/lib64/python3.6/site-packages/parso/parser.py$
@@ -178,6 +107,8 @@ includes:
 - /usr/lib64/python3.6/site-packages/parso/python/grammar35.txt$
 - /usr/lib64/python3.6/site-packages/parso/python/grammar36.txt$
 - /usr/lib64/python3.6/site-packages/parso/python/grammar37.txt$
+- /usr/lib64/python3.6/site-packages/parso/python/grammar38.txt$
+- /usr/lib64/python3.6/site-packages/parso/python/grammar39.txt$
 - /usr/lib64/python3.6/site-packages/parso/python/parser.py$
 - /usr/lib64/python3.6/site-packages/parso/python/pep8.py$
 - /usr/lib64/python3.6/site-packages/parso/python/prefix.py$
@@ -188,5 +119,8 @@ includes:
 - /usr/lib64/python3.6/site-packages/parso/utils.py$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/parso-0.3.1$
-- /usr/share/doc/parso-0.3.1/README.rst.bz2$
+- /usr/share/doc/parso-0.5.2$
+- /usr/share/doc/parso-0.5.2/README.rst.bz2$
+env:
+- ORIGINAL_ATOM=dev-python/parso
+- ORIGINAL_PACKAGE=dev-python/parso-0.5.2
