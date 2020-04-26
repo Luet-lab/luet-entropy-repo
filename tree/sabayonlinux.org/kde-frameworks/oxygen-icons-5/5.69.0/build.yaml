@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i kde-frameworks/oxygen-icons-5.67.0 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -10,9 +11,9 @@ includes:
 - /usr$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/oxygen-icons-5.67.0$
-- /usr/share/doc/oxygen-icons-5.67.0/AUTHORS.bz2$
-- /usr/share/doc/oxygen-icons-5.67.0/README.md$
+- /usr/share/doc/oxygen-icons-5.69.0$
+- /usr/share/doc/oxygen-icons-5.69.0/AUTHORS.bz2$
+- /usr/share/doc/oxygen-icons-5.69.0/README.md$
 - /usr/share/icons$
 - /usr/share/icons/oxygen$
 - /usr/share/icons/oxygen/base$
@@ -803,6 +804,9 @@ includes:
 - /usr/share/icons/oxygen/base/128x128/places/user-trash-full.png$
 - /usr/share/icons/oxygen/base/128x128/places/user-trash.png$
 - /usr/share/icons/oxygen/base/128x128/status$
+- /usr/share/icons/oxygen/base/128x128/status/data-error.png$
+- /usr/share/icons/oxygen/base/128x128/status/data-information.png$
+- /usr/share/icons/oxygen/base/128x128/status/data-warning.png$
 - /usr/share/icons/oxygen/base/128x128/status/dialog-error.png$
 - /usr/share/icons/oxygen/base/128x128/status/dialog-information.png$
 - /usr/share/icons/oxygen/base/128x128/status/dialog-password.png$
@@ -1474,6 +1478,7 @@ includes:
 - /usr/share/icons/oxygen/base/16x16/actions/player-time.png$
 - /usr/share/icons/oxygen/base/16x16/actions/player-volume.png$
 - /usr/share/icons/oxygen/base/16x16/actions/playlist-sort.png$
+- /usr/share/icons/oxygen/base/16x16/actions/plugins.png$
 - /usr/share/icons/oxygen/base/16x16/actions/polygon-add-nodes.png$
 - /usr/share/icons/oxygen/base/16x16/actions/polygon-merge-nodes.png$
 - /usr/share/icons/oxygen/base/16x16/actions/postalcode.png$
@@ -2544,6 +2549,9 @@ includes:
 - /usr/share/icons/oxygen/base/16x16/status/battery-low.png$
 - /usr/share/icons/oxygen/base/16x16/status/battery-missing.png$
 - /usr/share/icons/oxygen/base/16x16/status/cloudstatus.png$
+- /usr/share/icons/oxygen/base/16x16/status/data-error.png$
+- /usr/share/icons/oxygen/base/16x16/status/data-information.png$
+- /usr/share/icons/oxygen/base/16x16/status/data-warning.png$
 - /usr/share/icons/oxygen/base/16x16/status/dialog-error.png$
 - /usr/share/icons/oxygen/base/16x16/status/dialog-information.png$
 - /usr/share/icons/oxygen/base/16x16/status/dialog-password.png$
@@ -3259,6 +3267,7 @@ includes:
 - /usr/share/icons/oxygen/base/22x22/actions/player-volume-muted.png$
 - /usr/share/icons/oxygen/base/22x22/actions/player-volume.png$
 - /usr/share/icons/oxygen/base/22x22/actions/playlist-sort.png$
+- /usr/share/icons/oxygen/base/22x22/actions/plugins.png$
 - /usr/share/icons/oxygen/base/22x22/actions/polygon-add-nodes.png$
 - /usr/share/icons/oxygen/base/22x22/actions/polygon-merge-nodes.png$
 - /usr/share/icons/oxygen/base/22x22/actions/postalcode.png$
@@ -4375,6 +4384,9 @@ includes:
 - /usr/share/icons/oxygen/base/22x22/status/battery-low.png$
 - /usr/share/icons/oxygen/base/22x22/status/battery-missing.png$
 - /usr/share/icons/oxygen/base/22x22/status/cloudstatus.png$
+- /usr/share/icons/oxygen/base/22x22/status/data-error.png$
+- /usr/share/icons/oxygen/base/22x22/status/data-information.png$
+- /usr/share/icons/oxygen/base/22x22/status/data-warning.png$
 - /usr/share/icons/oxygen/base/22x22/status/dialog-error.png$
 - /usr/share/icons/oxygen/base/22x22/status/dialog-information.png$
 - /usr/share/icons/oxygen/base/22x22/status/dialog-password.png$
@@ -5444,6 +5456,7 @@ includes:
 - /usr/share/icons/oxygen/base/32x32/actions/page-zoom.png$
 - /usr/share/icons/oxygen/base/32x32/actions/player-time.png$
 - /usr/share/icons/oxygen/base/32x32/actions/player-volume.png$
+- /usr/share/icons/oxygen/base/32x32/actions/plugins.png$
 - /usr/share/icons/oxygen/base/32x32/actions/preferences-activities.png$
 - /usr/share/icons/oxygen/base/32x32/actions/preflight-verifier.png$
 - /usr/share/icons/oxygen/base/32x32/actions/process-stop.png$
@@ -6472,6 +6485,9 @@ includes:
 - /usr/share/icons/oxygen/base/32x32/status/battery-charging.png$
 - /usr/share/icons/oxygen/base/32x32/status/battery-low.png$
 - /usr/share/icons/oxygen/base/32x32/status/battery-missing.png$
+- /usr/share/icons/oxygen/base/32x32/status/data-error.png$
+- /usr/share/icons/oxygen/base/32x32/status/data-information.png$
+- /usr/share/icons/oxygen/base/32x32/status/data-warning.png$
 - /usr/share/icons/oxygen/base/32x32/status/dialog-error.png$
 - /usr/share/icons/oxygen/base/32x32/status/dialog-information.png$
 - /usr/share/icons/oxygen/base/32x32/status/dialog-password.png$
@@ -6925,6 +6941,7 @@ includes:
 - /usr/share/icons/oxygen/base/48x48/actions/page-zoom.png$
 - /usr/share/icons/oxygen/base/48x48/actions/player-time.png$
 - /usr/share/icons/oxygen/base/48x48/actions/player-volume.png$
+- /usr/share/icons/oxygen/base/48x48/actions/plugins.png$
 - /usr/share/icons/oxygen/base/48x48/actions/preferences-activities.png$
 - /usr/share/icons/oxygen/base/48x48/actions/preflight-verifier.png$
 - /usr/share/icons/oxygen/base/48x48/actions/process-stop.png$
@@ -7899,6 +7916,9 @@ includes:
 - /usr/share/icons/oxygen/base/48x48/status/battery-charging.png$
 - /usr/share/icons/oxygen/base/48x48/status/battery-low.png$
 - /usr/share/icons/oxygen/base/48x48/status/battery-missing.png$
+- /usr/share/icons/oxygen/base/48x48/status/data-error.png$
+- /usr/share/icons/oxygen/base/48x48/status/data-information.png$
+- /usr/share/icons/oxygen/base/48x48/status/data-warning.png$
 - /usr/share/icons/oxygen/base/48x48/status/dialog-error.png$
 - /usr/share/icons/oxygen/base/48x48/status/dialog-information.png$
 - /usr/share/icons/oxygen/base/48x48/status/dialog-password.png$
@@ -8745,6 +8765,9 @@ includes:
 - /usr/share/icons/oxygen/base/64x64/places/user-trash-full.png$
 - /usr/share/icons/oxygen/base/64x64/places/user-trash.png$
 - /usr/share/icons/oxygen/base/64x64/status$
+- /usr/share/icons/oxygen/base/64x64/status/data-error.png$
+- /usr/share/icons/oxygen/base/64x64/status/data-information.png$
+- /usr/share/icons/oxygen/base/64x64/status/data-warning.png$
 - /usr/share/icons/oxygen/base/64x64/status/dialog-error.png$
 - /usr/share/icons/oxygen/base/64x64/status/dialog-information.png$
 - /usr/share/icons/oxygen/base/64x64/status/dialog-password.png$
@@ -8820,3 +8843,6 @@ includes:
 - /usr/share/icons/oxygen/base/8x8/places$
 - /usr/share/icons/oxygen/base/8x8/places/folder-activities.png$
 - /usr/share/icons/oxygen/index.theme$
+env:
+- ORIGINAL_ATOM=kde-frameworks/oxygen-icons
+- ORIGINAL_PACKAGE=kde-frameworks/oxygen-icons-5.69.0
