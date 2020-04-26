@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/pexpect-4.2.1 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -12,7 +13,7 @@ includes:
 - /usr/lib64/python2.7$
 - /usr/lib64/python2.7/site-packages$
 - /usr/lib64/python2.7/site-packages/pexpect$
-- /usr/lib64/python2.7/site-packages/pexpect-4.2.1-py2.7.egg-info$
+- /usr/lib64/python2.7/site-packages/pexpect-4.8.0-py2.7.egg-info$
 - /usr/lib64/python2.7/site-packages/pexpect/ANSI.py$
 - /usr/lib64/python2.7/site-packages/pexpect/ANSI.pyc$
 - /usr/lib64/python2.7/site-packages/pexpect/ANSI.pyo$
@@ -22,7 +23,6 @@ includes:
 - /usr/lib64/python2.7/site-packages/pexpect/__init__.py$
 - /usr/lib64/python2.7/site-packages/pexpect/__init__.pyc$
 - /usr/lib64/python2.7/site-packages/pexpect/__init__.pyo$
-- /usr/lib64/python2.7/site-packages/pexpect/async.py$
 - /usr/lib64/python2.7/site-packages/pexpect/bashrc.sh$
 - /usr/lib64/python2.7/site-packages/pexpect/exceptions.py$
 - /usr/lib64/python2.7/site-packages/pexpect/exceptions.pyc$
@@ -60,7 +60,7 @@ includes:
 - /usr/lib64/python3.6$
 - /usr/lib64/python3.6/site-packages$
 - /usr/lib64/python3.6/site-packages/pexpect$
-- /usr/lib64/python3.6/site-packages/pexpect-4.2.1-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/pexpect-4.8.0-py3.6.egg-info$
 - /usr/lib64/python3.6/site-packages/pexpect/ANSI.py$
 - /usr/lib64/python3.6/site-packages/pexpect/FSM.py$
 - /usr/lib64/python3.6/site-packages/pexpect/__init__.py$
@@ -74,9 +74,9 @@ includes:
 - /usr/lib64/python3.6/site-packages/pexpect/__pycache__/__init__.cpython-36.opt-1.pyc$
 - /usr/lib64/python3.6/site-packages/pexpect/__pycache__/__init__.cpython-36.opt-2.pyc$
 - /usr/lib64/python3.6/site-packages/pexpect/__pycache__/__init__.cpython-36.pyc$
-- /usr/lib64/python3.6/site-packages/pexpect/__pycache__/async.cpython-36.opt-1.pyc$
-- /usr/lib64/python3.6/site-packages/pexpect/__pycache__/async.cpython-36.opt-2.pyc$
-- /usr/lib64/python3.6/site-packages/pexpect/__pycache__/async.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/pexpect/__pycache__/_async.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/pexpect/__pycache__/_async.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/pexpect/__pycache__/_async.cpython-36.pyc$
 - /usr/lib64/python3.6/site-packages/pexpect/__pycache__/exceptions.cpython-36.opt-1.pyc$
 - /usr/lib64/python3.6/site-packages/pexpect/__pycache__/exceptions.cpython-36.opt-2.pyc$
 - /usr/lib64/python3.6/site-packages/pexpect/__pycache__/exceptions.cpython-36.pyc$
@@ -110,7 +110,7 @@ includes:
 - /usr/lib64/python3.6/site-packages/pexpect/__pycache__/utils.cpython-36.opt-1.pyc$
 - /usr/lib64/python3.6/site-packages/pexpect/__pycache__/utils.cpython-36.opt-2.pyc$
 - /usr/lib64/python3.6/site-packages/pexpect/__pycache__/utils.cpython-36.pyc$
-- /usr/lib64/python3.6/site-packages/pexpect/async.py$
+- /usr/lib64/python3.6/site-packages/pexpect/_async.py$
 - /usr/lib64/python3.6/site-packages/pexpect/bashrc.sh$
 - /usr/lib64/python3.6/site-packages/pexpect/exceptions.py$
 - /usr/lib64/python3.6/site-packages/pexpect/expect.py$
@@ -125,5 +125,8 @@ includes:
 - /usr/lib64/python3.6/site-packages/pexpect/utils.py$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/pexpect-4.2.1$
-- /usr/share/doc/pexpect-4.2.1/README.rst.bz2$
+- /usr/share/doc/pexpect-4.8.0$
+- /usr/share/doc/pexpect-4.8.0/README.rst.bz2$
+env:
+- ORIGINAL_ATOM=dev-python/pexpect
+- ORIGINAL_PACKAGE=dev-python/pexpect-4.8.0
