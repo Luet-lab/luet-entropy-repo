@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i kde-frameworks/extra-cmake-modules-5.67.0 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -98,10 +99,14 @@ includes:
 - /usr/share/ECM/toolchain$
 - /usr/share/ECM/toolchain/Android.cmake$
 - /usr/share/ECM/toolchain/ECMAndroidDeployQt.cmake$
+- /usr/share/ECM/toolchain/deployment-file-qt514.json.in$
 - /usr/share/ECM/toolchain/deployment-file.json.in$
 - /usr/share/ECM/toolchain/hasMainSymbol.cmake$
 - /usr/share/ECM/toolchain/specifydependencies.cmake$
 - /usr/share/doc$
-- /usr/share/doc/extra-cmake-modules-5.67.0$
-- /usr/share/doc/extra-cmake-modules-5.67.0/README.md.bz2$
-- /usr/share/doc/extra-cmake-modules-5.67.0/README.rst.bz2$
+- /usr/share/doc/extra-cmake-modules-5.69.0$
+- /usr/share/doc/extra-cmake-modules-5.69.0/README.md.bz2$
+- /usr/share/doc/extra-cmake-modules-5.69.0/README.rst.bz2$
+env:
+- ORIGINAL_ATOM=kde-frameworks/extra-cmake-modules
+- ORIGINAL_PACKAGE=kde-frameworks/extra-cmake-modules-5.69.0
