@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i kde-frameworks/knotifications-5.67.0 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -12,12 +13,14 @@ includes:
 - /usr/include/KF5$
 - /usr/include/KF5/KNotifications$
 - /usr/include/KF5/KNotifications/KNotification$
+- /usr/include/KF5/KNotifications/KNotificationJobUiDelegate$
 - /usr/include/KF5/KNotifications/KNotificationPlugin$
 - /usr/include/KF5/KNotifications/KNotificationRestrictions$
 - /usr/include/KF5/KNotifications/KNotifyConfig$
 - /usr/include/KF5/KNotifications/KPassivePopup$
 - /usr/include/KF5/KNotifications/KStatusNotifierItem$
 - /usr/include/KF5/KNotifications/knotification.h$
+- /usr/include/KF5/KNotifications/knotificationjobuidelegate.h$
 - /usr/include/KF5/KNotifications/knotificationplugin.h$
 - /usr/include/KF5/KNotifications/knotificationrestrictions.h$
 - /usr/include/KF5/KNotifications/knotifications_export.h$
@@ -35,7 +38,7 @@ includes:
 - /usr/lib64/cmake/KF5Notifications/KF5NotificationsTargets.cmake$
 - /usr/lib64/libKF5Notifications.so$
 - /usr/lib64/libKF5Notifications.so.5$
-- /usr/lib64/libKF5Notifications.so.5.67.0$
+- /usr/lib64/libKF5Notifications.so.5.69.0$
 - /usr/lib64/qt5$
 - /usr/lib64/qt5/mkspecs$
 - /usr/lib64/qt5/mkspecs/modules$
@@ -46,8 +49,8 @@ includes:
 - /usr/share/dbus-1/interfaces/kf5_org.kde.StatusNotifierItem.xml$
 - /usr/share/dbus-1/interfaces/kf5_org.kde.StatusNotifierWatcher.xml$
 - /usr/share/doc$
-- /usr/share/doc/knotifications-5.67.0$
-- /usr/share/doc/knotifications-5.67.0/README.md.bz2$
+- /usr/share/doc/knotifications-5.69.0$
+- /usr/share/doc/knotifications-5.69.0/README.md.bz2$
 - /usr/share/kservicetypes5$
 - /usr/share/kservicetypes5/knotificationplugin.desktop$
 - /usr/share/locale$
@@ -236,3 +239,6 @@ includes:
 - /usr/share/locale/zh_TW/LC_MESSAGES/knotifications5_qt.qm$
 - /usr/share/qlogging-categories5$
 - /usr/share/qlogging-categories5/knotifications.categories$
+env:
+- ORIGINAL_ATOM=kde-frameworks/knotifications
+- ORIGINAL_PACKAGE=kde-frameworks/knotifications-5.69.0
