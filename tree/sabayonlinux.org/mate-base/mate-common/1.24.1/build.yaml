@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i mate-base/mate-common-1.22.0 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -17,13 +18,13 @@ includes:
 - /usr/share/aclocal/mate-common.m4$
 - /usr/share/aclocal/mate-compiler-flags.m4$
 - /usr/share/doc$
-- /usr/share/doc/mate-common-1.22.0$
-- /usr/share/doc/mate-common-1.22.0/AUTHORS$
-- /usr/share/doc/mate-common-1.22.0/ChangeLog.bz2$
-- /usr/share/doc/mate-common-1.22.0/NEWS.bz2$
-- /usr/share/doc/mate-common-1.22.0/README.bz2$
-- /usr/share/doc/mate-common-1.22.0/README.doc-build.bz2$
-- /usr/share/doc/mate-common-1.22.0/usage.txt.bz2$
+- /usr/share/doc/mate-common-1.24.1$
+- /usr/share/doc/mate-common-1.24.1/AUTHORS$
+- /usr/share/doc/mate-common-1.24.1/ChangeLog.bz2$
+- /usr/share/doc/mate-common-1.24.1/NEWS.bz2$
+- /usr/share/doc/mate-common-1.24.1/README.bz2$
+- /usr/share/doc/mate-common-1.24.1/README.doc-build.bz2$
+- /usr/share/doc/mate-common-1.24.1/usage.txt.bz2$
 - /usr/share/man$
 - /usr/share/man/man1$
 - /usr/share/man/man1/mate-autogen.1.bz2$
@@ -32,3 +33,6 @@ includes:
 - /usr/share/mate-common/data$
 - /usr/share/mate-common/data/omf.make$
 - /usr/share/mate-common/data/xmldocs.make$
+env:
+- ORIGINAL_ATOM=mate-base/mate-common
+- ORIGINAL_PACKAGE=mate-base/mate-common-1.24.1
