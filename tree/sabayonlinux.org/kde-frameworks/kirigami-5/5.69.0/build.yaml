@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i kde-frameworks/kirigami-5.67.1-r1 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -29,7 +30,7 @@ includes:
 - /usr/lib64/cmake/KF5Kirigami2/KF5Kirigami2Targets.cmake$
 - /usr/lib64/libKF5Kirigami2.so$
 - /usr/lib64/libKF5Kirigami2.so.5$
-- /usr/lib64/libKF5Kirigami2.so.5.67.0$
+- /usr/lib64/libKF5Kirigami2.so.5.69.0$
 - /usr/lib64/qt5$
 - /usr/lib64/qt5/mkspecs$
 - /usr/lib64/qt5/mkspecs/modules$
@@ -75,6 +76,7 @@ includes:
 - /usr/lib64/qt5/qml/org/kde/kirigami.2/ScrollablePage.qml$
 - /usr/lib64/qt5/qml/org/kde/kirigami.2/SearchField.qml$
 - /usr/lib64/qt5/qml/org/kde/kirigami.2/Separator.qml$
+- /usr/lib64/qt5/qml/org/kde/kirigami.2/ShadowedImage.qml$
 - /usr/lib64/qt5/qml/org/kde/kirigami.2/SwipeListItem.qml$
 - /usr/lib64/qt5/qml/org/kde/kirigami.2/Theme.qml$
 - /usr/lib64/qt5/qml/org/kde/kirigami.2/ToolBarApplicationHeader.qml$
@@ -145,8 +147,8 @@ includes:
 - /usr/lib64/qt5/qml/org/kde/kirigami.2/templates/qmldir$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/kirigami-5.67.1-r1$
-- /usr/share/doc/kirigami-5.67.1-r1/README.md.bz2$
+- /usr/share/doc/kirigami-5.69.0$
+- /usr/share/doc/kirigami-5.69.0/README.md.bz2$
 - /usr/share/kdevappwizard$
 - /usr/share/kdevappwizard/templates$
 - /usr/share/kdevappwizard/templates/kirigami.tar.bz2$
@@ -250,3 +252,6 @@ includes:
 - /usr/share/locale/zh_TW$
 - /usr/share/locale/zh_TW/LC_MESSAGES$
 - /usr/share/locale/zh_TW/LC_MESSAGES/libkirigami2plugin_qt.qm$
+env:
+- ORIGINAL_ATOM=kde-frameworks/kirigami
+- ORIGINAL_PACKAGE=kde-frameworks/kirigami-5.69.0
