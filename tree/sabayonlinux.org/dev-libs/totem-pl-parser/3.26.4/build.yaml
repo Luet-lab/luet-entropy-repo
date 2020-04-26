@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/totem-pl-parser-3.26.3 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -23,10 +24,10 @@ includes:
 - /usr/lib64/girepository-1.0/TotemPlParser-1.0.typelib$
 - /usr/lib64/libtotem-plparser-mini.so$
 - /usr/lib64/libtotem-plparser-mini.so.18$
-- /usr/lib64/libtotem-plparser-mini.so.18.1.4$
+- /usr/lib64/libtotem-plparser-mini.so.18.2.4$
 - /usr/lib64/libtotem-plparser.so$
 - /usr/lib64/libtotem-plparser.so.18$
-- /usr/lib64/libtotem-plparser.so.18.1.4$
+- /usr/lib64/libtotem-plparser.so.18.2.4$
 - /usr/lib64/pkgconfig$
 - /usr/lib64/pkgconfig/totem-plparser-mini.pc$
 - /usr/lib64/pkgconfig/totem-plparser.pc$
@@ -35,10 +36,10 @@ includes:
 - /usr/libexec/totem-pl-parser/99-totem-pl-parser-videosite$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/totem-pl-parser-3.26.3$
-- /usr/share/doc/totem-pl-parser-3.26.3/AUTHORS$
-- /usr/share/doc/totem-pl-parser-3.26.3/NEWS.bz2$
-- /usr/share/doc/totem-pl-parser-3.26.3/README.bz2$
+- /usr/share/doc/totem-pl-parser-3.26.4$
+- /usr/share/doc/totem-pl-parser-3.26.4/AUTHORS$
+- /usr/share/doc/totem-pl-parser-3.26.4/NEWS.bz2$
+- /usr/share/doc/totem-pl-parser-3.26.4/README.bz2$
 - /usr/share/gir-1.0$
 - /usr/share/gir-1.0/TotemPlParser-1.0.gir$
 - /usr/share/locale$
@@ -207,6 +208,9 @@ includes:
 - /usr/share/locale/mg$
 - /usr/share/locale/mg/LC_MESSAGES$
 - /usr/share/locale/mg/LC_MESSAGES/totem-pl-parser.mo$
+- /usr/share/locale/mjw$
+- /usr/share/locale/mjw/LC_MESSAGES$
+- /usr/share/locale/mjw/LC_MESSAGES/totem-pl-parser.mo$
 - /usr/share/locale/mk$
 - /usr/share/locale/mk/LC_MESSAGES$
 - /usr/share/locale/mk/LC_MESSAGES/totem-pl-parser.mo$
@@ -330,3 +334,6 @@ includes:
 - /usr/share/locale/zh_TW$
 - /usr/share/locale/zh_TW/LC_MESSAGES$
 - /usr/share/locale/zh_TW/LC_MESSAGES/totem-pl-parser.mo$
+env:
+- ORIGINAL_ATOM=dev-libs/totem-pl-parser
+- ORIGINAL_PACKAGE=dev-libs/totem-pl-parser-3.26.4
