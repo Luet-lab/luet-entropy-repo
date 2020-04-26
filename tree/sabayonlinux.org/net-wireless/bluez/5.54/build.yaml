@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i net-wireless/bluez-5.52-r1 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -39,6 +40,7 @@ includes:
 - /usr/bin/hex2hcd$
 - /usr/bin/l2ping$
 - /usr/bin/l2test$
+- /usr/bin/mesh-cfgclient$
 - /usr/bin/meshctl$
 - /usr/bin/mpris-proxy$
 - /usr/bin/rctest$
@@ -58,7 +60,7 @@ includes:
 - /usr/lib$
 - /usr/lib/libbluetooth.so$
 - /usr/lib/libbluetooth.so.3$
-- /usr/lib/libbluetooth.so.3.19.0$
+- /usr/lib/libbluetooth.so.3.19.2$
 - /usr/lib/pkgconfig$
 - /usr/lib/pkgconfig/bluez.pc$
 - /usr/lib/systemd$
@@ -71,7 +73,7 @@ includes:
 - /usr/lib64/bluetooth/plugins/sixaxis.so$
 - /usr/lib64/libbluetooth.so$
 - /usr/lib64/libbluetooth.so.3$
-- /usr/lib64/libbluetooth.so.3.19.0$
+- /usr/lib64/libbluetooth.so.3.19.2$
 - /usr/lib64/pkgconfig$
 - /usr/lib64/pkgconfig/bluez.pc$
 - /usr/libexec$
@@ -91,14 +93,14 @@ includes:
 - /usr/share/dbus-1/system-services/org.bluez.mesh.service$
 - /usr/share/dbus-1/system-services/org.bluez.service$
 - /usr/share/doc$
-- /usr/share/doc/bluez-5.52-r1$
-- /usr/share/doc/bluez-5.52-r1/AUTHORS.bz2$
-- /usr/share/doc/bluez-5.52-r1/ChangeLog.bz2$
-- /usr/share/doc/bluez-5.52-r1/README.bz2$
-- /usr/share/doc/bluez-5.52-r1/README.gentoo.bz2$
-- /usr/share/doc/bluez-5.52-r1/TODO.bz2$
-- /usr/share/doc/bluez-5.52-r1/local_node.json.bz2$
-- /usr/share/doc/bluez-5.52-r1/prov_db.json.bz2$
+- /usr/share/doc/bluez-5.54$
+- /usr/share/doc/bluez-5.54/AUTHORS.bz2$
+- /usr/share/doc/bluez-5.54/ChangeLog.bz2$
+- /usr/share/doc/bluez-5.54/README.bz2$
+- /usr/share/doc/bluez-5.54/README.gentoo.bz2$
+- /usr/share/doc/bluez-5.54/TODO.bz2$
+- /usr/share/doc/bluez-5.54/local_node.json.bz2$
+- /usr/share/doc/bluez-5.54/prov_db.json.bz2$
 - /usr/share/man$
 - /usr/share/man/man1$
 - /usr/share/man/man1/bccmd.1.bz2$
@@ -115,3 +117,6 @@ includes:
 - /var/lib$
 - /var/lib/bluetooth$
 - /var/lib/bluetooth/.keep_net-wireless_bluez-0$
+env:
+- ORIGINAL_ATOM=net-wireless/bluez
+- ORIGINAL_PACKAGE=net-wireless/bluez-5.54
