@@ -28,11 +28,9 @@ use_flags:
 - elibc_glibc
 - split-usr
 - kernel_linux
-version: 1.47.11+3
-
+version: "1.47.13"
 Labels:
   original.package.name: "help2man"
   original.package.category: "sys-apps"
   original.package.version: "1.47.11"
   original.package.slot: "0"
-

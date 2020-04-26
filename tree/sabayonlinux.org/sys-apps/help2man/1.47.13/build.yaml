@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i sys-apps/help2man-1.47.11 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -16,11 +17,11 @@ includes:
 - /usr/lib64/help2man/bindtextdomain.so$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/help2man-1.47.11$
-- /usr/share/doc/help2man-1.47.11/NEWS.bz2$
-- /usr/share/doc/help2man-1.47.11/README.bz2$
-- /usr/share/doc/help2man-1.47.11/THANKS.bz2$
-- /usr/share/doc/help2man-1.47.11/changelog.bz2$
+- /usr/share/doc/help2man-1.47.13$
+- /usr/share/doc/help2man-1.47.13/NEWS.bz2$
+- /usr/share/doc/help2man-1.47.13/README.bz2$
+- /usr/share/doc/help2man-1.47.13/THANKS.bz2$
+- /usr/share/doc/help2man-1.47.13/changelog.bz2$
 - /usr/share/info$
 - /usr/share/info/help2man-de.info.bz2$
 - /usr/share/info/help2man-es.info.bz2$
@@ -161,3 +162,6 @@ includes:
 - /usr/share/man/zh_CN$
 - /usr/share/man/zh_CN/man1$
 - /usr/share/man/zh_CN/man1/help2man.1.bz2$
+env:
+- ORIGINAL_ATOM=sys-apps/help2man
+- ORIGINAL_PACKAGE=sys-apps/help2man-1.47.13
