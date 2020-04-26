@@ -1,17 +1,20 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/pyyaml-5.3 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
   version: "9999"
 includes:
 - /usr$
+- /usr/lib$
 - /usr/lib64$
 - /usr/lib64/python2.7$
 - /usr/lib64/python2.7/site-packages$
-- /usr/lib64/python2.7/site-packages/PyYAML-5.3-py2.7.egg-info$
+- /usr/lib64/python2.7/site-packages/PyYAML-5.3.1-py2.7.egg-info$
+- /usr/lib64/python2.7/site-packages/_yaml.so$
 - /usr/lib64/python2.7/site-packages/yaml$
 - /usr/lib64/python2.7/site-packages/yaml/__init__.py$
 - /usr/lib64/python2.7/site-packages/yaml/__init__.pyc$
@@ -66,7 +69,8 @@ includes:
 - /usr/lib64/python2.7/site-packages/yaml/tokens.pyo$
 - /usr/lib64/python3.6$
 - /usr/lib64/python3.6/site-packages$
-- /usr/lib64/python3.6/site-packages/PyYAML-5.3-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/PyYAML-5.3.1-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/_yaml.cpython-36m-x86_64-linux-gnu.so$
 - /usr/lib64/python3.6/site-packages/yaml$
 - /usr/lib64/python3.6/site-packages/yaml/__init__.py$
 - /usr/lib64/python3.6/site-packages/yaml/__pycache__$
@@ -139,6 +143,9 @@ includes:
 - /usr/lib64/python3.6/site-packages/yaml/tokens.py$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/pyyaml-5.3$
-- /usr/share/doc/pyyaml-5.3/CHANGES.bz2$
-- /usr/share/doc/pyyaml-5.3/README.bz2$
+- /usr/share/doc/pyyaml-5.3.1$
+- /usr/share/doc/pyyaml-5.3.1/CHANGES.bz2$
+- /usr/share/doc/pyyaml-5.3.1/README.bz2$
+env:
+- ORIGINAL_ATOM=dev-python/pyyaml
+- ORIGINAL_PACKAGE=dev-python/pyyaml-5.3.1
