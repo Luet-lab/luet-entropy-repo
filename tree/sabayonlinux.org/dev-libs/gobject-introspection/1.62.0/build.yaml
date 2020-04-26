@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/gobject-introspection-1.60.2-r1 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -49,6 +50,7 @@ includes:
 - /usr/lib64/girepository-1.0/GModule-2.0.typelib$
 - /usr/lib64/girepository-1.0/GObject-2.0.typelib$
 - /usr/lib64/girepository-1.0/Gio-2.0.typelib$
+- /usr/lib64/girepository-1.0/Vulkan-1.0.typelib$
 - /usr/lib64/girepository-1.0/cairo-1.0.typelib$
 - /usr/lib64/girepository-1.0/fontconfig-2.0.typelib$
 - /usr/lib64/girepository-1.0/freetype2-2.0.typelib$
@@ -63,65 +65,93 @@ includes:
 - /usr/lib64/gobject-introspection/giscanner/__init__.py$
 - /usr/lib64/gobject-introspection/giscanner/__pycache__$
 - /usr/lib64/gobject-introspection/giscanner/__pycache__/__init__.cpython-36.opt-1.pyc$
+- /usr/lib64/gobject-introspection/giscanner/__pycache__/__init__.cpython-36.opt-2.pyc$
 - /usr/lib64/gobject-introspection/giscanner/__pycache__/__init__.cpython-36.pyc$
 - /usr/lib64/gobject-introspection/giscanner/__pycache__/_version.cpython-36.opt-1.pyc$
+- /usr/lib64/gobject-introspection/giscanner/__pycache__/_version.cpython-36.opt-2.pyc$
 - /usr/lib64/gobject-introspection/giscanner/__pycache__/_version.cpython-36.pyc$
 - /usr/lib64/gobject-introspection/giscanner/__pycache__/annotationmain.cpython-36.opt-1.pyc$
+- /usr/lib64/gobject-introspection/giscanner/__pycache__/annotationmain.cpython-36.opt-2.pyc$
 - /usr/lib64/gobject-introspection/giscanner/__pycache__/annotationmain.cpython-36.pyc$
 - /usr/lib64/gobject-introspection/giscanner/__pycache__/annotationparser.cpython-36.opt-1.pyc$
+- /usr/lib64/gobject-introspection/giscanner/__pycache__/annotationparser.cpython-36.opt-2.pyc$
 - /usr/lib64/gobject-introspection/giscanner/__pycache__/annotationparser.cpython-36.pyc$
 - /usr/lib64/gobject-introspection/giscanner/__pycache__/ast.cpython-36.opt-1.pyc$
+- /usr/lib64/gobject-introspection/giscanner/__pycache__/ast.cpython-36.opt-2.pyc$
 - /usr/lib64/gobject-introspection/giscanner/__pycache__/ast.cpython-36.pyc$
 - /usr/lib64/gobject-introspection/giscanner/__pycache__/cachestore.cpython-36.opt-1.pyc$
+- /usr/lib64/gobject-introspection/giscanner/__pycache__/cachestore.cpython-36.opt-2.pyc$
 - /usr/lib64/gobject-introspection/giscanner/__pycache__/cachestore.cpython-36.pyc$
 - /usr/lib64/gobject-introspection/giscanner/__pycache__/ccompiler.cpython-36.opt-1.pyc$
+- /usr/lib64/gobject-introspection/giscanner/__pycache__/ccompiler.cpython-36.opt-2.pyc$
 - /usr/lib64/gobject-introspection/giscanner/__pycache__/ccompiler.cpython-36.pyc$
 - /usr/lib64/gobject-introspection/giscanner/__pycache__/codegen.cpython-36.opt-1.pyc$
+- /usr/lib64/gobject-introspection/giscanner/__pycache__/codegen.cpython-36.opt-2.pyc$
 - /usr/lib64/gobject-introspection/giscanner/__pycache__/codegen.cpython-36.pyc$
 - /usr/lib64/gobject-introspection/giscanner/__pycache__/docmain.cpython-36.opt-1.pyc$
+- /usr/lib64/gobject-introspection/giscanner/__pycache__/docmain.cpython-36.opt-2.pyc$
 - /usr/lib64/gobject-introspection/giscanner/__pycache__/docmain.cpython-36.pyc$
 - /usr/lib64/gobject-introspection/giscanner/__pycache__/docwriter.cpython-36.opt-1.pyc$
+- /usr/lib64/gobject-introspection/giscanner/__pycache__/docwriter.cpython-36.opt-2.pyc$
 - /usr/lib64/gobject-introspection/giscanner/__pycache__/docwriter.cpython-36.pyc$
 - /usr/lib64/gobject-introspection/giscanner/__pycache__/dumper.cpython-36.opt-1.pyc$
+- /usr/lib64/gobject-introspection/giscanner/__pycache__/dumper.cpython-36.opt-2.pyc$
 - /usr/lib64/gobject-introspection/giscanner/__pycache__/dumper.cpython-36.pyc$
 - /usr/lib64/gobject-introspection/giscanner/__pycache__/gdumpparser.cpython-36.opt-1.pyc$
+- /usr/lib64/gobject-introspection/giscanner/__pycache__/gdumpparser.cpython-36.opt-2.pyc$
 - /usr/lib64/gobject-introspection/giscanner/__pycache__/gdumpparser.cpython-36.pyc$
 - /usr/lib64/gobject-introspection/giscanner/__pycache__/girparser.cpython-36.opt-1.pyc$
+- /usr/lib64/gobject-introspection/giscanner/__pycache__/girparser.cpython-36.opt-2.pyc$
 - /usr/lib64/gobject-introspection/giscanner/__pycache__/girparser.cpython-36.pyc$
 - /usr/lib64/gobject-introspection/giscanner/__pycache__/girwriter.cpython-36.opt-1.pyc$
+- /usr/lib64/gobject-introspection/giscanner/__pycache__/girwriter.cpython-36.opt-2.pyc$
 - /usr/lib64/gobject-introspection/giscanner/__pycache__/girwriter.cpython-36.pyc$
 - /usr/lib64/gobject-introspection/giscanner/__pycache__/introspectablepass.cpython-36.opt-1.pyc$
+- /usr/lib64/gobject-introspection/giscanner/__pycache__/introspectablepass.cpython-36.opt-2.pyc$
 - /usr/lib64/gobject-introspection/giscanner/__pycache__/introspectablepass.cpython-36.pyc$
 - /usr/lib64/gobject-introspection/giscanner/__pycache__/libtoolimporter.cpython-36.opt-1.pyc$
+- /usr/lib64/gobject-introspection/giscanner/__pycache__/libtoolimporter.cpython-36.opt-2.pyc$
 - /usr/lib64/gobject-introspection/giscanner/__pycache__/libtoolimporter.cpython-36.pyc$
 - /usr/lib64/gobject-introspection/giscanner/__pycache__/maintransformer.cpython-36.opt-1.pyc$
+- /usr/lib64/gobject-introspection/giscanner/__pycache__/maintransformer.cpython-36.opt-2.pyc$
 - /usr/lib64/gobject-introspection/giscanner/__pycache__/maintransformer.cpython-36.pyc$
 - /usr/lib64/gobject-introspection/giscanner/__pycache__/mdextensions.cpython-36.opt-1.pyc$
+- /usr/lib64/gobject-introspection/giscanner/__pycache__/mdextensions.cpython-36.opt-2.pyc$
 - /usr/lib64/gobject-introspection/giscanner/__pycache__/mdextensions.cpython-36.pyc$
 - /usr/lib64/gobject-introspection/giscanner/__pycache__/message.cpython-36.opt-1.pyc$
+- /usr/lib64/gobject-introspection/giscanner/__pycache__/message.cpython-36.opt-2.pyc$
 - /usr/lib64/gobject-introspection/giscanner/__pycache__/message.cpython-36.pyc$
 - /usr/lib64/gobject-introspection/giscanner/__pycache__/msvccompiler.cpython-36.opt-1.pyc$
+- /usr/lib64/gobject-introspection/giscanner/__pycache__/msvccompiler.cpython-36.opt-2.pyc$
 - /usr/lib64/gobject-introspection/giscanner/__pycache__/msvccompiler.cpython-36.pyc$
 - /usr/lib64/gobject-introspection/giscanner/__pycache__/pkgconfig.cpython-36.opt-1.pyc$
+- /usr/lib64/gobject-introspection/giscanner/__pycache__/pkgconfig.cpython-36.opt-2.pyc$
 - /usr/lib64/gobject-introspection/giscanner/__pycache__/pkgconfig.cpython-36.pyc$
 - /usr/lib64/gobject-introspection/giscanner/__pycache__/scannermain.cpython-36.opt-1.pyc$
+- /usr/lib64/gobject-introspection/giscanner/__pycache__/scannermain.cpython-36.opt-2.pyc$
 - /usr/lib64/gobject-introspection/giscanner/__pycache__/scannermain.cpython-36.pyc$
 - /usr/lib64/gobject-introspection/giscanner/__pycache__/sectionparser.cpython-36.opt-1.pyc$
+- /usr/lib64/gobject-introspection/giscanner/__pycache__/sectionparser.cpython-36.opt-2.pyc$
 - /usr/lib64/gobject-introspection/giscanner/__pycache__/sectionparser.cpython-36.pyc$
 - /usr/lib64/gobject-introspection/giscanner/__pycache__/shlibs.cpython-36.opt-1.pyc$
+- /usr/lib64/gobject-introspection/giscanner/__pycache__/shlibs.cpython-36.opt-2.pyc$
 - /usr/lib64/gobject-introspection/giscanner/__pycache__/shlibs.cpython-36.pyc$
 - /usr/lib64/gobject-introspection/giscanner/__pycache__/sourcescanner.cpython-36.opt-1.pyc$
+- /usr/lib64/gobject-introspection/giscanner/__pycache__/sourcescanner.cpython-36.opt-2.pyc$
 - /usr/lib64/gobject-introspection/giscanner/__pycache__/sourcescanner.cpython-36.pyc$
 - /usr/lib64/gobject-introspection/giscanner/__pycache__/testcodegen.cpython-36.opt-1.pyc$
+- /usr/lib64/gobject-introspection/giscanner/__pycache__/testcodegen.cpython-36.opt-2.pyc$
 - /usr/lib64/gobject-introspection/giscanner/__pycache__/testcodegen.cpython-36.pyc$
 - /usr/lib64/gobject-introspection/giscanner/__pycache__/transformer.cpython-36.opt-1.pyc$
+- /usr/lib64/gobject-introspection/giscanner/__pycache__/transformer.cpython-36.opt-2.pyc$
 - /usr/lib64/gobject-introspection/giscanner/__pycache__/transformer.cpython-36.pyc$
 - /usr/lib64/gobject-introspection/giscanner/__pycache__/utils.cpython-36.opt-1.pyc$
+- /usr/lib64/gobject-introspection/giscanner/__pycache__/utils.cpython-36.opt-2.pyc$
 - /usr/lib64/gobject-introspection/giscanner/__pycache__/utils.cpython-36.pyc$
 - /usr/lib64/gobject-introspection/giscanner/__pycache__/xmlwriter.cpython-36.opt-1.pyc$
+- /usr/lib64/gobject-introspection/giscanner/__pycache__/xmlwriter.cpython-36.opt-2.pyc$
 - /usr/lib64/gobject-introspection/giscanner/__pycache__/xmlwriter.cpython-36.pyc$
-- /usr/lib64/gobject-introspection/giscanner/_giscanner.la$
-- /usr/lib64/gobject-introspection/giscanner/_giscanner.so$
+- /usr/lib64/gobject-introspection/giscanner/_giscanner.cpython-36m-x86_64-linux-gnu.so$
 - /usr/lib64/gobject-introspection/giscanner/_version.py$
 - /usr/lib64/gobject-introspection/giscanner/annotationmain.py$
 - /usr/lib64/gobject-introspection/giscanner/annotationparser.py$
@@ -227,10 +257,10 @@ includes:
 - /usr/lib64/pkgconfig/gobject-introspection-no-export-1.0.pc$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/gobject-introspection-1.60.2-r1$
-- /usr/share/doc/gobject-introspection-1.60.2-r1/NEWS.bz2$
-- /usr/share/doc/gobject-introspection-1.60.2-r1/README.rst.bz2$
-- /usr/share/doc/gobject-introspection-1.60.2-r1/TODO.bz2$
+- /usr/share/doc/gobject-introspection-1.62.0$
+- /usr/share/doc/gobject-introspection-1.62.0/NEWS.bz2$
+- /usr/share/doc/gobject-introspection-1.62.0/README.rst.bz2$
+- /usr/share/doc/gobject-introspection-1.62.0/TODO.bz2$
 - /usr/share/gir-1.0$
 - /usr/share/gir-1.0/DBus-1.0.gir$
 - /usr/share/gir-1.0/DBusGLib-1.0.gir$
@@ -240,6 +270,7 @@ includes:
 - /usr/share/gir-1.0/GModule-2.0.gir$
 - /usr/share/gir-1.0/GObject-2.0.gir$
 - /usr/share/gir-1.0/Gio-2.0.gir$
+- /usr/share/gir-1.0/Vulkan-1.0.gir$
 - /usr/share/gir-1.0/cairo-1.0.gir$
 - /usr/share/gir-1.0/fontconfig-2.0.gir$
 - /usr/share/gir-1.0/freetype2-2.0.gir$
@@ -275,3 +306,6 @@ includes:
 - /usr/share/man/man1/g-ir-compiler.1.bz2$
 - /usr/share/man/man1/g-ir-generate.1.bz2$
 - /usr/share/man/man1/g-ir-scanner.1.bz2$
+env:
+- ORIGINAL_ATOM=dev-libs/gobject-introspection
+- ORIGINAL_PACKAGE=dev-libs/gobject-introspection-1.62.0
