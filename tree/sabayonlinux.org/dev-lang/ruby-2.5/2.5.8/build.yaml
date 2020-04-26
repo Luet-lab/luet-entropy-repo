@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-lang/ruby-2.5.7 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -49,7 +50,7 @@ includes:
 - /usr/lib64$
 - /usr/lib64/libruby25.so$
 - /usr/lib64/libruby25.so.2.5$
-- /usr/lib64/libruby25.so.2.5.7$
+- /usr/lib64/libruby25.so.2.5.8$
 - /usr/lib64/pkgconfig$
 - /usr/lib64/pkgconfig/ruby-2.5.pc$
 - /usr/lib64/ruby$
@@ -604,25 +605,28 @@ includes:
 - /usr/lib64/ruby/vendor_ruby/2.5.0/x86_64-linux$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/ruby-2.5.7$
-- /usr/share/doc/ruby-2.5.7/ChangeLog.bz2$
-- /usr/share/doc/ruby-2.5.7/NEWS-1.8.7.bz2$
-- /usr/share/doc/ruby-2.5.7/NEWS-1.9.1.bz2$
-- /usr/share/doc/ruby-2.5.7/NEWS-1.9.2.bz2$
-- /usr/share/doc/ruby-2.5.7/NEWS-1.9.3.bz2$
-- /usr/share/doc/ruby-2.5.7/NEWS-2.0.0.bz2$
-- /usr/share/doc/ruby-2.5.7/NEWS-2.1.0.bz2$
-- /usr/share/doc/ruby-2.5.7/NEWS-2.2.0.bz2$
-- /usr/share/doc/ruby-2.5.7/NEWS-2.3.0.bz2$
-- /usr/share/doc/ruby-2.5.7/NEWS-2.4.0.bz2$
-- /usr/share/doc/ruby-2.5.7/NEWS.bz2$
-- /usr/share/doc/ruby-2.5.7/README.EXT$
-- /usr/share/doc/ruby-2.5.7/README.EXT.ja$
-- /usr/share/doc/ruby-2.5.7/README.ja.md.bz2$
-- /usr/share/doc/ruby-2.5.7/README.md.bz2$
+- /usr/share/doc/ruby-2.5.8$
+- /usr/share/doc/ruby-2.5.8/ChangeLog.bz2$
+- /usr/share/doc/ruby-2.5.8/NEWS-1.8.7.bz2$
+- /usr/share/doc/ruby-2.5.8/NEWS-1.9.1.bz2$
+- /usr/share/doc/ruby-2.5.8/NEWS-1.9.2.bz2$
+- /usr/share/doc/ruby-2.5.8/NEWS-1.9.3.bz2$
+- /usr/share/doc/ruby-2.5.8/NEWS-2.0.0.bz2$
+- /usr/share/doc/ruby-2.5.8/NEWS-2.1.0.bz2$
+- /usr/share/doc/ruby-2.5.8/NEWS-2.2.0.bz2$
+- /usr/share/doc/ruby-2.5.8/NEWS-2.3.0.bz2$
+- /usr/share/doc/ruby-2.5.8/NEWS-2.4.0.bz2$
+- /usr/share/doc/ruby-2.5.8/NEWS.bz2$
+- /usr/share/doc/ruby-2.5.8/README.EXT$
+- /usr/share/doc/ruby-2.5.8/README.EXT.ja$
+- /usr/share/doc/ruby-2.5.8/README.ja.md.bz2$
+- /usr/share/doc/ruby-2.5.8/README.md.bz2$
 - /usr/share/man$
 - /usr/share/man/man1$
 - /usr/share/man/man1/erb25.1.bz2$
 - /usr/share/man/man1/irb25.1.bz2$
 - /usr/share/man/man1/ri25.1.bz2$
 - /usr/share/man/man1/ruby25.1.bz2$
+env:
+- ORIGINAL_ATOM=dev-lang/ruby
+- ORIGINAL_PACKAGE=dev-lang/ruby-2.5.8
