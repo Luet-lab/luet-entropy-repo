@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i media-sound/alsa-utils-1.1.9 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -63,12 +64,12 @@ includes:
 - /usr/share/alsa/ucm$
 - /usr/share/alsa/ucm/.keep_media-sound_alsa-utils-0.9$
 - /usr/share/doc$
-- /usr/share/doc/alsa-utils-1.1.9$
-- /usr/share/doc/alsa-utils-1.1.9/ChangeLog.bz2$
-- /usr/share/doc/alsa-utils-1.1.9/README.aconnect.bz2$
-- /usr/share/doc/alsa-utils-1.1.9/README.aseqnet.bz2$
-- /usr/share/doc/alsa-utils-1.1.9/README.md.bz2$
-- /usr/share/doc/alsa-utils-1.1.9/TODO.bz2$
+- /usr/share/doc/alsa-utils-1.2.1$
+- /usr/share/doc/alsa-utils-1.2.1/ChangeLog.bz2$
+- /usr/share/doc/alsa-utils-1.2.1/README.aconnect.bz2$
+- /usr/share/doc/alsa-utils-1.2.1/README.aseqnet.bz2$
+- /usr/share/doc/alsa-utils-1.2.1/README.md.bz2$
+- /usr/share/doc/alsa-utils-1.2.1/TODO.bz2$
 - /usr/share/locale$
 - /usr/share/locale/de$
 - /usr/share/locale/de/LC_MESSAGES$
@@ -115,3 +116,6 @@ includes:
 - /var/lib$
 - /var/lib/alsa$
 - /var/lib/alsa/.keep_media-sound_alsa-utils-0.9$
+env:
+- ORIGINAL_ATOM=media-sound/alsa-utils
+- ORIGINAL_PACKAGE=media-sound/alsa-utils-1.2.1
