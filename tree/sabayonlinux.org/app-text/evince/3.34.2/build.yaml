@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i app-text/evince-3.32.1 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -112,12 +113,12 @@ includes:
 - /usr/share/dbus-1/services$
 - /usr/share/dbus-1/services/org.gnome.evince.Daemon.service$
 - /usr/share/doc$
-- /usr/share/doc/evince-3.32.1$
-- /usr/share/doc/evince-3.32.1/AUTHORS.bz2$
-- /usr/share/doc/evince-3.32.1/MAINTAINERS.bz2$
-- /usr/share/doc/evince-3.32.1/NEWS.bz2$
-- /usr/share/doc/evince-3.32.1/README.md.bz2$
-- /usr/share/doc/evince-3.32.1/TODO$
+- /usr/share/doc/evince-3.34.2$
+- /usr/share/doc/evince-3.34.2/AUTHORS.bz2$
+- /usr/share/doc/evince-3.34.2/MAINTAINERS.bz2$
+- /usr/share/doc/evince-3.34.2/NEWS.bz2$
+- /usr/share/doc/evince-3.34.2/README.md.bz2$
+- /usr/share/doc/evince-3.34.2/TODO$
 - /usr/share/evince$
 - /usr/share/evince/hand-open.png$
 - /usr/share/evince/icons$
@@ -2982,3 +2983,6 @@ includes:
 - /usr/share/metainfo/org.gnome.Evince.appdata.xml$
 - /usr/share/thumbnailers$
 - /usr/share/thumbnailers/evince.thumbnailer$
+env:
+- ORIGINAL_ATOM=app-text/evince
+- ORIGINAL_PACKAGE=app-text/evince-3.34.2
