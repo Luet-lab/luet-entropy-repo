@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/libinput-1.14.3 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -10,7 +11,8 @@ includes:
 - /lib$
 - /lib/udev$
 - /lib/udev/libinput-device-group$
-- /lib/udev/libinput-fuzz-override$
+- /lib/udev/libinput-fuzz-extract$
+- /lib/udev/libinput-fuzz-to-zero$
 - /lib/udev/rules.d$
 - /lib/udev/rules.d/80-libinput-device-groups.rules$
 - /lib/udev/rules.d/90-libinput-fuzz-override.rules$
@@ -29,6 +31,7 @@ includes:
 - /usr/libexec$
 - /usr/libexec/libinput$
 - /usr/libexec/libinput/libinput-debug-events$
+- /usr/libexec/libinput/libinput-debug-tablet$
 - /usr/libexec/libinput/libinput-list-devices$
 - /usr/libexec/libinput/libinput-measure$
 - /usr/libexec/libinput/libinput-measure-fuzz$
@@ -40,8 +43,8 @@ includes:
 - /usr/libexec/libinput/libinput-replay$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/libinput-1.14.3$
-- /usr/share/doc/libinput-1.14.3/README.md.bz2$
+- /usr/share/doc/libinput-1.15.2$
+- /usr/share/doc/libinput-1.15.2/README.md.bz2$
 - /usr/share/libinput$
 - /usr/share/libinput/10-generic-keyboard.quirks$
 - /usr/share/libinput/10-generic-lid.quirks$
@@ -54,6 +57,7 @@ includes:
 - /usr/share/libinput/30-vendor-ibm.quirks$
 - /usr/share/libinput/30-vendor-kensington.quirks$
 - /usr/share/libinput/30-vendor-logitech.quirks$
+- /usr/share/libinput/30-vendor-madcatz.quirks$
 - /usr/share/libinput/30-vendor-microsoft.quirks$
 - /usr/share/libinput/30-vendor-razer.quirks$
 - /usr/share/libinput/30-vendor-synaptics.quirks$
@@ -73,6 +77,7 @@ includes:
 - /usr/share/man$
 - /usr/share/man/man1$
 - /usr/share/man/man1/libinput-debug-events.1.bz2$
+- /usr/share/man/man1/libinput-debug-tablet.1.bz2$
 - /usr/share/man/man1/libinput-list-devices.1.bz2$
 - /usr/share/man/man1/libinput-measure-fuzz.1.bz2$
 - /usr/share/man/man1/libinput-measure-touch-size.1.bz2$
@@ -88,3 +93,6 @@ includes:
 - /usr/share/zsh$
 - /usr/share/zsh/site-functions$
 - /usr/share/zsh/site-functions/_libinput$
+env:
+- ORIGINAL_ATOM=dev-libs/libinput
+- ORIGINAL_PACKAGE=dev-libs/libinput-1.15.2
