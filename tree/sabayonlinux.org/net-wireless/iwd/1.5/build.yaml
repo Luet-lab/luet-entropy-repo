@@ -1,0 +1,58 @@
+unpack: true
+steps:
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /etc$
+- /etc/init.d$
+- /etc/init.d/iwd$
+- /lib$
+- /lib/systemd$
+- /lib/systemd/network$
+- /lib/systemd/network/80-iwd.link$
+- /lib/systemd/system$
+- /lib/systemd/system/iwd.service$
+- /usr$
+- /usr/bin$
+- /usr/bin/iwctl$
+- /usr/bin/iwmon$
+- /usr/lib$
+- /usr/lib/modules-load.d$
+- /usr/lib/modules-load.d/pkcs8.conf$
+- /usr/libexec$
+- /usr/libexec/iwd$
+- /usr/share$
+- /usr/share/dbus-1$
+- /usr/share/dbus-1/system-services$
+- /usr/share/dbus-1/system-services/net.connman.iwd.service$
+- /usr/share/dbus-1/system.d$
+- /usr/share/dbus-1/system.d/iwd-dbus.conf$
+- /usr/share/doc$
+- /usr/share/doc/iwd-1.5$
+- /usr/share/doc/iwd-1.5/AUTHORS.bz2$
+- /usr/share/doc/iwd-1.5/ChangeLog.bz2$
+- /usr/share/doc/iwd-1.5/README.bz2$
+- /usr/share/doc/iwd-1.5/TODO.bz2$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/iwctl.1.bz2$
+- /usr/share/man/man1/iwmon.1.bz2$
+- /usr/share/man/man5$
+- /usr/share/man/man5/iwd.config.5.bz2$
+- /usr/share/man/man5/iwd.network.5.bz2$
+- /usr/share/man/man7$
+- /usr/share/man/man7/iwd.debug.7.bz2$
+- /usr/share/man/man8$
+- /usr/share/man/man8/iwd.8.bz2$
+- /var$
+- /var/lib$
+- /var/lib/iwd$
+- /var/lib/iwd/.keep_net-wireless_iwd-0$
+env:
+- ORIGINAL_ATOM=net-wireless/iwd
+- ORIGINAL_PACKAGE=net-wireless/iwd-1.5
