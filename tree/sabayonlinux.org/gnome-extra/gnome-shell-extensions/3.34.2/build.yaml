@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i gnome-extra/gnome-shell-extensions-3.32.1 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -10,10 +11,10 @@ includes:
 - /usr$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/gnome-shell-extensions-3.32.1$
-- /usr/share/doc/gnome-shell-extensions-3.32.1/NEWS.bz2$
-- /usr/share/doc/gnome-shell-extensions-3.32.1/README.gentoo.bz2$
-- /usr/share/doc/gnome-shell-extensions-3.32.1/README.md.bz2$
+- /usr/share/doc/gnome-shell-extensions-3.34.2$
+- /usr/share/doc/gnome-shell-extensions-3.34.2/NEWS.bz2$
+- /usr/share/doc/gnome-shell-extensions-3.34.2/README.gentoo.bz2$
+- /usr/share/doc/gnome-shell-extensions-3.34.2/README.md.bz2$
 - /usr/share/glib-2.0$
 - /usr/share/glib-2.0/schemas$
 - /usr/share/glib-2.0/schemas/00_org.gnome.shell.extensions.classic.gschema.override$
@@ -40,6 +41,10 @@ includes:
 - /usr/share/gnome-shell/extensions/drive-menu@gnome-shell-extensions.gcampax.github.com/extension.js$
 - /usr/share/gnome-shell/extensions/drive-menu@gnome-shell-extensions.gcampax.github.com/metadata.json$
 - /usr/share/gnome-shell/extensions/drive-menu@gnome-shell-extensions.gcampax.github.com/stylesheet.css$
+- /usr/share/gnome-shell/extensions/horizontal-workspaces@gnome-shell-extensions.gcampax.github.com$
+- /usr/share/gnome-shell/extensions/horizontal-workspaces@gnome-shell-extensions.gcampax.github.com/extension.js$
+- /usr/share/gnome-shell/extensions/horizontal-workspaces@gnome-shell-extensions.gcampax.github.com/metadata.json$
+- /usr/share/gnome-shell/extensions/horizontal-workspaces@gnome-shell-extensions.gcampax.github.com/stylesheet.css$
 - /usr/share/gnome-shell/extensions/launch-new-instance@gnome-shell-extensions.gcampax.github.com$
 - /usr/share/gnome-shell/extensions/launch-new-instance@gnome-shell-extensions.gcampax.github.com/extension.js$
 - /usr/share/gnome-shell/extensions/launch-new-instance@gnome-shell-extensions.gcampax.github.com/metadata.json$
@@ -67,6 +72,8 @@ includes:
 - /usr/share/gnome-shell/extensions/window-list@gnome-shell-extensions.gcampax.github.com/metadata.json$
 - /usr/share/gnome-shell/extensions/window-list@gnome-shell-extensions.gcampax.github.com/prefs.js$
 - /usr/share/gnome-shell/extensions/window-list@gnome-shell-extensions.gcampax.github.com/stylesheet.css$
+- /usr/share/gnome-shell/extensions/window-list@gnome-shell-extensions.gcampax.github.com/windowPicker.js$
+- /usr/share/gnome-shell/extensions/window-list@gnome-shell-extensions.gcampax.github.com/workspaceIndicator.js$
 - /usr/share/gnome-shell/extensions/windowsNavigator@gnome-shell-extensions.gcampax.github.com$
 - /usr/share/gnome-shell/extensions/windowsNavigator@gnome-shell-extensions.gcampax.github.com/extension.js$
 - /usr/share/gnome-shell/extensions/windowsNavigator@gnome-shell-extensions.gcampax.github.com/metadata.json$
@@ -208,6 +215,9 @@ includes:
 - /usr/share/locale/lv$
 - /usr/share/locale/lv/LC_MESSAGES$
 - /usr/share/locale/lv/LC_MESSAGES/gnome-shell-extensions.mo$
+- /usr/share/locale/mjw$
+- /usr/share/locale/mjw/LC_MESSAGES$
+- /usr/share/locale/mjw/LC_MESSAGES/gnome-shell-extensions.mo$
 - /usr/share/locale/ml$
 - /usr/share/locale/ml/LC_MESSAGES$
 - /usr/share/locale/ml/LC_MESSAGES/gnome-shell-extensions.mo$
@@ -297,3 +307,6 @@ includes:
 - /usr/share/locale/zh_TW/LC_MESSAGES/gnome-shell-extensions.mo$
 - /usr/share/xsessions$
 - /usr/share/xsessions/gnome-classic.desktop$
+env:
+- ORIGINAL_ATOM=gnome-extra/gnome-shell-extensions
+- ORIGINAL_PACKAGE=gnome-extra/gnome-shell-extensions-3.34.2
