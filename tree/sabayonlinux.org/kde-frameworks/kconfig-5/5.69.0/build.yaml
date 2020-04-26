@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i kde-frameworks/kconfig-5.67.0 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -61,10 +62,10 @@ includes:
 - /usr/lib64/cmake/KF5Config/KF5ConfigTargets.cmake$
 - /usr/lib64/libKF5ConfigCore.so$
 - /usr/lib64/libKF5ConfigCore.so.5$
-- /usr/lib64/libKF5ConfigCore.so.5.67.0$
+- /usr/lib64/libKF5ConfigCore.so.5.69.0$
 - /usr/lib64/libKF5ConfigGui.so$
 - /usr/lib64/libKF5ConfigGui.so.5$
-- /usr/lib64/libKF5ConfigGui.so.5.67.0$
+- /usr/lib64/libKF5ConfigGui.so.5.69.0$
 - /usr/lib64/libexec$
 - /usr/lib64/libexec/kf5$
 - /usr/lib64/libexec/kf5/kconf_update$
@@ -76,10 +77,10 @@ includes:
 - /usr/lib64/qt5/mkspecs/modules/qt_KConfigGui.pri$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/kconfig-5.67.0$
-- /usr/share/doc/kconfig-5.67.0/DESIGN.bz2$
-- /usr/share/doc/kconfig-5.67.0/DESIGN.kconfig.bz2$
-- /usr/share/doc/kconfig-5.67.0/options.md.bz2$
+- /usr/share/doc/kconfig-5.69.0$
+- /usr/share/doc/kconfig-5.69.0/DESIGN.bz2$
+- /usr/share/doc/kconfig-5.69.0/DESIGN.kconfig.bz2$
+- /usr/share/doc/kconfig-5.69.0/options.md.bz2$
 - /usr/share/locale$
 - /usr/share/locale/af$
 - /usr/share/locale/af/LC_MESSAGES$
@@ -266,3 +267,6 @@ includes:
 - /usr/share/locale/zh_TW/LC_MESSAGES/kconfig5_qt.qm$
 - /usr/share/qlogging-categories5$
 - /usr/share/qlogging-categories5/kconfig.categories$
+env:
+- ORIGINAL_ATOM=kde-frameworks/kconfig
+- ORIGINAL_PACKAGE=kde-frameworks/kconfig-5.69.0
