@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i net-libs/nodejs-10.18.0 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -3327,10 +3328,10 @@ includes:
 - /usr/share/bash-completion/completions$
 - /usr/share/bash-completion/completions/npm$
 - /usr/share/doc$
-- /usr/share/doc/nodejs-10.18.0$
-- /usr/share/doc/nodejs-10.18.0/gdbinit.bz2$
-- /usr/share/doc/nodejs-10.18.0/lldb_commands.py.bz2$
-- /usr/share/doc/nodejs-10.18.0/lldbinit.bz2$
+- /usr/share/doc/nodejs-10.19.0$
+- /usr/share/doc/nodejs-10.19.0/gdbinit.bz2$
+- /usr/share/doc/nodejs-10.19.0/lldb_commands.py.bz2$
+- /usr/share/doc/nodejs-10.19.0/lldbinit.bz2$
 - /usr/share/man$
 - /usr/share/man/man1$
 - /usr/share/man/man1/node.1.bz2$
@@ -3416,3 +3417,6 @@ includes:
 - /usr/share/systemtap$
 - /usr/share/systemtap/tapset$
 - /usr/share/systemtap/tapset/node.stp$
+env:
+- ORIGINAL_ATOM=net-libs/nodejs
+- ORIGINAL_PACKAGE=net-libs/nodejs-10.19.0
