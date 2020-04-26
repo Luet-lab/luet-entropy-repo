@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i kde-plasma/plasma-integration-5.18.2 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -16,8 +17,8 @@ includes:
 - /usr/lib64/qt5/plugins/platformthemes/KDEPlasmaPlatformTheme.so$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/plasma-integration-5.18.2$
-- /usr/share/doc/plasma-integration-5.18.2/README.md.bz2$
+- /usr/share/doc/plasma-integration-5.18.4.1$
+- /usr/share/doc/plasma-integration-5.18.4.1/README.md.bz2$
 - /usr/share/kconf_update$
 - /usr/share/kconf_update/fonts_akregator.pl$
 - /usr/share/kconf_update/fonts_akregator.upd$
@@ -132,3 +133,6 @@ includes:
 - /usr/share/locale/zh_TW$
 - /usr/share/locale/zh_TW/LC_MESSAGES$
 - /usr/share/locale/zh_TW/LC_MESSAGES/plasmaintegration5.mo$
+env:
+- ORIGINAL_ATOM=kde-plasma/plasma-integration
+- ORIGINAL_PACKAGE=kde-plasma/plasma-integration-5.18.4.1
