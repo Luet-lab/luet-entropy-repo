@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i app-text/enchant-2.2.7 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -23,16 +24,16 @@ includes:
 - /usr/lib64/enchant-2/enchant_hunspell.so$
 - /usr/lib64/libenchant-2.so$
 - /usr/lib64/libenchant-2.so.2$
-- /usr/lib64/libenchant-2.so.2.2.7$
+- /usr/lib64/libenchant-2.so.2.2.8$
 - /usr/lib64/pkgconfig$
 - /usr/lib64/pkgconfig/enchant-2.pc$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/enchant-2.2.7$
-- /usr/share/doc/enchant-2.2.7/AUTHORS.bz2$
-- /usr/share/doc/enchant-2.2.7/ChangeLog.bz2$
-- /usr/share/doc/enchant-2.2.7/NEWS.bz2$
-- /usr/share/doc/enchant-2.2.7/README.bz2$
+- /usr/share/doc/enchant-2.2.8$
+- /usr/share/doc/enchant-2.2.8/AUTHORS.bz2$
+- /usr/share/doc/enchant-2.2.8/ChangeLog.bz2$
+- /usr/share/doc/enchant-2.2.8/NEWS.bz2$
+- /usr/share/doc/enchant-2.2.8/README.bz2$
 - /usr/share/enchant-2$
 - /usr/share/enchant-2/enchant$
 - /usr/share/enchant-2/enchant/enchant.ordering$
@@ -40,3 +41,6 @@ includes:
 - /usr/share/man/man1$
 - /usr/share/man/man1/enchant-2.1.bz2$
 - /usr/share/man/man1/enchant-lsmod-2.1.bz2$
+env:
+- ORIGINAL_ATOM=app-text/enchant
+- ORIGINAL_PACKAGE=app-text/enchant-2.2.8
