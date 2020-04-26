@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i kde-frameworks/kauth-5.67.0 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -39,10 +40,10 @@ includes:
 - /usr/lib64/cmake/KF5Auth/KF5AuthToolsTargets.cmake$
 - /usr/lib64/libKF5Auth.so$
 - /usr/lib64/libKF5Auth.so.5$
-- /usr/lib64/libKF5Auth.so.5.67.0$
+- /usr/lib64/libKF5Auth.so.5.69.0$
 - /usr/lib64/libKF5AuthCore.so$
 - /usr/lib64/libKF5AuthCore.so.5$
-- /usr/lib64/libKF5AuthCore.so.5.67.0$
+- /usr/lib64/libKF5AuthCore.so.5.69.0$
 - /usr/lib64/libexec$
 - /usr/lib64/libexec/kauth$
 - /usr/lib64/libexec/kauth/kauth-policy-gen$
@@ -62,8 +63,8 @@ includes:
 - /usr/share/dbus-1/system.d$
 - /usr/share/dbus-1/system.d/org.kde.kf5auth.conf$
 - /usr/share/doc$
-- /usr/share/doc/kauth-5.67.0$
-- /usr/share/doc/kauth-5.67.0/README.md.bz2$
+- /usr/share/doc/kauth-5.69.0$
+- /usr/share/doc/kauth-5.69.0/README.md.bz2$
 - /usr/share/kf5$
 - /usr/share/kf5/kauth$
 - /usr/share/kf5/kauth/dbus_policy.stub$
@@ -254,3 +255,6 @@ includes:
 - /usr/share/locale/zh_TW/LC_MESSAGES/kauth5_qt.qm$
 - /usr/share/qlogging-categories5$
 - /usr/share/qlogging-categories5/kauth.categories$
+env:
+- ORIGINAL_ATOM=kde-frameworks/kauth
+- ORIGINAL_PACKAGE=kde-frameworks/kauth-5.69.0
