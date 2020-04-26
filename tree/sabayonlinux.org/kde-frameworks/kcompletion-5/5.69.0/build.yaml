@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i kde-frameworks/kcompletion-5.67.0 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -41,15 +42,15 @@ includes:
 - /usr/lib64/cmake/KF5Completion/KF5CompletionTargets.cmake$
 - /usr/lib64/libKF5Completion.so$
 - /usr/lib64/libKF5Completion.so.5$
-- /usr/lib64/libKF5Completion.so.5.67.0$
+- /usr/lib64/libKF5Completion.so.5.69.0$
 - /usr/lib64/qt5$
 - /usr/lib64/qt5/mkspecs$
 - /usr/lib64/qt5/mkspecs/modules$
 - /usr/lib64/qt5/mkspecs/modules/qt_KCompletion.pri$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/kcompletion-5.67.0$
-- /usr/share/doc/kcompletion-5.67.0/README.md.bz2$
+- /usr/share/doc/kcompletion-5.69.0$
+- /usr/share/doc/kcompletion-5.69.0/README.md.bz2$
 - /usr/share/locale$
 - /usr/share/locale/af$
 - /usr/share/locale/af/LC_MESSAGES$
@@ -234,3 +235,6 @@ includes:
 - /usr/share/locale/zh_TW$
 - /usr/share/locale/zh_TW/LC_MESSAGES$
 - /usr/share/locale/zh_TW/LC_MESSAGES/kcompletion5_qt.qm$
+env:
+- ORIGINAL_ATOM=kde-frameworks/kcompletion
+- ORIGINAL_PACKAGE=kde-frameworks/kcompletion-5.69.0
