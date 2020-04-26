@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i gnome-extra/sushi-3.32.1 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -17,17 +18,17 @@ includes:
 - /usr/lib64/sushi/girepository-1.0/Sushi-1.0.typelib$
 - /usr/lib64/sushi/libsushi-1.0.so$
 - /usr/libexec$
-- /usr/libexec/sushi-start$
+- /usr/libexec/org.gnome.NautilusPreviewer$
 - /usr/share$
 - /usr/share/dbus-1$
 - /usr/share/dbus-1/services$
 - /usr/share/dbus-1/services/org.gnome.NautilusPreviewer.service$
 - /usr/share/doc$
-- /usr/share/doc/sushi-3.32.1$
-- /usr/share/doc/sushi-3.32.1/AUTHORS$
-- /usr/share/doc/sushi-3.32.1/NEWS.bz2$
-- /usr/share/doc/sushi-3.32.1/README.bz2$
-- /usr/share/doc/sushi-3.32.1/TODO.bz2$
+- /usr/share/doc/sushi-3.34.0$
+- /usr/share/doc/sushi-3.34.0/AUTHORS$
+- /usr/share/doc/sushi-3.34.0/NEWS.bz2$
+- /usr/share/doc/sushi-3.34.0/README.bz2$
+- /usr/share/doc/sushi-3.34.0/TODO.bz2$
 - /usr/share/locale$
 - /usr/share/locale/af$
 - /usr/share/locale/af/LC_MESSAGES$
@@ -149,12 +150,18 @@ includes:
 - /usr/share/locale/lv$
 - /usr/share/locale/lv/LC_MESSAGES$
 - /usr/share/locale/lv/LC_MESSAGES/sushi.mo$
+- /usr/share/locale/mjw$
+- /usr/share/locale/mjw/LC_MESSAGES$
+- /usr/share/locale/mjw/LC_MESSAGES/sushi.mo$
 - /usr/share/locale/ml$
 - /usr/share/locale/ml/LC_MESSAGES$
 - /usr/share/locale/ml/LC_MESSAGES/sushi.mo$
 - /usr/share/locale/mr$
 - /usr/share/locale/mr/LC_MESSAGES$
 - /usr/share/locale/mr/LC_MESSAGES/sushi.mo$
+- /usr/share/locale/ms$
+- /usr/share/locale/ms/LC_MESSAGES$
+- /usr/share/locale/ms/LC_MESSAGES/sushi.mo$
 - /usr/share/locale/nb$
 - /usr/share/locale/nb/LC_MESSAGES$
 - /usr/share/locale/nb/LC_MESSAGES/sushi.mo$
@@ -239,28 +246,16 @@ includes:
 - /usr/share/locale/zh_TW$
 - /usr/share/locale/zh_TW/LC_MESSAGES$
 - /usr/share/locale/zh_TW/LC_MESSAGES/sushi.mo$
+- /usr/share/metainfo$
+- /usr/share/metainfo/org.gnome.NautilusPreviewer.appdata.xml$
 - /usr/share/sushi$
 - /usr/share/sushi/gir-1.0$
 - /usr/share/sushi/gir-1.0/Sushi-1.0.gir$
-- /usr/share/sushi/js$
-- /usr/share/sushi/js/ui$
-- /usr/share/sushi/js/ui/application.js$
-- /usr/share/sushi/js/ui/fallbackRenderer.js$
-- /usr/share/sushi/js/ui/main.js$
-- /usr/share/sushi/js/ui/mainWindow.js$
-- /usr/share/sushi/js/ui/mimeHandler.js$
-- /usr/share/sushi/js/ui/spinnerBox.js$
-- /usr/share/sushi/js/ui/tweener.js$
-- /usr/share/sushi/js/ui/utils.js$
-- /usr/share/sushi/js/util$
-- /usr/share/sushi/js/util/constants.js$
-- /usr/share/sushi/js/util/path.js$
-- /usr/share/sushi/js/util/totemMimeTypes.js$
-- /usr/share/sushi/js/viewers$
-- /usr/share/sushi/js/viewers/audio.js$
-- /usr/share/sushi/js/viewers/evince.js$
-- /usr/share/sushi/js/viewers/font.js$
-- /usr/share/sushi/js/viewers/gst.js$
-- /usr/share/sushi/js/viewers/html.js$
-- /usr/share/sushi/js/viewers/image.js$
-- /usr/share/sushi/js/viewers/text.js$
+- /usr/share/sushi/gtksourceview-4$
+- /usr/share/sushi/gtksourceview-4/styles$
+- /usr/share/sushi/gtksourceview-4/styles/builder-dark.style-scheme.xml$
+- /usr/share/sushi/org.gnome.NautilusPreviewer.data.gresource$
+- /usr/share/sushi/org.gnome.NautilusPreviewer.src.gresource$
+env:
+- ORIGINAL_ATOM=gnome-extra/sushi
+- ORIGINAL_PACKAGE=gnome-extra/sushi-3.34.0
