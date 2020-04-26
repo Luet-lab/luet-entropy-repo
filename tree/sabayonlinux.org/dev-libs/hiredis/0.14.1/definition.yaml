@@ -14,11 +14,9 @@ use_flags:
 - amd64
 - -static-libs
 - elibc_glibc
-version: 0.13.3+3
-
+version: "0.14.1"
 Labels:
   original.package.name: "hiredis"
   original.package.category: "dev-libs"
   original.package.version: "0.13.3"
   original.package.slot: "0"
-
