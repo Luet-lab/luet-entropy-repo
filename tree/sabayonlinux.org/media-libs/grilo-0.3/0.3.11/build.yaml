@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/grilo-0.3.9 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -46,24 +47,24 @@ includes:
 - /usr/lib64/girepository-1.0/GrlPls-0.3.typelib$
 - /usr/lib64/libgrilo-0.3.so$
 - /usr/lib64/libgrilo-0.3.so.0$
-- /usr/lib64/libgrilo-0.3.so.0.309.1$
+- /usr/lib64/libgrilo-0.3.so.0.311.1$
 - /usr/lib64/libgrlnet-0.3.so$
 - /usr/lib64/libgrlnet-0.3.so.0$
-- /usr/lib64/libgrlnet-0.3.so.0.309.0$
+- /usr/lib64/libgrlnet-0.3.so.0.311.0$
 - /usr/lib64/libgrlpls-0.3.so$
 - /usr/lib64/libgrlpls-0.3.so.0$
-- /usr/lib64/libgrlpls-0.3.so.0.309.0$
+- /usr/lib64/libgrlpls-0.3.so.0.311.0$
 - /usr/lib64/pkgconfig$
 - /usr/lib64/pkgconfig/grilo-0.3.pc$
 - /usr/lib64/pkgconfig/grilo-net-0.3.pc$
 - /usr/lib64/pkgconfig/grilo-pls-0.3.pc$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/grilo-0.3.9$
-- /usr/share/doc/grilo-0.3.9/AUTHORS.bz2$
-- /usr/share/doc/grilo-0.3.9/NEWS.bz2$
-- /usr/share/doc/grilo-0.3.9/README.md.bz2$
-- /usr/share/doc/grilo-0.3.9/TODO.bz2$
+- /usr/share/doc/grilo-0.3.11$
+- /usr/share/doc/grilo-0.3.11/AUTHORS.bz2$
+- /usr/share/doc/grilo-0.3.11/NEWS.bz2$
+- /usr/share/doc/grilo-0.3.11/README.md.bz2$
+- /usr/share/doc/grilo-0.3.11/TODO.bz2$
 - /usr/share/gir-1.0$
 - /usr/share/gir-1.0/Grl-0.3.gir$
 - /usr/share/gir-1.0/GrlNet-0.3.gir$
@@ -218,3 +219,6 @@ includes:
 - /usr/share/man/man1/grilo-test-ui-0.3.1.bz2$
 - /usr/share/man/man1/grl-inspect-0.3.1.bz2$
 - /usr/share/man/man1/grl-launch-0.3.1.bz2$
+env:
+- ORIGINAL_ATOM=media-libs/grilo
+- ORIGINAL_PACKAGE=media-libs/grilo-0.3.11
