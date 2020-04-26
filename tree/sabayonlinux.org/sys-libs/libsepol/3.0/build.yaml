@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i sys-libs/libsepol-2.9 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -79,8 +80,6 @@ includes:
 - /usr/share/man$
 - /usr/share/man/man3$
 - /usr/share/man/man3/sepol_check_context.3.bz2$
-- /usr/share/man/man3/sepol_genbools.3.bz2$
-- /usr/share/man/man3/sepol_genusers.3.bz2$
 - /usr/share/man/man8$
 - /usr/share/man/man8/chkcon.8.bz2$
 - /usr/share/man/man8/genpolbools.8.bz2$
@@ -88,3 +87,6 @@ includes:
 - /usr/share/man/ru$
 - /usr/share/man/ru/man8$
 - /usr/share/man/ru/man8/chkcon.8.bz2$
+env:
+- ORIGINAL_ATOM=sys-libs/libsepol
+- ORIGINAL_PACKAGE=sys-libs/libsepol-3.0
