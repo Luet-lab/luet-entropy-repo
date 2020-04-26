@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-util/gtk-update-icon-cache-3.24.11 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -13,8 +14,8 @@ includes:
 - /usr/lib$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/gtk-update-icon-cache-3.24.11$
-- /usr/share/doc/gtk-update-icon-cache-3.24.11/README.md.bz2$
+- /usr/share/doc/gtk-update-icon-cache-3.24.16$
+- /usr/share/doc/gtk-update-icon-cache-3.24.16/README.md.bz2$
 - /usr/share/locale$
 - /usr/share/locale/af$
 - /usr/share/locale/af/LC_MESSAGES$
@@ -70,6 +71,9 @@ includes:
 - /usr/share/locale/ca@valencia$
 - /usr/share/locale/ca@valencia/LC_MESSAGES$
 - /usr/share/locale/ca@valencia/LC_MESSAGES/gtk-update-icon-cache.mo$
+- /usr/share/locale/ckb$
+- /usr/share/locale/ckb/LC_MESSAGES$
+- /usr/share/locale/ckb/LC_MESSAGES/gtk-update-icon-cache.mo$
 - /usr/share/locale/crh$
 - /usr/share/locale/crh/LC_MESSAGES$
 - /usr/share/locale/crh/LC_MESSAGES/gtk-update-icon-cache.mo$
@@ -364,3 +368,6 @@ includes:
 - /usr/share/man$
 - /usr/share/man/man1$
 - /usr/share/man/man1/gtk-update-icon-cache.1.bz2$
+env:
+- ORIGINAL_ATOM=dev-util/gtk-update-icon-cache
+- ORIGINAL_PACKAGE=dev-util/gtk-update-icon-cache-3.24.16
