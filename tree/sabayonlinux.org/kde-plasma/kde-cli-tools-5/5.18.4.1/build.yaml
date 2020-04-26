@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i kde-plasma/kde-cli-tools-5.18.2 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -743,3 +744,6 @@ includes:
 - /usr/share/man/uk$
 - /usr/share/man/uk/man1$
 - /usr/share/man/uk/man1/kdesu.1.bz2$
+env:
+- ORIGINAL_ATOM=kde-plasma/kde-cli-tools
+- ORIGINAL_PACKAGE=kde-plasma/kde-cli-tools-5.18.4.1
