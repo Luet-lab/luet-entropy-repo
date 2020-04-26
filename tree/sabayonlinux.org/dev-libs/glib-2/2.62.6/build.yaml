@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/glib-2.60.7-r2 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -125,6 +126,7 @@ includes:
 - /usr/include/glib-2.0/gio/gmenumodel.h$
 - /usr/include/glib-2.0/gio/gmount.h$
 - /usr/include/glib-2.0/gio/gmountoperation.h$
+- /usr/include/glib-2.0/gio/gnativesocketaddress.h$
 - /usr/include/glib-2.0/gio/gnativevolumemonitor.h$
 - /usr/include/glib-2.0/gio/gnetworkaddress.h$
 - /usr/include/glib-2.0/gio/gnetworking.h$
@@ -308,23 +310,23 @@ includes:
 - /usr/lib/libgio-2.0.a$
 - /usr/lib/libgio-2.0.so$
 - /usr/lib/libgio-2.0.so.0$
-- /usr/lib/libgio-2.0.so.0.6000.7$
+- /usr/lib/libgio-2.0.so.0.6200.6$
 - /usr/lib/libglib-2.0.a$
 - /usr/lib/libglib-2.0.so$
 - /usr/lib/libglib-2.0.so.0$
-- /usr/lib/libglib-2.0.so.0.6000.7$
+- /usr/lib/libglib-2.0.so.0.6200.6$
 - /usr/lib/libgmodule-2.0.a$
 - /usr/lib/libgmodule-2.0.so$
 - /usr/lib/libgmodule-2.0.so.0$
-- /usr/lib/libgmodule-2.0.so.0.6000.7$
+- /usr/lib/libgmodule-2.0.so.0.6200.6$
 - /usr/lib/libgobject-2.0.a$
 - /usr/lib/libgobject-2.0.so$
 - /usr/lib/libgobject-2.0.so.0$
-- /usr/lib/libgobject-2.0.so.0.6000.7$
+- /usr/lib/libgobject-2.0.so.0.6200.6$
 - /usr/lib/libgthread-2.0.a$
 - /usr/lib/libgthread-2.0.so$
 - /usr/lib/libgthread-2.0.so.0$
-- /usr/lib/libgthread-2.0.so.0.6000.7$
+- /usr/lib/libgthread-2.0.so.0.6200.6$
 - /usr/lib/pkgconfig$
 - /usr/lib/pkgconfig/gio-2.0.pc$
 - /usr/lib/pkgconfig/gio-unix-2.0.pc$
@@ -345,23 +347,23 @@ includes:
 - /usr/lib64/libgio-2.0.a$
 - /usr/lib64/libgio-2.0.so$
 - /usr/lib64/libgio-2.0.so.0$
-- /usr/lib64/libgio-2.0.so.0.6000.7$
+- /usr/lib64/libgio-2.0.so.0.6200.6$
 - /usr/lib64/libglib-2.0.a$
 - /usr/lib64/libglib-2.0.so$
 - /usr/lib64/libglib-2.0.so.0$
-- /usr/lib64/libglib-2.0.so.0.6000.7$
+- /usr/lib64/libglib-2.0.so.0.6200.6$
 - /usr/lib64/libgmodule-2.0.a$
 - /usr/lib64/libgmodule-2.0.so$
 - /usr/lib64/libgmodule-2.0.so.0$
-- /usr/lib64/libgmodule-2.0.so.0.6000.7$
+- /usr/lib64/libgmodule-2.0.so.0.6200.6$
 - /usr/lib64/libgobject-2.0.a$
 - /usr/lib64/libgobject-2.0.so$
 - /usr/lib64/libgobject-2.0.so.0$
-- /usr/lib64/libgobject-2.0.so.0.6000.7$
+- /usr/lib64/libgobject-2.0.so.0.6200.6$
 - /usr/lib64/libgthread-2.0.a$
 - /usr/lib64/libgthread-2.0.so$
 - /usr/lib64/libgthread-2.0.so.0$
-- /usr/lib64/libgthread-2.0.so.0.6000.7$
+- /usr/lib64/libgthread-2.0.so.0.6200.6$
 - /usr/lib64/pkgconfig$
 - /usr/lib64/pkgconfig/gio-2.0.pc$
 - /usr/lib64/pkgconfig/gio-unix-2.0.pc$
@@ -384,22 +386,23 @@ includes:
 - /usr/share/bash-completion/completions/gresource$
 - /usr/share/bash-completion/completions/gsettings$
 - /usr/share/doc$
-- /usr/share/doc/glib-2.60.7-r2$
-- /usr/share/doc/glib-2.60.7-r2/AUTHORS.bz2$
-- /usr/share/doc/glib-2.60.7-r2/NEWS.bz2$
-- /usr/share/doc/glib-2.60.7-r2/README$
-- /usr/share/doc/glib-2.60.7-r2/README.md.bz2$
-- /usr/share/doc/glib-2.60.7-r2/README.rationale.bz2$
-- /usr/share/doc/glib-2.60.7-r2/README.win32.bz2$
+- /usr/share/doc/glib-2.62.6$
+- /usr/share/doc/glib-2.62.6/AUTHORS.bz2$
+- /usr/share/doc/glib-2.62.6/NEWS.bz2$
+- /usr/share/doc/glib-2.62.6/README$
+- /usr/share/doc/glib-2.62.6/README.md.bz2$
+- /usr/share/doc/glib-2.62.6/README.rationale.bz2$
+- /usr/share/doc/glib-2.62.6/README.win32$
+- /usr/share/doc/glib-2.62.6/README.win32.md.bz2$
 - /usr/share/gdb$
 - /usr/share/gdb/auto-load$
 - /usr/share/gdb/auto-load/usr$
 - /usr/share/gdb/auto-load/usr/lib$
-- /usr/share/gdb/auto-load/usr/lib/libglib-2.0.so.0.6000.7-gdb.py$
-- /usr/share/gdb/auto-load/usr/lib/libgobject-2.0.so.0.6000.7-gdb.py$
+- /usr/share/gdb/auto-load/usr/lib/libglib-2.0.so.0.6200.6-gdb.py$
+- /usr/share/gdb/auto-load/usr/lib/libgobject-2.0.so.0.6200.6-gdb.py$
 - /usr/share/gdb/auto-load/usr/lib64$
-- /usr/share/gdb/auto-load/usr/lib64/libglib-2.0.so.0.6000.7-gdb.py$
-- /usr/share/gdb/auto-load/usr/lib64/libgobject-2.0.so.0.6000.7-gdb.py$
+- /usr/share/gdb/auto-load/usr/lib64/libglib-2.0.so.0.6200.6-gdb.py$
+- /usr/share/gdb/auto-load/usr/lib64/libgobject-2.0.so.0.6200.6-gdb.py$
 - /usr/share/gettext$
 - /usr/share/gettext/its$
 - /usr/share/gettext/its/gschema.its$
@@ -724,3 +727,6 @@ includes:
 - /usr/share/man/man1/gresource.1.bz2$
 - /usr/share/man/man1/gsettings.1.bz2$
 - /usr/share/man/man1/gtester.1.bz2$
+env:
+- ORIGINAL_ATOM=dev-libs/glib
+- ORIGINAL_PACKAGE=dev-libs/glib-2.62.6
