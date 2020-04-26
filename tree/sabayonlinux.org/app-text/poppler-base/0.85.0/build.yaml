@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i app-text/poppler-base-0.82.0 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -24,15 +25,12 @@ includes:
 - /usr/include/poppler$
 - /usr/include/poppler/Annot.h$
 - /usr/include/poppler/Array.h$
-- /usr/include/poppler/BuiltinFont.h$
-- /usr/include/poppler/BuiltinFontTables.h$
 - /usr/include/poppler/CMap.h$
 - /usr/include/poppler/CachedFile.h$
 - /usr/include/poppler/Catalog.h$
 - /usr/include/poppler/CertificateInfo.h$
 - /usr/include/poppler/CharCodeToUnicode.h$
 - /usr/include/poppler/CharTypes.h$
-- /usr/include/poppler/CompactFontTables.h$
 - /usr/include/poppler/DateInfo.h$
 - /usr/include/poppler/Decrypt.h$
 - /usr/include/poppler/Dict.h$
@@ -159,19 +157,19 @@ includes:
 - /usr/lib64/libpoppler-cpp.so.0$
 - /usr/lib64/libpoppler-cpp.so.0.7.0$
 - /usr/lib64/libpoppler.so$
-- /usr/lib64/libpoppler.so.92$
-- /usr/lib64/libpoppler.so.92.0.0$
+- /usr/lib64/libpoppler.so.95$
+- /usr/lib64/libpoppler.so.95.0.0$
 - /usr/lib64/pkgconfig$
 - /usr/lib64/pkgconfig/poppler-cpp.pc$
 - /usr/lib64/pkgconfig/poppler-splash.pc$
 - /usr/lib64/pkgconfig/poppler.pc$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/poppler-base-0.82.0$
-- /usr/share/doc/poppler-base-0.82.0/AUTHORS.bz2$
-- /usr/share/doc/poppler-base-0.82.0/NEWS.bz2$
-- /usr/share/doc/poppler-base-0.82.0/README-XPDF.bz2$
-- /usr/share/doc/poppler-base-0.82.0/README.md.bz2$
+- /usr/share/doc/poppler-base-0.85.0$
+- /usr/share/doc/poppler-base-0.85.0/AUTHORS.bz2$
+- /usr/share/doc/poppler-base-0.85.0/NEWS.bz2$
+- /usr/share/doc/poppler-base-0.85.0/README-XPDF.bz2$
+- /usr/share/doc/poppler-base-0.85.0/README.md.bz2$
 - /usr/share/man$
 - /usr/share/man/man1$
 - /usr/share/man/man1/pdfattach.1.bz2$
@@ -185,3 +183,6 @@ includes:
 - /usr/share/man/man1/pdftops.1.bz2$
 - /usr/share/man/man1/pdftotext.1.bz2$
 - /usr/share/man/man1/pdfunite.1.bz2$
+env:
+- ORIGINAL_ATOM=app-text/poppler-base
+- ORIGINAL_PACKAGE=app-text/poppler-base-0.85.0
