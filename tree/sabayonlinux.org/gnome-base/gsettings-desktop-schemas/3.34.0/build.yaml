@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i gnome-base/gsettings-desktop-schemas-3.32.0 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -20,11 +21,11 @@ includes:
 - /usr/share/GConf/gsettings/gsettings-desktop-schemas.convert$
 - /usr/share/GConf/gsettings/wm-schemas.convert$
 - /usr/share/doc$
-- /usr/share/doc/gsettings-desktop-schemas-3.32.0$
-- /usr/share/doc/gsettings-desktop-schemas-3.32.0/AUTHORS$
-- /usr/share/doc/gsettings-desktop-schemas-3.32.0/ChangeLog.bz2$
-- /usr/share/doc/gsettings-desktop-schemas-3.32.0/NEWS.bz2$
-- /usr/share/doc/gsettings-desktop-schemas-3.32.0/README.bz2$
+- /usr/share/doc/gsettings-desktop-schemas-3.34.0$
+- /usr/share/doc/gsettings-desktop-schemas-3.34.0/AUTHORS$
+- /usr/share/doc/gsettings-desktop-schemas-3.34.0/ChangeLog.bz2$
+- /usr/share/doc/gsettings-desktop-schemas-3.34.0/NEWS.bz2$
+- /usr/share/doc/gsettings-desktop-schemas-3.34.0/README.bz2$
 - /usr/share/gir-1.0$
 - /usr/share/gir-1.0/GDesktopEnums-3.0.gir$
 - /usr/share/glib-2.0$
@@ -223,3 +224,6 @@ includes:
 - /usr/share/locale/zh_TW/LC_MESSAGES/gsettings-desktop-schemas.mo$
 - /usr/share/pkgconfig$
 - /usr/share/pkgconfig/gsettings-desktop-schemas.pc$
+env:
+- ORIGINAL_ATOM=gnome-base/gsettings-desktop-schemas
+- ORIGINAL_PACKAGE=gnome-base/gsettings-desktop-schemas-3.34.0
