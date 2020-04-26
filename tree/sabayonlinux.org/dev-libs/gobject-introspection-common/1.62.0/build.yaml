@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/gobject-introspection-common-1.60.2 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -13,3 +14,6 @@ includes:
 - /usr/share/aclocal/introspection.m4$
 - /usr/share/gobject-introspection-1.0$
 - /usr/share/gobject-introspection-1.0/Makefile.introspection$
+env:
+- ORIGINAL_ATOM=dev-libs/gobject-introspection-common
+- ORIGINAL_PACKAGE=dev-libs/gobject-introspection-common-1.62.0
