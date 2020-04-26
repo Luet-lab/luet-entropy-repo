@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i kde-frameworks/kcodecs-5.67.0 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -31,15 +32,15 @@ includes:
 - /usr/lib64/cmake/KF5Codecs/KF5CodecsTargets.cmake$
 - /usr/lib64/libKF5Codecs.so$
 - /usr/lib64/libKF5Codecs.so.5$
-- /usr/lib64/libKF5Codecs.so.5.67.0$
+- /usr/lib64/libKF5Codecs.so.5.69.0$
 - /usr/lib64/qt5$
 - /usr/lib64/qt5/mkspecs$
 - /usr/lib64/qt5/mkspecs/modules$
 - /usr/lib64/qt5/mkspecs/modules/qt_KCodecs.pri$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/kcodecs-5.67.0$
-- /usr/share/doc/kcodecs-5.67.0/README.md.bz2$
+- /usr/share/doc/kcodecs-5.69.0$
+- /usr/share/doc/kcodecs-5.69.0/README.md.bz2$
 - /usr/share/locale$
 - /usr/share/locale/af$
 - /usr/share/locale/af/LC_MESSAGES$
@@ -226,3 +227,6 @@ includes:
 - /usr/share/locale/zh_TW/LC_MESSAGES/kcodecs5_qt.qm$
 - /usr/share/qlogging-categories5$
 - /usr/share/qlogging-categories5/kcodecs.categories$
+env:
+- ORIGINAL_ATOM=kde-frameworks/kcodecs
+- ORIGINAL_PACKAGE=kde-frameworks/kcodecs-5.69.0
