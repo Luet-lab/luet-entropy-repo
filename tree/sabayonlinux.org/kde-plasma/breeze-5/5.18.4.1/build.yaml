@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i kde-plasma/breeze-5.18.2 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -19,7 +20,7 @@ includes:
 - /usr/lib64/kconf_update_bin$
 - /usr/lib64/kconf_update_bin/kde4breeze$
 - /usr/lib64/libbreezecommon5.so.5$
-- /usr/lib64/libbreezecommon5.so.5.18.2$
+- /usr/lib64/libbreezecommon5.so.5.18.4$
 - /usr/lib64/qt5$
 - /usr/lib64/qt5/plugins$
 - /usr/lib64/qt5/plugins/kstyle_breeze_config.so$
@@ -36,8 +37,8 @@ includes:
 - /usr/share/color-schemes/BreezeHighContrast.colors$
 - /usr/share/color-schemes/BreezeLight.colors$
 - /usr/share/doc$
-- /usr/share/doc/breeze-5.18.2$
-- /usr/share/doc/breeze-5.18.2/AUTHORS.bz2$
+- /usr/share/doc/breeze-5.18.4.1$
+- /usr/share/doc/breeze-5.18.4.1/AUTHORS.bz2$
 - /usr/share/icons$
 - /usr/share/icons/Breeze_Snow$
 - /usr/share/icons/Breeze_Snow/cursors$
@@ -478,3 +479,6 @@ includes:
 - /usr/share/wallpapers/Next/contents/images/5120x2880.jpg$
 - /usr/share/wallpapers/Next/contents/screenshot.png$
 - /usr/share/wallpapers/Next/metadata.desktop$
+env:
+- ORIGINAL_ATOM=kde-plasma/breeze
+- ORIGINAL_PACKAGE=kde-plasma/breeze-5.18.4.1
