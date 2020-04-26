@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i www-client/firefox-74.0-r1 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -10,6 +11,8 @@ includes:
 - /usr$
 - /usr/bin$
 - /usr/bin/firefox$
+- /usr/bin/firefox-wayland$
+- /usr/bin/firefox-x11$
 - /usr/lib$
 - /usr/lib64$
 - /usr/lib64/firefox$
@@ -62,6 +65,8 @@ includes:
 - /usr/lib64/firefox/removed-files$
 - /usr/share$
 - /usr/share/applications$
+- /usr/share/applications/firefox-wayland.desktop$
+- /usr/share/applications/firefox-x11.desktop$
 - /usr/share/applications/firefox.desktop$
 - /usr/share/icons$
 - /usr/share/icons/hicolor$
@@ -91,3 +96,6 @@ includes:
 - /usr/share/icons/hicolor/64x64/apps/firefox.png$
 - /usr/share/pixmaps$
 - /usr/share/pixmaps/firefox.png$
+env:
+- ORIGINAL_ATOM=www-client/firefox
+- ORIGINAL_PACKAGE=www-client/firefox-75.0
