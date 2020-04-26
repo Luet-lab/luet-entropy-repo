@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i kde-frameworks/kfilemetadata-5.67.0 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -56,7 +57,7 @@ includes:
 - /usr/lib64/cmake/KF5FileMetaData/KF5FileMetaDataTargets.cmake$
 - /usr/lib64/libKF5FileMetaData.so$
 - /usr/lib64/libKF5FileMetaData.so.3$
-- /usr/lib64/libKF5FileMetaData.so.5.67.0$
+- /usr/lib64/libKF5FileMetaData.so.5.69.0$
 - /usr/lib64/qt5$
 - /usr/lib64/qt5/mkspecs$
 - /usr/lib64/qt5/mkspecs/modules$
@@ -77,8 +78,8 @@ includes:
 - /usr/lib64/qt5/plugins/kf5/kfilemetadata/writers/kfilemetadata_taglibwriter.so$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/kfilemetadata-5.67.0$
-- /usr/share/doc/kfilemetadata-5.67.0/README.md.bz2$
+- /usr/share/doc/kfilemetadata-5.69.0$
+- /usr/share/doc/kfilemetadata-5.69.0/README.md.bz2$
 - /usr/share/locale$
 - /usr/share/locale/ar$
 - /usr/share/locale/ar/LC_MESSAGES$
@@ -199,3 +200,6 @@ includes:
 - /usr/share/locale/zh_TW/LC_MESSAGES/kfilemetadata5.mo$
 - /usr/share/qlogging-categories5$
 - /usr/share/qlogging-categories5/kfilemetadata.categories$
+env:
+- ORIGINAL_ATOM=kde-frameworks/kfilemetadata
+- ORIGINAL_PACKAGE=kde-frameworks/kfilemetadata-5.69.0
