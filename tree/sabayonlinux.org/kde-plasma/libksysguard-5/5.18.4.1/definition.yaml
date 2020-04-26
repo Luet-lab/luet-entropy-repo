@@ -1,4 +1,5 @@
-Labels: null
+Labels:
+  original.package.version: "5.18.4.1"
 category: kde-plasma
 conflicts: null
 id: 0
@@ -193,11 +194,10 @@ use_flags:
 - -webengine
 - -debug
 - -minimal
-version: 5.18.2+1
-
+version: "5.18.4.1"
 Labels:
   original.package.name: "libksysguard"
   original.package.category: "kde-plasma"
   original.package.version: "5.18.2"
   original.package.slot: "5"
-
+  original.package.version:

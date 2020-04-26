@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i kde-plasma/libksysguard-5.18.2 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -43,19 +44,19 @@ includes:
 - /usr/lib64/libexec/kauth$
 - /usr/lib64/libexec/kauth/ksysguardprocesslist_helper$
 - /usr/lib64/libksgrd.so$
-- /usr/lib64/libksgrd.so.5.18.2$
+- /usr/lib64/libksgrd.so.5.18.4$
 - /usr/lib64/libksgrd.so.7$
 - /usr/lib64/libksignalplotter.so$
-- /usr/lib64/libksignalplotter.so.5.18.2$
+- /usr/lib64/libksignalplotter.so.5.18.4$
 - /usr/lib64/libksignalplotter.so.7$
 - /usr/lib64/liblsofui.so$
-- /usr/lib64/liblsofui.so.5.18.2$
+- /usr/lib64/liblsofui.so.5.18.4$
 - /usr/lib64/liblsofui.so.7$
 - /usr/lib64/libprocesscore.so$
-- /usr/lib64/libprocesscore.so.5.18.2$
+- /usr/lib64/libprocesscore.so.5.18.4$
 - /usr/lib64/libprocesscore.so.7$
 - /usr/lib64/libprocessui.so$
-- /usr/lib64/libprocessui.so.5.18.2$
+- /usr/lib64/libprocessui.so.5.18.4$
 - /usr/lib64/libprocessui.so.7$
 - /usr/share$
 - /usr/share/dbus-1$
@@ -389,3 +390,6 @@ includes:
 - /usr/share/polkit-1/actions/org.kde.ksysguard.processlisthelper.policy$
 - /usr/share/qlogging-categories5$
 - /usr/share/qlogging-categories5/libksysguard.categories$
+env:
+- ORIGINAL_ATOM=kde-plasma/libksysguard
+- ORIGINAL_PACKAGE=kde-plasma/libksysguard-5.18.4.1
