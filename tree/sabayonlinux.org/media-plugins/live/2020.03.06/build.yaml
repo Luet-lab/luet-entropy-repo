@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i media-plugins/live-2018.07.07 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -92,11 +93,17 @@ includes:
 - /usr/include/liveMedia/H265VideoRTPSource.hh$
 - /usr/include/liveMedia/H265VideoStreamDiscreteFramer.hh$
 - /usr/include/liveMedia/H265VideoStreamFramer.hh$
+- /usr/include/liveMedia/HLSSegmenter.hh$
+- /usr/include/liveMedia/HMAC_SHA1.hh$
+- /usr/include/liveMedia/HMAC_hash.hh$
 - /usr/include/liveMedia/InputFile.hh$
+- /usr/include/liveMedia/JPEG2000VideoRTPSink.hh$
+- /usr/include/liveMedia/JPEG2000VideoRTPSource.hh$
 - /usr/include/liveMedia/JPEGVideoRTPSink.hh$
 - /usr/include/liveMedia/JPEGVideoRTPSource.hh$
 - /usr/include/liveMedia/JPEGVideoSource.hh$
 - /usr/include/liveMedia/Locale.hh$
+- /usr/include/liveMedia/MIKEY.hh$
 - /usr/include/liveMedia/MP3ADU.hh$
 - /usr/include/liveMedia/MP3ADURTPSink.hh$
 - /usr/include/liveMedia/MP3ADURTPSource.hh$
@@ -120,6 +127,7 @@ includes:
 - /usr/include/liveMedia/MPEG2IndexFromTransportStream.hh$
 - /usr/include/liveMedia/MPEG2TransportFileServerMediaSubsession.hh$
 - /usr/include/liveMedia/MPEG2TransportStreamAccumulator.hh$
+- /usr/include/liveMedia/MPEG2TransportStreamDemux.hh$
 - /usr/include/liveMedia/MPEG2TransportStreamFramer.hh$
 - /usr/include/liveMedia/MPEG2TransportStreamFromESSource.hh$
 - /usr/include/liveMedia/MPEG2TransportStreamFromPESSource.hh$
@@ -165,13 +173,17 @@ includes:
 - /usr/include/liveMedia/RTSPRegisterSender.hh$
 - /usr/include/liveMedia/RTSPServer.hh$
 - /usr/include/liveMedia/RTSPServerSupportingHTTPStreaming.hh$
+- /usr/include/liveMedia/RawVideoRTPSink.hh$
+- /usr/include/liveMedia/RawVideoRTPSource.hh$
 - /usr/include/liveMedia/SIPClient.hh$
+- /usr/include/liveMedia/SRTPCryptographicContext.hh$
 - /usr/include/liveMedia/ServerMediaSession.hh$
 - /usr/include/liveMedia/SimpleRTPSink.hh$
 - /usr/include/liveMedia/SimpleRTPSource.hh$
 - /usr/include/liveMedia/StreamReplicator.hh$
 - /usr/include/liveMedia/T140TextRTPSink.hh$
 - /usr/include/liveMedia/TCPStreamSink.hh$
+- /usr/include/liveMedia/TLSState.hh$
 - /usr/include/liveMedia/TextRTPSink.hh$
 - /usr/include/liveMedia/TheoraVideoRTPSink.hh$
 - /usr/include/liveMedia/TheoraVideoRTPSource.hh$
@@ -189,24 +201,15 @@ includes:
 - /usr/include/liveMedia/ourMD5.hh$
 - /usr/include/liveMedia/uLawAudioFilter.hh$
 - /usr/lib$
-- /usr/lib/libBasicUsageEnvironment.so$
-- /usr/lib/libBasicUsageEnvironment.so.7$
-- /usr/lib/libUsageEnvironment.so$
-- /usr/lib/libUsageEnvironment.so.7$
-- /usr/lib/libgroupsock.so$
-- /usr/lib/libgroupsock.so.7$
-- /usr/lib/libliveMedia.so$
-- /usr/lib/libliveMedia.so.7$
 - /usr/lib64$
+- /usr/lib64/libBasicUsageEnvironment.8.so$
 - /usr/lib64/libBasicUsageEnvironment.so$
-- /usr/lib64/libBasicUsageEnvironment.so.7$
+- /usr/lib64/libUsageEnvironment.8.so$
 - /usr/lib64/libUsageEnvironment.so$
-- /usr/lib64/libUsageEnvironment.so.7$
+- /usr/lib64/libgroupsock.8.so$
 - /usr/lib64/libgroupsock.so$
-- /usr/lib64/libgroupsock.so.7$
+- /usr/lib64/libliveMedia.8.so$
 - /usr/lib64/libliveMedia.so$
-- /usr/lib64/libliveMedia.so.7$
-- /usr/share$
-- /usr/share/doc$
-- /usr/share/doc/live-2018.07.07$
-- /usr/share/doc/live-2018.07.07/README$
+env:
+- ORIGINAL_ATOM=media-plugins/live
+- ORIGINAL_PACKAGE=media-plugins/live-2020.03.06
