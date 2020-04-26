@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i kde-plasma/ksysguard-5.18.2 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -25,8 +26,8 @@ includes:
 - /usr/share/applications$
 - /usr/share/applications/org.kde.ksysguard.desktop$
 - /usr/share/doc$
-- /usr/share/doc/ksysguard-5.18.2$
-- /usr/share/doc/ksysguard-5.18.2/README.bz2$
+- /usr/share/doc/ksysguard-5.18.4.1$
+- /usr/share/doc/ksysguard-5.18.4.1/README.bz2$
 - /usr/share/help$
 - /usr/share/help/ca$
 - /usr/share/help/ca/ksysguard$
@@ -281,3 +282,6 @@ includes:
 - /usr/share/locale/zh_TW/LC_MESSAGES/ksysguard.mo$
 - /usr/share/metainfo$
 - /usr/share/metainfo/org.kde.ksysguard.appdata.xml$
+env:
+- ORIGINAL_ATOM=kde-plasma/ksysguard
+- ORIGINAL_PACKAGE=kde-plasma/ksysguard-5.18.4.1
