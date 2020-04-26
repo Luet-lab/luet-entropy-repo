@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i gnome-base/gvfs-1.40.2 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -80,9 +81,9 @@ includes:
 - /usr/share/dbus-1/services/org.gtk.vfs.Metadata.service$
 - /usr/share/dbus-1/services/org.gtk.vfs.UDisks2VolumeMonitor.service$
 - /usr/share/doc$
-- /usr/share/doc/gvfs-1.40.2$
-- /usr/share/doc/gvfs-1.40.2/NEWS.bz2$
-- /usr/share/doc/gvfs-1.40.2/README.md.bz2$
+- /usr/share/doc/gvfs-1.42.2$
+- /usr/share/doc/gvfs-1.42.2/NEWS.bz2$
+- /usr/share/doc/gvfs-1.42.2/README.md.bz2$
 - /usr/share/glib-2.0$
 - /usr/share/glib-2.0/schemas$
 - /usr/share/glib-2.0/schemas/org.gnome.system.dns_sd.gschema.xml$
@@ -261,6 +262,9 @@ includes:
 - /usr/share/locale/mr$
 - /usr/share/locale/mr/LC_MESSAGES$
 - /usr/share/locale/mr/LC_MESSAGES/gvfs.mo$
+- /usr/share/locale/ms$
+- /usr/share/locale/ms/LC_MESSAGES$
+- /usr/share/locale/ms/LC_MESSAGES/gvfs.mo$
 - /usr/share/locale/nb$
 - /usr/share/locale/nb/LC_MESSAGES$
 - /usr/share/locale/nb/LC_MESSAGES/gvfs.mo$
@@ -363,3 +367,6 @@ includes:
 - /usr/share/polkit-1/actions/org.gtk.vfs.file-operations.policy$
 - /usr/share/polkit-1/rules.d$
 - /usr/share/polkit-1/rules.d/org.gtk.vfs.file-operations.rules$
+env:
+- ORIGINAL_ATOM=gnome-base/gvfs
+- ORIGINAL_PACKAGE=gnome-base/gvfs-1.42.2
