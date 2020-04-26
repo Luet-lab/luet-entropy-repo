@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/hyperlink-18.0.0 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -12,13 +13,13 @@ includes:
 - /usr/lib64/python2.7$
 - /usr/lib64/python2.7/site-packages$
 - /usr/lib64/python2.7/site-packages/hyperlink$
-- /usr/lib64/python2.7/site-packages/hyperlink-18.0.0-py2.7.egg-info$
-- /usr/lib64/python2.7/site-packages/hyperlink-18.0.0-py2.7.egg-info/PKG-INFO$
-- /usr/lib64/python2.7/site-packages/hyperlink-18.0.0-py2.7.egg-info/SOURCES.txt$
-- /usr/lib64/python2.7/site-packages/hyperlink-18.0.0-py2.7.egg-info/dependency_links.txt$
-- /usr/lib64/python2.7/site-packages/hyperlink-18.0.0-py2.7.egg-info/not-zip-safe$
-- /usr/lib64/python2.7/site-packages/hyperlink-18.0.0-py2.7.egg-info/requires.txt$
-- /usr/lib64/python2.7/site-packages/hyperlink-18.0.0-py2.7.egg-info/top_level.txt$
+- /usr/lib64/python2.7/site-packages/hyperlink-19.0.0-py2.7.egg-info$
+- /usr/lib64/python2.7/site-packages/hyperlink-19.0.0-py2.7.egg-info/PKG-INFO$
+- /usr/lib64/python2.7/site-packages/hyperlink-19.0.0-py2.7.egg-info/SOURCES.txt$
+- /usr/lib64/python2.7/site-packages/hyperlink-19.0.0-py2.7.egg-info/dependency_links.txt$
+- /usr/lib64/python2.7/site-packages/hyperlink-19.0.0-py2.7.egg-info/not-zip-safe$
+- /usr/lib64/python2.7/site-packages/hyperlink-19.0.0-py2.7.egg-info/requires.txt$
+- /usr/lib64/python2.7/site-packages/hyperlink-19.0.0-py2.7.egg-info/top_level.txt$
 - /usr/lib64/python2.7/site-packages/hyperlink/__init__.py$
 - /usr/lib64/python2.7/site-packages/hyperlink/__init__.pyc$
 - /usr/lib64/python2.7/site-packages/hyperlink/__init__.pyo$
@@ -50,13 +51,13 @@ includes:
 - /usr/lib64/python3.6$
 - /usr/lib64/python3.6/site-packages$
 - /usr/lib64/python3.6/site-packages/hyperlink$
-- /usr/lib64/python3.6/site-packages/hyperlink-18.0.0-py3.6.egg-info$
-- /usr/lib64/python3.6/site-packages/hyperlink-18.0.0-py3.6.egg-info/PKG-INFO$
-- /usr/lib64/python3.6/site-packages/hyperlink-18.0.0-py3.6.egg-info/SOURCES.txt$
-- /usr/lib64/python3.6/site-packages/hyperlink-18.0.0-py3.6.egg-info/dependency_links.txt$
-- /usr/lib64/python3.6/site-packages/hyperlink-18.0.0-py3.6.egg-info/not-zip-safe$
-- /usr/lib64/python3.6/site-packages/hyperlink-18.0.0-py3.6.egg-info/requires.txt$
-- /usr/lib64/python3.6/site-packages/hyperlink-18.0.0-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/hyperlink-19.0.0-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/hyperlink-19.0.0-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/hyperlink-19.0.0-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/hyperlink-19.0.0-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/hyperlink-19.0.0-py3.6.egg-info/not-zip-safe$
+- /usr/lib64/python3.6/site-packages/hyperlink-19.0.0-py3.6.egg-info/requires.txt$
+- /usr/lib64/python3.6/site-packages/hyperlink-19.0.0-py3.6.egg-info/top_level.txt$
 - /usr/lib64/python3.6/site-packages/hyperlink/__init__.py$
 - /usr/lib64/python3.6/site-packages/hyperlink/__pycache__$
 - /usr/lib64/python3.6/site-packages/hyperlink/__pycache__/__init__.cpython-36.opt-1.pyc$
@@ -98,5 +99,8 @@ includes:
 - /usr/lib64/python3.6/site-packages/hyperlink/test/test_url.py$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/hyperlink-18.0.0$
-- /usr/share/doc/hyperlink-18.0.0/README.md.bz2$
+- /usr/share/doc/hyperlink-19.0.0$
+- /usr/share/doc/hyperlink-19.0.0/README.md.bz2$
+env:
+- ORIGINAL_ATOM=dev-python/hyperlink
+- ORIGINAL_PACKAGE=dev-python/hyperlink-19.0.0
