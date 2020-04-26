@@ -1,4 +1,5 @@
-Labels: null
+Labels:
+  original.package.version: "2.2.8"
 category: app-text
 conflicts: null
 id: 0
@@ -38,11 +39,10 @@ use_flags:
 - aspell
 - kernel_linux
 - -test
-version: 1.6.1+r2
-
+version: "2.2.8"
 Labels:
   original.package.name: "enchant"
   original.package.category: "app-text"
   original.package.version: "1.6.1"
   original.package.slot: "0"
-
+  original.package.version:
