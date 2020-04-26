@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i app-arch/file-roller-3.32.3 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -23,13 +24,13 @@ includes:
 - /usr/share/dbus-1/services/org.gnome.FileRoller.ArchiveManager1.service$
 - /usr/share/dbus-1/services/org.gnome.FileRoller.service$
 - /usr/share/doc$
-- /usr/share/doc/file-roller-3.32.3$
-- /usr/share/doc/file-roller-3.32.3/AUTHORS.bz2$
-- /usr/share/doc/file-roller-3.32.3/NEWS.bz2$
-- /usr/share/doc/file-roller-3.32.3/README-DISTRIBUTIONS.bz2$
-- /usr/share/doc/file-roller-3.32.3/README.bz2$
-- /usr/share/doc/file-roller-3.32.3/README.gentoo.bz2$
-- /usr/share/doc/file-roller-3.32.3/README_COMMANDLINE.bz2$
+- /usr/share/doc/file-roller-3.32.4$
+- /usr/share/doc/file-roller-3.32.4/AUTHORS.bz2$
+- /usr/share/doc/file-roller-3.32.4/NEWS.bz2$
+- /usr/share/doc/file-roller-3.32.4/README-DISTRIBUTIONS.bz2$
+- /usr/share/doc/file-roller-3.32.4/README.bz2$
+- /usr/share/doc/file-roller-3.32.4/README.gentoo.bz2$
+- /usr/share/doc/file-roller-3.32.4/README_COMMANDLINE.bz2$
 - /usr/share/file-roller$
 - /usr/share/file-roller/packages.match$
 - /usr/share/glib-2.0$
@@ -752,3 +753,6 @@ includes:
 - /usr/share/locale/zu/LC_MESSAGES/file-roller.mo$
 - /usr/share/metainfo$
 - /usr/share/metainfo/org.gnome.FileRoller.appdata.xml$
+env:
+- ORIGINAL_ATOM=app-arch/file-roller
+- ORIGINAL_PACKAGE=app-arch/file-roller-3.32.4
