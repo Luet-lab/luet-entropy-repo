@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i kde-frameworks/solid-5.67.0 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -61,7 +62,7 @@ includes:
 - /usr/lib64/cmake/KF5Solid/KF5SolidTargets.cmake$
 - /usr/lib64/libKF5Solid.so$
 - /usr/lib64/libKF5Solid.so.5$
-- /usr/lib64/libKF5Solid.so.5.67.0$
+- /usr/lib64/libKF5Solid.so.5.69.0$
 - /usr/lib64/qt5$
 - /usr/lib64/qt5/mkspecs$
 - /usr/lib64/qt5/mkspecs/modules$
@@ -74,9 +75,9 @@ includes:
 - /usr/lib64/qt5/qml/org/kde/solid/qmldir$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/solid-5.67.0$
-- /usr/share/doc/solid-5.67.0/README.md.bz2$
-- /usr/share/doc/solid-5.67.0/TODO.bz2$
+- /usr/share/doc/solid-5.69.0$
+- /usr/share/doc/solid-5.69.0/README.md.bz2$
+- /usr/share/doc/solid-5.69.0/TODO.bz2$
 - /usr/share/locale$
 - /usr/share/locale/ar$
 - /usr/share/locale/ar/LC_MESSAGES$
@@ -230,3 +231,6 @@ includes:
 - /usr/share/locale/zh_TW/LC_MESSAGES/solid5_qt.qm$
 - /usr/share/qlogging-categories5$
 - /usr/share/qlogging-categories5/solid.categories$
+env:
+- ORIGINAL_ATOM=kde-frameworks/solid
+- ORIGINAL_PACKAGE=kde-frameworks/solid-5.69.0
