@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i gnome-base/gnome-session-3.32.0 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -24,11 +25,33 @@ includes:
 - /usr/bin/gnome-session-quit$
 - /usr/bin/gnome-session-selector$
 - /usr/lib$
+- /usr/lib/systemd$
+- /usr/lib/systemd/user$
+- /usr/lib/systemd/user/gnome-launched-.scope.d$
+- /usr/lib/systemd/user/gnome-launched-.scope.d/override.conf$
+- /usr/lib/systemd/user/gnome-session-failed.service$
+- /usr/lib/systemd/user/gnome-session-failed.target$
+- /usr/lib/systemd/user/gnome-session-initialized.target$
+- /usr/lib/systemd/user/gnome-session-manager.target$
+- /usr/lib/systemd/user/gnome-session-manager@.service$
+- /usr/lib/systemd/user/gnome-session-monitor.service$
+- /usr/lib/systemd/user/gnome-session-pre.target$
+- /usr/lib/systemd/user/gnome-session-restart-dbus.service$
+- /usr/lib/systemd/user/gnome-session-shutdown.target$
+- /usr/lib/systemd/user/gnome-session-signal-init.service$
+- /usr/lib/systemd/user/gnome-session-wayland.target$
+- /usr/lib/systemd/user/gnome-session-wayland@.target$
+- /usr/lib/systemd/user/gnome-session-x11-services.target$
+- /usr/lib/systemd/user/gnome-session-x11.target$
+- /usr/lib/systemd/user/gnome-session-x11@.target$
+- /usr/lib/systemd/user/gnome-session.target$
+- /usr/lib/systemd/user/gnome-session@.target$
 - /usr/libexec$
 - /usr/libexec/gnome-session-binary$
 - /usr/libexec/gnome-session-check-accelerated$
 - /usr/libexec/gnome-session-check-accelerated-gl-helper$
 - /usr/libexec/gnome-session-check-accelerated-gles-helper$
+- /usr/libexec/gnome-session-ctl$
 - /usr/libexec/gnome-session-failed$
 - /usr/share$
 - /usr/share/GConf$
@@ -37,11 +60,11 @@ includes:
 - /usr/share/applications$
 - /usr/share/applications/gnome-mimeapps.list$
 - /usr/share/doc$
-- /usr/share/doc/gnome-session-3.32.0$
-- /usr/share/doc/gnome-session-3.32.0/AUTHORS.bz2$
-- /usr/share/doc/gnome-session-3.32.0/ChangeLog.bz2$
-- /usr/share/doc/gnome-session-3.32.0/NEWS.bz2$
-- /usr/share/doc/gnome-session-3.32.0/README.bz2$
+- /usr/share/doc/gnome-session-3.34.2$
+- /usr/share/doc/gnome-session-3.34.2/AUTHORS.bz2$
+- /usr/share/doc/gnome-session-3.34.2/ChangeLog.bz2$
+- /usr/share/doc/gnome-session-3.34.2/NEWS.bz2$
+- /usr/share/doc/gnome-session-3.34.2/README.bz2$
 - /usr/share/glib-2.0$
 - /usr/share/glib-2.0/schemas$
 - /usr/share/glib-2.0/schemas/org.gnome.SessionManager.gschema.xml$
@@ -100,6 +123,9 @@ includes:
 - /usr/share/locale/ca@valencia$
 - /usr/share/locale/ca@valencia/LC_MESSAGES$
 - /usr/share/locale/ca@valencia/LC_MESSAGES/gnome-session-3.0.mo$
+- /usr/share/locale/ckb$
+- /usr/share/locale/ckb/LC_MESSAGES$
+- /usr/share/locale/ckb/LC_MESSAGES/gnome-session-3.0.mo$
 - /usr/share/locale/crh$
 - /usr/share/locale/crh/LC_MESSAGES$
 - /usr/share/locale/crh/LC_MESSAGES/gnome-session-3.0.mo$
@@ -241,6 +267,9 @@ includes:
 - /usr/share/locale/mi$
 - /usr/share/locale/mi/LC_MESSAGES$
 - /usr/share/locale/mi/LC_MESSAGES/gnome-session-3.0.mo$
+- /usr/share/locale/mjw$
+- /usr/share/locale/mjw/LC_MESSAGES$
+- /usr/share/locale/mjw/LC_MESSAGES/gnome-session-3.0.mo$
 - /usr/share/locale/mk$
 - /usr/share/locale/mk/LC_MESSAGES$
 - /usr/share/locale/mk/LC_MESSAGES/gnome-session-3.0.mo$
@@ -391,3 +420,6 @@ includes:
 - /usr/share/xsessions/gnome-custom-session.desktop$
 - /usr/share/xsessions/gnome-xorg.desktop$
 - /usr/share/xsessions/gnome.desktop$
+env:
+- ORIGINAL_ATOM=gnome-base/gnome-session
+- ORIGINAL_PACKAGE=gnome-base/gnome-session-3.34.2
