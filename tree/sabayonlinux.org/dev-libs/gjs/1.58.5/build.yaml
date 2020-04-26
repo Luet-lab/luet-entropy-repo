@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/gjs-1.54.3 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -16,11 +17,11 @@ includes:
 - /usr/include/gjs-1.0/gjs$
 - /usr/include/gjs-1.0/gjs/context.h$
 - /usr/include/gjs-1.0/gjs/coverage.h$
+- /usr/include/gjs-1.0/gjs/error-types.h$
 - /usr/include/gjs-1.0/gjs/gjs.h$
 - /usr/include/gjs-1.0/gjs/macros.h$
+- /usr/include/gjs-1.0/gjs/mem.h$
 - /usr/include/gjs-1.0/gjs/profiler.h$
-- /usr/include/gjs-1.0/util$
-- /usr/include/gjs-1.0/util/error.h$
 - /usr/lib$
 - /usr/lib64$
 - /usr/lib64/gjs$
@@ -33,11 +34,17 @@ includes:
 - /usr/lib64/pkgconfig/gjs-1.0.pc$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/gjs-1.54.3$
-- /usr/share/doc/gjs-1.54.3/NEWS.bz2$
-- /usr/share/doc/gjs-1.54.3/README.bz2$
+- /usr/share/doc/gjs-1.58.5$
+- /usr/share/doc/gjs-1.58.5/NEWS.bz2$
+- /usr/share/doc/gjs-1.58.5/README.bz2$
 - /usr/share/gjs-1.0$
 - /usr/share/gjs-1.0/lsan$
 - /usr/share/gjs-1.0/lsan/lsan.supp$
 - /usr/share/gjs-1.0/valgrind$
 - /usr/share/gjs-1.0/valgrind/gjs.supp$
+- /usr/share/glib-2.0$
+- /usr/share/glib-2.0/schemas$
+- /usr/share/glib-2.0/schemas/org.gnome.GjsTest.gschema.xml$
+env:
+- ORIGINAL_ATOM=dev-libs/gjs
+- ORIGINAL_PACKAGE=dev-libs/gjs-1.58.5
