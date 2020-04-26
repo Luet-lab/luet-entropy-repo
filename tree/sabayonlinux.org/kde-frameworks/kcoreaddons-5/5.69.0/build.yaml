@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i kde-frameworks/kcoreaddons-5.67.0 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -94,15 +95,15 @@ includes:
 - /usr/lib64/cmake/KF5CoreAddons/KF5CoreAddonsToolingTargets.cmake$
 - /usr/lib64/libKF5CoreAddons.so$
 - /usr/lib64/libKF5CoreAddons.so.5$
-- /usr/lib64/libKF5CoreAddons.so.5.67.0$
+- /usr/lib64/libKF5CoreAddons.so.5.69.0$
 - /usr/lib64/qt5$
 - /usr/lib64/qt5/mkspecs$
 - /usr/lib64/qt5/mkspecs/modules$
 - /usr/lib64/qt5/mkspecs/modules/qt_KCoreAddons.pri$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/kcoreaddons-5.67.0$
-- /usr/share/doc/kcoreaddons-5.67.0/README.md.bz2$
+- /usr/share/doc/kcoreaddons-5.69.0$
+- /usr/share/doc/kcoreaddons-5.69.0/README.md.bz2$
 - /usr/share/kf5$
 - /usr/share/kf5/licenses$
 - /usr/share/kf5/licenses/ARTISTIC$
@@ -305,3 +306,6 @@ includes:
 - /usr/share/mime/packages/kde5.xml$
 - /usr/share/qlogging-categories5$
 - /usr/share/qlogging-categories5/kcoreaddons.categories$
+env:
+- ORIGINAL_ATOM=kde-frameworks/kcoreaddons
+- ORIGINAL_PACKAGE=kde-frameworks/kcoreaddons-5.69.0
