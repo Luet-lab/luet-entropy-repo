@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i x11-themes/numix-icon-theme-19.09.20 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -5962,6 +5963,28 @@ includes:
 - /usr/share/icons/Numix-Light/scalable/status/battery-full-symbolic.svg$
 - /usr/share/icons/Numix-Light/scalable/status/battery-good-charging-symbolic.svg$
 - /usr/share/icons/Numix-Light/scalable/status/battery-good-symbolic.svg$
+- /usr/share/icons/Numix-Light/scalable/status/battery-level-0-charging-symbolic.svg$
+- /usr/share/icons/Numix-Light/scalable/status/battery-level-0-symbolic.svg$
+- /usr/share/icons/Numix-Light/scalable/status/battery-level-10-charging-symbolic.svg$
+- /usr/share/icons/Numix-Light/scalable/status/battery-level-10-symbolic.svg$
+- /usr/share/icons/Numix-Light/scalable/status/battery-level-100-charged-symbolic.svg$
+- /usr/share/icons/Numix-Light/scalable/status/battery-level-100-symbolic.svg$
+- /usr/share/icons/Numix-Light/scalable/status/battery-level-20-charging-symbolic.svg$
+- /usr/share/icons/Numix-Light/scalable/status/battery-level-20-symbolic.svg$
+- /usr/share/icons/Numix-Light/scalable/status/battery-level-30-charging-symbolic.svg$
+- /usr/share/icons/Numix-Light/scalable/status/battery-level-30-symbolic.svg$
+- /usr/share/icons/Numix-Light/scalable/status/battery-level-40-charging-symbolic.svg$
+- /usr/share/icons/Numix-Light/scalable/status/battery-level-40-symbolic.svg$
+- /usr/share/icons/Numix-Light/scalable/status/battery-level-50-charging-symbolic.svg$
+- /usr/share/icons/Numix-Light/scalable/status/battery-level-50-symbolic.svg$
+- /usr/share/icons/Numix-Light/scalable/status/battery-level-60-charging-symbolic.svg$
+- /usr/share/icons/Numix-Light/scalable/status/battery-level-60-symbolic.svg$
+- /usr/share/icons/Numix-Light/scalable/status/battery-level-70-charging-symbolic.svg$
+- /usr/share/icons/Numix-Light/scalable/status/battery-level-70-symbolic.svg$
+- /usr/share/icons/Numix-Light/scalable/status/battery-level-80-charging-symbolic.svg$
+- /usr/share/icons/Numix-Light/scalable/status/battery-level-80-symbolic.svg$
+- /usr/share/icons/Numix-Light/scalable/status/battery-level-90-charging-symbolic.svg$
+- /usr/share/icons/Numix-Light/scalable/status/battery-level-90-symbolic.svg$
 - /usr/share/icons/Numix-Light/scalable/status/battery-low-charging-symbolic.svg$
 - /usr/share/icons/Numix-Light/scalable/status/battery-low-symbolic.svg$
 - /usr/share/icons/Numix-Light/scalable/status/battery-missing-symbolic.svg$
@@ -7798,6 +7821,7 @@ includes:
 - /usr/share/icons/Numix/16/mimetypes/application-font-snf.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-font.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-geo[+]json.svg$
+- /usr/share/icons/Numix/16/mimetypes/application-gml[+]xml.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-gpx[+]xml.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-gpx.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-gzip.svg$
@@ -7816,7 +7840,9 @@ includes:
 - /usr/share/icons/Numix/16/mimetypes/application-java.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-javascript.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-json.svg$
+- /usr/share/icons/Numix/16/mimetypes/application-loc[+]xml.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-mathematica.svg$
+- /usr/share/icons/Numix/16/mimetypes/application-mathml[+]xml.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-mbox.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-msword-template.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-msword.svg$
@@ -7843,6 +7869,7 @@ includes:
 - /usr/share/icons/Numix/16/mimetypes/application-rss.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-rtf.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-script-blank.svg$
+- /usr/share/icons/Numix/16/mimetypes/application-slf[+]xml.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-software.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-sql.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-sxw.svg$
@@ -7859,11 +7886,15 @@ includes:
 - /usr/share/icons/Numix/16/mimetypes/application-vestor.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-video.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-vnd-google-earth-kml.svg$
+- /usr/share/icons/Numix/16/mimetypes/application-vnd.adobe.illustrator.svg$
+- /usr/share/icons/Numix/16/mimetypes/application-vnd.amazon.mobi8-ebook.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-vnd.android.package-archive.svg$
+- /usr/share/icons/Numix/16/mimetypes/application-vnd.ant.fit.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-vnd.appimage.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-vnd.coffeescript.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-vnd.corel-draw.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-vnd.debian.binary-package.svg$
+- /usr/share/icons/Numix/16/mimetypes/application-vnd.fai.igc.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-vnd.flatpak.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-vnd.flowblade-project.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-vnd.geo[+]json.svg$
@@ -7887,6 +7918,9 @@ includes:
 - /usr/share/icons/Numix/16/mimetypes/application-vnd.ms-excel.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-vnd.ms-powerpoint.presentation.macroEnabled.12.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-vnd.ms-powerpoint.svg$
+- /usr/share/icons/Numix/16/mimetypes/application-vnd.ms-visio.drawing.main[+]xml.svg$
+- /usr/share/icons/Numix/16/mimetypes/application-vnd.ms-visio.stencil.main[+]xml.svg$
+- /usr/share/icons/Numix/16/mimetypes/application-vnd.ms-visio.template.main[+]xml.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-vnd.ms-word.document.macroEnabled.12.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-vnd.ms-word.document.macroenabled.12.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-vnd.ms-word.svg$
@@ -7945,9 +7979,11 @@ includes:
 - /usr/share/icons/Numix/16/mimetypes/application-vnd.sun.xml.writer.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-vnd.sun.xml.writer.template.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-vnd.tcpdump.pcap.svg$
+- /usr/share/icons/Numix/16/mimetypes/application-vnd.visio.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-vnd.wordperfect.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-vnd.xdgapp.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-web-template.svg$
+- /usr/share/icons/Numix/16/mimetypes/application-winhlp.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-word-template.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-word.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-wps-office.doc.svg$
@@ -7969,6 +8005,7 @@ includes:
 - /usr/share/icons/Numix/16/mimetypes/application-x-aportisdoc.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-x-appimage.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-x-apple-diskimage.svg$
+- /usr/share/icons/Numix/16/mimetypes/application-x-appleworks-document.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-x-applix-spreadsheet.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-x-applix-word.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-x-ar.svg$
@@ -8002,6 +8039,8 @@ includes:
 - /usr/share/icons/Numix/16/mimetypes/application-x-designer.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-x-desktop.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-x-dgn.svg$
+- /usr/share/icons/Numix/16/mimetypes/application-x-dia-diagram.svg$
+- /usr/share/icons/Numix/16/mimetypes/application-x-dia-shape.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-x-domingo.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-x-dwg.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-x-egon.svg$
@@ -8039,6 +8078,7 @@ includes:
 - /usr/share/icons/Numix/16/mimetypes/application-x-gnome-theme-package.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-x-gnucash.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-x-gnumeric.svg$
+- /usr/share/icons/Numix/16/mimetypes/application-x-gnuplot.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-x-gpx[+]xml.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-x-gpx.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-x-gramps-package.svg$
@@ -8087,6 +8127,7 @@ includes:
 - /usr/share/icons/Numix/16/mimetypes/application-x-lzop.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-x-lzpdf.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-x-m4.svg$
+- /usr/share/icons/Numix/16/mimetypes/application-x-mathematica.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-x-matroska.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-x-mimearchive.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-x-mobi8-ebook.svg$
@@ -8122,9 +8163,12 @@ includes:
 - /usr/share/icons/Numix/16/mimetypes/application-x-php.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-x-pkcs12.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-x-pkcs7-certificates.svg$
+- /usr/share/icons/Numix/16/mimetypes/application-x-pyspread-bz-spreadsheet.svg$
+- /usr/share/icons/Numix/16/mimetypes/application-x-pyspread-spreadsheet.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-x-python-bytecode.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-x-qet-element.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-x-qet-project.svg$
+- /usr/share/icons/Numix/16/mimetypes/application-x-qtiplot.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-x-quattropro.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-x-r-project.svg$
 - /usr/share/icons/Numix/16/mimetypes/application-x-rar.svg$
@@ -8197,7 +8241,9 @@ includes:
 - /usr/share/icons/Numix/16/mimetypes/audio-mpeg.svg$
 - /usr/share/icons/Numix/16/mimetypes/audio-prs.sid.svg$
 - /usr/share/icons/Numix/16/mimetypes/audio-scpls.svg$
-- /usr/share/icons/Numix/16/mimetypes/audio-vn.rn-realmedia.svg$
+- /usr/share/icons/Numix/16/mimetypes/audio-vnd.dts.hd.svg$
+- /usr/share/icons/Numix/16/mimetypes/audio-vnd.dts.svg$
+- /usr/share/icons/Numix/16/mimetypes/audio-vnd.rn-realmedia.svg$
 - /usr/share/icons/Numix/16/mimetypes/audio-vnd.rn-realvideo.svg$
 - /usr/share/icons/Numix/16/mimetypes/audio-x-aac.svg$
 - /usr/share/icons/Numix/16/mimetypes/audio-x-adpcm.svg$
@@ -8205,6 +8251,7 @@ includes:
 - /usr/share/icons/Numix/16/mimetypes/audio-x-flac[+]ogg.svg$
 - /usr/share/icons/Numix/16/mimetypes/audio-x-flac.svg$
 - /usr/share/icons/Numix/16/mimetypes/audio-x-generic.svg$
+- /usr/share/icons/Numix/16/mimetypes/audio-x-gtp.svg$
 - /usr/share/icons/Numix/16/mimetypes/audio-x-it.svg$
 - /usr/share/icons/Numix/16/mimetypes/audio-x-m4a.svg$
 - /usr/share/icons/Numix/16/mimetypes/audio-x-midi.svg$
@@ -8216,11 +8263,13 @@ includes:
 - /usr/share/icons/Numix/16/mimetypes/audio-x-mpg.svg$
 - /usr/share/icons/Numix/16/mimetypes/audio-x-ms-wma.svg$
 - /usr/share/icons/Numix/16/mimetypes/audio-x-playlist.svg$
+- /usr/share/icons/Numix/16/mimetypes/audio-x-ptb.svg$
 - /usr/share/icons/Numix/16/mimetypes/audio-x-scpis.svg$
 - /usr/share/icons/Numix/16/mimetypes/audio-x-scpls.svg$
 - /usr/share/icons/Numix/16/mimetypes/audio-x-shorten.svg$
 - /usr/share/icons/Numix/16/mimetypes/audio-x-smart-playlist.svg$
 - /usr/share/icons/Numix/16/mimetypes/audio-x-speex[+]ogg.svg$
+- /usr/share/icons/Numix/16/mimetypes/audio-x-tg.svg$
 - /usr/share/icons/Numix/16/mimetypes/audio-x-vorbis[+]ogg.svg$
 - /usr/share/icons/Numix/16/mimetypes/audio-x-wav.svg$
 - /usr/share/icons/Numix/16/mimetypes/audio-x-xi.svg$
@@ -8531,6 +8580,8 @@ includes:
 - /usr/share/icons/Numix/16/mimetypes/mime_ascii.svg$
 - /usr/share/icons/Numix/16/mimetypes/misc.svg$
 - /usr/share/icons/Numix/16/mimetypes/model-fcstd.svg$
+- /usr/share/icons/Numix/16/mimetypes/model-iges.svg$
+- /usr/share/icons/Numix/16/mimetypes/model-stl.svg$
 - /usr/share/icons/Numix/16/mimetypes/model-vnd.dwf.svg$
 - /usr/share/icons/Numix/16/mimetypes/model-vrml.svg$
 - /usr/share/icons/Numix/16/mimetypes/model-x.stl-binary.svg$
@@ -8602,11 +8653,14 @@ includes:
 - /usr/share/icons/Numix/16/mimetypes/text-rust.svg$
 - /usr/share/icons/Numix/16/mimetypes/text-sgml.svg$
 - /usr/share/icons/Numix/16/mimetypes/text-spreadsheet.svg$
+- /usr/share/icons/Numix/16/mimetypes/text-tab-separated-values.svg$
 - /usr/share/icons/Numix/16/mimetypes/text-troff.svg$
 - /usr/share/icons/Numix/16/mimetypes/text-vcalendar.svg$
 - /usr/share/icons/Numix/16/mimetypes/text-vnd.abc.svg$
+- /usr/share/icons/Numix/16/mimetypes/text-vnd.grpahviz.svg$
 - /usr/share/icons/Numix/16/mimetypes/text-vnd.qt.linguist.svg$
 - /usr/share/icons/Numix/16/mimetypes/text-vnd.wap.wml.svg$
+- /usr/share/icons/Numix/16/mimetypes/text-vtt.svg$
 - /usr/share/icons/Numix/16/mimetypes/text-x-R.svg$
 - /usr/share/icons/Numix/16/mimetypes/text-x-arduino.svg$
 - /usr/share/icons/Numix/16/mimetypes/text-x-authors.svg$
@@ -8628,6 +8682,7 @@ includes:
 - /usr/share/icons/Numix/16/mimetypes/text-x-dsrc.svg$
 - /usr/share/icons/Numix/16/mimetypes/text-x-dtd.svg$
 - /usr/share/icons/Numix/16/mimetypes/text-x-emacs-lisp.svg$
+- /usr/share/icons/Numix/16/mimetypes/text-x-erlang.svg$
 - /usr/share/icons/Numix/16/mimetypes/text-x-fortran.svg$
 - /usr/share/icons/Numix/16/mimetypes/text-x-generic-template.svg$
 - /usr/share/icons/Numix/16/mimetypes/text-x-generic.svapplication-x-awk.svg$
@@ -8654,6 +8709,7 @@ includes:
 - /usr/share/icons/Numix/16/mimetypes/text-x-makefile.svg$
 - /usr/share/icons/Numix/16/mimetypes/text-x-markdown.svg$
 - /usr/share/icons/Numix/16/mimetypes/text-x-matlab.svg$
+- /usr/share/icons/Numix/16/mimetypes/text-x-meson.svg$
 - /usr/share/icons/Numix/16/mimetypes/text-x-microdvd.svg$
 - /usr/share/icons/Numix/16/mimetypes/text-x-nfo.svg$
 - /usr/share/icons/Numix/16/mimetypes/text-x-nim.svg$
@@ -8686,6 +8742,9 @@ includes:
 - /usr/share/icons/Numix/16/mimetypes/text-x-scss.svg$
 - /usr/share/icons/Numix/16/mimetypes/text-x-source.svg$
 - /usr/share/icons/Numix/16/mimetypes/text-x-sql.svg$
+- /usr/share/icons/Numix/16/mimetypes/text-x-ssa.svg$
+- /usr/share/icons/Numix/16/mimetypes/text-x-subviewer.svg$
+- /usr/share/icons/Numix/16/mimetypes/text-x-systemd-unit.svg$
 - /usr/share/icons/Numix/16/mimetypes/text-x-tcl.svg$
 - /usr/share/icons/Numix/16/mimetypes/text-x-tex.svg$
 - /usr/share/icons/Numix/16/mimetypes/text-x-texinfo.svg$
@@ -13014,6 +13073,7 @@ includes:
 - /usr/share/icons/Numix/22/mimetypes/application-font-snf.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-font.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-geo[+]json.svg$
+- /usr/share/icons/Numix/22/mimetypes/application-gml[+]xml.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-gpx[+]xml.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-gpx.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-gzip.svg$
@@ -13032,7 +13092,9 @@ includes:
 - /usr/share/icons/Numix/22/mimetypes/application-java.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-javascript.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-json.svg$
+- /usr/share/icons/Numix/22/mimetypes/application-loc[+]xml.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-mathematica.svg$
+- /usr/share/icons/Numix/22/mimetypes/application-mathml[+]xml.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-mbox.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-msword-template.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-msword.svg$
@@ -13059,6 +13121,7 @@ includes:
 - /usr/share/icons/Numix/22/mimetypes/application-rss.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-rtf.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-script-blank.svg$
+- /usr/share/icons/Numix/22/mimetypes/application-slf[+]xml.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-software.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-sql.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-sxw.svg$
@@ -13075,11 +13138,15 @@ includes:
 - /usr/share/icons/Numix/22/mimetypes/application-vestor.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-video.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-vnd-google-earth-kml.svg$
+- /usr/share/icons/Numix/22/mimetypes/application-vnd.adobe.illustrator.svg$
+- /usr/share/icons/Numix/22/mimetypes/application-vnd.amazon.mobi8-ebook.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-vnd.android.package-archive.svg$
+- /usr/share/icons/Numix/22/mimetypes/application-vnd.ant.fit.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-vnd.appimage.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-vnd.coffeescript.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-vnd.corel-draw.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-vnd.debian.binary-package.svg$
+- /usr/share/icons/Numix/22/mimetypes/application-vnd.fai.igc.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-vnd.flatpak.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-vnd.flowblade-project.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-vnd.geo[+]json.svg$
@@ -13103,6 +13170,9 @@ includes:
 - /usr/share/icons/Numix/22/mimetypes/application-vnd.ms-excel.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-vnd.ms-powerpoint.presentation.macroEnabled.12.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-vnd.ms-powerpoint.svg$
+- /usr/share/icons/Numix/22/mimetypes/application-vnd.ms-visio.drawing.main[+]xml.svg$
+- /usr/share/icons/Numix/22/mimetypes/application-vnd.ms-visio.stencil.main[+]xml.svg$
+- /usr/share/icons/Numix/22/mimetypes/application-vnd.ms-visio.template.main[+]xml.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-vnd.ms-word.document.macroEnabled.12.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-vnd.ms-word.document.macroenabled.12.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-vnd.ms-word.svg$
@@ -13161,9 +13231,11 @@ includes:
 - /usr/share/icons/Numix/22/mimetypes/application-vnd.sun.xml.writer.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-vnd.sun.xml.writer.template.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-vnd.tcpdump.pcap.svg$
+- /usr/share/icons/Numix/22/mimetypes/application-vnd.visio.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-vnd.wordperfect.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-vnd.xdgapp.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-web-template.svg$
+- /usr/share/icons/Numix/22/mimetypes/application-winhlp.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-word-template.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-word.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-wps-office.doc.svg$
@@ -13185,6 +13257,7 @@ includes:
 - /usr/share/icons/Numix/22/mimetypes/application-x-aportisdoc.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-x-appimage.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-x-apple-diskimage.svg$
+- /usr/share/icons/Numix/22/mimetypes/application-x-appleworks-document.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-x-applix-spreadsheet.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-x-applix-word.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-x-ar.svg$
@@ -13218,6 +13291,8 @@ includes:
 - /usr/share/icons/Numix/22/mimetypes/application-x-designer.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-x-desktop.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-x-dgn.svg$
+- /usr/share/icons/Numix/22/mimetypes/application-x-dia-diagram.svg$
+- /usr/share/icons/Numix/22/mimetypes/application-x-dia-shape.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-x-domingo.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-x-dwg.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-x-egon.svg$
@@ -13255,6 +13330,7 @@ includes:
 - /usr/share/icons/Numix/22/mimetypes/application-x-gnome-theme-package.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-x-gnucash.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-x-gnumeric.svg$
+- /usr/share/icons/Numix/22/mimetypes/application-x-gnuplot.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-x-gpx[+]xml.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-x-gpx.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-x-gramps-package.svg$
@@ -13303,6 +13379,7 @@ includes:
 - /usr/share/icons/Numix/22/mimetypes/application-x-lzop.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-x-lzpdf.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-x-m4.svg$
+- /usr/share/icons/Numix/22/mimetypes/application-x-mathematica.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-x-matroska.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-x-mimearchive.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-x-mobi8-ebook.svg$
@@ -13338,9 +13415,12 @@ includes:
 - /usr/share/icons/Numix/22/mimetypes/application-x-php.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-x-pkcs12.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-x-pkcs7-certificates.svg$
+- /usr/share/icons/Numix/22/mimetypes/application-x-pyspread-bz-spreadsheet.svg$
+- /usr/share/icons/Numix/22/mimetypes/application-x-pyspread-spreadsheet.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-x-python-bytecode.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-x-qet-element.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-x-qet-project.svg$
+- /usr/share/icons/Numix/22/mimetypes/application-x-qtiplot.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-x-quattropro.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-x-r-project.svg$
 - /usr/share/icons/Numix/22/mimetypes/application-x-rar.svg$
@@ -13413,7 +13493,9 @@ includes:
 - /usr/share/icons/Numix/22/mimetypes/audio-mpeg.svg$
 - /usr/share/icons/Numix/22/mimetypes/audio-prs.sid.svg$
 - /usr/share/icons/Numix/22/mimetypes/audio-scpls.svg$
-- /usr/share/icons/Numix/22/mimetypes/audio-vn.rn-realmedia.svg$
+- /usr/share/icons/Numix/22/mimetypes/audio-vnd.dts.hd.svg$
+- /usr/share/icons/Numix/22/mimetypes/audio-vnd.dts.svg$
+- /usr/share/icons/Numix/22/mimetypes/audio-vnd.rn-realmedia.svg$
 - /usr/share/icons/Numix/22/mimetypes/audio-vnd.rn-realvideo.svg$
 - /usr/share/icons/Numix/22/mimetypes/audio-x-aac.svg$
 - /usr/share/icons/Numix/22/mimetypes/audio-x-adpcm.svg$
@@ -13421,6 +13503,7 @@ includes:
 - /usr/share/icons/Numix/22/mimetypes/audio-x-flac[+]ogg.svg$
 - /usr/share/icons/Numix/22/mimetypes/audio-x-flac.svg$
 - /usr/share/icons/Numix/22/mimetypes/audio-x-generic.svg$
+- /usr/share/icons/Numix/22/mimetypes/audio-x-gtp.svg$
 - /usr/share/icons/Numix/22/mimetypes/audio-x-it.svg$
 - /usr/share/icons/Numix/22/mimetypes/audio-x-m4a.svg$
 - /usr/share/icons/Numix/22/mimetypes/audio-x-midi.svg$
@@ -13432,11 +13515,13 @@ includes:
 - /usr/share/icons/Numix/22/mimetypes/audio-x-mpg.svg$
 - /usr/share/icons/Numix/22/mimetypes/audio-x-ms-wma.svg$
 - /usr/share/icons/Numix/22/mimetypes/audio-x-playlist.svg$
+- /usr/share/icons/Numix/22/mimetypes/audio-x-ptb.svg$
 - /usr/share/icons/Numix/22/mimetypes/audio-x-scpis.svg$
 - /usr/share/icons/Numix/22/mimetypes/audio-x-scpls.svg$
 - /usr/share/icons/Numix/22/mimetypes/audio-x-shorten.svg$
 - /usr/share/icons/Numix/22/mimetypes/audio-x-smart-playlist.svg$
 - /usr/share/icons/Numix/22/mimetypes/audio-x-speex[+]ogg.svg$
+- /usr/share/icons/Numix/22/mimetypes/audio-x-tg.svg$
 - /usr/share/icons/Numix/22/mimetypes/audio-x-vorbis[+]ogg.svg$
 - /usr/share/icons/Numix/22/mimetypes/audio-x-wav.svg$
 - /usr/share/icons/Numix/22/mimetypes/audio-x-xi.svg$
@@ -13747,6 +13832,8 @@ includes:
 - /usr/share/icons/Numix/22/mimetypes/mime_ascii.svg$
 - /usr/share/icons/Numix/22/mimetypes/misc.svg$
 - /usr/share/icons/Numix/22/mimetypes/model-fcstd.svg$
+- /usr/share/icons/Numix/22/mimetypes/model-iges.svg$
+- /usr/share/icons/Numix/22/mimetypes/model-stl.svg$
 - /usr/share/icons/Numix/22/mimetypes/model-vnd.dwf.svg$
 - /usr/share/icons/Numix/22/mimetypes/model-vrml.svg$
 - /usr/share/icons/Numix/22/mimetypes/model-x.stl-binary.svg$
@@ -13818,11 +13905,14 @@ includes:
 - /usr/share/icons/Numix/22/mimetypes/text-rust.svg$
 - /usr/share/icons/Numix/22/mimetypes/text-sgml.svg$
 - /usr/share/icons/Numix/22/mimetypes/text-spreadsheet.svg$
+- /usr/share/icons/Numix/22/mimetypes/text-tab-separated-values.svg$
 - /usr/share/icons/Numix/22/mimetypes/text-troff.svg$
 - /usr/share/icons/Numix/22/mimetypes/text-vcalendar.svg$
 - /usr/share/icons/Numix/22/mimetypes/text-vnd.abc.svg$
+- /usr/share/icons/Numix/22/mimetypes/text-vnd.grpahviz.svg$
 - /usr/share/icons/Numix/22/mimetypes/text-vnd.qt.linguist.svg$
 - /usr/share/icons/Numix/22/mimetypes/text-vnd.wap.wml.svg$
+- /usr/share/icons/Numix/22/mimetypes/text-vtt.svg$
 - /usr/share/icons/Numix/22/mimetypes/text-x-R.svg$
 - /usr/share/icons/Numix/22/mimetypes/text-x-arduino.svg$
 - /usr/share/icons/Numix/22/mimetypes/text-x-authors.svg$
@@ -13844,6 +13934,7 @@ includes:
 - /usr/share/icons/Numix/22/mimetypes/text-x-dsrc.svg$
 - /usr/share/icons/Numix/22/mimetypes/text-x-dtd.svg$
 - /usr/share/icons/Numix/22/mimetypes/text-x-emacs-lisp.svg$
+- /usr/share/icons/Numix/22/mimetypes/text-x-erlang.svg$
 - /usr/share/icons/Numix/22/mimetypes/text-x-fortran.svg$
 - /usr/share/icons/Numix/22/mimetypes/text-x-generic-template.svg$
 - /usr/share/icons/Numix/22/mimetypes/text-x-generic.svapplication-x-awk.svg$
@@ -13870,6 +13961,7 @@ includes:
 - /usr/share/icons/Numix/22/mimetypes/text-x-makefile.svg$
 - /usr/share/icons/Numix/22/mimetypes/text-x-markdown.svg$
 - /usr/share/icons/Numix/22/mimetypes/text-x-matlab.svg$
+- /usr/share/icons/Numix/22/mimetypes/text-x-meson.svg$
 - /usr/share/icons/Numix/22/mimetypes/text-x-microdvd.svg$
 - /usr/share/icons/Numix/22/mimetypes/text-x-nfo.svg$
 - /usr/share/icons/Numix/22/mimetypes/text-x-nim.svg$
@@ -13902,6 +13994,9 @@ includes:
 - /usr/share/icons/Numix/22/mimetypes/text-x-scss.svg$
 - /usr/share/icons/Numix/22/mimetypes/text-x-source.svg$
 - /usr/share/icons/Numix/22/mimetypes/text-x-sql.svg$
+- /usr/share/icons/Numix/22/mimetypes/text-x-ssa.svg$
+- /usr/share/icons/Numix/22/mimetypes/text-x-subviewer.svg$
+- /usr/share/icons/Numix/22/mimetypes/text-x-systemd-unit.svg$
 - /usr/share/icons/Numix/22/mimetypes/text-x-tcl.svg$
 - /usr/share/icons/Numix/22/mimetypes/text-x-tex.svg$
 - /usr/share/icons/Numix/22/mimetypes/text-x-texinfo.svg$
@@ -17973,6 +18068,7 @@ includes:
 - /usr/share/icons/Numix/24/mimetypes/application-font-snf.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-font.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-geo[+]json.svg$
+- /usr/share/icons/Numix/24/mimetypes/application-gml[+]xml.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-gpx[+]xml.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-gpx.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-gzip.svg$
@@ -17991,7 +18087,9 @@ includes:
 - /usr/share/icons/Numix/24/mimetypes/application-java.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-javascript.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-json.svg$
+- /usr/share/icons/Numix/24/mimetypes/application-loc[+]xml.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-mathematica.svg$
+- /usr/share/icons/Numix/24/mimetypes/application-mathml[+]xml.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-mbox.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-msword-template.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-msword.svg$
@@ -18016,6 +18114,7 @@ includes:
 - /usr/share/icons/Numix/24/mimetypes/application-rss.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-rtf.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-script-blank.svg$
+- /usr/share/icons/Numix/24/mimetypes/application-slf[+]xml.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-software.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-sql.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-table-template.svg$
@@ -18031,11 +18130,15 @@ includes:
 - /usr/share/icons/Numix/24/mimetypes/application-vestor.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-video.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-vnd-google-earth-kml.svg$
+- /usr/share/icons/Numix/24/mimetypes/application-vnd.adobe.illustrator.svg$
+- /usr/share/icons/Numix/24/mimetypes/application-vnd.amazon.mobi8-ebook.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-vnd.android.package-archive.svg$
+- /usr/share/icons/Numix/24/mimetypes/application-vnd.ant.fit.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-vnd.appimage.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-vnd.coffeescript.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-vnd.corel-draw.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-vnd.debian.binary-package.svg$
+- /usr/share/icons/Numix/24/mimetypes/application-vnd.fai.igc.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-vnd.flatpak.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-vnd.flowblade-project.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-vnd.geo[+]json.svg$
@@ -18059,6 +18162,9 @@ includes:
 - /usr/share/icons/Numix/24/mimetypes/application-vnd.ms-excel.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-vnd.ms-powerpoint.presentation.macroEnabled.12.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-vnd.ms-powerpoint.svg$
+- /usr/share/icons/Numix/24/mimetypes/application-vnd.ms-visio.drawing.main[+]xml.svg$
+- /usr/share/icons/Numix/24/mimetypes/application-vnd.ms-visio.stencil.main[+]xml.svg$
+- /usr/share/icons/Numix/24/mimetypes/application-vnd.ms-visio.template.main[+]xml.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-vnd.ms-word.document.macroEnabled.12.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-vnd.ms-word.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-vnd.nintendo.snes.rom.svg$
@@ -18100,9 +18206,11 @@ includes:
 - /usr/share/icons/Numix/24/mimetypes/application-vnd.sun.xml.draw.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-vnd.sun.xml.writer.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-vnd.tcpdump.pcap.svg$
+- /usr/share/icons/Numix/24/mimetypes/application-vnd.visio.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-vnd.wordperfect.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-vnd.xdgapp.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-web-template.svg$
+- /usr/share/icons/Numix/24/mimetypes/application-winhlp.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-word-template.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-word.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-x-7z-ace.svg$
@@ -18120,6 +18228,7 @@ includes:
 - /usr/share/icons/Numix/24/mimetypes/application-x-aportisdoc.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-x-appimage.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-x-apple-diskimage.svg$
+- /usr/share/icons/Numix/24/mimetypes/application-x-appleworks-document.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-x-applix-spreadsheet.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-x-ar.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-x-arc.svg$
@@ -18151,6 +18260,8 @@ includes:
 - /usr/share/icons/Numix/24/mimetypes/application-x-designer.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-x-desktop.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-x-dgn.svg$
+- /usr/share/icons/Numix/24/mimetypes/application-x-dia-diagram.svg$
+- /usr/share/icons/Numix/24/mimetypes/application-x-dia-shape.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-x-domingo.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-x-dwg.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-x-egon.svg$
@@ -18187,6 +18298,7 @@ includes:
 - /usr/share/icons/Numix/24/mimetypes/application-x-gnome-theme-package.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-x-gnucash.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-x-gnumeric.svg$
+- /usr/share/icons/Numix/24/mimetypes/application-x-gnuplot.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-x-gpx[+]xml.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-x-gpx.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-x-gramps-package.svg$
@@ -18232,6 +18344,7 @@ includes:
 - /usr/share/icons/Numix/24/mimetypes/application-x-lzop.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-x-lzpdf.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-x-m4.svg$
+- /usr/share/icons/Numix/24/mimetypes/application-x-mathematica.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-x-matroska.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-x-mobi8-ebook.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-x-mobipocket-ebook.svg$
@@ -18262,7 +18375,10 @@ includes:
 - /usr/share/icons/Numix/24/mimetypes/application-x-perl.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-x-php.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-x-pkcs12.svg$
+- /usr/share/icons/Numix/24/mimetypes/application-x-pyspread-bz-spreadsheet.svg$
+- /usr/share/icons/Numix/24/mimetypes/application-x-pyspread-spreadsheet.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-x-python-bytecode.svg$
+- /usr/share/icons/Numix/24/mimetypes/application-x-qtiplot.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-x-quattropro.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-x-r-project.svg$
 - /usr/share/icons/Numix/24/mimetypes/application-x-rar.svg$
@@ -18331,12 +18447,15 @@ includes:
 - /usr/share/icons/Numix/24/mimetypes/audio-mp4.svg$
 - /usr/share/icons/Numix/24/mimetypes/audio-mpeg.svg$
 - /usr/share/icons/Numix/24/mimetypes/audio-scpls.svg$
+- /usr/share/icons/Numix/24/mimetypes/audio-vnd.dts.hd.svg$
+- /usr/share/icons/Numix/24/mimetypes/audio-vnd.dts.svg$
 - /usr/share/icons/Numix/24/mimetypes/audio-x-aac.svg$
 - /usr/share/icons/Numix/24/mimetypes/audio-x-adpcm.svg$
 - /usr/share/icons/Numix/24/mimetypes/audio-x-aiff.svg$
 - /usr/share/icons/Numix/24/mimetypes/audio-x-flac[+]ogg.svg$
 - /usr/share/icons/Numix/24/mimetypes/audio-x-flac.svg$
 - /usr/share/icons/Numix/24/mimetypes/audio-x-generic.svg$
+- /usr/share/icons/Numix/24/mimetypes/audio-x-gtp.svg$
 - /usr/share/icons/Numix/24/mimetypes/audio-x-it.svg$
 - /usr/share/icons/Numix/24/mimetypes/audio-x-m4a.svg$
 - /usr/share/icons/Numix/24/mimetypes/audio-x-midi.svg$
@@ -18348,11 +18467,13 @@ includes:
 - /usr/share/icons/Numix/24/mimetypes/audio-x-mpg.svg$
 - /usr/share/icons/Numix/24/mimetypes/audio-x-ms-wma.svg$
 - /usr/share/icons/Numix/24/mimetypes/audio-x-playlist.svg$
+- /usr/share/icons/Numix/24/mimetypes/audio-x-ptb.svg$
 - /usr/share/icons/Numix/24/mimetypes/audio-x-scpis.svg$
 - /usr/share/icons/Numix/24/mimetypes/audio-x-scpls.svg$
 - /usr/share/icons/Numix/24/mimetypes/audio-x-shorten.svg$
 - /usr/share/icons/Numix/24/mimetypes/audio-x-smart-playlist.svg$
 - /usr/share/icons/Numix/24/mimetypes/audio-x-speex[+]ogg.svg$
+- /usr/share/icons/Numix/24/mimetypes/audio-x-tg.svg$
 - /usr/share/icons/Numix/24/mimetypes/audio-x-vorbis[+]ogg.svg$
 - /usr/share/icons/Numix/24/mimetypes/audio-x-wav.svg$
 - /usr/share/icons/Numix/24/mimetypes/audio-x-xi.svg$
@@ -18660,6 +18781,8 @@ includes:
 - /usr/share/icons/Numix/24/mimetypes/mime_ascii.svg$
 - /usr/share/icons/Numix/24/mimetypes/misc.svg$
 - /usr/share/icons/Numix/24/mimetypes/model-fcstd.svg$
+- /usr/share/icons/Numix/24/mimetypes/model-iges.svg$
+- /usr/share/icons/Numix/24/mimetypes/model-stl.svg$
 - /usr/share/icons/Numix/24/mimetypes/model-vnd.dwf.svg$
 - /usr/share/icons/Numix/24/mimetypes/model-vrml.svg$
 - /usr/share/icons/Numix/24/mimetypes/model-x.stl-binary.svg$
@@ -18728,8 +18851,11 @@ includes:
 - /usr/share/icons/Numix/24/mimetypes/text-rust.svg$
 - /usr/share/icons/Numix/24/mimetypes/text-sgml.svg$
 - /usr/share/icons/Numix/24/mimetypes/text-spreadsheet.svg$
+- /usr/share/icons/Numix/24/mimetypes/text-tab-separated-values.svg$
 - /usr/share/icons/Numix/24/mimetypes/text-vcalendar.svg$
+- /usr/share/icons/Numix/24/mimetypes/text-vnd.grpahviz.svg$
 - /usr/share/icons/Numix/24/mimetypes/text-vnd.qt.linguist.svg$
+- /usr/share/icons/Numix/24/mimetypes/text-vtt.svg$
 - /usr/share/icons/Numix/24/mimetypes/text-x-R.svg$
 - /usr/share/icons/Numix/24/mimetypes/text-x-arduino.svg$
 - /usr/share/icons/Numix/24/mimetypes/text-x-authors.svg$
@@ -18750,6 +18876,7 @@ includes:
 - /usr/share/icons/Numix/24/mimetypes/text-x-css.svg$
 - /usr/share/icons/Numix/24/mimetypes/text-x-dsrc.svg$
 - /usr/share/icons/Numix/24/mimetypes/text-x-emacs-lisp.svg$
+- /usr/share/icons/Numix/24/mimetypes/text-x-erlang.svg$
 - /usr/share/icons/Numix/24/mimetypes/text-x-fortran.svg$
 - /usr/share/icons/Numix/24/mimetypes/text-x-generic-template.svg$
 - /usr/share/icons/Numix/24/mimetypes/text-x-generic.svg$
@@ -18774,6 +18901,7 @@ includes:
 - /usr/share/icons/Numix/24/mimetypes/text-x-makefile.svg$
 - /usr/share/icons/Numix/24/mimetypes/text-x-markdown.svg$
 - /usr/share/icons/Numix/24/mimetypes/text-x-matlab.svg$
+- /usr/share/icons/Numix/24/mimetypes/text-x-meson.svg$
 - /usr/share/icons/Numix/24/mimetypes/text-x-microdvd.svg$
 - /usr/share/icons/Numix/24/mimetypes/text-x-nfo.svg$
 - /usr/share/icons/Numix/24/mimetypes/text-x-nim.svg$
@@ -18805,6 +18933,9 @@ includes:
 - /usr/share/icons/Numix/24/mimetypes/text-x-scss.svg$
 - /usr/share/icons/Numix/24/mimetypes/text-x-source.svg$
 - /usr/share/icons/Numix/24/mimetypes/text-x-sql.svg$
+- /usr/share/icons/Numix/24/mimetypes/text-x-ssa.svg$
+- /usr/share/icons/Numix/24/mimetypes/text-x-subviewer.svg$
+- /usr/share/icons/Numix/24/mimetypes/text-x-systemd-unit.svg$
 - /usr/share/icons/Numix/24/mimetypes/text-x-tcl.svg$
 - /usr/share/icons/Numix/24/mimetypes/text-x-tex.svg$
 - /usr/share/icons/Numix/24/mimetypes/text-x-texinfo.svg$
@@ -22841,6 +22972,7 @@ includes:
 - /usr/share/icons/Numix/32/mimetypes/application-font-snf.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-font.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-geo[+]json.svg$
+- /usr/share/icons/Numix/32/mimetypes/application-gml[+]xml.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-gpx[+]xml.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-gpx.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-gzip.svg$
@@ -22859,7 +22991,9 @@ includes:
 - /usr/share/icons/Numix/32/mimetypes/application-java.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-javascript.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-json.svg$
+- /usr/share/icons/Numix/32/mimetypes/application-loc[+]xml.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-mathematica.svg$
+- /usr/share/icons/Numix/32/mimetypes/application-mathml[+]xml.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-mbox.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-msword-template.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-msword.svg$
@@ -22886,6 +23020,7 @@ includes:
 - /usr/share/icons/Numix/32/mimetypes/application-rss.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-rtf.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-script-blank.svg$
+- /usr/share/icons/Numix/32/mimetypes/application-slf[+]xml.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-software.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-sql.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-sxw.svg$
@@ -22902,11 +23037,15 @@ includes:
 - /usr/share/icons/Numix/32/mimetypes/application-vestor.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-video.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-vnd-google-earth-kml.svg$
+- /usr/share/icons/Numix/32/mimetypes/application-vnd.adobe.illustrator.svg$
+- /usr/share/icons/Numix/32/mimetypes/application-vnd.amazon.mobi8-ebook.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-vnd.android.package-archive.svg$
+- /usr/share/icons/Numix/32/mimetypes/application-vnd.ant.fit.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-vnd.appimage.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-vnd.coffeescript.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-vnd.corel-draw.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-vnd.debian.binary-package.svg$
+- /usr/share/icons/Numix/32/mimetypes/application-vnd.fai.igc.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-vnd.flatpak.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-vnd.flowblade-project.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-vnd.geo[+]json.svg$
@@ -22930,6 +23069,9 @@ includes:
 - /usr/share/icons/Numix/32/mimetypes/application-vnd.ms-excel.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-vnd.ms-powerpoint.presentation.macroEnabled.12.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-vnd.ms-powerpoint.svg$
+- /usr/share/icons/Numix/32/mimetypes/application-vnd.ms-visio.drawing.main[+]xml.svg$
+- /usr/share/icons/Numix/32/mimetypes/application-vnd.ms-visio.stencil.main[+]xml.svg$
+- /usr/share/icons/Numix/32/mimetypes/application-vnd.ms-visio.template.main[+]xml.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-vnd.ms-word.document.macroEnabled.12.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-vnd.ms-word.document.macroenabled.12.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-vnd.ms-word.svg$
@@ -22988,9 +23130,11 @@ includes:
 - /usr/share/icons/Numix/32/mimetypes/application-vnd.sun.xml.writer.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-vnd.sun.xml.writer.template.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-vnd.tcpdump.pcap.svg$
+- /usr/share/icons/Numix/32/mimetypes/application-vnd.visio.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-vnd.wordperfect.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-vnd.xdgapp.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-web-template.svg$
+- /usr/share/icons/Numix/32/mimetypes/application-winhlp.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-word-template.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-word.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-wps-office.doc.svg$
@@ -23012,6 +23156,7 @@ includes:
 - /usr/share/icons/Numix/32/mimetypes/application-x-aportisdoc.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-x-appimage.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-x-apple-diskimage.svg$
+- /usr/share/icons/Numix/32/mimetypes/application-x-appleworks-document.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-x-applix-spreadsheet.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-x-applix-word.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-x-ar.svg$
@@ -23045,6 +23190,8 @@ includes:
 - /usr/share/icons/Numix/32/mimetypes/application-x-designer.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-x-desktop.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-x-dgn.svg$
+- /usr/share/icons/Numix/32/mimetypes/application-x-dia-diagram.svg$
+- /usr/share/icons/Numix/32/mimetypes/application-x-dia-shape.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-x-domingo.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-x-dwg.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-x-egon.svg$
@@ -23082,6 +23229,7 @@ includes:
 - /usr/share/icons/Numix/32/mimetypes/application-x-gnome-theme-package.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-x-gnucash.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-x-gnumeric.svg$
+- /usr/share/icons/Numix/32/mimetypes/application-x-gnuplot.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-x-gpx[+]xml.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-x-gpx.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-x-gramps-package.svg$
@@ -23130,6 +23278,7 @@ includes:
 - /usr/share/icons/Numix/32/mimetypes/application-x-lzop.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-x-lzpdf.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-x-m4.svg$
+- /usr/share/icons/Numix/32/mimetypes/application-x-mathematica.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-x-matroska.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-x-mimearchive.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-x-mobi8-ebook.svg$
@@ -23165,9 +23314,12 @@ includes:
 - /usr/share/icons/Numix/32/mimetypes/application-x-php.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-x-pkcs12.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-x-pkcs7-certificates.svg$
+- /usr/share/icons/Numix/32/mimetypes/application-x-pyspread-bz-spreadsheet.svg$
+- /usr/share/icons/Numix/32/mimetypes/application-x-pyspread-spreadsheet.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-x-python-bytecode.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-x-qet-element.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-x-qet-project.svg$
+- /usr/share/icons/Numix/32/mimetypes/application-x-qtiplot.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-x-quattropro.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-x-r-project.svg$
 - /usr/share/icons/Numix/32/mimetypes/application-x-rar.svg$
@@ -23240,7 +23392,9 @@ includes:
 - /usr/share/icons/Numix/32/mimetypes/audio-mpeg.svg$
 - /usr/share/icons/Numix/32/mimetypes/audio-prs.sid.svg$
 - /usr/share/icons/Numix/32/mimetypes/audio-scpls.svg$
-- /usr/share/icons/Numix/32/mimetypes/audio-vn.rn-realmedia.svg$
+- /usr/share/icons/Numix/32/mimetypes/audio-vnd.dts.hd.svg$
+- /usr/share/icons/Numix/32/mimetypes/audio-vnd.dts.svg$
+- /usr/share/icons/Numix/32/mimetypes/audio-vnd.rn-realmedia.svg$
 - /usr/share/icons/Numix/32/mimetypes/audio-vnd.rn-realvideo.svg$
 - /usr/share/icons/Numix/32/mimetypes/audio-x-aac.svg$
 - /usr/share/icons/Numix/32/mimetypes/audio-x-adpcm.svg$
@@ -23248,6 +23402,7 @@ includes:
 - /usr/share/icons/Numix/32/mimetypes/audio-x-flac[+]ogg.svg$
 - /usr/share/icons/Numix/32/mimetypes/audio-x-flac.svg$
 - /usr/share/icons/Numix/32/mimetypes/audio-x-generic.svg$
+- /usr/share/icons/Numix/32/mimetypes/audio-x-gtp.svg$
 - /usr/share/icons/Numix/32/mimetypes/audio-x-it.svg$
 - /usr/share/icons/Numix/32/mimetypes/audio-x-m4a.svg$
 - /usr/share/icons/Numix/32/mimetypes/audio-x-midi.svg$
@@ -23259,11 +23414,13 @@ includes:
 - /usr/share/icons/Numix/32/mimetypes/audio-x-mpg.svg$
 - /usr/share/icons/Numix/32/mimetypes/audio-x-ms-wma.svg$
 - /usr/share/icons/Numix/32/mimetypes/audio-x-playlist.svg$
+- /usr/share/icons/Numix/32/mimetypes/audio-x-ptb.svg$
 - /usr/share/icons/Numix/32/mimetypes/audio-x-scpis.svg$
 - /usr/share/icons/Numix/32/mimetypes/audio-x-scpls.svg$
 - /usr/share/icons/Numix/32/mimetypes/audio-x-shorten.svg$
 - /usr/share/icons/Numix/32/mimetypes/audio-x-smart-playlist.svg$
 - /usr/share/icons/Numix/32/mimetypes/audio-x-speex[+]ogg.svg$
+- /usr/share/icons/Numix/32/mimetypes/audio-x-tuxguitar.svg$
 - /usr/share/icons/Numix/32/mimetypes/audio-x-vorbis[+]ogg.svg$
 - /usr/share/icons/Numix/32/mimetypes/audio-x-wav.svg$
 - /usr/share/icons/Numix/32/mimetypes/audio-x-xi.svg$
@@ -23574,6 +23731,8 @@ includes:
 - /usr/share/icons/Numix/32/mimetypes/mime_ascii.svg$
 - /usr/share/icons/Numix/32/mimetypes/misc.svg$
 - /usr/share/icons/Numix/32/mimetypes/model-fcstd.svg$
+- /usr/share/icons/Numix/32/mimetypes/model-iges.svg$
+- /usr/share/icons/Numix/32/mimetypes/model-stl.svg$
 - /usr/share/icons/Numix/32/mimetypes/model-vnd.dwf.svg$
 - /usr/share/icons/Numix/32/mimetypes/model-vrml.svg$
 - /usr/share/icons/Numix/32/mimetypes/model-x.stl-binary.svg$
@@ -23645,11 +23804,14 @@ includes:
 - /usr/share/icons/Numix/32/mimetypes/text-rust.svg$
 - /usr/share/icons/Numix/32/mimetypes/text-sgml.svg$
 - /usr/share/icons/Numix/32/mimetypes/text-spreadsheet.svg$
+- /usr/share/icons/Numix/32/mimetypes/text-tab-separated-values.svg$
 - /usr/share/icons/Numix/32/mimetypes/text-troff.svg$
 - /usr/share/icons/Numix/32/mimetypes/text-vcalendar.svg$
 - /usr/share/icons/Numix/32/mimetypes/text-vnd.abc.svg$
+- /usr/share/icons/Numix/32/mimetypes/text-vnd.grpahviz.svg$
 - /usr/share/icons/Numix/32/mimetypes/text-vnd.qt.linguist.svg$
 - /usr/share/icons/Numix/32/mimetypes/text-vnd.wap.wml.svg$
+- /usr/share/icons/Numix/32/mimetypes/text-vtt.svg$
 - /usr/share/icons/Numix/32/mimetypes/text-x-R.svg$
 - /usr/share/icons/Numix/32/mimetypes/text-x-arduino.svg$
 - /usr/share/icons/Numix/32/mimetypes/text-x-authors.svg$
@@ -23671,6 +23833,7 @@ includes:
 - /usr/share/icons/Numix/32/mimetypes/text-x-dsrc.svg$
 - /usr/share/icons/Numix/32/mimetypes/text-x-dtd.svg$
 - /usr/share/icons/Numix/32/mimetypes/text-x-emacs-lisp.svg$
+- /usr/share/icons/Numix/32/mimetypes/text-x-erlang.svg$
 - /usr/share/icons/Numix/32/mimetypes/text-x-fortran.svg$
 - /usr/share/icons/Numix/32/mimetypes/text-x-generic-template.svg$
 - /usr/share/icons/Numix/32/mimetypes/text-x-generic.svapplication-x-awk.svg$
@@ -23697,6 +23860,7 @@ includes:
 - /usr/share/icons/Numix/32/mimetypes/text-x-makefile.svg$
 - /usr/share/icons/Numix/32/mimetypes/text-x-markdown.svg$
 - /usr/share/icons/Numix/32/mimetypes/text-x-matlab.svg$
+- /usr/share/icons/Numix/32/mimetypes/text-x-meson.svg$
 - /usr/share/icons/Numix/32/mimetypes/text-x-microdvd.svg$
 - /usr/share/icons/Numix/32/mimetypes/text-x-nfo.svg$
 - /usr/share/icons/Numix/32/mimetypes/text-x-nim.svg$
@@ -23729,6 +23893,9 @@ includes:
 - /usr/share/icons/Numix/32/mimetypes/text-x-scss.svg$
 - /usr/share/icons/Numix/32/mimetypes/text-x-source.svg$
 - /usr/share/icons/Numix/32/mimetypes/text-x-sql.svg$
+- /usr/share/icons/Numix/32/mimetypes/text-x-ssa.svg$
+- /usr/share/icons/Numix/32/mimetypes/text-x-subviewer.svg$
+- /usr/share/icons/Numix/32/mimetypes/text-x-systemd-unit.svg$
 - /usr/share/icons/Numix/32/mimetypes/text-x-tcl.svg$
 - /usr/share/icons/Numix/32/mimetypes/text-x-tex.svg$
 - /usr/share/icons/Numix/32/mimetypes/text-x-texinfo.svg$
@@ -25984,6 +26151,7 @@ includes:
 - /usr/share/icons/Numix/48/mimetypes/application-font-snf.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-font.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-geo[+]json.svg$
+- /usr/share/icons/Numix/48/mimetypes/application-gml[+]xml.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-gpx[+]xml.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-gpx.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-gzip.svg$
@@ -26002,7 +26170,9 @@ includes:
 - /usr/share/icons/Numix/48/mimetypes/application-java.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-javascript.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-json.svg$
+- /usr/share/icons/Numix/48/mimetypes/application-loc[+]xml.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-mathematica.svg$
+- /usr/share/icons/Numix/48/mimetypes/application-mathml[+]xml.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-mbox.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-msword-template.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-msword.svg$
@@ -26027,6 +26197,7 @@ includes:
 - /usr/share/icons/Numix/48/mimetypes/application-rss.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-rtf.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-script-blank.svg$
+- /usr/share/icons/Numix/48/mimetypes/application-slf[+]xml.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-software.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-sql.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-table-template.svg$
@@ -26042,11 +26213,15 @@ includes:
 - /usr/share/icons/Numix/48/mimetypes/application-vestor.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-video.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-vnd-google-earth-kml.svg$
+- /usr/share/icons/Numix/48/mimetypes/application-vnd.adobe.illustrator.svg$
+- /usr/share/icons/Numix/48/mimetypes/application-vnd.amazon.mobi8-ebook.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-vnd.android.package-archive.svg$
+- /usr/share/icons/Numix/48/mimetypes/application-vnd.ant.fit.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-vnd.appimage.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-vnd.coffeescript.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-vnd.corel-draw.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-vnd.debian.binary-package.svg$
+- /usr/share/icons/Numix/48/mimetypes/application-vnd.fai.igc.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-vnd.flatpak.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-vnd.flowblade-project.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-vnd.geo[+]json.svg$
@@ -26070,6 +26245,9 @@ includes:
 - /usr/share/icons/Numix/48/mimetypes/application-vnd.ms-excel.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-vnd.ms-powerpoint.presentation.macroEnabled.12.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-vnd.ms-powerpoint.svg$
+- /usr/share/icons/Numix/48/mimetypes/application-vnd.ms-visio.drawing.main[+]xml.svg$
+- /usr/share/icons/Numix/48/mimetypes/application-vnd.ms-visio.stencil.main[+]xml.svg$
+- /usr/share/icons/Numix/48/mimetypes/application-vnd.ms-visio.template.main[+]xml.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-vnd.ms-word.document.macroEnabled.12.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-vnd.ms-word.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-vnd.nintendo.snes.rom.svg$
@@ -26111,9 +26289,11 @@ includes:
 - /usr/share/icons/Numix/48/mimetypes/application-vnd.sun.xml.draw.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-vnd.sun.xml.writer.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-vnd.tcpdump.pcap.svg$
+- /usr/share/icons/Numix/48/mimetypes/application-vnd.visio.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-vnd.wordperfect.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-vnd.xdgapp.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-web-template.svg$
+- /usr/share/icons/Numix/48/mimetypes/application-winhlp.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-word-template.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-word.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-x-7z-ace.svg$
@@ -26131,6 +26311,7 @@ includes:
 - /usr/share/icons/Numix/48/mimetypes/application-x-aportisdoc.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-x-appimage.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-x-apple-diskimage.svg$
+- /usr/share/icons/Numix/48/mimetypes/application-x-appleworks-document.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-x-applix-spreadsheet.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-x-ar.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-x-arc.svg$
@@ -26162,6 +26343,8 @@ includes:
 - /usr/share/icons/Numix/48/mimetypes/application-x-designer.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-x-desktop.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-x-dgn.svg$
+- /usr/share/icons/Numix/48/mimetypes/application-x-dia-diagram.svg$
+- /usr/share/icons/Numix/48/mimetypes/application-x-dia-shape.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-x-domingo.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-x-dwg.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-x-egon.svg$
@@ -26198,6 +26381,7 @@ includes:
 - /usr/share/icons/Numix/48/mimetypes/application-x-gnome-theme-package.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-x-gnucash.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-x-gnumeric.svg$
+- /usr/share/icons/Numix/48/mimetypes/application-x-gnuplot.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-x-gpx[+]xml.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-x-gpx.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-x-gramps-package.svg$
@@ -26243,6 +26427,7 @@ includes:
 - /usr/share/icons/Numix/48/mimetypes/application-x-lzop.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-x-lzpdf.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-x-m4.svg$
+- /usr/share/icons/Numix/48/mimetypes/application-x-mathematica.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-x-matroska.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-x-mobi8-ebook.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-x-mobipocket-ebook.svg$
@@ -26273,7 +26458,10 @@ includes:
 - /usr/share/icons/Numix/48/mimetypes/application-x-perl.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-x-php.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-x-pkcs12.svg$
+- /usr/share/icons/Numix/48/mimetypes/application-x-pyspread-bz-spreadsheet.svg$
+- /usr/share/icons/Numix/48/mimetypes/application-x-pyspread-spreadsheet.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-x-python-bytecode.svg$
+- /usr/share/icons/Numix/48/mimetypes/application-x-qtiplot.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-x-quattropro.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-x-r-project.svg$
 - /usr/share/icons/Numix/48/mimetypes/application-x-rar.svg$
@@ -26342,12 +26530,16 @@ includes:
 - /usr/share/icons/Numix/48/mimetypes/audio-mp4.svg$
 - /usr/share/icons/Numix/48/mimetypes/audio-mpeg.svg$
 - /usr/share/icons/Numix/48/mimetypes/audio-scpls.svg$
+- /usr/share/icons/Numix/48/mimetypes/audio-vnd.dts.hd.svg$
+- /usr/share/icons/Numix/48/mimetypes/audio-vnd.dts.svg$
+- /usr/share/icons/Numix/48/mimetypes/audio-vnd.rn-realmedia.svg$
 - /usr/share/icons/Numix/48/mimetypes/audio-x-aac.svg$
 - /usr/share/icons/Numix/48/mimetypes/audio-x-adpcm.svg$
 - /usr/share/icons/Numix/48/mimetypes/audio-x-aiff.svg$
 - /usr/share/icons/Numix/48/mimetypes/audio-x-flac[+]ogg.svg$
 - /usr/share/icons/Numix/48/mimetypes/audio-x-flac.svg$
 - /usr/share/icons/Numix/48/mimetypes/audio-x-generic.svg$
+- /usr/share/icons/Numix/48/mimetypes/audio-x-gtp.svg$
 - /usr/share/icons/Numix/48/mimetypes/audio-x-it.svg$
 - /usr/share/icons/Numix/48/mimetypes/audio-x-m4a.svg$
 - /usr/share/icons/Numix/48/mimetypes/audio-x-midi.svg$
@@ -26359,11 +26551,13 @@ includes:
 - /usr/share/icons/Numix/48/mimetypes/audio-x-mpg.svg$
 - /usr/share/icons/Numix/48/mimetypes/audio-x-ms-wma.svg$
 - /usr/share/icons/Numix/48/mimetypes/audio-x-playlist.svg$
+- /usr/share/icons/Numix/48/mimetypes/audio-x-ptb.svg$
 - /usr/share/icons/Numix/48/mimetypes/audio-x-scpis.svg$
 - /usr/share/icons/Numix/48/mimetypes/audio-x-scpls.svg$
 - /usr/share/icons/Numix/48/mimetypes/audio-x-shorten.svg$
 - /usr/share/icons/Numix/48/mimetypes/audio-x-smart-playlist.svg$
 - /usr/share/icons/Numix/48/mimetypes/audio-x-speex[+]ogg.svg$
+- /usr/share/icons/Numix/48/mimetypes/audio-x-tuxguitar.svg$
 - /usr/share/icons/Numix/48/mimetypes/audio-x-vorbis[+]ogg.svg$
 - /usr/share/icons/Numix/48/mimetypes/audio-x-wav.svg$
 - /usr/share/icons/Numix/48/mimetypes/audio-x-xi.svg$
@@ -26671,6 +26865,8 @@ includes:
 - /usr/share/icons/Numix/48/mimetypes/mime_ascii.svg$
 - /usr/share/icons/Numix/48/mimetypes/misc.svg$
 - /usr/share/icons/Numix/48/mimetypes/model-fcstd.svg$
+- /usr/share/icons/Numix/48/mimetypes/model-iges.svg$
+- /usr/share/icons/Numix/48/mimetypes/model-stl.svg$
 - /usr/share/icons/Numix/48/mimetypes/model-vnd.dwf.svg$
 - /usr/share/icons/Numix/48/mimetypes/model-vrml.svg$
 - /usr/share/icons/Numix/48/mimetypes/model-x.stl-binary.svg$
@@ -26739,8 +26935,11 @@ includes:
 - /usr/share/icons/Numix/48/mimetypes/text-rust.svg$
 - /usr/share/icons/Numix/48/mimetypes/text-sgml.svg$
 - /usr/share/icons/Numix/48/mimetypes/text-spreadsheet.svg$
+- /usr/share/icons/Numix/48/mimetypes/text-tab-separated-values.svg$
 - /usr/share/icons/Numix/48/mimetypes/text-vcalendar.svg$
+- /usr/share/icons/Numix/48/mimetypes/text-vnd.grpahviz.svg$
 - /usr/share/icons/Numix/48/mimetypes/text-vnd.qt.linguist.svg$
+- /usr/share/icons/Numix/48/mimetypes/text-vtt.svg$
 - /usr/share/icons/Numix/48/mimetypes/text-x-R.svg$
 - /usr/share/icons/Numix/48/mimetypes/text-x-arduino.svg$
 - /usr/share/icons/Numix/48/mimetypes/text-x-authors.svg$
@@ -26761,6 +26960,7 @@ includes:
 - /usr/share/icons/Numix/48/mimetypes/text-x-css.svg$
 - /usr/share/icons/Numix/48/mimetypes/text-x-dsrc.svg$
 - /usr/share/icons/Numix/48/mimetypes/text-x-emacs-lisp.svg$
+- /usr/share/icons/Numix/48/mimetypes/text-x-erlang.svg$
 - /usr/share/icons/Numix/48/mimetypes/text-x-fortran.svg$
 - /usr/share/icons/Numix/48/mimetypes/text-x-generic-template.svg$
 - /usr/share/icons/Numix/48/mimetypes/text-x-generic.svg$
@@ -26785,6 +26985,7 @@ includes:
 - /usr/share/icons/Numix/48/mimetypes/text-x-makefile.svg$
 - /usr/share/icons/Numix/48/mimetypes/text-x-markdown.svg$
 - /usr/share/icons/Numix/48/mimetypes/text-x-matlab.svg$
+- /usr/share/icons/Numix/48/mimetypes/text-x-meson.svg$
 - /usr/share/icons/Numix/48/mimetypes/text-x-microdvd.svg$
 - /usr/share/icons/Numix/48/mimetypes/text-x-nfo.svg$
 - /usr/share/icons/Numix/48/mimetypes/text-x-nim.svg$
@@ -26816,6 +27017,9 @@ includes:
 - /usr/share/icons/Numix/48/mimetypes/text-x-scss.svg$
 - /usr/share/icons/Numix/48/mimetypes/text-x-source.svg$
 - /usr/share/icons/Numix/48/mimetypes/text-x-sql.svg$
+- /usr/share/icons/Numix/48/mimetypes/text-x-ssa.svg$
+- /usr/share/icons/Numix/48/mimetypes/text-x-subviewer.svg$
+- /usr/share/icons/Numix/48/mimetypes/text-x-systemd-unit.svg$
 - /usr/share/icons/Numix/48/mimetypes/text-x-tcl.svg$
 - /usr/share/icons/Numix/48/mimetypes/text-x-tex.svg$
 - /usr/share/icons/Numix/48/mimetypes/text-x-texinfo.svg$
@@ -29121,6 +29325,7 @@ includes:
 - /usr/share/icons/Numix/64/mimetypes/application-font-snf.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-font.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-geo[+]json.svg$
+- /usr/share/icons/Numix/64/mimetypes/application-gml[+]xml.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-gpx[+]xml.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-gpx.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-gzip.svg$
@@ -29139,7 +29344,9 @@ includes:
 - /usr/share/icons/Numix/64/mimetypes/application-java.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-javascript.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-json.svg$
+- /usr/share/icons/Numix/64/mimetypes/application-loc[+]xml.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-mathematica.svg$
+- /usr/share/icons/Numix/64/mimetypes/application-mathml[+]xml.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-mbox.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-msword-template.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-msword.svg$
@@ -29166,6 +29373,7 @@ includes:
 - /usr/share/icons/Numix/64/mimetypes/application-rss.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-rtf.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-script-blank.svg$
+- /usr/share/icons/Numix/64/mimetypes/application-slf[+]xml.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-software.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-sql.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-sxw.svg$
@@ -29182,11 +29390,15 @@ includes:
 - /usr/share/icons/Numix/64/mimetypes/application-vestor.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-video.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-vnd-google-earth-kml.svg$
+- /usr/share/icons/Numix/64/mimetypes/application-vnd.adobe.illustrator.svg$
+- /usr/share/icons/Numix/64/mimetypes/application-vnd.amazon.mobi8-ebook.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-vnd.android.package-archive.svg$
+- /usr/share/icons/Numix/64/mimetypes/application-vnd.ant.fit.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-vnd.appimage.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-vnd.coffeescript.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-vnd.corel-draw.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-vnd.debian.binary-package.svg$
+- /usr/share/icons/Numix/64/mimetypes/application-vnd.fai.igc.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-vnd.flatpak.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-vnd.flowblade-project.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-vnd.geo[+]json.svg$
@@ -29210,6 +29422,9 @@ includes:
 - /usr/share/icons/Numix/64/mimetypes/application-vnd.ms-excel.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-vnd.ms-powerpoint.presentation.macroEnabled.12.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-vnd.ms-powerpoint.svg$
+- /usr/share/icons/Numix/64/mimetypes/application-vnd.ms-visio.drawing.main[+]xml.svg$
+- /usr/share/icons/Numix/64/mimetypes/application-vnd.ms-visio.stencil.main[+]xml.svg$
+- /usr/share/icons/Numix/64/mimetypes/application-vnd.ms-visio.template.main[+]xml.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-vnd.ms-word.document.macroEnabled.12.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-vnd.ms-word.document.macroenabled.12.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-vnd.ms-word.svg$
@@ -29268,9 +29483,11 @@ includes:
 - /usr/share/icons/Numix/64/mimetypes/application-vnd.sun.xml.writer.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-vnd.sun.xml.writer.template.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-vnd.tcpdump.pcap.svg$
+- /usr/share/icons/Numix/64/mimetypes/application-vnd.visio.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-vnd.wordperfect.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-vnd.xdgapp.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-web-template.svg$
+- /usr/share/icons/Numix/64/mimetypes/application-winhlp.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-word-template.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-word.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-wps-office.doc.svg$
@@ -29292,6 +29509,7 @@ includes:
 - /usr/share/icons/Numix/64/mimetypes/application-x-aportisdoc.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-x-appimage.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-x-apple-diskimage.svg$
+- /usr/share/icons/Numix/64/mimetypes/application-x-appleworks-document.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-x-applix-spreadsheet.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-x-applix-word.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-x-ar.svg$
@@ -29325,6 +29543,8 @@ includes:
 - /usr/share/icons/Numix/64/mimetypes/application-x-designer.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-x-desktop.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-x-dgn.svg$
+- /usr/share/icons/Numix/64/mimetypes/application-x-dia-diagram.svg$
+- /usr/share/icons/Numix/64/mimetypes/application-x-dia-shape.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-x-domingo.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-x-dwg.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-x-egon.svg$
@@ -29362,6 +29582,7 @@ includes:
 - /usr/share/icons/Numix/64/mimetypes/application-x-gnome-theme-package.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-x-gnucash.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-x-gnumeric.svg$
+- /usr/share/icons/Numix/64/mimetypes/application-x-gnuplot.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-x-gpx[+]xml.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-x-gpx.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-x-gramps-package.svg$
@@ -29410,6 +29631,7 @@ includes:
 - /usr/share/icons/Numix/64/mimetypes/application-x-lzop.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-x-lzpdf.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-x-m4.svg$
+- /usr/share/icons/Numix/64/mimetypes/application-x-mathematica.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-x-matroska.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-x-mimearchive.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-x-mobi8-ebook.svg$
@@ -29445,9 +29667,12 @@ includes:
 - /usr/share/icons/Numix/64/mimetypes/application-x-php.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-x-pkcs12.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-x-pkcs7-certificates.svg$
+- /usr/share/icons/Numix/64/mimetypes/application-x-pyspread-bz-spreadsheet.svg$
+- /usr/share/icons/Numix/64/mimetypes/application-x-pyspread-spreadsheet.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-x-python-bytecode.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-x-qet-element.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-x-qet-project.svg$
+- /usr/share/icons/Numix/64/mimetypes/application-x-qtiplot.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-x-quattropro.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-x-r-project.svg$
 - /usr/share/icons/Numix/64/mimetypes/application-x-rar.svg$
@@ -29520,7 +29745,9 @@ includes:
 - /usr/share/icons/Numix/64/mimetypes/audio-mpeg.svg$
 - /usr/share/icons/Numix/64/mimetypes/audio-prs.sid.svg$
 - /usr/share/icons/Numix/64/mimetypes/audio-scpls.svg$
-- /usr/share/icons/Numix/64/mimetypes/audio-vn.rn-realmedia.svg$
+- /usr/share/icons/Numix/64/mimetypes/audio-vnd.dts.hd.svg$
+- /usr/share/icons/Numix/64/mimetypes/audio-vnd.dts.svg$
+- /usr/share/icons/Numix/64/mimetypes/audio-vnd.rn-realmedia.svg$
 - /usr/share/icons/Numix/64/mimetypes/audio-vnd.rn-realvideo.svg$
 - /usr/share/icons/Numix/64/mimetypes/audio-x-aac.svg$
 - /usr/share/icons/Numix/64/mimetypes/audio-x-adpcm.svg$
@@ -29528,6 +29755,7 @@ includes:
 - /usr/share/icons/Numix/64/mimetypes/audio-x-flac[+]ogg.svg$
 - /usr/share/icons/Numix/64/mimetypes/audio-x-flac.svg$
 - /usr/share/icons/Numix/64/mimetypes/audio-x-generic.svg$
+- /usr/share/icons/Numix/64/mimetypes/audio-x-gtp.svg$
 - /usr/share/icons/Numix/64/mimetypes/audio-x-it.svg$
 - /usr/share/icons/Numix/64/mimetypes/audio-x-m4a.svg$
 - /usr/share/icons/Numix/64/mimetypes/audio-x-midi.svg$
@@ -29539,11 +29767,13 @@ includes:
 - /usr/share/icons/Numix/64/mimetypes/audio-x-mpg.svg$
 - /usr/share/icons/Numix/64/mimetypes/audio-x-ms-wma.svg$
 - /usr/share/icons/Numix/64/mimetypes/audio-x-playlist.svg$
+- /usr/share/icons/Numix/64/mimetypes/audio-x-ptb.svg$
 - /usr/share/icons/Numix/64/mimetypes/audio-x-scpis.svg$
 - /usr/share/icons/Numix/64/mimetypes/audio-x-scpls.svg$
 - /usr/share/icons/Numix/64/mimetypes/audio-x-shorten.svg$
 - /usr/share/icons/Numix/64/mimetypes/audio-x-smart-playlist.svg$
 - /usr/share/icons/Numix/64/mimetypes/audio-x-speex[+]ogg.svg$
+- /usr/share/icons/Numix/64/mimetypes/audio-x-tuxguitar.svg$
 - /usr/share/icons/Numix/64/mimetypes/audio-x-vorbis[+]ogg.svg$
 - /usr/share/icons/Numix/64/mimetypes/audio-x-wav.svg$
 - /usr/share/icons/Numix/64/mimetypes/audio-x-xi.svg$
@@ -29854,6 +30084,8 @@ includes:
 - /usr/share/icons/Numix/64/mimetypes/mime_ascii.svg$
 - /usr/share/icons/Numix/64/mimetypes/misc.svg$
 - /usr/share/icons/Numix/64/mimetypes/model-fcstd.svg$
+- /usr/share/icons/Numix/64/mimetypes/model-iges.svg$
+- /usr/share/icons/Numix/64/mimetypes/model-stl.svg$
 - /usr/share/icons/Numix/64/mimetypes/model-vnd.dwf.svg$
 - /usr/share/icons/Numix/64/mimetypes/model-vrml.svg$
 - /usr/share/icons/Numix/64/mimetypes/model-x.stl-binary.svg$
@@ -29925,11 +30157,14 @@ includes:
 - /usr/share/icons/Numix/64/mimetypes/text-rust.svg$
 - /usr/share/icons/Numix/64/mimetypes/text-sgml.svg$
 - /usr/share/icons/Numix/64/mimetypes/text-spreadsheet.svg$
+- /usr/share/icons/Numix/64/mimetypes/text-tab-separated-values.svg$
 - /usr/share/icons/Numix/64/mimetypes/text-troff.svg$
 - /usr/share/icons/Numix/64/mimetypes/text-vcalendar.svg$
 - /usr/share/icons/Numix/64/mimetypes/text-vnd.abc.svg$
+- /usr/share/icons/Numix/64/mimetypes/text-vnd.grpahviz.svg$
 - /usr/share/icons/Numix/64/mimetypes/text-vnd.qt.linguist.svg$
 - /usr/share/icons/Numix/64/mimetypes/text-vnd.wap.wml.svg$
+- /usr/share/icons/Numix/64/mimetypes/text-vtt.svg$
 - /usr/share/icons/Numix/64/mimetypes/text-x-R.svg$
 - /usr/share/icons/Numix/64/mimetypes/text-x-arduino.svg$
 - /usr/share/icons/Numix/64/mimetypes/text-x-authors.svg$
@@ -29951,6 +30186,7 @@ includes:
 - /usr/share/icons/Numix/64/mimetypes/text-x-dsrc.svg$
 - /usr/share/icons/Numix/64/mimetypes/text-x-dtd.svg$
 - /usr/share/icons/Numix/64/mimetypes/text-x-emacs-lisp.svg$
+- /usr/share/icons/Numix/64/mimetypes/text-x-erlang.svg$
 - /usr/share/icons/Numix/64/mimetypes/text-x-fortran.svg$
 - /usr/share/icons/Numix/64/mimetypes/text-x-generic-template.svg$
 - /usr/share/icons/Numix/64/mimetypes/text-x-generic.svapplication-x-awk.svg$
@@ -29977,6 +30213,7 @@ includes:
 - /usr/share/icons/Numix/64/mimetypes/text-x-makefile.svg$
 - /usr/share/icons/Numix/64/mimetypes/text-x-markdown.svg$
 - /usr/share/icons/Numix/64/mimetypes/text-x-matlab.svg$
+- /usr/share/icons/Numix/64/mimetypes/text-x-meson.svg$
 - /usr/share/icons/Numix/64/mimetypes/text-x-microdvd.svg$
 - /usr/share/icons/Numix/64/mimetypes/text-x-nfo.svg$
 - /usr/share/icons/Numix/64/mimetypes/text-x-nim.svg$
@@ -30009,6 +30246,9 @@ includes:
 - /usr/share/icons/Numix/64/mimetypes/text-x-scss.svg$
 - /usr/share/icons/Numix/64/mimetypes/text-x-source.svg$
 - /usr/share/icons/Numix/64/mimetypes/text-x-sql.svg$
+- /usr/share/icons/Numix/64/mimetypes/text-x-ssa.svg$
+- /usr/share/icons/Numix/64/mimetypes/text-x-subviewer.svg$
+- /usr/share/icons/Numix/64/mimetypes/text-x-systemd-unit.svg$
 - /usr/share/icons/Numix/64/mimetypes/text-x-tcl.svg$
 - /usr/share/icons/Numix/64/mimetypes/text-x-tex.svg$
 - /usr/share/icons/Numix/64/mimetypes/text-x-texinfo.svg$
@@ -31200,6 +31440,28 @@ includes:
 - /usr/share/icons/Numix/scalable/status/battery-full-symbolic.svg$
 - /usr/share/icons/Numix/scalable/status/battery-good-charging-symbolic.svg$
 - /usr/share/icons/Numix/scalable/status/battery-good-symbolic.svg$
+- /usr/share/icons/Numix/scalable/status/battery-level-0-charging-symbolic.svg$
+- /usr/share/icons/Numix/scalable/status/battery-level-0-symbolic.svg$
+- /usr/share/icons/Numix/scalable/status/battery-level-10-charging-symbolic.svg$
+- /usr/share/icons/Numix/scalable/status/battery-level-10-symbolic.svg$
+- /usr/share/icons/Numix/scalable/status/battery-level-100-charged-symbolic.svg$
+- /usr/share/icons/Numix/scalable/status/battery-level-100-symbolic.svg$
+- /usr/share/icons/Numix/scalable/status/battery-level-20-charging-symbolic.svg$
+- /usr/share/icons/Numix/scalable/status/battery-level-20-symbolic.svg$
+- /usr/share/icons/Numix/scalable/status/battery-level-30-charging-symbolic.svg$
+- /usr/share/icons/Numix/scalable/status/battery-level-30-symbolic.svg$
+- /usr/share/icons/Numix/scalable/status/battery-level-40-charging-symbolic.svg$
+- /usr/share/icons/Numix/scalable/status/battery-level-40-symbolic.svg$
+- /usr/share/icons/Numix/scalable/status/battery-level-50-charging-symbolic.svg$
+- /usr/share/icons/Numix/scalable/status/battery-level-50-symbolic.svg$
+- /usr/share/icons/Numix/scalable/status/battery-level-60-charging-symbolic.svg$
+- /usr/share/icons/Numix/scalable/status/battery-level-60-symbolic.svg$
+- /usr/share/icons/Numix/scalable/status/battery-level-70-charging-symbolic.svg$
+- /usr/share/icons/Numix/scalable/status/battery-level-70-symbolic.svg$
+- /usr/share/icons/Numix/scalable/status/battery-level-80-charging-symbolic.svg$
+- /usr/share/icons/Numix/scalable/status/battery-level-80-symbolic.svg$
+- /usr/share/icons/Numix/scalable/status/battery-level-90-charging-symbolic.svg$
+- /usr/share/icons/Numix/scalable/status/battery-level-90-symbolic.svg$
 - /usr/share/icons/Numix/scalable/status/battery-low-charging-symbolic.svg$
 - /usr/share/icons/Numix/scalable/status/battery-low-symbolic.svg$
 - /usr/share/icons/Numix/scalable/status/battery-missing-symbolic.svg$
@@ -31330,3 +31592,6 @@ includes:
 - /usr/share/icons/Numix/scalable/status/weather-storm-symbolic.svg$
 - /usr/share/icons/Numix/scalable/status/xn-emblem-system-symbolic.svg$
 - /usr/share/icons/Numix/scalable/status/xn-playlist-symbolic.svg$
+env:
+- ORIGINAL_ATOM=x11-themes/numix-icon-theme
+- ORIGINAL_PACKAGE=x11-themes/numix-icon-theme-20.03.20
