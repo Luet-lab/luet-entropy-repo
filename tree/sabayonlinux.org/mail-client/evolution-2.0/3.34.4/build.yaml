@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i mail-client/evolution-3.32.5-r1 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -342,6 +343,7 @@ includes:
 - /usr/include/evolution/e-util/e-util-enums.h$
 - /usr/include/evolution/e-util/e-util-enumtypes.h$
 - /usr/include/evolution/e-util/e-util.h$
+- /usr/include/evolution/e-util/e-web-extension-container.h$
 - /usr/include/evolution/e-util/e-web-view-preview.h$
 - /usr/include/evolution/e-util/e-web-view.h$
 - /usr/include/evolution/e-util/e-webdav-browser.h$
@@ -472,6 +474,8 @@ includes:
 - /usr/include/evolution/mail/e-mail-enumtypes.h$
 - /usr/include/evolution/mail/e-mail-folder-create-dialog.h$
 - /usr/include/evolution/mail/e-mail-folder-pane.h$
+- /usr/include/evolution/mail/e-mail-folder-sort-order-dialog.h$
+- /usr/include/evolution/mail/e-mail-folder-tweaks.h$
 - /usr/include/evolution/mail/e-mail-free-form-exp.h$
 - /usr/include/evolution/mail/e-mail-junk-options.h$
 - /usr/include/evolution/mail/e-mail-label-action.h$
@@ -625,7 +629,6 @@ includes:
 - /usr/lib64/evolution/plugins/org-gnome-templates.eplug$
 - /usr/lib64/evolution/web-extensions$
 - /usr/lib64/evolution/web-extensions/libewebextension.so$
-- /usr/lib64/evolution/web-extensions/module-itip-formatter-webextension.so$
 - /usr/lib64/evolution/web-extensions/webkit-editor$
 - /usr/lib64/evolution/web-extensions/webkit-editor/module-webkit-editor-webextension.so$
 - /usr/lib64/pkgconfig$
@@ -644,13 +647,13 @@ includes:
 - /usr/share/applications$
 - /usr/share/applications/org.gnome.Evolution.desktop$
 - /usr/share/doc$
-- /usr/share/doc/evolution-3.32.5-r1$
-- /usr/share/doc/evolution-3.32.5-r1/AUTHORS.bz2$
-- /usr/share/doc/evolution-3.32.5-r1/ChangeLog.bz2$
-- /usr/share/doc/evolution-3.32.5-r1/NEWS.bz2$
-- /usr/share/doc/evolution-3.32.5-r1/README.bz2$
-- /usr/share/doc/evolution-3.32.5-r1/README.gentoo.bz2$
-- /usr/share/doc/evolution-3.32.5-r1/README.translators.bz2$
+- /usr/share/doc/evolution-3.34.4$
+- /usr/share/doc/evolution-3.34.4/AUTHORS.bz2$
+- /usr/share/doc/evolution-3.34.4/ChangeLog.bz2$
+- /usr/share/doc/evolution-3.34.4/NEWS.bz2$
+- /usr/share/doc/evolution-3.34.4/README.gentoo.bz2$
+- /usr/share/doc/evolution-3.34.4/README.md.bz2$
+- /usr/share/doc/evolution-3.34.4/README.translators.bz2$
 - /usr/share/evolution$
 - /usr/share/evolution/address_formats.dat$
 - /usr/share/evolution/addresstypes.xml$
@@ -968,9 +971,7 @@ includes:
 - /usr/share/evolution/images/draft-paper.png$
 - /usr/share/evolution/images/draft-stamp.jpg$
 - /usr/share/evolution/images/midnight-stars.jpg$
-- /usr/share/evolution/images/minus.png$
 - /usr/share/evolution/images/paper.png$
-- /usr/share/evolution/images/plus.png$
 - /usr/share/evolution/images/rect.png$
 - /usr/share/evolution/images/ribbon.jpg$
 - /usr/share/evolution/images/texture.png$
@@ -999,6 +1000,7 @@ includes:
 - /usr/share/evolution/ui/evolution-mail.ui$
 - /usr/share/evolution/ui/evolution-memos.ui$
 - /usr/share/evolution/ui/evolution-shell.ui$
+- /usr/share/evolution/ui/evolution-shortcuts.ui$
 - /usr/share/evolution/ui/evolution-tasks.ui$
 - /usr/share/evolution/ui/filter.ui$
 - /usr/share/evolution/ui/fullname.ui$
@@ -1286,7 +1288,6 @@ includes:
 - /usr/share/help/C/evolution/tasks-webdav.page$
 - /usr/share/help/C/evolution/using-categories.page$
 - /usr/share/help/C/evolution/xinclude-filter-vfolder-conditions.xml$
-- /usr/share/help/C/evolution/xinclude-mail-account-identity.xml$
 - /usr/share/help/C/evolution/xinclude-searching.xml$
 - /usr/share/help/ca$
 - /usr/share/help/ca/evolution$
@@ -1516,7 +1517,6 @@ includes:
 - /usr/share/help/ca/evolution/tasks-webdav.page$
 - /usr/share/help/ca/evolution/using-categories.page$
 - /usr/share/help/ca/evolution/xinclude-filter-vfolder-conditions.xml$
-- /usr/share/help/ca/evolution/xinclude-mail-account-identity.xml$
 - /usr/share/help/ca/evolution/xinclude-searching.xml$
 - /usr/share/help/cs$
 - /usr/share/help/cs/evolution$
@@ -1746,7 +1746,6 @@ includes:
 - /usr/share/help/cs/evolution/tasks-webdav.page$
 - /usr/share/help/cs/evolution/using-categories.page$
 - /usr/share/help/cs/evolution/xinclude-filter-vfolder-conditions.xml$
-- /usr/share/help/cs/evolution/xinclude-mail-account-identity.xml$
 - /usr/share/help/cs/evolution/xinclude-searching.xml$
 - /usr/share/help/de$
 - /usr/share/help/de/evolution$
@@ -1976,7 +1975,6 @@ includes:
 - /usr/share/help/de/evolution/tasks-webdav.page$
 - /usr/share/help/de/evolution/using-categories.page$
 - /usr/share/help/de/evolution/xinclude-filter-vfolder-conditions.xml$
-- /usr/share/help/de/evolution/xinclude-mail-account-identity.xml$
 - /usr/share/help/de/evolution/xinclude-searching.xml$
 - /usr/share/help/el$
 - /usr/share/help/el/evolution$
@@ -2206,7 +2204,6 @@ includes:
 - /usr/share/help/el/evolution/tasks-webdav.page$
 - /usr/share/help/el/evolution/using-categories.page$
 - /usr/share/help/el/evolution/xinclude-filter-vfolder-conditions.xml$
-- /usr/share/help/el/evolution/xinclude-mail-account-identity.xml$
 - /usr/share/help/el/evolution/xinclude-searching.xml$
 - /usr/share/help/en_GB$
 - /usr/share/help/en_GB/evolution$
@@ -2436,7 +2433,6 @@ includes:
 - /usr/share/help/en_GB/evolution/tasks-webdav.page$
 - /usr/share/help/en_GB/evolution/using-categories.page$
 - /usr/share/help/en_GB/evolution/xinclude-filter-vfolder-conditions.xml$
-- /usr/share/help/en_GB/evolution/xinclude-mail-account-identity.xml$
 - /usr/share/help/en_GB/evolution/xinclude-searching.xml$
 - /usr/share/help/es$
 - /usr/share/help/es/evolution$
@@ -2666,7 +2662,6 @@ includes:
 - /usr/share/help/es/evolution/tasks-webdav.page$
 - /usr/share/help/es/evolution/using-categories.page$
 - /usr/share/help/es/evolution/xinclude-filter-vfolder-conditions.xml$
-- /usr/share/help/es/evolution/xinclude-mail-account-identity.xml$
 - /usr/share/help/es/evolution/xinclude-searching.xml$
 - /usr/share/help/eu$
 - /usr/share/help/eu/evolution$
@@ -2896,7 +2891,6 @@ includes:
 - /usr/share/help/eu/evolution/tasks-webdav.page$
 - /usr/share/help/eu/evolution/using-categories.page$
 - /usr/share/help/eu/evolution/xinclude-filter-vfolder-conditions.xml$
-- /usr/share/help/eu/evolution/xinclude-mail-account-identity.xml$
 - /usr/share/help/eu/evolution/xinclude-searching.xml$
 - /usr/share/help/fr$
 - /usr/share/help/fr/evolution$
@@ -3126,7 +3120,6 @@ includes:
 - /usr/share/help/fr/evolution/tasks-webdav.page$
 - /usr/share/help/fr/evolution/using-categories.page$
 - /usr/share/help/fr/evolution/xinclude-filter-vfolder-conditions.xml$
-- /usr/share/help/fr/evolution/xinclude-mail-account-identity.xml$
 - /usr/share/help/fr/evolution/xinclude-searching.xml$
 - /usr/share/help/gl$
 - /usr/share/help/gl/evolution$
@@ -3356,7 +3349,6 @@ includes:
 - /usr/share/help/gl/evolution/tasks-webdav.page$
 - /usr/share/help/gl/evolution/using-categories.page$
 - /usr/share/help/gl/evolution/xinclude-filter-vfolder-conditions.xml$
-- /usr/share/help/gl/evolution/xinclude-mail-account-identity.xml$
 - /usr/share/help/gl/evolution/xinclude-searching.xml$
 - /usr/share/help/hu$
 - /usr/share/help/hu/evolution$
@@ -3586,7 +3578,6 @@ includes:
 - /usr/share/help/hu/evolution/tasks-webdav.page$
 - /usr/share/help/hu/evolution/using-categories.page$
 - /usr/share/help/hu/evolution/xinclude-filter-vfolder-conditions.xml$
-- /usr/share/help/hu/evolution/xinclude-mail-account-identity.xml$
 - /usr/share/help/hu/evolution/xinclude-searching.xml$
 - /usr/share/help/mk$
 - /usr/share/help/mk/evolution$
@@ -3816,7 +3807,6 @@ includes:
 - /usr/share/help/mk/evolution/tasks-webdav.page$
 - /usr/share/help/mk/evolution/using-categories.page$
 - /usr/share/help/mk/evolution/xinclude-filter-vfolder-conditions.xml$
-- /usr/share/help/mk/evolution/xinclude-mail-account-identity.xml$
 - /usr/share/help/mk/evolution/xinclude-searching.xml$
 - /usr/share/help/oc$
 - /usr/share/help/oc/evolution$
@@ -4046,7 +4036,6 @@ includes:
 - /usr/share/help/oc/evolution/tasks-webdav.page$
 - /usr/share/help/oc/evolution/using-categories.page$
 - /usr/share/help/oc/evolution/xinclude-filter-vfolder-conditions.xml$
-- /usr/share/help/oc/evolution/xinclude-mail-account-identity.xml$
 - /usr/share/help/oc/evolution/xinclude-searching.xml$
 - /usr/share/help/ru$
 - /usr/share/help/ru/evolution$
@@ -4276,7 +4265,6 @@ includes:
 - /usr/share/help/ru/evolution/tasks-webdav.page$
 - /usr/share/help/ru/evolution/using-categories.page$
 - /usr/share/help/ru/evolution/xinclude-filter-vfolder-conditions.xml$
-- /usr/share/help/ru/evolution/xinclude-mail-account-identity.xml$
 - /usr/share/help/ru/evolution/xinclude-searching.xml$
 - /usr/share/help/sl$
 - /usr/share/help/sl/evolution$
@@ -4506,7 +4494,6 @@ includes:
 - /usr/share/help/sl/evolution/tasks-webdav.page$
 - /usr/share/help/sl/evolution/using-categories.page$
 - /usr/share/help/sl/evolution/xinclude-filter-vfolder-conditions.xml$
-- /usr/share/help/sl/evolution/xinclude-mail-account-identity.xml$
 - /usr/share/help/sl/evolution/xinclude-searching.xml$
 - /usr/share/help/sv$
 - /usr/share/help/sv/evolution$
@@ -4736,7 +4723,6 @@ includes:
 - /usr/share/help/sv/evolution/tasks-webdav.page$
 - /usr/share/help/sv/evolution/using-categories.page$
 - /usr/share/help/sv/evolution/xinclude-filter-vfolder-conditions.xml$
-- /usr/share/help/sv/evolution/xinclude-mail-account-identity.xml$
 - /usr/share/help/sv/evolution/xinclude-searching.xml$
 - /usr/share/help/te$
 - /usr/share/help/te/evolution$
@@ -4966,7 +4952,6 @@ includes:
 - /usr/share/help/te/evolution/tasks-webdav.page$
 - /usr/share/help/te/evolution/using-categories.page$
 - /usr/share/help/te/evolution/xinclude-filter-vfolder-conditions.xml$
-- /usr/share/help/te/evolution/xinclude-mail-account-identity.xml$
 - /usr/share/help/te/evolution/xinclude-searching.xml$
 - /usr/share/help/zh_CN$
 - /usr/share/help/zh_CN/evolution$
@@ -5196,7 +5181,6 @@ includes:
 - /usr/share/help/zh_CN/evolution/tasks-webdav.page$
 - /usr/share/help/zh_CN/evolution/using-categories.page$
 - /usr/share/help/zh_CN/evolution/xinclude-filter-vfolder-conditions.xml$
-- /usr/share/help/zh_CN/evolution/xinclude-mail-account-identity.xml$
 - /usr/share/help/zh_CN/evolution/xinclude-searching.xml$
 - /usr/share/icons$
 - /usr/share/icons/hicolor$
@@ -5205,34 +5189,29 @@ includes:
 - /usr/share/icons/hicolor/16x16/apps/evolution-mail.png$
 - /usr/share/icons/hicolor/16x16/apps/evolution-memos.png$
 - /usr/share/icons/hicolor/16x16/apps/evolution-tasks.png$
-- /usr/share/icons/hicolor/16x16/apps/evolution.png$
 - /usr/share/icons/hicolor/22x22$
 - /usr/share/icons/hicolor/22x22/apps$
 - /usr/share/icons/hicolor/22x22/apps/evolution-mail.png$
 - /usr/share/icons/hicolor/22x22/apps/evolution-memos.png$
 - /usr/share/icons/hicolor/22x22/apps/evolution-tasks.png$
-- /usr/share/icons/hicolor/22x22/apps/evolution.png$
 - /usr/share/icons/hicolor/24x24$
 - /usr/share/icons/hicolor/24x24/apps$
 - /usr/share/icons/hicolor/24x24/apps/evolution-mail.png$
 - /usr/share/icons/hicolor/24x24/apps/evolution-memos.png$
 - /usr/share/icons/hicolor/24x24/apps/evolution-tasks.png$
-- /usr/share/icons/hicolor/24x24/apps/evolution.png$
-- /usr/share/icons/hicolor/256x256$
-- /usr/share/icons/hicolor/256x256/apps$
-- /usr/share/icons/hicolor/256x256/apps/evolution.png$
 - /usr/share/icons/hicolor/32x32$
 - /usr/share/icons/hicolor/32x32/apps$
 - /usr/share/icons/hicolor/32x32/apps/evolution-mail.png$
 - /usr/share/icons/hicolor/32x32/apps/evolution-memos.png$
 - /usr/share/icons/hicolor/32x32/apps/evolution-tasks.png$
-- /usr/share/icons/hicolor/32x32/apps/evolution.png$
 - /usr/share/icons/hicolor/48x48$
 - /usr/share/icons/hicolor/48x48/apps$
 - /usr/share/icons/hicolor/48x48/apps/evolution-mail.png$
 - /usr/share/icons/hicolor/48x48/apps/evolution-memos.png$
 - /usr/share/icons/hicolor/48x48/apps/evolution-tasks.png$
-- /usr/share/icons/hicolor/48x48/apps/evolution.png$
+- /usr/share/icons/hicolor/scalable$
+- /usr/share/icons/hicolor/scalable/apps$
+- /usr/share/icons/hicolor/scalable/apps/evolution.svg$
 - /usr/share/icons/hicolor/symbolic$
 - /usr/share/icons/hicolor/symbolic/apps$
 - /usr/share/icons/hicolor/symbolic/apps/evolution-symbolic.svg$
@@ -5522,3 +5501,6 @@ includes:
 - /usr/share/metainfo$
 - /usr/share/metainfo/org.gnome.Evolution-bogofilter.metainfo.xml$
 - /usr/share/metainfo/org.gnome.Evolution.appdata.xml$
+env:
+- ORIGINAL_ATOM=mail-client/evolution
+- ORIGINAL_PACKAGE=mail-client/evolution-3.34.4
