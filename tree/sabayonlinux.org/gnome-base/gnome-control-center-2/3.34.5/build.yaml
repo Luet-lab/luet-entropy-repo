@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i gnome-base/gnome-control-center-3.32.2 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -51,9 +52,9 @@ includes:
 - /usr/share/dbus-1/services/org.gnome.ControlCenter.SearchProvider.service$
 - /usr/share/dbus-1/services/org.gnome.ControlCenter.service$
 - /usr/share/doc$
-- /usr/share/doc/gnome-control-center-3.32.2$
-- /usr/share/doc/gnome-control-center-3.32.2/NEWS.bz2$
-- /usr/share/doc/gnome-control-center-3.32.2/README.md.bz2$
+- /usr/share/doc/gnome-control-center-3.34.5$
+- /usr/share/doc/gnome-control-center-3.34.5/NEWS.bz2$
+- /usr/share/doc/gnome-control-center-3.34.5/README.md.bz2$
 - /usr/share/gettext$
 - /usr/share/gettext/its$
 - /usr/share/gettext/its/gnome-keybindings.its$
@@ -191,6 +192,9 @@ includes:
 - /usr/share/locale/ca@valencia$
 - /usr/share/locale/ca@valencia/LC_MESSAGES$
 - /usr/share/locale/ca@valencia/LC_MESSAGES/gnome-control-center-2.0.mo$
+- /usr/share/locale/ckb$
+- /usr/share/locale/ckb/LC_MESSAGES$
+- /usr/share/locale/ckb/LC_MESSAGES/gnome-control-center-2.0.mo$
 - /usr/share/locale/crh$
 - /usr/share/locale/crh/LC_MESSAGES$
 - /usr/share/locale/crh/LC_MESSAGES/gnome-control-center-2.0.mo$
@@ -354,6 +358,9 @@ includes:
 - /usr/share/locale/mg$
 - /usr/share/locale/mg/LC_MESSAGES$
 - /usr/share/locale/mg/LC_MESSAGES/gnome-control-center-2.0.mo$
+- /usr/share/locale/mjw$
+- /usr/share/locale/mjw/LC_MESSAGES$
+- /usr/share/locale/mjw/LC_MESSAGES/gnome-control-center-2.0.mo$
 - /usr/share/locale/mk$
 - /usr/share/locale/mk/LC_MESSAGES$
 - /usr/share/locale/mk/LC_MESSAGES/gnome-control-center-2.0-timezones.mo$
@@ -606,3 +613,6 @@ includes:
 - /usr/share/sounds/gnome/default/alerts/drip.ogg$
 - /usr/share/sounds/gnome/default/alerts/glass.ogg$
 - /usr/share/sounds/gnome/default/alerts/sonar.ogg$
+env:
+- ORIGINAL_ATOM=gnome-base/gnome-control-center
+- ORIGINAL_PACKAGE=gnome-base/gnome-control-center-3.34.5
