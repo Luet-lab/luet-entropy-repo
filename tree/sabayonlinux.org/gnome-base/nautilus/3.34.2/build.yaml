@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i gnome-base/nautilus-3.32.3 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -50,10 +51,10 @@ includes:
 - /usr/share/dbus-1/services/org.freedesktop.FileManager1.service$
 - /usr/share/dbus-1/services/org.gnome.Nautilus.service$
 - /usr/share/doc$
-- /usr/share/doc/nautilus-3.32.3$
-- /usr/share/doc/nautilus-3.32.3/NEWS.bz2$
-- /usr/share/doc/nautilus-3.32.3/README.gentoo.bz2$
-- /usr/share/doc/nautilus-3.32.3/README.md.bz2$
+- /usr/share/doc/nautilus-3.34.2$
+- /usr/share/doc/nautilus-3.34.2/NEWS.bz2$
+- /usr/share/doc/nautilus-3.34.2/README.gentoo.bz2$
+- /usr/share/doc/nautilus-3.34.2/README.md.bz2$
 - /usr/share/gir-1.0$
 - /usr/share/gir-1.0/Nautilus-3.0.gir$
 - /usr/share/glib-2.0$
@@ -272,6 +273,9 @@ includes:
 - /usr/share/locale/mi$
 - /usr/share/locale/mi/LC_MESSAGES$
 - /usr/share/locale/mi/LC_MESSAGES/nautilus.mo$
+- /usr/share/locale/mjw$
+- /usr/share/locale/mjw/LC_MESSAGES$
+- /usr/share/locale/mjw/LC_MESSAGES/nautilus.mo$
 - /usr/share/locale/mk$
 - /usr/share/locale/mk/LC_MESSAGES$
 - /usr/share/locale/mk/LC_MESSAGES/nautilus.mo$
@@ -421,6 +425,10 @@ includes:
 - /usr/share/locale/zu/LC_MESSAGES/nautilus.mo$
 - /usr/share/man$
 - /usr/share/man/man1$
+- /usr/share/man/man1/nautilus-autorun-software.1.bz2$
 - /usr/share/man/man1/nautilus.1.bz2$
 - /usr/share/metainfo$
 - /usr/share/metainfo/org.gnome.Nautilus.appdata.xml$
+env:
+- ORIGINAL_ATOM=gnome-base/nautilus
+- ORIGINAL_PACKAGE=gnome-base/nautilus-3.34.2
