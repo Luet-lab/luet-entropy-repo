@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i app-emulation/virtualbox-bin-6.1.2.135662 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -496,3 +497,6 @@ includes:
 - /usr/share/mime/packages/virtualbox.xml$
 - /usr/share/pixmaps$
 - /usr/share/pixmaps/virtualbox-bin.png$
+env:
+- ORIGINAL_ATOM=app-emulation/virtualbox-bin
+- ORIGINAL_PACKAGE=app-emulation/virtualbox-bin-6.1.6.137129
