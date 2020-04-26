@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/nss-3.50 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -98,7 +99,6 @@ includes:
 - /usr/include/nss/nssilock.h$
 - /usr/include/nss/nsslocks.h$
 - /usr/include/nss/nsslowhash.h$
-- /usr/include/nss/nsspem.h$
 - /usr/include/nss/nssrwlk.h$
 - /usr/include/nss/nssrwlkt.h$
 - /usr/include/nss/nssutil.h$
@@ -128,6 +128,7 @@ includes:
 - /usr/include/nss/private$
 - /usr/include/nss/private/alghmac.h$
 - /usr/include/nss/private/blapi.h$
+- /usr/include/nss/private/cmac.h$
 - /usr/include/nss/secasn1.h$
 - /usr/include/nss/secasn1t.h$
 - /usr/include/nss/seccomon.h$
@@ -168,7 +169,6 @@ includes:
 - /usr/lib/libnssckbi.so$
 - /usr/lib/libnssckfw.a$
 - /usr/lib/libnssdbm3.so$
-- /usr/lib/libnsspem.so$
 - /usr/lib/libnsssysinit.so$
 - /usr/lib/libnssutil3.so$
 - /usr/lib/libsmime3.so$
@@ -188,7 +188,6 @@ includes:
 - /usr/lib64/libnssckbi.so$
 - /usr/lib64/libnssckfw.a$
 - /usr/lib64/libnssdbm3.so$
-- /usr/lib64/libnsspem.so$
 - /usr/lib64/libnsssysinit.so$
 - /usr/lib64/libnssutil3.so$
 - /usr/lib64/libsmime3.so$
@@ -212,3 +211,6 @@ includes:
 - /usr/share/man/man1/ssltap.1.bz2$
 - /usr/share/man/man1/vfychain.1.bz2$
 - /usr/share/man/man1/vfyserv.1.bz2$
+env:
+- ORIGINAL_ATOM=dev-libs/nss
+- ORIGINAL_PACKAGE=dev-libs/nss-3.51
