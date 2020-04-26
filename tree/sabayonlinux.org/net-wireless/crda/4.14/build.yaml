@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i net-wireless/crda-3.18-r3 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -32,3 +33,6 @@ includes:
 - /usr/share/man/man8$
 - /usr/share/man/man8/crda.8.bz2$
 - /usr/share/man/man8/regdbdump.8.bz2$
+env:
+- ORIGINAL_ATOM=net-wireless/crda
+- ORIGINAL_PACKAGE=net-wireless/crda-4.14
