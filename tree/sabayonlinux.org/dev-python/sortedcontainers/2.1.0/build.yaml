@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/sortedcontainers-1.5.7 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -12,11 +13,11 @@ includes:
 - /usr/lib64/python2.7$
 - /usr/lib64/python2.7/site-packages$
 - /usr/lib64/python2.7/site-packages/sortedcontainers$
-- /usr/lib64/python2.7/site-packages/sortedcontainers-1.5.7-py2.7.egg-info$
-- /usr/lib64/python2.7/site-packages/sortedcontainers-1.5.7-py2.7.egg-info/PKG-INFO$
-- /usr/lib64/python2.7/site-packages/sortedcontainers-1.5.7-py2.7.egg-info/SOURCES.txt$
-- /usr/lib64/python2.7/site-packages/sortedcontainers-1.5.7-py2.7.egg-info/dependency_links.txt$
-- /usr/lib64/python2.7/site-packages/sortedcontainers-1.5.7-py2.7.egg-info/top_level.txt$
+- /usr/lib64/python2.7/site-packages/sortedcontainers-2.1.0-py2.7.egg-info$
+- /usr/lib64/python2.7/site-packages/sortedcontainers-2.1.0-py2.7.egg-info/PKG-INFO$
+- /usr/lib64/python2.7/site-packages/sortedcontainers-2.1.0-py2.7.egg-info/SOURCES.txt$
+- /usr/lib64/python2.7/site-packages/sortedcontainers-2.1.0-py2.7.egg-info/dependency_links.txt$
+- /usr/lib64/python2.7/site-packages/sortedcontainers-2.1.0-py2.7.egg-info/top_level.txt$
 - /usr/lib64/python2.7/site-packages/sortedcontainers/__init__.py$
 - /usr/lib64/python2.7/site-packages/sortedcontainers/__init__.pyc$
 - /usr/lib64/python2.7/site-packages/sortedcontainers/__init__.pyo$
@@ -32,11 +33,11 @@ includes:
 - /usr/lib64/python3.6$
 - /usr/lib64/python3.6/site-packages$
 - /usr/lib64/python3.6/site-packages/sortedcontainers$
-- /usr/lib64/python3.6/site-packages/sortedcontainers-1.5.7-py3.6.egg-info$
-- /usr/lib64/python3.6/site-packages/sortedcontainers-1.5.7-py3.6.egg-info/PKG-INFO$
-- /usr/lib64/python3.6/site-packages/sortedcontainers-1.5.7-py3.6.egg-info/SOURCES.txt$
-- /usr/lib64/python3.6/site-packages/sortedcontainers-1.5.7-py3.6.egg-info/dependency_links.txt$
-- /usr/lib64/python3.6/site-packages/sortedcontainers-1.5.7-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/sortedcontainers-2.1.0-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/sortedcontainers-2.1.0-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/sortedcontainers-2.1.0-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/sortedcontainers-2.1.0-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/sortedcontainers-2.1.0-py3.6.egg-info/top_level.txt$
 - /usr/lib64/python3.6/site-packages/sortedcontainers/__init__.py$
 - /usr/lib64/python3.6/site-packages/sortedcontainers/__pycache__$
 - /usr/lib64/python3.6/site-packages/sortedcontainers/__pycache__/__init__.cpython-36.opt-1.pyc$
@@ -56,5 +57,8 @@ includes:
 - /usr/lib64/python3.6/site-packages/sortedcontainers/sortedset.py$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/sortedcontainers-1.5.7$
-- /usr/share/doc/sortedcontainers-1.5.7/README.rst.bz2$
+- /usr/share/doc/sortedcontainers-2.1.0$
+- /usr/share/doc/sortedcontainers-2.1.0/README.rst.bz2$
+env:
+- ORIGINAL_ATOM=dev-python/sortedcontainers
+- ORIGINAL_PACKAGE=dev-python/sortedcontainers-2.1.0
