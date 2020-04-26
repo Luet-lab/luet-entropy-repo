@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i kde-frameworks/ki18n-5.67.0 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -38,7 +39,7 @@ includes:
 - /usr/lib64/cmake/KF5I18n/ts-pmap-compile.py$
 - /usr/lib64/libKF5I18n.so$
 - /usr/lib64/libKF5I18n.so.5$
-- /usr/lib64/libKF5I18n.so.5.67.0$
+- /usr/lib64/libKF5I18n.so.5.69.0$
 - /usr/lib64/qt5$
 - /usr/lib64/qt5/mkspecs$
 - /usr/lib64/qt5/mkspecs/modules$
@@ -48,8 +49,8 @@ includes:
 - /usr/lib64/qt5/plugins/kf5/ktranscript.so$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/ki18n-5.67.0$
-- /usr/share/doc/ki18n-5.67.0/README.md.bz2$
+- /usr/share/doc/ki18n-5.69.0$
+- /usr/share/doc/ki18n-5.69.0/README.md.bz2$
 - /usr/share/locale$
 - /usr/share/locale/af$
 - /usr/share/locale/af/LC_MESSAGES$
@@ -269,3 +270,6 @@ includes:
 - /usr/share/locale/zh_TW/LC_MESSAGES/ki18n5.mo$
 - /usr/share/qlogging-categories5$
 - /usr/share/qlogging-categories5/ki18n.categories$
+env:
+- ORIGINAL_ATOM=kde-frameworks/ki18n
+- ORIGINAL_PACKAGE=kde-frameworks/ki18n-5.69.0
