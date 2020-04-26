@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i gnome-base/gdm-3.32.0 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -74,7 +75,6 @@ includes:
 - /usr/libexec/gdm-disable-wayland$
 - /usr/libexec/gdm-host-chooser$
 - /usr/libexec/gdm-session-worker$
-- /usr/libexec/gdm-set-session$
 - /usr/libexec/gdm-simple-chooser$
 - /usr/libexec/gdm-wait-for-drm$
 - /usr/libexec/gdm-wayland-session$
@@ -86,12 +86,12 @@ includes:
 - /usr/share/dconf/profile$
 - /usr/share/dconf/profile/gdm$
 - /usr/share/doc$
-- /usr/share/doc/gdm-3.32.0$
-- /usr/share/doc/gdm-3.32.0/AUTHORS$
-- /usr/share/doc/gdm-3.32.0/MAINTAINERS.bz2$
-- /usr/share/doc/gdm-3.32.0/NEWS.bz2$
-- /usr/share/doc/gdm-3.32.0/README.gentoo.bz2$
-- /usr/share/doc/gdm-3.32.0/README.md.bz2$
+- /usr/share/doc/gdm-3.34.1$
+- /usr/share/doc/gdm-3.34.1/AUTHORS$
+- /usr/share/doc/gdm-3.34.1/MAINTAINERS.bz2$
+- /usr/share/doc/gdm-3.34.1/NEWS.bz2$
+- /usr/share/doc/gdm-3.34.1/README.gentoo.bz2$
+- /usr/share/doc/gdm-3.34.1/README.md.bz2$
 - /usr/share/gdm$
 - /usr/share/gdm/gdb-cmd$
 - /usr/share/gdm/gdm.schemas$
@@ -192,15 +192,6 @@ includes:
 - /usr/share/help/zh_CN/gdm$
 - /usr/share/help/zh_CN/gdm/index.docbook$
 - /usr/share/help/zh_CN/gdm/legal.xml$
-- /usr/share/icons$
-- /usr/share/icons/hicolor$
-- /usr/share/icons/hicolor/16x16$
-- /usr/share/icons/hicolor/16x16/apps$
-- /usr/share/icons/hicolor/16x16/apps/gdm-xnest.png$
-- /usr/share/icons/hicolor/32x32$
-- /usr/share/icons/hicolor/32x32/apps$
-- /usr/share/icons/hicolor/32x32/apps/gdm-setup.png$
-- /usr/share/icons/hicolor/32x32/apps/gdm-xnest.png$
 - /usr/share/locale$
 - /usr/share/locale/af$
 - /usr/share/locale/af/LC_MESSAGES$
@@ -391,13 +382,6 @@ includes:
 - /usr/share/locale/zh_TW$
 - /usr/share/locale/zh_TW/LC_MESSAGES$
 - /usr/share/locale/zh_TW/LC_MESSAGES/gdm.mo$
-- /usr/share/pixmaps$
-- /usr/share/pixmaps/gdm-foot-logo.png$
-- /usr/share/pixmaps/gdm-setup.png$
-- /usr/share/pixmaps/gdm-xnest.png$
-- /usr/share/pixmaps/gdm.png$
-- /usr/share/pixmaps/nobody.png$
-- /usr/share/pixmaps/nohost.png$
 - /var$
 - /var/cache$
 - /var/cache/gdm$
@@ -412,3 +396,6 @@ includes:
 - /var/lib/gdm/.local/share/applications$
 - /var/log$
 - /var/log/gdm$
+env:
+- ORIGINAL_ATOM=gnome-base/gdm
+- ORIGINAL_PACKAGE=gnome-base/gdm-3.34.1
