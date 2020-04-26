@@ -68,11 +68,9 @@ use_flags:
 - abi_x86_64
 - -slabs-reassign
 - kernel_linux
-version: 1.5.19+3
-
+version: "1.5.22"
 Labels:
   original.package.name: "memcached"
   original.package.category: "net-misc"
   original.package.version: "1.5.19"
   original.package.slot: "0"
-
