@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i kde-frameworks/kglobalaccel-5.67.0 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -33,9 +34,9 @@ includes:
 - /usr/lib64/cmake/KF5GlobalAccel/KF5GlobalAccelTargets.cmake$
 - /usr/lib64/libKF5GlobalAccel.so$
 - /usr/lib64/libKF5GlobalAccel.so.5$
-- /usr/lib64/libKF5GlobalAccel.so.5.67.0$
+- /usr/lib64/libKF5GlobalAccel.so.5.69.0$
 - /usr/lib64/libKF5GlobalAccelPrivate.so.5$
-- /usr/lib64/libKF5GlobalAccelPrivate.so.5.67.0$
+- /usr/lib64/libKF5GlobalAccelPrivate.so.5.69.0$
 - /usr/lib64/qt5$
 - /usr/lib64/qt5/mkspecs$
 - /usr/lib64/qt5/mkspecs/modules$
@@ -51,8 +52,8 @@ includes:
 - /usr/share/dbus-1/services$
 - /usr/share/dbus-1/services/org.kde.kglobalaccel.service$
 - /usr/share/doc$
-- /usr/share/doc/kglobalaccel-5.67.0$
-- /usr/share/doc/kglobalaccel-5.67.0/README.md.bz2$
+- /usr/share/doc/kglobalaccel-5.69.0$
+- /usr/share/doc/kglobalaccel-5.69.0/README.md.bz2$
 - /usr/share/kservices5$
 - /usr/share/kservices5/kglobalaccel5.desktop$
 - /usr/share/locale$
@@ -241,3 +242,6 @@ includes:
 - /usr/share/locale/zh_TW/LC_MESSAGES/kglobalaccel5_qt.qm$
 - /usr/share/qlogging-categories5$
 - /usr/share/qlogging-categories5/kglobalaccel.categories$
+env:
+- ORIGINAL_ATOM=kde-frameworks/kglobalaccel
+- ORIGINAL_PACKAGE=kde-frameworks/kglobalaccel-5.69.0
