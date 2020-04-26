@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i app-vim/gentoo-syntax-20190609 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -10,9 +11,9 @@ includes:
 - /usr$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/gentoo-syntax-20190609$
-- /usr/share/doc/gentoo-syntax-20190609/COPYING.bz2$
-- /usr/share/doc/gentoo-syntax-20190609/README.rst.bz2$
+- /usr/share/doc/gentoo-syntax-20200120$
+- /usr/share/doc/gentoo-syntax-20200120/COPYING.bz2$
+- /usr/share/doc/gentoo-syntax-20200120/README.rst.bz2$
 - /usr/share/vim$
 - /usr/share/vim/vimfiles$
 - /usr/share/vim/vimfiles/doc$
@@ -61,3 +62,6 @@ includes:
 - /usr/share/vim/vimfiles/syntax/gentoo-use-desc.vim$
 - /usr/share/vim/vimfiles/syntax/glep.vim$
 - /usr/share/vim/vimfiles/syntax/guidexml.vim$
+env:
+- ORIGINAL_ATOM=app-vim/gentoo-syntax
+- ORIGINAL_PACKAGE=app-vim/gentoo-syntax-20200120
