@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i kde-frameworks/kpeople-5.67.0 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -60,13 +61,13 @@ includes:
 - /usr/lib64/cmake/KF5People/KPeopleTargets.cmake$
 - /usr/lib64/libKF5People.so$
 - /usr/lib64/libKF5People.so.5$
-- /usr/lib64/libKF5People.so.5.67.0$
+- /usr/lib64/libKF5People.so.5.69.0$
 - /usr/lib64/libKF5PeopleBackend.so$
 - /usr/lib64/libKF5PeopleBackend.so.5$
-- /usr/lib64/libKF5PeopleBackend.so.5.67.0$
+- /usr/lib64/libKF5PeopleBackend.so.5.69.0$
 - /usr/lib64/libKF5PeopleWidgets.so$
 - /usr/lib64/libKF5PeopleWidgets.so.5$
-- /usr/lib64/libKF5PeopleWidgets.so.5.67.0$
+- /usr/lib64/libKF5PeopleWidgets.so.5.69.0$
 - /usr/lib64/qt5$
 - /usr/lib64/qt5/mkspecs$
 - /usr/lib64/qt5/mkspecs/modules$
@@ -80,8 +81,8 @@ includes:
 - /usr/lib64/qt5/qml/org/kde/people/qmldir$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/kpeople-5.67.0$
-- /usr/share/doc/kpeople-5.67.0/README.md.bz2$
+- /usr/share/doc/kpeople-5.69.0$
+- /usr/share/doc/kpeople-5.69.0/README.md.bz2$
 - /usr/share/kservicetypes5$
 - /usr/share/kservicetypes5/kpeople_data_source.desktop$
 - /usr/share/kservicetypes5/kpeople_plugin.desktop$
@@ -200,3 +201,6 @@ includes:
 - /usr/share/locale/zh_TW/LC_MESSAGES/kpeople5.mo$
 - /usr/share/qlogging-categories5$
 - /usr/share/qlogging-categories5/kpeople.categories$
+env:
+- ORIGINAL_ATOM=kde-frameworks/kpeople
+- ORIGINAL_PACKAGE=kde-frameworks/kpeople-5.69.0
