@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i net-print/cups-filters-1.27.1 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -177,13 +178,13 @@ includes:
 - /usr/share/cups/ppdc/media-braille.defs$
 - /usr/share/cups/ppdc/pcl.h$
 - /usr/share/doc$
-- /usr/share/doc/cups-filters-1.27.1$
-- /usr/share/doc/cups-filters-1.27.1/ABOUT-NLS.bz2$
-- /usr/share/doc/cups-filters-1.27.1/AUTHORS.bz2$
-- /usr/share/doc/cups-filters-1.27.1/COPYING.bz2$
-- /usr/share/doc/cups-filters-1.27.1/INSTALL.bz2$
-- /usr/share/doc/cups-filters-1.27.1/NEWS.bz2$
-- /usr/share/doc/cups-filters-1.27.1/README.bz2$
+- /usr/share/doc/cups-filters-1.27.2$
+- /usr/share/doc/cups-filters-1.27.2/ABOUT-NLS.bz2$
+- /usr/share/doc/cups-filters-1.27.2/AUTHORS.bz2$
+- /usr/share/doc/cups-filters-1.27.2/COPYING.bz2$
+- /usr/share/doc/cups-filters-1.27.2/INSTALL.bz2$
+- /usr/share/doc/cups-filters-1.27.2/NEWS.bz2$
+- /usr/share/doc/cups-filters-1.27.2/README.bz2$
 - /usr/share/man$
 - /usr/share/man/man1$
 - /usr/share/man/man1/driverless.1.bz2$
@@ -200,3 +201,6 @@ includes:
 - /usr/share/ppd/cupsfilters/Ricoh-PDF_Printer-PDF.ppd$
 - /usr/share/ppd/cupsfilters/pxlcolor.ppd$
 - /usr/share/ppd/cupsfilters/pxlmono.ppd$
+env:
+- ORIGINAL_ATOM=net-print/cups-filters
+- ORIGINAL_PACKAGE=net-print/cups-filters-1.27.2
