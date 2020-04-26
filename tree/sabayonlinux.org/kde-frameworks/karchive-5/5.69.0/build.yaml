@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i kde-frameworks/karchive-5.67.0 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -49,15 +50,18 @@ includes:
 - /usr/lib64/cmake/KF5Archive/KF5ArchiveTargets.cmake$
 - /usr/lib64/libKF5Archive.so$
 - /usr/lib64/libKF5Archive.so.5$
-- /usr/lib64/libKF5Archive.so.5.67.0$
+- /usr/lib64/libKF5Archive.so.5.69.0$
 - /usr/lib64/qt5$
 - /usr/lib64/qt5/mkspecs$
 - /usr/lib64/qt5/mkspecs/modules$
 - /usr/lib64/qt5/mkspecs/modules/qt_KArchive.pri$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/karchive-5.67.0$
-- /usr/share/doc/karchive-5.67.0/AUTHORS.bz2$
-- /usr/share/doc/karchive-5.67.0/README.md.bz2$
+- /usr/share/doc/karchive-5.69.0$
+- /usr/share/doc/karchive-5.69.0/AUTHORS.bz2$
+- /usr/share/doc/karchive-5.69.0/README.md.bz2$
 - /usr/share/qlogging-categories5$
 - /usr/share/qlogging-categories5/karchive.categories$
+env:
+- ORIGINAL_ATOM=kde-frameworks/karchive
+- ORIGINAL_PACKAGE=kde-frameworks/karchive-5.69.0
