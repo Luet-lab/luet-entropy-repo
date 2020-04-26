@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i kde-frameworks/kservice-5.67.0 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -18,6 +19,7 @@ includes:
 - /usr/include$
 - /usr/include/KF5$
 - /usr/include/KF5/KService$
+- /usr/include/KF5/KService/KApplicationTrader$
 - /usr/include/KF5/KService/KAutostart$
 - /usr/include/KF5/KService/KDBusServiceStarter$
 - /usr/include/KF5/KService/KMimeTypeTrader$
@@ -33,6 +35,7 @@ includes:
 - /usr/include/KF5/KService/KSycocaEntry$
 - /usr/include/KF5/KService/KSycocaType$
 - /usr/include/KF5/KService/KToolInvocation$
+- /usr/include/KF5/KService/kapplicationtrader.h$
 - /usr/include/KF5/KService/kautostart.h$
 - /usr/include/KF5/KService/kdbusservicestarter.h$
 - /usr/include/KF5/KService/kmimetypetrader.h$
@@ -61,15 +64,15 @@ includes:
 - /usr/lib64/cmake/KF5Service/KF5ServiceTargets.cmake$
 - /usr/lib64/libKF5Service.so$
 - /usr/lib64/libKF5Service.so.5$
-- /usr/lib64/libKF5Service.so.5.67.0$
+- /usr/lib64/libKF5Service.so.5.69.0$
 - /usr/lib64/qt5$
 - /usr/lib64/qt5/mkspecs$
 - /usr/lib64/qt5/mkspecs/modules$
 - /usr/lib64/qt5/mkspecs/modules/qt_KService.pri$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/kservice-5.67.0$
-- /usr/share/doc/kservice-5.67.0/README.md.bz2$
+- /usr/share/doc/kservice-5.69.0$
+- /usr/share/doc/kservice-5.69.0/README.md.bz2$
 - /usr/share/kservicetypes5$
 - /usr/share/kservicetypes5/application.desktop$
 - /usr/share/kservicetypes5/kplugininfo.desktop$
@@ -299,3 +302,6 @@ includes:
 - /usr/share/man/uk/man8/kbuildsycoca5.8.bz2$
 - /usr/share/qlogging-categories5$
 - /usr/share/qlogging-categories5/kservice.categories$
+env:
+- ORIGINAL_ATOM=kde-frameworks/kservice
+- ORIGINAL_PACKAGE=kde-frameworks/kservice-5.69.0
