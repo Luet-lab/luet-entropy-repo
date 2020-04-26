@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/libuv-1.34.2 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -30,7 +31,10 @@ includes:
 - /usr/lib64/pkgconfig/libuv.pc$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/libuv-1.34.2$
-- /usr/share/doc/libuv-1.34.2/AUTHORS.bz2$
-- /usr/share/doc/libuv-1.34.2/ChangeLog.bz2$
-- /usr/share/doc/libuv-1.34.2/README.md.bz2$
+- /usr/share/doc/libuv-1.35.0$
+- /usr/share/doc/libuv-1.35.0/AUTHORS.bz2$
+- /usr/share/doc/libuv-1.35.0/ChangeLog.bz2$
+- /usr/share/doc/libuv-1.35.0/README.md.bz2$
+env:
+- ORIGINAL_ATOM=dev-libs/libuv
+- ORIGINAL_PACKAGE=dev-libs/libuv-1.35.0
