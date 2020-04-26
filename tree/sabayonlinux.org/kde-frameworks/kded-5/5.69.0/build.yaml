@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i kde-frameworks/kded-5.67.0 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -25,8 +26,8 @@ includes:
 - /usr/share/dbus-1/services$
 - /usr/share/dbus-1/services/org.kde.kded5.service$
 - /usr/share/doc$
-- /usr/share/doc/kded-5.67.0$
-- /usr/share/doc/kded-5.67.0/README.md.bz2$
+- /usr/share/doc/kded-5.69.0$
+- /usr/share/doc/kded-5.69.0/README.md.bz2$
 - /usr/share/kservicetypes5$
 - /usr/share/kservicetypes5/kdedmodule.desktop$
 - /usr/share/man$
@@ -64,3 +65,6 @@ includes:
 - /usr/share/man/uk/man8/kded5.8.bz2$
 - /usr/share/qlogging-categories5$
 - /usr/share/qlogging-categories5/kded.categories$
+env:
+- ORIGINAL_ATOM=kde-frameworks/kded
+- ORIGINAL_PACKAGE=kde-frameworks/kded-5.69.0
