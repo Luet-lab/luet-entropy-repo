@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i gnome-base/gnome-desktop-3.32.2 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -20,6 +21,7 @@ includes:
 - /usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-pnp-ids.h$
 - /usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-rr-config.h$
 - /usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-rr.h$
+- /usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-systemd.h$
 - /usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-wall-clock.h$
 - /usr/include/gnome-desktop-3.0/libgnome-desktop/gnome-xkb-info.h$
 - /usr/lib$
@@ -27,17 +29,17 @@ includes:
 - /usr/lib64/girepository-1.0$
 - /usr/lib64/girepository-1.0/GnomeDesktop-3.0.typelib$
 - /usr/lib64/libgnome-desktop-3.so$
-- /usr/lib64/libgnome-desktop-3.so.17$
-- /usr/lib64/libgnome-desktop-3.so.17.0.6$
+- /usr/lib64/libgnome-desktop-3.so.18$
+- /usr/lib64/libgnome-desktop-3.so.18.0.3$
 - /usr/lib64/pkgconfig$
 - /usr/lib64/pkgconfig/gnome-desktop-3.0.pc$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/gnome-desktop-3.32.2$
-- /usr/share/doc/gnome-desktop-3.32.2/AUTHORS.bz2$
-- /usr/share/doc/gnome-desktop-3.32.2/ChangeLog.bz2$
-- /usr/share/doc/gnome-desktop-3.32.2/NEWS.bz2$
-- /usr/share/doc/gnome-desktop-3.32.2/README.bz2$
+- /usr/share/doc/gnome-desktop-3.34.5$
+- /usr/share/doc/gnome-desktop-3.34.5/AUTHORS.bz2$
+- /usr/share/doc/gnome-desktop-3.34.5/ChangeLog.bz2$
+- /usr/share/doc/gnome-desktop-3.34.5/NEWS.bz2$
+- /usr/share/doc/gnome-desktop-3.34.5/README.bz2$
 - /usr/share/gir-1.0$
 - /usr/share/gir-1.0/GnomeDesktop-3.0.gir$
 - /usr/share/gnome$
@@ -242,6 +244,9 @@ includes:
 - /usr/share/locale/ca@valencia$
 - /usr/share/locale/ca@valencia/LC_MESSAGES$
 - /usr/share/locale/ca@valencia/LC_MESSAGES/gnome-desktop-3.0.mo$
+- /usr/share/locale/ckb$
+- /usr/share/locale/ckb/LC_MESSAGES$
+- /usr/share/locale/ckb/LC_MESSAGES/gnome-desktop-3.0.mo$
 - /usr/share/locale/crh$
 - /usr/share/locale/crh/LC_MESSAGES$
 - /usr/share/locale/crh/LC_MESSAGES/gnome-desktop-3.0.mo$
@@ -395,6 +400,9 @@ includes:
 - /usr/share/locale/mi$
 - /usr/share/locale/mi/LC_MESSAGES$
 - /usr/share/locale/mi/LC_MESSAGES/gnome-desktop-3.0.mo$
+- /usr/share/locale/mjw$
+- /usr/share/locale/mjw/LC_MESSAGES$
+- /usr/share/locale/mjw/LC_MESSAGES/gnome-desktop-3.0.mo$
 - /usr/share/locale/mk$
 - /usr/share/locale/mk/LC_MESSAGES$
 - /usr/share/locale/mk/LC_MESSAGES/gnome-desktop-3.0.mo$
@@ -539,3 +547,6 @@ includes:
 - /usr/share/locale/zu$
 - /usr/share/locale/zu/LC_MESSAGES$
 - /usr/share/locale/zu/LC_MESSAGES/gnome-desktop-3.0.mo$
+env:
+- ORIGINAL_ATOM=gnome-base/gnome-desktop
+- ORIGINAL_PACKAGE=gnome-base/gnome-desktop-3.34.5
