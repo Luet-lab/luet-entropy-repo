@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i sys-libs/libosinfo-1.4.0 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -63,16 +64,16 @@ includes:
 - /usr/lib64/girepository-1.0/Libosinfo-1.0.typelib$
 - /usr/lib64/libosinfo-1.0.so$
 - /usr/lib64/libosinfo-1.0.so.0$
-- /usr/lib64/libosinfo-1.0.so.0.1004.0$
+- /usr/lib64/libosinfo-1.0.so.0.1006.0$
 - /usr/lib64/pkgconfig$
 - /usr/lib64/pkgconfig/libosinfo-1.0.pc$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/libosinfo-1.4.0$
-- /usr/share/doc/libosinfo-1.4.0/AUTHORS.bz2$
-- /usr/share/doc/libosinfo-1.4.0/ChangeLog.bz2$
-- /usr/share/doc/libosinfo-1.4.0/NEWS.bz2$
-- /usr/share/doc/libosinfo-1.4.0/README.bz2$
+- /usr/share/doc/libosinfo-1.6.0$
+- /usr/share/doc/libosinfo-1.6.0/AUTHORS.bz2$
+- /usr/share/doc/libosinfo-1.6.0/ChangeLog.bz2$
+- /usr/share/doc/libosinfo-1.6.0/NEWS.bz2$
+- /usr/share/doc/libosinfo-1.6.0/README.bz2$
 - /usr/share/gir-1.0$
 - /usr/share/gir-1.0/Libosinfo-1.0.gir$
 - /usr/share/gtk-doc$
@@ -96,6 +97,8 @@ includes:
 - /usr/share/gtk-doc/html/Libosinfo/OsinfoDeviceList.html$
 - /usr/share/gtk-doc/html/Libosinfo/OsinfoEntity.html$
 - /usr/share/gtk-doc/html/Libosinfo/OsinfoFilter.html$
+- /usr/share/gtk-doc/html/Libosinfo/OsinfoImage.html$
+- /usr/share/gtk-doc/html/Libosinfo/OsinfoImageList.html$
 - /usr/share/gtk-doc/html/Libosinfo/OsinfoInstallConfig.html$
 - /usr/share/gtk-doc/html/Libosinfo/OsinfoInstallConfigParam.html$
 - /usr/share/gtk-doc/html/Libosinfo/OsinfoInstallConfigParamList.html$
@@ -315,3 +318,6 @@ includes:
 - /usr/share/vala$
 - /usr/share/vala/vapi$
 - /usr/share/vala/vapi/libosinfo-1.0.vapi$
+env:
+- ORIGINAL_ATOM=sys-libs/libosinfo
+- ORIGINAL_PACKAGE=sys-libs/libosinfo-1.6.0
