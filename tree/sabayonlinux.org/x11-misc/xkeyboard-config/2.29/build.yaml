@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i x11-misc/xkeyboard-config-2.28 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -20,6 +21,7 @@ includes:
 - /usr/share/X11/xkb/compat/iso9995$
 - /usr/share/X11/xkb/compat/japan$
 - /usr/share/X11/xkb/compat/ledcaps$
+- /usr/share/X11/xkb/compat/ledcompose$
 - /usr/share/X11/xkb/compat/lednum$
 - /usr/share/X11/xkb/compat/ledscroll$
 - /usr/share/X11/xkb/compat/level5$
@@ -100,7 +102,6 @@ includes:
 - /usr/share/X11/xkb/rules/evdev.xml$
 - /usr/share/X11/xkb/rules/xfree98$
 - /usr/share/X11/xkb/rules/xkb.dtd$
-- /usr/share/X11/xkb/rules/xkb.its$
 - /usr/share/X11/xkb/rules/xorg$
 - /usr/share/X11/xkb/rules/xorg.lst$
 - /usr/share/X11/xkb/rules/xorg.xml$
@@ -175,6 +176,7 @@ includes:
 - /usr/share/X11/xkb/symbols/jolla_vndr$
 - /usr/share/X11/xkb/symbols/jolla_vndr/sbj$
 - /usr/share/X11/xkb/symbols/jp$
+- /usr/share/X11/xkb/symbols/jv$
 - /usr/share/X11/xkb/symbols/ke$
 - /usr/share/X11/xkb/symbols/keypad$
 - /usr/share/X11/xkb/symbols/kg$
@@ -323,12 +325,12 @@ includes:
 - /usr/share/X11/xkb/types/numpad$
 - /usr/share/X11/xkb/types/pc$
 - /usr/share/doc$
-- /usr/share/doc/xkeyboard-config-2.28$
-- /usr/share/doc/xkeyboard-config-2.28/AUTHORS.bz2$
-- /usr/share/doc/xkeyboard-config-2.28/ChangeLog$
-- /usr/share/doc/xkeyboard-config-2.28/NEWS.bz2$
-- /usr/share/doc/xkeyboard-config-2.28/README.bz2$
-- /usr/share/doc/xkeyboard-config-2.28/TODO.bz2$
+- /usr/share/doc/xkeyboard-config-2.29$
+- /usr/share/doc/xkeyboard-config-2.29/AUTHORS.bz2$
+- /usr/share/doc/xkeyboard-config-2.29/ChangeLog$
+- /usr/share/doc/xkeyboard-config-2.29/NEWS.bz2$
+- /usr/share/doc/xkeyboard-config-2.29/README.bz2$
+- /usr/share/doc/xkeyboard-config-2.29/TODO.bz2$
 - /usr/share/locale$
 - /usr/share/locale/af$
 - /usr/share/locale/af/LC_MESSAGES$
@@ -446,3 +448,6 @@ includes:
 - /usr/share/man/man7/xkeyboard-config.7.bz2$
 - /usr/share/pkgconfig$
 - /usr/share/pkgconfig/xkeyboard-config.pc$
+env:
+- ORIGINAL_ATOM=x11-misc/xkeyboard-config
+- ORIGINAL_PACKAGE=x11-misc/xkeyboard-config-2.29
