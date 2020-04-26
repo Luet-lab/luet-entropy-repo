@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i app-text/poppler-qt5-0.82.0 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -24,6 +25,9 @@ includes:
 - /usr/lib64$
 - /usr/lib64/libpoppler-qt5.so$
 - /usr/lib64/libpoppler-qt5.so.1$
-- /usr/lib64/libpoppler-qt5.so.1.21.0$
+- /usr/lib64/libpoppler-qt5.so.1.22.0$
 - /usr/lib64/pkgconfig$
 - /usr/lib64/pkgconfig/poppler-qt5.pc$
+env:
+- ORIGINAL_ATOM=app-text/poppler-qt5
+- ORIGINAL_PACKAGE=app-text/poppler-qt5-0.85.0
