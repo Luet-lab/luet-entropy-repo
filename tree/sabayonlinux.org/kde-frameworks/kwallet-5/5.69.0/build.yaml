@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i kde-frameworks/kwallet-5.67.0 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -28,10 +29,10 @@ includes:
 - /usr/lib64/cmake/KF5Wallet/KF5WalletTargets.cmake$
 - /usr/lib64/libKF5Wallet.so$
 - /usr/lib64/libKF5Wallet.so.5$
-- /usr/lib64/libKF5Wallet.so.5.67.0$
+- /usr/lib64/libKF5Wallet.so.5.69.0$
 - /usr/lib64/libkwalletbackend5.so$
 - /usr/lib64/libkwalletbackend5.so.5$
-- /usr/lib64/libkwalletbackend5.so.5.67.0$
+- /usr/lib64/libkwalletbackend5.so.5.69.0$
 - /usr/lib64/qt5$
 - /usr/lib64/qt5/mkspecs$
 - /usr/lib64/qt5/mkspecs/modules$
@@ -43,8 +44,8 @@ includes:
 - /usr/share/dbus-1/services$
 - /usr/share/dbus-1/services/org.kde.kwalletd5.service$
 - /usr/share/doc$
-- /usr/share/doc/kwallet-5.67.0$
-- /usr/share/doc/kwallet-5.67.0/README.md.bz2$
+- /usr/share/doc/kwallet-5.69.0$
+- /usr/share/doc/kwallet-5.69.0/README.md.bz2$
 - /usr/share/knotifications5$
 - /usr/share/knotifications5/kwalletd.notifyrc$
 - /usr/share/kservices5$
@@ -252,3 +253,6 @@ includes:
 - /usr/share/man/man1/kwallet-query.1.bz2$
 - /usr/share/qlogging-categories5$
 - /usr/share/qlogging-categories5/kwallet.categories$
+env:
+- ORIGINAL_ATOM=kde-frameworks/kwallet
+- ORIGINAL_PACKAGE=kde-frameworks/kwallet-5.69.0
