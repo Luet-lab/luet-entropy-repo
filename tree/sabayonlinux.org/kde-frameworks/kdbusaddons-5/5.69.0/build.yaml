@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i kde-frameworks/kdbusaddons-5.67.0 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -37,15 +38,15 @@ includes:
 - /usr/lib64/cmake/KF5DBusAddons/KF5dbus.service.in$
 - /usr/lib64/libKF5DBusAddons.so$
 - /usr/lib64/libKF5DBusAddons.so.5$
-- /usr/lib64/libKF5DBusAddons.so.5.67.0$
+- /usr/lib64/libKF5DBusAddons.so.5.69.0$
 - /usr/lib64/qt5$
 - /usr/lib64/qt5/mkspecs$
 - /usr/lib64/qt5/mkspecs/modules$
 - /usr/lib64/qt5/mkspecs/modules/qt_KDBusAddons.pri$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/kdbusaddons-5.67.0$
-- /usr/share/doc/kdbusaddons-5.67.0/README.md.bz2$
+- /usr/share/doc/kdbusaddons-5.69.0$
+- /usr/share/doc/kdbusaddons-5.69.0/README.md.bz2$
 - /usr/share/locale$
 - /usr/share/locale/ar$
 - /usr/share/locale/ar/LC_MESSAGES$
@@ -166,3 +167,6 @@ includes:
 - /usr/share/locale/zh_TW/LC_MESSAGES/kdbusaddons5_qt.qm$
 - /usr/share/qlogging-categories5$
 - /usr/share/qlogging-categories5/kdbusaddons.categories$
+env:
+- ORIGINAL_ATOM=kde-frameworks/kdbusaddons
+- ORIGINAL_PACKAGE=kde-frameworks/kdbusaddons-5.69.0
