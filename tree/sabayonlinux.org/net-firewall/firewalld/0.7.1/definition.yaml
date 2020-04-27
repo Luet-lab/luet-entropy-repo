@@ -1,4 +1,5 @@
-Labels: null
+Labels:
+  original.package.version: "0.7.1"
 category: net-firewall
 conflicts: null
 id: 0
@@ -147,11 +148,10 @@ use_flags:
 - python_targets_python3_6
 - kernel_linux
 - -python_targets_python3_7
-version: 0.6.3+3
-
+version: "0.7.1"
 Labels:
   original.package.name: "firewalld"
   original.package.category: "net-firewall"
   original.package.version: "0.6.3"
   original.package.slot: "0"
-
+  original.package.version:
