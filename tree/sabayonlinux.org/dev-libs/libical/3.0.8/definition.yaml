@@ -1,4 +1,5 @@
-Labels: null
+Labels:
+  original.package.version: "3.0.8"
 category: dev-libs
 conflicts: null
 id: 0
@@ -62,11 +63,10 @@ use_flags:
 - -introspection
 - split-usr
 - -test
-version: 3.0.7+3
-
+version: "3.0.8"
 Labels:
   original.package.name: "libical"
   original.package.category: "dev-libs"
   original.package.version: "3.0.7"
   original.package.slot: "0"
-
+  original.package.version:

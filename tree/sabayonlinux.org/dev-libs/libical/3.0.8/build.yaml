@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/libical-3.0.7 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -10,6 +11,39 @@ includes:
 - /usr$
 - /usr/include$
 - /usr/include/libical$
+- /usr/include/libical-glib$
+- /usr/include/libical-glib/i-cal-array.h$
+- /usr/include/libical-glib/i-cal-attach.h$
+- /usr/include/libical-glib/i-cal-comp-iter.h$
+- /usr/include/libical-glib/i-cal-component.h$
+- /usr/include/libical-glib/i-cal-datetimeperiod.h$
+- /usr/include/libical-glib/i-cal-derived-parameter.h$
+- /usr/include/libical-glib/i-cal-derived-property.h$
+- /usr/include/libical-glib/i-cal-derived-value.h$
+- /usr/include/libical-glib/i-cal-duration.h$
+- /usr/include/libical-glib/i-cal-enums.h$
+- /usr/include/libical-glib/i-cal-error.h$
+- /usr/include/libical-glib/i-cal-forward-declarations.h$
+- /usr/include/libical-glib/i-cal-geo.h$
+- /usr/include/libical-glib/i-cal-memory.h$
+- /usr/include/libical-glib/i-cal-mime.h$
+- /usr/include/libical-glib/i-cal-object.h$
+- /usr/include/libical-glib/i-cal-parameter.h$
+- /usr/include/libical-glib/i-cal-parser.h$
+- /usr/include/libical-glib/i-cal-period.h$
+- /usr/include/libical-glib/i-cal-property.h$
+- /usr/include/libical-glib/i-cal-recur-iterator.h$
+- /usr/include/libical-glib/i-cal-recur.h$
+- /usr/include/libical-glib/i-cal-recurrence.h$
+- /usr/include/libical-glib/i-cal-reqstat.h$
+- /usr/include/libical-glib/i-cal-restriction.h$
+- /usr/include/libical-glib/i-cal-time-span.h$
+- /usr/include/libical-glib/i-cal-time.h$
+- /usr/include/libical-glib/i-cal-timezone.h$
+- /usr/include/libical-glib/i-cal-trigger.h$
+- /usr/include/libical-glib/i-cal-unknowntokenhandling.h$
+- /usr/include/libical-glib/i-cal-value.h$
+- /usr/include/libical-glib/libical-glib.h$
 - /usr/include/libical/ical.h$
 - /usr/include/libical/icalarray.h$
 - /usr/include/libical/icalattach.h$
@@ -72,31 +106,47 @@ includes:
 - /usr/lib64/cmake/LibIcal/LibIcalConfigVersion.cmake$
 - /usr/lib64/cmake/LibIcal/LibIcalTargets-gentoo.cmake$
 - /usr/lib64/cmake/LibIcal/LibIcalTargets.cmake$
+- /usr/lib64/girepository-1.0$
+- /usr/lib64/girepository-1.0/ICal-3.0.typelib$
+- /usr/lib64/girepository-1.0/ICalGLib-3.0.typelib$
+- /usr/lib64/libical-glib.so$
+- /usr/lib64/libical-glib.so.3$
+- /usr/lib64/libical-glib.so.3.0.8$
 - /usr/lib64/libical.so$
 - /usr/lib64/libical.so.3$
-- /usr/lib64/libical.so.3.0.7$
+- /usr/lib64/libical.so.3.0.8$
 - /usr/lib64/libical_cxx.so$
 - /usr/lib64/libical_cxx.so.3$
-- /usr/lib64/libical_cxx.so.3.0.7$
+- /usr/lib64/libical_cxx.so.3.0.8$
 - /usr/lib64/libicalss.so$
 - /usr/lib64/libicalss.so.3$
-- /usr/lib64/libicalss.so.3.0.7$
+- /usr/lib64/libicalss.so.3.0.8$
 - /usr/lib64/libicalss_cxx.so$
 - /usr/lib64/libicalss_cxx.so.3$
-- /usr/lib64/libicalss_cxx.so.3.0.7$
+- /usr/lib64/libicalss_cxx.so.3.0.8$
 - /usr/lib64/libicalvcal.so$
 - /usr/lib64/libicalvcal.so.3$
-- /usr/lib64/libicalvcal.so.3.0.7$
+- /usr/lib64/libicalvcal.so.3.0.8$
 - /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libical-glib.pc$
 - /usr/lib64/pkgconfig/libical.pc$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/libical-3.0.7$
-- /usr/share/doc/libical-3.0.7/AUTHORS$
-- /usr/share/doc/libical-3.0.7/AddingOrModifyingComponents.txt.bz2$
-- /usr/share/doc/libical-3.0.7/ReadMe.txt.bz2$
-- /usr/share/doc/libical-3.0.7/ReleaseNotes.txt.bz2$
-- /usr/share/doc/libical-3.0.7/TEST$
-- /usr/share/doc/libical-3.0.7/THANKS.bz2$
-- /usr/share/doc/libical-3.0.7/TODO.bz2$
-- /usr/share/doc/libical-3.0.7/UsingLibical.txt.bz2$
+- /usr/share/doc/libical-3.0.8$
+- /usr/share/doc/libical-3.0.8/AUTHORS$
+- /usr/share/doc/libical-3.0.8/AddingOrModifyingComponents.txt.bz2$
+- /usr/share/doc/libical-3.0.8/ReadMe.txt.bz2$
+- /usr/share/doc/libical-3.0.8/ReleaseNotes.txt.bz2$
+- /usr/share/doc/libical-3.0.8/TEST$
+- /usr/share/doc/libical-3.0.8/THANKS.bz2$
+- /usr/share/doc/libical-3.0.8/TODO.bz2$
+- /usr/share/doc/libical-3.0.8/UsingLibical.txt.bz2$
+- /usr/share/gir-1.0$
+- /usr/share/gir-1.0/ICal-3.0.gir$
+- /usr/share/gir-1.0/ICalGLib-3.0.gir$
+- /usr/share/vala$
+- /usr/share/vala/vapi$
+- /usr/share/vala/vapi/libical-glib.vapi$
+env:
+- ORIGINAL_ATOM=dev-libs/libical
+- ORIGINAL_PACKAGE=dev-libs/libical-3.0.8
