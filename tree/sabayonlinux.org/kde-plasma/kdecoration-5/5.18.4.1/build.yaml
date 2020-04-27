@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i kde-plasma/kdecoration-5.18.2 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -47,14 +48,14 @@ includes:
 - /usr/lib64/cmake/KDecoration2/KDecoration2Targets.cmake$
 - /usr/lib64/libkdecorations2.so$
 - /usr/lib64/libkdecorations2.so.5$
-- /usr/lib64/libkdecorations2.so.5.18.2$
+- /usr/lib64/libkdecorations2.so.5.18.4$
 - /usr/lib64/libkdecorations2private.so$
-- /usr/lib64/libkdecorations2private.so.5.18.2$
+- /usr/lib64/libkdecorations2private.so.5.18.4$
 - /usr/lib64/libkdecorations2private.so.7$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/kdecoration-5.18.2$
-- /usr/share/doc/kdecoration-5.18.2/README.md.bz2$
+- /usr/share/doc/kdecoration-5.18.4.1$
+- /usr/share/doc/kdecoration-5.18.4.1/README.md.bz2$
 - /usr/share/locale$
 - /usr/share/locale/ca$
 - /usr/share/locale/ca/LC_MESSAGES$
@@ -137,3 +138,6 @@ includes:
 - /usr/share/locale/zh_TW$
 - /usr/share/locale/zh_TW/LC_MESSAGES$
 - /usr/share/locale/zh_TW/LC_MESSAGES/kdecoration.mo$
+env:
+- ORIGINAL_ATOM=kde-plasma/kdecoration
+- ORIGINAL_PACKAGE=kde-plasma/kdecoration-5.18.4.1
