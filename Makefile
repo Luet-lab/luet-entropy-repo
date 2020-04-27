@@ -69,3 +69,7 @@ validate:
 .PHONY: auto-bump
 auto-bump:
 	$(ROOT_DIR)/scripts/auto-bump.sh
+
+.PHONY: auto-clean
+auto-clean:
+	$(ROOT_DIR)/scripts/auto-clean.sh
