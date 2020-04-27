@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i gnome-base/gnome-shell-3.32.2-r1 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -13,6 +14,7 @@ includes:
 - /etc/xdg/autostart/gnome-shell-overrides-migration.desktop$
 - /usr$
 - /usr/bin$
+- /usr/bin/gnome-extensions$
 - /usr/bin/gnome-shell$
 - /usr/bin/gnome-shell-extension-prefs$
 - /usr/bin/gnome-shell-extension-tool$
@@ -20,9 +22,11 @@ includes:
 - /usr/lib$
 - /usr/lib/systemd$
 - /usr/lib/systemd/user$
+- /usr/lib/systemd/user/gnome-shell-disable-extensions.service$
+- /usr/lib/systemd/user/gnome-shell-wayland.service$
 - /usr/lib/systemd/user/gnome-shell-wayland.target$
+- /usr/lib/systemd/user/gnome-shell-x11.service$
 - /usr/lib/systemd/user/gnome-shell-x11.target$
-- /usr/lib/systemd/user/gnome-shell.service$
 - /usr/lib64$
 - /usr/lib64/gnome-shell$
 - /usr/lib64/gnome-shell/Gvc-1.0.typelib$
@@ -47,6 +51,9 @@ includes:
 - /usr/share/applications/gnome-shell-extension-prefs.desktop$
 - /usr/share/applications/org.gnome.Shell.PortalHelper.desktop$
 - /usr/share/applications/org.gnome.Shell.desktop$
+- /usr/share/bash-completion$
+- /usr/share/bash-completion/completions$
+- /usr/share/bash-completion/completions/gnome-extensions$
 - /usr/share/dbus-1$
 - /usr/share/dbus-1/interfaces$
 - /usr/share/dbus-1/interfaces/org.gnome.Shell.Extensions.xml$
@@ -61,10 +68,10 @@ includes:
 - /usr/share/dbus-1/services/org.gnome.Shell.HotplugSniffer.service$
 - /usr/share/dbus-1/services/org.gnome.Shell.PortalHelper.service$
 - /usr/share/doc$
-- /usr/share/doc/gnome-shell-3.32.2-r1$
-- /usr/share/doc/gnome-shell-3.32.2-r1/NEWS.bz2$
-- /usr/share/doc/gnome-shell-3.32.2-r1/README.md.bz2$
-- /usr/share/doc/gnome-shell-3.32.2-r1/README.mdwn.bz2$
+- /usr/share/doc/gnome-shell-3.34.5$
+- /usr/share/doc/gnome-shell-3.34.5/NEWS.bz2$
+- /usr/share/doc/gnome-shell-3.34.5/README.md.bz2$
+- /usr/share/doc/gnome-shell-3.34.5/README.mdwn.bz2$
 - /usr/share/glib-2.0$
 - /usr/share/glib-2.0/schemas$
 - /usr/share/glib-2.0/schemas/00_org.gnome.shell.gschema.override$
@@ -117,6 +124,9 @@ includes:
 - /usr/share/locale/ca@valencia$
 - /usr/share/locale/ca@valencia/LC_MESSAGES$
 - /usr/share/locale/ca@valencia/LC_MESSAGES/gnome-shell.mo$
+- /usr/share/locale/ckb$
+- /usr/share/locale/ckb/LC_MESSAGES$
+- /usr/share/locale/ckb/LC_MESSAGES/gnome-shell.mo$
 - /usr/share/locale/cs$
 - /usr/share/locale/cs/LC_MESSAGES$
 - /usr/share/locale/cs/LC_MESSAGES/gnome-shell.mo$
@@ -219,6 +229,9 @@ includes:
 - /usr/share/locale/lv$
 - /usr/share/locale/lv/LC_MESSAGES$
 - /usr/share/locale/lv/LC_MESSAGES/gnome-shell.mo$
+- /usr/share/locale/mjw$
+- /usr/share/locale/mjw/LC_MESSAGES$
+- /usr/share/locale/mjw/LC_MESSAGES/gnome-shell.mo$
 - /usr/share/locale/mk$
 - /usr/share/locale/mk/LC_MESSAGES$
 - /usr/share/locale/mk/LC_MESSAGES/gnome-shell.mo$
@@ -323,7 +336,11 @@ includes:
 - /usr/share/locale/zh_TW/LC_MESSAGES/gnome-shell.mo$
 - /usr/share/man$
 - /usr/share/man/man1$
+- /usr/share/man/man1/gnome-extensions.1.bz2$
 - /usr/share/man/man1/gnome-shell.1.bz2$
 - /usr/share/xdg-desktop-portal$
 - /usr/share/xdg-desktop-portal/portals$
 - /usr/share/xdg-desktop-portal/portals/gnome-shell.portal$
+env:
+- ORIGINAL_ATOM=gnome-base/gnome-shell
+- ORIGINAL_PACKAGE=gnome-base/gnome-shell-3.34.5
