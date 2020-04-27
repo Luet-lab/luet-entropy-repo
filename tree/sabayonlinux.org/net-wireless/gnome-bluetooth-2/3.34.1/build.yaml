@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i net-wireless/gnome-bluetooth-3.34.0 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -37,10 +38,10 @@ includes:
 - /usr/share/applications$
 - /usr/share/applications/bluetooth-sendto.desktop$
 - /usr/share/doc$
-- /usr/share/doc/gnome-bluetooth-3.34.0$
-- /usr/share/doc/gnome-bluetooth-3.34.0/AUTHORS.bz2$
-- /usr/share/doc/gnome-bluetooth-3.34.0/NEWS.bz2$
-- /usr/share/doc/gnome-bluetooth-3.34.0/README.bz2$
+- /usr/share/doc/gnome-bluetooth-3.34.1$
+- /usr/share/doc/gnome-bluetooth-3.34.1/AUTHORS.bz2$
+- /usr/share/doc/gnome-bluetooth-3.34.1/NEWS.bz2$
+- /usr/share/doc/gnome-bluetooth-3.34.1/README.bz2$
 - /usr/share/gir-1.0$
 - /usr/share/gir-1.0/GnomeBluetooth-1.0.gir$
 - /usr/share/gnome-bluetooth$
@@ -123,6 +124,9 @@ includes:
 - /usr/share/locale/ca@valencia$
 - /usr/share/locale/ca@valencia/LC_MESSAGES$
 - /usr/share/locale/ca@valencia/LC_MESSAGES/gnome-bluetooth2.mo$
+- /usr/share/locale/ckb$
+- /usr/share/locale/ckb/LC_MESSAGES$
+- /usr/share/locale/ckb/LC_MESSAGES/gnome-bluetooth2.mo$
 - /usr/share/locale/crh$
 - /usr/share/locale/crh/LC_MESSAGES$
 - /usr/share/locale/crh/LC_MESSAGES/gnome-bluetooth2.mo$
@@ -348,3 +352,6 @@ includes:
 - /usr/share/man$
 - /usr/share/man/man1$
 - /usr/share/man/man1/bluetooth-sendto.1.bz2$
+env:
+- ORIGINAL_ATOM=net-wireless/gnome-bluetooth
+- ORIGINAL_PACKAGE=net-wireless/gnome-bluetooth-3.34.1
