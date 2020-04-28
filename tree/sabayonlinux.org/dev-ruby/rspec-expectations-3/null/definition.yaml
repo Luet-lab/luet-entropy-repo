@@ -1,4 +1,5 @@
-Labels: null
+Labels:
+  original.package.version: "null"
 category: dev-ruby
 conflicts: null
 id: 0
@@ -46,11 +47,10 @@ use_flags:
 - abi_x86_64
 - elibc_glibc
 - ruby_targets_ruby25
-version: 3.9.0+3
-
+version: "null"
 Labels:
   original.package.name: "rspec-expectations"
   original.package.category: "dev-ruby"
   original.package.version: "3.9.0"
   original.package.slot: "3"
-
+  original.package.version:
