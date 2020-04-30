@@ -97,6 +97,10 @@ for i in $(echo "$PKG_LIST" | jq -r '.packages[].path'); do
         SABAYON_VERSIONS=$(sabayon_versions $ORIGINAL_PACKAGE_NAME $ORIGINAL_PACKAGE_CATEGORY)
     fi
 
+    # We generate acct-group/* and acct-user/*, skip them
+    if [ "$PACKAGE_CATEGORY" == "acct-group" ] || [ "$PACKAGE_CATEGORY" == "acct-user" ]; then
+        continue
+    fi
     echo "==== Package $PACKAGE_CATEGORY/$PACKAGE_NAME ===="
 
     # No available versions. Delete it!
