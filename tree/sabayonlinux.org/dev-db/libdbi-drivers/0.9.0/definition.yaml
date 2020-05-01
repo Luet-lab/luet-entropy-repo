@@ -1,23 +1,12 @@
-Labels: null
 category: dev-db
-conflicts: null
-id: 0
 license: LGPL-2.1
 name: libdbi-drivers
 requires:
-- Labels: null
-  category: dev-db
-  conflicts: null
-  id: 0
+- category: dev-db
   name: libdbi
-  requires: null
   version: '>=0.9.0'
-- Labels: null
-  category: dev-db
-  conflicts: null
-  id: 0
+- category: dev-db
   name: sqlite-3
-  requires: null
   version: '>=0'
 use_flags:
 - kernel_linux
