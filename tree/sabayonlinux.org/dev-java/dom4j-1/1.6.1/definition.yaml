@@ -1,51 +1,18 @@
-Labels: null
 category: dev-java
-conflicts: null
-id: 0
 license: dom4j
 name: dom4j-1
 requires:
-- Labels: null
-  category: dev-java
-  conflicts: null
-  id: 0
-  name: java-config-2
-  requires: null
-  version: '>=2.2.0'
-- Labels: null
-  category: dev-java
-  conflicts: null
-  id: 0
-  name: jaxen-1.1
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-java
-  conflicts: null
-  id: 0
+- category: dev-java
   name: relaxng-datatype
-  requires: null
   version: '>=0'
-- Labels: null
-  category: dev-java
-  conflicts: null
-  id: 0
+- category: dev-java
   name: xpp2
-  requires: null
   version: '>=0'
-- Labels: null
-  category: dev-java
-  conflicts: null
-  id: 0
+- category: dev-java
   name: xpp3
-  requires: null
   version: '>=0'
-- Labels: null
-  category: dev-java
-  conflicts: null
-  id: 0
+- category: dev-java
   name: xsdlib
-  requires: null
   version: '>=0'
 use_flags:
 - -test
