@@ -1,58 +1,18 @@
-Labels: null
 category: dev-java
-conflicts: null
-id: 0
 license: MPL-1.0
 name: saxon-9
 requires:
-- Labels: null
-  category: dev-java
-  conflicts: null
-  id: 0
+- category: dev-java
   name: ant-core
-  requires: null
-  version: '>=1.8.2'
-- Labels: null
-  category: dev-java
-  conflicts: null
-  id: 0
-  name: java-config-2
-  requires: null
-  version: '>=2.2.0'
-- Labels: null
-  category: dev-java
-  conflicts: null
-  id: 0
-  name: javatoolkit
-  requires: null
-  version: '>=0.3.0'
-- Labels: null
-  category: dev-java
-  conflicts: null
-  id: 0
-  name: ant-core
-  requires: null
   version: '>=0'
-- Labels: null
-  category: dev-java
-  conflicts: null
-  id: 0
+- category: dev-java
   name: dom4j-1
-  requires: null
   version: '>=0'
-- Labels: null
-  category: dev-java
-  conflicts: null
-  id: 0
+- category: dev-java
   name: jdom
-  requires: null
   version: '>=0'
-- Labels: null
-  category: dev-java
-  conflicts: null
-  id: 0
+- category: dev-java
   name: xom
-  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc
