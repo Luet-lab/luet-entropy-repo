@@ -1,73 +1,44 @@
 Labels:
   original.package.version: "3.34.1"
 category: gnome-extra
-conflicts: null
-id: 0
 license: GPL-2+
 name: gnome-contacts
 requires:
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: folks
-  requires: null
   version: '>=0.11.4'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: glib-2
-  requires: null
   version: '>=2.44'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libgee-0.8
-  requires: null
   version: '>=0.10'
 - Labels: null
   category: gnome-base
-  conflicts: null
-  id: 0
   name: gnome-desktop-3
-  requires: null
   version: '>=3.0'
 - Labels: null
   category: gnome-extra
-  conflicts: null
-  id: 0
   name: evolution-data-server
-  requires: null
   version: '>=3.13.90'
 - Labels: null
   category: gui-libs
-  conflicts: null
-  id: 0
   name: libhandy-0.0
-  requires: null
   version: '>=0.0.9'
 - Labels: null
   category: media-video
-  conflicts: null
-  id: 0
   name: cheese
-  requires: null
   version: '>=3.5.91'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: gtk+-3
-  requires: null
   version: '>=3.23.1'
 - Labels: null
   category: net-libs
-  conflicts: null
-  id: 0
   name: gnome-online-accounts
-  requires: null
   version: '>=0'
 use_flags:
 - abi_x86_64

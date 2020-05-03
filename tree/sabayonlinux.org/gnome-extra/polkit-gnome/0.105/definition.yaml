@@ -1,52 +1,32 @@
 
 
 category: gnome-extra
-conflicts: null
-id: 0
 license: LGPL-2
 name: polkit-gnome
 requires:
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: glib-2
-  requires: null
   version: '>=2.30'
 - Labels: null
   category: sys-auth
-  conflicts: null
-  id: 0
   name: polkit
-  requires: null
   version: '>=0.102'
 - Labels: null
   category: app-arch
-  conflicts: null
-  id: 0
   name: xz-utils
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: intltool
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: gettext
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: gtk+-3
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian

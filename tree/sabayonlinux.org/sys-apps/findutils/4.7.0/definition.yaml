@@ -1,17 +1,12 @@
 
 
 category: sys-apps
-conflicts: null
-id: 0
 license: GPL-3+
 name: findutils
 requires:
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: gettext
-  requires: null
   version: '>=0'
 use_flags:
 - -static

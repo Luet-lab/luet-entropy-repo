@@ -1,31 +1,20 @@
 
 
 category: dev-util
-conflicts: null
-id: 0
 license: GPL-2
 name: intltool
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: perl
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: XML-Parser
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: gettext
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian

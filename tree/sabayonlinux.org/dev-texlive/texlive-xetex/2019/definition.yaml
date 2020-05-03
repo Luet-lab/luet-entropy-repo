@@ -1,52 +1,32 @@
 
 
 category: dev-texlive
-conflicts: null
-id: 0
 license: Apache-2.0 GPL-1 GPL-2 LGPL-2 LPPL-1.2 LPPL-1.3 LPPL-1.3c
 name: texlive-xetex
 requires:
 - Labels: null
   category: app-text
-  conflicts: null
-  id: 0
   name: texlive-core
-  requires: null
   version: '>=2010'
 - Labels: null
   category: app-text
-  conflicts: null
-  id: 0
   name: texlive-core
-  requires: null
   version: '>=2019'
 - Labels: null
   category: dev-texlive
-  conflicts: null
-  id: 0
   name: texlive-basic
-  requires: null
   version: '>=2019'
 - Labels: null
   category: dev-texlive
-  conflicts: null
-  id: 0
   name: texlive-latexextra
-  requires: null
   version: '>=2010'
 - Labels: null
   category: dev-texlive
-  conflicts: null
-  id: 0
   name: texlive-luatex
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-texlive
-  conflicts: null
-  id: 0
   name: texlive-mathscience
-  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc

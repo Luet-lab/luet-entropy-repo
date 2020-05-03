@@ -1,38 +1,24 @@
 
 
 category: dev-java
-conflicts: null
-id: 0
 license: Apache-1.1 BSD-2
 name: xsdlib
 requires:
 - Labels: null
   category: dev-java
-  conflicts: null
-  id: 0
   name: java-config-2
-  requires: null
   version: '>=2.1.9'
 - Labels: null
   category: app-arch
-  conflicts: null
-  id: 0
   name: unzip
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-java
-  conflicts: null
-  id: 0
   name: relaxng-datatype
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-java
-  conflicts: null
-  id: 0
   name: xerces-2
-  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc

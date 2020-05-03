@@ -1,150 +1,88 @@
 
 
 category: dev-java
-conflicts: null
-id: 0
 license: Oracle-BCLA-JavaSE
 name: oracle-jdk-bin-1.8
 requires:
 - Labels: null
   category: app-eselect
-  conflicts: null
-  id: 0
   name: eselect-java
-  requires: null
   version: '>=0.4.0'
 - Labels: null
   category: dev-java
-  conflicts: null
-  id: 0
   name: java-config-2
-  requires: null
   version: '>=2.2.0'
 - Labels: null
   category: app-arch
-  conflicts: null
-  id: 0
   name: zip
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: glib-2
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libxml2-2
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libxslt
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: alsa-lib
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: fontconfig-1.0
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: freetype-2
-  requires: null
   version: '>=0'
 - Labels: null
   category: net-print
-  conflicts: null
-  id: 0
   name: cups
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: glibc-2.2
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: cairo
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: gtk+-3
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libX11
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXext
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXi
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXrender
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXtst
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXxf86vm
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: pango
-  requires: null
   version: '>=0'
 use_flags:
 - -doc

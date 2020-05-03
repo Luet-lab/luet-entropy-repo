@@ -1,66 +1,40 @@
 
 
 category: app-portage
-conflicts: null
-id: 0
 license: BSD-2
 name: gemato
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-2.7
-  requires: null
   version: '>=2.7.5'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-exec-2
-  requires: null
   version: '>=2'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: setuptools
-  requires: null
   version: '>=34'
 - Labels: null
   category: app-crypt
-  conflicts: null
-  id: 0
   name: gnupg
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-3.6
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: bz2file
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: pyblake2
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: setuptools
-  requires: null
   version: '>=0'
 use_flags:
 - blake2

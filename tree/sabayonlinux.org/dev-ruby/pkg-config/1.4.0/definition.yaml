@@ -1,17 +1,12 @@
 
 
 category: dev-ruby
-conflicts: null
-id: 0
 license: LGPL-2 LGPL-2.1 LGPL-3
 name: pkg-config
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: ruby-2.5
-  requires: null
   version: '>=0'
 use_flags:
 - -ruby_targets_ruby24

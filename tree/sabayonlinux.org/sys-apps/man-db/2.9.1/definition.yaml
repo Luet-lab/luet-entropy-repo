@@ -1,87 +1,52 @@
 
 
 category: sys-apps
-conflicts: null
-id: 0
 license: GPL-3
 name: man-db
 requires:
 - Labels: null
   category: app-text
-  conflicts: null
-  id: 0
   name: po4a
-  requires: null
   version: '>=0.45'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libpipeline
-  requires: null
   version: '>=1.5.0'
 - Labels: null
   category: acct-group
-  conflicts: null
-  id: 0
   name: man
-  requires: null
   version: '>=0'
 - Labels: null
   category: acct-user
-  conflicts: null
-  id: 0
   name: man
-  requires: null
   version: '>=0'
 - Labels: null
   category: app-arch
-  conflicts: null
-  id: 0
   name: xz-utils
-  requires: null
   version: '>=0'
 - Labels: null
   category: app-text
-  conflicts: null
-  id: 0
   name: manpager
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: groff
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: gettext
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: gdbm
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: libseccomp
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: zlib
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian

@@ -1,262 +1,152 @@
 Labels:
   original.package.version: "3.34.2"
 category: app-text
-conflicts: null
-id: 0
 license: CC-BY-SA-3.0 GPL-2+
 name: evince
 requires:
 - Labels: null
   category: app-arch
-  conflicts: null
-  id: 0
   name: libarchive
-  requires: null
   version: '>=3.2.0'
 - Labels: null
   category: app-crypt
-  conflicts: null
-  id: 0
   name: libsecret
-  requires: null
   version: '>=0.5'
 - Labels: null
   category: app-portage
-  conflicts: null
-  id: 0
   name: elt-patches
-  requires: null
   version: '>=20170815'
 - Labels: null
   category: app-text
-  conflicts: null
-  id: 0
   name: djvu
-  requires: null
   version: '>=3.5.22'
 - Labels: null
   category: app-text
-  conflicts: null
-  id: 0
   name: gspell
-  requires: null
   version: '>=1.6.0'
 - Labels: null
   category: app-text
-  conflicts: null
-  id: 0
   name: poppler-glib
-  requires: null
   version: '>=0.76.0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: glib-2
-  requires: null
   version: '>=2.36'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: gobject-introspection
-  requires: null
   version: '>=1'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libxml2-2
-  requires: null
   version: '>=2.5'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: gtk-doc-am
-  requires: null
   version: '>=1.13'
 - Labels: null
   category: gnome-base
-  conflicts: null
-  id: 0
   name: nautilus
-  requires: null
   version: '>=2.91.4'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: tiff
-  requires: null
   version: '>=3.6'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: autoconf-2.69
-  requires: null
   version: '>=2.69'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: automake-1.15
-  requires: null
   version: '>=1.15.1'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: gettext
-  requires: null
   version: '>=0.19.8'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: libtool-2
-  requires: null
   version: '>=2.4'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: cairo
-  requires: null
   version: '>=1.10'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: gdk-pixbuf-2
-  requires: null
   version: '>=2.36.5'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: gtk+-3
-  requires: null
   version: '>=3.22.0'
 - Labels: null
   category: x11-themes
-  conflicts: null
-  id: 0
   name: hicolor-icon-theme
-  requires: null
   version: '>=0.10'
 - Labels: null
   category: app-arch
-  conflicts: null
-  id: 0
   name: xz-utils
-  requires: null
   version: '>=0'
 - Labels: null
   category: app-text
-  conflicts: null
-  id: 0
   name: docbook-xml-dtd-4.5
-  requires: null
   version: '>=0'
 - Labels: null
   category: app-text
-  conflicts: null
-  id: 0
   name: libspectre
-  requires: null
   version: '>=0'
 - Labels: null
   category: app-text
-  conflicts: null
-  id: 0
   name: yelp-tools
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: appstream-glib
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: atk
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: kpathsea
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: desktop-file-utils
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: gdbus-codegen
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: glib-utils
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: itstool
-  requires: null
   version: '>=0'
 - Labels: null
   category: gnome-base
-  conflicts: null
-  id: 0
   name: gsettings-desktop-schemas
-  requires: null
   version: '>=0'
 - Labels: null
   category: gnome-base
-  conflicts: null
-  id: 0
   name: gvfs
-  requires: null
   version: '>=0'
 - Labels: null
   category: gnome-base
-  conflicts: null
-  id: 0
   name: librsvg-2
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: zlib
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-misc
-  conflicts: null
-  id: 0
   name: shared-mime-info
-  requires: null
   version: '>=0'
 use_flags:
 - introspection

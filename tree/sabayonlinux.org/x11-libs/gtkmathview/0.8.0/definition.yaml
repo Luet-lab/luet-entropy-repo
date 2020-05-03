@@ -1,94 +1,56 @@
 
 
 category: x11-libs
-conflicts: null
-id: 0
 license: LGPL-3
 name: gtkmathview
 requires:
 - Labels: null
   category: app-portage
-  conflicts: null
-  id: 0
   name: elt-patches
-  requires: null
   version: '>=20170422'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: glib-2
-  requires: null
   version: '>=2.2.1'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libxml2-2
-  requires: null
   version: '>=2.6.7'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: popt
-  requires: null
   version: '>=1.7'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: t1lib-5
-  requires: null
   version: '>=5'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: autoconf-2.69
-  requires: null
   version: '>=2.69'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: automake-1.15
-  requires: null
   version: '>=1.15'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: libtool-2
-  requires: null
   version: '>=2.4'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: gtk+-3
-  requires: null
   version: '>=2.2.1'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libxslt
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: pango
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: pangox-compat
-  requires: null
   version: '>=0'
 use_flags:
 - svg

@@ -1,66 +1,40 @@
 
 
 category: dev-perl
-conflicts: null
-id: 0
 license: Artistic-2
 name: DateTime-Format-Strptime
 requires:
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: DateTime
-  requires: null
   version: '>=1'
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: DateTime-Locale
-  requires: null
   version: '>=1.50.0'
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: DateTime-TimeZone
-  requires: null
   version: '>=2.90.0'
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: Package-DeprecationManager
-  requires: null
   version: '>=0.150.0'
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: Specio
-  requires: null
   version: '>=0.330.0'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: perl
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: Params-ValidationCompiler
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: Try-Tiny
-  requires: null
   version: '>=0'
 use_flags:
 - split-usr

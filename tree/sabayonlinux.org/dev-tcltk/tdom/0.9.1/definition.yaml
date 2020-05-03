@@ -1,45 +1,28 @@
 
 
 category: dev-tcltk
-conflicts: null
-id: 0
 license: MPL-1.1
 name: tdom
 requires:
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: autoconf-2.69
-  requires: null
   version: '>=2.68'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: automake-1.15
-  requires: null
   version: '>=1.13'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: tcl
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: expat
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: libtool-2
-  requires: null
   version: '>=0'
 use_flags:
 - -threads

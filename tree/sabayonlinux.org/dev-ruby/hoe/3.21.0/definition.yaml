@@ -1,31 +1,20 @@
 
 
 category: dev-ruby
-conflicts: null
-id: 0
 license: MIT
 name: hoe
 requires:
 - Labels: null
   category: dev-ruby
-  conflicts: null
-  id: 0
   name: rake
-  requires: null
   version: <15.0
 - Labels: null
   category: dev-ruby
-  conflicts: null
-  id: 0
   name: rake
-  requires: null
   version: '>=0.8.7'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: ruby-2.5
-  requires: null
   version: '>=0'
 use_flags:
 - -ruby_targets_ruby24

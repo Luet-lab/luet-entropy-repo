@@ -1,31 +1,20 @@
 
 
 category: app-accessibility
-conflicts: null
-id: 0
 license: GPL-3
 name: espeak
 requires:
 - Labels: null
   category: app-arch
-  conflicts: null
-  id: 0
   name: unzip
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-sound
-  conflicts: null
-  id: 0
   name: pulseaudio
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-sound
-  conflicts: null
-  id: 0
   name: sox
-  requires: null
   version: '>=0'
 use_flags:
 - -portaudio

@@ -4,17 +4,11 @@ name: libreoffice-l10n
 requires:
 - Labels: null
   category: app-arch
-  conflicts: null
-  id: 0
   name: rpm2targz
-  requires: null
   version: '>=9.0.0.3g'
 - Labels: null
   category: app-text
-  conflicts: null
-  id: 0
   name: hunspell
-  requires: null
   version: '>=0'
 use_flags:
 - -l10n_it

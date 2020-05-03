@@ -1,24 +1,16 @@
 
 
 category: app-text
-conflicts: null
-id: 0
 license: GPL-2
 name: djvu
 requires:
 - Labels: null
   category: media-gfx
-  conflicts: null
-  id: 0
   name: inkscape
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: tiff
-  requires: null
   version: '>=0'
 use_flags:
 - jpeg

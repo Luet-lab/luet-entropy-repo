@@ -1,52 +1,32 @@
 
 
 category: dev-db
-conflicts: null
-id: 0
 license: MPL-1.1
 name: spatialite
 requires:
 - Labels: null
   category: dev-db
-  conflicts: null
-  id: 0
   name: sqlite-3
-  requires: null
   version: '>=3.7.5'
 - Labels: null
   category: sci-libs
-  conflicts: null
-  id: 0
   name: geos
-  requires: null
   version: '>=3.4'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: freexl
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libxml2-2
-  requires: null
   version: '>=0'
 - Labels: null
   category: sci-libs
-  conflicts: null
-  id: 0
   name: proj
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: zlib
-  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU

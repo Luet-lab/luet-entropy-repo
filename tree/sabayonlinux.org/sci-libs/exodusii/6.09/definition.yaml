@@ -1,31 +1,20 @@
 
 
 category: sci-libs
-conflicts: null
-id: 0
 license: BSD
 name: exodusii
 requires:
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: cmake
-  requires: null
   version: '>=3.9.6'
 - Labels: null
   category: sci-libs
-  conflicts: null
-  id: 0
   name: netcdf
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: make
-  requires: null
   version: '>=0'
 use_flags:
 - -static-libs

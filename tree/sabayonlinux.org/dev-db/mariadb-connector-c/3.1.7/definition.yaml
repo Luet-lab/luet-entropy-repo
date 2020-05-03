@@ -1,24 +1,16 @@
 
 
 category: dev-db
-conflicts: null
-id: 0
 license: LGPL-2.1
 name: mariadb-connector-c
 requires:
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: cmake
-  requires: null
   version: '>=3.9.6'
 - Labels: null
   category: net-libs
-  conflicts: null
-  id: 0
   name: gnutls
-  requires: null
   version: '>=3.3.24'
 use_flags:
 - big-endian

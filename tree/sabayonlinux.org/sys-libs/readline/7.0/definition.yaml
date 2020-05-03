@@ -1,17 +1,12 @@
 
 
 category: sys-libs
-conflicts: null
-id: 0
 license: GPL-3
 name: readline
 requires:
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: ncurses
-  requires: null
   version: '>=5.9'
 use_flags:
 - static-libs

@@ -1,24 +1,16 @@
 
 
 category: dev-ruby
-conflicts: null
-id: 0
 license: MIT
 name: sass-listen-4
 requires:
 - Labels: null
   category: dev-ruby
-  conflicts: null
-  id: 0
   name: rb-inotify
-  requires: null
   version: '>=0.9.7'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: ruby-2.5
-  requires: null
   version: '>=0'
 use_flags:
 - split-usr

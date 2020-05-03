@@ -1,24 +1,16 @@
 
 
 category: app-xemacs
-conflicts: null
-id: 0
 license: GPL-2+
 name: fsf-compat
 requires:
 - Labels: null
   category: app-editors
-  conflicts: null
-  id: 0
   name: xemacs
-  requires: null
   version: '>=0'
 - Labels: null
   category: app-xemacs
-  conflicts: null
-  id: 0
   name: xemacs-base
-  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc

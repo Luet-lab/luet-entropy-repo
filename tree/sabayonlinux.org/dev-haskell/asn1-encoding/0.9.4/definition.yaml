@@ -1,45 +1,28 @@
 
 
 category: dev-haskell
-conflicts: null
-id: 0
 license: BSD
 name: asn1-encoding
 requires:
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: asn1-types
-  requires: null
   version: <0.4
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: asn1-types
-  requires: null
   version: '>=0.3.0'
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: cabal
-  requires: null
   version: '>=1.10'
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: hourglass
-  requires: null
   version: '>=0.2.6'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: ghc
-  requires: null
   version: '>=7.4.1'
 use_flags:
 - big-endian

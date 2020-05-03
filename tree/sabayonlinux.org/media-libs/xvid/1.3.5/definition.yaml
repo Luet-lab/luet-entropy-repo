@@ -1,24 +1,16 @@
 
 
 category: media-libs
-conflicts: null
-id: 0
 license: GPL-2
 name: xvid
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: nasm
-  requires: null
   version: '>=2'
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: grep
-  requires: null
   version: '>=0'
 use_flags:
 - -examples

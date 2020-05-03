@@ -1,24 +1,16 @@
 
 
 category: sys-auth
-conflicts: null
-id: 0
 license: GPL-2
 name: pam_fprint
 requires:
 - Labels: null
   category: sys-auth
-  conflicts: null
-  id: 0
   name: libfprint
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: pam
-  requires: null
   version: '>=0'
 use_flags:
 - amd64

@@ -1,17 +1,12 @@
 
 
 category: dev-ml
-conflicts: null
-id: 0
 license: MIT
 name: findlib
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: ocaml
-  requires: null
   version: '>=4.02.3'
 use_flags:
 - big-endian

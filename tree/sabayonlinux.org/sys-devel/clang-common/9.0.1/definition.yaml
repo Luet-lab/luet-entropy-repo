@@ -1,17 +1,12 @@
 
 
 category: sys-devel
-conflicts: null
-id: 0
 license: Apache-2.0-with-LLVM-exceptions UoI-NCSA
 name: clang-common
 requires:
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: clang-9
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian

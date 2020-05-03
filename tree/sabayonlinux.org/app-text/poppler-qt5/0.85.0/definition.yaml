@@ -1,38 +1,24 @@
 
 
 category: app-text
-conflicts: null
-id: 0
 license: GPL-2
 name: poppler-qt5
 requires:
 - Labels: null
   category: dev-qt
-  conflicts: null
-  id: 0
   name: qtcore-5
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-qt
-  conflicts: null
-  id: 0
   name: qtgui-5
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-qt
-  conflicts: null
-  id: 0
   name: qtxml-5
-  requires: null
   version: '>=0'
 - Labels: null
   category: app-text
-  conflicts: null
-  id: 0
   name: poppler-base
-  requires: null
   version: '>=0.82.0'
 use_flags:
 - elibc_glibc

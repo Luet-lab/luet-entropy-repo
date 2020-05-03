@@ -1,45 +1,28 @@
 
 
 category: dev-ruby
-conflicts: null
-id: 0
 license: MIT
 name: activerecord-6.0
 requires:
 - Labels: null
   category: dev-ruby
-  conflicts: null
-  id: 0
   name: pg-1
-  requires: null
   version: '>=0.18.0'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: ruby-2.5
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-ruby
-  conflicts: null
-  id: 0
   name: arel-9.0
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-ruby
-  conflicts: null
-  id: 0
   name: activemodel-6.0
-  requires: null
   version: '>=6.0.2.1'
 - Labels: null
   category: dev-ruby
-  conflicts: null
-  id: 0
   name: activesupport-6.0
-  requires: null
   version: '>=6.0.2.1'
 use_flags:
 - -test

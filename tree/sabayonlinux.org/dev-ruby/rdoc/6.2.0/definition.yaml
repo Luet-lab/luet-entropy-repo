@@ -1,45 +1,28 @@
 
 
 category: dev-ruby
-conflicts: null
-id: 0
 license: MIT Ruby
 name: rdoc
 requires:
 - Labels: null
   category: app-eselect
-  conflicts: null
-  id: 0
   name: eselect-ruby
-  requires: null
   version: '>=20181225'
 - Labels: null
   category: dev-ruby
-  conflicts: null
-  id: 0
   name: kpeg-1
-  requires: null
   version: '>=1.1.0'
 - Labels: null
   category: dev-ruby
-  conflicts: null
-  id: 0
   name: racc
-  requires: null
   version: '>1.4.10'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: ruby-2.5
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-ruby
-  conflicts: null
-  id: 0
   name: rake
-  requires: null
   version: '>=0'
 use_flags:
 - -test

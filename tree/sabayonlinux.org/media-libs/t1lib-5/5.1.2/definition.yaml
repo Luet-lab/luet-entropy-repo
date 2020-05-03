@@ -1,45 +1,28 @@
 
 
 category: media-libs
-conflicts: null
-id: 0
 license: GPL-2 LGPL-2
 name: t1lib-5
 requires:
 - Labels: null
   category: app-portage
-  conflicts: null
-  id: 0
   name: elt-patches
-  requires: null
   version: '>=20170422'
 - Labels: null
   category: x11-base
-  conflicts: null
-  id: 0
   name: xorg-proto
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libX11
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXaw
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXt
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian

@@ -1,52 +1,32 @@
 
 
 category: dev-haskell
-conflicts: null
-id: 0
 license: MIT
 name: enclosed-exceptions
 requires:
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: cabal
-  requires: null
   version: '>=1.8'
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: lifted-base
-  requires: null
   version: '>=0.2'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: ghc
-  requires: null
   version: '>=7.4.1'
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: monad-control
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: transformers
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: transformers-base
-  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc

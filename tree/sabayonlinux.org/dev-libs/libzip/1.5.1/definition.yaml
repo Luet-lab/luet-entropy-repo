@@ -1,45 +1,28 @@
 
 
 category: dev-libs
-conflicts: null
-id: 0
 license: BSD
 name: libzip
 requires:
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: cmake
-  requires: null
   version: '>=3.9.6'
 - Labels: null
   category: app-arch
-  conflicts: null
-  id: 0
   name: bzip2
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: ninja
-  requires: null
   version: '>=0'
 - Labels: null
   category: net-libs
-  conflicts: null
-  id: 0
   name: gnutls
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: zlib
-  requires: null
   version: '>=0'
 use_flags:
 - -libressl

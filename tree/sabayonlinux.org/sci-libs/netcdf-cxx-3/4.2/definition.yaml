@@ -1,24 +1,16 @@
 
 
 category: sci-libs
-conflicts: null
-id: 0
 license: UCAR-Unidata
 name: netcdf-cxx-3
 requires:
 - Labels: null
   category: app-portage
-  conflicts: null
-  id: 0
   name: elt-patches
-  requires: null
   version: '>=20170815'
 - Labels: null
   category: sci-libs
-  conflicts: null
-  id: 0
   name: netcdf
-  requires: null
   version: '>=4.2'
 use_flags:
 - -static-libs

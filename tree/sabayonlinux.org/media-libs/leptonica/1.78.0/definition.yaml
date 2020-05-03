@@ -1,45 +1,28 @@
 
 
 category: media-libs
-conflicts: null
-id: 0
 license: Apache-2.0
 name: leptonica
 requires:
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: giflib
-  requires: null
   version: '>=5.1.3'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: libpng
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: openjpeg-2
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: tiff
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: zlib
-  requires: null
   version: '>=0'
 use_flags:
 - -webp

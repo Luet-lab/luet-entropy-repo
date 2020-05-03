@@ -1,17 +1,12 @@
 
 
 category: app-emulation
-conflicts: null
-id: 0
 license: GPL-2
 name: xen
 requires:
 - Labels: null
   category: app-emulation
-  conflicts: null
-  id: 0
   name: xen-tools
-  requires: null
   version: '>=4.12.1'
 use_flags:
 - abi_x86_64

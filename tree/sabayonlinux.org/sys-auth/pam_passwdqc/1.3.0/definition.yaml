@@ -4,10 +4,7 @@ name: pam_passwdqc
 requires:
 - Labels: null
   category: sys-auth
-  conflicts: null
-  id: 0
   name: passwdqc
-  requires: null
   version: '>=0'
 use_flags:
 - kernel_linux

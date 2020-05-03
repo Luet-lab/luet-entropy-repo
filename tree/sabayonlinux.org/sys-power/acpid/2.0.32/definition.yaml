@@ -1,17 +1,12 @@
 
 
 category: sys-power
-conflicts: null
-id: 0
 license: GPL-2
 name: acpid
 requires:
 - Labels: null
   category: sys-kernel
-  conflicts: null
-  id: 0
   name: linux-headers
-  requires: null
   version: '>=3'
 use_flags:
 - userland_GNU

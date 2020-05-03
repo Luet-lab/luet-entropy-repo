@@ -1,45 +1,28 @@
 
 
 category: dev-perl
-conflicts: null
-id: 0
 license: Artistic BSD GPL-1+ tcltk
 name: Tk
 requires:
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: libpng
-  requires: null
   version: '>=1.4'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: perl
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: freetype-2
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libX11
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXft
-  requires: null
   version: '>=0'
 use_flags:
 - -examples

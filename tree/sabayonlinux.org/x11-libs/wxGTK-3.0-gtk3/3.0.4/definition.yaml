@@ -1,143 +1,84 @@
 
 
 category: x11-libs
-conflicts: null
-id: 0
 license: GPL-2 wxWinLL-3
 name: wxGTK-3.0-gtk3
 requires:
 - Labels: null
   category: app-eselect
-  conflicts: null
-  id: 0
   name: eselect-wxwidgets
-  requires: null
   version: '>=20131230'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: glib-2
-  requires: null
   version: '>=2.22'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: expat
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: gst-plugins-base-1.0
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: gstreamer-1.0
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: libpng
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: libsdl2
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: tiff
-  requires: null
   version: '>=0'
 - Labels: null
   category: net-libs
-  conflicts: null
-  id: 0
   name: webkit-gtk-4
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: zlib
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-base
-  conflicts: null
-  id: 0
   name: xorg-proto
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: cairo
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: gdk-pixbuf-2
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: gtk+-3
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libSM
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libX11
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXxf86vm
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libnotify
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: pango
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian

@@ -1,24 +1,16 @@
 
 
 category: dev-libs
-conflicts: null
-id: 0
 license: BSD
 name: leveldb
 requires:
 - Labels: null
   category: app-arch
-  conflicts: null
-  id: 0
   name: snappy
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: google-perftools
-  requires: null
   version: '>=0'
 use_flags:
 - snappy

@@ -1,38 +1,24 @@
 
 
 category: net-libs
-conflicts: null
-id: 0
 license: Apache-2.0
 name: c-client
 requires:
 - Labels: null
   category: app-portage
-  conflicts: null
-  id: 0
   name: elt-patches
-  requires: null
   version: '>=20170815'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: pam
-  requires: null
   version: '>=0.72'
 - Labels: null
   category: app-crypt
-  conflicts: null
-  id: 0
   name: mit-krb5
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: openssl
-  requires: null
   version: '>=0'
 use_flags:
 - -topal

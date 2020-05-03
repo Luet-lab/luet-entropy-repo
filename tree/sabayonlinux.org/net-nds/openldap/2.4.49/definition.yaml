@@ -1,80 +1,48 @@
 
 
 category: net-nds
-conflicts: null
-id: 0
 license: GPL-2 OPENLDAP
 name: openldap
 requires:
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: db-6.0
-  requires: null
   version: '>=6.0'
 - Labels: null
   category: app-portage
-  conflicts: null
-  id: 0
   name: elt-patches
-  requires: null
   version: '>=20170815'
 - Labels: null
   category: dev-db
-  conflicts: null
-  id: 0
   name: lmdb
-  requires: null
   version: '>=0.9.18'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libgcrypt
-  requires: null
   version: '>=1.5.3'
 - Labels: null
   category: net-libs
-  conflicts: null
-  id: 0
   name: gnutls
-  requires: null
   version: '>=2.12.23'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: autoconf-2.69
-  requires: null
   version: '>=2.69'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: automake-1.15
-  requires: null
   version: '>=1.15.1'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: libtool-2
-  requires: null
   version: '>=2.4'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: perl
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: cyrus-sasl-2
-  requires: null
   version: '>=0'
 use_flags:
 - tcpd

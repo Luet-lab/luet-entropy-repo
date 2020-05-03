@@ -1,24 +1,16 @@
 
 
 category: dev-perl
-conflicts: null
-id: 0
 license: GPL-2
 name: XML-Handler-YAWriter
 requires:
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: libxml-perl
-  requires: null
   version: '>=0.07'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: perl
-  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc

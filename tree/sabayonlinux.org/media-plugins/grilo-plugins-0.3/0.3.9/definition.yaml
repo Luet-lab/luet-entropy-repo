@@ -1,108 +1,64 @@
 
 
 category: media-plugins
-conflicts: null
-id: 0
 license: LGPL-2.1+
 name: grilo-plugins-0.3
 requires:
 - Labels: null
   category: app-misc
-  conflicts: null
-  id: 0
   name: tracker
-  requires: null
   version: '>=0.10.5'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: glib-2
-  requires: null
   version: '>=2.44'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: gom
-  requires: null
   version: '>=0.3.2'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libgdata
-  requires: null
   version: '>=0.9.1'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: totem-pl-parser
-  requires: null
   version: '>=3.4.1'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: grilo-0.3
-  requires: null
   version: '>=0.3.8'
 - Labels: null
   category: dev-db
-  conflicts: null
-  id: 0
   name: sqlite-3
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: json-glib
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libxml2-2
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: libmediaart-2.0
-  requires: null
   version: '>=0'
 - Labels: null
   category: net-libs
-  conflicts: null
-  id: 0
   name: dleyna-connector-dbus-1.0
-  requires: null
   version: '>=0'
 - Labels: null
   category: net-libs
-  conflicts: null
-  id: 0
   name: liboauth
-  requires: null
   version: '>=0'
 - Labels: null
   category: net-libs
-  conflicts: null
-  id: 0
   name: libsoup-2.4
-  requires: null
   version: '>=0'
 - Labels: null
   category: net-misc
-  conflicts: null
-  id: 0
   name: dleyna-server
-  requires: null
   version: '>=0'
 use_flags:
 - -chromaprint

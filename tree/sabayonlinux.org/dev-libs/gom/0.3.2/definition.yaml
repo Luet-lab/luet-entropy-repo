@@ -1,108 +1,64 @@
 
 
 category: dev-libs
-conflicts: null
-id: 0
 license: LGPL-2+
 name: gom
 requires:
 - Labels: null
   category: app-portage
-  conflicts: null
-  id: 0
   name: elt-patches
-  requires: null
   version: '>=20170815'
 - Labels: null
   category: dev-db
-  conflicts: null
-  id: 0
   name: sqlite-3
-  requires: null
   version: '>=3.7'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-exec-2
-  requires: null
   version: '>=2'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: glib-2
-  requires: null
   version: '>=2.36'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: gobject-introspection
-  requires: null
   version: '>=1.30.0'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: pygobject-base-3
-  requires: null
   version: '>=3.16'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: gtk-doc-am
-  requires: null
   version: '>=1.14'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: intltool
-  requires: null
   version: '>=0.40.0'
 - Labels: null
   category: app-arch
-  conflicts: null
-  id: 0
   name: xz-utils
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-3.6
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: desktop-file-utils
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: gettext
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: gdk-pixbuf-2
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-misc
-  conflicts: null
-  id: 0
   name: shared-mime-info
-  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU

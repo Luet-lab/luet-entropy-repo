@@ -1,31 +1,20 @@
 
 
 category: x11-libs
-conflicts: null
-id: 0
 license: MIT
 name: libdrm
 requires:
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: meson
-  requires: null
   version: '>=0.51.2'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: ninja
-  requires: null
   version: '>=1.8.2'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libpciaccess
-  requires: null
   version: '>=0.13.1'
 use_flags:
 - video_cards_amdgpu

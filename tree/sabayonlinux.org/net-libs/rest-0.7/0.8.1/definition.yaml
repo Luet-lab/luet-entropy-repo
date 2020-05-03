@@ -1,94 +1,56 @@
 
 
 category: net-libs
-conflicts: null
-id: 0
 license: LGPL-2.1
 name: rest-0.7
 requires:
 - Labels: null
   category: app-portage
-  conflicts: null
-  id: 0
   name: elt-patches
-  requires: null
   version: '>=20170815'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: glib-2
-  requires: null
   version: '>=2.24'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: gobject-introspection
-  requires: null
   version: '>=0.6.7'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: gtk-doc-am
-  requires: null
   version: '>=1.13'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: intltool
-  requires: null
   version: '>=0.40'
 - Labels: null
   category: app-arch
-  conflicts: null
-  id: 0
   name: xz-utils
-  requires: null
   version: '>=0'
 - Labels: null
   category: app-misc
-  conflicts: null
-  id: 0
   name: ca-certificates
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libxml2-2
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: desktop-file-utils
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: glib-utils
-  requires: null
   version: '>=0'
 - Labels: null
   category: net-libs
-  conflicts: null
-  id: 0
   name: libsoup-2.4
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-misc
-  conflicts: null
-  id: 0
   name: shared-mime-info
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian

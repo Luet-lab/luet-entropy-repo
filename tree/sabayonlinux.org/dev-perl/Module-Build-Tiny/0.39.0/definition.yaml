@@ -1,38 +1,24 @@
 
 
 category: dev-perl
-conflicts: null
-id: 0
 license: Artistic GPL-1+
 name: Module-Build-Tiny
 requires:
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: ExtUtils-Config
-  requires: null
   version: '>=0.3.0'
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: ExtUtils-Helpers
-  requires: null
   version: '>=0.20.0'
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: ExtUtils-InstallPaths
-  requires: null
   version: '>=0.2.0'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: perl
-  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU

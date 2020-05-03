@@ -1,87 +1,52 @@
 
 
 category: dev-libs
-conflicts: null
-id: 0
 license: LGPL-2.1
 name: libotf
 requires:
 - Labels: null
   category: app-portage
-  conflicts: null
-  id: 0
   name: elt-patches
-  requires: null
   version: '>=20170422'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: freetype-2
-  requires: null
   version: '>=2.4.9'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: autoconf-2.69
-  requires: null
   version: '>=2.69'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: automake-1.15
-  requires: null
   version: '>=1.15.1'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: libtool-2
-  requires: null
   version: '>=2.4'
 - Labels: null
   category: x11-base
-  conflicts: null
-  id: 0
   name: xorg-proto
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libICE
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libX11
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXaw
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXmu
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXt
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian

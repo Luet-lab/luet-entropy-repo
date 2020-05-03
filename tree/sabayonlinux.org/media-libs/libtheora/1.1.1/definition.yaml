@@ -1,24 +1,16 @@
 
 
 category: media-libs
-conflicts: null
-id: 0
 license: BSD
 name: libtheora
 requires:
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: libogg
-  requires: null
   version: '>=1.3.0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: libvorbis
-  requires: null
   version: '>=1.3.3'
 use_flags:
 - -examples

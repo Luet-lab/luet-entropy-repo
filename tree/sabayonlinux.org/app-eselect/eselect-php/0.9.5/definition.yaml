@@ -1,24 +1,16 @@
 
 
 category: app-eselect
-conflicts: null
-id: 0
 license: GPL-2
 name: eselect-php
 requires:
 - Labels: null
   category: app-admin
-  conflicts: null
-  id: 0
   name: eselect
-  requires: null
   version: '>=0'
 - Labels: null
   category: www-servers
-  conflicts: null
-  id: 0
   name: apache-2
-  requires: null
   version: '>=0'
 use_flags:
 - fpm

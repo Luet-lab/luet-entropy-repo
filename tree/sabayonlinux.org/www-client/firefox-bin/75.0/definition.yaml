@@ -1,164 +1,96 @@
 
 
 category: www-client
-conflicts: null
-id: 0
 license: GPL-2 LGPL-2.1 MPL-2.0
 name: firefox-bin
 requires:
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: dbus-glib
-  requires: null
   version: '>=0.72'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: glib-2
-  requires: null
   version: '>=2.26'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: freetype-2
-  requires: null
   version: '>=2.4.10'
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: dbus
-  requires: null
   version: '>=0.60'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: cairo
-  requires: null
   version: '>=1.10'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: gtk+-3
-  requires: null
   version: '>=2.18'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: gtk+-3
-  requires: null
   version: '>=3.4.0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: pango
-  requires: null
   version: '>=1.22.0'
 - Labels: null
   category: app-arch
-  conflicts: null
-  id: 0
   name: unzip
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: atk
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: nss
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: fontconfig-1.0
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-sound
-  conflicts: null
-  id: 0
   name: pulseaudio
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-video
-  conflicts: null
-  id: 0
   name: ffmpeg
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: gdk-pixbuf-2
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libX11
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXcomposite
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXdamage
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXext
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXfixes
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXrender
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXt
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian

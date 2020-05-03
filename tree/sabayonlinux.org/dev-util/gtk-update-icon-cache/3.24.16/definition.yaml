@@ -1,66 +1,40 @@
 
 
 category: dev-util
-conflicts: null
-id: 0
 license: LGPL-2.1+
 name: gtk-update-icon-cache
 requires:
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: glib-2
-  requires: null
   version: '>=2.53.4'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: meson
-  requires: null
   version: '>=0.48.2'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: ninja
-  requires: null
   version: '>=1.7.2'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: gettext
-  requires: null
   version: '>=0.19.8'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: gdk-pixbuf-2
-  requires: null
   version: '>=2.30'
 - Labels: null
   category: app-text
-  conflicts: null
-  id: 0
   name: docbook-xml-dtd-4.5
-  requires: null
   version: '>=0'
 - Labels: null
   category: app-text
-  conflicts: null
-  id: 0
   name: docbook-xsl-stylesheets
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libxslt
-  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU

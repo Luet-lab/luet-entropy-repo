@@ -1,38 +1,24 @@
 
 
 category: net-mail
-conflicts: null
-id: 0
 license: GPL-2
 name: mailbase
 requires:
 - Labels: null
   category: acct-group
-  conflicts: null
-  id: 0
   name: mail
-  requires: null
   version: '>=0'
 - Labels: null
   category: acct-user
-  conflicts: null
-  id: 0
   name: mail
-  requires: null
   version: '>=0'
 - Labels: null
   category: acct-user
-  conflicts: null
-  id: 0
   name: postmaster
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: pam
-  requires: null
   version: '>=0'
 use_flags:
 - abi_x86_64

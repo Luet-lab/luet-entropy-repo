@@ -1,38 +1,24 @@
 
 
 category: dev-ruby
-conflicts: null
-id: 0
 license: MIT
 name: redcloth
 requires:
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: ragel
-  requires: null
   version: '>=6'
 - Labels: null
   category: dev-ruby
-  conflicts: null
-  id: 0
   name: rake
-  requires: null
   version: '>=0.8.7'
 - Labels: null
   category: dev-ruby
-  conflicts: null
-  id: 0
   name: rake-compiler
-  requires: null
   version: '>=0.7.1'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: ruby-2.5
-  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU

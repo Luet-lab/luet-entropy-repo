@@ -1,24 +1,16 @@
 
 
 category: app-admin
-conflicts: null
-id: 0
 license: BSD
 name: sysklogd
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: perl
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: debianutils
-  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc

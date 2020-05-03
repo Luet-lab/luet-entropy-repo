@@ -1,59 +1,36 @@
 
 
 category: dev-ruby
-conflicts: null
-id: 0
 license: MIT
 name: nokogiri
 requires:
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libxml2-2
-  requires: null
   version: '>=2.9.9'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libxslt
-  requires: null
   version: '>=1.1.33'
 - Labels: null
   category: dev-ruby
-  conflicts: null
-  id: 0
   name: pkg-config
-  requires: null
   version: '>=1.1.7'
 - Labels: null
   category: dev-ruby
-  conflicts: null
-  id: 0
   name: rexical
-  requires: null
   version: '>=1.0.7'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: ruby-2.5
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-ruby
-  conflicts: null
-  id: 0
   name: racc
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-ruby
-  conflicts: null
-  id: 0
   name: rdoc
-  requires: null
   version: '>=0'
 use_flags:
 - abi_x86_64

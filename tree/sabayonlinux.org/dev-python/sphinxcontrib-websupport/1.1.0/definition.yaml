@@ -1,66 +1,40 @@
 
 
 category: dev-python
-conflicts: null
-id: 0
 license: BSD-2
 name: sphinxcontrib-websupport
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-2.7
-  requires: null
   version: '>=2.7.5'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-exec-2
-  requires: null
   version: '>=2'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: six
-  requires: null
   version: '>=1.5'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: sphinx
-  requires: null
   version: '>=1.5.3'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: sqlalchemy
-  requires: null
   version: '>=0.9'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: whoosh
-  requires: null
   version: '>=2.0'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-3.6
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: namespace-sphinxcontrib
-  requires: null
   version: '>=0'
 use_flags:
 - -python_targets_pypy3

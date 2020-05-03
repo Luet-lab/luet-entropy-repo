@@ -1,24 +1,16 @@
 
 
 category: net-dns
-conflicts: null
-id: 0
 license: GPL-2 GPL-3 LGPL-3
 name: libidn
 requires:
 - Labels: null
   category: app-portage
-  conflicts: null
-  id: 0
   name: elt-patches
-  requires: null
   version: '>=20170815'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: gettext
-  requires: null
   version: '>=0.17'
 use_flags:
 - -java

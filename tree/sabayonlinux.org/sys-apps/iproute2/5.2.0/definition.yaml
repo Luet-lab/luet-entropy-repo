@@ -1,73 +1,44 @@
 
 
 category: sys-apps
-conflicts: null
-id: 0
 license: GPL-2
 name: iproute2
 requires:
 - Labels: null
   category: net-firewall
-  conflicts: null
-  id: 0
   name: iptables
-  requires: null
   version: '>=1.4.20'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: bison
-  requires: null
   version: '>=2.4'
 - Labels: null
   category: sys-kernel
-  conflicts: null
-  id: 0
   name: linux-headers
-  requires: null
   version: '>=3.16'
 - Labels: null
   category: app-arch
-  conflicts: null
-  id: 0
   name: xz-utils
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libbsd
-  requires: null
   version: '>=0'
 - Labels: null
   category: net-libs
-  conflicts: null
-  id: 0
   name: libmnl
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: flex
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: db-6.0
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: libcap
-  requires: null
   version: '>=0'
 use_flags:
 - iptables

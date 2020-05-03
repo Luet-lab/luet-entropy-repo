@@ -1,45 +1,28 @@
 
 
 category: dev-libs
-conflicts: null
-id: 0
 license: MIT
 name: keybinder-3
 requires:
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: gobject-introspection
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: gtk+-3
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libX11
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXext
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXrender
-  requires: null
   version: '>=0'
 use_flags:
 - kernel_linux

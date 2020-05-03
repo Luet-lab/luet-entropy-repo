@@ -1,143 +1,84 @@
 
 
 category: kde-frameworks
-conflicts: null
-id: 0
 license: LGPL-2+
 name: kwallet-5
 requires:
 - Labels: null
   category: kde-frameworks
-  conflicts: null
-  id: 0
   name: kconfig-5
-  requires: null
   version: '>=5.67'
 - Labels: null
   category: kde-frameworks
-  conflicts: null
-  id: 0
   name: kconfigwidgets-5
-  requires: null
   version: '>=5.67'
 - Labels: null
   category: kde-frameworks
-  conflicts: null
-  id: 0
   name: kcoreaddons-5
-  requires: null
   version: '>=5.67'
 - Labels: null
   category: kde-frameworks
-  conflicts: null
-  id: 0
   name: kdbusaddons-5
-  requires: null
   version: '>=5.67'
 - Labels: null
   category: kde-frameworks
-  conflicts: null
-  id: 0
   name: ki18n-5
-  requires: null
   version: '>=5.67'
 - Labels: null
   category: kde-frameworks
-  conflicts: null
-  id: 0
   name: knotifications-5
-  requires: null
   version: '>=5.67'
 - Labels: null
   category: kde-frameworks
-  conflicts: null
-  id: 0
   name: kservice-5
-  requires: null
   version: '>=5.67'
 - Labels: null
   category: kde-frameworks
-  conflicts: null
-  id: 0
   name: kwidgetsaddons-5
-  requires: null
   version: '>=5.67'
 - Labels: null
   category: kde-frameworks
-  conflicts: null
-  id: 0
   name: kwindowsystem-5
-  requires: null
   version: '>=5.67'
 - Labels: null
   category: dev-qt
-  conflicts: null
-  id: 0
   name: qtdbus-5
-  requires: null
   version: '>=5.12.3'
 - Labels: null
   category: dev-qt
-  conflicts: null
-  id: 0
   name: qtgui-5
-  requires: null
   version: '>=5.12.3'
 - Labels: null
   category: dev-qt
-  conflicts: null
-  id: 0
   name: qtwidgets-5
-  requires: null
   version: '>=5.12.3'
 - Labels: null
   category: kde-frameworks
-  conflicts: null
-  id: 0
   name: extra-cmake-modules-5
-  requires: null
   version: '>=5.67'
 - Labels: null
   category: kde-frameworks
-  conflicts: null
-  id: 0
   name: kdoctools-5
-  requires: null
   version: '>=5.67'
 - Labels: null
   category: kde-frameworks
-  conflicts: null
-  id: 0
   name: kf-env-5
-  requires: null
   version: '>=4'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libgcrypt
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-qt
-  conflicts: null
-  id: 0
   name: qtcore-5
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: cmake
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: ninja
-  requires: null
   version: '>=0'
 use_flags:
 - -doc

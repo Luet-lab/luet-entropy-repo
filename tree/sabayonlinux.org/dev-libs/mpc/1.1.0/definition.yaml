@@ -1,24 +1,16 @@
 
 
 category: dev-libs
-conflicts: null
-id: 0
 license: LGPL-2.1
 name: mpc
 requires:
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: gmp
-  requires: null
   version: '>=5.0.0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: mpfr
-  requires: null
   version: '>=3.0.0'
 use_flags:
 - big-endian

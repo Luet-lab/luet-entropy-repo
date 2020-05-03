@@ -1,80 +1,48 @@
 
 
 category: gnome-base
-conflicts: null
-id: 0
 license: LGPL-2+
 name: libgnomekbd
 requires:
 - Labels: null
   category: app-portage
-  conflicts: null
-  id: 0
   name: elt-patches
-  requires: null
   version: '>=20170815'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: glib-2
-  requires: null
   version: '>=2.18'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: gobject-introspection
-  requires: null
   version: '>=0.6.7'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: gettext
-  requires: null
   version: '>=0.19.4'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: gtk+-3
-  requires: null
   version: '>=2.91.7'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libxklavier
-  requires: null
   version: '>=5.2'
 - Labels: null
   category: app-arch
-  conflicts: null
-  id: 0
   name: xz-utils
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: desktop-file-utils
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: glib-utils
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-misc
-  conflicts: null
-  id: 0
   name: shared-mime-info
-  requires: null
   version: '>=0'
 use_flags:
 - kernel_linux

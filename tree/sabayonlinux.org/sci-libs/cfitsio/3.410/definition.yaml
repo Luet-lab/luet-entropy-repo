@@ -1,31 +1,20 @@
 
 
 category: sci-libs
-conflicts: null
-id: 0
 license: MIT
 name: cfitsio
 requires:
 - Labels: null
   category: app-arch
-  conflicts: null
-  id: 0
   name: bzip2
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: cfortran
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: zlib
-  requires: null
   version: '>=0'
 use_flags:
 - -examples

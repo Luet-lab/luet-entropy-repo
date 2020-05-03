@@ -1,17 +1,12 @@
 
 
 category: net-analyzer
-conflicts: null
-id: 0
 license: BSD
 name: openbsd-netcat
 requires:
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libbsd
-  requires: null
   version: '>=0'
 use_flags:
 - amd64

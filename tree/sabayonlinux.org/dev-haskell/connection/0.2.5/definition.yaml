@@ -1,87 +1,52 @@
 
 
 category: dev-haskell
-conflicts: null
-id: 0
 license: BSD
 name: connection
 requires:
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: cabal
-  requires: null
   version: '>=1.6'
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: network
-  requires: null
   version: '>=2.3'
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: socks
-  requires: null
   version: '>=0.4'
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: tls
-  requires: null
   version: '>=1.3'
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: x509
-  requires: null
   version: '>=1.5'
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: x509-store
-  requires: null
   version: '>=1.5'
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: x509-system
-  requires: null
   version: '>=1.5'
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: x509-validation
-  requires: null
   version: '>=1.5'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: ghc
-  requires: null
   version: '>=7.4.1'
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: byteable
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: data-default-class
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian

@@ -1,17 +1,12 @@
 
 
 category: dev-libs
-conflicts: null
-id: 0
 license: mm
 name: mm-1.2
 requires:
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: glibc-2.2
-  requires: null
   version: '>=0'
 use_flags:
 - kernel_linux

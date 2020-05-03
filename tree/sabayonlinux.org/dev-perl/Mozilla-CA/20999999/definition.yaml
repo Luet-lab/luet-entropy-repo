@@ -1,24 +1,16 @@
 
 
 category: dev-perl
-conflicts: null
-id: 0
 license: MPL-2.0
 name: Mozilla-CA
 requires:
 - Labels: null
   category: app-misc
-  conflicts: null
-  id: 0
   name: ca-certificates
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: perl
-  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc

@@ -1,17 +1,12 @@
 
 
 category: sci-libs
-conflicts: null
-id: 0
 license: MIT
 name: proj
 requires:
 - Labels: null
   category: dev-db
-  conflicts: null
-  id: 0
   name: sqlite-3
-  requires: null
   version: '>=0'
 use_flags:
 - -static-libs

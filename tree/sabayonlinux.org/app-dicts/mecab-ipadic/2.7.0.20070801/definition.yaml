@@ -1,17 +1,12 @@
 
 
 category: app-dicts
-conflicts: null
-id: 0
 license: ipadic
 name: mecab-ipadic
 requires:
 - Labels: null
   category: app-text
-  conflicts: null
-  id: 0
   name: mecab
-  requires: null
   version: '>=0.90'
 use_flags:
 - unicode

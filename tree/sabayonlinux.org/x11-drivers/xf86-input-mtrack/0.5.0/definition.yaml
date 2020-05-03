@@ -1,24 +1,16 @@
 
 
 category: x11-drivers
-conflicts: null
-id: 0
 license: GPL-2
 name: xf86-input-mtrack
 requires:
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: mtdev
-  requires: null
   version: '>=1.0'
 - Labels: null
   category: x11-base
-  conflicts: null
-  id: 0
   name: xorg-server
-  requires: null
   version: '>=0'
 use_flags:
 - abi_x86_64

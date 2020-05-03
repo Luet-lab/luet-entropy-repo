@@ -1,17 +1,12 @@
 
 
 category: app-text
-conflicts: null
-id: 0
 license: FDL-1.1
 name: scrollkeeper-dtd-1.0
 requires:
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libxml2-2
-  requires: null
   version: '>=2.4.19'
 use_flags:
 - userland_GNU

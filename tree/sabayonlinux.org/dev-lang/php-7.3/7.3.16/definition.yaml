@@ -1,255 +1,148 @@
 Labels:
   original.package.version: "7.3.16"
 category: dev-lang
-conflicts: null
-id: 0
 license: BSD BSD-2 LGPL-2.1 LGPL-2.1+ PHP-3.01 Zend-2.0 gd
 name: php-7.3
 requires:
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: freetype-2
-  requires: null
   version: '>=2'
 - Labels: null
   category: app-eselect
-  conflicts: null
-  id: 0
   name: eselect-php
-  requires: null
   version: '>=0.9.1'
 - Labels: null
   category: app-portage
-  conflicts: null
-  id: 0
   name: elt-patches
-  requires: null
   version: '>=20170815'
 - Labels: null
   category: app-text
-  conflicts: null
-  id: 0
   name: aspell
-  requires: null
   version: '>=0.50'
 - Labels: null
   category: dev-db
-  conflicts: null
-  id: 0
   name: sqlite-3
-  requires: null
   version: '>=3.7.6.3'
 - Labels: null
   category: dev-db
-  conflicts: null
-  id: 0
   name: unixODBC
-  requires: null
   version: '>=1.8.13'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libpcre2
-  requires: null
   version: '>=10.30'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libxml2-2
-  requires: null
   version: '>=2.6.8'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: openssl
-  requires: null
   version: '>=1.0.1'
 - Labels: null
   category: net-analyzer
-  conflicts: null
-  id: 0
   name: net-snmp
-  requires: null
   version: '>=5.2'
 - Labels: null
   category: net-misc
-  conflicts: null
-  id: 0
   name: curl
-  requires: null
   version: '>=7.10.5'
 - Labels: null
   category: net-nds
-  conflicts: null
-  id: 0
   name: openldap
-  requires: null
   version: '>=1.2.11'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: autoconf-2.69
-  requires: null
   version: '>=2.69'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: automake-1.15
-  requires: null
   version: '>=1.15.1'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: bison
-  requires: null
   version: '>=3.0.1'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: libtool-2
-  requires: null
   version: '>=2.4'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: gdbm
-  requires: null
   version: '>=1.8.0'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: zlib
-  requires: null
   version: '>=1.2.0.4'
 - Labels: null
   category: app-arch
-  conflicts: null
-  id: 0
   name: bzip2
-  requires: null
   version: '>=0'
 - Labels: null
   category: app-arch
-  conflicts: null
-  id: 0
   name: xz-utils
-  requires: null
   version: '>=0'
 - Labels: null
   category: app-text
-  conflicts: null
-  id: 0
   name: htmltidy
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-db
-  conflicts: null
-  id: 0
   name: postgresql-9.5
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: gmp
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: icu
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libxslt
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: oniguruma
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: libpng
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: acl
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: systemd
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: gettext
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: db-6.0
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: libapparmor
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: readline
-  requires: null
   version: '>=0'
 - Labels: null
   category: www-servers
-  conflicts: null
-  id: 0
   name: apache-2
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXpm
-  requires: null
   version: '>=0'
 use_flags:
 - abi_x86_64

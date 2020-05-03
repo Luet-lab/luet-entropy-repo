@@ -1,31 +1,20 @@
 
 
 category: media-libs
-conflicts: null
-id: 0
 license: GPL-2
 name: x265
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: yasm
-  requires: null
   version: '>=1.2.0'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: cmake
-  requires: null
   version: '>=3.9.6'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: make
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian

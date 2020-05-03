@@ -1,31 +1,20 @@
 
 
 category: app-text
-conflicts: null
-id: 0
 license: docbook
 name: docbook-xml-simple-dtd-4.1.2.4
 requires:
 - Labels: null
   category: app-arch
-  conflicts: null
-  id: 0
   name: unzip
-  requires: null
   version: '>=5.41'
 - Labels: null
   category: app-text
-  conflicts: null
-  id: 0
   name: build-docbook-catalog
-  requires: null
   version: '>=1.6'
 - Labels: null
   category: app-text
-  conflicts: null
-  id: 0
   name: sgml-common
-  requires: null
   version: '>=0.6.3'
 use_flags:
 - kernel_linux

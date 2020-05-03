@@ -1,59 +1,36 @@
 
 
 category: dev-db
-conflicts: null
-id: 0
 license: GPL-2
 name: freetds
 requires:
 - Labels: null
   category: dev-db
-  conflicts: null
-  id: 0
   name: unixODBC
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: openssl
-  requires: null
   version: '>=0'
 - Labels: null
   category: net-dns
-  conflicts: null
-  id: 0
   name: bind-tools
-  requires: null
   version: '>=0'
 - Labels: null
   category: net-libs
-  conflicts: null
-  id: 0
   name: gnutls
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: grep
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: sed
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: binutils-2.32
-  requires: null
   version: '>=0'
 use_flags:
 - -libressl

@@ -1,66 +1,40 @@
 Labels:
   original.package.version: "10.19.0"
 category: net-libs
-conflicts: null
-id: 0
 license: Apache-1.1 Apache-2.0 BSD BSD-2 MIT
 name: nodejs
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-2.7
-  requires: null
   version: '>=2.7.5'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: icu
-  requires: null
   version: '>=64.2'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libuv
-  requires: null
   version: '>=1.28.0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: openssl
-  requires: null
   version: '>=1.1.1'
 - Labels: null
   category: net-dns
-  conflicts: null
-  id: 0
   name: c-ares
-  requires: null
   version: '>=1.15.0'
 - Labels: null
   category: net-libs
-  conflicts: null
-  id: 0
   name: http-parser
-  requires: null
   version: '>=2.9.0'
 - Labels: null
   category: net-libs
-  conflicts: null
-  id: 0
   name: nghttp2
-  requires: null
   version: '>=1.39.2'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: zlib
-  requires: null
   version: '>=0'
 use_flags:
 - npm

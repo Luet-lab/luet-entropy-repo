@@ -1,66 +1,40 @@
 
 
 category: dev-libs
-conflicts: null
-id: 0
 license: Boost-1.0
 name: boost
 requires:
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: boost-build
-  requires: null
   version: '>=1.72'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-2.7
-  requires: null
   version: '>=2.7.5'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-exec-2
-  requires: null
   version: '>=2'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: icu
-  requires: null
   version: '>=3.6'
 - Labels: null
   category: app-arch
-  conflicts: null
-  id: 0
   name: bzip2
-  requires: null
   version: '>=0'
 - Labels: null
   category: app-arch
-  conflicts: null
-  id: 0
   name: zstd
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-3.6
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: zlib
-  requires: null
   version: '>=0'
 use_flags:
 - python_targets_python2_7

@@ -1,115 +1,68 @@
 
 
 category: lxqt-base
-conflicts: null
-id: 0
 license: BSD LGPL-2.1+
 name: liblxqt
 requires:
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libqtxdg
-  requires: null
   version: '>=3.3.1'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: cmake
-  requires: null
   version: '>=3.9.6'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: lxqt-build-tools
-  requires: null
   version: '>=0.6.0'
 - Labels: null
   category: dev-qt
-  conflicts: null
-  id: 0
   name: linguist-tools-5
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-qt
-  conflicts: null
-  id: 0
   name: qtcore-5
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-qt
-  conflicts: null
-  id: 0
   name: qtdbus-5
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-qt
-  conflicts: null
-  id: 0
   name: qtgui-5
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-qt
-  conflicts: null
-  id: 0
   name: qtwidgets-5
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-qt
-  conflicts: null
-  id: 0
   name: qtx11extras-5
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-qt
-  conflicts: null
-  id: 0
   name: qtxml-5
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: ninja
-  requires: null
   version: '>=0'
 - Labels: null
   category: kde-frameworks
-  conflicts: null
-  id: 0
   name: kwindowsystem-5
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-auth
-  conflicts: null
-  id: 0
   name: polkit-qt
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libX11
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXScrnSaver
-  requires: null
   version: '>=0'
 use_flags:
 - amd64

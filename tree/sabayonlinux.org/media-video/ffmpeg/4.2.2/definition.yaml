@@ -1,255 +1,148 @@
 
 
 category: media-video
-conflicts: null
-id: 0
 license: GPL-2 GPL-3
 name: ffmpeg
 requires:
 - Labels: null
   category: app-arch
-  conflicts: null
-  id: 0
   name: bzip2
-  requires: null
   version: '>=1.0.6'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: gmp
-  requires: null
   version: '>=6'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: alsa-lib
-  requires: null
   version: '>=1.0.27.2'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: fdk-aac
-  requires: null
   version: '>=0.1.3'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: freetype-2
-  requires: null
   version: '>=2.5.0.1'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: libbluray
-  requires: null
   version: '>=0.3.0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: libdc1394-2
-  requires: null
   version: '>=2.2.1'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: libogg
-  requires: null
   version: '>=1.3.0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: libtheora
-  requires: null
   version: '>=1.1.1'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: libvorbis
-  requires: null
   version: '>=1.3.3'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: libvpx
-  requires: null
   version: '>=1.4.0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: libwebp
-  requires: null
   version: '>=0.3.0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: openal
-  requires: null
   version: '>=1.15.1'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: opencore-amr
-  requires: null
   version: '>=0.1.3'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: openjpeg-2
-  requires: null
   version: '>=2'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: opus
-  requires: null
   version: '>=1.0.2'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: speex
-  requires: null
   version: '>=1.2'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: vidstab
-  requires: null
   version: '>=1.1.0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: x264
-  requires: null
   version: '>=0.0.20130506'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: x265
-  requires: null
   version: '>=1.6'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: xvid
-  requires: null
   version: '>=1.3.2'
 - Labels: null
   category: media-sound
-  conflicts: null
-  id: 0
   name: gsm
-  requires: null
   version: '>=1.0.13'
 - Labels: null
   category: media-sound
-  conflicts: null
-  id: 0
   name: lame
-  requires: null
   version: '>=3.99.5'
 - Labels: null
   category: media-sound
-  conflicts: null
-  id: 0
   name: pulseaudio
-  requires: null
   version: '>=2.1'
 - Labels: null
   category: net-libs
-  conflicts: null
-  id: 0
   name: gnutls
-  requires: null
   version: '>=2.12.23'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: libraw1394
-  requires: null
   version: '>=2.1.0'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: zlib
-  requires: null
   version: '>=1.2.8'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libX11
-  requires: null
   version: '>=1.6.2'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXext
-  requires: null
   version: '>=1.3.2'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXv
-  requires: null
   version: '>=1.0.10'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libva
-  requires: null
   version: '>=1.2.1'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libvdpau
-  requires: null
   version: '>=0.7'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libxcb
-  requires: null
   version: '>=1.4'
 - Labels: null
   category: gnome-base
-  conflicts: null
-  id: 0
   name: librsvg-2
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: libsdl2
-  requires: null
   version: '>=0'
 use_flags:
 - -cpu_flags_arm_vfpv3

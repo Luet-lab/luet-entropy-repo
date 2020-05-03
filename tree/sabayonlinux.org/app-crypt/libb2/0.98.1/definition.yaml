@@ -1,17 +1,12 @@
 
 
 category: app-crypt
-conflicts: null
-id: 0
 license: CC0-1.0
 name: libb2
 requires:
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: clang-runtime-9.0.1
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian

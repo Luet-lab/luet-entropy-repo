@@ -1,45 +1,28 @@
 
 
 category: dev-util
-conflicts: null
-id: 0
 license: LGPL-2+
 name: gdbus-codegen
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-exec-2
-  requires: null
   version: '>=2'
 - Labels: null
   category: app-arch
-  conflicts: null
-  id: 0
   name: xz-utils
-  requires: null
   version: '>=0'
 - Labels: null
   category: app-text
-  conflicts: null
-  id: 0
   name: docbook-xsl-stylesheets
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-3.6
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libxslt
-  requires: null
   version: '>=0'
 use_flags:
 - kernel_linux

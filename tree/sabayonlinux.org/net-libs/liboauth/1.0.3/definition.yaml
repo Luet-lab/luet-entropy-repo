@@ -1,17 +1,12 @@
 
 
 category: net-libs
-conflicts: null
-id: 0
 license: GPL-2 MIT
 name: liboauth
 requires:
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: nss
-  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc

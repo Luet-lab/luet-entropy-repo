@@ -1,24 +1,16 @@
 
 
 category: media-libs
-conflicts: null
-id: 0
 license: MIT
 name: lcms-2
 requires:
 - Labels: null
   category: app-portage
-  conflicts: null
-  id: 0
   name: elt-patches
-  requires: null
   version: '>=20170815'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: tiff
-  requires: null
   version: '>=4.0.3'
 use_flags:
 - static-libs

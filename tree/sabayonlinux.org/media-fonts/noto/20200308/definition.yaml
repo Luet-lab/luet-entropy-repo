@@ -1,24 +1,16 @@
 Labels:
   original.package.version: "20200308"
 category: media-fonts
-conflicts: null
-id: 0
 license: OFL-1.1
 name: noto
 requires:
 - Labels: null
   category: x11-apps
-  conflicts: null
-  id: 0
   name: mkfontscale
-  requires: null
   version: '>=1.2.0'
 - Labels: null
   category: media-fonts
-  conflicts: null
-  id: 0
   name: encodings
-  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU

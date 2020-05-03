@@ -1,94 +1,56 @@
 
 
 category: gnome-extra
-conflicts: null
-id: 0
 license: GPL-2+
 name: yelp
 requires:
 - Labels: null
   category: app-arch
-  conflicts: null
-  id: 0
   name: xz-utils
-  requires: null
   version: '>=4.9'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: glib-2
-  requires: null
   version: '>=2.38'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libxml2-2
-  requires: null
   version: '>=2.6.5'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libxslt
-  requires: null
   version: '>=1.1.4'
 - Labels: null
   category: gnome-extra
-  conflicts: null
-  id: 0
   name: yelp-xsl
-  requires: null
   version: '>=3.27.1'
 - Labels: null
   category: net-libs
-  conflicts: null
-  id: 0
   name: webkit-gtk-4
-  requires: null
   version: '>=2.19.2'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: gtk+-3
-  requires: null
   version: '>=3.13.3'
 - Labels: null
   category: app-arch
-  conflicts: null
-  id: 0
   name: bzip2
-  requires: null
   version: '>=0'
 - Labels: null
   category: app-arch
-  conflicts: null
-  id: 0
   name: xz-utils
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-db
-  conflicts: null
-  id: 0
   name: sqlite-3
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: appstream-glib
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-themes
-  conflicts: null
-  id: 0
   name: adwaita-icon-theme
-  requires: null
   version: '>=0'
 use_flags:
 - abi_x86_64

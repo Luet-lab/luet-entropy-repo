@@ -4,73 +4,43 @@ name: gnome-2.0
 requires:
 - Labels: null
   category: gnome-base
-  conflicts: null
-  id: 0
   name: gdm
-  requires: null
   version: '>=3.32.0'
 - Labels: null
   category: gnome-base
-  conflicts: null
-  id: 0
   name: gnome-core-apps-3.0
-  requires: null
   version: '>=3.32.2'
 - Labels: null
   category: gnome-base
-  conflicts: null
-  id: 0
   name: gnome-core-libs-3.0
-  requires: null
   version: '>=3.32.2'
 - Labels: null
   category: gnome-base
-  conflicts: null
-  id: 0
   name: gnome-shell
-  requires: null
   version: '>=3.32.2'
 - Labels: null
   category: gnome-base
-  conflicts: null
-  id: 0
   name: gvfs
-  requires: null
   version: '>=1.40.1'
 - Labels: null
   category: gnome-extra
-  conflicts: null
-  id: 0
   name: gnome-shell-extensions
-  requires: null
   version: '>=3.32.1'
 - Labels: null
   category: media-fonts
-  conflicts: null
-  id: 0
   name: cantarell
-  requires: null
   version: '>=0.111'
 - Labels: null
   category: x11-themes
-  conflicts: null
-  id: 0
   name: gnome-backgrounds
-  requires: null
   version: '>=3.32.0'
 - Labels: null
   category: x11-wm
-  conflicts: null
-  id: 0
   name: mutter
-  requires: null
   version: '>=3.32.2'
 - Labels: null
   category: x11-themes
-  conflicts: null
-  id: 0
   name: sound-theme-freedesktop
-  requires: null
   version: '>=0'
 use_flags:
 - abi_x86_64

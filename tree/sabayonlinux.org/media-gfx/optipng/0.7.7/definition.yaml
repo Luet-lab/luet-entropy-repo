@@ -1,31 +1,20 @@
 
 
 category: media-gfx
-conflicts: null
-id: 0
 license: ZLIB
 name: optipng
 requires:
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: libpng
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: findutils
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: zlib
-  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU

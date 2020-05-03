@@ -1,38 +1,24 @@
 
 
 category: media-fonts
-conflicts: null
-id: 0
 license: OFL-1.1
 name: source-pro
 requires:
 - Labels: null
   category: media-fonts
-  conflicts: null
-  id: 0
   name: encodings
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-fonts
-  conflicts: null
-  id: 0
   name: source-han-sans
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: fontconfig-1.0
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-apps
-  conflicts: null
-  id: 0
   name: mkfontdir
-  requires: null
   version: '>=0'
 use_flags:
 - X

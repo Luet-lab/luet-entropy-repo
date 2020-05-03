@@ -1,66 +1,40 @@
 
 
 category: dev-perl
-conflicts: null
-id: 0
 license: Artistic-2
 name: DateTime
 requires:
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: DateTime-Locale
-  requires: null
   version: '>=1.60.0'
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: DateTime-TimeZone
-  requires: null
   version: '>=2.20.0'
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: Dist-CheckConflicts
-  requires: null
   version: '>=0.20.0'
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: Params-ValidationCompiler
-  requires: null
   version: '>=0.130.0'
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: Specio
-  requires: null
   version: '>=0.180.0'
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: namespace-autoclean
-  requires: null
   version: '>=0.190.0'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: perl
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: Try-Tiny
-  requires: null
   version: '>=0'
 use_flags:
 - kernel_linux

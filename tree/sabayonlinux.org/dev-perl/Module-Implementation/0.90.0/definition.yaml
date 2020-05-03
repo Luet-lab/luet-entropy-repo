@@ -1,31 +1,20 @@
 
 
 category: dev-perl
-conflicts: null
-id: 0
 license: Artistic-2
 name: Module-Implementation
 requires:
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: Module-Runtime
-  requires: null
   version: '>=0.12.0'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: perl
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: Try-Tiny
-  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU

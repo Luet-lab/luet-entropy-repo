@@ -1,24 +1,16 @@
 
 
 category: dev-lua
-conflicts: null
-id: 0
 license: MIT
 name: luaexpat
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: lua
-  requires: null
   version: '>=5.1.5'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: expat
-  requires: null
   version: '>=2.1.0'
 use_flags:
 - big-endian

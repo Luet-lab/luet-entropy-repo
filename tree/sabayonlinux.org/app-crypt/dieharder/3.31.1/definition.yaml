@@ -1,17 +1,12 @@
 
 
 category: app-crypt
-conflicts: null
-id: 0
 license: GPL-2
 name: dieharder
 requires:
 - Labels: null
   category: sci-libs
-  conflicts: null
-  id: 0
   name: gsl
-  requires: null
   version: '>=0'
 use_flags:
 - -doc

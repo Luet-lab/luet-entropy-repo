@@ -1,66 +1,40 @@
 
 
 category: sys-power
-conflicts: null
-id: 0
 license: GPL-2
 name: upower
 requires:
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: dbus-glib
-  requires: null
   version: '>=0.100'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: glib-2
-  requires: null
   version: '>=2.34'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: gettext
-  requires: null
   version: '>=0.17'
 - Labels: null
   category: app-text
-  conflicts: null
-  id: 0
   name: docbook-xsl-stylesheets
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: gobject-introspection
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libxslt
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: intltool
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: dbus
-  requires: null
   version: '>=0'
 use_flags:
 - amd64

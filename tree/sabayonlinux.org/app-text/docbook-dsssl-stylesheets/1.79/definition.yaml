@@ -1,24 +1,16 @@
 
 
 category: app-text
-conflicts: null
-id: 0
 license: MIT
 name: docbook-dsssl-stylesheets
 requires:
 - Labels: null
   category: app-text
-  conflicts: null
-  id: 0
   name: sgml-common
-  requires: null
   version: '>=0.6.3'
 - Labels: null
   category: app-text
-  conflicts: null
-  id: 0
   name: docbook-sgml-dtd-4.5
-  requires: null
   version: '>=0'
 use_flags:
 - abi_x86_64

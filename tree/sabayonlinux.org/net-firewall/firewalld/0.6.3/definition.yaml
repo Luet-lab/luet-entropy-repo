@@ -1,136 +1,80 @@
 
 
 category: net-firewall
-conflicts: null
-id: 0
 license: GPL-2+
 name: firewalld
 requires:
 - Labels: null
   category: app-portage
-  conflicts: null
-  id: 0
   name: elt-patches
-  requires: null
   version: '>=20170815'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-exec-2
-  requires: null
   version: '>=2'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: python-slip
-  requires: null
   version: '>=0.2.7'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: intltool
-  requires: null
   version: '>=0.35'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: autoconf-2.69
-  requires: null
   version: '>=2.69'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: automake-1.15
-  requires: null
   version: '>=1.15.1'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: libtool-2
-  requires: null
   version: '>=2.4'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-3.6
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: glib-2
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: dbus-python
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: decorator
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: pygobject-base-3
-  requires: null
   version: '>=0'
 - Labels: null
   category: net-firewall
-  conflicts: null
-  id: 0
   name: ebtables
-  requires: null
   version: '>=0'
 - Labels: null
   category: net-firewall
-  conflicts: null
-  id: 0
   name: ipset
-  requires: null
   version: '>=0'
 - Labels: null
   category: net-firewall
-  conflicts: null
-  id: 0
   name: iptables
-  requires: null
   version: '>=0'
 - Labels: null
   category: net-firewall
-  conflicts: null
-  id: 0
   name: nftables
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: systemd
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: gettext
-  requires: null
   version: '>=0'
 use_flags:
 - -python_single_target_python2_7

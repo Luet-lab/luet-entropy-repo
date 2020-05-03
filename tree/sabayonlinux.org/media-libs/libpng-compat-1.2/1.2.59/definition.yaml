@@ -1,31 +1,20 @@
 
 
 category: media-libs
-conflicts: null
-id: 0
 license: libpng
 name: libpng-compat-1.2
 requires:
 - Labels: null
   category: app-portage
-  conflicts: null
-  id: 0
   name: elt-patches
-  requires: null
   version: '>=20170815'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: zlib
-  requires: null
   version: '>=1.2.8'
 - Labels: null
   category: app-arch
-  conflicts: null
-  id: 0
   name: xz-utils
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian

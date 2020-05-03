@@ -1,17 +1,12 @@
 
 
 category: media-libs
-conflicts: null
-id: 0
 license: MIT
 name: libbs2b
 requires:
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: libsndfile
-  requires: null
   version: '>=1.0.25'
 use_flags:
 - big-endian

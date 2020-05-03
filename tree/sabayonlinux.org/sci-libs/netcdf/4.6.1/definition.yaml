@@ -1,24 +1,16 @@
 
 
 category: sci-libs
-conflicts: null
-id: 0
 license: UCAR-Unidata
 name: netcdf
 requires:
 - Labels: null
   category: net-misc
-  conflicts: null
-  id: 0
   name: curl
-  requires: null
   version: '>=0'
 - Labels: null
   category: sci-libs
-  conflicts: null
-  id: 0
   name: hdf5
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian

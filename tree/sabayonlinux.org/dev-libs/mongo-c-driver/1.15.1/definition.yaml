@@ -1,73 +1,44 @@
 
 
 category: dev-libs
-conflicts: null
-id: 0
 license: Apache-2.0
 name: mongo-c-driver
 requires:
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libbson
-  requires: null
   version: '>=1.15.1'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: cmake
-  requires: null
   version: '>=3.9.6'
 - Labels: null
   category: app-arch
-  conflicts: null
-  id: 0
   name: snappy
-  requires: null
   version: '>=0'
 - Labels: null
   category: app-arch
-  conflicts: null
-  id: 0
   name: zstd
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: icu
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: openssl
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: sphinx
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: ninja
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: zlib
-  requires: null
   version: '>=0'
 use_flags:
 - -debug

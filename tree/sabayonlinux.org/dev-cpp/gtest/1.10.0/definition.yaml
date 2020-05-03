@@ -1,24 +1,16 @@
 
 
 category: dev-cpp
-conflicts: null
-id: 0
 license: BSD
 name: gtest
 requires:
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: cmake
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: ninja
-  requires: null
   version: '>=0'
 use_flags:
 - -examples

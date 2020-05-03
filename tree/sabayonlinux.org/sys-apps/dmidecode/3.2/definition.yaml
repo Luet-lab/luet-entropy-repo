@@ -1,17 +1,12 @@
 
 
 category: sys-apps
-conflicts: null
-id: 0
 license: GPL-2
 name: dmidecode
 requires:
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: glibc-2.2
-  requires: null
   version: '>=0'
 use_flags:
 - amd64

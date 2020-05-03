@@ -1,192 +1,112 @@
 
 
 category: x11-apps
-conflicts: null
-id: 0
 license: MIT
 name: xdm
 requires:
 - Labels: null
   category: app-portage
-  conflicts: null
-  id: 0
   name: elt-patches
-  requires: null
   version: '>=20170815'
 - Labels: null
   category: media-fonts
-  conflicts: null
-  id: 0
   name: font-util
-  requires: null
   version: '>=1.2.0'
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: systemd
-  requires: null
   version: '>=209'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: autoconf-2.69
-  requires: null
   version: '>=2.69'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: automake-1.15
-  requires: null
   version: '>=1.15.1'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: libtool-2
-  requires: null
   version: '>=2.2.6a'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: libtool-2
-  requires: null
   version: '>=2.4'
 - Labels: null
   category: x11-misc
-  conflicts: null
-  id: 0
   name: util-macros
-  requires: null
   version: '>=1.18'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libbsd
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: m4
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: pam
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-apps
-  conflicts: null
-  id: 0
   name: sessreg
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-apps
-  conflicts: null
-  id: 0
   name: xconsole
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-apps
-  conflicts: null
-  id: 0
   name: xinit
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-apps
-  conflicts: null
-  id: 0
   name: xrdb
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-apps
-  conflicts: null
-  id: 0
   name: xsm
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-base
-  conflicts: null
-  id: 0
   name: xorg-proto
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libX11
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXaw
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXdmcp
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXft
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXinerama
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXmu
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXpm
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXrender
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXt
-  requires: null
   version: '>=0'
 use_flags:
 - abi_x86_64

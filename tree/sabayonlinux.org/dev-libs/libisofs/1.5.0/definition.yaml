@@ -1,24 +1,16 @@
 
 
 category: dev-libs
-conflicts: null
-id: 0
 license: GPL-2
 name: libisofs
 requires:
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: attr
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: zlib
-  requires: null
   version: '>=0'
 use_flags:
 - abi_x86_64

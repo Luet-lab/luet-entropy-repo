@@ -1,192 +1,112 @@
 Labels:
   original.package.version: "3.34.1"
 category: app-editors
-conflicts: null
-id: 0
 license: CC-BY-SA-3.0 GPL-2+
 name: gedit
 requires:
 - Labels: null
   category: app-text
-  conflicts: null
-  id: 0
   name: gspell
-  requires: null
   version: '>=0.2.5'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-exec-2
-  requires: null
   version: '>=2'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: glib-2
-  requires: null
   version: '>=2.44'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: gobject-introspection
-  requires: null
   version: '>=1.54'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libpeas
-  requires: null
   version: '>=1.14.1'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libxml2-2
-  requires: null
   version: '>=2.5.0'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: pygobject-cairo-3
-  requires: null
   version: '>=3'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: meson
-  requires: null
   version: '>=0.51.2'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: ninja
-  requires: null
   version: '>=1.8.2'
 - Labels: null
   category: net-libs
-  conflicts: null
-  id: 0
   name: libsoup-2.4
-  requires: null
   version: '>=2.60'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: gettext
-  requires: null
   version: '>=0.18'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: gtk+-3
-  requires: null
   version: '>=3.22.0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: gtksourceview-4
-  requires: null
   version: '>=4.0.2'
 - Labels: null
   category: app-arch
-  conflicts: null
-  id: 0
   name: xz-utils
-  requires: null
   version: '>=0'
 - Labels: null
   category: app-text
-  conflicts: null
-  id: 0
   name: docbook-xml-dtd-4.5
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-3.6
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libpeas
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: pycairo
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: desktop-file-utils
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: glib-utils
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: itstool
-  requires: null
   version: '>=0'
 - Labels: null
   category: gnome-base
-  conflicts: null
-  id: 0
   name: gsettings-desktop-schemas
-  requires: null
   version: '>=0'
 - Labels: null
   category: gnome-base
-  conflicts: null
-  id: 0
   name: gvfs
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libX11
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-misc
-  conflicts: null
-  id: 0
   name: shared-mime-info
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-themes
-  conflicts: null
-  id: 0
   name: adwaita-icon-theme
-  requires: null
   version: '>=0'
 use_flags:
 - introspection

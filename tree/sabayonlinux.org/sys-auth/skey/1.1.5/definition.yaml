@@ -1,31 +1,20 @@
 
 
 category: sys-auth
-conflicts: null
-id: 0
 license: BEER-WARE BSD MIT RSA
 name: skey
 requires:
 - Labels: null
   category: app-arch
-  conflicts: null
-  id: 0
   name: xz-utils
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: perl
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: cracklib
-  requires: null
   version: '>=0'
 use_flags:
 - -static-libs

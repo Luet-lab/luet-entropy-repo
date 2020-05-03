@@ -1,17 +1,12 @@
 
 
 category: media-sound
-conflicts: null
-id: 0
 license: GPL-2
 name: timidity-freepats
 requires:
 - Labels: null
   category: app-eselect
-  conflicts: null
-  id: 0
   name: eselect-timidity
-  requires: null
   version: '>=20061203'
 use_flags:
 - kernel_linux

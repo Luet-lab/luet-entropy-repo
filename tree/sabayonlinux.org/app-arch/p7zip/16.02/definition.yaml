@@ -1,17 +1,12 @@
 
 
 category: app-arch
-conflicts: null
-id: 0
 license: LGPL-2.1 unRAR
 name: p7zip
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: yasm
-  requires: null
   version: '>=0'
 use_flags:
 - -kde

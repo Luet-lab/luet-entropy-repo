@@ -1,24 +1,16 @@
 
 
 category: dev-libs
-conflicts: null
-id: 0
 license: GPL-2 LGPL-2
 name: klibc
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: perl
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: bc
-  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc

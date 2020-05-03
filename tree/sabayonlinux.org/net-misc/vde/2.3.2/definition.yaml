@@ -1,38 +1,24 @@
 
 
 category: net-misc
-conflicts: null
-id: 0
 license: GPL-2
 name: vde
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-2.7
-  requires: null
   version: '>=2.7.5'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-exec-2
-  requires: null
   version: '>=2'
 - Labels: null
   category: acct-group
-  conflicts: null
-  id: 0
   name: qemu
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: openssl
-  requires: null
   version: '>=0'
 use_flags:
 - -pcap

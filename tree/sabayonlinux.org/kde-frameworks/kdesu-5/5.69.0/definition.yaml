@@ -1,66 +1,40 @@
 
 
 category: kde-frameworks
-conflicts: null
-id: 0
 license: LGPL-2
 name: kdesu-5
 requires:
 - Labels: null
   category: kde-frameworks
-  conflicts: null
-  id: 0
   name: kconfig-5
-  requires: null
   version: '>=5.67'
 - Labels: null
   category: kde-frameworks
-  conflicts: null
-  id: 0
   name: kcoreaddons-5
-  requires: null
   version: '>=5.67'
 - Labels: null
   category: kde-frameworks
-  conflicts: null
-  id: 0
   name: ki18n-5
-  requires: null
   version: '>=5.67'
 - Labels: null
   category: kde-frameworks
-  conflicts: null
-  id: 0
   name: kpty-5
-  requires: null
   version: '>=5.67'
 - Labels: null
   category: kde-frameworks
-  conflicts: null
-  id: 0
   name: kservice-5
-  requires: null
   version: '>=5.67'
 - Labels: null
   category: kde-frameworks
-  conflicts: null
-  id: 0
   name: kf-env-5
-  requires: null
   version: '>=4'
 - Labels: null
   category: dev-qt
-  conflicts: null
-  id: 0
   name: qtcore-5
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libX11
-  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU

@@ -1,73 +1,44 @@
 
 
 category: media-libs
-conflicts: null
-id: 0
 license: LGPL-2.1
 name: gexiv2
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-exec-2
-  requires: null
   version: '>=2'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: glib-2
-  requires: null
   version: '>=2.38.0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: gobject-introspection
-  requires: null
   version: '>=1.54'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: meson
-  requires: null
   version: '>=0.51.2'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: ninja
-  requires: null
   version: '>=1.8.2'
 - Labels: null
   category: media-gfx
-  conflicts: null
-  id: 0
   name: exiv2
-  requires: null
   version: '>=0.21'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-3.6
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: vala-0.44
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: glib-utils
-  requires: null
   version: '>=0'
 use_flags:
 - -test

@@ -1,24 +1,16 @@
 
 
 category: dev-ruby
-conflicts: null
-id: 0
 license: GPL-2 Ruby
 name: pg-1
 requires:
 - Labels: null
   category: dev-db
-  conflicts: null
-  id: 0
   name: postgresql-9.5
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: ruby-2.5
-  requires: null
   version: '>=0'
 use_flags:
 - -test

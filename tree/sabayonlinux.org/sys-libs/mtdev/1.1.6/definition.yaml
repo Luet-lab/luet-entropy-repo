@@ -1,17 +1,12 @@
 Labels:
   original.package.version: "1.1.6"
 category: sys-libs
-conflicts: null
-id: 0
 license: MIT
 name: mtdev
 requires:
 - Labels: null
   category: sys-kernel
-  conflicts: null
-  id: 0
   name: linux-headers
-  requires: null
   version: '>=2.6.31'
 use_flags:
 - -static-libs

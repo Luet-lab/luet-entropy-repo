@@ -1,31 +1,20 @@
 
 
 category: sys-devel
-conflicts: null
-id: 0
 license: GPL-3
 name: autoconf-2.69
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: perl
-  requires: null
   version: '>=5.6'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: autoconf-wrapper
-  requires: null
   version: '>=13'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: m4
-  requires: null
   version: '>=1.4.16'
 use_flags:
 - kernel_linux

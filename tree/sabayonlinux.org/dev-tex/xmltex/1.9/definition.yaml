@@ -1,17 +1,12 @@
 
 
 category: dev-tex
-conflicts: null
-id: 0
 license: LPPL-1.2
 name: xmltex
 requires:
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: texinfo
-  requires: null
   version: '>=4.2'
 use_flags:
 - kernel_linux

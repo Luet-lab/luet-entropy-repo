@@ -1,24 +1,16 @@
 
 
 category: sys-auth
-conflicts: null
-id: 0
 license: BSD-2
 name: pam_mktemp
 requires:
 - Labels: null
   category: sys-kernel
-  conflicts: null
-  id: 0
   name: linux-headers
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: pam
-  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc

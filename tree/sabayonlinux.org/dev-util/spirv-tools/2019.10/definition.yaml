@@ -1,38 +1,24 @@
 
 
 category: dev-util
-conflicts: null
-id: 0
 license: Apache-2.0
 name: spirv-tools
 requires:
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: cmake
-  requires: null
   version: '>=3.9.6'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: spirv-headers
-  requires: null
   version: '>=1.5.1'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-3.6
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: ninja
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian

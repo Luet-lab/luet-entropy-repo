@@ -1,45 +1,28 @@
 
 
 category: dev-texlive
-conflicts: null
-id: 0
 license: BSD BSD-2 CC-BY-SA-4.0 GPL-1 GPL-2 GPL-3 GPL-3+
 name: texlive-mathscience
 requires:
 - Labels: null
   category: app-text
-  conflicts: null
-  id: 0
   name: texlive-core
-  requires: null
   version: '>=2019'
 - Labels: null
   category: dev-texlive
-  conflicts: null
-  id: 0
   name: texlive-fontsrecommended
-  requires: null
   version: '>=2019'
 - Labels: null
   category: dev-texlive
-  conflicts: null
-  id: 0
   name: texlive-latex
-  requires: null
   version: '>=2019'
 - Labels: null
   category: app-arch
-  conflicts: null
-  id: 0
   name: xz-utils
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-texlive
-  conflicts: null
-  id: 0
   name: texlive-pstricks
-  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc

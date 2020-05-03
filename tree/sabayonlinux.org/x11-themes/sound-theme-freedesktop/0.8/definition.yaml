@@ -1,31 +1,20 @@
 
 
 category: x11-themes
-conflicts: null
-id: 0
 license: CC-BY-3.0 CC-BY-SA-2.0 GPL-2 LGPL-2
 name: sound-theme-freedesktop
 requires:
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: intltool
-  requires: null
   version: '>=0.40'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: glib-2
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: gettext
-  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU

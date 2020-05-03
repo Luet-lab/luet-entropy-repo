@@ -1,24 +1,16 @@
 
 
 category: dev-util
-conflicts: null
-id: 0
 license: BSD
 name: strace
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: perl
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-kernel
-  conflicts: null
-  id: 0
   name: linux-headers
-  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc

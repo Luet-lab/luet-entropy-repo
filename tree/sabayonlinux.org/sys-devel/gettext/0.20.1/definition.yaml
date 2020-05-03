@@ -1,38 +1,24 @@
 
 
 category: sys-devel
-conflicts: null
-id: 0
 license: GPL-3+ LGPL-2.1+
 name: gettext
 requires:
 - Labels: null
   category: app-portage
-  conflicts: null
-  id: 0
   name: elt-patches
-  requires: null
   version: '>=20170815'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libxml2-2
-  requires: null
   version: '>=2.9.3'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: expat
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: ncurses
-  requires: null
   version: '>=0'
 use_flags:
 - -java

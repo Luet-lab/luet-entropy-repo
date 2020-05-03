@@ -1,31 +1,20 @@
 
 
 category: dev-db
-conflicts: null
-id: 0
 license: GPL-2
 name: mysql-init-scripts
 requires:
 - Labels: null
   category: acct-group
-  conflicts: null
-  id: 0
   name: mysql
-  requires: null
   version: '>=0'
 - Labels: null
   category: acct-user
-  conflicts: null
-  id: 0
   name: mysql
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-db
-  conflicts: null
-  id: 0
   name: mysql-connector-c
-  requires: null
   version: '>=0'
 use_flags:
 - split-usr

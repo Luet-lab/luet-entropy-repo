@@ -1,45 +1,28 @@
 Labels:
   original.package.version: "2.3.1"
 category: sys-libs
-conflicts: null
-id: 0
 license: GPL-3 LGPL-2 LGPL-3+
 name: talloc
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-2.7
-  requires: null
   version: '>=2.7.5'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-exec-2
-  requires: null
   version: '>=2'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libbsd
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libxslt
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: gettext
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian

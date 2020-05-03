@@ -1,38 +1,24 @@
 
 
 category: x11-drivers
-conflicts: null
-id: 0
 license: MIT
 name: xf86-input-synaptics
 requires:
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libevdev
-  requires: null
   version: '>=0.4'
 - Labels: null
   category: x11-base
-  conflicts: null
-  id: 0
   name: xorg-server
-  requires: null
   version: '>=1.14'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXi
-  requires: null
   version: '>=1.2'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXtst
-  requires: null
   version: '>=1.1.0'
 use_flags:
 - abi_x86_64

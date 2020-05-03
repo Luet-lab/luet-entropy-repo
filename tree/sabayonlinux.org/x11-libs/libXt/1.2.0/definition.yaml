@@ -1,66 +1,40 @@
 
 
 category: x11-libs
-conflicts: null
-id: 0
 license: MIT
 name: libXt
 requires:
 - Labels: null
   category: app-portage
-  conflicts: null
-  id: 0
   name: elt-patches
-  requires: null
   version: '>=20170815'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: autoconf-2.69
-  requires: null
   version: '>=2.69'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: automake-1.15
-  requires: null
   version: '>=1.15.1'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: libtool-2
-  requires: null
   version: '>=2.4'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libICE
-  requires: null
   version: '>=1.0.8'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libSM
-  requires: null
   version: '>=1.2.1'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libX11
-  requires: null
   version: '>=1.6.2'
 - Labels: null
   category: x11-base
-  conflicts: null
-  id: 0
   name: xorg-proto
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian

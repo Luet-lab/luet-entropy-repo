@@ -1,31 +1,20 @@
 
 
 category: dev-ruby
-conflicts: null
-id: 0
 license: MIT
 name: rack-test-1.0
 requires:
 - Labels: null
   category: dev-ruby
-  conflicts: null
-  id: 0
   name: rack-2.1
-  requires: null
   version: <3
 - Labels: null
   category: dev-ruby
-  conflicts: null
-  id: 0
   name: rack-2.1
-  requires: null
   version: '>=1.0'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: ruby-2.5
-  requires: null
   version: '>=0'
 use_flags:
 - ruby_targets_ruby25

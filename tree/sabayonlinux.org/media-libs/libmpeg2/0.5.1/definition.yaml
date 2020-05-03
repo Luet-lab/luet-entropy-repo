@@ -1,45 +1,28 @@
 
 
 category: media-libs
-conflicts: null
-id: 0
 license: GPL-2
 name: libmpeg2
 requires:
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: libsdl
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libICE
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libSM
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXt
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXv
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian

@@ -1,45 +1,28 @@
 
 
 category: net-wireless
-conflicts: null
-id: 0
 license: ISC
 name: crda
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-2.7
-  requires: null
   version: '>=2.7.5'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libnl-3
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: openssl
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: m2crypto
-  requires: null
   version: '>=0'
 - Labels: null
   category: net-wireless
-  conflicts: null
-  id: 0
   name: wireless-regdb
-  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc

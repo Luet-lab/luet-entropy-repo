@@ -1,24 +1,16 @@
 
 
 category: dev-perl
-conflicts: null
-id: 0
 license: Artistic-2
 name: Net-SSLeay
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: perl
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: openssl
-  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU

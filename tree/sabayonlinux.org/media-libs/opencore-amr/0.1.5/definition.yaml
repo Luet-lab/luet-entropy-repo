@@ -1,17 +1,12 @@
 
 
 category: media-libs
-conflicts: null
-id: 0
 license: Apache-2.0
 name: opencore-amr
 requires:
 - Labels: null
   category: app-portage
-  conflicts: null
-  id: 0
   name: elt-patches
-  requires: null
   version: '>=20170815'
 use_flags:
 - big-endian

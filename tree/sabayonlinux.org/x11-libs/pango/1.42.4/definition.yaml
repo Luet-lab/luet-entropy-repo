@@ -1,129 +1,76 @@
 
 
 category: x11-libs
-conflicts: null
-id: 0
 license: FTL LGPL-2+
 name: pango
 requires:
 - Labels: null
   category: app-portage
-  conflicts: null
-  id: 0
   name: elt-patches
-  requires: null
   version: '>=20170815'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: fribidi
-  requires: null
   version: '>=0.19.7'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: glib-2
-  requires: null
   version: '>=2.50.2'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: gobject-introspection
-  requires: null
   version: '>=0.9.5'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: gtk-doc-am
-  requires: null
   version: '>=1.20'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: fontconfig-1.0
-  requires: null
   version: '>=2.12.92'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: freetype-2
-  requires: null
   version: '>=2.5.0.1'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: harfbuzz
-  requires: null
   version: '>=1.4.2'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: cairo
-  requires: null
   version: '>=1.12.14'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libX11
-  requires: null
   version: '>=1.6.2'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXft
-  requires: null
   version: '>=2.3.1'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXrender
-  requires: null
   version: '>=0.9.8'
 - Labels: null
   category: app-arch
-  conflicts: null
-  id: 0
   name: xz-utils
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: desktop-file-utils
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: glib-utils
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-base
-  conflicts: null
-  id: 0
   name: xorg-proto
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-misc
-  conflicts: null
-  id: 0
   name: shared-mime-info
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian

@@ -1,24 +1,16 @@
 
 
 category: sys-apps
-conflicts: null
-id: 0
 license: GPL-3
 name: grep
 requires:
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libpcre-3
-  requires: null
   version: '>=7.8'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: gettext
-  requires: null
   version: '>=0'
 use_flags:
 - -static

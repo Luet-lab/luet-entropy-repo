@@ -1,24 +1,16 @@
 
 
 category: app-arch
-conflicts: null
-id: 0
 license: BSD-1
 name: rpm2targz
 requires:
 - Labels: null
   category: app-arch
-  conflicts: null
-  id: 0
   name: cpio
-  requires: null
   version: '>=0'
 - Labels: null
   category: app-arch
-  conflicts: null
-  id: 0
   name: xz-utils
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian

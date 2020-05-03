@@ -1,17 +1,12 @@
 
 
 category: sys-devel
-conflicts: null
-id: 0
 license: GPL-2
 name: gcc-config
 requires:
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: gentoo-functions
-  requires: null
   version: '>=0.10'
 use_flags:
 - big-endian

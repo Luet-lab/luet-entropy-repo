@@ -1,17 +1,12 @@
 Labels:
   original.package.version: "1.62.0"
 category: dev-libs
-conflicts: null
-id: 0
 license: HPND
 name: gobject-introspection-common
 requires:
 - Labels: null
   category: app-arch
-  conflicts: null
-  id: 0
   name: xz-utils
-  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU

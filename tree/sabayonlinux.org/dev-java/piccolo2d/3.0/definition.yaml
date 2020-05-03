@@ -1,31 +1,20 @@
 
 
 category: dev-java
-conflicts: null
-id: 0
 license: BSD
 name: piccolo2d
 requires:
 - Labels: null
   category: dev-java
-  conflicts: null
-  id: 0
   name: java-config-2
-  requires: null
   version: '>=2.2.0'
 - Labels: null
   category: app-arch
-  conflicts: null
-  id: 0
   name: unzip
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-java
-  conflicts: null
-  id: 0
   name: swt-3.8
-  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc

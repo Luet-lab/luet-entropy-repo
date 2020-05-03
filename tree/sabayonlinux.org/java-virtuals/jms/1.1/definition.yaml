@@ -1,24 +1,16 @@
 
 
 category: java-virtuals
-conflicts: null
-id: 0
 license: GPL-2
 name: jms
 requires:
 - Labels: null
   category: dev-java
-  conflicts: null
-  id: 0
   name: java-config-2
-  requires: null
   version: '>=2.1.6'
 - Labels: null
   category: dev-java
-  conflicts: null
-  id: 0
   name: sun-jms
-  requires: null
   version: '>=0'
 use_flags:
 - amd64

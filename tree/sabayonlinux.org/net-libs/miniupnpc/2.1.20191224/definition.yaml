@@ -1,24 +1,16 @@
 
 
 category: net-libs
-conflicts: null
-id: 0
 license: BSD
 name: miniupnpc
 requires:
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: lsb-release
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: which
-  requires: null
   version: '>=0'
 use_flags:
 - kernel_linux

@@ -1,24 +1,16 @@
 
 
 category: dev-tex
-conflicts: null
-id: 0
 license: GPL-2
 name: bibtexu
 requires:
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: icu
-  requires: null
   version: '>=4.4'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: kpathsea
-  requires: null
   version: '>=6.2.1'
 use_flags:
 - big-endian

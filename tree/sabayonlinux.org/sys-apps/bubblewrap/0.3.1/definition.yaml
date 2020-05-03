@@ -1,45 +1,28 @@
 
 
 category: sys-apps
-conflicts: null
-id: 0
 license: LGPL-2+
 name: bubblewrap
 requires:
 - Labels: null
   category: app-text
-  conflicts: null
-  id: 0
   name: docbook-xml-dtd-4.5
-  requires: null
   version: '>=0'
 - Labels: null
   category: app-text
-  conflicts: null
-  id: 0
   name: docbook-xsl-stylesheets
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libxslt
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: libcap
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: libseccomp
-  requires: null
   version: '>=0'
 use_flags:
 - abi_x86_64

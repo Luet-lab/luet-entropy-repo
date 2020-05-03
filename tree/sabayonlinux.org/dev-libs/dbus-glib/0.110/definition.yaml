@@ -1,45 +1,28 @@
 
 
 category: dev-libs
-conflicts: null
-id: 0
 license: AFL-2.1 GPL-2
 name: dbus-glib
 requires:
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: expat
-  requires: null
   version: '>=2.1.0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: glib-2
-  requires: null
   version: '>=2.40'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: glib-utils
-  requires: null
   version: '>=2.40'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: gtk-doc-am
-  requires: null
   version: '>=1.14'
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: dbus
-  requires: null
   version: '>=1.8'
 use_flags:
 - big-endian

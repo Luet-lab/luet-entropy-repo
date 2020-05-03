@@ -1,24 +1,16 @@
 
 
 category: app-eselect
-conflicts: null
-id: 0
 license: GPL-2
 name: eselect-mpost
 requires:
 - Labels: null
   category: app-admin
-  conflicts: null
-  id: 0
   name: eselect
-  requires: null
   version: '>=1.2.3'
 - Labels: null
   category: app-text
-  conflicts: null
-  id: 0
   name: texlive-core
-  requires: null
   version: '>=2008'
 use_flags:
 - elibc_glibc

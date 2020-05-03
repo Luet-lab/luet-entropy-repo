@@ -1,52 +1,32 @@
 
 
 category: dev-python
-conflicts: null
-id: 0
 license: BSD
 name: ipykernel
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-exec-2
-  requires: null
   version: '>=2'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: ipython
-  requires: null
   version: '>=6'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: traitlets
-  requires: null
   version: '>=4.1.0'
 - Labels: null
   category: www-servers
-  conflicts: null
-  id: 0
   name: tornado
-  requires: null
   version: '>=4.0'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-3.6
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: jupyter_client
-  requires: null
   version: '>=0'
 use_flags:
 - -python_targets_python3_7

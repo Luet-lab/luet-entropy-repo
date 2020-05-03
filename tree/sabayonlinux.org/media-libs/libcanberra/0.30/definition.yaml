@@ -1,73 +1,44 @@
 
 
 category: media-libs
-conflicts: null
-id: 0
 license: LGPL-2.1+
 name: libcanberra
 requires:
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: glib-2
-  requires: null
   version: '>=2.32'
 - Labels: null
   category: media-sound
-  conflicts: null
-  id: 0
   name: pulseaudio
-  requires: null
   version: '>=0.9.11'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: gtk+-3
-  requires: null
   version: '>=2.20.0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libltdl
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: alsa-lib
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: libvorbis
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: gtk+-3
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libX11
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-themes
-  conflicts: null
-  id: 0
   name: sound-theme-freedesktop
-  requires: null
   version: '>=0'
 use_flags:
 - -gstreamer

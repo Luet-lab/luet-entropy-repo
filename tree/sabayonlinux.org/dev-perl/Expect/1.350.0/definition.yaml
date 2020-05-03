@@ -1,31 +1,20 @@
 
 
 category: dev-perl
-conflicts: null
-id: 0
 license: Artistic GPL-1+
 name: Expect
 requires:
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: IO-Tty
-  requires: null
   version: '>=1.110.0'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: perl
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: IO-Stty
-  requires: null
   version: '>=0'
 use_flags:
 - -examples

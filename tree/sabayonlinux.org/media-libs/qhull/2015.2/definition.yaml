@@ -1,24 +1,16 @@
 
 
 category: media-libs
-conflicts: null
-id: 0
 license: BSD
 name: qhull
 requires:
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: cmake
-  requires: null
   version: '>=3.7.2'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: make
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian

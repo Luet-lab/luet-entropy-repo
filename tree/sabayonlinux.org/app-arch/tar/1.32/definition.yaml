@@ -1,24 +1,16 @@
 
 
 category: app-arch
-conflicts: null
-id: 0
 license: GPL-3+
 name: tar
 requires:
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: gettext
-  requires: null
   version: '>=0.10.35'
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: attr
-  requires: null
   version: '>=0'
 use_flags:
 - -selinux

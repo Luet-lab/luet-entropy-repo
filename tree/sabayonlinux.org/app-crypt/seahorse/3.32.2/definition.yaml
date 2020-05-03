@@ -1,108 +1,64 @@
 
 
 category: app-crypt
-conflicts: null
-id: 0
 license: FDL-1.1+ GPL-2+
 name: seahorse
 requires:
 - Labels: null
   category: app-crypt
-  conflicts: null
-  id: 0
   name: gcr
-  requires: null
   version: '>=3.11.91'
 - Labels: null
   category: app-crypt
-  conflicts: null
-  id: 0
   name: gnupg
-  requires: null
   version: '>=2.0.12'
 - Labels: null
   category: app-crypt
-  conflicts: null
-  id: 0
   name: gpgme-1
-  requires: null
   version: '>=1.7.0'
 - Labels: null
   category: app-crypt
-  conflicts: null
-  id: 0
   name: libsecret
-  requires: null
   version: '>=0.16'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: glib-2
-  requires: null
   version: '>=2.44'
 - Labels: null
   category: net-dns
-  conflicts: null
-  id: 0
   name: avahi-gtk3
-  requires: null
   version: '>=0.6'
 - Labels: null
   category: net-libs
-  conflicts: null
-  id: 0
   name: libsoup-2.4
-  requires: null
   version: '>=2.33.92'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: gtk+-3
-  requires: null
   version: '>=3.22.0'
 - Labels: null
   category: app-crypt
-  conflicts: null
-  id: 0
   name: gcr
-  requires: null
   version: '>=0'
 - Labels: null
   category: app-crypt
-  conflicts: null
-  id: 0
   name: libsecret
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: vala-0.44
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libpwquality
-  requires: null
   version: '>=0'
 - Labels: null
   category: net-misc
-  conflicts: null
-  id: 0
   name: openssh
-  requires: null
   version: '>=0'
 - Labels: null
   category: net-nds
-  conflicts: null
-  id: 0
   name: openldap
-  requires: null
   version: '>=0'
 use_flags:
 - abi_x86_64

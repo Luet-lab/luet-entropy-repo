@@ -1,66 +1,40 @@
 
 
 category: dev-cpp
-conflicts: null
-id: 0
 license: LGPL-2.1+
 name: pangomm-1.4
 requires:
 - Labels: null
   category: app-portage
-  conflicts: null
-  id: 0
   name: elt-patches
-  requires: null
   version: '>=20170815'
 - Labels: null
   category: dev-cpp
-  conflicts: null
-  id: 0
   name: cairomm
-  requires: null
   version: '>=1.12.0'
 - Labels: null
   category: dev-cpp
-  conflicts: null
-  id: 0
   name: glibmm-2
-  requires: null
   version: '>=2.48.0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libsigc++-2
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: pango
-  requires: null
   version: '>=1.41.0'
 - Labels: null
   category: app-arch
-  conflicts: null
-  id: 0
   name: xz-utils
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: desktop-file-utils
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-misc
-  conflicts: null
-  id: 0
   name: shared-mime-info
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian

@@ -1,59 +1,36 @@
 
 
 category: app-admin
-conflicts: null
-id: 0
 license: Apache-2.0
 name: apache-tools
 requires:
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: apr-1
-  requires: null
   version: '>=1.5.0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: apr-util-1
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: expat
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libpcre-3
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: openssl
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: util-linux
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: libtool-2
-  requires: null
   version: '>=0'
 use_flags:
 - split-usr

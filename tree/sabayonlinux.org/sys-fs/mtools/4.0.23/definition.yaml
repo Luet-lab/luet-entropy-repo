@@ -1,45 +1,28 @@
 
 
 category: sys-fs
-conflicts: null
-id: 0
 license: GPL-3
 name: mtools
 requires:
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libICE
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libSM
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libX11
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXau
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXt
-  requires: null
   version: '>=0'
 use_flags:
 - X

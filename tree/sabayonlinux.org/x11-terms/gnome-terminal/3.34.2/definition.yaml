@@ -1,143 +1,84 @@
 Labels:
   original.package.version: "3.34.2"
 category: x11-terms
-conflicts: null
-id: 0
 license: GPL-3+
 name: gnome-terminal
 requires:
 - Labels: null
   category: app-portage
-  conflicts: null
-  id: 0
   name: elt-patches
-  requires: null
   version: '>=20170815'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: glib-2
-  requires: null
   version: '>=2.42'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libpcre2
-  requires: null
   version: '>=10'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: intltool
-  requires: null
   version: '>=0.50'
 - Labels: null
   category: gnome-base
-  conflicts: null
-  id: 0
   name: dconf
-  requires: null
   version: '>=0.14'
 - Labels: null
   category: gnome-base
-  conflicts: null
-  id: 0
   name: gsettings-desktop-schemas
-  requires: null
   version: '>=0.1.0'
 - Labels: null
   category: gnome-base
-  conflicts: null
-  id: 0
   name: nautilus
-  requires: null
   version: '>=3'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: gtk+-3
-  requires: null
   version: '>=3.20'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: vte-2.91
-  requires: null
   version: '>=0.56.2'
 - Labels: null
   category: app-arch
-  conflicts: null
-  id: 0
   name: xz-utils
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libxml2-2
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: desktop-file-utils
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: gdbus-codegen
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: glib-utils
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: itstool
-  requires: null
   version: '>=0'
 - Labels: null
   category: gnome-base
-  conflicts: null
-  id: 0
   name: gnome-shell
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: util-linux
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: gettext
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-misc
-  conflicts: null
-  id: 0
   name: shared-mime-info
-  requires: null
   version: '>=0'
 use_flags:
 - abi_x86_64

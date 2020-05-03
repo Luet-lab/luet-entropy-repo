@@ -1,66 +1,40 @@
 
 
 category: sys-cluster
-conflicts: null
-id: 0
 license: BSD GPL-2
 name: galera
 requires:
 - Labels: null
   category: dev-cpp
-  conflicts: null
-  id: 0
   name: asio
-  requires: null
   version: <1.12.0
 - Labels: null
   category: dev-cpp
-  conflicts: null
-  id: 0
   name: asio
-  requires: null
   version: '>=1.10.1'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: boost
-  requires: null
   version: '>=1.41'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: gcc-8.2.0
-  requires: null
   version: '>=4.4'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-3.6
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: check
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: openssl
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: scons
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian

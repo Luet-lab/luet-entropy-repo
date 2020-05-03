@@ -1,31 +1,20 @@
 
 
 category: dev-perl
-conflicts: null
-id: 0
 license: Artistic GPL-1+
 name: IO-Socket-INET6
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: perl
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: Module-Build
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: Socket6
-  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc

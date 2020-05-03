@@ -1,80 +1,48 @@
 
 
 category: x11-libs
-conflicts: null
-id: 0
 license: MIT
 name: xcb-util-cursor
 requires:
 - Labels: null
   category: app-portage
-  conflicts: null
-  id: 0
   name: elt-patches
-  requires: null
   version: '>=20170815'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: gperf
-  requires: null
   version: '>=3.0.1'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: autoconf-2.69
-  requires: null
   version: '>=2.69'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: automake-1.15
-  requires: null
   version: '>=1.15.1'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: libtool-2
-  requires: null
   version: '>=2.4'
 - Labels: null
   category: x11-base
-  conflicts: null
-  id: 0
   name: xcb-proto
-  requires: null
   version: '>=1.8'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libxcb
-  requires: null
   version: '>=1.9.1'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: xcb-util-image
-  requires: null
   version: '>=0.3.9'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: xcb-util-renderutil
-  requires: null
   version: '>=0.3.9'
 - Labels: null
   category: x11-base
-  conflicts: null
-  id: 0
   name: xorg-proto
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian

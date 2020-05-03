@@ -1,45 +1,28 @@
 
 
 category: media-libs
-conflicts: null
-id: 0
 license: BSD
 name: liboggz
 requires:
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: automake-1.15
-  requires: null
   version: '>=1.11'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: libogg
-  requires: null
   version: '>=1.2.0'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: autoconf-2.69
-  requires: null
   version: '>=2.61'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: libtool-2
-  requires: null
   version: '>=2.2.6b'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: pkgconfig
-  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc

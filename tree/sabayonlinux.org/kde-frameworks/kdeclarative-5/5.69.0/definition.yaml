@@ -1,150 +1,88 @@
 Labels:
   original.package.version: "5.69.0"
 category: kde-frameworks
-conflicts: null
-id: 0
 license: LGPL-2+
 name: kdeclarative-5
 requires:
 - Labels: null
   category: kde-frameworks
-  conflicts: null
-  id: 0
   name: kconfig-5
-  requires: null
   version: '>=5.67'
 - Labels: null
   category: kde-frameworks
-  conflicts: null
-  id: 0
   name: kcoreaddons-5
-  requires: null
   version: '>=5.67'
 - Labels: null
   category: kde-frameworks
-  conflicts: null
-  id: 0
   name: kglobalaccel-5
-  requires: null
   version: '>=5.67'
 - Labels: null
   category: kde-frameworks
-  conflicts: null
-  id: 0
   name: ki18n-5
-  requires: null
   version: '>=5.67'
 - Labels: null
   category: kde-frameworks
-  conflicts: null
-  id: 0
   name: kiconthemes-5
-  requires: null
   version: '>=5.67'
 - Labels: null
   category: kde-frameworks
-  conflicts: null
-  id: 0
   name: kio-5
-  requires: null
   version: '>=5.67'
 - Labels: null
   category: kde-frameworks
-  conflicts: null
-  id: 0
   name: kpackage-5
-  requires: null
   version: '>=5.67'
 - Labels: null
   category: kde-frameworks
-  conflicts: null
-  id: 0
   name: kservice-5
-  requires: null
   version: '>=5.67'
 - Labels: null
   category: kde-frameworks
-  conflicts: null
-  id: 0
   name: kwidgetsaddons-5
-  requires: null
   version: '>=5.67'
 - Labels: null
   category: kde-frameworks
-  conflicts: null
-  id: 0
   name: kwindowsystem-5
-  requires: null
   version: '>=5.67'
 - Labels: null
   category: dev-qt
-  conflicts: null
-  id: 0
   name: qtdeclarative-5
-  requires: null
   version: '>=5.12.3'
 - Labels: null
   category: dev-qt
-  conflicts: null
-  id: 0
   name: qtgui-5
-  requires: null
   version: '>=5.12.3'
 - Labels: null
   category: dev-qt
-  conflicts: null
-  id: 0
   name: qtnetwork-5
-  requires: null
   version: '>=5.12.3'
 - Labels: null
   category: dev-qt
-  conflicts: null
-  id: 0
   name: qtwidgets-5
-  requires: null
   version: '>=5.12.3'
 - Labels: null
   category: kde-frameworks
-  conflicts: null
-  id: 0
   name: extra-cmake-modules-5
-  requires: null
   version: '>=5.67'
 - Labels: null
   category: kde-frameworks
-  conflicts: null
-  id: 0
   name: kf-env-5
-  requires: null
   version: '>=4'
 - Labels: null
   category: dev-qt
-  conflicts: null
-  id: 0
   name: qtcore-5
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: cmake
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: ninja
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: libepoxy
-  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU

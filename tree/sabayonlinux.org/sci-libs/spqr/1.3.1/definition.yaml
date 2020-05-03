@@ -1,17 +1,12 @@
 
 
 category: sci-libs
-conflicts: null
-id: 0
 license: GPL-2
 name: spqr
 requires:
 - Labels: null
   category: sci-libs
-  conflicts: null
-  id: 0
   name: cholmod
-  requires: null
   version: '>=2'
 use_flags:
 - userland_GNU

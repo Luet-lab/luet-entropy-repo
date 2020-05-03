@@ -1,31 +1,20 @@
 
 
 category: net-libs
-conflicts: null
-id: 0
 license: LGPL-2
 name: libmbim
 requires:
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: glib-2
-  requires: null
   version: '>=2.36'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: glib-utils
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: gtk-doc-am
-  requires: null
   version: '>=0'
 use_flags:
 - amd64

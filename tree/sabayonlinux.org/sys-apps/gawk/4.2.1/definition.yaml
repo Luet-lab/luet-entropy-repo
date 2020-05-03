@@ -1,31 +1,20 @@
 
 
 category: sys-apps
-conflicts: null
-id: 0
 license: GPL-2
 name: gawk
 requires:
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: gmp
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: gettext
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: readline
-  requires: null
   version: '>=0'
 use_flags:
 - nls

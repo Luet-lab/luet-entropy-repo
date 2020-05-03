@@ -1,73 +1,44 @@
 
 
 category: sys-libs
-conflicts: null
-id: 0
 license: LGPL-2+
 name: libblockdev
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-exec-2
-  requires: null
   version: '>=2'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: glib-2
-  requires: null
   version: '>=2.42.2'
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: kmod
-  requires: null
   version: '>=19'
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: util-linux
-  requires: null
   version: '>=2.27'
 - Labels: null
   category: sys-block
-  conflicts: null
-  id: 0
   name: parted
-  requires: null
   version: '>=3.1'
 - Labels: null
   category: sys-fs
-  conflicts: null
-  id: 0
   name: cryptsetup
-  requires: null
   version: '>=1.6.7'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-3.6
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libbytesize
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: gtk-doc-am
-  requires: null
   version: '>=0'
 use_flags:
 - -device-mapper

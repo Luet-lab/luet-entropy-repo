@@ -1,24 +1,16 @@
 
 
 category: sys-power
-conflicts: null
-id: 0
 license: iASL
 name: iasl
 requires:
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: bison
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: flex
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian

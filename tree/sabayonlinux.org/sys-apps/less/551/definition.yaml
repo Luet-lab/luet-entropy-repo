@@ -1,31 +1,20 @@
 
 
 category: sys-apps
-conflicts: null
-id: 0
 license: BSD-2 GPL-3
 name: less
 requires:
 - Labels: null
   category: app-misc
-  conflicts: null
-  id: 0
   name: editor-wrapper
-  requires: null
   version: '>=3'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: ncurses
-  requires: null
   version: '>=5.2'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libpcre2
-  requires: null
   version: '>=0'
 use_flags:
 - pcre

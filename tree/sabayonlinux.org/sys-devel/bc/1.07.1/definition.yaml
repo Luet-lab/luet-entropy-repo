@@ -1,31 +1,20 @@
 
 
 category: sys-devel
-conflicts: null
-id: 0
 license: GPL-2 LGPL-2.1
 name: bc
 requires:
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: ncurses
-  requires: null
   version: '>=5.2'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: readline
-  requires: null
   version: '>=4.1'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: flex
-  requires: null
   version: '>=0'
 use_flags:
 - split-usr

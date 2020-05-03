@@ -1,87 +1,52 @@
 
 
 category: dev-haskell
-conflicts: null
-id: 0
 license: MIT
 name: tasty
 requires:
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: ansi-terminal
-  requires: null
   version: '>=0.6.2'
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: async
-  requires: null
   version: '>=2.0'
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: cabal
-  requires: null
   version: '>=1.10'
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: clock
-  requires: null
   version: '>=0.4.4.0'
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: optparse-applicative
-  requires: null
   version: '>=0.11'
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: regex-tdfa
-  requires: null
   version: '>=1.1.8.2'
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: stm
-  requires: null
   version: '>=2.3'
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: tagged
-  requires: null
   version: '>=0.5'
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: unbounded-delays
-  requires: null
   version: '>=0.1'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: ghc
-  requires: null
   version: '>=7.4.1'
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: mtl
-  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc

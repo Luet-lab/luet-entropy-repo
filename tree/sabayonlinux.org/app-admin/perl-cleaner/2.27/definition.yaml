@@ -1,38 +1,24 @@
 
 
 category: app-admin
-conflicts: null
-id: 0
 license: GPL-2
 name: perl-cleaner
 requires:
 - Labels: null
   category: app-portage
-  conflicts: null
-  id: 0
   name: portage-utils
-  requires: null
   version: '>=0'
 - Labels: null
   category: app-shells
-  conflicts: null
-  id: 0
   name: bash
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: perl
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: portage
-  requires: null
   version: '>=0'
 use_flags:
 - amd64

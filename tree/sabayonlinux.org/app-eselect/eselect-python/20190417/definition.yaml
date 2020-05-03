@@ -1,24 +1,16 @@
 
 
 category: app-eselect
-conflicts: null
-id: 0
 license: GPL-2
 name: eselect-python
 requires:
 - Labels: null
   category: app-admin
-  conflicts: null
-  id: 0
   name: eselect
-  requires: null
   version: '>=1.2.3'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-exec-2
-  requires: null
   version: '>=2.4.2'
 use_flags:
 - kernel_linux

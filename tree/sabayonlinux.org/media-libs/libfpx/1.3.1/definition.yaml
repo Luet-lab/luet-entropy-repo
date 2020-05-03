@@ -1,17 +1,12 @@
 
 
 category: media-libs
-conflicts: null
-id: 0
 license: Flashpix
 name: libfpx
 requires:
 - Labels: null
   category: app-portage
-  conflicts: null
-  id: 0
   name: elt-patches
-  requires: null
   version: '>=20170422'
 use_flags:
 - -static-libs

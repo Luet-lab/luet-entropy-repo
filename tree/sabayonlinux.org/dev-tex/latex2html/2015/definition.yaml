@@ -1,45 +1,28 @@
 
 
 category: dev-tex
-conflicts: null
-id: 0
 license: GPL-2
 name: latex2html
 requires:
 - Labels: null
   category: app-text
-  conflicts: null
-  id: 0
   name: ghostscript-gpl
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: perl
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: giflib
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: libpng
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: netpbm
-  requires: null
   version: '>=0'
 use_flags:
 - amd64

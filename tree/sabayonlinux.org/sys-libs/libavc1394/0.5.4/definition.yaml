@@ -1,17 +1,12 @@
 
 
 category: sys-libs
-conflicts: null
-id: 0
 license: LGPL-2.1
 name: libavc1394
 requires:
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: libraw1394
-  requires: null
   version: '>=2.1.0'
 use_flags:
 - big-endian

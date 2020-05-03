@@ -1,45 +1,28 @@
 
 
 category: x11-drivers
-conflicts: null
-id: 0
 license: MIT
 name: xf86-video-ati
 requires:
 - Labels: null
   category: x11-base
-  conflicts: null
-  id: 0
   name: xorg-server
-  requires: null
   version: '>=1.20'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libdrm
-  requires: null
   version: '>=2.4.89'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libpciaccess
-  requires: null
   version: '>=0.14'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libpciaccess
-  requires: null
   version: '>=0.8.0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libdrm
-  requires: null
   version: '>=0'
 use_flags:
 - abi_x86_64

@@ -1,73 +1,44 @@
 
 
 category: sys-apps
-conflicts: null
-id: 0
 license: BSD
 name: hwloc
 requires:
 - Labels: null
   category: app-portage
-  conflicts: null
-  id: 0
   name: elt-patches
-  requires: null
   version: '>=20170815'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libxml2-2
-  requires: null
   version: '>=2.9.1'
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: pciutils
-  requires: null
   version: '>=3.3.0'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: autoconf-2.69
-  requires: null
   version: '>=2.69'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: automake-1.15
-  requires: null
   version: '>=1.15.1'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: libtool-2
-  requires: null
   version: '>=2.4'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: ncurses
-  requires: null
   version: '>=5.9'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: cairo
-  requires: null
   version: '>=1.12.14'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libpciaccess
-  requires: null
   version: '>=0.13.1'
 use_flags:
 - big-endian

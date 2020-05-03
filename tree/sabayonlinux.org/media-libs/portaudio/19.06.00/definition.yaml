@@ -1,17 +1,12 @@
 
 
 category: media-libs
-conflicts: null
-id: 0
 license: MIT
 name: portaudio
 requires:
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: alsa-lib
-  requires: null
   version: '>=1.0.27.2'
 use_flags:
 - big-endian

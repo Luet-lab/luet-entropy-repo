@@ -1,17 +1,12 @@
 
 
 category: sys-apps
-conflicts: null
-id: 0
 license: BSD GPL-2+ man-pages
 name: man-pages
 requires:
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: man-pages-posix
-  requires: null
   version: '>=0'
 use_flags:
 - nls

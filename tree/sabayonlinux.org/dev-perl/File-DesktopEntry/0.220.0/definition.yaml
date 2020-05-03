@@ -1,31 +1,20 @@
 
 
 category: dev-perl
-conflicts: null
-id: 0
 license: Artistic GPL-1+
 name: File-DesktopEntry
 requires:
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: File-BaseDir
-  requires: null
   version: '>=0.30.0'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: perl
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: URI
-  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc

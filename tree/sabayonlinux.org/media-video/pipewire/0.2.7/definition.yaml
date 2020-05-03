@@ -1,80 +1,48 @@
 
 
 category: media-video
-conflicts: null
-id: 0
 license: LGPL-2.1+
 name: pipewire
 requires:
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: meson
-  requires: null
   version: '>=0.48.2'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: ninja
-  requires: null
   version: '>=1.7.2'
 - Labels: null
   category: app-doc
-  conflicts: null
-  id: 0
   name: xmltoman
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: alsa-lib
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: libsdl2
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: sbc
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-video
-  conflicts: null
-  id: 0
   name: ffmpeg
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: dbus
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: systemd
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libX11
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian

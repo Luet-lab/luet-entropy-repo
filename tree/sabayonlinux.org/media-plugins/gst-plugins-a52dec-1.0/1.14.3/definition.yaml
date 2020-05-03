@@ -1,52 +1,32 @@
 
 
 category: media-plugins
-conflicts: null
-id: 0
 license: GPL-2
 name: gst-plugins-a52dec-1.0
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: orc
-  requires: null
   version: '>=0.4.17'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: glib-2
-  requires: null
   version: '>=2.38.2'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: a52dec
-  requires: null
   version: '>=0.7.4'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: gst-plugins-ugly-1.0
-  requires: null
   version: '>=1.14.3'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: gstreamer-1.0
-  requires: null
   version: '>=1.2.4'
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: sed
-  requires: null
   version: '>=4'
 use_flags:
 - big-endian

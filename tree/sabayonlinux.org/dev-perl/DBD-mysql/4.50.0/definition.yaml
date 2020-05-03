@@ -1,38 +1,24 @@
 
 
 category: dev-perl
-conflicts: null
-id: 0
 license: Artistic GPL-1+
 name: DBD-mysql
 requires:
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: DBI
-  requires: null
   version: '>=1.609.0'
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: Devel-CheckLib
-  requires: null
   version: '>=1.109.0'
 - Labels: null
   category: dev-db
-  conflicts: null
-  id: 0
   name: mysql-connector-c
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: perl
-  requires: null
   version: '>=0'
 use_flags:
 - split-usr

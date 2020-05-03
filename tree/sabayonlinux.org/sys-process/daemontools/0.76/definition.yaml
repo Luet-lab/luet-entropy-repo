@@ -1,17 +1,12 @@
 
 
 category: sys-process
-conflicts: null
-id: 0
 license: public-domain
 name: daemontools
 requires:
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: sed
-  requires: null
   version: '>=4'
 use_flags:
 - amd64

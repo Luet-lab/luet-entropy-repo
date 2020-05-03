@@ -1,17 +1,12 @@
 
 
 category: app-eselect
-conflicts: null
-id: 0
 license: GPL-2
 name: eselect-lapack
 requires:
 - Labels: null
   category: app-admin
-  conflicts: null
-  id: 0
   name: eselect
-  requires: null
   version: '>=1.0.5'
 use_flags:
 - userland_GNU

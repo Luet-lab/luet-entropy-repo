@@ -1,59 +1,36 @@
 
 
 category: dev-haskell
-conflicts: null
-id: 0
 license: MIT
 name: http-client-tls
 requires:
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: cabal
-  requires: null
   version: '>=1.10'
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: connection
-  requires: null
   version: '>=0.2.2'
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: http-client
-  requires: null
   version: '>=0.3.5'
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: tls
-  requires: null
   version: '>=1.2'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: ghc
-  requires: null
   version: '>=7.4.1'
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: data-default-class
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: network
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian

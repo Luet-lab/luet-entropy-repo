@@ -1,31 +1,20 @@
 
 
 category: media-fonts
-conflicts: null
-id: 0
 license: MSttfEULA
 name: corefonts
 requires:
 - Labels: null
   category: app-arch
-  conflicts: null
-  id: 0
   name: cabextract
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-fonts
-  conflicts: null
-  id: 0
   name: encodings
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-apps
-  conflicts: null
-  id: 0
   name: mkfontdir
-  requires: null
   version: '>=0'
 use_flags:
 - X

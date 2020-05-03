@@ -1,24 +1,16 @@
 
 
 category: net-misc
-conflicts: null
-id: 0
 license: GPL-3
 name: rsync
 requires:
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: popt
-  requires: null
   version: '>=1.5'
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: attr
-  requires: null
   version: '>=0'
 use_flags:
 - iconv

@@ -1,31 +1,20 @@
 
 
 category: lxde-base
-conflicts: null
-id: 0
 license: GPL-2
 name: lxde-common
 requires:
 - Labels: null
   category: lxde-base
-  conflicts: null
-  id: 0
   name: lxde-icon-theme
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: gettext
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: gtk+-3
-  requires: null
   version: '>=0'
 use_flags:
 - abi_x86_64

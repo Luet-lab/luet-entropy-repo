@@ -1,24 +1,16 @@
 
 
 category: sys-devel
-conflicts: null
-id: 0
 license: GPL-2
 name: dev86
 requires:
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: gperf
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: bin86
-  requires: null
   version: '>=0'
 use_flags:
 - abi_x86_64

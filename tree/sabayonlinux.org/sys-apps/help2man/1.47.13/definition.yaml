@@ -1,24 +1,16 @@
 
 
 category: sys-apps
-conflicts: null
-id: 0
 license: GPL-3
 name: help2man
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: perl
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: Locale-gettext
-  requires: null
   version: '>=0'
 use_flags:
 - amd64

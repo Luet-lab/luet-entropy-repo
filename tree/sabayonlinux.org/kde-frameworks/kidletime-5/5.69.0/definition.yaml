@@ -1,87 +1,52 @@
 
 
 category: kde-frameworks
-conflicts: null
-id: 0
 license: LGPL-2+
 name: kidletime-5
 requires:
 - Labels: null
   category: dev-qt
-  conflicts: null
-  id: 0
   name: qtgui-5
-  requires: null
   version: '>=5.12.3'
 - Labels: null
   category: dev-qt
-  conflicts: null
-  id: 0
   name: qtwidgets-5
-  requires: null
   version: '>=5.12.3'
 - Labels: null
   category: dev-qt
-  conflicts: null
-  id: 0
   name: qtx11extras-5
-  requires: null
   version: '>=5.12.3'
 - Labels: null
   category: kde-frameworks
-  conflicts: null
-  id: 0
   name: extra-cmake-modules-5
-  requires: null
   version: '>=5.67'
 - Labels: null
   category: kde-frameworks
-  conflicts: null
-  id: 0
   name: kf-env-5
-  requires: null
   version: '>=4'
 - Labels: null
   category: dev-qt
-  conflicts: null
-  id: 0
   name: qtcore-5
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: cmake
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: ninja
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libX11
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXext
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libxcb
-  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU

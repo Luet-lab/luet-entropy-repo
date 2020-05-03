@@ -1,45 +1,28 @@
 
 
 category: sys-devel
-conflicts: null
-id: 0
 license: GPL-2
 name: automake-1.15
 requires:
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: autoconf-2.69
-  requires: null
   version: '>=2.69'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: automake-wrapper
-  requires: null
   version: '>=10'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: perl
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: help2man
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: gnuconfig
-  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU

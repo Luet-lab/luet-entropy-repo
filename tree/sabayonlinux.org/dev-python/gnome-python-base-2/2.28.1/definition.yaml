@@ -1,59 +1,36 @@
 
 
 category: dev-python
-conflicts: null
-id: 0
 license: LGPL-2.1
 name: gnome-python-base-2
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-2.7
-  requires: null
   version: '>=2.7.5'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: glib-2
-  requires: null
   version: '>=2.6'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: pygobject-2
-  requires: null
   version: '>=2.17'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: pygtk-2
-  requires: null
   version: '>=2.14.0'
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: sed
-  requires: null
   version: '>=4'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: gtk+-3
-  requires: null
   version: '>=2.6'
 - Labels: null
   category: app-arch
-  conflicts: null
-  id: 0
   name: xz-utils
-  requires: null
   version: '>=0'
 use_flags:
 - kernel_linux

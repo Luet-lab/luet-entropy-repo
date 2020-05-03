@@ -1,25 +1,17 @@
 
 
 category: dev-texlive
-conflicts: null
-id: 0
 license: Apache-2.0 BSD GPL-1 GPL-2 GPL-3 LPPL-1.2 LPPL-1.3 MIT OFL TeX TeX-other-free
   public-domain
 name: texlive-fontsextra
 requires:
 - Labels: null
   category: app-text
-  conflicts: null
-  id: 0
   name: texlive-core
-  requires: null
   version: '>=2019'
 - Labels: null
   category: dev-texlive
-  conflicts: null
-  id: 0
   name: texlive-basic
-  requires: null
   version: '>=2019'
 use_flags:
 - big-endian

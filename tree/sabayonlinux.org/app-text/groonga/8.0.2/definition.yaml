@@ -1,38 +1,24 @@
 
 
 category: app-text
-conflicts: null
-id: 0
 license: LGPL-2.1
 name: groonga
 requires:
 - Labels: null
   category: app-portage
-  conflicts: null
-  id: 0
   name: elt-patches
-  requires: null
   version: '>=20170422'
 - Labels: null
   category: app-text
-  conflicts: null
-  id: 0
   name: mecab
-  requires: null
   version: '>=0.80'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: onigmo
-  requires: null
   version: '>=6.1.1'
 - Labels: null
   category: app-arch
-  conflicts: null
-  id: 0
   name: lz4
-  requires: null
   version: '>=0'
 use_flags:
 - -fmalloc

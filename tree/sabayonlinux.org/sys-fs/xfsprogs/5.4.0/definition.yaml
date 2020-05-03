@@ -1,38 +1,24 @@
 
 
 category: sys-fs
-conflicts: null
-id: 0
 license: LGPL-2.1
 name: xfsprogs
 requires:
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: util-linux
-  requires: null
   version: '>=2.17.2'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: icu
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: gettext
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: readline
-  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU

@@ -1,31 +1,20 @@
 
 
 category: app-crypt
-conflicts: null
-id: 0
 license: MIT
 name: p11-kit
 requires:
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libtasn1
-  requires: null
   version: '>=3.4'
 - Labels: null
   category: app-misc
-  conflicts: null
-  id: 0
   name: ca-certificates
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libffi
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian

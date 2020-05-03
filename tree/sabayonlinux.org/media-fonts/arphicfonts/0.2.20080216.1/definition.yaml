@@ -1,31 +1,20 @@
 
 
 category: media-fonts
-conflicts: null
-id: 0
 license: Arphic
 name: arphicfonts
 requires:
 - Labels: null
   category: media-fonts
-  conflicts: null
-  id: 0
   name: encodings
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-gfx
-  conflicts: null
-  id: 0
   name: fontforge
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-apps
-  conflicts: null
-  id: 0
   name: mkfontdir
-  requires: null
   version: '>=0'
 use_flags:
 - kernel_linux

@@ -1,38 +1,24 @@
 Labels:
   original.package.version: "3.0.9"
 category: app-text
-conflicts: null
-id: 0
 license: GPL-2
 name: gtkspell-2
 requires:
 - Labels: null
   category: app-text
-  conflicts: null
-  id: 0
   name: enchant-2
-  requires: null
   version: '>=1.1.6'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: intltool
-  requires: null
   version: '>=0.35.0'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: pkgconfig
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: gtk+-3
-  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU

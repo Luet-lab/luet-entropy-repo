@@ -1,24 +1,16 @@
 
 
 category: sys-devel
-conflicts: null
-id: 0
 license: GPL-2
 name: autogen
 requires:
 - Labels: null
   category: dev-scheme
-  conflicts: null
-  id: 0
   name: guile-12
-  requires: null
   version: '>=2.0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libxml2-2
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian

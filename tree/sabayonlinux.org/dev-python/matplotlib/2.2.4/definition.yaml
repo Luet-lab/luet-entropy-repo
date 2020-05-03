@@ -1,143 +1,84 @@
 
 
 category: dev-python
-conflicts: null
-id: 0
 license: BSD BitstreamVera MIT OFL-1.1 matplotlib
 name: matplotlib
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-2.7
-  requires: null
   version: '>=2.7.5'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-exec-2
-  requires: null
   version: '>=2'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: kiwisolver
-  requires: null
   version: '>=1.0.0'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: numpy
-  requires: null
   version: '>=1.7.1'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: pyparsing
-  requires: null
   version: '>=1.5.6'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: six
-  requires: null
   version: '>=1.10'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: qhull
-  requires: null
   version: '>=2013'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-3.6
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: PyQt5
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: backports-functools-lru-cache
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: cairocffi
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: cycler
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: functools32
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: python-dateutil-python-2
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: pytz
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: subprocess32
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-fonts
-  conflicts: null
-  id: 0
   name: stix-fonts
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: freetype-2
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: libpng
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian

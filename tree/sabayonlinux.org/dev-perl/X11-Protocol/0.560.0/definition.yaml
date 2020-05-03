@@ -1,31 +1,20 @@
 
 
 category: dev-perl
-conflicts: null
-id: 0
 license: Artistic GPL-1+ MIT
 name: X11-Protocol
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: perl
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXext
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXrender
-  requires: null
   version: '>=0'
 use_flags:
 - -examples

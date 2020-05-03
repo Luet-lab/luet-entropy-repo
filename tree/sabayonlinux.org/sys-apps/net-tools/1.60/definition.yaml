@@ -1,17 +1,12 @@
 
 
 category: sys-apps
-conflicts: null
-id: 0
 license: GPL-2
 name: net-tools
 requires:
 - Labels: null
   category: app-arch
-  conflicts: null
-  id: 0
   name: xz-utils
-  requires: null
   version: '>=0'
 use_flags:
 - arp

@@ -1,45 +1,28 @@
 
 
 category: x11-themes
-conflicts: null
-id: 0
 license: CCPL-Attribution-ShareAlike-3.0
 name: sabayon-artwork-gnome
 requires:
 - Labels: null
   category: gnome-extra
-  conflicts: null
-  id: 0
   name: gnome-shell-extensions
-  requires: null
   version: '>=3.12'
 - Labels: null
   category: x11-themes
-  conflicts: null
-  id: 0
   name: arc-theme
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-themes
-  conflicts: null
-  id: 0
   name: numix-icon-theme
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-themes
-  conflicts: null
-  id: 0
   name: numix-icon-theme-circle
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-themes
-  conflicts: null
-  id: 0
   name: sabayon-artwork-core
-  requires: null
   version: '>=0'
 use_flags:
 - abi_x86_64

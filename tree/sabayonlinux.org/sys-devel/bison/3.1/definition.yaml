@@ -1,31 +1,20 @@
 
 
 category: sys-devel
-conflicts: null
-id: 0
 license: GPL-2
 name: bison
 requires:
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: m4
-  requires: null
   version: '>=1.4.16'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: flex
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: gettext
-  requires: null
   version: '>=0'
 use_flags:
 - -test

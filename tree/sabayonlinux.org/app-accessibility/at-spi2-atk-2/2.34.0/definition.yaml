@@ -1,73 +1,44 @@
 
 
 category: app-accessibility
-conflicts: null
-id: 0
 license: LGPL-2.1+
 name: at-spi2-atk-2
 requires:
 - Labels: null
   category: app-accessibility
-  conflicts: null
-  id: 0
   name: at-spi2-core-2
-  requires: null
   version: '>=2.33.2'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: atk
-  requires: null
   version: '>=2.33.3'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: glib-2
-  requires: null
   version: '>=2.32'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: meson
-  requires: null
   version: '>=0.51.2'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: ninja
-  requires: null
   version: '>=1.8.2'
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: dbus
-  requires: null
   version: '>=1.5'
 - Labels: null
   category: app-arch
-  conflicts: null
-  id: 0
   name: xz-utils
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: desktop-file-utils
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-misc
-  conflicts: null
-  id: 0
   name: shared-mime-info
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian

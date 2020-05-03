@@ -1,24 +1,16 @@
 
 
 category: media-gfx
-conflicts: null
-id: 0
 license: GPL-2
 name: ebdftopcf
 requires:
 - Labels: null
   category: app-arch
-  conflicts: null
-  id: 0
   name: gzip
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-apps
-  conflicts: null
-  id: 0
   name: bdftopcf
-  requires: null
   version: '>=0'
 use_flags:
 - multilib

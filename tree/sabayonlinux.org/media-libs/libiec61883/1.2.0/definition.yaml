@@ -1,24 +1,16 @@
 
 
 category: media-libs
-conflicts: null
-id: 0
 license: GPL-2 LGPL-2.1
 name: libiec61883
 requires:
 - Labels: null
   category: app-portage
-  conflicts: null
-  id: 0
   name: elt-patches
-  requires: null
   version: '>=20170815'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: libraw1394
-  requires: null
   version: '>=2.1.0'
 use_flags:
 - -examples

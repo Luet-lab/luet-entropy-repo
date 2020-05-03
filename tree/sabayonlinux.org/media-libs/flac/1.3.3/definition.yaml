@@ -1,38 +1,24 @@
 
 
 category: media-libs
-conflicts: null
-id: 0
 license: BSD FDL-1.2 GPL-2 LGPL-2.1
 name: flac
 requires:
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: libogg
-  requires: null
   version: '>=1.3.0'
 - Labels: null
   category: app-arch
-  conflicts: null
-  id: 0
   name: xz-utils
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: nasm
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: gettext
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian

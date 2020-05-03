@@ -1,17 +1,12 @@
 
 
 category: app-dicts
-conflicts: null
-id: 0
 license: LGPL-2
 name: aspell-pt-br
 requires:
 - Labels: null
   category: app-text
-  conflicts: null
-  id: 0
   name: aspell
-  requires: null
   version: '>=0.60'
 use_flags:
 - multilib

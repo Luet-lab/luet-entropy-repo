@@ -1,108 +1,64 @@
 
 
 category: kde-plasma
-conflicts: null
-id: 0
 license: GPL-2
 name: polkit-kde-agent-5
 requires:
 - Labels: null
   category: dev-qt
-  conflicts: null
-  id: 0
   name: qtdbus-5
-  requires: null
   version: '>=5.12.3'
 - Labels: null
   category: dev-qt
-  conflicts: null
-  id: 0
   name: qtgui-5
-  requires: null
   version: '>=5.12.3'
 - Labels: null
   category: dev-qt
-  conflicts: null
-  id: 0
   name: qtwidgets-5
-  requires: null
   version: '>=5.12.3'
 - Labels: null
   category: kde-frameworks
-  conflicts: null
-  id: 0
   name: kcoreaddons-5
-  requires: null
   version: '>=5.66.0'
 - Labels: null
   category: kde-frameworks
-  conflicts: null
-  id: 0
   name: kcrash-5
-  requires: null
   version: '>=5.66.0'
 - Labels: null
   category: kde-frameworks
-  conflicts: null
-  id: 0
   name: kdbusaddons-5
-  requires: null
   version: '>=5.66.0'
 - Labels: null
   category: kde-frameworks
-  conflicts: null
-  id: 0
   name: kf-env-5
-  requires: null
   version: '>=4'
 - Labels: null
   category: kde-frameworks
-  conflicts: null
-  id: 0
   name: ki18n-5
-  requires: null
   version: '>=5.66.0'
 - Labels: null
   category: kde-frameworks
-  conflicts: null
-  id: 0
   name: kiconthemes-5
-  requires: null
   version: '>=5.66.0'
 - Labels: null
   category: kde-frameworks
-  conflicts: null
-  id: 0
   name: kwidgetsaddons-5
-  requires: null
   version: '>=5.66.0'
 - Labels: null
   category: kde-frameworks
-  conflicts: null
-  id: 0
   name: kwindowsystem-5
-  requires: null
   version: '>=5.66.0'
 - Labels: null
   category: sys-auth
-  conflicts: null
-  id: 0
   name: polkit-qt
-  requires: null
   version: '>=0.112.0'
 - Labels: null
   category: dev-qt
-  conflicts: null
-  id: 0
   name: qtcore-5
-  requires: null
   version: '>=0'
 - Labels: null
   category: kde-frameworks
-  conflicts: null
-  id: 0
   name: oxygen-icons-5
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian

@@ -1,17 +1,12 @@
 
 
 category: net-fs
-conflicts: null
-id: 0
 license: GPL-3
 name: cifs-utils
 requires:
 - Labels: null
   category: app-portage
-  conflicts: null
-  id: 0
   name: elt-patches
-  requires: null
   version: '>=20170815'
 use_flags:
 - elibc_glibc

@@ -1,24 +1,16 @@
 
 
 category: sys-process
-conflicts: null
-id: 0
 license: lsof
 name: lsof
 requires:
 - Labels: null
   category: net-libs
-  conflicts: null
-  id: 0
   name: libtirpc
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: groff
-  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc

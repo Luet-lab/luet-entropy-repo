@@ -1,24 +1,16 @@
 
 
 category: sys-apps
-conflicts: null
-id: 0
 license: GPL-2
 name: baselayout-java
 requires:
 - Labels: null
   category: app-crypt
-  conflicts: null
-  id: 0
   name: p11-kit
-  requires: null
   version: '>=0'
 - Labels: null
   category: app-misc
-  conflicts: null
-  id: 0
   name: ca-certificates
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian

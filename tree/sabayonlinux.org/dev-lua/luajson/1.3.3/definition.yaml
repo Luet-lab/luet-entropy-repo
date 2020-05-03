@@ -1,24 +1,16 @@
 
 
 category: dev-lua
-conflicts: null
-id: 0
 license: MIT
 name: luajson
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: luajit-2
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-lua
-  conflicts: null
-  id: 0
   name: lpeg
-  requires: null
   version: '>=0'
 use_flags:
 - -test

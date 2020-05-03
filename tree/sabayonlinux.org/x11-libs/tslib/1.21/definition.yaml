@@ -1,31 +1,20 @@
 
 
 category: x11-libs
-conflicts: null
-id: 0
 license: LGPL-2
 name: tslib
 requires:
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: cmake
-  requires: null
   version: '>=3.9.6'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: ninja
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: libsdl2
-  requires: null
   version: '>=0'
 use_flags:
 - -evdev

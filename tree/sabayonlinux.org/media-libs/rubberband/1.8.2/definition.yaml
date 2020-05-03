@@ -1,45 +1,28 @@
 
 
 category: media-libs
-conflicts: null
-id: 0
 license: GPL-2
 name: rubberband
 requires:
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: ladspa-sdk
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: libsamplerate
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: libsndfile
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: vamp-plugin-sdk
-  requires: null
   version: '>=0'
 - Labels: null
   category: sci-libs
-  conflicts: null
-  id: 0
   name: fftw-3.0
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian

@@ -1,17 +1,12 @@
 
 
 category: app-vim
-conflicts: null
-id: 0
 license: vim
 name: dhcpd-syntax
 requires:
 - Labels: null
   category: app-editors
-  conflicts: null
-  id: 0
   name: gvim
-  requires: null
   version: '>=7.3'
 use_flags:
 - big-endian

@@ -1,38 +1,24 @@
 Labels:
   original.package.version: "1.1.0"
 category: dev-python
-conflicts: null
-id: 0
 license: BSD
 name: cssselect
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-2.7
-  requires: null
   version: '>=2.7.5'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-exec-2
-  requires: null
   version: '>=2'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-3.6
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: setuptools
-  requires: null
   version: '>=0'
 use_flags:
 - -doc

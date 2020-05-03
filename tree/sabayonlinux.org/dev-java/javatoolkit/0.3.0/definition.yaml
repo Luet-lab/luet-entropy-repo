@@ -1,24 +1,16 @@
 
 
 category: dev-java
-conflicts: null
-id: 0
 license: GPL-2
 name: javatoolkit
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-2.7
-  requires: null
   version: '>=2.7.5'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-exec-2
-  requires: null
   version: '>=0'
 use_flags:
 - amd64

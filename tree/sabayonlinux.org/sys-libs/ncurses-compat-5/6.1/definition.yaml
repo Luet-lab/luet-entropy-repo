@@ -1,17 +1,12 @@
 
 
 category: sys-libs
-conflicts: null
-id: 0
 license: MIT
 name: ncurses-compat-5
 requires:
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: gpm
-  requires: null
   version: '>=0'
 use_flags:
 - unicode

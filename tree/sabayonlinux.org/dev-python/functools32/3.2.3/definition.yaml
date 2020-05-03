@@ -1,24 +1,16 @@
 
 
 category: dev-python
-conflicts: null
-id: 0
 license: PSF-2.4
 name: functools32
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-2.7
-  requires: null
   version: '>=2.7.5'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-exec-2
-  requires: null
   version: '>=2'
 use_flags:
 - kernel_linux

@@ -1,24 +1,16 @@
 
 
 category: app-i18n
-conflicts: null
-id: 0
 license: GPL-2 MIT
 name: canna
 requires:
 - Labels: null
   category: x11-misc
-  conflicts: null
-  id: 0
   name: gccmakedep
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-misc
-  conflicts: null
-  id: 0
   name: imake
-  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU

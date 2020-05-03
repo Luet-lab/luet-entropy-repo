@@ -1,24 +1,16 @@
 
 
 category: net-misc
-conflicts: null
-id: 0
 license: BSD
 name: netkit-rsh
 requires:
 - Labels: null
   category: sys-auth
-  conflicts: null
-  id: 0
   name: pambase
-  requires: null
   version: '>=20080219.1'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: ncurses
-  requires: null
   version: '>=5.2'
 use_flags:
 - elibc_glibc

@@ -1,24 +1,16 @@
 
 
 category: app-text
-conflicts: null
-id: 0
 license: Apache-2.0 Artistic-2
 name: qpdf
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: perl
-  requires: null
   version: '>=5.8'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: zlib
-  requires: null
   version: '>=0'
 use_flags:
 - -static-libs

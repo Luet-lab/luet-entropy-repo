@@ -1,17 +1,12 @@
 
 
 category: dev-tcltk
-conflicts: null
-id: 0
 license: BSD
 name: togl
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: tk
-  requires: null
   version: '>=0'
 use_flags:
 - multilib

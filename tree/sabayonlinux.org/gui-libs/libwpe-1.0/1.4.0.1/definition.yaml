@@ -1,38 +1,24 @@
 
 
 category: gui-libs
-conflicts: null
-id: 0
 license: BSD-2
 name: libwpe-1.0
 requires:
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: cmake
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: ninja
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: mesa
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libxkbcommon
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian

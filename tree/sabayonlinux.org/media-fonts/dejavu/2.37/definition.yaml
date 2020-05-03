@@ -1,24 +1,16 @@
 
 
 category: media-fonts
-conflicts: null
-id: 0
 license: BitstreamVera
 name: dejavu
 requires:
 - Labels: null
   category: media-fonts
-  conflicts: null
-  id: 0
   name: encodings
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-apps
-  conflicts: null
-  id: 0
   name: mkfontdir
-  requires: null
   version: '>=0'
 use_flags:
 - kernel_linux

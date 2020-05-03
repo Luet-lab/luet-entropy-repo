@@ -1,31 +1,20 @@
 
 
 category: dev-perl
-conflicts: null
-id: 0
 license: Artistic GPL-1+
 name: IO-Socket-SSL
 requires:
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: Net-SSLeay
-  requires: null
   version: '>=1.460.0'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: perl
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: Mozilla-CA
-  requires: null
   version: '>=0'
 use_flags:
 - -idn

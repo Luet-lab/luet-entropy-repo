@@ -1,17 +1,12 @@
 
 
 category: sys-apps
-conflicts: null
-id: 0
 license: metapackage
 name: sabayon-lib-migration
 requires:
 - Labels: null
   category: app-portage
-  conflicts: null
-  id: 0
   name: unsymlink-lib
-  requires: null
   version: '>=0'
 use_flags:
 - amd64

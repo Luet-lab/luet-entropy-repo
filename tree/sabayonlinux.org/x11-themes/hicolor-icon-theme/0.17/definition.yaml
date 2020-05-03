@@ -1,24 +1,16 @@
 
 
 category: x11-themes
-conflicts: null
-id: 0
 license: GPL-2
 name: hicolor-icon-theme
 requires:
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: sed
-  requires: null
   version: '>=4'
 - Labels: null
   category: app-arch
-  conflicts: null
-  id: 0
   name: xz-utils
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian

@@ -1,45 +1,28 @@
 Labels:
   original.package.version: "19.1.0"
 category: dev-python
-conflicts: null
-id: 0
 license: Apache-2.0
 name: pyopenssl
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-2.7
-  requires: null
   version: '>=2.7.5'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-exec-2
-  requires: null
   version: '>=2'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: cryptography
-  requires: null
   version: '>=2.3'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: six
-  requires: null
   version: '>=1.5.2'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-3.6
-  requires: null
   version: '>=0'
 use_flags:
 - -python_targets_pypy3

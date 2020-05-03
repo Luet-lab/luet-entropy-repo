@@ -1,31 +1,20 @@
 
 
 category: dev-java
-conflicts: null
-id: 0
 license: GPL-2 MPL-1.1
 name: rhino-1.6
 requires:
 - Labels: null
   category: dev-java
-  conflicts: null
-  id: 0
   name: ant-core
-  requires: null
   version: '>=1.8.2'
 - Labels: null
   category: dev-java
-  conflicts: null
-  id: 0
   name: java-config-2
-  requires: null
   version: '>=2.2.0'
 - Labels: null
   category: dev-java
-  conflicts: null
-  id: 0
   name: javatoolkit
-  requires: null
   version: '>=0.3.0'
 use_flags:
 - -elibc_FreeBSD

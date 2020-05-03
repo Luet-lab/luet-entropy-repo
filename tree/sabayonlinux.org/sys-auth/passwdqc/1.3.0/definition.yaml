@@ -1,17 +1,12 @@
 
 
 category: sys-auth
-conflicts: null
-id: 0
 license: BSD Openwall public-domain
 name: passwdqc
 requires:
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: pam
-  requires: null
   version: '>=0'
 use_flags:
 - pam

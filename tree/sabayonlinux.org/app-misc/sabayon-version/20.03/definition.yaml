@@ -1,52 +1,32 @@
 
 
 category: app-misc
-conflicts: null
-id: 0
 license: GPL-2
 name: sabayon-version
 requires:
 - Labels: null
   category: app-eselect
-  conflicts: null
-  id: 0
   name: eselect-python
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-3.6
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: systemd
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: base-gcc-8.2.0
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: gcc-config
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-kernel
-  conflicts: null
-  id: 0
   name: sabayon-dracut
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian

@@ -1,73 +1,44 @@
 
 
 category: net-wireless
-conflicts: null
-id: 0
 license: GPL-2+ LGPL-2.1+
 name: bluez
 requires:
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: ell
-  requires: null
   version: '>=0.26'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: glib-2
-  requires: null
   version: '>=2.28'
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: dbus
-  requires: null
   version: '>=1.6'
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: hwids
-  requires: null
   version: '>=20121202.2'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: json-c
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libical
-  requires: null
   version: '>=0'
 - Labels: null
   category: net-print
-  conflicts: null
-  id: 0
   name: cups
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: systemd
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: readline
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian

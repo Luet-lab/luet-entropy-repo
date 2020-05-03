@@ -1,59 +1,36 @@
 
 
 category: dev-haskell
-conflicts: null
-id: 0
 license: BSD
 name: data-default
 requires:
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: cabal
-  requires: null
   version: '>=1.6'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: ghc
-  requires: null
   version: '>=6.10.4'
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: data-default-class
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: data-default-instances-base
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: data-default-instances-containers
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: data-default-instances-dlist
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: data-default-instances-old-locale
-  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU

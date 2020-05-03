@@ -1,45 +1,28 @@
 
 
 category: dev-tex
-conflicts: null
-id: 0
 license: GPL-2 LGPL-3
 name: metapost
 requires:
 - Labels: null
   category: app-eselect
-  conflicts: null
-  id: 0
   name: eselect-mpost
-  requires: null
   version: '>=0.3'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: kpathsea
-  requires: null
   version: '>=6.1.0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: cairo
-  requires: null
   version: '>=1.12'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: pixman
-  requires: null
   version: '>0.18'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: libpng
-  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc

@@ -1,17 +1,12 @@
 
 
 category: media-sound
-conflicts: null
-id: 0
 license: GPL-2
 name: twolame
 requires:
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: libsndfile
-  requires: null
   version: '>=1.0.25'
 use_flags:
 - big-endian

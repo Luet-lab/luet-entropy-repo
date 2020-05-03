@@ -1,17 +1,12 @@
 
 
 category: media-libs
-conflicts: null
-id: 0
 license: GPL-2
 name: jbigkit
 requires:
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: coreutils
-  requires: null
   version: '>=8.5'
 use_flags:
 - -abi_mips_o32

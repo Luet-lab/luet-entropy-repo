@@ -1,24 +1,16 @@
 
 
 category: dev-util
-conflicts: null
-id: 0
 license: FDL-1.1 GPL-2
 name: gtk-doc-am
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: perl
-  requires: null
   version: '>=5.18'
 - Labels: null
   category: app-arch
-  conflicts: null
-  id: 0
   name: xz-utils
-  requires: null
   version: '>=0'
 use_flags:
 - abi_x86_64

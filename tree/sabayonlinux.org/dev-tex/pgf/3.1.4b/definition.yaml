@@ -1,24 +1,16 @@
 
 
 category: dev-tex
-conflicts: null
-id: 0
 license: FDL-1.2 GPL-2 LPPL-1.3c
 name: pgf
 requires:
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: texinfo
-  requires: null
   version: '>=4.2'
 - Labels: null
   category: dev-texlive
-  conflicts: null
-  id: 0
   name: texlive-latexrecommended
-  requires: null
   version: '>=0'
 use_flags:
 - -doc

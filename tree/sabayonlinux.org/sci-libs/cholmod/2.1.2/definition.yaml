@@ -1,45 +1,28 @@
 
 
 category: sci-libs
-conflicts: null
-id: 0
 license: GPL-2
 name: cholmod
 requires:
 - Labels: null
   category: sci-libs
-  conflicts: null
-  id: 0
   name: amd
-  requires: null
   version: '>=2.3'
 - Labels: null
   category: sci-libs
-  conflicts: null
-  id: 0
   name: colamd
-  requires: null
   version: '>=2.8'
 - Labels: null
   category: sci-libs
-  conflicts: null
-  id: 0
   name: amd
-  requires: null
   version: '>=0'
 - Labels: null
   category: sci-libs
-  conflicts: null
-  id: 0
   name: colamd
-  requires: null
   version: '>=0'
 - Labels: null
   category: sci-libs
-  conflicts: null
-  id: 0
   name: suitesparseconfig
-  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc

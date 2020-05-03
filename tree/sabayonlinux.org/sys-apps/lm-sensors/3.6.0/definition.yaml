@@ -1,31 +1,20 @@
 
 
 category: sys-apps
-conflicts: null
-id: 0
 license: GPL-2+ LGPL-2.1
 name: lm-sensors
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: perl
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: bison
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: flex
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian

@@ -1,24 +1,16 @@
 
 
 category: dev-ruby
-conflicts: null
-id: 0
 license: MIT
 name: crass
 requires:
 - Labels: null
   category: dev-ruby
-  conflicts: null
-  id: 0
   name: minitest-5
-  requires: null
   version: '>=5.0.8'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: ruby-2.5
-  requires: null
   version: '>=0'
 use_flags:
 - ruby_targets_ruby25

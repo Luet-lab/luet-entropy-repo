@@ -1,17 +1,12 @@
 
 
 category: sys-apps
-conflicts: null
-id: 0
 license: GPL-2 LGPL-2.1
 name: keyutils
 requires:
 - Labels: null
   category: sys-kernel
-  conflicts: null
-  id: 0
   name: linux-headers
-  requires: null
   version: '>=2.6.11'
 use_flags:
 - big-endian

@@ -1,80 +1,48 @@
 
 
 category: dev-java
-conflicts: null
-id: 0
 license: CPL-1.0 LGPL-2.1 MPL-1.1
 name: swt-3.8
 requires:
 - Labels: null
   category: dev-java
-  conflicts: null
-  id: 0
   name: java-config-2
-  requires: null
   version: '>=2.2.0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: atk
-  requires: null
   version: '>=1.10.2'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: glib-2
-  requires: null
   version: '>=2.6'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: cairo
-  requires: null
   version: '>=1.4.14'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: gtk+-3
-  requires: null
   version: '>=2.6.8'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXtst
-  requires: null
   version: '>=1.1.0'
 - Labels: null
   category: gnome-base
-  conflicts: null
-  id: 0
   name: gnome-vfs-2
-  requires: null
   version: '>=0'
 - Labels: null
   category: gnome-base
-  conflicts: null
-  id: 0
   name: libgnome
-  requires: null
   version: '>=0'
 - Labels: null
   category: gnome-base
-  conflicts: null
-  id: 0
   name: libgnomeui
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXtst
-  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc

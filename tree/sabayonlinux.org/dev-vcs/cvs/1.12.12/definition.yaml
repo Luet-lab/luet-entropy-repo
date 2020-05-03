@@ -1,24 +1,16 @@
 
 
 category: dev-vcs
-conflicts: null
-id: 0
 license: GPL-2 LGPL-2
 name: cvs
 requires:
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: zlib
-  requires: null
   version: '>=1.1.4'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: pam
-  requires: null
   version: '>=0'
 use_flags:
 - pam

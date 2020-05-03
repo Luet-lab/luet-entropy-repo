@@ -1,17 +1,12 @@
 
 
 category: net-libs
-conflicts: null
-id: 0
 license: MIT
 name: nghttp2
 requires:
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libxml2-2
-  requires: null
   version: '>=2.7.7'
 use_flags:
 - big-endian

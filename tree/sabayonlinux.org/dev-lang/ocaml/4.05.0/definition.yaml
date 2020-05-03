@@ -1,31 +1,20 @@
 
 
 category: dev-lang
-conflicts: null
-id: 0
 license: LGPL-2 QPL-1.0
 name: ocaml
 requires:
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: binutils-libs
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: ncurses
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libX11
-  requires: null
   version: '>=0'
 use_flags:
 - ocamlopt

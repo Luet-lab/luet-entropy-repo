@@ -1,38 +1,24 @@
 
 
 category: dev-tcltk
-conflicts: null
-id: 0
 license: BSD
 name: tix
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: tk
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libX11
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXau
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXdmcp
-  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc

@@ -1,59 +1,36 @@
 
 
 category: dev-python
-conflicts: null
-id: 0
 license: BSD
 name: pyquery
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-2.7
-  requires: null
   version: '>=2.7.5'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-exec-2
-  requires: null
   version: '>=2'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: lxml
-  requires: null
   version: '>=2.1'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: webob
-  requires: null
   version: '>=1.1.9'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: cssselect
-  requires: null
   version: '>0.7.9'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-3.6
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: setuptools
-  requires: null
   version: '>=0'
 use_flags:
 - abi_x86_64

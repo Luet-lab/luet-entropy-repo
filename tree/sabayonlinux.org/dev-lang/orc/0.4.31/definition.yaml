@@ -1,24 +1,16 @@
 
 
 category: dev-lang
-conflicts: null
-id: 0
 license: BSD BSD-2
 name: orc
 requires:
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: meson
-  requires: null
   version: '>=0.51.2'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: ninja
-  requires: null
   version: '>=1.8.2'
 use_flags:
 - big-endian

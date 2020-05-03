@@ -1,66 +1,40 @@
 
 
 category: dev-libs
-conflicts: null
-id: 0
 license: LGPL-2.1+
 name: libgdata
 requires:
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: glib-2
-  requires: null
   version: '>=2.44.0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: gobject-introspection
-  requires: null
   version: '>=1.54'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: json-glib
-  requires: null
   version: '>=0.15'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libxml2-2
-  requires: null
   version: '>=2'
 - Labels: null
   category: net-libs
-  conflicts: null
-  id: 0
   name: gnome-online-accounts
-  requires: null
   version: '>=3.8'
 - Labels: null
   category: net-libs
-  conflicts: null
-  id: 0
   name: liboauth
-  requires: null
   version: '>=0.9.4'
 - Labels: null
   category: net-libs
-  conflicts: null
-  id: 0
   name: libsoup-2.4
-  requires: null
   version: '>=2.55.90'
 - Labels: null
   category: app-crypt
-  conflicts: null
-  id: 0
   name: gcr
-  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc

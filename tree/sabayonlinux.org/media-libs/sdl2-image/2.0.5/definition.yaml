@@ -1,38 +1,24 @@
 
 
 category: media-libs
-conflicts: null
-id: 0
 license: ZLIB
 name: sdl2-image
 requires:
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: libpng
-  requires: null
   version: '>=1.6.10'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: libsdl2
-  requires: null
   version: '>=2.0.9'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: tiff
-  requires: null
   version: '>=3.9.7'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: zlib
-  requires: null
   version: '>=1.2.8'
 use_flags:
 - -webp

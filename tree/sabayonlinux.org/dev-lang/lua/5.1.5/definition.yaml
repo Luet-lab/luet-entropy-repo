@@ -1,24 +1,16 @@
 
 
 category: dev-lang
-conflicts: null
-id: 0
 license: MIT
 name: lua
 requires:
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: readline
-  requires: null
   version: '>=6.2'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: libtool-2
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian

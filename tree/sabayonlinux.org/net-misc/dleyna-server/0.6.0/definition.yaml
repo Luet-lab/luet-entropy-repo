@@ -1,94 +1,56 @@
 
 
 category: net-misc
-conflicts: null
-id: 0
 license: LGPL-2.1
 name: dleyna-server
 requires:
 - Labels: null
   category: app-portage
-  conflicts: null
-  id: 0
   name: elt-patches
-  requires: null
   version: '>=20170815'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: glib-2
-  requires: null
   version: '>=2.36'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: gupnp-dlna-2.0
-  requires: null
   version: '>=0.9.4'
 - Labels: null
   category: net-libs
-  conflicts: null
-  id: 0
   name: dleyna-core-1.0
-  requires: null
   version: '>=0.6.0'
 - Labels: null
   category: net-libs
-  conflicts: null
-  id: 0
   name: gssdp
-  requires: null
   version: '>=1.2'
 - Labels: null
   category: net-libs
-  conflicts: null
-  id: 0
   name: gupnp
-  requires: null
   version: '>=1.2'
 - Labels: null
   category: net-libs
-  conflicts: null
-  id: 0
   name: gupnp-av
-  requires: null
   version: '>=0.11.5'
 - Labels: null
   category: net-libs
-  conflicts: null
-  id: 0
   name: libsoup-2.4
-  requires: null
   version: '>=2.28.2'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: autoconf-2.69
-  requires: null
   version: '>=2.69'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: automake-1.15
-  requires: null
   version: '>=1.15.1'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: libtool-2
-  requires: null
   version: '>=2.4'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libxml2-2
-  requires: null
   version: '>=0'
 use_flags:
 - amd64

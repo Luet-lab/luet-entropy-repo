@@ -1,17 +1,12 @@
 
 
 category: dev-libs
-conflicts: null
-id: 0
 license: MIT
 name: libevdev
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-3.6
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian

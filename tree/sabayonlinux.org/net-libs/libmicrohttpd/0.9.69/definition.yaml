@@ -1,24 +1,16 @@
 
 
 category: net-libs
-conflicts: null
-id: 0
 license: LGPL-2.1
 name: libmicrohttpd
 requires:
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libgcrypt
-  requires: null
   version: '>=0'
 - Labels: null
   category: net-libs
-  conflicts: null
-  id: 0
   name: gnutls
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian

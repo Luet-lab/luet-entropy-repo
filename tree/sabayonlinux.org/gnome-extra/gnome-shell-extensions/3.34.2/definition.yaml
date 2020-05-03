@@ -1,122 +1,72 @@
 Labels:
   original.package.version: "3.34.2"
 category: gnome-extra
-conflicts: null
-id: 0
 license: GPL-2+
 name: gnome-shell-extensions
 requires:
 - Labels: null
   category: app-eselect
-  conflicts: null
-  id: 0
   name: eselect-gnome-shell-extensions
-  requires: null
   version: '>=20111211'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: gjs
-  requires: null
   version: '>=1.29'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: glib-2
-  requires: null
   version: '>=2.26'
 - Labels: null
   category: gnome-base
-  conflicts: null
-  id: 0
   name: gnome-shell
-  requires: null
   version: '>=3.32'
 - Labels: null
   category: gnome-base
-  conflicts: null
-  id: 0
   name: libgtop-2
-  requires: null
   version: '>=2.28.3'
 - Labels: null
   category: x11-wm
-  conflicts: null
-  id: 0
   name: mutter
-  requires: null
   version: '>=3.32'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: sassc
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: atk
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: gobject-introspection
-  requires: null
   version: '>=0'
 - Labels: null
   category: gnome-base
-  conflicts: null
-  id: 0
   name: gnome-menus-3
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: clutter-1.0
-  requires: null
   version: '>=0'
 - Labels: null
   category: net-libs
-  conflicts: null
-  id: 0
   name: telepathy-glib
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: gdk-pixbuf-2
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: gtk+-3
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: pango
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-themes
-  conflicts: null
-  id: 0
   name: adwaita-icon-theme
-  requires: null
   version: '>=0'
 use_flags:
 - abi_x86_64

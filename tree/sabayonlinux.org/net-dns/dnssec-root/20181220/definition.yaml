@@ -1,17 +1,12 @@
 
 
 category: net-dns
-conflicts: null
-id: 0
 license: public-domain
 name: dnssec-root
 requires:
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: XML-XPath
-  requires: null
   version: '>=1.420.0'
 use_flags:
 - kernel_linux

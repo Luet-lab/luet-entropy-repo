@@ -1,24 +1,16 @@
 
 
 category: dev-tcltk
-conflicts: null
-id: 0
 license: BSD
 name: tcllib
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: tcl
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-tcltk
-  conflicts: null
-  id: 0
   name: tdom
-  requires: null
   version: '>=0'
 use_flags:
 - amd64

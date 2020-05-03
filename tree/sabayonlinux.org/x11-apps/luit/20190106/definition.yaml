@@ -1,24 +1,16 @@
 
 
 category: x11-apps
-conflicts: null
-id: 0
 license: MIT
 name: luit
 requires:
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: groff
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: zlib
-  requires: null
   version: '>=0'
 use_flags:
 - amd64

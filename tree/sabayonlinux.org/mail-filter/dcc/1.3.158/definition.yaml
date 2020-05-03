@@ -1,38 +1,24 @@
 
 
 category: mail-filter
-conflicts: null
-id: 0
 license: DCC GPL-2
 name: dcc
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: perl
-  requires: null
   version: '>=0'
 - Labels: null
   category: net-ftp
-  conflicts: null
-  id: 0
   name: ftp
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: sed
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: gcc-8.2.0
-  requires: null
   version: '>=0'
 use_flags:
 - -rrdtool

@@ -1,24 +1,16 @@
 Labels:
   original.package.version: "3.9.0"
 category: sys-fs
-conflicts: null
-id: 0
 license: GPL-2 LGPL-2.1
 name: fuse-common
 requires:
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: meson
-  requires: null
   version: '>=0.45.1'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: ninja
-  requires: null
   version: '>=1.7.2'
 use_flags:
 - kernel_linux

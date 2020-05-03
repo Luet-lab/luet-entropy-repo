@@ -1,17 +1,12 @@
 
 
 category: app-text
-conflicts: null
-id: 0
 license: BSD
 name: docbook-xsl-stylesheets
 requires:
 - Labels: null
   category: app-text
-  conflicts: null
-  id: 0
   name: build-docbook-catalog
-  requires: null
   version: '>=1.1'
 use_flags:
 - elibc_glibc

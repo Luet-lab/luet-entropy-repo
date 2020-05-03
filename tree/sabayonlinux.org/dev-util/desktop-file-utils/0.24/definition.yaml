@@ -1,24 +1,16 @@
 
 
 category: dev-util
-conflicts: null
-id: 0
 license: GPL-2+
 name: desktop-file-utils
 requires:
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: glib-2
-  requires: null
   version: '>=2.12'
 - Labels: null
   category: app-arch
-  conflicts: null
-  id: 0
   name: xz-utils
-  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc

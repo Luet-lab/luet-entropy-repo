@@ -1,38 +1,24 @@
 
 
 category: media-libs
-conflicts: null
-id: 0
 license: URT free-noncomm
 name: urt
 requires:
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: giflib
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: tiff
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-base
-  conflicts: null
-  id: 0
   name: xorg-proto
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXext
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian

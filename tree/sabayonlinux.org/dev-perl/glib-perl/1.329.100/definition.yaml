@@ -1,45 +1,28 @@
 
 
 category: dev-perl
-conflicts: null
-id: 0
 license: LGPL-2.1
 name: glib-perl
 requires:
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: glib-2
-  requires: null
   version: '>=2'
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: ExtUtils-Depends
-  requires: null
   version: '>=0.300.0'
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: ExtUtils-PkgConfig
-  requires: null
   version: '>=1.0.0'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: perl
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: Log-Agent
-  requires: null
   version: '>=0'
 use_flags:
 - split-usr

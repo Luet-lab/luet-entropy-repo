@@ -1,24 +1,16 @@
 
 
 category: app-arch
-conflicts: null
-id: 0
 license: Info-ZIP
 name: unzip
 requires:
 - Labels: null
   category: app-arch
-  conflicts: null
-  id: 0
   name: bzip2
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libnatspec
-  requires: null
   version: '>=0'
 use_flags:
 - natspec

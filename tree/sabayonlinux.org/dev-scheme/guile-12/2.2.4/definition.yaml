@@ -1,66 +1,40 @@
 
 
 category: dev-scheme
-conflicts: null
-id: 0
 license: LGPL-3+
 name: guile-12
 requires:
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: boehm-gc
-  requires: null
   version: '>=7.0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: gmp
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libltdl
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libunistring
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: gettext
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: libtool-2
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: ncurses
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: readline
-  requires: null
   version: '>=0'
 use_flags:
 - regex

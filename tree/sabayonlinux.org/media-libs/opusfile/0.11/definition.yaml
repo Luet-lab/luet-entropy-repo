@@ -1,31 +1,20 @@
 
 
 category: media-libs
-conflicts: null
-id: 0
 license: BSD
 name: opusfile
 requires:
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: openssl
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: libogg
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: opus
-  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU

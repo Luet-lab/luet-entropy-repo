@@ -1,31 +1,20 @@
 
 
 category: app-misc
-conflicts: null
-id: 0
 license: MPL-1.1
 name: ca-certificates
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-2.7
-  requires: null
   version: '>=2.7.5'
 - Labels: null
   category: app-misc
-  conflicts: null
-  id: 0
   name: c_rehash
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: debianutils
-  requires: null
   version: '>=0'
 use_flags:
 - abi_x86_64

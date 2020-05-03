@@ -1,38 +1,24 @@
 
 
 category: app-text
-conflicts: null
-id: 0
 license: GPL-3
 name: wdiff
 requires:
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: diffutils
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: less
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: texinfo
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: ncurses
-  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc

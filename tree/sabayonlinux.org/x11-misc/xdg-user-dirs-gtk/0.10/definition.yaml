@@ -1,45 +1,28 @@
 
 
 category: x11-misc
-conflicts: null
-id: 0
 license: GPL-2
 name: xdg-user-dirs-gtk
 requires:
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: gtk+-3
-  requires: null
   version: '>=3.5.1'
 - Labels: null
   category: x11-misc
-  conflicts: null
-  id: 0
   name: xdg-user-dirs
-  requires: null
   version: '>=0.14'
 - Labels: null
   category: app-arch
-  conflicts: null
-  id: 0
   name: xz-utils
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: glib-2
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: intltool
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian

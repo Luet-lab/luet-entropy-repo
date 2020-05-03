@@ -1,52 +1,32 @@
 
 
 category: sys-apps
-conflicts: null
-id: 0
 license: BSD GPL-2 GPL-3+ ISC MIT
 name: pcsc-lite
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-exec-2
-  requires: null
   version: '>=2'
 - Labels: null
   category: sys-auth
-  conflicts: null
-  id: 0
   name: polkit
-  requires: null
   version: '>=0.111'
 - Labels: null
   category: acct-group
-  conflicts: null
-  id: 0
   name: openct
-  requires: null
   version: '>=0'
 - Labels: null
   category: acct-group
-  conflicts: null
-  id: 0
   name: pcscd
-  requires: null
   version: '>=0'
 - Labels: null
   category: acct-user
-  conflicts: null
-  id: 0
   name: pcscd
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-3.6
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian

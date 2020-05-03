@@ -1,17 +1,12 @@
 
 
 category: net-mail
-conflicts: null
-id: 0
 license: all-rights-reserved
 name: checkpassword
 requires:
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: sed
-  requires: null
   version: '>=4'
 use_flags:
 - amd64
