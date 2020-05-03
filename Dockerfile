@@ -15,8 +15,6 @@ RUN app-shells/bash
 
 SHELL ["/bin/bash", "-c"]
 RUN rm -rf /var/cache/luet/packages/ /var/cache/luet/repos/
-# Temporay until TMPDIR is clean
-RUN rm -rf /tree* && mkdir /tmp
 # TODO: check how handle /bin/sh: inside package or with eselect-sh
 RUN ln -s /bin/bash /bin/sh
 
