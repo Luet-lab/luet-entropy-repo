@@ -1,168 +1,81 @@
-
-
 category: app-emulation
 license: GPL-2
 name: xen-tools
 requires:
-- Labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-2.7
   version: '>=2.7.5'
-- Labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-exec-2
   version: '>=2'
-- Labels: null
-  category: app-accessibility
+- category: app-accessibility
   name: brltty
   version: '>=0'
-- Labels: null
-  category: app-arch
+- category: app-arch
   name: snappy
   version: '>=0'
-- Labels: null
-  category: app-emulation
+- category: app-emulation
   name: libcacard
   version: '>=0'
-- Labels: null
-  category: app-emulation
+- category: app-emulation
   name: spice
   version: '>=0'
-- Labels: null
-  category: dev-libs
-  name: atk
-  version: '>=0'
-- Labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=0'
-- Labels: null
-  category: dev-libs
+- category: dev-libs
   name: libaio
   version: '>=0'
-- Labels: null
-  category: dev-libs
+- category: dev-libs
   name: libgcrypt
   version: '>=0'
-- Labels: null
-  category: dev-libs
+- category: dev-libs
   name: libnl-3
   version: '>=0'
-- Labels: null
-  category: dev-libs
+- category: dev-libs
   name: lzo-2
   version: '>=0'
-- Labels: null
-  category: dev-libs
+- category: dev-libs
   name: yajl
   version: '>=0'
-- Labels: null
-  category: dev-python
-  name: lxml
-  version: '>=0'
-- Labels: null
-  category: media-libs
-  name: libepoxy
-  version: '>=0'
-- Labels: null
-  category: media-libs
+- category: media-libs
   name: libjpeg-turbo
   version: '>=0'
-- Labels: null
-  category: media-libs
-  name: libsdl
-  version: '>=0'
-- Labels: null
-  category: media-libs
-  name: libsdl2
-  version: '>=0'
-- Labels: null
-  category: media-libs
-  name: mesa
-  version: '>=0'
-- Labels: null
-  category: media-libs
+- category: media-libs
   name: virglrenderer
   version: '>=0'
-- Labels: null
-  category: net-fs
+- category: net-fs
   name: libnfs
   version: '>=0'
-- Labels: null
-  category: net-libs
+- category: net-libs
   name: libssh2
   version: '>=0'
-- Labels: null
-  category: net-misc
+- category: net-misc
   name: bridge-utils
   version: '>=0'
-- Labels: null
-  category: net-misc
+- category: net-misc
   name: vde
   version: '>=0'
-- Labels: null
-  category: net-wireless
-  name: bluez
-  version: '>=0'
-- Labels: null
-  category: sys-apps
-  name: dtc
-  version: '>=0'
-- Labels: null
-  category: sys-apps
+- category: sys-apps
   name: iproute2
   version: '>=0'
-- Labels: null
-  category: sys-apps
+- category: sys-apps
   name: pciutils
   version: '>=0'
-- Labels: null
-  category: sys-apps
-  name: usbredir
-  version: '>=0'
-- Labels: null
-  category: sys-cluster
-  name: ceph
-  version: '>=0'
-- Labels: null
-  category: sys-libs
+- category: sys-libs
   name: zlib
   version: '>=0'
-- Labels: null
-  category: sys-process
-  name: numactl
-  version: '>=0'
-- Labels: null
-  category: x11-libs
-  name: cairo
-  version: '>=0'
-- Labels: null
-  category: x11-libs
-  name: gdk-pixbuf-2
-  version: '>=0'
-- Labels: null
-  category: x11-libs
-  name: gtk+-3
-  version: '>=0'
-- Labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXext
   version: '>=0'
-- Labels: null
-  category: x11-libs
+- category: x11-libs
   name: libxkbcommon
   version: '>=0'
-- Labels: null
-  category: x11-libs
+- category: x11-libs
   name: pango
   version: '>=0'
-- Labels: null
-  category: x11-libs
+- category: x11-libs
   name: pixman
-  version: '>=0'
-- Labels: null
-  category: x11-libs
-  name: vte-2.91
   version: '>=0'
 use_flags:
 - -system-qemu
