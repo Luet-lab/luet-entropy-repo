@@ -1,111 +1,83 @@
-
-
 category: kde-plasma
 license: LGPL-2+
 name: plasma-integration-5
 requires:
-- Labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtdbus-5
   version: '>=5.12.3'
-- Labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtgui-5
   version: '>=5.12.3'
-- Labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtquickcontrols2-5
   version: '>=5.12.3'
-- Labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtwidgets-5
   version: '>=5.12.3'
-- Labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtx11extras-5
   version: '>=5.12.3'
-- Labels: null
-  category: kde-frameworks
+- category: kde-frameworks
   name: kcompletion-5
   version: '>=5.66.0'
-- Labels: null
-  category: kde-frameworks
+- category: kde-frameworks
   name: kconfig-5
   version: '>=5.66.0'
-- Labels: null
-  category: kde-frameworks
+- category: kde-frameworks
   name: kconfigwidgets-5
   version: '>=5.66.0'
-- Labels: null
-  category: kde-frameworks
+- category: kde-frameworks
   name: kcoreaddons-5
   version: '>=5.66.0'
-- Labels: null
-  category: kde-frameworks
+- category: kde-frameworks
   name: kf-env-5
   version: '>=4'
-- Labels: null
-  category: kde-frameworks
+- category: kde-frameworks
   name: ki18n-5
   version: '>=5.66.0'
-- Labels: null
-  category: kde-frameworks
+- category: kde-frameworks
   name: kiconthemes-5
   version: '>=5.66.0'
-- Labels: null
-  category: kde-frameworks
+- category: kde-frameworks
   name: kio-5
   version: '>=5.66.0'
-- Labels: null
-  category: kde-frameworks
+- category: kde-frameworks
   name: kjobwidgets-5
   version: '>=5.66.0'
-- Labels: null
-  category: kde-frameworks
+- category: kde-frameworks
   name: knotifications-5
   version: '>=5.66.0'
-- Labels: null
-  category: kde-frameworks
+- category: kde-frameworks
   name: kwayland-5
   version: '>=5.66.0'
-- Labels: null
-  category: kde-frameworks
+- category: kde-frameworks
   name: kwidgetsaddons-5
   version: '>=5.66.0'
-- Labels: null
-  category: kde-frameworks
+- category: kde-frameworks
   name: kwindowsystem-5
   version: '>=5.66.0'
-- Labels: null
-  category: kde-frameworks
+- category: kde-frameworks
   name: kxmlgui-5
   version: '>=5.66.0'
-- Labels: null
-  category: kde-plasma
+- category: kde-plasma
   name: breeze-5
   version: '>=5.18.2'
-- Labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtcore-5
   version: '>=0'
-- Labels: null
-  category: kde-frameworks
+- category: kde-frameworks
   name: oxygen-icons-5
   version: '>=0'
-- Labels: null
-  category: media-fonts
+- category: media-fonts
   name: hack
   version: '>=0'
-- Labels: null
-  category: media-fonts
+- category: media-fonts
   name: noto
   version: '>=0'
-- Labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXcursor
   version: '>=0'
-- Labels: null
-  category: x11-libs
+- category: x11-libs
   name: libxcb
   version: '>=0'
 use_flags:
