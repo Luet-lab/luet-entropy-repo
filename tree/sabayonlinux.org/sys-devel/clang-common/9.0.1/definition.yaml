@@ -1,13 +1,6 @@
-
-
 category: sys-devel
 license: Apache-2.0-with-LLVM-exceptions UoI-NCSA
 name: clang-common
-requires:
-- Labels: null
-  category: sys-devel
-  name: clang-9
-  version: '>=0'
 use_flags:
 - big-endian
 - userland_GNU
