@@ -1,67 +1,41 @@
-
-
 category: kde-plasma
 license: GPL-2
 name: libkworkspace-5
 requires:
-- Labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtdbus-5
   version: '>=5.12.3'
-- Labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtx11extras-5
   version: '>=5.12.3'
-- Labels: null
-  category: kde-frameworks
+- category: kde-frameworks
   name: kcoreaddons-5
   version: '>=5.66.0'
-- Labels: null
-  category: kde-frameworks
+- category: kde-frameworks
   name: kf-env-5
   version: '>=4'
-- Labels: null
-  category: kde-frameworks
+- category: kde-frameworks
   name: ki18n-5
   version: '>=5.66.0'
-- Labels: null
-  category: kde-frameworks
+- category: kde-frameworks
   name: kwindowsystem-5
   version: '>=5.66.0'
-- Labels: null
-  category: kde-frameworks
+- category: kde-frameworks
   name: plasma-5
   version: '>=5.66.0'
-- Labels: null
-  category: kde-plasma
+- category: kde-plasma
   name: kscreenlocker-5
   version: '>=5.18.2'
-- Labels: null
-  category: kde-plasma
-  name: kwin-5
-  version: '>=5.18.2'
-- Labels: null
-  category: dev-qt
-  name: qtcore-5
-  version: '>=0'
-- Labels: null
-  category: kde-frameworks
-  name: oxygen-icons-5
-  version: '>=0'
-- Labels: null
-  category: x11-libs
+- category: x11-libs
   name: libICE
   version: '>=0'
-- Labels: null
-  category: x11-libs
+- category: x11-libs
   name: libSM
   version: '>=0'
-- Labels: null
-  category: x11-libs
+- category: x11-libs
   name: libX11
   version: '>=0'
-- Labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXau
   version: '>=0'
 use_flags:
