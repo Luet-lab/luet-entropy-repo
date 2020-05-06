@@ -1,7 +1,8 @@
 #!/bin/bash
-
 # Drop runtime deps by Ettore Di Giacinto <mudler@sabayonlinux.org>
 # License: MIT
+# usage: $0 <package_name> <package_name2> ...
+
 TO_DROP="$@"
 ROOT_DIR=$(git rev-parse --show-toplevel)
 
@@ -15,6 +16,6 @@ hash yq 2>/dev/null || {
 
 for i in $TO_DROP; do
   echo "Dropping any runtime deps for $i in $ROOT_DIR"
-  find $ROOT_DIR -path '*/definition.yaml' -type f -exec yq d -i {} 'requires.(name=='$i')'
+  find $ROOT_DIR -path '*/definition.yaml' -type f -exec yq d -i {} "requires.(name==$i)" \;
 done
 
