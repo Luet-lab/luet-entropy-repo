@@ -1,132 +1,75 @@
-
-
 category: kde-plasma
 license: GPL-2
 name: kde-cli-tools-5
 requires:
-- Labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtdbus-5
   version: '>=5.12.3'
-- Labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtgui-5
   version: '>=5.12.3'
-- Labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtsvg-5
   version: '>=5.12.3'
-- Labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtwidgets-5
   version: '>=5.12.3'
-- Labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtx11extras-5
   version: '>=5.12.3'
-- Labels: null
-  category: kde-frameworks
-  name: extra-cmake-modules-5
-  version: '>=5.66.0'
-- Labels: null
-  category: kde-frameworks
+- category: kde-frameworks
   name: kactivities-5
   version: '>=5.66.0'
-- Labels: null
-  category: kde-frameworks
+- category: kde-frameworks
   name: kcmutils-5
   version: '>=5.66.0'
-- Labels: null
-  category: kde-frameworks
+- category: kde-frameworks
   name: kcompletion-5
   version: '>=5.66.0'
-- Labels: null
-  category: kde-frameworks
+- category: kde-frameworks
   name: kconfig-5
   version: '>=5.66.0'
-- Labels: null
-  category: kde-frameworks
+- category: kde-frameworks
   name: kconfigwidgets-5
   version: '>=5.66.0'
-- Labels: null
-  category: kde-frameworks
+- category: kde-frameworks
   name: kcoreaddons-5
   version: '>=5.66.0'
-- Labels: null
-  category: kde-frameworks
+- category: kde-frameworks
   name: kdeclarative-5
   version: '>=5.66.0'
-- Labels: null
-  category: kde-frameworks
+- category: kde-frameworks
   name: kdesu-5
   version: '>=5.66.0'
-- Labels: null
-  category: kde-frameworks
-  name: kdoctools-5
-  version: '>=5.66.0'
-- Labels: null
-  category: kde-frameworks
+- category: kde-frameworks
   name: kf-env-5
   version: '>=4'
-- Labels: null
-  category: kde-frameworks
+- category: kde-frameworks
   name: ki18n-5
   version: '>=5.66.0'
-- Labels: null
-  category: kde-frameworks
+- category: kde-frameworks
   name: kiconthemes-5
   version: '>=5.66.0'
-- Labels: null
-  category: kde-frameworks
+- category: kde-frameworks
   name: kio-5
   version: '>=5.66.0'
-- Labels: null
-  category: kde-frameworks
+- category: kde-frameworks
   name: kservice-5
   version: '>=5.66.0'
-- Labels: null
-  category: kde-frameworks
+- category: kde-frameworks
   name: kwidgetsaddons-5
   version: '>=5.66.0'
-- Labels: null
-  category: kde-frameworks
+- category: kde-frameworks
   name: kwindowsystem-5
   version: '>=5.66.0'
-- Labels: null
-  category: kde-plasma
+- category: kde-plasma
   name: libkworkspace-5
   version: '>=5.18.2'
-- Labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtcore-5
   version: '>=0'
-- Labels: null
-  category: dev-util
-  name: cmake
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  name: desktop-file-utils
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  name: ninja
-  version: '>=0'
-- Labels: null
-  category: kde-frameworks
-  name: oxygen-icons-5
-  version: '>=0'
-- Labels: null
-  category: sys-apps
-  name: dbus
-  version: '>=0'
-- Labels: null
-  category: x11-libs
+- category: x11-libs
   name: libX11
-  version: '>=0'
-- Labels: null
-  category: x11-misc
-  name: shared-mime-info
   version: '>=0'
 use_flags:
 - X
