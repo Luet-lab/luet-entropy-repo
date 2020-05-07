@@ -1,13 +1,7 @@
-
-
 category: net-misc
 license: MIT
 name: curl
 requires:
-- Labels: null
-  category: app-portage
-  name: elt-patches
-  version: '>=20170815'
 - Labels: null
   category: sys-devel
   name: autoconf-2.69
@@ -84,10 +78,8 @@ use_flags:
 - ipv6
 - -brotli
 version: 7.68.0+1
-
 Labels:
   original.package.name: "curl"
   original.package.category: "net-misc"
   original.package.version: "7.68.0"
   original.package.slot: "0"
-

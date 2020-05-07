@@ -3,11 +3,7 @@ Labels:
 category: sys-libs
 license: MIT
 name: mtdev
-requires:
-- Labels: null
-  category: sys-kernel
-  name: linux-headers
-  version: '>=2.6.31'
+requires: []
 use_flags:
 - -static-libs
 - big-endian

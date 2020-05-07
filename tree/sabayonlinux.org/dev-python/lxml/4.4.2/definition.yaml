@@ -1,5 +1,3 @@
-
-
 category: dev-python
 license: BSD ElementTree GPL-2 PSF-2
 name: lxml
@@ -28,10 +26,6 @@ requires:
   category: dev-python
   name: cython
   version: '>=0'
-- Labels: null
-  category: dev-python
-  name: setuptools
-  version: '>=0'
 use_flags:
 - python_targets_python3_6
 - abi_x86_64
@@ -50,10 +44,8 @@ use_flags:
 - python_targets_python2_7
 - -doc
 version: 4.4.2+3
-
 Labels:
   original.package.name: "lxml"
   original.package.category: "dev-python"
   original.package.version: "4.4.2"
   original.package.slot: "0"
-

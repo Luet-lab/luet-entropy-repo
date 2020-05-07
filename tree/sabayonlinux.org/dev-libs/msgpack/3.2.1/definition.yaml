@@ -1,17 +1,7 @@
-
-
 category: dev-libs
 license: Boost-1.0
 name: msgpack
-requires:
-- Labels: null
-  category: dev-util
-  name: cmake
-  version: '>=3.9.6'
-- Labels: null
-  category: dev-util
-  name: ninja
-  version: '>=0'
+requires: []
 use_flags:
 - -examples
 - big-endian
@@ -36,10 +26,8 @@ use_flags:
 - -boost
 - -doc
 version: 3.2.1+1
-
 Labels:
   original.package.name: "msgpack"
   original.package.category: "dev-libs"
   original.package.version: "3.2.1"
   original.package.slot: "0"
-

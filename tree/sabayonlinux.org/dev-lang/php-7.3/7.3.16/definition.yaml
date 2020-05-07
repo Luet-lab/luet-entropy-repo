@@ -13,10 +13,6 @@ requires:
   name: eselect-php
   version: '>=0.9.1'
 - Labels: null
-  category: app-portage
-  name: elt-patches
-  version: '>=20170815'
-- Labels: null
   category: app-text
   name: aspell
   version: '>=0.50'
@@ -81,10 +77,6 @@ requires:
   name: bzip2
   version: '>=0'
 - Labels: null
-  category: app-arch
-  name: xz-utils
-  version: '>=0'
-- Labels: null
   category: app-text
   name: htmltidy
   version: '>=0'
@@ -119,10 +111,6 @@ requires:
 - Labels: null
   category: sys-apps
   name: systemd
-  version: '>=0'
-- Labels: null
-  category: sys-devel
-  name: gettext
   version: '>=0'
 - Labels: null
   category: sys-libs

@@ -3,15 +3,7 @@ Labels:
 category: sys-fs
 license: GPL-2 LGPL-2.1
 name: fuse-common
-requires:
-- Labels: null
-  category: dev-util
-  name: meson
-  version: '>=0.45.1'
-- Labels: null
-  category: dev-util
-  name: ninja
-  version: '>=1.7.2'
+requires: []
 use_flags:
 - kernel_linux
 - elibc_glibc

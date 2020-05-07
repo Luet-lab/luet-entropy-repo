@@ -1,17 +1,7 @@
-
-
 category: app-arch
 license: BSD
 name: snappy
-requires:
-- Labels: null
-  category: dev-util
-  name: cmake
-  version: '>=3.9.6'
-- Labels: null
-  category: dev-util
-  name: ninja
-  version: '>=0'
+requires: []
 use_flags:
 - big-endian
 - -abi_s390_32
@@ -31,10 +21,8 @@ use_flags:
 - -abi_riscv_lp64
 - userland_GNU
 version: 1.1.8+4
-
 Labels:
   original.package.name: "snappy"
   original.package.category: "app-arch"
   original.package.version: "1.1.8"
   original.package.slot: "0"
-

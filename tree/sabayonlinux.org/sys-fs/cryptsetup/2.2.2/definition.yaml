@@ -1,13 +1,7 @@
-
-
 category: sys-fs
 license: GPL-2+
 name: cryptsetup
 requires:
-- Labels: null
-  category: app-portage
-  name: elt-patches
-  version: '>=20170815'
 - Labels: null
   category: sys-apps
   name: util-linux

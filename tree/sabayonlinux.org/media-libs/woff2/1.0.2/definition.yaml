@@ -1,13 +1,7 @@
-
-
 category: media-libs
 license: MIT
 name: woff2
 requires:
-- Labels: null
-  category: dev-util
-  name: cmake
-  version: '>=3.9.6'
 - Labels: null
   category: app-arch
   name: brotli
@@ -24,10 +18,8 @@ use_flags:
 - userland_GNU
 - abi_x86_64
 version: 1.0.2+r4
-
 Labels:
   original.package.name: "woff2"
   original.package.category: "media-libs"
   original.package.version: "1.0.2"
   original.package.slot: "0"
-

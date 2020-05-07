@@ -1,13 +1,7 @@
-
-
 category: dev-libs
 license: BSD-2
 name: liblogging
 requires:
-- Labels: null
-  category: app-portage
-  name: elt-patches
-  version: '>=20170317'
 - Labels: null
   category: sys-devel
   name: autoconf-2.69
@@ -35,10 +29,8 @@ use_flags:
 - systemd
 - userland_GNU
 version: 1.0.6+3
-
 Labels:
   original.package.name: "liblogging"
   original.package.category: "dev-libs"
   original.package.version: "1.0.6"
   original.package.slot: "0"
-

@@ -1,13 +1,7 @@
-
-
 category: media-libs
 license: GPL-2
 name: libid3tag
 requires:
-- Labels: null
-  category: app-portage
-  name: elt-patches
-  version: '>=20170815'
 - Labels: null
   category: dev-util
   name: gperf
@@ -47,10 +41,8 @@ use_flags:
 - -abi_riscv_lp64
 - userland_GNU
 version: 0.15.1b+r8
-
 Labels:
   original.package.name: "libid3tag"
   original.package.category: "media-libs"
   original.package.version: "0.15.1b"
   original.package.slot: "0"
-

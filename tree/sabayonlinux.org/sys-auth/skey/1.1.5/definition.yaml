@@ -1,13 +1,7 @@
-
-
 category: sys-auth
 license: BEER-WARE BSD MIT RSA
 name: skey
 requires:
-- Labels: null
-  category: app-arch
-  name: xz-utils
-  version: '>=0'
 - Labels: null
   category: dev-lang
   name: perl
@@ -24,10 +18,8 @@ use_flags:
 - userland_GNU
 - amd64
 version: 1.1.5+r14
-
 Labels:
   original.package.name: "skey"
   original.package.category: "sys-auth"
   original.package.version: "1.1.5"
   original.package.slot: "0"
-

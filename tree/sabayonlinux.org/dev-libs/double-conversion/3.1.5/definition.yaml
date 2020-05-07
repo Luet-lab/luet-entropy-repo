@@ -1,17 +1,7 @@
-
-
 category: dev-libs
 license: BSD
 name: double-conversion
-requires:
-- Labels: null
-  category: dev-util
-  name: cmake
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  name: ninja
-  version: '>=0'
+requires: []
 use_flags:
 - big-endian
 - abi_x86_64
@@ -21,10 +11,8 @@ use_flags:
 - elibc_glibc
 - amd64
 version: 3.1.5+3
-
 Labels:
   original.package.name: "double-conversion"
   original.package.category: "dev-libs"
   original.package.version: "3.1.5"
   original.package.slot: "0"
-

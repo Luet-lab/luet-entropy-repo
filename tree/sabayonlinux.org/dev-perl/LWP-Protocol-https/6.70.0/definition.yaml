@@ -8,12 +8,7 @@ requires:
 - category: dev-perl
   name: Net-HTTP
   version: '>=6'
-# Drop this dependency available in Gentoo
-# but that generate cycle dep
-#- category: dev-perl
-#  name: libwww-perl
-#  version: '>=6.60.0'
-- category: app-misc
+- category: app-misc # Drop this dependency available in Gentoo
   name: ca-certificates
   version: '>=0'
 - category: dev-lang
@@ -29,10 +24,8 @@ use_flags:
 - elibc_glibc
 - kernel_linux
 version: 6.70.0+3
-
 Labels:
   original.package.name: "LWP-Protocol-https"
   original.package.category: "dev-perl"
   original.package.version: "6.70.0"
   original.package.slot: "0"
-

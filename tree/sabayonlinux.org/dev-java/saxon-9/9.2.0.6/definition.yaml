@@ -3,9 +3,6 @@ license: MPL-1.0
 name: saxon-9
 requires:
 - category: dev-java
-  name: ant-core
-  version: '>=0'
-- category: dev-java
   name: dom4j-1
   version: '>=0'
 - category: dev-java
@@ -25,10 +22,8 @@ use_flags:
 - kernel_linux
 - -source
 version: 9.2.0.6+r5
-
 Labels:
   original.package.name: "saxon"
   original.package.category: "dev-java"
   original.package.version: "9.2.0.6"
   original.package.slot: "9"
-

@@ -5,10 +5,6 @@ license: GPL-2+ LGPL-2.1+
 name: libosinfo
 requires:
 - Labels: null
-  category: app-portage
-  name: elt-patches
-  version: '>=20170815'
-- Labels: null
   category: dev-libs
   name: glib-2
   version: '>=2.38.0'
@@ -29,14 +25,6 @@ requires:
   name: gtk-doc-am
   version: '>=1.10'
 - Labels: null
-  category: sys-devel
-  name: gettext
-  version: '>=0.19.8'
-- Labels: null
-  category: app-arch
-  name: xz-utils
-  version: '>=0'
-- Labels: null
   category: dev-lang
   name: perl
   version: '>=0'
@@ -49,14 +37,6 @@ requires:
   name: gobject-introspection-common
   version: '>=0'
 - Labels: null
-  category: dev-util
-  name: desktop-file-utils
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  name: glib-utils
-  version: '>=0'
-- Labels: null
   category: sys-apps
   name: hwids
   version: '>=0'
@@ -67,10 +47,6 @@ requires:
 - Labels: null
   category: sys-apps
   name: osinfo-db-tools
-  version: '>=0'
-- Labels: null
-  category: x11-misc
-  name: shared-mime-info
   version: '>=0'
 use_flags:
 - -test

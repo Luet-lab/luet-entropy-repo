@@ -1,21 +1,11 @@
-
-
 category: dev-java
 license: BSD CDDL GPL-2
 name: oracle-javamail
 requires:
 - Labels: null
   category: dev-java
-  name: ant-core
-  version: '>=1.8.2'
-- Labels: null
-  category: dev-java
   name: java-config-2
   version: '>=2.2.0'
-- Labels: null
-  category: dev-java
-  name: javatoolkit
-  version: '>=0.3.0'
 use_flags:
 - -elibc_FreeBSD
 - amd64
@@ -26,10 +16,8 @@ use_flags:
 - abi_x86_64
 - elibc_glibc
 version: 1.5.6+3
-
 Labels:
   original.package.name: "oracle-javamail"
   original.package.category: "dev-java"
   original.package.version: "1.5.6"
   original.package.slot: "0"
-

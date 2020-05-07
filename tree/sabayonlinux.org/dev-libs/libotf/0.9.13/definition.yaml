@@ -1,13 +1,7 @@
-
-
 category: dev-libs
 license: LGPL-2.1
 name: libotf
 requires:
-- Labels: null
-  category: app-portage
-  name: elt-patches
-  version: '>=20170422'
 - Labels: null
   category: media-libs
   name: freetype-2
@@ -24,10 +18,6 @@ requires:
   category: sys-devel
   name: libtool-2
   version: '>=2.4'
-- Labels: null
-  category: x11-base
-  name: xorg-proto
-  version: '>=0'
 - Labels: null
   category: x11-libs
   name: libICE
@@ -58,10 +48,8 @@ use_flags:
 - amd64
 - X
 version: 0.9.13+3
-
 Labels:
   original.package.name: "libotf"
   original.package.category: "dev-libs"
   original.package.version: "0.9.13"
   original.package.slot: "0"
-

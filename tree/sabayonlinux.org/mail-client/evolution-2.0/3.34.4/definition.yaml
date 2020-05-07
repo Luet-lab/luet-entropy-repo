@@ -85,10 +85,6 @@ requires:
   name: libnotify
   version: '>=0.7'
 - Labels: null
-  category: x11-misc
-  name: shared-mime-info
-  version: '>=0.22'
-- Labels: null
   category: app-text
   name: gtkspell-3
   version: '>=0'
@@ -111,10 +107,6 @@ requires:
 - Labels: null
   category: x11-libs
   name: libSM
-  version: '>=0'
-- Labels: null
-  category: x11-misc
-  name: shared-mime-info
   version: '>=0'
 use_flags:
 - -gtk-doc

@@ -1,21 +1,11 @@
-
-
 category: gnome-extra
 license: GPL-2+
 name: cinnamon-control-center
 requires:
 - Labels: null
-  category: app-portage
-  name: elt-patches
-  version: '>=20170815'
-- Labels: null
   category: dev-libs
   name: glib-2
   version: '>=2.31'
-- Labels: null
-  category: dev-util
-  name: intltool
-  version: '>=0.40.1'
 - Labels: null
   category: gnome-base
   name: libgnomekbd
@@ -70,10 +60,6 @@ requires:
   version: '>=1.15.1'
 - Labels: null
   category: sys-devel
-  name: gettext
-  version: '>=0.17'
-- Labels: null
-  category: sys-devel
   name: libtool-2
   version: '>=2.4'
 - Labels: null
@@ -97,10 +83,6 @@ requires:
   name: system-config-printer
   version: '>=0'
 - Labels: null
-  category: app-arch
-  name: xz-utils
-  version: '>=0'
-- Labels: null
   category: app-text
   name: iso-codes
   version: '>=0'
@@ -111,10 +93,6 @@ requires:
 - Labels: null
   category: dev-libs
   name: libxslt
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  name: desktop-file-utils
   version: '>=0'
 - Labels: null
   category: gnome-base
@@ -133,20 +111,12 @@ requires:
   name: autoconf-archive
   version: '>=0'
 - Labels: null
-  category: x11-base
-  name: xorg-proto
-  version: '>=0'
-- Labels: null
   category: x11-libs
   name: libX11
   version: '>=0'
 - Labels: null
   category: x11-libs
   name: libxklavier
-  version: '>=0'
-- Labels: null
-  category: x11-misc
-  name: shared-mime-info
   version: '>=0'
 - Labels: null
   category: x11-themes
@@ -165,10 +135,8 @@ use_flags:
 - elibc_glibc
 - big-endian
 version: 4.0.0+3
-
 Labels:
   original.package.name: "cinnamon-control-center"
   original.package.category: "gnome-extra"
   original.package.version: "4.0.0"
   original.package.slot: "0"
-

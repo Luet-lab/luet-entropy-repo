@@ -1,13 +1,7 @@
-
-
 category: dev-vcs
 license: GPL-2 Subversion
 name: subversion
 requires:
-- Labels: null
-  category: app-portage
-  name: elt-patches
-  version: '>=20170815'
 - Labels: null
   category: dev-db
   name: sqlite-3
@@ -81,10 +75,6 @@ requires:
   name: automake-1.15
   version: '>=0'
 - Labels: null
-  category: sys-devel
-  name: gettext
-  version: '>=0'
-- Labels: null
   category: sys-libs
   name: zlib
   version: '>=0'
@@ -116,10 +106,8 @@ use_flags:
 - -test
 - -doc
 version: 1.12.2+3
-
 Labels:
   original.package.name: "subversion"
   original.package.category: "dev-vcs"
   original.package.version: "1.12.2"
   original.package.slot: "0"
-

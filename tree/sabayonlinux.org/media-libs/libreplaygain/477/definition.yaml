@@ -1,13 +1,7 @@
-
-
 category: media-libs
 license: LGPL-2.1
 name: libreplaygain
 requires:
-- Labels: null
-  category: dev-util
-  name: cmake
-  version: '>=3.9.6'
 - Labels: null
   category: sys-devel
   name: make
@@ -30,10 +24,8 @@ use_flags:
 - -abi_riscv_lp64
 - userland_GNU
 version: 477+r5
-
 Labels:
   original.package.name: "libreplaygain"
   original.package.category: "media-libs"
   original.package.version: "477"
   original.package.slot: "0"
-

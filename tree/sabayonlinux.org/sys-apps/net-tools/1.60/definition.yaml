@@ -1,13 +1,7 @@
-
-
 category: sys-apps
 license: GPL-2
 name: net-tools
-requires:
-- Labels: null
-  category: app-arch
-  name: xz-utils
-  version: '>=0'
+requires: []
 use_flags:
 - arp
 - -nis
@@ -25,10 +19,8 @@ use_flags:
 - -plipconfig
 - userland_GNU
 version: 1.60+p20180626073016
-
 Labels:
   original.package.name: "net-tools"
   original.package.category: "sys-apps"
   original.package.version: "1.60"
   original.package.slot: "0"
-

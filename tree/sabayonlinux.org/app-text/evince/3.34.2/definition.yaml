@@ -13,10 +13,6 @@ requires:
   name: libsecret
   version: '>=0.5'
 - Labels: null
-  category: app-portage
-  name: elt-patches
-  version: '>=20170815'
-- Labels: null
   category: app-text
   name: djvu
   version: '>=3.5.22'
@@ -62,10 +58,6 @@ requires:
   version: '>=1.15.1'
 - Labels: null
   category: sys-devel
-  name: gettext
-  version: '>=0.19.8'
-- Labels: null
-  category: sys-devel
   name: libtool-2
   version: '>=2.4'
 - Labels: null
@@ -85,20 +77,12 @@ requires:
   name: hicolor-icon-theme
   version: '>=0.10'
 - Labels: null
-  category: app-arch
-  name: xz-utils
-  version: '>=0'
-- Labels: null
   category: app-text
   name: docbook-xml-dtd-4.5
   version: '>=0'
 - Labels: null
   category: app-text
   name: libspectre
-  version: '>=0'
-- Labels: null
-  category: app-text
-  name: yelp-tools
   version: '>=0'
 - Labels: null
   category: dev-libs
@@ -111,18 +95,6 @@ requires:
 - Labels: null
   category: dev-libs
   name: kpathsea
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  name: desktop-file-utils
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  name: gdbus-codegen
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  name: glib-utils
   version: '>=0'
 - Labels: null
   category: dev-util
@@ -143,10 +115,6 @@ requires:
 - Labels: null
   category: sys-libs
   name: zlib
-  version: '>=0'
-- Labels: null
-  category: x11-misc
-  name: shared-mime-info
   version: '>=0'
 use_flags:
 - introspection

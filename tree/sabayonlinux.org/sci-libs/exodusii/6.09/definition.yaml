@@ -1,13 +1,7 @@
-
-
 category: sci-libs
 license: BSD
 name: exodusii
 requires:
-- Labels: null
-  category: dev-util
-  name: cmake
-  version: '>=3.9.6'
 - Labels: null
   category: sci-libs
   name: netcdf
@@ -26,10 +20,8 @@ use_flags:
 - amd64
 - -test
 version: 6.09+3
-
 Labels:
   original.package.name: "exodusii"
   original.package.category: "sci-libs"
   original.package.version: "6.09"
   original.package.slot: "0"
-

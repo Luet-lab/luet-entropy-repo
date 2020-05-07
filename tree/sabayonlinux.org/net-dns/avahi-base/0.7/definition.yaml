@@ -1,13 +1,7 @@
-
-
 category: net-dns
 license: LGPL-2.1
 name: avahi-base
 requires:
-- Labels: null
-  category: app-portage
-  name: elt-patches
-  version: '>=20170815'
 - Labels: null
   category: dev-lang
   name: python-exec-2
@@ -77,14 +71,6 @@ requires:
   name: pygobject-base-3
   version: '>=0'
 - Labels: null
-  category: dev-util
-  name: glib-utils
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  name: intltool
-  version: '>=0'
-- Labels: null
   category: sys-apps
   name: dbus
   version: '>=0'
@@ -129,10 +115,8 @@ use_flags:
 - -abi_riscv_lp64d
 - -doc
 version: 0.7+r7
-
 Labels:
   original.package.name: "avahi-base"
   original.package.category: "net-dns"
   original.package.version: "0.7"
   original.package.slot: "0"
-

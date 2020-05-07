@@ -1,13 +1,7 @@
-
-
 category: app-doc
 license: GPL-2
 name: doxygen
 requires:
-- Labels: null
-  category: dev-util
-  name: cmake
-  version: '>=3.9.6'
 - Labels: null
   category: app-text
   name: ghostscript-gpl
@@ -89,10 +83,8 @@ use_flags:
 - elibc_glibc
 - amd64
 version: 1.8.15+3
-
 Labels:
   original.package.name: "doxygen"
   original.package.category: "app-doc"
   original.package.version: "1.8.15"
   original.package.slot: "0"
-

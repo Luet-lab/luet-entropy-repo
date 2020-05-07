@@ -1,13 +1,7 @@
-
-
 category: x11-libs
 license: LGPL-2+
 name: vte-2.91
 requires:
-- Labels: null
-  category: app-portage
-  name: elt-patches
-  version: '>=20170815'
 - Labels: null
   category: dev-libs
   name: glib-2
@@ -25,10 +19,6 @@ requires:
   name: gtk-doc-am
   version: '>=1.13'
 - Labels: null
-  category: dev-util
-  name: intltool
-  version: '>=0.35'
-- Labels: null
   category: net-libs
   name: gnutls
   version: '>=3.2.7'
@@ -41,10 +31,6 @@ requires:
   name: pango
   version: '>=1.22.0'
 - Labels: null
-  category: app-arch
-  name: xz-utils
-  version: '>=0'
-- Labels: null
   category: dev-lang
   name: vala-0.44
   version: '>=0'
@@ -53,28 +39,12 @@ requires:
   name: libxml2-2
   version: '>=0'
 - Labels: null
-  category: dev-util
-  name: desktop-file-utils
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  name: glib-utils
-  version: '>=0'
-- Labels: null
-  category: sys-devel
-  name: gettext
-  version: '>=0'
-- Labels: null
   category: sys-libs
   name: ncurses
   version: '>=0'
 - Labels: null
   category: sys-libs
   name: zlib
-  version: '>=0'
-- Labels: null
-  category: x11-misc
-  name: shared-mime-info
   version: '>=0'
 use_flags:
 - vala

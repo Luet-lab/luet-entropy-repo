@@ -1,17 +1,7 @@
-
-
 category: x11-themes
 license: GPL-2
 name: mate-icon-theme
 requires:
-- Labels: null
-  category: app-portage
-  name: elt-patches
-  version: '>=20170815'
-- Labels: null
-  category: dev-util
-  name: intltool
-  version: '>=0.40'
 - Labels: null
   category: mate-base
   name: mate-common
@@ -36,22 +26,6 @@ requires:
   category: x11-themes
   name: hicolor-icon-theme
   version: '>=0.10'
-- Labels: null
-  category: app-arch
-  name: xz-utils
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  name: desktop-file-utils
-  version: '>=0'
-- Labels: null
-  category: sys-devel
-  name: gettext
-  version: '>=0'
-- Labels: null
-  category: x11-misc
-  name: shared-mime-info
-  version: '>=0'
 use_flags:
 - kernel_linux
 - userland_GNU

@@ -1,17 +1,7 @@
-
-
 category: x11-misc
 license: MIT
 name: xkeyboard-config
-requires:
-- Labels: null
-  category: dev-util
-  name: intltool
-  version: '>=0'
-- Labels: null
-  category: sys-devel
-  name: gettext
-  version: '>=0'
+requires: []
 use_flags:
 - big-endian
 - amd64

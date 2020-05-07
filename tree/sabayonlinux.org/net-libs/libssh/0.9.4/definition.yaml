@@ -1,5 +1,3 @@
-
-
 category: net-libs
 license: LGPL-2.1
 name: libssh
@@ -12,14 +10,6 @@ requires:
   category: sys-libs
   name: zlib
   version: '>=1.2.8'
-- Labels: null
-  category: dev-util
-  name: cmake
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  name: ninja
-  version: '>=0'
 use_flags:
 - -pcap
 - -examples

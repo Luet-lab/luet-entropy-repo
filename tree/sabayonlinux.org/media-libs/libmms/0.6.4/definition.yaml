@@ -1,13 +1,7 @@
-
-
 category: media-libs
 license: LGPL-2.1
 name: libmms
-requires:
-- Labels: null
-  category: app-portage
-  name: elt-patches
-  version: '>=20170815'
+requires: []
 use_flags:
 - big-endian
 - -abi_s390_32
@@ -27,10 +21,8 @@ use_flags:
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
 version: 0.6.4+4
-
 Labels:
   original.package.name: "libmms"
   original.package.category: "media-libs"
   original.package.version: "0.6.4"
   original.package.slot: "0"
-

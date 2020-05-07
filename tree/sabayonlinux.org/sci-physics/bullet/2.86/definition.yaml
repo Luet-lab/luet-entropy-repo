@@ -1,13 +1,7 @@
-
-
 category: sci-physics
 license: ZLIB
 name: bullet
 requires:
-- Labels: null
-  category: dev-util
-  name: cmake
-  version: '>=3.9.6'
 - Labels: null
   category: media-libs
   name: freeglut
@@ -30,10 +24,8 @@ use_flags:
 - amd64
 - -extras
 version: 2.86+3
-
 Labels:
   original.package.name: "bullet"
   original.package.category: "sci-physics"
   original.package.version: "2.86"
   original.package.slot: "0"
-

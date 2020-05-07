@@ -1,13 +1,7 @@
-
-
 category: app-text
 license: CPL-0.5 LGPL-2.1
 name: teckit
 requires:
-- Labels: null
-  category: app-portage
-  name: elt-patches
-  version: '>=20170422'
 - Labels: null
   category: sys-devel
   name: autoconf-2.69
@@ -37,10 +31,8 @@ use_flags:
 - kernel_linux
 - amd64
 version: 2.5.6+3
-
 Labels:
   original.package.name: "teckit"
   original.package.category: "app-text"
   original.package.version: "2.5.6"
   original.package.slot: "0"
-

@@ -1,17 +1,7 @@
-
-
 category: sys-apps
 license: GPL-2
 name: diffutils
-requires:
-- Labels: null
-  category: app-arch
-  name: xz-utils
-  version: '>=0'
-- Labels: null
-  category: sys-devel
-  name: gettext
-  version: '>=0'
+requires: []
 use_flags:
 - nls
 - abi_x86_64
@@ -22,10 +12,8 @@ use_flags:
 - -static
 - userland_GNU
 version: 3.6+r4
-
 Labels:
   original.package.name: "diffutils"
   original.package.category: "sys-apps"
   original.package.version: "3.6"
   original.package.slot: "0"
-

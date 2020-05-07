@@ -13,14 +13,6 @@ requires:
   name: json-glib
   version: '>=0.10'
 - Labels: null
-  category: dev-util
-  name: meson
-  version: '>=0.48.2'
-- Labels: null
-  category: dev-util
-  name: ninja
-  version: '>=1.7.2'
-- Labels: null
   category: gnome-base
   name: gnome-desktop-3
   version: '>=3.18'
@@ -37,10 +29,6 @@ requires:
   name: systemd
   version: '>=183'
 - Labels: null
-  category: sys-devel
-  name: gettext
-  version: '>=0.19.8'
-- Labels: null
   category: x11-libs
   name: gtk+-3
   version: '>=3.18.0'
@@ -49,20 +37,8 @@ requires:
   name: notification-daemon
   version: '>=0.7.1'
 - Labels: null
-  category: app-arch
-  name: xz-utils
-  version: '>=0'
-- Labels: null
   category: dev-libs
   name: libxslt
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  name: desktop-file-utils
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  name: gdbus-codegen
   version: '>=0'
 - Labels: null
   category: media-libs
@@ -95,10 +71,6 @@ requires:
 - Labels: null
   category: x11-libs
   name: xtrans
-  version: '>=0'
-- Labels: null
-  category: x11-misc
-  name: shared-mime-info
   version: '>=0'
 - Labels: null
   category: x11-misc

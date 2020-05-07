@@ -1,13 +1,7 @@
-
-
 category: media-libs
 license: LGPL-2.1+
 name: gsound
 requires:
-- Labels: null
-  category: app-portage
-  name: elt-patches
-  version: '>=20170815'
 - Labels: null
   category: dev-libs
   name: glib-2
@@ -21,24 +15,12 @@ requires:
   name: gtk-doc-am
   version: '>=1.20'
 - Labels: null
-  category: app-arch
-  name: xz-utils
-  version: '>=0'
-- Labels: null
   category: dev-lang
   name: vala-0.44
   version: '>=0'
 - Labels: null
-  category: dev-util
-  name: desktop-file-utils
-  version: '>=0'
-- Labels: null
   category: media-libs
   name: libcanberra
-  version: '>=0'
-- Labels: null
-  category: x11-misc
-  name: shared-mime-info
   version: '>=0'
 use_flags:
 - kernel_linux
@@ -51,10 +33,8 @@ use_flags:
 - big-endian
 - introspection
 version: 1.0.2+r4
-
 Labels:
   original.package.name: "gsound"
   original.package.category: "media-libs"
   original.package.version: "1.0.2"
   original.package.slot: "0"
-

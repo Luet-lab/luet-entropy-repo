@@ -1,13 +1,7 @@
-
-
 category: app-text
 license: MIT
 name: ebook-tools
 requires:
-- Labels: null
-  category: dev-util
-  name: cmake
-  version: '>=3.7.2'
 - Labels: null
   category: app-text
   name: convertlit
@@ -32,10 +26,8 @@ use_flags:
 - lit2epub
 - abi_x86_64
 version: 0.2.2+r4
-
 Labels:
   original.package.name: "ebook-tools"
   original.package.category: "app-text"
   original.package.version: "0.2.2"
   original.package.slot: "0"
-

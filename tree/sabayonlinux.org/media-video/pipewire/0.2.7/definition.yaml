@@ -1,17 +1,7 @@
-
-
 category: media-video
 license: LGPL-2.1+
 name: pipewire
 requires:
-- Labels: null
-  category: dev-util
-  name: meson
-  version: '>=0.48.2'
-- Labels: null
-  category: dev-util
-  name: ninja
-  version: '>=1.7.2'
 - Labels: null
   category: app-doc
   name: xmltoman
@@ -62,10 +52,8 @@ use_flags:
 - userland_GNU
 - sdl
 version: 0.2.7+3
-
 Labels:
   original.package.name: "pipewire"
   original.package.category: "media-video"
   original.package.version: "0.2.7"
   original.package.slot: "0"
-

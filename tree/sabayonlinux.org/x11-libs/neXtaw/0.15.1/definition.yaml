@@ -1,13 +1,7 @@
-
-
 category: x11-libs
 license: BSD
 name: neXtaw
 requires:
-- Labels: null
-  category: x11-base
-  name: xorg-proto
-  version: '>=0'
 - Labels: null
   category: x11-libs
   name: libICE
@@ -48,10 +42,8 @@ use_flags:
 - elibc_glibc
 - abi_x86_64
 version: 0.15.1+r6
-
 Labels:
   original.package.name: "neXtaw"
   original.package.category: "x11-libs"
   original.package.version: "0.15.1"
   original.package.slot: "0"
-

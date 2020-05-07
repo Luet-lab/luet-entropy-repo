@@ -1,5 +1,3 @@
-
-
 category: dev-libs
 license: GPL-2-with-linking-exception
 name: libgit2
@@ -11,14 +9,6 @@ requires:
 - Labels: null
   category: dev-libs
   name: openssl
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  name: cmake
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  name: ninja
   version: '>=0'
 - Labels: null
   category: net-libs
@@ -48,10 +38,8 @@ use_flags:
 - -examples
 - threads
 version: 0.28.4+3
-
 Labels:
   original.package.name: "libgit2"
   original.package.category: "dev-libs"
   original.package.version: "0.28.4"
   original.package.slot: "0"
-

@@ -1,13 +1,7 @@
-
-
 category: gnome-extra
 license: GPL-2+
 name: yelp
 requires:
-- Labels: null
-  category: app-arch
-  name: xz-utils
-  version: '>=4.9'
 - Labels: null
   category: dev-libs
   name: glib-2
@@ -35,10 +29,6 @@ requires:
 - Labels: null
   category: app-arch
   name: bzip2
-  version: '>=0'
-- Labels: null
-  category: app-arch
-  name: xz-utils
   version: '>=0'
 - Labels: null
   category: dev-db

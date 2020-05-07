@@ -1,5 +1,3 @@
-
-
 category: gnome-base
 license: GPL-2+
 name: gnome-control-center-2
@@ -175,10 +173,6 @@ requires:
 - Labels: null
   category: x11-libs
   name: libX11
-  version: '>=0'
-- Labels: null
-  category: x11-misc
-  name: shared-mime-info
   version: '>=0'
 - Labels: null
   category: x11-themes

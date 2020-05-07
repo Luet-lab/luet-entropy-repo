@@ -1,17 +1,7 @@
-
-
 category: sys-auth
 license: LGPL-2.1
 name: libfprint
 requires:
-- Labels: null
-  category: dev-util
-  name: meson
-  version: '>=0.48.2'
-- Labels: null
-  category: dev-util
-  name: ninja
-  version: '>=1.7.2'
 - Labels: null
   category: dev-libs
   name: glib-2
@@ -49,10 +39,8 @@ use_flags:
 - -examples
 - amd64
 version: 0.99.0+3
-
 Labels:
   original.package.name: "libfprint"
   original.package.category: "sys-auth"
   original.package.version: "0.99.0"
   original.package.slot: "0"
-

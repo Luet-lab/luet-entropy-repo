@@ -1,17 +1,7 @@
-
-
 category: x11-base
 license: MIT
 name: xorg-proto
-requires:
-- Labels: null
-  category: dev-util
-  name: meson
-  version: '>=0.48.2'
-- Labels: null
-  category: dev-util
-  name: ninja
-  version: '>=1.7.2'
+requires: []
 use_flags:
 - elibc_glibc
 - amd64
@@ -21,10 +11,8 @@ use_flags:
 - split-usr
 - big-endian
 version: 2019.2+3
-
 Labels:
   original.package.name: "xorg-proto"
   original.package.category: "x11-base"
   original.package.version: "2019.2"
   original.package.slot: "0"
-

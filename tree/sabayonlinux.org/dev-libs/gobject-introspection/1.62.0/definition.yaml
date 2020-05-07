@@ -5,10 +5,6 @@ license: GPL-2+ LGPL-2+
 name: gobject-introspection
 requires:
 - Labels: null
-  category: app-portage
-  name: elt-patches
-  version: '>=20170815'
-- Labels: null
   category: dev-lang
   name: python-exec-2
   version: '>=2'
@@ -25,16 +21,8 @@ requires:
   name: gtk-doc-am
   version: '>=1.19'
 - Labels: null
-  category: app-arch
-  name: xz-utils
-  version: '>=0'
-- Labels: null
   category: dev-lang
   name: python-3.6
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  name: desktop-file-utils
   version: '>=0'
 - Labels: null
   category: sys-devel
@@ -43,10 +31,6 @@ requires:
 - Labels: null
   category: sys-devel
   name: flex
-  version: '>=0'
-- Labels: null
-  category: x11-misc
-  name: shared-mime-info
   version: '>=0'
 use_flags:
 - -doctool

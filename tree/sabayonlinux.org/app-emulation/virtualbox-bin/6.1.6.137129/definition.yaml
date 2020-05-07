@@ -1,13 +1,7 @@
-
-
 category: app-emulation
 license: GPL-2 PUEL
 name: virtualbox-bin
 requires:
-- Labels: null
-  category: app-portage
-  name: elt-patches
-  version: '>=20170815'
 - Labels: null
   category: dev-lang
   name: python-2.7
@@ -21,20 +15,12 @@ requires:
   name: unzip
   version: '>=0'
 - Labels: null
-  category: app-arch
-  name: xz-utils
-  version: '>=0'
-- Labels: null
   category: dev-libs
   name: glib-2
   version: '>=0'
 - Labels: null
   category: dev-libs
   name: libxml2-2
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  name: desktop-file-utils
   version: '>=0'
 - Labels: null
   category: media-libs
@@ -115,10 +101,6 @@ requires:
 - Labels: null
   category: x11-libs
   name: libXt
-  version: '>=0'
-- Labels: null
-  category: x11-misc
-  name: shared-mime-info
   version: '>=0'
 use_flags:
 - abi_x86_64

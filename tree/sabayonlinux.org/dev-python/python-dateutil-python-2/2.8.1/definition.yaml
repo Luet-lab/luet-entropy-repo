@@ -1,5 +1,3 @@
-
-
 category: dev-python
 license: BSD
 name: python-dateutil-python-2
@@ -19,10 +17,6 @@ requires:
 - Labels: null
   category: dev-lang
   name: python-3.6
-  version: '>=0'
-- Labels: null
-  category: dev-python
-  name: setuptools
   version: '>=0'
 - Labels: null
   category: dev-python
@@ -47,10 +41,8 @@ use_flags:
 - elibc_glibc
 - -python_targets_python3_8
 version: 2.8.1+r2
-
 Labels:
   original.package.name: "python-dateutil"
   original.package.category: "dev-python"
   original.package.version: "2.8.1"
   original.package.slot: "python-2"
-

@@ -1,13 +1,7 @@
-
-
 category: dev-tcltk
 license: BSD
 name: blt
 requires:
-- Labels: null
-  category: app-portage
-  name: elt-patches
-  version: '>=20170422'
 - Labels: null
   category: sys-devel
   name: autoconf-2.69
@@ -35,10 +29,8 @@ use_flags:
 - userland_GNU
 - elibc_glibc
 version: 2.4z+r16
-
 Labels:
   original.package.name: "blt"
   original.package.category: "dev-tcltk"
   original.package.version: "2.4z"
   original.package.slot: "0"
-

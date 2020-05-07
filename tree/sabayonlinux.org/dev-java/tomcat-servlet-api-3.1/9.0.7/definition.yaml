@@ -1,21 +1,11 @@
-
-
 category: dev-java
 license: Apache-2.0
 name: tomcat-servlet-api-3.1
 requires:
 - Labels: null
   category: dev-java
-  name: ant-core
-  version: '>=1.8.2'
-- Labels: null
-  category: dev-java
   name: java-config-2
   version: '>=2.2.0'
-- Labels: null
-  category: dev-java
-  name: javatoolkit
-  version: '>=0.3.0'
 use_flags:
 - abi_x86_64
 - big-endian

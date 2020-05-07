@@ -1,5 +1,3 @@
-
-
 category: media-libs
 license: URT free-noncomm
 name: urt
@@ -11,10 +9,6 @@ requires:
 - Labels: null
   category: media-libs
   name: tiff
-  version: '>=0'
-- Labels: null
-  category: x11-base
-  name: xorg-proto
   version: '>=0'
 - Labels: null
   category: x11-libs
@@ -34,10 +28,8 @@ use_flags:
 - kernel_linux
 - gif
 version: 3.1b+r6
-
 Labels:
   original.package.name: "urt"
   original.package.category: "media-libs"
   original.package.version: "3.1b"
   original.package.slot: "0"
-

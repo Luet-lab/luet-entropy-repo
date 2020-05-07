@@ -1,13 +1,7 @@
-
-
 category: gnome-extra
 license: GPL-2 LGPL-2.1
 name: libgsf
 requires:
-- Labels: null
-  category: app-portage
-  name: elt-patches
-  version: '>=20170422'
 - Labels: null
   category: dev-libs
   name: glib-2
@@ -25,28 +19,12 @@ requires:
   name: gtk-doc-am
   version: '>=1.12'
 - Labels: null
-  category: dev-util
-  name: intltool
-  version: '>=0.35.0'
-- Labels: null
-  category: sys-apps
-  name: sed
-  version: '>=4'
-- Labels: null
   category: app-arch
   name: bzip2
   version: '>=0'
 - Labels: null
-  category: app-arch
-  name: xz-utils
-  version: '>=0'
-- Labels: null
   category: dev-libs
   name: gobject-introspection-common
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  name: desktop-file-utils
   version: '>=0'
 - Labels: null
   category: sys-libs
@@ -55,10 +33,6 @@ requires:
 - Labels: null
   category: x11-libs
   name: gdk-pixbuf-2
-  version: '>=0'
-- Labels: null
-  category: x11-misc
-  name: shared-mime-info
   version: '>=0'
 use_flags:
 - abi_x86_64

@@ -1,13 +1,7 @@
-
-
 category: dev-libs
 license: LGPL-2.1+
 name: gdl-3
 requires:
-- Labels: null
-  category: app-portage
-  name: elt-patches
-  version: '>=20170815'
 - Labels: null
   category: dev-libs
   name: gobject-introspection
@@ -21,32 +15,12 @@ requires:
   name: gtk-doc-am
   version: '>=1.4'
 - Labels: null
-  category: dev-util
-  name: intltool
-  version: '>=0.40.4'
-- Labels: null
-  category: sys-apps
-  name: sed
-  version: '>=4'
-- Labels: null
   category: x11-libs
   name: gtk+-3
   version: '>=3.0.0'
 - Labels: null
-  category: app-arch
-  name: xz-utils
-  version: '>=0'
-- Labels: null
   category: dev-libs
   name: glib-2
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  name: desktop-file-utils
-  version: '>=0'
-- Labels: null
-  category: x11-misc
-  name: shared-mime-info
   version: '>=0'
 use_flags:
 - introspection
@@ -57,10 +31,8 @@ use_flags:
 - userland_GNU
 - abi_x86_64
 version: 3.28.0+3
-
 Labels:
   original.package.name: "gdl"
   original.package.category: "dev-libs"
   original.package.version: "3.28.0"
   original.package.slot: "3"
-

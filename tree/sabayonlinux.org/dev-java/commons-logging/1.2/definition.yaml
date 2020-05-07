@@ -1,21 +1,11 @@
-
-
 category: dev-java
 license: Apache-2.0
 name: commons-logging
 requires:
 - Labels: null
   category: dev-java
-  name: ant-core
-  version: '>=1.8.2'
-- Labels: null
-  category: dev-java
   name: java-config-2
   version: '>=2.2.0'
-- Labels: null
-  category: dev-java
-  name: javatoolkit
-  version: '>=0.3.0'
 use_flags:
 - -source
 - kernel_linux
@@ -31,10 +21,8 @@ use_flags:
 - -log4j
 - -elibc_FreeBSD
 version: 1.2+r4
-
 Labels:
   original.package.name: "commons-logging"
   original.package.category: "dev-java"
   original.package.version: "1.2"
   original.package.slot: "0"
-

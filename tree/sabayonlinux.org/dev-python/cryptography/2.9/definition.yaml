@@ -22,10 +22,6 @@ requires:
   version: '>=1.8'
 - Labels: null
   category: dev-python
-  name: setuptools
-  version: '>=1.0'
-- Labels: null
-  category: dev-python
   name: six
   version: '>=1.4.1'
 - Labels: null
@@ -35,10 +31,6 @@ requires:
 - Labels: null
   category: dev-libs
   name: openssl
-  version: '>=0'
-- Labels: null
-  category: dev-python
-  name: setuptools
   version: '>=0'
 use_flags:
 - -python_targets_python3_8

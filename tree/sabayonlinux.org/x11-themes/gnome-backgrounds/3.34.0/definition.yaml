@@ -1,25 +1,7 @@
-
-
 category: x11-themes
 license: CC-BY-2.0 CC-BY-SA-2.0 CC-BY-SA-3.0
 name: gnome-backgrounds
-requires:
-- Labels: null
-  category: dev-util
-  name: meson
-  version: '>=0.48.2'
-- Labels: null
-  category: dev-util
-  name: ninja
-  version: '>=1.7.2'
-- Labels: null
-  category: sys-devel
-  name: gettext
-  version: '>=0.19.8'
-- Labels: null
-  category: app-arch
-  name: xz-utils
-  version: '>=0'
+requires: []
 use_flags:
 - abi_x86_64
 - amd64

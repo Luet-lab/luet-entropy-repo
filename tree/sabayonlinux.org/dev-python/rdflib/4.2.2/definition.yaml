@@ -1,5 +1,3 @@
-
-
 category: dev-python
 license: BSD
 name: rdflib
@@ -32,10 +30,6 @@ requires:
   category: dev-python
   name: pyparsing
   version: '>=0'
-- Labels: null
-  category: dev-python
-  name: setuptools
-  version: '>=0'
 use_flags:
 - -python_targets_python3_4
 - abi_x86_64
@@ -55,10 +49,8 @@ use_flags:
 - -test
 - -sqlite
 version: 4.2.2+3
-
 Labels:
   original.package.name: "rdflib"
   original.package.category: "dev-python"
   original.package.version: "4.2.2"
   original.package.slot: "0"
-

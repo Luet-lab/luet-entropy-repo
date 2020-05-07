@@ -1,5 +1,3 @@
-
-
 category: mail-filter
 license: DCC GPL-2
 name: dcc
@@ -11,10 +9,6 @@ requires:
 - Labels: null
   category: net-ftp
   name: ftp
-  version: '>=0'
-- Labels: null
-  category: sys-apps
-  name: sed
   version: '>=0'
 - Labels: null
   category: sys-devel
@@ -31,10 +25,8 @@ use_flags:
 - amd64
 - ipv6
 version: 1.3.158+3
-
 Labels:
   original.package.name: "dcc"
   original.package.category: "mail-filter"
   original.package.version: "1.3.158"
   original.package.slot: "0"
-

@@ -1,25 +1,7 @@
-
-
 category: media-fonts
 license: OFL-1.1
 name: cantarell
 requires:
-- Labels: null
-  category: dev-util
-  name: meson
-  version: '>=0.48.2'
-- Labels: null
-  category: dev-util
-  name: ninja
-  version: '>=1.7.2'
-- Labels: null
-  category: sys-devel
-  name: gettext
-  version: '>=0.19.8'
-- Labels: null
-  category: app-arch
-  name: xz-utils
-  version: '>=0'
 - Labels: null
   category: dev-libs
   name: appstream-glib
@@ -45,10 +27,8 @@ use_flags:
 - userland_GNU
 - elibc_glibc
 version: 0.111+3
-
 Labels:
   original.package.name: "cantarell"
   original.package.category: "media-fonts"
   original.package.version: "0.111"
   original.package.slot: "0"
-

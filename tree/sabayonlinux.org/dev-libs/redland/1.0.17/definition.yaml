@@ -1,13 +1,7 @@
-
-
 category: dev-libs
 license: Apache-2.0 GPL-2 LGPL-2.1
 name: redland
 requires:
-- Labels: null
-  category: app-portage
-  name: elt-patches
-  version: '>=20170815'
 - Labels: null
   category: dev-libs
   name: rasqal
@@ -39,10 +33,8 @@ use_flags:
 - big-endian
 - -odbc
 version: 1.0.17+r5
-
 Labels:
   original.package.name: "redland"
   original.package.category: "dev-libs"
   original.package.version: "1.0.17"
   original.package.slot: "0"
-

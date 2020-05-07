@@ -1,13 +1,7 @@
-
-
 category: app-text
 license: GPL-2+ freedist
 name: yelp-tools
 requires:
-- Labels: null
-  category: app-portage
-  name: elt-patches
-  version: '>=20170815'
 - Labels: null
   category: dev-libs
   name: libxml2-2
@@ -21,24 +15,8 @@ requires:
   name: yelp-xsl
   version: '>=3.17.3'
 - Labels: null
-  category: sys-apps
-  name: sed
-  version: '>=4'
-- Labels: null
-  category: app-arch
-  name: xz-utils
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  name: desktop-file-utils
-  version: '>=0'
-- Labels: null
   category: dev-util
   name: itstool
-  version: '>=0'
-- Labels: null
-  category: x11-misc
-  name: shared-mime-info
   version: '>=0'
 use_flags:
 - amd64

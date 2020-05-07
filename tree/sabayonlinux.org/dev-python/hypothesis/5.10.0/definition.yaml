@@ -1,5 +1,3 @@
-
-
 category: dev-python
 license: MPL-2.0
 name: hypothesis
@@ -23,10 +21,6 @@ requires:
 - Labels: null
   category: dev-python
   name: enum34
-  version: '>=0'
-- Labels: null
-  category: dev-python
-  name: setuptools
   version: '>=0'
 use_flags:
 - -python_targets_pypy3

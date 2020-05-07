@@ -3,11 +3,7 @@ Labels:
 category: dev-libs
 license: HPND
 name: gobject-introspection-common
-requires:
-- Labels: null
-  category: app-arch
-  name: xz-utils
-  version: '>=0'
+requires: []
 use_flags:
 - userland_GNU
 - big-endian
