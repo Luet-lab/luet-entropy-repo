@@ -6,9 +6,16 @@
 
 COMMIT="${COMMIT:-}"
 FROM_BRANCH="${FROM_BRANCH:-master}"
+
 ROOT_DIR=${ROOT_DIR:-$PWD}
+
+
+TO=$(git merge-base "${FROM_BRANCH}" "${COMMIT}")
+if [ "$TO" == "$FROM_BRANCH" ]; then
+	TO=$COMMIT
+fi
 # Get the files modified from COMMIT to the base branch (FROM_BRANCH)
-file=$(git --no-pager diff --name-only "${COMMIT}" $(git merge-base "${COMMIT}" "${FROM_BRANCH}"))
+file=$(git --no-pager diff --name-only "${FROM_BRANCH}" $TO)
 
 # Fetch depedendencies if not available
 PATH=$PATH:$ROOT_DIR/.bin
