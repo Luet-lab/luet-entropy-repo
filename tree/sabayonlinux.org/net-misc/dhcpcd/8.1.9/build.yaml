@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i net-misc/dhcpcd-8.0.6 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -39,8 +40,8 @@ includes:
 - /usr/share/dhcpcd/hooks/15-timezone$
 - /usr/share/dhcpcd/hooks/29-lookup-hostname$
 - /usr/share/doc$
-- /usr/share/doc/dhcpcd-8.0.6$
-- /usr/share/doc/dhcpcd-8.0.6/README.md.bz2$
+- /usr/share/doc/dhcpcd-8.1.9$
+- /usr/share/doc/dhcpcd-8.1.9/README.md.bz2$
 - /usr/share/man$
 - /usr/share/man/man5$
 - /usr/share/man/man5/dhcpcd.conf.5.bz2$
@@ -51,3 +52,6 @@ includes:
 - /var/lib$
 - /var/lib/dhcpcd$
 - /var/lib/dhcpcd/.keep_net-misc_dhcpcd-0$
+env:
+- ORIGINAL_ATOM=net-misc/dhcpcd
+- ORIGINAL_PACKAGE=net-misc/dhcpcd-8.1.9
