@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-cpp/pangomm-2.42.0 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -96,10 +97,13 @@ includes:
 - /usr/lib64/pkgconfig/pangomm-1.4.pc$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/pangomm-2.42.0$
-- /usr/share/doc/pangomm-2.42.0/AUTHORS.bz2$
-- /usr/share/doc/pangomm-2.42.0/ChangeLog.bz2$
-- /usr/share/doc/pangomm-2.42.0/NEWS.bz2$
-- /usr/share/doc/pangomm-2.42.0/README$
-- /usr/share/doc/pangomm-2.42.0/README.SUN.bz2$
-- /usr/share/doc/pangomm-2.42.0/README.win32.bz2$
+- /usr/share/doc/pangomm-2.42.1$
+- /usr/share/doc/pangomm-2.42.1/AUTHORS.bz2$
+- /usr/share/doc/pangomm-2.42.1/ChangeLog.bz2$
+- /usr/share/doc/pangomm-2.42.1/NEWS.bz2$
+- /usr/share/doc/pangomm-2.42.1/README.SUN.bz2$
+- /usr/share/doc/pangomm-2.42.1/README.bz2$
+- /usr/share/doc/pangomm-2.42.1/README.win32.bz2$
+env:
+- ORIGINAL_ATOM=dev-cpp/pangomm
+- ORIGINAL_PACKAGE=dev-cpp/pangomm-2.42.1
