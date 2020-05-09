@@ -64,6 +64,7 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
         SSH: true
+        CLEAN: true
         BRANCH: develop
         BASE_BRANCH: develop
         REPOSITORY_NAME: Luet-lab/singularity
