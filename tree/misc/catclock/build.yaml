@@ -1,5 +1,4 @@
 image: opensuse/leap
-
 prelude:
 - zypper in -y git make libXt-devel xmh gcc motif-devel libXext-devel libpulse-devel libaubio-devel
 - git clone https://github.com/BarkyTheDog/catclock
