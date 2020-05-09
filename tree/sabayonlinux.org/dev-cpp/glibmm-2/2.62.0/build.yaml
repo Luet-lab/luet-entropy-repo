@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-cpp/glibmm-2.60.1 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -46,6 +47,11 @@ includes:
 - /usr/include/giomm-2.4/giomm/dbusmessage.h$
 - /usr/include/giomm-2.4/giomm/dbusmethodinvocation.h$
 - /usr/include/giomm-2.4/giomm/dbusobject.h$
+- /usr/include/giomm-2.4/giomm/dbusobjectmanager.h$
+- /usr/include/giomm-2.4/giomm/dbusobjectmanagerclient.h$
+- /usr/include/giomm-2.4/giomm/dbusobjectmanagerserver.h$
+- /usr/include/giomm-2.4/giomm/dbusobjectproxy.h$
+- /usr/include/giomm-2.4/giomm/dbusobjectskeleton.h$
 - /usr/include/giomm-2.4/giomm/dbusownname.h$
 - /usr/include/giomm-2.4/giomm/dbusproxy.h$
 - /usr/include/giomm-2.4/giomm/dbusserver.h$
@@ -132,6 +138,11 @@ includes:
 - /usr/include/giomm-2.4/giomm/private/dbusmessage_p.h$
 - /usr/include/giomm-2.4/giomm/private/dbusmethodinvocation_p.h$
 - /usr/include/giomm-2.4/giomm/private/dbusobject_p.h$
+- /usr/include/giomm-2.4/giomm/private/dbusobjectmanager_p.h$
+- /usr/include/giomm-2.4/giomm/private/dbusobjectmanagerclient_p.h$
+- /usr/include/giomm-2.4/giomm/private/dbusobjectmanagerserver_p.h$
+- /usr/include/giomm-2.4/giomm/private/dbusobjectproxy_p.h$
+- /usr/include/giomm-2.4/giomm/private/dbusobjectskeleton_p.h$
 - /usr/include/giomm-2.4/giomm/private/dbusownname_p.h$
 - /usr/include/giomm-2.4/giomm/private/dbusproxy_p.h$
 - /usr/include/giomm-2.4/giomm/private/dbusserver_p.h$
@@ -527,45 +538,48 @@ includes:
 - /usr/lib64/pkgconfig/glibmm-2.4.pc$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/glibmm-2.60.1$
-- /usr/share/doc/glibmm-2.60.1/AUTHORS.bz2$
-- /usr/share/doc/glibmm-2.60.1/ChangeLog.bz2$
-- /usr/share/doc/glibmm-2.60.1/NEWS.bz2$
-- /usr/share/doc/glibmm-2.60.1/README.SUN.bz2$
-- /usr/share/doc/glibmm-2.60.1/README.bz2$
-- /usr/share/doc/glibmm-2.60.1/README.win32.bz2$
-- /usr/share/doc/glibmm-2.60.1/examples$
-- /usr/share/doc/glibmm-2.60.1/examples/child_watch$
-- /usr/share/doc/glibmm-2.60.1/examples/child_watch/main.cc.bz2$
-- /usr/share/doc/glibmm-2.60.1/examples/compose$
-- /usr/share/doc/glibmm-2.60.1/examples/compose/main.cc.bz2$
-- /usr/share/doc/glibmm-2.60.1/examples/dbus$
-- /usr/share/doc/glibmm-2.60.1/examples/dbus/client_bus_listnames.cc.bz2$
-- /usr/share/doc/glibmm-2.60.1/examples/dbus/server_without_bus.cc.bz2$
-- /usr/share/doc/glibmm-2.60.1/examples/dbus/session_bus_service.cc.bz2$
-- /usr/share/doc/glibmm-2.60.1/examples/iochannel_stream$
-- /usr/share/doc/glibmm-2.60.1/examples/iochannel_stream/fdstream.cc.bz2$
-- /usr/share/doc/glibmm-2.60.1/examples/iochannel_stream/fdstream.h.bz2$
-- /usr/share/doc/glibmm-2.60.1/examples/iochannel_stream/main.cc.bz2$
-- /usr/share/doc/glibmm-2.60.1/examples/keyfile$
-- /usr/share/doc/glibmm-2.60.1/examples/keyfile/main.cc.bz2$
-- /usr/share/doc/glibmm-2.60.1/examples/markup$
-- /usr/share/doc/glibmm-2.60.1/examples/markup/parser.cc.bz2$
-- /usr/share/doc/glibmm-2.60.1/examples/network$
-- /usr/share/doc/glibmm-2.60.1/examples/network/resolver.cc.bz2$
-- /usr/share/doc/glibmm-2.60.1/examples/network/socket-client.cc.bz2$
-- /usr/share/doc/glibmm-2.60.1/examples/network/socket-server.cc.bz2$
-- /usr/share/doc/glibmm-2.60.1/examples/options$
-- /usr/share/doc/glibmm-2.60.1/examples/options/main.cc.bz2$
-- /usr/share/doc/glibmm-2.60.1/examples/properties$
-- /usr/share/doc/glibmm-2.60.1/examples/properties/properties_example.cc.bz2$
-- /usr/share/doc/glibmm-2.60.1/examples/regex$
-- /usr/share/doc/glibmm-2.60.1/examples/regex/main.cc.bz2$
-- /usr/share/doc/glibmm-2.60.1/examples/settings$
-- /usr/share/doc/glibmm-2.60.1/examples/settings/org.gtkmm.demo.gschema.xml.bz2$
-- /usr/share/doc/glibmm-2.60.1/examples/settings/settings.cc.bz2$
-- /usr/share/doc/glibmm-2.60.1/examples/thread$
-- /usr/share/doc/glibmm-2.60.1/examples/thread/dispatcher.cc.bz2$
-- /usr/share/doc/glibmm-2.60.1/examples/thread/dispatcher2.cc.bz2$
-- /usr/share/doc/glibmm-2.60.1/examples/thread/thread.cc.bz2$
-- /usr/share/doc/glibmm-2.60.1/examples/thread/threadpool.cc.bz2$
+- /usr/share/doc/glibmm-2.62.0$
+- /usr/share/doc/glibmm-2.62.0/AUTHORS.bz2$
+- /usr/share/doc/glibmm-2.62.0/ChangeLog.bz2$
+- /usr/share/doc/glibmm-2.62.0/NEWS.bz2$
+- /usr/share/doc/glibmm-2.62.0/README.SUN.bz2$
+- /usr/share/doc/glibmm-2.62.0/README.bz2$
+- /usr/share/doc/glibmm-2.62.0/README.win32.bz2$
+- /usr/share/doc/glibmm-2.62.0/examples$
+- /usr/share/doc/glibmm-2.62.0/examples/child_watch$
+- /usr/share/doc/glibmm-2.62.0/examples/child_watch/main.cc.bz2$
+- /usr/share/doc/glibmm-2.62.0/examples/compose$
+- /usr/share/doc/glibmm-2.62.0/examples/compose/main.cc.bz2$
+- /usr/share/doc/glibmm-2.62.0/examples/dbus$
+- /usr/share/doc/glibmm-2.62.0/examples/dbus/client_bus_listnames.cc.bz2$
+- /usr/share/doc/glibmm-2.62.0/examples/dbus/server_without_bus.cc.bz2$
+- /usr/share/doc/glibmm-2.62.0/examples/dbus/session_bus_service.cc.bz2$
+- /usr/share/doc/glibmm-2.62.0/examples/iochannel_stream$
+- /usr/share/doc/glibmm-2.62.0/examples/iochannel_stream/fdstream.cc.bz2$
+- /usr/share/doc/glibmm-2.62.0/examples/iochannel_stream/fdstream.h.bz2$
+- /usr/share/doc/glibmm-2.62.0/examples/iochannel_stream/main.cc.bz2$
+- /usr/share/doc/glibmm-2.62.0/examples/keyfile$
+- /usr/share/doc/glibmm-2.62.0/examples/keyfile/main.cc.bz2$
+- /usr/share/doc/glibmm-2.62.0/examples/markup$
+- /usr/share/doc/glibmm-2.62.0/examples/markup/parser.cc.bz2$
+- /usr/share/doc/glibmm-2.62.0/examples/network$
+- /usr/share/doc/glibmm-2.62.0/examples/network/resolver.cc.bz2$
+- /usr/share/doc/glibmm-2.62.0/examples/network/socket-client.cc.bz2$
+- /usr/share/doc/glibmm-2.62.0/examples/network/socket-server.cc.bz2$
+- /usr/share/doc/glibmm-2.62.0/examples/options$
+- /usr/share/doc/glibmm-2.62.0/examples/options/main.cc.bz2$
+- /usr/share/doc/glibmm-2.62.0/examples/properties$
+- /usr/share/doc/glibmm-2.62.0/examples/properties/properties_example.cc.bz2$
+- /usr/share/doc/glibmm-2.62.0/examples/regex$
+- /usr/share/doc/glibmm-2.62.0/examples/regex/main.cc.bz2$
+- /usr/share/doc/glibmm-2.62.0/examples/settings$
+- /usr/share/doc/glibmm-2.62.0/examples/settings/org.gtkmm.demo.gschema.xml.bz2$
+- /usr/share/doc/glibmm-2.62.0/examples/settings/settings.cc.bz2$
+- /usr/share/doc/glibmm-2.62.0/examples/thread$
+- /usr/share/doc/glibmm-2.62.0/examples/thread/dispatcher.cc.bz2$
+- /usr/share/doc/glibmm-2.62.0/examples/thread/dispatcher2.cc.bz2$
+- /usr/share/doc/glibmm-2.62.0/examples/thread/thread.cc.bz2$
+- /usr/share/doc/glibmm-2.62.0/examples/thread/threadpool.cc.bz2$
+env:
+- ORIGINAL_ATOM=dev-cpp/glibmm
+- ORIGINAL_PACKAGE=dev-cpp/glibmm-2.62.0
