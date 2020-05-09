@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/clutter-1.26.2-r2 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -172,7 +173,7 @@ includes:
 - /usr/lib64/girepository-1.0/ClutterX11-1.0.typelib$
 - /usr/lib64/libclutter-1.0.so$
 - /usr/lib64/libclutter-1.0.so.0$
-- /usr/lib64/libclutter-1.0.so.0.2600.2$
+- /usr/lib64/libclutter-1.0.so.0.2600.4$
 - /usr/lib64/libclutter-glx-1.0.so$
 - /usr/lib64/libclutter-glx-1.0.so.0$
 - /usr/lib64/pkgconfig$
@@ -186,12 +187,14 @@ includes:
 - /usr/lib64/pkgconfig/clutter-wayland-compositor-1.0.pc$
 - /usr/lib64/pkgconfig/clutter-x11-1.0.pc$
 - /usr/share$
+- /usr/share/clutter-1.0$
+- /usr/share/clutter-1.0/valgrind$
+- /usr/share/clutter-1.0/valgrind/clutter.supp$
 - /usr/share/doc$
-- /usr/share/doc/clutter-1.26.2-r2$
-- /usr/share/doc/clutter-1.26.2-r2/ChangeLog.bz2$
-- /usr/share/doc/clutter-1.26.2-r2/NEWS.bz2$
-- /usr/share/doc/clutter-1.26.2-r2/README.bz2$
-- /usr/share/doc/clutter-1.26.2-r2/README.in.bz2$
+- /usr/share/doc/clutter-1.26.4$
+- /usr/share/doc/clutter-1.26.4/ChangeLog.bz2$
+- /usr/share/doc/clutter-1.26.4/NEWS.bz2$
+- /usr/share/doc/clutter-1.26.4/README.md.bz2$
 - /usr/share/gir-1.0$
 - /usr/share/gir-1.0/Cally-1.0.gir$
 - /usr/share/gir-1.0/Clutter-1.0.gir$
@@ -511,3 +514,6 @@ includes:
 - /usr/share/locale/zh_TW$
 - /usr/share/locale/zh_TW/LC_MESSAGES$
 - /usr/share/locale/zh_TW/LC_MESSAGES/clutter-1.0.mo$
+env:
+- ORIGINAL_ATOM=media-libs/clutter
+- ORIGINAL_PACKAGE=media-libs/clutter-1.26.4
