@@ -6,9 +6,17 @@
 
 COMMIT="${COMMIT:-}"
 FROM_BRANCH="${FROM_BRANCH:-master}"
-
+ROOT_DIR=${ROOT_DIR:-$PWD}
 # Get the files modified from COMMIT to the base branch (FROM_BRANCH)
 file=$(git --no-pager diff --name-only "${COMMIT}" $(git merge-base "${COMMIT}" "${FROM_BRANCH}"))
+
+# Fetch depedendencies if not available
+PATH=$PATH:$ROOT_DIR/.bin
+hash yq 2>/dev/null || {
+    mkdir $ROOT_DIR/.bin/;
+    wget https://github.com/mikefarah/yq/releases/download/3.3.0/yq_linux_amd64 -O $ROOT_DIR/.bin/yq
+    chmod +x $ROOT_DIR/.bin/yq
+}
 
 TO_PROCESS=()
 TO_REMOVE=()
