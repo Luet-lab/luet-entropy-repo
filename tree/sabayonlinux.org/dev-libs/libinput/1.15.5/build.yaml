@@ -43,8 +43,8 @@ includes:
 - /usr/libexec/libinput/libinput-replay$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/libinput-1.15.2$
-- /usr/share/doc/libinput-1.15.2/README.md.bz2$
+- /usr/share/doc/libinput-1.15.5$
+- /usr/share/doc/libinput-1.15.5/README.md.bz2$
 - /usr/share/libinput$
 - /usr/share/libinput/10-generic-keyboard.quirks$
 - /usr/share/libinput/10-generic-lid.quirks$
@@ -95,4 +95,4 @@ includes:
 - /usr/share/zsh/site-functions/_libinput$
 env:
 - ORIGINAL_ATOM=dev-libs/libinput
-- ORIGINAL_PACKAGE=dev-libs/libinput-1.15.2
+- ORIGINAL_PACKAGE=dev-libs/libinput-1.15.5
