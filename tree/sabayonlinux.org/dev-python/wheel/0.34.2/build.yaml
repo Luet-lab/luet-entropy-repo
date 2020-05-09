@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/wheel-0.33.1 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -20,14 +21,14 @@ includes:
 - /usr/lib64/python2.7$
 - /usr/lib64/python2.7/site-packages$
 - /usr/lib64/python2.7/site-packages/wheel$
-- /usr/lib64/python2.7/site-packages/wheel-0.33.1-py2.7.egg-info$
-- /usr/lib64/python2.7/site-packages/wheel-0.33.1-py2.7.egg-info/PKG-INFO$
-- /usr/lib64/python2.7/site-packages/wheel-0.33.1-py2.7.egg-info/SOURCES.txt$
-- /usr/lib64/python2.7/site-packages/wheel-0.33.1-py2.7.egg-info/dependency_links.txt$
-- /usr/lib64/python2.7/site-packages/wheel-0.33.1-py2.7.egg-info/entry_points.txt$
-- /usr/lib64/python2.7/site-packages/wheel-0.33.1-py2.7.egg-info/not-zip-safe$
-- /usr/lib64/python2.7/site-packages/wheel-0.33.1-py2.7.egg-info/requires.txt$
-- /usr/lib64/python2.7/site-packages/wheel-0.33.1-py2.7.egg-info/top_level.txt$
+- /usr/lib64/python2.7/site-packages/wheel-0.34.2-py2.7.egg-info$
+- /usr/lib64/python2.7/site-packages/wheel-0.34.2-py2.7.egg-info/PKG-INFO$
+- /usr/lib64/python2.7/site-packages/wheel-0.34.2-py2.7.egg-info/SOURCES.txt$
+- /usr/lib64/python2.7/site-packages/wheel-0.34.2-py2.7.egg-info/dependency_links.txt$
+- /usr/lib64/python2.7/site-packages/wheel-0.34.2-py2.7.egg-info/entry_points.txt$
+- /usr/lib64/python2.7/site-packages/wheel-0.34.2-py2.7.egg-info/not-zip-safe$
+- /usr/lib64/python2.7/site-packages/wheel-0.34.2-py2.7.egg-info/requires.txt$
+- /usr/lib64/python2.7/site-packages/wheel-0.34.2-py2.7.egg-info/top_level.txt$
 - /usr/lib64/python2.7/site-packages/wheel/__init__.py$
 - /usr/lib64/python2.7/site-packages/wheel/__init__.pyc$
 - /usr/lib64/python2.7/site-packages/wheel/__init__.pyo$
@@ -50,6 +51,9 @@ includes:
 - /usr/lib64/python2.7/site-packages/wheel/cli/unpack.py$
 - /usr/lib64/python2.7/site-packages/wheel/cli/unpack.pyc$
 - /usr/lib64/python2.7/site-packages/wheel/cli/unpack.pyo$
+- /usr/lib64/python2.7/site-packages/wheel/macosx_libfile.py$
+- /usr/lib64/python2.7/site-packages/wheel/macosx_libfile.pyc$
+- /usr/lib64/python2.7/site-packages/wheel/macosx_libfile.pyo$
 - /usr/lib64/python2.7/site-packages/wheel/metadata.py$
 - /usr/lib64/python2.7/site-packages/wheel/metadata.pyc$
 - /usr/lib64/python2.7/site-packages/wheel/metadata.pyo$
@@ -68,14 +72,14 @@ includes:
 - /usr/lib64/python3.6$
 - /usr/lib64/python3.6/site-packages$
 - /usr/lib64/python3.6/site-packages/wheel$
-- /usr/lib64/python3.6/site-packages/wheel-0.33.1-py3.6.egg-info$
-- /usr/lib64/python3.6/site-packages/wheel-0.33.1-py3.6.egg-info/PKG-INFO$
-- /usr/lib64/python3.6/site-packages/wheel-0.33.1-py3.6.egg-info/SOURCES.txt$
-- /usr/lib64/python3.6/site-packages/wheel-0.33.1-py3.6.egg-info/dependency_links.txt$
-- /usr/lib64/python3.6/site-packages/wheel-0.33.1-py3.6.egg-info/entry_points.txt$
-- /usr/lib64/python3.6/site-packages/wheel-0.33.1-py3.6.egg-info/not-zip-safe$
-- /usr/lib64/python3.6/site-packages/wheel-0.33.1-py3.6.egg-info/requires.txt$
-- /usr/lib64/python3.6/site-packages/wheel-0.33.1-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/wheel-0.34.2-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/wheel-0.34.2-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/wheel-0.34.2-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/wheel-0.34.2-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/wheel-0.34.2-py3.6.egg-info/entry_points.txt$
+- /usr/lib64/python3.6/site-packages/wheel-0.34.2-py3.6.egg-info/not-zip-safe$
+- /usr/lib64/python3.6/site-packages/wheel-0.34.2-py3.6.egg-info/requires.txt$
+- /usr/lib64/python3.6/site-packages/wheel-0.34.2-py3.6.egg-info/top_level.txt$
 - /usr/lib64/python3.6/site-packages/wheel/__init__.py$
 - /usr/lib64/python3.6/site-packages/wheel/__main__.py$
 - /usr/lib64/python3.6/site-packages/wheel/__pycache__$
@@ -88,6 +92,9 @@ includes:
 - /usr/lib64/python3.6/site-packages/wheel/__pycache__/bdist_wheel.cpython-36.opt-1.pyc$
 - /usr/lib64/python3.6/site-packages/wheel/__pycache__/bdist_wheel.cpython-36.opt-2.pyc$
 - /usr/lib64/python3.6/site-packages/wheel/__pycache__/bdist_wheel.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/wheel/__pycache__/macosx_libfile.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/wheel/__pycache__/macosx_libfile.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/wheel/__pycache__/macosx_libfile.cpython-36.pyc$
 - /usr/lib64/python3.6/site-packages/wheel/__pycache__/metadata.cpython-36.opt-1.pyc$
 - /usr/lib64/python3.6/site-packages/wheel/__pycache__/metadata.cpython-36.opt-2.pyc$
 - /usr/lib64/python3.6/site-packages/wheel/__pycache__/metadata.cpython-36.pyc$
@@ -122,6 +129,7 @@ includes:
 - /usr/lib64/python3.6/site-packages/wheel/cli/convert.py$
 - /usr/lib64/python3.6/site-packages/wheel/cli/pack.py$
 - /usr/lib64/python3.6/site-packages/wheel/cli/unpack.py$
+- /usr/lib64/python3.6/site-packages/wheel/macosx_libfile.py$
 - /usr/lib64/python3.6/site-packages/wheel/metadata.py$
 - /usr/lib64/python3.6/site-packages/wheel/pep425tags.py$
 - /usr/lib64/python3.6/site-packages/wheel/pkginfo.py$
@@ -129,5 +137,8 @@ includes:
 - /usr/lib64/python3.6/site-packages/wheel/wheelfile.py$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/wheel-0.33.1$
-- /usr/share/doc/wheel-0.33.1/README.rst.bz2$
+- /usr/share/doc/wheel-0.34.2$
+- /usr/share/doc/wheel-0.34.2/README.rst.bz2$
+env:
+- ORIGINAL_ATOM=dev-python/wheel
+- ORIGINAL_PACKAGE=dev-python/wheel-0.34.2
