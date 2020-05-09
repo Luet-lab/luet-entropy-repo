@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/sqlalchemy-1.3.3 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -12,12 +13,12 @@ includes:
 - /usr/lib64$
 - /usr/lib64/python2.7$
 - /usr/lib64/python2.7/site-packages$
-- /usr/lib64/python2.7/site-packages/SQLAlchemy-1.3.3-py2.7.egg-info$
-- /usr/lib64/python2.7/site-packages/SQLAlchemy-1.3.3-py2.7.egg-info/PKG-INFO$
-- /usr/lib64/python2.7/site-packages/SQLAlchemy-1.3.3-py2.7.egg-info/SOURCES.txt$
-- /usr/lib64/python2.7/site-packages/SQLAlchemy-1.3.3-py2.7.egg-info/dependency_links.txt$
-- /usr/lib64/python2.7/site-packages/SQLAlchemy-1.3.3-py2.7.egg-info/requires.txt$
-- /usr/lib64/python2.7/site-packages/SQLAlchemy-1.3.3-py2.7.egg-info/top_level.txt$
+- /usr/lib64/python2.7/site-packages/SQLAlchemy-1.3.11-py2.7.egg-info$
+- /usr/lib64/python2.7/site-packages/SQLAlchemy-1.3.11-py2.7.egg-info/PKG-INFO$
+- /usr/lib64/python2.7/site-packages/SQLAlchemy-1.3.11-py2.7.egg-info/SOURCES.txt$
+- /usr/lib64/python2.7/site-packages/SQLAlchemy-1.3.11-py2.7.egg-info/dependency_links.txt$
+- /usr/lib64/python2.7/site-packages/SQLAlchemy-1.3.11-py2.7.egg-info/requires.txt$
+- /usr/lib64/python2.7/site-packages/SQLAlchemy-1.3.11-py2.7.egg-info/top_level.txt$
 - /usr/lib64/python2.7/site-packages/sqlalchemy$
 - /usr/lib64/python2.7/site-packages/sqlalchemy/__init__.py$
 - /usr/lib64/python2.7/site-packages/sqlalchemy/__init__.pyc$
@@ -624,12 +625,12 @@ includes:
 - /usr/lib64/python2.7/site-packages/sqlalchemy/util/topological.pyo$
 - /usr/lib64/python3.6$
 - /usr/lib64/python3.6/site-packages$
-- /usr/lib64/python3.6/site-packages/SQLAlchemy-1.3.3-py3.6.egg-info$
-- /usr/lib64/python3.6/site-packages/SQLAlchemy-1.3.3-py3.6.egg-info/PKG-INFO$
-- /usr/lib64/python3.6/site-packages/SQLAlchemy-1.3.3-py3.6.egg-info/SOURCES.txt$
-- /usr/lib64/python3.6/site-packages/SQLAlchemy-1.3.3-py3.6.egg-info/dependency_links.txt$
-- /usr/lib64/python3.6/site-packages/SQLAlchemy-1.3.3-py3.6.egg-info/requires.txt$
-- /usr/lib64/python3.6/site-packages/SQLAlchemy-1.3.3-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/SQLAlchemy-1.3.11-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/SQLAlchemy-1.3.11-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/SQLAlchemy-1.3.11-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/SQLAlchemy-1.3.11-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/SQLAlchemy-1.3.11-py3.6.egg-info/requires.txt$
+- /usr/lib64/python3.6/site-packages/SQLAlchemy-1.3.11-py3.6.egg-info/top_level.txt$
 - /usr/lib64/python3.6/site-packages/sqlalchemy$
 - /usr/lib64/python3.6/site-packages/sqlalchemy/__init__.py$
 - /usr/lib64/python3.6/site-packages/sqlalchemy/__pycache__$
@@ -1451,9 +1452,12 @@ includes:
 - /usr/lib64/python3.6/site-packages/sqlalchemy/util/topological.py$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/sqlalchemy-1.3.3$
-- /usr/share/doc/sqlalchemy-1.3.3/AUTHORS.bz2$
-- /usr/share/doc/sqlalchemy-1.3.3/CHANGES.bz2$
-- /usr/share/doc/sqlalchemy-1.3.3/README.dialects.rst.bz2$
-- /usr/share/doc/sqlalchemy-1.3.3/README.rst.bz2$
-- /usr/share/doc/sqlalchemy-1.3.3/README.unittests.rst.bz2$
+- /usr/share/doc/sqlalchemy-1.3.11$
+- /usr/share/doc/sqlalchemy-1.3.11/AUTHORS.bz2$
+- /usr/share/doc/sqlalchemy-1.3.11/CHANGES.bz2$
+- /usr/share/doc/sqlalchemy-1.3.11/README.dialects.rst.bz2$
+- /usr/share/doc/sqlalchemy-1.3.11/README.rst.bz2$
+- /usr/share/doc/sqlalchemy-1.3.11/README.unittests.rst.bz2$
+env:
+- ORIGINAL_ATOM=dev-python/sqlalchemy
+- ORIGINAL_PACKAGE=dev-python/sqlalchemy-1.3.11
