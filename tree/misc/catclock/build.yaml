@@ -1,0 +1,13 @@
+image: opensuse/leap
+
+prelude:
+- zypper in -y git make libXt-devel xmh gcc motif-devel libXext-devel libpulse-devel libaubio-devel
+- git clone https://github.com/BarkyTheDog/catclock
+
+steps:
+#- cd catclock && make WITH_TEMPO_TRACKER=1 DEFINES=-Wno-incompatible-pointer-types -static
+- cd catclock && make DEFINES="-Wno-incompatible-pointer-types"
+- mv catclock/xclock /usr/bin/xclock
+
+includes:
+- /usr/bin/xclock
