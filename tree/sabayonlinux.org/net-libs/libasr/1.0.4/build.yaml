@@ -1,0 +1,28 @@
+unpack: true
+steps:
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/asr.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libasr.a$
+- /usr/lib64/libasr.la$
+- /usr/lib64/libasr.so$
+- /usr/lib64/libasr.so.0$
+- /usr/lib64/libasr.so.0.0.3$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libasr-1.0.4$
+- /usr/share/doc/libasr-1.0.4/ChangeLog.bz2$
+- /usr/share/doc/libasr-1.0.4/README.md.bz2$
+env:
+- ORIGINAL_ATOM=net-libs/libasr
+- ORIGINAL_PACKAGE=net-libs/libasr-1.0.4
