@@ -65,6 +65,7 @@ jobs:
       with:
         SSH: true
         CLEAN: true
+        SINGLE_COMMIT: true
         BRANCH: develop
         BASE_BRANCH: develop
         REPOSITORY_NAME: Luet-lab/singularity
