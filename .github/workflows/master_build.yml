@@ -65,5 +65,6 @@ jobs:
       with:
         SSH: true
         BRANCH: master
+        BASE_BRANCH: master
         REPOSITORY_NAME: Luet-lab/singularity
         FOLDER: build # The folder the action should deploy.
