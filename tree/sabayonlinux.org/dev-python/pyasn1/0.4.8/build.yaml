@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/pyasn1-0.4.3 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -12,12 +13,12 @@ includes:
 - /usr/lib64/python2.7$
 - /usr/lib64/python2.7/site-packages$
 - /usr/lib64/python2.7/site-packages/pyasn1$
-- /usr/lib64/python2.7/site-packages/pyasn1-0.4.3-py2.7.egg-info$
-- /usr/lib64/python2.7/site-packages/pyasn1-0.4.3-py2.7.egg-info/PKG-INFO$
-- /usr/lib64/python2.7/site-packages/pyasn1-0.4.3-py2.7.egg-info/SOURCES.txt$
-- /usr/lib64/python2.7/site-packages/pyasn1-0.4.3-py2.7.egg-info/dependency_links.txt$
-- /usr/lib64/python2.7/site-packages/pyasn1-0.4.3-py2.7.egg-info/top_level.txt$
-- /usr/lib64/python2.7/site-packages/pyasn1-0.4.3-py2.7.egg-info/zip-safe$
+- /usr/lib64/python2.7/site-packages/pyasn1-0.4.8-py2.7.egg-info$
+- /usr/lib64/python2.7/site-packages/pyasn1-0.4.8-py2.7.egg-info/PKG-INFO$
+- /usr/lib64/python2.7/site-packages/pyasn1-0.4.8-py2.7.egg-info/SOURCES.txt$
+- /usr/lib64/python2.7/site-packages/pyasn1-0.4.8-py2.7.egg-info/dependency_links.txt$
+- /usr/lib64/python2.7/site-packages/pyasn1-0.4.8-py2.7.egg-info/top_level.txt$
+- /usr/lib64/python2.7/site-packages/pyasn1-0.4.8-py2.7.egg-info/zip-safe$
 - /usr/lib64/python2.7/site-packages/pyasn1/__init__.py$
 - /usr/lib64/python2.7/site-packages/pyasn1/__init__.pyc$
 - /usr/lib64/python2.7/site-packages/pyasn1/__init__.pyo$
@@ -136,12 +137,12 @@ includes:
 - /usr/lib64/python3.6$
 - /usr/lib64/python3.6/site-packages$
 - /usr/lib64/python3.6/site-packages/pyasn1$
-- /usr/lib64/python3.6/site-packages/pyasn1-0.4.3-py3.6.egg-info$
-- /usr/lib64/python3.6/site-packages/pyasn1-0.4.3-py3.6.egg-info/PKG-INFO$
-- /usr/lib64/python3.6/site-packages/pyasn1-0.4.3-py3.6.egg-info/SOURCES.txt$
-- /usr/lib64/python3.6/site-packages/pyasn1-0.4.3-py3.6.egg-info/dependency_links.txt$
-- /usr/lib64/python3.6/site-packages/pyasn1-0.4.3-py3.6.egg-info/top_level.txt$
-- /usr/lib64/python3.6/site-packages/pyasn1-0.4.3-py3.6.egg-info/zip-safe$
+- /usr/lib64/python3.6/site-packages/pyasn1-0.4.8-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/pyasn1-0.4.8-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/pyasn1-0.4.8-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/pyasn1-0.4.8-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/pyasn1-0.4.8-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/pyasn1-0.4.8-py3.6.egg-info/zip-safe$
 - /usr/lib64/python3.6/site-packages/pyasn1/__init__.py$
 - /usr/lib64/python3.6/site-packages/pyasn1/__pycache__$
 - /usr/lib64/python3.6/site-packages/pyasn1/__pycache__/__init__.cpython-36.opt-1.pyc$
@@ -303,5 +304,8 @@ includes:
 - /usr/lib64/python3.6/site-packages/pyasn1/type/useful.py$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/pyasn1-0.4.3$
-- /usr/share/doc/pyasn1-0.4.3/README.md.bz2$
+- /usr/share/doc/pyasn1-0.4.8$
+- /usr/share/doc/pyasn1-0.4.8/README.md.bz2$
+env:
+- ORIGINAL_ATOM=dev-python/pyasn1
+- ORIGINAL_PACKAGE=dev-python/pyasn1-0.4.8
