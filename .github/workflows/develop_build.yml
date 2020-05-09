@@ -38,6 +38,7 @@ jobs:
       env:
         PREVIOUS: ${{ github.event.before }}
       run: |
+        rm -rf build/.git || true
         wget https://github.com/mudler/luet/releases/download/0.7.7/luet-0.7.7-linux-amd64 -O luet
         sudo mv luet /usr/bin/luet
         sudo chmod +x /usr/bin/luet
