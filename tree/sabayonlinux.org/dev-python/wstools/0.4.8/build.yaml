@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/wstools-0.4.5-r1 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -12,13 +13,15 @@ includes:
 - /usr/lib64/python2.7$
 - /usr/lib64/python2.7/site-packages$
 - /usr/lib64/python2.7/site-packages/wstools$
-- /usr/lib64/python2.7/site-packages/wstools-0.4.5-py2.7.egg-info$
-- /usr/lib64/python2.7/site-packages/wstools-0.4.5-py2.7.egg-info/PKG-INFO$
-- /usr/lib64/python2.7/site-packages/wstools-0.4.5-py2.7.egg-info/SOURCES.txt$
-- /usr/lib64/python2.7/site-packages/wstools-0.4.5-py2.7.egg-info/dependency_links.txt$
-- /usr/lib64/python2.7/site-packages/wstools-0.4.5-py2.7.egg-info/pbr.json$
-- /usr/lib64/python2.7/site-packages/wstools-0.4.5-py2.7.egg-info/requires.txt$
-- /usr/lib64/python2.7/site-packages/wstools-0.4.5-py2.7.egg-info/top_level.txt$
+- /usr/lib64/python2.7/site-packages/wstools-0.4.8-py2.7.egg-info$
+- /usr/lib64/python2.7/site-packages/wstools-0.4.8-py2.7.egg-info/PKG-INFO$
+- /usr/lib64/python2.7/site-packages/wstools-0.4.8-py2.7.egg-info/SOURCES.txt$
+- /usr/lib64/python2.7/site-packages/wstools-0.4.8-py2.7.egg-info/dependency_links.txt$
+- /usr/lib64/python2.7/site-packages/wstools-0.4.8-py2.7.egg-info/entry_points.txt$
+- /usr/lib64/python2.7/site-packages/wstools-0.4.8-py2.7.egg-info/not-zip-safe$
+- /usr/lib64/python2.7/site-packages/wstools-0.4.8-py2.7.egg-info/pbr.json$
+- /usr/lib64/python2.7/site-packages/wstools-0.4.8-py2.7.egg-info/requires.txt$
+- /usr/lib64/python2.7/site-packages/wstools-0.4.8-py2.7.egg-info/top_level.txt$
 - /usr/lib64/python2.7/site-packages/wstools/MIMEAttachment.py$
 - /usr/lib64/python2.7/site-packages/wstools/MIMEAttachment.pyc$
 - /usr/lib64/python2.7/site-packages/wstools/MIMEAttachment.pyo$
@@ -49,19 +52,18 @@ includes:
 - /usr/lib64/python2.7/site-packages/wstools/c14n.py$
 - /usr/lib64/python2.7/site-packages/wstools/c14n.pyc$
 - /usr/lib64/python2.7/site-packages/wstools/c14n.pyo$
-- /usr/lib64/python2.7/site-packages/wstools/version.py$
-- /usr/lib64/python2.7/site-packages/wstools/version.pyc$
-- /usr/lib64/python2.7/site-packages/wstools/version.pyo$
 - /usr/lib64/python3.6$
 - /usr/lib64/python3.6/site-packages$
 - /usr/lib64/python3.6/site-packages/wstools$
-- /usr/lib64/python3.6/site-packages/wstools-0.4.5-py3.6.egg-info$
-- /usr/lib64/python3.6/site-packages/wstools-0.4.5-py3.6.egg-info/PKG-INFO$
-- /usr/lib64/python3.6/site-packages/wstools-0.4.5-py3.6.egg-info/SOURCES.txt$
-- /usr/lib64/python3.6/site-packages/wstools-0.4.5-py3.6.egg-info/dependency_links.txt$
-- /usr/lib64/python3.6/site-packages/wstools-0.4.5-py3.6.egg-info/pbr.json$
-- /usr/lib64/python3.6/site-packages/wstools-0.4.5-py3.6.egg-info/requires.txt$
-- /usr/lib64/python3.6/site-packages/wstools-0.4.5-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/wstools-0.4.8-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/wstools-0.4.8-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/wstools-0.4.8-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/wstools-0.4.8-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/wstools-0.4.8-py3.6.egg-info/entry_points.txt$
+- /usr/lib64/python3.6/site-packages/wstools-0.4.8-py3.6.egg-info/not-zip-safe$
+- /usr/lib64/python3.6/site-packages/wstools-0.4.8-py3.6.egg-info/pbr.json$
+- /usr/lib64/python3.6/site-packages/wstools-0.4.8-py3.6.egg-info/requires.txt$
+- /usr/lib64/python3.6/site-packages/wstools-0.4.8-py3.6.egg-info/top_level.txt$
 - /usr/lib64/python3.6/site-packages/wstools/MIMEAttachment.py$
 - /usr/lib64/python3.6/site-packages/wstools/Namespaces.py$
 - /usr/lib64/python3.6/site-packages/wstools/TimeoutSocket.py$
@@ -102,12 +104,13 @@ includes:
 - /usr/lib64/python3.6/site-packages/wstools/__pycache__/c14n.cpython-36.opt-1.pyc$
 - /usr/lib64/python3.6/site-packages/wstools/__pycache__/c14n.cpython-36.opt-2.pyc$
 - /usr/lib64/python3.6/site-packages/wstools/__pycache__/c14n.cpython-36.pyc$
-- /usr/lib64/python3.6/site-packages/wstools/__pycache__/version.cpython-36.opt-1.pyc$
-- /usr/lib64/python3.6/site-packages/wstools/__pycache__/version.cpython-36.opt-2.pyc$
-- /usr/lib64/python3.6/site-packages/wstools/__pycache__/version.cpython-36.pyc$
 - /usr/lib64/python3.6/site-packages/wstools/c14n.py$
-- /usr/lib64/python3.6/site-packages/wstools/version.py$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/wstools-0.4.5-r1$
-- /usr/share/doc/wstools-0.4.5-r1/README.rst.bz2$
+- /usr/share/doc/wstools-0.4.8$
+- /usr/share/doc/wstools-0.4.8/AUTHORS.bz2$
+- /usr/share/doc/wstools-0.4.8/ChangeLog.bz2$
+- /usr/share/doc/wstools-0.4.8/README.rst.bz2$
+env:
+- ORIGINAL_ATOM=dev-python/wstools
+- ORIGINAL_PACKAGE=dev-python/wstools-0.4.8
