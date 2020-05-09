@@ -61,13 +61,21 @@ jobs:
       uses: webfactory/ssh-agent@v0.2.0
       with:
         ssh-private-key: ${{ secrets.DEPLOY_KEY }}
-    - name: Deploy 🚀
-      uses: JamesIves/github-pages-deploy-action@releases/v3
+    - name: Push 🚀
+      uses: sugatpoudel/git-deploy@v0.1
       with:
-        SSH: true
-        CLEAN: true
-        SINGLE_COMMIT: true
-        BRANCH: develop
-        BASE_BRANCH: develop
-        REPOSITORY_NAME: Luet-lab/singularity
-        FOLDER: build # The folder the action should deploy.
+        changes: build
+        repository: git@github.com:Luet-lab/singularity
+        ssh_key: ${{ secrets.DEPLOY_KEY }}
+        name: MarvinHatesOceans
+        email: bots@hidden.com
+#    - name: Deploy 🚀
+#     uses: JamesIves/github-pages-deploy-action@releases/v3
+#      with:
+#        SSH: true
+#       CLEAN: true
+#       SINGLE_COMMIT: true
+#       BRANCH: develop
+#       BASE_BRANCH: develop
+#       REPOSITORY_NAME: Luet-lab/singularity
+#        FOLDER: build # The folder the action should deploy.
