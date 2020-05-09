@@ -2,21 +2,14 @@ FROM quay.io/luet/base:develop
 ADD conf/luet-dso.yaml /etc/luet/.luet.yaml
 
 ENV USER=root
-# TODO: Temporary fix that require a fix in luet
-# on create temporary directory used for download repositories
-# data
-ENV TMPDIR=/
 
 SHELL ["/usr/bin/luet", "install", "-d"]
 
-RUN sys-apps/coreutils
-RUN >=sys-devel/base-gcc-8.2.0-0
-RUN app-shells/bash
+# meta/users initialize /bin/sh as a link to /bin/bash
+RUN meta/users-0
 
 SHELL ["/bin/bash", "-c"]
 RUN rm -rf /var/cache/luet/packages/ /var/cache/luet/repos/
-# TODO: check how handle /bin/sh: inside package or with eselect-sh
-RUN ln -s /bin/bash /bin/sh
 
 ENV TMPDIR=/tmp
 ENTRYPOINT ["/bin/bash"]
