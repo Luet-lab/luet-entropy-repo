@@ -1,0 +1,45 @@
+unpack: true
+steps:
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/python2.7$
+- /usr/lib64/python2.7/site-packages$
+- /usr/lib64/python2.7/site-packages/pathlib2$
+- /usr/lib64/python2.7/site-packages/pathlib2-2.3.5-py2.7.egg-info$
+- /usr/lib64/python2.7/site-packages/pathlib2-2.3.5-py2.7.egg-info/PKG-INFO$
+- /usr/lib64/python2.7/site-packages/pathlib2-2.3.5-py2.7.egg-info/SOURCES.txt$
+- /usr/lib64/python2.7/site-packages/pathlib2-2.3.5-py2.7.egg-info/dependency_links.txt$
+- /usr/lib64/python2.7/site-packages/pathlib2-2.3.5-py2.7.egg-info/requires.txt$
+- /usr/lib64/python2.7/site-packages/pathlib2-2.3.5-py2.7.egg-info/top_level.txt$
+- /usr/lib64/python2.7/site-packages/pathlib2/__init__.py$
+- /usr/lib64/python2.7/site-packages/pathlib2/__init__.pyc$
+- /usr/lib64/python2.7/site-packages/pathlib2/__init__.pyo$
+- /usr/lib64/python3.6$
+- /usr/lib64/python3.6/site-packages$
+- /usr/lib64/python3.6/site-packages/pathlib2$
+- /usr/lib64/python3.6/site-packages/pathlib2-2.3.5-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/pathlib2-2.3.5-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/pathlib2-2.3.5-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/pathlib2-2.3.5-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/pathlib2-2.3.5-py3.6.egg-info/requires.txt$
+- /usr/lib64/python3.6/site-packages/pathlib2-2.3.5-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/pathlib2/__init__.py$
+- /usr/lib64/python3.6/site-packages/pathlib2/__pycache__$
+- /usr/lib64/python3.6/site-packages/pathlib2/__pycache__/__init__.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/pathlib2/__pycache__/__init__.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/pathlib2/__pycache__/__init__.cpython-36.pyc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/pathlib2-2.3.5$
+- /usr/share/doc/pathlib2-2.3.5/README.rst.bz2$
+env:
+- ORIGINAL_ATOM=dev-python/pathlib2
+- ORIGINAL_PACKAGE=dev-python/pathlib2-2.3.5
