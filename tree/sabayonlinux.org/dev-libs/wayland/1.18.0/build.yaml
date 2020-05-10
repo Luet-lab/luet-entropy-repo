@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/wayland-1.17.0 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -67,10 +68,13 @@ includes:
 - /usr/share/aclocal$
 - /usr/share/aclocal/wayland-scanner.m4$
 - /usr/share/doc$
-- /usr/share/doc/wayland-1.17.0$
-- /usr/share/doc/wayland-1.17.0/README.bz2$
-- /usr/share/doc/wayland-1.17.0/TODO.bz2$
+- /usr/share/doc/wayland-1.18.0$
+- /usr/share/doc/wayland-1.18.0/README.bz2$
+- /usr/share/doc/wayland-1.18.0/TODO.bz2$
 - /usr/share/wayland$
 - /usr/share/wayland/wayland-scanner.mk$
 - /usr/share/wayland/wayland.dtd$
 - /usr/share/wayland/wayland.xml$
+env:
+- ORIGINAL_ATOM=dev-libs/wayland
+- ORIGINAL_PACKAGE=dev-libs/wayland-1.18.0
