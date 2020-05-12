@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i app-portage/portage-utils-0.85 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -30,8 +31,8 @@ includes:
 - /usr/lib$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/portage-utils-0.85$
-- /usr/share/doc/portage-utils-0.85/README.md.bz2$
+- /usr/share/doc/portage-utils-0.86$
+- /usr/share/doc/portage-utils-0.86/README.md.bz2$
 - /usr/share/man$
 - /usr/share/man/man1$
 - /usr/share/man/man1/q.1.bz2$
@@ -52,3 +53,6 @@ includes:
 - /usr/share/man/man1/qtegrity.1.bz2$
 - /usr/share/man/man1/quse.1.bz2$
 - /usr/share/man/man1/qxpak.1.bz2$
+env:
+- ORIGINAL_ATOM=app-portage/portage-utils
+- ORIGINAL_PACKAGE=app-portage/portage-utils-0.86
