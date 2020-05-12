@@ -1,0 +1,17 @@
+unpack: true
+steps:
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/aclocal$
+- /usr/share/aclocal/gtk-doc.m4$
+env:
+- ORIGINAL_ATOM=dev-util/gtk-doc-am
+- ORIGINAL_PACKAGE=dev-util/gtk-doc-am-1.32
