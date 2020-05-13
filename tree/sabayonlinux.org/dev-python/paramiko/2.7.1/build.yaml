@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/paramiko-2.4.2 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -12,12 +13,12 @@ includes:
 - /usr/lib64/python2.7$
 - /usr/lib64/python2.7/site-packages$
 - /usr/lib64/python2.7/site-packages/paramiko$
-- /usr/lib64/python2.7/site-packages/paramiko-2.4.2-py2.7.egg-info$
-- /usr/lib64/python2.7/site-packages/paramiko-2.4.2-py2.7.egg-info/PKG-INFO$
-- /usr/lib64/python2.7/site-packages/paramiko-2.4.2-py2.7.egg-info/SOURCES.txt$
-- /usr/lib64/python2.7/site-packages/paramiko-2.4.2-py2.7.egg-info/dependency_links.txt$
-- /usr/lib64/python2.7/site-packages/paramiko-2.4.2-py2.7.egg-info/requires.txt$
-- /usr/lib64/python2.7/site-packages/paramiko-2.4.2-py2.7.egg-info/top_level.txt$
+- /usr/lib64/python2.7/site-packages/paramiko-2.7.1-py2.7.egg-info$
+- /usr/lib64/python2.7/site-packages/paramiko-2.7.1-py2.7.egg-info/PKG-INFO$
+- /usr/lib64/python2.7/site-packages/paramiko-2.7.1-py2.7.egg-info/SOURCES.txt$
+- /usr/lib64/python2.7/site-packages/paramiko-2.7.1-py2.7.egg-info/dependency_links.txt$
+- /usr/lib64/python2.7/site-packages/paramiko-2.7.1-py2.7.egg-info/requires.txt$
+- /usr/lib64/python2.7/site-packages/paramiko-2.7.1-py2.7.egg-info/top_level.txt$
 - /usr/lib64/python2.7/site-packages/paramiko/__init__.py$
 - /usr/lib64/python2.7/site-packages/paramiko/__init__.pyc$
 - /usr/lib64/python2.7/site-packages/paramiko/__init__.pyo$
@@ -69,6 +70,9 @@ includes:
 - /usr/lib64/python2.7/site-packages/paramiko/hostkeys.py$
 - /usr/lib64/python2.7/site-packages/paramiko/hostkeys.pyc$
 - /usr/lib64/python2.7/site-packages/paramiko/hostkeys.pyo$
+- /usr/lib64/python2.7/site-packages/paramiko/kex_curve25519.py$
+- /usr/lib64/python2.7/site-packages/paramiko/kex_curve25519.pyc$
+- /usr/lib64/python2.7/site-packages/paramiko/kex_curve25519.pyo$
 - /usr/lib64/python2.7/site-packages/paramiko/kex_ecdh_nist.py$
 - /usr/lib64/python2.7/site-packages/paramiko/kex_ecdh_nist.pyc$
 - /usr/lib64/python2.7/site-packages/paramiko/kex_ecdh_nist.pyo$
@@ -81,6 +85,9 @@ includes:
 - /usr/lib64/python2.7/site-packages/paramiko/kex_group14.py$
 - /usr/lib64/python2.7/site-packages/paramiko/kex_group14.pyc$
 - /usr/lib64/python2.7/site-packages/paramiko/kex_group14.pyo$
+- /usr/lib64/python2.7/site-packages/paramiko/kex_group16.py$
+- /usr/lib64/python2.7/site-packages/paramiko/kex_group16.pyc$
+- /usr/lib64/python2.7/site-packages/paramiko/kex_group16.pyo$
 - /usr/lib64/python2.7/site-packages/paramiko/kex_gss.py$
 - /usr/lib64/python2.7/site-packages/paramiko/kex_gss.pyc$
 - /usr/lib64/python2.7/site-packages/paramiko/kex_gss.pyo$
@@ -150,12 +157,12 @@ includes:
 - /usr/lib64/python3.6$
 - /usr/lib64/python3.6/site-packages$
 - /usr/lib64/python3.6/site-packages/paramiko$
-- /usr/lib64/python3.6/site-packages/paramiko-2.4.2-py3.6.egg-info$
-- /usr/lib64/python3.6/site-packages/paramiko-2.4.2-py3.6.egg-info/PKG-INFO$
-- /usr/lib64/python3.6/site-packages/paramiko-2.4.2-py3.6.egg-info/SOURCES.txt$
-- /usr/lib64/python3.6/site-packages/paramiko-2.4.2-py3.6.egg-info/dependency_links.txt$
-- /usr/lib64/python3.6/site-packages/paramiko-2.4.2-py3.6.egg-info/requires.txt$
-- /usr/lib64/python3.6/site-packages/paramiko-2.4.2-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/paramiko-2.7.1-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/paramiko-2.7.1-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/paramiko-2.7.1-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/paramiko-2.7.1-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/paramiko-2.7.1-py3.6.egg-info/requires.txt$
+- /usr/lib64/python3.6/site-packages/paramiko-2.7.1-py3.6.egg-info/top_level.txt$
 - /usr/lib64/python3.6/site-packages/paramiko/__init__.py$
 - /usr/lib64/python3.6/site-packages/paramiko/__pycache__$
 - /usr/lib64/python3.6/site-packages/paramiko/__pycache__/__init__.cpython-36.opt-1.pyc$
@@ -209,6 +216,9 @@ includes:
 - /usr/lib64/python3.6/site-packages/paramiko/__pycache__/hostkeys.cpython-36.opt-1.pyc$
 - /usr/lib64/python3.6/site-packages/paramiko/__pycache__/hostkeys.cpython-36.opt-2.pyc$
 - /usr/lib64/python3.6/site-packages/paramiko/__pycache__/hostkeys.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/paramiko/__pycache__/kex_curve25519.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/paramiko/__pycache__/kex_curve25519.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/paramiko/__pycache__/kex_curve25519.cpython-36.pyc$
 - /usr/lib64/python3.6/site-packages/paramiko/__pycache__/kex_ecdh_nist.cpython-36.opt-1.pyc$
 - /usr/lib64/python3.6/site-packages/paramiko/__pycache__/kex_ecdh_nist.cpython-36.opt-2.pyc$
 - /usr/lib64/python3.6/site-packages/paramiko/__pycache__/kex_ecdh_nist.cpython-36.pyc$
@@ -221,6 +231,9 @@ includes:
 - /usr/lib64/python3.6/site-packages/paramiko/__pycache__/kex_group14.cpython-36.opt-1.pyc$
 - /usr/lib64/python3.6/site-packages/paramiko/__pycache__/kex_group14.cpython-36.opt-2.pyc$
 - /usr/lib64/python3.6/site-packages/paramiko/__pycache__/kex_group14.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/paramiko/__pycache__/kex_group16.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/paramiko/__pycache__/kex_group16.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/paramiko/__pycache__/kex_group16.cpython-36.pyc$
 - /usr/lib64/python3.6/site-packages/paramiko/__pycache__/kex_gss.cpython-36.opt-1.pyc$
 - /usr/lib64/python3.6/site-packages/paramiko/__pycache__/kex_gss.cpython-36.opt-2.pyc$
 - /usr/lib64/python3.6/site-packages/paramiko/__pycache__/kex_gss.cpython-36.pyc$
@@ -303,10 +316,12 @@ includes:
 - /usr/lib64/python3.6/site-packages/paramiko/ed25519key.py$
 - /usr/lib64/python3.6/site-packages/paramiko/file.py$
 - /usr/lib64/python3.6/site-packages/paramiko/hostkeys.py$
+- /usr/lib64/python3.6/site-packages/paramiko/kex_curve25519.py$
 - /usr/lib64/python3.6/site-packages/paramiko/kex_ecdh_nist.py$
 - /usr/lib64/python3.6/site-packages/paramiko/kex_gex.py$
 - /usr/lib64/python3.6/site-packages/paramiko/kex_group1.py$
 - /usr/lib64/python3.6/site-packages/paramiko/kex_group14.py$
+- /usr/lib64/python3.6/site-packages/paramiko/kex_group16.py$
 - /usr/lib64/python3.6/site-packages/paramiko/kex_gss.py$
 - /usr/lib64/python3.6/site-packages/paramiko/message.py$
 - /usr/lib64/python3.6/site-packages/paramiko/packet.py$
@@ -331,7 +346,10 @@ includes:
 - /usr/lib64/python3.6/site-packages/paramiko/win_pageant.py$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/paramiko-2.4.2$
-- /usr/share/doc/paramiko-2.4.2/NEWS.bz2$
-- /usr/share/doc/paramiko-2.4.2/README.rst.bz2$
-- /usr/share/doc/paramiko-2.4.2/TODO.bz2$
+- /usr/share/doc/paramiko-2.7.1$
+- /usr/share/doc/paramiko-2.7.1/NEWS.bz2$
+- /usr/share/doc/paramiko-2.7.1/README.rst.bz2$
+- /usr/share/doc/paramiko-2.7.1/TODO.bz2$
+env:
+- ORIGINAL_ATOM=dev-python/paramiko
+- ORIGINAL_PACKAGE=dev-python/paramiko-2.7.1
