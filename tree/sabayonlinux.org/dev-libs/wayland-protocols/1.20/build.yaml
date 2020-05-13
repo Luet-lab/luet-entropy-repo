@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/wayland-protocols-1.18 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -10,8 +11,8 @@ includes:
 - /usr$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/wayland-protocols-1.18$
-- /usr/share/doc/wayland-protocols-1.18/README.bz2$
+- /usr/share/doc/wayland-protocols-1.20$
+- /usr/share/doc/wayland-protocols-1.20/README.md.bz2$
 - /usr/share/pkgconfig$
 - /usr/share/pkgconfig/wayland-protocols.pc$
 - /usr/share/wayland-protocols$
@@ -63,3 +64,6 @@ includes:
 - /usr/share/wayland-protocols/unstable/xdg-shell/xdg-shell-unstable-v6.xml$
 - /usr/share/wayland-protocols/unstable/xwayland-keyboard-grab$
 - /usr/share/wayland-protocols/unstable/xwayland-keyboard-grab/xwayland-keyboard-grab-unstable-v1.xml$
+env:
+- ORIGINAL_ATOM=dev-libs/wayland-protocols
+- ORIGINAL_PACKAGE=dev-libs/wayland-protocols-1.20
