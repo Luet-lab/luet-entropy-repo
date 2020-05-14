@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/setuptools-44.0.0 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -75,14 +76,14 @@ includes:
 - /usr/lib64/python2.7/site-packages/pkg_resources/py31compat.pyc$
 - /usr/lib64/python2.7/site-packages/pkg_resources/py31compat.pyo$
 - /usr/lib64/python2.7/site-packages/setuptools$
-- /usr/lib64/python2.7/site-packages/setuptools-44.0.0-py2.7.egg-info$
-- /usr/lib64/python2.7/site-packages/setuptools-44.0.0-py2.7.egg-info/PKG-INFO$
-- /usr/lib64/python2.7/site-packages/setuptools-44.0.0-py2.7.egg-info/SOURCES.txt$
-- /usr/lib64/python2.7/site-packages/setuptools-44.0.0-py2.7.egg-info/dependency_links.txt$
-- /usr/lib64/python2.7/site-packages/setuptools-44.0.0-py2.7.egg-info/entry_points.txt$
-- /usr/lib64/python2.7/site-packages/setuptools-44.0.0-py2.7.egg-info/requires.txt$
-- /usr/lib64/python2.7/site-packages/setuptools-44.0.0-py2.7.egg-info/top_level.txt$
-- /usr/lib64/python2.7/site-packages/setuptools-44.0.0-py2.7.egg-info/zip-safe$
+- /usr/lib64/python2.7/site-packages/setuptools-44.1.0-py2.7.egg-info$
+- /usr/lib64/python2.7/site-packages/setuptools-44.1.0-py2.7.egg-info/PKG-INFO$
+- /usr/lib64/python2.7/site-packages/setuptools-44.1.0-py2.7.egg-info/SOURCES.txt$
+- /usr/lib64/python2.7/site-packages/setuptools-44.1.0-py2.7.egg-info/dependency_links.txt$
+- /usr/lib64/python2.7/site-packages/setuptools-44.1.0-py2.7.egg-info/entry_points.txt$
+- /usr/lib64/python2.7/site-packages/setuptools-44.1.0-py2.7.egg-info/requires.txt$
+- /usr/lib64/python2.7/site-packages/setuptools-44.1.0-py2.7.egg-info/top_level.txt$
+- /usr/lib64/python2.7/site-packages/setuptools-44.1.0-py2.7.egg-info/zip-safe$
 - /usr/lib64/python2.7/site-packages/setuptools/__init__.py$
 - /usr/lib64/python2.7/site-packages/setuptools/__init__.pyc$
 - /usr/lib64/python2.7/site-packages/setuptools/__init__.pyo$
@@ -388,14 +389,14 @@ includes:
 - /usr/lib64/python3.6/site-packages/pkg_resources/extern/__pycache__/__init__.cpython-36.pyc$
 - /usr/lib64/python3.6/site-packages/pkg_resources/py31compat.py$
 - /usr/lib64/python3.6/site-packages/setuptools$
-- /usr/lib64/python3.6/site-packages/setuptools-44.0.0-py3.6.egg-info$
-- /usr/lib64/python3.6/site-packages/setuptools-44.0.0-py3.6.egg-info/PKG-INFO$
-- /usr/lib64/python3.6/site-packages/setuptools-44.0.0-py3.6.egg-info/SOURCES.txt$
-- /usr/lib64/python3.6/site-packages/setuptools-44.0.0-py3.6.egg-info/dependency_links.txt$
-- /usr/lib64/python3.6/site-packages/setuptools-44.0.0-py3.6.egg-info/entry_points.txt$
-- /usr/lib64/python3.6/site-packages/setuptools-44.0.0-py3.6.egg-info/requires.txt$
-- /usr/lib64/python3.6/site-packages/setuptools-44.0.0-py3.6.egg-info/top_level.txt$
-- /usr/lib64/python3.6/site-packages/setuptools-44.0.0-py3.6.egg-info/zip-safe$
+- /usr/lib64/python3.6/site-packages/setuptools-44.1.0-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/setuptools-44.1.0-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/setuptools-44.1.0-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/setuptools-44.1.0-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/setuptools-44.1.0-py3.6.egg-info/entry_points.txt$
+- /usr/lib64/python3.6/site-packages/setuptools-44.1.0-py3.6.egg-info/requires.txt$
+- /usr/lib64/python3.6/site-packages/setuptools-44.1.0-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/setuptools-44.1.0-py3.6.egg-info/zip-safe$
 - /usr/lib64/python3.6/site-packages/setuptools/__init__.py$
 - /usr/lib64/python3.6/site-packages/setuptools/__pycache__$
 - /usr/lib64/python3.6/site-packages/setuptools/__pycache__/__init__.cpython-36.opt-1.pyc$
@@ -698,9 +699,12 @@ includes:
 - /usr/lib64/python3.6/site-packages/setuptools/windows_support.py$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/setuptools-44.0.0$
-- /usr/share/doc/setuptools-44.0.0/CHANGES.rst.bz2$
-- /usr/share/doc/setuptools-44.0.0/README.rst.bz2$
-- /usr/share/doc/setuptools-44.0.0/easy_install.txt.bz2$
-- /usr/share/doc/setuptools-44.0.0/pkg_resources.txt.bz2$
-- /usr/share/doc/setuptools-44.0.0/setuptools.txt.bz2$
+- /usr/share/doc/setuptools-44.1.0$
+- /usr/share/doc/setuptools-44.1.0/CHANGES.rst.bz2$
+- /usr/share/doc/setuptools-44.1.0/README.rst.bz2$
+- /usr/share/doc/setuptools-44.1.0/easy_install.txt.bz2$
+- /usr/share/doc/setuptools-44.1.0/pkg_resources.txt.bz2$
+- /usr/share/doc/setuptools-44.1.0/setuptools.txt.bz2$
+env:
+- ORIGINAL_ATOM=dev-python/setuptools
+- ORIGINAL_PACKAGE=dev-python/setuptools-44.1.0
