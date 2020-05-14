@@ -1,16 +1,10 @@
-Labels: null
 category: app-crypt
-conflicts: null
-id: 0
 license: CC0-1.0
 name: libb2
 requires:
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: clang-runtime-9.0.1
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -33,10 +27,8 @@ use_flags:
 - -native-cflags
 - -abi_riscv_lp64d
 version: 0.98.1+r6
-
 Labels:
   original.package.name: "libb2"
   original.package.category: "app-crypt"
   original.package.version: "0.98.1"
   original.package.slot: "0"
-

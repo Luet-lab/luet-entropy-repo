@@ -1,23 +1,14 @@
-Labels: null
 category: sys-process
-conflicts: null
-id: 0
 license: GPL-3
 name: parallel
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: perl
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: Devel-Size
-  requires: null
   version: '>=0'
 use_flags:
 - split-usr
@@ -28,10 +19,8 @@ use_flags:
 - userland_GNU
 - kernel_linux
 version: 20191022+3
-
 Labels:
   original.package.name: "parallel"
   original.package.category: "sys-process"
   original.package.version: "20191022"
   original.package.slot: "0"
-

@@ -1,16 +1,10 @@
-Labels: null
 category: dev-libs
-conflicts: null
-id: 0
 license: MIT
 name: wayland-protocols
 requires:
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: wayland
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -21,10 +15,8 @@ use_flags:
 - kernel_linux
 - abi_x86_64
 version: 1.18+3
-
 Labels:
   original.package.name: "wayland-protocols"
   original.package.category: "dev-libs"
   original.package.version: "1.18"
   original.package.slot: "0"
-

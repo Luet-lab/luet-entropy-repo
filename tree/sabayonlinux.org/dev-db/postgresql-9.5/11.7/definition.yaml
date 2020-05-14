@@ -1,0 +1,105 @@
+Labels:
+  original.package.version: "11.7"
+category: dev-db
+license: GPL-2 POSTGRESQL
+name: postgresql-9.5
+requires:
+- Labels: null
+  category: app-eselect
+  name: eselect-postgresql
+  version: '>=2.0'
+- Labels: null
+  category: dev-lang
+  name: perl
+  version: '>=5.8'
+- Labels: null
+  category: dev-lang
+  name: python-exec-2
+  version: '>=2'
+- Labels: null
+  category: dev-libs
+  name: openssl
+  version: '>=0.9.6'
+- Labels: null
+  category: dev-lang
+  name: python-3.6
+  version: '>=0'
+- Labels: null
+  category: dev-libs
+  name: libxml2-2
+  version: '>=0'
+- Labels: null
+  category: dev-libs
+  name: libxslt
+  version: '>=0'
+- Labels: null
+  category: net-nds
+  name: openldap
+  version: '>=0'
+- Labels: null
+  category: sys-apps
+  name: less
+  version: '>=0'
+- Labels: null
+  category: sys-devel
+  name: bison
+  version: '>=0'
+- Labels: null
+  category: sys-devel
+  name: flex
+  version: '>=0'
+- Labels: null
+  category: sys-libs
+  name: pam
+  version: '>=0'
+- Labels: null
+  category: sys-libs
+  name: readline
+  version: '>=0'
+- Labels: null
+  category: sys-libs
+  name: zlib
+  version: '>=0'
+use_flags:
+- pam
+- abi_x86_64
+- -elibc_FreeBSD
+- userland_GNU
+- -elibc_OpenBSD
+- ldap
+- -elibc_uclibc
+- big-endian
+- kerberos
+- -static-libs
+- -selinux
+- -doc
+- ssl
+- -debug
+- systemd
+- kernel_linux
+- -python_single_target_python3_7
+- nls
+- -elibc_musl
+- elibc_glibc
+- -uuid
+- python_single_target_python3_6
+- -elibc_NetBSD
+- readline
+- amd64
+- threads
+- perl
+- -libressl
+- zlib
+- -tcl
+- split-usr
+- python
+- server
+- xml
+- -pg_legacytimestamp
+version: "11.7"
+Labels:
+  original.package.name: "postgresql"
+  original.package.category: "dev-db"
+  original.package.version: "9.5.21"
+  original.package.slot: "9.5"
+  original.package.version:

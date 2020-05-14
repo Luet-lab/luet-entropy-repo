@@ -1,0 +1,74 @@
+Labels:
+  original.package.version: "3.34.1"
+category: net-libs
+license: LGPL-2+
+name: gnome-online-accounts
+requires:
+- Labels: null
+  category: app-crypt
+  name: libsecret
+  version: '>=0.5'
+- Labels: null
+  category: dev-libs
+  name: glib-2
+  version: '>=2.52'
+- Labels: null
+  category: dev-libs
+  name: gobject-introspection
+  version: '>=0.6.2'
+- Labels: null
+  category: dev-libs
+  name: json-glib
+  version: '>=0.16'
+- Labels: null
+  category: net-libs
+  name: libsoup-2.4
+  version: '>=2.42'
+- Labels: null
+  category: net-libs
+  name: webkit-gtk-4
+  version: '>=2.12.0'
+- Labels: null
+  category: x11-libs
+  name: gtk+-3
+  version: '>=3.19.12'
+- Labels: null
+  category: app-crypt
+  name: gcr
+  version: '>=0'
+- Labels: null
+  category: app-crypt
+  name: mit-krb5
+  version: '>=0'
+- Labels: null
+  category: dev-libs
+  name: libxml2-2
+  version: '>=0'
+- Labels: null
+  category: net-libs
+  name: rest-0.7
+  version: '>=0'
+- Labels: null
+  category: x11-libs
+  name: pango
+  version: '>=0'
+use_flags:
+- vala
+- elibc_glibc
+- abi_x86_64
+- split-usr
+- kerberos
+- -gnome
+- amd64
+- kernel_linux
+- -debug
+- big-endian
+- introspection
+- userland_GNU
+version: "3.34.1"
+Labels:
+  original.package.name: "gnome-online-accounts"
+  original.package.category: "net-libs"
+  original.package.version: "3.32.1"
+  original.package.slot: "0"
+  original.package.version:

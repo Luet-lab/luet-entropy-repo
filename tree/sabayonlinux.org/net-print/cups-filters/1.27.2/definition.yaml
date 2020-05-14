@@ -1,0 +1,80 @@
+category: net-print
+license: GPL-2 MIT
+name: cups-filters
+requires:
+- category: app-text
+  name: ghostscript-gpl
+  version: '>=9.09'
+- category: app-text
+  name: poppler-base
+  version: '>=0.32'
+- category: app-text
+  name: qpdf
+  version: '>=8.3.0'
+- category: app-text
+  name: mupdf
+  version: '>=0'
+- category: dev-lang
+  name: perl
+  version: '>=0'
+- category: dev-libs
+  name: glib-2
+  version: '>=0'
+- category: media-libs
+  name: fontconfig-1.0
+  version: '>=0'
+- category: media-libs
+  name: freetype-2
+  version: '>=0'
+- category: media-libs
+  name: lcms-2
+  version: '>=0'
+- category: media-libs
+  name: libpng
+  version: '>=0'
+- category: media-libs
+  name: tiff
+  version: '>=0'
+- category: net-dns
+  name: avahi-gtk3
+  version: '>=0'
+- category: net-nds
+  name: openldap
+  version: '>=0'
+- category: sys-apps
+  name: dbus
+  version: '>=0'
+- category: sys-devel
+  name: bc
+  version: '>=0'
+- category: sys-libs
+  name: zlib
+  version: '>=0'
+use_flags:
+- dbus
+- elibc_glibc
+- abi_x86_64
+- userland_GNU
+- amd64
+- tiff
+- pdf
+- ldap
+- perl
+- postscript
+- -test
+- big-endian
+- ipp_autosetup
+- zeroconf
+- -static-libs
+- foomatic
+- pclm
+- split-usr
+- png
+- jpeg
+- kernel_linux
+version: "1.27.2"
+Labels:
+  original.package.name: "cups-filters"
+  original.package.category: "net-print"
+  original.package.version: "1.27.2"
+  original.package.slot: "0"

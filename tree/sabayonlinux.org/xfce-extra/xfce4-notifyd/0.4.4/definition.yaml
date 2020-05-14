@@ -1,80 +1,35 @@
-Labels: null
 category: xfce-extra
-conflicts: null
-id: 0
 license: GPL-2
 name: xfce4-notifyd
 requires:
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: glib-2
-  requires: null
   version: '>=2.42'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: gtk+-3
-  requires: null
   version: '>=3.14'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libnotify
-  requires: null
   version: '>=0.7'
 - Labels: null
   category: xfce-base
-  conflicts: null
-  id: 0
   name: libxfce4ui
-  requires: null
   version: '>=4.12'
 - Labels: null
   category: xfce-base
-  conflicts: null
-  id: 0
   name: libxfce4util
-  requires: null
   version: '>=4.12'
 - Labels: null
   category: xfce-base
-  conflicts: null
-  id: 0
   name: xfce4-panel
-  requires: null
   version: '>=4.12'
 - Labels: null
   category: xfce-base
-  conflicts: null
-  id: 0
   name: xfconf
-  requires: null
   version: '>=4.10'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: gdbus-codegen
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: intltool
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: sys-devel
-  conflicts: null
-  id: 0
-  name: gettext
-  requires: null
-  version: '>=0'
 use_flags:
 - userland_GNU
 - big-endian
@@ -83,10 +38,8 @@ use_flags:
 - kernel_linux
 - amd64
 version: 0.4.4+3
-
 Labels:
   original.package.name: "xfce4-notifyd"
   original.package.category: "xfce-extra"
   original.package.version: "0.4.4"
   original.package.slot: "0"
-

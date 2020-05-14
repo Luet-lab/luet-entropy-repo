@@ -1,9 +1,7 @@
-
 category: "app-eselect"
 name: "eselect-sh"
 version: "0.4+r2"
 license: "GPL-2"
-
 use_flags:
 - "amd64"
 - "abi_x86_64"
@@ -14,10 +12,8 @@ requires:
 - category: "app-eselect"
   name: "eselect-lib-bin-symlink"
   version: ">=0"
-
 Labels:
   original.package.name: "eselect-sh"
   original.package.category: "app-eselect"
   original.package.version: "0.4"
   original.package.slot: "0"
-

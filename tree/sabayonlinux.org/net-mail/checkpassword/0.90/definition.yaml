@@ -1,17 +1,7 @@
-Labels: null
 category: net-mail
-conflicts: null
-id: 0
 license: all-rights-reserved
 name: checkpassword
-requires:
-- Labels: null
-  category: sys-apps
-  conflicts: null
-  id: 0
-  name: sed
-  requires: null
-  version: '>=4'
+requires: []
 use_flags:
 - amd64
 - big-endian
@@ -22,10 +12,8 @@ use_flags:
 - userland_GNU
 - abi_x86_64
 version: 0.90+r7
-
 Labels:
   original.package.name: "checkpassword"
   original.package.category: "net-mail"
   original.package.version: "0.90"
   original.package.slot: "0"
-

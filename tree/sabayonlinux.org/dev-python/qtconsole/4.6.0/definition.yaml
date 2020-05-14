@@ -1,51 +1,30 @@
-Labels: null
 category: dev-python
-conflicts: null
-id: 0
 license: BSD
 name: qtconsole
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-exec-2
-  requires: null
   version: '>=2'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: jupyter_client
-  requires: null
   version: '>=4.1.1'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-3.6
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: ipykernel
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: ipython
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: jupyter_core
-  requires: null
   version: '>=0'
 use_flags:
 - -python_targets_python3_7
@@ -60,10 +39,8 @@ use_flags:
 - amd64
 - elibc_glibc
 version: 4.6.0+3
-
 Labels:
   original.package.name: "qtconsole"
   original.package.category: "dev-python"
   original.package.version: "4.6.0"
   original.package.slot: "0"
-

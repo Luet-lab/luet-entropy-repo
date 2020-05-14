@@ -1,0 +1,36 @@
+unpack: true
+steps:
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/lognormalizer$
+- /usr/include$
+- /usr/include/annot.h$
+- /usr/include/enc.h$
+- /usr/include/liblognorm.h$
+- /usr/include/lognorm-features.h$
+- /usr/include/lognorm.h$
+- /usr/include/parser.h$
+- /usr/include/pdag.h$
+- /usr/include/samp.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/liblognorm.so$
+- /usr/lib64/liblognorm.so.5$
+- /usr/lib64/liblognorm.so.5.1.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/lognorm.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/liblognorm-2.0.6$
+- /usr/share/doc/liblognorm-2.0.6/ChangeLog.bz2$
+env:
+- ORIGINAL_ATOM=dev-libs/liblognorm
+- ORIGINAL_PACKAGE=dev-libs/liblognorm-2.0.6

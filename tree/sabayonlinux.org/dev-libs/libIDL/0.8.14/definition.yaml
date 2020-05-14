@@ -1,44 +1,14 @@
-Labels: null
 category: dev-libs
-conflicts: null
-id: 0
 license: LGPL-2
 name: libIDL
 requires:
 - Labels: null
-  category: app-portage
-  conflicts: null
-  id: 0
-  name: elt-patches
-  requires: null
-  version: '>=20170815'
-- Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: glib-2
-  requires: null
   version: '>=2.44.1'
 - Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: desktop-file-utils
-  requires: null
-  version: '>=0'
-- Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: flex
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: x11-misc
-  conflicts: null
-  id: 0
-  name: shared-mime-info
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -58,10 +28,8 @@ use_flags:
 - -abi_riscv_lp64
 - userland_GNU
 version: 0.8.14+r6
-
 Labels:
   original.package.name: "libIDL"
   original.package.category: "dev-libs"
   original.package.version: "0.8.14"
   original.package.slot: "0"
-

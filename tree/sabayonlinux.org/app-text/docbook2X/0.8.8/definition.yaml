@@ -1,79 +1,46 @@
-Labels: null
 category: app-text
-conflicts: null
-id: 0
 license: MIT
 name: docbook2X
 requires:
 - Labels: null
   category: app-text
-  conflicts: null
-  id: 0
   name: docbook-xml-dtd-4.5
-  requires: null
   version: '>=4.2'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: autoconf-2.69
-  requires: null
   version: '>=2.68'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: automake-1.15
-  requires: null
   version: '>=1.14'
 - Labels: null
   category: app-text
-  conflicts: null
-  id: 0
   name: docbook-xsl-stylesheets
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: perl
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libxslt
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: XML-LibXML
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: XML-NamespaceSupport
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: XML-SAX
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: libtool-2
-  requires: null
   version: '>=0'
 use_flags:
 - -test
@@ -84,10 +51,8 @@ use_flags:
 - userland_GNU
 - elibc_glibc
 version: 0.8.8+r7
-
 Labels:
   original.package.name: "docbook2X"
   original.package.category: "app-text"
   original.package.version: "0.8.8"
   original.package.slot: "0"
-

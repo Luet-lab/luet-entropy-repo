@@ -1,58 +1,30 @@
-Labels: null
 category: media-libs
-conflicts: null
-id: 0
 license: GPL-2
 name: libgphoto2
 requires:
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libxml2-2
-  requires: null
   version: '>=2.9.1'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: libexif
-  requires: null
   version: '>=0.6.21'
 - Labels: null
-  category: sys-devel
-  conflicts: null
-  id: 0
-  name: gettext
-  requires: null
-  version: '>=0.14.1'
-- Labels: null
   category: acct-group
-  conflicts: null
-  id: 0
   name: plugdev
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libltdl
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: gtk-doc-am
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: flex
-  requires: null
   version: '>=0'
 use_flags:
 - cameras_polaroid_pdc640
@@ -143,10 +115,8 @@ use_flags:
 - -gd
 - cameras_fuji
 version: 2.5.22+4
-
 Labels:
   original.package.name: "libgphoto2"
   original.package.category: "media-libs"
   original.package.version: "2.5.22"
   original.package.slot: "0"
-

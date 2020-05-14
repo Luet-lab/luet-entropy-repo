@@ -1,93 +1,38 @@
-Labels: null
 category: dev-python
-conflicts: null
-id: 0
 license: GPL-2+ LGPL-2
 name: pyatspi
 requires:
 - Labels: null
   category: app-accessibility
-  conflicts: null
-  id: 0
   name: at-spi2-core-2
-  requires: null
   version: '>=2.34'
 - Labels: null
-  category: app-portage
-  conflicts: null
-  id: 0
-  name: elt-patches
-  requires: null
-  version: '>=20170815'
-- Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-2.7
-  requires: null
   version: '>=2.7.5'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-exec-2
-  requires: null
   version: '>=2'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: atk
-  requires: null
   version: '>=2.11.2'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: pygobject-base-3
-  requires: null
   version: '>=2.90.1'
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: dbus
-  requires: null
   version: '>=1'
 - Labels: null
-  category: app-arch
-  conflicts: null
-  id: 0
-  name: xz-utils
-  requires: null
-  version: '>=0'
-- Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-3.6
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: dbus-python
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: desktop-file-utils
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: x11-misc
-  conflicts: null
-  id: 0
-  name: shared-mime-info
-  requires: null
   version: '>=0'
 use_flags:
 - kernel_linux
@@ -102,10 +47,8 @@ use_flags:
 - split-usr
 - python_targets_python3_6
 version: 2.34.0+3
-
 Labels:
   original.package.name: "pyatspi"
   original.package.category: "dev-python"
   original.package.version: "2.34.0"
   original.package.slot: "0"
-

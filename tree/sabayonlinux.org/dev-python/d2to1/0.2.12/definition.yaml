@@ -1,51 +1,26 @@
-Labels: null
 category: dev-python
-conflicts: null
-id: 0
 license: BSD
 name: d2to1
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-2.7
-  requires: null
   version: '>=2.7.5'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-exec-2
-  requires: null
   version: '>=2'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-3.6
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: nose
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
-  name: setuptools
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-python
-  conflicts: null
-  id: 0
   name: six
-  requires: null
   version: '>=0'
 use_flags:
 - python_targets_python3_6
@@ -60,10 +35,8 @@ use_flags:
 - -python_targets_python3_5
 - amd64
 version: 0.2.12+p4
-
 Labels:
   original.package.name: "d2to1"
   original.package.category: "dev-python"
   original.package.version: "0.2.12"
   original.package.slot: "0"
-

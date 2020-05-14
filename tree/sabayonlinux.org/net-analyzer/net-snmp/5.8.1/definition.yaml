@@ -1,100 +1,50 @@
-Labels: null
 category: net-analyzer
-conflicts: null
-id: 0
 license: BSD GPL-2 HPND
 name: net-snmp
 requires:
 - Labels: null
-  category: app-portage
-  conflicts: null
-  id: 0
-  name: elt-patches
-  requires: null
-  version: '>=20170815'
-- Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-2.7
-  requires: null
   version: '>=2.7.5'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-exec-2
-  requires: null
   version: '>=2'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: openssl
-  requires: null
   version: '>=0.9.6d'
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: tcp-wrappers
-  requires: null
   version: '>=7.6'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: autoconf-2.69
-  requires: null
   version: '>=2.69'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: libtool-2
-  requires: null
   version: '>=2.4'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: zlib
-  requires: null
   version: '>=1.1.4'
 - Labels: null
   category: app-arch
-  conflicts: null
-  id: 0
   name: bzip2
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: perl
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: TermReadKey
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-python
-  conflicts: null
-  id: 0
-  name: setuptools
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: automake-1.15
-  requires: null
   version: '>=0'
 use_flags:
 - -lm-sensors
@@ -129,10 +79,8 @@ use_flags:
 - kernel_linux
 - -X
 version: 5.8.1+pre2.1
-
 Labels:
   original.package.name: "net-snmp"
   original.package.category: "net-analyzer"
   original.package.version: "5.8.1"
   original.package.slot: "0"
-

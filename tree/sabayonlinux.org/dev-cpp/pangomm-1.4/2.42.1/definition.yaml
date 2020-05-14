@@ -1,0 +1,44 @@
+category: dev-cpp
+license: LGPL-2.1+
+name: pangomm-1.4
+requires:
+- Labels: null
+  category: dev-cpp
+  name: cairomm
+  version: '>=1.12.0'
+- Labels: null
+  category: dev-cpp
+  name: glibmm-2
+  version: '>=2.48.0'
+- Labels: null
+  category: dev-libs
+  name: libsigc++-2
+  version: '>=0'
+- Labels: null
+  category: x11-libs
+  name: pango
+  version: '>=1.41.0'
+use_flags:
+- big-endian
+- -abi_s390_32
+- -abi_mips_n32
+- -abi_x86_x32
+- -abi_riscv_lp64d
+- -abi_mips_n64
+- amd64
+- -abi_mips_o32
+- elibc_glibc
+- abi_x86_64
+- kernel_linux
+- abi_x86_32
+- -abi_s390_64
+- split-usr
+- -abi_riscv_lp64
+- userland_GNU
+- -doc
+version: "2.42.1"
+Labels:
+  original.package.name: "pangomm"
+  original.package.category: "dev-cpp"
+  original.package.version: "2.42.1"
+  original.package.slot: "1.4"

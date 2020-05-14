@@ -1,37 +1,22 @@
-Labels: null
 category: net-misc
-conflicts: null
-id: 0
 license: GPL-2
 name: vde
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-2.7
-  requires: null
   version: '>=2.7.5'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-exec-2
-  requires: null
   version: '>=2'
 - Labels: null
   category: acct-group
-  conflicts: null
-  id: 0
   name: qemu
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: openssl
-  requires: null
   version: '>=0'
 use_flags:
 - -pcap
@@ -49,10 +34,8 @@ use_flags:
 - -libressl
 - userland_GNU
 version: 2.3.2+r7
-
 Labels:
   original.package.name: "vde"
   original.package.category: "net-misc"
   original.package.version: "2.3.2"
   original.package.slot: "0"
-

@@ -1,93 +1,54 @@
-Labels: null
 category: dev-haskell
-conflicts: null
-id: 0
 license: BSD
 name: x509-store
 requires:
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: asn1-encoding
-  requires: null
   version: <0.10
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: asn1-types
-  requires: null
   version: <0.4
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: pem
-  requires: null
   version: <0.3
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: x509
-  requires: null
   version: <1.7
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: asn1-encoding
-  requires: null
   version: '>=0.9'
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: asn1-types
-  requires: null
   version: '>=0.3'
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: cabal
-  requires: null
   version: '>=1.8'
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: pem
-  requires: null
   version: '>=0.1'
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: x509
-  requires: null
   version: '>=1.6'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: ghc
-  requires: null
   version: '>=7.4.1'
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: cryptonite
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: mtl
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -100,10 +61,8 @@ use_flags:
 - -profile
 - abi_x86_64
 version: 1.6.2+1
-
 Labels:
   original.package.name: "x509-store"
   original.package.category: "dev-haskell"
   original.package.version: "1.6.2"
   original.package.slot: "0"
-

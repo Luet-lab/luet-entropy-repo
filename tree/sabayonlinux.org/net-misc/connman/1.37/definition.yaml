@@ -1,93 +1,46 @@
-Labels: null
 category: net-misc
-conflicts: null
-id: 0
 license: GPL-2
 name: connman
 requires:
 - Labels: null
-  category: app-portage
-  conflicts: null
-  id: 0
-  name: elt-patches
-  requires: null
-  version: '>=20170815'
-- Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: glib-2
-  requires: null
   version: '>=2.16'
 - Labels: null
   category: net-firewall
-  conflicts: null
-  id: 0
   name: iptables
-  requires: null
   version: '>=1.4.8'
 - Labels: null
   category: net-wireless
-  conflicts: null
-  id: 0
   name: wpa_supplicant
-  requires: null
   version: '>=2.0'
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: dbus
-  requires: null
   version: '>=1.2.24'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: autoconf-2.69
-  requires: null
   version: '>=2.69'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: automake-1.15
-  requires: null
   version: '>=1.15.1'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: libtool-2
-  requires: null
   version: '>=2.4'
 - Labels: null
-  category: sys-kernel
-  conflicts: null
-  id: 0
-  name: linux-headers
-  requires: null
-  version: '>=2.6.39'
-- Labels: null
   category: net-wireless
-  conflicts: null
-  id: 0
   name: bluez
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-auth
-  conflicts: null
-  id: 0
   name: polkit
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: readline
-  requires: null
   version: '>=0'
 use_flags:
 - -examples
@@ -116,10 +69,8 @@ use_flags:
 - userland_GNU
 - -doc
 version: 1.37+3
-
 Labels:
   original.package.name: "connman"
   original.package.category: "net-misc"
   original.package.version: "1.37"
   original.package.slot: "0"
-

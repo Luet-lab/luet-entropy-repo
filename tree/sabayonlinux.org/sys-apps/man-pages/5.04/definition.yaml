@@ -1,16 +1,10 @@
-Labels: null
 category: sys-apps
-conflicts: null
-id: 0
 license: BSD GPL-2+ man-pages
 name: man-pages
 requires:
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: man-pages-posix
-  requires: null
   version: '>=0'
 use_flags:
 - nls
@@ -31,10 +25,8 @@ use_flags:
 - -l10n_ru
 - userland_GNU
 version: 5.04+3
-
 Labels:
   original.package.name: "man-pages"
   original.package.category: "sys-apps"
   original.package.version: "5.04"
   original.package.slot: "0"
-

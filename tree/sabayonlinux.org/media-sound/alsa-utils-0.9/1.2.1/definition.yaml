@@ -1,0 +1,40 @@
+category: media-sound
+license: GPL-2
+name: alsa-utils-0.9
+requires:
+- Labels: null
+  category: media-libs
+  name: alsa-lib
+  version: '>=1.1.9'
+- Labels: null
+  category: sys-libs
+  name: ncurses
+  version: '>=5.7'
+- Labels: null
+  category: media-libs
+  name: libffado
+  version: '>=0'
+- Labels: null
+  category: media-libs
+  name: libsamplerate
+  version: '>=0'
+use_flags:
+- -selinux
+- kernel_linux
+- -doc
+- nls
+- -bat
+- ncurses
+- userland_GNU
+- amd64
+- libsamplerate
+- big-endian
+- split-usr
+- elibc_glibc
+- abi_x86_64
+version: "1.2.1"
+Labels:
+  original.package.name: "alsa-utils"
+  original.package.category: "media-sound"
+  original.package.version: "1.1.9"
+  original.package.slot: "0.9"

@@ -1,37 +1,22 @@
-Labels: null
 category: dev-python
-conflicts: null
-id: 0
 license: MIT
 name: cffi
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-2.7
-  requires: null
   version: '>=2.7.5'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-exec-2
-  requires: null
   version: '>=2'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-3.6
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: pycparser
-  requires: null
   version: '>=0'
 use_flags:
 - python_targets_python3_6
@@ -49,10 +34,8 @@ use_flags:
 - -python_targets_python3_5
 - -test
 version: 1.13.2+3
-
 Labels:
   original.package.name: "cffi"
   original.package.category: "dev-python"
   original.package.version: "1.13.2"
   original.package.slot: "0"
-

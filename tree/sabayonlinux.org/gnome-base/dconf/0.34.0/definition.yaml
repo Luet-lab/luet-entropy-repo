@@ -1,0 +1,40 @@
+category: gnome-base
+license: LGPL-2.1+
+name: dconf
+requires:
+- Labels: null
+  category: dev-libs
+  name: glib-2
+  version: '>=2.44.0'
+- Labels: null
+  category: app-text
+  name: docbook-xml-dtd-4.5
+  version: '>=0'
+- Labels: null
+  category: app-text
+  name: docbook-xsl-stylesheets
+  version: '>=0'
+- Labels: null
+  category: dev-libs
+  name: libxslt
+  version: '>=0'
+- Labels: null
+  category: sys-apps
+  name: dbus
+  version: '>=0'
+use_flags:
+- -gtk-doc
+- elibc_glibc
+- -test
+- kernel_linux
+- split-usr
+- abi_x86_64
+- big-endian
+- userland_GNU
+- amd64
+version: "0.34.0"
+Labels:
+  original.package.name: "dconf"
+  original.package.category: "gnome-base"
+  original.package.version: "0.32.0"
+  original.package.slot: "0"

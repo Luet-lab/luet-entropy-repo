@@ -1,198 +1,114 @@
-Labels: null
 category: dev-util
-conflicts: null
-id: 0
 license: NVIDIA-CUDA
 name: nvidia-cuda-toolkit
 requires:
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: gcc-8.2.0
-  requires: null
   version: <9
 - Labels: null
   category: x11-drivers
-  conflicts: null
-  id: 0
   name: nvidia-userspace
-  requires: null
   version: '>=440.33.01'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: hyphen
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: openssl-compat-1.0.0
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-qt
-  conflicts: null
-  id: 0
   name: designer-5
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-qt
-  conflicts: null
-  id: 0
   name: qtcharts-5
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-qt
-  conflicts: null
-  id: 0
   name: qtconcurrent-5
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-qt
-  conflicts: null
-  id: 0
   name: qtdbus-5
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-qt
-  conflicts: null
-  id: 0
   name: qtdeclarative-5
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-qt
-  conflicts: null
-  id: 0
   name: qtgui-5
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-qt
-  conflicts: null
-  id: 0
   name: qtmultimedia-5
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-qt
-  conflicts: null
-  id: 0
   name: qtnetwork-5
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-qt
-  conflicts: null
-  id: 0
   name: qtopengl-5
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-qt
-  conflicts: null
-  id: 0
   name: qtpositioning-5
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-qt
-  conflicts: null
-  id: 0
   name: qtprintsupport-5
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-qt
-  conflicts: null
-  id: 0
   name: qtscript-5
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-qt
-  conflicts: null
-  id: 0
   name: qtsql-5
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-qt
-  conflicts: null
-  id: 0
   name: qtsvg-5
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-qt
-  conflicts: null
-  id: 0
   name: qttest-5
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-qt
-  conflicts: null
-  id: 0
   name: qtwebchannel-5
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-qt
-  conflicts: null
-  id: 0
   name: qtwebengine-5
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-qt
-  conflicts: null
-  id: 0
   name: qtwebkit-5
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-qt
-  conflicts: null
-  id: 0
   name: qtwidgets-5
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-qt
-  conflicts: null
-  id: 0
   name: qtxml-5
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: libpng-compat-1.2
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: libtermcap-compat
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: ncurses-compat-5
-  requires: null
   version: '>=0'
 use_flags:
 - profiler
@@ -207,10 +123,8 @@ use_flags:
 - split-usr
 - amd64
 version: 10.2.89+r4
-
 Labels:
   original.package.name: "nvidia-cuda-toolkit"
   original.package.category: "dev-util"
   original.package.version: "10.2.89"
   original.package.slot: "0"
-

@@ -1,23 +1,10 @@
-Labels: null
 category: app-arch
-conflicts: null
-id: 0
 license: BSD-1
 name: rpm2targz
 requires:
 - Labels: null
   category: app-arch
-  conflicts: null
-  id: 0
   name: cpio
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: app-arch
-  conflicts: null
-  id: 0
-  name: xz-utils
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -27,10 +14,8 @@ use_flags:
 - abi_x86_64
 - kernel_linux
 version: 9.0.0.5g+3
-
 Labels:
   original.package.name: "rpm2targz"
   original.package.category: "app-arch"
   original.package.version: "9.0.0.5g"
   original.package.slot: "0"
-

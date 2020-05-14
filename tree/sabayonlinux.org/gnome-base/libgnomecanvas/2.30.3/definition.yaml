@@ -1,94 +1,31 @@
-Labels: null
 category: gnome-base
-conflicts: null
-id: 0
 license: LGPL-2
 name: libgnomecanvas
 requires:
 - Labels: null
-  category: app-portage
-  conflicts: null
-  id: 0
-  name: elt-patches
-  requires: null
-  version: '>=20170815'
-- Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: perl
-  requires: null
   version: '>=5'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: glib-2
-  requires: null
   version: '>=2.34.3'
 - Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: intltool
-  requires: null
-  version: '>=0.35'
-- Labels: null
   category: gnome-base
-  conflicts: null
-  id: 0
   name: libglade-2.0
-  requires: null
   version: '>=2.6.4'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: libart_lgpl
-  requires: null
   version: '>=2.3.21'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: gtk+-3
-  requires: null
   version: '>=2.24.23'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: pango
-  requires: null
   version: '>=1.36.3'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: desktop-file-utils
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: glib-utils
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: sys-devel
-  conflicts: null
-  id: 0
-  name: gettext
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: x11-misc
-  conflicts: null
-  id: 0
-  name: shared-mime-info
-  requires: null
-  version: '>=0'
 use_flags:
 - big-endian
 - -abi_s390_32
@@ -109,10 +46,8 @@ use_flags:
 - -abi_riscv_lp64
 - userland_GNU
 version: 2.30.3+r5
-
 Labels:
   original.package.name: "libgnomecanvas"
   original.package.category: "gnome-base"
   original.package.version: "2.30.3"
   original.package.slot: "0"
-

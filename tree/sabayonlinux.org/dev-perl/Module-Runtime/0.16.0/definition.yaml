@@ -1,23 +1,14 @@
-Labels: null
 category: dev-perl
-conflicts: null
-id: 0
 license: Artistic GPL-1+
 name: Module-Runtime
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: perl
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: Module-Build
-  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU
@@ -29,10 +20,8 @@ use_flags:
 - elibc_glibc
 - kernel_linux
 version: 0.16.0+3
-
 Labels:
   original.package.name: "Module-Runtime"
   original.package.category: "dev-perl"
   original.package.version: "0.16.0"
   original.package.slot: "0"
-

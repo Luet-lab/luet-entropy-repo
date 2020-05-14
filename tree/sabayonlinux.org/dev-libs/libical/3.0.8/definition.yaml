@@ -1,0 +1,44 @@
+Labels:
+  original.package.version: "3.0.8"
+category: dev-libs
+license: LGPL-2.1 MPL-2.0
+name: libical
+requires:
+- Labels: null
+  category: dev-lang
+  name: perl
+  version: '>=0'
+- Labels: null
+  category: dev-libs
+  name: icu
+  version: '>=0'
+- Labels: null
+  category: sys-libs
+  name: db-6.0
+  version: '>=0'
+- Labels: null
+  category: sys-libs
+  name: timezone-data
+  version: '>=0'
+use_flags:
+- big-endian
+- elibc_glibc
+- abi_x86_64
+- -examples
+- berkdb
+- kernel_linux
+- amd64
+- -static-libs
+- -vala
+- userland_GNU
+- -doc
+- -introspection
+- split-usr
+- -test
+version: "3.0.8"
+Labels:
+  original.package.name: "libical"
+  original.package.category: "dev-libs"
+  original.package.version: "3.0.7"
+  original.package.slot: "0"
+  original.package.version:

@@ -1,37 +1,22 @@
-Labels: null
 category: dev-tcltk
-conflicts: null
-id: 0
 license: BSD
 name: tix
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: tk
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libX11
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXau
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXdmcp
-  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc
@@ -41,10 +26,8 @@ use_flags:
 - abi_x86_64
 - userland_GNU
 version: 8.4.3+r4
-
 Labels:
   original.package.name: "tix"
   original.package.category: "dev-tcltk"
   original.package.version: "8.4.3"
   original.package.slot: "0"
-

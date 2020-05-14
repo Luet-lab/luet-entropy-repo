@@ -1,51 +1,26 @@
-Labels: null
 category: net-libs
-conflicts: null
-id: 0
 license: GPL-2
 name: libnetfilter_conntrack
 requires:
 - Labels: null
-  category: app-portage
-  conflicts: null
-  id: 0
-  name: elt-patches
-  requires: null
-  version: '>=20170815'
-- Labels: null
   category: net-libs
-  conflicts: null
-  id: 0
   name: libmnl
-  requires: null
   version: '>=1.0.3'
 - Labels: null
   category: net-libs
-  conflicts: null
-  id: 0
   name: libnfnetlink
-  requires: null
   version: '>=1.0.0'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: autoconf-2.69
-  requires: null
   version: '>=2.69'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: automake-1.15
-  requires: null
   version: '>=1.15.1'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: libtool-2
-  requires: null
   version: '>=2.4'
 use_flags:
 - userland_GNU
@@ -56,10 +31,8 @@ use_flags:
 - big-endian
 - abi_x86_64
 version: 1.0.7+3
-
 Labels:
   original.package.name: "libnetfilter_conntrack"
   original.package.category: "net-libs"
   original.package.version: "1.0.7"
   original.package.slot: "0"
-

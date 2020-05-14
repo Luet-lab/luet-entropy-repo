@@ -4,10 +4,7 @@ name: mkfontdir
 requires:
 - Labels: null
   category: x11-apps
-  conflicts: null
-  id: 0
   name: mkfontscale
-  requires: null
   version: '>=1.2.0'
 use_flags:
 - amd64
@@ -17,10 +14,8 @@ use_flags:
 - abi_x86_64
 - big-endian
 version: 1.2.0+4
-
 Labels:
   original.package.name: "mkfontdir"
   original.package.category: "x11-apps"
   original.package.version: "1.2.0"
   original.package.slot: "0"
-

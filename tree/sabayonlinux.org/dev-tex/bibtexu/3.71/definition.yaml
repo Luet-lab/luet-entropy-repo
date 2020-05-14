@@ -1,23 +1,14 @@
-Labels: null
 category: dev-tex
-conflicts: null
-id: 0
 license: GPL-2
 name: bibtexu
 requires:
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: icu
-  requires: null
   version: '>=4.4'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: kpathsea
-  requires: null
   version: '>=6.2.1'
 use_flags:
 - big-endian
@@ -30,10 +21,8 @@ use_flags:
 - -doc
 - split-usr
 version: 3.71+p20190413
-
 Labels:
   original.package.name: "bibtexu"
   original.package.category: "dev-tex"
   original.package.version: "3.71"
   original.package.slot: "0"
-

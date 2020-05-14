@@ -20,9 +20,6 @@ requires:
 - category: app-arch
   name: bzip2
   version: '>=0'
-- category: app-arch
-  name: xz-utils
-  version: '>=0'
 - category: app-misc
   name: mime-types
   version: '>=0'
@@ -57,10 +54,8 @@ use_flags:
 - -libressl
 - userland_GNU
 version: 3.6.9+3
-
 Labels:
   original.package.name: "python"
   original.package.category: "dev-lang"
   original.package.version: "3.6.9"
   original.package.slot: "3.6"
-

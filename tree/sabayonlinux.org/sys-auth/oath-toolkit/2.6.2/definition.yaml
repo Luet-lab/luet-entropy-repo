@@ -1,51 +1,26 @@
-Labels: null
 category: sys-auth
-conflicts: null
-id: 0
 license: GPL-3 LGPL-2.1
 name: oath-toolkit
 requires:
 - Labels: null
-  category: app-portage
-  conflicts: null
-  id: 0
-  name: elt-patches
-  requires: null
-  version: '>=20170815'
-- Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: autoconf-2.69
-  requires: null
   version: '>=2.69'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: automake-1.15
-  requires: null
   version: '>=1.15.1'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: libtool-2
-  requires: null
   version: '>=2.4'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: gtk-doc-am
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: pam
-  requires: null
   version: '>=0'
 use_flags:
 - kernel_linux
@@ -59,10 +34,8 @@ use_flags:
 - -test
 - -pskc
 version: 2.6.2+3
-
 Labels:
   original.package.name: "oath-toolkit"
   original.package.category: "sys-auth"
   original.package.version: "2.6.2"
   original.package.slot: "0"
-

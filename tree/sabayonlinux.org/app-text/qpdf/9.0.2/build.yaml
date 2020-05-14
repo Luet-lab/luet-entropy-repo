@@ -1,0 +1,87 @@
+unpack: true
+steps:
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/fix-qdf$
+- /usr/bin/qpdf$
+- /usr/bin/zlib-flate$
+- /usr/include$
+- /usr/include/qpdf$
+- /usr/include/qpdf/Buffer.hh$
+- /usr/include/qpdf/BufferInputSource.hh$
+- /usr/include/qpdf/ClosedFileInputSource.hh$
+- /usr/include/qpdf/Constants.h$
+- /usr/include/qpdf/DLL.h$
+- /usr/include/qpdf/FileInputSource.hh$
+- /usr/include/qpdf/InputSource.hh$
+- /usr/include/qpdf/JSON.hh$
+- /usr/include/qpdf/Pipeline.hh$
+- /usr/include/qpdf/Pl_Buffer.hh$
+- /usr/include/qpdf/Pl_Concatenate.hh$
+- /usr/include/qpdf/Pl_Count.hh$
+- /usr/include/qpdf/Pl_DCT.hh$
+- /usr/include/qpdf/Pl_Discard.hh$
+- /usr/include/qpdf/Pl_Flate.hh$
+- /usr/include/qpdf/Pl_QPDFTokenizer.hh$
+- /usr/include/qpdf/Pl_RunLength.hh$
+- /usr/include/qpdf/Pl_StdioFile.hh$
+- /usr/include/qpdf/PointerHolder.hh$
+- /usr/include/qpdf/QIntC.hh$
+- /usr/include/qpdf/QPDF.hh$
+- /usr/include/qpdf/QPDFAcroFormDocumentHelper.hh$
+- /usr/include/qpdf/QPDFAnnotationObjectHelper.hh$
+- /usr/include/qpdf/QPDFDocumentHelper.hh$
+- /usr/include/qpdf/QPDFExc.hh$
+- /usr/include/qpdf/QPDFFormFieldObjectHelper.hh$
+- /usr/include/qpdf/QPDFNameTreeObjectHelper.hh$
+- /usr/include/qpdf/QPDFNumberTreeObjectHelper.hh$
+- /usr/include/qpdf/QPDFObjGen.hh$
+- /usr/include/qpdf/QPDFObject.hh$
+- /usr/include/qpdf/QPDFObjectHandle.hh$
+- /usr/include/qpdf/QPDFObjectHelper.hh$
+- /usr/include/qpdf/QPDFOutlineDocumentHelper.hh$
+- /usr/include/qpdf/QPDFOutlineObjectHelper.hh$
+- /usr/include/qpdf/QPDFPageDocumentHelper.hh$
+- /usr/include/qpdf/QPDFPageLabelDocumentHelper.hh$
+- /usr/include/qpdf/QPDFPageObjectHelper.hh$
+- /usr/include/qpdf/QPDFSystemError.hh$
+- /usr/include/qpdf/QPDFTokenizer.hh$
+- /usr/include/qpdf/QPDFWriter.hh$
+- /usr/include/qpdf/QPDFXRefEntry.hh$
+- /usr/include/qpdf/QTC.hh$
+- /usr/include/qpdf/QUtil.hh$
+- /usr/include/qpdf/RandomDataProvider.hh$
+- /usr/include/qpdf/Types.h$
+- /usr/include/qpdf/qpdf-c.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libqpdf.so$
+- /usr/lib64/libqpdf.so.26$
+- /usr/lib64/libqpdf.so.26.0.2$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libqpdf.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/qpdf-9.0.2$
+- /usr/share/doc/qpdf-9.0.2/ChangeLog.bz2$
+- /usr/share/doc/qpdf-9.0.2/README.md.bz2$
+- /usr/share/doc/qpdf-9.0.2/TODO.bz2$
+- /usr/share/doc/qpdf-9.0.2/qpdf-manual.html$
+- /usr/share/doc/qpdf-9.0.2/qpdf-manual.pdf$
+- /usr/share/doc/qpdf-9.0.2/stylesheet.css$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/fix-qdf.1.bz2$
+- /usr/share/man/man1/qpdf.1.bz2$
+- /usr/share/man/man1/zlib-flate.1.bz2$
+env:
+- ORIGINAL_ATOM=app-text/qpdf
+- ORIGINAL_PACKAGE=app-text/qpdf-9.0.2

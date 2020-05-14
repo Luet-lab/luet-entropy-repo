@@ -1,0 +1,202 @@
+category: www-client
+license: GPL-2 LGPL-2.1 MPL-2.0
+name: firefox-bin
+requires:
+- Labels: null
+  category: dev-libs
+  name: dbus-glib
+  version: '>=0.72'
+- Labels: null
+  category: dev-libs
+  name: glib-2
+  version: '>=2.26'
+- Labels: null
+  category: media-libs
+  name: freetype-2
+  version: '>=2.4.10'
+- Labels: null
+  category: sys-apps
+  name: dbus
+  version: '>=0.60'
+- Labels: null
+  category: x11-libs
+  name: cairo
+  version: '>=1.10'
+- Labels: null
+  category: x11-libs
+  name: gtk+-3
+  version: '>=2.18'
+- Labels: null
+  category: x11-libs
+  name: gtk+-3
+  version: '>=3.4.0'
+- Labels: null
+  category: x11-libs
+  name: pango
+  version: '>=1.22.0'
+- Labels: null
+  category: app-arch
+  name: unzip
+  version: '>=0'
+- Labels: null
+  category: dev-libs
+  name: atk
+  version: '>=0'
+- Labels: null
+  category: dev-libs
+  name: nss
+  version: '>=0'
+- Labels: null
+  category: media-libs
+  name: fontconfig-1.0
+  version: '>=0'
+- Labels: null
+  category: media-sound
+  name: pulseaudio
+  version: '>=0'
+- Labels: null
+  category: media-video
+  name: ffmpeg
+  version: '>=0'
+- Labels: null
+  category: x11-libs
+  name: gdk-pixbuf-2
+  version: '>=0'
+- Labels: null
+  category: x11-libs
+  name: libX11
+  version: '>=0'
+- Labels: null
+  category: x11-libs
+  name: libXcomposite
+  version: '>=0'
+- Labels: null
+  category: x11-libs
+  name: libXdamage
+  version: '>=0'
+- Labels: null
+  category: x11-libs
+  name: libXext
+  version: '>=0'
+- Labels: null
+  category: x11-libs
+  name: libXfixes
+  version: '>=0'
+- Labels: null
+  category: x11-libs
+  name: libXrender
+  version: '>=0'
+- Labels: null
+  category: x11-libs
+  name: libXt
+  version: '>=0'
+use_flags:
+- big-endian
+- l10n_eo
+- -l10n_oc
+- l10n_it
+- -l10n_dsb
+- -l10n_cak
+- l10n_uz
+- l10n_uk
+- l10n_he
+- l10n_lv
+- l10n_kk
+- l10n_es-AR
+- l10n_ms
+- l10n_ro
+- l10n_az
+- l10n_pt-PT
+- l10n_ko
+- -l10n_th
+- -l10n_mr
+- split-usr
+- ffmpeg
+- -l10n_hsb
+- l10n_bg
+- -l10n_es-CL
+- l10n_fi
+- l10n_pt-BR
+- l10n_bs
+- -l10n_ur
+- -l10n_xh
+- l10n_nb
+- l10n_sv
+- l10n_gl
+- -l10n_ast
+- l10n_eu
+- l10n_sl
+- l10n_nl
+- l10n_es-ES
+- amd64
+- l10n_sk
+- l10n_en-GB
+- l10n_bn
+- -l10n_kn
+- kernel_linux
+- l10n_ar
+- l10n_ga
+- l10n_ja
+- pulseaudio
+- l10n_fa
+- l10n_el
+- l10n_pa
+- l10n_br
+- l10n_af
+- l10n_ta
+- l10n_gu
+- -l10n_be
+- l10n_lt
+- l10n_hi
+- -l10n_gd
+- -l10n_sq
+- l10n_ru
+- -l10n_son
+- abi_x86_64
+- -l10n_lij
+- l10n_de
+- l10n_cy
+- -l10n_an
+- -l10n_id
+- l10n_cs
+- l10n_tr
+- -l10n_ff
+- -l10n_si
+- l10n_et
+- l10n_zh-CN
+- l10n_hr
+- -l10n_rm
+- -l10n_te
+- -l10n_my
+- l10n_nn
+- userland_GNU
+- -l10n_kab
+- l10n_zh-TW
+- alsa
+- l10n_is
+- l10n_fy
+- -l10n_hy
+- -l10n_ia
+- l10n_pl
+- l10n_sr
+- l10n_fr
+- startup-notification
+- l10n_vi
+- l10n_km
+- elibc_glibc
+- -l10n_ka
+- -l10n_gn
+- -l10n_ach
+- l10n_mk
+- -selinux
+- l10n_hu
+- l10n_ca
+- l10n_da
+- -l10n_es-MX
+- -l10n_en-CA
+version: "75.0"
+Labels:
+  original.package.name: "firefox-bin"
+  original.package.category: "www-client"
+  original.package.version: "74.0"
+  original.package.slot: "0"

@@ -73,3 +73,7 @@ auto-bump:
 .PHONY: auto-clean
 auto-clean:
 	$(ROOT_DIR)/scripts/auto-clean.sh
+
+.PHONY: changes
+changes:
+	$(ROOT_DIR)/scripts/build-changes.sh

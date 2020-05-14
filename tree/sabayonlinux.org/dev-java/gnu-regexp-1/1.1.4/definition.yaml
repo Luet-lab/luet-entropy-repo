@@ -1,23 +1,14 @@
-Labels: null
 category: dev-java
-conflicts: null
-id: 0
 license: LGPL-2.1
 name: gnu-regexp-1
 requires:
 - Labels: null
   category: dev-java
-  conflicts: null
-  id: 0
   name: java-config-2
-  requires: null
   version: '>=2.2.0'
 - Labels: null
   category: dev-java
-  conflicts: null
-  id: 0
   name: java-getopt-1
-  requires: null
   version: '>=0'
 use_flags:
 - -doc
@@ -29,10 +20,8 @@ use_flags:
 - -source
 - amd64
 version: 1.1.4+r6
-
 Labels:
   original.package.name: "gnu-regexp"
   original.package.category: "dev-java"
   original.package.version: "1.1.4"
   original.package.slot: "1"
-

@@ -1,0 +1,54 @@
+Labels:
+  original.package.version: "0.39.0"
+category: x11-drivers
+license: GPL-2
+name: xf86-input-wacom
+requires:
+- Labels: null
+  category: x11-base
+  name: xorg-server
+  version: '>=1.20'
+- Labels: null
+  category: x11-base
+  name: xorg-server
+  version: '>=1.7'
+- Labels: null
+  category: dev-libs
+  name: libwacom
+  version: '>=0'
+- Labels: null
+  category: x11-libs
+  name: libX11
+  version: '>=0'
+- Labels: null
+  category: x11-libs
+  name: libXext
+  version: '>=0'
+- Labels: null
+  category: x11-libs
+  name: libXi
+  version: '>=0'
+- Labels: null
+  category: x11-libs
+  name: libXinerama
+  version: '>=0'
+- Labels: null
+  category: x11-libs
+  name: libXrandr
+  version: '>=0'
+use_flags:
+- abi_x86_64
+- amd64
+- split-usr
+- big-endian
+- userland_GNU
+- elibc_glibc
+- -debug
+- kernel_linux
+version: "0.39.0"
+Labels:
+  original.package.name: "xf86-input-wacom"
+  original.package.category: "x11-drivers"
+  original.package.version: "0.38.0"
+  original.package.slot: "0"
+  original.package.version:

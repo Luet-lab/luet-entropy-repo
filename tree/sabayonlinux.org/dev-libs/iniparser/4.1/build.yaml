@@ -1,0 +1,27 @@
+unpack: true
+steps:
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/iniparser4$
+- /usr/include/iniparser4/dictionary.h$
+- /usr/include/iniparser4/iniparser.h$
+- /usr/lib64$
+- /usr/lib64/libiniparser4.so$
+- /usr/lib64/libiniparser4.so.1$
+- /usr/lib64/libiniparser4.so.1.0.0$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/iniparser-4.1$
+- /usr/share/doc/iniparser-4.1/AUTHORS.bz2$
+- /usr/share/doc/iniparser-4.1/README.md.bz2$
+env:
+- ORIGINAL_ATOM=dev-libs/iniparser
+- ORIGINAL_PACKAGE=dev-libs/iniparser-4.1

@@ -1,17 +1,7 @@
-Labels: null
 category: x11-misc
-conflicts: null
-id: 0
 license: MIT
 name: gccmakedep
-requires:
-- Labels: null
-  category: x11-base
-  conflicts: null
-  id: 0
-  name: xorg-proto
-  requires: null
-  version: '>=0'
+requires: []
 use_flags:
 - kernel_linux
 - amd64
@@ -20,10 +10,8 @@ use_flags:
 - userland_GNU
 - big-endian
 version: 1.0.3+r4
-
 Labels:
   original.package.name: "gccmakedep"
   original.package.category: "x11-misc"
   original.package.version: "1.0.3"
   original.package.slot: "0"
-

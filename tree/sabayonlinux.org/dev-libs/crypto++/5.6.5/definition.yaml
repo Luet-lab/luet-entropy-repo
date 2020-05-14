@@ -1,16 +1,10 @@
-Labels: null
 category: dev-libs
-conflicts: null
-id: 0
 license: Boost-1.0
 name: crypto++
 requires:
 - Labels: null
   category: app-arch
-  conflicts: null
-  id: 0
   name: unzip
-  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU
@@ -21,10 +15,8 @@ use_flags:
 - kernel_linux
 - elibc_glibc
 version: 5.6.5+r4
-
 Labels:
   original.package.name: "crypto++"
   original.package.category: "dev-libs"
   original.package.version: "5.6.5"
   original.package.slot: "0"
-

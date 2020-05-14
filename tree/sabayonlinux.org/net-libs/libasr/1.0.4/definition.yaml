@@ -1,0 +1,16 @@
+category: net-libs
+license: BSD BSD-1 BSD-2 BSD-4 ISC
+name: libasr
+requires: null
+use_flags:
+- elibc_glibc
+- kernel_linux
+- userland_GNU
+- amd64
+- abi_x86_64
+version: "1.0.4"
+Labels:
+  original.package.name: "libasr"
+  original.package.category: "net-libs"
+  original.package.version: "1.0.4"
+  original.package.slot: "0"

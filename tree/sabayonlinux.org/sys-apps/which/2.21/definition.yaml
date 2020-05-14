@@ -1,7 +1,4 @@
-Labels: null
 category: sys-apps
-conflicts: null
-id: 0
 license: GPL-3
 name: which
 requires: null
@@ -13,10 +10,8 @@ use_flags:
 - elibc_glibc
 - userland_GNU
 version: 2.21+3
-
 Labels:
   original.package.name: "which"
   original.package.category: "sys-apps"
   original.package.version: "2.21"
   original.package.slot: "0"
-

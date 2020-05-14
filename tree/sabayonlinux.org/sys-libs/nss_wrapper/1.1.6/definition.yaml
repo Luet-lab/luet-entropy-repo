@@ -1,23 +1,10 @@
-Labels: null
 category: sys-libs
-conflicts: null
-id: 0
 license: BSD
 name: nss_wrapper
 requires:
 - Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: cmake
-  requires: null
-  version: '>=3.9.6'
-- Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: make
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -38,10 +25,8 @@ use_flags:
 - -abi_riscv_lp64
 - userland_GNU
 version: 1.1.6+1
-
 Labels:
   original.package.name: "nss_wrapper"
   original.package.category: "sys-libs"
   original.package.version: "1.1.6"
   original.package.slot: "0"
-

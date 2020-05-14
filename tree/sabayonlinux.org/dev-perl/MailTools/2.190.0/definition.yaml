@@ -1,23 +1,14 @@
-Labels: null
 category: dev-perl
-conflicts: null
-id: 0
 license: Artistic GPL-1+
 name: MailTools
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: perl
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: TimeDate
-  requires: null
   version: '>=0'
 use_flags:
 - amd64
@@ -30,10 +21,8 @@ use_flags:
 - elibc_glibc
 - big-endian
 version: 2.190.0+3
-
 Labels:
   original.package.name: "MailTools"
   original.package.category: "dev-perl"
   original.package.version: "2.190.0"
   original.package.slot: "0"
-

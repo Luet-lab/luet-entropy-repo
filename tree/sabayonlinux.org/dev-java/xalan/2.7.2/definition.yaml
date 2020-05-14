@@ -1,37 +1,22 @@
-Labels: null
 category: dev-java
-conflicts: null
-id: 0
 license: Apache-2.0
 name: xalan
 requires:
 - Labels: null
   category: dev-java
-  conflicts: null
-  id: 0
   name: java-config-2
-  requires: null
   version: '>=2.2.0'
 - Labels: null
   category: dev-java
-  conflicts: null
-  id: 0
   name: bcel
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-java
-  conflicts: null
-  id: 0
   name: javacup
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-java
-  conflicts: null
-  id: 0
   name: xalan-serializer
-  requires: null
   version: '>=2.7.2'
 use_flags:
 - kernel_linux
@@ -43,10 +28,8 @@ use_flags:
 - abi_x86_64
 - amd64
 version: 2.7.2+3
-
 Labels:
   original.package.name: "xalan"
   original.package.category: "dev-java"
   original.package.version: "2.7.2"
   original.package.slot: "0"
-

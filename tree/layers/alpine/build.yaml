@@ -1,2 +1,4 @@
-unpack: true
+# Image used to build small packages 
+# composed by static files
 image: "alpine:3.11.3"
+unpack: true

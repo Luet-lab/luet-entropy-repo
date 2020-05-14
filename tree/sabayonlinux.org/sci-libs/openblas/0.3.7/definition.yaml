@@ -1,23 +1,14 @@
-Labels: null
 category: sci-libs
-conflicts: null
-id: 0
 license: BSD
 name: openblas
 requires:
 - Labels: null
   category: app-eselect
-  conflicts: null
-  id: 0
   name: eselect-blas
-  requires: null
   version: '>=0.2'
 - Labels: null
   category: app-eselect
-  conflicts: null
-  id: 0
   name: eselect-lapack
-  requires: null
   version: '>=0.2'
 use_flags:
 - split-usr
@@ -33,10 +24,8 @@ use_flags:
 - kernel_linux
 - amd64
 version: 0.3.7+3
-
 Labels:
   original.package.name: "openblas"
   original.package.category: "sci-libs"
   original.package.version: "0.3.7"
   original.package.slot: "0"
-

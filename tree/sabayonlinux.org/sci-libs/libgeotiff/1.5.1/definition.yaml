@@ -1,58 +1,30 @@
-Labels: null
 category: sci-libs
-conflicts: null
-id: 0
 license: GPL-2
 name: libgeotiff
 requires:
 - Labels: null
-  category: app-portage
-  conflicts: null
-  id: 0
-  name: elt-patches
-  requires: null
-  version: '>=20170815'
-- Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: tiff
-  requires: null
   version: '>=3.9.1'
 - Labels: null
   category: sci-libs
-  conflicts: null
-  id: 0
   name: proj
-  requires: null
   version: '>=6.0.0'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: autoconf-2.69
-  requires: null
   version: '>=2.69'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: automake-1.15
-  requires: null
   version: '>=1.15.1'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: libtool-2
-  requires: null
   version: '>=2.4'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: zlib
-  requires: null
   version: '>=0'
 use_flags:
 - -static-libs
@@ -66,10 +38,8 @@ use_flags:
 - kernel_linux
 - big-endian
 version: 1.5.1+r2
-
 Labels:
   original.package.name: "libgeotiff"
   original.package.category: "sci-libs"
   original.package.version: "1.5.1"
   original.package.slot: "0"
-

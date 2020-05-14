@@ -1,17 +1,7 @@
-Labels: null
 category: dev-libs
-conflicts: null
-id: 0
 license: LGPL-2.1+
 name: vala-common
-requires:
-- Labels: null
-  category: app-arch
-  conflicts: null
-  id: 0
-  name: xz-utils
-  requires: null
-  version: '>=0'
+requires: []
 use_flags:
 - kernel_linux
 - abi_x86_64
@@ -21,10 +11,8 @@ use_flags:
 - elibc_glibc
 - userland_GNU
 version: 0.46.6+1
-
 Labels:
   original.package.name: "vala-common"
   original.package.category: "dev-libs"
   original.package.version: "0.46.6"
   original.package.slot: "0"
-

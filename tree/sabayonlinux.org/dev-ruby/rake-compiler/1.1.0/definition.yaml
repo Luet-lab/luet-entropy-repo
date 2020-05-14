@@ -1,23 +1,14 @@
-Labels: null
 category: dev-ruby
-conflicts: null
-id: 0
 license: MIT
 name: rake-compiler
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: ruby-2.5
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-ruby
-  conflicts: null
-  id: 0
   name: rake
-  requires: null
   version: '>=0'
 use_flags:
 - -ruby_targets_ruby26
@@ -33,10 +24,8 @@ use_flags:
 - abi_x86_64
 - kernel_linux
 version: 1.1.0+3
-
 Labels:
   original.package.name: "rake-compiler"
   original.package.category: "dev-ruby"
   original.package.version: "1.1.0"
   original.package.slot: "0"
-

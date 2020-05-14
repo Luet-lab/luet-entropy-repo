@@ -1,0 +1,91 @@
+Labels:
+  original.package.version: "5.69.0"
+category: kde-frameworks
+license: LGPL-2
+name: kcmutils-5
+requires:
+- Labels: null
+  category: kde-frameworks
+  name: kauth-5
+  version: '>=5.67'
+- Labels: null
+  category: kde-frameworks
+  name: kconfig-5
+  version: '>=5.67'
+- Labels: null
+  category: kde-frameworks
+  name: kconfigwidgets-5
+  version: '>=5.67'
+- Labels: null
+  category: kde-frameworks
+  name: kcoreaddons-5
+  version: '>=5.67'
+- Labels: null
+  category: kde-frameworks
+  name: kdeclarative-5
+  version: '>=5.67'
+- Labels: null
+  category: kde-frameworks
+  name: kguiaddons-5
+  version: '>=5.67'
+- Labels: null
+  category: kde-frameworks
+  name: ki18n-5
+  version: '>=5.67'
+- Labels: null
+  category: kde-frameworks
+  name: kitemviews-5
+  version: '>=5.67'
+- Labels: null
+  category: kde-frameworks
+  name: kservice-5
+  version: '>=5.67'
+- Labels: null
+  category: kde-frameworks
+  name: kwidgetsaddons-5
+  version: '>=5.67'
+- Labels: null
+  category: kde-frameworks
+  name: kxmlgui-5
+  version: '>=5.67'
+- Labels: null
+  category: dev-qt
+  name: qtdbus-5
+  version: '>=5.12.3'
+- Labels: null
+  category: dev-qt
+  name: qtdeclarative-5
+  version: '>=5.12.3'
+- Labels: null
+  category: dev-qt
+  name: qtgui-5
+  version: '>=5.12.3'
+- Labels: null
+  category: dev-qt
+  name: qtwidgets-5
+  version: '>=5.12.3'
+- Labels: null
+  category: kde-frameworks
+  name: kf-env-5
+  version: '>=4'
+- Labels: null
+  category: dev-qt
+  name: qtcore-5
+  version: '>=0'
+use_flags:
+- userland_GNU
+- -doc
+- amd64
+- abi_x86_64
+- elibc_glibc
+- big-endian
+- -debug
+- kernel_linux
+- split-usr
+version: "5.69.0"
+Labels:
+  original.package.name: "kcmutils"
+  original.package.category: "kde-frameworks"
+  original.package.version: "5.67.0"
+  original.package.slot: "5"
+  original.package.version:

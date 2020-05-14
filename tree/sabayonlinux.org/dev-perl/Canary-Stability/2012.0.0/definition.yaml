@@ -1,16 +1,10 @@
-Labels: null
 category: dev-perl
-conflicts: null
-id: 0
 license: Artistic GPL-1+
 name: Canary-Stability
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: perl
-  requires: null
   version: '>=0'
 use_flags:
 - amd64
@@ -21,10 +15,8 @@ use_flags:
 - kernel_linux
 - userland_GNU
 version: 2012.0.0+3
-
 Labels:
   original.package.name: "Canary-Stability"
   original.package.category: "dev-perl"
   original.package.version: "2012.0.0"
   original.package.slot: "0"
-

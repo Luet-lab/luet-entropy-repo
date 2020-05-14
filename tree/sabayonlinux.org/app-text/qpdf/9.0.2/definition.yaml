@@ -1,0 +1,31 @@
+category: app-text
+license: Apache-2.0 Artistic-2
+name: qpdf
+requires:
+- Labels: null
+  category: dev-lang
+  name: perl
+  version: '>=5.8'
+- Labels: null
+  category: sys-libs
+  name: zlib
+  version: '>=0'
+use_flags:
+- -static-libs
+- elibc_glibc
+- -doc
+- perl
+- -examples
+- -test
+- abi_x86_64
+- userland_GNU
+- big-endian
+- kernel_linux
+- split-usr
+- amd64
+version: "9.0.2"
+Labels:
+  original.package.name: "qpdf"
+  original.package.category: "app-text"
+  original.package.version: "8.4.2"
+  original.package.slot: "0"

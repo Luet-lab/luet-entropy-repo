@@ -1,37 +1,22 @@
-Labels: null
 category: dev-python
-conflicts: null
-id: 0
 license: GPL-2
 name: pycups
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-2.7
-  requires: null
   version: '>=2.7.5'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-exec-2
-  requires: null
   version: '>=2'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-3.6
-  requires: null
   version: '>=0'
 - Labels: null
   category: net-print
-  conflicts: null
-  id: 0
   name: cups
-  requires: null
   version: '>=0'
 use_flags:
 - kernel_linux
@@ -49,10 +34,8 @@ use_flags:
 - split-usr
 - python_targets_python3_6
 version: 1.9.73+r5
-
 Labels:
   original.package.name: "pycups"
   original.package.category: "dev-python"
   original.package.version: "1.9.73"
   original.package.slot: "0"
-

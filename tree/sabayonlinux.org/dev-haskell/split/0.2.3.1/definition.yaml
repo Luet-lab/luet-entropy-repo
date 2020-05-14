@@ -1,23 +1,14 @@
-Labels: null
 category: dev-haskell
-conflicts: null
-id: 0
 license: BSD
 name: split
 requires:
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: cabal
-  requires: null
   version: '>=1.10'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: ghc
-  requires: null
   version: '>=7.4.1'
 use_flags:
 - -profile
@@ -31,10 +22,8 @@ use_flags:
 - -doc
 - kernel_linux
 version: 0.2.3.1+1
-
 Labels:
   original.package.name: "split"
   original.package.category: "dev-haskell"
   original.package.version: "0.2.3.1"
   original.package.slot: "0"
-

@@ -1,16 +1,10 @@
-Labels: null
 category: net-libs
-conflicts: null
-id: 0
 license: GPL-2 MIT
 name: liboauth
 requires:
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: nss
-  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc
@@ -25,10 +19,8 @@ use_flags:
 - -libressl
 - -doc
 version: 1.0.3+r4
-
 Labels:
   original.package.name: "liboauth"
   original.package.category: "net-libs"
   original.package.version: "1.0.3"
   original.package.slot: "0"
-

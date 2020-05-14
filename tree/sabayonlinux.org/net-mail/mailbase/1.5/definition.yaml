@@ -1,37 +1,22 @@
-Labels: null
 category: net-mail
-conflicts: null
-id: 0
 license: GPL-2
 name: mailbase
 requires:
 - Labels: null
   category: acct-group
-  conflicts: null
-  id: 0
   name: mail
-  requires: null
   version: '>=0'
 - Labels: null
   category: acct-user
-  conflicts: null
-  id: 0
   name: mail
-  requires: null
   version: '>=0'
 - Labels: null
   category: acct-user
-  conflicts: null
-  id: 0
   name: postmaster
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: pam
-  requires: null
   version: '>=0'
 use_flags:
 - abi_x86_64
@@ -43,10 +28,8 @@ use_flags:
 - pam
 - userland_GNU
 version: 1.5+r4
-
 Labels:
   original.package.name: "mailbase"
   original.package.category: "net-mail"
   original.package.version: "1.5"
   original.package.slot: "0"
-

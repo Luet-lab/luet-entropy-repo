@@ -1,72 +1,38 @@
-Labels: null
 category: dev-libs
-conflicts: null
-id: 0
 license: GPL-2+
 name: volume_key
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-exec-2
-  requires: null
   version: '>=2'
 - Labels: null
   category: app-crypt
-  conflicts: null
-  id: 0
   name: gpgme-1
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-3.6
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: glib-2
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: nspr
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: nss
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: util-linux
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: sys-devel
-  conflicts: null
-  id: 0
-  name: gettext
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-fs
-  conflicts: null
-  id: 0
   name: cryptsetup
-  requires: null
   version: '>=0'
 use_flags:
 - split-usr
@@ -84,10 +50,8 @@ use_flags:
 - abi_x86_64
 - -python_single_target_python3_5
 version: 0.3.12+3
-
 Labels:
   original.package.name: "volume_key"
   original.package.category: "dev-libs"
   original.package.version: "0.3.12"
   original.package.slot: "0"
-

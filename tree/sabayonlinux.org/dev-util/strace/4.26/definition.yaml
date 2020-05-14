@@ -1,23 +1,10 @@
-Labels: null
 category: dev-util
-conflicts: null
-id: 0
 license: BSD
 name: strace
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: perl
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: sys-kernel
-  conflicts: null
-  id: 0
-  name: linux-headers
-  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc
@@ -32,10 +19,8 @@ use_flags:
 - -elfutils
 - amd64
 version: 4.26+3
-
 Labels:
   original.package.name: "strace"
   original.package.category: "dev-util"
   original.package.version: "4.26"
   original.package.slot: "0"
-

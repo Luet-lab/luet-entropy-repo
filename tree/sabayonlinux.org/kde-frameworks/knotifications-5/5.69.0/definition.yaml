@@ -1,0 +1,88 @@
+Labels:
+  original.package.version: "5.69.0"
+category: kde-frameworks
+license: LGPL-2.1+
+name: knotifications-5
+requires:
+- Labels: null
+  category: kde-frameworks
+  name: kconfig-5
+  version: '>=5.67'
+- Labels: null
+  category: kde-frameworks
+  name: kcoreaddons-5
+  version: '>=5.67'
+- Labels: null
+  category: kde-frameworks
+  name: kwindowsystem-5
+  version: '>=5.67'
+- Labels: null
+  category: dev-qt
+  name: linguist-tools-5
+  version: '>=5.12.3'
+- Labels: null
+  category: dev-qt
+  name: qtdbus-5
+  version: '>=5.12.3'
+- Labels: null
+  category: dev-qt
+  name: qtgui-5
+  version: '>=5.12.3'
+- Labels: null
+  category: dev-qt
+  name: qtwidgets-5
+  version: '>=5.12.3'
+- Labels: null
+  category: dev-qt
+  name: qtx11extras-5
+  version: '>=5.12.3'
+- Labels: null
+  category: kde-frameworks
+  name: extra-cmake-modules-5
+  version: '>=5.67'
+- Labels: null
+  category: kde-frameworks
+  name: kf-env-5
+  version: '>=4'
+- Labels: null
+  category: dev-libs
+  name: libdbusmenu-qt
+  version: '>=0'
+- Labels: null
+  category: dev-qt
+  name: qtcore-5
+  version: '>=0'
+- Labels: null
+  category: media-libs
+  name: libcanberra
+  version: '>=0'
+- Labels: null
+  category: x11-libs
+  name: libX11
+  version: '>=0'
+- Labels: null
+  category: x11-libs
+  name: libXtst
+  version: '>=0'
+use_flags:
+- -doc
+- dbus
+- kernel_linux
+- -phonon
+- amd64
+- -debug
+- split-usr
+- X
+- elibc_glibc
+- big-endian
+- nls
+- abi_x86_64
+- userland_GNU
+- -speech
+version: "5.69.0"
+Labels:
+  original.package.name: "knotifications"
+  original.package.category: "kde-frameworks"
+  original.package.version: "5.67.0"
+  original.package.slot: "5"
+  original.package.version:

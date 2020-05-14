@@ -1,0 +1,47 @@
+Labels:
+  original.package.version: "0.0.13"
+category: gui-libs
+license: LGPL-2.1+
+name: libhandy-0.0
+requires:
+- Labels: null
+  category: dev-libs
+  name: glib-2
+  version: '>=2.44'
+- Labels: null
+  category: dev-libs
+  name: gobject-introspection
+  version: '>=1.54'
+- Labels: null
+  category: x11-libs
+  name: gtk+-3
+  version: '>=3.24.1'
+- Labels: null
+  category: dev-lang
+  name: vala-0.44
+  version: '>=0'
+- Labels: null
+  category: dev-libs
+  name: libxml2-2
+  version: '>=0'
+use_flags:
+- kernel_linux
+- elibc_glibc
+- introspection
+- abi_x86_64
+- userland_GNU
+- amd64
+- -glade
+- -examples
+- vala
+- big-endian
+- -test
+- -gtk-doc
+- split-usr
+version: "0.0.13"
+Labels:
+  original.package.name: "libhandy"
+  original.package.category: "gui-libs"
+  original.package.version: "0.0.9"
+  original.package.slot: "0.0"
+  original.package.version:

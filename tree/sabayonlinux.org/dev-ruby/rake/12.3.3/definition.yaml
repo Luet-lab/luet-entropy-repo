@@ -1,23 +1,14 @@
-Labels: null
 category: dev-ruby
-conflicts: null
-id: 0
 license: MIT
 name: rake
 requires:
 - Labels: null
   category: app-arch
-  conflicts: null
-  id: 0
   name: gzip
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: ruby-2.5
-  requires: null
   version: '>=0'
 use_flags:
 - -test
@@ -33,10 +24,8 @@ use_flags:
 - kernel_linux
 - userland_GNU
 version: 12.3.3+3
-
 Labels:
   original.package.name: "rake"
   original.package.category: "dev-ruby"
   original.package.version: "12.3.3"
   original.package.slot: "0"
-

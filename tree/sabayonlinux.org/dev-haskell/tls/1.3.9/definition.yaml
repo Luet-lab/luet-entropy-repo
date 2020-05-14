@@ -1,121 +1,70 @@
-Labels: null
 category: dev-haskell
-conflicts: null
-id: 0
 license: BSD
 name: tls
 requires:
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: x509
-  requires: null
   version: <1.7.0
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: x509-validation
-  requires: null
   version: <1.7.0
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: asn1-types
-  requires: null
   version: '>=0.2.0'
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: cabal
-  requires: null
   version: '>=1.18.1.3'
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: cereal
-  requires: null
   version: '>=0.4'
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: cryptonite
-  requires: null
   version: '>=0.21'
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: mtl
-  requires: null
   version: '>=2'
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: x509
-  requires: null
   version: '>=1.6.5'
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: x509-store
-  requires: null
   version: '>=1.6'
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: x509-validation
-  requires: null
   version: '>=1.6.5'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: ghc
-  requires: null
   version: '>=7.8.2'
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: asn1-encoding
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: async
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: data-default-class
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: memory
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: network
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -131,10 +80,8 @@ use_flags:
 - -test
 - abi_x86_64
 version: 1.3.9+1
-
 Labels:
   original.package.name: "tls"
   original.package.category: "dev-haskell"
   original.package.version: "1.3.9"
   original.package.slot: "0"
-

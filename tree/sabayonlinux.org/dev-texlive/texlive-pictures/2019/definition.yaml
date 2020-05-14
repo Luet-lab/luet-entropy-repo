@@ -1,38 +1,19 @@
-Labels: null
 category: dev-texlive
-conflicts: null
-id: 0
 license: Apache-2.0 BSD-2 CC-BY-SA-4.0 GPL-2
 name: texlive-pictures
 requires:
 - Labels: null
   category: app-text
-  conflicts: null
-  id: 0
   name: texlive-core
-  requires: null
   version: '>=2019'
 - Labels: null
   category: dev-tex
-  conflicts: null
-  id: 0
   name: pgf
-  requires: null
   version: '>=3.0.1'
 - Labels: null
   category: dev-texlive
-  conflicts: null
-  id: 0
   name: texlive-basic
-  requires: null
   version: '>=2019'
-- Labels: null
-  category: app-arch
-  conflicts: null
-  id: 0
-  name: xz-utils
-  requires: null
-  version: '>=0'
 use_flags:
 - -doc
 - abi_x86_64
@@ -43,10 +24,8 @@ use_flags:
 - amd64
 - kernel_linux
 version: 2019+3
-
 Labels:
   original.package.name: "texlive-pictures"
   original.package.category: "dev-texlive"
   original.package.version: "2019"
   original.package.slot: "0"
-

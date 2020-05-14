@@ -1,44 +1,22 @@
-Labels: null
 category: media-libs
-conflicts: null
-id: 0
 license: BSD-2
 name: libsamplerate
 requires:
 - Labels: null
-  category: app-portage
-  conflicts: null
-  id: 0
-  name: elt-patches
-  requires: null
-  version: '>=20170815'
-- Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: libsndfile
-  requires: null
   version: '>=1.0.2'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: autoconf-2.69
-  requires: null
   version: '>=2.69'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: automake-1.15
-  requires: null
   version: '>=1.15.1'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: libtool-2
-  requires: null
   version: '>=2.4'
 use_flags:
 - big-endian
@@ -60,10 +38,8 @@ use_flags:
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
 version: 0.1.9+4
-
 Labels:
   original.package.name: "libsamplerate"
   original.package.category: "media-libs"
   original.package.version: "0.1.9"
   original.package.slot: "0"
-

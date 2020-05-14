@@ -1,37 +1,18 @@
-Labels: null
 category: media-libs
-conflicts: null
-id: 0
 license: URT free-noncomm
 name: urt
 requires:
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: giflib
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: tiff
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: x11-base
-  conflicts: null
-  id: 0
-  name: xorg-proto
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXext
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -47,10 +28,8 @@ use_flags:
 - kernel_linux
 - gif
 version: 3.1b+r6
-
 Labels:
   original.package.name: "urt"
   original.package.category: "media-libs"
   original.package.version: "3.1b"
   original.package.slot: "0"
-

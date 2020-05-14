@@ -1,58 +1,30 @@
-Labels: null
 category: dev-python
-conflicts: null
-id: 0
 license: BSD
 name: oauthlib
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-2.7
-  requires: null
   version: '>=2.7.5'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-exec-2
-  requires: null
   version: '>=2'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: pyjwt
-  requires: null
   version: '>=1.0.0'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-3.6
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: blinker
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: cryptography
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-python
-  conflicts: null
-  id: 0
-  name: setuptools
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -68,10 +40,8 @@ use_flags:
 - python_targets_python2_7
 - userland_GNU
 version: 3.0.1+1
-
 Labels:
   original.package.name: "oauthlib"
   original.package.category: "dev-python"
   original.package.version: "3.0.1"
   original.package.slot: "0"
-

@@ -1,16 +1,10 @@
-Labels: null
 category: dev-ruby
-conflicts: null
-id: 0
 license: MIT
 name: ascii85
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: ruby-2.5
-  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU
@@ -26,10 +20,8 @@ use_flags:
 - abi_x86_64
 - ruby_targets_ruby25
 version: 1.0.3+3
-
 Labels:
   original.package.name: "ascii85"
   original.package.category: "dev-ruby"
   original.package.version: "1.0.3"
   original.package.slot: "0"
-

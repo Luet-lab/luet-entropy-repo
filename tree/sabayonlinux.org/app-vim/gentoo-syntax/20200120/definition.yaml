@@ -1,0 +1,23 @@
+category: app-vim
+license: vim
+name: gentoo-syntax
+requires:
+- Labels: null
+  category: app-editors
+  name: gvim
+  version: '>=7.3'
+use_flags:
+- amd64
+- -ignore-glep31
+- big-endian
+- elibc_glibc
+- split-usr
+- abi_x86_64
+- kernel_linux
+- userland_GNU
+version: "20200120"
+Labels:
+  original.package.name: "gentoo-syntax"
+  original.package.category: "app-vim"
+  original.package.version: "20190609"
+  original.package.slot: "0"

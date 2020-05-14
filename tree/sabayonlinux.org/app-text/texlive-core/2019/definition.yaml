@@ -46,7 +46,6 @@ requires:
   version: '>=0'
 - category: dev-libs
   name: mpfr
-  requires: null
   version: '>=0'
 - category: dev-libs
   name: zziplib
@@ -68,7 +67,6 @@ requires:
   version: '>=0'
 - category: x11-libs
   name: libX11
-  requires: null
   version: '>=0'
 - category: x11-libs
   name: libXmu
@@ -89,10 +87,8 @@ use_flags:
 - userland_GNU
 - split-usr
 version: 2019+r7
-
 Labels:
   original.package.name: "texlive-core"
   original.package.category: "app-text"
   original.package.version: "2019"
   original.package.slot: "0"
-

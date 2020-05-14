@@ -1,0 +1,63 @@
+Labels:
+  original.package.version: "0.13.1"
+category: dev-libs
+license: LGPL-2.1+
+name: folks
+requires:
+- Labels: null
+  category: dev-libs
+  name: glib-2
+  version: '>=2.44'
+- Labels: null
+  category: dev-libs
+  name: gobject-introspection
+  version: '>=1.54'
+- Labels: null
+  category: dev-libs
+  name: libgee-0.8
+  version: '>=0.10'
+- Labels: null
+  category: gnome-extra
+  name: evolution-data-server
+  version: '>=3.13.90'
+- Labels: null
+  category: net-libs
+  name: telepathy-glib
+  version: '>=0.19.9'
+- Labels: null
+  category: net-wireless
+  name: bluez
+  version: '>=5'
+- Labels: null
+  category: dev-libs
+  name: dbus-glib
+  version: '>=0'
+- Labels: null
+  category: dev-libs
+  name: libxml2-2
+  version: '>=0'
+- Labels: null
+  category: net-im
+  name: telepathy-mission-control
+  version: '>=0'
+use_flags:
+- abi_x86_64
+- amd64
+- -utils
+- split-usr
+- big-endian
+- -tracker
+- bluetooth
+- elibc_glibc
+- eds
+- userland_GNU
+- telepathy
+- kernel_linux
+- -test
+version: "0.13.1"
+Labels:
+  original.package.name: "folks"
+  original.package.category: "dev-libs"
+  original.package.version: "0.12.1"
+  original.package.slot: "0"
+  original.package.version:

@@ -1,37 +1,18 @@
-Labels: null
 category: media-libs
-conflicts: null
-id: 0
 license: GPL-3
 name: gavl
 requires:
 - Labels: null
-  category: app-portage
-  conflicts: null
-  id: 0
-  name: elt-patches
-  requires: null
-  version: '>=20170815'
-- Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: autoconf-2.69
-  requires: null
   version: '>=2.69'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: automake-1.15
-  requires: null
   version: '>=1.15.1'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: libtool-2
-  requires: null
   version: '>=2.4'
 use_flags:
 - big-endian
@@ -53,10 +34,8 @@ use_flags:
 - -abi_riscv_lp64d
 - -doc
 version: 1.4.0+r5
-
 Labels:
   original.package.name: "gavl"
   original.package.category: "media-libs"
   original.package.version: "1.4.0"
   original.package.slot: "0"
-

@@ -1,23 +1,10 @@
-Labels: null
 category: app-i18n
-conflicts: null
-id: 0
 license: GPL-2+ LGPL-2.1+ MPL-1.1
 name: uchardet
 requires:
 - Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: cmake
-  requires: null
-  version: '>=3.7.2'
-- Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: make
-  requires: null
   version: '>=0'
 use_flags:
 - -static-libs
@@ -30,10 +17,8 @@ use_flags:
 - -test
 - userland_GNU
 version: 0.0.6+r5
-
 Labels:
   original.package.name: "uchardet"
   original.package.category: "app-i18n"
   original.package.version: "0.0.6"
   original.package.slot: "0"
-

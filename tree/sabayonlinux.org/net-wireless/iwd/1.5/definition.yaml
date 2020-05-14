@@ -1,0 +1,57 @@
+category: net-wireless
+license: GPL-2
+name: iwd
+requires:
+- Labels: null
+  category: dev-libs
+  name: ell
+  version: '>=0.23'
+- Labels: null
+  category: sys-devel
+  name: autoconf-2.69
+  version: '>=2.69'
+- Labels: null
+  category: sys-devel
+  name: automake-1.15
+  version: '>=1.15.1'
+- Labels: null
+  category: sys-devel
+  name: libtool-2
+  version: '>=2.4'
+- Labels: null
+  category: net-wireless
+  name: crda
+  version: '>=0'
+- Labels: null
+  category: net-wireless
+  name: wireless-regdb
+  version: '>=0'
+- Labels: null
+  category: sys-apps
+  name: dbus
+  version: '>=0'
+- Labels: null
+  category: sys-libs
+  name: readline
+  version: '>=0'
+use_flags:
+- monitor
+- big-endian
+- -wired
+- split-usr
+- kernel_linux
+- crda
+- userland_GNU
+- client
+- abi_x86_64
+- -cpu_flags_x86_aes
+- elibc_glibc
+- -cpu_flags_x86_ssse3
+- amd64
+- -ofono
+version: "1.5"
+Labels:
+  original.package.name: "iwd"
+  original.package.category: "net-wireless"
+  original.package.version: "0.21"
+  original.package.slot: "0"

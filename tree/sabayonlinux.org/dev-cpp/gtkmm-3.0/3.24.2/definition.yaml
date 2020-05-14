@@ -1,87 +1,35 @@
-Labels: null
 category: dev-cpp
-conflicts: null
-id: 0
 license: LGPL-2.1+
 name: gtkmm-3.0
 requires:
 - Labels: null
-  category: app-portage
-  conflicts: null
-  id: 0
-  name: elt-patches
-  requires: null
-  version: '>=20170815'
-- Labels: null
   category: dev-cpp
-  conflicts: null
-  id: 0
   name: atkmm
-  requires: null
   version: '>=2.24.2'
 - Labels: null
   category: dev-cpp
-  conflicts: null
-  id: 0
   name: cairomm
-  requires: null
   version: '>=1.12.0'
 - Labels: null
   category: dev-cpp
-  conflicts: null
-  id: 0
   name: glibmm-2
-  requires: null
   version: '>=2.54.0'
 - Labels: null
   category: dev-cpp
-  conflicts: null
-  id: 0
   name: pangomm-1.4
-  requires: null
   version: '>=2.38.2'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libsigc++-2
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: gdk-pixbuf-2
-  requires: null
   version: '>=2.35.5'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: gtk+-3
-  requires: null
   version: '>=3.24.0'
-- Labels: null
-  category: app-arch
-  conflicts: null
-  id: 0
-  name: xz-utils
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: desktop-file-utils
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: x11-misc
-  conflicts: null
-  id: 0
-  name: shared-mime-info
-  requires: null
-  version: '>=0'
 use_flags:
 - big-endian
 - -abi_x86_x32
@@ -105,10 +53,8 @@ use_flags:
 - -abi_riscv_lp64d
 - -doc
 version: 3.24.2+4
-
 Labels:
   original.package.name: "gtkmm"
   original.package.category: "dev-cpp"
   original.package.version: "3.24.2"
   original.package.slot: "3.0"
-

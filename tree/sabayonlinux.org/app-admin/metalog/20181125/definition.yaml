@@ -1,51 +1,26 @@
-Labels: null
 category: app-admin
-conflicts: null
-id: 0
 license: GPL-2
 name: metalog
 requires:
 - Labels: null
-  category: app-portage
-  conflicts: null
-  id: 0
-  name: elt-patches
-  requires: null
-  version: '>=20170815'
-- Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libpcre-3
-  requires: null
   version: '>=3.4'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: autoconf-2.69
-  requires: null
   version: '>=2.69'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: automake-1.15
-  requires: null
   version: '>=1.15.1'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: libtool-2
-  requires: null
   version: '>=2.4'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: autoconf-archive
-  requires: null
   version: '>=0'
 use_flags:
 - kernel_linux
@@ -56,10 +31,8 @@ use_flags:
 - abi_x86_64
 - big-endian
 version: 20181125+3
-
 Labels:
   original.package.name: "metalog"
   original.package.category: "app-admin"
   original.package.version: "20181125"
   original.package.slot: "0"
-

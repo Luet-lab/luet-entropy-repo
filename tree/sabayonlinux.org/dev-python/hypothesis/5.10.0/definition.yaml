@@ -1,0 +1,45 @@
+category: dev-python
+license: MPL-2.0
+name: hypothesis
+requires:
+- Labels: null
+  category: dev-lang
+  name: python-2.7
+  version: '>=2.7.5'
+- Labels: null
+  category: dev-lang
+  name: python-exec-2
+  version: '>=2'
+- Labels: null
+  category: dev-python
+  name: attrs
+  version: '>=16.0.0'
+- Labels: null
+  category: dev-lang
+  name: python-3.6
+  version: '>=0'
+- Labels: null
+  category: dev-python
+  name: enum34
+  version: '>=0'
+use_flags:
+- -python_targets_pypy3
+- python_targets_python2_7
+- elibc_glibc
+- kernel_linux
+- -python_targets_python3_4
+- -test
+- big-endian
+- python_targets_python3_6
+- -python_targets_python3_7
+- -python_targets_python3_5
+- -python_targets_pypy
+- amd64
+- abi_x86_64
+- userland_GNU
+version: "5.10.0"
+Labels:
+  original.package.name: "hypothesis"
+  original.package.category: "dev-python"
+  original.package.version: "3.74.3"
+  original.package.slot: "0"

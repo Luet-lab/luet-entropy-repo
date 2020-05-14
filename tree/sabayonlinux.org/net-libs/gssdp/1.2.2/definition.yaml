@@ -1,73 +1,23 @@
-Labels: null
 category: net-libs
-conflicts: null
-id: 0
 license: LGPL-2+
 name: gssdp
 requires:
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: glib-2
-  requires: null
   version: '>=2.54'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: gobject-introspection
-  requires: null
   version: '>=1.54'
 - Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: meson
-  requires: null
-  version: '>=0.51.2'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: ninja
-  requires: null
-  version: '>=1.8.2'
-- Labels: null
   category: net-libs
-  conflicts: null
-  id: 0
   name: libsoup-2.4
-  requires: null
   version: '>=2.26.1'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: gtk+-3
-  requires: null
   version: '>=3.12'
-- Labels: null
-  category: app-arch
-  conflicts: null
-  id: 0
-  name: xz-utils
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: desktop-file-utils
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: x11-misc
-  conflicts: null
-  id: 0
-  name: shared-mime-info
-  requires: null
-  version: '>=0'
 use_flags:
 - big-endian
 - -abi_s390_32
@@ -90,10 +40,8 @@ use_flags:
 - -abi_riscv_lp64
 - userland_GNU
 version: 1.2.2+1
-
 Labels:
   original.package.name: "gssdp"
   original.package.category: "net-libs"
   original.package.version: "1.2.2"
   original.package.slot: "0"
-

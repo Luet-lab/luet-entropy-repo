@@ -1,7 +1,4 @@
-Labels: null
 category: sys-apps
-conflicts: null
-id: 0
 license: man-pages-posix-2013
 name: man-pages-posix
 requires: null
@@ -13,10 +10,8 @@ use_flags:
 - elibc_glibc
 - userland_GNU
 version: 2013a+3
-
 Labels:
   original.package.name: "man-pages-posix"
   original.package.category: "sys-apps"
   original.package.version: "2013a"
   original.package.slot: "0"
-

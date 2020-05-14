@@ -1,16 +1,10 @@
-Labels: null
 category: dev-java
-conflicts: null
-id: 0
 license: GPL-2
 name: javacup
 requires:
 - Labels: null
   category: dev-java
-  conflicts: null
-  id: 0
   name: java-config-2
-  requires: null
   version: '>=2.2.0'
 use_flags:
 - -doc
@@ -22,10 +16,8 @@ use_flags:
 - elibc_glibc
 - -source
 version: 0.11b+p20151004
-
 Labels:
   original.package.name: "javacup"
   original.package.category: "dev-java"
   original.package.version: "0.11b"
   original.package.slot: "0"
-

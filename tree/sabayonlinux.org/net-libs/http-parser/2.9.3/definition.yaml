@@ -1,7 +1,4 @@
-Labels: null
 category: net-libs
-conflicts: null
-id: 0
 license: MIT
 name: http-parser
 requires: null
@@ -24,10 +21,8 @@ use_flags:
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
 version: 2.9.3+1
-
 Labels:
   original.package.name: "http-parser"
   original.package.category: "net-libs"
   original.package.version: "2.9.3"
   original.package.slot: "0"
-

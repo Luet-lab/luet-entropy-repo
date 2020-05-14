@@ -1,58 +1,34 @@
-Labels: null
 category: media-libs
-conflicts: null
-id: 0
 license: ZLIB
 name: sdl2-mixer
 requires:
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: flac
-  requires: null
   version: '>=1.2.1'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: libmad
-  requires: null
   version: '>=0.15.1b'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: libogg
-  requires: null
   version: '>=1.3.0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: libsdl2
-  requires: null
   version: '>=2.0.7'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: libvorbis
-  requires: null
   version: '>=1.3.3'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: opusfile
-  requires: null
   version: '>=0.2'
 - Labels: null
   category: media-sound
-  conflicts: null
-  id: 0
   name: timidity++
-  requires: null
   version: '>=0'
 use_flags:
 - -abi_x86_x32
@@ -87,10 +63,8 @@ use_flags:
 - -modplug
 - -abi_s390_64
 version: 2.0.4+1
-
 Labels:
   original.package.name: "sdl2-mixer"
   original.package.category: "media-libs"
   original.package.version: "2.0.4"
   original.package.slot: "0"
-

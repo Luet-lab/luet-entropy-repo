@@ -1,23 +1,14 @@
-Labels: null
 category: app-text
-conflicts: null
-id: 0
 license: GPL-2
 name: djvu
 requires:
 - Labels: null
   category: media-gfx
-  conflicts: null
-  id: 0
   name: inkscape
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: tiff
-  requires: null
   version: '>=0'
 use_flags:
 - jpeg
@@ -33,10 +24,8 @@ use_flags:
 - big-endian
 - -debug
 version: 3.5.27+r4
-
 Labels:
   original.package.name: "djvu"
   original.package.category: "app-text"
   original.package.version: "3.5.27"
   original.package.slot: "0"
-

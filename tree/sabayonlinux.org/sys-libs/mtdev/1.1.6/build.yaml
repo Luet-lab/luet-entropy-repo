@@ -1,0 +1,32 @@
+unpack: true
+steps:
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/mtdev-test$
+- /usr/include$
+- /usr/include/mtdev-mapping.h$
+- /usr/include/mtdev-plumbing.h$
+- /usr/include/mtdev.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libmtdev.so$
+- /usr/lib64/libmtdev.so.1$
+- /usr/lib64/libmtdev.so.1.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/mtdev.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/mtdev-1.1.6$
+- /usr/share/doc/mtdev-1.1.6/ChangeLog.bz2$
+- /usr/share/doc/mtdev-1.1.6/README.bz2$
+env:
+- ORIGINAL_ATOM=sys-libs/mtdev
+- ORIGINAL_PACKAGE=sys-libs/mtdev-1.1.6

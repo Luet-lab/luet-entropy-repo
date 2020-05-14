@@ -1,30 +1,18 @@
-Labels: null
 category: dev-perl
-conflicts: null
-id: 0
 license: Artistic GPL-1+
 name: Test-Script
 requires:
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: Probe-Perl
-  requires: null
   version: '>=0.10.0'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: perl
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: Capture-Tiny
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -36,10 +24,8 @@ use_flags:
 - userland_GNU
 - elibc_glibc
 version: 1.230.0+3
-
 Labels:
   original.package.name: "Test-Script"
   original.package.category: "dev-perl"
   original.package.version: "1.230.0"
   original.package.slot: "0"
-

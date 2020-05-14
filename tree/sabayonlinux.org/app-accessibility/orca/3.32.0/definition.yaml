@@ -1,177 +1,82 @@
-Labels: null
 category: app-accessibility
-conflicts: null
-id: 0
 license: CC-BY-SA-3.0 LGPL-2.1+
 name: orca
 requires:
 - Labels: null
   category: app-accessibility
-  conflicts: null
-  id: 0
   name: at-spi2-atk-2
-  requires: null
   version: '>=2.32'
 - Labels: null
   category: app-accessibility
-  conflicts: null
-  id: 0
   name: at-spi2-core-2
-  requires: null
   version: '>=2.32'
 - Labels: null
   category: app-accessibility
-  conflicts: null
-  id: 0
   name: brltty
-  requires: null
   version: '>=5.0'
 - Labels: null
   category: app-accessibility
-  conflicts: null
-  id: 0
   name: speech-dispatcher
-  requires: null
   version: '>=0.8'
 - Labels: null
-  category: app-portage
-  conflicts: null
-  id: 0
-  name: elt-patches
-  requires: null
-  version: '>=20170815'
-- Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-exec-2
-  requires: null
   version: '>=2'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: atk
-  requires: null
   version: '>=2.32'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: glib-2
-  requires: null
   version: '>=2.28'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: pyatspi
-  requires: null
   version: '>=2.32'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: pygobject-base-3
-  requires: null
   version: '>=3.18'
 - Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: intltool
-  requires: null
-  version: '>=0.50'
-- Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: gtk+-3
-  requires: null
   version: '>=3.6.2'
 - Labels: null
-  category: app-arch
-  conflicts: null
-  id: 0
-  name: xz-utils
-  requires: null
-  version: '>=0'
-- Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-3.6
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: atk
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: liblouis
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: gst-python-1.0
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: setproctitle
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
-  name: desktop-file-utils
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
   name: itstool
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: gstreamer-1.0
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libwnck-3
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: pango
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: x11-misc
-  conflicts: null
-  id: 0
-  name: shared-mime-info
-  requires: null
   version: '>=0'
 use_flags:
 - kernel_linux
@@ -185,10 +90,8 @@ use_flags:
 - braille
 - python_targets_python3_6
 version: 3.32.0+r4
-
 Labels:
   original.package.name: "orca"
   original.package.category: "app-accessibility"
   original.package.version: "3.32.0"
   original.package.slot: "0"
-

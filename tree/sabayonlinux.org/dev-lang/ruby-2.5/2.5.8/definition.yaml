@@ -1,0 +1,54 @@
+category: dev-lang
+license: BSD-2 Ruby-BSD
+name: ruby-2.5
+requires:
+- category: app-eselect
+  name: eselect-ruby
+  version: '>=20171225'
+- category: dev-libs
+  name: libyaml
+  version: '>=0'
+- category: dev-libs
+  name: openssl
+  version: '>=0'
+- category: sys-libs
+  name: db-6.0
+  version: '>=0'
+- category: sys-libs
+  name: gdbm
+  version: '>=0'
+- category: sys-libs
+  name: readline
+  version: '>=0'
+- category: sys-libs
+  name: zlib
+  version: '>=0'
+use_flags:
+- -socks5
+- -jemalloc
+- ipv6
+- -doc
+- -xemacs
+- split-usr
+- rdoc
+- -tk
+- -rubytests
+- -static-libs
+- userland_GNU
+- amd64
+- -libressl
+- big-endian
+- elibc_glibc
+- -examples
+- ssl
+- gdbm
+- -debug
+- abi_x86_64
+- kernel_linux
+- berkdb
+version: "2.5.8"
+Labels:
+  original.package.name: "ruby"
+  original.package.category: "dev-lang"
+  original.package.version: "2.5.7"
+  original.package.slot: "2.5"

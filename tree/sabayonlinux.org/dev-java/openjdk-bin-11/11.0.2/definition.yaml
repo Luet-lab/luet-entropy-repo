@@ -1,107 +1,62 @@
-Labels: null
 category: dev-java
-conflicts: null
-id: 0
 license: GPL-2-with-classpath-exception
 name: openjdk-bin-11
 requires:
 - Labels: null
   category: app-eselect
-  conflicts: null
-  id: 0
   name: eselect-java
-  requires: null
   version: '>=0.4.0'
 - Labels: null
   category: dev-java
-  conflicts: null
-  id: 0
   name: icedtea-web
-  requires: null
   version: '>=1.6.1'
 - Labels: null
   category: dev-java
-  conflicts: null
-  id: 0
   name: java-config-2
-  requires: null
   version: '>=2.2.0'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: glibc-2.2
-  requires: null
   version: '>=2.2.5'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: alsa-lib
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: fontconfig-1.0
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: freetype-2
-  requires: null
   version: '>=0'
 - Labels: null
   category: net-print
-  conflicts: null
-  id: 0
   name: cups
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: zlib
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libX11
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXext
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXi
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXrender
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXtst
-  requires: null
   version: '>=0'
 use_flags:
 - abi_x86_64
@@ -121,10 +76,8 @@ use_flags:
 - elibc_glibc
 - webstart
 version: 11.0.2+p10
-
 Labels:
   original.package.name: "openjdk-bin"
   original.package.category: "dev-java"
   original.package.version: "11.0.2"
   original.package.slot: "11"
-

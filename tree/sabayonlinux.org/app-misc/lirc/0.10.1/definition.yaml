@@ -1,114 +1,58 @@
-Labels: null
 category: app-misc
-conflicts: null
-id: 0
 license: GPL-2+
 name: lirc
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-exec-2
-  requires: null
   version: '>=2'
 - Labels: null
   category: dev-embedded
-  conflicts: null
-  id: 0
   name: libftdi-1
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-3.6
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libxslt
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: pygobject-base-3
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: pyyaml
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-python
-  conflicts: null
-  id: 0
-  name: setuptools
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: portaudio
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: kmod
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: systemd
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: sys-kernel
-  conflicts: null
-  id: 0
-  name: linux-headers
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libICE
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libSM
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libX11
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: vte-2.91
-  requires: null
   version: '>=0'
 use_flags:
 - uinput
@@ -135,10 +79,8 @@ use_flags:
 - kernel_linux
 - -inputlirc
 version: 0.10.1+r4
-
 Labels:
   original.package.name: "lirc"
   original.package.category: "app-misc"
   original.package.version: "0.10.1"
   original.package.slot: "0"
-

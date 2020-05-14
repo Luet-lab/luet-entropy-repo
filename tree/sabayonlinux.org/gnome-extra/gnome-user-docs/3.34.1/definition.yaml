@@ -1,0 +1,22 @@
+Labels:
+  original.package.version: "3.34.1"
+category: gnome-extra
+license: CC-BY-3.0
+name: gnome-user-docs
+requires: []
+use_flags:
+- abi_x86_64
+- amd64
+- split-usr
+- big-endian
+- userland_GNU
+- elibc_glibc
+- kernel_linux
+- -test
+version: "3.34.1"
+Labels:
+  original.package.name: "gnome-user-docs"
+  original.package.category: "gnome-extra"
+  original.package.version: "3.32.3"
+  original.package.slot: "0"
+  original.package.version:

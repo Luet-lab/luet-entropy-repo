@@ -1,0 +1,20 @@
+category: dev-lang
+license: BSD
+name: go
+requires: null
+use_flags:
+- userland_GNU
+- -system-bootstrap
+- abi_x86_64
+- -gccgo
+- split-usr
+- big-endian
+- elibc_glibc
+- amd64
+- kernel_linux
+version: "1.13.10"
+Labels:
+  original.package.name: "go"
+  original.package.category: "dev-lang"
+  original.package.version: "1.13.10"
+  original.package.slot: "0"

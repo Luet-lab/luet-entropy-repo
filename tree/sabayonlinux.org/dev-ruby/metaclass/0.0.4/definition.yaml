@@ -1,16 +1,10 @@
-Labels: null
 category: dev-ruby
-conflicts: null
-id: 0
 license: MIT
 name: metaclass
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: ruby-2.5
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -26,10 +20,8 @@ use_flags:
 - abi_x86_64
 - -test
 version: 0.0.4+3
-
 Labels:
   original.package.name: "metaclass"
   original.package.category: "dev-ruby"
   original.package.version: "0.0.4"
   original.package.slot: "0"
-

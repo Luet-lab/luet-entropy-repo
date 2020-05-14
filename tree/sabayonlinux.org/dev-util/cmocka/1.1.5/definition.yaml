@@ -1,24 +1,7 @@
-Labels: null
 category: dev-util
-conflicts: null
-id: 0
 license: Apache-2.0
 name: cmocka
-requires:
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: cmake
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: ninja
-  requires: null
-  version: '>=0'
+requires: []
 use_flags:
 - -examples
 - big-endian
@@ -41,10 +24,8 @@ use_flags:
 - -abi_riscv_lp64d
 - -doc
 version: 1.1.5+4
-
 Labels:
   original.package.name: "cmocka"
   original.package.category: "dev-util"
   original.package.version: "1.1.5"
   original.package.slot: "0"
-

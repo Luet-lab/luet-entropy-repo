@@ -1,16 +1,10 @@
-Labels: null
 category: dev-tex
-conflicts: null
-id: 0
 license: LPPL-1.2
 name: xmltex
 requires:
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: texinfo
-  requires: null
   version: '>=4.2'
 use_flags:
 - kernel_linux
@@ -20,10 +14,8 @@ use_flags:
 - amd64
 - userland_GNU
 version: 1.9+r5
-
 Labels:
   original.package.name: "xmltex"
   original.package.category: "dev-tex"
   original.package.version: "1.9"
   original.package.slot: "0"
-

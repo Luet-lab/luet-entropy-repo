@@ -1,0 +1,61 @@
+Labels:
+  original.package.version: "5.69.0"
+category: kde-frameworks
+license: LGPL-2+
+name: kcrash-5
+requires:
+- Labels: null
+  category: kde-frameworks
+  name: kcoreaddons-5
+  version: '>=5.67'
+- Labels: null
+  category: kde-frameworks
+  name: kwindowsystem-5
+  version: '>=5.67'
+- Labels: null
+  category: dev-qt
+  name: linguist-tools-5
+  version: '>=5.12.3'
+- Labels: null
+  category: dev-qt
+  name: qtgui-5
+  version: '>=5.12.3'
+- Labels: null
+  category: dev-qt
+  name: qtx11extras-5
+  version: '>=5.12.3'
+- Labels: null
+  category: kde-frameworks
+  name: extra-cmake-modules-5
+  version: '>=5.67'
+- Labels: null
+  category: kde-frameworks
+  name: kf-env-5
+  version: '>=4'
+- Labels: null
+  category: dev-qt
+  name: qtcore-5
+  version: '>=0'
+- Labels: null
+  category: x11-libs
+  name: libX11
+  version: '>=0'
+use_flags:
+- amd64
+- kernel_linux
+- -doc
+- big-endian
+- abi_x86_64
+- -debug
+- userland_GNU
+- nls
+- -test
+- elibc_glibc
+- split-usr
+version: "5.69.0"
+Labels:
+  original.package.name: "kcrash"
+  original.package.category: "kde-frameworks"
+  original.package.version: "5.67.0"
+  original.package.slot: "5"
+  original.package.version:

@@ -1,86 +1,42 @@
-Labels: null
 category: sys-fs
-conflicts: null
-id: 0
 license: BSD-2 CDDL MIT
 name: zfs
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-exec-2
-  requires: null
   version: '>=2'
 - Labels: null
   category: app-arch
-  conflicts: null
-  id: 0
   name: cpio
-  requires: null
   version: '>=0'
 - Labels: null
   category: app-misc
-  conflicts: null
-  id: 0
   name: pax-utils
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-3.6
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: openssl
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-python
-  conflicts: null
-  id: 0
-  name: setuptools
-  requires: null
   version: '>=0'
 - Labels: null
   category: net-libs
-  conflicts: null
-  id: 0
   name: libtirpc
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
-  name: sed
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: sys-apps
-  conflicts: null
-  id: 0
   name: util-linux
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-fs
-  conflicts: null
-  id: 0
   name: udev-init-scripts
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: zlib
-  requires: null
   version: '>=0'
 use_flags:
 - split-usr
@@ -101,10 +57,8 @@ use_flags:
 - userland_GNU
 - -test-suite
 version: 0.8.2+r5
-
 Labels:
   original.package.name: "zfs"
   original.package.category: "sys-fs"
   original.package.version: "0.8.2"
   original.package.slot: "0"
-

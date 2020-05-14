@@ -1,51 +1,22 @@
-Labels: null
 category: dev-libs
-conflicts: null
-id: 0
 license: LGPL-2.1+
 name: libgusb
 requires:
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: glib-2
-  requires: null
   version: '>=2.44.0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: gobject-introspection
-  requires: null
   version: '>=1.54'
 - Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: meson
-  requires: null
-  version: '>=0.51.2'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: ninja
-  requires: null
-  version: '>=1.8.2'
-- Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: vala-0.44
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: hwids
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -70,10 +41,8 @@ use_flags:
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
 version: 0.3.3+1
-
 Labels:
   original.package.name: "libgusb"
   original.package.category: "dev-libs"
   original.package.version: "0.3.3"
   original.package.slot: "0"
-

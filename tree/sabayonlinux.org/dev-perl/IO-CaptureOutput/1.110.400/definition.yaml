@@ -1,16 +1,10 @@
-Labels: null
 category: dev-perl
-conflicts: null
-id: 0
 license: Artistic GPL-1+
 name: IO-CaptureOutput
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: perl
-  requires: null
   version: '>=0'
 use_flags:
 - abi_x86_64
@@ -22,10 +16,8 @@ use_flags:
 - big-endian
 - elibc_glibc
 version: 1.110.400+r4
-
 Labels:
   original.package.name: "IO-CaptureOutput"
   original.package.category: "dev-perl"
   original.package.version: "1.110.400"
   original.package.slot: "0"
-

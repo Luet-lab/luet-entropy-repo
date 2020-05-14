@@ -1,100 +1,54 @@
-Labels: null
 category: net-misc
-conflicts: null
-id: 0
 license: BSD GPL-2
 name: openssh
 requires:
 - Labels: null
-  category: app-portage
-  conflicts: null
-  id: 0
-  name: elt-patches
-  requires: null
-  version: '>=20170815'
-- Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: openssl
-  requires: null
   version: '>=1.1.0g'
 - Labels: null
   category: sys-auth
-  conflicts: null
-  id: 0
   name: pambase
-  requires: null
   version: '>=20081028'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: autoconf-2.69
-  requires: null
   version: '>=2.69'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: automake-1.15
-  requires: null
   version: '>=1.15.1'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: libtool-2
-  requires: null
   version: '>=2.4'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: zlib
-  requires: null
   version: '>=1.2.3'
 - Labels: null
   category: acct-group
-  conflicts: null
-  id: 0
   name: sshd
-  requires: null
   version: '>=0'
 - Labels: null
   category: acct-user
-  conflicts: null
-  id: 0
   name: sshd
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libedit
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: openssl
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: autoconf-2.69
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: pam
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -126,10 +80,8 @@ use_flags:
 - abi_x86_64
 - kernel_linux
 version: 8.2+p1r3.3
-
 Labels:
   original.package.name: "openssh"
   original.package.category: "net-misc"
   original.package.version: "8.2"
   original.package.slot: "0"
-

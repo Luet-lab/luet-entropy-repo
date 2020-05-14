@@ -1,0 +1,37 @@
+Labels:
+  original.package.version: "2.2.8"
+category: app-text
+license: LGPL-2.1
+name: enchant
+requires:
+- Labels: null
+  category: app-text
+  name: hunspell
+  version: '>=1.2.1'
+- Labels: null
+  category: dev-libs
+  name: glib-2
+  version: '>=2.6'
+- Labels: null
+  category: app-text
+  name: aspell
+  version: '>=0'
+use_flags:
+- abi_x86_64
+- amd64
+- hunspell
+- -static-libs
+- split-usr
+- big-endian
+- userland_GNU
+- elibc_glibc
+- aspell
+- kernel_linux
+- -test
+version: "2.2.8"
+Labels:
+  original.package.name: "enchant"
+  original.package.category: "app-text"
+  original.package.version: "1.6.1"
+  original.package.slot: "0"
+  original.package.version:

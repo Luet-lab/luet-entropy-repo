@@ -1,51 +1,26 @@
-Labels: null
 category: net-libs
-conflicts: null
-id: 0
 license: MIT
 name: libpsl
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-3.6
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libunistring
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libxslt
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
   name: gtk-doc-am
-  requires: null
   version: '>=0'
 - Labels: null
   category: net-dns
-  conflicts: null
-  id: 0
   name: libidn2
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: sys-devel
-  conflicts: null
-  id: 0
-  name: gettext
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -68,10 +43,8 @@ use_flags:
 - -abi_riscv_lp64
 - userland_GNU
 version: 0.21.0+4
-
 Labels:
   original.package.name: "libpsl"
   original.package.category: "net-libs"
   original.package.version: "0.21.0"
   original.package.slot: "0"
-

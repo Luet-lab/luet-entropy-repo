@@ -1,114 +1,39 @@
-Labels: null
 category: dev-python
-conflicts: null
-id: 0
 license: BSD
 name: ipython
 requires:
-- Labels: null
-  category: dev-python
-  conflicts: null
-  id: 0
+- category: dev-python
   name: prompt_toolkit
-  requires: null
   version: <2.1
-- Labels: null
-  category: dev-lang
-  conflicts: null
-  id: 0
+- category: dev-lang
   name: python-exec-2
-  requires: null
   version: '>=2'
-- Labels: null
-  category: dev-python
-  conflicts: null
-  id: 0
-  name: ipykernel
-  requires: null
-  version: '>=5.1.0'
-- Labels: null
-  category: dev-python
-  conflicts: null
-  id: 0
-  name: ipyparallel
-  requires: null
-  version: '>=6.2.3'
-- Labels: null
-  category: dev-python
-  conflicts: null
-  id: 0
+- category: dev-python
   name: prompt_toolkit
-  requires: null
   version: '>=2'
-- Labels: null
-  category: dev-lang
-  conflicts: null
-  id: 0
+- category: dev-lang
   name: python-3.6
-  requires: null
   version: '>=0'
-- Labels: null
-  category: dev-python
-  conflicts: null
-  id: 0
+- category: dev-python
   name: backcall
-  requires: null
   version: '>=0'
-- Labels: null
-  category: dev-python
-  conflicts: null
-  id: 0
+- category: dev-python
   name: decorator
-  requires: null
   version: '>=0'
-- Labels: null
-  category: dev-python
-  conflicts: null
-  id: 0
+- category: dev-python
   name: jedi
-  requires: null
   version: '>=0'
-- Labels: null
-  category: dev-python
-  conflicts: null
-  id: 0
+- category: dev-python
   name: pexpect
-  requires: null
   version: '>=0'
-- Labels: null
-  category: dev-python
-  conflicts: null
-  id: 0
+- category: dev-python
   name: pickleshare
-  requires: null
   version: '>=0'
-- Labels: null
-  category: dev-python
-  conflicts: null
-  id: 0
+- category: dev-python
   name: pygments
-  requires: null
   version: '>=0'
-- Labels: null
-  category: dev-python
-  conflicts: null
-  id: 0
-  name: qtconsole
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-python
-  conflicts: null
-  id: 0
-  name: setuptools
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-python
-  conflicts: null
-  id: 0
+- category: dev-python
   name: traitlets
-  requires: null
   version: '>=0'
 use_flags:
 - -python_targets_python3_7
@@ -129,10 +54,8 @@ use_flags:
 - elibc_glibc
 - -notebook
 version: 7.5.0+3
-
 Labels:
   original.package.name: "ipython"
   original.package.category: "dev-python"
   original.package.version: "7.5.0"
   original.package.slot: "0"
-

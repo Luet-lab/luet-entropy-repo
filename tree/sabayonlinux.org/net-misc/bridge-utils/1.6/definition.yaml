@@ -1,37 +1,18 @@
-Labels: null
 category: net-misc
-conflicts: null
-id: 0
 license: GPL-2
 name: bridge-utils
 requires:
 - Labels: null
-  category: app-portage
-  conflicts: null
-  id: 0
-  name: elt-patches
-  requires: null
-  version: '>=20170815'
-- Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: autoconf-2.69
-  requires: null
   version: '>=2.69'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: automake-1.15
-  requires: null
   version: '>=1.15.1'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: libtool-2
-  requires: null
   version: '>=2.4'
 use_flags:
 - kernel_linux
@@ -43,10 +24,8 @@ use_flags:
 - amd64
 - abi_x86_64
 version: 1.6+3
-
 Labels:
   original.package.name: "bridge-utils"
   original.package.category: "net-misc"
   original.package.version: "1.6"
   original.package.slot: "0"
-

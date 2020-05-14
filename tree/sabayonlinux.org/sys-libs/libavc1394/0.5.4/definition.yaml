@@ -1,16 +1,10 @@
-Labels: null
 category: sys-libs
-conflicts: null
-id: 0
 license: LGPL-2.1
 name: libavc1394
 requires:
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: libraw1394
-  requires: null
   version: '>=2.1.0'
 use_flags:
 - big-endian
@@ -30,10 +24,8 @@ use_flags:
 - -abi_riscv_lp64
 - userland_GNU
 version: 0.5.4+r6
-
 Labels:
   original.package.name: "libavc1394"
   original.package.category: "sys-libs"
   original.package.version: "0.5.4"
   original.package.slot: "0"
-

@@ -1,51 +1,26 @@
-Labels: null
 category: sci-libs
-conflicts: null
-id: 0
 license: NCSA-HDF
 name: hdf5
 requires:
 - Labels: null
-  category: app-portage
-  conflicts: null
-  id: 0
-  name: elt-patches
-  requires: null
-  version: '>=20170815'
-- Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: autoconf-2.69
-  requires: null
   version: '>=2.69'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: automake-1.15
-  requires: null
   version: '>=1.15.1'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: libtool-2
-  requires: null
   version: '>=2.4'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: libtool-2
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: zlib
-  requires: null
   version: '>=0'
 use_flags:
 - -mpi
@@ -65,10 +40,8 @@ use_flags:
 - elibc_glibc
 - userland_GNU
 version: 1.10.5+3
-
 Labels:
   original.package.name: "hdf5"
   original.package.category: "sci-libs"
   original.package.version: "1.10.5"
   original.package.slot: "0"
-

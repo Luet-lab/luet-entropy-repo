@@ -1,51 +1,26 @@
-Labels: null
 category: dev-libs
-conflicts: null
-id: 0
 license: Apache-2.0
 name: apr-1
 requires:
 - Labels: null
-  category: app-portage
-  conflicts: null
-  id: 0
-  name: elt-patches
-  requires: null
-  version: '>=20170815'
-- Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: util-linux
-  requires: null
   version: '>=2.16'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: autoconf-2.69
-  requires: null
   version: '>=2.69'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: automake-1.15
-  requires: null
   version: '>=1.15.1'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: libtool-2
-  requires: null
   version: '>=2.4'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: libtool-2
-  requires: null
   version: '>=2.4.2'
 use_flags:
 - -static-libs
@@ -61,10 +36,8 @@ use_flags:
 - kernel_linux
 - userland_GNU
 version: 1.6.3+r7
-
 Labels:
   original.package.name: "apr"
   original.package.category: "dev-libs"
   original.package.version: "1.6.3"
   original.package.slot: "1"
-

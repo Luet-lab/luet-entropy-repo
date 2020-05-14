@@ -1,0 +1,40 @@
+unpack: true
+steps:
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/yelp-build$
+- /usr/bin/yelp-check$
+- /usr/bin/yelp-new$
+- /usr/share$
+- /usr/share/aclocal$
+- /usr/share/aclocal/yelp.m4$
+- /usr/share/doc$
+- /usr/share/doc/yelp-tools-3.32.2$
+- /usr/share/doc/yelp-tools-3.32.2/AUTHORS$
+- /usr/share/doc/yelp-tools-3.32.2/ChangeLog.bz2$
+- /usr/share/doc/yelp-tools-3.32.2/NEWS.bz2$
+- /usr/share/doc/yelp-tools-3.32.2/README.bz2$
+- /usr/share/yelp-tools$
+- /usr/share/yelp-tools/templates$
+- /usr/share/yelp-tools/templates/task.page$
+- /usr/share/yelp-tools/xslt$
+- /usr/share/yelp-tools/xslt/comments.xsl$
+- /usr/share/yelp-tools/xslt/mal-epub.xsl$
+- /usr/share/yelp-tools/xslt/mal-files.xsl$
+- /usr/share/yelp-tools/xslt/mal-license.xsl$
+- /usr/share/yelp-tools/xslt/mal-ncx.xsl$
+- /usr/share/yelp-tools/xslt/mal-opf.xsl$
+- /usr/share/yelp-tools/xslt/mal-rng.xsl$
+- /usr/share/yelp-tools/xslt/mal-status.xsl$
+- /usr/share/yelp-tools/xslt/media.xsl$
+env:
+- ORIGINAL_ATOM=app-text/yelp-tools
+- ORIGINAL_PACKAGE=app-text/yelp-tools-3.32.2

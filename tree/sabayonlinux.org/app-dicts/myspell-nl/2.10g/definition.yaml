@@ -1,16 +1,10 @@
-Labels: null
 category: app-dicts
-conflicts: null
-id: 0
 license: BSD-2 CC-BY-3.0
 name: myspell-nl
 requires:
 - Labels: null
   category: app-arch
-  conflicts: null
-  id: 0
   name: unzip
-  requires: null
   version: '>=0'
 use_flags:
 - kernel_linux
@@ -21,10 +15,8 @@ use_flags:
 - userland_GNU
 - amd64
 version: 2.10g+r5
-
 Labels:
   original.package.name: "myspell-nl"
   original.package.category: "app-dicts"
   original.package.version: "2.10g"
   original.package.slot: "0"
-

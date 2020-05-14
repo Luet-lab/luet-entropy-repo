@@ -1,44 +1,26 @@
-Labels: null
 category: dev-perl
-conflicts: null
-id: 0
 license: Artistic GPL-1+
 name: HTTP-Daemon
 requires:
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: HTTP-Date
-  requires: null
   version: '>=6.0.0'
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: HTTP-Message
-  requires: null
   version: '>=6.0.0'
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: LWP-MediaTypes
-  requires: null
   version: '>=6.0.0'
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: Module-Build-Tiny
-  requires: null
   version: '>=0.34.0'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: perl
-  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc
@@ -50,10 +32,8 @@ use_flags:
 - -test
 - big-endian
 version: 6.60.0+1
-
 Labels:
   original.package.name: "HTTP-Daemon"
   original.package.category: "dev-perl"
   original.package.version: "6.60.0"
   original.package.slot: "0"
-

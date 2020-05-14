@@ -1,44 +1,22 @@
-Labels: null
 category: dev-python
-conflicts: null
-id: 0
 license: MIT
 name: mako
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-2.7
-  requires: null
   version: '>=2.7.5'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-exec-2
-  requires: null
   version: '>=2'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: markupsafe
-  requires: null
   version: '>=0.9.2'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-3.6
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-python
-  conflicts: null
-  id: 0
-  name: setuptools
-  requires: null
   version: '>=0'
 use_flags:
 - -test
@@ -57,10 +35,8 @@ use_flags:
 - userland_GNU
 - -doc
 version: 1.0.7+3
-
 Labels:
   original.package.name: "mako"
   original.package.category: "dev-python"
   original.package.version: "1.0.7"
   original.package.slot: "0"
-

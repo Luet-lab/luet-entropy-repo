@@ -1,65 +1,30 @@
-Labels: null
 category: sys-process
-conflicts: null
-id: 0
 license: BSD BSD-2 GPL-2 ISC
 name: cronie
 requires:
 - Labels: null
-  category: app-portage
-  conflicts: null
-  id: 0
-  name: elt-patches
-  requires: null
-  version: '>=20170815'
-- Labels: null
-  category: sys-apps
-  conflicts: null
-  id: 0
-  name: sed
-  requires: null
-  version: '>=4.0.5'
-- Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: autoconf-2.69
-  requires: null
   version: '>=2.69'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: automake-1.15
-  requires: null
   version: '>=1.15.1'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: libtool-2
-  requires: null
   version: '>=2.4'
 - Labels: null
   category: sys-process
-  conflicts: null
-  id: 0
   name: cronbase
-  requires: null
   version: '>=0.3.2'
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: debianutils
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: pam
-  requires: null
   version: '>=0'
 use_flags:
 - -selinux
@@ -74,10 +39,8 @@ use_flags:
 - pam
 - amd64
 version: 1.5.4+r4
-
 Labels:
   original.package.name: "cronie"
   original.package.category: "sys-process"
   original.package.version: "1.5.4"
   original.package.slot: "0"
-

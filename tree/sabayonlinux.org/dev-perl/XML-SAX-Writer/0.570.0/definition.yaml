@@ -1,44 +1,26 @@
-Labels: null
 category: dev-perl
-conflicts: null
-id: 0
 license: Artistic GPL-1+
 name: XML-SAX-Writer
 requires:
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libxml2-2
-  requires: null
   version: '>=2.4.1'
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: XML-Filter-BufferText
-  requires: null
   version: '>=1.0.0'
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: XML-NamespaceSupport
-  requires: null
   version: '>=1.40.0'
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: XML-SAX-Base
-  requires: null
   version: '>=1.10.0'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: perl
-  requires: null
   version: '>=0'
 use_flags:
 - amd64
@@ -50,10 +32,8 @@ use_flags:
 - big-endian
 - userland_GNU
 version: 0.570.0+3
-
 Labels:
   original.package.name: "XML-SAX-Writer"
   original.package.category: "dev-perl"
   original.package.version: "0.570.0"
   original.package.slot: "0"
-

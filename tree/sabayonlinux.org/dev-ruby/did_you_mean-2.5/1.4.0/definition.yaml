@@ -1,0 +1,24 @@
+category: dev-ruby
+license: MIT
+name: did_you_mean-2.5
+requires:
+- Labels: null
+  category: dev-lang
+  name: ruby-2.5
+  version: '>=0'
+use_flags:
+- -test
+- amd64
+- big-endian
+- elibc_glibc
+- split-usr
+- abi_x86_64
+- ruby_targets_ruby25
+- kernel_linux
+- userland_GNU
+version: "1.4.0"
+Labels:
+  original.package.name: "did_you_mean"
+  original.package.category: "dev-ruby"
+  original.package.version: "1.2.1"
+  original.package.slot: "2.5"

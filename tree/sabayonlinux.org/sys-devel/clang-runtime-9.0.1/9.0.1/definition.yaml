@@ -4,24 +4,15 @@ name: clang-runtime-9.0.1
 requires:
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: libomp
-  requires: null
   version: '>=9.0.1'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: compiler-rt-9.0.1
-  requires: null
   version: '>=9.0.1'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: compiler-rt-sanitizers-9.0.1
-  requires: null
   version: '>=9.0.1'
 use_flags:
 - -abi_mips_n32
@@ -45,10 +36,8 @@ use_flags:
 - sanitize
 - userland_GNU
 version: 9.0.1+4
-
 Labels:
   original.package.name: "clang-runtime"
   original.package.category: "sys-devel"
   original.package.version: "9.0.1"
   original.package.slot: "9.0.1"
-

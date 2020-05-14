@@ -1,23 +1,14 @@
-Labels: null
 category: dev-tex
-conflicts: null
-id: 0
 license: FDL-1.2 GPL-2 LPPL-1.3c
 name: pgf
 requires:
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: texinfo
-  requires: null
   version: '>=4.2'
 - Labels: null
   category: dev-texlive
-  conflicts: null
-  id: 0
   name: texlive-latexrecommended
-  requires: null
   version: '>=0'
 use_flags:
 - -doc
@@ -30,10 +21,8 @@ use_flags:
 - amd64
 - kernel_linux
 version: 3.1.4b+r5
-
 Labels:
   original.package.name: "pgf"
   original.package.category: "dev-tex"
   original.package.version: "3.1.4b"
   original.package.slot: "0"
-

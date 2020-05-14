@@ -1,44 +1,22 @@
-Labels: null
 category: dev-python
-conflicts: null
-id: 0
 license: LGPL-2.1
 name: notify-python
 requires:
 - Labels: null
-  category: app-portage
-  conflicts: null
-  id: 0
-  name: elt-patches
-  requires: null
-  version: '>=20170422'
-- Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-2.7
-  requires: null
   version: '>=2.7.5'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-exec-2
-  requires: null
   version: '>=2'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: pygtk-2
-  requires: null
   version: '>=2.24'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libnotify
-  requires: null
   version: '>=0.7'
 use_flags:
 - big-endian
@@ -50,10 +28,8 @@ use_flags:
 - python_targets_python2_7
 - userland_GNU
 version: 0.1.1+r4
-
 Labels:
   original.package.name: "notify-python"
   original.package.category: "dev-python"
   original.package.version: "0.1.1"
   original.package.slot: "0"
-

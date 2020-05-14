@@ -1,0 +1,101 @@
+unpack: true
+steps:
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/firefox$
+- /usr/bin/firefox-wayland$
+- /usr/bin/firefox-x11$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/firefox$
+- /usr/lib64/firefox/application.ini$
+- /usr/lib64/firefox/browser$
+- /usr/lib64/firefox/browser/blocklist.xml$
+- /usr/lib64/firefox/browser/chrome$
+- /usr/lib64/firefox/browser/chrome/icons$
+- /usr/lib64/firefox/browser/chrome/icons/default$
+- /usr/lib64/firefox/browser/chrome/icons/default/default128.png$
+- /usr/lib64/firefox/browser/chrome/icons/default/default16.png$
+- /usr/lib64/firefox/browser/chrome/icons/default/default32.png$
+- /usr/lib64/firefox/browser/chrome/icons/default/default48.png$
+- /usr/lib64/firefox/browser/chrome/icons/default/default64.png$
+- /usr/lib64/firefox/browser/features$
+- /usr/lib64/firefox/browser/features/doh-rollout@mozilla.org.xpi$
+- /usr/lib64/firefox/browser/features/formautofill@mozilla.org.xpi$
+- /usr/lib64/firefox/browser/features/screenshots@mozilla.org.xpi$
+- /usr/lib64/firefox/browser/features/webcompat-reporter@mozilla.org.xpi$
+- /usr/lib64/firefox/browser/features/webcompat@mozilla.org.xpi$
+- /usr/lib64/firefox/browser/omni.ja$
+- /usr/lib64/firefox/defaults$
+- /usr/lib64/firefox/defaults/pref$
+- /usr/lib64/firefox/defaults/pref/channel-prefs.js$
+- /usr/lib64/firefox/dependentlibs.list$
+- /usr/lib64/firefox/distribution$
+- /usr/lib64/firefox/distribution/policies.json$
+- /usr/lib64/firefox/firefox$
+- /usr/lib64/firefox/firefox-bin$
+- /usr/lib64/firefox/fonts$
+- /usr/lib64/firefox/fonts/TwemojiMozilla.ttf$
+- /usr/lib64/firefox/gmp-clearkey$
+- /usr/lib64/firefox/gmp-clearkey/0.1$
+- /usr/lib64/firefox/gmp-clearkey/0.1/libclearkey.so$
+- /usr/lib64/firefox/gmp-clearkey/0.1/manifest.json$
+- /usr/lib64/firefox/gtk2$
+- /usr/lib64/firefox/gtk2/libmozgtk.so$
+- /usr/lib64/firefox/liblgpllibs.so$
+- /usr/lib64/firefox/libmozavcodec.so$
+- /usr/lib64/firefox/libmozavutil.so$
+- /usr/lib64/firefox/libmozgtk.so$
+- /usr/lib64/firefox/libmozsandbox.so$
+- /usr/lib64/firefox/libmozsqlite3.so$
+- /usr/lib64/firefox/libmozwayland.so$
+- /usr/lib64/firefox/libxul.so$
+- /usr/lib64/firefox/omni.ja$
+- /usr/lib64/firefox/pingsender$
+- /usr/lib64/firefox/platform.ini$
+- /usr/lib64/firefox/plugin-container$
+- /usr/lib64/firefox/removed-files$
+- /usr/share$
+- /usr/share/applications$
+- /usr/share/applications/firefox-wayland.desktop$
+- /usr/share/applications/firefox-x11.desktop$
+- /usr/share/applications/firefox.desktop$
+- /usr/share/icons$
+- /usr/share/icons/hicolor$
+- /usr/share/icons/hicolor/128x128$
+- /usr/share/icons/hicolor/128x128/apps$
+- /usr/share/icons/hicolor/128x128/apps/firefox.png$
+- /usr/share/icons/hicolor/16x16$
+- /usr/share/icons/hicolor/16x16/apps$
+- /usr/share/icons/hicolor/16x16/apps/firefox.png$
+- /usr/share/icons/hicolor/22x22$
+- /usr/share/icons/hicolor/22x22/apps$
+- /usr/share/icons/hicolor/22x22/apps/firefox.png$
+- /usr/share/icons/hicolor/24x24$
+- /usr/share/icons/hicolor/24x24/apps$
+- /usr/share/icons/hicolor/24x24/apps/firefox.png$
+- /usr/share/icons/hicolor/256x256$
+- /usr/share/icons/hicolor/256x256/apps$
+- /usr/share/icons/hicolor/256x256/apps/firefox.png$
+- /usr/share/icons/hicolor/32x32$
+- /usr/share/icons/hicolor/32x32/apps$
+- /usr/share/icons/hicolor/32x32/apps/firefox.png$
+- /usr/share/icons/hicolor/48x48$
+- /usr/share/icons/hicolor/48x48/apps$
+- /usr/share/icons/hicolor/48x48/apps/firefox.png$
+- /usr/share/icons/hicolor/64x64$
+- /usr/share/icons/hicolor/64x64/apps$
+- /usr/share/icons/hicolor/64x64/apps/firefox.png$
+- /usr/share/pixmaps$
+- /usr/share/pixmaps/firefox.png$
+env:
+- ORIGINAL_ATOM=www-client/firefox
+- ORIGINAL_PACKAGE=www-client/firefox-75.0

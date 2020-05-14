@@ -1,0 +1,19 @@
+category: dev-libs
+license: BSD
+name: hiredis
+requires: null
+use_flags:
+- abi_x86_64
+- kernel_linux
+- -examples
+- -test
+- userland_GNU
+- amd64
+- -static-libs
+- elibc_glibc
+version: "0.14.1"
+Labels:
+  original.package.name: "hiredis"
+  original.package.category: "dev-libs"
+  original.package.version: "0.13.3"
+  original.package.slot: "0"

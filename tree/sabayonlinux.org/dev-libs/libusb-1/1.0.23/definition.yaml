@@ -1,7 +1,4 @@
-Labels: null
 category: dev-libs
-conflicts: null
-id: 0
 license: LGPL-2.1
 name: libusb-1
 requires: null
@@ -29,10 +26,8 @@ use_flags:
 - -abi_riscv_lp64d
 - -doc
 version: 1.0.23+r2
-
 Labels:
   original.package.name: "libusb"
   original.package.category: "dev-libs"
   original.package.version: "1.0.23"
   original.package.slot: "1"
-

@@ -1,44 +1,22 @@
-Labels: null
 category: sys-fs
-conflicts: null
-id: 0
 license: GPL-2
 name: dmraid
 requires:
 - Labels: null
-  category: app-portage
-  conflicts: null
-  id: 0
-  name: elt-patches
-  requires: null
-  version: '>=20170815'
-- Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: autoconf-2.69
-  requires: null
   version: '>=2.69'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: automake-1.15
-  requires: null
   version: '>=1.15.1'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: libtool-2
-  requires: null
   version: '>=2.4'
 - Labels: null
   category: sys-fs
-  conflicts: null
-  id: 0
   name: lvm2
-  requires: null
   version: '>=2.02.45'
 use_flags:
 - abi_x86_64
@@ -53,10 +31,8 @@ use_flags:
 - -led
 - amd64
 version: 1.0.0+rc16r4.3
-
 Labels:
   original.package.name: "dmraid"
   original.package.category: "sys-fs"
   original.package.version: "1.0.0"
   original.package.slot: "0"
-

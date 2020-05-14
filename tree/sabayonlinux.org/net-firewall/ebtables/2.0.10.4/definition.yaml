@@ -1,23 +1,14 @@
-Labels: null
 category: net-firewall
-conflicts: null
-id: 0
 license: GPL-2
 name: ebtables
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: perl
-  requires: null
   version: '>=0'
 - Labels: null
   category: net-misc
-  conflicts: null
-  id: 0
   name: ethertypes
-  requires: null
   version: '>=0'
 use_flags:
 - amd64
@@ -29,10 +20,8 @@ use_flags:
 - big-endian
 - userland_GNU
 version: 2.0.10.4+r5
-
 Labels:
   original.package.name: "ebtables"
   original.package.category: "net-firewall"
   original.package.version: "2.0.10.4"
   original.package.slot: "0"
-

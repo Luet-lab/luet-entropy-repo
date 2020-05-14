@@ -1,16 +1,10 @@
-Labels: null
 category: dev-perl
-conflicts: null
-id: 0
 license: GPL-2+
 name: Perl-Tidy
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: perl
-  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc
@@ -22,10 +16,8 @@ use_flags:
 - kernel_linux
 - big-endian
 version: 20190915.0.0+1
-
 Labels:
   original.package.name: "Perl-Tidy"
   original.package.category: "dev-perl"
   original.package.version: "20190915.0.0"
   original.package.slot: "0"
-

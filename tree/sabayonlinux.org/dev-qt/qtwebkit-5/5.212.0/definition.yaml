@@ -1,156 +1,90 @@
-Labels: null
 category: dev-qt
-conflicts: null
-id: 0
 license: BSD LGPL-2+
 name: qtwebkit-5
 requires:
 - Labels: null
   category: dev-qt
-  conflicts: null
-  id: 0
   name: qtcore-5
-  requires: null
   version: '>=5.9.1'
 - Labels: null
   category: dev-qt
-  conflicts: null
-  id: 0
   name: qtgui-5
-  requires: null
   version: '>=5.9.1'
 - Labels: null
   category: dev-qt
-  conflicts: null
-  id: 0
   name: qtnetwork-5
-  requires: null
   version: '>=5.9.1'
 - Labels: null
   category: dev-qt
-  conflicts: null
-  id: 0
   name: qtopengl-5
-  requires: null
   version: '>=5.9.1'
 - Labels: null
   category: dev-qt
-  conflicts: null
-  id: 0
   name: qtprintsupport-5
-  requires: null
   version: '>=5.9.1'
 - Labels: null
   category: dev-qt
-  conflicts: null
-  id: 0
   name: qtwidgets-5
-  requires: null
   version: '>=5.9.1'
 - Labels: null
   category: dev-db
-  conflicts: null
-  id: 0
   name: sqlite-3
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: glib-2
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: hyphen
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: icu
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libxml2-2
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libxslt
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: gst-plugins-bad-1.0
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: gst-plugins-base-1.0
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: gstreamer-1.0
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: libpng
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: woff2
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: flex
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libX11
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXcomposite
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXrender
-  requires: null
   version: '>=0'
 use_flags:
 - hyphen
@@ -174,10 +108,8 @@ use_flags:
 - elibc_glibc
 - split-usr
 version: 5.212.0+pre20190629.3
-
 Labels:
   original.package.name: "qtwebkit"
   original.package.category: "dev-qt"
   original.package.version: "5.212.0"
   original.package.slot: "5"
-

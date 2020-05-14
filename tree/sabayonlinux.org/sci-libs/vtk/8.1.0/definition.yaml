@@ -1,219 +1,122 @@
-Labels: null
 category: sci-libs
-conflicts: null
-id: 0
 license: BSD LGPL-2
 name: vtk
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-exec-2
-  requires: null
   version: '>=2'
 - Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: cmake
-  requires: null
-  version: '>=3.9.6'
-- Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: freetype-2
-  requires: null
   version: '>=2.5.4'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: libharu
-  requires: null
   version: '>=2.3.0'
 - Labels: null
   category: app-arch
-  conflicts: null
-  id: 0
   name: lz4
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-3.6
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: expat
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: jsoncpp
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libxml2-2
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: PyQt5
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: sip
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-qt
-  conflicts: null
-  id: 0
   name: designer-5
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-qt
-  conflicts: null
-  id: 0
   name: qtcore-5
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-qt
-  conflicts: null
-  id: 0
   name: qtgui-5
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-qt
-  conflicts: null
-  id: 0
   name: qtopengl-5
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-qt
-  conflicts: null
-  id: 0
   name: qtsql-5
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-qt
-  conflicts: null
-  id: 0
   name: qtx11extras-5
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: libpng
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: libtheora
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: mesa
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: tiff
-  requires: null
   version: '>=0'
 - Labels: null
   category: sci-libs
-  conflicts: null
-  id: 0
   name: exodusii
-  requires: null
   version: '>=0'
 - Labels: null
   category: sci-libs
-  conflicts: null
-  id: 0
   name: hdf5
-  requires: null
   version: '>=0'
 - Labels: null
   category: sci-libs
-  conflicts: null
-  id: 0
   name: netcdf
-  requires: null
   version: '>=0'
 - Labels: null
   category: sci-libs
-  conflicts: null
-  id: 0
   name: netcdf-cxx-3
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: make
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: zlib
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libX11
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXmu
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXt
-  requires: null
   version: '>=0'
 use_flags:
 - -tk
@@ -255,10 +158,8 @@ use_flags:
 - -boost
 - -doc
 version: 8.1.0+r8
-
 Labels:
   original.package.name: "vtk"
   original.package.category: "sci-libs"
   original.package.version: "8.1.0"
   original.package.slot: "0"
-

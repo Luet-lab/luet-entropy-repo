@@ -1,10 +1,7 @@
 category: dev-libs
 license: GPL-2+ LGPL-3+
 name: gmp
-requires:
-- category: app-arch
-  name: xz-utils
-  version: '>=0'
+requires: []
 use_flags:
 - static-libs
 - big-endian
@@ -28,10 +25,8 @@ use_flags:
 - -abi_riscv_lp64d
 - -doc
 version: 6.2.0+r2
-
 Labels:
   original.package.name: "gmp"
   original.package.category: "dev-libs"
   original.package.version: "6.2.0"
   original.package.slot: "0"
-

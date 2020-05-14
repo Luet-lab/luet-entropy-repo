@@ -1,16 +1,10 @@
-Labels: null
 category: net-dns
-conflicts: null
-id: 0
 license: public-domain
 name: dnssec-root
 requires:
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: XML-XPath
-  requires: null
   version: '>=1.420.0'
 use_flags:
 - kernel_linux
@@ -21,10 +15,8 @@ use_flags:
 - userland_GNU
 - split-usr
 version: 20181220+r4
-
 Labels:
   original.package.name: "dnssec-root"
   original.package.category: "net-dns"
   original.package.version: "20181220"
   original.package.slot: "0"
-

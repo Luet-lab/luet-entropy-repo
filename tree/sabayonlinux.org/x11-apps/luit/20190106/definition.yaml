@@ -1,23 +1,14 @@
-Labels: null
 category: x11-apps
-conflicts: null
-id: 0
 license: MIT
 name: luit
 requires:
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: groff
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: zlib
-  requires: null
   version: '>=0'
 use_flags:
 - amd64
@@ -27,10 +18,8 @@ use_flags:
 - abi_x86_64
 - big-endian
 version: 20190106+3
-
 Labels:
   original.package.name: "luit"
   original.package.category: "x11-apps"
   original.package.version: "20190106"
   original.package.slot: "0"
-

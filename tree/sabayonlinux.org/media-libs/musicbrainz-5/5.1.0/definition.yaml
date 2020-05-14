@@ -1,37 +1,18 @@
-Labels: null
 category: media-libs
-conflicts: null
-id: 0
 license: LGPL-2.1
 name: musicbrainz-5
 requires:
 - Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: cmake
-  requires: null
-  version: '>=3.9.6'
-- Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libxml2-2
-  requires: null
   version: '>=0'
 - Labels: null
   category: net-libs
-  conflicts: null
-  id: 0
   name: neon
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: make
-  requires: null
   version: '>=0'
 use_flags:
 - abi_x86_64
@@ -43,10 +24,8 @@ use_flags:
 - kernel_linux
 - -test
 version: 5.1.0+1
-
 Labels:
   original.package.name: "musicbrainz"
   original.package.category: "media-libs"
   original.package.version: "5.1.0"
   original.package.slot: "5"
-

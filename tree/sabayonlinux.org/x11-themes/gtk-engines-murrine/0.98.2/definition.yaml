@@ -1,73 +1,31 @@
-Labels: null
 category: x11-themes
-conflicts: null
-id: 0
 license: LGPL-2.1 LGPL-3
 name: gtk-engines-murrine
 requires:
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: glib-2
-  requires: null
   version: '>=2.34.3'
 - Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: intltool
-  requires: null
-  version: '>=0.37.1'
-- Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: cairo
-  requires: null
   version: '>=1.12.14'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: gdk-pixbuf-2
-  requires: null
   version: '>=2.30.7'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: gtk+-3
-  requires: null
   version: '>=2.24.23'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: pango
-  requires: null
   version: '>=1.36.3'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: pixman
-  requires: null
   version: '>=0.32.4'
-- Labels: null
-  category: app-arch
-  conflicts: null
-  id: 0
-  name: xz-utils
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: sys-devel
-  conflicts: null
-  id: 0
-  name: gettext
-  requires: null
-  version: '>=0'
 use_flags:
 - -abi_mips_n32
 - -abi_riscv_lp64
@@ -88,10 +46,8 @@ use_flags:
 - elibc_glibc
 - -abi_mips_n64
 version: 0.98.2+r2
-
 Labels:
   original.package.name: "gtk-engines-murrine"
   original.package.category: "x11-themes"
   original.package.version: "0.98.2"
   original.package.slot: "0"
-

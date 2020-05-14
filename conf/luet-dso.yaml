@@ -2,14 +2,24 @@ general:
   debug: false
 
 repositories:
-   - name: "sabayonlinux.org"
+   - name: "sabayonlinux.org-stable"
      description: "Sabayon Linux Repository"
      type: "http"
      enable: true
      cached: true
      priority: 1
      urls:
+       - "https://dispatcher.sabayon.org/sbi/namespace/luet-entropy-repo-stable"
+
+   - name: "sabayonlinux.org-testing"
+     description: "Sabayon Linux Repository (Testing)"
+     type: "http"
+     enable: false
+     cached: true
+     priority: 1
+     urls:
        - "https://dispatcher.sabayon.org/sbi/namespace/luet-entropy-repo"
+
    - name: "luet-embedded"
      description: "Luet toolkit Repository"
      type: "http"

@@ -1,30 +1,18 @@
-Labels: null
 category: dev-ruby
-conflicts: null
-id: 0
 license: MIT
 name: rouge-2
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: ruby-2.5
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-ruby
-  conflicts: null
-  id: 0
   name: redcarpet
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-ruby
-  conflicts: null
-  id: 0
   name: yard
-  requires: null
   version: '>=0'
 use_flags:
 - -doc
@@ -40,10 +28,8 @@ use_flags:
 - -ruby_targets_ruby26
 - abi_x86_64
 version: 3.15.0+3
-
 Labels:
   original.package.name: "rouge"
   original.package.category: "dev-ruby"
   original.package.version: "3.15.0"
   original.package.slot: "2"
-

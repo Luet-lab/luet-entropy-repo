@@ -5,9 +5,6 @@ requires:
 - category: app-text
   name: texlive-core
   version: '>=2019'
-- category: app-arch
-  name: xz-utils
-  version: '>=0'
 use_flags:
 - big-endian
 - abi_x86_64
@@ -19,10 +16,8 @@ use_flags:
 - userland_GNU
 - -doc
 version: 2019+r4
-
 Labels:
   original.package.name: "texlive-basic"
   original.package.category: "dev-texlive"
   original.package.version: "2019"
   original.package.slot: "0"
-

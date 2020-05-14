@@ -1,142 +1,82 @@
-Labels: null
 category: games-strategy
-conflicts: null
-id: 0
 license: CC-BY-SA-3.0 GPL-2 LGPL-2.1 MIT ZLIB
 name: 0ad
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-2.7
-  requires: null
   version: '>=2.7.5'
 - Labels: null
   category: net-libs
-  conflicts: null
-  id: 0
   name: gloox
-  requires: null
   version: '>=1.0.20'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: boost
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: icu
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libsodium
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libxml2-2
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: nspr
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: libpng
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: libsdl2
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: libvorbis
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: openal
-  requires: null
   version: '>=0'
 - Labels: null
   category: net-libs
-  conflicts: null
-  id: 0
   name: enet-1.3
-  requires: null
   version: '>=0'
 - Labels: null
   category: net-libs
-  conflicts: null
-  id: 0
   name: miniupnpc
-  requires: null
   version: '>=0'
 - Labels: null
   category: net-misc
-  conflicts: null
-  id: 0
   name: curl
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: zlib
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libX11
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXcursor
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: wxGTK-3.0-gtk3
-  requires: null
   version: '>=0'
 - Labels: null
   category: games-strategy
-  conflicts: null
-  id: 0
   name: 0ad-data
-  requires: null
   version: '>=0.0.23b'
 use_flags:
 - -nvtt
@@ -152,10 +92,8 @@ use_flags:
 - elibc_glibc
 - -test
 version: 0.0.23b+alpha.1
-
 Labels:
   original.package.name: "0ad"
   original.package.category: "games-strategy"
   original.package.version: "0.0.23b"
   original.package.slot: "0"
-

@@ -1,16 +1,10 @@
-Labels: null
 category: sys-apps
-conflicts: null
-id: 0
 license: GPL-2
 name: lsb-release
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: perl
-  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc
@@ -20,10 +14,8 @@ use_flags:
 - userland_GNU
 - kernel_linux
 version: 1.4+3
-
 Labels:
   original.package.name: "lsb-release"
   original.package.category: "sys-apps"
   original.package.version: "1.4"
   original.package.slot: "0"
-

@@ -1,156 +1,58 @@
-Labels: null
 category: media-gfx
-conflicts: null
-id: 0
 license: GPL-2+
 name: eog-1
 requires:
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: glib-2
-  requires: null
   version: '>=2.53.4'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: gobject-introspection
-  requires: null
   version: '>=1.54'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libpeas
-  requires: null
   version: '>=0.7.4'
 - Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: meson
-  requires: null
-  version: '>=0.48.2'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: ninja
-  requires: null
-  version: '>=1.7.2'
-- Labels: null
   category: gnome-base
-  conflicts: null
-  id: 0
   name: gnome-desktop-3
-  requires: null
   version: '>=2.91.2'
 - Labels: null
   category: gnome-base
-  conflicts: null
-  id: 0
   name: gsettings-desktop-schemas
-  requires: null
   version: '>=2.91.92'
 - Labels: null
   category: gnome-base
-  conflicts: null
-  id: 0
   name: librsvg-2
-  requires: null
   version: '>=2.36.2'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: libexif
-  requires: null
   version: '>=0.6.14'
 - Labels: null
-  category: sys-devel
-  conflicts: null
-  id: 0
-  name: gettext
-  requires: null
-  version: '>=0.19.8'
-- Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: gdk-pixbuf-2
-  requires: null
   version: '>=2.36.5'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: gtk+-3
-  requires: null
   version: '>=3.22.0'
 - Labels: null
-  category: x11-misc
-  conflicts: null
-  id: 0
-  name: shared-mime-info
-  requires: null
-  version: '>=0.20'
-- Labels: null
-  category: app-arch
-  conflicts: null
-  id: 0
-  name: xz-utils
-  requires: null
-  version: '>=0'
-- Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
-  name: desktop-file-utils
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: glib-utils
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
   name: itstool
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: lcms-2
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: zlib
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libX11
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: x11-misc
-  conflicts: null
-  id: 0
-  name: shared-mime-info
-  requires: null
   version: '>=0'
 use_flags:
 - abi_x86_64
@@ -169,10 +71,8 @@ use_flags:
 - tiff
 - kernel_linux
 version: 3.32.2+1
-
 Labels:
   original.package.name: "eog"
   original.package.category: "media-gfx"
   original.package.version: "3.32.2"
   original.package.slot: "1"
-

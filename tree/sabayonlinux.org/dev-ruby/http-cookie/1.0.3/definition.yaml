@@ -1,23 +1,14 @@
-Labels: null
 category: dev-ruby
-conflicts: null
-id: 0
 license: MIT
 name: http-cookie
 requires:
 - Labels: null
   category: dev-ruby
-  conflicts: null
-  id: 0
   name: domain_name
-  requires: null
   version: '>=0.5'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: ruby-2.5
-  requires: null
   version: '>=0'
 use_flags:
 - -ruby_targets_ruby24
@@ -33,10 +24,8 @@ use_flags:
 - amd64
 - big-endian
 version: 1.0.3+3
-
 Labels:
   original.package.name: "http-cookie"
   original.package.category: "dev-ruby"
   original.package.version: "1.0.3"
   original.package.slot: "0"
-

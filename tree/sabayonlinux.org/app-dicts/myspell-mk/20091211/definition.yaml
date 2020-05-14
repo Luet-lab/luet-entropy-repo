@@ -1,16 +1,10 @@
-Labels: null
 category: app-dicts
-conflicts: null
-id: 0
 license: GPL-2
 name: myspell-mk
 requires:
 - Labels: null
   category: app-arch
-  conflicts: null
-  id: 0
   name: unzip
-  requires: null
   version: '>=0'
 use_flags:
 - abi_x86_64
@@ -20,10 +14,8 @@ use_flags:
 - kernel_linux
 - elibc_glibc
 version: 20091211+3
-
 Labels:
   original.package.name: "myspell-mk"
   original.package.category: "app-dicts"
   original.package.version: "20091211"
   original.package.slot: "0"
-

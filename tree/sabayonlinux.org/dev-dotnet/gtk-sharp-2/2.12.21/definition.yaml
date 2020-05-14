@@ -1,93 +1,54 @@
-Labels: null
 category: dev-dotnet
-conflicts: null
-id: 0
 license: GPL-2
 name: gtk-sharp-2
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: mono
-  requires: null
   version: '>=3.0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: glib-2
-  requires: null
   version: '>=2.31'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: autoconf-2.69
-  requires: null
   version: '>=2.69'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: automake-1.15
-  requires: null
   version: '>=1.15'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: libtool-2
-  requires: null
   version: '>=2.4'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: mono
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: atk
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: XML-LibXML
-  requires: null
   version: '>=0'
 - Labels: null
   category: gnome-base
-  conflicts: null
-  id: 0
   name: libglade-2.0
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: automake-1.15
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: gtk+-3
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: pango
-  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU
@@ -97,10 +58,8 @@ use_flags:
 - amd64
 - kernel_linux
 version: 2.12.21+3
-
 Labels:
   original.package.name: "gtk-sharp"
   original.package.category: "dev-dotnet"
   original.package.version: "2.12.21"
   original.package.slot: "2"
-

@@ -1,0 +1,239 @@
+Labels:
+  original.package.version: "7.3.16"
+category: dev-lang
+license: BSD BSD-2 LGPL-2.1 LGPL-2.1+ PHP-3.01 Zend-2.0 gd
+name: php-7.3
+requires:
+- Labels: null
+  category: media-libs
+  name: freetype-2
+  version: '>=2'
+- Labels: null
+  category: app-eselect
+  name: eselect-php
+  version: '>=0.9.1'
+- Labels: null
+  category: app-text
+  name: aspell
+  version: '>=0.50'
+- Labels: null
+  category: dev-db
+  name: sqlite-3
+  version: '>=3.7.6.3'
+- Labels: null
+  category: dev-db
+  name: unixODBC
+  version: '>=1.8.13'
+- Labels: null
+  category: dev-libs
+  name: libpcre2
+  version: '>=10.30'
+- Labels: null
+  category: dev-libs
+  name: libxml2-2
+  version: '>=2.6.8'
+- Labels: null
+  category: dev-libs
+  name: openssl
+  version: '>=1.0.1'
+- Labels: null
+  category: net-analyzer
+  name: net-snmp
+  version: '>=5.2'
+- Labels: null
+  category: net-misc
+  name: curl
+  version: '>=7.10.5'
+- Labels: null
+  category: net-nds
+  name: openldap
+  version: '>=1.2.11'
+- Labels: null
+  category: sys-devel
+  name: autoconf-2.69
+  version: '>=2.69'
+- Labels: null
+  category: sys-devel
+  name: automake-1.15
+  version: '>=1.15.1'
+- Labels: null
+  category: sys-devel
+  name: bison
+  version: '>=3.0.1'
+- Labels: null
+  category: sys-devel
+  name: libtool-2
+  version: '>=2.4'
+- Labels: null
+  category: sys-libs
+  name: gdbm
+  version: '>=1.8.0'
+- Labels: null
+  category: sys-libs
+  name: zlib
+  version: '>=1.2.0.4'
+- Labels: null
+  category: app-arch
+  name: bzip2
+  version: '>=0'
+- Labels: null
+  category: app-text
+  name: htmltidy
+  version: '>=0'
+- Labels: null
+  category: dev-db
+  name: postgresql-9.5
+  version: '>=0'
+- Labels: null
+  category: dev-libs
+  name: gmp
+  version: '>=0'
+- Labels: null
+  category: dev-libs
+  name: icu
+  version: '>=0'
+- Labels: null
+  category: dev-libs
+  name: libxslt
+  version: '>=0'
+- Labels: null
+  category: dev-libs
+  name: oniguruma
+  version: '>=0'
+- Labels: null
+  category: media-libs
+  name: libpng
+  version: '>=0'
+- Labels: null
+  category: sys-apps
+  name: acl
+  version: '>=0'
+- Labels: null
+  category: sys-apps
+  name: systemd
+  version: '>=0'
+- Labels: null
+  category: sys-libs
+  name: db-6.0
+  version: '>=0'
+- Labels: null
+  category: sys-libs
+  name: libapparmor
+  version: '>=0'
+- Labels: null
+  category: sys-libs
+  name: readline
+  version: '>=0'
+- Labels: null
+  category: www-servers
+  name: apache-2
+  version: '>=0'
+- Labels: null
+  category: x11-libs
+  name: libXpm
+  version: '>=0'
+use_flags:
+- abi_x86_64
+- xmlwriter
+- sockets
+- wddx
+- ftp
+- bcmath
+- -argon2
+- cjk
+- phar
+- truetype
+- opcache
+- iconv
+- split-usr
+- intl
+- systemd
+- spell
+- gdbm
+- xmlreader
+- -sodium
+- unicode
+- -webp
+- posix
+- soap
+- -oci8-instant-client
+- big-endian
+- -threads
+- odbc
+- snmp
+- zip
+- nls
+- mhash
+- apache2
+- xslt
+- xpm
+- ctype
+- kerberos
+- calendar
+- -debug
+- tokenizer
+- -libedit
+- filter
+- json
+- -qdbm
+- -enchant
+- -cdb
+- inifile
+- amd64
+- session
+- xml
+- -ldap-sasl
+- -tokyocabinet
+- -recode
+- -selinux
+- -exif
+- ldap
+- -mssql
+- flatfile
+- readline
+- gmp
+- -firebird
+- fileinfo
+- pdo
+- -phpdbg
+- curl
+- -libressl
+- -session-mm
+- ssl
+- -iodbc
+- tidy
+- elibc_glibc
+- -embed
+- kernel_linux
+- -xmlrpc
+- -lmdb
+- -sharedmem
+- ipv6
+- mysql
+- hash
+- gd
+- bzip2
+- postgres
+- acl
+- cgi
+- zlib
+- imap
+- simplexml
+- sqlite
+- -coverage
+- fpm
+- sysvipc
+- -test
+- berkdb
+- -zip-encryption
+- mysqli
+- cli
+- pcntl
+- userland_GNU
+version: "7.3.16"
+Labels:
+  original.package.name: "php"
+  original.package.category: "dev-lang"
+  original.package.version: "7.3.15"
+  original.package.slot: "7.3"
+  original.package.version:

@@ -1,17 +1,7 @@
-Labels: null
 category: dev-libs
-conflicts: null
-id: 0
 license: BSD-2
 name: tre
-requires:
-- Labels: null
-  category: sys-devel
-  conflicts: null
-  id: 0
-  name: gettext
-  requires: null
-  version: '>=0'
+requires: []
 use_flags:
 - userland_GNU
 - amd64
@@ -21,10 +11,8 @@ use_flags:
 - abi_x86_64
 - -static-libs
 version: 0.8.0+r4
-
 Labels:
   original.package.name: "tre"
   original.package.category: "dev-libs"
   original.package.version: "0.8.0"
   original.package.slot: "0"
-

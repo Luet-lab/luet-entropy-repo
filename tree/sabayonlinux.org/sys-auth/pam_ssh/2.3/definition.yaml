@@ -1,30 +1,18 @@
-Labels: null
 category: sys-auth
-conflicts: null
-id: 0
 license: BSD BSD-2 ISC
 name: pam_ssh
 requires:
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: openssl
-  requires: null
   version: '>=0'
 - Labels: null
   category: net-misc
-  conflicts: null
-  id: 0
   name: openssh
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: pam
-  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc
@@ -35,10 +23,8 @@ use_flags:
 - userland_GNU
 - amd64
 version: 2.3+3
-
 Labels:
   original.package.name: "pam_ssh"
   original.package.category: "sys-auth"
   original.package.version: "2.3"
   original.package.slot: "0"
-

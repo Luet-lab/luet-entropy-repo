@@ -1,17 +1,7 @@
-Labels: null
 category: sys-apps
-conflicts: null
-id: 0
 license: GPL-3+
 name: findutils
-requires:
-- Labels: null
-  category: sys-devel
-  conflicts: null
-  id: 0
-  name: gettext
-  requires: null
-  version: '>=0'
+requires: []
 use_flags:
 - -static
 - big-endian
@@ -25,10 +15,8 @@ use_flags:
 - elibc_glibc
 - kernel_linux
 version: 4.7.0+3
-
 Labels:
   original.package.name: "findutils"
   original.package.category: "sys-apps"
   original.package.version: "4.7.0"
   original.package.slot: "0"
-

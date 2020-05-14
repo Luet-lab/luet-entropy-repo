@@ -1,0 +1,68 @@
+Labels:
+  original.package.version: "1.6.0"
+category: sys-libs
+license: GPL-2+ LGPL-2.1+
+name: libosinfo
+requires:
+- Labels: null
+  category: dev-libs
+  name: glib-2
+  version: '>=2.38.0'
+- Labels: null
+  category: dev-libs
+  name: gobject-introspection
+  version: '>=0.9.7'
+- Labels: null
+  category: dev-libs
+  name: libxml2-2
+  version: '>=2.6.0'
+- Labels: null
+  category: dev-libs
+  name: libxslt
+  version: '>=1.0.0'
+- Labels: null
+  category: dev-util
+  name: gtk-doc-am
+  version: '>=1.10'
+- Labels: null
+  category: dev-lang
+  name: perl
+  version: '>=0'
+- Labels: null
+  category: dev-lang
+  name: vala-0.44
+  version: '>=0'
+- Labels: null
+  category: dev-libs
+  name: gobject-introspection-common
+  version: '>=0'
+- Labels: null
+  category: sys-apps
+  name: hwids
+  version: '>=0'
+- Labels: null
+  category: sys-apps
+  name: osinfo-db
+  version: '>=0'
+- Labels: null
+  category: sys-apps
+  name: osinfo-db-tools
+  version: '>=0'
+use_flags:
+- -test
+- split-usr
+- kernel_linux
+- big-endian
+- userland_GNU
+- vala
+- abi_x86_64
+- amd64
+- elibc_glibc
+- introspection
+version: "1.6.0"
+Labels:
+  original.package.name: "libosinfo"
+  original.package.category: "sys-libs"
+  original.package.version: "1.4.0"
+  original.package.slot: "0"
+  original.package.version:

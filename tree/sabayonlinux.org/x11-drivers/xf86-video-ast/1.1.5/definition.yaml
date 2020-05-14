@@ -1,23 +1,14 @@
-Labels: null
 category: x11-drivers
-conflicts: null
-id: 0
 license: MIT
 name: xf86-video-ast
 requires:
 - Labels: null
   category: x11-base
-  conflicts: null
-  id: 0
   name: xorg-server
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libpciaccess
-  requires: null
   version: '>=0'
 use_flags:
 - abi_x86_64
@@ -28,10 +19,8 @@ use_flags:
 - kernel_linux
 - big-endian
 version: 1.1.5+4
-
 Labels:
   original.package.name: "xf86-video-ast"
   original.package.category: "x11-drivers"
   original.package.version: "1.1.5"
   original.package.slot: "0"
-

@@ -1,114 +1,62 @@
-Labels: null
 category: app-accessibility
-conflicts: null
-id: 0
 license: GPL-2 LGPL-2.1
 name: brltty
 requires:
 - Labels: null
-  category: app-portage
-  conflicts: null
-  id: 0
-  name: elt-patches
-  requires: null
-  version: '>=20170815'
-- Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-exec-2
-  requires: null
   version: '>=2'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: cython
-  requires: null
   version: '>=0.16'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: autoconf-2.69
-  requires: null
   version: '>=2.69'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: automake-1.15
-  requires: null
   version: '>=1.15.1'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: libtool-2
-  requires: null
   version: '>=2.4'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: gpm
-  requires: null
   version: '>=1.20'
 - Labels: null
   category: app-accessibility
-  conflicts: null
-  id: 0
   name: espeak
-  requires: null
   version: '>=0'
 - Labels: null
   category: app-accessibility
-  conflicts: null
-  id: 0
   name: flite
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-3.6
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: icu
-  requires: null
   version: '>=0'
 - Labels: null
   category: net-wireless
-  conflicts: null
-  id: 0
   name: bluez
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: ncurses
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXaw
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXtst
-  requires: null
   version: '>=0'
 use_flags:
 - gpm
@@ -141,10 +89,8 @@ use_flags:
 - abi_x86_64
 - -ocaml
 version: 5.2+r4
-
 Labels:
   original.package.name: "brltty"
   original.package.category: "app-accessibility"
   original.package.version: "5.2"
   original.package.slot: "0"
-

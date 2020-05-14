@@ -1,16 +1,10 @@
-Labels: null
 category: dev-libs
-conflicts: null
-id: 0
 license: mm
 name: mm-1.2
 requires:
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: glibc-2.2
-  requires: null
   version: '>=0'
 use_flags:
 - kernel_linux
@@ -20,10 +14,8 @@ use_flags:
 - userland_GNU
 - amd64
 version: 1.4.2+r5
-
 Labels:
   original.package.name: "mm"
   original.package.category: "dev-libs"
   original.package.version: "1.4.2"
   original.package.slot: "1.2"
-

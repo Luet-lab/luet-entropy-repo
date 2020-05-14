@@ -1,16 +1,10 @@
-Labels: null
 category: dev-perl
-conflicts: null
-id: 0
 license: Artistic-2
 name: Log-Agent
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: perl
-  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU
@@ -22,10 +16,8 @@ use_flags:
 - split-usr
 - elibc_glibc
 version: 1.1.0+3
-
 Labels:
   original.package.name: "Log-Agent"
   original.package.category: "dev-perl"
   original.package.version: "1.1.0"
   original.package.slot: "0"
-

@@ -1,23 +1,14 @@
-Labels: null
 category: dev-ruby
-conflicts: null
-id: 0
 license: Apache-2.0
 name: addressable
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: ruby-2.5
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-ruby
-  conflicts: null
-  id: 0
   name: public_suffix-4
-  requires: null
   version: '>=0'
 use_flags:
 - ruby_targets_ruby25
@@ -33,10 +24,8 @@ use_flags:
 - amd64
 - userland_GNU
 version: 2.7.0+3
-
 Labels:
   original.package.name: "addressable"
   original.package.category: "dev-ruby"
   original.package.version: "2.7.0"
   original.package.slot: "0"
-

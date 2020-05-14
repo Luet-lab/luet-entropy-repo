@@ -1,51 +1,22 @@
-Labels: null
 category: dev-python
-conflicts: null
-id: 0
 license: MIT
 name: pytest-runner
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-exec-2
-  requires: null
   version: '>=2'
 - Labels: null
-  category: dev-python
-  conflicts: null
-  id: 0
-  name: setuptools
-  requires: null
-  version: '>=40.6.3'
-- Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-3.6
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: pytest
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
-  name: setuptools
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-python
-  conflicts: null
-  id: 0
   name: setuptools_scm
-  requires: null
   version: '>=0'
 use_flags:
 - abi_x86_64
@@ -63,10 +34,8 @@ use_flags:
 - split-usr
 - -python_targets_pypy3
 version: 5.2+3
-
 Labels:
   original.package.name: "pytest-runner"
   original.package.category: "dev-python"
   original.package.version: "5.2"
   original.package.slot: "0"
-

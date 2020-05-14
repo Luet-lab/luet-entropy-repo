@@ -1,37 +1,22 @@
-Labels: null
 category: dev-java
-conflicts: null
-id: 0
 license: Apache-2.0
 name: xerces-2
 requires:
 - Labels: null
   category: dev-java
-  conflicts: null
-  id: 0
   name: java-config-2
-  requires: null
   version: '>=2.2.0'
 - Labels: null
   category: dev-java
-  conflicts: null
-  id: 0
   name: xjavac-1
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-java
-  conflicts: null
-  id: 0
   name: xml-commons-external-1.4
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-java
-  conflicts: null
-  id: 0
   name: xml-commons-resolver
-  requires: null
   version: '>=0'
 use_flags:
 - elibc_glibc
@@ -44,10 +29,8 @@ use_flags:
 - kernel_linux
 - -source
 version: 2.12.0+3
-
 Labels:
   original.package.name: "xerces"
   original.package.category: "dev-java"
   original.package.version: "2.12.0"
   original.package.slot: "2"
-

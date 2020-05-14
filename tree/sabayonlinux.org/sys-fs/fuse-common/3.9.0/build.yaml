@@ -1,0 +1,21 @@
+unpack: true
+steps:
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /etc$
+- /etc/fuse.conf$
+- /etc/init.d$
+- /etc/init.d/fuse$
+- /lib$
+- /lib/udev$
+- /lib/udev/rules.d$
+- /lib/udev/rules.d/99-fuse.rules$
+env:
+- ORIGINAL_ATOM=sys-fs/fuse-common
+- ORIGINAL_PACKAGE=sys-fs/fuse-common-3.9.0

@@ -1,100 +1,50 @@
-Labels: null
 category: x11-drivers
-conflicts: null
-id: 0
 license: MIT
 name: xf86-video-openchrome
 requires:
 - Labels: null
-  category: app-portage
-  conflicts: null
-  id: 0
-  name: elt-patches
-  requires: null
-  version: '>=20170815'
-- Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: autoconf-2.69
-  requires: null
   version: '>=2.69'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: automake-1.15
-  requires: null
   version: '>=1.15.1'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: libtool-2
-  requires: null
   version: '>=2.4'
 - Labels: null
   category: x11-base
-  conflicts: null
-  id: 0
   name: xorg-server
-  requires: null
   version: '>=1.9'
 - Labels: null
   category: x11-base
-  conflicts: null
-  id: 0
-  name: xorg-proto
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: x11-base
-  conflicts: null
-  id: 0
   name: xorg-server
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libX11
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXext
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXv
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libXvMC
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libdrm
-  requires: null
   version: '>=0'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libpciaccess
-  requires: null
   version: '>=0'
 use_flags:
 - abi_x86_64
@@ -107,10 +57,8 @@ use_flags:
 - -debug
 - kernel_linux
 version: 0.6.0+4
-
 Labels:
   original.package.name: "xf86-video-openchrome"
   original.package.category: "x11-drivers"
   original.package.version: "0.6.0"
   original.package.slot: "0"
-

@@ -1,16 +1,10 @@
-Labels: null
 category: sci-libs
-conflicts: null
-id: 0
 license: MIT
 name: proj
 requires:
 - Labels: null
   category: dev-db
-  conflicts: null
-  id: 0
   name: sqlite-3
-  requires: null
   version: '>=0'
 use_flags:
 - -static-libs
@@ -24,10 +18,8 @@ use_flags:
 - -test
 - big-endian
 version: 6.2.1+1
-
 Labels:
   original.package.name: "proj"
   original.package.category: "sci-libs"
   original.package.version: "6.2.1"
   original.package.slot: "0"
-

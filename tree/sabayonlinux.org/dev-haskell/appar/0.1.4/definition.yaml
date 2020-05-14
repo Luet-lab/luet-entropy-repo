@@ -1,23 +1,14 @@
-Labels: null
 category: dev-haskell
-conflicts: null
-id: 0
 license: BSD
 name: appar
 requires:
 - Labels: null
   category: dev-haskell
-  conflicts: null
-  id: 0
   name: cabal
-  requires: null
   version: '>=1.6'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: ghc
-  requires: null
   version: '>=6.10.4'
 use_flags:
 - userland_GNU
@@ -30,10 +21,8 @@ use_flags:
 - kernel_linux
 - big-endian
 version: 0.1.4+1
-
 Labels:
   original.package.name: "appar"
   original.package.category: "dev-haskell"
   original.package.version: "0.1.4"
   original.package.slot: "0"
-

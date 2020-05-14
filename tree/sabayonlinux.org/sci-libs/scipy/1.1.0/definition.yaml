@@ -1,79 +1,42 @@
-Labels: null
 category: sci-libs
-conflicts: null
-id: 0
 license: BSD LGPL-2
 name: scipy
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-2.7
-  requires: null
   version: '>=2.7.5'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-exec-2
-  requires: null
   version: '>=2'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: cython
-  requires: null
   version: '>=0.22'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: numpy
-  requires: null
   version: '>=1.10'
 - Labels: null
-  category: dev-python
-  conflicts: null
-  id: 0
-  name: setuptools
-  requires: null
-  version: '>=36'
-- Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-3.6
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: swig
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: pillow
-  requires: null
   version: '>=0'
 - Labels: null
   category: sci-libs
-  conflicts: null
-  id: 0
   name: arpack
-  requires: null
   version: '>=0'
 - Labels: null
   category: sci-libs
-  conflicts: null
-  id: 0
   name: umfpack
-  requires: null
   version: '>=0'
 use_flags:
 - python_targets_python2_7
@@ -91,10 +54,8 @@ use_flags:
 - python_targets_python3_6
 - -python_targets_python3_5
 version: 1.1.0+3
-
 Labels:
   original.package.name: "scipy"
   original.package.category: "sci-libs"
   original.package.version: "1.1.0"
   original.package.slot: "0"
-

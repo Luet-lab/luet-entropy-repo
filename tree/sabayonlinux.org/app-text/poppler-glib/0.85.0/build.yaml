@@ -1,0 +1,53 @@
+unpack: true
+steps:
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/pdftocairo$
+- /usr/include$
+- /usr/include/poppler$
+- /usr/include/poppler/CairoFontEngine.h$
+- /usr/include/poppler/CairoOutputDev.h$
+- /usr/include/poppler/CairoRescaleBox.h$
+- /usr/include/poppler/glib$
+- /usr/include/poppler/glib/poppler-action.h$
+- /usr/include/poppler/glib/poppler-annot.h$
+- /usr/include/poppler/glib/poppler-attachment.h$
+- /usr/include/poppler/glib/poppler-date.h$
+- /usr/include/poppler/glib/poppler-document.h$
+- /usr/include/poppler/glib/poppler-enums.h$
+- /usr/include/poppler/glib/poppler-features.h$
+- /usr/include/poppler/glib/poppler-form-field.h$
+- /usr/include/poppler/glib/poppler-layer.h$
+- /usr/include/poppler/glib/poppler-macros.h$
+- /usr/include/poppler/glib/poppler-media.h$
+- /usr/include/poppler/glib/poppler-movie.h$
+- /usr/include/poppler/glib/poppler-page.h$
+- /usr/include/poppler/glib/poppler-structure-element.h$
+- /usr/include/poppler/glib/poppler.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/girepository-1.0$
+- /usr/lib64/girepository-1.0/Poppler-0.18.typelib$
+- /usr/lib64/libpoppler-glib.so$
+- /usr/lib64/libpoppler-glib.so.8$
+- /usr/lib64/libpoppler-glib.so.8.15.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/poppler-cairo.pc$
+- /usr/lib64/pkgconfig/poppler-glib.pc$
+- /usr/share$
+- /usr/share/gir-1.0$
+- /usr/share/gir-1.0/Poppler-0.18.gir$
+- /usr/share/man$
+- /usr/share/man/man1$
+- /usr/share/man/man1/pdftocairo.1.bz2$
+env:
+- ORIGINAL_ATOM=app-text/poppler-glib
+- ORIGINAL_PACKAGE=app-text/poppler-glib-0.85.0

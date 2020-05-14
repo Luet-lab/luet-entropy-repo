@@ -1,0 +1,144 @@
+Labels:
+  original.package.version: "3.34.2"
+category: gnome-base
+license: GPL-2+ LGPL-2+
+name: gnome-settings-daemon
+requires:
+- Labels: null
+  category: app-misc
+  name: geoclue-2.0
+  version: '>=2.3.1'
+- Labels: null
+  category: dev-libs
+  name: glib-2
+  version: '>=2.56'
+- Labels: null
+  category: dev-libs
+  name: libgweather-2
+  version: '>=3.9.5'
+- Labels: null
+  category: dev-libs
+  name: libwacom
+  version: '>=0.7'
+- Labels: null
+  category: gnome-base
+  name: gnome-desktop-3
+  version: '>=3.11.1'
+- Labels: null
+  category: gnome-base
+  name: gsettings-desktop-schemas
+  version: '>=3.27.90'
+- Labels: null
+  category: media-libs
+  name: lcms-2
+  version: '>=2.2'
+- Labels: null
+  category: media-sound
+  name: pulseaudio
+  version: '>=2'
+- Labels: null
+  category: net-misc
+  name: networkmanager
+  version: '>=1.0'
+- Labels: null
+  category: net-print
+  name: cups
+  version: '>=1.4'
+- Labels: null
+  category: sci-geosciences
+  name: geocode-glib
+  version: '>=3.10'
+- Labels: null
+  category: sys-auth
+  name: polkit
+  version: '>=0.114'
+- Labels: null
+  category: sys-power
+  name: upower
+  version: '>=0.99'
+- Labels: null
+  category: x11-libs
+  name: gtk+-3
+  version: '>=3.15.3'
+- Labels: null
+  category: x11-libs
+  name: libnotify
+  version: '>=0.7.3'
+- Labels: null
+  category: x11-libs
+  name: pango
+  version: '>=1.20.0'
+- Labels: null
+  category: x11-misc
+  name: colord
+  version: '>=1.0.2'
+- Labels: null
+  category: dev-lang
+  name: python-3.6
+  version: '>=0'
+- Labels: null
+  category: dev-libs
+  name: wayland
+  version: '>=0'
+- Labels: null
+  category: gnome-base
+  name: dconf
+  version: '>=0'
+- Labels: null
+  category: media-libs
+  name: alsa-lib
+  version: '>=0'
+- Labels: null
+  category: media-libs
+  name: fontconfig-1.0
+  version: '>=0'
+- Labels: null
+  category: media-libs
+  name: libcanberra
+  version: '>=0'
+- Labels: null
+  category: sys-apps
+  name: systemd
+  version: '>=0'
+- Labels: null
+  category: x11-libs
+  name: gdk-pixbuf-2
+  version: '>=0'
+- Labels: null
+  category: x11-libs
+  name: libX11
+  version: '>=0'
+- Labels: null
+  category: x11-libs
+  name: libXext
+  version: '>=0'
+- Labels: null
+  category: x11-libs
+  name: libXi
+  version: '>=0'
+use_flags:
+- cups
+- kernel_linux
+- systemd
+- abi_x86_64
+- amd64
+- colord
+- big-endian
+- wayland
+- udev
+- split-usr
+- -debug
+- elibc_glibc
+- userland_GNU
+- -elogind
+- networkmanager
+- input_devices_wacom
+- -test
+- -smartcard
+version: "3.34.2"
+Labels:
+  original.package.name: "gnome-settings-daemon"
+  original.package.category: "gnome-base"
+  original.package.version: "3.32.1"
+  original.package.slot: "0"
+  original.package.version:

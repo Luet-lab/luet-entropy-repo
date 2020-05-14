@@ -1,0 +1,31 @@
+Labels:
+  original.package.version: "20200308"
+category: media-fonts
+license: OFL-1.1
+name: noto
+requires:
+- Labels: null
+  category: x11-apps
+  name: mkfontscale
+  version: '>=1.2.0'
+- Labels: null
+  category: media-fonts
+  name: encodings
+  version: '>=0'
+use_flags:
+- userland_GNU
+- amd64
+- abi_x86_64
+- elibc_glibc
+- X
+- big-endian
+- extra
+- -cjk
+- kernel_linux
+version: "20200308"
+Labels:
+  original.package.name: "noto"
+  original.package.category: "media-fonts"
+  original.package.version: "20190524"
+  original.package.slot: "0"
+  original.package.version:

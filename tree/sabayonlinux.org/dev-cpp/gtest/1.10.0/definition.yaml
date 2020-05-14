@@ -1,24 +1,7 @@
-Labels: null
 category: dev-cpp
-conflicts: null
-id: 0
 license: BSD
 name: gtest
-requires:
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: cmake
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: ninja
-  requires: null
-  version: '>=0'
+requires: []
 use_flags:
 - -examples
 - big-endian
@@ -40,10 +23,8 @@ use_flags:
 - userland_GNU
 - -doc
 version: 1.10.0+1
-
 Labels:
   original.package.name: "gtest"
   original.package.category: "dev-cpp"
   original.package.version: "1.10.0"
   original.package.slot: "0"
-

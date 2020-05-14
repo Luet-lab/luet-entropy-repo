@@ -1,23 +1,10 @@
-Labels: null
 category: app-arch
-conflicts: null
-id: 0
 license: BSD GPL-2
 name: zstd
 requires:
 - Labels: null
   category: app-arch
-  conflicts: null
-  id: 0
   name: lz4
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: app-arch
-  conflicts: null
-  id: 0
-  name: xz-utils
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -39,10 +26,8 @@ use_flags:
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
 version: 1.4.4+r3
-
 Labels:
   original.package.name: "zstd"
   original.package.category: "app-arch"
   original.package.version: "1.4.4"
   original.package.slot: "0"
-

@@ -1,0 +1,39 @@
+category: dev-tcltk
+license: MPL-1.1
+name: tdom
+requires:
+- Labels: null
+  category: sys-devel
+  name: autoconf-2.69
+  version: '>=2.68'
+- Labels: null
+  category: sys-devel
+  name: automake-1.15
+  version: '>=1.13'
+- Labels: null
+  category: dev-lang
+  name: tcl
+  version: '>=0'
+- Labels: null
+  category: dev-libs
+  name: expat
+  version: '>=0'
+- Labels: null
+  category: sys-devel
+  name: libtool-2
+  version: '>=0'
+use_flags:
+- -threads
+- -static-libs
+- amd64
+- abi_x86_64
+- multilib
+- kernel_linux
+- userland_GNU
+- elibc_glibc
+version: "0.9.1"
+Labels:
+  original.package.name: "tdom"
+  original.package.category: "dev-tcltk"
+  original.package.version: "0.8.3"
+  original.package.slot: "0"

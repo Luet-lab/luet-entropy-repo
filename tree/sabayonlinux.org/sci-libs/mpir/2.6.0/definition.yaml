@@ -1,23 +1,10 @@
-Labels: null
 category: sci-libs
-conflicts: null
-id: 0
 license: LGPL-3
 name: mpir
 requires:
 - Labels: null
-  category: app-portage
-  conflicts: null
-  id: 0
-  name: elt-patches
-  requires: null
-  version: '>=20170422'
-- Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: yasm
-  requires: null
   version: '>=0'
 use_flags:
 - userland_GNU
@@ -30,10 +17,8 @@ use_flags:
 - abi_x86_64
 - -static-libs
 version: 2.6.0+r5
-
 Labels:
   original.package.name: "mpir"
   original.package.category: "sci-libs"
   original.package.version: "2.6.0"
   original.package.slot: "0"
-

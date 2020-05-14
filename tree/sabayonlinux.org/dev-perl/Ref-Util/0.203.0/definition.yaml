@@ -1,23 +1,14 @@
-Labels: null
 category: dev-perl
-conflicts: null
-id: 0
 license: MIT
 name: Ref-Util
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: perl
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: Ref-Util-XS
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -30,10 +21,8 @@ use_flags:
 - -test
 - abi_x86_64
 version: 0.203.0+3
-
 Labels:
   original.package.name: "Ref-Util"
   original.package.category: "dev-perl"
   original.package.version: "0.203.0"
   original.package.slot: "0"
-

@@ -1,16 +1,10 @@
-Labels: null
 category: sys-libs
-conflicts: null
-id: 0
 license: MIT
 name: ncurses-compat-5
 requires:
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: gpm
-  requires: null
   version: '>=0'
 use_flags:
 - unicode
@@ -33,10 +27,8 @@ use_flags:
 - userland_GNU
 - gpm
 version: 6.1+p20190610
-
 Labels:
   original.package.name: "ncurses-compat"
   original.package.category: "sys-libs"
   original.package.version: "6.1"
   original.package.slot: "5"
-

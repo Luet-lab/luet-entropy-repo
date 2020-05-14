@@ -1,37 +1,14 @@
-Labels: null
 category: dev-util
-conflicts: null
-id: 0
 license: Apache-2.0
 name: spirv-tools
 requires:
 - Labels: null
   category: dev-util
-  conflicts: null
-  id: 0
-  name: cmake
-  requires: null
-  version: '>=3.9.6'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
   name: spirv-headers
-  requires: null
   version: '>=1.5.1'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-3.6
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: ninja
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -51,10 +28,8 @@ use_flags:
 - -abi_riscv_lp64
 - userland_GNU
 version: 2019.10+pre20191027r1.1
-
 Labels:
   original.package.name: "spirv-tools"
   original.package.category: "dev-util"
   original.package.version: "2019.10"
   original.package.slot: "0"
-

@@ -1,149 +1,82 @@
-Labels: null
 category: sys-apps
-conflicts: null
-id: 0
 license: GPL-2
 name: portage
 requires:
 - Labels: null
   category: app-admin
-  conflicts: null
-  id: 0
   name: eselect
-  requires: null
   version: '>=1.2'
 - Labels: null
   category: app-arch
-  conflicts: null
-  id: 0
   name: tar
-  requires: null
   version: '>=1.27'
 - Labels: null
   category: app-crypt
-  conflicts: null
-  id: 0
   name: gnupg
-  requires: null
   version: '>=2.2.4'
 - Labels: null
   category: app-crypt
-  conflicts: null
-  id: 0
   name: openpgp-keys-gentoo-release
-  requires: null
   version: '>=20180706'
 - Labels: null
   category: app-misc
-  conflicts: null
-  id: 0
   name: pax-utils
-  requires: null
   version: '>=0.1.17'
 - Labels: null
   category: app-portage
-  conflicts: null
-  id: 0
   name: gemato
-  requires: null
   version: '>=14'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-2.7
-  requires: null
   version: '>=2.7.5'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-exec-2
-  requires: null
   version: '>=2'
 - Labels: null
   category: net-misc
-  conflicts: null
-  id: 0
   name: rsync
-  requires: null
   version: '>=2.6.4'
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: coreutils
-  requires: null
   version: '>=6.4'
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: install-xattr
-  requires: null
   version: '>=0.3'
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: sandbox
-  requires: null
   version: '>=2.2'
 - Labels: null
-  category: sys-apps
-  conflicts: null
-  id: 0
-  name: sed
-  requires: null
-  version: '>=4.0.5'
-- Labels: null
   category: app-shells
-  conflicts: null
-  id: 0
   name: bash
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-3.6
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-exec-2
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: pyblake2
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: pyxattr
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: util-linux
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: patch
-  requires: null
   version: '>=0'
 use_flags:
 - native-extensions
@@ -168,10 +101,8 @@ use_flags:
 - userland_GNU
 - -doc
 version: 2.3.69+3
-
 Labels:
   original.package.name: "portage"
   original.package.category: "sys-apps"
   original.package.version: "2.3.69"
   original.package.slot: "0"
-

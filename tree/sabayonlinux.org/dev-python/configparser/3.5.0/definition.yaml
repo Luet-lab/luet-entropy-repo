@@ -1,37 +1,18 @@
-Labels: null
 category: dev-python
-conflicts: null
-id: 0
 license: MIT
 name: configparser
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-2.7
-  requires: null
   version: '>=2.7.5'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-exec-2
-  requires: null
   version: '>=2'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: backports
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-python
-  conflicts: null
-  id: 0
-  name: setuptools
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -43,10 +24,8 @@ use_flags:
 - -python_targets_pypy
 - python_targets_python2_7
 version: 3.5.0+r4
-
 Labels:
   original.package.name: "configparser"
   original.package.category: "dev-python"
   original.package.version: "3.5.0"
   original.package.slot: "0"
-

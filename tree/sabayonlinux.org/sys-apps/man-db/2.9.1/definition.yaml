@@ -1,0 +1,62 @@
+category: sys-apps
+license: GPL-3
+name: man-db
+requires:
+- Labels: null
+  category: app-text
+  name: po4a
+  version: '>=0.45'
+- Labels: null
+  category: dev-libs
+  name: libpipeline
+  version: '>=1.5.0'
+- Labels: null
+  category: acct-group
+  name: man
+  version: '>=0'
+- Labels: null
+  category: acct-user
+  name: man
+  version: '>=0'
+- Labels: null
+  category: app-text
+  name: manpager
+  version: '>=0'
+- Labels: null
+  category: sys-apps
+  name: groff
+  version: '>=0'
+- Labels: null
+  category: sys-libs
+  name: gdbm
+  version: '>=0'
+- Labels: null
+  category: sys-libs
+  name: libseccomp
+  version: '>=0'
+- Labels: null
+  category: sys-libs
+  name: zlib
+  version: '>=0'
+use_flags:
+- big-endian
+- userland_GNU
+- manpager
+- -berkdb
+- nls
+- -selinux
+- amd64
+- zlib
+- split-usr
+- abi_x86_64
+- -static-libs
+- gdbm
+- seccomp
+- elibc_glibc
+- kernel_linux
+version: "2.9.1"
+Labels:
+  original.package.name: "man-db"
+  original.package.category: "sys-apps"
+  original.package.version: "2.9.0"
+  original.package.slot: "0"

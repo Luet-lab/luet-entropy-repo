@@ -1,0 +1,83 @@
+unpack: true
+steps:
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/python2.7$
+- /usr/lib64/python2.7/site-packages$
+- /usr/lib64/python2.7/site-packages/wcwidth$
+- /usr/lib64/python2.7/site-packages/wcwidth-0.1.9-py2.7.egg-info$
+- /usr/lib64/python2.7/site-packages/wcwidth-0.1.9-py2.7.egg-info/PKG-INFO$
+- /usr/lib64/python2.7/site-packages/wcwidth-0.1.9-py2.7.egg-info/SOURCES.txt$
+- /usr/lib64/python2.7/site-packages/wcwidth-0.1.9-py2.7.egg-info/dependency_links.txt$
+- /usr/lib64/python2.7/site-packages/wcwidth-0.1.9-py2.7.egg-info/top_level.txt$
+- /usr/lib64/python2.7/site-packages/wcwidth-0.1.9-py2.7.egg-info/zip-safe$
+- /usr/lib64/python2.7/site-packages/wcwidth/__init__.py$
+- /usr/lib64/python2.7/site-packages/wcwidth/__init__.pyc$
+- /usr/lib64/python2.7/site-packages/wcwidth/__init__.pyo$
+- /usr/lib64/python2.7/site-packages/wcwidth/table_wide.py$
+- /usr/lib64/python2.7/site-packages/wcwidth/table_wide.pyc$
+- /usr/lib64/python2.7/site-packages/wcwidth/table_wide.pyo$
+- /usr/lib64/python2.7/site-packages/wcwidth/table_zero.py$
+- /usr/lib64/python2.7/site-packages/wcwidth/table_zero.pyc$
+- /usr/lib64/python2.7/site-packages/wcwidth/table_zero.pyo$
+- /usr/lib64/python2.7/site-packages/wcwidth/tests$
+- /usr/lib64/python2.7/site-packages/wcwidth/tests/__init__.py$
+- /usr/lib64/python2.7/site-packages/wcwidth/tests/__init__.pyc$
+- /usr/lib64/python2.7/site-packages/wcwidth/tests/__init__.pyo$
+- /usr/lib64/python2.7/site-packages/wcwidth/tests/test_core.py$
+- /usr/lib64/python2.7/site-packages/wcwidth/tests/test_core.pyc$
+- /usr/lib64/python2.7/site-packages/wcwidth/tests/test_core.pyo$
+- /usr/lib64/python2.7/site-packages/wcwidth/wcwidth.py$
+- /usr/lib64/python2.7/site-packages/wcwidth/wcwidth.pyc$
+- /usr/lib64/python2.7/site-packages/wcwidth/wcwidth.pyo$
+- /usr/lib64/python3.6$
+- /usr/lib64/python3.6/site-packages$
+- /usr/lib64/python3.6/site-packages/wcwidth$
+- /usr/lib64/python3.6/site-packages/wcwidth-0.1.9-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/wcwidth-0.1.9-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/wcwidth-0.1.9-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/wcwidth-0.1.9-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/wcwidth-0.1.9-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/wcwidth-0.1.9-py3.6.egg-info/zip-safe$
+- /usr/lib64/python3.6/site-packages/wcwidth/__init__.py$
+- /usr/lib64/python3.6/site-packages/wcwidth/__pycache__$
+- /usr/lib64/python3.6/site-packages/wcwidth/__pycache__/__init__.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/wcwidth/__pycache__/__init__.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/wcwidth/__pycache__/__init__.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/wcwidth/__pycache__/table_wide.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/wcwidth/__pycache__/table_wide.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/wcwidth/__pycache__/table_wide.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/wcwidth/__pycache__/table_zero.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/wcwidth/__pycache__/table_zero.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/wcwidth/__pycache__/table_zero.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/wcwidth/__pycache__/wcwidth.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/wcwidth/__pycache__/wcwidth.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/wcwidth/__pycache__/wcwidth.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/wcwidth/table_wide.py$
+- /usr/lib64/python3.6/site-packages/wcwidth/table_zero.py$
+- /usr/lib64/python3.6/site-packages/wcwidth/tests$
+- /usr/lib64/python3.6/site-packages/wcwidth/tests/__init__.py$
+- /usr/lib64/python3.6/site-packages/wcwidth/tests/__pycache__$
+- /usr/lib64/python3.6/site-packages/wcwidth/tests/__pycache__/__init__.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/wcwidth/tests/__pycache__/__init__.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/wcwidth/tests/__pycache__/__init__.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/wcwidth/tests/__pycache__/test_core.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/wcwidth/tests/__pycache__/test_core.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/wcwidth/tests/__pycache__/test_core.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/wcwidth/tests/test_core.py$
+- /usr/lib64/python3.6/site-packages/wcwidth/wcwidth.py$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/wcwidth-0.1.9$
+- /usr/share/doc/wcwidth-0.1.9/README.rst.bz2$
+env:
+- ORIGINAL_ATOM=dev-python/wcwidth
+- ORIGINAL_PACKAGE=dev-python/wcwidth-0.1.9

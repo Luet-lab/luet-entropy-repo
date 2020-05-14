@@ -1,16 +1,10 @@
-Labels: null
 category: dev-lang
-conflicts: null
-id: 0
 license: BSD BSD-2 GPL-3+
 name: swig
 requires:
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libpcre-3
-  requires: null
   version: '>=0'
 use_flags:
 - pcre
@@ -23,10 +17,8 @@ use_flags:
 - big-endian
 - abi_x86_64
 version: 3.0.12+3
-
 Labels:
   original.package.name: "swig"
   original.package.category: "dev-lang"
   original.package.version: "3.0.12"
   original.package.slot: "0"
-

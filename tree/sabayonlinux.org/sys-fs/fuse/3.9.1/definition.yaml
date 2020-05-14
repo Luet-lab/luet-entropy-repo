@@ -1,0 +1,24 @@
+category: sys-fs
+license: GPL-2
+name: fuse
+requires:
+- Labels: null
+  category: sys-fs
+  name: fuse-common
+  version: '>=0'
+use_flags:
+- elibc_glibc
+- abi_x86_64
+- -kernel_FreeBSD
+- big-endian
+- -examples
+- userland_GNU
+- kernel_linux
+- -static-libs
+- amd64
+version: "3.9.1"
+Labels:
+  original.package.name: "fuse"
+  original.package.category: "sys-fs"
+  original.package.version: "2.9.8"
+  original.package.slot: "0"

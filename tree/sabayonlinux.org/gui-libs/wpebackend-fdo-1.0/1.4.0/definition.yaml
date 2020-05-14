@@ -1,51 +1,22 @@
-Labels: null
 category: gui-libs
-conflicts: null
-id: 0
 license: BSD-2
 name: wpebackend-fdo-1.0
 requires:
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: wayland
-  requires: null
   version: '>=1.10'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: glib-2
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: cmake
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: ninja
-  requires: null
   version: '>=0'
 - Labels: null
   category: gui-libs
-  conflicts: null
-  id: 0
   name: libwpe-1.0
-  requires: null
   version: '>=0'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: mesa
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -56,10 +27,8 @@ use_flags:
 - amd64
 - kernel_linux
 version: 1.4.0+3
-
 Labels:
   original.package.name: "wpebackend-fdo"
   original.package.category: "gui-libs"
   original.package.version: "1.4.0"
   original.package.slot: "1.0"
-

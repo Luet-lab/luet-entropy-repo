@@ -1,44 +1,22 @@
-Labels: null
 category: app-arch
-conflicts: null
-id: 0
 license: GPL-3
 name: cabextract
 requires:
 - Labels: null
-  category: app-portage
-  conflicts: null
-  id: 0
-  name: elt-patches
-  requires: null
-  version: '>=20170815'
-- Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libmspack
-  requires: null
   version: '>=0.8'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: autoconf-2.69
-  requires: null
   version: '>=2.69'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: automake-1.15
-  requires: null
   version: '>=1.15.1'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: libtool-2
-  requires: null
   version: '>=2.4'
 use_flags:
 - kernel_linux
@@ -49,10 +27,8 @@ use_flags:
 - elibc_glibc
 - big-endian
 version: 1.9+r5
-
 Labels:
   original.package.name: "cabextract"
   original.package.category: "app-arch"
   original.package.version: "1.9"
   original.package.slot: "0"
-

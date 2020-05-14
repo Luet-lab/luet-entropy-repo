@@ -1,44 +1,26 @@
-Labels: null
 category: app-admin
-conflicts: null
-id: 0
 license: GPL-2
 name: webapp-config
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-2.7
-  requires: null
   version: '>=2.7.5'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-exec-2
-  requires: null
   version: '>=2'
 - Labels: null
   category: app-text
-  conflicts: null
-  id: 0
   name: xmlto
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-3.6
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-apps
-  conflicts: null
-  id: 0
   name: gentoo-functions
-  requires: null
   version: '>=0'
 use_flags:
 - amd64
@@ -54,10 +36,8 @@ use_flags:
 - python_targets_python2_7
 - abi_x86_64
 version: 1.55+r4
-
 Labels:
   original.package.name: "webapp-config"
   original.package.category: "app-admin"
   original.package.version: "1.55"
   original.package.slot: "0"
-

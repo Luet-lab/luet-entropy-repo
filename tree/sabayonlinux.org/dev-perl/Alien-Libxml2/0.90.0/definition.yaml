@@ -1,37 +1,22 @@
-Labels: null
 category: dev-perl
-conflicts: null
-id: 0
 license: Artistic GPL-1+
 name: Alien-Libxml2
 requires:
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: Alien-Build
-  requires: null
   version: '>=0.730.0'
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: Alien-Build
-  requires: null
   version: '>=1.600.0'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: perl
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libxml2-2
-  requires: null
   version: '>=0'
 use_flags:
 - split-usr
@@ -43,10 +28,8 @@ use_flags:
 - -test
 - kernel_linux
 version: 0.90.0+3
-
 Labels:
   original.package.name: "Alien-Libxml2"
   original.package.category: "dev-perl"
   original.package.version: "0.90.0"
   original.package.slot: "0"
-

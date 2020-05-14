@@ -1,7 +1,4 @@
-Labels: null
 category: sys-firmware
-conflicts: null
-id: 0
 license: BSD-2 MIT
 name: edk2-ovmf
 requires: null
@@ -15,10 +12,8 @@ use_flags:
 - binary
 - split-usr
 version: 201905+3
-
 Labels:
   original.package.name: "edk2-ovmf"
   original.package.category: "sys-firmware"
   original.package.version: "201905"
   original.package.slot: "0"
-

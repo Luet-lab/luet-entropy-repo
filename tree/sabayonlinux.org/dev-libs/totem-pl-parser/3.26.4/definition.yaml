@@ -1,0 +1,43 @@
+category: dev-libs
+license: LGPL-2+
+name: totem-pl-parser
+requires:
+- Labels: null
+  category: dev-libs
+  name: glib-2
+  version: '>=2.36'
+- Labels: null
+  category: dev-libs
+  name: gobject-introspection
+  version: '>=1.54'
+- Labels: null
+  category: media-libs
+  name: libquvi
+  version: '>=0.9.1'
+- Labels: null
+  category: dev-libs
+  name: libgcrypt
+  version: '>=0'
+- Labels: null
+  category: dev-libs
+  name: libxml2-2
+  version: '>=0'
+use_flags:
+- -archive
+- -test
+- crypt
+- abi_x86_64
+- -gtk-doc
+- introspection
+- userland_GNU
+- kernel_linux
+- big-endian
+- quvi
+- amd64
+- elibc_glibc
+version: "3.26.4"
+Labels:
+  original.package.name: "totem-pl-parser"
+  original.package.category: "dev-libs"
+  original.package.version: "3.26.3"
+  original.package.slot: "0"

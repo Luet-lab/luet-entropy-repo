@@ -1,17 +1,7 @@
-Labels: null
 category: net-fs
-conflicts: null
-id: 0
 license: GPL-3
 name: cifs-utils
-requires:
-- Labels: null
-  category: app-portage
-  conflicts: null
-  id: 0
-  name: elt-patches
-  requires: null
-  version: '>=20170815'
+requires: []
 use_flags:
 - elibc_glibc
 - caps
@@ -26,10 +16,8 @@ use_flags:
 - amd64
 - abi_x86_64
 version: 6.9+r4
-
 Labels:
   original.package.name: "cifs-utils"
   original.package.category: "net-fs"
   original.package.version: "6.9"
   original.package.slot: "0"
-

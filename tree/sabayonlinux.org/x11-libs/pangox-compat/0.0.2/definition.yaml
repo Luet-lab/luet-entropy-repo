@@ -1,59 +1,19 @@
-Labels: null
 category: x11-libs
-conflicts: null
-id: 0
 license: LGPL-2+
 name: pangox-compat
 requires:
 - Labels: null
-  category: app-portage
-  conflicts: null
-  id: 0
-  name: elt-patches
-  requires: null
-  version: '>=20170815'
-- Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: glib-2
-  requires: null
   version: '>=2.34.3'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: libX11
-  requires: null
   version: '>=1.6.2'
 - Labels: null
   category: x11-libs
-  conflicts: null
-  id: 0
   name: pango
-  requires: null
   version: '>=1.36.3'
-- Labels: null
-  category: app-arch
-  conflicts: null
-  id: 0
-  name: xz-utils
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: desktop-file-utils
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: x11-misc
-  conflicts: null
-  id: 0
-  name: shared-mime-info
-  requires: null
-  version: '>=0'
 use_flags:
 - big-endian
 - -abi_s390_32
@@ -72,10 +32,8 @@ use_flags:
 - -abi_riscv_lp64
 - userland_GNU
 version: 0.0.2+r5
-
 Labels:
   original.package.name: "pangox-compat"
   original.package.category: "x11-libs"
   original.package.version: "0.0.2"
   original.package.slot: "0"
-

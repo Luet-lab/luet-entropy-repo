@@ -1,0 +1,21 @@
+category: media-gfx
+license: GPL-3
+name: libimagequant
+requires: null
+use_flags:
+- abi_x86_64
+- -static-libs
+- openmp
+- -debug
+- big-endian
+- elibc_glibc
+- amd64
+- userland_GNU
+- kernel_linux
+- cpu_flags_x86_sse2
+version: "2.12.3"
+Labels:
+  original.package.name: "libimagequant"
+  original.package.category: "media-gfx"
+  original.package.version: "2.12.2"
+  original.package.slot: "0"

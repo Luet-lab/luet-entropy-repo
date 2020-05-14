@@ -1,16 +1,10 @@
-Labels: null
 category: dev-ruby
-conflicts: null
-id: 0
 license: MIT
 name: tilt-2
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: ruby-2.5
-  requires: null
   version: '>=0'
 use_flags:
 - -ruby_targets_ruby26
@@ -25,10 +19,8 @@ use_flags:
 - -test
 - kernel_linux
 version: 2.0.10+3
-
 Labels:
   original.package.name: "tilt"
   original.package.category: "dev-ruby"
   original.package.version: "2.0.10"
   original.package.slot: "2"
-

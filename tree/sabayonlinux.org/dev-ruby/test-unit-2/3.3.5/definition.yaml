@@ -1,23 +1,14 @@
-Labels: null
 category: dev-ruby
-conflicts: null
-id: 0
 license: GPL-2 PSF-2 Ruby
 name: test-unit-2
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: ruby-2.5
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-ruby
-  conflicts: null
-  id: 0
   name: power_assert
-  requires: null
   version: '>=0'
 use_flags:
 - -test
@@ -34,10 +25,8 @@ use_flags:
 - kernel_linux
 - userland_GNU
 version: 3.3.5+3
-
 Labels:
   original.package.name: "test-unit"
   original.package.category: "dev-ruby"
   original.package.version: "3.3.5"
   original.package.slot: "2"
-

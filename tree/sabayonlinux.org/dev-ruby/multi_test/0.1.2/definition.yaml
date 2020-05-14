@@ -1,16 +1,10 @@
-Labels: null
 category: dev-ruby
-conflicts: null
-id: 0
 license: MIT
 name: multi_test
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: ruby-2.5
-  requires: null
   version: '>=0'
 use_flags:
 - -ruby_targets_ruby26
@@ -26,10 +20,8 @@ use_flags:
 - kernel_linux
 - ruby_targets_ruby25
 version: 0.1.2+3
-
 Labels:
   original.package.name: "multi_test"
   original.package.category: "dev-ruby"
   original.package.version: "0.1.2"
   original.package.slot: "0"
-

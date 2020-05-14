@@ -1,24 +1,7 @@
-Labels: null
 category: app-text
-conflicts: null
-id: 0
 license: BSD-2
 name: cmark
-requires:
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: cmake
-  requires: null
-  version: '>=3.9.6'
-- Labels: null
-  category: dev-util
-  conflicts: null
-  id: 0
-  name: ninja
-  requires: null
-  version: '>=0'
+requires: []
 use_flags:
 - big-endian
 - kernel_linux
@@ -29,10 +12,8 @@ use_flags:
 - -test
 - abi_x86_64
 version: 0.29.0+3
-
 Labels:
   original.package.name: "cmark"
   original.package.category: "app-text"
   original.package.version: "0.29.0"
   original.package.slot: "0"
-

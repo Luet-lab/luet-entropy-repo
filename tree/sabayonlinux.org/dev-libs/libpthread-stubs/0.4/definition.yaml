@@ -1,7 +1,4 @@
-Labels: null
 category: dev-libs
-conflicts: null
-id: 0
 license: MIT
 name: libpthread-stubs
 requires: null
@@ -23,10 +20,8 @@ use_flags:
 - -abi_mips_n32
 - userland_GNU
 version: 0.4+r5
-
 Labels:
   original.package.name: "libpthread-stubs"
   original.package.category: "dev-libs"
   original.package.version: "0.4"
   original.package.slot: "0"
-

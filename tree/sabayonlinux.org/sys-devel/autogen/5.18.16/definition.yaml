@@ -1,23 +1,14 @@
-Labels: null
 category: sys-devel
-conflicts: null
-id: 0
 license: GPL-2
 name: autogen
 requires:
 - Labels: null
   category: dev-scheme
-  conflicts: null
-  id: 0
   name: guile-12
-  requires: null
   version: '>=2.0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libxml2-2
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -30,10 +21,8 @@ use_flags:
 - elibc_glibc
 - kernel_linux
 version: 5.18.16+r4
-
 Labels:
   original.package.name: "autogen"
   original.package.category: "sys-devel"
   original.package.version: "5.18.16"
   original.package.slot: "0"
-

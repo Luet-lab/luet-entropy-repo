@@ -1,37 +1,22 @@
-Labels: null
 category: dev-python
-conflicts: null
-id: 0
 license: Apache-2.0
 name: wsaccel
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-2.7
-  requires: null
   version: '>=2.7.5'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-exec-2
-  requires: null
   version: '>=2'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-3.6
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: cython
-  requires: null
   version: '>=0'
 use_flags:
 - -python_targets_python3_5
@@ -46,10 +31,8 @@ use_flags:
 - kernel_linux
 - python_targets_python3_6
 version: 0.6.2+p20170111
-
 Labels:
   original.package.name: "wsaccel"
   original.package.category: "dev-python"
   original.package.version: "0.6.2"
   original.package.slot: "0"
-

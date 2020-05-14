@@ -1,37 +1,22 @@
-Labels: null
 category: dev-ruby
-conflicts: null
-id: 0
 license: MIT
 name: loofah
 requires:
 - Labels: null
   category: dev-ruby
-  conflicts: null
-  id: 0
   name: crass
-  requires: null
   version: '>=1.0'
 - Labels: null
   category: dev-ruby
-  conflicts: null
-  id: 0
   name: crass
-  requires: null
   version: '>=1.0.2'
 - Labels: null
   category: dev-ruby
-  conflicts: null
-  id: 0
   name: nokogiri
-  requires: null
   version: '>=1.5.9'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: ruby-2.5
-  requires: null
   version: '>=0'
 use_flags:
 - ruby_targets_ruby25
@@ -47,10 +32,8 @@ use_flags:
 - split-usr
 - amd64
 version: 2.4.0+3
-
 Labels:
   original.package.name: "loofah"
   original.package.category: "dev-ruby"
   original.package.version: "2.4.0"
   original.package.slot: "0"
-

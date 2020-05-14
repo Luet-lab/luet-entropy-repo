@@ -1,23 +1,10 @@
-Labels: null
 category: dev-libs
-conflicts: null
-id: 0
 license: GPL-3 LGPL-2.1
 name: libassuan
 requires:
 - Labels: null
-  category: app-portage
-  conflicts: null
-  id: 0
-  name: elt-patches
-  requires: null
-  version: '>=20170815'
-- Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libgpg-error
-  requires: null
   version: '>=1.8'
 use_flags:
 - kernel_linux
@@ -29,10 +16,8 @@ use_flags:
 - split-usr
 - userland_GNU
 version: 2.5.3+3
-
 Labels:
   original.package.name: "libassuan"
   original.package.category: "dev-libs"
   original.package.version: "2.5.3"
   original.package.slot: "0"
-

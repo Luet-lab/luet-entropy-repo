@@ -1,0 +1,71 @@
+unpack: true
+steps:
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/libhandy-0.0$
+- /usr/include/libhandy-0.0/handy.h$
+- /usr/include/libhandy-0.0/hdy-action-row.h$
+- /usr/include/libhandy-0.0/hdy-animation.h$
+- /usr/include/libhandy-0.0/hdy-arrows.h$
+- /usr/include/libhandy-0.0/hdy-column.h$
+- /usr/include/libhandy-0.0/hdy-combo-row.h$
+- /usr/include/libhandy-0.0/hdy-deprecation-macros.h$
+- /usr/include/libhandy-0.0/hdy-dialer-button.h$
+- /usr/include/libhandy-0.0/hdy-dialer-cycle-button.h$
+- /usr/include/libhandy-0.0/hdy-dialer.h$
+- /usr/include/libhandy-0.0/hdy-dialog.h$
+- /usr/include/libhandy-0.0/hdy-enum-value-object.h$
+- /usr/include/libhandy-0.0/hdy-enums.h$
+- /usr/include/libhandy-0.0/hdy-expander-row.h$
+- /usr/include/libhandy-0.0/hdy-fold.h$
+- /usr/include/libhandy-0.0/hdy-header-bar.h$
+- /usr/include/libhandy-0.0/hdy-header-group.h$
+- /usr/include/libhandy-0.0/hdy-keypad.h$
+- /usr/include/libhandy-0.0/hdy-leaflet.h$
+- /usr/include/libhandy-0.0/hdy-list-box.h$
+- /usr/include/libhandy-0.0/hdy-main.h$
+- /usr/include/libhandy-0.0/hdy-paginator.h$
+- /usr/include/libhandy-0.0/hdy-preferences-group.h$
+- /usr/include/libhandy-0.0/hdy-preferences-page.h$
+- /usr/include/libhandy-0.0/hdy-preferences-row.h$
+- /usr/include/libhandy-0.0/hdy-preferences-window.h$
+- /usr/include/libhandy-0.0/hdy-search-bar.h$
+- /usr/include/libhandy-0.0/hdy-squeezer.h$
+- /usr/include/libhandy-0.0/hdy-string-utf8.h$
+- /usr/include/libhandy-0.0/hdy-swipe-group.h$
+- /usr/include/libhandy-0.0/hdy-swipeable.h$
+- /usr/include/libhandy-0.0/hdy-title-bar.h$
+- /usr/include/libhandy-0.0/hdy-value-object.h$
+- /usr/include/libhandy-0.0/hdy-version.h$
+- /usr/include/libhandy-0.0/hdy-view-switcher-bar.h$
+- /usr/include/libhandy-0.0/hdy-view-switcher.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/girepository-1.0$
+- /usr/lib64/girepository-1.0/Handy-0.0.typelib$
+- /usr/lib64/libhandy-0.0.so$
+- /usr/lib64/libhandy-0.0.so.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libhandy-0.0.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libhandy-0.0.13$
+- /usr/share/doc/libhandy-0.0.13/AUTHORS.bz2$
+- /usr/share/doc/libhandy-0.0.13/README.md.bz2$
+- /usr/share/gir-1.0$
+- /usr/share/gir-1.0/Handy-0.0.gir$
+- /usr/share/vala$
+- /usr/share/vala/vapi$
+- /usr/share/vala/vapi/libhandy-0.0.deps$
+- /usr/share/vala/vapi/libhandy-0.0.vapi$
+env:
+- ORIGINAL_ATOM=gui-libs/libhandy
+- ORIGINAL_PACKAGE=gui-libs/libhandy-0.0.13

@@ -1,16 +1,10 @@
-Labels: null
 category: media-gfx
-conflicts: null
-id: 0
 license: GPL-2
 name: potrace
 requires:
 - Labels: null
   category: sys-libs
-  conflicts: null
-  id: 0
   name: zlib
-  requires: null
   version: '>=0'
 use_flags:
 - amd64
@@ -22,10 +16,8 @@ use_flags:
 - userland_GNU
 - abi_x86_64
 version: 1.15+3
-
 Labels:
   original.package.name: "potrace"
   original.package.category: "media-gfx"
   original.package.version: "1.15"
   original.package.slot: "0"
-

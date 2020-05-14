@@ -1,0 +1,46 @@
+category: app-text
+license: GPL-2
+name: poppler-qt5
+requires:
+- Labels: null
+  category: dev-qt
+  name: qtcore-5
+  version: '>=0'
+- Labels: null
+  category: dev-qt
+  name: qtgui-5
+  version: '>=0'
+- Labels: null
+  category: dev-qt
+  name: qtxml-5
+  version: '>=0'
+- Labels: null
+  category: app-text
+  name: poppler-base
+  version: '>=0.82.0'
+use_flags:
+- elibc_glibc
+- png
+- cjk
+- lcms
+- -curl
+- kernel_linux
+- -doc
+- jpeg
+- -nss
+- userland_GNU
+- amd64
+- jpeg2k
+- abi_x86_64
+- cxx
+- big-endian
+- -debug
+- utils
+- tiff
+- split-usr
+version: "0.85.0"
+Labels:
+  original.package.name: "poppler-qt5"
+  original.package.category: "app-text"
+  original.package.version: "0.82.0"
+  original.package.slot: "0"

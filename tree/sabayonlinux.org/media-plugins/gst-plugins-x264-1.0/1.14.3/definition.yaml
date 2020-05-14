@@ -1,45 +1,23 @@
-Labels: null
 category: media-plugins
-conflicts: null
-id: 0
 license: GPL-2
 name: gst-plugins-x264-1.0
 requires:
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: glib-2
-  requires: null
   version: '>=2.38.2'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: gst-plugins-ugly-1.0
-  requires: null
   version: '>=1.14.3'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: gstreamer-1.0
-  requires: null
   version: '>=1.2.4'
 - Labels: null
   category: media-libs
-  conflicts: null
-  id: 0
   name: x264
-  requires: null
   version: '>=0.0.20130506'
-- Labels: null
-  category: sys-apps
-  conflicts: null
-  id: 0
-  name: sed
-  requires: null
-  version: '>=4'
 use_flags:
 - big-endian
 - -abi_s390_32
@@ -58,10 +36,8 @@ use_flags:
 - -abi_riscv_lp64
 - userland_GNU
 version: 1.14.3+4
-
 Labels:
   original.package.name: "gst-plugins-x264"
   original.package.category: "media-plugins"
   original.package.version: "1.14.3"
   original.package.slot: "1.0"
-

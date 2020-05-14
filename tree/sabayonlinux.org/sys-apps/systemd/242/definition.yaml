@@ -5,9 +5,6 @@ requires:
 - category: app-arch
   name: lz4
   version: '>=0'
-- category: app-arch
-  name: xz-utils
-  version: '>=5.0.5'
 - category: dev-libs
   name: libgcrypt
   version: '>=1.4.5'
@@ -38,9 +35,6 @@ requires:
 - category: sys-libs
   name: libseccomp
   version: '>=2.3.3'
-- category: app-arch
-  name: xz-utils
-  version: '>=0'
 - category: dev-libs
   name: libpcre2
   version: '>=0'
@@ -108,10 +102,8 @@ use_flags:
 - -build
 - -libidn2
 version: 242+r8
-
 Labels:
   original.package.name: "systemd"
   original.package.category: "sys-apps"
   original.package.version: "242"
   original.package.slot: "0"
-

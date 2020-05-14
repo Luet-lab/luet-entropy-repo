@@ -1,44 +1,26 @@
-Labels: null
 category: sys-boot
-conflicts: null
-id: 0
 license: GPL-2
 name: syslinux
 requires:
 - Labels: null
   category: sys-boot
-  conflicts: null
-  id: 0
   name: gnu-efi
-  requires: null
   version: '>=3.0u'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: nasm
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: Crypt-PasswdMD5
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: Digest-SHA1
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-fs
-  conflicts: null
-  id: 0
   name: mtools
-  requires: null
   version: '>=0'
 use_flags:
 - -custom-cflags
@@ -48,10 +30,8 @@ use_flags:
 - kernel_linux
 - abi_x86_64
 version: 6.04+pre1.3
-
 Labels:
   original.package.name: "syslinux"
   original.package.category: "sys-boot"
   original.package.version: "6.04"
   original.package.slot: "0"
-

@@ -1,37 +1,22 @@
-Labels: null
 category: dev-perl
-conflicts: null
-id: 0
 license: Artistic GPL-1+
 name: XML-DOM
 requires:
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: XML-Parser
-  requires: null
   version: '>=2.300.0'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: perl
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: XML-RegExp
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: libwww-perl
-  requires: null
   version: '>=0'
 use_flags:
 - split-usr
@@ -43,10 +28,8 @@ use_flags:
 - abi_x86_64
 - elibc_glibc
 version: 1.460.0+r4
-
 Labels:
   original.package.name: "XML-DOM"
   original.package.category: "dev-perl"
   original.package.version: "1.460.0"
   original.package.slot: "0"
-

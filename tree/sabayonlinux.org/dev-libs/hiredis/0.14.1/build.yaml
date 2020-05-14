@@ -1,0 +1,41 @@
+unpack: true
+steps:
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/hiredis$
+- /usr/include/hiredis/adapters$
+- /usr/include/hiredis/adapters/ae.h$
+- /usr/include/hiredis/adapters/glib.h$
+- /usr/include/hiredis/adapters/ivykis.h$
+- /usr/include/hiredis/adapters/libev.h$
+- /usr/include/hiredis/adapters/libevent.h$
+- /usr/include/hiredis/adapters/libuv.h$
+- /usr/include/hiredis/adapters/macosx.h$
+- /usr/include/hiredis/adapters/qt.h$
+- /usr/include/hiredis/alloc.h$
+- /usr/include/hiredis/async.h$
+- /usr/include/hiredis/hiredis.h$
+- /usr/include/hiredis/read.h$
+- /usr/include/hiredis/sds.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libhiredis.so$
+- /usr/lib64/libhiredis.so.0.14$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/hiredis.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/hiredis-0.14.1$
+- /usr/share/doc/hiredis-0.14.1/CHANGELOG.md.bz2$
+- /usr/share/doc/hiredis-0.14.1/README.md.bz2$
+env:
+- ORIGINAL_ATOM=dev-libs/hiredis
+- ORIGINAL_PACKAGE=dev-libs/hiredis-0.14.1

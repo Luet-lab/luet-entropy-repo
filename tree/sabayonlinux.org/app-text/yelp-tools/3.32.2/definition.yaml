@@ -1,0 +1,33 @@
+category: app-text
+license: GPL-2+ freedist
+name: yelp-tools
+requires:
+- Labels: null
+  category: dev-libs
+  name: libxml2-2
+  version: '>=2.6.12'
+- Labels: null
+  category: dev-libs
+  name: libxslt
+  version: '>=1.1.8'
+- Labels: null
+  category: gnome-extra
+  name: yelp-xsl
+  version: '>=3.17.3'
+- Labels: null
+  category: dev-util
+  name: itstool
+  version: '>=0'
+use_flags:
+- amd64
+- big-endian
+- abi_x86_64
+- elibc_glibc
+- userland_GNU
+- kernel_linux
+version: "3.32.2"
+Labels:
+  original.package.name: "yelp-tools"
+  original.package.category: "app-text"
+  original.package.version: "3.28.0"
+  original.package.slot: "0"

@@ -1,86 +1,46 @@
-Labels: null
 category: dev-libs
-conflicts: null
-id: 0
 license: MIT
 name: xmlsec
 requires:
 - Labels: null
-  category: app-portage
-  conflicts: null
-  id: 0
-  name: elt-patches
-  requires: null
-  version: '>=20170815'
-- Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libgcrypt
-  requires: null
   version: '>=1.4.0'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libxml2-2
-  requires: null
   version: '>=2.7.4'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: libxslt
-  requires: null
   version: '>=1.0.20'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: nspr
-  requires: null
   version: '>=4.4.1'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: nss
-  requires: null
   version: '>=3.9'
 - Labels: null
   category: net-libs
-  conflicts: null
-  id: 0
   name: gnutls
-  requires: null
   version: '>=2.8.0'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: autoconf-2.69
-  requires: null
   version: '>=2.69'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: automake-1.15
-  requires: null
   version: '>=1.15.1'
 - Labels: null
   category: sys-devel
-  conflicts: null
-  id: 0
   name: libtool-2
-  requires: null
   version: '>=2.4'
 - Labels: null
   category: dev-libs
-  conflicts: null
-  id: 0
   name: openssl
-  requires: null
   version: '>=0'
 use_flags:
 - split-usr
@@ -99,10 +59,8 @@ use_flags:
 - nss
 - openssl
 version: 1.2.29+3
-
 Labels:
   original.package.name: "xmlsec"
   original.package.category: "dev-libs"
   original.package.version: "1.2.29"
   original.package.slot: "0"
-

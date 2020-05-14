@@ -1,37 +1,22 @@
-Labels: null
 category: dev-perl
-conflicts: null
-id: 0
 license: Artistic GPL-2
 name: XML-SAX-Expat
 requires:
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: XML-NamespaceSupport
-  requires: null
   version: '>=1.09'
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: XML-SAX
-  requires: null
   version: '>=0.15'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: perl
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: XML-Parser
-  requires: null
   version: '>=0'
 use_flags:
 - big-endian
@@ -43,10 +28,8 @@ use_flags:
 - kernel_linux
 - amd64
 version: 0.510.0+3
-
 Labels:
   original.package.name: "XML-SAX-Expat"
   original.package.category: "dev-perl"
   original.package.version: "0.510.0"
   original.package.slot: "0"
-

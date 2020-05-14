@@ -1,0 +1,42 @@
+category: dev-python
+license: MIT
+name: py
+requires:
+- Labels: null
+  category: dev-lang
+  name: python-2.7
+  version: '>=2.7.5'
+- Labels: null
+  category: dev-lang
+  name: python-exec-2
+  version: '>=2'
+- Labels: null
+  category: dev-lang
+  name: python-3.6
+  version: '>=0'
+- Labels: null
+  category: dev-python
+  name: setuptools_scm
+  version: '>=0'
+use_flags:
+- -doc
+- big-endian
+- userland_GNU
+- elibc_glibc
+- split-usr
+- python_targets_python3_6
+- -python_targets_python3_7
+- kernel_linux
+- -python_targets_pypy3
+- amd64
+- abi_x86_64
+- -python_targets_pypy
+- -test
+- -python_targets_python3_5
+- python_targets_python2_7
+version: "1.8.0"
+Labels:
+  original.package.name: "py"
+  original.package.category: "dev-python"
+  original.package.version: "1.8.0"
+  original.package.slot: "0"

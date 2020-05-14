@@ -1,51 +1,26 @@
-Labels: null
 category: dev-python
-conflicts: null
-id: 0
 license: BSD
 name: soappy
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-2.7
-  requires: null
   version: '>=2.7.5'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-exec-2
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: defusedxml
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
   name: m2crypto
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-python
-  conflicts: null
-  id: 0
-  name: setuptools
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-python
-  conflicts: null
-  id: 0
   name: wstools
-  requires: null
   version: '>=0'
 use_flags:
 - ssl
@@ -57,10 +32,8 @@ use_flags:
 - python_targets_python2_7
 - userland_GNU
 version: 0.12.22+3
-
 Labels:
   original.package.name: "soappy"
   original.package.category: "dev-python"
   original.package.version: "0.12.22"
   original.package.slot: "0"
-

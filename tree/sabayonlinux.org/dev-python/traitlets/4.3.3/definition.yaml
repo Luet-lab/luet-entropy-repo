@@ -1,0 +1,52 @@
+category: dev-python
+license: BSD
+name: traitlets
+requires:
+- Labels: null
+  category: dev-lang
+  name: python-2.7
+  version: '>=2.7.5'
+- Labels: null
+  category: dev-lang
+  name: python-exec-2
+  version: '>=2'
+- Labels: null
+  category: dev-lang
+  name: python-3.6
+  version: '>=0'
+- Labels: null
+  category: dev-python
+  name: decorator
+  version: '>=0'
+- Labels: null
+  category: dev-python
+  name: enum34
+  version: '>=0'
+- Labels: null
+  category: dev-python
+  name: ipython_genutils
+  version: '>=0'
+- Labels: null
+  category: dev-python
+  name: six
+  version: '>=0'
+use_flags:
+- -python_targets_python3_7
+- python_targets_python3_6
+- -python_targets_python3_5
+- kernel_linux
+- abi_x86_64
+- python_targets_python2_7
+- -doc
+- split-usr
+- -test
+- userland_GNU
+- big-endian
+- amd64
+- elibc_glibc
+version: "4.3.3"
+Labels:
+  original.package.name: "traitlets"
+  original.package.category: "dev-python"
+  original.package.version: "4.3.3"
+  original.package.slot: "0"

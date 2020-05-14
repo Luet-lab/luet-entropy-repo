@@ -1,65 +1,38 @@
-Labels: null
 category: dev-perl
-conflicts: null
-id: 0
 license: Artistic GPL-1+
 name: Spreadsheet-ParseExcel
 requires:
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: OLE-StorageLite
-  requires: null
   version: '>=0.19'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: perl
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: Crypt-RC4
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: Digest-Perl-MD5
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: IO-stringy
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: Jcode
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: Text-CSV_XS
-  requires: null
   version: '>=0'
 - Labels: null
   category: dev-perl
-  conflicts: null
-  id: 0
   name: Unicode-Map
-  requires: null
   version: '>=0'
 use_flags:
 - unicode
@@ -73,10 +46,8 @@ use_flags:
 - amd64
 - cjk
 version: 0.650.0+3
-
 Labels:
   original.package.name: "Spreadsheet-ParseExcel"
   original.package.category: "dev-perl"
   original.package.version: "0.650.0"
   original.package.slot: "0"
-

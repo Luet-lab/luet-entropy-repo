@@ -1,44 +1,26 @@
-Labels: null
 category: sys-kernel
-conflicts: null
-id: 0
 license: GPL-3
 name: sabayon-dracut
 requires:
 - Labels: null
   category: sys-boot
-  conflicts: null
-  id: 0
   name: plymouth
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-fs
-  conflicts: null
-  id: 0
   name: btrfs-progs
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-fs
-  conflicts: null
-  id: 0
   name: lvm2
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-fs
-  conflicts: null
-  id: 0
   name: mdadm
-  requires: null
   version: '>=0'
 - Labels: null
   category: sys-kernel
-  conflicts: null
-  id: 0
   name: dracut
-  requires: null
   version: '>=0'
 use_flags:
 - kernel_linux
@@ -49,10 +31,8 @@ use_flags:
 - userland_GNU
 - split-usr
 version: 1.4+r4
-
 Labels:
   original.package.name: "sabayon-dracut"
   original.package.category: "sys-kernel"
   original.package.version: "1.4"
   original.package.slot: "0"
-

@@ -1,0 +1,25 @@
+Labels:
+  original.package.version: "4.9"
+category: sys-auth
+license: BSD-2 GPL-2
+name: pam_krb5
+requires:
+- Labels: null
+  category: sys-libs
+  name: pam
+  version: '>=0'
+use_flags:
+- kernel_linux
+- userland_GNU
+- split-usr
+- abi_x86_64
+- big-endian
+- amd64
+- elibc_glibc
+version: "4.9"
+Labels:
+  original.package.name: "pam_krb5"
+  original.package.category: "sys-auth"
+  original.package.version: "4.7"
+  original.package.slot: "0"
+  original.package.version:

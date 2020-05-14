@@ -1,7 +1,4 @@
-Labels: null
 category: sys-devel
-conflicts: null
-id: 0
 license: GPL-2
 name: autoconf-wrapper
 requires: null
@@ -13,10 +10,8 @@ use_flags:
 - elibc_glibc
 - userland_GNU
 version: 13+r4
-
 Labels:
   original.package.name: "autoconf-wrapper"
   original.package.category: "sys-devel"
   original.package.version: "13"
   original.package.slot: "0"
-

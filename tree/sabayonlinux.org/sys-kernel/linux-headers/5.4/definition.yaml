@@ -1,0 +1,18 @@
+category: sys-kernel
+license: GPL-2
+name: linux-headers
+use_flags:
+- abi_x86_64
+- amd64
+- big-endian
+- kernel_linux
+- elibc_glibc
+- -headers-only
+- split-usr
+- userland_GNU
+version: "5.4"
+Labels:
+  original.package.name: "linux-headers"
+  original.package.category: "sys-kernel"
+  original.package.version: "4.19"
+  original.package.slot: "0"

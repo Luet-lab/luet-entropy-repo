@@ -1,0 +1,55 @@
+Labels:
+  original.package.version: "3.34.1"
+category: net-wireless
+license: FDL-1.1+ GPL-2+ LGPL-2.1+
+name: gnome-bluetooth-2
+requires:
+- Labels: null
+  category: dev-libs
+  name: glib-2
+  version: '>=2.38'
+- Labels: null
+  category: dev-libs
+  name: gobject-introspection
+  version: '>=1.54'
+- Labels: null
+  category: net-wireless
+  name: bluez
+  version: '>=5'
+- Labels: null
+  category: x11-libs
+  name: gtk+-3
+  version: '>=3.12'
+- Labels: null
+  category: x11-libs
+  name: libnotify
+  version: '>=0.7.0'
+- Labels: null
+  category: acct-group
+  name: plugdev
+  version: '>=0'
+- Labels: null
+  category: dev-libs
+  name: libxml2-2
+  version: '>=0'
+- Labels: null
+  category: media-libs
+  name: libcanberra
+  version: '>=0'
+use_flags:
+- kernel_linux
+- elibc_glibc
+- abi_x86_64
+- userland_GNU
+- split-usr
+- amd64
+- big-endian
+- -gtk-doc
+- introspection
+version: "3.34.1"
+Labels:
+  original.package.name: "gnome-bluetooth"
+  original.package.category: "net-wireless"
+  original.package.version: "3.34.0"
+  original.package.slot: "2"
+  original.package.version:

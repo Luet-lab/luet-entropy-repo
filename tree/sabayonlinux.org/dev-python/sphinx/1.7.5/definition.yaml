@@ -1,156 +1,60 @@
-Labels: null
 category: dev-python
-conflicts: null
-id: 0
 license: BSD
 name: sphinx
 requires:
-- Labels: null
-  category: dev-python
-  conflicts: null
-  id: 0
-  name: alabaster
-  requires: null
-  version: <0.8
-- Labels: null
-  category: dev-python
-  conflicts: null
-  id: 0
-  name: sphinx_rtd_theme
-  requires: null
-  version: <2.0
-- Labels: null
-  category: dev-lang
-  conflicts: null
-  id: 0
+- category: dev-lang
   name: python-2.7
-  requires: null
   version: '>=2.7.5'
-- Labels: null
-  category: dev-lang
-  conflicts: null
-  id: 0
+- category: dev-lang
   name: python-exec-2
-  requires: null
   version: '>=2'
-- Labels: null
-  category: dev-python
-  conflicts: null
-  id: 0
+- category: dev-python
   name: Babel
-  requires: null
   version: '>=2.1.1'
-- Labels: null
-  category: dev-python
-  conflicts: null
-  id: 0
+- category: dev-python
   name: alabaster
-  requires: null
   version: '>=0.7.9'
-- Labels: null
-  category: dev-python
-  conflicts: null
-  id: 0
+- category: dev-python
   name: docutils
-  requires: null
   version: '>=0.11'
-- Labels: null
-  category: dev-python
-  conflicts: null
-  id: 0
+- category: dev-python
   name: jinja
-  requires: null
   version: '>=2.3'
-- Labels: null
-  category: dev-python
-  conflicts: null
-  id: 0
+- category: dev-python
   name: pygments
-  requires: null
   version: '>=2.0.1'
-- Labels: null
-  category: dev-python
-  conflicts: null
-  id: 0
+- category: dev-python
   name: requests
-  requires: null
   version: '>=2.0.0'
-- Labels: null
-  category: dev-python
-  conflicts: null
-  id: 0
+- category: dev-python
   name: six
-  requires: null
   version: '>=1.5'
-- Labels: null
-  category: dev-python
-  conflicts: null
-  id: 0
+- category: dev-python
   name: snowballstemmer
-  requires: null
   version: '>=1.1'
-- Labels: null
-  category: dev-python
-  conflicts: null
-  id: 0
+- category: dev-python
   name: sphinx_rtd_theme
-  requires: null
   version: '>=0.1'
-- Labels: null
-  category: app-text
-  conflicts: null
-  id: 0
+- category: app-text
   name: dvipng
-  requires: null
   version: '>=0'
-- Labels: null
-  category: dev-lang
-  conflicts: null
-  id: 0
+- category: dev-lang
   name: python-3.6
-  requires: null
   version: '>=0'
-- Labels: null
-  category: dev-python
-  conflicts: null
-  id: 0
+- category: dev-python
   name: imagesize
-  requires: null
   version: '>=0'
-- Labels: null
-  category: dev-python
-  conflicts: null
-  id: 0
+- category: dev-python
   name: packaging
-  requires: null
   version: '>=0'
-- Labels: null
-  category: dev-python
-  conflicts: null
-  id: 0
-  name: setuptools
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-python
-  conflicts: null
-  id: 0
+- category: dev-python
   name: sphinxcontrib-websupport
-  requires: null
   version: '>=0'
-- Labels: null
-  category: dev-texlive
-  conflicts: null
-  id: 0
+- category: dev-texlive
   name: texlive-latexextra
-  requires: null
   version: '>=0'
-- Labels: null
-  category: dev-texlive
-  conflicts: null
-  id: 0
+- category: dev-texlive
   name: texlive-luatex
-  requires: null
   version: '>=0'
 use_flags:
 - -test
@@ -170,10 +74,8 @@ use_flags:
 - amd64
 - big-endian
 version: 1.7.5+r4
-
 Labels:
   original.package.name: "sphinx"
   original.package.category: "dev-python"
   original.package.version: "1.7.5"
   original.package.slot: "0"
-

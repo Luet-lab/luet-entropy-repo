@@ -1,0 +1,69 @@
+category: kde-frameworks
+license: MIT
+name: kdoctools-5
+requires:
+- Labels: null
+  category: kde-frameworks
+  name: karchive-5
+  version: '>=5.67'
+- Labels: null
+  category: kde-frameworks
+  name: extra-cmake-modules-5
+  version: '>=5.67'
+- Labels: null
+  category: kde-frameworks
+  name: kf-env-5
+  version: '>=4'
+- Labels: null
+  category: kde-frameworks
+  name: ki18n-5
+  version: '>=5.67'
+- Labels: null
+  category: app-text
+  name: docbook-xml-dtd-4.5
+  version: '>=0'
+- Labels: null
+  category: app-text
+  name: docbook-xsl-stylesheets
+  version: '>=0'
+- Labels: null
+  category: app-text
+  name: sgml-common
+  version: '>=0'
+- Labels: null
+  category: dev-lang
+  name: perl
+  version: '>=0'
+- Labels: null
+  category: dev-libs
+  name: libxml2-2
+  version: '>=0'
+- Labels: null
+  category: dev-libs
+  name: libxslt
+  version: '>=0'
+- Labels: null
+  category: dev-perl
+  name: URI
+  version: '>=0'
+- Labels: null
+  category: dev-qt
+  name: qtcore-5
+  version: '>=0'
+use_flags:
+- -test
+- kernel_linux
+- abi_x86_64
+- big-endian
+- -debug
+- elibc_glibc
+- nls
+- split-usr
+- userland_GNU
+- amd64
+version: "5.69.0"
+Labels:
+  original.package.name: "kdoctools"
+  original.package.category: "kde-frameworks"
+  original.package.version: "5.67.0"
+  original.package.slot: "5"

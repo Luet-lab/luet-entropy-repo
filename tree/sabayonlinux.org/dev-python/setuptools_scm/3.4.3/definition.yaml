@@ -1,37 +1,18 @@
-Labels: null
 category: dev-python
-conflicts: null
-id: 0
 license: MIT
 name: setuptools_scm
 requires:
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-2.7
-  requires: null
   version: '>=2.7.5'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-exec-2
-  requires: null
   version: '>=2'
 - Labels: null
   category: dev-lang
-  conflicts: null
-  id: 0
   name: python-3.6
-  requires: null
-  version: '>=0'
-- Labels: null
-  category: dev-python
-  conflicts: null
-  id: 0
-  name: setuptools
-  requires: null
   version: '>=0'
 use_flags:
 - abi_x86_64
@@ -48,10 +29,8 @@ use_flags:
 - amd64
 - kernel_linux
 version: 3.4.3+3
-
 Labels:
   original.package.name: "setuptools_scm"
   original.package.category: "dev-python"
   original.package.version: "3.4.3"
   original.package.slot: "0"
-
