@@ -1,0 +1,51 @@
+unpack: true
+steps:
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/versioneer$
+- /usr/lib$
+- /usr/lib/python-exec$
+- /usr/lib/python-exec/python2.7$
+- /usr/lib/python-exec/python2.7/versioneer$
+- /usr/lib/python-exec/python3.6$
+- /usr/lib/python-exec/python3.6/versioneer$
+- /usr/lib64$
+- /usr/lib64/python2.7$
+- /usr/lib64/python2.7/site-packages$
+- /usr/lib64/python2.7/site-packages/versioneer-0.18-py2.7.egg-info$
+- /usr/lib64/python2.7/site-packages/versioneer-0.18-py2.7.egg-info/PKG-INFO$
+- /usr/lib64/python2.7/site-packages/versioneer-0.18-py2.7.egg-info/SOURCES.txt$
+- /usr/lib64/python2.7/site-packages/versioneer-0.18-py2.7.egg-info/dependency_links.txt$
+- /usr/lib64/python2.7/site-packages/versioneer-0.18-py2.7.egg-info/entry_points.txt$
+- /usr/lib64/python2.7/site-packages/versioneer-0.18-py2.7.egg-info/top_level.txt$
+- /usr/lib64/python2.7/site-packages/versioneer.py$
+- /usr/lib64/python2.7/site-packages/versioneer.pyc$
+- /usr/lib64/python2.7/site-packages/versioneer.pyo$
+- /usr/lib64/python3.6$
+- /usr/lib64/python3.6/site-packages$
+- /usr/lib64/python3.6/site-packages/__pycache__$
+- /usr/lib64/python3.6/site-packages/__pycache__/versioneer.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/__pycache__/versioneer.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/__pycache__/versioneer.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/versioneer-0.18-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/versioneer-0.18-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/versioneer-0.18-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/versioneer-0.18-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/versioneer-0.18-py3.6.egg-info/entry_points.txt$
+- /usr/lib64/python3.6/site-packages/versioneer-0.18-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/versioneer.py$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/versioneer-0.18$
+- /usr/share/doc/versioneer-0.18/README.md.bz2$
+env:
+- ORIGINAL_ATOM=dev-python/versioneer
+- ORIGINAL_PACKAGE=dev-python/versioneer-0.18
