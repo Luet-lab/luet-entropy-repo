@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/xcffib-0.8.1 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -12,13 +13,13 @@ includes:
 - /usr/lib64/python2.7$
 - /usr/lib64/python2.7/site-packages$
 - /usr/lib64/python2.7/site-packages/xcffib$
-- /usr/lib64/python2.7/site-packages/xcffib-0.8.1-py2.7.egg-info$
-- /usr/lib64/python2.7/site-packages/xcffib-0.8.1-py2.7.egg-info/PKG-INFO$
-- /usr/lib64/python2.7/site-packages/xcffib-0.8.1-py2.7.egg-info/SOURCES.txt$
-- /usr/lib64/python2.7/site-packages/xcffib-0.8.1-py2.7.egg-info/dependency_links.txt$
-- /usr/lib64/python2.7/site-packages/xcffib-0.8.1-py2.7.egg-info/not-zip-safe$
-- /usr/lib64/python2.7/site-packages/xcffib-0.8.1-py2.7.egg-info/requires.txt$
-- /usr/lib64/python2.7/site-packages/xcffib-0.8.1-py2.7.egg-info/top_level.txt$
+- /usr/lib64/python2.7/site-packages/xcffib-0.9.0-py2.7.egg-info$
+- /usr/lib64/python2.7/site-packages/xcffib-0.9.0-py2.7.egg-info/PKG-INFO$
+- /usr/lib64/python2.7/site-packages/xcffib-0.9.0-py2.7.egg-info/SOURCES.txt$
+- /usr/lib64/python2.7/site-packages/xcffib-0.9.0-py2.7.egg-info/dependency_links.txt$
+- /usr/lib64/python2.7/site-packages/xcffib-0.9.0-py2.7.egg-info/not-zip-safe$
+- /usr/lib64/python2.7/site-packages/xcffib-0.9.0-py2.7.egg-info/requires.txt$
+- /usr/lib64/python2.7/site-packages/xcffib-0.9.0-py2.7.egg-info/top_level.txt$
 - /usr/lib64/python2.7/site-packages/xcffib/__init__.py$
 - /usr/lib64/python2.7/site-packages/xcffib/__init__.pyc$
 - /usr/lib64/python2.7/site-packages/xcffib/__init__.pyo$
@@ -55,6 +56,7 @@ includes:
 - /usr/lib64/python2.7/site-packages/xcffib/present.py$
 - /usr/lib64/python2.7/site-packages/xcffib/present.pyc$
 - /usr/lib64/python2.7/site-packages/xcffib/present.pyo$
+- /usr/lib64/python2.7/site-packages/xcffib/py.typed$
 - /usr/lib64/python2.7/site-packages/xcffib/randr.py$
 - /usr/lib64/python2.7/site-packages/xcffib/randr.pyc$
 - /usr/lib64/python2.7/site-packages/xcffib/randr.pyo$
@@ -121,13 +123,13 @@ includes:
 - /usr/lib64/python3.6$
 - /usr/lib64/python3.6/site-packages$
 - /usr/lib64/python3.6/site-packages/xcffib$
-- /usr/lib64/python3.6/site-packages/xcffib-0.8.1-py3.6.egg-info$
-- /usr/lib64/python3.6/site-packages/xcffib-0.8.1-py3.6.egg-info/PKG-INFO$
-- /usr/lib64/python3.6/site-packages/xcffib-0.8.1-py3.6.egg-info/SOURCES.txt$
-- /usr/lib64/python3.6/site-packages/xcffib-0.8.1-py3.6.egg-info/dependency_links.txt$
-- /usr/lib64/python3.6/site-packages/xcffib-0.8.1-py3.6.egg-info/not-zip-safe$
-- /usr/lib64/python3.6/site-packages/xcffib-0.8.1-py3.6.egg-info/requires.txt$
-- /usr/lib64/python3.6/site-packages/xcffib-0.8.1-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/xcffib-0.9.0-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/xcffib-0.9.0-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/xcffib-0.9.0-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/xcffib-0.9.0-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/xcffib-0.9.0-py3.6.egg-info/not-zip-safe$
+- /usr/lib64/python3.6/site-packages/xcffib-0.9.0-py3.6.egg-info/requires.txt$
+- /usr/lib64/python3.6/site-packages/xcffib-0.9.0-py3.6.egg-info/top_level.txt$
 - /usr/lib64/python3.6/site-packages/xcffib/__init__.py$
 - /usr/lib64/python3.6/site-packages/xcffib/__pycache__$
 - /usr/lib64/python3.6/site-packages/xcffib/__pycache__/__init__.cpython-36.opt-1.pyc$
@@ -240,6 +242,7 @@ includes:
 - /usr/lib64/python3.6/site-packages/xcffib/ge.py$
 - /usr/lib64/python3.6/site-packages/xcffib/glx.py$
 - /usr/lib64/python3.6/site-packages/xcffib/present.py$
+- /usr/lib64/python3.6/site-packages/xcffib/py.typed$
 - /usr/lib64/python3.6/site-packages/xcffib/randr.py$
 - /usr/lib64/python3.6/site-packages/xcffib/record.py$
 - /usr/lib64/python3.6/site-packages/xcffib/render.py$
@@ -263,5 +266,8 @@ includes:
 - /usr/lib64/python3.6/site-packages/xcffib/xvmc.py$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/xcffib-0.8.1$
-- /usr/share/doc/xcffib-0.8.1/README.md.bz2$
+- /usr/share/doc/xcffib-0.9.0$
+- /usr/share/doc/xcffib-0.9.0/README.md.bz2$
+env:
+- ORIGINAL_ATOM=dev-python/xcffib
+- ORIGINAL_PACKAGE=dev-python/xcffib-0.9.0
