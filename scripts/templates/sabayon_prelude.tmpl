@@ -1,0 +1,1 @@
+source /etc/profile && (emerge -C ${ORIGINAL_PACKAGE} || true ) && equo rescue spmsync && equo i --onlydeps ${ORIGINAL_PACKAGE}
