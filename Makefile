@@ -77,3 +77,7 @@ auto-clean:
 .PHONY: changes
 changes:
 	$(ROOT_DIR)/scripts/build-changes.sh
+
+.PHONY: auto-add
+auto-add:
+	$(ROOT_DIR)/scripts/auto-add.sh
