@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i net-vpn/openconnect-8.05 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -23,7 +24,7 @@ includes:
 - /usr/lib64$
 - /usr/lib64/libopenconnect.so$
 - /usr/lib64/libopenconnect.so.5$
-- /usr/lib64/libopenconnect.so.5.5.0$
+- /usr/lib64/libopenconnect.so.5.6.0$
 - /usr/lib64/pkgconfig$
 - /usr/lib64/pkgconfig/openconnect.pc$
 - /usr/libexec$
@@ -37,12 +38,11 @@ includes:
 - /usr/sbin/openconnect$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/openconnect-8.05$
-- /usr/share/doc/openconnect-8.05/AUTHORS.bz2$
-- /usr/share/doc/openconnect-8.05/ChangeLog.bz2$
-- /usr/share/doc/openconnect-8.05/README.TESTS.bz2$
-- /usr/share/doc/openconnect-8.05/README.gentoo.bz2$
-- /usr/share/doc/openconnect-8.05/TODO.bz2$
+- /usr/share/doc/openconnect-8.08$
+- /usr/share/doc/openconnect-8.08/AUTHORS.bz2$
+- /usr/share/doc/openconnect-8.08/ChangeLog.bz2$
+- /usr/share/doc/openconnect-8.08/README.OpenRC.txt.bz2$
+- /usr/share/doc/openconnect-8.08/TODO.bz2$
 - /usr/share/locale$
 - /usr/share/locale/ar$
 - /usr/share/locale/ar/LC_MESSAGES$
@@ -153,3 +153,6 @@ includes:
 - /var/log$
 - /var/log/openconnect$
 - /var/log/openconnect/.keep_net-vpn_openconnect-0$
+env:
+- ORIGINAL_ATOM=net-vpn/openconnect
+- ORIGINAL_PACKAGE=net-vpn/openconnect-8.08
