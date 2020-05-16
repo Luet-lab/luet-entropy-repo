@@ -57,32 +57,34 @@ files:
  - path: /etc/hosts
    generator: hosts
 
- - path: /etc/luet/.luet.yaml
-   generator: dump
-   content: |
-     general:
-       debug: false
-     repositories:
-       - name: "sabayonlinux.org"
-         description: "Sabayon Linux Repository"
-         type: "http"
-         enable: true
-         priority: 1
-         urls:
-           - "https://dispatcher.sabayon.org/sbi/namespace/luet-entropy-repo"
-       - name: "luet-embedded"
-         description: "Luet toolkit Repository"
-         type: "http"
-         enable: true
-         priority: 1
-         urls:
-           - "https://raw.githubusercontent.com/Luet-lab/luet-repo/gh-pages"
-
 packages:
   manager: luet
 
   update: false
-  cleanup: false
+  cleanup: true
+
+  repositories:
+    - name: "sabayonlinux.org_stable.yml"
+      url: |
+        name: "sabayonlinux.org"
+        description: "Sabayon Linux Repository Stable"
+        type: "http"
+        enable: true
+        cached: true
+        priority: 1
+        urls:
+          - "https://dispatcher.sabayon.org/sbi/namespace/luet-entropy-repo"
+
+    - name: "luet_embedded.yml"
+      url: |
+        name: "luet-embedded"
+        description: "Luet toolkit Repository"
+        type: "http"
+        enable: true
+        cached: true
+        priority: 1
+        urls:
+          - "https://raw.githubusercontent.com/Luet-lab/luet-repo/gh-pages"
 
   sets:
     - packages:
@@ -90,10 +92,14 @@ packages:
       action: install
 
 actions:
+  - trigger: post-unpack
+    action: |-
+      touch /etc/passwd
+      touch /etc/group
 
-  #  - trigger: post-packages
-  #  action: |-
-  #    rm -rf /var/cache/luet/packages/ /var/cache/luet/repos/
+  - trigger: post-packages
+    action: |-
+      rm -rf /var/cache/luet/repos/
 
 mappings:
   architecture_map: debian
