@@ -79,9 +79,9 @@ for i in $(echo "$PKG_LIST" | jq -r '.packages[].path'); do
     VERSION=$STRIPPED_PACKAGE_VERSION
 
     # Best effort: get original package name from labels
-    ORIGINAL_PACKAGE_NAME=$(yq r $PACKAGE_PATH/definition.yaml 'Labels."original.package.name"')
-    ORIGINAL_PACKAGE_CATEGORY=$(yq r $PACKAGE_PATH/definition.yaml 'Labels."original.package.category"')
-    ORIGINAL_PACKAGE_VERSION=$(yq r $PACKAGE_PATH/definition.yaml 'Labels."original.package.version"')
+    ORIGINAL_PACKAGE_NAME=$(yq r $PACKAGE_PATH/definition.yaml 'labels."original.package.name"')
+    ORIGINAL_PACKAGE_CATEGORY=$(yq r $PACKAGE_PATH/definition.yaml 'labels."original.package.category"')
+    ORIGINAL_PACKAGE_VERSION=$(yq r $PACKAGE_PATH/definition.yaml 'labels."original.package.version"')
 
     if [ -z "$ORIGINAL_PACKAGE_NAME" ]; then
         ORIGINAL_PACKAGE_NAME=$PACKAGE_NAME
@@ -145,7 +145,7 @@ for i in $(echo "$PKG_LIST" | jq -r '.packages[].path'); do
 
         # Update runtime version
         yq w -i $new_version/definition.yaml version "$VERSION" --style double
-        yq w -i $new_version/definition.yaml 'Labels."original.package.version"' "$VERSION" --style double
+        yq w -i $new_version/definition.yaml 'labels."original.package.version"' "$VERSION" --style double
 
         yq w -i $new_version/build.yaml env.[0] "ORIGINAL_ATOM=$ORIGINAL_PACKAGE_CATEGORY/$ORIGINAL_PACKAGE_NAME"
         yq w -i $new_version/build.yaml env.[1] "ORIGINAL_PACKAGE=$ORIGINAL_PACKAGE_CATEGORY/$ORIGINAL_PACKAGE_NAME-$VERSION"

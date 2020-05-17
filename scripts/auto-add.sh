@@ -113,13 +113,13 @@ for i in $(echo "$ALL_PACKAGES" | jq -r '.Category + "/" +.Name + "/" +.Version 
     touch $DEFINITION_FILE
     touch $BUILD_FILE
     yq w -i $DEFINITION_FILE name "$PACKAGE_N" --style double
-    yq w -i $DEFINITION_FILE 'Labels."original.package.name"' "$PACKAGE_N" --style double
+    yq w -i $DEFINITION_FILE 'labels."original.package.name"' "$PACKAGE_N" --style double
 
     yq w -i $DEFINITION_FILE category "$PACKAGE_CAT" --style double
-    yq w -i $DEFINITION_FILE 'Labels."original.package.category"' "$PACKAGE_CAT" --style double
+    yq w -i $DEFINITION_FILE 'labels."original.package.category"' "$PACKAGE_CAT" --style double
 
     yq w -i $DEFINITION_FILE version "$PACKAGE_V" --style double
-    yq w -i $DEFINITION_FILE 'Labels."original.package.version"' "$PACKAGE_V" --style double
+    yq w -i $DEFINITION_FILE 'labels."original.package.version"' "$PACKAGE_V" --style double
 
     docker run -v $ROOT_DIR/tree:/tree -ti --rm quay.io/luet/ebuildmeta2spec \
         $PACKAGE_CAT/$PACKAGE_N \

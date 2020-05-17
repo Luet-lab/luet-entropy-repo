@@ -58,7 +58,7 @@ process_package () {
   if [ -d ${pkgdir} ] ; then
 
       echo "
-Labels:
+labels:
   original.package.name: \"${name}\"
   original.package.category: \"${cat}\"
   original.package.version: \"${version}${version_suffix}\"
