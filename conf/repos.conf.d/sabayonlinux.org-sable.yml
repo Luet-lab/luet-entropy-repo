@@ -1,0 +1,9 @@
+# Sabayon Linux Entropy based repository
+name: "sabayonlinux.org-stable"
+description: "Sabayon Linux Repository"
+type: "http"
+enable: true
+cached: true
+priority: 50
+urls:
+ - "https://dispatcher.sabayon.org/sbi/namespace/luet-entropy-repo-stable"
