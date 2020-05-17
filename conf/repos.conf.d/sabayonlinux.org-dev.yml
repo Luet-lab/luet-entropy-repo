@@ -1,0 +1,9 @@
+# Sabayon Linux Repository - develop branch
+name: "sabayonlinux.org-develop"
+description: "Sabayon Linux Repository (Develop)"
+type: "http"
+enable: false
+cached: true
+priority: 30
+urls:
+  - "https://dispatcher.sabayon.org/sbi/namespace/luet-entropy-repo"
