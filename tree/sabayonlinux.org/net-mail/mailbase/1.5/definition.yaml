@@ -2,19 +2,19 @@ category: net-mail
 license: GPL-2
 name: mailbase
 requires:
-- Labels: null
+- labels: null
   category: acct-group
   name: mail
   version: '>=0'
-- Labels: null
+- labels: null
   category: acct-user
   name: mail
   version: '>=0'
-- Labels: null
+- labels: null
   category: acct-user
   name: postmaster
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-libs
   name: pam
   version: '>=0'
@@ -28,7 +28,7 @@ use_flags:
 - pam
 - userland_GNU
 version: 1.5+r4
-Labels:
+labels:
   original.package.name: "mailbase"
   original.package.category: "net-mail"
   original.package.version: "1.5"

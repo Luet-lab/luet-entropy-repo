@@ -2,7 +2,7 @@ category: sys-libs
 license: Apache-2.0-with-LLVM-exceptions MIT UoI-NCSA
 name: libomp
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: perl
   version: '>=0'
@@ -29,7 +29,7 @@ use_flags:
 - -hwloc
 - userland_GNU
 version: 9.0.1+4
-Labels:
+labels:
   original.package.name: "libomp"
   original.package.category: "sys-libs"
   original.package.version: "9.0.1"

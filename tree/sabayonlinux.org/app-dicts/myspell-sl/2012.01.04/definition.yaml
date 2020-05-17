@@ -2,7 +2,7 @@ category: app-dicts
 license: GPL-3 LGPL-2.1
 name: myspell-sl
 requires:
-- Labels: null
+- labels: null
   category: app-arch
   name: unzip
   version: '>=0'
@@ -13,7 +13,7 @@ use_flags:
 - kernel_linux
 - elibc_glibc
 version: 2012.01.04+3
-Labels:
+labels:
   original.package.name: "myspell-sl"
   original.package.category: "app-dicts"
   original.package.version: "2012.01.04"

@@ -2,231 +2,231 @@ category: sys-cluster
 license: BSD Boost-1.0 CC-BY-SA-3.0 GPL-2 GPL-2+ LGPL-2+ LGPL-2.1 MIT public-domain
 name: ceph
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-exec-2
   version: '>=2'
-- Labels: null
+- labels: null
   category: dev-util
   name: google-perftools
   version: '>=2.4'
-- Labels: null
+- labels: null
   category: acct-group
   name: ceph
   version: '>=0'
-- Labels: null
+- labels: null
   category: acct-user
   name: ceph
   version: '>=0'
-- Labels: null
+- labels: null
   category: app-arch
   name: bzip2
   version: '>=0'
-- Labels: null
+- labels: null
   category: app-arch
   name: cpio
   version: '>=0'
-- Labels: null
+- labels: null
   category: app-arch
   name: lz4
   version: '>=0'
-- Labels: null
+- labels: null
   category: app-arch
   name: snappy
   version: '>=0'
-- Labels: null
+- labels: null
   category: app-arch
   name: zstd
   version: '>=0'
-- Labels: null
+- labels: null
   category: app-misc
   name: jq
   version: '>=0'
-- Labels: null
+- labels: null
   category: app-shells
   name: bash
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-3.6
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-lang
   name: yasm
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: crypto++
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: expat
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: leveldb
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: libaio
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: libnl-3
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: libxml2-2
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: nss
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: openssl
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-python
   name: bcrypt
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-python
   name: cherrypy
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-python
   name: cython
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-python
   name: flask
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-python
   name: jinja
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-python
   name: pecan
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-python
   name: prettytable
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-python
   name: pyopenssl
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-python
   name: requests
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-python
   name: sphinx
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-python
   name: werkzeug
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-util
   name: cunit
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-util
   name: gperf
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-util
   name: valgrind
   version: '>=0'
-- Labels: null
+- labels: null
   category: net-misc
   name: curl
   version: '>=0'
-- Labels: null
+- labels: null
   category: net-misc
   name: socat
   version: '>=0'
-- Labels: null
+- labels: null
   category: net-nds
   name: openldap
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-apps
   name: coreutils
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-apps
   name: findutils
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-apps
   name: gptfdisk
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-apps
   name: grep
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-apps
   name: keyutils
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-apps
   name: util-linux
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-apps
   name: which
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-auth
   name: oath-toolkit
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-block
   name: parted
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-devel
   name: bc
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-devel
   name: make
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-devel
   name: patch
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-fs
   name: cryptsetup
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-fs
   name: lsscsi
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-fs
   name: lvm2
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-fs
   name: xfsprogs
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-libs
   name: libcap-ng
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-libs
   name: ncurses
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-libs
   name: zlib
   version: '>=0'
@@ -270,7 +270,7 @@ use_flags:
 - tcmalloc
 - -spdk
 version: 14.2.7+3
-Labels:
+labels:
   original.package.name: "ceph"
   original.package.category: "sys-cluster"
   original.package.version: "14.2.7"

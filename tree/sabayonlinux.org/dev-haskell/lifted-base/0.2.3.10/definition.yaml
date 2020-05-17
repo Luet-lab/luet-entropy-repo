@@ -2,27 +2,27 @@ category: dev-haskell
 license: BSD
 name: lifted-base
 requires:
-- Labels: null
+- labels: null
   category: dev-haskell
   name: monad-control
   version: <1.1
-- Labels: null
+- labels: null
   category: dev-haskell
   name: transformers-base
   version: <0.5
-- Labels: null
+- labels: null
   category: dev-haskell
   name: cabal
   version: '>=1.8'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: monad-control
   version: '>=0.3'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: transformers-base
   version: '>=0.4'
-- Labels: null
+- labels: null
   category: dev-lang
   name: ghc
   version: '>=7.4.1'
@@ -38,7 +38,7 @@ use_flags:
 - -profile
 - big-endian
 version: 0.2.3.10+1
-Labels:
+labels:
   original.package.name: "lifted-base"
   original.package.category: "dev-haskell"
   original.package.version: "0.2.3.10"

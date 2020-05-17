@@ -2,15 +2,15 @@ category: app-text
 license: docbook
 name: docbook-xml-simple-dtd-1.0
 requires:
-- Labels: null
+- labels: null
   category: app-arch
   name: unzip
   version: '>=5.41'
-- Labels: null
+- labels: null
   category: app-text
   name: build-docbook-catalog
   version: '>=1.6'
-- Labels: null
+- labels: null
   category: app-text
   name: sgml-common
   version: '>=0.6.3'
@@ -23,7 +23,7 @@ use_flags:
 - kernel_linux
 - amd64
 version: 1.0+r6
-Labels:
+labels:
   original.package.name: "docbook-xml-simple-dtd"
   original.package.category: "app-text"
   original.package.version: "1.0"

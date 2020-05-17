@@ -2,7 +2,7 @@ category: dev-ruby
 license: BSD
 name: syntax
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: ruby-2.5
   version: '>=0'
@@ -21,7 +21,7 @@ use_flags:
 - -ruby_targets_ruby26
 - amd64
 version: 1.2.2+3
-Labels:
+labels:
   original.package.name: "syntax"
   original.package.category: "dev-ruby"
   original.package.version: "1.2.2"

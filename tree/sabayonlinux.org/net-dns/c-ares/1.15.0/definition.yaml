@@ -2,15 +2,15 @@ category: net-dns
 license: MIT
 name: c-ares
 requires:
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- Labels: null
+- labels: null
   category: sys-devel
   name: automake-1.15
   version: '>=1.15.1'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.4'
@@ -33,7 +33,7 @@ use_flags:
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
 version: 1.15.0+4
-Labels:
+labels:
   original.package.name: "c-ares"
   original.package.category: "net-dns"
   original.package.version: "1.15.0"

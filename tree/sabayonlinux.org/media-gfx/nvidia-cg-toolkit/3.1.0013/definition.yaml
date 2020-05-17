@@ -2,39 +2,39 @@ category: media-gfx
 license: NVIDIA-r1
 name: nvidia-cg-toolkit
 requires:
-- Labels: null
+- labels: null
   category: media-libs
   name: freeglut
   version: '>=2.8.1'
-- Labels: null
+- labels: null
   category: media-libs
   name: glu
   version: '>=9.0.0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libICE
   version: '>=1.0.8'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libSM
   version: '>=1.2.1'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libX11
   version: '>=1.6.2'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libXext
   version: '>=1.3.2'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libXi
   version: '>=1.7.2'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libXmu
   version: '>=1.1.1'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libXt
   version: '>=1.1.4'
@@ -51,7 +51,7 @@ use_flags:
 - abi_x86_32
 - -doc
 version: 3.1.0013+r9
-Labels:
+labels:
   original.package.name: "nvidia-cg-toolkit"
   original.package.category: "media-gfx"
   original.package.version: "3.1.0013"

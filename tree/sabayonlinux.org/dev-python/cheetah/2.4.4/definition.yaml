@@ -2,15 +2,15 @@ category: dev-python
 license: MIT
 name: cheetah
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-2.7
   version: '>=2.7.5'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-exec-2
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-python
   name: markdown
   version: '>=0'
@@ -22,7 +22,7 @@ use_flags:
 - amd64
 - python_targets_python2_7
 version: 2.4.4+r4
-Labels:
+labels:
   original.package.name: "cheetah"
   original.package.category: "dev-python"
   original.package.version: "2.4.4"

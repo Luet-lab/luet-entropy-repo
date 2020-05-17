@@ -2,7 +2,7 @@ category: dev-ruby
 license: MIT
 name: asciidoctor
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: ruby-2.5
   version: '>=0'
@@ -20,7 +20,7 @@ use_flags:
 - ruby_targets_ruby25
 - split-usr
 version: 2.0.10+3
-Labels:
+labels:
   original.package.name: "asciidoctor"
   original.package.category: "dev-ruby"
   original.package.version: "2.0.10"

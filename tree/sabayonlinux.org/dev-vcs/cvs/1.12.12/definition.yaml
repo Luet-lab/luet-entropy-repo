@@ -2,11 +2,11 @@ category: dev-vcs
 license: GPL-2 LGPL-2
 name: cvs
 requires:
-- Labels: null
+- labels: null
   category: sys-libs
   name: zlib
   version: '>=1.1.4'
-- Labels: null
+- labels: null
   category: sys-libs
   name: pam
   version: '>=0'
@@ -25,7 +25,7 @@ use_flags:
 - abi_x86_64
 - crypt
 version: 1.12.12+r15
-Labels:
+labels:
   original.package.name: "cvs"
   original.package.category: "dev-vcs"
   original.package.version: "1.12.12"

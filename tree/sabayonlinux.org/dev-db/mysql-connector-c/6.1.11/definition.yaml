@@ -2,11 +2,11 @@ category: dev-db
 license: GPL-2
 name: mysql-connector-c
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: openssl
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-libs
   name: zlib
   version: '>=0'
@@ -30,7 +30,7 @@ use_flags:
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
 version: 6.1.11+r6
-Labels:
+labels:
   original.package.name: "mysql-connector-c"
   original.package.category: "dev-db"
   original.package.version: "6.1.11"

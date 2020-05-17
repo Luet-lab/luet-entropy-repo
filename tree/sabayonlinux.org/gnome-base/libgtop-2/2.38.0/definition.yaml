@@ -2,15 +2,15 @@ category: gnome-base
 license: GPL-2+
 name: libgtop-2
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: glib-2
   version: '>=2.26'
-- Labels: null
+- labels: null
   category: dev-libs
   name: gobject-introspection
   version: '>=0.6.7'
-- Labels: null
+- labels: null
   category: dev-util
   name: gtk-doc-am
   version: '>=1.4'
@@ -23,7 +23,7 @@ use_flags:
 - introspection
 - amd64
 version: 2.38.0+3
-Labels:
+labels:
   original.package.name: "libgtop"
   original.package.category: "gnome-base"
   original.package.version: "2.38.0"

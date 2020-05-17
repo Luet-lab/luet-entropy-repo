@@ -2,35 +2,35 @@ category: dev-perl
 license: Artistic-2
 name: DateTime-Format-Strptime
 requires:
-- Labels: null
+- labels: null
   category: dev-perl
   name: DateTime
   version: '>=1'
-- Labels: null
+- labels: null
   category: dev-perl
   name: DateTime-Locale
   version: '>=1.50.0'
-- Labels: null
+- labels: null
   category: dev-perl
   name: DateTime-TimeZone
   version: '>=2.90.0'
-- Labels: null
+- labels: null
   category: dev-perl
   name: Package-DeprecationManager
   version: '>=0.150.0'
-- Labels: null
+- labels: null
   category: dev-perl
   name: Specio
   version: '>=0.330.0'
-- Labels: null
+- labels: null
   category: dev-lang
   name: perl
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-perl
   name: Params-ValidationCompiler
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-perl
   name: Try-Tiny
   version: '>=0'
@@ -44,7 +44,7 @@ use_flags:
 - amd64
 - abi_x86_64
 version: 1.740.0+3
-Labels:
+labels:
   original.package.name: "DateTime-Format-Strptime"
   original.package.category: "dev-perl"
   original.package.version: "1.740.0"

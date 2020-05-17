@@ -2,23 +2,23 @@ category: dev-perl
 license: Artistic BSD GPL-1+ tcltk
 name: Tk
 requires:
-- Labels: null
+- labels: null
   category: media-libs
   name: libpng
   version: '>=1.4'
-- Labels: null
+- labels: null
   category: dev-lang
   name: perl
   version: '>=0'
-- Labels: null
+- labels: null
   category: media-libs
   name: freetype-2
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libX11
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libXft
   version: '>=0'
@@ -33,7 +33,7 @@ use_flags:
 - kernel_linux
 - amd64
 version: 804.34.0+3
-Labels:
+labels:
   original.package.name: "Tk"
   original.package.category: "dev-perl"
   original.package.version: "804.34.0"

@@ -2,11 +2,11 @@ category: sci-libs
 license: BSD
 name: openblas
 requires:
-- Labels: null
+- labels: null
   category: app-eselect
   name: eselect-blas
   version: '>=0.2'
-- Labels: null
+- labels: null
   category: app-eselect
   name: eselect-lapack
   version: '>=0.2'
@@ -24,7 +24,7 @@ use_flags:
 - kernel_linux
 - amd64
 version: 0.3.7+3
-Labels:
+labels:
   original.package.name: "openblas"
   original.package.category: "sci-libs"
   original.package.version: "0.3.7"

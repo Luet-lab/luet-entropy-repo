@@ -2,7 +2,7 @@ category: dev-perl
 license: Artistic GPL-1+
 name: Module-Build
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: perl
   version: '>=0'
@@ -16,7 +16,7 @@ use_flags:
 - elibc_glibc
 - kernel_linux
 version: 0.422.400+3
-Labels:
+labels:
   original.package.name: "Module-Build"
   original.package.category: "dev-perl"
   original.package.version: "0.422.400"

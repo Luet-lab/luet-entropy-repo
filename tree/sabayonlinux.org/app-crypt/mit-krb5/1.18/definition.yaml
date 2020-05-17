@@ -2,39 +2,39 @@ category: app-crypt
 license: BSD BSD-2 BSD-4 CC-BY-SA-3.0 GPL-2+ HPND ISC MIT OPENLDAP RSA openafs-krb5-a
 name: mit-krb5
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: libverto
   version: '>=0.2.5'
-- Labels: null
+- labels: null
   category: dev-libs
   name: openssl
   version: '>=1.0.1h'
-- Labels: null
+- labels: null
   category: net-nds
   name: openldap
   version: '>=2.4.38'
-- Labels: null
+- labels: null
   category: sys-apps
   name: keyutils
   version: '>=1.5.8'
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- Labels: null
+- labels: null
   category: sys-devel
   name: automake-1.15
   version: '>=1.15.1'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.4'
-- Labels: null
+- labels: null
   category: sys-libs
   name: e2fsprogs-libs
   version: '>=1.42.9'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-3.6
   version: '>=0'
@@ -68,7 +68,7 @@ use_flags:
 - -xinetd
 - -doc
 version: 1.18+1
-Labels:
+labels:
   original.package.name: "mit-krb5"
   original.package.category: "app-crypt"
   original.package.version: "1.18"

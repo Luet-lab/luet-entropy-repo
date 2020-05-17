@@ -2,7 +2,7 @@ category: dev-ruby
 license: Ruby
 name: abstract
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: ruby-2.5
   version: '>=0'
@@ -19,7 +19,7 @@ use_flags:
 - -test
 - kernel_linux
 version: 1.0.0+r6
-Labels:
+labels:
   original.package.name: "abstract"
   original.package.category: "dev-ruby"
   original.package.version: "1.0.0"

@@ -2,7 +2,7 @@ category: dev-perl
 license: Artistic GPL-1+
 name: Taint-Runtime
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: perl
   version: '>=0'
@@ -15,7 +15,7 @@ use_flags:
 - split-usr
 - big-endian
 version: 0.30.0+r4
-Labels:
+labels:
   original.package.name: "Taint-Runtime"
   original.package.category: "dev-perl"
   original.package.version: "0.30.0"

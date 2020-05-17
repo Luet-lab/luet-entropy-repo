@@ -2,7 +2,7 @@ category: dev-perl
 license: Artistic GPL-1+
 name: Class-Singleton
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: perl
   version: '>=0'
@@ -15,7 +15,7 @@ use_flags:
 - elibc_glibc
 - userland_GNU
 version: 1.500.0+3
-Labels:
+labels:
   original.package.name: "Class-Singleton"
   original.package.category: "dev-perl"
   original.package.version: "1.500.0"

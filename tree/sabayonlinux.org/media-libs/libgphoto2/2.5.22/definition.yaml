@@ -2,27 +2,27 @@ category: media-libs
 license: GPL-2
 name: libgphoto2
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: libxml2-2
   version: '>=2.9.1'
-- Labels: null
+- labels: null
   category: media-libs
   name: libexif
   version: '>=0.6.21'
-- Labels: null
+- labels: null
   category: acct-group
   name: plugdev
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: libltdl
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-util
   name: gtk-doc-am
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-devel
   name: flex
   version: '>=0'
@@ -115,7 +115,7 @@ use_flags:
 - -gd
 - cameras_fuji
 version: 2.5.22+4
-Labels:
+labels:
   original.package.name: "libgphoto2"
   original.package.category: "media-libs"
   original.package.version: "2.5.22"

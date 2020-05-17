@@ -2,27 +2,27 @@ category: sys-block
 license: GPL-3
 name: thin-provisioning-tools
 requires:
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- Labels: null
+- labels: null
   category: sys-devel
   name: automake-1.15
   version: '>=1.15.1'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.4'
-- Labels: null
+- labels: null
   category: dev-libs
   name: boost
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: expat
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: libaio
   version: '>=0'
@@ -36,7 +36,7 @@ use_flags:
 - -test
 - userland_GNU
 version: 0.7.6+3
-Labels:
+labels:
   original.package.name: "thin-provisioning-tools"
   original.package.category: "sys-block"
   original.package.version: "0.7.6"

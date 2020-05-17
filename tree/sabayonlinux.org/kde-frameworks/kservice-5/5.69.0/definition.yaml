@@ -1,58 +1,58 @@
-Labels:
+labels:
   original.package.version: "5.69.0"
 category: kde-frameworks
 license: LGPL-2 LGPL-2.1+
 name: kservice-5
 requires:
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: kconfig-5
   version: '>=5.67'
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: kcoreaddons-5
   version: '>=5.67'
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: kcrash-5
   version: '>=5.67'
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: kdbusaddons-5
   version: '>=5.67'
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: ki18n-5
   version: '>=5.67'
-- Labels: null
+- labels: null
   category: dev-qt
   name: qtdbus-5
   version: '>=5.12.3'
-- Labels: null
+- labels: null
   category: dev-qt
   name: qtxml-5
   version: '>=5.12.3'
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: extra-cmake-modules-5
   version: '>=5.67'
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: kdoctools-5
   version: '>=5.67'
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: kf-env-5
   version: '>=4'
-- Labels: null
+- labels: null
   category: dev-qt
   name: qtcore-5
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-devel
   name: bison
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-devel
   name: flex
   version: '>=0'
@@ -69,7 +69,7 @@ use_flags:
 - userland_GNU
 - man
 version: "5.69.0"
-Labels:
+labels:
   original.package.name: "kservice"
   original.package.category: "kde-frameworks"
   original.package.version: "5.67.0"

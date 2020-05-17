@@ -2,11 +2,11 @@ category: app-text
 license: MPL-2.0
 name: libepubgen
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: boost
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: librevenge
   version: '>=0'
@@ -21,7 +21,7 @@ use_flags:
 - kernel_linux
 - userland_GNU
 version: 0.1.1+1
-Labels:
+labels:
   original.package.name: "libepubgen"
   original.package.category: "app-text"
   original.package.version: "0.1.1"

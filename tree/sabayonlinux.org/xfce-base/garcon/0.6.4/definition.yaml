@@ -2,23 +2,23 @@ category: xfce-base
 license: FDL-1.1+ LGPL-2+
 name: garcon
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: glib-2
   version: '>=2.30'
-- Labels: null
+- labels: null
   category: x11-libs
   name: gtk+-3
   version: '>=3.20'
-- Labels: null
+- labels: null
   category: xfce-base
   name: libxfce4ui
   version: '>=4.12'
-- Labels: null
+- labels: null
   category: xfce-base
   name: libxfce4util
   version: '>=4.12'
-- Labels: null
+- labels: null
   category: dev-util
   name: gtk-doc-am
   version: '>=0'
@@ -32,7 +32,7 @@ use_flags:
 - -gtk2
 - kernel_linux
 version: 0.6.4+r5
-Labels:
+labels:
   original.package.name: "garcon"
   original.package.category: "xfce-base"
   original.package.version: "0.6.4"

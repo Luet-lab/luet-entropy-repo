@@ -2,19 +2,19 @@ category: dev-texlive
 license: BSD BSD-2 CC-BY-SA-4.0 GPL-1 GPL-2 GPL-3 GPL-3+
 name: texlive-mathscience
 requires:
-- Labels: null
+- labels: null
   category: app-text
   name: texlive-core
   version: '>=2019'
-- Labels: null
+- labels: null
   category: dev-texlive
   name: texlive-fontsrecommended
   version: '>=2019'
-- Labels: null
+- labels: null
   category: dev-texlive
   name: texlive-latex
   version: '>=2019'
-- Labels: null
+- labels: null
   category: dev-texlive
   name: texlive-pstricks
   version: '>=0'
@@ -28,7 +28,7 @@ use_flags:
 - userland_GNU
 - -doc
 version: 2019+3
-Labels:
+labels:
   original.package.name: "texlive-mathscience"
   original.package.category: "dev-texlive"
   original.package.version: "2019"

@@ -2,11 +2,11 @@ category: net-firewall
 license: GPL-2
 name: ipset
 requires:
-- Labels: null
+- labels: null
   category: net-firewall
   name: iptables
   version: '>=1.4.7'
-- Labels: null
+- labels: null
   category: net-libs
   name: libmnl
   version: '>=0'
@@ -20,7 +20,7 @@ use_flags:
 - kernel_linux
 - split-usr
 version: 6.38+3
-Labels:
+labels:
   original.package.name: "ipset"
   original.package.category: "net-firewall"
   original.package.version: "6.38"

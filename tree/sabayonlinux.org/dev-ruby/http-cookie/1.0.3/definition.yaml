@@ -2,11 +2,11 @@ category: dev-ruby
 license: MIT
 name: http-cookie
 requires:
-- Labels: null
+- labels: null
   category: dev-ruby
   name: domain_name
   version: '>=0.5'
-- Labels: null
+- labels: null
   category: dev-lang
   name: ruby-2.5
   version: '>=0'
@@ -24,7 +24,7 @@ use_flags:
 - amd64
 - big-endian
 version: 1.0.3+3
-Labels:
+labels:
   original.package.name: "http-cookie"
   original.package.category: "dev-ruby"
   original.package.version: "1.0.3"

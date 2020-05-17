@@ -2,23 +2,23 @@ category: media-libs
 license: ISC
 name: libass
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: fribidi
   version: '>=0.19.5'
-- Labels: null
+- labels: null
   category: media-libs
   name: fontconfig-1.0
   version: '>=2.10.92'
-- Labels: null
+- labels: null
   category: media-libs
   name: freetype-2
   version: '>=2.5.0.1'
-- Labels: null
+- labels: null
   category: media-libs
   name: harfbuzz
   version: '>=0.9.12'
-- Labels: null
+- labels: null
   category: dev-lang
   name: nasm
   version: '>=0'
@@ -43,7 +43,7 @@ use_flags:
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
 version: 0.14.0+4
-Labels:
+labels:
   original.package.name: "libass"
   original.package.category: "media-libs"
   original.package.version: "0.14.0"

@@ -2,15 +2,15 @@ category: net-libs
 license: Apache-2.0
 name: c-client
 requires:
-- Labels: null
+- labels: null
   category: sys-libs
   name: pam
   version: '>=0.72'
-- Labels: null
+- labels: null
   category: app-crypt
   name: mit-krb5
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: openssl
   version: '>=0'
@@ -33,7 +33,7 @@ use_flags:
 - userland_GNU
 - amd64
 version: 2007f+r9
-Labels:
+labels:
   original.package.name: "c-client"
   original.package.category: "net-libs"
   original.package.version: "2007f"

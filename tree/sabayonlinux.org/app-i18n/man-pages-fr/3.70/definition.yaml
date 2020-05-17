@@ -2,7 +2,7 @@ category: app-i18n
 license: BSD GPL-2+ man-pages
 name: man-pages-fr
 requires:
-- Labels: null
+- labels: null
   category: app-text
   name: po4a
   version: '>=0'
@@ -15,7 +15,7 @@ use_flags:
 - split-usr
 - userland_GNU
 version: 3.70+r4
-Labels:
+labels:
   original.package.name: "man-pages-fr"
   original.package.category: "app-i18n"
   original.package.version: "3.70"

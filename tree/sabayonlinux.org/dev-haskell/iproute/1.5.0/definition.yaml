@@ -2,23 +2,23 @@ category: dev-haskell
 license: BSD
 name: iproute
 requires:
-- Labels: null
+- labels: null
   category: dev-haskell
   name: cabal
   version: '>=1.10'
-- Labels: null
+- labels: null
   category: dev-lang
   name: ghc
   version: '>=7.6.1'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: appar
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: byteorder
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: network
   version: '>=0'
@@ -34,7 +34,7 @@ use_flags:
 - kernel_linux
 - big-endian
 version: 1.5.0+1
-Labels:
+labels:
   original.package.name: "iproute"
   original.package.category: "dev-haskell"
   original.package.version: "1.5.0"

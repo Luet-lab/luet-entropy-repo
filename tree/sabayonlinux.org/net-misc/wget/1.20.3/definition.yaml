@@ -2,15 +2,15 @@ category: net-misc
 license: GPL-3
 name: wget
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: libpcre2
   version: '>=0'
-- Labels: null
+- labels: null
   category: net-libs
   name: gnutls
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-libs
   name: zlib
   version: '>=0'
@@ -38,7 +38,7 @@ use_flags:
 - -libressl
 - userland_GNU
 version: 1.20.3+r6
-Labels:
+labels:
   original.package.name: "wget"
   original.package.category: "net-misc"
   original.package.version: "1.20.3"

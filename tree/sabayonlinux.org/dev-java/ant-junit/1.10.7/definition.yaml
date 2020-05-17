@@ -2,11 +2,11 @@ category: dev-java
 license: Apache-2.0
 name: ant-junit
 requires:
-- Labels: null
+- labels: null
   category: dev-java
   name: java-config-2
   version: '>=2.2.0'
-- Labels: null
+- labels: null
   category: dev-java
   name: junit-4
   version: '>=0'
@@ -19,7 +19,7 @@ use_flags:
 - -elibc_FreeBSD
 - userland_GNU
 version: "1.10.7"
-Labels:
+labels:
   original.package.name: "ant-junit"
   original.package.category: "dev-java"
   original.package.version: "1.10.5"

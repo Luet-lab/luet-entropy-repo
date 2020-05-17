@@ -2,27 +2,27 @@ category: dev-haskell
 license: MIT
 name: tasty-quickcheck
 requires:
-- Labels: null
+- labels: null
   category: dev-haskell
   name: quickcheck-2
   version: <3
-- Labels: null
+- labels: null
   category: dev-haskell
   name: cabal
   version: '>=1.10'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: quickcheck-2
   version: '>=2.5'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: tasty
   version: '>=0.10.1'
-- Labels: null
+- labels: null
   category: dev-lang
   name: ghc
   version: '>=7.4.1'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: tagged
   version: '>=0'
@@ -38,7 +38,7 @@ use_flags:
 - -profile
 - -test
 version: 0.8.4+1
-Labels:
+labels:
   original.package.name: "tasty-quickcheck"
   original.package.category: "dev-haskell"
   original.package.version: "0.8.4"

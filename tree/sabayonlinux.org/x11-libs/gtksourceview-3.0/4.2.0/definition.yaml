@@ -1,30 +1,30 @@
-Labels:
+labels:
   original.package.version: "4.2.0"
 category: x11-libs
 license: GPL-2+ LGPL-2.1+
 name: gtksourceview-3.0
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: glib-2
   version: '>=2.48'
-- Labels: null
+- labels: null
   category: dev-libs
   name: gobject-introspection
   version: '>=1.42'
-- Labels: null
+- labels: null
   category: dev-libs
   name: libxml2-2
   version: '>=2.6'
-- Labels: null
+- labels: null
   category: dev-util
   name: gtk-doc-am
   version: '>=1.25'
-- Labels: null
+- labels: null
   category: x11-libs
   name: gtk+-3
   version: '>=3.20'
-- Labels: null
+- labels: null
   category: dev-lang
   name: vala-0.44
   version: '>=0'
@@ -40,7 +40,7 @@ use_flags:
 - kernel_linux
 - -test
 version: "4.2.0"
-Labels:
+labels:
   original.package.name: "gtksourceview"
   original.package.category: "x11-libs"
   original.package.version: "3.24.11"

@@ -2,19 +2,19 @@ category: dev-vcs
 license: GPL-2+
 name: mercurial
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-2.7
   version: '>=2.7.5'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-exec-2
   version: '>=2'
-- Labels: null
+- labels: null
   category: app-misc
   name: ca-certificates
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-python
   name: zstandard
   version: '>=0'
@@ -33,7 +33,7 @@ use_flags:
 - chg
 - kernel_linux
 version: "5.3.1"
-Labels:
+labels:
   original.package.name: "mercurial"
   original.package.category: "dev-vcs"
   original.package.version: "5.3.1"

@@ -2,23 +2,23 @@ category: x11-libs
 license: LGPL-2.1+
 name: libnotify
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: glib-2
   version: '>=2.26'
-- Labels: null
+- labels: null
   category: dev-libs
   name: gobject-introspection
   version: '>=1.54'
-- Labels: null
+- labels: null
   category: dev-libs
   name: gobject-introspection-common
   version: '>=1.32'
-- Labels: null
+- labels: null
   category: app-eselect
   name: eselect-notify-send
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: gdk-pixbuf-2
   version: '>=0'
@@ -43,7 +43,7 @@ use_flags:
 - -abi_riscv_lp64
 - userland_GNU
 version: 0.7.8+4
-Labels:
+labels:
   original.package.name: "libnotify"
   original.package.category: "x11-libs"
   original.package.version: "0.7.8"

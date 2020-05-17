@@ -2,35 +2,35 @@ category: dev-libs
 license: BSD-with-attribution
 name: cyrus-sasl-2
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: openssl
   version: '>=1.0.1h'
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- Labels: null
+- labels: null
   category: sys-devel
   name: automake-1.15
   version: '>=1.15.1'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.4'
-- Labels: null
+- labels: null
   category: sys-libs
   name: db-6.0
   version: '>=4.8.30'
-- Labels: null
+- labels: null
   category: sys-libs
   name: gdbm
   version: '>=1.10'
-- Labels: null
+- labels: null
   category: sys-libs
   name: pam
   version: '>=0'
-- Labels: null
+- labels: null
   category: net-mail
   name: mailbase
   version: '>=0'
@@ -71,7 +71,7 @@ use_flags:
 - -urandom
 - -srp
 version: 2.1.27+r7
-Labels:
+labels:
   original.package.name: "cyrus-sasl"
   original.package.category: "dev-libs"
   original.package.version: "2.1.27"

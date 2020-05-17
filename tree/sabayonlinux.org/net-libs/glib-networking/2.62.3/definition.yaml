@@ -2,23 +2,23 @@ category: net-libs
 license: LGPL-2.1+
 name: glib-networking
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: glib-2
   version: '>=2.60.0'
-- Labels: null
+- labels: null
   category: net-libs
   name: gnutls
   version: '>=3.4.6'
-- Labels: null
+- labels: null
   category: net-libs
   name: libproxy
   version: '>=0.4.11'
-- Labels: null
+- labels: null
   category: app-misc
   name: ca-certificates
   version: '>=0'
-- Labels: null
+- labels: null
   category: gnome-base
   name: gsettings-desktop-schemas
   version: '>=0'
@@ -44,7 +44,7 @@ use_flags:
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
 version: 2.62.3+1
-Labels:
+labels:
   original.package.name: "glib-networking"
   original.package.category: "net-libs"
   original.package.version: "2.62.3"

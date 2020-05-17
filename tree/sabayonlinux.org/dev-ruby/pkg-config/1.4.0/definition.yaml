@@ -2,7 +2,7 @@ category: dev-ruby
 license: LGPL-2 LGPL-2.1 LGPL-3
 name: pkg-config
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: ruby-2.5
   version: '>=0'
@@ -21,7 +21,7 @@ use_flags:
 - big-endian
 - elibc_glibc
 version: 1.4.0+3
-Labels:
+labels:
   original.package.name: "pkg-config"
   original.package.category: "dev-ruby"
   original.package.version: "1.4.0"

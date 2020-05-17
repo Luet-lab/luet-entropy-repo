@@ -2,15 +2,15 @@ category: dev-ruby
 license: MIT
 name: haml-5
 requires:
-- Labels: null
+- labels: null
   category: dev-ruby
   name: temple-0.7
   version: '>=0.8.0'
-- Labels: null
+- labels: null
   category: dev-lang
   name: ruby-2.5
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-ruby
   name: tilt-2
   version: '>=0'
@@ -28,7 +28,7 @@ use_flags:
 - -test
 - kernel_linux
 version: 5.1.2+3
-Labels:
+labels:
   original.package.name: "haml"
   original.package.category: "dev-ruby"
   original.package.version: "5.1.2"

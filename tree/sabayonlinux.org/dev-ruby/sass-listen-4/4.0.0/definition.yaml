@@ -2,11 +2,11 @@ category: dev-ruby
 license: MIT
 name: sass-listen-4
 requires:
-- Labels: null
+- labels: null
   category: dev-ruby
   name: rb-inotify
   version: '>=0.9.7'
-- Labels: null
+- labels: null
   category: dev-lang
   name: ruby-2.5
   version: '>=0'
@@ -23,7 +23,7 @@ use_flags:
 - userland_GNU
 - ruby_targets_ruby25
 version: 4.0.0+3
-Labels:
+labels:
   original.package.name: "sass-listen"
   original.package.category: "dev-ruby"
   original.package.version: "4.0.0"

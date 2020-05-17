@@ -2,19 +2,19 @@ category: sci-geosciences
 license: LGPL-2+
 name: geocode-glib
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: glib-2
   version: '>=2.44'
-- Labels: null
+- labels: null
   category: dev-libs
   name: gobject-introspection
   version: '>=1.54'
-- Labels: null
+- labels: null
   category: dev-libs
   name: json-glib
   version: '>=0.99.2'
-- Labels: null
+- labels: null
   category: net-libs
   name: libsoup-2.4
   version: '>=2.42'
@@ -29,7 +29,7 @@ use_flags:
 - -gtk-doc
 - introspection
 version: 3.26.1+3
-Labels:
+labels:
   original.package.name: "geocode-glib"
   original.package.category: "sci-geosciences"
   original.package.version: "3.26.1"

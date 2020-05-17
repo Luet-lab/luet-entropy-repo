@@ -2,35 +2,35 @@ category: dev-libs
 license: GPL-2+
 name: libgweather-2
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: glib-2
   version: '>=2.44.0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: gobject-introspection
   version: '>=1.54'
-- Labels: null
+- labels: null
   category: dev-libs
   name: libxml2-2
   version: '>=2.6.0'
-- Labels: null
+- labels: null
   category: net-libs
   name: libsoup-2.4
   version: '>=2.44'
-- Labels: null
+- labels: null
   category: sys-libs
   name: timezone-data
   version: '>=2010k'
-- Labels: null
+- labels: null
   category: x11-libs
   name: gtk+-3
   version: '>=3.13.5'
-- Labels: null
+- labels: null
   category: dev-lang
   name: vala-0.44
   version: '>=0'
-- Labels: null
+- labels: null
   category: sci-geosciences
   name: geocode-glib
   version: '>=0'
@@ -47,7 +47,7 @@ use_flags:
 - -gtk-doc
 - introspection
 version: 3.32.2+r4
-Labels:
+labels:
   original.package.name: "libgweather"
   original.package.category: "dev-libs"
   original.package.version: "3.32.2"

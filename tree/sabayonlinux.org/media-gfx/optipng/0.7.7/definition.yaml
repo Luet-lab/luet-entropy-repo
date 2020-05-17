@@ -2,15 +2,15 @@ category: media-gfx
 license: ZLIB
 name: optipng
 requires:
-- Labels: null
+- labels: null
   category: media-libs
   name: libpng
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-apps
   name: findutils
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-libs
   name: zlib
   version: '>=0'
@@ -22,7 +22,7 @@ use_flags:
 - amd64
 - big-endian
 version: 0.7.7+3
-Labels:
+labels:
   original.package.name: "optipng"
   original.package.category: "media-gfx"
   original.package.version: "0.7.7"

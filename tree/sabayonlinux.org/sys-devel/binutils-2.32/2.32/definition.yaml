@@ -2,19 +2,19 @@ category: sys-devel
 license: GPL-3+
 name: binutils-2.32
 requires:
-- Labels: null
+- labels: null
   category: sys-devel
   name: binutils-config
   version: '>=3'
-- Labels: null
+- labels: null
   category: sys-devel
   name: flex
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-devel
   name: gnuconfig
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-libs
   name: zlib
   version: '>=0'
@@ -36,7 +36,7 @@ use_flags:
 - -default-gold
 - userland_GNU
 version: 2.32+r4
-Labels:
+labels:
   original.package.name: "binutils"
   original.package.category: "sys-devel"
   original.package.version: "2.32"

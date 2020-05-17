@@ -2,11 +2,11 @@ category: dev-ruby
 license: LGPL-2.1
 name: racc
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: ruby-2.5
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-ruby
   name: rake
   version: '>=0'
@@ -25,7 +25,7 @@ use_flags:
 - amd64
 - split-usr
 version: 1.4.16+r4
-Labels:
+labels:
   original.package.name: "racc"
   original.package.category: "dev-ruby"
   original.package.version: "1.4.16"

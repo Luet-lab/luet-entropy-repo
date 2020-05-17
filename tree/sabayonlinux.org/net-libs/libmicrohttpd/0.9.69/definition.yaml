@@ -2,11 +2,11 @@ category: net-libs
 license: LGPL-2.1
 name: libmicrohttpd
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: libgcrypt
   version: '>=0'
-- Labels: null
+- labels: null
   category: net-libs
   name: gnutls
   version: '>=0'
@@ -32,7 +32,7 @@ use_flags:
 - epoll
 - -abi_riscv_lp64d
 version: 0.9.69+1
-Labels:
+labels:
   original.package.name: "libmicrohttpd"
   original.package.category: "net-libs"
   original.package.version: "0.9.69"

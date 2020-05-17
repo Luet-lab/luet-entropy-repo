@@ -2,7 +2,7 @@ category: media-libs
 license: LGPL-2.1
 name: libcuefile
 requires:
-- Labels: null
+- labels: null
   category: sys-devel
   name: make
   version: '>=0'
@@ -24,7 +24,7 @@ use_flags:
 - -abi_riscv_lp64
 - userland_GNU
 version: 477+r5
-Labels:
+labels:
   original.package.name: "libcuefile"
   original.package.category: "media-libs"
   original.package.version: "477"

@@ -2,7 +2,7 @@ category: dev-cpp
 license: MPL-2.0
 name: eigen-3
 requires:
-- Labels: null
+- labels: null
   category: sys-devel
   name: make
   version: '>=0'
@@ -22,7 +22,7 @@ use_flags:
 - -cuda
 - kernel_linux
 version: 3.3.7+3
-Labels:
+labels:
   original.package.name: "eigen"
   original.package.category: "dev-cpp"
   original.package.version: "3.3.7"

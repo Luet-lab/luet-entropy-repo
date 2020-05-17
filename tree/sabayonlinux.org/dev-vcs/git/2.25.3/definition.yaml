@@ -2,55 +2,55 @@ category: dev-vcs
 license: GPL-2
 name: git
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-exec-2
   version: '>=2'
-- Labels: null
+- labels: null
   category: app-crypt
   name: gnupg
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-lang
   name: perl
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-3.6
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: expat
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: libpcre2
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: openssl
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-perl
   name: Authen-SASL
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-perl
   name: Error
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-perl
   name: MailTools
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-util
   name: dirstr
   version: '>=0'
-- Labels: null
+- labels: null
   category: net-misc
   name: curl
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-libs
   name: zlib
   version: '>=0'
@@ -92,7 +92,7 @@ use_flags:
 - -highlight
 - -cgi
 version: "2.25.3"
-Labels:
+labels:
   original.package.name: "git"
   original.package.category: "dev-vcs"
   original.package.version: "2.24.1"

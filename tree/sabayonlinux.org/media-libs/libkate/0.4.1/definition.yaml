@@ -2,35 +2,35 @@ category: media-libs
 license: BSD
 name: libkate
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-2.7
   version: '>=2.7.5'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-exec-2
   version: '>=2'
-- Labels: null
+- labels: null
   category: dev-python
   name: wxpython-4.0
   version: '>=0'
-- Labels: null
+- labels: null
   category: media-libs
   name: libogg
   version: '>=0'
-- Labels: null
+- labels: null
   category: media-libs
   name: liboggz
   version: '>=0'
-- Labels: null
+- labels: null
   category: media-libs
   name: libpng
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-devel
   name: bison
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-devel
   name: flex
   version: '>=0'
@@ -56,7 +56,7 @@ use_flags:
 - userland_GNU
 - -doc
 version: 0.4.1+r8
-Labels:
+labels:
   original.package.name: "libkate"
   original.package.category: "media-libs"
   original.package.version: "0.4.1"

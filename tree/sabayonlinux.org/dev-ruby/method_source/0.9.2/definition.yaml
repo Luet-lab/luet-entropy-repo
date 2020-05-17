@@ -2,7 +2,7 @@ category: dev-ruby
 license: MIT
 name: method_source
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: ruby-2.5
   version: '>=0'
@@ -20,7 +20,7 @@ use_flags:
 - split-usr
 - amd64
 version: 0.9.2+3
-Labels:
+labels:
   original.package.name: "method_source"
   original.package.category: "dev-ruby"
   original.package.version: "0.9.2"

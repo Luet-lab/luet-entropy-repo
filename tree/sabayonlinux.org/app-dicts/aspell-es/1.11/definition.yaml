@@ -2,7 +2,7 @@ category: app-dicts
 license: GPL-2
 name: aspell-es
 requires:
-- Labels: null
+- labels: null
   category: app-text
   name: aspell
   version: '>=0.60'
@@ -14,7 +14,7 @@ use_flags:
 - abi_x86_64
 - amd64
 version: 1.11+p5
-Labels:
+labels:
   original.package.name: "aspell-es"
   original.package.category: "app-dicts"
   original.package.version: "1.11"

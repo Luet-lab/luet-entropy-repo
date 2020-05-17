@@ -2,11 +2,11 @@ category: app-xemacs
 license: GPL-2+
 name: fsf-compat
 requires:
-- Labels: null
+- labels: null
   category: app-editors
   name: xemacs
   version: '>=0'
-- Labels: null
+- labels: null
   category: app-xemacs
   name: xemacs-base
   version: '>=0'
@@ -18,7 +18,7 @@ use_flags:
 - big-endian
 - kernel_linux
 version: 1.24+3
-Labels:
+labels:
   original.package.name: "fsf-compat"
   original.package.category: "app-xemacs"
   original.package.version: "1.24"

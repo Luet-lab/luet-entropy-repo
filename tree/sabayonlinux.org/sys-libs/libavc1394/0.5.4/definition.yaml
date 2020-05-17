@@ -2,7 +2,7 @@ category: sys-libs
 license: LGPL-2.1
 name: libavc1394
 requires:
-- Labels: null
+- labels: null
   category: sys-libs
   name: libraw1394
   version: '>=2.1.0'
@@ -24,7 +24,7 @@ use_flags:
 - -abi_riscv_lp64
 - userland_GNU
 version: 0.5.4+r6
-Labels:
+labels:
   original.package.name: "libavc1394"
   original.package.category: "sys-libs"
   original.package.version: "0.5.4"

@@ -1,66 +1,66 @@
-Labels:
+labels:
   original.package.version: "5.18.4.1"
 category: kde-plasma
 license: GPL-2 LGPL-2.1
 name: milou-5
 requires:
-- Labels: null
+- labels: null
   category: dev-qt
   name: qtdeclarative-5
   version: '>=5.12.3'
-- Labels: null
+- labels: null
   category: dev-qt
   name: qtgui-5
   version: '>=5.12.3'
-- Labels: null
+- labels: null
   category: dev-qt
   name: qtwidgets-5
   version: '>=5.12.3'
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: extra-cmake-modules-5
   version: '>=5.66.0'
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: kconfig-5
   version: '>=5.66.0'
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: kcoreaddons-5
   version: '>=5.66.0'
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: kdeclarative-5
   version: '>=5.66.0'
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: kf-env-5
   version: '>=4'
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: ki18n-5
   version: '>=5.66.0'
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: kitemmodels-5
   version: '>=5.66.0'
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: krunner-5
   version: '>=5.66.0'
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: kservice-5
   version: '>=5.66.0'
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: plasma-5
   version: '>=5.66.0'
-- Labels: null
+- labels: null
   category: dev-qt
   name: qtcore-5
   version: '>=0'
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: oxygen-icons-5
   version: '>=0'
@@ -75,7 +75,7 @@ use_flags:
 - kernel_linux
 - -debug
 version: "5.18.4.1"
-Labels:
+labels:
   original.package.name: "milou"
   original.package.category: "kde-plasma"
   original.package.version: "5.18.2"

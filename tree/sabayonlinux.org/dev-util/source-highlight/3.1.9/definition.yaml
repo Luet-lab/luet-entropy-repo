@@ -2,11 +2,11 @@ category: dev-util
 license: GPL-3
 name: source-highlight
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: boost
   version: '>=1.62.0'
-- Labels: null
+- labels: null
   category: dev-util
   name: ctags
   version: '>=0'
@@ -21,7 +21,7 @@ use_flags:
 - kernel_linux
 - -doc
 version: 3.1.9+1
-Labels:
+labels:
   original.package.name: "source-highlight"
   original.package.category: "dev-util"
   original.package.version: "3.1.9"

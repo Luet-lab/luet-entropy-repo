@@ -2,23 +2,23 @@ category: dev-perl
 license: Artistic GPL-1+
 name: XML-SAX-Writer
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: libxml2-2
   version: '>=2.4.1'
-- Labels: null
+- labels: null
   category: dev-perl
   name: XML-Filter-BufferText
   version: '>=1.0.0'
-- Labels: null
+- labels: null
   category: dev-perl
   name: XML-NamespaceSupport
   version: '>=1.40.0'
-- Labels: null
+- labels: null
   category: dev-perl
   name: XML-SAX-Base
   version: '>=1.10.0'
-- Labels: null
+- labels: null
   category: dev-lang
   name: perl
   version: '>=0'
@@ -32,7 +32,7 @@ use_flags:
 - big-endian
 - userland_GNU
 version: 0.570.0+3
-Labels:
+labels:
   original.package.name: "XML-SAX-Writer"
   original.package.category: "dev-perl"
   original.package.version: "0.570.0"

@@ -2,51 +2,51 @@ category: dev-haskell
 license: BSD
 name: x509-store
 requires:
-- Labels: null
+- labels: null
   category: dev-haskell
   name: asn1-encoding
   version: <0.10
-- Labels: null
+- labels: null
   category: dev-haskell
   name: asn1-types
   version: <0.4
-- Labels: null
+- labels: null
   category: dev-haskell
   name: pem
   version: <0.3
-- Labels: null
+- labels: null
   category: dev-haskell
   name: x509
   version: <1.7
-- Labels: null
+- labels: null
   category: dev-haskell
   name: asn1-encoding
   version: '>=0.9'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: asn1-types
   version: '>=0.3'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: cabal
   version: '>=1.8'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: pem
   version: '>=0.1'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: x509
   version: '>=1.6'
-- Labels: null
+- labels: null
   category: dev-lang
   name: ghc
   version: '>=7.4.1'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: cryptonite
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: mtl
   version: '>=0'
@@ -61,7 +61,7 @@ use_flags:
 - -profile
 - abi_x86_64
 version: 1.6.2+1
-Labels:
+labels:
   original.package.name: "x509-store"
   original.package.category: "dev-haskell"
   original.package.version: "1.6.2"

@@ -2,11 +2,11 @@ category: dev-libs
 license: ISC
 name: confuse
 requires:
-- Labels: null
+- labels: null
   category: sys-devel
   name: flex
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=0'
@@ -30,7 +30,7 @@ use_flags:
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
 version: 3.2.2+1
-Labels:
+labels:
   original.package.name: "confuse"
   original.package.category: "dev-libs"
   original.package.version: "3.2.2"

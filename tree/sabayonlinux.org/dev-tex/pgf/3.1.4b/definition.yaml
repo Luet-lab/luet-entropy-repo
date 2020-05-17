@@ -2,11 +2,11 @@ category: dev-tex
 license: FDL-1.2 GPL-2 LPPL-1.3c
 name: pgf
 requires:
-- Labels: null
+- labels: null
   category: sys-apps
   name: texinfo
   version: '>=4.2'
-- Labels: null
+- labels: null
   category: dev-texlive
   name: texlive-latexrecommended
   version: '>=0'
@@ -21,7 +21,7 @@ use_flags:
 - amd64
 - kernel_linux
 version: 3.1.4b+r5
-Labels:
+labels:
   original.package.name: "pgf"
   original.package.category: "dev-tex"
   original.package.version: "3.1.4b"

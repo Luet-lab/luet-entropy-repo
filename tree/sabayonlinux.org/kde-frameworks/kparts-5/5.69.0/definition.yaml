@@ -1,70 +1,70 @@
-Labels:
+labels:
   original.package.version: "5.69.0"
 category: kde-frameworks
 license: LGPL-2+
 name: kparts-5
 requires:
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: kconfig-5
   version: '>=5.67'
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: kcoreaddons-5
   version: '>=5.67'
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: ki18n-5
   version: '>=5.67'
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: kiconthemes-5
   version: '>=5.67'
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: kio-5
   version: '>=5.67'
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: kjobwidgets-5
   version: '>=5.67'
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: kservice-5
   version: '>=5.67'
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: kwidgetsaddons-5
   version: '>=5.67'
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: kxmlgui-5
   version: '>=5.67'
-- Labels: null
+- labels: null
   category: dev-qt
   name: qtgui-5
   version: '>=5.12.3'
-- Labels: null
+- labels: null
   category: dev-qt
   name: qtwidgets-5
   version: '>=5.12.3'
-- Labels: null
+- labels: null
   category: dev-qt
   name: qtxml-5
   version: '>=5.12.3'
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: extra-cmake-modules-5
   version: '>=5.67'
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: kf-env-5
   version: '>=4'
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: ktextwidgets-5
   version: '>=5.67'
-- Labels: null
+- labels: null
   category: dev-qt
   name: qtcore-5
   version: '>=0'
@@ -80,7 +80,7 @@ use_flags:
 - userland_GNU
 - amd64
 version: "5.69.0"
-Labels:
+labels:
   original.package.name: "kparts"
   original.package.category: "kde-frameworks"
   original.package.version: "5.67.0"

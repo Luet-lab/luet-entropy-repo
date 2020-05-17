@@ -2,23 +2,23 @@ category: app-text
 license: LGPL-2.1
 name: libmspub
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: boost
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: icu
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: librevenge
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-libs
   name: zlib
   version: '>=0'
@@ -33,7 +33,7 @@ use_flags:
 - userland_GNU
 - -static-libs
 version: 0.1.4+1
-Labels:
+labels:
   original.package.name: "libmspub"
   original.package.category: "app-text"
   original.package.version: "0.1.4"

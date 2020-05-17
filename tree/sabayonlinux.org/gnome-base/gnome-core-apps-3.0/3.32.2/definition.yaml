@@ -2,83 +2,83 @@ category: gnome-base
 license: metapackage
 name: gnome-core-apps-3.0
 requires:
-- Labels: null
+- labels: null
   category: app-crypt
   name: gcr
   version: '>=3.28.1'
-- Labels: null
+- labels: null
   category: app-crypt
   name: seahorse
   version: '>=3.32.2'
-- Labels: null
+- labels: null
   category: app-editors
   name: gedit
   version: '>=3.32.0'
-- Labels: null
+- labels: null
   category: app-text
   name: evince
   version: '>=3.32.0'
-- Labels: null
+- labels: null
   category: gnome-base
   name: gnome-control-center-2
   version: '>=3.32.1'
-- Labels: null
+- labels: null
   category: gnome-base
   name: gnome-core-libs-3.0
   version: '>=3.32.2'
-- Labels: null
+- labels: null
   category: gnome-base
   name: gnome-keyring
   version: '>=3.31.91'
-- Labels: null
+- labels: null
   category: gnome-base
   name: gnome-session
   version: '>=3.32.0'
-- Labels: null
+- labels: null
   category: gnome-base
   name: gnome-settings-daemon
   version: '>=3.32.0'
-- Labels: null
+- labels: null
   category: gnome-base
   name: nautilus
   version: '>=3.32.1'
-- Labels: null
+- labels: null
   category: gnome-extra
   name: evolution-data-server
   version: '>=3.32.2'
-- Labels: null
+- labels: null
   category: gnome-extra
   name: gnome-color-manager
   version: '>=3.32.0'
-- Labels: null
+- labels: null
   category: gnome-extra
   name: gnome-contacts
   version: '>=3.32.1'
-- Labels: null
+- labels: null
   category: gnome-extra
   name: gnome-user-docs
   version: '>=3.32.2'
-- Labels: null
+- labels: null
   category: gnome-extra
   name: yelp
   version: '>=3.32.2'
-- Labels: null
+- labels: null
   category: media-gfx
   name: eog-1
   version: '>=3.32.1'
-- Labels: null
+- labels: null
   category: media-video
   name: totem
   version: '>=3.32.0'
-- Labels: null
+- labels: null
   category: net-wireless
   name: gnome-bluetooth-2
   version: '>=3.32.1'
-- Labels: null
+- labels: null
   category: x11-terms
   name: gnome-terminal
   version: '>=3.32.2'
-- Labels: null
+- labels: null
   category: x11-themes
   name: adwaita-icon-theme
   version: '>=3.32.0'
@@ -93,7 +93,7 @@ use_flags:
 - cups
 - kernel_linux
 version: 3.32.2+2
-Labels:
+labels:
   original.package.name: "gnome-core-apps"
   original.package.category: "gnome-base"
   original.package.version: "3.32.2"

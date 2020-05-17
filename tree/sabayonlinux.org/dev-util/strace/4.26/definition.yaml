@@ -2,7 +2,7 @@ category: dev-util
 license: BSD
 name: strace
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: perl
   version: '>=0'
@@ -19,7 +19,7 @@ use_flags:
 - -elfutils
 - amd64
 version: 4.26+3
-Labels:
+labels:
   original.package.name: "strace"
   original.package.category: "dev-util"
   original.package.version: "4.26"

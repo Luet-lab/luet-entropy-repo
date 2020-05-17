@@ -2,31 +2,31 @@ category: net-dns
 license: Apache-2.0 BSD BSD-2 GPL-2 HPND ISC MPL-2.0
 name: bind-tools
 requires:
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- Labels: null
+- labels: null
   category: sys-devel
   name: automake-1.15
   version: '>=1.15.1'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.4'
-- Labels: null
+- labels: null
   category: dev-libs
   name: libxml2-2
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: openssl
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-libs
   name: libcap
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-libs
   name: readline
   version: '>=0'
@@ -48,7 +48,7 @@ use_flags:
 - amd64
 - ipv6
 version: 9.14.8+3
-Labels:
+labels:
   original.package.name: "bind-tools"
   original.package.category: "net-dns"
   original.package.version: "9.14.8"

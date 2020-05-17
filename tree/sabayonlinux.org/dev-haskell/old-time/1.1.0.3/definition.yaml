@@ -2,19 +2,19 @@ category: dev-haskell
 license: BSD
 name: old-time
 requires:
-- Labels: null
+- labels: null
   category: dev-haskell
   name: old-locale
   version: <1.1
-- Labels: null
+- labels: null
   category: dev-haskell
   name: cabal
   version: '>=1.18.1.2'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: old-locale
   version: '>=1.0'
-- Labels: null
+- labels: null
   category: dev-lang
   name: ghc
   version: '>=7.4.1'
@@ -29,7 +29,7 @@ use_flags:
 - big-endian
 - kernel_linux
 version: 1.1.0.3+r2
-Labels:
+labels:
   original.package.name: "old-time"
   original.package.category: "dev-haskell"
   original.package.version: "1.1.0.3"

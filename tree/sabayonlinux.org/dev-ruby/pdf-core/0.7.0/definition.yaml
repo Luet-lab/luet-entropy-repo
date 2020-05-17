@@ -2,7 +2,7 @@ category: dev-ruby
 license: GPL-2 GPL-3 Ruby
 name: pdf-core
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: ruby-2.5
   version: '>=0'
@@ -20,7 +20,7 @@ use_flags:
 - -ruby_targets_ruby26
 - abi_x86_64
 version: 0.7.0+3
-Labels:
+labels:
   original.package.name: "pdf-core"
   original.package.category: "dev-ruby"
   original.package.version: "0.7.0"

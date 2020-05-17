@@ -2,15 +2,15 @@ category: dev-python
 license: MIT
 name: pytest-timeout
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-exec-2
   version: '>=2'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-3.6
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-python
   name: pytest
   version: '>=0'
@@ -28,7 +28,7 @@ use_flags:
 - big-endian
 - amd64
 version: 1.3.3+3
-Labels:
+labels:
   original.package.name: "pytest-timeout"
   original.package.category: "dev-python"
   original.package.version: "1.3.3"

@@ -2,15 +2,15 @@ category: dev-util
 license: GPL-2
 name: valgrind
 requires:
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- Labels: null
+- labels: null
   category: sys-devel
   name: automake-1.15
   version: '>=1.15.1'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.4'
@@ -23,7 +23,7 @@ use_flags:
 - elibc_glibc
 - amd64
 version: 3.14.0+3
-Labels:
+labels:
   original.package.name: "valgrind"
   original.package.category: "dev-util"
   original.package.version: "3.14.0"

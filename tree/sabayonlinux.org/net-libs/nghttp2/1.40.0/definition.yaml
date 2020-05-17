@@ -2,7 +2,7 @@ category: net-libs
 license: MIT
 name: nghttp2
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: libxml2-2
   version: '>=2.7.7'
@@ -34,7 +34,7 @@ use_flags:
 - -abi_riscv_lp64d
 - -cxx
 version: 1.40.0+1
-Labels:
+labels:
   original.package.name: "nghttp2"
   original.package.category: "net-libs"
   original.package.version: "1.40.0"

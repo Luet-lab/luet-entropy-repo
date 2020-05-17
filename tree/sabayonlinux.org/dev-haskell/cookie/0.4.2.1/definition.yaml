@@ -2,27 +2,27 @@ category: dev-haskell
 license: MIT
 name: cookie
 requires:
-- Labels: null
+- labels: null
   category: dev-haskell
   name: blaze-builder
   version: '>=0.2.1'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: cabal
   version: '>=1.8'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: old-locale
   version: '>=1'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: text
   version: '>=0.7'
-- Labels: null
+- labels: null
   category: dev-lang
   name: ghc
   version: '>=7.4.1'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: data-default-class
   version: '>=0'
@@ -38,7 +38,7 @@ use_flags:
 - -hscolour
 - userland_GNU
 version: 0.4.2.1+1
-Labels:
+labels:
   original.package.name: "cookie"
   original.package.category: "dev-haskell"
   original.package.version: "0.4.2.1"

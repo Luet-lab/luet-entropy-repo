@@ -2,11 +2,11 @@ category: media-libs
 license: MPL-2.0
 name: libpagemaker
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: boost
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: librevenge
   version: '>=0'
@@ -21,7 +21,7 @@ use_flags:
 - -tools
 - userland_GNU
 version: 0.0.4+1
-Labels:
+labels:
   original.package.name: "libpagemaker"
   original.package.category: "media-libs"
   original.package.version: "0.0.4"

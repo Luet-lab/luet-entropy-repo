@@ -2,39 +2,39 @@ category: sys-apps
 license: GPL-3+
 name: accountsservice
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: glib-2
   version: '>=2.44'
-- Labels: null
+- labels: null
   category: dev-libs
   name: gobject-introspection
   version: '>=0.9.12'
-- Labels: null
+- labels: null
   category: dev-util
   name: gtk-doc-am
   version: '>=1.15'
-- Labels: null
+- labels: null
   category: sys-apps
   name: systemd
   version: '>=186'
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- Labels: null
+- labels: null
   category: sys-devel
   name: automake-1.15
   version: '>=1.15.1'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.4'
-- Labels: null
+- labels: null
   category: dev-libs
   name: libxslt
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-auth
   name: polkit
   version: '>=0'
@@ -51,7 +51,7 @@ use_flags:
 - -selinux
 - introspection
 version: 0.6.50+r4
-Labels:
+labels:
   original.package.name: "accountsservice"
   original.package.category: "sys-apps"
   original.package.version: "0.6.50"

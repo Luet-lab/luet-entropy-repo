@@ -2,7 +2,7 @@ category: net-firewall
 license: GPL-2
 name: iptables
 requires:
-- Labels: null
+- labels: null
   category: sys-libs
   name: glibc-2.2
   version: '>=0'
@@ -21,7 +21,7 @@ use_flags:
 - -netlink
 - userland_GNU
 version: 1.6.1+r6
-Labels:
+labels:
   original.package.name: "iptables"
   original.package.category: "net-firewall"
   original.package.version: "1.6.1"

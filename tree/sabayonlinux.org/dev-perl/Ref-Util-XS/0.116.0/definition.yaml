@@ -2,7 +2,7 @@ category: dev-perl
 license: MIT
 name: Ref-Util-XS
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: perl
   version: '>=0'
@@ -16,7 +16,7 @@ use_flags:
 - split-usr
 - elibc_glibc
 version: 0.116.0+3
-Labels:
+labels:
   original.package.name: "Ref-Util-XS"
   original.package.category: "dev-perl"
   original.package.version: "0.116.0"

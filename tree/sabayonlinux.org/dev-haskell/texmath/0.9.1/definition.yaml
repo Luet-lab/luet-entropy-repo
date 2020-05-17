@@ -2,35 +2,35 @@ category: dev-haskell
 license: GPL-2
 name: texmath
 requires:
-- Labels: null
+- labels: null
   category: dev-haskell
   name: pandoc-types
   version: <1.18
-- Labels: null
+- labels: null
   category: dev-haskell
   name: cabal
   version: '>=1.10'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: pandoc-types
   version: '>=1.12.3.3'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: parsec
   version: '>=3'
-- Labels: null
+- labels: null
   category: dev-lang
   name: ghc
   version: '>=7.4.1'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: mtl
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: syb
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: xml
   version: '>=0'
@@ -48,7 +48,7 @@ use_flags:
 - -test
 - abi_x86_64
 version: 0.9.1+1
-Labels:
+labels:
   original.package.name: "texmath"
   original.package.category: "dev-haskell"
   original.package.version: "0.9.1"

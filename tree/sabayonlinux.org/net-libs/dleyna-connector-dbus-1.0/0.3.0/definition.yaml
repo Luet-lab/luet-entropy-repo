@@ -2,27 +2,27 @@ category: net-libs
 license: LGPL-2.1
 name: dleyna-connector-dbus-1.0
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: glib-2
   version: '>=2.28'
-- Labels: null
+- labels: null
   category: net-libs
   name: dleyna-core-1.0
   version: '>=0.2.1'
-- Labels: null
+- labels: null
   category: sys-apps
   name: dbus
   version: '>=1'
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- Labels: null
+- labels: null
   category: sys-devel
   name: automake-1.15
   version: '>=1.15.1'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.4'
@@ -35,7 +35,7 @@ use_flags:
 - kernel_linux
 - big-endian
 version: 0.3.0+1
-Labels:
+labels:
   original.package.name: "dleyna-connector-dbus"
   original.package.category: "net-libs"
   original.package.version: "0.3.0"

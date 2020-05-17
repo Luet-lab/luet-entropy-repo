@@ -2,51 +2,51 @@ category: net-misc
 license: BSD GPL-2
 name: openssh
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: openssl
   version: '>=1.1.0g'
-- Labels: null
+- labels: null
   category: sys-auth
   name: pambase
   version: '>=20081028'
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- Labels: null
+- labels: null
   category: sys-devel
   name: automake-1.15
   version: '>=1.15.1'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.4'
-- Labels: null
+- labels: null
   category: sys-libs
   name: zlib
   version: '>=1.2.3'
-- Labels: null
+- labels: null
   category: acct-group
   name: sshd
   version: '>=0'
-- Labels: null
+- labels: null
   category: acct-user
   name: sshd
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: libedit
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: openssl
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-2.69
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-libs
   name: pam
   version: '>=0'
@@ -80,7 +80,7 @@ use_flags:
 - abi_x86_64
 - kernel_linux
 version: 8.2+p1r3.3
-Labels:
+labels:
   original.package.name: "openssh"
   original.package.category: "net-misc"
   original.package.version: "8.2"

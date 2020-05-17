@@ -2,27 +2,27 @@ category: media-libs
 license: GPL-2
 name: netpbm
 requires:
-- Labels: null
+- labels: null
   category: media-libs
   name: libpng
   version: '>=1.4'
-- Labels: null
+- labels: null
   category: media-libs
   name: tiff
   version: '>=3.5.5'
-- Labels: null
+- labels: null
   category: dev-libs
   name: libxml2-2
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-devel
   name: flex
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-libs
   name: zlib
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libX11
   version: '>=0'
@@ -48,7 +48,7 @@ use_flags:
 - amd64
 - zlib
 version: 10.76.00+3
-Labels:
+labels:
   original.package.name: "netpbm"
   original.package.category: "media-libs"
   original.package.version: "10.76.00"

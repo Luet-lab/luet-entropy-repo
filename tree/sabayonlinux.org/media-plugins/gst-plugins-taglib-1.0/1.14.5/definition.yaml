@@ -2,19 +2,19 @@ category: media-plugins
 license: GPL-2
 name: gst-plugins-taglib-1.0
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: glib-2
   version: '>=2.38.2'
-- Labels: null
+- labels: null
   category: media-libs
   name: gst-plugins-good-1.0
   version: '>=1.14.5'
-- Labels: null
+- labels: null
   category: media-libs
   name: gstreamer-1.0
   version: '>=1.2.4'
-- Labels: null
+- labels: null
   category: media-libs
   name: taglib
   version: '>=1.9.1'
@@ -36,7 +36,7 @@ use_flags:
 - elibc_glibc
 - -abi_mips_n64
 version: 1.14.5+1
-Labels:
+labels:
   original.package.name: "gst-plugins-taglib"
   original.package.category: "media-plugins"
   original.package.version: "1.14.5"

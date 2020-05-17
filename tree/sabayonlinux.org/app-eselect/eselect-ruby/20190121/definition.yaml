@@ -2,7 +2,7 @@ category: app-eselect
 license: GPL-2
 name: eselect-ruby
 requires:
-- Labels: null
+- labels: null
   category: app-admin
   name: eselect
   version: '>=1.0.2'
@@ -14,7 +14,7 @@ use_flags:
 - kernel_linux
 - userland_GNU
 version: 20190121+3
-Labels:
+labels:
   original.package.name: "eselect-ruby"
   original.package.category: "app-eselect"
   original.package.version: "20190121"

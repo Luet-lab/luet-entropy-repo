@@ -2,35 +2,35 @@ category: dev-libs
 license: LGPL-2.1+
 name: libgdata
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: glib-2
   version: '>=2.44.0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: gobject-introspection
   version: '>=1.54'
-- Labels: null
+- labels: null
   category: dev-libs
   name: json-glib
   version: '>=0.15'
-- Labels: null
+- labels: null
   category: dev-libs
   name: libxml2-2
   version: '>=2'
-- Labels: null
+- labels: null
   category: net-libs
   name: gnome-online-accounts
   version: '>=3.8'
-- Labels: null
+- labels: null
   category: net-libs
   name: liboauth
   version: '>=0.9.4'
-- Labels: null
+- labels: null
   category: net-libs
   name: libsoup-2.4
   version: '>=2.55.90'
-- Labels: null
+- labels: null
   category: app-crypt
   name: gcr
   version: '>=0'
@@ -49,7 +49,7 @@ use_flags:
 - -vala
 - -gtk-doc
 version: 0.17.11+3
-Labels:
+labels:
   original.package.name: "libgdata"
   original.package.category: "dev-libs"
   original.package.version: "0.17.11"

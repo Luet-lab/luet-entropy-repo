@@ -2,11 +2,11 @@ category: media-gfx
 license: GPL-2
 name: exiv2
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: expat
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-libs
   name: zlib
   version: '>=0'
@@ -34,7 +34,7 @@ use_flags:
 - -abi_riscv_lp64d
 - -doc
 version: 0.27.2+4
-Labels:
+labels:
   original.package.name: "exiv2"
   original.package.category: "media-gfx"
   original.package.version: "0.27.2"

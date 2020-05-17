@@ -2,7 +2,7 @@ category: x11-libs
 license: LGPL-2
 name: tslib
 requires:
-- Labels: null
+- labels: null
   category: media-libs
   name: libsdl2
   version: '>=0'
@@ -27,7 +27,7 @@ use_flags:
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
 version: 1.21+1
-Labels:
+labels:
   original.package.name: "tslib"
   original.package.category: "x11-libs"
   original.package.version: "1.21"

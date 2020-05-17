@@ -2,23 +2,23 @@ category: gnome-extra
 license: GPL-3+
 name: chrome-gnome-shell
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-exec-2
   version: '>=2'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-3.6
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-python
   name: pygobject-base-3
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-python
   name: requests
   version: '>=0'
-- Labels: null
+- labels: null
   category: gnome-base
   name: gnome-shell
   version: '>=0'
@@ -36,7 +36,7 @@ use_flags:
 - python_single_target_python3_6
 - python_targets_python3_6
 version: 10+r4
-Labels:
+labels:
   original.package.name: "chrome-gnome-shell"
   original.package.category: "gnome-extra"
   original.package.version: "10"

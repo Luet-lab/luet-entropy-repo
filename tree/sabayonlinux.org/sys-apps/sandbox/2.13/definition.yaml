@@ -2,7 +2,7 @@ category: sys-apps
 license: GPL-2
 name: sandbox
 requires:
-- Labels: null
+- labels: null
   category: app-misc
   name: pax-utils
   version: '>=0.1.19'
@@ -24,7 +24,7 @@ use_flags:
 - -abi_riscv_lp64
 - userland_GNU
 version: 2.13+4
-Labels:
+labels:
   original.package.name: "sandbox"
   original.package.category: "sys-apps"
   original.package.version: "2.13"

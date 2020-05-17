@@ -2,19 +2,19 @@ category: app-admin
 license: GPL-2
 name: perl-cleaner
 requires:
-- Labels: null
+- labels: null
   category: app-portage
   name: portage-utils
   version: '>=0'
-- Labels: null
+- labels: null
   category: app-shells
   name: bash
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-lang
   name: perl
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-apps
   name: portage
   version: '>=0'
@@ -26,7 +26,7 @@ use_flags:
 - elibc_glibc
 - kernel_linux
 version: 2.27+3
-Labels:
+labels:
   original.package.name: "perl-cleaner"
   original.package.category: "app-admin"
   original.package.version: "2.27"

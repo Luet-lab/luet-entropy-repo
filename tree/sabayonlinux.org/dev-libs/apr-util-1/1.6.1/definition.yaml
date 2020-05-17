@@ -2,43 +2,43 @@ category: dev-libs
 license: Apache-2.0
 name: apr-util-1
 requires:
-- Labels: null
+- labels: null
   category: net-nds
   name: openldap
   version: '>=2'
-- Labels: null
+- labels: null
   category: dev-libs
   name: apr-1
   version: '>=1.6.2'
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- Labels: null
+- labels: null
   category: sys-devel
   name: automake-1.15
   version: '>=1.15.1'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.4'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.4.2'
-- Labels: null
+- labels: null
   category: sys-libs
   name: db-6.0
   version: '>=4'
-- Labels: null
+- labels: null
   category: dev-libs
   name: expat
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: openssl
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-libs
   name: gdbm
   version: '>=0'
@@ -63,7 +63,7 @@ use_flags:
 - userland_GNU
 - amd64
 version: 1.6.1+r6
-Labels:
+labels:
   original.package.name: "apr-util"
   original.package.category: "dev-libs"
   original.package.version: "1.6.1"

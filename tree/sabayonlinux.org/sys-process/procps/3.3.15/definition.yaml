@@ -2,11 +2,11 @@ category: sys-process
 license: GPL-2
 name: procps
 requires:
-- Labels: null
+- labels: null
   category: sys-libs
   name: ncurses
   version: '>=5.7'
-- Labels: null
+- labels: null
   category: sys-apps
   name: systemd
   version: '>=0'
@@ -29,7 +29,7 @@ use_flags:
 - -elogind
 - userland_GNU
 version: 3.3.15+r4
-Labels:
+labels:
   original.package.name: "procps"
   original.package.category: "sys-process"
   original.package.version: "3.3.15"

@@ -2,35 +2,35 @@ category: media-video
 license: LGPL-2.1+
 name: pipewire
 requires:
-- Labels: null
+- labels: null
   category: app-doc
   name: xmltoman
   version: '>=0'
-- Labels: null
+- labels: null
   category: media-libs
   name: alsa-lib
   version: '>=0'
-- Labels: null
+- labels: null
   category: media-libs
   name: libsdl2
   version: '>=0'
-- Labels: null
+- labels: null
   category: media-libs
   name: sbc
   version: '>=0'
-- Labels: null
+- labels: null
   category: media-video
   name: ffmpeg
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-apps
   name: dbus
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-apps
   name: systemd
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libX11
   version: '>=0'
@@ -52,7 +52,7 @@ use_flags:
 - userland_GNU
 - sdl
 version: 0.2.7+3
-Labels:
+labels:
   original.package.name: "pipewire"
   original.package.category: "media-video"
   original.package.version: "0.2.7"

@@ -2,7 +2,7 @@ category: media-libs
 license: libpng2
 name: libpng
 requires:
-- Labels: null
+- labels: null
   category: sys-libs
   name: zlib
   version: '>=1.2.8'
@@ -28,7 +28,7 @@ use_flags:
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
 version: 1.6.37+4
-Labels:
+labels:
   original.package.name: "libpng"
   original.package.category: "media-libs"
   original.package.version: "1.6.37"

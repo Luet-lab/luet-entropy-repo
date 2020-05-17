@@ -2,23 +2,23 @@ category: dev-python
 license: LGPL-2.1
 name: gconf-python-2
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-2.7
   version: '>=2.7.5'
-- Labels: null
+- labels: null
   category: gnome-base
   name: gconf-2
   version: '>=2.11.1'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-exec-2
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-python
   name: pygobject-2
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-python
   name: gnome-python-base-2
   version: '>=2.28.1'
@@ -31,7 +31,7 @@ use_flags:
 - elibc_glibc
 - abi_x86_64
 version: 2.28.1+r4
-Labels:
+labels:
   original.package.name: "gconf-python"
   original.package.category: "dev-python"
   original.package.version: "2.28.1"

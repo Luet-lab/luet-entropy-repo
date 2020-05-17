@@ -2,11 +2,11 @@ category: sys-devel
 license: GPL-2
 name: autogen
 requires:
-- Labels: null
+- labels: null
   category: dev-scheme
   name: guile-12
   version: '>=2.0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: libxml2-2
   version: '>=0'
@@ -21,7 +21,7 @@ use_flags:
 - elibc_glibc
 - kernel_linux
 version: 5.18.16+r4
-Labels:
+labels:
   original.package.name: "autogen"
   original.package.category: "sys-devel"
   original.package.version: "5.18.16"

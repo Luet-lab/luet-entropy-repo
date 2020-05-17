@@ -2,15 +2,15 @@ category: dev-texlive
 license: Apache-2.0 BSD-2 CC-BY-SA-4.0 GPL-2
 name: texlive-pictures
 requires:
-- Labels: null
+- labels: null
   category: app-text
   name: texlive-core
   version: '>=2019'
-- Labels: null
+- labels: null
   category: dev-tex
   name: pgf
   version: '>=3.0.1'
-- Labels: null
+- labels: null
   category: dev-texlive
   name: texlive-basic
   version: '>=2019'
@@ -24,7 +24,7 @@ use_flags:
 - amd64
 - kernel_linux
 version: 2019+3
-Labels:
+labels:
   original.package.name: "texlive-pictures"
   original.package.category: "dev-texlive"
   original.package.version: "2019"

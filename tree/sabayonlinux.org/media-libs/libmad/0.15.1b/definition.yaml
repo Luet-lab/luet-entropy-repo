@@ -2,15 +2,15 @@ category: media-libs
 license: GPL-2
 name: libmad
 requires:
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- Labels: null
+- labels: null
   category: sys-devel
   name: automake-1.15
   version: '>=1.15.1'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.4'
@@ -34,7 +34,7 @@ use_flags:
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
 version: 0.15.1b+r13
-Labels:
+labels:
   original.package.name: "libmad"
   original.package.category: "media-libs"
   original.package.version: "0.15.1b"

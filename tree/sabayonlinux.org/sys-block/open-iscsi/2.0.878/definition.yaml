@@ -2,39 +2,39 @@ category: sys-block
 license: GPL-2
 name: open-iscsi
 requires:
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- Labels: null
+- labels: null
   category: sys-devel
   name: automake-1.15
   version: '>=1.15.1'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.4'
-- Labels: null
+- labels: null
   category: dev-libs
   name: openssl
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-apps
   name: kmod
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-apps
   name: systemd
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-apps
   name: util-linux
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-block
   name: open-isns
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-fs
   name: lsscsi
   version: '>=0'
@@ -53,7 +53,7 @@ use_flags:
 - split-usr
 - userland_GNU
 version: 2.0.878+3
-Labels:
+labels:
   original.package.name: "open-iscsi"
   original.package.category: "sys-block"
   original.package.version: "2.0.878"

@@ -2,7 +2,7 @@ category: dev-java
 license: Apache-1.1 IBM JDOM LGPL-2.1+
 name: xpp3
 requires:
-- Labels: null
+- labels: null
   category: dev-java
   name: java-config-2
   version: '>=2.2.0'
@@ -16,7 +16,7 @@ use_flags:
 - kernel_linux
 - -source
 version: 1.1.4c+r6
-Labels:
+labels:
   original.package.name: "xpp3"
   original.package.category: "dev-java"
   original.package.version: "1.1.4c"

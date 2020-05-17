@@ -2,7 +2,7 @@ category: dev-ruby
 license: MIT
 name: did_you_mean-2.5
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: ruby-2.5
   version: '>=0'
@@ -17,7 +17,7 @@ use_flags:
 - kernel_linux
 - userland_GNU
 version: "1.4.0"
-Labels:
+labels:
   original.package.name: "did_you_mean"
   original.package.category: "dev-ruby"
   original.package.version: "1.2.1"

@@ -2,11 +2,11 @@ category: dev-haskell
 license: BSD
 name: hunit
 requires:
-- Labels: null
+- labels: null
   category: dev-haskell
   name: cabal
   version: '>=1.8'
-- Labels: null
+- labels: null
   category: dev-lang
   name: ghc
   version: '>=6.10.4'
@@ -21,7 +21,7 @@ use_flags:
 - abi_x86_64
 - -hscolour
 version: 1.2.5.2+r2
-Labels:
+labels:
   original.package.name: "hunit"
   original.package.category: "dev-haskell"
   original.package.version: "1.2.5.2"

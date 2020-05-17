@@ -2,7 +2,7 @@ category: app-text
 license: LGPL-2.1 MPL-2.0
 name: libwps
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: librevenge
   version: '>=0'
@@ -18,7 +18,7 @@ use_flags:
 - userland_GNU
 - -static-libs
 version: 0.4.10+1
-Labels:
+labels:
   original.package.name: "libwps"
   original.package.category: "app-text"
   original.package.version: "0.4.10"

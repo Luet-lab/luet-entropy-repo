@@ -2,7 +2,7 @@ category: app-arch
 license: LGPL-2.1 unRAR
 name: p7zip
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: yasm
   version: '>=0'
@@ -21,7 +21,7 @@ use_flags:
 - kernel_linux
 - big-endian
 version: 16.02+r7
-Labels:
+labels:
   original.package.name: "p7zip"
   original.package.category: "app-arch"
   original.package.version: "16.02"

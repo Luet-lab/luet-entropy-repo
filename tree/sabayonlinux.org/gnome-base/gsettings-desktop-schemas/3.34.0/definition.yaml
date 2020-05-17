@@ -2,7 +2,7 @@ category: gnome-base
 license: LGPL-2.1+
 name: gsettings-desktop-schemas
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: gobject-introspection
   version: '>=1.54'
@@ -16,7 +16,7 @@ use_flags:
 - split-usr
 - amd64
 version: "3.34.0"
-Labels:
+labels:
   original.package.name: "gsettings-desktop-schemas"
   original.package.category: "gnome-base"
   original.package.version: "3.32.0"

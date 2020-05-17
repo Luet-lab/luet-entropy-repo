@@ -2,7 +2,7 @@ category: net-analyzer
 license: BSD
 name: openbsd-netcat
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: libbsd
   version: '>=0'
@@ -15,7 +15,7 @@ use_flags:
 - big-endian
 - userland_GNU
 version: 1.190+3
-Labels:
+labels:
   original.package.name: "openbsd-netcat"
   original.package.category: "net-analyzer"
   original.package.version: "1.190"

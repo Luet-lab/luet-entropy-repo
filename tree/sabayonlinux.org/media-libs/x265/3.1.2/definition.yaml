@@ -2,11 +2,11 @@ category: media-libs
 license: GPL-2
 name: x265
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: yasm
   version: '>=1.2.0'
-- Labels: null
+- labels: null
   category: sys-devel
   name: make
   version: '>=0'
@@ -35,7 +35,7 @@ use_flags:
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
 version: 3.1.2+4
-Labels:
+labels:
   original.package.name: "x265"
   original.package.category: "media-libs"
   original.package.version: "3.1.2"

@@ -2,11 +2,11 @@ category: dev-ruby
 license: MIT
 name: shoulda-matchers-3
 requires:
-- Labels: null
+- labels: null
   category: dev-ruby
   name: activesupport-6.0
   version: '>=4.2.0'
-- Labels: null
+- labels: null
   category: dev-lang
   name: ruby-2.5
   version: '>=0'
@@ -24,7 +24,7 @@ use_flags:
 - -ruby_targets_ruby26
 - -ruby_targets_ruby24
 version: 4.2.0+3
-Labels:
+labels:
   original.package.name: "shoulda-matchers"
   original.package.category: "dev-ruby"
   original.package.version: "4.2.0"

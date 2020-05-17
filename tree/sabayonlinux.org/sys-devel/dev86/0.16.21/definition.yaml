@@ -2,11 +2,11 @@ category: sys-devel
 license: GPL-2
 name: dev86
 requires:
-- Labels: null
+- labels: null
   category: dev-util
   name: gperf
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-devel
   name: bin86
   version: '>=0'
@@ -18,7 +18,7 @@ use_flags:
 - kernel_linux
 - big-endian
 version: 0.16.21+r6
-Labels:
+labels:
   original.package.name: "dev86"
   original.package.category: "sys-devel"
   original.package.version: "0.16.21"

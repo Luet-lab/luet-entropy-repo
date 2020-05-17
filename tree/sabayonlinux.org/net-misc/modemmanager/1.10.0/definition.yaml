@@ -2,27 +2,27 @@ category: net-misc
 license: GPL-2+
 name: modemmanager
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: glib-2
   version: '>=2.36.0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: gobject-introspection
   version: '>=0.9.6'
-- Labels: null
+- labels: null
   category: dev-util
   name: gtk-doc-am
   version: '>=1'
-- Labels: null
+- labels: null
   category: net-libs
   name: libqmi
   version: '>=1.22.0'
-- Labels: null
+- labels: null
   category: sys-apps
   name: systemd
   version: '>=209'
-- Labels: null
+- labels: null
   category: sys-auth
   name: polkit
   version: '>=0.106'
@@ -43,7 +43,7 @@ use_flags:
 - policykit
 - userland_GNU
 version: 1.10.0+3
-Labels:
+labels:
   original.package.name: "modemmanager"
   original.package.category: "net-misc"
   original.package.version: "1.10.0"

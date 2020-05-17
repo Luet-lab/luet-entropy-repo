@@ -2,35 +2,35 @@ category: dev-perl
 license: Artistic-2
 name: DateTime
 requires:
-- Labels: null
+- labels: null
   category: dev-perl
   name: DateTime-Locale
   version: '>=1.60.0'
-- Labels: null
+- labels: null
   category: dev-perl
   name: DateTime-TimeZone
   version: '>=2.20.0'
-- Labels: null
+- labels: null
   category: dev-perl
   name: Dist-CheckConflicts
   version: '>=0.20.0'
-- Labels: null
+- labels: null
   category: dev-perl
   name: Params-ValidationCompiler
   version: '>=0.130.0'
-- Labels: null
+- labels: null
   category: dev-perl
   name: Specio
   version: '>=0.180.0'
-- Labels: null
+- labels: null
   category: dev-perl
   name: namespace-autoclean
   version: '>=0.190.0'
-- Labels: null
+- labels: null
   category: dev-lang
   name: perl
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-perl
   name: Try-Tiny
   version: '>=0'
@@ -44,7 +44,7 @@ use_flags:
 - split-usr
 - -test
 version: 1.440.0+3
-Labels:
+labels:
   original.package.name: "DateTime"
   original.package.category: "dev-perl"
   original.package.version: "1.440.0"

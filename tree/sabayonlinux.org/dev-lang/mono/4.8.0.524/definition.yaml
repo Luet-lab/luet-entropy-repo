@@ -2,11 +2,11 @@ category: dev-lang
 license: BSD-4 GPL-2 GPL-2-with-linking-exception IDPL LGPL-2.1 MIT Ms-PL NPL-1.1
 name: mono
 requires:
-- Labels: null
+- labels: null
   category: dev-dotnet
   name: libgdiplus
   version: '>=2.10'
-- Labels: null
+- labels: null
   category: www-client
   name: lynx
   version: '>=0'
@@ -33,7 +33,7 @@ use_flags:
 - -abi_riscv_lp64d
 - -doc
 version: 4.8.0.524+4
-Labels:
+labels:
   original.package.name: "mono"
   original.package.category: "dev-lang"
   original.package.version: "4.8.0.524"

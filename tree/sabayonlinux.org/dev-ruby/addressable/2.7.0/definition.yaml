@@ -2,11 +2,11 @@ category: dev-ruby
 license: Apache-2.0
 name: addressable
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: ruby-2.5
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-ruby
   name: public_suffix-4
   version: '>=0'
@@ -24,7 +24,7 @@ use_flags:
 - amd64
 - userland_GNU
 version: 2.7.0+3
-Labels:
+labels:
   original.package.name: "addressable"
   original.package.category: "dev-ruby"
   original.package.version: "2.7.0"

@@ -2,11 +2,11 @@ category: app-doc
 license: GPL-2
 name: xmltoman
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: perl
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-perl
   name: XML-Parser
   version: '>=0'
@@ -18,7 +18,7 @@ use_flags:
 - amd64
 - elibc_glibc
 version: 0.4+r4
-Labels:
+labels:
   original.package.name: "xmltoman"
   original.package.category: "app-doc"
   original.package.version: "0.4"

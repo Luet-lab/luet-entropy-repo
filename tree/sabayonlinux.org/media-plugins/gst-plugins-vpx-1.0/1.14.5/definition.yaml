@@ -2,31 +2,31 @@ category: media-plugins
 license: GPL-2
 name: gst-plugins-vpx-1.0
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: glib-2
   version: '>=2.38.2'
-- Labels: null
+- labels: null
   category: media-libs
   name: gst-plugins-good-1.0
   version: '>=1.14.5'
-- Labels: null
+- labels: null
   category: media-libs
   name: gstreamer-1.0
   version: '>=1.2.4'
-- Labels: null
+- labels: null
   category: media-libs
   name: libvpx
   version: '>=1.3.0'
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- Labels: null
+- labels: null
   category: sys-devel
   name: automake-1.15
   version: '>=1.15.1'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.4'
@@ -48,7 +48,7 @@ use_flags:
 - -abi_riscv_lp64
 - userland_GNU
 version: 1.14.5+4
-Labels:
+labels:
   original.package.name: "gst-plugins-vpx"
   original.package.category: "media-plugins"
   original.package.version: "1.14.5"

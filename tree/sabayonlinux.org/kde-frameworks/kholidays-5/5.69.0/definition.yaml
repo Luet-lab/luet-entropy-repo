@@ -1,26 +1,26 @@
-Labels:
+labels:
   original.package.version: "5.69.0"
 category: kde-frameworks
 license: LGPL-2.1+
 name: kholidays-5
 requires:
-- Labels: null
+- labels: null
   category: dev-qt
   name: linguist-tools-5
   version: '>=5.12.3'
-- Labels: null
+- labels: null
   category: dev-qt
   name: qtdeclarative-5
   version: '>=5.12.3'
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: extra-cmake-modules-5
   version: '>=5.67'
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: kf-env-5
   version: '>=4'
-- Labels: null
+- labels: null
   category: dev-qt
   name: qtcore-5
   version: '>=0'
@@ -36,7 +36,7 @@ use_flags:
 - kernel_linux
 - split-usr
 version: "5.69.0"
-Labels:
+labels:
   original.package.name: "kholidays"
   original.package.category: "kde-frameworks"
   original.package.version: "5.67.0"

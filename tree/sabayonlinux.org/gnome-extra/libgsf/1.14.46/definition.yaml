@@ -2,35 +2,35 @@ category: gnome-extra
 license: GPL-2 LGPL-2.1
 name: libgsf
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: glib-2
   version: '>=2.26'
-- Labels: null
+- labels: null
   category: dev-libs
   name: gobject-introspection
   version: '>=1'
-- Labels: null
+- labels: null
   category: dev-libs
   name: libxml2-2
   version: '>=2.4.16'
-- Labels: null
+- labels: null
   category: dev-util
   name: gtk-doc-am
   version: '>=1.12'
-- Labels: null
+- labels: null
   category: app-arch
   name: bzip2
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: gobject-introspection-common
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-libs
   name: zlib
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: gdk-pixbuf-2
   version: '>=0'
@@ -45,7 +45,7 @@ use_flags:
 - userland_GNU
 - gtk
 version: "1.14.46"
-Labels:
+labels:
   original.package.name: "libgsf"
   original.package.category: "gnome-extra"
   original.package.version: "1.14.43"

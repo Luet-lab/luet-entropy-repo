@@ -2,7 +2,7 @@ category: app-vim
 license: vim
 name: gtk-syntax
 requires:
-- Labels: null
+- labels: null
   category: app-editors
   name: gvim
   version: '>=7.3'
@@ -14,7 +14,7 @@ use_flags:
 - elibc_glibc
 - userland_GNU
 version: 20130716+3
-Labels:
+labels:
   original.package.name: "gtk-syntax"
   original.package.category: "app-vim"
   original.package.version: "20130716"

@@ -2,19 +2,19 @@ category: dev-haskell
 license: BSD
 name: haddock
 requires:
-- Labels: null
+- labels: null
   category: dev-haskell
   name: haddock-api
   version: <2.18
-- Labels: null
+- labels: null
   category: dev-haskell
   name: cabal
   version: '>=1.10'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: haddock-api
   version: '>=2.17'
-- Labels: null
+- labels: null
   category: dev-lang
   name: ghc
   version: '>=7.4.1'
@@ -27,7 +27,7 @@ use_flags:
 - big-endian
 - -test
 version: 2.17.2+1
-Labels:
+labels:
   original.package.name: "haddock"
   original.package.category: "dev-haskell"
   original.package.version: "2.17.2"

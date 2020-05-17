@@ -2,7 +2,7 @@ category: dev-ruby
 license: MIT
 name: shoulda-context
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: ruby-2.5
   version: '>=0'
@@ -20,7 +20,7 @@ use_flags:
 - -ruby_targets_ruby26
 - -ruby_targets_ruby24
 version: 1.2.2+3
-Labels:
+labels:
   original.package.name: "shoulda-context"
   original.package.category: "dev-ruby"
   original.package.version: "1.2.2"

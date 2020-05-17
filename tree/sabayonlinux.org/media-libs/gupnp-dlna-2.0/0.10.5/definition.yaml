@@ -2,31 +2,31 @@ category: media-libs
 license: LGPL-2
 name: gupnp-dlna-2.0
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: glib-2
   version: '>=2.34'
-- Labels: null
+- labels: null
   category: dev-libs
   name: gobject-introspection
   version: '>=0.6.4'
-- Labels: null
+- labels: null
   category: dev-libs
   name: libxml2-2
   version: '>=2.5'
-- Labels: null
+- labels: null
   category: dev-util
   name: gtk-doc-am
   version: '>=1.11'
-- Labels: null
+- labels: null
   category: dev-lang
   name: vala-0.44
   version: '>=0'
-- Labels: null
+- labels: null
   category: media-libs
   name: gst-plugins-base-1.0
   version: '>=0'
-- Labels: null
+- labels: null
   category: media-libs
   name: gstreamer-1.0
   version: '>=0'
@@ -39,7 +39,7 @@ use_flags:
 - amd64
 - introspection
 version: 0.10.5+3
-Labels:
+labels:
   original.package.name: "gupnp-dlna"
   original.package.category: "media-libs"
   original.package.version: "0.10.5"

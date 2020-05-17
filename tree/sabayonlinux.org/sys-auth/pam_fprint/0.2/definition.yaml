@@ -2,11 +2,11 @@ category: sys-auth
 license: GPL-2
 name: pam_fprint
 requires:
-- Labels: null
+- labels: null
   category: sys-auth
   name: libfprint
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-libs
   name: pam
   version: '>=0'
@@ -19,7 +19,7 @@ use_flags:
 - userland_GNU
 - kernel_linux
 version: 0.2+r5
-Labels:
+labels:
   original.package.name: "pam_fprint"
   original.package.category: "sys-auth"
   original.package.version: "0.2"

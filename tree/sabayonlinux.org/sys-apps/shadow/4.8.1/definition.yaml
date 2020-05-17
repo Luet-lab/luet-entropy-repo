@@ -2,35 +2,35 @@ category: sys-apps
 license: BSD GPL-2
 name: shadow
 requires:
-- Labels: null
+- labels: null
   category: sys-auth
   name: pambase
   version: '>=20150213'
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- Labels: null
+- labels: null
   category: sys-devel
   name: automake-1.15
   version: '>=1.15.1'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.4'
-- Labels: null
+- labels: null
   category: sys-libs
   name: cracklib
   version: '>=2.7'
-- Labels: null
+- labels: null
   category: sys-apps
   name: acl
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-apps
   name: attr
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-libs
   name: pam
   version: '>=0'
@@ -53,7 +53,7 @@ use_flags:
 - -skey
 - userland_GNU
 version: 4.8.1+r2
-Labels:
+labels:
   original.package.name: "shadow"
   original.package.category: "sys-apps"
   original.package.version: "4.8.1"

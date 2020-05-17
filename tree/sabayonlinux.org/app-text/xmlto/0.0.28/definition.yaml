@@ -2,7 +2,7 @@ category: app-text
 license: GPL-2
 name: xmlto
 requires:
-- Labels: null
+- labels: null
   category: app-text
   name: docbook-xsl-stylesheets
   version: '>=1.62.0'
@@ -16,7 +16,7 @@ use_flags:
 - text
 - abi_x86_64
 version: 0.0.28+r4
-Labels:
+labels:
   original.package.name: "xmlto"
   original.package.category: "app-text"
   original.package.version: "0.0.28"

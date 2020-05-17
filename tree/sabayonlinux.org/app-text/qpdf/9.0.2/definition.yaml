@@ -2,11 +2,11 @@ category: app-text
 license: Apache-2.0 Artistic-2
 name: qpdf
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: perl
   version: '>=5.8'
-- Labels: null
+- labels: null
   category: sys-libs
   name: zlib
   version: '>=0'
@@ -24,7 +24,7 @@ use_flags:
 - split-usr
 - amd64
 version: "9.0.2"
-Labels:
+labels:
   original.package.name: "qpdf"
   original.package.category: "app-text"
   original.package.version: "8.4.2"

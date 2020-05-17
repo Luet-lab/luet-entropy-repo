@@ -2,55 +2,55 @@ category: media-libs
 license: LGPL-2.1
 name: devil
 requires:
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- Labels: null
+- labels: null
   category: sys-devel
   name: automake-1.15
   version: '>=1.15.1'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.4'
-- Labels: null
+- labels: null
   category: media-libs
   name: giflib
   version: '>=0'
-- Labels: null
+- labels: null
   category: media-libs
   name: libmng
   version: '>=0'
-- Labels: null
+- labels: null
   category: media-libs
   name: libpng
   version: '>=0'
-- Labels: null
+- labels: null
   category: media-libs
   name: libsdl
   version: '>=0'
-- Labels: null
+- labels: null
   category: media-libs
   name: openexr
   version: '>=0'
-- Labels: null
+- labels: null
   category: media-libs
   name: tiff
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libX11
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libXext
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libXpm
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libXrender
   version: '>=0'
@@ -80,7 +80,7 @@ use_flags:
 - cpu_flags_x86_sse2
 - openexr
 version: 1.7.8+r5
-Labels:
+labels:
   original.package.name: "devil"
   original.package.category: "media-libs"
   original.package.version: "1.7.8"

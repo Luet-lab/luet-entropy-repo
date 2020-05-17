@@ -2,43 +2,43 @@ category: net-im
 license: LGPL-2.1+
 name: telepathy-logger
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-2.7
   version: '>=2.7.5'
-- Labels: null
+- labels: null
   category: dev-libs
   name: dbus-glib
   version: '>=0.82'
-- Labels: null
+- labels: null
   category: dev-libs
   name: glib-2
   version: '>=2.28'
-- Labels: null
+- labels: null
   category: dev-libs
   name: gobject-introspection
   version: '>=0.9.6'
-- Labels: null
+- labels: null
   category: dev-util
   name: gtk-doc-am
   version: '>=1.10'
-- Labels: null
+- labels: null
   category: net-libs
   name: telepathy-glib
   version: '>=0.19.2'
-- Labels: null
+- labels: null
   category: sys-apps
   name: dbus
   version: '>=1.1'
-- Labels: null
+- labels: null
   category: dev-db
   name: sqlite-3
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: libxml2-2
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: libxslt
   version: '>=0'
@@ -51,7 +51,7 @@ use_flags:
 - kernel_linux
 - amd64
 version: 0.8.2+3
-Labels:
+labels:
   original.package.name: "telepathy-logger"
   original.package.category: "net-im"
   original.package.version: "0.8.2"

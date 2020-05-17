@@ -2,7 +2,7 @@ category: sys-process
 license: GPL-3+
 name: time
 requires:
-- Labels: null
+- labels: null
   category: sys-apps
   name: texinfo
   version: '>=0'
@@ -14,7 +14,7 @@ use_flags:
 - amd64
 - userland_GNU
 version: 1.9+3
-Labels:
+labels:
   original.package.name: "time"
   original.package.category: "sys-process"
   original.package.version: "1.9"

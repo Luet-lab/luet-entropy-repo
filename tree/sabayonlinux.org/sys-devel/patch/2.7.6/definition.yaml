@@ -2,7 +2,7 @@ category: sys-devel
 license: GPL-3+
 name: patch
 requires:
-- Labels: null
+- labels: null
   category: sys-apps
   name: attr
   version: '>=0'
@@ -18,7 +18,7 @@ use_flags:
 - xattr
 - userland_GNU
 version: 2.7.6+r7
-Labels:
+labels:
   original.package.name: "patch"
   original.package.category: "sys-devel"
   original.package.version: "2.7.6"

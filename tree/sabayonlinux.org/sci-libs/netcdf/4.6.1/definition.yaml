@@ -2,11 +2,11 @@ category: sci-libs
 license: UCAR-Unidata
 name: netcdf
 requires:
-- Labels: null
+- labels: null
   category: net-misc
   name: curl
   version: '>=0'
-- Labels: null
+- labels: null
   category: sci-libs
   name: hdf5
   version: '>=0'
@@ -27,7 +27,7 @@ use_flags:
 - -static-libs
 - abi_x86_64
 version: 4.6.1+r4
-Labels:
+labels:
   original.package.name: "netcdf"
   original.package.category: "sci-libs"
   original.package.version: "4.6.1"

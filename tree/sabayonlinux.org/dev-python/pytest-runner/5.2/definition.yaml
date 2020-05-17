@@ -2,19 +2,19 @@ category: dev-python
 license: MIT
 name: pytest-runner
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-exec-2
   version: '>=2'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-3.6
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-python
   name: pytest
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-python
   name: setuptools_scm
   version: '>=0'
@@ -34,7 +34,7 @@ use_flags:
 - split-usr
 - -python_targets_pypy3
 version: 5.2+3
-Labels:
+labels:
   original.package.name: "pytest-runner"
   original.package.category: "dev-python"
   original.package.version: "5.2"

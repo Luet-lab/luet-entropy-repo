@@ -2,7 +2,7 @@ category: app-dicts
 license: GPL-2
 name: aspell-sv
 requires:
-- Labels: null
+- labels: null
   category: app-text
   name: aspell
   version: '>=0.50'
@@ -13,7 +13,7 @@ use_flags:
 - elibc_glibc
 - amd64
 version: 0.51.0+3
-Labels:
+labels:
   original.package.name: "aspell-sv"
   original.package.category: "app-dicts"
   original.package.version: "0.51.0"

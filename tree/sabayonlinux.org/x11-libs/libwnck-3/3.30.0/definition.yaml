@@ -2,39 +2,39 @@ category: x11-libs
 license: LGPL-2+
 name: libwnck-3
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: glib-2
   version: '>=2.32'
-- Labels: null
+- labels: null
   category: dev-libs
   name: gobject-introspection
   version: '>=0.6.14'
-- Labels: null
+- labels: null
   category: dev-util
   name: gtk-doc-am
   version: '>=1.9'
-- Labels: null
+- labels: null
   category: x11-libs
   name: gtk+-3
   version: '>=3.22'
-- Labels: null
+- labels: null
   category: x11-libs
   name: startup-notification
   version: '>=0.4'
-- Labels: null
+- labels: null
   category: x11-libs
   name: cairo
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libX11
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libXext
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libXres
   version: '>=0'
@@ -49,7 +49,7 @@ use_flags:
 - big-endian
 - introspection
 version: 3.30.0+3
-Labels:
+labels:
   original.package.name: "libwnck"
   original.package.category: "x11-libs"
   original.package.version: "3.30.0"

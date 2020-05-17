@@ -2,7 +2,7 @@ category: app-text
 license: LGPL-2.1 MPL-2.0
 name: libodfgen
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: librevenge
   version: '>=0'
@@ -15,7 +15,7 @@ use_flags:
 - -doc
 - kernel_linux
 version: 0.1.7+1
-Labels:
+labels:
   original.package.name: "libodfgen"
   original.package.category: "app-text"
   original.package.version: "0.1.7"

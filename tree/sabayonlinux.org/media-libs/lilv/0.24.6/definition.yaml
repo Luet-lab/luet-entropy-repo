@@ -2,27 +2,27 @@ category: media-libs
 license: ISC
 name: lilv
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: serd
   version: '>=0.30.0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: sord
   version: '>=0.16.0'
-- Labels: null
+- labels: null
   category: media-libs
   name: lv2
   version: '>=1.16.0'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-3.6
   version: '>=0'
-- Labels: null
+- labels: null
   category: media-libs
   name: libsndfile
   version: '>=0'
-- Labels: null
+- labels: null
   category: media-libs
   name: sratom
   version: '>=0'
@@ -48,7 +48,7 @@ use_flags:
 - -abi_riscv_lp64d
 - dyn-manifest
 version: 0.24.6+1
-Labels:
+labels:
   original.package.name: "lilv"
   original.package.category: "media-libs"
   original.package.version: "0.24.6"

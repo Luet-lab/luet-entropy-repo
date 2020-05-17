@@ -2,11 +2,11 @@ category: dev-util
 license: GPL-2
 name: intltool
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: perl
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-perl
   name: XML-Parser
   version: '>=0'
@@ -18,7 +18,7 @@ use_flags:
 - elibc_glibc
 - kernel_linux
 version: 0.51.0+r5
-Labels:
+labels:
   original.package.name: "intltool"
   original.package.category: "dev-util"
   original.package.version: "0.51.0"

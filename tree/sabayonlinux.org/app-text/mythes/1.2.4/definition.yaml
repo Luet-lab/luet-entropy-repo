@@ -2,7 +2,7 @@ category: app-text
 license: MIT
 name: mythes
 requires:
-- Labels: null
+- labels: null
   category: app-text
   name: hunspell
   version: '>=0'
@@ -15,7 +15,7 @@ use_flags:
 - userland_GNU
 - kernel_linux
 version: 1.2.4+1
-Labels:
+labels:
   original.package.name: "mythes"
   original.package.category: "app-text"
   original.package.version: "1.2.4"

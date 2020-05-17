@@ -2,15 +2,15 @@ category: net-misc
 license: GPL-2+ LGPL-2.1
 name: lksctp-tools
 requires:
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- Labels: null
+- labels: null
   category: sys-devel
   name: automake-1.15
   version: '>=1.15.1'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.4'
@@ -33,7 +33,7 @@ use_flags:
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
 version: 1.0.18+r5
-Labels:
+labels:
   original.package.name: "lksctp-tools"
   original.package.category: "net-misc"
   original.package.version: "1.0.18"

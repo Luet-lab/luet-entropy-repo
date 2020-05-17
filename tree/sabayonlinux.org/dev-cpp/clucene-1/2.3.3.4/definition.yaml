@@ -2,7 +2,7 @@ category: dev-cpp
 license: Apache-2.0 LGPL-2.1
 name: clucene-1
 requires:
-- Labels: null
+- labels: null
   category: sys-devel
   name: make
   version: '>=0'
@@ -17,7 +17,7 @@ use_flags:
 - userland_GNU
 - -static-libs
 version: 2.3.3.4+r7
-Labels:
+labels:
   original.package.name: "clucene"
   original.package.category: "dev-cpp"
   original.package.version: "2.3.3.4"

@@ -2,11 +2,11 @@ category: dev-haskell
 license: BSD
 name: unix-compat
 requires:
-- Labels: null
+- labels: null
   category: dev-haskell
   name: cabal
   version: '>=1.6'
-- Labels: null
+- labels: null
   category: dev-lang
   name: ghc
   version: '>=7.4.1'
@@ -22,7 +22,7 @@ use_flags:
 - big-endian
 - kernel_linux
 version: 0.4.3.1+1
-Labels:
+labels:
   original.package.name: "unix-compat"
   original.package.category: "dev-haskell"
   original.package.version: "0.4.3.1"

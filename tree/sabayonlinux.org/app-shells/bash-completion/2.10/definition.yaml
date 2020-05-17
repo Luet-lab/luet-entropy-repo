@@ -2,15 +2,15 @@ category: app-shells
 license: GPL-2+
 name: bash-completion
 requires:
-- Labels: null
+- labels: null
   category: app-shells
   name: bash
   version: '>=4.3'
-- Labels: null
+- labels: null
   category: app-shells
   name: gentoo-bashcomp
   version: '>=20140911'
-- Labels: null
+- labels: null
   category: sys-apps
   name: miscfiles
   version: '>=0'
@@ -25,7 +25,7 @@ use_flags:
 - eselect
 - split-usr
 version: 2.10+3
-Labels:
+labels:
   original.package.name: "bash-completion"
   original.package.category: "app-shells"
   original.package.version: "2.10"

@@ -2,7 +2,7 @@ category: media-libs
 license: BSD
 name: qhull
 requires:
-- Labels: null
+- labels: null
   category: sys-devel
   name: make
   version: '>=0'
@@ -16,7 +16,7 @@ use_flags:
 - amd64
 - kernel_linux
 version: 2015.2+3
-Labels:
+labels:
   original.package.name: "qhull"
   original.package.category: "media-libs"
   original.package.version: "2015.2"

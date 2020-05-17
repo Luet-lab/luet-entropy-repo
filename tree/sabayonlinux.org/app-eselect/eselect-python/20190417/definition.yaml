@@ -2,11 +2,11 @@ category: app-eselect
 license: GPL-2
 name: eselect-python
 requires:
-- Labels: null
+- labels: null
   category: app-admin
   name: eselect
   version: '>=1.2.3'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-exec-2
   version: '>=2.4.2'
@@ -19,7 +19,7 @@ use_flags:
 - userland_GNU
 - split-usr
 version: 20190417+3
-Labels:
+labels:
   original.package.name: "eselect-python"
   original.package.category: "app-eselect"
   original.package.version: "20190417"

@@ -2,11 +2,11 @@ category: dev-libs
 license: LGPL-2+
 name: atk
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: glib-2
   version: '>=2.38.0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: gobject-introspection
   version: '>=1.54.0'
@@ -30,7 +30,7 @@ use_flags:
 - -abi_riscv_lp64
 - userland_GNU
 version: 2.34.1+4
-Labels:
+labels:
   original.package.name: "atk"
   original.package.category: "dev-libs"
   original.package.version: "2.34.1"

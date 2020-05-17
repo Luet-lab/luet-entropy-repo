@@ -2,31 +2,31 @@ category: media-libs
 license: GPL-2+ LGPL-2.1 MPL-1.1
 name: libvisio
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: perl
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: boost
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: icu
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: librevenge
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: libxml2-2
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-util
   name: gperf
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=0'
@@ -43,7 +43,7 @@ use_flags:
 - big-endian
 - -static-libs
 version: 0.1.7+3
-Labels:
+labels:
   original.package.name: "libvisio"
   original.package.category: "media-libs"
   original.package.version: "0.1.7"

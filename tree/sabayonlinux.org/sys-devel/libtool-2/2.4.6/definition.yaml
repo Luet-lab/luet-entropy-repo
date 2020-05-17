@@ -2,23 +2,23 @@ category: sys-devel
 license: GPL-2
 name: libtool-2
 requires:
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- Labels: null
+- labels: null
   category: sys-devel
   name: automake-1.15
   version: '>=1.13'
-- Labels: null
+- labels: null
   category: sys-devel
   name: automake-1.15
   version: '>=1.15.1'
-- Labels: null
+- labels: null
   category: dev-libs
   name: libltdl
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-devel
   name: gnuconfig
   version: '>=0'
@@ -32,7 +32,7 @@ use_flags:
 - elibc_glibc
 - kernel_linux
 version: 2.4.6+r9
-Labels:
+labels:
   original.package.name: "libtool"
   original.package.category: "sys-devel"
   original.package.version: "2.4.6"

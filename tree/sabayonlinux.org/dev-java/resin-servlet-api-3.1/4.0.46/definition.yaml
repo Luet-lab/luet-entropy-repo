@@ -2,11 +2,11 @@ category: dev-java
 license: GPL-2
 name: resin-servlet-api-3.1
 requires:
-- Labels: null
+- labels: null
   category: dev-java
   name: java-config-2
   version: '>=2.2.0'
-- Labels: null
+- labels: null
   category: app-arch
   name: unzip
   version: '>=0'
@@ -19,7 +19,7 @@ use_flags:
 - amd64
 - kernel_linux
 version: 4.0.46+3
-Labels:
+labels:
   original.package.name: "resin-servlet-api"
   original.package.category: "dev-java"
   original.package.version: "4.0.46"

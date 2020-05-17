@@ -2,11 +2,11 @@ category: dev-libs
 license: LGPL-2
 name: libIDL
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: glib-2
   version: '>=2.44.1'
-- Labels: null
+- labels: null
   category: sys-devel
   name: flex
   version: '>=0'
@@ -28,7 +28,7 @@ use_flags:
 - -abi_riscv_lp64
 - userland_GNU
 version: 0.8.14+r6
-Labels:
+labels:
   original.package.name: "libIDL"
   original.package.category: "dev-libs"
   original.package.version: "0.8.14"

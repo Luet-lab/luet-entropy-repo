@@ -2,7 +2,7 @@ category: dev-perl
 license: Artistic-2
 name: Devel-StackTrace
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: perl
   version: '>=0'
@@ -16,7 +16,7 @@ use_flags:
 - split-usr
 - kernel_linux
 version: 2.20.0+3
-Labels:
+labels:
   original.package.name: "Devel-StackTrace"
   original.package.category: "dev-perl"
   original.package.version: "2.20.0"

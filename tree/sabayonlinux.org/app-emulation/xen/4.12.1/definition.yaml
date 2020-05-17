@@ -2,7 +2,7 @@ category: app-emulation
 license: GPL-2
 name: xen
 requires:
-- Labels: null
+- labels: null
   category: app-emulation
   name: xen-tools
   version: '>=4.12.1'
@@ -18,7 +18,7 @@ use_flags:
 - -efi
 - -flask
 version: 4.12.1+r7
-Labels:
+labels:
   original.package.name: "xen"
   original.package.category: "app-emulation"
   original.package.version: "4.12.1"

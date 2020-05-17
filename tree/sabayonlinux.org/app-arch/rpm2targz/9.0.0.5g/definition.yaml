@@ -2,7 +2,7 @@ category: app-arch
 license: BSD-1
 name: rpm2targz
 requires:
-- Labels: null
+- labels: null
   category: app-arch
   name: cpio
   version: '>=0'
@@ -14,7 +14,7 @@ use_flags:
 - abi_x86_64
 - kernel_linux
 version: 9.0.0.5g+3
-Labels:
+labels:
   original.package.name: "rpm2targz"
   original.package.category: "app-arch"
   original.package.version: "9.0.0.5g"

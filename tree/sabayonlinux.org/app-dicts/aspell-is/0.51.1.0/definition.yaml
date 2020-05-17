@@ -2,7 +2,7 @@ category: app-dicts
 license: GPL-2
 name: aspell-is
 requires:
-- Labels: null
+- labels: null
   category: app-text
   name: aspell
   version: '>=0.50'
@@ -14,7 +14,7 @@ use_flags:
 - elibc_glibc
 - abi_x86_64
 version: 0.51.1.0+3
-Labels:
+labels:
   original.package.name: "aspell-is"
   original.package.category: "app-dicts"
   original.package.version: "0.51.1.0"

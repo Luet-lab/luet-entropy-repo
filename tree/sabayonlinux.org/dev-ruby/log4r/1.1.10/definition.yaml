@@ -2,7 +2,7 @@ category: dev-ruby
 license: LGPL-3
 name: log4r
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: ruby-2.5
   version: '>=0'
@@ -21,7 +21,7 @@ use_flags:
 - -ruby_targets_ruby27
 - ruby_targets_ruby25
 version: 1.1.10+r5
-Labels:
+labels:
   original.package.name: "log4r"
   original.package.category: "dev-ruby"
   original.package.version: "1.1.10"

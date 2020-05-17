@@ -2,23 +2,23 @@ category: gnome-base
 license: GPL-2+ LGPL-2+
 name: libgnome-keyring
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: glib-2
   version: '>=2.16.0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: gobject-introspection
   version: '>=1.30.0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: libgcrypt
   version: '>=1.2.2'
-- Labels: null
+- labels: null
   category: gnome-base
   name: gnome-keyring
   version: '>=3.1.92'
-- Labels: null
+- labels: null
   category: sys-apps
   name: dbus
   version: '>=1'
@@ -44,7 +44,7 @@ use_flags:
 - -abi_riscv_lp64
 - userland_GNU
 version: 3.12.0+r5
-Labels:
+labels:
   original.package.name: "libgnome-keyring"
   original.package.category: "gnome-base"
   original.package.version: "3.12.0"

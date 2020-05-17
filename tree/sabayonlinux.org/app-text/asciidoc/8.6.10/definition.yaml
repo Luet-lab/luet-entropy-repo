@@ -2,39 +2,39 @@ category: app-text
 license: GPL-2
 name: asciidoc
 requires:
-- Labels: null
+- labels: null
   category: app-text
   name: docbook-xsl-stylesheets
   version: '>=1.75'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-exec-2
   version: '>=2'
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- Labels: null
+- labels: null
   category: sys-devel
   name: automake-1.15
   version: '>=1.15.1'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.4'
-- Labels: null
+- labels: null
   category: app-text
   name: docbook-xml-dtd-4.5
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-3.6
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: libxml2-2
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: libxslt
   version: '>=0'
@@ -54,7 +54,7 @@ use_flags:
 - elibc_glibc
 - big-endian
 version: 8.6.10+p20181016r1.3
-Labels:
+labels:
   original.package.name: "asciidoc"
   original.package.category: "app-text"
   original.package.version: "8.6.10"

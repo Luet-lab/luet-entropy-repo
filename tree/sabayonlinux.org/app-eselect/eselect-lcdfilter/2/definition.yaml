@@ -2,11 +2,11 @@ category: app-eselect
 license: GPL-2
 name: eselect-lcdfilter
 requires:
-- Labels: null
+- labels: null
   category: app-admin
   name: eselect
   version: '>=0'
-- Labels: null
+- labels: null
   category: media-libs
   name: freetype-2
   version: '>=0'
@@ -18,7 +18,7 @@ use_flags:
 - big-endian
 - abi_x86_64
 version: 2+3
-Labels:
+labels:
   original.package.name: "eselect-lcdfilter"
   original.package.category: "app-eselect"
   original.package.version: "2"

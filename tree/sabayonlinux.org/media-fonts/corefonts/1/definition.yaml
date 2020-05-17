@@ -2,15 +2,15 @@ category: media-fonts
 license: MSttfEULA
 name: corefonts
 requires:
-- Labels: null
+- labels: null
   category: app-arch
   name: cabextract
   version: '>=0'
-- Labels: null
+- labels: null
   category: media-fonts
   name: encodings
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-apps
   name: mkfontdir
   version: '>=0'
@@ -23,7 +23,7 @@ use_flags:
 - userland_GNU
 - abi_x86_64
 version: 1+r10
-Labels:
+labels:
   original.package.name: "corefonts"
   original.package.category: "media-fonts"
   original.package.version: "1"

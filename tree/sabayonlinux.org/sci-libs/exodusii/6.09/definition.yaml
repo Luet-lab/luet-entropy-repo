@@ -2,11 +2,11 @@ category: sci-libs
 license: BSD
 name: exodusii
 requires:
-- Labels: null
+- labels: null
   category: sci-libs
   name: netcdf
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-devel
   name: make
   version: '>=0'
@@ -20,7 +20,7 @@ use_flags:
 - amd64
 - -test
 version: 6.09+3
-Labels:
+labels:
   original.package.name: "exodusii"
   original.package.category: "sci-libs"
   original.package.version: "6.09"

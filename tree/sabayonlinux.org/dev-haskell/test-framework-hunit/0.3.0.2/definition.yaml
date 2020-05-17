@@ -2,31 +2,31 @@ category: dev-haskell
 license: BSD
 name: test-framework-hunit
 requires:
-- Labels: null
+- labels: null
   category: dev-haskell
   name: extensible-exceptions
   version: <0.2.0
-- Labels: null
+- labels: null
   category: dev-haskell
   name: hunit
   version: <1.4
-- Labels: null
+- labels: null
   category: dev-haskell
   name: cabal
   version: '>=1.6'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: extensible-exceptions
   version: '>=0.1.1'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: hunit
   version: '>=1.2'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: test-framework
   version: '>=0.2.0'
-- Labels: null
+- labels: null
   category: dev-lang
   name: ghc
   version: '>=7.4.1'
@@ -41,7 +41,7 @@ use_flags:
 - kernel_linux
 - -profile
 version: 0.3.0.2+1
-Labels:
+labels:
   original.package.name: "test-framework-hunit"
   original.package.category: "dev-haskell"
   original.package.version: "0.3.0.2"

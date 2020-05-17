@@ -2,19 +2,19 @@ category: net-dialup
 license: BSD GPL-2
 name: ppp
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: openssl
   version: '>=0'
-- Labels: null
+- labels: null
   category: net-dialup
   name: linux-atm
   version: '>=0'
-- Labels: null
+- labels: null
   category: net-dialup
   name: ppp-scripts
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-libs
   name: pam
   version: '>=0'
@@ -36,7 +36,7 @@ use_flags:
 - ipv6
 - big-endian
 version: "2.4.8"
-Labels:
+labels:
   original.package.name: "ppp"
   original.package.category: "net-dialup"
   original.package.version: "2.4.7"

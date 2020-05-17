@@ -2,59 +2,59 @@ category: dev-haskell
 license: BSD
 name: x509
 requires:
-- Labels: null
+- labels: null
   category: dev-haskell
   name: asn1-encoding
   version: <0.10
-- Labels: null
+- labels: null
   category: dev-haskell
   name: asn1-parse
   version: <0.10
-- Labels: null
+- labels: null
   category: dev-haskell
   name: asn1-types
   version: <0.4
-- Labels: null
+- labels: null
   category: dev-haskell
   name: pem
   version: <0.3
-- Labels: null
+- labels: null
   category: dev-haskell
   name: asn1-encoding
   version: '>=0.9'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: asn1-parse
   version: '>=0.9.3'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: asn1-types
   version: '>=0.3.1'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: cabal
   version: '>=1.8'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: pem
   version: '>=0.1'
-- Labels: null
+- labels: null
   category: dev-lang
   name: ghc
   version: '>=7.4.1'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: cryptonite
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: hourglass
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: memory
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: mtl
   version: '>=0'
@@ -70,7 +70,7 @@ use_flags:
 - -test
 - abi_x86_64
 version: 1.6.5+1
-Labels:
+labels:
   original.package.name: "x509"
   original.package.category: "dev-haskell"
   original.package.version: "1.6.5"

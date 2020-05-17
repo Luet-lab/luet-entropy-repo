@@ -2,23 +2,23 @@ category: dev-perl
 license: Artistic-2
 name: Package-DeprecationManager
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: perl
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-perl
   name: Package-Stash
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-perl
   name: Params-Util
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-perl
   name: Sub-Install
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-perl
   name: Sub-Name
   version: '>=0'
@@ -32,7 +32,7 @@ use_flags:
 - -test
 - abi_x86_64
 version: 0.170.0+3
-Labels:
+labels:
   original.package.name: "Package-DeprecationManager"
   original.package.category: "dev-perl"
   original.package.version: "0.170.0"

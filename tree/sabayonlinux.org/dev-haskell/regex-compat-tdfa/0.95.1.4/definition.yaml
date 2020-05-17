@@ -2,19 +2,19 @@ category: dev-haskell
 license: BSD
 name: regex-compat-tdfa
 requires:
-- Labels: null
+- labels: null
   category: dev-haskell
   name: cabal
   version: '>=1.6.0.3'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: regex-base
   version: '>=0.93'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: regex-tdfa
   version: '>=1.1.0'
-- Labels: null
+- labels: null
   category: dev-lang
   name: ghc
   version: '>=6.10.4'
@@ -29,7 +29,7 @@ use_flags:
 - big-endian
 - kernel_linux
 version: 0.95.1.4+1
-Labels:
+labels:
   original.package.name: "regex-compat-tdfa"
   original.package.category: "dev-haskell"
   original.package.version: "0.95.1.4"

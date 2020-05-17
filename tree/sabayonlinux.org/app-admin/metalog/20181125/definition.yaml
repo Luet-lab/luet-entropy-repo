@@ -2,23 +2,23 @@ category: app-admin
 license: GPL-2
 name: metalog
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: libpcre-3
   version: '>=3.4'
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- Labels: null
+- labels: null
   category: sys-devel
   name: automake-1.15
   version: '>=1.15.1'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.4'
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-archive
   version: '>=0'
@@ -31,7 +31,7 @@ use_flags:
 - abi_x86_64
 - big-endian
 version: 20181125+3
-Labels:
+labels:
   original.package.name: "metalog"
   original.package.category: "app-admin"
   original.package.version: "20181125"

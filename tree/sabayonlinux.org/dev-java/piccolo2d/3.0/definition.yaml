@@ -2,15 +2,15 @@ category: dev-java
 license: BSD
 name: piccolo2d
 requires:
-- Labels: null
+- labels: null
   category: dev-java
   name: java-config-2
   version: '>=2.2.0'
-- Labels: null
+- labels: null
   category: app-arch
   name: unzip
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-java
   name: swt-3.8
   version: '>=0'
@@ -25,7 +25,7 @@ use_flags:
 - -examples
 - -doc
 version: 3.0+r4
-Labels:
+labels:
   original.package.name: "piccolo2d"
   original.package.category: "dev-java"
   original.package.version: "3.0"

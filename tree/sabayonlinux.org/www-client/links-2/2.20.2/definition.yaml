@@ -2,51 +2,51 @@ category: www-client
 license: GPL-2
 name: links-2
 requires:
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- Labels: null
+- labels: null
   category: sys-devel
   name: automake-1.15
   version: '>=1.15.1'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.4'
-- Labels: null
+- labels: null
   category: app-arch
   name: bzip2
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: openssl
   version: '>=0'
-- Labels: null
+- labels: null
   category: media-libs
   name: fontconfig-1.0
   version: '>=0'
-- Labels: null
+- labels: null
   category: media-libs
   name: freetype-2
   version: '>=0'
-- Labels: null
+- labels: null
   category: media-libs
   name: libpng
   version: '>=0'
-- Labels: null
+- labels: null
   category: media-libs
   name: tiff
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-libs
   name: gpm
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-libs
   name: zlib
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libXext
   version: '>=0'
@@ -79,7 +79,7 @@ use_flags:
 - zlib
 - freetype
 version: 2.20.2+3
-Labels:
+labels:
   original.package.name: "links"
   original.package.category: "www-client"
   original.package.version: "2.20.2"

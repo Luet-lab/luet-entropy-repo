@@ -2,7 +2,7 @@ category: dev-perl
 license: Artistic GPL-1+
 name: Encode-EUCJPASCII
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: perl
   version: '>=0'
@@ -15,7 +15,7 @@ use_flags:
 - elibc_glibc
 - split-usr
 version: 0.30.0+3
-Labels:
+labels:
   original.package.name: "Encode-EUCJPASCII"
   original.package.category: "dev-perl"
   original.package.version: "0.30.0"

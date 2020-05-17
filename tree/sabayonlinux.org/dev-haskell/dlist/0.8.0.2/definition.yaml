@@ -2,11 +2,11 @@ category: dev-haskell
 license: BSD
 name: dlist
 requires:
-- Labels: null
+- labels: null
   category: dev-haskell
   name: cabal
   version: '>=1.9.2'
-- Labels: null
+- labels: null
   category: dev-lang
   name: ghc
   version: '>=7.4.1'
@@ -22,7 +22,7 @@ use_flags:
 - -profile
 - big-endian
 version: 0.8.0.2+1
-Labels:
+labels:
   original.package.name: "dlist"
   original.package.category: "dev-haskell"
   original.package.version: "0.8.0.2"

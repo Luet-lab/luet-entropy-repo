@@ -2,23 +2,23 @@ category: sys-libs
 license: GPL-2
 name: gpm
 requires:
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- Labels: null
+- labels: null
   category: sys-devel
   name: automake-1.15
   version: '>=1.15.1'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.4'
-- Labels: null
+- labels: null
   category: sys-libs
   name: ncurses
   version: '>=5.9'
-- Labels: null
+- labels: null
   category: sys-apps
   name: texinfo
   version: '>=0'
@@ -42,7 +42,7 @@ use_flags:
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
 version: 1.20.7+r6
-Labels:
+labels:
   original.package.name: "gpm"
   original.package.category: "sys-libs"
   original.package.version: "1.20.7"

@@ -2,11 +2,11 @@ category: dev-perl
 license: GPL-2
 name: XML-Handler-YAWriter
 requires:
-- Labels: null
+- labels: null
   category: dev-perl
   name: libxml-perl
   version: '>=0.07'
-- Labels: null
+- labels: null
   category: dev-lang
   name: perl
   version: '>=0'
@@ -19,7 +19,7 @@ use_flags:
 - amd64
 - split-usr
 version: 0.230.0+r5
-Labels:
+labels:
   original.package.name: "XML-Handler-YAWriter"
   original.package.category: "dev-perl"
   original.package.version: "0.230.0"

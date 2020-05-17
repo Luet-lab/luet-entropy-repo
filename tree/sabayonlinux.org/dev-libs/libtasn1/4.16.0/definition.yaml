@@ -2,7 +2,7 @@ category: dev-libs
 license: GPL-3 LGPL-2.1
 name: libtasn1
 requires:
-- Labels: null
+- labels: null
   category: sys-apps
   name: help2man
   version: '>=0'
@@ -28,7 +28,7 @@ use_flags:
 - -abi_riscv_lp64d
 - -doc
 version: 4.16.0+4
-Labels:
+labels:
   original.package.name: "libtasn1"
   original.package.category: "dev-libs"
   original.package.version: "4.16.0"

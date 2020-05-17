@@ -2,7 +2,7 @@ category: app-eselect
 license: GPL-2
 name: eselect-lib-bin-symlink
 requires:
-- Labels: null
+- labels: null
   category: app-admin
   name: eselect
   version: '>=0'
@@ -15,7 +15,7 @@ use_flags:
 - userland_GNU
 - split-usr
 version: 0.1.1+r4
-Labels:
+labels:
   original.package.name: "eselect-lib-bin-symlink"
   original.package.category: "app-eselect"
   original.package.version: "0.1.1"

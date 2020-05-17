@@ -2,7 +2,7 @@ category: media-libs
 license: GPL-2
 name: libdv
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: popt
   version: '>=0'
@@ -24,7 +24,7 @@ use_flags:
 - -abi_riscv_lp64
 - userland_GNU
 version: 1.0.0+r8
-Labels:
+labels:
   original.package.name: "libdv"
   original.package.category: "media-libs"
   original.package.version: "1.0.0"

@@ -2,7 +2,7 @@ category: app-vim
 license: vim
 name: eselect-syntax
 requires:
-- Labels: null
+- labels: null
   category: app-editors
   name: gvim
   version: '>=7.3'
@@ -14,7 +14,7 @@ use_flags:
 - kernel_linux
 - elibc_glibc
 version: 20070506+r4
-Labels:
+labels:
   original.package.name: "eselect-syntax"
   original.package.category: "app-vim"
   original.package.version: "20070506"

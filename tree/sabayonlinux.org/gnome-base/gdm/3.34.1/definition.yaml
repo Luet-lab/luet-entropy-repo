@@ -2,131 +2,131 @@ category: gnome-base
 license: GPL-2+
 name: gdm
 requires:
-- Labels: null
+- labels: null
   category: app-accessibility
   name: orca
   version: '>=3.10'
-- Labels: null
+- labels: null
   category: dev-libs
   name: glib-2
   version: '>=2.44'
-- Labels: null
+- labels: null
   category: dev-libs
   name: gobject-introspection
   version: '>=0.9.12'
-- Labels: null
+- labels: null
   category: gnome-base
   name: dconf
   version: '>=0.20'
-- Labels: null
+- labels: null
   category: gnome-base
   name: gnome-session
   version: '>=3.6'
-- Labels: null
+- labels: null
   category: gnome-base
   name: gnome-settings-daemon
   version: '>=3.1.4'
-- Labels: null
+- labels: null
   category: gnome-base
   name: gnome-shell
   version: '>=3.1.90'
-- Labels: null
+- labels: null
   category: media-libs
   name: fontconfig-1.0
   version: '>=2.5.0'
-- Labels: null
+- labels: null
   category: media-libs
   name: libcanberra
   version: '>=0.4'
-- Labels: null
+- labels: null
   category: sys-apps
   name: accountsservice
   version: '>=0.6.35'
-- Labels: null
+- labels: null
   category: sys-apps
   name: systemd
   version: '>=186'
-- Labels: null
+- labels: null
   category: sys-apps
   name: tcp-wrappers
   version: '>=7.6'
-- Labels: null
+- labels: null
   category: x11-libs
   name: gtk+-3
   version: '>=2.91.1'
-- Labels: null
+- labels: null
   category: x11-misc
   name: xdg-utils
   version: '>=1.0.2'
-- Labels: null
+- labels: null
   category: app-text
   name: docbook-xml-dtd-4.5
   version: '>=0'
-- Labels: null
+- labels: null
   category: app-text
   name: iso-codes
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: libgudev
   version: '>=0'
-- Labels: null
+- labels: null
   category: gnome-base
   name: gsettings-desktop-schemas
   version: '>=0'
-- Labels: null
+- labels: null
   category: gnome-extra
   name: mousetweaks
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-apps
   name: dbus
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-auth
   name: fprintd
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-auth
   name: pam_fprint
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-auth
   name: pambase
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-libs
   name: pam
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-apps
   name: xhost
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-base
   name: xorg-server
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libX11
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libXau
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libXdmcp
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libXext
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libXinerama
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libxcb
   version: '>=0'
@@ -155,7 +155,7 @@ use_flags:
 - accessibility
 - -test
 version: "3.34.1"
-Labels:
+labels:
   original.package.name: "gdm"
   original.package.category: "gnome-base"
   original.package.version: "3.32.0"

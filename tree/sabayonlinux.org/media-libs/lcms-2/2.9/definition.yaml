@@ -2,7 +2,7 @@ category: media-libs
 license: MIT
 name: lcms-2
 requires:
-- Labels: null
+- labels: null
   category: media-libs
   name: tiff
   version: '>=4.0.3'
@@ -30,7 +30,7 @@ use_flags:
 - tiff
 - -doc
 version: 2.9+4
-Labels:
+labels:
   original.package.name: "lcms"
   original.package.category: "media-libs"
   original.package.version: "2.9"

@@ -2,7 +2,7 @@ category: sys-auth
 license: BSD-2
 name: pam_mktemp
 requires:
-- Labels: null
+- labels: null
   category: sys-libs
   name: pam
   version: '>=0'
@@ -17,7 +17,7 @@ use_flags:
 - prevent-removal
 - split-usr
 version: 1.1.1+3
-Labels:
+labels:
   original.package.name: "pam_mktemp"
   original.package.category: "sys-auth"
   original.package.version: "1.1.1"

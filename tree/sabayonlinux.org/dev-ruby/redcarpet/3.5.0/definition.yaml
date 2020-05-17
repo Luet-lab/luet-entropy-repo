@@ -2,7 +2,7 @@ category: dev-ruby
 license: MIT
 name: redcarpet
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: ruby-2.5
   version: '>=0'
@@ -21,7 +21,7 @@ use_flags:
 - -test
 - -ruby_targets_ruby26
 version: 3.5.0+3
-Labels:
+labels:
   original.package.name: "redcarpet"
   original.package.category: "dev-ruby"
   original.package.version: "3.5.0"

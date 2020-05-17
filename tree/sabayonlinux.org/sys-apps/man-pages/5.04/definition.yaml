@@ -2,7 +2,7 @@ category: sys-apps
 license: BSD GPL-2+ man-pages
 name: man-pages
 requires:
-- Labels: null
+- labels: null
   category: sys-apps
   name: man-pages-posix
   version: '>=0'
@@ -25,7 +25,7 @@ use_flags:
 - -l10n_ru
 - userland_GNU
 version: 5.04+3
-Labels:
+labels:
   original.package.name: "man-pages"
   original.package.category: "sys-apps"
   original.package.version: "5.04"

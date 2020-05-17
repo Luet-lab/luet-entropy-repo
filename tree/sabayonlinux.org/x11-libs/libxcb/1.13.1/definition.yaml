@@ -2,39 +2,39 @@ category: x11-libs
 license: MIT
 name: libxcb
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: libpthread-stubs
   version: '>=0.3'
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- Labels: null
+- labels: null
   category: sys-devel
   name: automake-1.15
   version: '>=1.15.1'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.4'
-- Labels: null
+- labels: null
   category: x11-base
   name: xcb-proto
   version: '>=1.13'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libXau
   version: '>=1.0.7'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libXdmcp
   version: '>=1.1.1'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-3.6
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: libxslt
   version: '>=0'
@@ -61,7 +61,7 @@ use_flags:
 - -abi_riscv_lp64d
 - -doc
 version: 1.13.1+4
-Labels:
+labels:
   original.package.name: "libxcb"
   original.package.category: "x11-libs"
   original.package.version: "1.13.1"

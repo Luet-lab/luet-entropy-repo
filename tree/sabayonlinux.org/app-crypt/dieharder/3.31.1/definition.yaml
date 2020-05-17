@@ -2,7 +2,7 @@ category: app-crypt
 license: GPL-2
 name: dieharder
 requires:
-- Labels: null
+- labels: null
   category: sci-libs
   name: gsl
   version: '>=0'
@@ -16,7 +16,7 @@ use_flags:
 - amd64
 - big-endian
 version: 3.31.1+r6
-Labels:
+labels:
   original.package.name: "dieharder"
   original.package.category: "app-crypt"
   original.package.version: "3.31.1"

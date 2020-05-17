@@ -2,11 +2,11 @@ category: net-misc
 license: BSD
 name: netkit-rsh
 requires:
-- Labels: null
+- labels: null
   category: sys-auth
   name: pambase
   version: '>=20080219.1'
-- Labels: null
+- labels: null
   category: sys-libs
   name: ncurses
   version: '>=5.2'
@@ -19,7 +19,7 @@ use_flags:
 - pam
 - kernel_linux
 version: 0.17+r13
-Labels:
+labels:
   original.package.name: "netkit-rsh"
   original.package.category: "net-misc"
   original.package.version: "0.17"

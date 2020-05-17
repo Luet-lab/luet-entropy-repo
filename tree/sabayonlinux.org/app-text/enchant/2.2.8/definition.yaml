@@ -1,18 +1,18 @@
-Labels:
+labels:
   original.package.version: "2.2.8"
 category: app-text
 license: LGPL-2.1
 name: enchant
 requires:
-- Labels: null
+- labels: null
   category: app-text
   name: hunspell
   version: '>=1.2.1'
-- Labels: null
+- labels: null
   category: dev-libs
   name: glib-2
   version: '>=2.6'
-- Labels: null
+- labels: null
   category: app-text
   name: aspell
   version: '>=0'
@@ -29,7 +29,7 @@ use_flags:
 - kernel_linux
 - -test
 version: "2.2.8"
-Labels:
+labels:
   original.package.name: "enchant"
   original.package.category: "app-text"
   original.package.version: "1.6.1"

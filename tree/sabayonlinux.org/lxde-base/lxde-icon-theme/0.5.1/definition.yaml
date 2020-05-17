@@ -2,7 +2,7 @@ category: lxde-base
 license: GPL-2
 name: lxde-icon-theme
 requires:
-- Labels: null
+- labels: null
   category: x11-libs
   name: gtk+-3
   version: '>=0'
@@ -13,7 +13,7 @@ use_flags:
 - amd64
 - elibc_glibc
 version: 0.5.1+3
-Labels:
+labels:
   original.package.name: "lxde-icon-theme"
   original.package.category: "lxde-base"
   original.package.version: "0.5.1"

@@ -2,11 +2,11 @@ category: dev-haskell
 license: MIT
 name: base-compat
 requires:
-- Labels: null
+- labels: null
   category: dev-haskell
   name: cabal
   version: '>=1.8'
-- Labels: null
+- labels: null
   category: dev-lang
   name: ghc
   version: '>=7.4.1'
@@ -22,7 +22,7 @@ use_flags:
 - -profile
 - big-endian
 version: 0.9.1+1
-Labels:
+labels:
   original.package.name: "base-compat"
   original.package.category: "dev-haskell"
   original.package.version: "0.9.1"

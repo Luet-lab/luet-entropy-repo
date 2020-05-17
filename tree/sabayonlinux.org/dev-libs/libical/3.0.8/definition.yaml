@@ -1,22 +1,22 @@
-Labels:
+labels:
   original.package.version: "3.0.8"
 category: dev-libs
 license: LGPL-2.1 MPL-2.0
 name: libical
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: perl
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: icu
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-libs
   name: db-6.0
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-libs
   name: timezone-data
   version: '>=0'
@@ -36,7 +36,7 @@ use_flags:
 - split-usr
 - -test
 version: "3.0.8"
-Labels:
+labels:
   original.package.name: "libical"
   original.package.category: "dev-libs"
   original.package.version: "3.0.7"

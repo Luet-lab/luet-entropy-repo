@@ -2,7 +2,7 @@ category: media-libs
 license: BSD
 name: libvpx
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: yasm
   version: '>=0'
@@ -39,7 +39,7 @@ use_flags:
 - -abi_riscv_lp64d
 - -doc
 version: 1.7.0+r5
-Labels:
+labels:
   original.package.name: "libvpx"
   original.package.category: "media-libs"
   original.package.version: "1.7.0"

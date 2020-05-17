@@ -2,19 +2,19 @@ category: media-libs
 license: ZLIB
 name: sdl2-image
 requires:
-- Labels: null
+- labels: null
   category: media-libs
   name: libpng
   version: '>=1.6.10'
-- Labels: null
+- labels: null
   category: media-libs
   name: libsdl2
   version: '>=2.0.9'
-- Labels: null
+- labels: null
   category: media-libs
   name: tiff
   version: '>=3.9.7'
-- Labels: null
+- labels: null
   category: sys-libs
   name: zlib
   version: '>=1.2.8'
@@ -42,7 +42,7 @@ use_flags:
 - -abi_riscv_lp64d
 - tiff
 version: 2.0.5+4
-Labels:
+labels:
   original.package.name: "sdl2-image"
   original.package.category: "media-libs"
   original.package.version: "2.0.5"

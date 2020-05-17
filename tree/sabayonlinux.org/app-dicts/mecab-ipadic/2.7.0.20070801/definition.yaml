@@ -2,7 +2,7 @@ category: app-dicts
 license: ipadic
 name: mecab-ipadic
 requires:
-- Labels: null
+- labels: null
   category: app-text
   name: mecab
   version: '>=0.90'
@@ -14,7 +14,7 @@ use_flags:
 - elibc_glibc
 - multilib
 version: 2.7.0.20070801+3
-Labels:
+labels:
   original.package.name: "mecab-ipadic"
   original.package.category: "app-dicts"
   original.package.version: "2.7.0.20070801"

@@ -2,15 +2,15 @@ category: app-arch
 license: Apache-2.0 MIT
 name: brotli
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-2.7
   version: '>=2.7.5'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-exec-2
   version: '>=2'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-3.6
   version: '>=0'
@@ -37,7 +37,7 @@ use_flags:
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
 version: 1.0.7+4
-Labels:
+labels:
   original.package.name: "brotli"
   original.package.category: "app-arch"
   original.package.version: "1.0.7"

@@ -2,11 +2,11 @@ category: dev-haskell
 license: BSD
 name: stm
 requires:
-- Labels: null
+- labels: null
   category: dev-haskell
   name: cabal
   version: '>=1.10'
-- Labels: null
+- labels: null
   category: dev-lang
   name: ghc
   version: '>=7.4.1'
@@ -21,7 +21,7 @@ use_flags:
 - -profile
 - big-endian
 version: 2.4.4.1+1
-Labels:
+labels:
   original.package.name: "stm"
   original.package.category: "dev-haskell"
   original.package.version: "2.4.4.1"

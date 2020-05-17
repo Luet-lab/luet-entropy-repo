@@ -2,15 +2,15 @@ category: media-libs
 license: MIT
 name: graphene
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: glib-2
   version: '>=2.30.0'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-3.6
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: gobject-introspection
   version: '>=0'
@@ -37,7 +37,7 @@ use_flags:
 - -abi_riscv_lp64d
 - -doc
 version: 1.8.6+4
-Labels:
+labels:
   original.package.name: "graphene"
   original.package.category: "media-libs"
   original.package.version: "1.8.6"

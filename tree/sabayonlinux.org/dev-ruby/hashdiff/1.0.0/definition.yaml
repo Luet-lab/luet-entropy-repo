@@ -2,7 +2,7 @@ category: dev-ruby
 license: MIT
 name: hashdiff
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: ruby-2.5
   version: '>=0'
@@ -20,7 +20,7 @@ use_flags:
 - amd64
 - -ruby_targets_ruby26
 version: 1.0.0+3
-Labels:
+labels:
   original.package.name: "hashdiff"
   original.package.category: "dev-ruby"
   original.package.version: "1.0.0"

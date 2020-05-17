@@ -2,43 +2,43 @@ category: media-libs
 license: LGPL-2
 name: gst-plugins-bad-1.0
 requires:
-- Labels: null
+- labels: null
   category: app-arch
   name: bzip2
   version: '>=1.0.6'
-- Labels: null
+- labels: null
   category: dev-lang
   name: orc
   version: '>=0.4.17'
-- Labels: null
+- labels: null
   category: dev-libs
   name: glib-2
   version: '>=2.38.2'
-- Labels: null
+- labels: null
   category: dev-libs
   name: glib-2
   version: '>=2.40.0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: gobject-introspection
   version: '>=1.31.1'
-- Labels: null
+- labels: null
   category: dev-util
   name: gtk-doc-am
   version: '>=1.12'
-- Labels: null
+- labels: null
   category: media-libs
   name: gst-plugins-base-1.0
   version: '>=1.14.5'
-- Labels: null
+- labels: null
   category: media-libs
   name: gstreamer-1.0
   version: '>=1.14.5'
-- Labels: null
+- labels: null
   category: media-libs
   name: gstreamer-1.0
   version: '>=1.2.4'
-- Labels: null
+- labels: null
   category: media-plugins
   name: gst-plugins-gtk-1.0
   version: '>=1.14.5'
@@ -73,7 +73,7 @@ use_flags:
 - egl
 - -abi_riscv_lp64d
 version: 1.14.5+4
-Labels:
+labels:
   original.package.name: "gst-plugins-bad"
   original.package.category: "media-libs"
   original.package.version: "1.14.5"

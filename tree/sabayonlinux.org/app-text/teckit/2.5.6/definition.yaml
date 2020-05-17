@@ -2,23 +2,23 @@ category: app-text
 license: CPL-0.5 LGPL-2.1
 name: teckit
 requires:
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- Labels: null
+- labels: null
   category: sys-devel
   name: automake-1.15
   version: '>=1.15'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.4'
-- Labels: null
+- labels: null
   category: dev-libs
   name: expat
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-libs
   name: zlib
   version: '>=0'
@@ -31,7 +31,7 @@ use_flags:
 - kernel_linux
 - amd64
 version: 2.5.6+3
-Labels:
+labels:
   original.package.name: "teckit"
   original.package.category: "app-text"
   original.package.version: "2.5.6"

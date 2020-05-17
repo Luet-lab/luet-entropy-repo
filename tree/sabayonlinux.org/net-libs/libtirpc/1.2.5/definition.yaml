@@ -2,15 +2,15 @@ category: net-libs
 license: GPL-2
 name: libtirpc
 requires:
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- Labels: null
+- labels: null
   category: sys-devel
   name: automake-1.15
   version: '>=1.15.1'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.4'
@@ -35,7 +35,7 @@ use_flags:
 - -abi_riscv_lp64d
 - kerberos
 version: 1.2.5+1
-Labels:
+labels:
   original.package.name: "libtirpc"
   original.package.category: "net-libs"
   original.package.version: "1.2.5"

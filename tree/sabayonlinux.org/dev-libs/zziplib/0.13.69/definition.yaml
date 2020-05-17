@@ -2,11 +2,11 @@ category: dev-libs
 license: LGPL-2.1 MPL-1.1
 name: zziplib
 requires:
-- Labels: null
+- labels: null
   category: media-libs
   name: libsdl
   version: '>=1.2.6'
-- Labels: null
+- labels: null
   category: sys-libs
   name: zlib
   version: '>=0'
@@ -23,7 +23,7 @@ use_flags:
 - split-usr
 - -test
 version: 0.13.69+r4
-Labels:
+labels:
   original.package.name: "zziplib"
   original.package.category: "dev-libs"
   original.package.version: "0.13.69"

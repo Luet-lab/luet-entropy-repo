@@ -2,15 +2,15 @@ category: app-editors
 license: GPL-3
 name: nano
 requires:
-- Labels: null
+- labels: null
   category: sys-libs
   name: ncurses
   version: '>=5.9'
-- Labels: null
+- labels: null
   category: sys-apps
   name: file
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-libs
   name: ncurses
   version: '>=0'
@@ -33,7 +33,7 @@ use_flags:
 - spell
 - kernel_linux
 version: 4.6+3
-Labels:
+labels:
   original.package.name: "nano"
   original.package.category: "app-editors"
   original.package.version: "4.6"

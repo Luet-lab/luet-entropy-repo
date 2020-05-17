@@ -2,31 +2,31 @@ category: app-pda
 license: GPL-2 LGPL-2.1
 name: libplist
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-2.7
   version: '>=2.7.5'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-exec-2
   version: '>=2'
-- Labels: null
+- labels: null
   category: dev-python
   name: cython
   version: '>=0.17'
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- Labels: null
+- labels: null
   category: sys-devel
   name: automake-1.15
   version: '>=1.15.1'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.4'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-3.6
   version: '>=0'
@@ -44,7 +44,7 @@ use_flags:
 - -static-libs
 - python_targets_python3_6
 version: 2.0.0+3
-Labels:
+labels:
   original.package.name: "libplist"
   original.package.category: "app-pda"
   original.package.version: "2.0.0"

@@ -2,35 +2,35 @@ category: net-misc
 license: BSD HPND ISC
 name: ntp
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: libevent
   version: '>=2.0.9'
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- Labels: null
+- labels: null
   category: sys-devel
   name: automake-1.15
   version: '>=1.15.1'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.4'
-- Labels: null
+- labels: null
   category: sys-libs
   name: readline
   version: '>=4.1'
-- Labels: null
+- labels: null
   category: acct-group
   name: ntp
   version: '>=0'
-- Labels: null
+- labels: null
   category: acct-user
   name: ntp
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: openssl
   version: '>=0'
@@ -57,7 +57,7 @@ use_flags:
 - -caps
 - ipv6
 version: 4.2.8+p13r2.3
-Labels:
+labels:
   original.package.name: "ntp"
   original.package.category: "net-misc"
   original.package.version: "4.2.8"

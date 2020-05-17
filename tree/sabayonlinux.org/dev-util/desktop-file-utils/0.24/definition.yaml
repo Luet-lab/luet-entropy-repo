@@ -2,7 +2,7 @@ category: dev-util
 license: GPL-2+
 name: desktop-file-utils
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: glib-2
   version: '>=2.12'
@@ -16,7 +16,7 @@ use_flags:
 - split-usr
 - amd64
 version: 0.24+3
-Labels:
+labels:
   original.package.name: "desktop-file-utils"
   original.package.category: "dev-util"
   original.package.version: "0.24"

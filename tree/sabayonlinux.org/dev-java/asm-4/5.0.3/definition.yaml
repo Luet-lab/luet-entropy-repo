@@ -2,7 +2,7 @@ category: dev-java
 license: BSD
 name: asm-4
 requires:
-- Labels: null
+- labels: null
   category: dev-java
   name: java-config-2
   version: '>=2.2.0'
@@ -16,7 +16,7 @@ use_flags:
 - -source
 - amd64
 version: 5.0.3+3
-Labels:
+labels:
   original.package.name: "asm"
   original.package.category: "dev-java"
   original.package.version: "5.0.3"

@@ -2,27 +2,27 @@ category: dev-haskell
 license: MIT
 name: enclosed-exceptions
 requires:
-- Labels: null
+- labels: null
   category: dev-haskell
   name: cabal
   version: '>=1.8'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: lifted-base
   version: '>=0.2'
-- Labels: null
+- labels: null
   category: dev-lang
   name: ghc
   version: '>=7.4.1'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: monad-control
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: transformers
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: transformers-base
   version: '>=0'
@@ -38,7 +38,7 @@ use_flags:
 - -hscolour
 - userland_GNU
 version: 1.0.2+1
-Labels:
+labels:
   original.package.name: "enclosed-exceptions"
   original.package.category: "dev-haskell"
   original.package.version: "1.0.2"

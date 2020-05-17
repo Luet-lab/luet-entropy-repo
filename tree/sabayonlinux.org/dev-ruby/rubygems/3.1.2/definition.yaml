@@ -2,7 +2,7 @@ category: dev-ruby
 license: GPL-2 MIT Ruby
 name: rubygems
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: ruby-2.5
   version: '>=0'
@@ -21,7 +21,7 @@ use_flags:
 - kernel_linux
 - userland_GNU
 version: 3.1.2+3
-Labels:
+labels:
   original.package.name: "rubygems"
   original.package.category: "dev-ruby"
   original.package.version: "3.1.2"

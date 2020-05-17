@@ -2,31 +2,31 @@ category: dev-haskell
 license: BSD
 name: tar
 requires:
-- Labels: null
+- labels: null
   category: dev-haskell
   name: bytestring-builder
   version: <0.11
-- Labels: null
+- labels: null
   category: dev-haskell
   name: old-time
   version: <1.2
-- Labels: null
+- labels: null
   category: dev-haskell
   name: semigroups
   version: <0.19
-- Labels: null
+- labels: null
   category: dev-haskell
   name: bytestring-builder
   version: '>=0.10.4.0.2'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: cabal
   version: '>=1.8'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: semigroups
   version: '>=0.18'
-- Labels: null
+- labels: null
   category: dev-lang
   name: ghc
   version: '>=7.4.1'
@@ -42,7 +42,7 @@ use_flags:
 - big-endian
 - kernel_linux
 version: 0.5.1.0+1
-Labels:
+labels:
   original.package.name: "tar"
   original.package.category: "dev-haskell"
   original.package.version: "0.5.1.0"

@@ -2,11 +2,11 @@ category: dev-util
 license: GPL-3
 name: dejagnu
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: tcl
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-tcltk
   name: expect
   version: '>=0'
@@ -18,7 +18,7 @@ use_flags:
 - elibc_glibc
 - -doc
 version: 1.6+3
-Labels:
+labels:
   original.package.name: "dejagnu"
   original.package.category: "dev-util"
   original.package.version: "1.6"

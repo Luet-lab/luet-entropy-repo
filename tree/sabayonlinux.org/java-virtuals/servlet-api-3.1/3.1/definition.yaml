@@ -2,11 +2,11 @@ category: java-virtuals
 license: public-domain
 name: servlet-api-3.1
 requires:
-- Labels: null
+- labels: null
   category: dev-java
   name: java-config-2
   version: '>=2.2.0'
-- Labels: null
+- labels: null
   category: dev-java
   name: resin-servlet-api-3.1
   version: '>=0'
@@ -19,7 +19,7 @@ use_flags:
 - userland_GNU
 - -elibc_FreeBSD
 version: 3.1+r4
-Labels:
+labels:
   original.package.name: "servlet-api"
   original.package.category: "java-virtuals"
   original.package.version: "3.1"

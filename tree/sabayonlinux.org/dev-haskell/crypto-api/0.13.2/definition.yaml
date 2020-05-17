@@ -2,27 +2,27 @@ category: dev-haskell
 license: BSD
 name: crypto-api
 requires:
-- Labels: null
+- labels: null
   category: dev-haskell
   name: cabal
   version: '>=1.6'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: cereal
   version: '>=0.2'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: tagged
   version: '>=0.1'
-- Labels: null
+- labels: null
   category: dev-lang
   name: ghc
   version: '>=7.4.1'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: entropy
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: transformers
   version: '>=0'
@@ -38,7 +38,7 @@ use_flags:
 - -doc
 - kernel_linux
 version: 0.13.2+1
-Labels:
+labels:
   original.package.name: "crypto-api"
   original.package.category: "dev-haskell"
   original.package.version: "0.13.2"

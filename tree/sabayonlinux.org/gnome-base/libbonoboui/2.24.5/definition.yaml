@@ -2,47 +2,47 @@ category: gnome-base
 license: GPL-2 LGPL-2.1
 name: libbonoboui
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: glib-2
   version: '>=2.6.0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: libxml2-2
   version: '>=2.4.20'
-- Labels: null
+- labels: null
   category: dev-libs
   name: popt
   version: '>=1.5'
-- Labels: null
+- labels: null
   category: gnome-base
   name: gconf-2
   version: '>=2'
-- Labels: null
+- labels: null
   category: gnome-base
   name: libbonobo
   version: '>=2.22'
-- Labels: null
+- labels: null
   category: gnome-base
   name: libglade-2.0
   version: '>=1.99.11'
-- Labels: null
+- labels: null
   category: gnome-base
   name: libgnome
   version: '>=2.13.7'
-- Labels: null
+- labels: null
   category: gnome-base
   name: libgnomecanvas
   version: '>=1.116'
-- Labels: null
+- labels: null
   category: x11-libs
   name: gtk+-3
   version: '>=2.8.12'
-- Labels: null
+- labels: null
   category: dev-util
   name: gtk-doc-am
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-apps
   name: xrdb
   version: '>=0'
@@ -55,7 +55,7 @@ use_flags:
 - kernel_linux
 - -test
 version: 2.24.5+r4
-Labels:
+labels:
   original.package.name: "libbonoboui"
   original.package.category: "gnome-base"
   original.package.version: "2.24.5"

@@ -2,43 +2,43 @@ category: dev-haskell
 license: BSD
 name: wai-logger
 requires:
-- Labels: null
+- labels: null
   category: dev-haskell
   name: cabal
   version: '>=1.10'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: fast-logger
   version: '>=2.4.5'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: unix-time
   version: '>=0.2.2'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: wai
   version: '>=2.0.0'
-- Labels: null
+- labels: null
   category: dev-lang
   name: ghc
   version: '>=7.4.1'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: blaze-builder
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: byteorder
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: case-insensitive
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: http-types
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: network
   version: '>=0'
@@ -54,7 +54,7 @@ use_flags:
 - kernel_linux
 - big-endian
 version: 2.2.7+1
-Labels:
+labels:
   original.package.name: "wai-logger"
   original.package.category: "dev-haskell"
   original.package.version: "2.2.7"

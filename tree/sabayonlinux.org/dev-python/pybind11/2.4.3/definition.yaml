@@ -2,11 +2,11 @@ category: dev-python
 license: BSD
 name: pybind11
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-exec-2
   version: '>=2'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-3.6
   version: '>=0'
@@ -22,7 +22,7 @@ use_flags:
 - -python_targets_python3_7
 - kernel_linux
 version: 2.4.3+3
-Labels:
+labels:
   original.package.name: "pybind11"
   original.package.category: "dev-python"
   original.package.version: "2.4.3"

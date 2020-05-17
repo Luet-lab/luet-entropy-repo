@@ -2,7 +2,7 @@ category: sys-auth
 license: public-domain
 name: realtime-base
 requires:
-- Labels: null
+- labels: null
   category: sys-libs
   name: pam
   version: '>=0'
@@ -15,7 +15,7 @@ use_flags:
 - userland_GNU
 - abi_x86_64
 version: 0.1+3
-Labels:
+labels:
   original.package.name: "realtime-base"
   original.package.category: "sys-auth"
   original.package.version: "0.1"

@@ -2,11 +2,11 @@ category: sys-apps
 license: GPL-2
 name: kbd
 requires:
-- Labels: null
+- labels: null
   category: app-arch
   name: gzip
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-libs
   name: pam
   version: '>=0'
@@ -22,7 +22,7 @@ use_flags:
 - pam
 - userland_GNU
 version: 2.0.4+3
-Labels:
+labels:
   original.package.name: "kbd"
   original.package.category: "sys-apps"
   original.package.version: "2.0.4"

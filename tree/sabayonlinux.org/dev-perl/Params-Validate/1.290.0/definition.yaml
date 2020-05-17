@@ -2,15 +2,15 @@ category: dev-perl
 license: Artistic-2
 name: Params-Validate
 requires:
-- Labels: null
+- labels: null
   category: dev-perl
   name: Module-Build
   version: '>=0.280.0'
-- Labels: null
+- labels: null
   category: dev-lang
   name: perl
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-perl
   name: Module-Implementation
   version: '>=0'
@@ -25,7 +25,7 @@ use_flags:
 - -examples
 - kernel_linux
 version: 1.290.0+3
-Labels:
+labels:
   original.package.name: "Params-Validate"
   original.package.category: "dev-perl"
   original.package.version: "1.290.0"

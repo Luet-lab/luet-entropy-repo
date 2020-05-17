@@ -2,15 +2,15 @@ category: media-video
 license: GPL-2 LGPL-2.1
 name: rtmpdump
 requires:
-- Labels: null
+- labels: null
   category: net-libs
   name: gnutls
   version: '>=2.12.23'
-- Labels: null
+- labels: null
   category: sys-libs
   name: zlib
   version: '>=1.2.8'
-- Labels: null
+- labels: null
   category: dev-libs
   name: nettle
   version: '>=0'
@@ -35,7 +35,7 @@ use_flags:
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
 version: 2.4+p20161210r3.4
-Labels:
+labels:
   original.package.name: "rtmpdump"
   original.package.category: "media-video"
   original.package.version: "2.4"

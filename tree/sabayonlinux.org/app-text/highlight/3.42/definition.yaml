@@ -2,23 +2,23 @@ category: app-text
 license: GPL-3
 name: highlight
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: lua
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: double-conversion
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-qt
   name: qtcore-5
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-qt
   name: qtgui-5
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-qt
   name: qtwidgets-5
   version: '>=0'
@@ -32,7 +32,7 @@ use_flags:
 - qt5
 - abi_x86_64
 version: 3.42+r4
-Labels:
+labels:
   original.package.name: "highlight"
   original.package.category: "app-text"
   original.package.version: "3.42"

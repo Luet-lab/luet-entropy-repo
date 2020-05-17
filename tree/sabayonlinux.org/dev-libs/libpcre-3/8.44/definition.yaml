@@ -2,15 +2,15 @@ category: dev-libs
 license: BSD
 name: libpcre-3
 requires:
-- Labels: null
+- labels: null
   category: app-arch
   name: bzip2
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-libs
   name: readline
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-libs
   name: zlib
   version: '>=0'
@@ -43,7 +43,7 @@ use_flags:
 - cxx
 - -abi_riscv_lp64d
 version: 8.44+1
-Labels:
+labels:
   original.package.name: "libpcre"
   original.package.category: "dev-libs"
   original.package.version: "8.44"

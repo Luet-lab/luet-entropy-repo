@@ -2,27 +2,27 @@ category: media-libs
 license: MPL-2.0
 name: libfreehand
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: icu
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: librevenge
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-util
   name: gperf
   version: '>=0'
-- Labels: null
+- labels: null
   category: media-libs
   name: lcms-2
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-libs
   name: zlib
   version: '>=0'
@@ -37,7 +37,7 @@ use_flags:
 - userland_GNU
 - -static-libs
 version: 0.1.2+1
-Labels:
+labels:
   original.package.name: "libfreehand"
   original.package.category: "media-libs"
   original.package.version: "0.1.2"

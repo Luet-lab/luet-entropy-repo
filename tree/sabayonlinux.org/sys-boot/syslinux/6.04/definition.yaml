@@ -2,23 +2,23 @@ category: sys-boot
 license: GPL-2
 name: syslinux
 requires:
-- Labels: null
+- labels: null
   category: sys-boot
   name: gnu-efi
   version: '>=3.0u'
-- Labels: null
+- labels: null
   category: dev-lang
   name: nasm
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-perl
   name: Crypt-PasswdMD5
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-perl
   name: Digest-SHA1
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-fs
   name: mtools
   version: '>=0'
@@ -30,7 +30,7 @@ use_flags:
 - kernel_linux
 - abi_x86_64
 version: 6.04+pre1.3
-Labels:
+labels:
   original.package.name: "syslinux"
   original.package.category: "sys-boot"
   original.package.version: "6.04"

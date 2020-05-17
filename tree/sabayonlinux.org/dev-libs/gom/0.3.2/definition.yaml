@@ -2,35 +2,35 @@ category: dev-libs
 license: LGPL-2+
 name: gom
 requires:
-- Labels: null
+- labels: null
   category: dev-db
   name: sqlite-3
   version: '>=3.7'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-exec-2
   version: '>=2'
-- Labels: null
+- labels: null
   category: dev-libs
   name: glib-2
   version: '>=2.36'
-- Labels: null
+- labels: null
   category: dev-libs
   name: gobject-introspection
   version: '>=1.30.0'
-- Labels: null
+- labels: null
   category: dev-python
   name: pygobject-base-3
   version: '>=3.16'
-- Labels: null
+- labels: null
   category: dev-util
   name: gtk-doc-am
   version: '>=1.14'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-3.6
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: gdk-pixbuf-2
   version: '>=0'
@@ -47,7 +47,7 @@ use_flags:
 - introspection
 - python_targets_python3_6
 version: 0.3.2+r4
-Labels:
+labels:
   original.package.name: "gom"
   original.package.category: "dev-libs"
   original.package.version: "0.3.2"

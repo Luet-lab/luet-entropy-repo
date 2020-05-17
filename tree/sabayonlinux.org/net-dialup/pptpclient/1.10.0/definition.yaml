@@ -2,15 +2,15 @@ category: net-dialup
 license: GPL-2
 name: pptpclient
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: perl
   version: '>=0'
-- Labels: null
+- labels: null
   category: net-dialup
   name: ppp
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-apps
   name: iproute2
   version: '>=0'
@@ -23,7 +23,7 @@ use_flags:
 - -tk
 - abi_x86_64
 version: 1.10.0+3
-Labels:
+labels:
   original.package.name: "pptpclient"
   original.package.category: "net-dialup"
   original.package.version: "1.10.0"

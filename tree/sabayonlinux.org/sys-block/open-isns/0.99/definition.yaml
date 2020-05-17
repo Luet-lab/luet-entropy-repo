@@ -2,7 +2,7 @@ category: sys-block
 license: LGPL-2.1
 name: open-isns
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: openssl
   version: '>=0'
@@ -20,7 +20,7 @@ use_flags:
 - ssl
 - split-usr
 version: 0.99+3
-Labels:
+labels:
   original.package.name: "open-isns"
   original.package.category: "sys-block"
   original.package.version: "0.99"

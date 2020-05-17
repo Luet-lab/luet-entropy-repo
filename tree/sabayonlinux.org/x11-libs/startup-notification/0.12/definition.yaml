@@ -2,27 +2,27 @@ category: x11-libs
 license: LGPL-2 MIT
 name: startup-notification
 requires:
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- Labels: null
+- labels: null
   category: sys-devel
   name: automake-1.15
   version: '>=1.15.1'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.4'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libX11
   version: '>=1.4.3'
-- Labels: null
+- labels: null
   category: x11-libs
   name: xcb-util
   version: '>=0.3.8'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libxcb
   version: '>1.6'
@@ -35,7 +35,7 @@ use_flags:
 - userland_GNU
 - amd64
 version: 0.12+r4
-Labels:
+labels:
   original.package.name: "startup-notification"
   original.package.category: "x11-libs"
   original.package.version: "0.12"

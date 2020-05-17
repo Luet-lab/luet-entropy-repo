@@ -2,11 +2,11 @@ category: app-text
 license: MIT
 name: docbook-dsssl-stylesheets
 requires:
-- Labels: null
+- labels: null
   category: app-text
   name: sgml-common
   version: '>=0.6.3'
-- Labels: null
+- labels: null
   category: app-text
   name: docbook-sgml-dtd-4.5
   version: '>=0'
@@ -19,7 +19,7 @@ use_flags:
 - split-usr
 - kernel_linux
 version: 1.79+r7
-Labels:
+labels:
   original.package.name: "docbook-dsssl-stylesheets"
   original.package.category: "app-text"
   original.package.version: "1.79"

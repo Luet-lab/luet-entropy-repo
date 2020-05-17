@@ -2,11 +2,11 @@ category: net-libs
 license: LGPL-2.1
 name: libssh
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: openssl
   version: '>=1.0.1h'
-- Labels: null
+- labels: null
   category: sys-libs
   name: zlib
   version: '>=1.2.8'
@@ -41,7 +41,7 @@ use_flags:
 - -abi_riscv_lp64d
 - -gssapi
 version: "0.9.4"
-Labels:
+labels:
   original.package.name: "libssh"
   original.package.category: "net-libs"
   original.package.version: "0.9.3"

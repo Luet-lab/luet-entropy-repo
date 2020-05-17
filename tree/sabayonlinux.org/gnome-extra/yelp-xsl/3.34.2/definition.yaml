@@ -2,15 +2,15 @@ category: gnome-extra
 license: FDL-1.1+ GPL-2+ LGPL-2.1+ MIT
 name: yelp-xsl
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: libxml2-2
   version: '>=2.6.12'
-- Labels: null
+- labels: null
   category: dev-libs
   name: libxslt
   version: '>=1.1.8'
-- Labels: null
+- labels: null
   category: dev-util
   name: itstool
   version: '>=1.2.0'
@@ -23,7 +23,7 @@ use_flags:
 - userland_GNU
 - kernel_linux
 version: "3.34.2"
-Labels:
+labels:
   original.package.name: "yelp-xsl"
   original.package.category: "gnome-extra"
   original.package.version: "3.34.2"

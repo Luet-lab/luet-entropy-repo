@@ -2,7 +2,7 @@ category: app-dicts
 license: GPL-2
 name: aspell-de-alt
 requires:
-- Labels: null
+- labels: null
   category: app-text
   name: aspell
   version: '>=0.60'
@@ -13,7 +13,7 @@ use_flags:
 - userland_GNU
 - multilib
 version: 2.1.1+r4
-Labels:
+labels:
   original.package.name: "aspell-de-alt"
   original.package.category: "app-dicts"
   original.package.version: "2.1.1"

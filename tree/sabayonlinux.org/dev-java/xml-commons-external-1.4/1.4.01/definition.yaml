@@ -2,7 +2,7 @@ category: dev-java
 license: Apache-2.0
 name: xml-commons-external-1.4
 requires:
-- Labels: null
+- labels: null
   category: dev-java
   name: java-config-2
   version: '>=2.2.0'
@@ -16,7 +16,7 @@ use_flags:
 - kernel_linux
 - -source
 version: 1.4.01+r4
-Labels:
+labels:
   original.package.name: "xml-commons-external"
   original.package.category: "dev-java"
   original.package.version: "1.4.01"

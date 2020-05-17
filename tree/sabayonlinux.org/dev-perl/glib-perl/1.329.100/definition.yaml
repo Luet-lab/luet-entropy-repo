@@ -2,23 +2,23 @@ category: dev-perl
 license: LGPL-2.1
 name: glib-perl
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: glib-2
   version: '>=2'
-- Labels: null
+- labels: null
   category: dev-perl
   name: ExtUtils-Depends
   version: '>=0.300.0'
-- Labels: null
+- labels: null
   category: dev-perl
   name: ExtUtils-PkgConfig
   version: '>=1.0.0'
-- Labels: null
+- labels: null
   category: dev-lang
   name: perl
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-perl
   name: Log-Agent
   version: '>=0'
@@ -31,7 +31,7 @@ use_flags:
 - abi_x86_64
 - userland_GNU
 version: 1.329.100+1
-Labels:
+labels:
   original.package.name: "glib-perl"
   original.package.category: "dev-perl"
   original.package.version: "1.329.100"

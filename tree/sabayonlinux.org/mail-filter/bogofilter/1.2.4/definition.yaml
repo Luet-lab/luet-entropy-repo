@@ -2,27 +2,27 @@ category: mail-filter
 license: GPL-2
 name: bogofilter
 requires:
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- Labels: null
+- labels: null
   category: sys-devel
   name: automake-1.15
   version: '>=1.15.1'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.4'
-- Labels: null
+- labels: null
   category: sys-libs
   name: db-6.0
   version: '>=3.2'
-- Labels: null
+- labels: null
   category: app-arch
   name: pax
   version: '>=0'
-- Labels: null
+- labels: null
   category: sci-libs
   name: gsl
   version: '>=0'
@@ -38,7 +38,7 @@ use_flags:
 - -tokyocabinet
 - kernel_linux
 version: 1.2.4+r3
-Labels:
+labels:
   original.package.name: "bogofilter"
   original.package.category: "mail-filter"
   original.package.version: "1.2.4"

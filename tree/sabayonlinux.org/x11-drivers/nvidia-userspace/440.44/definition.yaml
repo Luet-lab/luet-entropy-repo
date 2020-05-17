@@ -2,99 +2,99 @@ category: x11-drivers
 license: GPL-2 NVIDIA-r2
 name: nvidia-userspace
 requires:
-- Labels: null
+- labels: null
   category: x11-base
   name: xorg-server
   version: <1.20.99
-- Labels: null
+- labels: null
   category: app-eselect
   name: eselect-opengl
   version: '>=1.0.9'
-- Labels: null
+- labels: null
   category: sys-libs
   name: glibc-2.2
   version: '>=2.6.1'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libX11
   version: '>=1.6.2'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libXext
   version: '>=1.3.2'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libvdpau
   version: '>=1.0'
-- Labels: null
+- labels: null
   category: app-eselect
   name: eselect-opencl
   version: '>=0'
-- Labels: null
+- labels: null
   category: app-misc
   name: pax-utils
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: atk
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: glib-2
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: jansson
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: wayland
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-apps
   name: dbus
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-libs
   name: zlib
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-power
   name: acpid
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: cairo
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: gdk-pixbuf-2
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: gtk+-3
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libX11
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libXext
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libXrandr
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libXv
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libXxf86vm
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: pango
   version: '>=0'
@@ -119,7 +119,7 @@ use_flags:
 - tools
 - acpi
 version: 440.44+4
-Labels:
+labels:
   original.package.name: "nvidia-userspace"
   original.package.category: "x11-drivers"
   original.package.version: "440.44"

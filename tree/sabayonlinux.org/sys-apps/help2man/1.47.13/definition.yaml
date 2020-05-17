@@ -2,11 +2,11 @@ category: sys-apps
 license: GPL-3
 name: help2man
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: perl
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-perl
   name: Locale-gettext
   version: '>=0'
@@ -20,7 +20,7 @@ use_flags:
 - split-usr
 - kernel_linux
 version: "1.47.13"
-Labels:
+labels:
   original.package.name: "help2man"
   original.package.category: "sys-apps"
   original.package.version: "1.47.11"

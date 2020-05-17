@@ -2,11 +2,11 @@ category: app-eselect
 license: GPL-2
 name: eselect-mpost
 requires:
-- Labels: null
+- labels: null
   category: app-admin
   name: eselect
   version: '>=1.2.3'
-- Labels: null
+- labels: null
   category: app-text
   name: texlive-core
   version: '>=2008'
@@ -17,7 +17,7 @@ use_flags:
 - kernel_linux
 - userland_GNU
 version: 0.3+3
-Labels:
+labels:
   original.package.name: "eselect-mpost"
   original.package.category: "app-eselect"
   original.package.version: "0.3"

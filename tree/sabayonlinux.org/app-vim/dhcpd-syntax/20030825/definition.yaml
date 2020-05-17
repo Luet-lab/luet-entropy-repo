@@ -2,7 +2,7 @@ category: app-vim
 license: vim
 name: dhcpd-syntax
 requires:
-- Labels: null
+- labels: null
   category: app-editors
   name: gvim
   version: '>=7.3'
@@ -14,7 +14,7 @@ use_flags:
 - userland_GNU
 - amd64
 version: 20030825+r4
-Labels:
+labels:
   original.package.name: "dhcpd-syntax"
   original.package.category: "app-vim"
   original.package.version: "20030825"

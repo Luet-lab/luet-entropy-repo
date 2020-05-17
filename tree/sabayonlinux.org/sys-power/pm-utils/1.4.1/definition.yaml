@@ -2,27 +2,27 @@ category: sys-power
 license: GPL-2
 name: pm-utils
 requires:
-- Labels: null
+- labels: null
   category: sys-apps
   name: util-linux
   version: '>=2.13'
-- Labels: null
+- labels: null
   category: app-laptop
   name: radeontool
   version: '>=0'
-- Labels: null
+- labels: null
   category: media-sound
   name: alsa-utils-0.9
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-apps
   name: dbus
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-apps
   name: vbetool
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-power
   name: pm-quirks
   version: '>=0'
@@ -38,7 +38,7 @@ use_flags:
 - video_cards_radeon
 - kernel_linux
 version: 1.4.1+r10
-Labels:
+labels:
   original.package.name: "pm-utils"
   original.package.category: "sys-power"
   original.package.version: "1.4.1"

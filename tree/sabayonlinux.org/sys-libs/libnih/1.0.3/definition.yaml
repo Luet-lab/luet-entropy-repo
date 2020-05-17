@@ -2,23 +2,23 @@ category: sys-libs
 license: GPL-2
 name: libnih
 requires:
-- Labels: null
+- labels: null
   category: sys-apps
   name: dbus
   version: '>=1.2.16'
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- Labels: null
+- labels: null
   category: sys-devel
   name: automake-1.15
   version: '>=1.15'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.4'
-- Labels: null
+- labels: null
   category: dev-libs
   name: expat
   version: '>=0'
@@ -34,7 +34,7 @@ use_flags:
 - kernel_linux
 - elibc_glibc
 version: 1.0.3+r6
-Labels:
+labels:
   original.package.name: "libnih"
   original.package.category: "sys-libs"
   original.package.version: "1.0.3"

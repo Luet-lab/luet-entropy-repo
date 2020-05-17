@@ -2,7 +2,7 @@ category: dev-perl
 license: MIT
 name: Encode-HanExtra
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: perl
   version: '>=0'
@@ -15,7 +15,7 @@ use_flags:
 - elibc_glibc
 - split-usr
 version: 0.230.0+r5
-Labels:
+labels:
   original.package.name: "Encode-HanExtra"
   original.package.category: "dev-perl"
   original.package.version: "0.230.0"

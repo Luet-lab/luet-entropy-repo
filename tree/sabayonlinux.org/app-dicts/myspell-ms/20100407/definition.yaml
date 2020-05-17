@@ -2,7 +2,7 @@ category: app-dicts
 license: FDL-1.2
 name: myspell-ms
 requires:
-- Labels: null
+- labels: null
   category: app-arch
   name: unzip
   version: '>=0'
@@ -14,7 +14,7 @@ use_flags:
 - abi_x86_64
 - elibc_glibc
 version: 20100407+3
-Labels:
+labels:
   original.package.name: "myspell-ms"
   original.package.category: "app-dicts"
   original.package.version: "20100407"

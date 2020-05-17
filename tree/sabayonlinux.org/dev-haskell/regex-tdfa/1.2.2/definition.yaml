@@ -2,23 +2,23 @@ category: dev-haskell
 license: BSD
 name: regex-tdfa
 requires:
-- Labels: null
+- labels: null
   category: dev-haskell
   name: cabal
   version: '>=1.6'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: regex-base
   version: '>=0.93.1'
-- Labels: null
+- labels: null
   category: dev-lang
   name: ghc
   version: '>=7.4.1'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: mtl
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: parsec
   version: '>=0'
@@ -33,7 +33,7 @@ use_flags:
 - -profile
 - big-endian
 version: 1.2.2+1
-Labels:
+labels:
   original.package.name: "regex-tdfa"
   original.package.category: "dev-haskell"
   original.package.version: "1.2.2"

@@ -2,11 +2,11 @@ category: app-admin
 license: BSD
 name: sysklogd
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: perl
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-apps
   name: debianutils
   version: '>=0'
@@ -18,7 +18,7 @@ use_flags:
 - abi_x86_64
 - userland_GNU
 version: 1.5.1+r4
-Labels:
+labels:
   original.package.name: "sysklogd"
   original.package.category: "app-admin"
   original.package.version: "1.5.1"

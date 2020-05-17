@@ -2,7 +2,7 @@ category: sci-mathematics
 license: LGPL-2.1
 name: lpsolve
 requires:
-- Labels: null
+- labels: null
   category: sci-libs
   name: colamd
   version: '>=0'
@@ -14,7 +14,7 @@ use_flags:
 - userland_GNU
 - multilib
 version: 5.5.2.0+1
-Labels:
+labels:
   original.package.name: "lpsolve"
   original.package.category: "sci-mathematics"
   original.package.version: "5.5.2.0"

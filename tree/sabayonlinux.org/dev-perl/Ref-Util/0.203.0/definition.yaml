@@ -2,11 +2,11 @@ category: dev-perl
 license: MIT
 name: Ref-Util
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: perl
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-perl
   name: Ref-Util-XS
   version: '>=0'
@@ -21,7 +21,7 @@ use_flags:
 - -test
 - abi_x86_64
 version: 0.203.0+3
-Labels:
+labels:
   original.package.name: "Ref-Util"
   original.package.category: "dev-perl"
   original.package.version: "0.203.0"

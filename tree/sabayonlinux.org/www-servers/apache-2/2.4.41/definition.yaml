@@ -2,43 +2,43 @@ category: www-servers
 license: Apache-1.1 Apache-2.0
 name: apache-2
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: apr-util-1
   version: '>=1'
-- Labels: null
+- labels: null
   category: net-nds
   name: openldap
   version: '>=2'
-- Labels: null
+- labels: null
   category: dev-libs
   name: apr-1
   version: '>=1.5.1'
-- Labels: null
+- labels: null
   category: dev-libs
   name: openssl
   version: '>=1.0.2'
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- Labels: null
+- labels: null
   category: sys-devel
   name: automake-1.15
   version: '>=1.15.1'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.4'
-- Labels: null
+- labels: null
   category: app-misc
   name: mime-types
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-lang
   name: perl
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: libpcre-3
   version: '>=0'
@@ -159,7 +159,7 @@ use_flags:
 - apache2_modules_log_config
 - -apache2_modules_session_cookie
 version: 2.4.41+3
-Labels:
+labels:
   original.package.name: "apache"
   original.package.category: "www-servers"
   original.package.version: "2.4.41"

@@ -2,31 +2,31 @@ category: dev-ruby
 license: MIT
 name: pdf-reader-2
 requires:
-- Labels: null
+- labels: null
   category: dev-ruby
   name: afm
   version: '>=0.2'
-- Labels: null
+- labels: null
   category: dev-ruby
   name: ascii85
   version: '>=1'
-- Labels: null
+- labels: null
   category: dev-ruby
   name: hashery
   version: '>=2'
-- Labels: null
+- labels: null
   category: dev-ruby
   name: afm
   version: '>=0.2.1'
-- Labels: null
+- labels: null
   category: dev-lang
   name: ruby-2.5
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-ruby
   name: ruby-rc4
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-ruby
   name: ttfunk-1.5
   version: '>=0'
@@ -44,7 +44,7 @@ use_flags:
 - ruby_targets_ruby25
 - -doc
 version: 2.4.0+3
-Labels:
+labels:
   original.package.name: "pdf-reader"
   original.package.category: "dev-ruby"
   original.package.version: "2.4.0"

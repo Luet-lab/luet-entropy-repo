@@ -2,35 +2,35 @@ category: net-wireless
 license: GPL-2
 name: iwd
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: ell
   version: '>=0.23'
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- Labels: null
+- labels: null
   category: sys-devel
   name: automake-1.15
   version: '>=1.15.1'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.4'
-- Labels: null
+- labels: null
   category: net-wireless
   name: crda
   version: '>=0'
-- Labels: null
+- labels: null
   category: net-wireless
   name: wireless-regdb
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-apps
   name: dbus
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-libs
   name: readline
   version: '>=0'
@@ -50,7 +50,7 @@ use_flags:
 - amd64
 - -ofono
 version: "1.5"
-Labels:
+labels:
   original.package.name: "iwd"
   original.package.category: "net-wireless"
   original.package.version: "0.21"

@@ -2,83 +2,83 @@ category: app-accessibility
 license: LGPL-2.1
 name: caribou
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-2.7
   version: '>=2.7.5'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-exec-2
   version: '>=2'
-- Labels: null
+- labels: null
   category: dev-libs
   name: gobject-introspection
   version: '>=0.10.7'
-- Labels: null
+- labels: null
   category: dev-python
   name: pyatspi
   version: '>=2.1.90'
-- Labels: null
+- labels: null
   category: dev-python
   name: pygobject-base-3
   version: '>=2.90.3'
-- Labels: null
+- labels: null
   category: gnome-base
   name: gsettings-desktop-schemas
   version: '>=3'
-- Labels: null
+- labels: null
   category: media-libs
   name: clutter-1.0
   version: '>=1.5.11'
-- Labels: null
+- labels: null
   category: x11-libs
   name: gtk+-3
   version: '>=3'
-- Labels: null
+- labels: null
   category: app-accessibility
   name: at-spi2-core-2
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-3.6
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: glib-2
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: libgee-0.8
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: libxml2-2
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: libxslt
   version: '>=0'
-- Labels: null
+- labels: null
   category: gnome-base
   name: librsvg-2
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-apps
   name: dbus
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: gtk+-3
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libX11
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libXtst
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libxklavier
   version: '>=0'
@@ -94,7 +94,7 @@ use_flags:
 - elibc_glibc
 - big-endian
 version: 0.4.21+3
-Labels:
+labels:
   original.package.name: "caribou"
   original.package.category: "app-accessibility"
   original.package.version: "0.4.21"

@@ -2,47 +2,47 @@ category: www-client
 license: w3m
 name: w3m
 requires:
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- Labels: null
+- labels: null
   category: sys-devel
   name: automake-1.15
   version: '>=1.15.1'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.4'
-- Labels: null
+- labels: null
   category: dev-libs
   name: boehm-gc
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: openssl
   version: '>=0'
-- Labels: null
+- labels: null
   category: media-libs
   name: imlib2
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-libs
   name: gpm
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-libs
   name: ncurses
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-libs
   name: zlib
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libXdmcp
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libXext
   version: '>=0'
@@ -69,7 +69,7 @@ use_flags:
 - split-usr
 - abi_x86_64
 version: 0.5.3+p20190108
-Labels:
+labels:
   original.package.name: "w3m"
   original.package.category: "www-client"
   original.package.version: "0.5.3"

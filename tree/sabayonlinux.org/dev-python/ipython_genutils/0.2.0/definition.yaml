@@ -2,15 +2,15 @@ category: dev-python
 license: BSD
 name: ipython_genutils
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-2.7
   version: '>=2.7.5'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-exec-2
   version: '>=2'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-3.6
   version: '>=0'
@@ -27,7 +27,7 @@ use_flags:
 - amd64
 - elibc_glibc
 version: 0.2.0+3
-Labels:
+labels:
   original.package.name: "ipython_genutils"
   original.package.category: "dev-python"
   original.package.version: "0.2.0"

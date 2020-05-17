@@ -2,7 +2,7 @@ category: app-doc
 license: GPL-2
 name: zsh-lovers
 requires:
-- Labels: null
+- labels: null
   category: app-text
   name: asciidoc
   version: '>=0'
@@ -13,7 +13,7 @@ use_flags:
 - amd64
 - kernel_linux
 version: 0.9.0+3
-Labels:
+labels:
   original.package.name: "zsh-lovers"
   original.package.category: "app-doc"
   original.package.version: "0.9.0"

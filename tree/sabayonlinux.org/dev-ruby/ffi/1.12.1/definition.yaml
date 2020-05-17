@@ -2,11 +2,11 @@ category: dev-ruby
 license: BSD
 name: ffi
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: ruby-2.5
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-ruby
   name: rake
   version: '>=0'
@@ -25,7 +25,7 @@ use_flags:
 - userland_GNU
 - ruby_targets_ruby25
 version: 1.12.1+3
-Labels:
+labels:
   original.package.name: "ffi"
   original.package.category: "dev-ruby"
   original.package.version: "1.12.1"

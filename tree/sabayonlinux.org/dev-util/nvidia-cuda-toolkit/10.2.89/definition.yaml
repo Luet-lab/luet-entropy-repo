@@ -2,111 +2,111 @@ category: dev-util
 license: NVIDIA-CUDA
 name: nvidia-cuda-toolkit
 requires:
-- Labels: null
+- labels: null
   category: sys-devel
   name: gcc-8.2.0
   version: <9
-- Labels: null
+- labels: null
   category: x11-drivers
   name: nvidia-userspace
   version: '>=440.33.01'
-- Labels: null
+- labels: null
   category: dev-libs
   name: hyphen
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: openssl-compat-1.0.0
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-qt
   name: designer-5
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-qt
   name: qtcharts-5
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-qt
   name: qtconcurrent-5
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-qt
   name: qtdbus-5
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-qt
   name: qtdeclarative-5
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-qt
   name: qtgui-5
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-qt
   name: qtmultimedia-5
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-qt
   name: qtnetwork-5
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-qt
   name: qtopengl-5
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-qt
   name: qtpositioning-5
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-qt
   name: qtprintsupport-5
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-qt
   name: qtscript-5
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-qt
   name: qtsql-5
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-qt
   name: qtsvg-5
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-qt
   name: qttest-5
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-qt
   name: qtwebchannel-5
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-qt
   name: qtwebengine-5
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-qt
   name: qtwebkit-5
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-qt
   name: qtwidgets-5
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-qt
   name: qtxml-5
   version: '>=0'
-- Labels: null
+- labels: null
   category: media-libs
   name: libpng-compat-1.2
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-libs
   name: libtermcap-compat
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-libs
   name: ncurses-compat-5
   version: '>=0'
@@ -123,7 +123,7 @@ use_flags:
 - split-usr
 - amd64
 version: 10.2.89+r4
-Labels:
+labels:
   original.package.name: "nvidia-cuda-toolkit"
   original.package.category: "dev-util"
   original.package.version: "10.2.89"

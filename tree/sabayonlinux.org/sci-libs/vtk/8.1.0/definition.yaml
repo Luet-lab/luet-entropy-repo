@@ -2,119 +2,119 @@ category: sci-libs
 license: BSD LGPL-2
 name: vtk
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-exec-2
   version: '>=2'
-- Labels: null
+- labels: null
   category: media-libs
   name: freetype-2
   version: '>=2.5.4'
-- Labels: null
+- labels: null
   category: media-libs
   name: libharu
   version: '>=2.3.0'
-- Labels: null
+- labels: null
   category: app-arch
   name: lz4
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-3.6
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: expat
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: jsoncpp
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: libxml2-2
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-python
   name: PyQt5
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-python
   name: sip
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-qt
   name: designer-5
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-qt
   name: qtcore-5
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-qt
   name: qtgui-5
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-qt
   name: qtopengl-5
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-qt
   name: qtsql-5
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-qt
   name: qtx11extras-5
   version: '>=0'
-- Labels: null
+- labels: null
   category: media-libs
   name: libpng
   version: '>=0'
-- Labels: null
+- labels: null
   category: media-libs
   name: libtheora
   version: '>=0'
-- Labels: null
+- labels: null
   category: media-libs
   name: mesa
   version: '>=0'
-- Labels: null
+- labels: null
   category: media-libs
   name: tiff
   version: '>=0'
-- Labels: null
+- labels: null
   category: sci-libs
   name: exodusii
   version: '>=0'
-- Labels: null
+- labels: null
   category: sci-libs
   name: hdf5
   version: '>=0'
-- Labels: null
+- labels: null
   category: sci-libs
   name: netcdf
   version: '>=0'
-- Labels: null
+- labels: null
   category: sci-libs
   name: netcdf-cxx-3
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-devel
   name: make
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-libs
   name: zlib
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libX11
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libXmu
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libXt
   version: '>=0'
@@ -158,7 +158,7 @@ use_flags:
 - -boost
 - -doc
 version: 8.1.0+r8
-Labels:
+labels:
   original.package.name: "vtk"
   original.package.category: "sci-libs"
   original.package.version: "8.1.0"

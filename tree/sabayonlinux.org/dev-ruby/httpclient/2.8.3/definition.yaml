@@ -2,7 +2,7 @@ category: dev-ruby
 license: Ruby
 name: httpclient
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: ruby-2.5
   version: '>=0'
@@ -20,7 +20,7 @@ use_flags:
 - userland_GNU
 - -ruby_targets_ruby26
 version: 2.8.3+3
-Labels:
+labels:
   original.package.name: "httpclient"
   original.package.category: "dev-ruby"
   original.package.version: "2.8.3"

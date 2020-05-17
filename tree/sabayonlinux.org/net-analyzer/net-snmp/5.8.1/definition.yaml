@@ -2,47 +2,47 @@ category: net-analyzer
 license: BSD GPL-2 HPND
 name: net-snmp
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-2.7
   version: '>=2.7.5'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-exec-2
   version: '>=2'
-- Labels: null
+- labels: null
   category: dev-libs
   name: openssl
   version: '>=0.9.6d'
-- Labels: null
+- labels: null
   category: sys-apps
   name: tcp-wrappers
   version: '>=7.6'
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.4'
-- Labels: null
+- labels: null
   category: sys-libs
   name: zlib
   version: '>=1.1.4'
-- Labels: null
+- labels: null
   category: app-arch
   name: bzip2
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-lang
   name: perl
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-perl
   name: TermReadKey
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-devel
   name: automake-1.15
   version: '>=0'
@@ -79,7 +79,7 @@ use_flags:
 - kernel_linux
 - -X
 version: 5.8.1+pre2.1
-Labels:
+labels:
   original.package.name: "net-snmp"
   original.package.category: "net-analyzer"
   original.package.version: "5.8.1"

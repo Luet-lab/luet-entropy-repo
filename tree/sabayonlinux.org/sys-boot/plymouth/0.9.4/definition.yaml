@@ -2,31 +2,31 @@ category: sys-boot
 license: GPL-2
 name: plymouth
 requires:
-- Labels: null
+- labels: null
   category: media-libs
   name: libpng
   version: '>=1.2.16'
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- Labels: null
+- labels: null
   category: sys-devel
   name: automake-1.15
   version: '>=1.15.1'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.4'
-- Labels: null
+- labels: null
   category: app-text
   name: docbook-xsl-stylesheets
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: libxslt
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libdrm
   version: '>=0'
@@ -45,7 +45,7 @@ use_flags:
 - split-usr
 - userland_GNU
 version: 0.9.4+r4
-Labels:
+labels:
   original.package.name: "plymouth"
   original.package.category: "sys-boot"
   original.package.version: "0.9.4"

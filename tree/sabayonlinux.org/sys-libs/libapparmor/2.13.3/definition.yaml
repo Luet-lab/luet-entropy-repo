@@ -2,47 +2,47 @@ category: sys-libs
 license: GPL-2 LGPL-2.1
 name: libapparmor
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-2.7
   version: '>=2.7.5'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-exec-2
   version: '>=2'
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- Labels: null
+- labels: null
   category: sys-devel
   name: automake-1.15
   version: '>=1.15.1'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.4'
-- Labels: null
+- labels: null
   category: dev-lang
   name: perl
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-3.6
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-lang
   name: swig
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-archive
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-devel
   name: bison
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-devel
   name: flex
   version: '>=0'
@@ -62,7 +62,7 @@ use_flags:
 - python_targets_python2_7
 - elibc_glibc
 version: 2.13.3+3
-Labels:
+labels:
   original.package.name: "libapparmor"
   original.package.category: "sys-libs"
   original.package.version: "2.13.3"

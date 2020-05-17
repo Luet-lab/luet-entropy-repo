@@ -1,82 +1,82 @@
-Labels:
+labels:
   original.package.version: "3.34.2"
 category: gnome-base
 license: GPL-2+
 name: gnome-session
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: glib-2
   version: '>=2.46.0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: json-glib
   version: '>=0.10'
-- Labels: null
+- labels: null
   category: gnome-base
   name: gnome-desktop-3
   version: '>=3.18'
-- Labels: null
+- labels: null
   category: gnome-base
   name: gnome-settings-daemon
   version: '>=3.23.2'
-- Labels: null
+- labels: null
   category: gnome-base
   name: gsettings-desktop-schemas
   version: '>=0.1.7'
-- Labels: null
+- labels: null
   category: sys-apps
   name: systemd
   version: '>=183'
-- Labels: null
+- labels: null
   category: x11-libs
   name: gtk+-3
   version: '>=3.18.0'
-- Labels: null
+- labels: null
   category: x11-misc
   name: notification-daemon
   version: '>=0.7.1'
-- Labels: null
+- labels: null
   category: dev-libs
   name: libxslt
   version: '>=0'
-- Labels: null
+- labels: null
   category: media-libs
   name: libepoxy
   version: '>=0'
-- Labels: null
+- labels: null
   category: media-libs
   name: mesa
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-apps
   name: dbus
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libICE
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libSM
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libX11
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libXcomposite
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: xtrans
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-misc
   name: xdg-user-dirs
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-misc
   name: xdg-user-dirs-gtk
   version: '>=0'
@@ -93,7 +93,7 @@ use_flags:
 - split-usr
 - -consolekit
 version: "3.34.2"
-Labels:
+labels:
   original.package.name: "gnome-session"
   original.package.category: "gnome-base"
   original.package.version: "3.32.0"

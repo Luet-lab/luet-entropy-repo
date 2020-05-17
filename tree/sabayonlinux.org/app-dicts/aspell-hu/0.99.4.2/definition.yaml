@@ -2,7 +2,7 @@ category: app-dicts
 license: GPL-2
 name: aspell-hu
 requires:
-- Labels: null
+- labels: null
   category: app-text
   name: aspell
   version: '>=0.50'
@@ -13,7 +13,7 @@ use_flags:
 - amd64
 - multilib
 version: 0.99.4.2+3
-Labels:
+labels:
   original.package.name: "aspell-hu"
   original.package.category: "app-dicts"
   original.package.version: "0.99.4.2"

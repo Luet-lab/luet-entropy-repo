@@ -2,11 +2,11 @@ category: dev-haskell
 license: BSD
 name: byteorder
 requires:
-- Labels: null
+- labels: null
   category: dev-haskell
   name: cabal
   version: '>=1.6'
-- Labels: null
+- labels: null
   category: dev-lang
   name: ghc
   version: '>=6.10.4'
@@ -21,7 +21,7 @@ use_flags:
 - kernel_linux
 - big-endian
 version: 1.0.4+1
-Labels:
+labels:
   original.package.name: "byteorder"
   original.package.category: "dev-haskell"
   original.package.version: "1.0.4"

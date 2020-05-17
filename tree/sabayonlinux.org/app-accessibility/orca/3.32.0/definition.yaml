@@ -2,79 +2,79 @@ category: app-accessibility
 license: CC-BY-SA-3.0 LGPL-2.1+
 name: orca
 requires:
-- Labels: null
+- labels: null
   category: app-accessibility
   name: at-spi2-atk-2
   version: '>=2.32'
-- Labels: null
+- labels: null
   category: app-accessibility
   name: at-spi2-core-2
   version: '>=2.32'
-- Labels: null
+- labels: null
   category: app-accessibility
   name: brltty
   version: '>=5.0'
-- Labels: null
+- labels: null
   category: app-accessibility
   name: speech-dispatcher
   version: '>=0.8'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-exec-2
   version: '>=2'
-- Labels: null
+- labels: null
   category: dev-libs
   name: atk
   version: '>=2.32'
-- Labels: null
+- labels: null
   category: dev-libs
   name: glib-2
   version: '>=2.28'
-- Labels: null
+- labels: null
   category: dev-python
   name: pyatspi
   version: '>=2.32'
-- Labels: null
+- labels: null
   category: dev-python
   name: pygobject-base-3
   version: '>=3.18'
-- Labels: null
+- labels: null
   category: x11-libs
   name: gtk+-3
   version: '>=3.6.2'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-3.6
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: atk
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: liblouis
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-python
   name: gst-python-1.0
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-python
   name: setproctitle
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-util
   name: itstool
   version: '>=0'
-- Labels: null
+- labels: null
   category: media-libs
   name: gstreamer-1.0
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libwnck-3
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: pango
   version: '>=0'
@@ -90,7 +90,7 @@ use_flags:
 - braille
 - python_targets_python3_6
 version: 3.32.0+r4
-Labels:
+labels:
   original.package.name: "orca"
   original.package.category: "app-accessibility"
   original.package.version: "3.32.0"

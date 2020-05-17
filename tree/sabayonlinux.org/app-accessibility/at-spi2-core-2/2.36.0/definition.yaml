@@ -2,15 +2,15 @@ category: app-accessibility
 license: LGPL-2.1+
 name: at-spi2-core-2
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: glib-2
   version: '>=2.36'
-- Labels: null
+- labels: null
   category: dev-libs
   name: gobject-introspection
   version: '>=1.54.0'
-- Labels: null
+- labels: null
   category: sys-apps
   name: dbus
   version: '>=1.5'
@@ -36,7 +36,7 @@ use_flags:
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
 version: "2.36.0"
-Labels:
+labels:
   original.package.name: "at-spi2-core"
   original.package.category: "app-accessibility"
   original.package.version: "2.36.0"

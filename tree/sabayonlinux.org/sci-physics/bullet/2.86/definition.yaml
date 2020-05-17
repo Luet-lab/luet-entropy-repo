@@ -2,11 +2,11 @@ category: sci-physics
 license: ZLIB
 name: bullet
 requires:
-- Labels: null
+- labels: null
   category: media-libs
   name: freeglut
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-devel
   name: make
   version: '>=0'
@@ -24,7 +24,7 @@ use_flags:
 - amd64
 - -extras
 version: 2.86+3
-Labels:
+labels:
   original.package.name: "bullet"
   original.package.category: "sci-physics"
   original.package.version: "2.86"

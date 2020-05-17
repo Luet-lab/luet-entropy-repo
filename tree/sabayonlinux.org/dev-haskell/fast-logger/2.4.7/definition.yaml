@@ -2,31 +2,31 @@ category: dev-haskell
 license: BSD
 name: fast-logger
 requires:
-- Labels: null
+- labels: null
   category: dev-haskell
   name: auto-update
   version: '>=0.1.2'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: cabal
   version: '>=1.8'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: easy-file
   version: '>=0.2'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: unix-time
   version: '>=0.2.2'
-- Labels: null
+- labels: null
   category: dev-lang
   name: ghc
   version: '>=7.4.1'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: bytestring-builder
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: text
   version: '>=0'
@@ -42,7 +42,7 @@ use_flags:
 - kernel_linux
 - big-endian
 version: 2.4.7+1
-Labels:
+labels:
   original.package.name: "fast-logger"
   original.package.category: "dev-haskell"
   original.package.version: "2.4.7"

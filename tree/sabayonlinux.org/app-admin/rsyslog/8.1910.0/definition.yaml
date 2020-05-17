@@ -2,47 +2,47 @@ category: app-admin
 license: Apache-2.0 GPL-3 LGPL-3
 name: rsyslog
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: libestr
   version: '>=0.1.9'
-- Labels: null
+- labels: null
   category: dev-libs
   name: libfastjson
   version: '>=0.99.8'
-- Labels: null
+- labels: null
   category: dev-libs
   name: libgcrypt
   version: '>=1.5.3'
-- Labels: null
+- labels: null
   category: net-libs
   name: gnutls
   version: '>=2.12.23'
-- Labels: null
+- labels: null
   category: sys-apps
   name: systemd
   version: '>=234'
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-archive
   version: '>=2015.02.24'
-- Labels: null
+- labels: null
   category: sys-devel
   name: automake-1.15
   version: '>=1.15.1'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.4'
-- Labels: null
+- labels: null
   category: sys-libs
   name: zlib
   version: '>=1.2.5'
-- Labels: null
+- labels: null
   category: sys-apps
   name: util-linux
   version: '>=0'
@@ -90,7 +90,7 @@ use_flags:
 - -omhttpfs
 - big-endian
 version: 8.1910.0+r4
-Labels:
+labels:
   original.package.name: "rsyslog"
   original.package.category: "app-admin"
   original.package.version: "8.1910.0"

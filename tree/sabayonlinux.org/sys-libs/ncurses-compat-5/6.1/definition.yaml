@@ -2,7 +2,7 @@ category: sys-libs
 license: MIT
 name: ncurses-compat-5
 requires:
-- Labels: null
+- labels: null
   category: sys-libs
   name: gpm
   version: '>=0'
@@ -27,7 +27,7 @@ use_flags:
 - userland_GNU
 - gpm
 version: 6.1+p20190610
-Labels:
+labels:
   original.package.name: "ncurses-compat"
   original.package.category: "sys-libs"
   original.package.version: "6.1"

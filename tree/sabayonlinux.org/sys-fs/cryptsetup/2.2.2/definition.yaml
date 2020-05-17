@@ -2,43 +2,43 @@ category: sys-fs
 license: GPL-2+
 name: cryptsetup
 requires:
-- Labels: null
+- labels: null
   category: sys-apps
   name: util-linux
   version: '>=2.31'
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- Labels: null
+- labels: null
   category: sys-devel
   name: automake-1.15
   version: '>=1.15.1'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.4'
-- Labels: null
+- labels: null
   category: app-crypt
   name: argon2
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: json-c
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: libgpg-error
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: openssl
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: popt
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-fs
   name: lvm2
   version: '>=0'
@@ -65,7 +65,7 @@ use_flags:
 - -kernel
 - userland_GNU
 version: "2.2.2"
-Labels:
+labels:
   original.package.name: "cryptsetup"
   original.package.category: "sys-fs"
   original.package.version: "2.2.1"

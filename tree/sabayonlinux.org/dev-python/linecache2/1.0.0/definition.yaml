@@ -2,19 +2,19 @@ category: dev-python
 license: PSF-2
 name: linecache2
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-2.7
   version: '>=2.7.5'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-exec-2
   version: '>=2'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-3.6
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-python
   name: pbr
   version: '>=0'
@@ -34,7 +34,7 @@ use_flags:
 - amd64
 - -python_targets_python3_7
 version: 1.0.0+3
-Labels:
+labels:
   original.package.name: "linecache2"
   original.package.category: "dev-python"
   original.package.version: "1.0.0"

@@ -2,15 +2,15 @@ category: dev-java
 license: EPL-1.0
 name: junit-4
 requires:
-- Labels: null
+- labels: null
   category: dev-java
   name: java-config-2
   version: '>=2.2.0'
-- Labels: null
+- labels: null
   category: app-arch
   name: zip
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-java
   name: hamcrest-core-1.3
   version: '>=0'
@@ -25,7 +25,7 @@ use_flags:
 - source
 - userland_GNU
 version: 4.12+r4
-Labels:
+labels:
   original.package.name: "junit"
   original.package.category: "dev-java"
   original.package.version: "4.12"

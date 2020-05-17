@@ -2,27 +2,27 @@ category: dev-python
 license: BSD
 name: unittest2
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-2.7
   version: '>=2.7.5'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-exec-2
   version: '>=2'
-- Labels: null
+- labels: null
   category: dev-python
   name: six
   version: '>=1.4'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-3.6
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-python
   name: linecache2
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-python
   name: traceback2
   version: '>=0'
@@ -41,7 +41,7 @@ use_flags:
 - amd64
 - -python_targets_python3_7
 version: 1.1.0+3
-Labels:
+labels:
   original.package.name: "unittest2"
   original.package.category: "dev-python"
   original.package.version: "1.1.0"

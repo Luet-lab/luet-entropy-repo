@@ -2,19 +2,19 @@ category: net-dns
 license: GPL-2 GPL-3
 name: dnsmasq
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: nettle
   version: '>=3.4'
-- Labels: null
+- labels: null
   category: dev-libs
   name: nettle
   version: '>=0'
-- Labels: null
+- labels: null
   category: net-libs
   name: libnetfilter_conntrack
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-apps
   name: dbus
   version: '>=0'
@@ -45,7 +45,7 @@ use_flags:
 - dbus
 - dhcp
 version: 2.80+r4
-Labels:
+labels:
   original.package.name: "dnsmasq"
   original.package.category: "net-dns"
   original.package.version: "2.80"

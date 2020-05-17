@@ -2,11 +2,11 @@ category: dev-perl
 license: GPL-2+
 name: SGMLSpm
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: perl
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-perl
   name: Module-Build
   version: '>=0'
@@ -19,7 +19,7 @@ use_flags:
 - elibc_glibc
 - split-usr
 version: 1.1+r4
-Labels:
+labels:
   original.package.name: "SGMLSpm"
   original.package.category: "dev-perl"
   original.package.version: "1.1"

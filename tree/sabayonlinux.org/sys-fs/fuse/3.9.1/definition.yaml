@@ -2,7 +2,7 @@ category: sys-fs
 license: GPL-2
 name: fuse
 requires:
-- Labels: null
+- labels: null
   category: sys-fs
   name: fuse-common
   version: '>=0'
@@ -17,7 +17,7 @@ use_flags:
 - -static-libs
 - amd64
 version: "3.9.1"
-Labels:
+labels:
   original.package.name: "fuse"
   original.package.category: "sys-fs"
   original.package.version: "2.9.8"

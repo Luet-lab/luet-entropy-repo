@@ -2,7 +2,7 @@ category: app-eselect
 license: GPL-2+
 name: eselect-ctags
 requires:
-- Labels: null
+- labels: null
   category: app-admin
   name: eselect
   version: '>=1.2.3'
@@ -13,7 +13,7 @@ use_flags:
 - userland_GNU
 - abi_x86_64
 version: 1.18+3
-Labels:
+labels:
   original.package.name: "eselect-ctags"
   original.package.category: "app-eselect"
   original.package.version: "1.18"

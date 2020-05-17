@@ -2,19 +2,19 @@ category: dev-haskell
 license: BSD
 name: network-uri
 requires:
-- Labels: null
+- labels: null
   category: dev-haskell
   name: parsec
   version: <3.2
-- Labels: null
+- labels: null
   category: dev-haskell
   name: cabal
   version: '>=1.10'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: parsec
   version: '>=3.0'
-- Labels: null
+- labels: null
   category: dev-lang
   name: ghc
   version: '>=7.4.1'
@@ -30,7 +30,7 @@ use_flags:
 - big-endian
 - kernel_linux
 version: 2.6.1.0+1
-Labels:
+labels:
   original.package.name: "network-uri"
   original.package.category: "dev-haskell"
   original.package.version: "2.6.1.0"

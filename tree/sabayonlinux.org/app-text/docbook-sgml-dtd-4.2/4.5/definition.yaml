@@ -1,18 +1,18 @@
-Labels:
+labels:
   original.package.version: "4.5"
 category: app-text
 license: as-is
 name: docbook-sgml-dtd-4.2
 requires:
-- Labels: null
+- labels: null
   category: app-arch
   name: unzip
   version: '>=5.41'
-- Labels: null
+- labels: null
   category: app-text
   name: sgml-common
   version: '>=0.6.3'
-- Labels: null
+- labels: null
   category: app-text
   name: sgml-common
   version: '>=0'
@@ -23,7 +23,7 @@ use_flags:
 - kernel_linux
 - amd64
 version: "4.5"
-Labels:
+labels:
   original.package.name: "docbook-sgml-dtd"
   original.package.category: "app-text"
   original.package.version: "4.2"

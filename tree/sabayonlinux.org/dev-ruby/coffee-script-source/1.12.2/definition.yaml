@@ -2,7 +2,7 @@ category: dev-ruby
 license: MIT
 name: coffee-script-source
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: ruby-2.5
   version: '>=0'
@@ -19,7 +19,7 @@ use_flags:
 - -ruby_targets_ruby26
 - amd64
 version: 1.12.2+3
-Labels:
+labels:
   original.package.name: "coffee-script-source"
   original.package.category: "dev-ruby"
   original.package.version: "1.12.2"

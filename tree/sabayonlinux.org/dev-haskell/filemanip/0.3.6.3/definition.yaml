@@ -2,19 +2,19 @@ category: dev-haskell
 license: BSD
 name: filemanip
 requires:
-- Labels: null
+- labels: null
   category: dev-haskell
   name: cabal
   version: '>=1.6'
-- Labels: null
+- labels: null
   category: dev-lang
   name: ghc
   version: '>=7.4.1'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: mtl
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: unix-compat
   version: '>=0'
@@ -29,7 +29,7 @@ use_flags:
 - -hscolour
 - userland_GNU
 version: 0.3.6.3+1
-Labels:
+labels:
   original.package.name: "filemanip"
   original.package.category: "dev-haskell"
   original.package.version: "0.3.6.3"

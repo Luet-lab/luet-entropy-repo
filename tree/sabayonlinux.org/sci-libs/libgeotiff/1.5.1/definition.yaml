@@ -2,27 +2,27 @@ category: sci-libs
 license: GPL-2
 name: libgeotiff
 requires:
-- Labels: null
+- labels: null
   category: media-libs
   name: tiff
   version: '>=3.9.1'
-- Labels: null
+- labels: null
   category: sci-libs
   name: proj
   version: '>=6.0.0'
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- Labels: null
+- labels: null
   category: sys-devel
   name: automake-1.15
   version: '>=1.15.1'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.4'
-- Labels: null
+- labels: null
   category: sys-libs
   name: zlib
   version: '>=0'
@@ -38,7 +38,7 @@ use_flags:
 - kernel_linux
 - big-endian
 version: 1.5.1+r2
-Labels:
+labels:
   original.package.name: "libgeotiff"
   original.package.category: "sci-libs"
   original.package.version: "1.5.1"

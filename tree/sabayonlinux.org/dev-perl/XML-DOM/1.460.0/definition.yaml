@@ -2,19 +2,19 @@ category: dev-perl
 license: Artistic GPL-1+
 name: XML-DOM
 requires:
-- Labels: null
+- labels: null
   category: dev-perl
   name: XML-Parser
   version: '>=2.300.0'
-- Labels: null
+- labels: null
   category: dev-lang
   name: perl
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-perl
   name: XML-RegExp
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-perl
   name: libwww-perl
   version: '>=0'
@@ -28,7 +28,7 @@ use_flags:
 - abi_x86_64
 - elibc_glibc
 version: 1.460.0+r4
-Labels:
+labels:
   original.package.name: "XML-DOM"
   original.package.category: "dev-perl"
   original.package.version: "1.460.0"

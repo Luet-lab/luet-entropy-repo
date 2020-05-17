@@ -2,83 +2,83 @@ category: net-dns
 license: LGPL-2.1
 name: avahi-base
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-exec-2
   version: '>=2'
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- Labels: null
+- labels: null
   category: sys-devel
   name: automake-1.15
   version: '>=1.15.1'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.4'
-- Labels: null
+- labels: null
   category: acct-group
   name: avahi
   version: '>=0'
-- Labels: null
+- labels: null
   category: acct-group
   name: avahi-autoipd
   version: '>=0'
-- Labels: null
+- labels: null
   category: acct-group
   name: netdev
   version: '>=0'
-- Labels: null
+- labels: null
   category: acct-user
   name: avahi
   version: '>=0'
-- Labels: null
+- labels: null
   category: acct-user
   name: avahi-autoipd
   version: '>=0'
-- Labels: null
+- labels: null
   category: app-doc
   name: xmltoman
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-3.6
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: expat
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: glib-2
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: gobject-introspection
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: libdaemon
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-python
   name: dbus-python
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-python
   name: pygobject-base-3
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-apps
   name: dbus
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-libs
   name: gdbm
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-libs
   name: libcap
   version: '>=0'
@@ -115,7 +115,7 @@ use_flags:
 - -abi_riscv_lp64d
 - -doc
 version: 0.7+r7
-Labels:
+labels:
   original.package.name: "avahi-base"
   original.package.category: "net-dns"
   original.package.version: "0.7"

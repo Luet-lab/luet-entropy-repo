@@ -2,11 +2,11 @@ category: dev-haskell
 license: BSD
 name: html
 requires:
-- Labels: null
+- labels: null
   category: dev-haskell
   name: cabal
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-lang
   name: ghc
   version: '>=6.10.4'
@@ -21,7 +21,7 @@ use_flags:
 - big-endian
 - kernel_linux
 version: 1.0.1.2+r2
-Labels:
+labels:
   original.package.name: "html"
   original.package.category: "dev-haskell"
   original.package.version: "1.0.1.2"

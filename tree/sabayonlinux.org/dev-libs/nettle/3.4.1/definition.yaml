@@ -2,19 +2,19 @@ category: dev-libs
 license: LGPL-2.1 LGPL-3
 name: nettle
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: gmp
   version: '>=6.0'
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- Labels: null
+- labels: null
   category: sys-devel
   name: automake-1.15
   version: '>=1.15.1'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.4'
@@ -42,7 +42,7 @@ use_flags:
 - -abi_riscv_lp64d
 - -doc
 version: 3.4.1+4
-Labels:
+labels:
   original.package.name: "nettle"
   original.package.category: "dev-libs"
   original.package.version: "3.4.1"

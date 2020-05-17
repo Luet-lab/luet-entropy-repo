@@ -2,63 +2,63 @@ category: gnome-base
 license: GPL-2 LGPL-2
 name: gnome-vfs-2
 requires:
-- Labels: null
+- labels: null
   category: app-arch
   name: bzip2
   version: '>=1.0.6'
-- Labels: null
+- labels: null
   category: dev-libs
   name: dbus-glib
   version: '>=0.100.2'
-- Labels: null
+- labels: null
   category: dev-libs
   name: glib-2
   version: '>=2.34.3'
-- Labels: null
+- labels: null
   category: dev-libs
   name: libxml2-2
   version: '>=2.9.1'
-- Labels: null
+- labels: null
   category: dev-util
   name: gtk-doc-am
   version: '>=1.13'
-- Labels: null
+- labels: null
   category: gnome-base
   name: gconf-2
   version: '>=2.32.4'
-- Labels: null
+- labels: null
   category: net-dns
   name: avahi-gtk3
   version: '>=0.6.31'
-- Labels: null
+- labels: null
   category: net-libs
   name: gnutls
   version: '>=2.12.23'
-- Labels: null
+- labels: null
   category: sys-apps
   name: acl
   version: '>=2.2.52'
-- Labels: null
+- labels: null
   category: sys-apps
   name: attr
   version: '>=2.4.47'
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- Labels: null
+- labels: null
   category: sys-devel
   name: automake-1.15
   version: '>=1.15.1'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.4'
-- Labels: null
+- labels: null
   category: gnome-base
   name: gnome-common-3
   version: '>=0'
-- Labels: null
+- labels: null
   category: gnome-base
   name: gnome-mime-data
   version: '>=0'
@@ -89,7 +89,7 @@ use_flags:
 - kerberos
 - zeroconf
 version: 2.24.4+r9
-Labels:
+labels:
   original.package.name: "gnome-vfs"
   original.package.category: "gnome-base"
   original.package.version: "2.24.4"

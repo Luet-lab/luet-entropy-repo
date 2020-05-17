@@ -2,35 +2,35 @@ category: kde-frameworks
 license: LGPL-2+
 name: kactivities-stats-5
 requires:
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: kactivities-5
   version: '>=5.67'
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: kconfig-5
   version: '>=5.67'
-- Labels: null
+- labels: null
   category: dev-libs
   name: boost
   version: '>=1.54'
-- Labels: null
+- labels: null
   category: dev-qt
   name: qtdbus-5
   version: '>=5.12.3'
-- Labels: null
+- labels: null
   category: dev-qt
   name: qtsql-5
   version: '>=5.12.3'
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: extra-cmake-modules-5
   version: '>=5.67'
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: kf-env-5
   version: '>=4'
-- Labels: null
+- labels: null
   category: dev-qt
   name: qtcore-5
   version: '>=0'
@@ -46,7 +46,7 @@ use_flags:
 - kernel_linux
 - split-usr
 version: "5.69.0"
-Labels:
+labels:
   original.package.name: "kactivities-stats"
   original.package.category: "kde-frameworks"
   original.package.version: "5.67.0"

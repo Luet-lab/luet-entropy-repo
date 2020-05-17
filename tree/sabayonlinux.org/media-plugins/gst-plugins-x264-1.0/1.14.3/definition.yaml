@@ -2,19 +2,19 @@ category: media-plugins
 license: GPL-2
 name: gst-plugins-x264-1.0
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: glib-2
   version: '>=2.38.2'
-- Labels: null
+- labels: null
   category: media-libs
   name: gst-plugins-ugly-1.0
   version: '>=1.14.3'
-- Labels: null
+- labels: null
   category: media-libs
   name: gstreamer-1.0
   version: '>=1.2.4'
-- Labels: null
+- labels: null
   category: media-libs
   name: x264
   version: '>=0.0.20130506'
@@ -36,7 +36,7 @@ use_flags:
 - -abi_riscv_lp64
 - userland_GNU
 version: 1.14.3+4
-Labels:
+labels:
   original.package.name: "gst-plugins-x264"
   original.package.category: "media-plugins"
   original.package.version: "1.14.3"

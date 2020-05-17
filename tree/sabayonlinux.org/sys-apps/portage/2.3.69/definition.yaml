@@ -2,79 +2,79 @@ category: sys-apps
 license: GPL-2
 name: portage
 requires:
-- Labels: null
+- labels: null
   category: app-admin
   name: eselect
   version: '>=1.2'
-- Labels: null
+- labels: null
   category: app-arch
   name: tar
   version: '>=1.27'
-- Labels: null
+- labels: null
   category: app-crypt
   name: gnupg
   version: '>=2.2.4'
-- Labels: null
+- labels: null
   category: app-crypt
   name: openpgp-keys-gentoo-release
   version: '>=20180706'
-- Labels: null
+- labels: null
   category: app-misc
   name: pax-utils
   version: '>=0.1.17'
-- Labels: null
+- labels: null
   category: app-portage
   name: gemato
   version: '>=14'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-2.7
   version: '>=2.7.5'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-exec-2
   version: '>=2'
-- Labels: null
+- labels: null
   category: net-misc
   name: rsync
   version: '>=2.6.4'
-- Labels: null
+- labels: null
   category: sys-apps
   name: coreutils
   version: '>=6.4'
-- Labels: null
+- labels: null
   category: sys-apps
   name: install-xattr
   version: '>=0.3'
-- Labels: null
+- labels: null
   category: sys-apps
   name: sandbox
   version: '>=2.2'
-- Labels: null
+- labels: null
   category: app-shells
   name: bash
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-3.6
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-exec-2
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-python
   name: pyblake2
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-python
   name: pyxattr
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-apps
   name: util-linux
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-devel
   name: patch
   version: '>=0'
@@ -101,7 +101,7 @@ use_flags:
 - userland_GNU
 - -doc
 version: 2.3.69+3
-Labels:
+labels:
   original.package.name: "portage"
   original.package.category: "sys-apps"
   original.package.version: "2.3.69"

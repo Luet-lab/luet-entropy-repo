@@ -2,7 +2,7 @@ category: dev-perl
 license: CC0-1.0
 name: Unicode-EastAsianWidth
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: perl
   version: '>=0'
@@ -15,7 +15,7 @@ use_flags:
 - kernel_linux
 - userland_GNU
 version: 1.330.0+r4
-Labels:
+labels:
   original.package.name: "Unicode-EastAsianWidth"
   original.package.category: "dev-perl"
   original.package.version: "1.330.0"

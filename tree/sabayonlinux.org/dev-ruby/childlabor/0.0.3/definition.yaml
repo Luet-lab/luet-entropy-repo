@@ -2,7 +2,7 @@ category: dev-ruby
 license: MIT
 name: childlabor
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: ruby-2.5
   version: '>=0'
@@ -19,7 +19,7 @@ use_flags:
 - ruby_targets_ruby25
 - userland_GNU
 version: 0.0.3+r4
-Labels:
+labels:
   original.package.name: "childlabor"
   original.package.category: "dev-ruby"
   original.package.version: "0.0.3"

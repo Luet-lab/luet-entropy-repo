@@ -2,7 +2,7 @@ category: dev-perl
 license: Artistic GPL-1+
 name: Sort-Versions
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: perl
   version: '>=0'
@@ -16,7 +16,7 @@ use_flags:
 - amd64
 - abi_x86_64
 version: 1.620.0+3
-Labels:
+labels:
   original.package.name: "Sort-Versions"
   original.package.category: "dev-perl"
   original.package.version: "1.620.0"

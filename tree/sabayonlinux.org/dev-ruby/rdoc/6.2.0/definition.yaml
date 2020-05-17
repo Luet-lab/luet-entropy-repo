@@ -2,23 +2,23 @@ category: dev-ruby
 license: MIT Ruby
 name: rdoc
 requires:
-- Labels: null
+- labels: null
   category: app-eselect
   name: eselect-ruby
   version: '>=20181225'
-- Labels: null
+- labels: null
   category: dev-ruby
   name: kpeg-1
   version: '>=1.1.0'
-- Labels: null
+- labels: null
   category: dev-ruby
   name: racc
   version: '>1.4.10'
-- Labels: null
+- labels: null
   category: dev-lang
   name: ruby-2.5
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-ruby
   name: rake
   version: '>=0'
@@ -37,7 +37,7 @@ use_flags:
 - kernel_linux
 - userland_GNU
 version: 6.2.0+3
-Labels:
+labels:
   original.package.name: "rdoc"
   original.package.category: "dev-ruby"
   original.package.version: "6.2.0"

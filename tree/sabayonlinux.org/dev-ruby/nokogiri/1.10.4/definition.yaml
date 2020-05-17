@@ -2,31 +2,31 @@ category: dev-ruby
 license: MIT
 name: nokogiri
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: libxml2-2
   version: '>=2.9.9'
-- Labels: null
+- labels: null
   category: dev-libs
   name: libxslt
   version: '>=1.1.33'
-- Labels: null
+- labels: null
   category: dev-ruby
   name: pkg-config
   version: '>=1.1.7'
-- Labels: null
+- labels: null
   category: dev-ruby
   name: rexical
   version: '>=1.0.7'
-- Labels: null
+- labels: null
   category: dev-lang
   name: ruby-2.5
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-ruby
   name: racc
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-ruby
   name: rdoc
   version: '>=0'
@@ -45,7 +45,7 @@ use_flags:
 - split-usr
 - ruby_targets_ruby25
 version: 1.10.4+3
-Labels:
+labels:
   original.package.name: "nokogiri"
   original.package.category: "dev-ruby"
   original.package.version: "1.10.4"

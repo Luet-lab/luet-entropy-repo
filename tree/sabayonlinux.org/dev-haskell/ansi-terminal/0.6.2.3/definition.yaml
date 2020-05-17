@@ -2,11 +2,11 @@ category: dev-haskell
 license: BSD
 name: ansi-terminal
 requires:
-- Labels: null
+- labels: null
   category: dev-haskell
   name: cabal
   version: '>=1.6'
-- Labels: null
+- labels: null
   category: dev-lang
   name: ghc
   version: '>=7.4.1'
@@ -22,7 +22,7 @@ use_flags:
 - abi_x86_64
 - elibc_glibc
 version: 0.6.2.3+1
-Labels:
+labels:
   original.package.name: "ansi-terminal"
   original.package.category: "dev-haskell"
   original.package.version: "0.6.2.3"

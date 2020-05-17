@@ -2,19 +2,19 @@ category: app-xemacs
 license: GPL-2+
 name: mule-base
 requires:
-- Labels: null
+- labels: null
   category: app-editors
   name: xemacs
   version: '>=0'
-- Labels: null
+- labels: null
   category: app-xemacs
   name: apel
   version: '>=0'
-- Labels: null
+- labels: null
   category: app-xemacs
   name: fsf-compat
   version: '>=0'
-- Labels: null
+- labels: null
   category: app-xemacs
   name: xemacs-base
   version: '>=0'
@@ -26,7 +26,7 @@ use_flags:
 - big-endian
 - kernel_linux
 version: 1.60+3
-Labels:
+labels:
   original.package.name: "mule-base"
   original.package.category: "app-xemacs"
   original.package.version: "1.60"

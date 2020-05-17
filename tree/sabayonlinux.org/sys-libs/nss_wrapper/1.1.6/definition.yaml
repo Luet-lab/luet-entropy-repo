@@ -2,7 +2,7 @@ category: sys-libs
 license: BSD
 name: nss_wrapper
 requires:
-- Labels: null
+- labels: null
   category: sys-devel
   name: make
   version: '>=0'
@@ -25,7 +25,7 @@ use_flags:
 - -abi_riscv_lp64
 - userland_GNU
 version: 1.1.6+1
-Labels:
+labels:
   original.package.name: "nss_wrapper"
   original.package.category: "sys-libs"
   original.package.version: "1.1.6"

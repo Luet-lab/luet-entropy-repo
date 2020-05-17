@@ -2,11 +2,11 @@ category: app-eselect
 license: GPL-2
 name: eselect-fontconfig
 requires:
-- Labels: null
+- labels: null
   category: app-admin
   name: eselect
   version: '>=1.2.3'
-- Labels: null
+- labels: null
   category: media-libs
   name: fontconfig-1.0
   version: '>=2.4'
@@ -18,7 +18,7 @@ use_flags:
 - big-endian
 - abi_x86_64
 version: 1.1+r4
-Labels:
+labels:
   original.package.name: "eselect-fontconfig"
   original.package.category: "app-eselect"
   original.package.version: "1.1"

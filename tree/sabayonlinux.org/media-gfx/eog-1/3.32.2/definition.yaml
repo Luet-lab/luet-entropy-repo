@@ -2,55 +2,55 @@ category: media-gfx
 license: GPL-2+
 name: eog-1
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: glib-2
   version: '>=2.53.4'
-- Labels: null
+- labels: null
   category: dev-libs
   name: gobject-introspection
   version: '>=1.54'
-- Labels: null
+- labels: null
   category: dev-libs
   name: libpeas
   version: '>=0.7.4'
-- Labels: null
+- labels: null
   category: gnome-base
   name: gnome-desktop-3
   version: '>=2.91.2'
-- Labels: null
+- labels: null
   category: gnome-base
   name: gsettings-desktop-schemas
   version: '>=2.91.92'
-- Labels: null
+- labels: null
   category: gnome-base
   name: librsvg-2
   version: '>=2.36.2'
-- Labels: null
+- labels: null
   category: media-libs
   name: libexif
   version: '>=0.6.14'
-- Labels: null
+- labels: null
   category: x11-libs
   name: gdk-pixbuf-2
   version: '>=2.36.5'
-- Labels: null
+- labels: null
   category: x11-libs
   name: gtk+-3
   version: '>=3.22.0'
-- Labels: null
+- labels: null
   category: dev-util
   name: itstool
   version: '>=0'
-- Labels: null
+- labels: null
   category: media-libs
   name: lcms-2
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-libs
   name: zlib
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libX11
   version: '>=0'
@@ -71,7 +71,7 @@ use_flags:
 - tiff
 - kernel_linux
 version: 3.32.2+1
-Labels:
+labels:
   original.package.name: "eog"
   original.package.category: "media-gfx"
   original.package.version: "3.32.2"

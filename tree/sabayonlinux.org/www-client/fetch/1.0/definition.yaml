@@ -2,7 +2,7 @@ category: www-client
 license: LGPL-2.1
 name: fetch
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: http-fetcher
   version: '>=0'
@@ -13,7 +13,7 @@ use_flags:
 - elibc_glibc
 - userland_GNU
 version: 1.0+r6
-Labels:
+labels:
   original.package.name: "fetch"
   original.package.category: "www-client"
   original.package.version: "1.0"

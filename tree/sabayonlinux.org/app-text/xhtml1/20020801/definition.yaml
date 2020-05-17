@@ -2,15 +2,15 @@ category: app-text
 license: W3C
 name: xhtml1
 requires:
-- Labels: null
+- labels: null
   category: app-text
   name: sgml-common
   version: '>=0.6.3'
-- Labels: null
+- labels: null
   category: app-text
   name: sgml-common
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: libxml2-2
   version: '>=0'
@@ -23,7 +23,7 @@ use_flags:
 - amd64
 - kernel_linux
 version: 20020801+r9
-Labels:
+labels:
   original.package.name: "xhtml1"
   original.package.category: "app-text"
   original.package.version: "20020801"

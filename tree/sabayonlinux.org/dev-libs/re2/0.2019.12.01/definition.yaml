@@ -2,7 +2,7 @@ category: dev-libs
 license: BSD
 name: re2
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: icu
   version: '>=0'
@@ -25,7 +25,7 @@ use_flags:
 - -abi_riscv_lp64
 - userland_GNU
 version: 0.2019.12.01+4
-Labels:
+labels:
   original.package.name: "re2"
   original.package.category: "dev-libs"
   original.package.version: "0.2019.12.01"

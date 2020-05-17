@@ -2,7 +2,7 @@ category: dev-ruby
 license: MIT
 name: bcrypt-ruby
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: ruby-2.5
   version: '>=0'
@@ -19,7 +19,7 @@ use_flags:
 - -ruby_targets_ruby26
 - abi_x86_64
 version: 3.1.13+3
-Labels:
+labels:
   original.package.name: "bcrypt-ruby"
   original.package.category: "dev-ruby"
   original.package.version: "3.1.13"

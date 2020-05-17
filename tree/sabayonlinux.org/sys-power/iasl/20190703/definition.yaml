@@ -2,11 +2,11 @@ category: sys-power
 license: iASL
 name: iasl
 requires:
-- Labels: null
+- labels: null
   category: sys-devel
   name: bison
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-devel
   name: flex
   version: '>=0'
@@ -20,7 +20,7 @@ use_flags:
 - kernel_linux
 - -test
 version: 20190703+3
-Labels:
+labels:
   original.package.name: "iasl"
   original.package.category: "sys-power"
   original.package.version: "20190703"

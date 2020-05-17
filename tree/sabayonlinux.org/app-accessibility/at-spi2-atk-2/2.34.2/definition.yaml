@@ -2,19 +2,19 @@ category: app-accessibility
 license: LGPL-2.1+
 name: at-spi2-atk-2
 requires:
-- Labels: null
+- labels: null
   category: app-accessibility
   name: at-spi2-core-2
   version: '>=2.33.2'
-- Labels: null
+- labels: null
   category: dev-libs
   name: atk
   version: '>=2.33.3'
-- Labels: null
+- labels: null
   category: dev-libs
   name: glib-2
   version: '>=2.32'
-- Labels: null
+- labels: null
   category: sys-apps
   name: dbus
   version: '>=1.5'
@@ -37,7 +37,7 @@ use_flags:
 - -abi_riscv_lp64
 - userland_GNU
 version: "2.34.2"
-Labels:
+labels:
   original.package.name: "at-spi2-atk"
   original.package.category: "app-accessibility"
   original.package.version: "2.34.2"

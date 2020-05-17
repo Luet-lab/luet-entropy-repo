@@ -2,15 +2,15 @@ category: dev-haskell
 license: MIT
 name: hslua
 requires:
-- Labels: null
+- labels: null
   category: dev-haskell
   name: cabal
   version: '>=1.8'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: mtl
   version: '>=2.1'
-- Labels: null
+- labels: null
   category: dev-lang
   name: ghc
   version: '>=7.4.1'
@@ -28,7 +28,7 @@ use_flags:
 - elibc_glibc
 - big-endian
 version: 0.3.13+1
-Labels:
+labels:
   original.package.name: "hslua"
   original.package.category: "dev-haskell"
   original.package.version: "0.3.13"

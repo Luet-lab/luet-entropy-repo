@@ -2,11 +2,11 @@ category: sys-libs
 license: Apache-2.0-with-LLVM-exceptions MIT UoI-NCSA
 name: libcxx
 requires:
-- Labels: null
+- labels: null
   category: sys-devel
   name: llvm-9
   version: '>=6'
-- Labels: null
+- labels: null
   category: sys-libs
   name: libcxxabi
   version: '>=9.0.1'
@@ -34,7 +34,7 @@ use_flags:
 - -elibc_musl
 - -libunwind
 version: 9.0.1+4
-Labels:
+labels:
   original.package.name: "libcxx"
   original.package.category: "sys-libs"
   original.package.version: "9.0.1"

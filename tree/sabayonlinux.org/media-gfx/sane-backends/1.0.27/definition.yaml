@@ -2,19 +2,19 @@ category: media-gfx
 license: GPL-2 public-domain
 name: sane-backends
 requires:
-- Labels: null
+- labels: null
   category: media-libs
   name: libgphoto2
   version: '>=2.5.3.1'
-- Labels: null
+- labels: null
   category: media-libs
   name: tiff
   version: '>=3.9.7'
-- Labels: null
+- labels: null
   category: net-dns
   name: avahi-gtk3
   version: '>=0.6.31'
-- Labels: null
+- labels: null
   category: sys-apps
   name: systemd
   version: '>=0'
@@ -129,7 +129,7 @@ use_flags:
 - sane_backends_hp
 - -xinetd
 version: 1.0.27+r7
-Labels:
+labels:
   original.package.name: "sane-backends"
   original.package.category: "media-gfx"
   original.package.version: "1.0.27"

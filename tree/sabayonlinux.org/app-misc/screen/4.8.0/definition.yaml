@@ -2,31 +2,31 @@ category: app-misc
 license: GPL-2
 name: screen
 requires:
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- Labels: null
+- labels: null
   category: sys-devel
   name: automake-1.15
   version: '>=1.15.1'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.4'
-- Labels: null
+- labels: null
   category: sys-libs
   name: ncurses
   version: '>=5.2'
-- Labels: null
+- labels: null
   category: acct-group
   name: utmp
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-apps
   name: texinfo
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-libs
   name: pam
   version: '>=0'
@@ -44,7 +44,7 @@ use_flags:
 - split-usr
 - -nethack
 version: 4.8.0+3
-Labels:
+labels:
   original.package.name: "screen"
   original.package.category: "app-misc"
   original.package.version: "4.8.0"

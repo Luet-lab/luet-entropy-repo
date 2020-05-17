@@ -2,31 +2,31 @@ category: gnome-extra
 license: GPL-3+
 name: mousetweaks
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: glib-2
   version: '>=2.25.9'
-- Labels: null
+- labels: null
   category: gnome-base
   name: gsettings-desktop-schemas
   version: '>=0.1'
-- Labels: null
+- labels: null
   category: x11-libs
   name: gtk+-3
   version: '>=3'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libX11
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libXcursor
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libXfixes
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libXtst
   version: '>=0'
@@ -39,7 +39,7 @@ use_flags:
 - split-usr
 - amd64
 version: 3.32.0+3
-Labels:
+labels:
   original.package.name: "mousetweaks"
   original.package.category: "gnome-extra"
   original.package.version: "3.32.0"

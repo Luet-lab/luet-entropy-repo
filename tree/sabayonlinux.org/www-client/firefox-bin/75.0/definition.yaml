@@ -2,91 +2,91 @@ category: www-client
 license: GPL-2 LGPL-2.1 MPL-2.0
 name: firefox-bin
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: dbus-glib
   version: '>=0.72'
-- Labels: null
+- labels: null
   category: dev-libs
   name: glib-2
   version: '>=2.26'
-- Labels: null
+- labels: null
   category: media-libs
   name: freetype-2
   version: '>=2.4.10'
-- Labels: null
+- labels: null
   category: sys-apps
   name: dbus
   version: '>=0.60'
-- Labels: null
+- labels: null
   category: x11-libs
   name: cairo
   version: '>=1.10'
-- Labels: null
+- labels: null
   category: x11-libs
   name: gtk+-3
   version: '>=2.18'
-- Labels: null
+- labels: null
   category: x11-libs
   name: gtk+-3
   version: '>=3.4.0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: pango
   version: '>=1.22.0'
-- Labels: null
+- labels: null
   category: app-arch
   name: unzip
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: atk
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: nss
   version: '>=0'
-- Labels: null
+- labels: null
   category: media-libs
   name: fontconfig-1.0
   version: '>=0'
-- Labels: null
+- labels: null
   category: media-sound
   name: pulseaudio
   version: '>=0'
-- Labels: null
+- labels: null
   category: media-video
   name: ffmpeg
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: gdk-pixbuf-2
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libX11
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libXcomposite
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libXdamage
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libXext
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libXfixes
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libXrender
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libXt
   version: '>=0'
@@ -195,7 +195,7 @@ use_flags:
 - -l10n_es-MX
 - -l10n_en-CA
 version: "75.0"
-Labels:
+labels:
   original.package.name: "firefox-bin"
   original.package.category: "www-client"
   original.package.version: "74.0"

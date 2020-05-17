@@ -2,15 +2,15 @@ category: dev-python
 license: Apache-2.0
 name: sortedcontainers
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-2.7
   version: '>=2.7.5'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-exec-2
   version: '>=2'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-3.6
   version: '>=0'
@@ -27,7 +27,7 @@ use_flags:
 - kernel_linux
 - -test
 version: "2.1.0"
-Labels:
+labels:
   original.package.name: "sortedcontainers"
   original.package.category: "dev-python"
   original.package.version: "1.5.7"

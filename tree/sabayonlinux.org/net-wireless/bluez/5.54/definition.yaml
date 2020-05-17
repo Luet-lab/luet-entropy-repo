@@ -2,39 +2,39 @@ category: net-wireless
 license: GPL-2+ LGPL-2.1+
 name: bluez
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: ell
   version: '>=0.26'
-- Labels: null
+- labels: null
   category: dev-libs
   name: glib-2
   version: '>=2.28'
-- Labels: null
+- labels: null
   category: sys-apps
   name: dbus
   version: '>=1.6'
-- Labels: null
+- labels: null
   category: sys-apps
   name: hwids
   version: '>=20121202.2'
-- Labels: null
+- labels: null
   category: dev-libs
   name: json-c
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: libical
   version: '>=0'
-- Labels: null
+- labels: null
   category: net-print
   name: cups
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-apps
   name: systemd
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-libs
   name: readline
   version: '>=0'
@@ -74,7 +74,7 @@ use_flags:
 - -test-programs
 - user-session
 version: "5.54"
-Labels:
+labels:
   original.package.name: "bluez"
   original.package.category: "net-wireless"
   original.package.version: "5.52"

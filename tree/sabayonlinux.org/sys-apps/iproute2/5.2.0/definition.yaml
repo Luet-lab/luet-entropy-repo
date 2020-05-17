@@ -2,31 +2,31 @@ category: sys-apps
 license: GPL-2
 name: iproute2
 requires:
-- Labels: null
+- labels: null
   category: net-firewall
   name: iptables
   version: '>=1.4.20'
-- Labels: null
+- labels: null
   category: sys-devel
   name: bison
   version: '>=2.4'
-- Labels: null
+- labels: null
   category: dev-libs
   name: libbsd
   version: '>=0'
-- Labels: null
+- labels: null
   category: net-libs
   name: libmnl
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-devel
   name: flex
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-libs
   name: db-6.0
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-libs
   name: libcap
   version: '>=0'
@@ -47,7 +47,7 @@ use_flags:
 - -minimal
 - userland_GNU
 version: 5.2.0+r4
-Labels:
+labels:
   original.package.name: "iproute2"
   original.package.category: "sys-apps"
   original.package.version: "5.2.0"

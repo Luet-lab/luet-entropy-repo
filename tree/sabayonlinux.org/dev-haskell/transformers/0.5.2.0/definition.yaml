@@ -2,11 +2,11 @@ category: dev-haskell
 license: BSD
 name: transformers
 requires:
-- Labels: null
+- labels: null
   category: dev-haskell
   name: cabal
   version: '>=1.6'
-- Labels: null
+- labels: null
   category: dev-lang
   name: ghc
   version: '>=7.4.1'
@@ -21,7 +21,7 @@ use_flags:
 - -profile
 - big-endian
 version: 0.5.2.0+1
-Labels:
+labels:
   original.package.name: "transformers"
   original.package.category: "dev-haskell"
   original.package.version: "0.5.2.0"

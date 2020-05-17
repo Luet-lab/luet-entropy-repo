@@ -2,15 +2,15 @@ category: media-gfx
 license: Apache-2.0
 name: scour
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-exec-2
   version: '>=2'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-3.6
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-python
   name: six
   version: '>=0'
@@ -25,7 +25,7 @@ use_flags:
 - amd64
 - -python_targets_python3_7
 version: 0.37+3
-Labels:
+labels:
   original.package.name: "scour"
   original.package.category: "media-gfx"
   original.package.version: "0.37"

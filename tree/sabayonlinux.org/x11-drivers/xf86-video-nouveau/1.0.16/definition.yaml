@@ -2,19 +2,19 @@ category: x11-drivers
 license: MIT
 name: xf86-video-nouveau
 requires:
-- Labels: null
+- labels: null
   category: x11-libs
   name: libdrm
   version: '>=2.4.60'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libpciaccess
   version: '>=0.10'
-- Labels: null
+- labels: null
   category: x11-base
   name: xorg-server
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libpciaccess
   version: '>=0'
@@ -27,7 +27,7 @@ use_flags:
 - kernel_linux
 - big-endian
 version: 1.0.16+4
-Labels:
+labels:
   original.package.name: "xf86-video-nouveau"
   original.package.category: "x11-drivers"
   original.package.version: "1.0.16"

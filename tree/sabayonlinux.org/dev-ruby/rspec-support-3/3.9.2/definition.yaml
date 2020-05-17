@@ -2,7 +2,7 @@ category: dev-ruby
 license: MIT
 name: rspec-support-3
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: ruby-2.5
   version: '>=0'
@@ -21,7 +21,7 @@ use_flags:
 - ruby_targets_ruby25
 - -ruby_targets_ruby26
 version: 3.9.2+3
-Labels:
+labels:
   original.package.name: "rspec-support"
   original.package.category: "dev-ruby"
   original.package.version: "3.9.2"

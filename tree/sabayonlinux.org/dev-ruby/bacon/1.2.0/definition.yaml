@@ -2,7 +2,7 @@ category: dev-ruby
 license: MIT
 name: bacon
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: ruby-2.5
   version: '>=0'
@@ -21,7 +21,7 @@ use_flags:
 - -ruby_targets_ruby27
 - -test
 version: 1.2.0+r5
-Labels:
+labels:
   original.package.name: "bacon"
   original.package.category: "dev-ruby"
   original.package.version: "1.2.0"

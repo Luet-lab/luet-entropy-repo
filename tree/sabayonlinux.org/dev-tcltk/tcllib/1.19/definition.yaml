@@ -2,11 +2,11 @@ category: dev-tcltk
 license: BSD
 name: tcllib
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: tcl
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-tcltk
   name: tdom
   version: '>=0'
@@ -20,7 +20,7 @@ use_flags:
 - big-endian
 - elibc_glibc
 version: 1.19+3
-Labels:
+labels:
   original.package.name: "tcllib"
   original.package.category: "dev-tcltk"
   original.package.version: "1.19"

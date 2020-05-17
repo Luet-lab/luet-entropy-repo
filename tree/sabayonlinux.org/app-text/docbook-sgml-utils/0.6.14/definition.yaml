@@ -2,71 +2,71 @@ category: app-text
 license: GPL-2
 name: docbook-sgml-utils
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: perl
   version: '>=5'
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- Labels: null
+- labels: null
   category: sys-devel
   name: automake-1.15
   version: '>=1.15.1'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.4'
-- Labels: null
+- labels: null
   category: app-text
   name: docbook-dsssl-stylesheets
   version: '>=0'
-- Labels: null
+- labels: null
   category: app-text
   name: docbook-xml-dtd-4.5
   version: '>=0'
-- Labels: null
+- labels: null
   category: app-text
   name: openjade
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-perl
   name: SGMLSpm
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-apps
   name: which
   version: '>=0'
-- Labels: null
+- labels: null
   category: app-text
   name: docbook-sgml-dtd-4.5
   version: '>=3.0'
-- Labels: null
+- labels: null
   category: app-text
   name: docbook-sgml-dtd-4.5
   version: '>=3.1'
-- Labels: null
+- labels: null
   category: app-text
   name: docbook-sgml-dtd-4.5
   version: '>=4.0'
-- Labels: null
+- labels: null
   category: app-text
   name: docbook-sgml-dtd-4.5
   version: '>=4.1'
-- Labels: null
+- labels: null
   category: app-text
   name: docbook-sgml-dtd-4.5
   version: '>=4.2'
-- Labels: null
+- labels: null
   category: app-text
   name: docbook-sgml-dtd-4.4
   version: '>=4.4'
-- Labels: null
+- labels: null
   category: app-text
   name: docbook-xml-simple-dtd-4.1.2.4
   version: '>=1.0'
-- Labels: null
+- labels: null
   category: app-text
   name: docbook-xml-simple-dtd-4.1.2.4
   version: '>=4.1.2.4'
@@ -80,7 +80,7 @@ use_flags:
 - -jadetex
 - elibc_glibc
 version: 0.6.14+r6
-Labels:
+labels:
   original.package.name: "docbook-sgml-utils"
   original.package.category: "app-text"
   original.package.version: "0.6.14"

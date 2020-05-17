@@ -2,11 +2,11 @@ category: kde-frameworks
 license: LGPL-3
 name: oxygen-icons-5
 requires:
-- Labels: null
+- labels: null
   category: dev-qt
   name: qtcore-5
   version: '>=5.12.3'
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: extra-cmake-modules-5
   version: '>=5.67'
@@ -20,7 +20,7 @@ use_flags:
 - kernel_linux
 - big-endian
 version: "5.69.0"
-Labels:
+labels:
   original.package.name: "oxygen-icons"
   original.package.category: "kde-frameworks"
   original.package.version: "5.67.0"

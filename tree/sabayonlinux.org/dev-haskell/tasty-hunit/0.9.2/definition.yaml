@@ -2,15 +2,15 @@ category: dev-haskell
 license: MIT
 name: tasty-hunit
 requires:
-- Labels: null
+- labels: null
   category: dev-haskell
   name: cabal
   version: '>=1.10'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: tasty
   version: '>=0.8'
-- Labels: null
+- labels: null
   category: dev-lang
   name: ghc
   version: '>=7.4.1'
@@ -25,7 +25,7 @@ use_flags:
 - -hscolour
 - userland_GNU
 version: 0.9.2+1
-Labels:
+labels:
   original.package.name: "tasty-hunit"
   original.package.category: "dev-haskell"
   original.package.version: "0.9.2"

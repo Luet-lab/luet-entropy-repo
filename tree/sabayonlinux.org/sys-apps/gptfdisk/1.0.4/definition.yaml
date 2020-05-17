@@ -2,15 +2,15 @@ category: sys-apps
 license: GPL-2
 name: gptfdisk
 requires:
-- Labels: null
+- labels: null
   category: sys-libs
   name: ncurses
   version: '>=5.7'
-- Labels: null
+- labels: null
   category: dev-libs
   name: popt
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-apps
   name: util-linux
   version: '>=0'
@@ -24,7 +24,7 @@ use_flags:
 - -static
 - kernel_linux
 version: 1.0.4+3
-Labels:
+labels:
   original.package.name: "gptfdisk"
   original.package.category: "sys-apps"
   original.package.version: "1.0.4"

@@ -2,11 +2,11 @@ category: dev-ruby
 license: BSD-2
 name: domain_name
 requires:
-- Labels: null
+- labels: null
   category: dev-ruby
   name: unf
   version: '>=0.0.5'
-- Labels: null
+- labels: null
   category: dev-lang
   name: ruby-2.5
   version: '>=0'
@@ -23,7 +23,7 @@ use_flags:
 - amd64
 - big-endian
 version: 0.5.20190701+3
-Labels:
+labels:
   original.package.name: "domain_name"
   original.package.category: "dev-ruby"
   original.package.version: "0.5.20190701"

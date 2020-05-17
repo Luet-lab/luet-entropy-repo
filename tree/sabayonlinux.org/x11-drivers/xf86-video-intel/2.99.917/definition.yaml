@@ -2,83 +2,83 @@ category: x11-drivers
 license: MIT
 name: xf86-video-intel
 requires:
-- Labels: null
+- labels: null
   category: media-fonts
   name: font-util
   version: '>=1.2.0'
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- Labels: null
+- labels: null
   category: sys-devel
   name: automake-1.15
   version: '>=1.15.1'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.2.6a'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.4'
-- Labels: null
+- labels: null
   category: x11-base
   name: xorg-server
   version: '>=1.18'
-- Labels: null
+- labels: null
   category: x11-base
   name: xorg-server
   version: '>=1.20'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libdrm
   version: '>=2.4.52'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libpciaccess
   version: '>=0.14'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libxcb
   version: '>=1.5'
-- Labels: null
+- labels: null
   category: x11-libs
   name: pixman
   version: '>=0.27.1'
-- Labels: null
+- labels: null
   category: x11-misc
   name: util-macros
   version: '>=1.18'
-- Labels: null
+- labels: null
   category: sys-devel
   name: m4
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-base
   name: xorg-server
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libXScrnSaver
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libXext
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libXfixes
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libXvMC
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libdrm
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: xcb-util
   version: '>=0'
@@ -98,7 +98,7 @@ use_flags:
 - uxa
 - kernel_linux
 version: 2.99.917+p20190305
-Labels:
+labels:
   original.package.name: "xf86-video-intel"
   original.package.category: "x11-drivers"
   original.package.version: "2.99.917"

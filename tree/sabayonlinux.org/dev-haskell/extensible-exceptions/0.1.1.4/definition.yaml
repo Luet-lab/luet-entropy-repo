@@ -2,11 +2,11 @@ category: dev-haskell
 license: BSD
 name: extensible-exceptions
 requires:
-- Labels: null
+- labels: null
   category: dev-haskell
   name: cabal
   version: '>=1.2.3'
-- Labels: null
+- labels: null
   category: dev-lang
   name: ghc
   version: '>=6.10.4'
@@ -21,7 +21,7 @@ use_flags:
 - kernel_linux
 - -profile
 version: 0.1.1.4+1
-Labels:
+labels:
   original.package.name: "extensible-exceptions"
   original.package.category: "dev-haskell"
   original.package.version: "0.1.1.4"

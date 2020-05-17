@@ -2,11 +2,11 @@ category: sys-libs
 license: GPL-3 LGPL-3
 name: binutils-libs
 requires:
-- Labels: null
+- labels: null
   category: sys-devel
   name: binutils-config
   version: '>=5'
-- Labels: null
+- labels: null
   category: sys-libs
   name: zlib
   version: '>=0'
@@ -32,7 +32,7 @@ use_flags:
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
 version: 2.32+r5
-Labels:
+labels:
   original.package.name: "binutils-libs"
   original.package.category: "sys-libs"
   original.package.version: "2.32"

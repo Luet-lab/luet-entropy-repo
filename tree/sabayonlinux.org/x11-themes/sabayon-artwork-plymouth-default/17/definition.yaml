@@ -2,11 +2,11 @@ category: x11-themes
 license: CCPL-Attribution-ShareAlike-3.0
 name: sabayon-artwork-plymouth-default
 requires:
-- Labels: null
+- labels: null
   category: sys-apps
   name: findutils
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-themes
   name: sabayon-artwork-plymouth-base
   version: '>=0'
@@ -17,7 +17,7 @@ use_flags:
 - elibc_glibc
 - kernel_linux
 version: 17+1
-Labels:
+labels:
   original.package.name: "sabayon-artwork-plymouth-default"
   original.package.category: "x11-themes"
   original.package.version: "17"

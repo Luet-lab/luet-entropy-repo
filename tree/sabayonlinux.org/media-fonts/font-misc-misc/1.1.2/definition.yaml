@@ -2,39 +2,39 @@ category: media-fonts
 license: MIT
 name: font-misc-misc
 requires:
-- Labels: null
+- labels: null
   category: media-fonts
   name: font-util
   version: '>=1.2.0'
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- Labels: null
+- labels: null
   category: sys-devel
   name: automake-1.15
   version: '>=1.15'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.4'
-- Labels: null
+- labels: null
   category: media-fonts
   name: encodings
   version: '>=0'
-- Labels: null
+- labels: null
   category: media-fonts
   name: font-alias
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-apps
   name: bdftopcf
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-apps
   name: mkfontdir
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-apps
   name: mkfontscale
   version: '>=0'
@@ -48,7 +48,7 @@ use_flags:
 - elibc_glibc
 - abi_x86_64
 version: 1.1.2+r4
-Labels:
+labels:
   original.package.name: "font-misc-misc"
   original.package.category: "media-fonts"
   original.package.version: "1.1.2"

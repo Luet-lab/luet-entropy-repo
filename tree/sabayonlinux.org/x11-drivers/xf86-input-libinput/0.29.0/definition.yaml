@@ -2,11 +2,11 @@ category: x11-drivers
 license: MIT
 name: xf86-input-libinput
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: libinput
   version: '>=1.7.0'
-- Labels: null
+- labels: null
   category: x11-base
   name: xorg-server
   version: '>=1.20'
@@ -19,7 +19,7 @@ use_flags:
 - kernel_linux
 - big-endian
 version: 0.29.0+4
-Labels:
+labels:
   original.package.name: "xf86-input-libinput"
   original.package.category: "x11-drivers"
   original.package.version: "0.29.0"

@@ -2,11 +2,11 @@ category: app-arch
 license: Info-ZIP
 name: unzip
 requires:
-- Labels: null
+- labels: null
   category: app-arch
   name: bzip2
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: libnatspec
   version: '>=0'
@@ -22,7 +22,7 @@ use_flags:
 - bzip2
 - split-usr
 version: 6.0+p28
-Labels:
+labels:
   original.package.name: "unzip"
   original.package.category: "app-arch"
   original.package.version: "6.0"

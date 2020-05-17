@@ -2,15 +2,15 @@ category: dev-python
 license: GPL-3+
 name: ttystatus
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-2.7
   version: '>=2.7.5'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-exec-2
   version: '>=2'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-3.6
   version: '>=0'
@@ -26,7 +26,7 @@ use_flags:
 - big-endian
 - python_targets_python3_6
 version: 0.36+3
-Labels:
+labels:
   original.package.name: "ttystatus"
   original.package.category: "dev-python"
   original.package.version: "0.36"

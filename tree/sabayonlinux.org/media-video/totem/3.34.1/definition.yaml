@@ -1,106 +1,106 @@
-Labels:
+labels:
   original.package.version: "3.34.1"
 category: media-video
 license: GPL-2+ LGPL-2+
 name: totem
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-exec-2
   version: '>=2'
-- Labels: null
+- labels: null
   category: dev-libs
   name: glib-2
   version: '>=2.43.4'
-- Labels: null
+- labels: null
   category: dev-libs
   name: gobject-introspection
   version: '>=1.54'
-- Labels: null
+- labels: null
   category: dev-libs
   name: libpeas
   version: '>=1.1.0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: libxml2-2
   version: '>=2.6'
-- Labels: null
+- labels: null
   category: dev-libs
   name: totem-pl-parser
   version: '>=3.10.1'
-- Labels: null
+- labels: null
   category: dev-python
   name: pygobject-base-3
   version: '>=2.90.3'
-- Labels: null
+- labels: null
   category: media-libs
   name: clutter-1.0
   version: '>=1.17.3'
-- Labels: null
+- labels: null
   category: media-libs
   name: clutter-gst-3.0
   version: '>=2.99.2'
-- Labels: null
+- labels: null
   category: media-libs
   name: clutter-gtk-1.0
   version: '>=1.8.1'
-- Labels: null
+- labels: null
   category: media-libs
   name: grilo-0.3
   version: '>=0.3.0'
-- Labels: null
+- labels: null
   category: media-libs
   name: gst-plugins-base-1.0
   version: '>=1.6.0'
-- Labels: null
+- labels: null
   category: media-libs
   name: gst-plugins-good-1.0
   version: '>=1.6.0'
-- Labels: null
+- labels: null
   category: media-libs
   name: gstreamer-1.0
   version: '>=1.6.0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: cairo
   version: '>=1.14'
-- Labels: null
+- labels: null
   category: x11-libs
   name: gtk+-3
   version: '>=3.19.4'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-3.6
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-python
   name: dbus-python
   version: '>=0'
-- Labels: null
+- labels: null
   category: gnome-base
   name: gnome-desktop-3
   version: '>=0'
-- Labels: null
+- labels: null
   category: gnome-base
   name: gsettings-desktop-schemas
   version: '>=0'
-- Labels: null
+- labels: null
   category: media-plugins
   name: grilo-plugins-0.3
   version: '>=0'
-- Labels: null
+- labels: null
   category: media-plugins
   name: gst-plugins-meta-1.0
   version: '>=0'
-- Labels: null
+- labels: null
   category: media-plugins
   name: gst-plugins-taglib-1.0
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: gdk-pixbuf-2
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-themes
   name: adwaita-icon-theme
   version: '>=0'
@@ -125,7 +125,7 @@ use_flags:
 - -python_targets_python3_8
 - -test
 version: "3.34.1"
-Labels:
+labels:
   original.package.name: "totem"
   original.package.category: "media-video"
   original.package.version: "3.32.1"

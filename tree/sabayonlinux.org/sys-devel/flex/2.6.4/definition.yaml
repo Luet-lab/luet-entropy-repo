@@ -2,7 +2,7 @@ category: sys-devel
 license: FLEX
 name: flex
 requires:
-- Labels: null
+- labels: null
   category: sys-devel
   name: m4
   version: '>=0'
@@ -27,7 +27,7 @@ use_flags:
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
 version: 2.6.4+r5
-Labels:
+labels:
   original.package.name: "flex"
   original.package.category: "sys-devel"
   original.package.version: "2.6.4"

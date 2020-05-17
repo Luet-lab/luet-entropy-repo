@@ -2,7 +2,7 @@ category: dev-java
 license: GPL-2 MPL-1.1
 name: rhino-1.6
 requires:
-- Labels: null
+- labels: null
   category: dev-java
   name: java-config-2
   version: '>=2.2.0'
@@ -18,7 +18,7 @@ use_flags:
 - elibc_glibc
 - -source
 version: 1.7.7+r4
-Labels:
+labels:
   original.package.name: "rhino"
   original.package.category: "dev-java"
   original.package.version: "1.7.7"

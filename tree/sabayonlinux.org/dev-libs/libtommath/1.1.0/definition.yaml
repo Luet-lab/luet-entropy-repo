@@ -2,15 +2,15 @@ category: dev-libs
 license: WTFPL-2
 name: libtommath
 requires:
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- Labels: null
+- labels: null
   category: sys-devel
   name: automake-1.15
   version: '>=1.15.1'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.4'
@@ -25,7 +25,7 @@ use_flags:
 - elibc_glibc
 - -static-libs
 version: 1.1.0+3
-Labels:
+labels:
   original.package.name: "libtommath"
   original.package.category: "dev-libs"
   original.package.version: "1.1.0"

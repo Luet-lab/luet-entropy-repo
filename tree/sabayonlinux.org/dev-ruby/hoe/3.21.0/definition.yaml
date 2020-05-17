@@ -2,15 +2,15 @@ category: dev-ruby
 license: MIT
 name: hoe
 requires:
-- Labels: null
+- labels: null
   category: dev-ruby
   name: rake
   version: <15.0
-- Labels: null
+- labels: null
   category: dev-ruby
   name: rake
   version: '>=0.8.7'
-- Labels: null
+- labels: null
   category: dev-lang
   name: ruby-2.5
   version: '>=0'
@@ -29,7 +29,7 @@ use_flags:
 - -ruby_targets_ruby27
 - ruby_targets_ruby25
 version: 3.21.0+3
-Labels:
+labels:
   original.package.name: "hoe"
   original.package.category: "dev-ruby"
   original.package.version: "3.21.0"

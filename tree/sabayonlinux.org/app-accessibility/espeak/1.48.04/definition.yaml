@@ -2,15 +2,15 @@ category: app-accessibility
 license: GPL-3
 name: espeak
 requires:
-- Labels: null
+- labels: null
   category: app-arch
   name: unzip
   version: '>=0'
-- Labels: null
+- labels: null
   category: media-sound
   name: pulseaudio
   version: '>=0'
-- Labels: null
+- labels: null
   category: media-sound
   name: sox
   version: '>=0'
@@ -24,7 +24,7 @@ use_flags:
 - abi_x86_64
 - userland_GNU
 version: 1.48.04+r4
-Labels:
+labels:
   original.package.name: "espeak"
   original.package.category: "app-accessibility"
   original.package.version: "1.48.04"

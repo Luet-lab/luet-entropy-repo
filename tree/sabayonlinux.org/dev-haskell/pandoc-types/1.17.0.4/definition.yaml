@@ -2,35 +2,35 @@ category: dev-haskell
 license: BSD
 name: pandoc-types
 requires:
-- Labels: null
+- labels: null
   category: dev-haskell
   name: aeson
   version: <1.1
-- Labels: null
+- labels: null
   category: dev-haskell
   name: syb
   version: <0.7
-- Labels: null
+- labels: null
   category: dev-haskell
   name: aeson
   version: '>=0.6.2'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: cabal
   version: '>=1.8'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: deepseq-generics
   version: '>=0.1'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: quickcheck-2
   version: '>=2'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: syb
   version: '>=0.1'
-- Labels: null
+- labels: null
   category: dev-lang
   name: ghc
   version: '>=7.4.1'
@@ -46,7 +46,7 @@ use_flags:
 - -test
 - abi_x86_64
 version: 1.17.0.4+1
-Labels:
+labels:
   original.package.name: "pandoc-types"
   original.package.category: "dev-haskell"
   original.package.version: "1.17.0.4"

@@ -2,43 +2,43 @@ category: dev-haskell
 license: BSD
 name: haddock-api
 requires:
-- Labels: null
+- labels: null
   category: dev-haskell
   name: haddock-library
   version: <1.5
-- Labels: null
+- labels: null
   category: dev-haskell
   name: xhtml
   version: <3000.3
-- Labels: null
+- labels: null
   category: dev-lang
   name: ghc
   version: <8.2
-- Labels: null
+- labels: null
   category: dev-haskell
   name: cabal
   version: '>=1.10'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: cabal
   version: '>=1.24.0.0'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: haddock-library
   version: '>=1.4'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: xhtml
   version: '>=3000.2'
-- Labels: null
+- labels: null
   category: dev-lang
   name: ghc
   version: '>=8.0'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: ghc-paths
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: transformers
   version: '>=0'
@@ -54,7 +54,7 @@ use_flags:
 - userland_GNU
 - -test
 version: 2.17.3+1
-Labels:
+labels:
   original.package.name: "haddock-api"
   original.package.category: "dev-haskell"
   original.package.version: "2.17.3"

@@ -2,7 +2,7 @@ category: app-eselect
 license: GPL-2
 name: eselect-opencl
 requires:
-- Labels: null
+- labels: null
   category: app-admin
   name: eselect
   version: '>=1.2.4'
@@ -14,7 +14,7 @@ use_flags:
 - kernel_linux
 - abi_x86_64
 version: 1.1.0+r7
-Labels:
+labels:
   original.package.name: "eselect-opencl"
   original.package.category: "app-eselect"
   original.package.version: "1.1.0"

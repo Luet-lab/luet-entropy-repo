@@ -2,7 +2,7 @@ category: perl-core
 license: Artistic GPL-1+
 name: File-Temp
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: perl
   version: '>=0'
@@ -15,7 +15,7 @@ use_flags:
 - abi_x86_64
 - userland_GNU
 version: 0.230.900+1
-Labels:
+labels:
   original.package.name: "File-Temp"
   original.package.category: "perl-core"
   original.package.version: "0.230.900"

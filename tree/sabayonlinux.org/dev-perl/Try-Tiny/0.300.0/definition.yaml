@@ -2,11 +2,11 @@ category: dev-perl
 license: MIT
 name: Try-Tiny
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: perl
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-perl
   name: Sub-Name
   version: '>=0'
@@ -21,7 +21,7 @@ use_flags:
 - -minimal
 - kernel_linux
 version: 0.300.0+3
-Labels:
+labels:
   original.package.name: "Try-Tiny"
   original.package.category: "dev-perl"
   original.package.version: "0.300.0"

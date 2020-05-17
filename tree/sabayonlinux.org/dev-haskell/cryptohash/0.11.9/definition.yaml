@@ -2,23 +2,23 @@ category: dev-haskell
 license: BSD
 name: cryptohash
 requires:
-- Labels: null
+- labels: null
   category: dev-haskell
   name: cabal
   version: '>=1.8'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: cryptonite
   version: '>=0.13'
-- Labels: null
+- labels: null
   category: dev-lang
   name: ghc
   version: '>=7.4.1'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: byteable
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: memory
   version: '>=0'
@@ -34,7 +34,7 @@ use_flags:
 - big-endian
 - kernel_linux
 version: 0.11.9+1
-Labels:
+labels:
   original.package.name: "cryptohash"
   original.package.category: "dev-haskell"
   original.package.version: "0.11.9"

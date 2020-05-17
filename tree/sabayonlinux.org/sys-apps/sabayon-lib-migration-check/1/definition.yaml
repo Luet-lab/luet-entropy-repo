@@ -2,7 +2,7 @@ category: sys-apps
 license: metapackage
 name: sabayon-lib-migration-check
 requires:
-- Labels: null
+- labels: null
   category: sys-apps
   name: sabayon-lib-migration
   version: '>=0'
@@ -15,7 +15,7 @@ use_flags:
 - userland_GNU
 - kernel_linux
 version: 1+2
-Labels:
+labels:
   original.package.name: "sabayon-lib-migration-check"
   original.package.category: "sys-apps"
   original.package.version: "1"

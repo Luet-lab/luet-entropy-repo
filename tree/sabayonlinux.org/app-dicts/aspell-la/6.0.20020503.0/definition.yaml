@@ -2,7 +2,7 @@ category: app-dicts
 license: GPL-2
 name: aspell-la
 requires:
-- Labels: null
+- labels: null
   category: app-text
   name: aspell
   version: '>=0.60'
@@ -13,7 +13,7 @@ use_flags:
 - userland_GNU
 - amd64
 version: 6.0.20020503.0+3
-Labels:
+labels:
   original.package.name: "aspell-la"
   original.package.category: "app-dicts"
   original.package.version: "6.0.20020503.0"

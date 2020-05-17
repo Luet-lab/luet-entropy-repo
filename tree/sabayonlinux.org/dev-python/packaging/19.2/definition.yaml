@@ -2,23 +2,23 @@ category: dev-python
 license: Apache-2.0 BSD-2
 name: packaging
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-2.7
   version: '>=2.7.5'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-exec-2
   version: '>=2'
-- Labels: null
+- labels: null
   category: dev-python
   name: pyparsing
   version: '>=2.1.10'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-3.6
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-python
   name: six
   version: '>=0'
@@ -37,7 +37,7 @@ use_flags:
 - amd64
 - big-endian
 version: 19.2+3
-Labels:
+labels:
   original.package.name: "packaging"
   original.package.category: "dev-python"
   original.package.version: "19.2"

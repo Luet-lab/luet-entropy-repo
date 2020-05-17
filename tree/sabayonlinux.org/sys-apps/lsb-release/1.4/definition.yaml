@@ -2,7 +2,7 @@ category: sys-apps
 license: GPL-2
 name: lsb-release
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: perl
   version: '>=0'
@@ -14,7 +14,7 @@ use_flags:
 - userland_GNU
 - kernel_linux
 version: 1.4+3
-Labels:
+labels:
   original.package.name: "lsb-release"
   original.package.category: "sys-apps"
   original.package.version: "1.4"

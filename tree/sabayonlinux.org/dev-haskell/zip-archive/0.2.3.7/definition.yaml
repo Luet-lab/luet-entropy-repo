@@ -2,35 +2,35 @@ category: dev-haskell
 license: BSD
 name: zip-archive
 requires:
-- Labels: null
+- labels: null
   category: dev-haskell
   name: binary
   version: '>=0.5'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: cabal
   version: '>=1.10'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: digest
   version: '>=0.0.0.1'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: text
   version: '>=0.11'
-- Labels: null
+- labels: null
   category: dev-lang
   name: ghc
   version: '>=7.4.1'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: mtl
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: old-time
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: zlib
   version: '>=0'
@@ -47,7 +47,7 @@ use_flags:
 - big-endian
 - kernel_linux
 version: 0.2.3.7+1
-Labels:
+labels:
   original.package.name: "zip-archive"
   original.package.category: "dev-haskell"
   original.package.version: "0.2.3.7"

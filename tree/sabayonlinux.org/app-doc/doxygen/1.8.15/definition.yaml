@@ -2,67 +2,67 @@ category: app-doc
 license: GPL-2
 name: doxygen
 requires:
-- Labels: null
+- labels: null
   category: app-text
   name: ghostscript-gpl
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-lang
   name: perl
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-qt
   name: qtgui-5
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-qt
   name: qtwidgets-5
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-qt
   name: qtxml-5
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-texlive
   name: texlive-bibtexextra
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-texlive
   name: texlive-fontsextra
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-texlive
   name: texlive-fontutils
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-texlive
   name: texlive-latex
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-texlive
   name: texlive-latexextra
   version: '>=0'
-- Labels: null
+- labels: null
   category: media-gfx
   name: graphviz
   version: '>=0'
-- Labels: null
+- labels: null
   category: media-libs
   name: freetype-2
   version: '>=0'
-- Labels: null
+- labels: null
   category: media-libs
   name: libpng
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-devel
   name: bison
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-devel
   name: flex
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-devel
   name: make
   version: '>=0'
@@ -83,7 +83,7 @@ use_flags:
 - elibc_glibc
 - amd64
 version: 1.8.15+3
-Labels:
+labels:
   original.package.name: "doxygen"
   original.package.category: "app-doc"
   original.package.version: "1.8.15"

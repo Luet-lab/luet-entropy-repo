@@ -2,11 +2,11 @@ category: dev-tex
 license: GPL-2
 name: bibtexu
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: icu
   version: '>=4.4'
-- Labels: null
+- labels: null
   category: dev-libs
   name: kpathsea
   version: '>=6.2.1'
@@ -21,7 +21,7 @@ use_flags:
 - -doc
 - split-usr
 version: 3.71+p20190413
-Labels:
+labels:
   original.package.name: "bibtexu"
   original.package.category: "dev-tex"
   original.package.version: "3.71"

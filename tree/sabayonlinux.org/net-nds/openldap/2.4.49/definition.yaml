@@ -2,39 +2,39 @@ category: net-nds
 license: GPL-2 OPENLDAP
 name: openldap
 requires:
-- Labels: null
+- labels: null
   category: sys-libs
   name: db-6.0
   version: '>=6.0'
-- Labels: null
+- labels: null
   category: dev-db
   name: lmdb
   version: '>=0.9.18'
-- Labels: null
+- labels: null
   category: dev-libs
   name: libgcrypt
   version: '>=1.5.3'
-- Labels: null
+- labels: null
   category: net-libs
   name: gnutls
   version: '>=2.12.23'
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- Labels: null
+- labels: null
   category: sys-devel
   name: automake-1.15
   version: '>=1.15.1'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.4'
-- Labels: null
+- labels: null
   category: dev-lang
   name: perl
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: cyrus-sasl-2
   version: '>=0'
@@ -82,7 +82,7 @@ use_flags:
 - -iodbc
 - perl
 version: 2.4.49+r2
-Labels:
+labels:
   original.package.name: "openldap"
   original.package.category: "net-nds"
   original.package.version: "2.4.49"

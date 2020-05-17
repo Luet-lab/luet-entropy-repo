@@ -2,47 +2,47 @@ category: dev-haskell
 license: MIT
 name: tasty
 requires:
-- Labels: null
+- labels: null
   category: dev-haskell
   name: ansi-terminal
   version: '>=0.6.2'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: async
   version: '>=2.0'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: cabal
   version: '>=1.10'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: clock
   version: '>=0.4.4.0'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: optparse-applicative
   version: '>=0.11'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: regex-tdfa
   version: '>=1.1.8.2'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: stm
   version: '>=2.3'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: tagged
   version: '>=0.5'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: unbounded-delays
   version: '>=0.1'
-- Labels: null
+- labels: null
   category: dev-lang
   name: ghc
   version: '>=7.4.1'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: mtl
   version: '>=0'
@@ -57,7 +57,7 @@ use_flags:
 - kernel_linux
 - amd64
 version: 0.11.0.4+1
-Labels:
+labels:
   original.package.name: "tasty"
   original.package.category: "dev-haskell"
   original.package.version: "0.11.0.4"

@@ -2,11 +2,11 @@ category: sys-process
 license: lsof
 name: lsof
 requires:
-- Labels: null
+- labels: null
   category: net-libs
   name: libtirpc
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-apps
   name: groff
   version: '>=0'
@@ -23,7 +23,7 @@ use_flags:
 - split-usr
 - amd64
 version: 4.93.2+r4
-Labels:
+labels:
   original.package.name: "lsof"
   original.package.category: "sys-process"
   original.package.version: "4.93.2"

@@ -2,7 +2,7 @@ category: app-dicts
 license: GPL-2
 name: aspell-de
 requires:
-- Labels: null
+- labels: null
   category: app-text
   name: aspell
   version: '>=0.60'
@@ -13,7 +13,7 @@ use_flags:
 - kernel_linux
 - amd64
 version: 0.60+pre20030222.3
-Labels:
+labels:
   original.package.name: "aspell-de"
   original.package.category: "app-dicts"
   original.package.version: "0.60"

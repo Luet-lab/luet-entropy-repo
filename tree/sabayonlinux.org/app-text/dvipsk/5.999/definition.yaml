@@ -2,11 +2,11 @@ category: app-text
 license: GPL-2
 name: dvipsk
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: kpathsea
   version: '>=6.2.1'
-- Labels: null
+- labels: null
   category: dev-libs
   name: kpathsea
   version: '>=0'
@@ -21,7 +21,7 @@ use_flags:
 - -doc
 - split-usr
 version: 5.999+p20190413
-Labels:
+labels:
   original.package.name: "dvipsk"
   original.package.category: "app-text"
   original.package.version: "5.999"

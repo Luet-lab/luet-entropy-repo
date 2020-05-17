@@ -2,99 +2,99 @@ category: x11-apps
 license: MIT
 name: xdm
 requires:
-- Labels: null
+- labels: null
   category: media-fonts
   name: font-util
   version: '>=1.2.0'
-- Labels: null
+- labels: null
   category: sys-apps
   name: systemd
   version: '>=209'
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- Labels: null
+- labels: null
   category: sys-devel
   name: automake-1.15
   version: '>=1.15.1'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.2.6a'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.4'
-- Labels: null
+- labels: null
   category: x11-misc
   name: util-macros
   version: '>=1.18'
-- Labels: null
+- labels: null
   category: dev-libs
   name: libbsd
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-devel
   name: m4
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-libs
   name: pam
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-apps
   name: sessreg
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-apps
   name: xconsole
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-apps
   name: xinit
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-apps
   name: xrdb
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-apps
   name: xsm
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libX11
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libXaw
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libXdmcp
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libXft
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libXinerama
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libXmu
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libXpm
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libXrender
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libXt
   version: '>=0'
@@ -114,7 +114,7 @@ use_flags:
 - -consolekit
 - kernel_linux
 version: 1.1.12+1
-Labels:
+labels:
   original.package.name: "xdm"
   original.package.category: "x11-apps"
   original.package.version: "1.1.12"

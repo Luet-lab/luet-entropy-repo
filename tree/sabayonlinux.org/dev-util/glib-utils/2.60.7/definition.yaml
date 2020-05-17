@@ -2,19 +2,19 @@ category: dev-util
 license: LGPL-2.1+
 name: glib-utils
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-exec-2
   version: '>=2'
-- Labels: null
+- labels: null
   category: app-text
   name: docbook-xsl-stylesheets
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-3.6
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: libxslt
   version: '>=0'
@@ -33,7 +33,7 @@ use_flags:
 - -python_single_target_python3_7
 - kernel_linux
 version: 2.60.7+3
-Labels:
+labels:
   original.package.name: "glib-utils"
   original.package.category: "dev-util"
   original.package.version: "2.60.7"

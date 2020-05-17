@@ -2,11 +2,11 @@ category: gnome-base
 license: GPL-2+ LGPL-2+
 name: gnome-menus-3
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: glib-2
   version: '>=2.29.15'
-- Labels: null
+- labels: null
   category: dev-libs
   name: gobject-introspection
   version: '>=0.9.5'
@@ -21,7 +21,7 @@ use_flags:
 - kernel_linux
 - -test
 version: 3.32.0+1
-Labels:
+labels:
   original.package.name: "gnome-menus"
   original.package.category: "gnome-base"
   original.package.version: "3.32.0"

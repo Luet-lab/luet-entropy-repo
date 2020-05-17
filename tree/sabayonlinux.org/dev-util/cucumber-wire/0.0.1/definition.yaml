@@ -2,7 +2,7 @@ category: dev-util
 license: Ruby
 name: cucumber-wire
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: ruby-2.5
   version: '>=0'
@@ -20,7 +20,7 @@ use_flags:
 - -test
 - -ruby_targets_ruby24
 version: 0.0.1+r4
-Labels:
+labels:
   original.package.name: "cucumber-wire"
   original.package.category: "dev-util"
   original.package.version: "0.0.1"

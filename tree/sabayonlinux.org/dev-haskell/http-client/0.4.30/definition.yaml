@@ -2,75 +2,75 @@ category: dev-haskell
 license: MIT
 name: http-client
 requires:
-- Labels: null
+- labels: null
   category: dev-haskell
   name: base64-bytestring
   version: <1.1
-- Labels: null
+- labels: null
   category: dev-haskell
   name: streaming-commons
   version: <0.2
-- Labels: null
+- labels: null
   category: dev-haskell
   name: base64-bytestring
   version: '>=1.0'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: blaze-builder
   version: '>=0.3'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: cabal
   version: '>=1.10'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: case-insensitive
   version: '>=1.0'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: exceptions
   version: '>=0.4'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: http-types
   version: '>=0.8'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: network
   version: '>=2.6'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: network-uri
   version: '>=2.6'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: streaming-commons
   version: '>=0.1.0.2'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: text
   version: '>=0.11'
-- Labels: null
+- labels: null
   category: dev-lang
   name: ghc
   version: '>=7.4.1'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: cookie
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: data-default-class
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: mime-types
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: random
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: transformers
   version: '>=0'
@@ -87,7 +87,7 @@ use_flags:
 - -test
 - abi_x86_64
 version: 0.4.30+1
-Labels:
+labels:
   original.package.name: "http-client"
   original.package.category: "dev-haskell"
   original.package.version: "0.4.30"

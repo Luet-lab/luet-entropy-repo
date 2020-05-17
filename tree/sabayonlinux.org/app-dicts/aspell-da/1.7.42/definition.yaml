@@ -2,7 +2,7 @@ category: app-dicts
 license: GPL-2
 name: aspell-da
 requires:
-- Labels: null
+- labels: null
   category: app-text
   name: aspell
   version: '>=0.50'
@@ -13,7 +13,7 @@ use_flags:
 - userland_GNU
 - elibc_glibc
 version: 1.7.42+3
-Labels:
+labels:
   original.package.name: "aspell-da"
   original.package.category: "app-dicts"
   original.package.version: "1.7.42"

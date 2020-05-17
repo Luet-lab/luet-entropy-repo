@@ -2,63 +2,63 @@ category: gnome-base
 license: FDL-1.1+ GPL-2+ LGPL-2+
 name: gnome-desktop-3
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: glib-2
   version: '>=2.53.0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: gobject-introspection
   version: '>=1.54'
-- Labels: null
+- labels: null
   category: gnome-base
   name: gsettings-desktop-schemas
   version: '>=3.27.0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: gdk-pixbuf-2
   version: '>=2.36.5'
-- Labels: null
+- labels: null
   category: x11-libs
   name: gtk+-3
   version: '>=3.3.6'
-- Labels: null
+- labels: null
   category: app-text
   name: docbook-xml-dtd-4.5
   version: '>=0'
-- Labels: null
+- labels: null
   category: app-text
   name: iso-codes
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-util
   name: itstool
   version: '>=0'
-- Labels: null
+- labels: null
   category: media-libs
   name: fontconfig-1.0
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-apps
   name: bubblewrap
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-apps
   name: hwids
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-libs
   name: libseccomp
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: cairo
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libX11
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-misc
   name: xkeyboard-config
   version: '>=0'
@@ -77,7 +77,7 @@ use_flags:
 - introspection
 - -debug
 version: "3.34.5"
-Labels:
+labels:
   original.package.name: "gnome-desktop"
   original.package.category: "gnome-base"
   original.package.version: "3.32.2"

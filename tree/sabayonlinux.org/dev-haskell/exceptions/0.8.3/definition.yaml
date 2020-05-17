@@ -2,43 +2,43 @@ category: dev-haskell
 license: BSD
 name: exceptions
 requires:
-- Labels: null
+- labels: null
   category: dev-haskell
   name: mtl
   version: <2.3
-- Labels: null
+- labels: null
   category: dev-haskell
   name: stm
   version: <3
-- Labels: null
+- labels: null
   category: dev-haskell
   name: transformers
   version: <0.6
-- Labels: null
+- labels: null
   category: dev-haskell
   name: transformers-compat
   version: <0.6
-- Labels: null
+- labels: null
   category: dev-haskell
   name: cabal
   version: '>=1.8'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: mtl
   version: '>=2.0'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: stm
   version: '>=2.2'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: transformers
   version: '>=0.2'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: transformers-compat
   version: '>=0.3'
-- Labels: null
+- labels: null
   category: dev-lang
   name: ghc
   version: '>=7.4.1'
@@ -54,7 +54,7 @@ use_flags:
 - -profile
 - big-endian
 version: 0.8.3+1
-Labels:
+labels:
   original.package.name: "exceptions"
   original.package.category: "dev-haskell"
   original.package.version: "0.8.3"

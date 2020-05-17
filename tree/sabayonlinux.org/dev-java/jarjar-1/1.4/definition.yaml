@@ -2,23 +2,23 @@ category: dev-java
 license: GPL-2
 name: jarjar-1
 requires:
-- Labels: null
+- labels: null
   category: dev-java
   name: java-config-2
   version: '>=2.1.9'
-- Labels: null
+- labels: null
   category: app-arch
   name: unzip
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-java
   name: asm-4
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-java
   name: gnu-regexp-1
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-java
   name: java-getopt-1
   version: '>=0'
@@ -33,7 +33,7 @@ use_flags:
 - -source
 - amd64
 version: 1.4+3
-Labels:
+labels:
   original.package.name: "jarjar"
   original.package.category: "dev-java"
   original.package.version: "1.4"

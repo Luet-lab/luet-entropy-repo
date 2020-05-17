@@ -2,7 +2,7 @@ category: dev-tex
 license: LPPL-1.2
 name: xmltex
 requires:
-- Labels: null
+- labels: null
   category: sys-apps
   name: texinfo
   version: '>=4.2'
@@ -14,7 +14,7 @@ use_flags:
 - amd64
 - userland_GNU
 version: 1.9+r5
-Labels:
+labels:
   original.package.name: "xmltex"
   original.package.category: "dev-tex"
   original.package.version: "1.9"

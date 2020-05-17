@@ -2,7 +2,7 @@ category: app-text
 license: X11
 name: docbook-sgml-dtd-4.5
 requires:
-- Labels: null
+- labels: null
   category: app-text
   name: sgml-common
   version: '>=0'
@@ -13,7 +13,7 @@ use_flags:
 - amd64
 - multilib
 version: 4.5+3
-Labels:
+labels:
   original.package.name: "docbook-sgml-dtd"
   original.package.category: "app-text"
   original.package.version: "4.5"

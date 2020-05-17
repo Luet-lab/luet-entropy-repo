@@ -2,7 +2,7 @@ category: dev-ruby
 license: MIT
 name: tilt-2
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: ruby-2.5
   version: '>=0'
@@ -19,7 +19,7 @@ use_flags:
 - -test
 - kernel_linux
 version: 2.0.10+3
-Labels:
+labels:
   original.package.name: "tilt"
   original.package.category: "dev-ruby"
   original.package.version: "2.0.10"

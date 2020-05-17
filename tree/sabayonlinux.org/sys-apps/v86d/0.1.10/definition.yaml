@@ -2,19 +2,19 @@ category: sys-apps
 license: GPL-2
 name: v86d
 requires:
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- Labels: null
+- labels: null
   category: sys-devel
   name: automake-1.15
   version: '>=1.15'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.4'
-- Labels: null
+- labels: null
   category: dev-libs
   name: klibc
   version: '>=0'
@@ -28,7 +28,7 @@ use_flags:
 - amd64
 - elibc_glibc
 version: 0.1.10+r4
-Labels:
+labels:
   original.package.name: "v86d"
   original.package.category: "sys-apps"
   original.package.version: "0.1.10"

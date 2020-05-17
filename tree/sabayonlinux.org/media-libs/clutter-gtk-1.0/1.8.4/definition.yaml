@@ -2,23 +2,23 @@ category: media-libs
 license: LGPL-2.1+
 name: clutter-gtk-1.0
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: gobject-introspection
   version: '>=1.32'
-- Labels: null
+- labels: null
   category: dev-util
   name: gtk-doc-am
   version: '>=1.24'
-- Labels: null
+- labels: null
   category: media-libs
   name: clutter-1.0
   version: '>=1.23.7'
-- Labels: null
+- labels: null
   category: x11-libs
   name: gtk+-3
   version: '>=3.21.0'
-- Labels: null
+- labels: null
   category: media-libs
   name: cogl-1.0
   version: '>=0'
@@ -36,7 +36,7 @@ use_flags:
 - introspection
 - -debug
 version: 1.8.4+3
-Labels:
+labels:
   original.package.name: "clutter-gtk"
   original.package.category: "media-libs"
   original.package.version: "1.8.4"

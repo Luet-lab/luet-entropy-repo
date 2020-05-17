@@ -2,7 +2,7 @@ category: dev-libs
 license: GPL-2
 name: xapian
 requires:
-- Labels: null
+- labels: null
   category: sys-libs
   name: zlib
   version: '>=0'
@@ -30,7 +30,7 @@ use_flags:
 - kernel_linux
 - -abi_riscv_lp64d
 version: 1.4.15+1
-Labels:
+labels:
   original.package.name: "xapian"
   original.package.category: "dev-libs"
   original.package.version: "1.4.15"

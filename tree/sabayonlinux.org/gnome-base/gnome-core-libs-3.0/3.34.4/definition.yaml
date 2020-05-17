@@ -2,59 +2,59 @@ category: gnome-base
 license: metapackage
 name: gnome-core-libs-3.0
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: atk
   version: '>=2.32.0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: glib-2
   version: '>=2.60.2'
-- Labels: null
+- labels: null
   category: dev-python
   name: pygobject-base-3
   version: '>=3.32.1'
-- Labels: null
+- labels: null
   category: gnome-base
   name: dconf
   version: '>=0.32.0'
-- Labels: null
+- labels: null
   category: gnome-base
   name: gnome-desktop-3
   version: '>=3.32.2'
-- Labels: null
+- labels: null
   category: gnome-base
   name: gvfs
   version: '>=1.40.1'
-- Labels: null
+- labels: null
   category: gnome-base
   name: librsvg-2
   version: '>=2.40.20'
-- Labels: null
+- labels: null
   category: media-libs
   name: gst-plugins-base-1.0
   version: '>=1.14.4'
-- Labels: null
+- labels: null
   category: media-libs
   name: gst-plugins-good-1.0
   version: '>=1.14.4'
-- Labels: null
+- labels: null
   category: media-libs
   name: gstreamer-1.0
   version: '>=1.14.4'
-- Labels: null
+- labels: null
   category: x11-libs
   name: gdk-pixbuf-2
   version: '>=2.38.1'
-- Labels: null
+- labels: null
   category: x11-libs
   name: gtk+-3
   version: '>=3.24.8'
-- Labels: null
+- labels: null
   category: x11-libs
   name: pango
   version: '>=1.42.4'
-- Labels: null
+- labels: null
   category: x11-libs
   name: startup-notification
   version: '>=0.12'
@@ -69,7 +69,7 @@ use_flags:
 - cups
 - kernel_linux
 version: "3.34.4"
-Labels:
+labels:
   original.package.name: "gnome-core-libs"
   original.package.category: "gnome-base"
   original.package.version: "3.34.4"

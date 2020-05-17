@@ -1,18 +1,18 @@
-Labels:
+labels:
   original.package.version: "0.6.0"
 category: dev-python
 license: PSF-2
 name: defusedxml
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-2.7
   version: '>=2.7.5'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-exec-2
   version: '>=2'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-3.6
   version: '>=0'
@@ -32,7 +32,7 @@ use_flags:
 - -python_targets_pypy3
 - big-endian
 version: "0.6.0"
-Labels:
+labels:
   original.package.name: "defusedxml"
   original.package.category: "dev-python"
   original.package.version: "0.5.0"

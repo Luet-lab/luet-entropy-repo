@@ -2,11 +2,11 @@ category: sys-process
 license: GPL-3
 name: parallel
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: perl
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-perl
   name: Devel-Size
   version: '>=0'
@@ -19,7 +19,7 @@ use_flags:
 - userland_GNU
 - kernel_linux
 version: 20191022+3
-Labels:
+labels:
   original.package.name: "parallel"
   original.package.category: "sys-process"
   original.package.version: "20191022"

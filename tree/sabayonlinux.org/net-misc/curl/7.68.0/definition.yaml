@@ -2,35 +2,35 @@ category: net-misc
 license: MIT
 name: curl
 requires:
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- Labels: null
+- labels: null
   category: sys-devel
   name: automake-1.15
   version: '>=1.15.1'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.4'
-- Labels: null
+- labels: null
   category: dev-libs
   name: openssl
   version: '>=0'
-- Labels: null
+- labels: null
   category: net-dns
   name: libidn2
   version: '>=0'
-- Labels: null
+- labels: null
   category: net-libs
   name: nghttp2
   version: '>=0'
-- Labels: null
+- labels: null
   category: net-nds
   name: openldap
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-libs
   name: zlib
   version: '>=0'
@@ -78,7 +78,7 @@ use_flags:
 - ipv6
 - -brotli
 version: 7.68.0+1
-Labels:
+labels:
   original.package.name: "curl"
   original.package.category: "net-misc"
   original.package.version: "7.68.0"

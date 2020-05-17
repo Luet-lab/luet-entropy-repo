@@ -2,11 +2,11 @@ category: net-libs
 license: BSD
 name: miniupnpc
 requires:
-- Labels: null
+- labels: null
   category: sys-apps
   name: lsb-release
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-apps
   name: which
   version: '>=0'
@@ -21,7 +21,7 @@ use_flags:
 - -static-libs
 - ipv6
 version: 2.1.20191224+3
-Labels:
+labels:
   original.package.name: "miniupnpc"
   original.package.category: "net-libs"
   original.package.version: "2.1.20191224"

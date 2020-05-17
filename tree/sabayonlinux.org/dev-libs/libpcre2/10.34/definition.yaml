@@ -2,19 +2,19 @@ category: dev-libs
 license: BSD
 name: libpcre2
 requires:
-- Labels: null
+- labels: null
   category: sys-apps
   name: findutils
   version: '>=4.4.0'
-- Labels: null
+- labels: null
   category: app-arch
   name: bzip2
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-libs
   name: readline
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-libs
   name: zlib
   version: '>=0'
@@ -46,7 +46,7 @@ use_flags:
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
 version: 10.34+1
-Labels:
+labels:
   original.package.name: "libpcre2"
   original.package.category: "dev-libs"
   original.package.version: "10.34"

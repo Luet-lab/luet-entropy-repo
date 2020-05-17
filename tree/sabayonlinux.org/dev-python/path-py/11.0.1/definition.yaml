@@ -2,19 +2,19 @@ category: dev-python
 license: MIT
 name: path-py
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-2.7
   version: '>=2.7.5'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-exec-2
   version: '>=2'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-3.6
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-python
   name: appdirs
   version: '>=0'
@@ -34,7 +34,7 @@ use_flags:
 - amd64
 - elibc_glibc
 version: 11.0.1+3
-Labels:
+labels:
   original.package.name: "path-py"
   original.package.category: "dev-python"
   original.package.version: "11.0.1"

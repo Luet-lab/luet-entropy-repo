@@ -2,35 +2,35 @@ category: dev-lang
 license: NPL-1.1
 name: spidermonkey-52
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-2.7
   version: '>=2.7.5'
-- Labels: null
+- labels: null
   category: dev-libs
   name: icu
   version: '>=58.1'
-- Labels: null
+- labels: null
   category: dev-libs
   name: nspr
   version: '>=4.13.1'
-- Labels: null
+- labels: null
   category: sys-devel
   name: automake-1.15
   version: '>=1.15.1'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.4'
-- Labels: null
+- labels: null
   category: sys-libs
   name: zlib
   version: '>=1.2.3'
-- Labels: null
+- labels: null
   category: sys-libs
   name: readline
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-2.69
   version: '>=2.13'
@@ -49,7 +49,7 @@ use_flags:
 - elibc_glibc
 - big-endian
 version: 52.9.1+pre1.3
-Labels:
+labels:
   original.package.name: "spidermonkey"
   original.package.category: "dev-lang"
   original.package.version: "52.9.1"

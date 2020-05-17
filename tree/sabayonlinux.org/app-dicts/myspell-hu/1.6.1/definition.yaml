@@ -2,11 +2,11 @@ category: app-dicts
 license: GPL-2 GPL-3 LGPL-2.1 MPL-1.1
 name: myspell-hu
 requires:
-- Labels: null
+- labels: null
   category: app-arch
   name: rpm2targz
   version: '>=9.0.0.3g'
-- Labels: null
+- labels: null
   category: app-arch
   name: unzip
   version: '>=0'
@@ -17,7 +17,7 @@ use_flags:
 - elibc_glibc
 - amd64
 version: 1.6.1+3
-Labels:
+labels:
   original.package.name: "myspell-hu"
   original.package.category: "app-dicts"
   original.package.version: "1.6.1"

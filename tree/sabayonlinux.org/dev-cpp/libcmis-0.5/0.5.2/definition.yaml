@@ -2,27 +2,27 @@ category: dev-cpp
 license: GPL-2 LGPL-2 MPL-1.1
 name: libcmis-0.5
 requires:
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- Labels: null
+- labels: null
   category: sys-devel
   name: automake-1.15
   version: '>=1.15.1'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.4'
-- Labels: null
+- labels: null
   category: dev-libs
   name: boost
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: libxml2-2
   version: '>=0'
-- Labels: null
+- labels: null
   category: net-misc
   name: curl
   version: '>=0'
@@ -39,7 +39,7 @@ use_flags:
 - userland_GNU
 - -static-libs
 version: 0.5.2+r2
-Labels:
+labels:
   original.package.name: "libcmis"
   original.package.category: "dev-cpp"
   original.package.version: "0.5.2"

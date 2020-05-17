@@ -2,7 +2,7 @@ category: media-sound
 license: GPL-2
 name: twolame
 requires:
-- Labels: null
+- labels: null
   category: media-libs
   name: libsndfile
   version: '>=1.0.25'
@@ -27,7 +27,7 @@ use_flags:
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
 version: 0.4.0+1
-Labels:
+labels:
   original.package.name: "twolame"
   original.package.category: "media-sound"
   original.package.version: "0.4.0"

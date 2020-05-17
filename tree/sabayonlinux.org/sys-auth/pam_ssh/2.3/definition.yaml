@@ -2,15 +2,15 @@ category: sys-auth
 license: BSD BSD-2 ISC
 name: pam_ssh
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: openssl
   version: '>=0'
-- Labels: null
+- labels: null
   category: net-misc
   name: openssh
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-libs
   name: pam
   version: '>=0'
@@ -23,7 +23,7 @@ use_flags:
 - userland_GNU
 - amd64
 version: 2.3+3
-Labels:
+labels:
   original.package.name: "pam_ssh"
   original.package.category: "sys-auth"
   original.package.version: "2.3"

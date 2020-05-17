@@ -2,7 +2,7 @@ category: dev-ruby
 license: MIT
 name: ascii85
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: ruby-2.5
   version: '>=0'
@@ -20,7 +20,7 @@ use_flags:
 - abi_x86_64
 - ruby_targets_ruby25
 version: 1.0.3+3
-Labels:
+labels:
   original.package.name: "ascii85"
   original.package.category: "dev-ruby"
   original.package.version: "1.0.3"

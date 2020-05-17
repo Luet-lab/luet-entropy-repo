@@ -2,7 +2,7 @@ category: dev-libs
 license: GPL-3 LGPL-2.1
 name: libassuan
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: libgpg-error
   version: '>=1.8'
@@ -16,7 +16,7 @@ use_flags:
 - split-usr
 - userland_GNU
 version: 2.5.3+3
-Labels:
+labels:
   original.package.name: "libassuan"
   original.package.category: "dev-libs"
   original.package.version: "2.5.3"

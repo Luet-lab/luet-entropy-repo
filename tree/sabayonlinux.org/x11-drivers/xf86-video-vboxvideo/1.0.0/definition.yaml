@@ -2,31 +2,31 @@ category: x11-drivers
 license: MIT
 name: xf86-video-vboxvideo
 requires:
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- Labels: null
+- labels: null
   category: sys-devel
   name: automake-1.15
   version: '>=1.15.1'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.4'
-- Labels: null
+- labels: null
   category: x11-base
   name: xorg-server
   version: '>=1.8'
-- Labels: null
+- labels: null
   category: x11-base
   name: xorg-server
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libXcomposite
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libpciaccess
   version: '>=0'
@@ -39,7 +39,7 @@ use_flags:
 - amd64
 - userland_GNU
 version: 1.0.0+3
-Labels:
+labels:
   original.package.name: "xf86-video-vboxvideo"
   original.package.category: "x11-drivers"
   original.package.version: "1.0.0"

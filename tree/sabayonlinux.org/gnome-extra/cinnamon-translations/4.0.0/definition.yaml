@@ -2,7 +2,7 @@ category: gnome-extra
 license: GPL-2
 name: cinnamon-translations
 requires:
-- Labels: null
+- labels: null
   category: gnome-extra
   name: cinnamon-settings-daemon
   version: '>3.6'
@@ -14,7 +14,7 @@ use_flags:
 - elibc_glibc
 - big-endian
 version: 4.0.0+3
-Labels:
+labels:
   original.package.name: "cinnamon-translations"
   original.package.category: "gnome-extra"
   original.package.version: "4.0.0"

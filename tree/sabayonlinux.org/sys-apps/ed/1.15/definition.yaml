@@ -2,7 +2,7 @@ category: sys-apps
 license: GPL-3
 name: ed
 requires:
-- Labels: null
+- labels: null
   category: sys-apps
   name: texinfo
   version: '>=0'
@@ -15,7 +15,7 @@ use_flags:
 - abi_x86_64
 - userland_GNU
 version: 1.15+r4
-Labels:
+labels:
   original.package.name: "ed"
   original.package.category: "sys-apps"
   original.package.version: "1.15"

@@ -2,7 +2,7 @@ category: dev-java
 license: Apache-2.0
 name: xjavac-1
 requires:
-- Labels: null
+- labels: null
   category: dev-java
   name: java-config-2
   version: '>=2.2.0'
@@ -18,7 +18,7 @@ use_flags:
 - -source
 - split-usr
 version: 2.4.0+3
-Labels:
+labels:
   original.package.name: "xjavac"
   original.package.category: "dev-java"
   original.package.version: "2.4.0"

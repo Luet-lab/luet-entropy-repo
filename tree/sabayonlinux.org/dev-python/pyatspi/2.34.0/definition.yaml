@@ -2,35 +2,35 @@ category: dev-python
 license: GPL-2+ LGPL-2
 name: pyatspi
 requires:
-- Labels: null
+- labels: null
   category: app-accessibility
   name: at-spi2-core-2
   version: '>=2.34'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-2.7
   version: '>=2.7.5'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-exec-2
   version: '>=2'
-- Labels: null
+- labels: null
   category: dev-libs
   name: atk
   version: '>=2.11.2'
-- Labels: null
+- labels: null
   category: dev-python
   name: pygobject-base-3
   version: '>=2.90.1'
-- Labels: null
+- labels: null
   category: sys-apps
   name: dbus
   version: '>=1'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-3.6
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-python
   name: dbus-python
   version: '>=0'
@@ -47,7 +47,7 @@ use_flags:
 - split-usr
 - python_targets_python3_6
 version: 2.34.0+3
-Labels:
+labels:
   original.package.name: "pyatspi"
   original.package.category: "dev-python"
   original.package.version: "2.34.0"

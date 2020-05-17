@@ -2,7 +2,7 @@ category: dev-db
 license: LGPL-2.1
 name: mariadb-connector-c
 requires:
-- Labels: null
+- labels: null
   category: net-libs
   name: gnutls
   version: '>=3.3.24'
@@ -31,7 +31,7 @@ use_flags:
 - kerberos
 - curl
 version: 3.1.7+1
-Labels:
+labels:
   original.package.name: "mariadb-connector-c"
   original.package.category: "dev-db"
   original.package.version: "3.1.7"

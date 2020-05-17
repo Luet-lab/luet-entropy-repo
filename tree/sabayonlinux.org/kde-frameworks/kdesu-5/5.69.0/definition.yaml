@@ -2,35 +2,35 @@ category: kde-frameworks
 license: LGPL-2
 name: kdesu-5
 requires:
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: kconfig-5
   version: '>=5.67'
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: kcoreaddons-5
   version: '>=5.67'
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: ki18n-5
   version: '>=5.67'
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: kpty-5
   version: '>=5.67'
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: kservice-5
   version: '>=5.67'
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: kf-env-5
   version: '>=4'
-- Labels: null
+- labels: null
   category: dev-qt
   name: qtcore-5
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libX11
   version: '>=0'
@@ -47,7 +47,7 @@ use_flags:
 - X
 - split-usr
 version: "5.69.0"
-Labels:
+labels:
   original.package.name: "kdesu"
   original.package.category: "kde-frameworks"
   original.package.version: "5.67.0"

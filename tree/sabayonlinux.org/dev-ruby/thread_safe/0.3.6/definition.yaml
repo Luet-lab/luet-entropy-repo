@@ -2,7 +2,7 @@ category: dev-ruby
 license: Apache-2.0
 name: thread_safe
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: ruby-2.5
   version: '>=0'
@@ -21,7 +21,7 @@ use_flags:
 - amd64
 - -doc
 version: 0.3.6+3
-Labels:
+labels:
   original.package.name: "thread_safe"
   original.package.category: "dev-ruby"
   original.package.version: "0.3.6"

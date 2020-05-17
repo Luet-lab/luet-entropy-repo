@@ -2,15 +2,15 @@ category: dev-libs
 license: ISC
 name: sord
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: serd
   version: '>=0.30.0'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-3.6
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: libpcre-3
   version: '>=0'
@@ -35,7 +35,7 @@ use_flags:
 - -abi_riscv_lp64d
 - -doc
 version: 0.16.4+1
-Labels:
+labels:
   original.package.name: "sord"
   original.package.category: "dev-libs"
   original.package.version: "0.16.4"

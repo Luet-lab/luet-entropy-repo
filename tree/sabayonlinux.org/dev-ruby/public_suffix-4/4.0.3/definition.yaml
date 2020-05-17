@@ -2,7 +2,7 @@ category: dev-ruby
 license: MIT
 name: public_suffix-4
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: ruby-2.5
   version: '>=0'
@@ -21,7 +21,7 @@ use_flags:
 - amd64
 - userland_GNU
 version: 4.0.3+3
-Labels:
+labels:
   original.package.name: "public_suffix"
   original.package.category: "dev-ruby"
   original.package.version: "4.0.3"

@@ -2,7 +2,7 @@ category: dev-lua
 license: MIT
 name: LuaBitOp
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: lua
   version: '>=5.1.5'
@@ -24,7 +24,7 @@ use_flags:
 - -abi_riscv_lp64
 - userland_GNU
 version: 1.0.2+r5
-Labels:
+labels:
   original.package.name: "LuaBitOp"
   original.package.category: "dev-lua"
   original.package.version: "1.0.2"

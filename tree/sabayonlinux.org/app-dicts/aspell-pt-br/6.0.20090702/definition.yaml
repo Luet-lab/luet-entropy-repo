@@ -2,7 +2,7 @@ category: app-dicts
 license: LGPL-2
 name: aspell-pt-br
 requires:
-- Labels: null
+- labels: null
   category: app-text
   name: aspell
   version: '>=0.60'
@@ -13,7 +13,7 @@ use_flags:
 - kernel_linux
 - userland_GNU
 version: 6.0.20090702+3
-Labels:
+labels:
   original.package.name: "aspell-pt-br"
   original.package.category: "app-dicts"
   original.package.version: "6.0.20090702"

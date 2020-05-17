@@ -2,19 +2,19 @@ category: dev-haskell
 license: MIT
 name: hxt-unicode
 requires:
-- Labels: null
+- labels: null
   category: dev-haskell
   name: hxt-charproperties
   version: <10
-- Labels: null
+- labels: null
   category: dev-haskell
   name: cabal
   version: '>=1.6'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: hxt-charproperties
   version: '>=9'
-- Labels: null
+- labels: null
   category: dev-lang
   name: ghc
   version: '>=7.4.1'
@@ -29,7 +29,7 @@ use_flags:
 - -profile
 - abi_x86_64
 version: 9.0.2.4+1
-Labels:
+labels:
   original.package.name: "hxt-unicode"
   original.package.category: "dev-haskell"
   original.package.version: "9.0.2.4"

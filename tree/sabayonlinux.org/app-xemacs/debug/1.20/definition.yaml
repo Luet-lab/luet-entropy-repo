@@ -2,11 +2,11 @@ category: app-xemacs
 license: GPL-2+
 name: debug
 requires:
-- Labels: null
+- labels: null
   category: app-editors
   name: xemacs
   version: '>=0'
-- Labels: null
+- labels: null
   category: app-xemacs
   name: xemacs-base
   version: '>=0'
@@ -18,7 +18,7 @@ use_flags:
 - abi_x86_64
 - elibc_glibc
 version: 1.20+3
-Labels:
+labels:
   original.package.name: "debug"
   original.package.category: "app-xemacs"
   original.package.version: "1.20"

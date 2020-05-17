@@ -2,19 +2,19 @@ category: dev-haskell
 license: BSD
 name: ansi-wl-pprint
 requires:
-- Labels: null
+- labels: null
   category: dev-haskell
   name: ansi-terminal
   version: <0.7
-- Labels: null
+- labels: null
   category: dev-haskell
   name: ansi-terminal
   version: '>=0.4.0'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: cabal
   version: '>=1.6'
-- Labels: null
+- labels: null
   category: dev-lang
   name: ghc
   version: '>=7.4.1'
@@ -30,7 +30,7 @@ use_flags:
 - abi_x86_64
 - elibc_glibc
 version: 0.6.7.3+1
-Labels:
+labels:
   original.package.name: "ansi-wl-pprint"
   original.package.category: "dev-haskell"
   original.package.version: "0.6.7.3"

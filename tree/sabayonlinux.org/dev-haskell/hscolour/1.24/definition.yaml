@@ -2,11 +2,11 @@ category: dev-haskell
 license: GPL-2
 name: hscolour
 requires:
-- Labels: null
+- labels: null
   category: dev-haskell
   name: cabal
   version: '>=1.6'
-- Labels: null
+- labels: null
   category: dev-lang
   name: ghc
   version: '>=7.4.1'
@@ -20,7 +20,7 @@ use_flags:
 - -profile
 - kernel_linux
 version: 1.24+1
-Labels:
+labels:
   original.package.name: "hscolour"
   original.package.category: "dev-haskell"
   original.package.version: "1.24"

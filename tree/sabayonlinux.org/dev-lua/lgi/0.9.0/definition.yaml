@@ -2,15 +2,15 @@ category: dev-lua
 license: MIT
 name: lgi
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: lua
   version: '>=5.1'
-- Labels: null
+- labels: null
   category: dev-libs
   name: glib-2
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: gobject-introspection
   version: '>=0'
@@ -23,7 +23,7 @@ use_flags:
 - kernel_linux
 - userland_GNU
 version: 0.9.0+3
-Labels:
+labels:
   original.package.name: "lgi"
   original.package.category: "dev-lua"
   original.package.version: "0.9.0"

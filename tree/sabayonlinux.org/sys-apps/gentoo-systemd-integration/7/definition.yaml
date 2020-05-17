@@ -2,7 +2,7 @@ category: sys-apps
 license: BSD
 name: gentoo-systemd-integration
 requires:
-- Labels: null
+- labels: null
   category: sys-apps
   name: systemd
   version: '>=207'
@@ -14,7 +14,7 @@ use_flags:
 - kernel_linux
 - big-endian
 version: 7+3
-Labels:
+labels:
   original.package.name: "gentoo-systemd-integration"
   original.package.category: "sys-apps"
   original.package.version: "7"

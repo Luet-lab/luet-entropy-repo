@@ -2,11 +2,11 @@ category: dev-haskell
 license: BSD
 name: unbounded-delays
 requires:
-- Labels: null
+- labels: null
   category: dev-haskell
   name: cabal
   version: '>=1.6'
-- Labels: null
+- labels: null
   category: dev-lang
   name: ghc
   version: '>=7.4.1'
@@ -21,7 +21,7 @@ use_flags:
 - kernel_linux
 - amd64
 version: 0.1.0.9+1
-Labels:
+labels:
   original.package.name: "unbounded-delays"
   original.package.category: "dev-haskell"
   original.package.version: "0.1.0.9"

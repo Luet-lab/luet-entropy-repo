@@ -2,35 +2,35 @@ category: dev-python
 license: MIT
 name: dbus-python
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-2.7
   version: '>=2.7.5'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-exec-2
   version: '>=2'
-- Labels: null
+- labels: null
   category: dev-libs
   name: glib-2
   version: '>=2.40'
-- Labels: null
+- labels: null
   category: sys-apps
   name: dbus
   version: '>=1.8'
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- Labels: null
+- labels: null
   category: sys-devel
   name: automake-1.15
   version: '>=1.15.1'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.4'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-3.6
   version: '>=0'
@@ -49,7 +49,7 @@ use_flags:
 - split-usr
 - amd64
 version: 1.2.12+3
-Labels:
+labels:
   original.package.name: "dbus-python"
   original.package.category: "dev-python"
   original.package.version: "1.2.12"

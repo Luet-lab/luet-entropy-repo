@@ -2,43 +2,43 @@ category: dev-haskell
 license: BSD
 name: monad-control
 requires:
-- Labels: null
+- labels: null
   category: dev-haskell
   name: stm
   version: <3
-- Labels: null
+- labels: null
   category: dev-haskell
   name: transformers
   version: <0.6
-- Labels: null
+- labels: null
   category: dev-haskell
   name: transformers-base
   version: <0.5
-- Labels: null
+- labels: null
   category: dev-haskell
   name: transformers-compat
   version: <0.6
-- Labels: null
+- labels: null
   category: dev-haskell
   name: cabal
   version: '>=1.6'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: stm
   version: '>=2.3'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: transformers
   version: '>=0.2'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: transformers-base
   version: '>=0.4.4'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: transformers-compat
   version: '>=0.3'
-- Labels: null
+- labels: null
   category: dev-lang
   name: ghc
   version: '>=7.4.1'
@@ -53,7 +53,7 @@ use_flags:
 - -profile
 - big-endian
 version: 1.0.1.0+1
-Labels:
+labels:
   original.package.name: "monad-control"
   original.package.category: "dev-haskell"
   original.package.version: "1.0.1.0"

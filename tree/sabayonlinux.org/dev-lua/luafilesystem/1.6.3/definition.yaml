@@ -2,11 +2,11 @@ category: dev-lua
 license: MIT
 name: luafilesystem
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: lua
   version: '>=5.1'
-- Labels: null
+- labels: null
   category: sys-libs
   name: glibc-2.2
   version: '>=0'
@@ -18,7 +18,7 @@ use_flags:
 - kernel_linux
 - userland_GNU
 version: 1.6.3+3
-Labels:
+labels:
   original.package.name: "luafilesystem"
   original.package.category: "dev-lua"
   original.package.version: "1.6.3"

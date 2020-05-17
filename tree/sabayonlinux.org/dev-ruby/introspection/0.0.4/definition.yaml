@@ -2,11 +2,11 @@ category: dev-ruby
 license: MIT
 name: introspection
 requires:
-- Labels: null
+- labels: null
   category: dev-ruby
   name: metaclass
   version: '>=0.0.1'
-- Labels: null
+- labels: null
   category: dev-lang
   name: ruby-2.5
   version: '>=0'
@@ -24,7 +24,7 @@ use_flags:
 - abi_x86_64
 - -test
 version: 0.0.4+3
-Labels:
+labels:
   original.package.name: "introspection"
   original.package.category: "dev-ruby"
   original.package.version: "0.0.4"

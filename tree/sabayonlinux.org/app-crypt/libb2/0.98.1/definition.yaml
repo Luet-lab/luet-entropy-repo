@@ -2,7 +2,7 @@ category: app-crypt
 license: CC0-1.0
 name: libb2
 requires:
-- Labels: null
+- labels: null
   category: sys-devel
   name: clang-runtime-9.0.1
   version: '>=0'
@@ -27,7 +27,7 @@ use_flags:
 - -native-cflags
 - -abi_riscv_lp64d
 version: 0.98.1+r6
-Labels:
+labels:
   original.package.name: "libb2"
   original.package.category: "app-crypt"
   original.package.version: "0.98.1"

@@ -2,39 +2,39 @@ category: media-libs
 license: AGPL-3
 name: libquvi
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: lua
   version: '>=5.1.5'
-- Labels: null
+- labels: null
   category: dev-libs
   name: glib-2
   version: '>=2.34.3'
-- Labels: null
+- labels: null
   category: dev-libs
   name: libgcrypt
   version: '>=1.5.3'
-- Labels: null
+- labels: null
   category: media-libs
   name: libquvi-scripts
   version: '>=0.9.20130903'
-- Labels: null
+- labels: null
   category: net-libs
   name: libproxy
   version: '>=0.4.11'
-- Labels: null
+- labels: null
   category: net-misc
   name: curl
   version: '>=7.36.0'
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- Labels: null
+- labels: null
   category: sys-devel
   name: automake-1.15
   version: '>=1.15.1'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.4'
@@ -59,7 +59,7 @@ use_flags:
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
 version: 0.9.4+r5
-Labels:
+labels:
   original.package.name: "libquvi"
   original.package.category: "media-libs"
   original.package.version: "0.9.4"

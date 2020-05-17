@@ -2,31 +2,31 @@ category: dev-scheme
 license: LGPL-3+
 name: guile-12
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: boehm-gc
   version: '>=7.0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: gmp
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: libltdl
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: libunistring
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-libs
   name: ncurses
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-libs
   name: readline
   version: '>=0'
@@ -46,7 +46,7 @@ use_flags:
 - -debug-malloc
 - userland_GNU
 version: 2.2.4+3
-Labels:
+labels:
   original.package.name: "guile"
   original.package.category: "dev-scheme"
   original.package.version: "2.2.4"

@@ -2,7 +2,7 @@ category: dev-java
 license: LGPL-2.1
 name: java-getopt-1
 requires:
-- Labels: null
+- labels: null
   category: dev-java
   name: java-config-2
   version: '>=2.1.9'
@@ -16,7 +16,7 @@ use_flags:
 - -source
 - amd64
 version: 1.0.14+3
-Labels:
+labels:
   original.package.name: "java-getopt"
   original.package.category: "dev-java"
   original.package.version: "1.0.14"

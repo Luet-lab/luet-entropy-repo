@@ -2,7 +2,7 @@ category: app-text
 license: BSD
 name: docbook-xsl-stylesheets
 requires:
-- Labels: null
+- labels: null
   category: app-text
   name: build-docbook-catalog
   version: '>=1.1'
@@ -15,7 +15,7 @@ use_flags:
 - abi_x86_64
 - amd64
 version: 1.79.1+r5
-Labels:
+labels:
   original.package.name: "docbook-xsl-stylesheets"
   original.package.category: "app-text"
   original.package.version: "1.79.1"

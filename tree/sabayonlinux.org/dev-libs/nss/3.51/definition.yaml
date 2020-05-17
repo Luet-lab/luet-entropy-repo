@@ -1,18 +1,18 @@
-Labels:
+labels:
   original.package.version: "3.51"
 category: dev-libs
 license: GPL-2 LGPL-2.1 MPL-2.0
 name: nss
 requires:
-- Labels: null
+- labels: null
   category: dev-db
   name: sqlite-3
   version: '>=3.8.2'
-- Labels: null
+- labels: null
   category: dev-libs
   name: nspr
   version: '>=4.25'
-- Labels: null
+- labels: null
   category: sys-libs
   name: zlib
   version: '>=1.2.8'
@@ -37,7 +37,7 @@ use_flags:
 - utils
 - nss-pem
 version: "3.51"
-Labels:
+labels:
   original.package.name: "nss"
   original.package.category: "dev-libs"
   original.package.version: "3.50"

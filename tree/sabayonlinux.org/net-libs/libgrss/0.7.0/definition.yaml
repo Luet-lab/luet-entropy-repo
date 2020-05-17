@@ -2,23 +2,23 @@ category: net-libs
 license: LGPL-3
 name: libgrss
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: glib-2
   version: '>=2.42.1'
-- Labels: null
+- labels: null
   category: dev-libs
   name: gobject-introspection
   version: '>=1.42'
-- Labels: null
+- labels: null
   category: dev-libs
   name: libxml2-2
   version: '>=2.9.2'
-- Labels: null
+- labels: null
   category: dev-util
   name: gtk-doc-am
   version: '>=1.10'
-- Labels: null
+- labels: null
   category: net-libs
   name: libsoup-2.4
   version: '>=2.48'
@@ -30,7 +30,7 @@ use_flags:
 - introspection
 - kernel_linux
 version: 0.7.0+3
-Labels:
+labels:
   original.package.name: "libgrss"
   original.package.category: "net-libs"
   original.package.version: "0.7.0"

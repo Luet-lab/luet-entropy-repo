@@ -2,7 +2,7 @@ category: app-text
 license: MIT
 name: passivetex
 requires:
-- Labels: null
+- labels: null
   category: dev-tex
   name: xmltex
   version: '>=1.9'
@@ -12,7 +12,7 @@ use_flags:
 - -elibc_glibc
 - -kernel_linux
 version: 1.25+3
-Labels:
+labels:
   original.package.name: "passivetex"
   original.package.category: "app-text"
   original.package.version: "1.25"

@@ -2,19 +2,19 @@ category: dev-haskell
 license: BSD
 name: temporary
 requires:
-- Labels: null
+- labels: null
   category: dev-haskell
   name: cabal
   version: '>=1.6'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: exceptions
   version: '>=0.6'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: transformers
   version: '>=0.2.0.0'
-- Labels: null
+- labels: null
   category: dev-lang
   name: ghc
   version: '>=7.4.1'
@@ -29,7 +29,7 @@ use_flags:
 - -profile
 - big-endian
 version: 1.2.0.4+1
-Labels:
+labels:
   original.package.name: "temporary"
   original.package.category: "dev-haskell"
   original.package.version: "1.2.0.4"

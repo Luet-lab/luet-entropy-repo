@@ -2,7 +2,7 @@ category: dev-ruby
 license: GPL-2+ LGPL-2+ MPL-1.1
 name: itextomml
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: ruby-2.5
   version: '>=0'
@@ -19,7 +19,7 @@ use_flags:
 - -test
 - -ruby_targets_ruby26
 version: 1.6.0+3
-Labels:
+labels:
   original.package.name: "itextomml"
   original.package.category: "dev-ruby"
   original.package.version: "1.6.0"

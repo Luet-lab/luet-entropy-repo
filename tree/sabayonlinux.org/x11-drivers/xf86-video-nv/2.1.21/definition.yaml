@@ -2,15 +2,15 @@ category: x11-drivers
 license: MIT
 name: xf86-video-nv
 requires:
-- Labels: null
+- labels: null
   category: x11-libs
   name: libpciaccess
   version: '>=0.10.7'
-- Labels: null
+- labels: null
   category: x11-base
   name: xorg-server
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libpciaccess
   version: '>=0'
@@ -23,7 +23,7 @@ use_flags:
 - kernel_linux
 - big-endian
 version: 2.1.21+4
-Labels:
+labels:
   original.package.name: "xf86-video-nv"
   original.package.category: "x11-drivers"
   original.package.version: "2.1.21"

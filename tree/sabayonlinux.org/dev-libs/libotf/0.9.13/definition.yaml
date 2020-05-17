@@ -2,39 +2,39 @@ category: dev-libs
 license: LGPL-2.1
 name: libotf
 requires:
-- Labels: null
+- labels: null
   category: media-libs
   name: freetype-2
   version: '>=2.4.9'
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- Labels: null
+- labels: null
   category: sys-devel
   name: automake-1.15
   version: '>=1.15.1'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.4'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libICE
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libX11
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libXaw
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libXmu
   version: '>=0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libXt
   version: '>=0'
@@ -48,7 +48,7 @@ use_flags:
 - amd64
 - X
 version: 0.9.13+3
-Labels:
+labels:
   original.package.name: "libotf"
   original.package.category: "dev-libs"
   original.package.version: "0.9.13"

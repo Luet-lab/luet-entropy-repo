@@ -2,47 +2,47 @@ category: gnome-base
 license: LGPL-2+
 name: gconf-2
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-2.7
   version: '>=2.7.5'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-exec-2
   version: '>=2'
-- Labels: null
+- labels: null
   category: dev-libs
   name: dbus-glib
   version: '>=0.100.2'
-- Labels: null
+- labels: null
   category: dev-libs
   name: glib-2
   version: '>=2.34.3'
-- Labels: null
+- labels: null
   category: dev-libs
   name: gobject-introspection
   version: '>=0.9.5'
-- Labels: null
+- labels: null
   category: dev-libs
   name: libxml2-2
   version: '>=2.9.1'
-- Labels: null
+- labels: null
   category: net-nds
   name: openldap
   version: '>=2.4.38'
-- Labels: null
+- labels: null
   category: sys-apps
   name: dbus
   version: '>=1.6.18'
-- Labels: null
+- labels: null
   category: dev-libs
   name: libxslt
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-util
   name: gtk-doc-am
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-auth
   name: polkit
   version: '>=0'
@@ -69,7 +69,7 @@ use_flags:
 - -abi_riscv_lp64
 - userland_GNU
 version: 3.2.6+r8
-Labels:
+labels:
   original.package.name: "gconf"
   original.package.category: "gnome-base"
   original.package.version: "3.2.6"

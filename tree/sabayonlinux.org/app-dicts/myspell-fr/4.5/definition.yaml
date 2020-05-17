@@ -2,7 +2,7 @@ category: app-dicts
 license: GPL-2 LGPL-2.1 MPL-1.1
 name: myspell-fr
 requires:
-- Labels: null
+- labels: null
   category: app-arch
   name: unzip
   version: '>=0'
@@ -13,7 +13,7 @@ use_flags:
 - kernel_linux
 - userland_GNU
 version: 4.5+r4
-Labels:
+labels:
   original.package.name: "myspell-fr"
   original.package.category: "app-dicts"
   original.package.version: "4.5"

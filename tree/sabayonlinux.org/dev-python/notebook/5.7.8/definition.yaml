@@ -2,67 +2,67 @@ category: dev-python
 license: BSD
 name: notebook
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-exec-2
   version: '>=2'
-- Labels: null
+- labels: null
   category: dev-libs
   name: mathjax
   version: '>=2.4'
-- Labels: null
+- labels: null
   category: dev-python
   name: jupyter_client
   version: '>=5.2'
-- Labels: null
+- labels: null
   category: dev-python
   name: jupyter_core
   version: '>=4.4.0'
-- Labels: null
+- labels: null
   category: dev-python
   name: nbconvert
   version: '>=4.2.0'
-- Labels: null
+- labels: null
   category: dev-python
   name: pyzmq
   version: '>=17'
-- Labels: null
+- labels: null
   category: dev-python
   name: terminado
   version: '>=0.8.1'
-- Labels: null
+- labels: null
   category: dev-python
   name: traitlets
   version: '>=4.2.1'
-- Labels: null
+- labels: null
   category: www-servers
   name: tornado
   version: '>=4.0'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-3.6
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-python
   name: ipykernel
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-python
   name: ipython_genutils
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-python
   name: jinja
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-python
   name: nbformat
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-python
   name: prometheus_client
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-python
   name: send2trash
   version: '>=0'
@@ -79,7 +79,7 @@ use_flags:
 - amd64
 - elibc_glibc
 version: 5.7.8+3
-Labels:
+labels:
   original.package.name: "notebook"
   original.package.category: "dev-python"
   original.package.version: "5.7.8"

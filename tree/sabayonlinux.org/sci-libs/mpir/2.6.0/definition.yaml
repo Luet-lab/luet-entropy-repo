@@ -2,7 +2,7 @@ category: sci-libs
 license: LGPL-3
 name: mpir
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: yasm
   version: '>=0'
@@ -17,7 +17,7 @@ use_flags:
 - abi_x86_64
 - -static-libs
 version: 2.6.0+r5
-Labels:
+labels:
   original.package.name: "mpir"
   original.package.category: "sci-libs"
   original.package.version: "2.6.0"

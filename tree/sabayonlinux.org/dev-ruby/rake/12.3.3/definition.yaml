@@ -2,11 +2,11 @@ category: dev-ruby
 license: MIT
 name: rake
 requires:
-- Labels: null
+- labels: null
   category: app-arch
   name: gzip
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-lang
   name: ruby-2.5
   version: '>=0'
@@ -24,7 +24,7 @@ use_flags:
 - kernel_linux
 - userland_GNU
 version: 12.3.3+3
-Labels:
+labels:
   original.package.name: "rake"
   original.package.category: "dev-ruby"
   original.package.version: "12.3.3"

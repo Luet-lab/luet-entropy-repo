@@ -2,7 +2,7 @@ category: dev-ruby
 license: MIT
 name: kpeg-1
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: ruby-2.5
   version: '>=0'
@@ -21,7 +21,7 @@ use_flags:
 - userland_GNU
 - amd64
 version: 1.1.0+r4
-Labels:
+labels:
   original.package.name: "kpeg"
   original.package.category: "dev-ruby"
   original.package.version: "1.1.0"

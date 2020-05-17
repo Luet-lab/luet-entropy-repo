@@ -2,7 +2,7 @@ category: app-i18n
 license: unicode
 name: unicode-data
 requires:
-- Labels: null
+- labels: null
   category: app-arch
   name: unzip
   version: '>=0'
@@ -15,7 +15,7 @@ use_flags:
 - big-endian
 - elibc_glibc
 version: 12.0.0+3
-Labels:
+labels:
   original.package.name: "unicode-data"
   original.package.category: "app-i18n"
   original.package.version: "12.0.0"

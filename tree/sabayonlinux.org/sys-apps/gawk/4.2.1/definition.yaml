@@ -2,11 +2,11 @@ category: sys-apps
 license: GPL-2
 name: gawk
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: gmp
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-libs
   name: readline
   version: '>=0'
@@ -22,7 +22,7 @@ use_flags:
 - readline
 - userland_GNU
 version: 4.2.1+r4
-Labels:
+labels:
   original.package.name: "gawk"
   original.package.category: "sys-apps"
   original.package.version: "4.2.1"

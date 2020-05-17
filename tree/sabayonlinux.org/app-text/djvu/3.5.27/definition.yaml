@@ -2,11 +2,11 @@ category: app-text
 license: GPL-2
 name: djvu
 requires:
-- Labels: null
+- labels: null
   category: media-gfx
   name: inkscape
   version: '>=0'
-- Labels: null
+- labels: null
   category: media-libs
   name: tiff
   version: '>=0'
@@ -24,7 +24,7 @@ use_flags:
 - big-endian
 - -debug
 version: 3.5.27+r4
-Labels:
+labels:
   original.package.name: "djvu"
   original.package.category: "app-text"
   original.package.version: "3.5.27"

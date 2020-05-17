@@ -2,11 +2,11 @@ category: dev-perl
 license: Artistic-2
 name: Net-SSLeay
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: perl
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: openssl
   version: '>=0'
@@ -23,7 +23,7 @@ use_flags:
 - -minimal
 - kernel_linux
 version: 1.880.0+3
-Labels:
+labels:
   original.package.name: "Net-SSLeay"
   original.package.category: "dev-perl"
   original.package.version: "1.880.0"

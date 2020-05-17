@@ -2,19 +2,19 @@ category: gui-libs
 license: BSD-2
 name: wpebackend-fdo-1.0
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: wayland
   version: '>=1.10'
-- Labels: null
+- labels: null
   category: dev-libs
   name: glib-2
   version: '>=0'
-- Labels: null
+- labels: null
   category: gui-libs
   name: libwpe-1.0
   version: '>=0'
-- Labels: null
+- labels: null
   category: media-libs
   name: mesa
   version: '>=0'
@@ -27,7 +27,7 @@ use_flags:
 - amd64
 - kernel_linux
 version: 1.4.0+3
-Labels:
+labels:
   original.package.name: "wpebackend-fdo"
   original.package.category: "gui-libs"
   original.package.version: "1.4.0"

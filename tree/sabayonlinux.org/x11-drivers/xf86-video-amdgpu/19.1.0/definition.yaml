@@ -2,19 +2,19 @@ category: x11-drivers
 license: MIT
 name: xf86-video-amdgpu
 requires:
-- Labels: null
+- labels: null
   category: x11-base
   name: xorg-server
   version: '>=1.20'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libdrm
   version: '>=2.4.89'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libpciaccess
   version: '>=0.14'
-- Labels: null
+- labels: null
   category: x11-libs
   name: libdrm
   version: '>=0'
@@ -28,7 +28,7 @@ use_flags:
 - elibc_glibc
 - kernel_linux
 version: 19.1.0+4
-Labels:
+labels:
   original.package.name: "xf86-video-amdgpu"
   original.package.category: "x11-drivers"
   original.package.version: "19.1.0"

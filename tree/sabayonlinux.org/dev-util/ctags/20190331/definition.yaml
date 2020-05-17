@@ -2,27 +2,27 @@ category: dev-util
 license: GPL-2
 name: ctags
 requires:
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- Labels: null
+- labels: null
   category: sys-devel
   name: automake-1.15
   version: '>=1.15.1'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.4'
-- Labels: null
+- labels: null
   category: app-eselect
   name: eselect-ctags
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: libxml2-2
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-python
   name: docutils
   version: '>=0'
@@ -37,7 +37,7 @@ use_flags:
 - -json
 - xml
 version: 20190331+3
-Labels:
+labels:
   original.package.name: "ctags"
   original.package.category: "dev-util"
   original.package.version: "20190331"

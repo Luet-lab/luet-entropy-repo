@@ -2,11 +2,11 @@ category: dev-python
 license: Apache-2.0
 name: pyrex
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-2.7
   version: '>=2.7.5'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-exec-2
   version: '>=0'
@@ -20,7 +20,7 @@ use_flags:
 - python_targets_python2_7
 - -examples
 version: 0.9.9+r4
-Labels:
+labels:
   original.package.name: "pyrex"
   original.package.category: "dev-python"
   original.package.version: "0.9.9"

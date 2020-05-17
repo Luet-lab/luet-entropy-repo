@@ -2,11 +2,11 @@ category: dev-libs
 license: LGPL-2.1
 name: mpc
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: gmp
   version: '>=5.0.0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: mpfr
   version: '>=3.0.0'
@@ -29,7 +29,7 @@ use_flags:
 - -abi_riscv_lp64
 - -abi_riscv_lp64d
 version: 1.1.0+r5
-Labels:
+labels:
   original.package.name: "mpc"
   original.package.category: "dev-libs"
   original.package.version: "1.1.0"

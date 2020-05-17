@@ -2,7 +2,7 @@ category: dev-ruby
 license: MIT
 name: concurrent-ruby-1
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: ruby-2.5
   version: '>=0'
@@ -20,7 +20,7 @@ use_flags:
 - split-usr
 - amd64
 version: 1.0.5+3
-Labels:
+labels:
   original.package.name: "concurrent-ruby"
   original.package.category: "dev-ruby"
   original.package.version: "1.0.5"

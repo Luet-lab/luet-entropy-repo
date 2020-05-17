@@ -2,23 +2,23 @@ category: sys-kernel
 license: GPL-2 linux-firmware
 name: gentoo-sources-4.14.15
 requires:
-- Labels: null
+- labels: null
   category: sys-devel
   name: binutils-2.32
   version: '>=2.11.90.0.31'
-- Labels: null
+- labels: null
   category: sys-libs
   name: ncurses
   version: '>=5.2'
-- Labels: null
+- labels: null
   category: dev-lang
   name: perl
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-devel
   name: bc
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-devel
   name: make
   version: '>=0'
@@ -33,7 +33,7 @@ use_flags:
 - abi_x86_64
 - amd64
 version: 4.14.15+3
-Labels:
+labels:
   original.package.name: "gentoo-sources"
   original.package.category: "sys-kernel"
   original.package.version: "4.14.15"

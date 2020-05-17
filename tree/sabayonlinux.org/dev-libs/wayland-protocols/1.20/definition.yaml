@@ -2,7 +2,7 @@ category: dev-libs
 license: MIT
 name: wayland-protocols
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: wayland
   version: '>=0'
@@ -15,7 +15,7 @@ use_flags:
 - kernel_linux
 - abi_x86_64
 version: "1.20"
-Labels:
+labels:
   original.package.name: "wayland-protocols"
   original.package.category: "dev-libs"
   original.package.version: "1.20"

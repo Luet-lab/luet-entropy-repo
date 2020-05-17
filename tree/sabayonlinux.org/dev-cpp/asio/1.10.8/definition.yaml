@@ -2,11 +2,11 @@ category: dev-cpp
 license: Boost-1.0
 name: asio
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: boost
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: openssl
   version: '>=0'
@@ -23,7 +23,7 @@ use_flags:
 - big-endian
 - elibc_glibc
 version: 1.10.8+3
-Labels:
+labels:
   original.package.name: "asio"
   original.package.category: "dev-cpp"
   original.package.version: "1.10.8"

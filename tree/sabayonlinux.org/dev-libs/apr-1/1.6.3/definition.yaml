@@ -2,23 +2,23 @@ category: dev-libs
 license: Apache-2.0
 name: apr-1
 requires:
-- Labels: null
+- labels: null
   category: sys-apps
   name: util-linux
   version: '>=2.16'
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- Labels: null
+- labels: null
   category: sys-devel
   name: automake-1.15
   version: '>=1.15.1'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.4'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.4.2'
@@ -36,7 +36,7 @@ use_flags:
 - kernel_linux
 - userland_GNU
 version: 1.6.3+r7
-Labels:
+labels:
   original.package.name: "apr"
   original.package.category: "dev-libs"
   original.package.version: "1.6.3"

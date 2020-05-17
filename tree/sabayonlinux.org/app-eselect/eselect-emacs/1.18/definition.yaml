@@ -2,11 +2,11 @@ category: app-eselect
 license: GPL-2+
 name: eselect-emacs
 requires:
-- Labels: null
+- labels: null
   category: app-admin
   name: eselect
   version: '>=1.2.6'
-- Labels: null
+- labels: null
   category: app-eselect
   name: eselect-ctags
   version: '>=1.18'
@@ -17,7 +17,7 @@ use_flags:
 - userland_GNU
 - abi_x86_64
 version: 1.18+3
-Labels:
+labels:
   original.package.name: "eselect-emacs"
   original.package.category: "app-eselect"
   original.package.version: "1.18"

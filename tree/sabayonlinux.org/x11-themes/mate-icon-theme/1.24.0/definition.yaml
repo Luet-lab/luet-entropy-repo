@@ -2,27 +2,27 @@ category: x11-themes
 license: GPL-2
 name: mate-icon-theme
 requires:
-- Labels: null
+- labels: null
   category: mate-base
   name: mate-common
   version: '>=1.22'
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- Labels: null
+- labels: null
   category: sys-devel
   name: automake-1.15
   version: '>=1.15.1'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.4'
-- Labels: null
+- labels: null
   category: x11-misc
   name: icon-naming-utils
   version: '>=0.8.7'
-- Labels: null
+- labels: null
   category: x11-themes
   name: hicolor-icon-theme
   version: '>=0.10'
@@ -34,7 +34,7 @@ use_flags:
 - abi_x86_64
 - elibc_glibc
 version: "1.24.0"
-Labels:
+labels:
   original.package.name: "mate-icon-theme"
   original.package.category: "x11-themes"
   original.package.version: "1.22.1"

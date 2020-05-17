@@ -2,11 +2,11 @@ category: x11-misc
 license: GPL-2
 name: icon-naming-utils
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: perl
   version: '>=5'
-- Labels: null
+- labels: null
   category: dev-perl
   name: XML-Simple
   version: '>=2'
@@ -17,7 +17,7 @@ use_flags:
 - amd64
 - abi_x86_64
 version: 0.8.90+r4
-Labels:
+labels:
   original.package.name: "icon-naming-utils"
   original.package.category: "x11-misc"
   original.package.version: "0.8.90"

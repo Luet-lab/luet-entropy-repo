@@ -2,19 +2,19 @@ category: app-text
 license: MIT
 name: opensp
 requires:
-- Labels: null
+- labels: null
   category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- Labels: null
+- labels: null
   category: sys-devel
   name: automake-1.15
   version: '>=1.15.1'
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.4'
-- Labels: null
+- labels: null
   category: net-libs
   name: libnsl
   version: '>=0'
@@ -30,7 +30,7 @@ use_flags:
 - elibc_glibc
 - nls
 version: 1.5.2+r9
-Labels:
+labels:
   original.package.name: "opensp"
   original.package.category: "app-text"
   original.package.version: "1.5.2"

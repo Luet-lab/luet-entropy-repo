@@ -2,23 +2,23 @@ category: dev-tex
 license: GPL-2 LGPL-3
 name: metapost
 requires:
-- Labels: null
+- labels: null
   category: app-eselect
   name: eselect-mpost
   version: '>=0.3'
-- Labels: null
+- labels: null
   category: dev-libs
   name: kpathsea
   version: '>=6.1.0'
-- Labels: null
+- labels: null
   category: x11-libs
   name: cairo
   version: '>=1.12'
-- Labels: null
+- labels: null
   category: x11-libs
   name: pixman
   version: '>0.18'
-- Labels: null
+- labels: null
   category: media-libs
   name: libpng
   version: '>=0'
@@ -29,7 +29,7 @@ use_flags:
 - kernel_linux
 - userland_GNU
 version: 1.902+3
-Labels:
+labels:
   original.package.name: "metapost"
   original.package.category: "dev-tex"
   original.package.version: "1.902"

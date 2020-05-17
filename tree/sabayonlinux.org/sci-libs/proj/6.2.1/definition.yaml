@@ -2,7 +2,7 @@ category: sci-libs
 license: MIT
 name: proj
 requires:
-- Labels: null
+- labels: null
   category: dev-db
   name: sqlite-3
   version: '>=0'
@@ -18,7 +18,7 @@ use_flags:
 - -test
 - big-endian
 version: 6.2.1+1
-Labels:
+labels:
   original.package.name: "proj"
   original.package.category: "sci-libs"
   original.package.version: "6.2.1"

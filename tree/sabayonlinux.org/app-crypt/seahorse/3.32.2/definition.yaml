@@ -2,59 +2,59 @@ category: app-crypt
 license: FDL-1.1+ GPL-2+
 name: seahorse
 requires:
-- Labels: null
+- labels: null
   category: app-crypt
   name: gcr
   version: '>=3.11.91'
-- Labels: null
+- labels: null
   category: app-crypt
   name: gnupg
   version: '>=2.0.12'
-- Labels: null
+- labels: null
   category: app-crypt
   name: gpgme-1
   version: '>=1.7.0'
-- Labels: null
+- labels: null
   category: app-crypt
   name: libsecret
   version: '>=0.16'
-- Labels: null
+- labels: null
   category: dev-libs
   name: glib-2
   version: '>=2.44'
-- Labels: null
+- labels: null
   category: net-dns
   name: avahi-gtk3
   version: '>=0.6'
-- Labels: null
+- labels: null
   category: net-libs
   name: libsoup-2.4
   version: '>=2.33.92'
-- Labels: null
+- labels: null
   category: x11-libs
   name: gtk+-3
   version: '>=3.22.0'
-- Labels: null
+- labels: null
   category: app-crypt
   name: gcr
   version: '>=0'
-- Labels: null
+- labels: null
   category: app-crypt
   name: libsecret
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-lang
   name: vala-0.44
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: libpwquality
   version: '>=0'
-- Labels: null
+- labels: null
   category: net-misc
   name: openssh
   version: '>=0'
-- Labels: null
+- labels: null
   category: net-nds
   name: openldap
   version: '>=0'
@@ -69,7 +69,7 @@ use_flags:
 - zeroconf
 - kernel_linux
 version: 3.32.2+1
-Labels:
+labels:
   original.package.name: "seahorse"
   original.package.category: "app-crypt"
   original.package.version: "3.32.2"

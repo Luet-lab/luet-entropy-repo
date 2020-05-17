@@ -2,7 +2,7 @@ category: app-eselect
 license: GPL-2
 name: eselect-timidity
 requires:
-- Labels: null
+- labels: null
   category: app-admin
   name: eselect
   version: '>=1.2.3'
@@ -13,7 +13,7 @@ use_flags:
 - userland_GNU
 - kernel_linux
 version: 20110513+1
-Labels:
+labels:
   original.package.name: "eselect-timidity"
   original.package.category: "app-eselect"
   original.package.version: "20110513"

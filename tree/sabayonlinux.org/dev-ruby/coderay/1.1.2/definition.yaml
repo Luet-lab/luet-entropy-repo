@@ -2,7 +2,7 @@ category: dev-ruby
 license: MIT
 name: coderay
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: ruby-2.5
   version: '>=0'
@@ -21,7 +21,7 @@ use_flags:
 - ruby_targets_ruby25
 - big-endian
 version: 1.1.2+3
-Labels:
+labels:
   original.package.name: "coderay"
   original.package.category: "dev-ruby"
   original.package.version: "1.1.2"

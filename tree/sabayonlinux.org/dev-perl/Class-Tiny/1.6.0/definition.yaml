@@ -2,7 +2,7 @@ category: dev-perl
 license: Apache-2.0
 name: Class-Tiny
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: perl
   version: '>=0'
@@ -17,7 +17,7 @@ use_flags:
 - big-endian
 - elibc_glibc
 version: 1.6.0+3
-Labels:
+labels:
   original.package.name: "Class-Tiny"
   original.package.category: "dev-perl"
   original.package.version: "1.6.0"

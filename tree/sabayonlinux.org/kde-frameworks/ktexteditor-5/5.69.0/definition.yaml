@@ -2,107 +2,107 @@ category: kde-frameworks
 license: LGPL-2+
 name: ktexteditor-5
 requires:
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: karchive-5
   version: '>=5.67'
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: kauth-5
   version: '>=5.67'
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: kcodecs-5
   version: '>=5.67'
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: kcompletion-5
   version: '>=5.67'
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: kconfig-5
   version: '>=5.67'
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: kconfigwidgets-5
   version: '>=5.67'
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: kcoreaddons-5
   version: '>=5.67'
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: kguiaddons-5
   version: '>=5.67'
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: ki18n-5
   version: '>=5.67'
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: kiconthemes-5
   version: '>=5.67'
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: kio-5
   version: '>=5.67'
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: kitemviews-5
   version: '>=5.67'
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: kjobwidgets-5
   version: '>=5.67'
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: kparts-5
   version: '>=5.67'
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: ktextwidgets-5
   version: '>=5.67'
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: kwidgetsaddons-5
   version: '>=5.67'
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: kxmlgui-5
   version: '>=5.67'
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: sonnet-5
   version: '>=5.67'
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: syntax-highlighting-5
   version: '>=5.67'
-- Labels: null
+- labels: null
   category: dev-qt
   name: qtdeclarative-5
   version: '>=5.12.3'
-- Labels: null
+- labels: null
   category: dev-qt
   name: qtgui-5
   version: '>=5.12.3'
-- Labels: null
+- labels: null
   category: dev-qt
   name: qtprintsupport-5
   version: '>=5.12.3'
-- Labels: null
+- labels: null
   category: dev-qt
   name: qtwidgets-5
   version: '>=5.12.3'
-- Labels: null
+- labels: null
   category: dev-qt
   name: qtxml-5
   version: '>=5.12.3'
-- Labels: null
+- labels: null
   category: kde-frameworks
   name: kf-env-5
   version: '>=4'
-- Labels: null
+- labels: null
   category: dev-qt
   name: qtcore-5
   version: '>=0'
@@ -120,7 +120,7 @@ use_flags:
 - kernel_linux
 - split-usr
 version: "5.69.0"
-Labels:
+labels:
   original.package.name: "ktexteditor"
   original.package.category: "kde-frameworks"
   original.package.version: "5.67.0"

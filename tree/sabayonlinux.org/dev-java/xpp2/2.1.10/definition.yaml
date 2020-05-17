@@ -2,11 +2,11 @@ category: dev-java
 license: Apache-1.1 IBM
 name: xpp2
 requires:
-- Labels: null
+- labels: null
   category: dev-java
   name: java-config-2
   version: '>=2.2.0'
-- Labels: null
+- labels: null
   category: dev-java
   name: xerces-2
   version: '>=0'
@@ -21,7 +21,7 @@ use_flags:
 - kernel_linux
 - -source
 version: 2.1.10+r5
-Labels:
+labels:
   original.package.name: "xpp2"
   original.package.category: "dev-java"
   original.package.version: "2.1.10"

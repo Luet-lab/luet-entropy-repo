@@ -2,7 +2,7 @@ category: dev-lang
 license: BSD-2
 name: nasm
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: perl
   version: '>=0'
@@ -15,7 +15,7 @@ use_flags:
 - userland_GNU
 - big-endian
 version: 2.14.02+3
-Labels:
+labels:
   original.package.name: "nasm"
   original.package.category: "dev-lang"
   original.package.version: "2.14.02"

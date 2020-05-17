@@ -2,11 +2,11 @@ category: dev-perl
 license: Apache-2.0
 name: Path-Tiny
 requires:
-- Labels: null
+- labels: null
   category: dev-perl
   name: Unicode-UTF8
   version: '>=0.580.0'
-- Labels: null
+- labels: null
   category: dev-lang
   name: perl
   version: '>=0'
@@ -21,7 +21,7 @@ use_flags:
 - kernel_linux
 - big-endian
 version: 0.104.0+3
-Labels:
+labels:
   original.package.name: "Path-Tiny"
   original.package.category: "dev-perl"
   original.package.version: "0.104.0"

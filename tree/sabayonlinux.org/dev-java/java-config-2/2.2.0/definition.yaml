@@ -2,19 +2,19 @@ category: dev-java
 license: GPL-2
 name: java-config-2
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-exec-2
   version: '>=2'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-3.6
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-apps
   name: baselayout-java
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-apps
   name: portage
   version: '>=0'
@@ -30,7 +30,7 @@ use_flags:
 - split-usr
 - amd64
 version: 2.2.0+r7
-Labels:
+labels:
   original.package.name: "java-config"
   original.package.category: "dev-java"
   original.package.version: "2.2.0"

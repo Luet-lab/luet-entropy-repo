@@ -2,7 +2,7 @@ category: app-vim
 license: vim
 name: gentoo-syntax
 requires:
-- Labels: null
+- labels: null
   category: app-editors
   name: gvim
   version: '>=7.3'
@@ -16,7 +16,7 @@ use_flags:
 - kernel_linux
 - userland_GNU
 version: "20200120"
-Labels:
+labels:
   original.package.name: "gentoo-syntax"
   original.package.category: "app-vim"
   original.package.version: "20190609"

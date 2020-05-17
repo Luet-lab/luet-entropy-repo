@@ -2,31 +2,31 @@ category: dev-haskell
 license: BSD
 name: data-default
 requires:
-- Labels: null
+- labels: null
   category: dev-haskell
   name: cabal
   version: '>=1.6'
-- Labels: null
+- labels: null
   category: dev-lang
   name: ghc
   version: '>=6.10.4'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: data-default-class
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: data-default-instances-base
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: data-default-instances-containers
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: data-default-instances-dlist
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: data-default-instances-old-locale
   version: '>=0'
@@ -41,7 +41,7 @@ use_flags:
 - elibc_glibc
 - big-endian
 version: 0.5.3+1
-Labels:
+labels:
   original.package.name: "data-default"
   original.package.category: "dev-haskell"
   original.package.version: "0.5.3"

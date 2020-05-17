@@ -2,7 +2,7 @@ category: dev-libs
 license: Apache-2.0
 name: xerces-c
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: icu
   version: '>=0'
@@ -26,7 +26,7 @@ use_flags:
 - abi_x86_64
 - amd64
 version: 3.2.2+r4
-Labels:
+labels:
   original.package.name: "xerces-c"
   original.package.category: "dev-libs"
   original.package.version: "3.2.2"

@@ -2,7 +2,7 @@ category: app-text
 license: MIT
 name: ps2pkm
 requires:
-- Labels: null
+- labels: null
   category: dev-libs
   name: kpathsea
   version: '>=6.2.1'
@@ -15,7 +15,7 @@ use_flags:
 - kernel_linux
 - amd64
 version: 1.8+p20190413
-Labels:
+labels:
   original.package.name: "ps2pkm"
   original.package.category: "app-text"
   original.package.version: "1.8"

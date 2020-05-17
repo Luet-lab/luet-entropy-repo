@@ -2,11 +2,11 @@ category: x11-misc
 license: GPL-2
 name: xdg-user-dirs
 requires:
-- Labels: null
+- labels: null
   category: app-text
   name: docbook-xml-dtd-4.5
   version: '>=0'
-- Labels: null
+- labels: null
   category: dev-libs
   name: libxslt
   version: '>=0'
@@ -19,7 +19,7 @@ use_flags:
 - gtk
 - amd64
 version: 0.17+3
-Labels:
+labels:
   original.package.name: "xdg-user-dirs"
   original.package.category: "x11-misc"
   original.package.version: "0.17"

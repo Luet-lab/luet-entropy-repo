@@ -2,19 +2,19 @@ category: dev-haskell
 license: BSD
 name: vector
 requires:
-- Labels: null
+- labels: null
   category: dev-haskell
   name: primitive
   version: <0.7
-- Labels: null
+- labels: null
   category: dev-haskell
   name: cabal
   version: '>=1.10'
-- Labels: null
+- labels: null
   category: dev-haskell
   name: primitive
   version: '>=0.5.0.1'
-- Labels: null
+- labels: null
   category: dev-lang
   name: ghc
   version: '>=7.4.1'
@@ -32,7 +32,7 @@ use_flags:
 - big-endian
 - kernel_linux
 version: 0.11.0.0+1
-Labels:
+labels:
   original.package.name: "vector"
   original.package.category: "dev-haskell"
   original.package.version: "0.11.0.0"

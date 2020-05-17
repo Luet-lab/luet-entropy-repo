@@ -1,10 +1,10 @@
-Labels:
+labels:
   original.package.version: "1.10.7"
 category: dev-java
 license: Apache-2.0
 name: ant-core
 requires:
-- Labels: null
+- labels: null
   category: dev-java
   name: java-config-2
   version: '>=2.2.0'
@@ -19,7 +19,7 @@ use_flags:
 - amd64
 - -source
 version: "1.10.7"
-Labels:
+labels:
   original.package.name: "ant-core"
   original.package.category: "dev-java"
   original.package.version: "1.10.5"

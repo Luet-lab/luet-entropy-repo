@@ -2,7 +2,7 @@ category: media-libs
 license: LGPL-2.1 MPL-1.1
 name: taglib
 requires:
-- Labels: null
+- labels: null
   category: sys-libs
   name: zlib
   version: '>=1.2.8'
@@ -27,7 +27,7 @@ use_flags:
 - -abi_riscv_lp64
 - userland_GNU
 version: 1.11.1+p20190920r1.4
-Labels:
+labels:
   original.package.name: "taglib"
   original.package.category: "media-libs"
   original.package.version: "1.11.1"

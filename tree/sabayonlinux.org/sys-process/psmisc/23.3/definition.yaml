@@ -2,11 +2,11 @@ category: sys-process
 license: GPL-2
 name: psmisc
 requires:
-- Labels: null
+- labels: null
   category: sys-devel
   name: libtool-2
   version: '>=2.2.6b'
-- Labels: null
+- labels: null
   category: sys-libs
   name: ncurses
   version: '>=5.7'
@@ -23,7 +23,7 @@ use_flags:
 - elibc_glibc
 - kernel_linux
 version: 23.3+r4
-Labels:
+labels:
   original.package.name: "psmisc"
   original.package.category: "sys-process"
   original.package.version: "23.3"

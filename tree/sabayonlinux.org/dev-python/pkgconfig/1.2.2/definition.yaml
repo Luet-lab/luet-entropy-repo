@@ -2,15 +2,15 @@ category: dev-python
 license: MIT
 name: pkgconfig
 requires:
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-2.7
   version: '>=2.7.5'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-exec-2
   version: '>=2'
-- Labels: null
+- labels: null
   category: dev-lang
   name: python-3.6
   version: '>=0'
@@ -28,7 +28,7 @@ use_flags:
 - -python_targets_python3_4
 - -python_targets_pypy
 version: 1.2.2+3
-Labels:
+labels:
   original.package.name: "pkgconfig"
   original.package.category: "dev-python"
   original.package.version: "1.2.2"

@@ -2,47 +2,47 @@ category: sys-kernel
 license: GPL-2
 name: genkernel-next
 requires:
-- Labels: null
+- labels: null
   category: app-misc
   name: pax-utils
   version: '>=0.6'
-- Labels: null
+- labels: null
   category: sys-fs
   name: dmraid
   version: '>=1.0.0'
-- Labels: null
+- labels: null
   category: app-arch
   name: cpio
   version: '>=0'
-- Labels: null
+- labels: null
   category: app-portage
   name: portage-utils
   version: '>=0'
-- Labels: null
+- labels: null
   category: app-text
   name: asciidoc
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-apps
   name: util-linux
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-block
   name: thin-provisioning-tools
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-fs
   name: cryptsetup
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-fs
   name: e2fsprogs
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-fs
   name: lvm2
   version: '>=0'
-- Labels: null
+- labels: null
   category: sys-fs
   name: mdadm
   version: '>=0'
@@ -62,7 +62,7 @@ use_flags:
 - -plymouth
 - cryptsetup
 version: 70+3
-Labels:
+labels:
   original.package.name: "genkernel-next"
   original.package.category: "sys-kernel"
   original.package.version: "70"
