@@ -24,10 +24,6 @@ requires:
   version: '>=0'
 - labels: null
   category: app-arch
-  name: cpio
-  version: '>=0'
-- labels: null
-  category: app-arch
   name: lz4
   version: '>=0'
 - labels: null
@@ -49,10 +45,6 @@ requires:
 - labels: null
   category: dev-lang
   name: python-3.6
-  version: '>=0'
-- labels: null
-  category: dev-lang
-  name: yasm
   version: '>=0'
 - labels: null
   category: dev-libs
@@ -96,10 +88,6 @@ requires:
   version: '>=0'
 - labels: null
   category: dev-python
-  name: cython
-  version: '>=0'
-- labels: null
-  category: dev-python
   name: flask
   version: '>=0'
 - labels: null
@@ -124,23 +112,7 @@ requires:
   version: '>=0'
 - labels: null
   category: dev-python
-  name: sphinx
-  version: '>=0'
-- labels: null
-  category: dev-python
   name: werkzeug
-  version: '>=0'
-- labels: null
-  category: dev-util
-  name: cunit
-  version: '>=0'
-- labels: null
-  category: dev-util
-  name: gperf
-  version: '>=0'
-- labels: null
-  category: dev-util
-  name: valgrind
   version: '>=0'
 - labels: null
   category: net-misc
@@ -160,10 +132,6 @@ requires:
   version: '>=0'
 - labels: null
   category: sys-apps
-  name: findutils
-  version: '>=0'
-- labels: null
-  category: sys-apps
   name: gptfdisk
   version: '>=0'
 - labels: null
@@ -179,28 +147,12 @@ requires:
   name: util-linux
   version: '>=0'
 - labels: null
-  category: sys-apps
-  name: which
-  version: '>=0'
-- labels: null
   category: sys-auth
   name: oath-toolkit
   version: '>=0'
 - labels: null
   category: sys-block
   name: parted
-  version: '>=0'
-- labels: null
-  category: sys-devel
-  name: bc
-  version: '>=0'
-- labels: null
-  category: sys-devel
-  name: make
-  version: '>=0'
-- labels: null
-  category: sys-devel
-  name: patch
   version: '>=0'
 - labels: null
   category: sys-fs
