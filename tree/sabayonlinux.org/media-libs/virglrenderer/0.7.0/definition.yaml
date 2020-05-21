@@ -3,32 +3,12 @@ license: MIT
 name: virglrenderer
 requires:
 - labels: null
-  category: sys-devel
-  name: autoconf-2.69
-  version: '>=2.69'
-- labels: null
-  category: sys-devel
-  name: automake-1.15
-  version: '>=1.15.1'
-- labels: null
-  category: sys-devel
-  name: libtool-2
-  version: '>=2.4'
-- labels: null
   category: x11-libs
   name: libdrm
   version: '>=2.4.50'
 - labels: null
-  category: x11-misc
-  name: util-macros
-  version: '>=1.8'
-- labels: null
   category: media-libs
   name: libepoxy
-  version: '>=0'
-- labels: null
-  category: sys-devel
-  name: autoconf-archive
   version: '>=0'
 use_flags:
 - userland_GNU
