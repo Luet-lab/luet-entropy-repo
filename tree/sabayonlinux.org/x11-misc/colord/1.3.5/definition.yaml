@@ -15,10 +15,6 @@ requires:
   name: libgusb
   version: '>=0.2.7'
 - labels: null
-  category: dev-util
-  name: gtk-doc-am
-  version: '>=1.9'
-- labels: null
   category: media-libs
   name: lcms-2
   version: '>=2.6'
@@ -30,18 +26,6 @@ requires:
   category: sys-auth
   name: polkit
   version: '>=0.104'
-- labels: null
-  category: sys-devel
-  name: autoconf-2.69
-  version: '>=2.69'
-- labels: null
-  category: sys-devel
-  name: automake-1.15
-  version: '>=1.15.1'
-- labels: null
-  category: sys-devel
-  name: libtool-2
-  version: '>=2.4'
 - labels: null
   category: dev-db
   name: sqlite-3
