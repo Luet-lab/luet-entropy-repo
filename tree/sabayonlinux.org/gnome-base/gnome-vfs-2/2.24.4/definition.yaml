@@ -19,10 +19,6 @@ requires:
   name: libxml2-2
   version: '>=2.9.1'
 - labels: null
-  category: dev-util
-  name: gtk-doc-am
-  version: '>=1.13'
-- labels: null
   category: gnome-base
   name: gconf-2
   version: '>=2.32.4'
@@ -42,22 +38,6 @@ requires:
   category: sys-apps
   name: attr
   version: '>=2.4.47'
-- labels: null
-  category: sys-devel
-  name: autoconf-2.69
-  version: '>=2.69'
-- labels: null
-  category: sys-devel
-  name: automake-1.15
-  version: '>=1.15.1'
-- labels: null
-  category: sys-devel
-  name: libtool-2
-  version: '>=2.4'
-- labels: null
-  category: gnome-base
-  name: gnome-common-3
-  version: '>=0'
 - labels: null
   category: gnome-base
   name: gnome-mime-data
