@@ -1,11 +1,6 @@
 category: media-libs
 license: LGPL-2.1
 name: libcuefile
-requires:
-- labels: null
-  category: sys-devel
-  name: make
-  version: '>=0'
 use_flags:
 - big-endian
 - -abi_s390_32
