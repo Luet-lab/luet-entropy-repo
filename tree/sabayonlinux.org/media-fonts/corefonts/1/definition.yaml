@@ -1,19 +1,6 @@
 category: media-fonts
 license: MSttfEULA
 name: corefonts
-requires:
-- labels: null
-  category: app-arch
-  name: cabextract
-  version: '>=0'
-- labels: null
-  category: media-fonts
-  name: encodings
-  version: '>=0'
-- labels: null
-  category: x11-apps
-  name: mkfontdir
-  version: '>=0'
 use_flags:
 - X
 - elibc_glibc
