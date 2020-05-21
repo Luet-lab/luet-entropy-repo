@@ -3,25 +3,9 @@ license: BSD
 name: liboggz
 requires:
 - labels: null
-  category: sys-devel
-  name: automake-1.15
-  version: '>=1.11'
-- labels: null
   category: media-libs
   name: libogg
   version: '>=1.2.0'
-- labels: null
-  category: sys-devel
-  name: autoconf-2.69
-  version: '>=2.61'
-- labels: null
-  category: sys-devel
-  name: libtool-2
-  version: '>=2.2.6b'
-- labels: null
-  category: dev-util
-  name: pkgconfig
-  version: '>=0'
 use_flags:
 - elibc_glibc
 - kernel_linux
