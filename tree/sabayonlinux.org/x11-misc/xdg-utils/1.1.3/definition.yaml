@@ -3,22 +3,6 @@ license: MIT
 name: xdg-utils
 requires:
 - labels: null
-  category: app-text
-  name: xmlto
-  version: '>=0.0.26'
-- labels: null
-  category: sys-devel
-  name: autoconf-2.69
-  version: '>=2.69'
-- labels: null
-  category: sys-devel
-  name: automake-1.15
-  version: '>=1.15.1'
-- labels: null
-  category: sys-devel
-  name: libtool-2
-  version: '>=2.4'
-- labels: null
   category: dev-perl
   name: File-MimeInfo
   version: '>=0'
@@ -41,6 +25,10 @@ requires:
 - labels: null
   category: x11-apps
   name: xset
+  version: '>=0'
+- labels: null
+  category: x11-misc
+  name: shared-mime-info
   version: '>=0'
 use_flags:
 - big-endian
