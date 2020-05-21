@@ -1,23 +1,6 @@
 category: media-libs
 license: GPL-2
 name: libfame
-requires:
-- labels: null
-  category: sys-apps
-  name: coreutils
-  version: '>=8.5'
-- labels: null
-  category: sys-devel
-  name: autoconf-2.69
-  version: '>=2.68'
-- labels: null
-  category: sys-devel
-  name: automake-1.15
-  version: '>=1.14'
-- labels: null
-  category: sys-devel
-  name: libtool-2
-  version: '>=0'
 use_flags:
 - multilib
 - elibc_glibc
