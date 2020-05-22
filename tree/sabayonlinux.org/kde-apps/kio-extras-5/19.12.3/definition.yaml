@@ -28,10 +28,6 @@ requires:
   version: '>=5.12.3'
 - labels: null
   category: kde-frameworks
-  name: extra-cmake-modules-5
-  version: '>=5.63.0'
-- labels: null
-  category: kde-frameworks
   name: karchive-5
   version: '>=5.63.0'
 - labels: null
@@ -65,10 +61,6 @@ requires:
 - labels: null
   category: kde-frameworks
   name: kdnssd-5
-  version: '>=5.63.0'
-- labels: null
-  category: kde-frameworks
-  name: kdoctools-5
   version: '>=5.63.0'
 - labels: null
   category: kde-frameworks
@@ -121,10 +113,6 @@ requires:
 - labels: null
   category: dev-qt
   name: qtcore-5
-  version: '>=0'
-- labels: null
-  category: dev-util
-  name: gperf
   version: '>=0'
 - labels: null
   category: kde-frameworks
