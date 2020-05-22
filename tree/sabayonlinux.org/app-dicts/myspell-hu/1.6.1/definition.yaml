@@ -1,15 +1,6 @@
 category: app-dicts
 license: GPL-2 GPL-3 LGPL-2.1 MPL-1.1
 name: myspell-hu
-requires:
-- labels: null
-  category: app-arch
-  name: rpm2targz
-  version: '>=9.0.0.3g'
-- labels: null
-  category: app-arch
-  name: unzip
-  version: '>=0'
 use_flags:
 - kernel_linux
 - userland_GNU
