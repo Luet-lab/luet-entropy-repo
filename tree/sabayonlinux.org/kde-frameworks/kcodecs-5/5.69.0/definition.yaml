@@ -8,19 +8,11 @@ requires:
   version: '>=5.12.3'
 - labels: null
   category: kde-frameworks
-  name: extra-cmake-modules-5
-  version: '>=5.67'
-- labels: null
-  category: kde-frameworks
   name: kf-env-5
   version: '>=4'
 - labels: null
   category: dev-qt
   name: qtcore-5
-  version: '>=0'
-- labels: null
-  category: dev-util
-  name: gperf
   version: '>=0'
 use_flags:
 - elibc_glibc
