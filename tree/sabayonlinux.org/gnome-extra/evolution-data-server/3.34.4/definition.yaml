@@ -15,10 +15,6 @@ requires:
   name: sqlite-3
   version: '>=3.7.17'
 - labels: null
-  category: dev-lang
-  name: python-2.7
-  version: '>=2.7.5'
-- labels: null
   category: dev-libs
   name: glib-2
   version: '>=2.46'
@@ -83,20 +79,8 @@ requires:
   name: gtk+-3
   version: '>=3.10'
 - labels: null
-  category: dev-lang
-  name: vala-0.44
-  version: '>=0'
-- labels: null
   category: dev-libs
   name: icu
-  version: '>=0'
-- labels: null
-  category: dev-util
-  name: gperf
-  version: '>=0'
-- labels: null
-  category: sys-devel
-  name: make
   version: '>=0'
 - labels: null
   category: sys-libs
