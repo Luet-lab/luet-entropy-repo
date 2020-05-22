@@ -37,10 +37,6 @@ requires:
   name: libxml2-2
   version: '>=2.5'
 - labels: null
-  category: dev-util
-  name: gtk-doc-am
-  version: '>=1.13'
-- labels: null
   category: gnome-base
   name: nautilus
   version: '>=2.91.4'
@@ -48,18 +44,6 @@ requires:
   category: media-libs
   name: tiff
   version: '>=3.6'
-- labels: null
-  category: sys-devel
-  name: autoconf-2.69
-  version: '>=2.69'
-- labels: null
-  category: sys-devel
-  name: automake-1.15
-  version: '>=1.15.1'
-- labels: null
-  category: sys-devel
-  name: libtool-2
-  version: '>=2.4'
 - labels: null
   category: x11-libs
   name: cairo
@@ -76,10 +60,6 @@ requires:
   category: x11-themes
   name: hicolor-icon-theme
   version: '>=0.10'
-- labels: null
-  category: app-text
-  name: docbook-xml-dtd-4.5
-  version: '>=0'
 - labels: null
   category: app-text
   name: libspectre
