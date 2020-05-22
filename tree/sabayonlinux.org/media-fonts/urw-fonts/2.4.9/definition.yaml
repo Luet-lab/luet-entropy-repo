@@ -1,19 +1,6 @@
 category: media-fonts
 license: GPL-2
 name: urw-fonts
-requires:
-- labels: null
-  category: app-arch
-  name: rpm2targz
-  version: '>=9.0.0.3g'
-- labels: null
-  category: media-fonts
-  name: encodings
-  version: '>=0'
-- labels: null
-  category: x11-apps
-  name: mkfontdir
-  version: '>=0'
 use_flags:
 - big-endian
 - amd64
