@@ -2,9 +2,6 @@ category: x11-libs
 license: MIT
 name: xcb-util
 requires:
-- category: dev-util
-  name: gperf
-  version: '>=3.0.1'
 - category: x11-libs
   name: libxcb
   version: '>=1.9.1'
