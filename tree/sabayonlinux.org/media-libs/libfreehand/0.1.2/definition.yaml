@@ -4,23 +4,11 @@ name: libfreehand
 requires:
 - labels: null
   category: dev-libs
-  name: icu
-  version: '>=0'
-- labels: null
-  category: dev-libs
   name: librevenge
-  version: '>=0'
-- labels: null
-  category: dev-util
-  name: gperf
   version: '>=0'
 - labels: null
   category: media-libs
   name: lcms-2
-  version: '>=0'
-- labels: null
-  category: sys-devel
-  name: libtool-2
   version: '>=0'
 - labels: null
   category: sys-libs
