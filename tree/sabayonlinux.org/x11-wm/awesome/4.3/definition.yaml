@@ -3,10 +3,6 @@ license: GPL-2
 name: awesome
 requires:
 - labels: null
-  category: app-text
-  name: asciidoc
-  version: '>=8.4.5'
-- labels: null
   category: dev-lang
   name: lua
   version: '>=5.1'
@@ -22,10 +18,6 @@ requires:
   category: sys-apps
   name: dbus
   version: '>=1'
-- labels: null
-  category: x11-base
-  name: xcb-proto
-  version: '>=1.5'
 - labels: null
   category: x11-libs
   name: libX11
@@ -59,16 +51,8 @@ requires:
   name: xcb-util-xrm
   version: '>=1.0'
 - labels: null
-  category: app-text
-  name: xmlto
-  version: '>=0'
-- labels: null
   category: dev-libs
   name: glib-2
-  version: '>=0'
-- labels: null
-  category: dev-util
-  name: gperf
   version: '>=0'
 - labels: null
   category: media-gfx
