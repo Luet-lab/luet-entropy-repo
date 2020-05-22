@@ -38,14 +38,6 @@ requires:
   category: x11-libs
   name: gtk+-3
   version: '>=2.8.12'
-- labels: null
-  category: dev-util
-  name: gtk-doc-am
-  version: '>=0'
-- labels: null
-  category: x11-apps
-  name: xrdb
-  version: '>=0'
 use_flags:
 - userland_GNU
 - elibc_glibc
