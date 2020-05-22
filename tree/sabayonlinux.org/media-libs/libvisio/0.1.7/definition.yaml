@@ -3,14 +3,6 @@ license: GPL-2+ LGPL-2.1 MPL-1.1
 name: libvisio
 requires:
 - labels: null
-  category: dev-lang
-  name: perl
-  version: '>=0'
-- labels: null
-  category: dev-libs
-  name: boost
-  version: '>=0'
-- labels: null
   category: dev-libs
   name: icu
   version: '>=0'
@@ -21,14 +13,6 @@ requires:
 - labels: null
   category: dev-libs
   name: libxml2-2
-  version: '>=0'
-- labels: null
-  category: dev-util
-  name: gperf
-  version: '>=0'
-- labels: null
-  category: sys-devel
-  name: libtool-2
   version: '>=0'
 use_flags:
 - split-usr
