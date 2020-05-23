@@ -1,15 +1,6 @@
 category: media-fonts
 license: MIT
 name: hack
-requires:
-- labels: null
-  category: media-fonts
-  name: encodings
-  version: '>=0'
-- labels: null
-  category: x11-apps
-  name: mkfontdir
-  version: '>=0'
 use_flags:
 - abi_x86_64
 - userland_GNU
