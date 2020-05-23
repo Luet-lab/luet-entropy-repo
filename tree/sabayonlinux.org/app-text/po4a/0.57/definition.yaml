@@ -4,14 +4,6 @@ name: po4a
 requires:
 - labels: null
   category: app-text
-  name: docbook-xml-dtd-4.5
-  version: '>=0'
-- labels: null
-  category: app-text
-  name: docbook-xsl-stylesheets
-  version: '>=0'
-- labels: null
-  category: app-text
   name: opensp
   version: '>=0'
 - labels: null
@@ -25,10 +17,6 @@ requires:
 - labels: null
   category: dev-perl
   name: Locale-gettext
-  version: '>=0'
-- labels: null
-  category: dev-perl
-  name: Module-Build
   version: '>=0'
 - labels: null
   category: dev-perl
@@ -49,6 +37,10 @@ requires:
 - labels: null
   category: dev-perl
   name: YAML-Tiny
+  version: '>=0'
+- labels: null
+  category: sys-devel
+  name: gettext
   version: '>=0'
 use_flags:
 - elibc_glibc
