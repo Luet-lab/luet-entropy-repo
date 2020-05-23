@@ -8,10 +8,6 @@ requires:
   version: '>=5.67'
 - labels: null
   category: kde-frameworks
-  name: extra-cmake-modules-5
-  version: '>=5.67'
-- labels: null
-  category: kde-frameworks
   name: kf-env-5
   version: '>=4'
 - labels: null
@@ -31,20 +27,12 @@ requires:
   name: sgml-common
   version: '>=0'
 - labels: null
-  category: dev-lang
-  name: perl
-  version: '>=0'
-- labels: null
   category: dev-libs
   name: libxml2-2
   version: '>=0'
 - labels: null
   category: dev-libs
   name: libxslt
-  version: '>=0'
-- labels: null
-  category: dev-perl
-  name: URI
   version: '>=0'
 - labels: null
   category: dev-qt
