@@ -1,15 +1,6 @@
 category: app-i18n
 license: GPL-2 MIT
 name: canna
-requires:
-- labels: null
-  category: x11-misc
-  name: gccmakedep
-  version: '>=0'
-- labels: null
-  category: x11-misc
-  name: imake
-  version: '>=0'
 use_flags:
 - userland_GNU
 - -canuum
