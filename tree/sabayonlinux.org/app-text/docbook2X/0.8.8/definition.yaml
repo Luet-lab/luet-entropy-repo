@@ -7,14 +7,6 @@ requires:
   name: docbook-xml-dtd-4.5
   version: '>=4.2'
 - labels: null
-  category: sys-devel
-  name: autoconf-2.69
-  version: '>=2.68'
-- labels: null
-  category: sys-devel
-  name: automake-1.15
-  version: '>=1.14'
-- labels: null
   category: app-text
   name: docbook-xsl-stylesheets
   version: '>=0'
@@ -37,10 +29,6 @@ requires:
 - labels: null
   category: dev-perl
   name: XML-SAX
-  version: '>=0'
-- labels: null
-  category: sys-devel
-  name: libtool-2
   version: '>=0'
 use_flags:
 - -test
