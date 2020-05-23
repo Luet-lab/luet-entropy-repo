@@ -3,20 +3,12 @@ license: ISC
 name: crda
 requires:
 - labels: null
-  category: dev-lang
-  name: python-2.7
-  version: '>=2.7.5'
-- labels: null
   category: dev-libs
   name: libnl-3
   version: '>=0'
 - labels: null
   category: dev-libs
   name: openssl
-  version: '>=0'
-- labels: null
-  category: dev-python
-  name: m2crypto
   version: '>=0'
 - labels: null
   category: net-wireless
