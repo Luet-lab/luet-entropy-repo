@@ -23,18 +23,6 @@ requires:
   name: tcp-wrappers
   version: '>=7.6'
 - labels: null
-  category: sys-devel
-  name: autoconf-2.69
-  version: '>=2.69'
-- labels: null
-  category: sys-devel
-  name: automake-1.15
-  version: '>=1.15.1'
-- labels: null
-  category: sys-devel
-  name: libtool-2
-  version: '>=2.4'
-- labels: null
   category: dev-lang
   name: python-3.6
   version: '>=0'
@@ -45,10 +33,6 @@ requires:
 - labels: null
   category: sys-apps
   name: systemd
-  version: '>=0'
-- labels: null
-  category: sys-devel
-  name: flex
   version: '>=0'
 use_flags:
 - -smtp
