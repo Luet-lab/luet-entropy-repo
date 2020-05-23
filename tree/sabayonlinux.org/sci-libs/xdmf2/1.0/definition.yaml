@@ -11,10 +11,6 @@ requires:
   name: python-exec-2
   version: '>=2'
 - labels: null
-  category: dev-lang
-  name: swig
-  version: '>=0'
-- labels: null
   category: dev-libs
   name: boost
   version: '>=0'
@@ -25,10 +21,6 @@ requires:
 - labels: null
   category: sci-libs
   name: hdf5
-  version: '>=0'
-- labels: null
-  category: sys-devel
-  name: make
   version: '>=0'
 use_flags:
 - big-endian
