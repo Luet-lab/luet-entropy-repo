@@ -6,14 +6,6 @@ requires:
   category: dev-lang
   name: perl
   version: '>=0'
-- labels: null
-  category: sys-devel
-  name: bison
-  version: '>=0'
-- labels: null
-  category: sys-devel
-  name: flex
-  version: '>=0'
 use_flags:
 - big-endian
 - -abi_s390_32
