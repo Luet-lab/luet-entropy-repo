@@ -11,29 +11,9 @@ requires:
   name: gobject-introspection
   version: '>=0.9.12'
 - labels: null
-  category: dev-util
-  name: gtk-doc-am
-  version: '>=1.15'
-- labels: null
   category: sys-apps
   name: systemd
   version: '>=186'
-- labels: null
-  category: sys-devel
-  name: autoconf-2.69
-  version: '>=2.69'
-- labels: null
-  category: sys-devel
-  name: automake-1.15
-  version: '>=1.15.1'
-- labels: null
-  category: sys-devel
-  name: libtool-2
-  version: '>=2.4'
-- labels: null
-  category: dev-libs
-  name: libxslt
-  version: '>=0'
 - labels: null
   category: sys-auth
   name: polkit
