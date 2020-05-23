@@ -28,24 +28,12 @@ requires:
   version: '>=2.20'
 - labels: null
   category: sys-devel
-  name: bison
-  version: '>=1.875'
-- labels: null
-  category: sys-devel
-  name: flex
-  version: '>=2.5.4'
-- labels: null
-  category: sys-devel
   name: gcc-config
   version: '>=1.7'
 - labels: null
   category: sys-libs
   name: glibc-2.2
   version: '>=2.13'
-- labels: null
-  category: sys-devel
-  name: gnuconfig
-  version: '>=0'
 - labels: null
   category: sys-libs
   name: zlib
