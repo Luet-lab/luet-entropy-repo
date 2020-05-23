@@ -3,10 +3,6 @@ license: MIT
 name: xf86-video-intel
 requires:
 - labels: null
-  category: media-fonts
-  name: font-util
-  version: '>=1.2.0'
-- labels: null
   category: x11-base
   name: xorg-server
   version: '>=1.18'
@@ -30,14 +26,6 @@ requires:
   category: x11-libs
   name: pixman
   version: '>=0.27.1'
-- labels: null
-  category: x11-misc
-  name: util-macros
-  version: '>=1.18'
-- labels: null
-  category: sys-devel
-  name: m4
-  version: '>=0'
 - labels: null
   category: x11-base
   name: xorg-server
