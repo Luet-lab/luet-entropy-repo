@@ -10,10 +10,6 @@ requires:
   category: sys-libs
   name: readline
   version: '>=4.1'
-- labels: null
-  category: sys-devel
-  name: flex
-  version: '>=0'
 use_flags:
 - split-usr
 - kernel_linux
