@@ -11,16 +11,8 @@ requires:
   name: python-3.6
   version: '>=0'
 - labels: null
-  category: dev-lang
-  name: swig
-  version: '>=0'
-- labels: null
   category: dev-libs
   name: boost
-  version: '>=0'
-- labels: null
-  category: sys-devel
-  name: make
   version: '>=0'
 use_flags:
 - python_targets_python3_6
