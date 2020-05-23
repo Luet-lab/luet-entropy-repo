@@ -6,10 +6,6 @@ requires:
   category: dev-qt
   name: qtcore-5
   version: '>=5.12.3'
-- labels: null
-  category: kde-frameworks
-  name: extra-cmake-modules-5
-  version: '>=5.67'
 use_flags:
 - -test
 - split-usr
