@@ -20,10 +20,6 @@ requires:
   version: '>=5.12.3'
 - labels: null
   category: kde-frameworks
-  name: extra-cmake-modules-5
-  version: '>=5.66.0'
-- labels: null
-  category: kde-frameworks
   name: kconfig-5
   version: '>=5.66.0'
 - labels: null
@@ -66,10 +62,6 @@ requires:
   category: kde-frameworks
   name: kxmlgui-5
   version: '>=5.66.0'
-- labels: null
-  category: dev-libs
-  name: boost
-  version: '>=0'
 - labels: null
   category: dev-qt
   name: qtcore-5
