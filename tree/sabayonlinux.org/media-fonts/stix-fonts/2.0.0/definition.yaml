@@ -1,19 +1,6 @@
 category: media-fonts
 license: OFL-1.1
 name: stix-fonts
-requires:
-- labels: null
-  category: app-arch
-  name: unzip
-  version: '>=0'
-- labels: null
-  category: media-fonts
-  name: encodings
-  version: '>=0'
-- labels: null
-  category: x11-apps
-  name: mkfontdir
-  version: '>=0'
 use_flags:
 - userland_GNU
 - X
