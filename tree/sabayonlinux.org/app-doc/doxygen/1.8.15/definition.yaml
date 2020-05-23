@@ -54,18 +54,6 @@ requires:
   category: media-libs
   name: libpng
   version: '>=0'
-- labels: null
-  category: sys-devel
-  name: bison
-  version: '>=0'
-- labels: null
-  category: sys-devel
-  name: flex
-  version: '>=0'
-- labels: null
-  category: sys-devel
-  name: make
-  version: '>=0'
 use_flags:
 - -doc
 - split-usr
