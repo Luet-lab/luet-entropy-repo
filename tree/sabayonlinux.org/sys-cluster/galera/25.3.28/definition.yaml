@@ -3,36 +3,12 @@ license: BSD GPL-2
 name: galera
 requires:
 - labels: null
-  category: dev-cpp
-  name: asio
-  version: <1.12.0
-- labels: null
-  category: dev-cpp
-  name: asio
-  version: '>=1.10.1'
-- labels: null
   category: dev-libs
   name: boost
   version: '>=1.41'
 - labels: null
-  category: sys-devel
-  name: gcc-8.2.0
-  version: '>=4.4'
-- labels: null
-  category: dev-lang
-  name: python-3.6
-  version: '>=0'
-- labels: null
-  category: dev-libs
-  name: check
-  version: '>=0'
-- labels: null
   category: dev-libs
   name: openssl
-  version: '>=0'
-- labels: null
-  category: dev-util
-  name: scons
   version: '>=0'
 use_flags:
 - big-endian
