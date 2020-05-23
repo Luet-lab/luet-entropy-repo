@@ -10,18 +10,6 @@ requires:
   category: dev-lang
   name: python-3.6
   version: '>=0'
-- labels: null
-  category: dev-lang
-  name: swig
-  version: '>=0'
-- labels: null
-  category: sys-devel
-  name: bison
-  version: '>=0'
-- labels: null
-  category: sys-devel
-  name: flex
-  version: '>=0'
 use_flags:
 - -python_targets_python3_7
 - big-endian
