@@ -10,10 +10,6 @@ requires:
   category: dev-libs
   name: libgpg-error
   version: '>=1.12'
-- labels: null
-  category: sys-devel
-  name: flex
-  version: '>=0'
 use_flags:
 - big-endian
 - -abi_s390_32
