@@ -10,10 +10,6 @@ requires:
   category: dev-lang
   name: python-exec-2
   version: '>=2'
-- labels: null
-  category: dev-python
-  name: cython
-  version: '>=0.14'
 use_flags:
 - elibc_glibc
 - userland_GNU
