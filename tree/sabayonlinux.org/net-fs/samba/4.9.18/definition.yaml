@@ -4,10 +4,6 @@ name: samba
 requires:
 - labels: null
   category: sys-libs
-  name: glibc-2.2
-  version: '>=2.26'
-- labels: null
-  category: sys-libs
   name: ldb
   version: <1.5.0
 - labels: null
@@ -72,10 +68,6 @@ requires:
   version: '>=0'
 - labels: null
   category: dev-libs
-  name: libxslt
-  version: '>=0'
-- labels: null
-  category: dev-libs
   name: popt
   version: '>=0'
 - labels: null
@@ -93,10 +85,6 @@ requires:
 - labels: null
   category: net-libs
   name: libnsl
-  version: '>=0'
-- labels: null
-  category: net-libs
-  name: libtirpc
   version: '>=0'
 - labels: null
   category: net-nds
