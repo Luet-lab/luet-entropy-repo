@@ -1,19 +1,6 @@
 category: media-fonts
 license: Arphic
 name: arphicfonts
-requires:
-- labels: null
-  category: media-fonts
-  name: encodings
-  version: '>=0'
-- labels: null
-  category: media-gfx
-  name: fontforge
-  version: '>=0'
-- labels: null
-  category: x11-apps
-  name: mkfontdir
-  version: '>=0'
 use_flags:
 - kernel_linux
 - abi_x86_64
