@@ -1,11 +1,6 @@
 category: sys-libs
 license: Apache-2.0-with-LLVM-exceptions MIT UoI-NCSA
 name: libomp
-requires:
-- labels: null
-  category: dev-lang
-  name: perl
-  version: '>=0'
 use_flags:
 - big-endian
 - -abi_x86_x32
