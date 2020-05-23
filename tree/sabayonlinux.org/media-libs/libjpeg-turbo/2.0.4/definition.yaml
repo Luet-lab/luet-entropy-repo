@@ -1,11 +1,6 @@
 category: media-libs
 license: BSD IJG
 name: libjpeg-turbo
-requires:
-- labels: null
-  category: dev-lang
-  name: yasm
-  version: '>=0'
 use_flags:
 - static-libs
 - -java
