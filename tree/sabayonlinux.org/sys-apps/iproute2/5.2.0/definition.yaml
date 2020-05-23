@@ -7,20 +7,12 @@ requires:
   name: iptables
   version: '>=1.4.20'
 - labels: null
-  category: sys-devel
-  name: bison
-  version: '>=2.4'
-- labels: null
   category: dev-libs
   name: libbsd
   version: '>=0'
 - labels: null
   category: net-libs
   name: libmnl
-  version: '>=0'
-- labels: null
-  category: sys-devel
-  name: flex
   version: '>=0'
 - labels: null
   category: sys-libs
