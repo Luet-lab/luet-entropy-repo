@@ -3,40 +3,12 @@ license: MIT
 name: xdm
 requires:
 - labels: null
-  category: media-fonts
-  name: font-util
-  version: '>=1.2.0'
-- labels: null
   category: sys-apps
   name: systemd
   version: '>=209'
 - labels: null
-  category: sys-devel
-  name: autoconf-2.69
-  version: '>=2.69'
-- labels: null
-  category: sys-devel
-  name: automake-1.15
-  version: '>=1.15.1'
-- labels: null
-  category: sys-devel
-  name: libtool-2
-  version: '>=2.2.6a'
-- labels: null
-  category: sys-devel
-  name: libtool-2
-  version: '>=2.4'
-- labels: null
-  category: x11-misc
-  name: util-macros
-  version: '>=1.18'
-- labels: null
   category: dev-libs
   name: libbsd
-  version: '>=0'
-- labels: null
-  category: sys-devel
-  name: m4
   version: '>=0'
 - labels: null
   category: sys-libs
