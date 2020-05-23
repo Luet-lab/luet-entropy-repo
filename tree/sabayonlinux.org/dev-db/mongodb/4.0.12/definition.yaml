@@ -15,10 +15,6 @@ requires:
   name: yaml-cpp
   version: '>=0.5.3'
 - labels: null
-  category: dev-lang
-  name: python-2.7
-  version: '>=2.7.5'
-- labels: null
   category: dev-libs
   name: boost
   version: '>=1.60'
@@ -30,10 +26,6 @@ requires:
   category: dev-libs
   name: openssl
   version: '>=1.0.1g'
-- labels: null
-  category: dev-util
-  name: scons
-  version: '>=2.5.0'
 - labels: null
   category: sys-libs
   name: zlib
@@ -47,24 +39,8 @@ requires:
   name: snowball-stemmer
   version: '>=0'
 - labels: null
-  category: dev-python
-  name: cheetah
-  version: '>=0'
-- labels: null
-  category: dev-python
-  name: pyyaml
-  version: '>=0'
-- labels: null
   category: net-libs
   name: libpcap
-  version: '>=0'
-- labels: null
-  category: sys-libs
-  name: ncurses
-  version: '>=0'
-- labels: null
-  category: sys-libs
-  name: readline
   version: '>=0'
 use_flags:
 - big-endian
