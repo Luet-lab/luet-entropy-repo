@@ -1,15 +1,6 @@
 category: media-fonts
 license: Apache-2.0
 name: croscorefonts
-requires:
-- labels: null
-  category: media-fonts
-  name: encodings
-  version: '>=0'
-- labels: null
-  category: x11-apps
-  name: mkfontdir
-  version: '>=0'
 use_flags:
 - amd64
 - elibc_glibc
