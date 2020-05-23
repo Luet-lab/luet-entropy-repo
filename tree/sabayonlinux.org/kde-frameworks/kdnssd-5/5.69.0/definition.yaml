@@ -6,20 +6,12 @@ name: kdnssd-5
 requires:
 - labels: null
   category: dev-qt
-  name: linguist-tools-5
-  version: '>=5.12.3'
-- labels: null
-  category: dev-qt
   name: qtdbus-5
   version: '>=5.12.3'
 - labels: null
   category: dev-qt
   name: qtnetwork-5
   version: '>=5.12.3'
-- labels: null
-  category: kde-frameworks
-  name: extra-cmake-modules-5
-  version: '>=5.67'
 - labels: null
   category: kde-frameworks
   name: kf-env-5
