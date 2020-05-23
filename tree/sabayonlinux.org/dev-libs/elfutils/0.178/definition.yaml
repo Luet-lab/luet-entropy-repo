@@ -7,17 +7,9 @@ requires:
   name: bzip2
   version: '>=1.0.6'
 - labels: null
-  category: sys-devel
-  name: flex
-  version: '>=2.5.4a'
-- labels: null
   category: sys-libs
   name: zlib
   version: '>=1.2.8'
-- labels: null
-  category: sys-devel
-  name: m4
-  version: '>=0'
 use_flags:
 - static-libs
 - -lzma
