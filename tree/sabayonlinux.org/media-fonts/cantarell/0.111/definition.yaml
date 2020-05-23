@@ -3,20 +3,8 @@ license: OFL-1.1
 name: cantarell
 requires:
 - labels: null
-  category: dev-libs
-  name: appstream-glib
-  version: '>=0'
-- labels: null
-  category: media-fonts
-  name: encodings
-  version: '>=0'
-- labels: null
   category: media-libs
   name: fontconfig-1.0
-  version: '>=0'
-- labels: null
-  category: x11-apps
-  name: mkfontdir
   version: '>=0'
 use_flags:
 - abi_x86_64
