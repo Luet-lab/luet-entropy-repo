@@ -4,20 +4,23 @@ name: qtopengl-5
 requires:
 - labels: null
   category: dev-qt
-  name: qtchooser
+  name: qtcore-5
   version: '>=0'
 - labels: null
   category: dev-qt
-  name: qtcore-5
-  version: '>=5.14.1'
+  name: qtgui
+  version: '>=0'
 - labels: null
   category: dev-qt
-  name: qtgui-5
-  version: '>=5.14.1'
+  name: qtwidgets
+  version: '>=0'
 - labels: null
+  category: virtual
+  name: opengl
+  version: '>=0'
+- name: qtchooser
   category: dev-qt
-  name: qtwidgets-5
-  version: '>=5.14.1'
+  version: '>=0'
 use_flags:
 - elibc_glibc
 - -debug
