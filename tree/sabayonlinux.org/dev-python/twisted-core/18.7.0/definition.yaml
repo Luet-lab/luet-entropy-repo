@@ -1,0 +1,112 @@
+category: dev-python
+license: MIT
+name: twisted-core
+requires:
+- labels: null
+  category: dev-python
+  name: hyper-h2
+  version: <4.0.0
+- labels: null
+  category: dev-python
+  name: priority
+  version: <2.0
+- labels: null
+  category: dev-lang
+  name: python-2.7
+  version: '>=2.7.5'
+- labels: null
+  category: dev-lang
+  name: python-exec-2
+  version: '>=2'
+- labels: null
+  category: dev-python
+  name: appdirs
+  version: '>=1.4.0'
+- labels: null
+  category: dev-python
+  name: attrs
+  version: '>=17.4.0'
+- labels: null
+  category: dev-python
+  name: automat
+  version: '>=0.3.0'
+- labels: null
+  category: dev-python
+  name: constantly
+  version: '>=15.1.0'
+- labels: null
+  category: dev-python
+  name: cryptography
+  version: '>=1.5.0'
+- labels: null
+  category: dev-python
+  name: hyper-h2
+  version: '>=3.0.0'
+- labels: null
+  category: dev-python
+  name: hyperlink
+  version: '>=17.1.1'
+- labels: null
+  category: dev-python
+  name: idna
+  version: '>=0.6'
+- labels: null
+  category: dev-python
+  name: incremental
+  version: '>=16.10.1'
+- labels: null
+  category: dev-python
+  name: priority
+  version: '>=1.1.0'
+- labels: null
+  category: dev-python
+  name: pyhamcrest
+  version: '>=1.9.0'
+- labels: null
+  category: dev-python
+  name: pyopenssl
+  version: '>=16.0.0'
+- labels: null
+  category: dev-python
+  name: zope-interface
+  version: '>=4.4.2'
+- labels: null
+  category: dev-lang
+  name: python-3.6
+  version: '>=0'
+- labels: null
+  category: dev-python
+  name: pyasn1
+  version: '>=0'
+- labels: null
+  category: dev-python
+  name: service_identity
+  version: '>=0'
+- labels: null
+  category: dev-python
+  name: soappy
+  version: '>=0'
+use_flags:
+- python_targets_python3_6
+- -python_targets_python3_4
+- crypt
+- -python_targets_python3_5
+- -test
+- -serial
+- kernel_linux
+- abi_x86_64
+- big-endian
+- amd64
+- elibc_glibc
+- userland_GNU
+- -python_targets_python3_7
+- http2
+- conch
+- soap
+- python_targets_python2_7
+version: 18.7.0+1
+labels:
+  original.package.name: "twisted-core"
+  original.package.category: "dev-python"
+  original.package.version: "18.7.0"
+  original.package.slot: "0"
