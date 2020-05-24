@@ -88,7 +88,7 @@ for i in $(echo "$PKG_LIST" | jq -r '.packages[].path'); do
     DEFINITION_FILE=$PACKAGE_PATH/definition.yaml
     BUILD_FILE=$PACKAGE_PATH/build.yaml
 
-    docker run -v $ROOT_DIR/tree:/tree -ti --rm quay.io/luet/ebuildmeta2spec \
+    docker run -v $ROOT_DIR/tree:/tree --rm quay.io/luet/ebuildmeta2spec \
         $PACKAGE_CAT/$PACKAGE_N \
         /tree/sabayonlinux.org/$PACKAGE_CATEGORY/$PACKAGE_NAME/$VERSION/definition.yaml 
 
