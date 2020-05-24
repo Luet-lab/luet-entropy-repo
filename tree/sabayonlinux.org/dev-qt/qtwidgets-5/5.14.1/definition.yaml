@@ -4,15 +4,15 @@ name: qtwidgets-5
 requires:
 - labels: null
   category: dev-qt
+  name: qtcore-5
+  version: '>=0'
+- labels: null
+  category: dev-qt
+  name: qtgui
+  version: '>=0'
+- labels: null
+  category: dev-qt
   name: qtchooser
-  version: '>=0'
-- labels: null
-  category: x11-libs
-  name: gtk+-3
-  version: '>=0'
-- labels: null
-  category: x11-libs
-  name: libX11
   version: '>=0'
 - labels: null
   category: x11-libs
