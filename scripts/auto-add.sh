@@ -123,8 +123,8 @@ for i in $(echo "$ALL_PACKAGES" | jq -r '.Category + "/" +.Name + "/" +.Version 
 
     docker run -v $ROOT_DIR/tree:/tree -ti --rm quay.io/luet/ebuildmeta2spec \
         $PACKAGE_CAT/$PACKAGE_N \
-        /tree/$PACKAGE_CAT/$PACKAGE_N/$PACKAGE_V/definition.yaml \
-        /tree/$PACKAGE_CAT/$PACKAGE_N/$PACKAGE_V/build.yaml
+        /tree/sabayonlinux.org/$PACKAGE_CAT/$PACKAGE_N/$PACKAGE_V/definition.yaml \
+        /tree/sabayonlinux.org/$PACKAGE_CAT/$PACKAGE_N/$PACKAGE_V/build.yaml
 
     yq w -i $BUILD_FILE env.[0] "ORIGINAL_ATOM=$PACKAGE_CAT/$PACKAGE_N"
     yq w -i $BUILD_FILE env.[1] "ORIGINAL_PACKAGE=$PACKAGE_CAT/$PACKAGE_N-$PACKAGE_V"
