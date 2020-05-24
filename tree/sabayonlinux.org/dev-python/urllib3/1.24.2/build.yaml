@@ -1,8 +1,7 @@
+
 unpack: true
 steps:
-- >-
-  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
-  && equo cleanup
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/urllib3-1.24.2 && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -13,12 +12,12 @@ includes:
 - /usr/lib64/python2.7$
 - /usr/lib64/python2.7/site-packages$
 - /usr/lib64/python2.7/site-packages/urllib3$
-- /usr/lib64/python2.7/site-packages/urllib3-1.25.9-py2.7.egg-info$
-- /usr/lib64/python2.7/site-packages/urllib3-1.25.9-py2.7.egg-info/PKG-INFO$
-- /usr/lib64/python2.7/site-packages/urllib3-1.25.9-py2.7.egg-info/SOURCES.txt$
-- /usr/lib64/python2.7/site-packages/urllib3-1.25.9-py2.7.egg-info/dependency_links.txt$
-- /usr/lib64/python2.7/site-packages/urllib3-1.25.9-py2.7.egg-info/requires.txt$
-- /usr/lib64/python2.7/site-packages/urllib3-1.25.9-py2.7.egg-info/top_level.txt$
+- /usr/lib64/python2.7/site-packages/urllib3-1.24.2-py2.7.egg-info$
+- /usr/lib64/python2.7/site-packages/urllib3-1.24.2-py2.7.egg-info/PKG-INFO$
+- /usr/lib64/python2.7/site-packages/urllib3-1.24.2-py2.7.egg-info/SOURCES.txt$
+- /usr/lib64/python2.7/site-packages/urllib3-1.24.2-py2.7.egg-info/dependency_links.txt$
+- /usr/lib64/python2.7/site-packages/urllib3-1.24.2-py2.7.egg-info/requires.txt$
+- /usr/lib64/python2.7/site-packages/urllib3-1.24.2-py2.7.egg-info/top_level.txt$
 - /usr/lib64/python2.7/site-packages/urllib3/__init__.py$
 - /usr/lib64/python2.7/site-packages/urllib3/__init__.pyc$
 - /usr/lib64/python2.7/site-packages/urllib3/__init__.pyo$
@@ -136,12 +135,12 @@ includes:
 - /usr/lib64/python3.6$
 - /usr/lib64/python3.6/site-packages$
 - /usr/lib64/python3.6/site-packages/urllib3$
-- /usr/lib64/python3.6/site-packages/urllib3-1.25.9-py3.6.egg-info$
-- /usr/lib64/python3.6/site-packages/urllib3-1.25.9-py3.6.egg-info/PKG-INFO$
-- /usr/lib64/python3.6/site-packages/urllib3-1.25.9-py3.6.egg-info/SOURCES.txt$
-- /usr/lib64/python3.6/site-packages/urllib3-1.25.9-py3.6.egg-info/dependency_links.txt$
-- /usr/lib64/python3.6/site-packages/urllib3-1.25.9-py3.6.egg-info/requires.txt$
-- /usr/lib64/python3.6/site-packages/urllib3-1.25.9-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/urllib3-1.24.2-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/urllib3-1.24.2-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/urllib3-1.24.2-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/urllib3-1.24.2-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/urllib3-1.24.2-py3.6.egg-info/requires.txt$
+- /usr/lib64/python3.6/site-packages/urllib3-1.24.2-py3.6.egg-info/top_level.txt$
 - /usr/lib64/python3.6/site-packages/urllib3/__init__.py$
 - /usr/lib64/python3.6/site-packages/urllib3/__pycache__$
 - /usr/lib64/python3.6/site-packages/urllib3/__pycache__/__init__.cpython-36.opt-1.pyc$
@@ -301,8 +300,5 @@ includes:
 - /usr/lib64/python3.6/site-packages/urllib3/util/wait.py$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/urllib3-1.25.9$
-- /usr/share/doc/urllib3-1.25.9/README.rst.bz2$
-env:
-- ORIGINAL_ATOM=dev-python/urllib3
-- ORIGINAL_PACKAGE=dev-python/urllib3-1.25.9
+- /usr/share/doc/urllib3-1.24.2$
+- /usr/share/doc/urllib3-1.24.2/README.rst.bz2$
