@@ -81,3 +81,7 @@ changes:
 .PHONY: auto-add
 auto-add:
 	$(ROOT_DIR)/scripts/auto-add.sh
+
+.PHONY: fix-deps
+fix-deps:
+	$(ROOT_DIR)/scripts/fix-deps.sh
