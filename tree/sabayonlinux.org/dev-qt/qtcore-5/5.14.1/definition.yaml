@@ -12,19 +12,19 @@ requires:
   version: '>=0'
 - labels: null
   category: dev-libs
-  name: icu
+  name: libpcre2
   version: '>=0'
 - labels: null
-  category: dev-libs
-  name: libpcre2
+  category: sys-libs
+  name: zlib
+  version: '>=0'
+- labels: null
+  category: <dev-qt
+  name: qtcore-4
   version: '>=0'
 - labels: null
   category: dev-qt
   name: qtchooser
-  version: '>=0'
-- labels: null
-  category: sys-apps
-  name: systemd
   version: '>=0'
 - labels: null
   category: sys-libs
