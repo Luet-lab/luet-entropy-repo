@@ -1,0 +1,78 @@
+
+unpack: true
+steps:
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/soappy-0.12.22 && equo cleanup
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/python2.7$
+- /usr/lib64/python2.7/site-packages$
+- /usr/lib64/python2.7/site-packages/SOAPpy$
+- /usr/lib64/python2.7/site-packages/SOAPpy-0.12.22-py2.7.egg-info$
+- /usr/lib64/python2.7/site-packages/SOAPpy-0.12.22-py2.7.egg-info/PKG-INFO$
+- /usr/lib64/python2.7/site-packages/SOAPpy-0.12.22-py2.7.egg-info/SOURCES.txt$
+- /usr/lib64/python2.7/site-packages/SOAPpy-0.12.22-py2.7.egg-info/dependency_links.txt$
+- /usr/lib64/python2.7/site-packages/SOAPpy-0.12.22-py2.7.egg-info/requires.txt$
+- /usr/lib64/python2.7/site-packages/SOAPpy-0.12.22-py2.7.egg-info/top_level.txt$
+- /usr/lib64/python2.7/site-packages/SOAPpy/Client.py$
+- /usr/lib64/python2.7/site-packages/SOAPpy/Client.pyc$
+- /usr/lib64/python2.7/site-packages/SOAPpy/Client.pyo$
+- /usr/lib64/python2.7/site-packages/SOAPpy/Config.py$
+- /usr/lib64/python2.7/site-packages/SOAPpy/Config.pyc$
+- /usr/lib64/python2.7/site-packages/SOAPpy/Config.pyo$
+- /usr/lib64/python2.7/site-packages/SOAPpy/Errors.py$
+- /usr/lib64/python2.7/site-packages/SOAPpy/Errors.pyc$
+- /usr/lib64/python2.7/site-packages/SOAPpy/Errors.pyo$
+- /usr/lib64/python2.7/site-packages/SOAPpy/GSIServer.py$
+- /usr/lib64/python2.7/site-packages/SOAPpy/GSIServer.pyc$
+- /usr/lib64/python2.7/site-packages/SOAPpy/GSIServer.pyo$
+- /usr/lib64/python2.7/site-packages/SOAPpy/NS.py$
+- /usr/lib64/python2.7/site-packages/SOAPpy/NS.pyc$
+- /usr/lib64/python2.7/site-packages/SOAPpy/NS.pyo$
+- /usr/lib64/python2.7/site-packages/SOAPpy/Parser.py$
+- /usr/lib64/python2.7/site-packages/SOAPpy/Parser.pyc$
+- /usr/lib64/python2.7/site-packages/SOAPpy/Parser.pyo$
+- /usr/lib64/python2.7/site-packages/SOAPpy/SOAP.py$
+- /usr/lib64/python2.7/site-packages/SOAPpy/SOAP.pyc$
+- /usr/lib64/python2.7/site-packages/SOAPpy/SOAP.pyo$
+- /usr/lib64/python2.7/site-packages/SOAPpy/SOAPBuilder.py$
+- /usr/lib64/python2.7/site-packages/SOAPpy/SOAPBuilder.pyc$
+- /usr/lib64/python2.7/site-packages/SOAPpy/SOAPBuilder.pyo$
+- /usr/lib64/python2.7/site-packages/SOAPpy/Server.py$
+- /usr/lib64/python2.7/site-packages/SOAPpy/Server.pyc$
+- /usr/lib64/python2.7/site-packages/SOAPpy/Server.pyo$
+- /usr/lib64/python2.7/site-packages/SOAPpy/Types.py$
+- /usr/lib64/python2.7/site-packages/SOAPpy/Types.pyc$
+- /usr/lib64/python2.7/site-packages/SOAPpy/Types.pyo$
+- /usr/lib64/python2.7/site-packages/SOAPpy/URLopener.py$
+- /usr/lib64/python2.7/site-packages/SOAPpy/URLopener.pyc$
+- /usr/lib64/python2.7/site-packages/SOAPpy/URLopener.pyo$
+- /usr/lib64/python2.7/site-packages/SOAPpy/Utilities.py$
+- /usr/lib64/python2.7/site-packages/SOAPpy/Utilities.pyc$
+- /usr/lib64/python2.7/site-packages/SOAPpy/Utilities.pyo$
+- /usr/lib64/python2.7/site-packages/SOAPpy/WSDL.py$
+- /usr/lib64/python2.7/site-packages/SOAPpy/WSDL.pyc$
+- /usr/lib64/python2.7/site-packages/SOAPpy/WSDL.pyo$
+- /usr/lib64/python2.7/site-packages/SOAPpy/__init__.py$
+- /usr/lib64/python2.7/site-packages/SOAPpy/__init__.pyc$
+- /usr/lib64/python2.7/site-packages/SOAPpy/__init__.pyo$
+- /usr/lib64/python2.7/site-packages/SOAPpy/version.py$
+- /usr/lib64/python2.7/site-packages/SOAPpy/version.pyc$
+- /usr/lib64/python2.7/site-packages/SOAPpy/version.pyo$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/soappy-0.12.22$
+- /usr/share/doc/soappy-0.12.22/CHANGES.txt.bz2$
+- /usr/share/doc/soappy-0.12.22/GettingStarted.txt.bz2$
+- /usr/share/doc/soappy-0.12.22/GlobusSupport.txt.bz2$
+- /usr/share/doc/soappy-0.12.22/MethodParameterNaming.txt.bz2$
+- /usr/share/doc/soappy-0.12.22/README.txt.bz2$
+- /usr/share/doc/soappy-0.12.22/UsingHeaders.txt.bz2$
+- /usr/share/doc/soappy-0.12.22/WSDL.txt.bz2$
+- /usr/share/doc/soappy-0.12.22/attrs.txt.bz2$
+- /usr/share/doc/soappy-0.12.22/complexTypes.txt.bz2$
+- /usr/share/doc/soappy-0.12.22/simpleTypes.txt.bz2$
