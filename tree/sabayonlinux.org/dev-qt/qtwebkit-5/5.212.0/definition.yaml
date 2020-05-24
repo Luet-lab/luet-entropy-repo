@@ -3,40 +3,8 @@ license: BSD LGPL-2+
 name: qtwebkit-5
 requires:
 - labels: null
-  category: dev-qt
-  name: qtcore-5
-  version: '>=5.9.1'
-- labels: null
-  category: dev-qt
-  name: qtgui-5
-  version: '>=5.9.1'
-- labels: null
-  category: dev-qt
-  name: qtnetwork-5
-  version: '>=5.9.1'
-- labels: null
-  category: dev-qt
-  name: qtopengl-5
-  version: '>=5.9.1'
-- labels: null
-  category: dev-qt
-  name: qtprintsupport-5
-  version: '>=5.9.1'
-- labels: null
-  category: dev-qt
-  name: qtwidgets-5
-  version: '>=5.9.1'
-- labels: null
   category: dev-db
   name: sqlite-3
-  version: '>=0'
-- labels: null
-  category: dev-libs
-  name: glib-2
-  version: '>=0'
-- labels: null
-  category: dev-libs
-  name: hyphen
   version: '>=0'
 - labels: null
   category: dev-libs
@@ -44,7 +12,39 @@ requires:
   version: '>=0'
 - labels: null
   category: dev-libs
-  name: libxml2-2
+  name: libxml2
+  version: '>=0'
+- labels: null
+  category: dev-libs
+  name: libxslt
+  version: '>=0'
+- labels: null
+  category: dev-qt
+  name: qtcore-5
+  version: '>=0'
+- labels: null
+  category: dev-qt
+  name: qtgui-5
+  version: '>=0'
+- labels: null
+  category: dev-qt
+  name: qtnetwork-5
+  version: '>=0'
+- labels: null
+  category: dev-qt
+  name: qtwidgets-5
+  version: '>=0'
+- labels: null
+  category: media-libs
+  name: libpng
+  version: '>=0'
+- labels: null
+  category: media-libs
+  name: woff2
+  version: '>=0'
+- labels: null
+  category: virtual
+  name: jpeg
   version: '>=0'
 - labels: null
   category: dev-libs
