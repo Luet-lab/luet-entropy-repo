@@ -88,9 +88,9 @@ for i in $(echo "$PKG_LIST" | jq -r '.packages[].path'); do
     DEFINITION_FILE=$PACKAGE_PATH/definition.yaml
     BUILD_FILE=$PACKAGE_PATH/build.yaml
 
-    docker run -v $ROOT_DIR/tree:/tree --rm quay.io/luet/ebuildmeta2spec \
+    bash $ROOT_DIR/scripts/ebuildmeta_depends.sh \
         $PACKAGE_CAT/$PACKAGE_N \
-        /tree/sabayonlinux.org/$PACKAGE_CATEGORY/$PACKAGE_NAME/$VERSION/definition.yaml 
+        $PACKAGE_PATH/definition.yaml
 
     if [ "${AUTO_GIT}" == "true" ]; then
             git add $ROOT_DIR/tree/$PACKAGE_PATH
