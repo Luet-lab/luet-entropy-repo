@@ -4,20 +4,20 @@ name: qtquickcontrols-5
 requires:
 - labels: null
   category: dev-qt
-  name: qtchooser
+  name: qtcore
   version: '>=0'
 - labels: null
   category: dev-qt
-  name: qtcore-5
-  version: '>=5.14.1'
+  name: qtdeclarative
+  version: '>=0'
 - labels: null
   category: dev-qt
-  name: qtdeclarative-5
-  version: '>=5.14.1'
+  name: qtgui
+  version: '>=0'
 - labels: null
   category: dev-qt
-  name: qtgui-5
-  version: '>=5.14.1'
+  name: qtchooser
+  version: '>=0'
 - labels: null
   category: dev-qt
   name: qtwidgets-5
