@@ -93,7 +93,7 @@ for i in $(echo "$PKG_LIST" | jq -r '.packages[].path'); do
         $PACKAGE_PATH/definition.yaml
 
     if [ "${AUTO_GIT}" == "true" ]; then
-            git add $ROOT_DIR/tree/$PACKAGE_PATH
+            git add $PACKAGE_PATH
             git commit -m "Fix Deps of $PACKAGE_CAT/$PACKAGE_N"
             git push -f -v origin $BRANCH_NAME
 
