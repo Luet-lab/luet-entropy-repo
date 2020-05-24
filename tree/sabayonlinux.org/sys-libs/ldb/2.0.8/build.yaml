@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i sys-libs/ldb-1.4.8 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -28,10 +29,12 @@ includes:
 - /usr/lib/ldb$
 - /usr/lib/ldb/libldb-cmdline.so$
 - /usr/lib/ldb/libldb-key-value.so$
+- /usr/lib/ldb/libldb-tdb-err-map.so$
+- /usr/lib/ldb/libldb-tdb-int.so$
 - /usr/lib/ldb/libreplace-ldb.so$
 - /usr/lib/libldb.so$
-- /usr/lib/libldb.so.1$
-- /usr/lib/libldb.so.1.4.8$
+- /usr/lib/libldb.so.2$
+- /usr/lib/libldb.so.2.0.8$
 - /usr/lib/pkgconfig$
 - /usr/lib/pkgconfig/ldb.pc$
 - /usr/lib/samba$
@@ -39,7 +42,6 @@ includes:
 - /usr/lib/samba/ldb/asq.so$
 - /usr/lib/samba/ldb/ldap.so$
 - /usr/lib/samba/ldb/ldb.so$
-- /usr/lib/samba/ldb/paged_results.so$
 - /usr/lib/samba/ldb/paged_searches.so$
 - /usr/lib/samba/ldb/rdn_name.so$
 - /usr/lib/samba/ldb/sample.so$
@@ -51,27 +53,28 @@ includes:
 - /usr/lib64/ldb/libldb-cmdline.so$
 - /usr/lib64/ldb/libldb-key-value.so$
 - /usr/lib64/ldb/libldb-mdb-int.so$
+- /usr/lib64/ldb/libldb-tdb-err-map.so$
+- /usr/lib64/ldb/libldb-tdb-int.so$
 - /usr/lib64/ldb/libreplace-ldb.so$
 - /usr/lib64/libldb.so$
-- /usr/lib64/libldb.so.1$
-- /usr/lib64/libldb.so.1.4.8$
-- /usr/lib64/libpyldb-util.so$
-- /usr/lib64/libpyldb-util.so.1$
-- /usr/lib64/libpyldb-util.so.1.4.8$
+- /usr/lib64/libldb.so.2$
+- /usr/lib64/libldb.so.2.0.8$
+- /usr/lib64/libpyldb-util.cpython-36m-x86-64-linux-gnu.so$
+- /usr/lib64/libpyldb-util.cpython-36m-x86-64-linux-gnu.so.2$
+- /usr/lib64/libpyldb-util.cpython-36m-x86-64-linux-gnu.so.2.0.8$
 - /usr/lib64/pkgconfig$
 - /usr/lib64/pkgconfig/ldb.pc$
-- /usr/lib64/pkgconfig/pyldb-util.pc$
-- /usr/lib64/python2.7$
-- /usr/lib64/python2.7/site-packages$
-- /usr/lib64/python2.7/site-packages/_ldb_text.py$
-- /usr/lib64/python2.7/site-packages/ldb.so$
+- /usr/lib64/pkgconfig/pyldb-util.cpython-36m-x86_64-linux-gnu.pc$
+- /usr/lib64/python3.6$
+- /usr/lib64/python3.6/site-packages$
+- /usr/lib64/python3.6/site-packages/_ldb_text.py$
+- /usr/lib64/python3.6/site-packages/ldb.cpython-36m-x86_64-linux-gnu.so$
 - /usr/lib64/samba$
 - /usr/lib64/samba/ldb$
 - /usr/lib64/samba/ldb/asq.so$
 - /usr/lib64/samba/ldb/ldap.so$
 - /usr/lib64/samba/ldb/ldb.so$
 - /usr/lib64/samba/ldb/mdb.so$
-- /usr/lib64/samba/ldb/paged_results.so$
 - /usr/lib64/samba/ldb/paged_searches.so$
 - /usr/lib64/samba/ldb/rdn_name.so$
 - /usr/lib64/samba/ldb/sample.so$
@@ -80,8 +83,8 @@ includes:
 - /usr/lib64/samba/ldb/tdb.so$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/ldb-1.4.8$
-- /usr/share/doc/ldb-1.4.8/README_gcov.txt.bz2$
+- /usr/share/doc/ldb-2.0.8$
+- /usr/share/doc/ldb-2.0.8/README_gcov.txt.bz2$
 - /usr/share/man$
 - /usr/share/man/man1$
 - /usr/share/man/man1/ldbadd.1.bz2$
@@ -92,3 +95,6 @@ includes:
 - /usr/share/man/man1/ldbsearch.1.bz2$
 - /usr/share/man/man3$
 - /usr/share/man/man3/ldb.3.bz2$
+env:
+- ORIGINAL_ATOM=sys-libs/ldb
+- ORIGINAL_PACKAGE=sys-libs/ldb-2.0.8
