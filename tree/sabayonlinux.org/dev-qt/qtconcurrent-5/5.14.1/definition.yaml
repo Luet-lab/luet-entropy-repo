@@ -4,12 +4,12 @@ name: qtconcurrent-5
 requires:
 - labels: null
   category: dev-qt
-  name: qtchooser
+  name: qtcore-5
   version: '>=0'
 - labels: null
   category: dev-qt
-  name: qtcore-5
-  version: '>=5.14.1'
+  name: qtchooser
+  version: '>=0'
 use_flags:
 - elibc_glibc
 - -debug
