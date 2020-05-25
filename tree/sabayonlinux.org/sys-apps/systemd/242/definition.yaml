@@ -53,6 +53,9 @@ requires:
 - category: sys-libs
   name: pam
   version: '>=0'
+- category: app-arch
+  name: xz-utils
+  version: '>=0'
 use_flags:
 - big-endian
 - -test
