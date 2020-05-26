@@ -1,11 +1,6 @@
 category: media-libs
 license: GPL-2
 name: x264
-requires:
-- labels: null
-  category: dev-lang
-  name: nasm
-  version: '>=2.13'
 use_flags:
 - big-endian
 - -pic
