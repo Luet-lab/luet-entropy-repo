@@ -18,10 +18,6 @@ requires:
   category: media-libs
   name: harfbuzz
   version: '>=0.9.12'
-- labels: null
-  category: dev-lang
-  name: nasm
-  version: '>=0'
 use_flags:
 - big-endian
 - -abi_s390_32
