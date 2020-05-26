@@ -6,10 +6,6 @@ requires:
   category: media-libs
   name: libogg
   version: '>=1.3.0'
-- labels: null
-  category: dev-lang
-  name: nasm
-  version: '>=0'
 use_flags:
 - big-endian
 - -abi_x86_x32
