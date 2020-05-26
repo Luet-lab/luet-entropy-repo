@@ -3,14 +3,6 @@ license: GPL-2
 name: syslinux
 requires:
 - labels: null
-  category: sys-boot
-  name: gnu-efi
-  version: '>=3.0u'
-- labels: null
-  category: dev-lang
-  name: nasm
-  version: '>=0'
-- labels: null
   category: dev-perl
   name: Crypt-PasswdMD5
   version: '>=0'
