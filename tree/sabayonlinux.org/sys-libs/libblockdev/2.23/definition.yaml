@@ -34,10 +34,6 @@ requires:
   category: dev-libs
   name: libbytesize
   version: '>=0'
-- labels: null
-  category: dev-util
-  name: gtk-doc-am
-  version: '>=0'
 use_flags:
 - -device-mapper
 - cryptsetup
