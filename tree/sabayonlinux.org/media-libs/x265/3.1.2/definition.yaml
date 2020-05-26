@@ -1,15 +1,6 @@
 category: media-libs
 license: GPL-2
 name: x265
-requires:
-- labels: null
-  category: dev-lang
-  name: yasm
-  version: '>=1.2.0'
-- labels: null
-  category: sys-devel
-  name: make
-  version: '>=0'
 use_flags:
 - big-endian
 - -pic
