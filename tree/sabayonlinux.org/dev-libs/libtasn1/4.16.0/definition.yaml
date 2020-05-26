@@ -1,11 +1,6 @@
 category: dev-libs
 license: GPL-3 LGPL-2.1
 name: libtasn1
-requires:
-- labels: null
-  category: sys-apps
-  name: help2man
-  version: '>=0'
 use_flags:
 - big-endian
 - -abi_s390_32
