@@ -30,10 +30,6 @@ requires:
   category: x11-libs
   name: pango
   version: '>=1.38.0'
-- labels: null
-  category: dev-lang
-  name: vala-0.44
-  version: '>=0'
 use_flags:
 - big-endian
 - -abi_s390_32
