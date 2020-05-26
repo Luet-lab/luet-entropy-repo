@@ -1,15 +1,6 @@
 category: media-libs
 license: BSD
 name: openh264
-requires:
-- labels: null
-  category: app-arch
-  name: unzip
-  version: '>=0'
-- labels: null
-  category: dev-lang
-  name: nasm
-  version: '>=0'
 use_flags:
 - big-endian
 - -abi_s390_32
