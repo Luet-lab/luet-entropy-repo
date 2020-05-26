@@ -16,14 +16,6 @@ requires:
   category: x11-libs
   name: gtk+-3
   version: '>=3.24.1'
-- labels: null
-  category: dev-lang
-  name: vala-0.44
-  version: '>=0'
-- labels: null
-  category: dev-libs
-  name: libxml2-2
-  version: '>=0'
 use_flags:
 - kernel_linux
 - elibc_glibc
