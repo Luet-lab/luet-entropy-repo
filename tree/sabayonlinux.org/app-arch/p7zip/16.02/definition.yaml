@@ -1,11 +1,6 @@
 category: app-arch
 license: LGPL-2.1 unRAR
 name: p7zip
-requires:
-- labels: null
-  category: dev-lang
-  name: yasm
-  version: '>=0'
 use_flags:
 - -kde
 - amd64
