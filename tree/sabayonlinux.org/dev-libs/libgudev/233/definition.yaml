@@ -10,10 +10,6 @@ requires:
   category: dev-libs
   name: gobject-introspection
   version: '>=1.31.1'
-- labels: null
-  category: dev-util
-  name: gtk-doc-am
-  version: '>=1.18'
 use_flags:
 - big-endian
 - -abi_s390_32
