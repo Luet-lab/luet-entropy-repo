@@ -3,21 +3,9 @@ license: Apache-2.0-with-LLVM-exceptions BSD UoI-NCSA public-domain rc
 name: llvm-9
 requires:
 - labels: null
-  category: sys-devel
-  name: gcc-8.2.0
-  version: '>=3.0'
-- labels: null
   category: sys-libs
   name: ncurses
   version: '>=5.9'
-- labels: null
-  category: dev-lang
-  name: perl
-  version: '>=0'
-- labels: null
-  category: dev-lang
-  name: python-3.6
-  version: '>=0'
 - labels: null
   category: dev-libs
   name: libxml2-2
