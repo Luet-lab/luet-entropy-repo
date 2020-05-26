@@ -1,11 +1,6 @@
 category: sci-libs
 license: LGPL-3
 name: mpir
-requires:
-- labels: null
-  category: dev-lang
-  name: yasm
-  version: '>=0'
 use_flags:
 - userland_GNU
 - cxx
