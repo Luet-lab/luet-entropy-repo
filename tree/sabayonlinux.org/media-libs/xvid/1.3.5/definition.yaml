@@ -1,15 +1,6 @@
 category: media-libs
 license: GPL-2
 name: xvid
-requires:
-- labels: null
-  category: dev-lang
-  name: nasm
-  version: '>=2'
-- labels: null
-  category: sys-apps
-  name: grep
-  version: '>=0'
 use_flags:
 - -examples
 - big-endian
