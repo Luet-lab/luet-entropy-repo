@@ -7,60 +7,12 @@ requires:
   name: glib-2
   version: '>=2.16'
 - labels: null
-  category: dev-libs
-  name: libxml2-2
-  version: '>=2.4.20'
-- labels: null
-  category: dev-libs
-  name: popt
-  version: '>=1.5'
-- labels: null
-  category: gnome-base
-  name: gconf-2
-  version: '>=2'
-- labels: null
-  category: gnome-base
-  name: gnome-keyring
-  version: '>=0.4'
-- labels: null
-  category: gnome-base
-  name: gnome-vfs-2
-  version: '>=2.7.3'
-- labels: null
-  category: gnome-base
-  name: libbonoboui
-  version: '>=2.13.1'
-- labels: null
-  category: gnome-base
-  name: libglade-2.0
-  version: '>=2'
-- labels: null
-  category: gnome-base
-  name: libgnome
-  version: '>=2.13.7'
-- labels: null
-  category: gnome-base
-  name: libgnomecanvas
-  version: '>=2'
-- labels: null
   category: x11-libs
   name: gtk+-3
   version: '>=2.14'
 - labels: null
-  category: x11-libs
-  name: pango
-  version: '>=1.1.2'
-- labels: null
   category: dev-libs
   name: atk
-  version: '>=0'
-- labels: null
-  category: dev-util
-  name: gtk-doc-am
-  version: '>=0'
-- labels: null
-  category: gnome-base
-  name: libgnome-keyring
   version: '>=0'
 - labels: null
   category: media-libs
@@ -69,14 +21,6 @@ requires:
 - labels: null
   category: x11-libs
   name: gdk-pixbuf-2
-  version: '>=0'
-- labels: null
-  category: x11-libs
-  name: libICE
-  version: '>=0'
-- labels: null
-  category: x11-libs
-  name: libSM
   version: '>=0'
 - labels: null
   category: x11-themes
