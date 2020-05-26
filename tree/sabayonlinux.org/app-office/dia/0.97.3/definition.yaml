@@ -23,14 +23,6 @@ requires:
   name: libart_lgpl
   version: '>=2'
 - labels: null
-  category: sys-devel
-  name: autoconf-2.69
-  version: '>=2.69'
-- labels: null
-  category: sys-devel
-  name: automake-1.15
-  version: '>=1.14'
-- labels: null
   category: dev-lang
   name: python-exec-2
   version: '>=0'
@@ -49,10 +41,6 @@ requires:
 - labels: null
   category: media-libs
   name: libpng
-  version: '>=0'
-- labels: null
-  category: sys-devel
-  name: libtool-2
   version: '>=0'
 - labels: null
   category: sys-libs
