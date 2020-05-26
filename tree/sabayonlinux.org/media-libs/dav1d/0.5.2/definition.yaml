@@ -1,11 +1,6 @@
 category: media-libs
 license: BSD-2
 name: dav1d
-requires:
-- labels: null
-  category: dev-lang
-  name: nasm
-  version: '>=2.13.02'
 use_flags:
 - big-endian
 - -abi_s390_32
