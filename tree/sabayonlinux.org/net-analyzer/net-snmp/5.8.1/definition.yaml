@@ -19,14 +19,6 @@ requires:
   name: tcp-wrappers
   version: '>=7.6'
 - labels: null
-  category: sys-devel
-  name: autoconf-2.69
-  version: '>=2.69'
-- labels: null
-  category: sys-devel
-  name: libtool-2
-  version: '>=2.4'
-- labels: null
   category: sys-libs
   name: zlib
   version: '>=1.1.4'
@@ -41,10 +33,6 @@ requires:
 - labels: null
   category: dev-perl
   name: TermReadKey
-  version: '>=0'
-- labels: null
-  category: sys-devel
-  name: automake-1.15
   version: '>=0'
 use_flags:
 - -lm-sensors
