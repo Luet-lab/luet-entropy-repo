@@ -1,5 +1,5 @@
 FROM quay.io/luet/base:develop
-ADD conf/luet-dso.yaml /etc/luet/.luet.yaml
+ADD conf/luet-dso.yaml /etc/luet/luet.yaml
 ADD conf/repos.conf.d/sabayonlinux.org-stable.yml /etc/luet/repos.conf.d/sabayonlinux.org-stable.yml
 
 ENV USER=root
