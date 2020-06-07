@@ -1,0 +1,12 @@
+requires:
+- category: "distro"
+  name: "alpine"
+  version: "3.11.3"
+env:
+- ORIGINAL_ATOM=dev-qt/qtprintsupport
+- ORIGINAL_PACKAGE=dev-qt/qtprintsupport-5.14.1
+steps:
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
+includes:
