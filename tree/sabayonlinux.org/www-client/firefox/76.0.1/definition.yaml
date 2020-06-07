@@ -1,63 +1,47 @@
-labels:
-  original.package.version: "76.0.1"
 category: www-client
 license: GPL-2 LGPL-2.1 MPL-2.0
 name: firefox
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.26'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: icu
   version: '>=64.1'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libevent
   version: '>=2.0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libffi
   version: '>=3.0.10'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: nspr
   version: '>=4.25'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: nss
   version: '>=3.50'
-- labels: null
-  category: dev-util
+- category: dev-util
   name: cbindgen
   version: '>=0.13.0'
-- labels: null
-  category: media-gfx
+- category: media-gfx
   name: graphite2
   version: '>=1.3.13'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: freetype-2
   version: '>=2.4.10'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: harfbuzz
   version: '>=2.6.4'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libjpeg-turbo
   version: '>=1.2.1'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libpng
   version: '>=1.6.35'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libwebp
   version: '>=1.1.0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: mesa
   version: '>=10.2'
 use_flags:
@@ -193,7 +177,5 @@ version: "76.0.1"
 labels:
   original.package.name: "firefox"
   original.package.category: "www-client"
-  original.package.version: "74.0"
   original.package.slot: "0"
-  original.package.version:
-  original.package.version:
+  original.package.version: "76.0.1"
