@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i gnome-extra/cjs-4.0.0-r1 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -33,7 +34,10 @@ includes:
 - /usr/lib64/pkgconfig/cjs-1.0.pc$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/cjs-4.0.0-r1$
-- /usr/share/doc/cjs-4.0.0-r1/NEWS.bz2$
-- /usr/share/doc/cjs-4.0.0-r1/README.bz2$
-- /usr/share/doc/cjs-4.0.0-r1/README.md.bz2$
+- /usr/share/doc/cjs-4.4.0$
+- /usr/share/doc/cjs-4.4.0/NEWS.bz2$
+- /usr/share/doc/cjs-4.4.0/README.bz2$
+- /usr/share/doc/cjs-4.4.0/README.md.bz2$
+env:
+- ORIGINAL_ATOM=gnome-extra/cjs
+- ORIGINAL_PACKAGE=gnome-extra/cjs-4.4.0
