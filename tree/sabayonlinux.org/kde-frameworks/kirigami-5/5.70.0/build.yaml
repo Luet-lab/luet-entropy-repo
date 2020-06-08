@@ -30,7 +30,7 @@ includes:
 - /usr/lib64/cmake/KF5Kirigami2/KF5Kirigami2Targets.cmake$
 - /usr/lib64/libKF5Kirigami2.so$
 - /usr/lib64/libKF5Kirigami2.so.5$
-- /usr/lib64/libKF5Kirigami2.so.5.69.0$
+- /usr/lib64/libKF5Kirigami2.so.5.70.0$
 - /usr/lib64/qt5$
 - /usr/lib64/qt5/mkspecs$
 - /usr/lib64/qt5/mkspecs/modules$
@@ -73,6 +73,7 @@ includes:
 - /usr/lib64/qt5/qml/org/kde/kirigami.2/PagePoolAction.qml$
 - /usr/lib64/qt5/qml/org/kde/kirigami.2/PageRow.qml$
 - /usr/lib64/qt5/qml/org/kde/kirigami.2/PasswordField.qml$
+- /usr/lib64/qt5/qml/org/kde/kirigami.2/PlaceholderMessage.qml$
 - /usr/lib64/qt5/qml/org/kde/kirigami.2/ScrollablePage.qml$
 - /usr/lib64/qt5/qml/org/kde/kirigami.2/SearchField.qml$
 - /usr/lib64/qt5/qml/org/kde/kirigami.2/Separator.qml$
@@ -147,8 +148,8 @@ includes:
 - /usr/lib64/qt5/qml/org/kde/kirigami.2/templates/qmldir$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/kirigami-5.69.0$
-- /usr/share/doc/kirigami-5.69.0/README.md.bz2$
+- /usr/share/doc/kirigami-5.70.0$
+- /usr/share/doc/kirigami-5.70.0/README.md.bz2$
 - /usr/share/kdevappwizard$
 - /usr/share/kdevappwizard/templates$
 - /usr/share/kdevappwizard/templates/kirigami.tar.bz2$
@@ -254,4 +255,4 @@ includes:
 - /usr/share/locale/zh_TW/LC_MESSAGES/libkirigami2plugin_qt.qm$
 env:
 - ORIGINAL_ATOM=kde-frameworks/kirigami
-- ORIGINAL_PACKAGE=kde-frameworks/kirigami-5.69.0
+- ORIGINAL_PACKAGE=kde-frameworks/kirigami-5.70.0
