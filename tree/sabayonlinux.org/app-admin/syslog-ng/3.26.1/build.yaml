@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i app-admin/syslog-ng-3.24.1 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -55,6 +56,7 @@ includes:
 - /usr/include/syslog-ng/cfg-parser.h$
 - /usr/include/syslog-ng/cfg-path.h$
 - /usr/include/syslog-ng/cfg-tree.h$
+- /usr/include/syslog-ng/cfg-walker.h$
 - /usr/include/syslog-ng/cfg.h$
 - /usr/include/syslog-ng/children.h$
 - /usr/include/syslog-ng/compat$
@@ -112,6 +114,7 @@ includes:
 - /usr/include/syslog-ng/hostname.h$
 - /usr/include/syslog-ng/http-auth$
 - /usr/include/syslog-ng/http-auth/auth-header.h$
+- /usr/include/syslog-ng/list-adt.h$
 - /usr/include/syslog-ng/loggen_helper.h$
 - /usr/include/syslog-ng/loggen_plugin.h$
 - /usr/include/syslog-ng/logmatcher.h$
@@ -191,6 +194,7 @@ includes:
 - /usr/include/syslog-ng/rewrite/rewrite-expr-parser.h$
 - /usr/include/syslog-ng/rewrite/rewrite-expr.h$
 - /usr/include/syslog-ng/rewrite/rewrite-groupset.h$
+- /usr/include/syslog-ng/rewrite/rewrite-set-severity.h$
 - /usr/include/syslog-ng/rewrite/rewrite-set-tag.h$
 - /usr/include/syslog-ng/rewrite/rewrite-set.h$
 - /usr/include/syslog-ng/rewrite/rewrite-subst.h$
@@ -211,6 +215,8 @@ includes:
 - /usr/include/syslog-ng/seqnum.h$
 - /usr/include/syslog-ng/serialize.h$
 - /usr/include/syslog-ng/service-management.h$
+- /usr/include/syslog-ng/signal-slot-connector$
+- /usr/include/syslog-ng/signal-slot-connector/signal-slot-connector.h$
 - /usr/include/syslog-ng/stats$
 - /usr/include/syslog-ng/stats/stats-cluster-logpipe.h$
 - /usr/include/syslog-ng/stats/stats-cluster-single.h$
@@ -284,20 +290,20 @@ includes:
 - /usr/include/syslog-ng/window-size-counter.h$
 - /usr/lib$
 - /usr/lib64$
-- /usr/lib64/libevtlog-3.24.so.0$
-- /usr/lib64/libevtlog-3.24.so.0.0.0$
+- /usr/lib64/libevtlog-3.26.so.0$
+- /usr/lib64/libevtlog-3.26.so.0.0.0$
 - /usr/lib64/libevtlog.so$
-- /usr/lib64/libloggen_helper-3.24.so.0$
-- /usr/lib64/libloggen_helper-3.24.so.0.0.0$
+- /usr/lib64/libloggen_helper-3.26.so.0$
+- /usr/lib64/libloggen_helper-3.26.so.0.0.0$
 - /usr/lib64/libloggen_helper.so$
-- /usr/lib64/libloggen_plugin-3.24.so.0$
-- /usr/lib64/libloggen_plugin-3.24.so.0.0.0$
+- /usr/lib64/libloggen_plugin-3.26.so.0$
+- /usr/lib64/libloggen_plugin-3.26.so.0.0.0$
 - /usr/lib64/libloggen_plugin.so$
 - /usr/lib64/libsecret-storage.so$
 - /usr/lib64/libsecret-storage.so.0$
 - /usr/lib64/libsecret-storage.so.0.0.0$
-- /usr/lib64/libsyslog-ng-3.24.so.0$
-- /usr/lib64/libsyslog-ng-3.24.so.0.0.0$
+- /usr/lib64/libsyslog-ng-3.26.so.0$
+- /usr/lib64/libsyslog-ng-3.26.so.0.0.0$
 - /usr/lib64/libsyslog-ng-native-connector.a$
 - /usr/lib64/libsyslog-ng.so$
 - /usr/lib64/pkgconfig$
@@ -311,6 +317,7 @@ includes:
 - /usr/lib64/syslog-ng/libafstomp.so$
 - /usr/lib64/syslog-ng/libafuser.so$
 - /usr/lib64/syslog-ng/libappmodel.so$
+- /usr/lib64/syslog-ng/libazure-auth-header.so$
 - /usr/lib64/syslog-ng/libbasicfuncs.so$
 - /usr/lib64/syslog-ng/libcef.so$
 - /usr/lib64/syslog-ng/libconfgen.so$
@@ -367,23 +374,24 @@ includes:
 - /usr/sbin/syslog-ng-debun$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/syslog-ng-3.24.1$
-- /usr/share/doc/syslog-ng-3.24.1/AUTHORS.bz2$
-- /usr/share/doc/syslog-ng-3.24.1/CONTRIBUTING.md.bz2$
-- /usr/share/doc/syslog-ng-3.24.1/NEWS.md.bz2$
-- /usr/share/doc/syslog-ng-3.24.1/README.hardened.bz2$
-- /usr/share/doc/syslog-ng-3.24.1/syslog-ng.conf.HP-UX.bz2$
-- /usr/share/doc/syslog-ng-3.24.1/syslog-ng.conf.RedHat.bz2$
-- /usr/share/doc/syslog-ng-3.24.1/syslog-ng.conf.SunOS.bz2$
-- /usr/share/doc/syslog-ng-3.24.1/syslog-ng.conf.doc.bz2$
-- /usr/share/doc/syslog-ng-3.24.1/syslog-ng.conf.gentoo.hardened.bz2$
-- /usr/share/doc/syslog-ng-3.24.1/syslog-ng.logrotate.hardened.bz2$
-- /usr/share/doc/syslog-ng-3.24.1/syslog2ng.bz2$
+- /usr/share/doc/syslog-ng-3.26.1$
+- /usr/share/doc/syslog-ng-3.26.1/AUTHORS.bz2$
+- /usr/share/doc/syslog-ng-3.26.1/CONTRIBUTING.md.bz2$
+- /usr/share/doc/syslog-ng-3.26.1/NEWS.md.bz2$
+- /usr/share/doc/syslog-ng-3.26.1/README.hardened.bz2$
+- /usr/share/doc/syslog-ng-3.26.1/syslog-ng.conf.HP-UX.bz2$
+- /usr/share/doc/syslog-ng-3.26.1/syslog-ng.conf.RedHat.bz2$
+- /usr/share/doc/syslog-ng-3.26.1/syslog-ng.conf.SunOS.bz2$
+- /usr/share/doc/syslog-ng-3.26.1/syslog-ng.conf.doc.bz2$
+- /usr/share/doc/syslog-ng-3.26.1/syslog-ng.conf.gentoo.hardened.bz2$
+- /usr/share/doc/syslog-ng-3.26.1/syslog-ng.logrotate.hardened.bz2$
+- /usr/share/doc/syslog-ng-3.26.1/syslog2ng.bz2$
 - /usr/share/man$
 - /usr/share/man/man1$
 - /usr/share/man/man1/dqtool.1.bz2$
 - /usr/share/man/man1/loggen.1.bz2$
 - /usr/share/man/man1/pdbtool.1.bz2$
+- /usr/share/man/man1/persist-tool.1.bz2$
 - /usr/share/man/man1/syslog-ng-ctl.1.bz2$
 - /usr/share/man/man1/syslog-ng-debun.1.bz2$
 - /usr/share/man/man5$
@@ -413,7 +421,8 @@ includes:
 - /usr/share/syslog-ng/include/scl/junos$
 - /usr/share/syslog-ng/include/scl/junos/plugin.conf$
 - /usr/share/syslog-ng/include/scl/kafka$
-- /usr/share/syslog-ng/include/scl/kafka/plugin.conf$
+- /usr/share/syslog-ng/include/scl/kafka/kafka-java.conf$
+- /usr/share/syslog-ng/include/scl/kafka/kafka.conf$
 - /usr/share/syslog-ng/include/scl/linux-audit$
 - /usr/share/syslog-ng/include/scl/linux-audit/linux-audit.conf$
 - /usr/share/syslog-ng/include/scl/loadbalancer$
@@ -457,3 +466,6 @@ includes:
 - /var/lib$
 - /var/lib/syslog-ng$
 - /var/lib/syslog-ng/.keep_app-admin_syslog-ng-0$
+env:
+- ORIGINAL_ATOM=app-admin/syslog-ng
+- ORIGINAL_PACKAGE=app-admin/syslog-ng-3.26.1
