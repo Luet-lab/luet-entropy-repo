@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i gnome-extra/cinnamon-settings-daemon-4.0.2 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -90,11 +91,11 @@ includes:
 - /usr/share/dbus-1/system-services$
 - /usr/share/dbus-1/system-services/org.cinnamon.SettingsDaemon.DateTimeMechanism.service$
 - /usr/share/doc$
-- /usr/share/doc/cinnamon-settings-daemon-4.0.2$
-- /usr/share/doc/cinnamon-settings-daemon-4.0.2/AUTHORS$
-- /usr/share/doc/cinnamon-settings-daemon-4.0.2/ChangeLog.bz2$
-- /usr/share/doc/cinnamon-settings-daemon-4.0.2/MAINTAINERS.bz2$
-- /usr/share/doc/cinnamon-settings-daemon-4.0.2/README.rst.bz2$
+- /usr/share/doc/cinnamon-settings-daemon-4.4.0$
+- /usr/share/doc/cinnamon-settings-daemon-4.4.0/AUTHORS$
+- /usr/share/doc/cinnamon-settings-daemon-4.4.0/ChangeLog.bz2$
+- /usr/share/doc/cinnamon-settings-daemon-4.4.0/MAINTAINERS.bz2$
+- /usr/share/doc/cinnamon-settings-daemon-4.4.0/README.rst.bz2$
 - /usr/share/glib-2.0$
 - /usr/share/glib-2.0/schemas$
 - /usr/share/glib-2.0/schemas/org.cinnamon.settings-daemon.enums.xml$
@@ -228,3 +229,6 @@ includes:
 - /usr/share/polkit-1/actions$
 - /usr/share/polkit-1/actions/org.cinnamon.settings-daemon.plugins.power.policy$
 - /usr/share/polkit-1/actions/org.cinnamon.settingsdaemon.datetimemechanism.policy$
+env:
+- ORIGINAL_ATOM=gnome-extra/cinnamon-settings-daemon
+- ORIGINAL_PACKAGE=gnome-extra/cinnamon-settings-daemon-4.4.0
