@@ -62,9 +62,9 @@ use_flags:
 - -sst-mariabackup
 - -sst-rsync
 - -elibc_FreeBSD
-version: 10.4.12+3
+version: "10.4.13"
 labels:
   original.package.name: "mariadb"
   original.package.category: "dev-db"
-  original.package.version: "10.4.12"
+  original.package.version: "10.4.13"
   original.package.slot: "0"
