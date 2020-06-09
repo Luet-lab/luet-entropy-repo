@@ -1,15 +1,14 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i gnome-extra/cinnamon-desktop-4.0.1 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
   version: "9999"
 includes:
 - /usr$
-- /usr/bin$
-- /usr/bin/cinnamon-desktop-migrate-mediakeys$
 - /usr/include$
 - /usr/include/cinnamon-desktop$
 - /usr/include/cinnamon-desktop/libcinnamon-desktop$
@@ -51,17 +50,16 @@ includes:
 - /usr/lib64/pkgconfig/cvc.pc$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/cinnamon-desktop-4.0.1$
-- /usr/share/doc/cinnamon-desktop-4.0.1/AUTHORS.bz2$
-- /usr/share/doc/cinnamon-desktop-4.0.1/ChangeLog.bz2$
-- /usr/share/doc/cinnamon-desktop-4.0.1/README.bz2$
+- /usr/share/doc/cinnamon-desktop-4.4.1$
+- /usr/share/doc/cinnamon-desktop-4.4.1/AUTHORS.bz2$
+- /usr/share/doc/cinnamon-desktop-4.4.1/ChangeLog.bz2$
+- /usr/share/doc/cinnamon-desktop-4.4.1/README.bz2$
 - /usr/share/gir-1.0$
 - /usr/share/gir-1.0/CDesktopEnums-3.0.gir$
 - /usr/share/gir-1.0/CinnamonDesktop-3.0.gir$
 - /usr/share/gir-1.0/Cvc-1.0.gir$
 - /usr/share/glib-2.0$
 - /usr/share/glib-2.0/schemas$
-- /usr/share/glib-2.0/schemas/cinnamon-desktop.systemd.gschema.override$
 - /usr/share/glib-2.0/schemas/org.cinnamon.desktop.a11y.applications.gschema.xml$
 - /usr/share/glib-2.0/schemas/org.cinnamon.desktop.a11y.keyboard.gschema.xml$
 - /usr/share/glib-2.0/schemas/org.cinnamon.desktop.a11y.magnifier.gschema.xml$
@@ -423,3 +421,6 @@ includes:
 - /usr/share/locale/zu$
 - /usr/share/locale/zu/LC_MESSAGES$
 - /usr/share/locale/zu/LC_MESSAGES/cinnamon-desktop.mo$
+env:
+- ORIGINAL_ATOM=gnome-extra/cinnamon-desktop
+- ORIGINAL_PACKAGE=gnome-extra/cinnamon-desktop-4.4.1
