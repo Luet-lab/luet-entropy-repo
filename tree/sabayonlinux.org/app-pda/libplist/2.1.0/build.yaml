@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i app-pda/libplist-2.0.0 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -32,22 +33,22 @@ includes:
 - /usr/lib64$
 - /usr/lib64/libplist[+][+].so$
 - /usr/lib64/libplist[+][+].so.3$
-- /usr/lib64/libplist[+][+].so.3.1.0$
+- /usr/lib64/libplist[+][+].so.3.2.0$
 - /usr/lib64/libplist.so$
 - /usr/lib64/libplist.so.3$
-- /usr/lib64/libplist.so.3.1.0$
+- /usr/lib64/libplist.so.3.2.0$
 - /usr/lib64/pkgconfig$
 - /usr/lib64/pkgconfig/libplist[+][+].pc$
 - /usr/lib64/pkgconfig/libplist.pc$
-- /usr/lib64/python2.7$
-- /usr/lib64/python2.7/site-packages$
-- /usr/lib64/python2.7/site-packages/plist.so$
 - /usr/lib64/python3.6$
 - /usr/lib64/python3.6/site-packages$
 - /usr/lib64/python3.6/site-packages/plist.so$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/libplist-2.0.0$
-- /usr/share/doc/libplist-2.0.0/AUTHORS.bz2$
-- /usr/share/doc/libplist-2.0.0/NEWS.bz2$
-- /usr/share/doc/libplist-2.0.0/README.bz2$
+- /usr/share/doc/libplist-2.1.0$
+- /usr/share/doc/libplist-2.1.0/AUTHORS.bz2$
+- /usr/share/doc/libplist-2.1.0/NEWS.bz2$
+- /usr/share/doc/libplist-2.1.0/README.md.bz2$
+env:
+- ORIGINAL_ATOM=app-pda/libplist
+- ORIGINAL_PACKAGE=app-pda/libplist-2.1.0
