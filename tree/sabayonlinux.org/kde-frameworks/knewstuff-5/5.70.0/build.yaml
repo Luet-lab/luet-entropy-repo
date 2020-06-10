@@ -90,10 +90,10 @@ includes:
 - /usr/lib64/cmake/KF5NewStuffQuick/KF5NewStuffQuickConfigVersion.cmake$
 - /usr/lib64/libKF5NewStuff.so$
 - /usr/lib64/libKF5NewStuff.so.5$
-- /usr/lib64/libKF5NewStuff.so.5.69.0$
+- /usr/lib64/libKF5NewStuff.so.5.70.0$
 - /usr/lib64/libKF5NewStuffCore.so$
 - /usr/lib64/libKF5NewStuffCore.so.5$
-- /usr/lib64/libKF5NewStuffCore.so.5.69.0$
+- /usr/lib64/libKF5NewStuffCore.so.5.70.0$
 - /usr/lib64/qt5$
 - /usr/lib64/qt5/mkspecs$
 - /usr/lib64/qt5/mkspecs/modules$
@@ -119,7 +119,9 @@ includes:
 - /usr/lib64/qt5/qml/org/kde/newstuff/qml/private/EntryCommentDelegate.qml$
 - /usr/lib64/qt5/qml/org/kde/newstuff/qml/private/EntryCommentsPage.qml$
 - /usr/lib64/qt5/qml/org/kde/newstuff/qml/private/EntryScreenshots.qml$
+- /usr/lib64/qt5/qml/org/kde/newstuff/qml/private/ErrorDisplayer.qml$
 - /usr/lib64/qt5/qml/org/kde/newstuff/qml/private/GridTileDelegate.qml$
+- /usr/lib64/qt5/qml/org/kde/newstuff/qml/private/MessageBoxSheet.qml$
 - /usr/lib64/qt5/qml/org/kde/newstuff/qml/private/Rating.qml$
 - /usr/lib64/qt5/qml/org/kde/newstuff/qml/private/Shadow.qml$
 - /usr/lib64/qt5/qml/org/kde/newstuff/qml/private/entrygriddelegates$
@@ -130,9 +132,9 @@ includes:
 - /usr/lib64/qt5/qml/org/kde/newstuff/qmldir$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/knewstuff-5.69.0$
-- /usr/share/doc/knewstuff-5.69.0/README.md.bz2$
-- /usr/share/doc/knewstuff-5.69.0/TODO.bz2$
+- /usr/share/doc/knewstuff-5.70.0$
+- /usr/share/doc/knewstuff-5.70.0/README.md.bz2$
+- /usr/share/doc/knewstuff-5.70.0/TODO.bz2$
 - /usr/share/kf5$
 - /usr/share/kf5/kmoretools$
 - /usr/share/kf5/kmoretools/presets-kmoretools$
@@ -183,8 +185,8 @@ includes:
 - /usr/share/kf5/kmoretools/presets-kmoretools/shutter.desktop.TODO$
 - /usr/share/kf5/kmoretools/presets-kmoretools/shutter.svg$
 - /usr/share/kf5/kmoretools/presets-kmoretools/simplescreenrecorder.desktop$
-- /usr/share/kf5/kmoretools/presets-kmoretools/vokoscreen.desktop$
-- /usr/share/kf5/kmoretools/presets-kmoretools/vokoscreen.png$
+- /usr/share/kf5/kmoretools/presets-kmoretools/vokoscreenNG.desktop$
+- /usr/share/kf5/kmoretools/presets-kmoretools/vokoscreenNG.png$
 - /usr/share/kf5/kmoretools/presets-kmoretools/xfce4-taskmanager.desktop$
 - /usr/share/locale$
 - /usr/share/locale/af$
@@ -374,4 +376,4 @@ includes:
 - /usr/share/qlogging-categories5/knewstuff.categories$
 env:
 - ORIGINAL_ATOM=kde-frameworks/knewstuff
-- ORIGINAL_PACKAGE=kde-frameworks/knewstuff-5.69.0
+- ORIGINAL_PACKAGE=kde-frameworks/knewstuff-5.70.0
