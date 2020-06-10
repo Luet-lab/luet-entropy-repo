@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-ml/findlib-1.7.1 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -76,10 +77,10 @@ includes:
 - /usr/lib64/ocaml/unix/META$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/findlib-1.7.1$
-- /usr/share/doc/findlib-1.7.1/DOCINFO.bz2$
-- /usr/share/doc/findlib-1.7.1/QUICKSTART.bz2$
-- /usr/share/doc/findlib-1.7.1/README.bz2$
+- /usr/share/doc/findlib-1.8.1$
+- /usr/share/doc/findlib-1.8.1/DOCINFO.bz2$
+- /usr/share/doc/findlib-1.8.1/QUICKSTART.bz2$
+- /usr/share/doc/findlib-1.8.1/README.bz2$
 - /usr/share/man$
 - /usr/share/man/man1$
 - /usr/share/man/man1/ocamlfind.1.bz2$
@@ -88,3 +89,6 @@ includes:
 - /usr/share/man/man5/META.5.bz2$
 - /usr/share/man/man5/findlib.conf.5.bz2$
 - /usr/share/man/man5/site-lib.5.bz2$
+env:
+- ORIGINAL_ATOM=dev-ml/findlib
+- ORIGINAL_PACKAGE=dev-ml/findlib-1.8.1
