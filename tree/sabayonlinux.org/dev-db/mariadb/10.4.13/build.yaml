@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-db/mariadb-10.4.12 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -370,26 +371,26 @@ includes:
 - /usr/share/aclocal$
 - /usr/share/aclocal/mysql.m4$
 - /usr/share/doc$
-- /usr/share/doc/mariadb-10.4.12$
-- /usr/share/doc/mariadb-10.4.12/COPYING.bz2$
-- /usr/share/doc/mariadb-10.4.12/CREDITS.bz2$
-- /usr/share/doc/mariadb-10.4.12/EXCEPTIONS-CLIENT.bz2$
-- /usr/share/doc/mariadb-10.4.12/INSTALL-BINARY.bz2$
-- /usr/share/doc/mariadb-10.4.12/README-wsrep.bz2$
-- /usr/share/doc/mariadb-10.4.12/README.md.bz2$
-- /usr/share/doc/mariadb-10.4.12/THIRDPARTY.bz2$
-- /usr/share/doc/mariadb-10.4.12/scripts$
-- /usr/share/doc/mariadb-10.4.12/scripts/mysql_config.pl.in.bz2$
-- /usr/share/doc/mariadb-10.4.12/scripts/mysql_performance_tables.sql.bz2$
-- /usr/share/doc/mariadb-10.4.12/scripts/mysql_system_tables.sql.bz2$
-- /usr/share/doc/mariadb-10.4.12/scripts/mysql_system_tables_data.sql.bz2$
-- /usr/share/doc/mariadb-10.4.12/scripts/mysql_system_tables_fix.sql.bz2$
-- /usr/share/doc/mariadb-10.4.12/scripts/mysql_test_data_timezone.sql.bz2$
-- /usr/share/doc/mariadb-10.4.12/scripts/mysql_test_db.sql.bz2$
-- /usr/share/doc/mariadb-10.4.12/scripts/mysql_to_mariadb.sql.bz2$
-- /usr/share/doc/mariadb-10.4.12/scripts/mysqlaccess.conf.bz2$
-- /usr/share/doc/mariadb-10.4.12/support-files$
-- /usr/share/doc/mariadb-10.4.12/support-files/magic.bz2$
+- /usr/share/doc/mariadb-10.4.13$
+- /usr/share/doc/mariadb-10.4.13/COPYING.bz2$
+- /usr/share/doc/mariadb-10.4.13/CREDITS.bz2$
+- /usr/share/doc/mariadb-10.4.13/EXCEPTIONS-CLIENT.bz2$
+- /usr/share/doc/mariadb-10.4.13/INSTALL-BINARY.bz2$
+- /usr/share/doc/mariadb-10.4.13/README-wsrep.bz2$
+- /usr/share/doc/mariadb-10.4.13/README.md.bz2$
+- /usr/share/doc/mariadb-10.4.13/THIRDPARTY.bz2$
+- /usr/share/doc/mariadb-10.4.13/scripts$
+- /usr/share/doc/mariadb-10.4.13/scripts/mysql_config.pl.in.bz2$
+- /usr/share/doc/mariadb-10.4.13/scripts/mysql_performance_tables.sql.bz2$
+- /usr/share/doc/mariadb-10.4.13/scripts/mysql_system_tables.sql.bz2$
+- /usr/share/doc/mariadb-10.4.13/scripts/mysql_system_tables_data.sql.bz2$
+- /usr/share/doc/mariadb-10.4.13/scripts/mysql_system_tables_fix.sql.bz2$
+- /usr/share/doc/mariadb-10.4.13/scripts/mysql_test_data_timezone.sql.bz2$
+- /usr/share/doc/mariadb-10.4.13/scripts/mysql_test_db.sql.bz2$
+- /usr/share/doc/mariadb-10.4.13/scripts/mysql_to_mariadb.sql.bz2$
+- /usr/share/doc/mariadb-10.4.13/scripts/mysqlaccess.conf.bz2$
+- /usr/share/doc/mariadb-10.4.13/support-files$
+- /usr/share/doc/mariadb-10.4.13/support-files/magic.bz2$
 - /usr/share/man$
 - /usr/share/man/man1$
 - /usr/share/man/man1/aria_chk.1.bz2$
@@ -477,8 +478,6 @@ includes:
 - /usr/share/man/man1/replace.1.bz2$
 - /usr/share/man/man1/resolve_stack_dump.1.bz2$
 - /usr/share/man/man1/resolveip.1.bz2$
-- /usr/share/man/man1/tokuft_logprint.1.bz2$
-- /usr/share/man/man1/tokuftdump.1.bz2$
 - /usr/share/man/man1/wsrep_sst_common.1.bz2$
 - /usr/share/man/man1/wsrep_sst_mariabackup.1.bz2$
 - /usr/share/man/man1/wsrep_sst_mysqldump.1.bz2$
@@ -597,3 +596,8 @@ includes:
 - /usr/share/mariadb/ukrainian$
 - /usr/share/mariadb/ukrainian/errmsg.sys$
 - /usr/share/mariadb/wsrep_notify$
+- /usr/share/pam_user_map.so$
+- /usr/share/user_map.conf$
+env:
+- ORIGINAL_ATOM=dev-db/mariadb
+- ORIGINAL_PACKAGE=dev-db/mariadb-10.4.13
