@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i gnome-extra/cinnamon-translations-4.0.0 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -37,6 +38,7 @@ includes:
 - /usr/share/locale/az/LC_MESSAGES/cinnamon-session.mo$
 - /usr/share/locale/az/LC_MESSAGES/cinnamon-settings-daemon.mo$
 - /usr/share/locale/az/LC_MESSAGES/cinnamon.mo$
+- /usr/share/locale/az/LC_MESSAGES/nemo.mo$
 - /usr/share/locale/bg$
 - /usr/share/locale/bg/LC_MESSAGES$
 - /usr/share/locale/bg/LC_MESSAGES/cinnamon-bluetooth.mo$
@@ -129,6 +131,7 @@ includes:
 - /usr/share/locale/el/LC_MESSAGES/cinnamon-session.mo$
 - /usr/share/locale/el/LC_MESSAGES/cinnamon-settings-daemon.mo$
 - /usr/share/locale/el/LC_MESSAGES/cinnamon.mo$
+- /usr/share/locale/el/LC_MESSAGES/nemo-extensions.mo$
 - /usr/share/locale/el/LC_MESSAGES/nemo.mo$
 - /usr/share/locale/en_GB$
 - /usr/share/locale/en_GB/LC_MESSAGES$
@@ -170,6 +173,7 @@ includes:
 - /usr/share/locale/et/LC_MESSAGES/cinnamon-session.mo$
 - /usr/share/locale/et/LC_MESSAGES/cinnamon-settings-daemon.mo$
 - /usr/share/locale/et/LC_MESSAGES/cinnamon.mo$
+- /usr/share/locale/et/LC_MESSAGES/nemo-extensions.mo$
 - /usr/share/locale/et/LC_MESSAGES/nemo.mo$
 - /usr/share/locale/eu$
 - /usr/share/locale/eu/LC_MESSAGES$
@@ -250,6 +254,7 @@ includes:
 - /usr/share/locale/he/LC_MESSAGES/cinnamon-session.mo$
 - /usr/share/locale/he/LC_MESSAGES/cinnamon-settings-daemon.mo$
 - /usr/share/locale/he/LC_MESSAGES/cinnamon.mo$
+- /usr/share/locale/he/LC_MESSAGES/nemo-extensions.mo$
 - /usr/share/locale/he/LC_MESSAGES/nemo.mo$
 - /usr/share/locale/hi$
 - /usr/share/locale/hi/LC_MESSAGES$
@@ -309,13 +314,17 @@ includes:
 - /usr/share/locale/ja/LC_MESSAGES/cinnamon-session.mo$
 - /usr/share/locale/ja/LC_MESSAGES/cinnamon-settings-daemon.mo$
 - /usr/share/locale/ja/LC_MESSAGES/cinnamon.mo$
+- /usr/share/locale/ja/LC_MESSAGES/nemo-extensions.mo$
 - /usr/share/locale/ja/LC_MESSAGES/nemo.mo$
 - /usr/share/locale/kk$
 - /usr/share/locale/kk/LC_MESSAGES$
 - /usr/share/locale/kk/LC_MESSAGES/cinnamon-bluetooth.mo$
 - /usr/share/locale/kk/LC_MESSAGES/cinnamon-control-center.mo$
 - /usr/share/locale/kk/LC_MESSAGES/cinnamon-screensaver.mo$
+- /usr/share/locale/kk/LC_MESSAGES/cinnamon-session.mo$
+- /usr/share/locale/kk/LC_MESSAGES/cinnamon-settings-daemon.mo$
 - /usr/share/locale/kk/LC_MESSAGES/cinnamon.mo$
+- /usr/share/locale/kk/LC_MESSAGES/nemo-extensions.mo$
 - /usr/share/locale/kk/LC_MESSAGES/nemo.mo$
 - /usr/share/locale/km$
 - /usr/share/locale/km/LC_MESSAGES$
@@ -526,6 +535,7 @@ includes:
 - /usr/share/locale/ta/LC_MESSAGES/cinnamon-session.mo$
 - /usr/share/locale/ta/LC_MESSAGES/cinnamon-settings-daemon.mo$
 - /usr/share/locale/ta/LC_MESSAGES/cinnamon.mo$
+- /usr/share/locale/ta/LC_MESSAGES/nemo-extensions.mo$
 - /usr/share/locale/ta/LC_MESSAGES/nemo.mo$
 - /usr/share/locale/tg$
 - /usr/share/locale/tg/LC_MESSAGES$
@@ -564,6 +574,7 @@ includes:
 - /usr/share/locale/uz/LC_MESSAGES/cinnamon-screensaver.mo$
 - /usr/share/locale/uz/LC_MESSAGES/cinnamon-session.mo$
 - /usr/share/locale/uz/LC_MESSAGES/cinnamon.mo$
+- /usr/share/locale/uz/LC_MESSAGES/nemo.mo$
 - /usr/share/locale/vi$
 - /usr/share/locale/vi/LC_MESSAGES$
 - /usr/share/locale/vi/LC_MESSAGES/cinnamon-bluetooth.mo$
@@ -593,3 +604,6 @@ includes:
 - /usr/share/locale/zh_TW/LC_MESSAGES/cinnamon-settings-daemon.mo$
 - /usr/share/locale/zh_TW/LC_MESSAGES/cinnamon.mo$
 - /usr/share/locale/zh_TW/LC_MESSAGES/nemo.mo$
+env:
+- ORIGINAL_ATOM=gnome-extra/cinnamon-translations
+- ORIGINAL_PACKAGE=gnome-extra/cinnamon-translations-4.4.2
