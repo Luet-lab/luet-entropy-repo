@@ -1,0 +1,70 @@
+category: dev-db
+license: GPL-2 LGPL-2.1+
+name: mariadb
+requires:
+- labels: null
+  category: dev-libs
+  name: libpcre-3
+  version: '>=8.41'
+- labels: null
+  category: dev-libs
+  name: openssl
+  version: '>=1.0.0'
+- labels: null
+  category: dev-perl
+  name: DBD-mysql
+  version: '>=2.9004'
+- labels: null
+  category: sys-apps
+  name: texinfo
+  version: '>=4.7'
+use_flags:
+- -bindist
+- odbc
+- -libressl
+- -tokudb
+- big-endian
+- -tcmalloc
+- -mroonga
+- -profiling
+- -selinux
+- xml
+- userland_GNU
+- -debug
+- kerberos
+- pam
+- -innodb-snappy
+- -sphinx
+- -test
+- -jemalloc
+- split-usr
+- -galera
+- -systemtap
+- -innodb-lzo
+- extraengine
+- systemd
+- backup
+- elibc_glibc
+- -innodb-lz4
+- abi_x86_64
+- amd64
+- -latin1
+- -cracklib
+- -numa
+- -jdbc
+- -oqgraph
+- server
+- -yassl
+- perl
+- kernel_linux
+- -rocksdb
+- -static
+- -sst-mariabackup
+- -sst-rsync
+- -elibc_FreeBSD
+version: "10.4.13"
+labels:
+  original.package.name: "mariadb"
+  original.package.category: "dev-db"
+  original.package.version: "10.4.13"
+  original.package.slot: "0"

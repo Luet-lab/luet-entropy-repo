@@ -1,0 +1,24 @@
+category: kde-frameworks
+license: BSD
+name: extra-cmake-modules-5
+requires:
+- labels: null
+  category: app-arch
+  name: libarchive
+  version: '>=0'
+use_flags:
+- elibc_glibc
+- split-usr
+- kernel_linux
+- -test
+- abi_x86_64
+- -doc
+- big-endian
+- amd64
+- userland_GNU
+version: "5.70.0"
+labels:
+  original.package.name: "extra-cmake-modules"
+  original.package.category: "kde-frameworks"
+  original.package.version: "5.70.0"
+  original.package.slot: "5"

@@ -1,0 +1,33 @@
+unpack: true
+steps:
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/inetcat$
+- /usr/bin/iproxy$
+- /usr/include$
+- /usr/include/usbmuxd-proto.h$
+- /usr/include/usbmuxd.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/libusbmuxd.so$
+- /usr/lib64/libusbmuxd.so.6$
+- /usr/lib64/libusbmuxd.so.6.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/libusbmuxd.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libusbmuxd-2.0.1$
+- /usr/share/doc/libusbmuxd-2.0.1/AUTHORS.bz2$
+- /usr/share/doc/libusbmuxd-2.0.1/NEWS.bz2$
+- /usr/share/doc/libusbmuxd-2.0.1/README.md.bz2$
+env:
+- ORIGINAL_ATOM=app-pda/libusbmuxd
+- ORIGINAL_PACKAGE=app-pda/libusbmuxd-2.0.1

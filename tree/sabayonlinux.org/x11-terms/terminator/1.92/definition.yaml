@@ -1,0 +1,70 @@
+category: x11-terms
+license: GPL-2
+name: terminator
+requires:
+- labels: null
+  category: dev-lang
+  name: python-2.7
+  version: '>=2.7.5'
+- labels: null
+  category: dev-lang
+  name: python-exec-2
+  version: '>=2'
+- labels: null
+  category: dev-libs
+  name: glib-2
+  version: '>=2.32'
+- labels: null
+  category: x11-libs
+  name: gtk+-3
+  version: '>=3.16'
+- labels: null
+  category: dev-libs
+  name: keybinder-3
+  version: '>=0'
+- labels: null
+  category: dev-python
+  name: notify-python
+  version: '>=0'
+- labels: null
+  category: dev-python
+  name: psutil
+  version: '>=0'
+- labels: null
+  category: dev-python
+  name: pycairo
+  version: '>=0'
+- labels: null
+  category: dev-python
+  name: pygobject-base-3
+  version: '>=0'
+- labels: null
+  category: sys-apps
+  name: dbus
+  version: '>=0'
+- labels: null
+  category: x11-libs
+  name: libnotify
+  version: '>=0'
+- labels: null
+  category: x11-libs
+  name: vte-2.91
+  version: '>=0'
+use_flags:
+- big-endian
+- amd64
+- -debug
+- dbus
+- kernel_linux
+- elibc_glibc
+- libnotify
+- -test
+- abi_x86_64
+- python_targets_python2_7
+- userland_GNU
+version: "1.92"
+labels:
+  original.package.name: "terminator"
+  original.package.category: "x11-terms"
+  original.package.version: "1.92"
+  original.package.slot: "0"

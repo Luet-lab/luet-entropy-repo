@@ -1,0 +1,39 @@
+category: kde-frameworks
+license: LGPL-2+
+name: kdnssd-5
+requires:
+- category: dev-qt
+  name: qtdbus-5
+  version: '>=5.12.3'
+- category: dev-qt
+  name: qtnetwork-5
+  version: '>=5.12.3'
+- category: kde-frameworks
+  name: kf-env-5
+  version: '>=4'
+- category: dev-qt
+  name: qtcore-5
+  version: '>=0'
+- category: net-dns
+  name: avahi-gtk3
+  version: '>=0'
+use_flags:
+- userland_GNU
+- amd64
+- -doc
+- abi_x86_64
+- elibc_glibc
+- nls
+- -test
+- big-endian
+- -debug
+- kernel_linux
+- zeroconf
+- split-usr
+version: "5.70.0"
+labels:
+  original.package.name: "kdnssd"
+  original.package.category: "kde-frameworks"
+  original.package.version: "5.67.0"
+  original.package.slot: "5"
+  original.package.version: "5.70.0"

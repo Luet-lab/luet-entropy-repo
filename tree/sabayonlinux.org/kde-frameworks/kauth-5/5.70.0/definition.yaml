@@ -1,0 +1,45 @@
+category: kde-frameworks
+license: LGPL-2.1+
+name: kauth-5
+requires:
+- category: kde-frameworks
+  name: kcoreaddons-5
+  version: '>=5.67'
+- category: dev-qt
+  name: qtdbus-5
+  version: '>=5.12.3'
+- category: dev-qt
+  name: qtgui-5
+  version: '>=5.12.3'
+- category: dev-qt
+  name: qtwidgets-5
+  version: '>=5.12.3'
+- category: kde-frameworks
+  name: kf-env-5
+  version: '>=4'
+- category: dev-qt
+  name: qtcore-5
+  version: '>=0'
+- category: sys-auth
+  name: polkit-qt
+  version: '>=0'
+use_flags:
+- amd64
+- kernel_linux
+- -doc
+- big-endian
+- abi_x86_64
+- -debug
+- userland_GNU
+- nls
+- -test
+- policykit
+- elibc_glibc
+- split-usr
+version: "5.70.0"
+labels:
+  original.package.name: "kauth"
+  original.package.category: "kde-frameworks"
+  original.package.version: "5.67.0"
+  original.package.slot: "5"
+  original.package.version: "5.70.0"

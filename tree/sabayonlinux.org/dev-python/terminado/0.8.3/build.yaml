@@ -1,0 +1,53 @@
+unpack: true
+steps:
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/python3.6$
+- /usr/lib64/python3.6/site-packages$
+- /usr/lib64/python3.6/site-packages/terminado$
+- /usr/lib64/python3.6/site-packages/terminado-0.8.3-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/terminado/__init__.py$
+- /usr/lib64/python3.6/site-packages/terminado/__pycache__$
+- /usr/lib64/python3.6/site-packages/terminado/__pycache__/__init__.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/terminado/__pycache__/__init__.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/terminado/__pycache__/__init__.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/terminado/__pycache__/management.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/terminado/__pycache__/management.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/terminado/__pycache__/management.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/terminado/__pycache__/uimodule.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/terminado/__pycache__/uimodule.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/terminado/__pycache__/uimodule.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/terminado/__pycache__/websocket.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/terminado/__pycache__/websocket.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/terminado/__pycache__/websocket.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/terminado/_static$
+- /usr/lib64/python3.6/site-packages/terminado/_static/terminado.js$
+- /usr/lib64/python3.6/site-packages/terminado/management.py$
+- /usr/lib64/python3.6/site-packages/terminado/tests$
+- /usr/lib64/python3.6/site-packages/terminado/tests/__init__.py$
+- /usr/lib64/python3.6/site-packages/terminado/tests/__pycache__$
+- /usr/lib64/python3.6/site-packages/terminado/tests/__pycache__/__init__.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/terminado/tests/__pycache__/__init__.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/terminado/tests/__pycache__/__init__.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/terminado/tests/__pycache__/basic_test.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/terminado/tests/__pycache__/basic_test.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/terminado/tests/__pycache__/basic_test.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/terminado/tests/basic_test.py$
+- /usr/lib64/python3.6/site-packages/terminado/uimod_embed.js$
+- /usr/lib64/python3.6/site-packages/terminado/uimodule.py$
+- /usr/lib64/python3.6/site-packages/terminado/websocket.py$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/terminado-0.8.3$
+- /usr/share/doc/terminado-0.8.3/README.rst.bz2$
+env:
+- ORIGINAL_ATOM=dev-python/terminado
+- ORIGINAL_PACKAGE=dev-python/terminado-0.8.3

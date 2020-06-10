@@ -1,0 +1,24 @@
+category: dev-ml
+license: MIT
+name: findlib
+requires:
+- labels: null
+  category: dev-lang
+  name: ocaml
+  version: '>=4.02.3'
+use_flags:
+- big-endian
+- kernel_linux
+- elibc_glibc
+- amd64
+- -tk
+- userland_GNU
+- abi_x86_64
+- ocamlopt
+- -doc
+version: "1.8.1"
+labels:
+  original.package.name: "findlib"
+  original.package.category: "dev-ml"
+  original.package.version: "1.8.1"
+  original.package.slot: "0"

@@ -1,7 +1,10 @@
 category: kde-frameworks
-license: LGPL-2+
-name: kxmlgui-5
+license: LGPL-2
+name: kcmutils-5
 requires:
+- category: kde-frameworks
+  name: kauth-5
+  version: '>=5.67'
 - category: kde-frameworks
   name: kconfig-5
   version: '>=5.67'
@@ -12,43 +15,37 @@ requires:
   name: kcoreaddons-5
   version: '>=5.67'
 - category: kde-frameworks
-  name: kglobalaccel-5
+  name: kdeclarative-5
+  version: '>=5.67'
+- category: kde-frameworks
+  name: kguiaddons-5
   version: '>=5.67'
 - category: kde-frameworks
   name: ki18n-5
   version: '>=5.67'
 - category: kde-frameworks
-  name: kiconthemes-5
+  name: kitemviews-5
   version: '>=5.67'
 - category: kde-frameworks
-  name: kitemviews-5
+  name: kservice-5
   version: '>=5.67'
 - category: kde-frameworks
   name: kwidgetsaddons-5
   version: '>=5.67'
 - category: kde-frameworks
-  name: kwindowsystem-5
+  name: kxmlgui-5
   version: '>=5.67'
 - category: dev-qt
-  name: qtcore-5
+  name: qtdbus-5
   version: '>=5.12.3'
 - category: dev-qt
-  name: qtdbus-5
+  name: qtdeclarative-5
   version: '>=5.12.3'
 - category: dev-qt
   name: qtgui-5
   version: '>=5.12.3'
 - category: dev-qt
-  name: qtnetwork-5
-  version: '>=5.12.3'
-- category: dev-qt
-  name: qtprintsupport-5
-  version: '>=5.12.3'
-- category: dev-qt
   name: qtwidgets-5
-  version: '>=5.12.3'
-- category: dev-qt
-  name: qtxml-5
   version: '>=5.12.3'
 - category: kde-frameworks
   name: kf-env-5
@@ -57,20 +54,18 @@ requires:
   name: qtcore-5
   version: '>=0'
 use_flags:
-- -test
-- kernel_linux
-- big-endian
-- abi_x86_64
-- -debug
-- elibc_glibc
-- split-usr
-- -doc
-- -designer
 - userland_GNU
+- -doc
 - amd64
+- abi_x86_64
+- elibc_glibc
+- big-endian
+- -debug
+- kernel_linux
+- split-usr
 version: "5.70.0"
 labels:
-  original.package.name: "kxmlgui"
+  original.package.name: "kcmutils"
   original.package.category: "kde-frameworks"
-  original.package.slot: "5"
   original.package.version: "5.70.0"
+  original.package.slot: "5"
