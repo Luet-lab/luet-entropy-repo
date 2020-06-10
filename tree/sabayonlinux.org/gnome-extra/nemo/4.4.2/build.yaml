@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i gnome-extra/nemo-4.0.6 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -53,12 +54,12 @@ includes:
 - /usr/share/dbus-1/services/nemo.FileManager1.service$
 - /usr/share/dbus-1/services/nemo.service$
 - /usr/share/doc$
-- /usr/share/doc/nemo-4.0.6$
-- /usr/share/doc/nemo-4.0.6/AUTHORS$
-- /usr/share/doc/nemo-4.0.6/ChangeLog.bz2$
-- /usr/share/doc/nemo-4.0.6/NEWS.bz2$
-- /usr/share/doc/nemo-4.0.6/README.md$
-- /usr/share/doc/nemo-4.0.6/THANKS$
+- /usr/share/doc/nemo-4.4.2$
+- /usr/share/doc/nemo-4.4.2/AUTHORS$
+- /usr/share/doc/nemo-4.4.2/ChangeLog.bz2$
+- /usr/share/doc/nemo-4.4.2/NEWS.bz2$
+- /usr/share/doc/nemo-4.4.2/README.md$
+- /usr/share/doc/nemo-4.4.2/THANKS$
 - /usr/share/gir-1.0$
 - /usr/share/gir-1.0/Nemo-3.0.gir$
 - /usr/share/glib-2.0$
@@ -113,10 +114,6 @@ includes:
 - /usr/share/icons/hicolor/48x48/status/progress-90.png$
 - /usr/share/icons/hicolor/scalable$
 - /usr/share/icons/hicolor/scalable/actions$
-- /usr/share/icons/hicolor/scalable/actions/collapse-menu-hover-symbolic.svg$
-- /usr/share/icons/hicolor/scalable/actions/collapse-menu-symbolic.svg$
-- /usr/share/icons/hicolor/scalable/actions/expand-menu-hover-symbolic.svg$
-- /usr/share/icons/hicolor/scalable/actions/expand-menu-symbolic.svg$
 - /usr/share/icons/hicolor/scalable/actions/location-symbolic.svg$
 - /usr/share/icons/hicolor/scalable/actions/mount-archive-symbolic.svg$
 - /usr/share/icons/hicolor/scalable/actions/nemo-auto-arrange-symbolic.svg$
@@ -172,3 +169,6 @@ includes:
 - /usr/share/polkit-1$
 - /usr/share/polkit-1/actions$
 - /usr/share/polkit-1/actions/org.nemo.root.policy$
+env:
+- ORIGINAL_ATOM=gnome-extra/nemo
+- ORIGINAL_PACKAGE=gnome-extra/nemo-4.4.2
