@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/sphinxcontrib-websupport-1.1.0 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -9,65 +10,6 @@ requires:
 includes:
 - /usr$
 - /usr/lib64$
-- /usr/lib64/python2.7$
-- /usr/lib64/python2.7/site-packages$
-- /usr/lib64/python2.7/site-packages/sphinxcontrib$
-- /usr/lib64/python2.7/site-packages/sphinxcontrib/websupport$
-- /usr/lib64/python2.7/site-packages/sphinxcontrib/websupport/__init__.py$
-- /usr/lib64/python2.7/site-packages/sphinxcontrib/websupport/__init__.pyc$
-- /usr/lib64/python2.7/site-packages/sphinxcontrib/websupport/__init__.pyo$
-- /usr/lib64/python2.7/site-packages/sphinxcontrib/websupport/builder.py$
-- /usr/lib64/python2.7/site-packages/sphinxcontrib/websupport/builder.pyc$
-- /usr/lib64/python2.7/site-packages/sphinxcontrib/websupport/builder.pyo$
-- /usr/lib64/python2.7/site-packages/sphinxcontrib/websupport/core.py$
-- /usr/lib64/python2.7/site-packages/sphinxcontrib/websupport/core.pyc$
-- /usr/lib64/python2.7/site-packages/sphinxcontrib/websupport/core.pyo$
-- /usr/lib64/python2.7/site-packages/sphinxcontrib/websupport/errors.py$
-- /usr/lib64/python2.7/site-packages/sphinxcontrib/websupport/errors.pyc$
-- /usr/lib64/python2.7/site-packages/sphinxcontrib/websupport/errors.pyo$
-- /usr/lib64/python2.7/site-packages/sphinxcontrib/websupport/search$
-- /usr/lib64/python2.7/site-packages/sphinxcontrib/websupport/search/__init__.py$
-- /usr/lib64/python2.7/site-packages/sphinxcontrib/websupport/search/__init__.pyc$
-- /usr/lib64/python2.7/site-packages/sphinxcontrib/websupport/search/__init__.pyo$
-- /usr/lib64/python2.7/site-packages/sphinxcontrib/websupport/search/nullsearch.py$
-- /usr/lib64/python2.7/site-packages/sphinxcontrib/websupport/search/nullsearch.pyc$
-- /usr/lib64/python2.7/site-packages/sphinxcontrib/websupport/search/nullsearch.pyo$
-- /usr/lib64/python2.7/site-packages/sphinxcontrib/websupport/search/whooshsearch.py$
-- /usr/lib64/python2.7/site-packages/sphinxcontrib/websupport/search/whooshsearch.pyc$
-- /usr/lib64/python2.7/site-packages/sphinxcontrib/websupport/search/whooshsearch.pyo$
-- /usr/lib64/python2.7/site-packages/sphinxcontrib/websupport/search/xapiansearch.py$
-- /usr/lib64/python2.7/site-packages/sphinxcontrib/websupport/search/xapiansearch.pyc$
-- /usr/lib64/python2.7/site-packages/sphinxcontrib/websupport/search/xapiansearch.pyo$
-- /usr/lib64/python2.7/site-packages/sphinxcontrib/websupport/storage$
-- /usr/lib64/python2.7/site-packages/sphinxcontrib/websupport/storage/__init__.py$
-- /usr/lib64/python2.7/site-packages/sphinxcontrib/websupport/storage/__init__.pyc$
-- /usr/lib64/python2.7/site-packages/sphinxcontrib/websupport/storage/__init__.pyo$
-- /usr/lib64/python2.7/site-packages/sphinxcontrib/websupport/storage/differ.py$
-- /usr/lib64/python2.7/site-packages/sphinxcontrib/websupport/storage/differ.pyc$
-- /usr/lib64/python2.7/site-packages/sphinxcontrib/websupport/storage/differ.pyo$
-- /usr/lib64/python2.7/site-packages/sphinxcontrib/websupport/storage/sqlalchemy_db.py$
-- /usr/lib64/python2.7/site-packages/sphinxcontrib/websupport/storage/sqlalchemy_db.pyc$
-- /usr/lib64/python2.7/site-packages/sphinxcontrib/websupport/storage/sqlalchemy_db.pyo$
-- /usr/lib64/python2.7/site-packages/sphinxcontrib/websupport/storage/sqlalchemystorage.py$
-- /usr/lib64/python2.7/site-packages/sphinxcontrib/websupport/storage/sqlalchemystorage.pyc$
-- /usr/lib64/python2.7/site-packages/sphinxcontrib/websupport/storage/sqlalchemystorage.pyo$
-- /usr/lib64/python2.7/site-packages/sphinxcontrib/websupport/utils.py$
-- /usr/lib64/python2.7/site-packages/sphinxcontrib/websupport/utils.pyc$
-- /usr/lib64/python2.7/site-packages/sphinxcontrib/websupport/utils.pyo$
-- /usr/lib64/python2.7/site-packages/sphinxcontrib/websupport/version.py$
-- /usr/lib64/python2.7/site-packages/sphinxcontrib/websupport/version.pyc$
-- /usr/lib64/python2.7/site-packages/sphinxcontrib/websupport/version.pyo$
-- /usr/lib64/python2.7/site-packages/sphinxcontrib/websupport/writer.py$
-- /usr/lib64/python2.7/site-packages/sphinxcontrib/websupport/writer.pyc$
-- /usr/lib64/python2.7/site-packages/sphinxcontrib/websupport/writer.pyo$
-- /usr/lib64/python2.7/site-packages/sphinxcontrib_websupport-1.1.0-py2.7.egg-info$
-- /usr/lib64/python2.7/site-packages/sphinxcontrib_websupport-1.1.0-py2.7.egg-info/PKG-INFO$
-- /usr/lib64/python2.7/site-packages/sphinxcontrib_websupport-1.1.0-py2.7.egg-info/SOURCES.txt$
-- /usr/lib64/python2.7/site-packages/sphinxcontrib_websupport-1.1.0-py2.7.egg-info/dependency_links.txt$
-- /usr/lib64/python2.7/site-packages/sphinxcontrib_websupport-1.1.0-py2.7.egg-info/namespace_packages.txt$
-- /usr/lib64/python2.7/site-packages/sphinxcontrib_websupport-1.1.0-py2.7.egg-info/not-zip-safe$
-- /usr/lib64/python2.7/site-packages/sphinxcontrib_websupport-1.1.0-py2.7.egg-info/requires.txt$
-- /usr/lib64/python2.7/site-packages/sphinxcontrib_websupport-1.1.0-py2.7.egg-info/top_level.txt$
 - /usr/lib64/python3.6$
 - /usr/lib64/python3.6/site-packages$
 - /usr/lib64/python3.6/site-packages/sphinxcontrib$
@@ -98,6 +40,16 @@ includes:
 - /usr/lib64/python3.6/site-packages/sphinxcontrib/websupport/builder.py$
 - /usr/lib64/python3.6/site-packages/sphinxcontrib/websupport/core.py$
 - /usr/lib64/python3.6/site-packages/sphinxcontrib/websupport/errors.py$
+- /usr/lib64/python3.6/site-packages/sphinxcontrib/websupport/files$
+- /usr/lib64/python3.6/site-packages/sphinxcontrib/websupport/files/ajax-loader.gif$
+- /usr/lib64/python3.6/site-packages/sphinxcontrib/websupport/files/comment-bright.png$
+- /usr/lib64/python3.6/site-packages/sphinxcontrib/websupport/files/comment-close.png$
+- /usr/lib64/python3.6/site-packages/sphinxcontrib/websupport/files/comment.png$
+- /usr/lib64/python3.6/site-packages/sphinxcontrib/websupport/files/down-pressed.png$
+- /usr/lib64/python3.6/site-packages/sphinxcontrib/websupport/files/down.png$
+- /usr/lib64/python3.6/site-packages/sphinxcontrib/websupport/files/up-pressed.png$
+- /usr/lib64/python3.6/site-packages/sphinxcontrib/websupport/files/up.png$
+- /usr/lib64/python3.6/site-packages/sphinxcontrib/websupport/files/websupport.js$
 - /usr/lib64/python3.6/site-packages/sphinxcontrib/websupport/search$
 - /usr/lib64/python3.6/site-packages/sphinxcontrib/websupport/search/__init__.py$
 - /usr/lib64/python3.6/site-packages/sphinxcontrib/websupport/search/__pycache__$
@@ -134,19 +86,25 @@ includes:
 - /usr/lib64/python3.6/site-packages/sphinxcontrib/websupport/storage/differ.py$
 - /usr/lib64/python3.6/site-packages/sphinxcontrib/websupport/storage/sqlalchemy_db.py$
 - /usr/lib64/python3.6/site-packages/sphinxcontrib/websupport/storage/sqlalchemystorage.py$
+- /usr/lib64/python3.6/site-packages/sphinxcontrib/websupport/templates$
+- /usr/lib64/python3.6/site-packages/sphinxcontrib/websupport/templates/searchresults.html$
 - /usr/lib64/python3.6/site-packages/sphinxcontrib/websupport/utils.py$
 - /usr/lib64/python3.6/site-packages/sphinxcontrib/websupport/version.py$
 - /usr/lib64/python3.6/site-packages/sphinxcontrib/websupport/writer.py$
-- /usr/lib64/python3.6/site-packages/sphinxcontrib_websupport-1.1.0-py3.6.egg-info$
-- /usr/lib64/python3.6/site-packages/sphinxcontrib_websupport-1.1.0-py3.6.egg-info/PKG-INFO$
-- /usr/lib64/python3.6/site-packages/sphinxcontrib_websupport-1.1.0-py3.6.egg-info/SOURCES.txt$
-- /usr/lib64/python3.6/site-packages/sphinxcontrib_websupport-1.1.0-py3.6.egg-info/dependency_links.txt$
-- /usr/lib64/python3.6/site-packages/sphinxcontrib_websupport-1.1.0-py3.6.egg-info/namespace_packages.txt$
-- /usr/lib64/python3.6/site-packages/sphinxcontrib_websupport-1.1.0-py3.6.egg-info/not-zip-safe$
-- /usr/lib64/python3.6/site-packages/sphinxcontrib_websupport-1.1.0-py3.6.egg-info/requires.txt$
-- /usr/lib64/python3.6/site-packages/sphinxcontrib_websupport-1.1.0-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/sphinxcontrib_websupport-1.2.2.dev20200530-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/sphinxcontrib_websupport-1.2.2.dev20200530-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/sphinxcontrib_websupport-1.2.2.dev20200530-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/sphinxcontrib_websupport-1.2.2.dev20200530-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/sphinxcontrib_websupport-1.2.2.dev20200530-py3.6.egg-info/entry_points.txt$
+- /usr/lib64/python3.6/site-packages/sphinxcontrib_websupport-1.2.2.dev20200530-py3.6.egg-info/namespace_packages.txt$
+- /usr/lib64/python3.6/site-packages/sphinxcontrib_websupport-1.2.2.dev20200530-py3.6.egg-info/not-zip-safe$
+- /usr/lib64/python3.6/site-packages/sphinxcontrib_websupport-1.2.2.dev20200530-py3.6.egg-info/requires.txt$
+- /usr/lib64/python3.6/site-packages/sphinxcontrib_websupport-1.2.2.dev20200530-py3.6.egg-info/top_level.txt$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/sphinxcontrib-websupport-1.1.0$
-- /usr/share/doc/sphinxcontrib-websupport-1.1.0/CHANGES.bz2$
-- /usr/share/doc/sphinxcontrib-websupport-1.1.0/README.rst.bz2$
+- /usr/share/doc/sphinxcontrib-websupport-1.2.2$
+- /usr/share/doc/sphinxcontrib-websupport-1.2.2/CHANGES.bz2$
+- /usr/share/doc/sphinxcontrib-websupport-1.2.2/README.rst.bz2$
+env:
+- ORIGINAL_ATOM=dev-python/sphinxcontrib-websupport
+- ORIGINAL_PACKAGE=dev-python/sphinxcontrib-websupport-1.2.2
