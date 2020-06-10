@@ -1,0 +1,33 @@
+unpack: true
+steps:
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/acpibin$
+- /usr/bin/acpidump$
+- /usr/bin/acpiexamples$
+- /usr/bin/acpiexec$
+- /usr/bin/acpihelp$
+- /usr/bin/acpinames$
+- /usr/bin/acpisrc$
+- /usr/bin/acpixtract$
+- /usr/bin/iasl$
+- /usr/lib$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/iasl-20200326$
+- /usr/share/doc/iasl-20200326/changes.txt.bz2$
+- /usr/share/doc/iasl-20200326/compiler-new_table.txt.bz2$
+- /usr/share/doc/iasl-20200326/compiler-readme.txt.bz2$
+- /usr/share/doc/iasl-20200326/lint-readme.txt.bz2$
+- /usr/share/doc/iasl-20200326/unix-readme.txt.bz2$
+env:
+- ORIGINAL_ATOM=sys-power/iasl
+- ORIGINAL_PACKAGE=sys-power/iasl-20200326
