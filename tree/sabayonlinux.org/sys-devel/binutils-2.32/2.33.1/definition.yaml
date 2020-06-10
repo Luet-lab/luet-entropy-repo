@@ -1,0 +1,35 @@
+category: sys-devel
+license: GPL-3+
+name: binutils-2.32
+requires:
+- labels: null
+  category: sys-devel
+  name: binutils-config
+  version: '>=3'
+- labels: null
+  category: sys-libs
+  name: zlib
+  version: '>=0'
+use_flags:
+- nls
+- gold
+- cxx
+- kernel_linux
+- plugins
+- split-usr
+- abi_x86_64
+- -multitarget
+- -static-libs
+- -test
+- amd64
+- big-endian
+- elibc_glibc
+- -doc
+- -default-gold
+- userland_GNU
+version: "2.33.1"
+labels:
+  original.package.name: "binutils"
+  original.package.category: "sys-devel"
+  original.package.version: "2.33.1"
+  original.package.slot: "2.32"

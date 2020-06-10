@@ -1,0 +1,54 @@
+category: kde-frameworks
+license: LGPL-2+
+name: kidletime-5
+requires:
+- labels: null
+  category: dev-qt
+  name: qtgui-5
+  version: '>=5.12.3'
+- labels: null
+  category: dev-qt
+  name: qtwidgets-5
+  version: '>=5.12.3'
+- labels: null
+  category: dev-qt
+  name: qtx11extras-5
+  version: '>=5.12.3'
+- labels: null
+  category: kde-frameworks
+  name: kf-env-5
+  version: '>=4'
+- labels: null
+  category: dev-qt
+  name: qtcore-5
+  version: '>=0'
+- labels: null
+  category: x11-libs
+  name: libX11
+  version: '>=0'
+- labels: null
+  category: x11-libs
+  name: libXext
+  version: '>=0'
+- labels: null
+  category: x11-libs
+  name: libxcb
+  version: '>=0'
+use_flags:
+- userland_GNU
+- amd64
+- -doc
+- kernel_linux
+- -xscreensaver
+- abi_x86_64
+- elibc_glibc
+- big-endian
+- -debug
+- X
+- split-usr
+version: "5.70.0"
+labels:
+  original.package.name: "kidletime"
+  original.package.category: "kde-frameworks"
+  original.package.version: "5.70.0"
+  original.package.slot: "5"

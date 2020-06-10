@@ -1,0 +1,22 @@
+category: app-pda
+license: GPL-2+ LGPL-2.1+
+name: libusbmuxd
+requires:
+- labels: null
+  category: app-pda
+  name: libplist
+  version: '>=1.11'
+use_flags:
+- abi_x86_64
+- big-endian
+- kernel_linux
+- elibc_glibc
+- -static-libs
+- userland_GNU
+- amd64
+version: "2.0.1"
+labels:
+  original.package.name: "libusbmuxd"
+  original.package.category: "app-pda"
+  original.package.version: "2.0.1"
+  original.package.slot: "0"

@@ -1,0 +1,43 @@
+unpack: true
+steps:
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/cjs$
+- /usr/bin/cjs-console$
+- /usr/include$
+- /usr/include/cjs-1.0$
+- /usr/include/cjs-1.0/cjs$
+- /usr/include/cjs-1.0/cjs/context.h$
+- /usr/include/cjs-1.0/cjs/coverage.h$
+- /usr/include/cjs-1.0/cjs/gjs.h$
+- /usr/include/cjs-1.0/cjs/macros.h$
+- /usr/include/cjs-1.0/cjs/profiler.h$
+- /usr/include/cjs-1.0/util$
+- /usr/include/cjs-1.0/util/error.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/cjs$
+- /usr/lib64/cjs/girepository-1.0$
+- /usr/lib64/cjs/girepository-1.0/CjsPrivate-1.0.typelib$
+- /usr/lib64/libcjs.so$
+- /usr/lib64/libcjs.so.0$
+- /usr/lib64/libcjs.so.0.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/cjs-1.0.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/cjs-4.4.0$
+- /usr/share/doc/cjs-4.4.0/NEWS.bz2$
+- /usr/share/doc/cjs-4.4.0/README.bz2$
+- /usr/share/doc/cjs-4.4.0/README.md.bz2$
+env:
+- ORIGINAL_ATOM=gnome-extra/cjs
+- ORIGINAL_PACKAGE=gnome-extra/cjs-4.4.0

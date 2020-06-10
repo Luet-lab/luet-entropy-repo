@@ -1,0 +1,55 @@
+category: kde-frameworks
+license: LGPL-2+
+name: kfilemetadata-5
+requires:
+- category: kde-frameworks
+  name: kcoreaddons-5
+  version: '>=5.67'
+- category: kde-frameworks
+  name: ki18n-5
+  version: '>=5.67'
+- category: dev-qt
+  name: qtxml-5
+  version: '>=5.12.3'
+- category: kde-frameworks
+  name: kf-env-5
+  version: '>=4'
+- category: app-text
+  name: poppler-qt5
+  version: '>=0'
+- category: dev-qt
+  name: qtcore-5
+  version: '>=0'
+- category: media-gfx
+  name: exiv2
+  version: '>=0'
+- category: media-libs
+  name: taglib
+  version: '>=0'
+- category: media-video
+  name: ffmpeg
+  version: '>=0'
+use_flags:
+- -epub
+- -libav
+- pdf
+- elibc_glibc
+- -test
+- kernel_linux
+- ffmpeg
+- -doc
+- userland_GNU
+- amd64
+- exif
+- abi_x86_64
+- big-endian
+- -debug
+- taglib
+- -office
+- split-usr
+version: "5.70.0"
+labels:
+  original.package.name: "kfilemetadata"
+  original.package.category: "kde-frameworks"
+  original.package.version: "5.70.0"
+  original.package.slot: "5"

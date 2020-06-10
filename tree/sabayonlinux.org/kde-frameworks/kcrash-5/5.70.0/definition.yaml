@@ -1,12 +1,18 @@
 category: kde-frameworks
 license: LGPL-2+
-name: kdnssd-5
+name: kcrash-5
 requires:
+- category: kde-frameworks
+  name: kcoreaddons-5
+  version: '>=5.67'
+- category: kde-frameworks
+  name: kwindowsystem-5
+  version: '>=5.67'
 - category: dev-qt
-  name: qtdbus-5
+  name: qtgui-5
   version: '>=5.12.3'
 - category: dev-qt
-  name: qtnetwork-5
+  name: qtx11extras-5
   version: '>=5.12.3'
 - category: kde-frameworks
   name: kf-env-5
@@ -14,25 +20,25 @@ requires:
 - category: dev-qt
   name: qtcore-5
   version: '>=0'
-- category: net-dns
-  name: avahi-gtk3
+- category: x11-libs
+  name: libX11
   version: '>=0'
 use_flags:
-- userland_GNU
 - amd64
+- kernel_linux
 - -doc
+- big-endian
 - abi_x86_64
-- elibc_glibc
+- -debug
+- userland_GNU
 - nls
 - -test
-- big-endian
-- -debug
-- kernel_linux
-- zeroconf
+- elibc_glibc
 - split-usr
 version: "5.70.0"
 labels:
-  original.package.name: "kdnssd"
+  original.package.name: "kcrash"
   original.package.category: "kde-frameworks"
+  original.package.version: "5.67.0"
   original.package.slot: "5"
   original.package.version: "5.70.0"

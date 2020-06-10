@@ -1,0 +1,55 @@
+category: net-vpn
+license: GPL-2
+name: openvpn
+requires:
+- labels: null
+  category: dev-libs
+  name: lzo-2
+  version: '>=1.07'
+- labels: null
+  category: dev-libs
+  name: openssl
+  version: '>=0.9.8'
+- labels: null
+  category: sys-apps
+  name: net-tools
+  version: '>=1.60'
+- labels: null
+  category: sys-apps
+  name: systemd
+  version: '>=0'
+- labels: null
+  category: sys-libs
+  name: pam
+  version: '>=0'
+use_flags:
+- -examples
+- -libressl
+- inotify
+- -userland_BSD
+- userland_GNU
+- -lz4
+- -pkcs11
+- plugins
+- elibc_glibc
+- -down-root
+- lzo
+- abi_x86_64
+- kernel_linux
+- systemd
+- -selinux
+- big-endian
+- -mbedtls
+- split-usr
+- -static
+- pam
+- -iproute2
+- -test
+- amd64
+- ssl
+version: "2.4.9"
+labels:
+  original.package.name: "openvpn"
+  original.package.category: "net-vpn"
+  original.package.version: "2.4.9"
+  original.package.slot: "0"

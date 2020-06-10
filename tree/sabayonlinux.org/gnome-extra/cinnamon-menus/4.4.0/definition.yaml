@@ -1,0 +1,47 @@
+category: gnome-extra
+license: GPL-2+ LGPL-2+
+name: cinnamon-menus
+requires:
+- labels: null
+  category: dev-libs
+  name: glib-2
+  version: '>=2.29.15'
+- labels: null
+  category: dev-libs
+  name: gobject-introspection
+  version: '>=0.9.5'
+- labels: null
+  category: sys-devel
+  name: autoconf-2.69
+  version: '>=2.69'
+- labels: null
+  category: sys-devel
+  name: automake-1.15
+  version: '>=1.15.1'
+- labels: null
+  category: sys-devel
+  name: libtool-2
+  version: '>=2.4'
+- labels: null
+  category: dev-libs
+  name: gobject-introspection-common
+  version: '>=0'
+- labels: null
+  category: gnome-base
+  name: gnome-common-3
+  version: '>=0'
+use_flags:
+- -debug
+- introspection
+- kernel_linux
+- amd64
+- userland_GNU
+- abi_x86_64
+- elibc_glibc
+- big-endian
+version: "4.4.0"
+labels:
+  original.package.name: "cinnamon-menus"
+  original.package.category: "gnome-extra"
+  original.package.version: "4.4.0"
+  original.package.slot: "0"
