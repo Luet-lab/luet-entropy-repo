@@ -1,23 +1,17 @@
-labels:
-  original.package.version: "5.70.0"
 category: kde-frameworks
 license: GPL-2 LGPL-2.1
 name: karchive-5
 requires:
-- labels: null
-  category: kde-frameworks
+- category: kde-frameworks
   name: kf-env-5
   version: '>=4'
-- labels: null
-  category: app-arch
+- category: app-arch
   name: bzip2
   version: '>=0'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtcore-5
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: zlib
   version: '>=0'
 use_flags:
@@ -37,7 +31,5 @@ version: "5.70.0"
 labels:
   original.package.name: "karchive"
   original.package.category: "kde-frameworks"
-  original.package.version: "5.67.0"
+  original.package.version: "5.70.0"
   original.package.slot: "5"
-  original.package.version:
-  original.package.version:
