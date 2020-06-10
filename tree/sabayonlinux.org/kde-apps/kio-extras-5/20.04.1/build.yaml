@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i kde-apps/kio-extras-19.12.3 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -22,11 +23,12 @@ includes:
 - /usr/lib64/cmake/KioArchive/KioArchiveTargets.cmake$
 - /usr/lib64/libkioarchive.so.5$
 - /usr/lib64/libkioarchive.so.5.97.0$
-- /usr/lib64/libmolletnetwork5.so.19$
-- /usr/lib64/libmolletnetwork5.so.19.12.3$
+- /usr/lib64/libmolletnetwork5.so.20$
+- /usr/lib64/libmolletnetwork5.so.20.04.1$
 - /usr/lib64/qt5$
 - /usr/lib64/qt5/plugins$
 - /usr/lib64/qt5/plugins/comicbookthumbnail.so$
+- /usr/lib64/qt5/plugins/cursorthumbnail.so$
 - /usr/lib64/qt5/plugins/djvuthumbnail.so$
 - /usr/lib64/qt5/plugins/ebookthumbnail.so$
 - /usr/lib64/qt5/plugins/exrthumbnail.so$
@@ -48,7 +50,6 @@ includes:
 - /usr/lib64/qt5/plugins/kf5/kio/man.so$
 - /usr/lib64/qt5/plugins/kf5/kio/mtp.so$
 - /usr/lib64/qt5/plugins/kf5/kio/network.so$
-- /usr/lib64/qt5/plugins/kf5/kio/nfs.so$
 - /usr/lib64/qt5/plugins/kf5/kio/recentdocuments.so$
 - /usr/lib64/qt5/plugins/kf5/kio/settings.so$
 - /usr/lib64/qt5/plugins/kf5/kio/sftp.so$
@@ -637,8 +638,8 @@ includes:
 - /usr/share/kservices5/bookmarks.protocol$
 - /usr/share/kservices5/bzip.protocol$
 - /usr/share/kservices5/bzip2.protocol$
-- /usr/share/kservices5/cifs.protocol$
 - /usr/share/kservices5/comicbookthumbnail.desktop$
+- /usr/share/kservices5/cursorthumbnail.desktop$
 - /usr/share/kservices5/directorythumbnail.desktop$
 - /usr/share/kservices5/djvuthumbnail.desktop$
 - /usr/share/kservices5/ebookthumbnail.desktop$
@@ -654,12 +655,11 @@ includes:
 - /usr/share/kservices5/man.protocol$
 - /usr/share/kservices5/mtp.protocol$
 - /usr/share/kservices5/network.protocol$
-- /usr/share/kservices5/nfs.protocol$
 - /usr/share/kservices5/opendocumentthumbnail.desktop$
 - /usr/share/kservices5/recentdocuments.protocol$
 - /usr/share/kservices5/settings.protocol$
+- /usr/share/kservices5/sevenz.protocol$
 - /usr/share/kservices5/sftp.protocol$
-- /usr/share/kservices5/smb.protocol$
 - /usr/share/kservices5/svgthumbnail.desktop$
 - /usr/share/kservices5/tar.protocol$
 - /usr/share/kservices5/textthumbnail.desktop$
@@ -725,6 +725,7 @@ includes:
 - /usr/share/locale/ca/LC_MESSAGES/kio5_info.mo$
 - /usr/share/locale/ca/LC_MESSAGES/kio5_man.mo$
 - /usr/share/locale/ca/LC_MESSAGES/kio5_mtp.mo$
+- /usr/share/locale/ca/LC_MESSAGES/kio5_network.mo$
 - /usr/share/locale/ca/LC_MESSAGES/kio5_nfs.mo$
 - /usr/share/locale/ca/LC_MESSAGES/kio5_recentdocuments.mo$
 - /usr/share/locale/ca/LC_MESSAGES/kio5_sftp.mo$
@@ -740,6 +741,7 @@ includes:
 - /usr/share/locale/cs/LC_MESSAGES/kio5_info.mo$
 - /usr/share/locale/cs/LC_MESSAGES/kio5_man.mo$
 - /usr/share/locale/cs/LC_MESSAGES/kio5_mtp.mo$
+- /usr/share/locale/cs/LC_MESSAGES/kio5_network.mo$
 - /usr/share/locale/cs/LC_MESSAGES/kio5_nfs.mo$
 - /usr/share/locale/cs/LC_MESSAGES/kio5_recentdocuments.mo$
 - /usr/share/locale/cs/LC_MESSAGES/kio5_sftp.mo$
@@ -755,6 +757,7 @@ includes:
 - /usr/share/locale/da/LC_MESSAGES/kio5_info.mo$
 - /usr/share/locale/da/LC_MESSAGES/kio5_man.mo$
 - /usr/share/locale/da/LC_MESSAGES/kio5_mtp.mo$
+- /usr/share/locale/da/LC_MESSAGES/kio5_network.mo$
 - /usr/share/locale/da/LC_MESSAGES/kio5_nfs.mo$
 - /usr/share/locale/da/LC_MESSAGES/kio5_recentdocuments.mo$
 - /usr/share/locale/da/LC_MESSAGES/kio5_sftp.mo$
@@ -770,6 +773,7 @@ includes:
 - /usr/share/locale/de/LC_MESSAGES/kio5_info.mo$
 - /usr/share/locale/de/LC_MESSAGES/kio5_man.mo$
 - /usr/share/locale/de/LC_MESSAGES/kio5_mtp.mo$
+- /usr/share/locale/de/LC_MESSAGES/kio5_network.mo$
 - /usr/share/locale/de/LC_MESSAGES/kio5_nfs.mo$
 - /usr/share/locale/de/LC_MESSAGES/kio5_recentdocuments.mo$
 - /usr/share/locale/de/LC_MESSAGES/kio5_sftp.mo$
@@ -800,6 +804,7 @@ includes:
 - /usr/share/locale/en_GB/LC_MESSAGES/kio5_info.mo$
 - /usr/share/locale/en_GB/LC_MESSAGES/kio5_man.mo$
 - /usr/share/locale/en_GB/LC_MESSAGES/kio5_mtp.mo$
+- /usr/share/locale/en_GB/LC_MESSAGES/kio5_network.mo$
 - /usr/share/locale/en_GB/LC_MESSAGES/kio5_nfs.mo$
 - /usr/share/locale/en_GB/LC_MESSAGES/kio5_recentdocuments.mo$
 - /usr/share/locale/en_GB/LC_MESSAGES/kio5_sftp.mo$
@@ -827,6 +832,7 @@ includes:
 - /usr/share/locale/es/LC_MESSAGES/kio5_info.mo$
 - /usr/share/locale/es/LC_MESSAGES/kio5_man.mo$
 - /usr/share/locale/es/LC_MESSAGES/kio5_mtp.mo$
+- /usr/share/locale/es/LC_MESSAGES/kio5_network.mo$
 - /usr/share/locale/es/LC_MESSAGES/kio5_nfs.mo$
 - /usr/share/locale/es/LC_MESSAGES/kio5_recentdocuments.mo$
 - /usr/share/locale/es/LC_MESSAGES/kio5_sftp.mo$
@@ -842,6 +848,7 @@ includes:
 - /usr/share/locale/et/LC_MESSAGES/kio5_info.mo$
 - /usr/share/locale/et/LC_MESSAGES/kio5_man.mo$
 - /usr/share/locale/et/LC_MESSAGES/kio5_mtp.mo$
+- /usr/share/locale/et/LC_MESSAGES/kio5_network.mo$
 - /usr/share/locale/et/LC_MESSAGES/kio5_nfs.mo$
 - /usr/share/locale/et/LC_MESSAGES/kio5_recentdocuments.mo$
 - /usr/share/locale/et/LC_MESSAGES/kio5_sftp.mo$
@@ -857,6 +864,7 @@ includes:
 - /usr/share/locale/eu/LC_MESSAGES/kio5_info.mo$
 - /usr/share/locale/eu/LC_MESSAGES/kio5_man.mo$
 - /usr/share/locale/eu/LC_MESSAGES/kio5_mtp.mo$
+- /usr/share/locale/eu/LC_MESSAGES/kio5_network.mo$
 - /usr/share/locale/eu/LC_MESSAGES/kio5_nfs.mo$
 - /usr/share/locale/eu/LC_MESSAGES/kio5_recentdocuments.mo$
 - /usr/share/locale/eu/LC_MESSAGES/kio5_sftp.mo$
@@ -885,6 +893,7 @@ includes:
 - /usr/share/locale/fi/LC_MESSAGES/kio5_info.mo$
 - /usr/share/locale/fi/LC_MESSAGES/kio5_man.mo$
 - /usr/share/locale/fi/LC_MESSAGES/kio5_mtp.mo$
+- /usr/share/locale/fi/LC_MESSAGES/kio5_network.mo$
 - /usr/share/locale/fi/LC_MESSAGES/kio5_nfs.mo$
 - /usr/share/locale/fi/LC_MESSAGES/kio5_recentdocuments.mo$
 - /usr/share/locale/fi/LC_MESSAGES/kio5_sftp.mo$
@@ -900,6 +909,7 @@ includes:
 - /usr/share/locale/fr/LC_MESSAGES/kio5_info.mo$
 - /usr/share/locale/fr/LC_MESSAGES/kio5_man.mo$
 - /usr/share/locale/fr/LC_MESSAGES/kio5_mtp.mo$
+- /usr/share/locale/fr/LC_MESSAGES/kio5_network.mo$
 - /usr/share/locale/fr/LC_MESSAGES/kio5_nfs.mo$
 - /usr/share/locale/fr/LC_MESSAGES/kio5_recentdocuments.mo$
 - /usr/share/locale/fr/LC_MESSAGES/kio5_sftp.mo$
@@ -1013,6 +1023,7 @@ includes:
 - /usr/share/locale/it/LC_MESSAGES/kio5_info.mo$
 - /usr/share/locale/it/LC_MESSAGES/kio5_man.mo$
 - /usr/share/locale/it/LC_MESSAGES/kio5_mtp.mo$
+- /usr/share/locale/it/LC_MESSAGES/kio5_network.mo$
 - /usr/share/locale/it/LC_MESSAGES/kio5_nfs.mo$
 - /usr/share/locale/it/LC_MESSAGES/kio5_recentdocuments.mo$
 - /usr/share/locale/it/LC_MESSAGES/kio5_sftp.mo$
@@ -1028,6 +1039,7 @@ includes:
 - /usr/share/locale/ja/LC_MESSAGES/kio5_info.mo$
 - /usr/share/locale/ja/LC_MESSAGES/kio5_man.mo$
 - /usr/share/locale/ja/LC_MESSAGES/kio5_mtp.mo$
+- /usr/share/locale/ja/LC_MESSAGES/kio5_network.mo$
 - /usr/share/locale/ja/LC_MESSAGES/kio5_nfs.mo$
 - /usr/share/locale/ja/LC_MESSAGES/kio5_recentdocuments.mo$
 - /usr/share/locale/ja/LC_MESSAGES/kio5_sftp.mo$
@@ -1071,6 +1083,7 @@ includes:
 - /usr/share/locale/ko/LC_MESSAGES/kio5_info.mo$
 - /usr/share/locale/ko/LC_MESSAGES/kio5_man.mo$
 - /usr/share/locale/ko/LC_MESSAGES/kio5_mtp.mo$
+- /usr/share/locale/ko/LC_MESSAGES/kio5_network.mo$
 - /usr/share/locale/ko/LC_MESSAGES/kio5_nfs.mo$
 - /usr/share/locale/ko/LC_MESSAGES/kio5_recentdocuments.mo$
 - /usr/share/locale/ko/LC_MESSAGES/kio5_sftp.mo$
@@ -1086,6 +1099,7 @@ includes:
 - /usr/share/locale/lt/LC_MESSAGES/kio5_info.mo$
 - /usr/share/locale/lt/LC_MESSAGES/kio5_man.mo$
 - /usr/share/locale/lt/LC_MESSAGES/kio5_mtp.mo$
+- /usr/share/locale/lt/LC_MESSAGES/kio5_network.mo$
 - /usr/share/locale/lt/LC_MESSAGES/kio5_nfs.mo$
 - /usr/share/locale/lt/LC_MESSAGES/kio5_recentdocuments.mo$
 - /usr/share/locale/lt/LC_MESSAGES/kio5_sftp.mo$
@@ -1143,6 +1157,7 @@ includes:
 - /usr/share/locale/nl/LC_MESSAGES/kio5_info.mo$
 - /usr/share/locale/nl/LC_MESSAGES/kio5_man.mo$
 - /usr/share/locale/nl/LC_MESSAGES/kio5_mtp.mo$
+- /usr/share/locale/nl/LC_MESSAGES/kio5_network.mo$
 - /usr/share/locale/nl/LC_MESSAGES/kio5_nfs.mo$
 - /usr/share/locale/nl/LC_MESSAGES/kio5_recentdocuments.mo$
 - /usr/share/locale/nl/LC_MESSAGES/kio5_sftp.mo$
@@ -1158,6 +1173,7 @@ includes:
 - /usr/share/locale/nn/LC_MESSAGES/kio5_info.mo$
 - /usr/share/locale/nn/LC_MESSAGES/kio5_man.mo$
 - /usr/share/locale/nn/LC_MESSAGES/kio5_mtp.mo$
+- /usr/share/locale/nn/LC_MESSAGES/kio5_network.mo$
 - /usr/share/locale/nn/LC_MESSAGES/kio5_nfs.mo$
 - /usr/share/locale/nn/LC_MESSAGES/kio5_recentdocuments.mo$
 - /usr/share/locale/nn/LC_MESSAGES/kio5_sftp.mo$
@@ -1203,6 +1219,7 @@ includes:
 - /usr/share/locale/pt/LC_MESSAGES/kio5_info.mo$
 - /usr/share/locale/pt/LC_MESSAGES/kio5_man.mo$
 - /usr/share/locale/pt/LC_MESSAGES/kio5_mtp.mo$
+- /usr/share/locale/pt/LC_MESSAGES/kio5_network.mo$
 - /usr/share/locale/pt/LC_MESSAGES/kio5_nfs.mo$
 - /usr/share/locale/pt/LC_MESSAGES/kio5_recentdocuments.mo$
 - /usr/share/locale/pt/LC_MESSAGES/kio5_sftp.mo$
@@ -1218,6 +1235,7 @@ includes:
 - /usr/share/locale/pt_BR/LC_MESSAGES/kio5_info.mo$
 - /usr/share/locale/pt_BR/LC_MESSAGES/kio5_man.mo$
 - /usr/share/locale/pt_BR/LC_MESSAGES/kio5_mtp.mo$
+- /usr/share/locale/pt_BR/LC_MESSAGES/kio5_network.mo$
 - /usr/share/locale/pt_BR/LC_MESSAGES/kio5_nfs.mo$
 - /usr/share/locale/pt_BR/LC_MESSAGES/kio5_recentdocuments.mo$
 - /usr/share/locale/pt_BR/LC_MESSAGES/kio5_sftp.mo$
@@ -1248,6 +1266,7 @@ includes:
 - /usr/share/locale/ru/LC_MESSAGES/kio5_info.mo$
 - /usr/share/locale/ru/LC_MESSAGES/kio5_man.mo$
 - /usr/share/locale/ru/LC_MESSAGES/kio5_mtp.mo$
+- /usr/share/locale/ru/LC_MESSAGES/kio5_network.mo$
 - /usr/share/locale/ru/LC_MESSAGES/kio5_nfs.mo$
 - /usr/share/locale/ru/LC_MESSAGES/kio5_recentdocuments.mo$
 - /usr/share/locale/ru/LC_MESSAGES/kio5_sftp.mo$
@@ -1263,6 +1282,7 @@ includes:
 - /usr/share/locale/sk/LC_MESSAGES/kio5_info.mo$
 - /usr/share/locale/sk/LC_MESSAGES/kio5_man.mo$
 - /usr/share/locale/sk/LC_MESSAGES/kio5_mtp.mo$
+- /usr/share/locale/sk/LC_MESSAGES/kio5_network.mo$
 - /usr/share/locale/sk/LC_MESSAGES/kio5_nfs.mo$
 - /usr/share/locale/sk/LC_MESSAGES/kio5_recentdocuments.mo$
 - /usr/share/locale/sk/LC_MESSAGES/kio5_sftp.mo$
@@ -1308,6 +1328,7 @@ includes:
 - /usr/share/locale/sv/LC_MESSAGES/kio5_info.mo$
 - /usr/share/locale/sv/LC_MESSAGES/kio5_man.mo$
 - /usr/share/locale/sv/LC_MESSAGES/kio5_mtp.mo$
+- /usr/share/locale/sv/LC_MESSAGES/kio5_network.mo$
 - /usr/share/locale/sv/LC_MESSAGES/kio5_nfs.mo$
 - /usr/share/locale/sv/LC_MESSAGES/kio5_recentdocuments.mo$
 - /usr/share/locale/sv/LC_MESSAGES/kio5_sftp.mo$
@@ -1338,6 +1359,7 @@ includes:
 - /usr/share/locale/uk/LC_MESSAGES/kio5_info.mo$
 - /usr/share/locale/uk/LC_MESSAGES/kio5_man.mo$
 - /usr/share/locale/uk/LC_MESSAGES/kio5_mtp.mo$
+- /usr/share/locale/uk/LC_MESSAGES/kio5_network.mo$
 - /usr/share/locale/uk/LC_MESSAGES/kio5_nfs.mo$
 - /usr/share/locale/uk/LC_MESSAGES/kio5_recentdocuments.mo$
 - /usr/share/locale/uk/LC_MESSAGES/kio5_sftp.mo$
@@ -1353,6 +1375,7 @@ includes:
 - /usr/share/locale/zh_CN/LC_MESSAGES/kio5_info.mo$
 - /usr/share/locale/zh_CN/LC_MESSAGES/kio5_man.mo$
 - /usr/share/locale/zh_CN/LC_MESSAGES/kio5_mtp.mo$
+- /usr/share/locale/zh_CN/LC_MESSAGES/kio5_network.mo$
 - /usr/share/locale/zh_CN/LC_MESSAGES/kio5_nfs.mo$
 - /usr/share/locale/zh_CN/LC_MESSAGES/kio5_recentdocuments.mo$
 - /usr/share/locale/zh_CN/LC_MESSAGES/kio5_sftp.mo$
@@ -1368,6 +1391,7 @@ includes:
 - /usr/share/locale/zh_TW/LC_MESSAGES/kio5_info.mo$
 - /usr/share/locale/zh_TW/LC_MESSAGES/kio5_man.mo$
 - /usr/share/locale/zh_TW/LC_MESSAGES/kio5_mtp.mo$
+- /usr/share/locale/zh_TW/LC_MESSAGES/kio5_network.mo$
 - /usr/share/locale/zh_TW/LC_MESSAGES/kio5_nfs.mo$
 - /usr/share/locale/zh_TW/LC_MESSAGES/kio5_recentdocuments.mo$
 - /usr/share/locale/zh_TW/LC_MESSAGES/kio5_sftp.mo$
@@ -1385,3 +1409,6 @@ includes:
 - /usr/share/solid$
 - /usr/share/solid/actions$
 - /usr/share/solid/actions/solid_mtp.desktop$
+env:
+- ORIGINAL_ATOM=kde-apps/kio-extras
+- ORIGINAL_PACKAGE=kde-apps/kio-extras-20.04.1
