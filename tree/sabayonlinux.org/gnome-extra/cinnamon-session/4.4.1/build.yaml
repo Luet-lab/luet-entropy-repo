@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i gnome-extra/cinnamon-session-4.0.0-r1 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -20,10 +21,10 @@ includes:
 - /usr/share/cinnamon-session/csm-inhibit-dialog.glade$
 - /usr/share/cinnamon-session/hardware-compatibility$
 - /usr/share/doc$
-- /usr/share/doc/cinnamon-session-4.0.0-r1$
-- /usr/share/doc/cinnamon-session-4.0.0-r1/AUTHORS.bz2$
-- /usr/share/doc/cinnamon-session-4.0.0-r1/README.bz2$
-- /usr/share/doc/cinnamon-session-4.0.0-r1/README.md$
+- /usr/share/doc/cinnamon-session-4.4.1$
+- /usr/share/doc/cinnamon-session-4.4.1/AUTHORS.bz2$
+- /usr/share/doc/cinnamon-session-4.4.1/README.bz2$
+- /usr/share/doc/cinnamon-session-4.4.1/README.md$
 - /usr/share/glib-2.0$
 - /usr/share/glib-2.0/schemas$
 - /usr/share/glib-2.0/schemas/org.cinnamon.SessionManager.gschema.xml$
@@ -51,3 +52,6 @@ includes:
 - /usr/share/man/man1$
 - /usr/share/man/man1/cinnamon-session-quit.1.bz2$
 - /usr/share/man/man1/cinnamon-session.1.bz2$
+env:
+- ORIGINAL_ATOM=gnome-extra/cinnamon-session
+- ORIGINAL_PACKAGE=gnome-extra/cinnamon-session-4.4.1
