@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/lxml-4.4.2 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -13,13 +14,13 @@ includes:
 - /usr/lib64/python2.7$
 - /usr/lib64/python2.7/site-packages$
 - /usr/lib64/python2.7/site-packages/lxml$
-- /usr/lib64/python2.7/site-packages/lxml-4.4.2-py2.7.egg-info$
-- /usr/lib64/python2.7/site-packages/lxml-4.4.2-py2.7.egg-info/PKG-INFO$
-- /usr/lib64/python2.7/site-packages/lxml-4.4.2-py2.7.egg-info/SOURCES.txt$
-- /usr/lib64/python2.7/site-packages/lxml-4.4.2-py2.7.egg-info/dependency_links.txt$
-- /usr/lib64/python2.7/site-packages/lxml-4.4.2-py2.7.egg-info/not-zip-safe$
-- /usr/lib64/python2.7/site-packages/lxml-4.4.2-py2.7.egg-info/requires.txt$
-- /usr/lib64/python2.7/site-packages/lxml-4.4.2-py2.7.egg-info/top_level.txt$
+- /usr/lib64/python2.7/site-packages/lxml-4.5.0-py2.7.egg-info$
+- /usr/lib64/python2.7/site-packages/lxml-4.5.0-py2.7.egg-info/PKG-INFO$
+- /usr/lib64/python2.7/site-packages/lxml-4.5.0-py2.7.egg-info/SOURCES.txt$
+- /usr/lib64/python2.7/site-packages/lxml-4.5.0-py2.7.egg-info/dependency_links.txt$
+- /usr/lib64/python2.7/site-packages/lxml-4.5.0-py2.7.egg-info/not-zip-safe$
+- /usr/lib64/python2.7/site-packages/lxml-4.5.0-py2.7.egg-info/requires.txt$
+- /usr/lib64/python2.7/site-packages/lxml-4.5.0-py2.7.egg-info/top_level.txt$
 - /usr/lib64/python2.7/site-packages/lxml/ElementInclude.py$
 - /usr/lib64/python2.7/site-packages/lxml/ElementInclude.pyc$
 - /usr/lib64/python2.7/site-packages/lxml/ElementInclude.pyo$
@@ -140,13 +141,13 @@ includes:
 - /usr/lib64/python3.6$
 - /usr/lib64/python3.6/site-packages$
 - /usr/lib64/python3.6/site-packages/lxml$
-- /usr/lib64/python3.6/site-packages/lxml-4.4.2-py3.6.egg-info$
-- /usr/lib64/python3.6/site-packages/lxml-4.4.2-py3.6.egg-info/PKG-INFO$
-- /usr/lib64/python3.6/site-packages/lxml-4.4.2-py3.6.egg-info/SOURCES.txt$
-- /usr/lib64/python3.6/site-packages/lxml-4.4.2-py3.6.egg-info/dependency_links.txt$
-- /usr/lib64/python3.6/site-packages/lxml-4.4.2-py3.6.egg-info/not-zip-safe$
-- /usr/lib64/python3.6/site-packages/lxml-4.4.2-py3.6.egg-info/requires.txt$
-- /usr/lib64/python3.6/site-packages/lxml-4.4.2-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/lxml-4.5.0-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/lxml-4.5.0-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/lxml-4.5.0-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/lxml-4.5.0-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/lxml-4.5.0-py3.6.egg-info/not-zip-safe$
+- /usr/lib64/python3.6/site-packages/lxml-4.5.0-py3.6.egg-info/requires.txt$
+- /usr/lib64/python3.6/site-packages/lxml-4.5.0-py3.6.egg-info/top_level.txt$
 - /usr/lib64/python3.6/site-packages/lxml/ElementInclude.py$
 - /usr/lib64/python3.6/site-packages/lxml/__init__.py$
 - /usr/lib64/python3.6/site-packages/lxml/__pycache__$
@@ -294,5 +295,8 @@ includes:
 - /usr/lib64/python3.6/site-packages/lxml/usedoctest.py$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/lxml-4.4.2$
-- /usr/share/doc/lxml-4.4.2/README.rst.bz2$
+- /usr/share/doc/lxml-4.5.0$
+- /usr/share/doc/lxml-4.5.0/README.rst.bz2$
+env:
+- ORIGINAL_ATOM=dev-python/lxml
+- ORIGINAL_PACKAGE=dev-python/lxml-4.5.0
