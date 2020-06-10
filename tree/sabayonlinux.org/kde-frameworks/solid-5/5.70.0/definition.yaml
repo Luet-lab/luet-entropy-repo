@@ -1,35 +1,26 @@
-labels:
-  original.package.version: "5.69.0"
 category: kde-frameworks
 license: LGPL-2.1+
 name: solid-5
 requires:
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtdbus-5
   version: '>=5.12.3'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtdeclarative-5
   version: '>=5.12.3'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtgui-5
   version: '>=5.12.3'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtxml-5
   version: '>=5.12.3'
-- labels: null
-  category: kde-frameworks
+- category: kde-frameworks
   name: kf-env-5
   version: '>=4'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtcore-5
   version: '>=0'
-- labels: null
-  category: sys-fs
+- category: sys-fs
   name: udisks-2
   version: '>=0'
 use_flags:
@@ -44,10 +35,9 @@ use_flags:
 - -doc
 - userland_GNU
 - amd64
-version: "5.69.0"
+version: "5.70.0"
 labels:
   original.package.name: "solid"
   original.package.category: "kde-frameworks"
-  original.package.version: "5.67.0"
+  original.package.version: "5.70.0"
   original.package.slot: "5"
-  original.package.version:
