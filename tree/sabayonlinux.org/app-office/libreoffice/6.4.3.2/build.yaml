@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i app-office/libreoffice-6.3.4.2-r1 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -23,8 +24,6 @@ includes:
 - /usr/bin/unopkg$
 - /usr/lib$
 - /usr/lib64$
-- /usr/lib64/girepository-1.0$
-- /usr/lib64/girepository-1.0/LOKDocView-0.1.typelib$
 - /usr/lib64/liblibreofficekitgtk.so$
 - /usr/lib64/libreoffice$
 - /usr/lib64/libreoffice/CREDITS.fodt$
@@ -106,12 +105,14 @@ includes:
 - /usr/lib64/libreoffice/help/media/helpimg/note_small.png$
 - /usr/lib64/libreoffice/help/media/helpimg/python$
 - /usr/lib64/libreoffice/help/media/helpimg/python/python_shell.png$
+- /usr/lib64/libreoffice/help/media/helpimg/qrcode_example.svg$
 - /usr/lib64/libreoffice/help/media/helpimg/rechenlt.png$
 - /usr/lib64/libreoffice/help/media/helpimg/refhand.png$
 - /usr/lib64/libreoffice/help/media/helpimg/right.png$
 - /usr/lib64/libreoffice/help/media/helpimg/right2.png$
 - /usr/lib64/libreoffice/help/media/helpimg/rotieren.png$
 - /usr/lib64/libreoffice/help/media/helpimg/sc_PivotChartButtons.png$
+- /usr/lib64/libreoffice/help/media/helpimg/sc_cell_with_comment_displayed.png$
 - /usr/lib64/libreoffice/help/media/helpimg/sc_data_form01.png$
 - /usr/lib64/libreoffice/help/media/helpimg/sc_func_imcot.png$
 - /usr/lib64/libreoffice/help/media/helpimg/sc_func_imcsc.png$
@@ -119,13 +120,16 @@ includes:
 - /usr/lib64/libreoffice/help/media/helpimg/sc_func_imsec.png$
 - /usr/lib64/libreoffice/help/media/helpimg/sc_func_imsech.png$
 - /usr/lib64/libreoffice/help/media/helpimg/sc_func_imtan.png$
+- /usr/lib64/libreoffice/help/media/helpimg/sc_func_opt01.svg$
 - /usr/lib64/libreoffice/help/media/helpimg/scalc$
 - /usr/lib64/libreoffice/help/media/helpimg/scalc/coordinates-to-polar-01.svg$
 - /usr/lib64/libreoffice/help/media/helpimg/sd_PresenterConsole01.png$
 - /usr/lib64/libreoffice/help/media/helpimg/sd_PresenterConsole02.png$
 - /usr/lib64/libreoffice/help/media/helpimg/sd_PresenterConsole03.png$
 - /usr/lib64/libreoffice/help/media/helpimg/sd_PresenterConsole04.png$
+- /usr/lib64/libreoffice/help/media/helpimg/sd_drawing_with_comment.png$
 - /usr/lib64/libreoffice/help/media/helpimg/sheettabs.png$
+- /usr/lib64/libreoffice/help/media/helpimg/si_presentation_with_comment.png$
 - /usr/lib64/libreoffice/help/media/helpimg/sistop.png$
 - /usr/lib64/libreoffice/help/media/helpimg/smzb1.png$
 - /usr/lib64/libreoffice/help/media/helpimg/smzb10.png$
@@ -258,6 +262,7 @@ includes:
 - /usr/lib64/libreoffice/help/media/helpimg/starmath/fu21523.svg$
 - /usr/lib64/libreoffice/help/media/helpimg/starmath/fu21524.svg$
 - /usr/lib64/libreoffice/help/media/helpimg/starmath/fu21908.svg$
+- /usr/lib64/libreoffice/help/media/helpimg/starmath/harpoon.svg$
 - /usr/lib64/libreoffice/help/media/helpimg/starmath/im21106.svg$
 - /usr/lib64/libreoffice/help/media/helpimg/starmath/mi21608.svg$
 - /usr/lib64/libreoffice/help/media/helpimg/starmath/mi21612.svg$
@@ -317,9 +322,11 @@ includes:
 - /usr/lib64/libreoffice/help/media/helpimg/starmath/un21214.svg$
 - /usr/lib64/libreoffice/help/media/helpimg/starmath/un21215.svg$
 - /usr/lib64/libreoffice/help/media/helpimg/starmath/un21221.svg$
+- /usr/lib64/libreoffice/help/media/helpimg/starmath/wideharpoon.svg$
 - /usr/lib64/libreoffice/help/media/helpimg/sw_paste_range.png$
 - /usr/lib64/libreoffice/help/media/helpimg/sw_signatureline01.png$
 - /usr/lib64/libreoffice/help/media/helpimg/sw_signatureline02.png$
+- /usr/lib64/libreoffice/help/media/helpimg/sw_text_with_comment.png$
 - /usr/lib64/libreoffice/help/media/helpimg/swh00055.png$
 - /usr/lib64/libreoffice/help/media/helpimg/swh00056.png$
 - /usr/lib64/libreoffice/help/media/helpimg/swh00117.png$
@@ -482,6 +489,7 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/acceptalltrackedchanges.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/accepttrackedchange.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/accepttrackedchanges.svg$
+- /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/accepttrackedchangetonext.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/actionmode.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/adddirect.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/addfield.svg$
@@ -718,14 +726,16 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/defaultcharstyle.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/defaultnumbering.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/definedbname.svg$
+- /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/definename.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/defineprintarea.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/delete.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/deleteallannotation.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/deleteannotation.svg$
+- /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/deletecell.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/deletecolumns.svg$
-- /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/deletecomment.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/deletemasterpage.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/deletepage.svg$
+- /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/deleteprintarea.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/deleterows.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/deletetable.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/designerdialog.svg$
@@ -761,6 +771,7 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/editdoc.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/editglossary.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/editheaderandfooter.svg$
+- /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/editprintarea.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/editstyle.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/ellipse.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/ellipse_unfilled.svg$
@@ -849,7 +860,6 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/fontworkshapetype.fontwork-triangle-down.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/fontworkshapetype.fontwork-wave.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/footnotedialog.svg$
-- /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/formatarea.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/formatcolumns.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/formatgroup.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/formatline.svg$
@@ -886,6 +896,7 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/gluevertaligntop.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/goalseekdialog.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/gotopage.svg$
+- /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/grafattrcrop.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/grafblue.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/grafcontrast.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/grafgamma.svg$
@@ -925,10 +936,12 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/helplinesmove.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/helplinesuse.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/helplinesvisible.svg$
+- /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/hfixedline.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/hideallnotes.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/hidenote.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/hideslide.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/hidewhitespace.svg$
+- /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/hscrollbar.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/hyphenate.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/iconsetformatdialog.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/imagebutton.svg$
@@ -953,12 +966,10 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/insertexternaldatasource.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/insertfieldctrl.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/insertfootnote.svg$
-- /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/insertformhscroll.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/insertframe.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/insertgraphic.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/inserthyperlink.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/inserthyperlinkcontrol.svg$
-- /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/insertimagecontrol.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/insertindexesentry.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/insertmasterpage.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/insertmath.svg$
@@ -986,7 +997,6 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/inserttopicfield.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/inserttreecontrol.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/insertvideo.svg$
-- /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/insobjctrl.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/interactivegradient.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/interactivetransparence.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/italic.svg$
@@ -1027,7 +1037,6 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/linenumberingdialog.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/linesquarearrow.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/linestyle.svg$
-- /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/linetoolbox.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/linewidth.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/listbox.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/loadbasic.svg$
@@ -1060,10 +1069,8 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/morecontrols.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/movedown.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/movedownsubitems.svg$
-- /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/movepagedown.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/movepagefirst.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/movepagelast.svg$
-- /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/movepageup.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/moveup.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/moveupsubitems.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/navigationbar.svg$
@@ -1085,7 +1092,6 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/numberformatstandard.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/numberformatthousands.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/numberingstart.svg$
-- /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/numberliststyle.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/objectalignleft.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/objectalignright.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/objectbackone.svg$
@@ -1162,6 +1168,7 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/redo.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/rejectalltrackedchanges.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/rejecttrackedchange.svg$
+- /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/rejecttrackedchangetonext.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/reload.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/removebullets.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/removefiltersort.svg$
@@ -1169,7 +1176,6 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/renameobject.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/renamepage.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/renameslide.svg$
-- /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/renametable.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/repeat.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/replycomment.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/resetattributes.svg$
@@ -1339,7 +1345,6 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/verticaltext.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/verticaltextfittosizetool.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/vfixedline.svg$
-- /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/view100.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/viewdatasourcebrowser.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/viewformasgrid.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/32/viewrowcolumnheaders.svg$
@@ -1372,7 +1377,6 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/ar/lc_bulletsandnumberingdialog.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/ar/lc_defaultnumbering.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/ar/lc_numberingstart.svg$
-- /usr/lib64/libreoffice/help/media/icon-themes/cmd/ar/lc_numberliststyle.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/ar/lc_redo.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/ar/lc_setoutline.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/ar/lc_undo.svg$
@@ -1381,7 +1385,6 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/ar/sc_defaultnumbering.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/ar/sc_linenumberdialog.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/ar/sc_numberingstart.svg$
-- /usr/lib64/libreoffice/help/media/icon-themes/cmd/ar/sc_numberliststyle.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/ar/sc_redo.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/ar/sc_setoutline.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/ar/sc_undo.svg$
@@ -1394,6 +1397,7 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/ca/sc_italic.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/ca/sc_underline.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/ca/sc_underlinedouble.svg$
+- /usr/lib64/libreoffice/help/media/icon-themes/cmd/colorsettings.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/de$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/de/lc_bold.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/de/lc_italic.svg$
@@ -1405,13 +1409,11 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/de/sc_numberformatthousands.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/es$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/es/lc_bold.svg$
-- /usr/lib64/libreoffice/help/media/icon-themes/cmd/es/lc_italic.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/es/lc_numberformatdecimal.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/es/lc_numberformatthousands.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/es/lc_underline.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/es/lc_underlinedouble.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/es/sc_bold.svg$
-- /usr/lib64/libreoffice/help/media/icon-themes/cmd/es/sc_italic.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/es/sc_numberformatdecimal.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/es/sc_numberformatthousands.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/es/sc_underline.svg$
@@ -1422,7 +1424,6 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/fa/lc_bulletsandnumberingdialog.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/fa/lc_defaultnumbering.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/fa/lc_numberingstart.svg$
-- /usr/lib64/libreoffice/help/media/icon-themes/cmd/fa/lc_numberliststyle.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/fa/lc_redo.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/fa/lc_setoutline.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/fa/lc_undo.svg$
@@ -1431,7 +1432,6 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/fa/sc_defaultnumbering.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/fa/sc_linenumberdialog.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/fa/sc_numberingstart.svg$
-- /usr/lib64/libreoffice/help/media/icon-themes/cmd/fa/sc_numberliststyle.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/fa/sc_redo.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/fa/sc_setoutline.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/fa/sc_undo.svg$
@@ -1448,7 +1448,6 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/he/lc_bulletsandnumberingdialog.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/he/lc_defaultnumbering.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/he/lc_numberingstart.svg$
-- /usr/lib64/libreoffice/help/media/icon-themes/cmd/he/lc_numberliststyle.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/he/lc_redo.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/he/lc_setoutline.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/he/lc_undo.svg$
@@ -1457,7 +1456,6 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/he/sc_defaultnumbering.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/he/sc_linenumberdialog.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/he/sc_numberingstart.svg$
-- /usr/lib64/libreoffice/help/media/icon-themes/cmd/he/sc_numberliststyle.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/he/sc_redo.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/he/sc_setoutline.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/he/sc_undo.svg$
@@ -1541,6 +1539,7 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_acceptalltrackedchanges.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_accepttrackedchange.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_accepttrackedchanges.svg$
+- /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_accepttrackedchangetonext.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_actionmode.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_adddirect.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_addfield.svg$
@@ -1684,6 +1683,7 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_closepreview.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_color.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_colorscaleformatdialog.svg$
+- /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_colorsettings.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_combine.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_combobox.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_commentchangetracking.svg$
@@ -1799,9 +1799,9 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_deleteannotation.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_deletecell.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_deletecolumns.svg$
-- /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_deletecomment.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_deletemasterpage.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_deletepage.svg$
+- /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_deleteprintarea.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_deleterows.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_deletetable.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_designerdialog.svg$
@@ -1838,6 +1838,7 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_editdoc.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_editglossary.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_editheaderandfooter.svg$
+- /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_editprintarea.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_editstyle.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_ellipse.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_ellipse_unfilled.svg$
@@ -1928,7 +1929,6 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_fontworkshapetype.fontwork-triangle-down.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_fontworkshapetype.fontwork-wave.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_footnotedialog.svg$
-- /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_formatarea.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_formatcolumns.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_formatgroup.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_formatline.svg$
@@ -2005,11 +2005,13 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_helplinesmove.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_helplinesuse.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_helplinesvisible.svg$
+- /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_hfixedline.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_hideallnotes.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_hidedetail.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_hidenote.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_hideslide.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_hidewhitespace.svg$
+- /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_hscrollbar.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_hyphenate.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_iconsetformatdialog.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_imagebutton.svg$
@@ -2035,12 +2037,10 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_insertexternaldatasource.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_insertfieldctrl.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_insertfootnote.svg$
-- /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_insertformhscroll.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_insertframe.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_insertgraphic.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_inserthyperlink.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_inserthyperlinkcontrol.svg$
-- /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_insertimagecontrol.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_insertindexesentry.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_insertlinebreak.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_insertmasterpage.svg$
@@ -2069,7 +2069,6 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_inserttopicfield.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_inserttreecontrol.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_insertvideo.svg$
-- /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_insobjctrl.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_interactivegradient.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_interactivetransparence.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_intersect.svg$
@@ -2090,7 +2089,6 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_linenumberingdialog.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_linesquarearrow.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_linestyle.svg$
-- /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_linetoolbox.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_linewidth.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_listbox.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_loadbasic.svg$
@@ -2125,10 +2123,8 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_morphing.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_movedown.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_movedownsubitems.svg$
-- /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_movepagedown.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_movepagefirst.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_movepagelast.svg$
-- /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_movepageup.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_moveup.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_moveupsubitems.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_name.svg$
@@ -2151,7 +2147,6 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_numberformatstandard.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_numberformatthousands.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_numberingstart.svg$
-- /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_numberliststyle.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_objectalignleft.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_objectalignright.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_objectbackone.svg$
@@ -2228,6 +2223,7 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_redo.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_rejectalltrackedchanges.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_rejecttrackedchange.svg$
+- /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_rejecttrackedchangetonext.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_reload.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_removebullets.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_removefiltersort.svg$
@@ -2235,7 +2231,6 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_renameobject.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_renamepage.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_renameslide.svg$
-- /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_renametable.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_repeat.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_replycomment.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_resetattributes.svg$
@@ -2419,7 +2414,6 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_verticaltext.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_verticaltextfittosizetool.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_vfixedline.svg$
-- /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_view100.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_viewdatasourcebrowser.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_viewformasgrid.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_viewrowcolumnheaders.svg$
@@ -2437,6 +2431,8 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_wrapthrough.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_xlinecolor.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_zoom.svg$
+- /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_zoom100percent.png$
+- /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_zoom100percent.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_zoomin.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_zoomnext.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_zoomobjects.svg$
@@ -2446,6 +2442,7 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_zoompagewidth.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_zoompanning.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/lc_zoomprevious.svg$
+- /usr/lib64/libreoffice/help/media/icon-themes/cmd/name.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/nl$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/nl/lc_bold.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/nl/lc_italic.svg$
@@ -2494,6 +2491,7 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_acceptalltrackedchanges.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_accepttrackedchange.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_accepttrackedchanges.svg$
+- /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_accepttrackedchangetonext.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_actionmode.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_add.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_adddirect.svg$
@@ -2514,7 +2512,6 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_alignverticalcenter.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_alphaliststyle.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_alphalowliststyle.svg$
-- /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_anchormenu.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_animationeffects.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_animationmode.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_animationobjects.svg$
@@ -2557,7 +2554,6 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_avmediaplayer.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_backcolor.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_backgroundcolor.svg$
-- /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_backgroundpatterncontroller.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_backward.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_badcellstyle.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_basicideappear.svg$
@@ -2642,6 +2638,7 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_closepreview.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_color.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_colorscaleformatdialog.svg$
+- /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_colorsettings.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_combine.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_combobox.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_commentchangetracking.svg$
@@ -2757,9 +2754,9 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_deleteannotation.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_deletecell.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_deletecolumns.svg$
-- /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_deletecomment.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_deletemasterpage.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_deletepage.svg$
+- /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_deleteprintarea.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_deleterows.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_deletetable.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_designerdialog.svg$
@@ -2771,6 +2768,7 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_diagramaxisxyz.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_diagramaxisy.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_diagramaxisz.svg$
+- /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_diagramdata.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_diagramtype.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_diagramwall.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_diamode.svg$
@@ -2795,6 +2793,7 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_editdoc.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_editglossary.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_editheaderandfooter.svg$
+- /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_editprintarea.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_editstyle.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_ellipse.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_ellipse_unfilled.svg$
@@ -2886,7 +2885,6 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_fontworkshapetype.fontwork-triangle-down.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_fontworkshapetype.fontwork-wave.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_footnotedialog.svg$
-- /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_formatarea.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_formatcelldialog.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_formatcolumns.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_formatgroup.svg$
@@ -2966,6 +2964,7 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_helplinesmove.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_helplinesuse.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_helplinesvisible.svg$
+- /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_hfixedline.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_hide.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_hideallnotes.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_hidecolumn.svg$
@@ -2974,6 +2973,7 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_hiderow.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_hideslide.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_hidewhitespace.svg$
+- /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_hscrollbar.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_hyphenate.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_iconsetformatdialog.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_imagebutton.svg$
@@ -2998,12 +2998,10 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_insertexternaldatasource.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_insertfieldctrl.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_insertfootnote.svg$
-- /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_insertformhscroll.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_insertframe.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_insertgraphic.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_inserthyperlink.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_inserthyperlinkcontrol.svg$
-- /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_insertimagecontrol.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_insertindexesentry.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_insertlinebreak.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_insertmasterpage.svg$
@@ -3013,6 +3011,7 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_insertneutralparagraph.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_insertobject.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_insertobjectdialog.svg$
+- /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_insertobjectfloatingframe.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_insertpage.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_insertpagebreak.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_insertpagecountfield.svg$
@@ -3032,7 +3031,6 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_inserttopicfield.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_inserttreecontrol.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_insertvideo.svg$
-- /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_insobjctrl.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_interactivegradient.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_interactivetransparence.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_intersect.svg$
@@ -3089,10 +3087,8 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_move.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_movedown.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_movedownsubitems.svg$
-- /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_movepagedown.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_movepagefirst.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_movepagelast.svg$
-- /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_movepageup.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_moveup.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_moveupsubitems.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_name.svg$
@@ -3116,7 +3112,6 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_numberformatstandard.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_numberformatthousands.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_numberingstart.svg$
-- /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_numberliststyle.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_objectalignleft.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_objectalignright.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_objectbackone.svg$
@@ -3127,7 +3122,6 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_open.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_openreadonly.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_openremote.svg$
-- /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_openxmlfiltersettings.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_optimizetable.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_orientation.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_outlinebullet.svg$
@@ -3142,6 +3136,7 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_outputqualitygrayscale.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_overline.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_pagebreakmode.svg$
+- /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_pagecolumntype.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_pagedialog.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_pagemargin.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_pagemode.svg$
@@ -3199,6 +3194,7 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_redo.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_rejectalltrackedchanges.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_rejecttrackedchange.svg$
+- /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_rejecttrackedchangetonext.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_reload.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_remove.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_removebullets.svg$
@@ -3207,10 +3203,10 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_renameobject.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_renamepage.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_renameslide.svg$
-- /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_renametable.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_repeat.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_replycomment.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_resetattributes.svg$
+- /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_reverseorder.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_romanliststyle.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_romanlowliststyle.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_rotateleft.svg$
@@ -3234,11 +3230,8 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_sectionshrinktop.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_selectall.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_selectbackground.svg$
-- /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_selectcolumn.svg$
-- /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_selectdata.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_selectdb.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_selectobject.svg$
-- /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_selectrow.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_selecttable.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_sendfeedback.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_sendmail.svg$
@@ -3320,6 +3313,7 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_strikeout.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_strongemphasischarstyle.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_stylenewbyexample.svg$
+- /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_styleupdatebyexample.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_subscript.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_substract.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_subtitleparastyle.svg$
@@ -3395,7 +3389,6 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_verticaltext.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_verticaltextfittosizetool.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_vfixedline.svg$
-- /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_view100.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_viewdatasourcebrowser.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_viewformasgrid.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_viewrowcolumnheaders.svg$
@@ -3407,13 +3400,15 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_wrapcontour.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_wrapideal.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_wrapleft.svg$
-- /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_wrapmenu.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_wrapoff.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_wrapon.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_wrapright.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_wraptext.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_wrapthrough.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_xlinecolor.svg$
+- /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_zoom.svg$
+- /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_zoom100percent.png$
+- /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_zoom100percent.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_zoomin.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_zoomnext.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/sc_zoomobjects.svg$
@@ -3446,6 +3441,8 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/tr/sc_italic.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/tr/sc_underline.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/cmd/tr/sc_underlinedouble.svg$
+- /usr/lib64/libreoffice/help/media/icon-themes/cmd/zoom100percent.png$
+- /usr/lib64/libreoffice/help/media/icon-themes/cmd/zoom100percent.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/color_scheme$
 - /usr/lib64/libreoffice/help/media/icon-themes/color_scheme/dark$
 - /usr/lib64/libreoffice/help/media/icon-themes/color_scheme/standard$
@@ -4439,6 +4436,9 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/sw/res/sc20234.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/sw/res/sc20236.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/sw/res/sc20244.svg$
+- /usr/lib64/libreoffice/help/media/icon-themes/sw/res/sc20245.svg$
+- /usr/lib64/libreoffice/help/media/icon-themes/sw/res/sc20246.svg$
+- /usr/lib64/libreoffice/help/media/icon-themes/sw/res/sc20248.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/sw/res/sidebar$
 - /usr/lib64/libreoffice/help/media/icon-themes/sw/res/sidebar/pageproppanel$
 - /usr/lib64/libreoffice/help/media/icon-themes/sw/res/sidebar/pageproppanel/Landscapecopy_24x24.svg$
@@ -4539,7 +4539,6 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/vcl/res/h_shear.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/vcl/res/help.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/vcl/res/hide_whitespace.svg$
-- /usr/lib64/libreoffice/help/media/icon-themes/vcl/res/hourglass.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/vcl/res/infobox.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/vcl/res/link_data.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/vcl/res/link_file.svg$
@@ -4573,6 +4572,7 @@ includes:
 - /usr/lib64/libreoffice/help/media/icon-themes/vcl/res/tab_select_w.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/vcl/res/text_vertical.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/vcl/res/v_shear.svg$
+- /usr/lib64/libreoffice/help/media/icon-themes/vcl/res/wait.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/vcl/res/warningbox.svg$
 - /usr/lib64/libreoffice/help/media/icon-themes/wizards$
 - /usr/lib64/libreoffice/help/media/icon-themes/wizards/res$
@@ -4606,10 +4606,54 @@ includes:
 - /usr/lib64/libreoffice/help/media/screenshots/cui/ui/charnamepage/CharNamePage.png$
 - /usr/lib64/libreoffice/help/media/screenshots/cui/ui/colorpickerdialog$
 - /usr/lib64/libreoffice/help/media/screenshots/cui/ui/colorpickerdialog/ColorPicker.png$
-- /usr/lib64/libreoffice/help/media/screenshots/cui/ui/optionsdialog$
-- /usr/lib64/libreoffice/help/media/screenshots/cui/ui/optionsdialog/impressoptionsgeneraldialog.png$
+- /usr/lib64/libreoffice/help/media/screenshots/cui/ui/effectspage$
+- /usr/lib64/libreoffice/help/media/screenshots/cui/ui/effectspage/EffectsPage.png$
+- /usr/lib64/libreoffice/help/media/screenshots/cui/ui/hyperlinkdocpage$
+- /usr/lib64/libreoffice/help/media/screenshots/cui/ui/hyperlinkdocpage/HyperlinkDocPage.png$
+- /usr/lib64/libreoffice/help/media/screenshots/cui/ui/hyperlinkinternetpage$
+- /usr/lib64/libreoffice/help/media/screenshots/cui/ui/hyperlinkinternetpage/HyperlinkInternetPage.png$
+- /usr/lib64/libreoffice/help/media/screenshots/cui/ui/hyperlinkmailpage$
+- /usr/lib64/libreoffice/help/media/screenshots/cui/ui/hyperlinkmailpage/HyperlinkMailPage.png$
+- /usr/lib64/libreoffice/help/media/screenshots/cui/ui/hyperlinknewdocpage$
+- /usr/lib64/libreoffice/help/media/screenshots/cui/ui/hyperlinknewdocpage/HyperlinkNewDocPage.png$
+- /usr/lib64/libreoffice/help/media/screenshots/cui/ui/optaccessibilitypage$
+- /usr/lib64/libreoffice/help/media/screenshots/cui/ui/optaccessibilitypage/OptAccessibilityPage.png$
+- /usr/lib64/libreoffice/help/media/screenshots/cui/ui/optadvancedpage$
+- /usr/lib64/libreoffice/help/media/screenshots/cui/ui/optadvancedpage/OptAdvancedPage.png$
+- /usr/lib64/libreoffice/help/media/screenshots/cui/ui/optasianpage$
+- /usr/lib64/libreoffice/help/media/screenshots/cui/ui/optasianpage/OptAsianPage.png$
+- /usr/lib64/libreoffice/help/media/screenshots/cui/ui/optctlpage$
+- /usr/lib64/libreoffice/help/media/screenshots/cui/ui/optctlpage/OptCTLPage.png$
+- /usr/lib64/libreoffice/help/media/screenshots/cui/ui/optfltrpage$
+- /usr/lib64/libreoffice/help/media/screenshots/cui/ui/optfltrpage/OptFltrPage.png$
+- /usr/lib64/libreoffice/help/media/screenshots/cui/ui/optgeneralpage$
+- /usr/lib64/libreoffice/help/media/screenshots/cui/ui/optgeneralpage/OptGeneralPage.png$
+- /usr/lib64/libreoffice/help/media/screenshots/cui/ui/opthtmlpage$
+- /usr/lib64/libreoffice/help/media/screenshots/cui/ui/opthtmlpage/OptHtmlPage.png$
+- /usr/lib64/libreoffice/help/media/screenshots/cui/ui/optlanguagespage$
+- /usr/lib64/libreoffice/help/media/screenshots/cui/ui/optlanguagespage/OptLanguagesPage.png$
+- /usr/lib64/libreoffice/help/media/screenshots/cui/ui/optsavepage$
+- /usr/lib64/libreoffice/help/media/screenshots/cui/ui/optsavepage/OptSavePage.png$
+- /usr/lib64/libreoffice/help/media/screenshots/cui/ui/optsecuritypage$
+- /usr/lib64/libreoffice/help/media/screenshots/cui/ui/optsecuritypage/OptSecurityPage.png$
+- /usr/lib64/libreoffice/help/media/screenshots/cui/ui/optviewpage$
+- /usr/lib64/libreoffice/help/media/screenshots/cui/ui/optviewpage/OptViewPage.png$
 - /usr/lib64/libreoffice/help/media/screenshots/cui/ui/pageformatpage$
 - /usr/lib64/libreoffice/help/media/screenshots/cui/ui/pageformatpage/PageFormatPage.png$
+- /usr/lib64/libreoffice/help/media/screenshots/filter$
+- /usr/lib64/libreoffice/help/media/screenshots/filter/ui$
+- /usr/lib64/libreoffice/help/media/screenshots/filter/ui/pdfgeneralpage$
+- /usr/lib64/libreoffice/help/media/screenshots/filter/ui/pdfgeneralpage/PdfGeneralPage.png$
+- /usr/lib64/libreoffice/help/media/screenshots/filter/ui/pdflinkspage$
+- /usr/lib64/libreoffice/help/media/screenshots/filter/ui/pdflinkspage/PdfLinksPage.png$
+- /usr/lib64/libreoffice/help/media/screenshots/filter/ui/pdfsecuritypage$
+- /usr/lib64/libreoffice/help/media/screenshots/filter/ui/pdfsecuritypage/PdfSecurityPage.png$
+- /usr/lib64/libreoffice/help/media/screenshots/filter/ui/pdfsignpage$
+- /usr/lib64/libreoffice/help/media/screenshots/filter/ui/pdfsignpage/PdfSignPage.png$
+- /usr/lib64/libreoffice/help/media/screenshots/filter/ui/pdfuserinterfacepage$
+- /usr/lib64/libreoffice/help/media/screenshots/filter/ui/pdfuserinterfacepage/PdfUserInterfacePage.png$
+- /usr/lib64/libreoffice/help/media/screenshots/filter/ui/pdfviewpage$
+- /usr/lib64/libreoffice/help/media/screenshots/filter/ui/pdfviewpage/PdfViewPage.png$
 - /usr/lib64/libreoffice/help/media/screenshots/modules$
 - /usr/lib64/libreoffice/help/media/screenshots/modules/scalc$
 - /usr/lib64/libreoffice/help/media/screenshots/modules/scalc/ui$
@@ -4625,6 +4669,8 @@ includes:
 - /usr/lib64/libreoffice/help/media/screenshots/modules/simpress/ui$
 - /usr/lib64/libreoffice/help/media/screenshots/modules/simpress/ui/headerfooterdialog$
 - /usr/lib64/libreoffice/help/media/screenshots/modules/simpress/ui/headerfooterdialog/HeaderFooterDialog.png$
+- /usr/lib64/libreoffice/help/media/screenshots/modules/simpress/ui/optimpressgeneralpage$
+- /usr/lib64/libreoffice/help/media/screenshots/modules/simpress/ui/optimpressgeneralpage/OptSavePage.png$
 - /usr/lib64/libreoffice/help/media/screenshots/modules/smath$
 - /usr/lib64/libreoffice/help/media/screenshots/modules/smath/ui$
 - /usr/lib64/libreoffice/help/media/screenshots/modules/smath/ui/alignmentdialog$
@@ -4675,6 +4721,7 @@ includes:
 - /usr/lib64/libreoffice/presets/gallery/sg30.thm$
 - /usr/lib64/libreoffice/program$
 - /usr/lib64/libreoffice/program/JREProperties.class$
+- /usr/lib64/libreoffice/program/access2base.py$
 - /usr/lib64/libreoffice/program/bootstraprc$
 - /usr/lib64/libreoffice/program/classes$
 - /usr/lib64/libreoffice/program/classes/ScriptFramework.jar$
@@ -4737,7 +4784,6 @@ includes:
 - /usr/lib64/libreoffice/program/libdbalo.so$
 - /usr/lib64/libreoffice/program/libdbaselo.so$
 - /usr/lib64/libreoffice/program/libdbaxmllo.so$
-- /usr/lib64/libreoffice/program/libdbmmlo.so$
 - /usr/lib64/libreoffice/program/libdbplo.so$
 - /usr/lib64/libreoffice/program/libdbpool2.so$
 - /usr/lib64/libreoffice/program/libdbulo.so$
@@ -5107,6 +5153,7 @@ includes:
 - /usr/lib64/libreoffice/share/Scripts/python$
 - /usr/lib64/libreoffice/share/Scripts/python/Capitalise.py$
 - /usr/lib64/libreoffice/share/Scripts/python/HelloWorld.py$
+- /usr/lib64/libreoffice/share/Scripts/python/InsertText.py$
 - /usr/lib64/libreoffice/share/Scripts/python/LibreLogo$
 - /usr/lib64/libreoffice/share/Scripts/python/LibreLogo/LibreLogo.py$
 - /usr/lib64/libreoffice/share/Scripts/python/LibreLogo/LibreLogo_en_US.properties$
@@ -5192,7 +5239,6 @@ includes:
 - /usr/lib64/libreoffice/share/basic/Access2Base/Collect.xba$
 - /usr/lib64/libreoffice/share/basic/Access2Base/CommandBar.xba$
 - /usr/lib64/libreoffice/share/basic/Access2Base/CommandBarControl.xba$
-- /usr/lib64/libreoffice/share/basic/Access2Base/Compatible.xba$
 - /usr/lib64/libreoffice/share/basic/Access2Base/Control.xba$
 - /usr/lib64/libreoffice/share/basic/Access2Base/DataDef.xba$
 - /usr/lib64/libreoffice/share/basic/Access2Base/Database.xba$
@@ -5208,6 +5254,7 @@ includes:
 - /usr/lib64/libreoffice/share/basic/Access2Base/PropertiesGet.xba$
 - /usr/lib64/libreoffice/share/basic/Access2Base/PropertiesSet.xba$
 - /usr/lib64/libreoffice/share/basic/Access2Base/Property.xba$
+- /usr/lib64/libreoffice/share/basic/Access2Base/Python.xba$
 - /usr/lib64/libreoffice/share/basic/Access2Base/Recordset.xba$
 - /usr/lib64/libreoffice/share/basic/Access2Base/Root_.xba$
 - /usr/lib64/libreoffice/share/basic/Access2Base/SubForm.xba$
@@ -5335,6 +5382,7 @@ includes:
 - /usr/lib64/libreoffice/share/config$
 - /usr/lib64/libreoffice/share/config/images_breeze.zip$
 - /usr/lib64/libreoffice/share/config/images_breeze_dark.zip$
+- /usr/lib64/libreoffice/share/config/images_breeze_dark_svg.zip$
 - /usr/lib64/libreoffice/share/config/images_breeze_svg.zip$
 - /usr/lib64/libreoffice/share/config/images_colibre.zip$
 - /usr/lib64/libreoffice/share/config/images_colibre_svg.zip$
@@ -5345,6 +5393,7 @@ includes:
 - /usr/lib64/libreoffice/share/config/images_karasa_jaga_svg.zip$
 - /usr/lib64/libreoffice/share/config/images_sifr.zip$
 - /usr/lib64/libreoffice/share/config/images_sifr_dark.zip$
+- /usr/lib64/libreoffice/share/config/images_sifr_dark_svg.zip$
 - /usr/lib64/libreoffice/share/config/images_sifr_svg.zip$
 - /usr/lib64/libreoffice/share/config/images_tango.zip$
 - /usr/lib64/libreoffice/share/config/soffice.cfg$
@@ -5378,8 +5427,10 @@ includes:
 - /usr/lib64/libreoffice/share/config/soffice.cfg/cui/ui/calloutpage.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/cui/ui/cellalignment.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/cui/ui/certdialog.ui$
+- /usr/lib64/libreoffice/share/config/soffice.cfg/cui/ui/chapterfragment.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/cui/ui/charnamepage.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/cui/ui/colorconfigwin.ui$
+- /usr/lib64/libreoffice/share/config/soffice.cfg/cui/ui/colorfragment.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/cui/ui/colorpage.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/cui/ui/colorpickerdialog.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/cui/ui/comment.ui$
@@ -5390,6 +5441,7 @@ includes:
 - /usr/lib64/libreoffice/share/config/soffice.cfg/cui/ui/customizedialog.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/cui/ui/databaselinkdialog.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/cui/ui/dbregisterpage.ui$
+- /usr/lib64/libreoffice/share/config/soffice.cfg/cui/ui/diagramdialog.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/cui/ui/dimensionlinestabpage.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/cui/ui/distributiondialog.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/cui/ui/distributionpage.ui$
@@ -5496,6 +5548,7 @@ includes:
 - /usr/lib64/libreoffice/share/config/soffice.cfg/cui/ui/positionsizedialog.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/cui/ui/possizetabpage.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/cui/ui/posterdialog.ui$
+- /usr/lib64/libreoffice/share/config/soffice.cfg/cui/ui/qrcodegen.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/cui/ui/querychangelineenddialog.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/cui/ui/querydeletebitmapdialog.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/cui/ui/querydeletechartcolordialog.ui$
@@ -5551,7 +5604,6 @@ includes:
 - /usr/lib64/libreoffice/share/config/soffice.cfg/dbaccess/ui/applycolpage.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/dbaccess/ui/authentificationpage.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/dbaccess/ui/autocharsetpage.ui$
-- /usr/lib64/libreoffice/share/config/soffice.cfg/dbaccess/ui/backuppage.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/dbaccess/ui/choosedatasourcedialog.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/dbaccess/ui/collectionviewdialog.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/dbaccess/ui/colwidthdialog.ui$
@@ -5568,6 +5620,7 @@ includes:
 - /usr/lib64/libreoffice/share/config/soffice.cfg/dbaccess/ui/designsavemodifieddialog.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/dbaccess/ui/directsqldialog.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/dbaccess/ui/emptypage.ui$
+- /usr/lib64/libreoffice/share/config/soffice.cfg/dbaccess/ui/fielddescpage.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/dbaccess/ui/fielddialog.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/dbaccess/ui/finalpagewizard.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/dbaccess/ui/generalpagedialog.ui$
@@ -5582,7 +5635,6 @@ includes:
 - /usr/lib64/libreoffice/share/config/soffice.cfg/dbaccess/ui/keymenu.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/dbaccess/ui/ldapconnectionpage.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/dbaccess/ui/ldappage.ui$
-- /usr/lib64/libreoffice/share/config/soffice.cfg/dbaccess/ui/migratepage.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/dbaccess/ui/migrwarndlg.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/dbaccess/ui/mysqlnativepage.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/dbaccess/ui/mysqlnativesettings.ui$
@@ -5590,14 +5642,12 @@ includes:
 - /usr/lib64/libreoffice/share/config/soffice.cfg/dbaccess/ui/odbcpage.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/dbaccess/ui/parametersdialog.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/dbaccess/ui/password.ui$
-- /usr/lib64/libreoffice/share/config/soffice.cfg/dbaccess/ui/preparepage.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/dbaccess/ui/querycolmenu.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/dbaccess/ui/queryfilterdialog.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/dbaccess/ui/queryfuncmenu.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/dbaccess/ui/querypropertiesdialog.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/dbaccess/ui/relationdialog.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/dbaccess/ui/rowheightdialog.ui$
-- /usr/lib64/libreoffice/share/config/soffice.cfg/dbaccess/ui/rtfcopytabledialog.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/dbaccess/ui/savedialog.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/dbaccess/ui/saveindexdialog.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/dbaccess/ui/savemodifieddialog.ui$
@@ -5605,7 +5655,6 @@ includes:
 - /usr/lib64/libreoffice/share/config/soffice.cfg/dbaccess/ui/specialjdbcconnectionpage.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/dbaccess/ui/specialsettingspage.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/dbaccess/ui/sqlexception.ui$
-- /usr/lib64/libreoffice/share/config/soffice.cfg/dbaccess/ui/summarypage.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/dbaccess/ui/tabledesignrowmenu.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/dbaccess/ui/tabledesignsavemodifieddialog.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/dbaccess/ui/tablesfilterdialog.ui$
@@ -5655,6 +5704,7 @@ includes:
 - /usr/lib64/libreoffice/share/config/soffice.cfg/formula/ui/structpage.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/fps$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/fps/ui$
+- /usr/lib64/libreoffice/share/config/soffice.cfg/fps/ui/breadcrumb.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/fps/ui/explorerfiledialog.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/fps/ui/foldernamedialog.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/fps/ui/remotefilesdialog.ui$
@@ -5885,7 +5935,9 @@ includes:
 - /usr/lib64/libreoffice/share/config/soffice.cfg/modules/scalc/ui/colwidthdialog.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/modules/scalc/ui/condformatmanager.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/modules/scalc/ui/conditionalentry.ui$
+- /usr/lib64/libreoffice/share/config/soffice.cfg/modules/scalc/ui/conditionalentrymobile.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/modules/scalc/ui/conditionalformatdialog.ui$
+- /usr/lib64/libreoffice/share/config/soffice.cfg/modules/scalc/ui/conditionalformatdialogmobile.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/modules/scalc/ui/conditionaliconset.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/modules/scalc/ui/conflictsdialog.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/modules/scalc/ui/consolidatedialog.ui$
@@ -6057,10 +6109,12 @@ includes:
 - /usr/lib64/libreoffice/share/config/soffice.cfg/modules/schart/ui/chardialog.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/modules/schart/ui/chartdatadialog.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/modules/schart/ui/charttypedialog.ui$
+- /usr/lib64/libreoffice/share/config/soffice.cfg/modules/schart/ui/columnfragment.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/modules/schart/ui/datarangedialog.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/modules/schart/ui/dlg_DataLabel.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/modules/schart/ui/dlg_InsertErrorBars.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/modules/schart/ui/dlg_InsertLegend.ui$
+- /usr/lib64/libreoffice/share/config/soffice.cfg/modules/schart/ui/imagefragment.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/modules/schart/ui/insertaxisdlg.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/modules/schart/ui/insertgriddlg.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/modules/schart/ui/inserttitledlg.ui$
@@ -6119,7 +6173,6 @@ includes:
 - /usr/lib64/libreoffice/share/config/soffice.cfg/modules/sdraw/popupmenu/pagepanenoselmaster.xml$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/modules/sdraw/popupmenu/pagetab.xml$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/modules/sdraw/popupmenu/table.xml$
-- /usr/lib64/libreoffice/share/config/soffice.cfg/modules/sdraw/popupmenu/tabletext.xml$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/modules/sdraw/popupmenu/textbox.xml$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/modules/sdraw/statusbar$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/modules/sdraw/statusbar/statusbar.xml$
@@ -6283,7 +6336,6 @@ includes:
 - /usr/lib64/libreoffice/share/config/soffice.cfg/modules/simpress/popupmenu/pagepanenoselmaster.xml$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/modules/simpress/popupmenu/pagetab.xml$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/modules/simpress/popupmenu/table.xml$
-- /usr/lib64/libreoffice/share/config/soffice.cfg/modules/simpress/popupmenu/tabletext.xml$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/modules/simpress/popupmenu/textbox.xml$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/modules/simpress/statusbar$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/modules/simpress/statusbar/statusbar.xml$
@@ -6342,6 +6394,7 @@ includes:
 - /usr/lib64/libreoffice/share/config/soffice.cfg/modules/simpress/ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/modules/simpress/ui/annotationmenu.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/modules/simpress/ui/annotationtagmenu.ui$
+- /usr/lib64/libreoffice/share/config/soffice.cfg/modules/simpress/ui/clientboxfragment.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/modules/simpress/ui/currentmastermenu.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/modules/simpress/ui/customanimationeffecttab.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/modules/simpress/ui/customanimationfragment.ui$
@@ -6371,6 +6424,7 @@ includes:
 - /usr/lib64/libreoffice/share/config/soffice.cfg/modules/simpress/ui/notebookbar_groupedbar_compact.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/modules/simpress/ui/notebookbar_groupedbar_full.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/modules/simpress/ui/notebookbar_groups.ui$
+- /usr/lib64/libreoffice/share/config/soffice.cfg/modules/simpress/ui/notebookbar_single.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/modules/simpress/ui/optimpressgeneralpage.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/modules/simpress/ui/photoalbum.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/modules/simpress/ui/presentationdialog.ui$
@@ -6695,6 +6749,7 @@ includes:
 - /usr/lib64/libreoffice/share/config/soffice.cfg/modules/swriter/ui/createautomarkdialog.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/modules/swriter/ui/customizeaddrlistdialog.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/modules/swriter/ui/datasourcesunavailabledialog.ui$
+- /usr/lib64/libreoffice/share/config/soffice.cfg/modules/swriter/ui/dateformfielddialog.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/modules/swriter/ui/dropcapspage.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/modules/swriter/ui/dropdownfielddialog.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/modules/swriter/ui/dropdownformfielddialog.ui$
@@ -6829,6 +6884,7 @@ includes:
 - /usr/lib64/libreoffice/share/config/soffice.cfg/modules/swriter/ui/selecttabledialog.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/modules/swriter/ui/sidebarpage.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/modules/swriter/ui/sidebarstylepresets.ui$
+- /usr/lib64/libreoffice/share/config/soffice.cfg/modules/swriter/ui/sidebartableedit.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/modules/swriter/ui/sidebartheme.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/modules/swriter/ui/sidebarwrap.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/modules/swriter/ui/sortdialog.ui$
@@ -6924,7 +6980,9 @@ includes:
 - /usr/lib64/libreoffice/share/config/soffice.cfg/modules/swxform/toolbar/viewerbar.xml$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/sfx$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/sfx/ui$
+- /usr/lib64/libreoffice/share/config/soffice.cfg/sfx/ui/addtargetdialog.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/sfx/ui/alienwarndialog.ui$
+- /usr/lib64/libreoffice/share/config/soffice.cfg/sfx/ui/autoredactdialog.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/sfx/ui/bookmarkdialog.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/sfx/ui/bookmarkmenu.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/sfx/ui/charmapcontrol.ui$
@@ -6983,6 +7041,7 @@ includes:
 - /usr/lib64/libreoffice/share/config/soffice.cfg/svt/ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/svt/ui/addresstemplatedialog.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/svt/ui/datewindow.ui$
+- /usr/lib64/libreoffice/share/config/soffice.cfg/svt/ui/emptypage.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/svt/ui/fileviewmenu.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/svt/ui/graphicexport.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/svt/ui/inputbox.ui$
@@ -6992,7 +7051,6 @@ includes:
 - /usr/lib64/libreoffice/share/config/soffice.cfg/svt/ui/printersetupdialog.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/svt/ui/querydeletedialog.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/svt/ui/restartdialog.ui$
-- /usr/lib64/libreoffice/share/config/soffice.cfg/svt/ui/wizarddialog.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/svx$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/svx/ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/svx/ui/acceptrejectchangesdialog.ui$
@@ -7112,6 +7170,8 @@ includes:
 - /usr/lib64/libreoffice/share/config/soffice.cfg/vcl/ui/printerpropertiesdialog.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/vcl/ui/printprogressdialog.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/vcl/ui/querydialog.ui$
+- /usr/lib64/libreoffice/share/config/soffice.cfg/vcl/ui/screenshotparent.ui$
+- /usr/lib64/libreoffice/share/config/soffice.cfg/vcl/ui/wizard.ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/writerperfect$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/writerperfect/ui$
 - /usr/lib64/libreoffice/share/config/soffice.cfg/writerperfect/ui/exportepub.ui$
@@ -8117,6 +8177,7 @@ includes:
 - /usr/lib64/libreoffice/share/palette/hatching.soh$
 - /usr/lib64/libreoffice/share/palette/html.soc$
 - /usr/lib64/libreoffice/share/palette/libreoffice.soc$
+- /usr/lib64/libreoffice/share/palette/material.soc$
 - /usr/lib64/libreoffice/share/palette/modern.sog$
 - /usr/lib64/libreoffice/share/palette/standard.sob$
 - /usr/lib64/libreoffice/share/palette/standard.soc$
@@ -8478,8 +8539,6 @@ includes:
 - /usr/share/bash-completion/completions/loweb$
 - /usr/share/bash-completion/completions/lowriter$
 - /usr/share/bash-completion/completions/unopkg$
-- /usr/share/gir-1.0$
-- /usr/share/gir-1.0/LOKDocView-0.1.gir$
 - /usr/share/icons$
 - /usr/share/icons/gnome$
 - /usr/share/icons/gnome/128x128$
@@ -9629,3 +9688,6 @@ includes:
 - /usr/share/mime-info/libreoffice.mime$
 - /usr/share/mime/packages$
 - /usr/share/mime/packages/libreoffice.xml$
+env:
+- ORIGINAL_ATOM=app-office/libreoffice
+- ORIGINAL_PACKAGE=app-office/libreoffice-6.4.3.2
