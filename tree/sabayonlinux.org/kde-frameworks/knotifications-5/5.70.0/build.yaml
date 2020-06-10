@@ -38,7 +38,7 @@ includes:
 - /usr/lib64/cmake/KF5Notifications/KF5NotificationsTargets.cmake$
 - /usr/lib64/libKF5Notifications.so$
 - /usr/lib64/libKF5Notifications.so.5$
-- /usr/lib64/libKF5Notifications.so.5.69.0$
+- /usr/lib64/libKF5Notifications.so.5.70.0$
 - /usr/lib64/qt5$
 - /usr/lib64/qt5/mkspecs$
 - /usr/lib64/qt5/mkspecs/modules$
@@ -49,8 +49,8 @@ includes:
 - /usr/share/dbus-1/interfaces/kf5_org.kde.StatusNotifierItem.xml$
 - /usr/share/dbus-1/interfaces/kf5_org.kde.StatusNotifierWatcher.xml$
 - /usr/share/doc$
-- /usr/share/doc/knotifications-5.69.0$
-- /usr/share/doc/knotifications-5.69.0/README.md.bz2$
+- /usr/share/doc/knotifications-5.70.0$
+- /usr/share/doc/knotifications-5.70.0/README.md.bz2$
 - /usr/share/kservicetypes5$
 - /usr/share/kservicetypes5/knotificationplugin.desktop$
 - /usr/share/locale$
@@ -241,4 +241,4 @@ includes:
 - /usr/share/qlogging-categories5/knotifications.categories$
 env:
 - ORIGINAL_ATOM=kde-frameworks/knotifications
-- ORIGINAL_PACKAGE=kde-frameworks/knotifications-5.69.0
+- ORIGINAL_PACKAGE=kde-frameworks/knotifications-5.70.0
