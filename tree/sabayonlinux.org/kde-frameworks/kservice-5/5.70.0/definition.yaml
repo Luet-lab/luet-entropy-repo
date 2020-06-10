@@ -1,47 +1,35 @@
-labels:
-  original.package.version: "5.70.0"
 category: kde-frameworks
 license: LGPL-2 LGPL-2.1+
 name: kservice-5
 requires:
-- labels: null
-  category: kde-frameworks
+- category: kde-frameworks
   name: kconfig-5
   version: '>=5.67'
-- labels: null
-  category: kde-frameworks
+- category: kde-frameworks
   name: kcoreaddons-5
   version: '>=5.67'
-- labels: null
-  category: kde-frameworks
+- category: kde-frameworks
   name: kcrash-5
   version: '>=5.67'
-- labels: null
-  category: kde-frameworks
+- category: kde-frameworks
   name: kdbusaddons-5
   version: '>=5.67'
-- labels: null
-  category: kde-frameworks
+- category: kde-frameworks
   name: ki18n-5
   version: '>=5.67'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtdbus-5
   version: '>=5.12.3'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtxml-5
   version: '>=5.12.3'
-- labels: null
-  category: kde-frameworks
+- category: kde-frameworks
   name: kdoctools-5
   version: '>=5.67'
-- labels: null
-  category: kde-frameworks
+- category: kde-frameworks
   name: kf-env-5
   version: '>=4'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtcore-5
   version: '>=0'
 use_flags:
@@ -60,7 +48,5 @@ version: "5.70.0"
 labels:
   original.package.name: "kservice"
   original.package.category: "kde-frameworks"
-  original.package.version: "5.67.0"
+  original.package.version: "5.70.0"
   original.package.slot: "5"
-  original.package.version:
-  original.package.version:
