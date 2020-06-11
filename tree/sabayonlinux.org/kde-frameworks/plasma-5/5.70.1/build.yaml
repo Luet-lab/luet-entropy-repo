@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i kde-frameworks/plasma-5.67.0-r2 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -83,10 +84,10 @@ includes:
 - /usr/lib64/cmake/KF5PlasmaQuick/KF5PlasmaQuickTargets.cmake$
 - /usr/lib64/libKF5Plasma.so$
 - /usr/lib64/libKF5Plasma.so.5$
-- /usr/lib64/libKF5Plasma.so.5.67.0$
+- /usr/lib64/libKF5Plasma.so.5.70.0$
 - /usr/lib64/libKF5PlasmaQuick.so$
 - /usr/lib64/libKF5PlasmaQuick.so.5$
-- /usr/lib64/libKF5PlasmaQuick.so.5.67.0$
+- /usr/lib64/libKF5PlasmaQuick.so.5.70.0$
 - /usr/lib64/qt5$
 - /usr/lib64/qt5/plugins$
 - /usr/lib64/qt5/plugins/kpackage$
@@ -122,9 +123,11 @@ includes:
 - /usr/lib64/qt5/qml/QtQuick/Controls.2/Plasma/Label.qml$
 - /usr/lib64/qt5/qml/QtQuick/Controls.2/Plasma/Menu.qml$
 - /usr/lib64/qt5/qml/QtQuick/Controls.2/Plasma/MenuItem.qml$
+- /usr/lib64/qt5/qml/QtQuick/Controls.2/Plasma/Page.qml$
 - /usr/lib64/qt5/qml/QtQuick/Controls.2/Plasma/PageIndicator.qml$
 - /usr/lib64/qt5/qml/QtQuick/Controls.2/Plasma/Popup.qml$
 - /usr/lib64/qt5/qml/QtQuick/Controls.2/Plasma/ProgressBar.qml$
+- /usr/lib64/qt5/qml/QtQuick/Controls.2/Plasma/README.md$
 - /usr/lib64/qt5/qml/QtQuick/Controls.2/Plasma/RadioButton.qml$
 - /usr/lib64/qt5/qml/QtQuick/Controls.2/Plasma/RadioDelegate.qml$
 - /usr/lib64/qt5/qml/QtQuick/Controls.2/Plasma/RadioIndicator.qml$
@@ -232,9 +235,11 @@ includes:
 - /usr/lib64/qt5/qml/org/kde/plasma/components.3/Label.qml$
 - /usr/lib64/qt5/qml/org/kde/plasma/components.3/Menu.qml$
 - /usr/lib64/qt5/qml/org/kde/plasma/components.3/MenuItem.qml$
+- /usr/lib64/qt5/qml/org/kde/plasma/components.3/Page.qml$
 - /usr/lib64/qt5/qml/org/kde/plasma/components.3/PageIndicator.qml$
 - /usr/lib64/qt5/qml/org/kde/plasma/components.3/Popup.qml$
 - /usr/lib64/qt5/qml/org/kde/plasma/components.3/ProgressBar.qml$
+- /usr/lib64/qt5/qml/org/kde/plasma/components.3/README.md$
 - /usr/lib64/qt5/qml/org/kde/plasma/components.3/RadioButton.qml$
 - /usr/lib64/qt5/qml/org/kde/plasma/components.3/RadioDelegate.qml$
 - /usr/lib64/qt5/qml/org/kde/plasma/components.3/RadioIndicator.qml$
@@ -321,9 +326,11 @@ includes:
 - /usr/lib64/qt5/qml/org/kde/plasma/extras/App.qml$
 - /usr/lib64/qt5/qml/org/kde/plasma/extras/ConditionalLoader.qml$
 - /usr/lib64/qt5/qml/org/kde/plasma/extras/DescriptiveLabel.qml$
+- /usr/lib64/qt5/qml/org/kde/plasma/extras/ExpandableListItem.qml$
 - /usr/lib64/qt5/qml/org/kde/plasma/extras/Heading.qml$
 - /usr/lib64/qt5/qml/org/kde/plasma/extras/PageRow.qml$
 - /usr/lib64/qt5/qml/org/kde/plasma/extras/Paragraph.qml$
+- /usr/lib64/qt5/qml/org/kde/plasma/extras/PlasmoidHeading.qml$
 - /usr/lib64/qt5/qml/org/kde/plasma/extras/ScrollArea.qml$
 - /usr/lib64/qt5/qml/org/kde/plasma/extras/Title.qml$
 - /usr/lib64/qt5/qml/org/kde/plasma/extras/animations$
@@ -341,8 +348,8 @@ includes:
 - /usr/lib64/qt5/qml/org/kde/plasma/platformcomponents/qmldir$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/plasma-5.67.0-r2$
-- /usr/share/doc/plasma-5.67.0-r2/README.md.bz2$
+- /usr/share/doc/plasma-5.70.1$
+- /usr/share/doc/plasma-5.70.1/README.md.bz2$
 - /usr/share/kdevappwizard$
 - /usr/share/kdevappwizard/templates$
 - /usr/share/kdevappwizard/templates/cpp-plasmoid.tar.bz2$
@@ -732,6 +739,7 @@ includes:
 - /usr/share/plasma/desktoptheme/default/widgets/pager.svgz$
 - /usr/share/plasma/desktoptheme/default/widgets/panel-background.svgz$
 - /usr/share/plasma/desktoptheme/default/widgets/picker.svgz$
+- /usr/share/plasma/desktoptheme/default/widgets/plasmoidheading.svgz$
 - /usr/share/plasma/desktoptheme/default/widgets/plot-background.svgz$
 - /usr/share/plasma/desktoptheme/default/widgets/scrollbar.svgz$
 - /usr/share/plasma/desktoptheme/default/widgets/scrollwidget.svgz$
@@ -829,3 +837,6 @@ includes:
 - /usr/share/plasma/services/storage.operations$
 - /usr/share/qlogging-categories5$
 - /usr/share/qlogging-categories5/plasma-framework.categories$
+env:
+- ORIGINAL_ATOM=kde-frameworks/plasma
+- ORIGINAL_PACKAGE=kde-frameworks/plasma-5.70.1
