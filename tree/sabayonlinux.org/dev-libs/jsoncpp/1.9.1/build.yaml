@@ -1,0 +1,41 @@
+
+unpack: true
+steps:
+- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/jsoncpp-1.9.1 && equo cleanup
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/jsoncpp$
+- /usr/include/jsoncpp/json$
+- /usr/include/jsoncpp/json/allocator.h$
+- /usr/include/jsoncpp/json/assertions.h$
+- /usr/include/jsoncpp/json/autolink.h$
+- /usr/include/jsoncpp/json/config.h$
+- /usr/include/jsoncpp/json/features.h$
+- /usr/include/jsoncpp/json/forwards.h$
+- /usr/include/jsoncpp/json/json.h$
+- /usr/include/jsoncpp/json/reader.h$
+- /usr/include/jsoncpp/json/value.h$
+- /usr/include/jsoncpp/json/version.h$
+- /usr/include/jsoncpp/json/writer.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/cmake$
+- /usr/lib64/cmake/jsoncpp$
+- /usr/lib64/cmake/jsoncpp/jsoncppConfig-gentoo.cmake$
+- /usr/lib64/cmake/jsoncpp/jsoncppConfig.cmake$
+- /usr/lib64/cmake/jsoncpp/jsoncppConfigVersion.cmake$
+- /usr/lib64/libjsoncpp.so$
+- /usr/lib64/libjsoncpp.so.1.9.0$
+- /usr/lib64/libjsoncpp.so.21$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/jsoncpp.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/jsoncpp-1.9.1$
+- /usr/share/doc/jsoncpp-1.9.1/AUTHORS.bz2$
+- /usr/share/doc/jsoncpp-1.9.1/README.md.bz2$
