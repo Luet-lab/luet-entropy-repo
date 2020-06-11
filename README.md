@@ -13,3 +13,17 @@ Requires yq installed.
 
 replace "gettext" with the name of the package you wish to delete. Similarly you can use other fields (`name` in the following example) to
 match the deletion criteria
+
+### Clean definition from null labels on deps
+
+```
+$> sed -e '/- labels\: null/d' -e 's|  category:|- category:|g' $SPECFILE
+```
+
+Or for all the tree:
+
+```
+$> for i in `grep "labels: null" * -r -l tree/` ; do sed -e '/- labels\: null/d' -e 's|  category:|- category:|g' -i $i ; done
+
+```
+
