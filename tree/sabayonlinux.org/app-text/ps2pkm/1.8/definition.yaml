@@ -2,8 +2,7 @@ category: app-text
 license: MIT
 name: ps2pkm
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: kpathsea
   version: '>=6.2.1'
 use_flags:

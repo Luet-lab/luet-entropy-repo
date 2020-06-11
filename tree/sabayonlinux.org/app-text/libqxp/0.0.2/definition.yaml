@@ -2,16 +2,13 @@ category: app-text
 license: MPL-2.0
 name: libqxp
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: boost
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: icu
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: librevenge
   version: '>=0'
 use_flags:

@@ -2,72 +2,55 @@ category: dev-haskell
 license: BSD
 name: graphviz
 requires:
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: colour
   version: <2.4
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: dlist
   version: <0.9
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: fgl
   version: <5.6
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: polyparse
   version: <1.13
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: temporary
   version: <1.3
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: transformers
   version: <0.6
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: wl-pprint-text
   version: <1.2.0.0
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: cabal
   version: '>=1.14'
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: colour
   version: '>=2.3'
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: dlist
   version: '>=0.5'
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: fgl
   version: '>=5.4'
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: polyparse
   version: '>=1.9'
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: temporary
   version: '>=1.1'
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: transformers
   version: '>=0.2'
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: wl-pprint-text
   version: '>=1.1.0.0'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: ghc
   version: '>=7.4.1'
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: text
   version: '>=0'
 use_flags:

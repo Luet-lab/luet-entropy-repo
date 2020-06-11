@@ -2,16 +2,13 @@ category: media-video
 license: GPL-2
 name: vcdimager
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libcdio
   version: '>=2.0.0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxml2-2
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: popt
   version: '>=0'
 use_flags:

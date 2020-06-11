@@ -2,44 +2,34 @@ category: lxde-base
 license: GPL-2
 name: lxsession
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: dbus-glib
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libunique-1
   version: '>=0'
-- labels: null
-  category: lxde-base
+- category: lxde-base
   name: lxde-common
   version: '>=0'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: dbus
   version: '>=0'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: lsb-release
   version: '>=0'
-- labels: null
-  category: sys-auth
+- category: sys-auth
   name: polkit
   version: '>=0'
-- labels: null
-  category: sys-power
+- category: sys-power
   name: upower
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: gtk+-3
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libX11
   version: '>=0'
 use_flags:

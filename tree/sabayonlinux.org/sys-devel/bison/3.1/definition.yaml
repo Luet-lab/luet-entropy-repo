@@ -2,8 +2,7 @@ category: sys-devel
 license: GPL-2
 name: bison
 requires:
-- labels: null
-  category: sys-devel
+- category: sys-devel
   name: m4
   version: '>=1.4.16'
 use_flags:

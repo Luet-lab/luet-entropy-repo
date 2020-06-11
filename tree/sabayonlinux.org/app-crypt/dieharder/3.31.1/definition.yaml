@@ -2,8 +2,7 @@ category: app-crypt
 license: GPL-2
 name: dieharder
 requires:
-- labels: null
-  category: sci-libs
+- category: sci-libs
   name: gsl
   version: '>=0'
 use_flags:

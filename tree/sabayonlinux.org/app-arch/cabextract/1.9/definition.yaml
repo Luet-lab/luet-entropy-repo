@@ -2,8 +2,7 @@ category: app-arch
 license: GPL-3
 name: cabextract
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libmspack
   version: '>=0.8'
 use_flags:

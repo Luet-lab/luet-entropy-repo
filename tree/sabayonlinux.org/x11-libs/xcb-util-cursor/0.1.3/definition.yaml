@@ -2,16 +2,13 @@ category: x11-libs
 license: MIT
 name: xcb-util-cursor
 requires:
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libxcb
   version: '>=1.9.1'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: xcb-util-image
   version: '>=0.3.9'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: xcb-util-renderutil
   version: '>=0.3.9'
 use_flags:

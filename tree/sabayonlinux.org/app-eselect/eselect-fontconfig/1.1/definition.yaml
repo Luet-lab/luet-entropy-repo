@@ -2,12 +2,10 @@ category: app-eselect
 license: GPL-2
 name: eselect-fontconfig
 requires:
-- labels: null
-  category: app-admin
+- category: app-admin
   name: eselect
   version: '>=1.2.3'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: fontconfig-1.0
   version: '>=2.4'
 use_flags:

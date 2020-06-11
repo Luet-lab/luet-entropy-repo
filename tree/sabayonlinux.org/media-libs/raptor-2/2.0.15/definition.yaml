@@ -2,20 +2,16 @@ category: media-libs
 license: Apache-2.0 GPL-2 LGPL-2.1
 name: raptor-2
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: icu
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxml2-2
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxslt
   version: '>=0'
-- labels: null
-  category: net-misc
+- category: net-misc
   name: curl
   version: '>=0'
 use_flags:

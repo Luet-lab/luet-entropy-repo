@@ -2,24 +2,19 @@ category: dev-python
 license: LGPL-2.1
 name: gnome-python-base-2
 requires:
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-2.7
   version: '>=2.7.5'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.6'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: pygobject-2
   version: '>=2.17'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: pygtk-2
   version: '>=2.14.0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: gtk+-3
   version: '>=2.6'
 use_flags:

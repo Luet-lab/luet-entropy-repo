@@ -2,8 +2,7 @@ category: sci-libs
 license: GPL-2
 name: spqr
 requires:
-- labels: null
-  category: sci-libs
+- category: sci-libs
   name: cholmod
   version: '>=2'
 use_flags:

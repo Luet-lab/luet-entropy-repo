@@ -2,20 +2,16 @@ category: dev-util
 license: Ruby
 name: cucumber-core-3.2
 requires:
-- labels: null
-  category: dev-ruby
+- category: dev-ruby
   name: backports
   version: '>=3.8.0'
-- labels: null
-  category: dev-util
+- category: dev-util
   name: cucumber-tag_expressions-1
   version: '>=1.1.0'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: ruby-2.5
   version: '>=0'
-- labels: null
-  category: dev-ruby
+- category: dev-ruby
   name: gherkin-5
   version: '>=0'
 use_flags:

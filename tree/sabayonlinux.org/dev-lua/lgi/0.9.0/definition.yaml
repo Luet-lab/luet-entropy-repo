@@ -2,16 +2,13 @@ category: dev-lua
 license: MIT
 name: lgi
 requires:
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: lua
   version: '>=5.1'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: gobject-introspection
   version: '>=0'
 use_flags:

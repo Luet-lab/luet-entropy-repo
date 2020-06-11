@@ -2,28 +2,22 @@ category: sys-libs
 license: GPL-2
 name: slang
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libpcre-3
   version: '>=8.33'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: oniguruma
   version: '>=5.9.5'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libpng
   version: '>=1.6.10'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: readline
   version: '>=6.2'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: zlib
   version: '>=1.2.8'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: ncurses
   version: '>=0'
 use_flags:

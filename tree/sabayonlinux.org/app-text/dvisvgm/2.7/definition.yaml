@@ -2,48 +2,37 @@ category: app-text
 license: GPL-3
 name: dvisvgm
 requires:
-- labels: null
-  category: app-arch
+- category: app-arch
   name: brotli
   version: '>=1.0.5'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: xxhash
   version: '>=0.6.5'
-- labels: null
-  category: media-gfx
+- category: media-gfx
   name: potrace
   version: '>=1.10'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: woff2
   version: '>=1.0.2'
-- labels: null
-  category: app-text
+- category: app-text
   name: asciidoc
   version: '>=0'
-- labels: null
-  category: app-text
+- category: app-text
   name: ghostscript-gpl
   version: '>=0'
-- labels: null
-  category: app-text
+- category: app-text
   name: xmlto
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: kpathsea
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxslt
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: freetype-2
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: zlib
   version: '>=0'
 use_flags:

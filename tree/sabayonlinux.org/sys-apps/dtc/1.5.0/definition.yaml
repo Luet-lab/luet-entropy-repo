@@ -2,8 +2,7 @@ category: sys-apps
 license: GPL-2
 name: dtc
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libyaml
   version: '>=0'
 use_flags:

@@ -2,16 +2,13 @@ category: dev-perl
 license: Artistic-2
 name: Font-TTF
 requires:
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: perl
   version: '>=0'
-- labels: null
-  category: dev-perl
+- category: dev-perl
   name: IO-String
   version: '>=0'
-- labels: null
-  category: dev-perl
+- category: dev-perl
   name: XML-Parser
   version: '>=0'
 use_flags:

@@ -2,12 +2,10 @@ category: media-libs
 license: MIT
 name: woff2
 requires:
-- labels: null
-  category: app-arch
+- category: app-arch
   name: brotli
   version: '>=0'
-- labels: null
-  category: sys-devel
+- category: sys-devel
   name: make
   version: '>=0'
 use_flags:

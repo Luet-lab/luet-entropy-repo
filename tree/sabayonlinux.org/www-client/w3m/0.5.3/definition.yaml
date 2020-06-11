@@ -2,36 +2,28 @@ category: www-client
 license: w3m
 name: w3m
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: boehm-gc
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: openssl
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: imlib2
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: gpm
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: ncurses
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: zlib
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXdmcp
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXext
   version: '>=0'
 use_flags:

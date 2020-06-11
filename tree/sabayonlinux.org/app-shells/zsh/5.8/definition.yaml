@@ -2,20 +2,16 @@ category: app-shells
 license: GPL-2 ZSH
 name: zsh
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libpcre-3
   version: '>=3.9'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: ncurses
   version: '>=5.1'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: groff
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: gdbm
   version: '>=0'
 use_flags:

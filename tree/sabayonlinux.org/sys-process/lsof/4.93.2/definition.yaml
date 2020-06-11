@@ -2,12 +2,10 @@ category: sys-process
 license: lsof
 name: lsof
 requires:
-- labels: null
-  category: net-libs
+- category: net-libs
   name: libtirpc
   version: '>=0'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: groff
   version: '>=0'
 use_flags:

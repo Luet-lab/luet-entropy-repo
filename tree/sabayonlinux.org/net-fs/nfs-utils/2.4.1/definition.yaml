@@ -2,52 +2,40 @@ category: net-fs
 license: GPL-2
 name: nfs-utils
 requires:
-- labels: null
-  category: dev-db
+- category: dev-db
   name: sqlite-3
   version: '>=3.3'
-- labels: null
-  category: net-libs
+- category: net-libs
   name: libtirpc
   version: '>=0.2.4'
-- labels: null
-  category: net-nds
+- category: net-nds
   name: rpcbind
   version: '>=0.2.4'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: keyutils
   version: '>=1.5.9'
-- labels: null
-  category: app-crypt
+- category: app-crypt
   name: mit-krb5
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libevent
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxml2-2
   version: '>=0'
-- labels: null
-  category: net-libs
+- category: net-libs
   name: libtirpc
   version: '>=0'
-- labels: null
-  category: net-nds
+- category: net-nds
   name: openldap
   version: '>=0'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: tcp-wrappers
   version: '>=0'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: util-linux
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: e2fsprogs-libs
   version: '>=0'
 use_flags:

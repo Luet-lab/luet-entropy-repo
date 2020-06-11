@@ -4,40 +4,31 @@ category: x11-terms
 license: GPL-3+
 name: gnome-terminal
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.42'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libpcre2
   version: '>=10'
-- labels: null
-  category: gnome-base
+- category: gnome-base
   name: dconf
   version: '>=0.14'
-- labels: null
-  category: gnome-base
+- category: gnome-base
   name: gsettings-desktop-schemas
   version: '>=0.1.0'
-- labels: null
-  category: gnome-base
+- category: gnome-base
   name: nautilus
   version: '>=3'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: gtk+-3
   version: '>=3.20'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: vte-2.91
   version: '>=0.56.2'
-- labels: null
-  category: gnome-base
+- category: gnome-base
   name: gnome-shell
   version: '>=0'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: util-linux
   version: '>=0'
 use_flags:

@@ -2,72 +2,55 @@ category: x11-apps
 license: MIT
 name: xdm
 requires:
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: systemd
   version: '>=209'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libbsd
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: pam
   version: '>=0'
-- labels: null
-  category: x11-apps
+- category: x11-apps
   name: sessreg
   version: '>=0'
-- labels: null
-  category: x11-apps
+- category: x11-apps
   name: xconsole
   version: '>=0'
-- labels: null
-  category: x11-apps
+- category: x11-apps
   name: xinit
   version: '>=0'
-- labels: null
-  category: x11-apps
+- category: x11-apps
   name: xrdb
   version: '>=0'
-- labels: null
-  category: x11-apps
+- category: x11-apps
   name: xsm
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libX11
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXaw
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXdmcp
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXft
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXinerama
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXmu
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXpm
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXrender
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXt
   version: '>=0'
 use_flags:

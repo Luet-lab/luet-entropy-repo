@@ -2,16 +2,13 @@ category: x11-drivers
 license: MIT
 name: xf86-input-evdev
 requires:
-- labels: null
-  category: x11-base
+- category: x11-base
   name: xorg-server
   version: '>=1.18'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libevdev
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: mtdev
   version: '>=0'
 use_flags:

@@ -2,24 +2,19 @@ category: app-i18n
 license: GPL-2
 name: scim
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: atk
   version: '>=1'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: pango
   version: '>=1'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: gtk+-3
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libX11
   version: '>=0'
 use_flags:

@@ -2,24 +2,19 @@ category: kde-frameworks
 license: MIT
 name: syntax-highlighting-5
 requires:
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtgui-5
   version: '>=5.12.3'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtnetwork-5
   version: '>=5.12.3'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtxmlpatterns-5
   version: '>=5.12.3'
-- labels: null
-  category: kde-frameworks
+- category: kde-frameworks
   name: kf-env-5
   version: '>=4'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtcore-5
   version: '>=0'
 use_flags:

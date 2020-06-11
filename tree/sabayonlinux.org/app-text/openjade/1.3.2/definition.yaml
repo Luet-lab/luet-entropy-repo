@@ -2,16 +2,13 @@ category: app-text
 license: MIT
 name: openjade
 requires:
-- labels: null
-  category: app-text
+- category: app-text
   name: opensp
   version: '>=1.5.1'
-- labels: null
-  category: app-text
+- category: app-text
   name: sgml-common
   version: '>=0.6.3'
-- labels: null
-  category: app-text
+- category: app-text
   name: sgml-common
   version: '>=0'
 use_flags:

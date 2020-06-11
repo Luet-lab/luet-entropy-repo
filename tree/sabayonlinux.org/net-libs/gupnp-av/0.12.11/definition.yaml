@@ -2,20 +2,16 @@ category: net-libs
 license: LGPL-2
 name: gupnp-av
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.38'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: gobject-introspection
   version: '>=1.36'
-- labels: null
-  category: net-libs
+- category: net-libs
   name: libsoup-2.4
   version: '>=2.28.2'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxml2-2
   version: '>=0'
 use_flags:

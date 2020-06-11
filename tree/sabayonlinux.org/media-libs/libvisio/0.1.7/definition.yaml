@@ -2,16 +2,13 @@ category: media-libs
 license: GPL-2+ LGPL-2.1 MPL-1.1
 name: libvisio
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: icu
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: librevenge
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxml2-2
   version: '>=0'
 use_flags:

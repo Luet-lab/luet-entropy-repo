@@ -2,60 +2,46 @@ category: x11-wm
 license: BSD-2
 name: enlightenment-0.17
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: efl
   version: '>=1.22.0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: efl
   version: '>=1.22.3'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: wayland
   version: '>=0'
-- labels: null
-  category: net-wireless
+- category: net-wireless
   name: bluez
   version: '>=0'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: systemd
   version: '>=0'
-- labels: null
-  category: sys-fs
+- category: sys-fs
   name: udisks-2
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: pam
   version: '>=0'
-- labels: null
-  category: sys-power
+- category: sys-power
   name: acpid
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXext
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libxcb
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libxkbcommon
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: pixman
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: xcb-util-keysyms
   version: '>=0'
-- labels: null
-  category: x11-misc
+- category: x11-misc
   name: xkeyboard-config
   version: '>=0'
 use_flags:

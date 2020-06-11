@@ -2,12 +2,10 @@ category: dev-libs
 license: GPL-2+ GPL-3+ LGPL-2.1
 name: libcdio-paranoia
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libcdio
   version: '>=0.94'
-- labels: null
-  category: app-eselect
+- category: app-eselect
   name: eselect-cdparanoia
   version: '>=0'
 use_flags:

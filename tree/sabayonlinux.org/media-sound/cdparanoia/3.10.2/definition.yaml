@@ -2,8 +2,7 @@ category: media-sound
 license: GPL-2 LGPL-2.1
 name: cdparanoia
 requires:
-- labels: null
-  category: app-eselect
+- category: app-eselect
   name: eselect-cdparanoia
   version: '>=0'
 use_flags:

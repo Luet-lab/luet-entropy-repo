@@ -2,12 +2,10 @@ category: media-libs
 license: BSD
 name: openexr
 requires:
-- labels: null
-  category: media-libs
+- category: media-libs
   name: ilmbase
   version: '>=2.3.0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: zlib
   version: '>=0'
 use_flags:

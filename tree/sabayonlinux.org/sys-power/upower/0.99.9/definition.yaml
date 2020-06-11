@@ -2,28 +2,22 @@ category: sys-power
 license: GPL-2
 name: upower
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: dbus-glib
   version: '>=0.100'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.34'
-- labels: null
-  category: app-text
+- category: app-text
   name: docbook-xsl-stylesheets
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: gobject-introspection
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxslt
   version: '>=0'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: dbus
   version: '>=0'
 use_flags:

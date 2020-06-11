@@ -2,16 +2,13 @@ category: dev-ruby
 license: BSD
 name: sqlite3
 requires:
-- labels: null
-  category: dev-db
+- category: dev-db
   name: sqlite-3
   version: '>=3.6.16'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: ruby-2.5
   version: '>=0'
-- labels: null
-  category: dev-ruby
+- category: dev-ruby
   name: rake-compiler
   version: '>=0'
 use_flags:

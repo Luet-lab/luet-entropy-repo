@@ -2,24 +2,19 @@ category: sci-libs
 license: GPL-2
 name: cholmod
 requires:
-- labels: null
-  category: sci-libs
+- category: sci-libs
   name: amd
   version: '>=2.3'
-- labels: null
-  category: sci-libs
+- category: sci-libs
   name: colamd
   version: '>=2.8'
-- labels: null
-  category: sci-libs
+- category: sci-libs
   name: amd
   version: '>=0'
-- labels: null
-  category: sci-libs
+- category: sci-libs
   name: colamd
   version: '>=0'
-- labels: null
-  category: sci-libs
+- category: sci-libs
   name: suitesparseconfig
   version: '>=0'
 use_flags:

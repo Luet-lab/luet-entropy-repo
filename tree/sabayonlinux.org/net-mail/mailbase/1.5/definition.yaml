@@ -2,20 +2,16 @@ category: net-mail
 license: GPL-2
 name: mailbase
 requires:
-- labels: null
-  category: acct-group
+- category: acct-group
   name: mail
   version: '>=0'
-- labels: null
-  category: acct-user
+- category: acct-user
   name: mail
   version: '>=0'
-- labels: null
-  category: acct-user
+- category: acct-user
   name: postmaster
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: pam
   version: '>=0'
 use_flags:

@@ -2,12 +2,10 @@ category: net-firewall
 license: GPL-2
 name: ipset
 requires:
-- labels: null
-  category: net-firewall
+- category: net-firewall
   name: iptables
   version: '>=1.4.7'
-- labels: null
-  category: net-libs
+- category: net-libs
   name: libmnl
   version: '>=0'
 use_flags:

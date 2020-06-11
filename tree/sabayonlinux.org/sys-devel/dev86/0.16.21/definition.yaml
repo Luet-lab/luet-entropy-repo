@@ -2,8 +2,7 @@ category: sys-devel
 license: GPL-2
 name: dev86
 requires:
-- labels: null
-  category: sys-devel
+- category: sys-devel
   name: bin86
   version: '>=0'
 use_flags:

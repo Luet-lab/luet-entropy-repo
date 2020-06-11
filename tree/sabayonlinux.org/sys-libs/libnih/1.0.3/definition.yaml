@@ -2,12 +2,10 @@ category: sys-libs
 license: GPL-2
 name: libnih
 requires:
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: dbus
   version: '>=1.2.16'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: expat
   version: '>=0'
 use_flags:

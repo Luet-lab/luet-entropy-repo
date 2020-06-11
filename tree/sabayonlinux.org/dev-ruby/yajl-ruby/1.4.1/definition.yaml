@@ -2,12 +2,10 @@ category: dev-ruby
 license: MIT
 name: yajl-ruby
 requires:
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: ruby-2.5
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: yajl
   version: '>=0'
 use_flags:

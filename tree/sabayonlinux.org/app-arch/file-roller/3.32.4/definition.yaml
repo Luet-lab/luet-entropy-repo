@@ -2,40 +2,31 @@ category: app-arch
 license: CC-BY-SA-3.0 GPL-2+
 name: file-roller
 requires:
-- labels: null
-  category: app-arch
+- category: app-arch
   name: libarchive
   version: '>=3'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.36'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: json-glib
   version: '>=0.14'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: gtk+-3
   version: '>=3.13.2'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libnotify
   version: '>=0.4.3'
-- labels: null
-  category: app-admin
+- category: app-admin
   name: packagekit-base
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: cairo
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: gdk-pixbuf-2
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: pango
   version: '>=0'
 use_flags:

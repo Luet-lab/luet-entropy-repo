@@ -2,36 +2,28 @@ category: app-text
 license: GPL-2+ LGPL-2.1 MPL-1.1
 name: libetonyek
 requires:
-- labels: null
-  category: dev-util
+- category: dev-util
   name: mdds-1
   version: '>=1.3.1'
-- labels: null
-  category: app-text
+- category: app-text
   name: liblangtag
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: boost
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: librevenge
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxml2-2
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: glm
   version: '>=0'
-- labels: null
-  category: sys-devel
+- category: sys-devel
   name: libtool-2
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: zlib
   version: '>=0'
 use_flags:

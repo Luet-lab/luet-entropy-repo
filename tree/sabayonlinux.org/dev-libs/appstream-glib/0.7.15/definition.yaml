@@ -2,44 +2,34 @@ category: dev-libs
 license: LGPL-2.1+
 name: appstream-glib
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.45.8'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: gobject-introspection
   version: '>=1.54'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: json-glib
   version: '>=1.1.2'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: fontconfig-1.0
   version: '>=2.11'
-- labels: null
-  category: net-libs
+- category: net-libs
   name: libsoup-2.4
   version: '>=2.51.92'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: gdk-pixbuf-2
   version: '>=2.31.5'
-- labels: null
-  category: app-arch
+- category: app-arch
   name: libarchive
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libyaml
   version: '>=0'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: util-linux
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: pango
   version: '>=0'
 use_flags:

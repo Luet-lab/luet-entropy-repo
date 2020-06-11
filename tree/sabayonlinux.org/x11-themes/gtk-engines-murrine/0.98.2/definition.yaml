@@ -2,28 +2,22 @@ category: x11-themes
 license: LGPL-2.1 LGPL-3
 name: gtk-engines-murrine
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.34.3'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: cairo
   version: '>=1.12.14'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: gdk-pixbuf-2
   version: '>=2.30.7'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: gtk+-3
   version: '>=2.24.23'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: pango
   version: '>=1.36.3'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: pixman
   version: '>=0.32.4'
 use_flags:

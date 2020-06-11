@@ -2,28 +2,22 @@ category: dev-db
 license: MPL-1.1
 name: spatialite
 requires:
-- labels: null
-  category: dev-db
+- category: dev-db
   name: sqlite-3
   version: '>=3.7.5'
-- labels: null
-  category: sci-libs
+- category: sci-libs
   name: geos
   version: '>=3.4'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: freexl
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxml2-2
   version: '>=0'
-- labels: null
-  category: sci-libs
+- category: sci-libs
   name: proj
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: zlib
   version: '>=0'
 use_flags:

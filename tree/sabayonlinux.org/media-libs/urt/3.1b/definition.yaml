@@ -2,16 +2,13 @@ category: media-libs
 license: URT free-noncomm
 name: urt
 requires:
-- labels: null
-  category: media-libs
+- category: media-libs
   name: giflib
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: tiff
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXext
   version: '>=0'
 use_flags:

@@ -2,16 +2,13 @@ category: dev-db
 license: GPL-2
 name: mysql-init-scripts
 requires:
-- labels: null
-  category: acct-group
+- category: acct-group
   name: mysql
   version: '>=0'
-- labels: null
-  category: acct-user
+- category: acct-user
   name: mysql
   version: '>=0'
-- labels: null
-  category: dev-db
+- category: dev-db
   name: mysql-connector-c
   version: '>=0'
 use_flags:

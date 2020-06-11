@@ -2,24 +2,19 @@ category: dev-db
 license: LGPL-2.1
 name: tokyocabinet
 requires:
-- labels: null
-  category: sys-devel
+- category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- labels: null
-  category: sys-devel
+- category: sys-devel
   name: automake-1.15
   version: '>=1.15'
-- labels: null
-  category: sys-devel
+- category: sys-devel
   name: libtool-2
   version: '>=2.4'
-- labels: null
-  category: app-arch
+- category: app-arch
   name: bzip2
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: zlib
   version: '>=0'
 use_flags:

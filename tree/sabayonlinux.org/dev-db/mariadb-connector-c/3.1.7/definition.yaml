@@ -2,8 +2,7 @@ category: dev-db
 license: LGPL-2.1
 name: mariadb-connector-c
 requires:
-- labels: null
-  category: net-libs
+- category: net-libs
   name: gnutls
   version: '>=3.3.24'
 use_flags:

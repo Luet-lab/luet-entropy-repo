@@ -2,40 +2,31 @@ category: x11-libs
 license: GPL-3
 name: xapps
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.37.3'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: gdk-pixbuf-2
   version: '>=2.22.0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: gtk+-3
   version: '>=3.3.16'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: gobject-introspection
   version: '>=0'
-- labels: null
-  category: dev-util
+- category: dev-util
   name: gtk-doc
   version: '>=0'
-- labels: null
-  category: gnome-base
+- category: gnome-base
   name: gnome-common-3
   version: '>=0'
-- labels: null
-  category: gnome-base
+- category: gnome-base
   name: libgnomekbd
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: cairo
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libxkbfile
   version: '>=0'
 use_flags:

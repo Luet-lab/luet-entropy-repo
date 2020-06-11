@@ -2,24 +2,19 @@ category: x11-themes
 license: CCPL-Attribution-ShareAlike-3.0
 name: sabayon-artwork-gnome
 requires:
-- labels: null
-  category: gnome-extra
+- category: gnome-extra
   name: gnome-shell-extensions
   version: '>=3.12'
-- labels: null
-  category: x11-themes
+- category: x11-themes
   name: arc-theme
   version: '>=0'
-- labels: null
-  category: x11-themes
+- category: x11-themes
   name: numix-icon-theme
   version: '>=0'
-- labels: null
-  category: x11-themes
+- category: x11-themes
   name: numix-icon-theme-circle
   version: '>=0'
-- labels: null
-  category: x11-themes
+- category: x11-themes
   name: sabayon-artwork-core
   version: '>=0'
 use_flags:

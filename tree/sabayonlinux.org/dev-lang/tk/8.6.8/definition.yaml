@@ -2,24 +2,19 @@ category: dev-lang
 license: tcltk
 name: tk
 requires:
-- labels: null
-  category: media-libs
+- category: media-libs
   name: fontconfig-1.0
   version: '>=2.10.92'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libX11
   version: '>=1.6.2'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXft
   version: '>=2.3.1'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXt
   version: '>=1.1.4'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: tcl
   version: '>=8.6.8'
 use_flags:

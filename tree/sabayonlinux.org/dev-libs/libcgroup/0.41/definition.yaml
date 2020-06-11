@@ -2,8 +2,7 @@ category: dev-libs
 license: LGPL-2.1
 name: libcgroup
 requires:
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: pam
   version: '>=0'
 use_flags:

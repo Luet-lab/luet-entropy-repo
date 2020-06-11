@@ -2,8 +2,7 @@ category: app-text
 license: BSD
 name: docbook-xsl-stylesheets
 requires:
-- labels: null
-  category: app-text
+- category: app-text
   name: build-docbook-catalog
   version: '>=1.1'
 use_flags:

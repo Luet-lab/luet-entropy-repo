@@ -2,12 +2,10 @@ category: dev-lang
 license: LGPL-2.1+
 name: vala-0.44
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.40.0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: vala-common
   version: '>=0.44.11'
 use_flags:

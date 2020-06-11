@@ -2,8 +2,7 @@ category: xfce-base
 license: GPL-2+ LGPL-2+
 name: libxfce4util
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.42'
 use_flags:

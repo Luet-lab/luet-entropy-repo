@@ -2,12 +2,10 @@ category: media-fonts
 license: OFL-1.1
 name: source-pro
 requires:
-- labels: null
-  category: media-fonts
+- category: media-fonts
   name: source-han-sans
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: fontconfig-1.0
   version: '>=0'
 use_flags:

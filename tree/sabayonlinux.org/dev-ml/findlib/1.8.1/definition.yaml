@@ -2,8 +2,7 @@ category: dev-ml
 license: MIT
 name: findlib
 requires:
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: ocaml
   version: '>=4.02.3'
 use_flags:

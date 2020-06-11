@@ -2,16 +2,13 @@ category: sys-apps
 license: GPL-2
 name: vbetool
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libx86
   version: '>=1.1'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: pciutils
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: zlib
   version: '>=0'
 use_flags:

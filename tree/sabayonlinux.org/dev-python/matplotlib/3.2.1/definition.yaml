@@ -2,80 +2,61 @@ category: dev-python
 license: BSD BitstreamVera MIT OFL-1.1 matplotlib
 name: matplotlib
 requires:
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-2.7
   version: '>=2.7.5'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-exec-2
   version: '>=2'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: kiwisolver
   version: '>=1.0.0'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: numpy
   version: '>=1.7.1'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: pyparsing
   version: '>=1.5.6'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: six
   version: '>=1.10'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: qhull
   version: '>=2013'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-3.6
   version: '>=0'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: PyQt5
   version: '>=0'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: backports-functools-lru-cache
   version: '>=0'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: cairocffi
   version: '>=0'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: cycler
   version: '>=0'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: functools32
   version: '>=0'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: python-dateutil-python-2
   version: '>=0'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: pytz
   version: '>=0'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: subprocess32
   version: '>=0'
-- labels: null
-  category: media-fonts
+- category: media-fonts
   name: stix-fonts
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: freetype-2
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libpng
   version: '>=0'
 use_flags:

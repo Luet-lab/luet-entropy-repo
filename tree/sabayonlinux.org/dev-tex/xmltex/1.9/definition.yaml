@@ -2,8 +2,7 @@ category: dev-tex
 license: LPPL-1.2
 name: xmltex
 requires:
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: texinfo
   version: '>=4.2'
 use_flags:

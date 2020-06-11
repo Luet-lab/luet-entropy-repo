@@ -2,36 +2,28 @@ category: net-misc
 license: BSD GPL-2
 name: openssh
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: openssl
   version: '>=1.1.0g'
-- labels: null
-  category: sys-auth
+- category: sys-auth
   name: pambase
   version: '>=20081028'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: zlib
   version: '>=1.2.3'
-- labels: null
-  category: acct-group
+- category: acct-group
   name: sshd
   version: '>=0'
-- labels: null
-  category: acct-user
+- category: acct-user
   name: sshd
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libedit
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: openssl
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: pam
   version: '>=0'
 use_flags:

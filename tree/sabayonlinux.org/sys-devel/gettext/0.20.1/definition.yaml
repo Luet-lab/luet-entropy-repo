@@ -2,16 +2,13 @@ category: sys-devel
 license: GPL-3+ LGPL-2.1+
 name: gettext
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxml2-2
   version: '>=2.9.3'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: expat
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: ncurses
   version: '>=0'
 use_flags:

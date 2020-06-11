@@ -2,16 +2,13 @@ category: app-shells
 license: GPL-2+
 name: bash-completion
 requires:
-- labels: null
-  category: app-shells
+- category: app-shells
   name: bash
   version: '>=4.3'
-- labels: null
-  category: app-shells
+- category: app-shells
   name: gentoo-bashcomp
   version: '>=20140911'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: miscfiles
   version: '>=0'
 use_flags:

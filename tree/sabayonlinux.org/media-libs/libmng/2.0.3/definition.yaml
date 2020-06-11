@@ -2,12 +2,10 @@ category: media-libs
 license: libmng
 name: libmng
 requires:
-- labels: null
-  category: media-libs
+- category: media-libs
   name: lcms-2
   version: '>=2.5'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: zlib
   version: '>=1.2.8'
 use_flags:

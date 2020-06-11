@@ -2,16 +2,13 @@ category: app-admin
 license: Apache-2.0
 name: mongo-tools
 requires:
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: go
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: openssl
   version: '>=0'
-- labels: null
-  category: net-libs
+- category: net-libs
   name: libpcap
   version: '>=0'
 use_flags:

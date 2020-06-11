@@ -2,12 +2,10 @@ category: sci-libs
 license: BSD
 name: exodusii
 requires:
-- labels: null
-  category: sci-libs
+- category: sci-libs
   name: netcdf
   version: '>=0'
-- labels: null
-  category: sys-devel
+- category: sys-devel
   name: make
   version: '>=0'
 use_flags:

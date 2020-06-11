@@ -2,8 +2,7 @@ category: media-libs
 license: LGPL-2.1
 name: ladspa-cmt
 requires:
-- labels: null
-  category: media-libs
+- category: media-libs
   name: ladspa-sdk
   version: '>=1.13'
 use_flags:

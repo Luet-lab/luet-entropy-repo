@@ -2,24 +2,19 @@ category: dev-libs
 license: BSD-with-attribution
 name: cyrus-sasl-2
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: openssl
   version: '>=1.0.1h'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: db-6.0
   version: '>=4.8.30'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: gdbm
   version: '>=1.10'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: pam
   version: '>=0'
-- labels: null
-  category: net-mail
+- category: net-mail
   name: mailbase
   version: '>=0'
 use_flags:

@@ -2,16 +2,13 @@ category: sys-apps
 license: LGPL-2.1+
 name: xdg-dbus-proxy
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.40'
-- labels: null
-  category: app-text
+- category: app-text
   name: docbook-xsl-stylesheets
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxslt
   version: '>=0'
 use_flags:

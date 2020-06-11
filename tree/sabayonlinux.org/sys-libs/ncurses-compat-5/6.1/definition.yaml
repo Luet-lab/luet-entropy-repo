@@ -2,8 +2,7 @@ category: sys-libs
 license: MIT
 name: ncurses-compat-5
 requires:
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: gpm
   version: '>=0'
 use_flags:

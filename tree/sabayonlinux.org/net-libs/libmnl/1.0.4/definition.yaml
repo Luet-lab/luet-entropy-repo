@@ -2,8 +2,7 @@ category: net-libs
 license: LGPL-2.1
 name: libmnl
 requires:
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: glibc-2.2
   version: '>=0'
 use_flags:

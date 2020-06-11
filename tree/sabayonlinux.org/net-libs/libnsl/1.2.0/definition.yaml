@@ -2,8 +2,7 @@ category: net-libs
 license: LGPL-2.1+
 name: libnsl
 requires:
-- labels: null
-  category: net-libs
+- category: net-libs
   name: libtirpc
   version: '>=1.0.2'
 use_flags:

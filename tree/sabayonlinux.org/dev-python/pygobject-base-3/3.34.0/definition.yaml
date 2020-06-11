@@ -2,24 +2,19 @@ category: dev-python
 license: LGPL-2.1+
 name: pygobject-base-3
 requires:
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-2.7
   version: '>=2.7.5'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-exec-2
   version: '>=2'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.48'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: gobject-introspection
   version: '>=1.54'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-3.6
   version: '>=0'
 use_flags:

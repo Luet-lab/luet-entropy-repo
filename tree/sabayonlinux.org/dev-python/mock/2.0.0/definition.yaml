@@ -2,24 +2,19 @@ category: dev-python
 license: BSD
 name: mock
 requires:
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-2.7
   version: '>=2.7.5'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-exec-2
   version: '>=2'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: pbr
   version: '>=1.3'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: six
   version: '>=1.9'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-3.6
   version: '>=0'
 use_flags:

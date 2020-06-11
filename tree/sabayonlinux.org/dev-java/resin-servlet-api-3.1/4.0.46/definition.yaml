@@ -2,12 +2,10 @@ category: dev-java
 license: GPL-2
 name: resin-servlet-api-3.1
 requires:
-- labels: null
-  category: dev-java
+- category: dev-java
   name: java-config-2
   version: '>=2.2.0'
-- labels: null
-  category: app-arch
+- category: app-arch
   name: unzip
   version: '>=0'
 use_flags:

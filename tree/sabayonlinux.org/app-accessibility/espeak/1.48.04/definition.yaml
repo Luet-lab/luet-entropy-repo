@@ -2,16 +2,13 @@ category: app-accessibility
 license: GPL-3
 name: espeak
 requires:
-- labels: null
-  category: app-arch
+- category: app-arch
   name: unzip
   version: '>=0'
-- labels: null
-  category: media-sound
+- category: media-sound
   name: pulseaudio
   version: '>=0'
-- labels: null
-  category: media-sound
+- category: media-sound
   name: sox
   version: '>=0'
 use_flags:

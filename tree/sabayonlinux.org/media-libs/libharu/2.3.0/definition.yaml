@@ -2,12 +2,10 @@ category: media-libs
 license: ZLIB
 name: libharu
 requires:
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libpng
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: zlib
   version: '>=0'
 use_flags:

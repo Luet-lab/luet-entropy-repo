@@ -2,12 +2,10 @@ category: media-libs
 license: LGPL-2.1
 name: libaacs
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libgcrypt
   version: '>=1.5.3'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libgpg-error
   version: '>=1.12'
 use_flags:

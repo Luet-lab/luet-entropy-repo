@@ -2,8 +2,7 @@ category: media-sound
 license: GPL-2
 name: twolame
 requires:
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libsndfile
   version: '>=1.0.25'
 use_flags:

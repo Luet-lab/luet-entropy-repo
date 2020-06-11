@@ -2,8 +2,7 @@ category: media-libs
 license: GPL-3 LGPL-3
 name: liblqr
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=0'
 use_flags:

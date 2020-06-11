@@ -2,16 +2,13 @@ category: dev-ruby
 license: MIT
 name: rack-test-1.0
 requires:
-- labels: null
-  category: dev-ruby
+- category: dev-ruby
   name: rack-2.1
   version: <3
-- labels: null
-  category: dev-ruby
+- category: dev-ruby
   name: rack-2.1
   version: '>=1.0'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: ruby-2.5
   version: '>=0'
 use_flags:

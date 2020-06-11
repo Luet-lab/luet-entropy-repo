@@ -2,8 +2,7 @@ category: media-gfx
 license: LGPL-2
 name: qrencode
 requires:
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libpng
   version: '>=0'
 use_flags:

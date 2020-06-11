@@ -2,12 +2,10 @@ category: app-eselect
 license: GPL-2
 name: eselect-mpost
 requires:
-- labels: null
-  category: app-admin
+- category: app-admin
   name: eselect
   version: '>=1.2.3'
-- labels: null
-  category: app-text
+- category: app-text
   name: texlive-core
   version: '>=2008'
 use_flags:

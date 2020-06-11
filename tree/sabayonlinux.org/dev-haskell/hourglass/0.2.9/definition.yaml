@@ -2,12 +2,10 @@ category: dev-haskell
 license: BSD
 name: hourglass
 requires:
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: cabal
   version: '>=1.10'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: ghc
   version: '>=7.4.1'
 use_flags:

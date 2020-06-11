@@ -2,16 +2,13 @@ category: app-text
 license: docbook
 name: docbook-xml-simple-dtd-4.1.2.4
 requires:
-- labels: null
-  category: app-arch
+- category: app-arch
   name: unzip
   version: '>=5.41'
-- labels: null
-  category: app-text
+- category: app-text
   name: build-docbook-catalog
   version: '>=1.6'
-- labels: null
-  category: app-text
+- category: app-text
   name: sgml-common
   version: '>=0.6.3'
 use_flags:

@@ -2,60 +2,46 @@ category: app-text
 license: GPL-2
 name: docbook-sgml-utils
 requires:
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: perl
   version: '>=5'
-- labels: null
-  category: app-text
+- category: app-text
   name: docbook-dsssl-stylesheets
   version: '>=0'
-- labels: null
-  category: app-text
+- category: app-text
   name: docbook-xml-dtd-4.5
   version: '>=0'
-- labels: null
-  category: app-text
+- category: app-text
   name: openjade
   version: '>=0'
-- labels: null
-  category: dev-perl
+- category: dev-perl
   name: SGMLSpm
   version: '>=0'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: which
   version: '>=0'
-- labels: null
-  category: app-text
+- category: app-text
   name: docbook-sgml-dtd-4.5
   version: '>=3.0'
-- labels: null
-  category: app-text
+- category: app-text
   name: docbook-sgml-dtd-4.5
   version: '>=3.1'
-- labels: null
-  category: app-text
+- category: app-text
   name: docbook-sgml-dtd-4.5
   version: '>=4.0'
-- labels: null
-  category: app-text
+- category: app-text
   name: docbook-sgml-dtd-4.5
   version: '>=4.1'
-- labels: null
-  category: app-text
+- category: app-text
   name: docbook-sgml-dtd-4.5
   version: '>=4.2'
-- labels: null
-  category: app-text
+- category: app-text
   name: docbook-sgml-dtd-4.4
   version: '>=4.4'
-- labels: null
-  category: app-text
+- category: app-text
   name: docbook-xml-simple-dtd-4.1.2.4
   version: '>=1.0'
-- labels: null
-  category: app-text
+- category: app-text
   name: docbook-xml-simple-dtd-4.1.2.4
   version: '>=4.1.2.4'
 use_flags:

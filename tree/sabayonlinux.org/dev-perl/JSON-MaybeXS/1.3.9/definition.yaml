@@ -2,12 +2,10 @@ category: dev-perl
 license: Artistic GPL-1+
 name: JSON-MaybeXS
 requires:
-- labels: null
-  category: dev-perl
+- category: dev-perl
   name: JSON-XS
   version: '>=3.0.0'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: perl
   version: '>=0'
 use_flags:

@@ -2,36 +2,28 @@ category: gnome-base
 license: LGPL-2
 name: libgnome
 requires:
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: perl
   version: '>=5'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.16'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: popt
   version: '>=1.7'
-- labels: null
-  category: gnome-base
+- category: gnome-base
   name: gconf-2
   version: '>=2'
-- labels: null
-  category: gnome-base
+- category: gnome-base
   name: gnome-vfs-2
   version: '>=2.5.3'
-- labels: null
-  category: gnome-base
+- category: gnome-base
   name: libbonobo
   version: '>=2.13'
-- labels: null
-  category: gnome-base
+- category: gnome-base
   name: gvfs
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libcanberra
   version: '>=0'
 use_flags:

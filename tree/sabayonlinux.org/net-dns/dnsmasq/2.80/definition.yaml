@@ -2,20 +2,16 @@ category: net-dns
 license: GPL-2 GPL-3
 name: dnsmasq
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: nettle
   version: '>=3.4'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: nettle
   version: '>=0'
-- labels: null
-  category: net-libs
+- category: net-libs
   name: libnetfilter_conntrack
   version: '>=0'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: dbus
   version: '>=0'
 use_flags:

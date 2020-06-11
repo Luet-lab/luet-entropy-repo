@@ -2,16 +2,13 @@ category: sys-apps
 license: BSD
 name: xinetd
 requires:
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: tcp-wrappers
   version: '>=7.6'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: perl
   version: '>=0'
-- labels: null
-  category: net-libs
+- category: net-libs
   name: libtirpc
   version: '>=0'
 use_flags:

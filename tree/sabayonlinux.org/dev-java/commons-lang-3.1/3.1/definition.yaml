@@ -2,8 +2,7 @@ category: dev-java
 license: Apache-2.0
 name: commons-lang-3.1
 requires:
-- labels: null
-  category: dev-java
+- category: dev-java
   name: java-config-2
   version: '>=2.1.9'
 use_flags:

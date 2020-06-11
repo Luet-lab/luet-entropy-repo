@@ -2,12 +2,10 @@ category: dev-cpp
 license: LGPL-2.1
 name: libxmlpp-2.6
 requires:
-- labels: null
-  category: dev-cpp
+- category: dev-cpp
   name: glibmm-2
   version: '>=2.32'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxml2-2
   version: '>=2.7.7'
 use_flags:

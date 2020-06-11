@@ -2,16 +2,13 @@ category: x11-apps
 license: GPL-2 MIT
 name: xinit
 requires:
-- labels: null
-  category: x11-apps
+- category: x11-apps
   name: xauth
   version: '>=0'
-- labels: null
-  category: x11-apps
+- category: x11-apps
   name: xrdb
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libX11
   version: '>=0'
 use_flags:

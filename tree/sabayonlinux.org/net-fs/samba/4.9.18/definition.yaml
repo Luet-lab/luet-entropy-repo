@@ -2,128 +2,97 @@ category: net-fs
 license: GPL-3
 name: samba
 requires:
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: ldb
   version: <1.5.0
-- labels: null
-  category: app-arch
+- category: app-arch
   name: libarchive
   version: '>=3.1.2'
-- labels: null
-  category: app-crypt
+- category: app-crypt
   name: mit-krb5
   version: '>=1.15.1'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-2.7
   version: '>=2.7.5'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-exec-2
   version: '>=2'
-- labels: null
-  category: dev-util
+- category: dev-util
   name: cmocka
   version: '>=1.1.1'
-- labels: null
-  category: net-libs
+- category: net-libs
   name: gnutls
   version: '>=1.4.0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: ldb
   version: '>=1.4.8'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: talloc
   version: '>=2.1.14'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: tdb
   version: '>=1.3.16'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: tevent
   version: '>=0.9.37'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: perl
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: iniparser
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libaio
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libbsd
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libgcrypt
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: popt
   version: '>=0'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: subunit
   version: '>=0'
-- labels: null
-  category: net-dns
+- category: net-dns
   name: avahi-base
   version: '>=0'
-- labels: null
-  category: net-fs
+- category: net-fs
   name: cifs-utils
   version: '>=0'
-- labels: null
-  category: net-libs
+- category: net-libs
   name: libnsl
   version: '>=0'
-- labels: null
-  category: net-nds
+- category: net-nds
   name: openldap
   version: '>=0'
-- labels: null
-  category: net-print
+- category: net-print
   name: cups
   version: '>=0'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: attr
   version: '>=0'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: systemd
   version: '>=0'
-- labels: null
-  category: sys-cluster
+- category: sys-cluster
   name: glusterfs
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: libcap
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: ncurses
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: pam
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: readline
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: zlib
   version: '>=0'
 use_flags:

@@ -2,32 +2,25 @@ category: x11-misc
 license: MIT
 name: xdg-utils
 requires:
-- labels: null
-  category: dev-perl
+- category: dev-perl
   name: File-MimeInfo
   version: '>=0'
-- labels: null
-  category: dev-perl
+- category: dev-perl
   name: Net-DBus
   version: '>=0'
-- labels: null
-  category: dev-perl
+- category: dev-perl
   name: X11-Protocol
   version: '>=0'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: dbus
   version: '>=0'
-- labels: null
-  category: x11-apps
+- category: x11-apps
   name: xprop
   version: '>=0'
-- labels: null
-  category: x11-apps
+- category: x11-apps
   name: xset
   version: '>=0'
-- labels: null
-  category: x11-misc
+- category: x11-misc
   name: shared-mime-info
   version: '>=0'
 use_flags:

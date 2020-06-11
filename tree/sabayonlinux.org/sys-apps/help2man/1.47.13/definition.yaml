@@ -2,12 +2,10 @@ category: sys-apps
 license: GPL-3
 name: help2man
 requires:
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: perl
   version: '>=0'
-- labels: null
-  category: dev-perl
+- category: dev-perl
   name: Locale-gettext
   version: '>=0'
 use_flags:

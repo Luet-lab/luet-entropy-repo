@@ -2,28 +2,22 @@ category: dev-db
 license: GPL-2
 name: freetds
 requires:
-- labels: null
-  category: dev-db
+- category: dev-db
   name: unixODBC
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: openssl
   version: '>=0'
-- labels: null
-  category: net-dns
+- category: net-dns
   name: bind-tools
   version: '>=0'
-- labels: null
-  category: net-libs
+- category: net-libs
   name: gnutls
   version: '>=0'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: grep
   version: '>=0'
-- labels: null
-  category: sys-devel
+- category: sys-devel
   name: binutils-2.32
   version: '>=0'
 use_flags:

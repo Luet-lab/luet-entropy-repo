@@ -2,16 +2,13 @@ category: gnome-extra
 license: LGPL-2
 name: polkit-gnome
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.30'
-- labels: null
-  category: sys-auth
+- category: sys-auth
   name: polkit
   version: '>=0.102'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: gtk+-3
   version: '>=0'
 use_flags:

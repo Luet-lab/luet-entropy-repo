@@ -2,8 +2,7 @@ category: media-libs
 license: BSD
 name: qhull
 requires:
-- labels: null
-  category: sys-devel
+- category: sys-devel
   name: make
   version: '>=0'
 use_flags:

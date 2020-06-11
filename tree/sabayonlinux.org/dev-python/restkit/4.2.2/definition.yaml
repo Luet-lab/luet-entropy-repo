@@ -2,24 +2,19 @@ category: dev-python
 license: MIT
 name: restkit
 requires:
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-2.7
   version: '>=2.7.5'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-exec-2
   version: '>=2'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: http-parser
   version: '>=0.8.3'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: socketpool
   version: '>=0.5.3'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: webob
   version: '>=0'
 use_flags:

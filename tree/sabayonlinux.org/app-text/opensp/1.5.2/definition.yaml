@@ -2,8 +2,7 @@ category: app-text
 license: MIT
 name: opensp
 requires:
-- labels: null
-  category: net-libs
+- category: net-libs
   name: libnsl
   version: '>=0'
 use_flags:

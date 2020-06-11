@@ -2,8 +2,7 @@ category: app-eselect
 license: GPL-2
 name: eselect-opencl
 requires:
-- labels: null
-  category: app-admin
+- category: app-admin
   name: eselect
   version: '>=1.2.4'
 use_flags:

@@ -2,16 +2,13 @@ category: dev-haskell
 license: BSD
 name: tagsoup
 requires:
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: cabal
   version: '>=1.6'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: ghc
   version: '>=7.4.1'
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: text
   version: '>=0'
 use_flags:

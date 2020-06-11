@@ -2,8 +2,7 @@ category: dev-libs
 license: Apache-2.0
 name: apr-1
 requires:
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: util-linux
   version: '>=2.16'
 use_flags:

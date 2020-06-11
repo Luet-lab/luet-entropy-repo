@@ -2,16 +2,13 @@ category: dev-perl
 license: Artistic GPL-1+
 name: IO-Socket-SSL
 requires:
-- labels: null
-  category: dev-perl
+- category: dev-perl
   name: Net-SSLeay
   version: '>=1.460.0'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: perl
   version: '>=0'
-- labels: null
-  category: dev-perl
+- category: dev-perl
   name: Mozilla-CA
   version: '>=0'
 use_flags:

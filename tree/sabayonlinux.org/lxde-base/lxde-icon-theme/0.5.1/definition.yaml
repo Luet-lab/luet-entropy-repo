@@ -2,8 +2,7 @@ category: lxde-base
 license: GPL-2
 name: lxde-icon-theme
 requires:
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: gtk+-3
   version: '>=0'
 use_flags:

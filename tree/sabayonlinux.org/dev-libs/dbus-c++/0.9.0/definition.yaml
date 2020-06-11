@@ -2,8 +2,7 @@ category: dev-libs
 license: LGPL-2.1+
 name: dbus-c++
 requires:
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: dbus
   version: '>=0'
 use_flags:

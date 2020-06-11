@@ -2,44 +2,34 @@ category: gnome-base
 license: metapackage
 name: gnome-2.0
 requires:
-- labels: null
-  category: gnome-base
+- category: gnome-base
   name: gdm
   version: '>=3.32.0'
-- labels: null
-  category: gnome-base
+- category: gnome-base
   name: gnome-core-apps-3.0
   version: '>=3.32.2'
-- labels: null
-  category: gnome-base
+- category: gnome-base
   name: gnome-core-libs-3.0
   version: '>=3.32.2'
-- labels: null
-  category: gnome-base
+- category: gnome-base
   name: gnome-shell
   version: '>=3.32.2'
-- labels: null
-  category: gnome-base
+- category: gnome-base
   name: gvfs
   version: '>=1.40.1'
-- labels: null
-  category: gnome-extra
+- category: gnome-extra
   name: gnome-shell-extensions
   version: '>=3.32.1'
-- labels: null
-  category: media-fonts
+- category: media-fonts
   name: cantarell
   version: '>=0.111'
-- labels: null
-  category: x11-themes
+- category: x11-themes
   name: gnome-backgrounds
   version: '>=3.32.0'
-- labels: null
-  category: x11-wm
+- category: x11-wm
   name: mutter
   version: '>=3.32.2'
-- labels: null
-  category: x11-themes
+- category: x11-themes
   name: sound-theme-freedesktop
   version: '>=0'
 use_flags:

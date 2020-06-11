@@ -2,36 +2,28 @@ category: app-admin
 license: GPL-2+ LGPL-2.1+
 name: syslog-ng
 requires:
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-exec-2
   version: '>=2'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.10.1'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: ivykis
   version: '>=0.42.4'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libpcre-3
   version: '>=6.1'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: tcp-wrappers
   version: '>=7.6'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-3.6
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: openssl
   version: '>=0'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: systemd
   version: '>=0'
 use_flags:

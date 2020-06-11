@@ -2,12 +2,10 @@ category: dev-libs
 license: AMD-GPU-PRO-EULA
 name: amdgpu-pro-opencl
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: ocl-icd
   version: '>=0'
-- labels: null
-  category: dev-util
+- category: dev-util
   name: patchelf
   version: '>=0'
 use_flags:

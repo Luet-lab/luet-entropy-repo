@@ -2,20 +2,16 @@ category: net-dns
 license: Apache-2.0 BSD BSD-2 GPL-2 HPND ISC MPL-2.0
 name: bind-tools
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxml2-2
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: openssl
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: libcap
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: readline
   version: '>=0'
 use_flags:

@@ -2,12 +2,10 @@ category: gnome-base
 license: GPL-2+ LGPL-2+
 name: gnome-menus-3
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.29.15'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: gobject-introspection
   version: '>=0.9.5'
 use_flags:

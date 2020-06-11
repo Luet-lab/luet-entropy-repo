@@ -2,16 +2,13 @@ category: sci-libs
 license: MIT
 name: cfitsio
 requires:
-- labels: null
-  category: app-arch
+- category: app-arch
   name: bzip2
   version: '>=0'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: cfortran
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: zlib
   version: '>=0'
 use_flags:

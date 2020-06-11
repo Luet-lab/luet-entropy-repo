@@ -2,12 +2,10 @@ category: media-libs
 license: MIT
 name: ftgl
 requires:
-- labels: null
-  category: media-libs
+- category: media-libs
   name: freetype-2
   version: '>=2.0.9'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: freeglut
   version: '>=0'
 use_flags:

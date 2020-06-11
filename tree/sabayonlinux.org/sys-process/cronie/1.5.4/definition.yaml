@@ -2,16 +2,13 @@ category: sys-process
 license: BSD BSD-2 GPL-2 ISC
 name: cronie
 requires:
-- labels: null
-  category: sys-process
+- category: sys-process
   name: cronbase
   version: '>=0.3.2'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: debianutils
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: pam
   version: '>=0'
 use_flags:

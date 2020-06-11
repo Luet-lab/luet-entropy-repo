@@ -2,32 +2,25 @@ category: dev-ruby
 license: MIT
 name: railties-6.0
 requires:
-- labels: null
-  category: app-eselect
+- category: app-eselect
   name: eselect-rails
   version: '>=0.24'
-- labels: null
-  category: dev-ruby
+- category: dev-ruby
   name: rake
   version: '>=0.8.7'
-- labels: null
-  category: dev-ruby
+- category: dev-ruby
   name: thor
   version: '>=0.20.3'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: ruby-2.5
   version: '>=0'
-- labels: null
-  category: dev-ruby
+- category: dev-ruby
   name: method_source
   version: '>=0'
-- labels: null
-  category: dev-ruby
+- category: dev-ruby
   name: actionpack-6.0
   version: '>=6.0.2.1'
-- labels: null
-  category: dev-ruby
+- category: dev-ruby
   name: activesupport-6.0
   version: '>=6.0.2.1'
 use_flags:

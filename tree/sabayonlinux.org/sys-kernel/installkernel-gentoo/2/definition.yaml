@@ -2,8 +2,7 @@ category: sys-kernel
 license: GPL-2+
 name: installkernel-gentoo
 requires:
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: debianutils
   version: '>=4.9'
 use_flags:

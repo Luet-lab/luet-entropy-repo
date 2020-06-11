@@ -2,56 +2,43 @@ category: app-misc
 license: GPL-2+
 name: lirc
 requires:
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-exec-2
   version: '>=2'
-- labels: null
-  category: dev-embedded
+- category: dev-embedded
   name: libftdi-1
   version: '>=0'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-3.6
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxslt
   version: '>=0'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: pygobject-base-3
   version: '>=0'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: pyyaml
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: portaudio
   version: '>=0'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: kmod
   version: '>=0'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: systemd
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libICE
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libSM
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libX11
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: vte-2.91
   version: '>=0'
 use_flags:

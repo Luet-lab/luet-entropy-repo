@@ -2,44 +2,34 @@ category: app-accessibility
 license: GPL-2
 name: speech-dispatcher
 requires:
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-exec-2
   version: '>=2'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: dotconf
   version: '>=1.3'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.28'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libsndfile
   version: '>=1.0.2'
-- labels: null
-  category: app-accessibility
+- category: app-accessibility
   name: espeak
   version: '>=0'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-3.6
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libltdl
   version: '>=0'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: pyxdg
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: alsa-lib
   version: '>=0'
-- labels: null
-  category: media-sound
+- category: media-sound
   name: pulseaudio
   version: '>=0'
 use_flags:

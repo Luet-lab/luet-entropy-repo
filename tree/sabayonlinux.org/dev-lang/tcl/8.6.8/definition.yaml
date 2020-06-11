@@ -2,8 +2,7 @@ category: dev-lang
 license: tcltk
 name: tcl
 requires:
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: zlib
   version: '>=1.2.8'
 use_flags:

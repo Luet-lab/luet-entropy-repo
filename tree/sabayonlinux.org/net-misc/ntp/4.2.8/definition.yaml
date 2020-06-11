@@ -2,24 +2,19 @@ category: net-misc
 license: BSD HPND ISC
 name: ntp
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libevent
   version: '>=2.0.9'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: readline
   version: '>=4.1'
-- labels: null
-  category: acct-group
+- category: acct-group
   name: ntp
   version: '>=0'
-- labels: null
-  category: acct-user
+- category: acct-user
   name: ntp
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: openssl
   version: '>=0'
 use_flags:

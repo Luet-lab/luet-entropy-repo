@@ -2,52 +2,40 @@ category: app-admin
 license: GPL-2
 name: packagekit-base
 requires:
-- labels: null
-  category: app-portage
+- category: app-portage
   name: layman
   version: '>=2'
-- labels: null
-  category: app-shells
+- category: app-shells
   name: bash-completion
   version: '>=2'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-2.7
   version: '>=2.7.5'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-exec-2
   version: '>=2'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: dbus-glib
   version: '>=0.74'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.54.0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: gobject-introspection
   version: '>=0.9.9'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: dbus
   version: '>=1.3.0'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: entropy
   version: '>=234'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: systemd
   version: '>=213'
-- labels: null
-  category: sys-auth
+- category: sys-auth
   name: polkit
   version: '>=0.114'
-- labels: null
-  category: dev-db
+- category: dev-db
   name: sqlite-3
   version: '>=0'
 use_flags:

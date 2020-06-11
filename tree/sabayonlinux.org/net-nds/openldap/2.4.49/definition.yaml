@@ -2,28 +2,22 @@ category: net-nds
 license: GPL-2 OPENLDAP
 name: openldap
 requires:
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: db-6.0
   version: '>=6.0'
-- labels: null
-  category: dev-db
+- category: dev-db
   name: lmdb
   version: '>=0.9.18'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libgcrypt
   version: '>=1.5.3'
-- labels: null
-  category: net-libs
+- category: net-libs
   name: gnutls
   version: '>=2.12.23'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: perl
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: cyrus-sasl-2
   version: '>=0'
 use_flags:

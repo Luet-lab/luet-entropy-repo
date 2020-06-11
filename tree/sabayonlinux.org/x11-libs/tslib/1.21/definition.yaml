@@ -2,8 +2,7 @@ category: x11-libs
 license: LGPL-2
 name: tslib
 requires:
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libsdl2
   version: '>=0'
 use_flags:

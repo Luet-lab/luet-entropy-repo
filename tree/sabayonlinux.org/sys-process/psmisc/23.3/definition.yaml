@@ -2,12 +2,10 @@ category: sys-process
 license: GPL-2
 name: psmisc
 requires:
-- labels: null
-  category: sys-devel
+- category: sys-devel
   name: libtool-2
   version: '>=2.2.6b'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: ncurses
   version: '>=5.7'
 use_flags:

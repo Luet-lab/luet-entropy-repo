@@ -2,12 +2,10 @@ category: net-firewall
 license: GPL-2
 name: ebtables
 requires:
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: perl
   version: '>=0'
-- labels: null
-  category: net-misc
+- category: net-misc
   name: ethertypes
   version: '>=0'
 use_flags:

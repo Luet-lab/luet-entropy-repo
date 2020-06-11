@@ -2,8 +2,7 @@ category: media-libs
 license: GPL-2 LGPL-2.1
 name: libiec61883
 requires:
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: libraw1394
   version: '>=2.1.0'
 use_flags:

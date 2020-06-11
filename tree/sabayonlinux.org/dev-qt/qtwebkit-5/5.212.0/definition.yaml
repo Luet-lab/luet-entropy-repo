@@ -2,84 +2,64 @@ category: dev-qt
 license: BSD LGPL-2+
 name: qtwebkit-5
 requires:
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtcore-5
   version: '>=5.9.1'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtgui-5
   version: '>=5.9.1'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtnetwork-5
   version: '>=5.9.1'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtopengl-5
   version: '>=5.9.1'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtprintsupport-5
   version: '>=5.9.1'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtwidgets-5
   version: '>=5.9.1'
-- labels: null
-  category: dev-db
+- category: dev-db
   name: sqlite-3
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: hyphen
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: icu
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxml2-2
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxslt
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: gst-plugins-bad-1.0
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: gst-plugins-base-1.0
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: gstreamer-1.0
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libpng
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: woff2
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libX11
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXcomposite
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXrender
   version: '>=0'
 use_flags:

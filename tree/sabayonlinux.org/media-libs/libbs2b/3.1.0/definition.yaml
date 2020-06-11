@@ -2,8 +2,7 @@ category: media-libs
 license: MIT
 name: libbs2b
 requires:
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libsndfile
   version: '>=1.0.25'
 use_flags:

@@ -2,40 +2,31 @@ category: dev-util
 license: GPL-2
 name: systemtap
 requires:
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-2.7
   version: '>=2.7.5'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-exec-2
   version: '>=2'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: elfutils
   version: '>=0.142'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: json-c
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: nspr
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: nss
   version: '>=0'
-- labels: null
-  category: net-dns
+- category: net-dns
   name: avahi-base
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: ncurses
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: readline
   version: '>=0'
 use_flags:

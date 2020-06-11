@@ -2,12 +2,10 @@ category: app-crypt
 license: CPL-1.0 GPL-2
 name: trousers
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: openssl
   version: '>=0.9.7'
 use_flags:

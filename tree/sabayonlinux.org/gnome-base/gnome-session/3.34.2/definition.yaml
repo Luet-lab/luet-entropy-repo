@@ -4,80 +4,61 @@ category: gnome-base
 license: GPL-2+
 name: gnome-session
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.46.0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: json-glib
   version: '>=0.10'
-- labels: null
-  category: gnome-base
+- category: gnome-base
   name: gnome-desktop-3
   version: '>=3.18'
-- labels: null
-  category: gnome-base
+- category: gnome-base
   name: gnome-settings-daemon
   version: '>=3.23.2'
-- labels: null
-  category: gnome-base
+- category: gnome-base
   name: gsettings-desktop-schemas
   version: '>=0.1.7'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: systemd
   version: '>=183'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: gtk+-3
   version: '>=3.18.0'
-- labels: null
-  category: x11-misc
+- category: x11-misc
   name: notification-daemon
   version: '>=0.7.1'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxslt
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libepoxy
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: mesa
   version: '>=0'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: dbus
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libICE
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libSM
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libX11
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXcomposite
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: xtrans
   version: '>=0'
-- labels: null
-  category: x11-misc
+- category: x11-misc
   name: xdg-user-dirs
   version: '>=0'
-- labels: null
-  category: x11-misc
+- category: x11-misc
   name: xdg-user-dirs-gtk
   version: '>=0'
 use_flags:

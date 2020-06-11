@@ -2,12 +2,10 @@ category: dev-libs
 license: BSD GPL-2
 name: pkcs11-helper
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: openssl
   version: '>=0.9.7'
-- labels: null
-  category: net-libs
+- category: net-libs
   name: gnutls
   version: '>=1.4.4'
 use_flags:

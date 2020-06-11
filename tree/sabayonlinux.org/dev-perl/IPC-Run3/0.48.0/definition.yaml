@@ -2,8 +2,7 @@ category: dev-perl
 license: Artistic BSD-2 GPL-1+
 name: IPC-Run3
 requires:
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: perl
   version: '>=0'
 use_flags:

@@ -2,12 +2,10 @@ category: dev-java
 license: CPL-1.0
 name: junit
 requires:
-- labels: null
-  category: dev-java
+- category: dev-java
   name: java-config-2
   version: '>=2.2.0'
-- labels: null
-  category: app-arch
+- category: app-arch
   name: zip
   version: '>=0'
 use_flags:

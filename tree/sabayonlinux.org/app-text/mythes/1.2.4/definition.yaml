@@ -2,8 +2,7 @@ category: app-text
 license: MIT
 name: mythes
 requires:
-- labels: null
-  category: app-text
+- category: app-text
   name: hunspell
   version: '>=0'
 use_flags:

@@ -2,28 +2,22 @@ category: net-firewall
 license: GPL-2
 name: nftables
 requires:
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-exec-2
   version: '>=2'
-- labels: null
-  category: net-libs
+- category: net-libs
   name: libmnl
   version: '>=1.0.3'
-- labels: null
-  category: net-libs
+- category: net-libs
   name: libnftnl
   version: '>=1.1.5'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-3.6
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: gmp
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: readline
   version: '>=0'
 use_flags:

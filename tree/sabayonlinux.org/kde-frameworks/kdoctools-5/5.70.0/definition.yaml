@@ -2,40 +2,31 @@ category: kde-frameworks
 license: MIT
 name: kdoctools-5
 requires:
-- labels: null
-  category: kde-frameworks
+- category: kde-frameworks
   name: karchive-5
   version: '>=5.67'
-- labels: null
-  category: kde-frameworks
+- category: kde-frameworks
   name: kf-env-5
   version: '>=4'
-- labels: null
-  category: kde-frameworks
+- category: kde-frameworks
   name: ki18n-5
   version: '>=5.67'
-- labels: null
-  category: app-text
+- category: app-text
   name: docbook-xml-dtd-4.5
   version: '>=0'
-- labels: null
-  category: app-text
+- category: app-text
   name: docbook-xsl-stylesheets
   version: '>=0'
-- labels: null
-  category: app-text
+- category: app-text
   name: sgml-common
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxml2-2
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxslt
   version: '>=0'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtcore-5
   version: '>=0'
 use_flags:

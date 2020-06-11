@@ -2,28 +2,22 @@ category: dev-scheme
 license: GPL-3+ LGPL-3
 name: racket
 requires:
-- labels: null
-  category: dev-db
+- category: dev-db
   name: sqlite-3
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libedit
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libpng
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: cairo
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: gtk+-3
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: pango
   version: '>=0'
 use_flags:

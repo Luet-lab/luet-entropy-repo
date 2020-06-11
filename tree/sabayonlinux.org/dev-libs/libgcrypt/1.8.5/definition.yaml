@@ -2,8 +2,7 @@ category: dev-libs
 license: LGPL-2.1 MIT
 name: libgcrypt
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libgpg-error
   version: '>=1.25'
 use_flags:

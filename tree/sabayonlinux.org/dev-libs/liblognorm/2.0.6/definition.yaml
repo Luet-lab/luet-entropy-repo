@@ -2,12 +2,10 @@ category: dev-libs
 license: Apache-2.0 LGPL-2.1
 name: liblognorm
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libestr
   version: '>=0.1.3'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libfastjson
   version: '>=0.99.2'
 use_flags:

@@ -2,8 +2,7 @@ category: media-libs
 license: LGPL-2.1
 name: libmtp
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libgcrypt
   version: '>=1.5.4'
 use_flags:

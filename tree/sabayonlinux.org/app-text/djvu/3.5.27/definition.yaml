@@ -2,8 +2,7 @@ category: app-text
 license: GPL-2
 name: djvu
 requires:
-- labels: null
-  category: media-libs
+- category: media-libs
   name: tiff
   version: '>=0'
 use_flags:

@@ -2,12 +2,10 @@ category: x11-misc
 license: GPL-2
 name: xdg-user-dirs
 requires:
-- labels: null
-  category: app-text
+- category: app-text
   name: docbook-xml-dtd-4.5
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxslt
   version: '>=0'
 use_flags:

@@ -2,16 +2,13 @@ category: app-text
 license: W3C
 name: xhtml1
 requires:
-- labels: null
-  category: app-text
+- category: app-text
   name: sgml-common
   version: '>=0.6.3'
-- labels: null
-  category: app-text
+- category: app-text
   name: sgml-common
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxml2-2
   version: '>=0'
 use_flags:

@@ -2,12 +2,10 @@ category: mail-filter
 license: DCC GPL-2
 name: dcc
 requires:
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: perl
   version: '>=0'
-- labels: null
-  category: net-ftp
+- category: net-ftp
   name: ftp
   version: '>=0'
 use_flags:

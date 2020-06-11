@@ -2,8 +2,7 @@ category: dev-libs
 license: BSD-2
 name: protobuf-c
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: protobuf
   version: '>=0'
 use_flags:

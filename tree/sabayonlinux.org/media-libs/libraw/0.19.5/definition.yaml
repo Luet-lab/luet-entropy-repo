@@ -2,8 +2,7 @@ category: media-libs
 license: CDDL LGPL-2.1
 name: libraw
 requires:
-- labels: null
-  category: media-libs
+- category: media-libs
   name: lcms-2
   version: '>=2.5'
 use_flags:

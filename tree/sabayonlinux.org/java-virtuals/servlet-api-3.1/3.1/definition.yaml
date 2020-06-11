@@ -2,12 +2,10 @@ category: java-virtuals
 license: public-domain
 name: servlet-api-3.1
 requires:
-- labels: null
-  category: dev-java
+- category: dev-java
   name: java-config-2
   version: '>=2.2.0'
-- labels: null
-  category: dev-java
+- category: dev-java
   name: resin-servlet-api-3.1
   version: '>=0'
 use_flags:

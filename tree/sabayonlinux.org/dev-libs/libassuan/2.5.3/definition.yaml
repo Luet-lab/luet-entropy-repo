@@ -2,8 +2,7 @@ category: dev-libs
 license: GPL-3 LGPL-2.1
 name: libassuan
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libgpg-error
   version: '>=1.8'
 use_flags:

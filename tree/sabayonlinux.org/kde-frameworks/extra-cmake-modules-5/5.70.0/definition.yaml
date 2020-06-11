@@ -2,8 +2,7 @@ category: kde-frameworks
 license: BSD
 name: extra-cmake-modules-5
 requires:
-- labels: null
-  category: app-arch
+- category: app-arch
   name: libarchive
   version: '>=0'
 use_flags:

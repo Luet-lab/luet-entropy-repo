@@ -2,12 +2,10 @@ category: app-xemacs
 license: GPL-2+
 name: debug
 requires:
-- labels: null
-  category: app-editors
+- category: app-editors
   name: xemacs
   version: '>=0'
-- labels: null
-  category: app-xemacs
+- category: app-xemacs
   name: xemacs-base
   version: '>=0'
 use_flags:

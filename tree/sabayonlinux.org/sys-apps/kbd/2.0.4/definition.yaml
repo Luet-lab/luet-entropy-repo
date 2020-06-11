@@ -2,12 +2,10 @@ category: sys-apps
 license: GPL-2
 name: kbd
 requires:
-- labels: null
-  category: app-arch
+- category: app-arch
   name: gzip
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: pam
   version: '>=0'
 use_flags:

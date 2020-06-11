@@ -2,8 +2,7 @@ category: sys-fs
 license: GPL-3
 name: growpart
 requires:
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: gptfdisk
   version: '>=0'
 use_flags:

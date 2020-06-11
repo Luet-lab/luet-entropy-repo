@@ -4,8 +4,7 @@ category: sys-auth
 license: BSD-2 GPL-2
 name: pam_krb5
 requires:
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: pam
   version: '>=0'
 use_flags:

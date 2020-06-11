@@ -2,8 +2,7 @@ category: media-libs
 license: AGPL-3
 name: jbig2dec
 requires:
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libpng
   version: '>=0'
 use_flags:

@@ -2,20 +2,16 @@ category: dev-java
 license: GPL-2
 name: java-config-2
 requires:
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-exec-2
   version: '>=2'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-3.6
   version: '>=0'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: baselayout-java
   version: '>=0'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: portage
   version: '>=0'
 use_flags:

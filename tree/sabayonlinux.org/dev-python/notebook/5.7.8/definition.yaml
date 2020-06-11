@@ -2,68 +2,52 @@ category: dev-python
 license: BSD
 name: notebook
 requires:
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-exec-2
   version: '>=2'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: mathjax
   version: '>=2.4'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: jupyter_client
   version: '>=5.2'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: jupyter_core
   version: '>=4.4.0'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: nbconvert
   version: '>=4.2.0'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: pyzmq
   version: '>=17'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: terminado
   version: '>=0.8.1'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: traitlets
   version: '>=4.2.1'
-- labels: null
-  category: www-servers
+- category: www-servers
   name: tornado
   version: '>=4.0'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-3.6
   version: '>=0'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: ipykernel
   version: '>=0'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: ipython_genutils
   version: '>=0'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: jinja
   version: '>=0'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: nbformat
   version: '>=0'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: prometheus_client
   version: '>=0'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: send2trash
   version: '>=0'
 use_flags:

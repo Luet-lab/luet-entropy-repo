@@ -2,32 +2,25 @@ category: net-vpn
 license: GPL-2 LGPL-2.1
 name: openconnect
 requires:
-- labels: null
-  category: net-libs
+- category: net-libs
   name: gnutls
   version: '>=3'
-- labels: null
-  category: app-crypt
+- category: app-crypt
   name: trousers
   version: '>=0'
-- labels: null
-  category: app-misc
+- category: app-misc
   name: ca-certificates
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxml2-2
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: nettle
   version: '>=0'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: iproute2
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: zlib
   version: '>=0'
 use_flags:

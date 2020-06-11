@@ -2,8 +2,7 @@ category: x11-themes
 license: CC-BY-3.0 CC-BY-SA-2.0 GPL-2 LGPL-2
 name: sound-theme-freedesktop
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=0'
 use_flags:

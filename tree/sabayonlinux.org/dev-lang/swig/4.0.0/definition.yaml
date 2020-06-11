@@ -2,8 +2,7 @@ category: dev-lang
 license: BSD BSD-2 GPL-3+
 name: swig
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libpcre-3
   version: '>=0'
 use_flags:

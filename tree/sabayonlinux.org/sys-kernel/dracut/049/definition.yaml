@@ -2,44 +2,34 @@ category: sys-kernel
 license: GPL-2
 name: dracut
 requires:
-- labels: null
-  category: app-shells
+- category: app-shells
   name: bash
   version: '>=4.0'
-- labels: null
-  category: app-text
+- category: app-text
   name: docbook-xsl-stylesheets
   version: '>=1.75.2'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxslt
   version: '>=1.1.26'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: kmod
   version: '>=23'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: util-linux
   version: '>=2.21'
-- labels: null
-  category: app-arch
+- category: app-arch
   name: cpio
   version: '>=0'
-- labels: null
-  category: app-text
+- category: app-text
   name: asciidoc
   version: '>=0'
-- labels: null
-  category: app-text
+- category: app-text
   name: docbook-xml-dtd-4.5
   version: '>=0'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: coreutils
   version: '>=0'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: systemd
   version: '>=0'
 use_flags:

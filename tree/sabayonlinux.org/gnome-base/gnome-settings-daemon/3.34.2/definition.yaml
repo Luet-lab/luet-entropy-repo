@@ -4,116 +4,88 @@ category: gnome-base
 license: GPL-2+ LGPL-2+
 name: gnome-settings-daemon
 requires:
-- labels: null
-  category: app-misc
+- category: app-misc
   name: geoclue-2.0
   version: '>=2.3.1'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.56'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libgweather-2
   version: '>=3.9.5'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libwacom
   version: '>=0.7'
-- labels: null
-  category: gnome-base
+- category: gnome-base
   name: gnome-desktop-3
   version: '>=3.11.1'
-- labels: null
-  category: gnome-base
+- category: gnome-base
   name: gsettings-desktop-schemas
   version: '>=3.27.90'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: lcms-2
   version: '>=2.2'
-- labels: null
-  category: media-sound
+- category: media-sound
   name: pulseaudio
   version: '>=2'
-- labels: null
-  category: net-misc
+- category: net-misc
   name: networkmanager
   version: '>=1.0'
-- labels: null
-  category: net-print
+- category: net-print
   name: cups
   version: '>=1.4'
-- labels: null
-  category: sci-geosciences
+- category: sci-geosciences
   name: geocode-glib
   version: '>=3.10'
-- labels: null
-  category: sys-auth
+- category: sys-auth
   name: polkit
   version: '>=0.114'
-- labels: null
-  category: sys-power
+- category: sys-power
   name: upower
   version: '>=0.99'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: gtk+-3
   version: '>=3.15.3'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libnotify
   version: '>=0.7.3'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: pango
   version: '>=1.20.0'
-- labels: null
-  category: x11-misc
+- category: x11-misc
   name: colord
   version: '>=1.0.2'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-3.6
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: wayland
   version: '>=0'
-- labels: null
-  category: gnome-base
+- category: gnome-base
   name: dconf
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: alsa-lib
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: fontconfig-1.0
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libcanberra
   version: '>=0'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: systemd
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: gdk-pixbuf-2
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libX11
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXext
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXi
   version: '>=0'
 use_flags:

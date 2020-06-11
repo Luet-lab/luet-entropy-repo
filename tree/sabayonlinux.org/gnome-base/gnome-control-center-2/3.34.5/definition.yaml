@@ -2,180 +2,136 @@ category: gnome-base
 license: GPL-2+
 name: gnome-control-center-2
 requires:
-- labels: null
-  category: app-i18n
+- category: app-i18n
   name: ibus
   version: '>=1.5.2'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.53.0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libpwquality
   version: '>=1.2.2'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libwacom
   version: '>=0.27'
-- labels: null
-  category: gnome-base
+- category: gnome-base
   name: gnome-desktop-3
   version: '>=3.27.90'
-- labels: null
-  category: gnome-base
+- category: gnome-base
   name: gnome-session
   version: '>=2.91.6'
-- labels: null
-  category: gnome-base
+- category: gnome-base
   name: gnome-settings-daemon
   version: '>=3.25.90'
-- labels: null
-  category: gnome-base
+- category: gnome-base
   name: gsettings-desktop-schemas
   version: '>=3.31.0'
-- labels: null
-  category: gnome-base
+- category: gnome-base
   name: libgnomekbd
   version: '>=3'
-- labels: null
-  category: gnome-extra
+- category: gnome-extra
   name: gnome-color-manager
   version: '>=3.1.2'
-- labels: null
-  category: gnome-extra
+- category: gnome-extra
   name: nm-applet
   version: '>=1.8.0'
-- labels: null
-  category: gui-libs
+- category: gui-libs
   name: libhandy-0.0
   version: '>=0.0.9'
-- labels: null
-  category: media-sound
+- category: media-sound
   name: pulseaudio
   version: '>=2.0'
-- labels: null
-  category: media-video
+- category: media-video
   name: cheese
   version: '>=3.28.0'
-- labels: null
-  category: net-fs
+- category: net-fs
   name: samba
   version: '>=4.0.0'
-- labels: null
-  category: net-libs
+- category: net-libs
   name: gnome-online-accounts
   version: '>=3.25.3'
-- labels: null
-  category: net-misc
+- category: net-misc
   name: modemmanager
   version: '>=0.7.990'
-- labels: null
-  category: net-misc
+- category: net-misc
   name: networkmanager
   version: '>=1.10.0'
-- labels: null
-  category: net-print
+- category: net-print
   name: cups
   version: '>=1.7'
-- labels: null
-  category: net-wireless
+- category: net-wireless
   name: gnome-bluetooth-2
   version: '>=3.18.2'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: accountsservice
   version: '>=0.6.39'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: systemd
   version: '>=31'
-- labels: null
-  category: sys-auth
+- category: sys-auth
   name: polkit
   version: '>=0.114'
-- labels: null
-  category: sys-fs
+- category: sys-fs
   name: udisks-2
   version: '>=2.1.8'
-- labels: null
-  category: sys-power
+- category: sys-power
   name: upower
   version: '>=0.99.8'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: colord-gtk
   version: '>=0.1.24'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: gdk-pixbuf-2
   version: '>=2.23.0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: gtk+-3
   version: '>=3.22.0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXi
   version: '>=1.2'
-- labels: null
-  category: x11-misc
+- category: x11-misc
   name: colord
   version: '>=0.1.34'
-- labels: null
-  category: app-admin
+- category: app-admin
   name: system-config-printer
   version: '>=0'
-- labels: null
-  category: app-crypt
+- category: app-crypt
   name: libsecret
   version: '>=0'
-- labels: null
-  category: app-crypt
+- category: app-crypt
   name: mit-krb5
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libinput
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxml2-2
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxslt
   version: '>=0'
-- labels: null
-  category: gnome-base
+- category: gnome-base
   name: libgtop-2
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: fontconfig-1.0
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: gsound
   version: '>=0'
-- labels: null
-  category: net-libs
+- category: net-libs
   name: libsoup-2.4
   version: '>=0'
-- labels: null
-  category: net-print
+- category: net-print
   name: cups-pk-helper
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: cairo
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libX11
   version: '>=0'
-- labels: null
-  category: x11-themes
+- category: x11-themes
   name: adwaita-icon-theme
   version: '>=0'
 use_flags:

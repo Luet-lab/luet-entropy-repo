@@ -2,12 +2,10 @@ category: kde-frameworks
 license: LGPL-2+
 name: threadweaver-5
 requires:
-- labels: null
-  category: kde-frameworks
+- category: kde-frameworks
   name: kf-env-5
   version: '>=4'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtcore-5
   version: '>=0'
 use_flags:

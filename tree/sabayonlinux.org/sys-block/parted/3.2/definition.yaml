@@ -2,20 +2,16 @@ category: sys-block
 license: GPL-3
 name: parted
 requires:
-- labels: null
-  category: sys-fs
+- category: sys-fs
   name: e2fsprogs
   version: '>=1.27'
-- labels: null
-  category: sys-fs
+- category: sys-fs
   name: lvm2
   version: '>=2.02.45'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: ncurses
   version: '>=5.7'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: readline
   version: '>=5.2'
 use_flags:

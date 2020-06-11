@@ -2,8 +2,7 @@ category: app-emacs
 license: GPL-3+
 name: po-mode
 requires:
-- labels: null
-  category: app-editors
+- category: app-editors
   name: emacs-26
   version: '>=23.1'
 use_flags:

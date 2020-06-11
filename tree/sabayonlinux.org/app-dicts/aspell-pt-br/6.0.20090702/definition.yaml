@@ -2,8 +2,7 @@ category: app-dicts
 license: LGPL-2
 name: aspell-pt-br
 requires:
-- labels: null
-  category: app-text
+- category: app-text
   name: aspell
   version: '>=0.60'
 use_flags:

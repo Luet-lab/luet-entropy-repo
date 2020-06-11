@@ -2,8 +2,7 @@ category: x11-libs
 license: MIT
 name: libXdmcp
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libbsd
   version: '>=0'
 use_flags:

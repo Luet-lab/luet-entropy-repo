@@ -2,8 +2,7 @@ category: app-i18n
 license: BSD GPL-2+ man-pages
 name: man-pages-fr
 requires:
-- labels: null
-  category: app-text
+- category: app-text
   name: po4a
   version: '>=0'
 use_flags:

@@ -2,8 +2,7 @@ category: sys-fs
 license: GPL-2
 name: fuse
 requires:
-- labels: null
-  category: sys-fs
+- category: sys-fs
   name: fuse-common
   version: '>=0'
 use_flags:

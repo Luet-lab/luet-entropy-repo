@@ -2,12 +2,10 @@ category: x11-misc
 license: GPL-2
 name: icon-naming-utils
 requires:
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: perl
   version: '>=5'
-- labels: null
-  category: dev-perl
+- category: dev-perl
   name: XML-Simple
   version: '>=2'
 use_flags:

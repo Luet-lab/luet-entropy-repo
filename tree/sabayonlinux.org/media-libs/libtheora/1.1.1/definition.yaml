@@ -2,12 +2,10 @@ category: media-libs
 license: BSD
 name: libtheora
 requires:
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libogg
   version: '>=1.3.0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libvorbis
   version: '>=1.3.3'
 use_flags:

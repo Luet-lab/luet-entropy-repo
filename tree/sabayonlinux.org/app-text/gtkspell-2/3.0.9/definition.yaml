@@ -4,16 +4,13 @@ category: app-text
 license: GPL-2
 name: gtkspell-2
 requires:
-- labels: null
-  category: app-text
+- category: app-text
   name: enchant-2
   version: '>=1.1.6'
-- labels: null
-  category: dev-util
+- category: dev-util
   name: pkgconfig
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: gtk+-3
   version: '>=0'
 use_flags:

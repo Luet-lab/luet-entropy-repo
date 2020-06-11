@@ -2,16 +2,13 @@ category: net-ftp
 license: BSD
 name: ftp
 requires:
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: ncurses
   version: '>=5.2'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: openssl
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: readline
   version: '>=0'
 use_flags:

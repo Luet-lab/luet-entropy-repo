@@ -2,20 +2,16 @@ category: app-text
 license: MIT
 name: ebook-tools
 requires:
-- labels: null
-  category: app-text
+- category: app-text
   name: convertlit
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxml2-2
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libzip
   version: '>=0'
-- labels: null
-  category: sys-devel
+- category: sys-devel
   name: make
   version: '>=0'
 use_flags:

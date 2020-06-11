@@ -2,28 +2,22 @@ category: x11-apps
 license: MIT
 name: xclock
 requires:
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libX11
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXaw
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXft
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXmu
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXrender
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libxkbfile
   version: '>=0'
 use_flags:

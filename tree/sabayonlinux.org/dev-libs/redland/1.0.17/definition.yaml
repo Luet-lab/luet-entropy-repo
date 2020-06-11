@@ -2,20 +2,16 @@ category: dev-libs
 license: Apache-2.0 GPL-2 LGPL-2.1
 name: redland
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: rasqal
   version: '>=0.9.32'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: raptor-2
   version: '>=2.0.14'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libltdl
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: db-6.0
   version: '>=0'
 use_flags:

@@ -2,16 +2,13 @@ category: dev-libs
 license: LGPL-2.1+
 name: libgusb
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.44.0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: gobject-introspection
   version: '>=1.54'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: hwids
   version: '>=0'
 use_flags:

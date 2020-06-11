@@ -2,32 +2,25 @@ category: app-admin
 license: Artistic GPL-1+
 name: enman
 requires:
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: perl
   version: '>=0'
-- labels: null
-  category: dev-perl
+- category: dev-perl
   name: App-Cmd
   version: '>=0'
-- labels: null
-  category: dev-perl
+- category: dev-perl
   name: JSON
   version: '>=0'
-- labels: null
-  category: dev-perl
+- category: dev-perl
   name: LWP-Protocol-https
   version: '>=0'
-- labels: null
-  category: dev-perl
+- category: dev-perl
   name: Module-Build
   version: '>=0'
-- labels: null
-  category: dev-perl
+- category: dev-perl
   name: libintl-perl
   version: '>=0'
-- labels: null
-  category: dev-perl
+- category: dev-perl
   name: libwww-perl
   version: '>=0'
 use_flags:

@@ -2,8 +2,7 @@ category: app-arch
 license: BSD-1
 name: rpm2targz
 requires:
-- labels: null
-  category: app-arch
+- category: app-arch
   name: cpio
   version: '>=0'
 use_flags:

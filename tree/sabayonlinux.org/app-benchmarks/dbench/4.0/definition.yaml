@@ -2,8 +2,7 @@ category: app-benchmarks
 license: GPL-2
 name: dbench
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: popt
   version: '>=0'
 use_flags:

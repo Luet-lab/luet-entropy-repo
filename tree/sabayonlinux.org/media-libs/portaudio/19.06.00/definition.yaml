@@ -2,8 +2,7 @@ category: media-libs
 license: MIT
 name: portaudio
 requires:
-- labels: null
-  category: media-libs
+- category: media-libs
   name: alsa-lib
   version: '>=1.0.27.2'
 use_flags:

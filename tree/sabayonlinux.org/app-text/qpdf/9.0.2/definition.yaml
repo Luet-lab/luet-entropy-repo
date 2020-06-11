@@ -2,12 +2,10 @@ category: app-text
 license: Apache-2.0 Artistic-2
 name: qpdf
 requires:
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: perl
   version: '>=5.8'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: zlib
   version: '>=0'
 use_flags:

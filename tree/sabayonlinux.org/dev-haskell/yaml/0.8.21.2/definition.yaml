@@ -2,60 +2,46 @@ category: dev-haskell
 license: BSD
 name: yaml
 requires:
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: conduit
   version: <1.3
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: resourcet
   version: <1.2
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: aeson
   version: '>=0.7'
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: attoparsec
   version: '>=0.11.3.0'
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: cabal
   version: '>=1.18.1.3'
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: conduit
   version: '>=1.1.0'
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: resourcet
   version: '>=0.3'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: ghc
   version: '>=7.8.2'
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: enclosed-exceptions
   version: '>=0'
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: scientific
   version: '>=0'
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: semigroups
   version: '>=0'
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: text
   version: '>=0'
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: unordered-containers
   version: '>=0'
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: vector
   version: '>=0'
 use_flags:

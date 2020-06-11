@@ -2,8 +2,7 @@ category: dev-libs
 license: BSD
 name: ptexenc
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: kpathsea
   version: '>=0'
 use_flags:

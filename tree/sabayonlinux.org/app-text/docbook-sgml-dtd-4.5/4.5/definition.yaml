@@ -2,8 +2,7 @@ category: app-text
 license: X11
 name: docbook-sgml-dtd-4.5
 requires:
-- labels: null
-  category: app-text
+- category: app-text
   name: sgml-common
   version: '>=0'
 use_flags:

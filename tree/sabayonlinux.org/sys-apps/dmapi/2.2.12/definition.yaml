@@ -2,8 +2,7 @@ category: sys-apps
 license: LGPL-2.1
 name: dmapi
 requires:
-- labels: null
-  category: sys-fs
+- category: sys-fs
   name: xfsprogs
   version: '>=0'
 use_flags:

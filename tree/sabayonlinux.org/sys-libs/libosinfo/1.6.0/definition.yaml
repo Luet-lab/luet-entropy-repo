@@ -4,32 +4,25 @@ category: sys-libs
 license: GPL-2+ LGPL-2.1+
 name: libosinfo
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.38.0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: gobject-introspection
   version: '>=0.9.7'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxml2-2
   version: '>=2.6.0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxslt
   version: '>=1.0.0'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: hwids
   version: '>=0'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: osinfo-db
   version: '>=0'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: osinfo-db-tools
   version: '>=0'
 use_flags:

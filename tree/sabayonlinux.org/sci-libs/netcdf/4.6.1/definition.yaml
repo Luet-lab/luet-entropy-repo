@@ -2,12 +2,10 @@ category: sci-libs
 license: UCAR-Unidata
 name: netcdf
 requires:
-- labels: null
-  category: net-misc
+- category: net-misc
   name: curl
   version: '>=0'
-- labels: null
-  category: sci-libs
+- category: sci-libs
   name: hdf5
   version: '>=0'
 use_flags:

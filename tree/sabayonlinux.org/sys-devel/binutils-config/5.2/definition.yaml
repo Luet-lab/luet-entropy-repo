@@ -2,8 +2,7 @@ category: sys-devel
 license: GPL-2
 name: binutils-config
 requires:
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: gentoo-functions
   version: '>=0'
 use_flags:

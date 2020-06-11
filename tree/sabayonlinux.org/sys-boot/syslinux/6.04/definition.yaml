@@ -2,16 +2,13 @@ category: sys-boot
 license: GPL-2
 name: syslinux
 requires:
-- labels: null
-  category: dev-perl
+- category: dev-perl
   name: Crypt-PasswdMD5
   version: '>=0'
-- labels: null
-  category: dev-perl
+- category: dev-perl
   name: Digest-SHA1
   version: '>=0'
-- labels: null
-  category: sys-fs
+- category: sys-fs
   name: mtools
   version: '>=0'
 use_flags:

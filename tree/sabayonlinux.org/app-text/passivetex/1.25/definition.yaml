@@ -2,8 +2,7 @@ category: app-text
 license: MIT
 name: passivetex
 requires:
-- labels: null
-  category: dev-tex
+- category: dev-tex
   name: xmltex
   version: '>=1.9'
 use_flags:

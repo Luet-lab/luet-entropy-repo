@@ -2,8 +2,7 @@ category: media-libs
 license: LGPL-2.1
 name: chromaprint
 requires:
-- labels: null
-  category: media-video
+- category: media-video
   name: ffmpeg
   version: '>=2.6'
 use_flags:

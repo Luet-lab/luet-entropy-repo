@@ -2,12 +2,10 @@ category: dev-lua
 license: MIT
 name: luajson
 requires:
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: luajit-2
   version: '>=0'
-- labels: null
-  category: dev-lua
+- category: dev-lua
   name: lpeg
   version: '>=0'
 use_flags:

@@ -2,8 +2,7 @@ category: app-text
 license: GPL-2
 name: libspectre
 requires:
-- labels: null
-  category: app-text
+- category: app-text
   name: ghostscript-gpl
   version: '>=8.62'
 use_flags:

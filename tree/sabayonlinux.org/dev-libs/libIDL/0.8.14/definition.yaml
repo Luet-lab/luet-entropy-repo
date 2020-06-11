@@ -2,8 +2,7 @@ category: dev-libs
 license: LGPL-2
 name: libIDL
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.44.1'
 use_flags:

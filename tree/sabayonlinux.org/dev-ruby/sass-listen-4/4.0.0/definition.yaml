@@ -2,12 +2,10 @@ category: dev-ruby
 license: MIT
 name: sass-listen-4
 requires:
-- labels: null
-  category: dev-ruby
+- category: dev-ruby
   name: rb-inotify
   version: '>=0.9.7'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: ruby-2.5
   version: '>=0'
 use_flags:

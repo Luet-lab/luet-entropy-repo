@@ -2,32 +2,25 @@ category: dev-haskell
 license: BSD
 name: happy
 requires:
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: cabal
   version: '>=1.8'
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: mtl
   version: '>=1.0'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: ghc
   version: '>=6.10.4'
-- labels: null
-  category: sys-devel
+- category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- labels: null
-  category: sys-devel
+- category: sys-devel
   name: automake-1.15
   version: '>=1.15.1'
-- labels: null
-  category: sys-devel
+- category: sys-devel
   name: libtool-2
   version: '>=2.4'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: ghc
   version: '>=0'
 use_flags:

@@ -2,12 +2,10 @@ category: dev-perl
 license: GPL-2
 name: XML-Handler-YAWriter
 requires:
-- labels: null
-  category: dev-perl
+- category: dev-perl
   name: libxml-perl
   version: '>=0.07'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: perl
   version: '>=0'
 use_flags:

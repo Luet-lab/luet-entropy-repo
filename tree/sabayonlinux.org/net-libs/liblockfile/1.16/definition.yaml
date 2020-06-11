@@ -2,8 +2,7 @@ category: net-libs
 license: LGPL-2
 name: liblockfile
 requires:
-- labels: null
-  category: acct-group
+- category: acct-group
   name: mail
   version: '>=0'
 use_flags:

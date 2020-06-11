@@ -2,8 +2,7 @@ category: sys-apps
 license: GPL-2
 name: sandbox
 requires:
-- labels: null
-  category: app-misc
+- category: app-misc
   name: pax-utils
   version: '>=0.1.19'
 use_flags:

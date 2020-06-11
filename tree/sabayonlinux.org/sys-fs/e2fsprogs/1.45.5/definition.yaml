@@ -2,16 +2,13 @@ category: sys-fs
 license: BSD GPL-2
 name: e2fsprogs
 requires:
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: util-linux
   version: '>=2.16'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: texinfo
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: e2fsprogs-libs
   version: '>=1.45.5'
 use_flags:

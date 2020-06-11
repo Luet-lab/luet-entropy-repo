@@ -2,12 +2,10 @@ category: dev-libs
 license: GPL-2 LGPL-2.1 MPL-1.1
 name: hyphen
 requires:
-- labels: null
-  category: app-text
+- category: app-text
   name: hunspell
   version: '>=0'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: perl
   version: '>=0'
 use_flags:

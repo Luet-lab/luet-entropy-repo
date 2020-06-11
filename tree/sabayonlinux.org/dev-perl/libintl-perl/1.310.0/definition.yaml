@@ -2,12 +2,10 @@ category: dev-perl
 license: GPL-3
 name: libintl-perl
 requires:
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: perl
   version: '>=0'
-- labels: null
-  category: dev-perl
+- category: dev-perl
   name: File-ShareDir
   version: '>=0'
 use_flags:

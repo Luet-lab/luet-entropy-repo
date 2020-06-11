@@ -2,24 +2,19 @@ category: dev-java
 license: GPL-2
 name: jarjar-1
 requires:
-- labels: null
-  category: dev-java
+- category: dev-java
   name: java-config-2
   version: '>=2.1.9'
-- labels: null
-  category: app-arch
+- category: app-arch
   name: unzip
   version: '>=0'
-- labels: null
-  category: dev-java
+- category: dev-java
   name: asm-4
   version: '>=0'
-- labels: null
-  category: dev-java
+- category: dev-java
   name: gnu-regexp-1
   version: '>=0'
-- labels: null
-  category: dev-java
+- category: dev-java
   name: java-getopt-1
   version: '>=0'
 use_flags:

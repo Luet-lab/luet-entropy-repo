@@ -2,8 +2,7 @@ category: dev-java
 license: BSD CDDL GPL-2
 name: oracle-javamail
 requires:
-- labels: null
-  category: dev-java
+- category: dev-java
   name: java-config-2
   version: '>=2.2.0'
 use_flags:

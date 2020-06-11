@@ -2,28 +2,22 @@ category: media-libs
 license: MIT
 name: fontconfig-infinality
 requires:
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXft
   version: '>=2.3.0'
-- labels: null
-  category: app-eselect
+- category: app-eselect
   name: eselect-fontconfig
   version: '>=0'
-- labels: null
-  category: app-eselect
+- category: app-eselect
   name: eselect-infinality
   version: '>=0'
-- labels: null
-  category: app-eselect
+- category: app-eselect
   name: eselect-lcdfilter
   version: '>=0'
-- labels: null
-  category: media-fonts
+- category: media-fonts
   name: croscorefonts
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: freetype-2
   version: '>=0'
 use_flags:

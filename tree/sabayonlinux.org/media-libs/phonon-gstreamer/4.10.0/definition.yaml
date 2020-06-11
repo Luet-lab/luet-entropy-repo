@@ -2,60 +2,46 @@ category: media-libs
 license: LGPL-2.1 LGPL-2.1+ LGPL-3
 name: phonon-gstreamer
 requires:
-- labels: null
-  category: kde-frameworks
+- category: kde-frameworks
   name: kf-env-5
   version: '>=4'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: phonon
   version: '>=4.10.60'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxml2-2
   version: '>=0'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtcore-5
   version: '>=0'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtgui-5
   version: '>=0'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtopengl-5
   version: '>=0'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtwidgets-5
   version: '>=0'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtx11extras-5
   version: '>=0'
-- labels: null
-  category: kde-frameworks
+- category: kde-frameworks
   name: oxygen-icons-5
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: gst-plugins-base-1.0
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: gstreamer-1.0
   version: '>=0'
-- labels: null
-  category: media-plugins
+- category: media-plugins
   name: gst-plugins-meta-1.0
   version: '>=0'
-- labels: null
-  category: media-plugins
+- category: media-plugins
   name: gst-plugins-soup-1.0
   version: '>=0'
 use_flags:

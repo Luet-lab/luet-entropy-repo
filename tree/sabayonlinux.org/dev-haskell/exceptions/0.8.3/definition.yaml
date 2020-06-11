@@ -2,44 +2,34 @@ category: dev-haskell
 license: BSD
 name: exceptions
 requires:
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: mtl
   version: <2.3
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: stm
   version: <3
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: transformers
   version: <0.6
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: transformers-compat
   version: <0.6
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: cabal
   version: '>=1.8'
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: mtl
   version: '>=2.0'
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: stm
   version: '>=2.2'
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: transformers
   version: '>=0.2'
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: transformers-compat
   version: '>=0.3'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: ghc
   version: '>=7.4.1'
 use_flags:

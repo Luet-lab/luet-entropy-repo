@@ -2,20 +2,16 @@ category: x11-apps
 license: MIT
 name: xsetroot
 requires:
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libX11
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXcursor
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXmu
   version: '>=0'
-- labels: null
-  category: x11-misc
+- category: x11-misc
   name: xbitmaps
   version: '>=0'
 use_flags:

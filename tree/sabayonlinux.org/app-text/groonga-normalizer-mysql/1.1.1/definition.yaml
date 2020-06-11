@@ -2,8 +2,7 @@ category: app-text
 license: LGPL-2.1
 name: groonga-normalizer-mysql
 requires:
-- labels: null
-  category: app-text
+- category: app-text
   name: groonga
   version: '>=0'
 use_flags:

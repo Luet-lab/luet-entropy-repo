@@ -2,8 +2,7 @@ category: dev-libs
 license: BSD
 name: re2
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: icu
   version: '>=0'
 use_flags:

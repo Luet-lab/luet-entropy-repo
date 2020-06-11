@@ -2,16 +2,13 @@ category: media-libs
 license: LGPL-2.1
 name: musicbrainz-5
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxml2-2
   version: '>=0'
-- labels: null
-  category: net-libs
+- category: net-libs
   name: neon
   version: '>=0'
-- labels: null
-  category: sys-devel
+- category: sys-devel
   name: make
   version: '>=0'
 use_flags:

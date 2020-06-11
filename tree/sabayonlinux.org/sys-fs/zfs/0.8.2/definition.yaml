@@ -2,40 +2,31 @@ category: sys-fs
 license: BSD-2 CDDL MIT
 name: zfs
 requires:
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-exec-2
   version: '>=2'
-- labels: null
-  category: app-arch
+- category: app-arch
   name: cpio
   version: '>=0'
-- labels: null
-  category: app-misc
+- category: app-misc
   name: pax-utils
   version: '>=0'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-3.6
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: openssl
   version: '>=0'
-- labels: null
-  category: net-libs
+- category: net-libs
   name: libtirpc
   version: '>=0'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: util-linux
   version: '>=0'
-- labels: null
-  category: sys-fs
+- category: sys-fs
   name: udev-init-scripts
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: zlib
   version: '>=0'
 use_flags:

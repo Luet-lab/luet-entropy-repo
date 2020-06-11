@@ -2,12 +2,10 @@ category: app-arch
 license: Info-ZIP
 name: unzip
 requires:
-- labels: null
-  category: app-arch
+- category: app-arch
   name: bzip2
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libnatspec
   version: '>=0'
 use_flags:

@@ -2,12 +2,10 @@ category: gnome-base
 license: GPL-2 LGPL-2
 name: orbit-2
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.44.1'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libIDL
   version: '>=0.8.14'
 use_flags:

@@ -2,8 +2,7 @@ category: app-crypt
 license: MIT
 name: rhash
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: openssl
   version: '>=0'
 use_flags:

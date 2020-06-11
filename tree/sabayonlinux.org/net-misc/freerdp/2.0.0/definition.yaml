@@ -2,84 +2,64 @@ category: net-misc
 license: Apache-2.0
 name: freerdp
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: dbus-glib
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: openssl
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: wayland
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: alsa-lib
   version: '>=0'
-- labels: null
-  category: media-sound
+- category: media-sound
   name: pulseaudio
   version: '>=0'
-- labels: null
-  category: media-video
+- category: media-video
   name: ffmpeg
   version: '>=0'
-- labels: null
-  category: net-print
+- category: net-print
   name: cups
   version: '>=0'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: systemd
   version: '>=0'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: util-linux
   version: '>=0'
-- labels: null
-  category: sys-devel
+- category: sys-devel
   name: make
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: zlib
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libX11
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXcursor
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXext
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXi
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXinerama
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXrender
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXv
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libxkbcommon
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libxkbfile
   version: '>=0'
 use_flags:

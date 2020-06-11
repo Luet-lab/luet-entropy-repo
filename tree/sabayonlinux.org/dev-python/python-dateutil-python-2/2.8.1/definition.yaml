@@ -2,28 +2,22 @@ category: dev-python
 license: BSD
 name: python-dateutil-python-2
 requires:
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-2.7
   version: '>=2.7.5'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-exec-2
   version: '>=2'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: six
   version: '>=1.5'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-3.6
   version: '>=0'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: setuptools_scm
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: timezone-data
   version: '>=0'
 use_flags:

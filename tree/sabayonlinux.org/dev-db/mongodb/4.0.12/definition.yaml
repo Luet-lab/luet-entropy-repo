@@ -2,44 +2,34 @@ category: dev-db
 license: Apache-2.0 SSPL-1
 name: mongodb
 requires:
-- labels: null
-  category: app-admin
+- category: app-admin
   name: mongo-tools
   version: '>=4.0.12'
-- labels: null
-  category: app-arch
+- category: app-arch
   name: snappy
   version: '>=1.1.3'
-- labels: null
-  category: dev-cpp
+- category: dev-cpp
   name: yaml-cpp
   version: '>=0.5.3'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: boost
   version: '>=1.60'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libpcre-3
   version: '>=8.41'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: openssl
   version: '>=1.0.1g'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: zlib
   version: '>=1.2.11'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: cyrus-sasl-2
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: snowball-stemmer
   version: '>=0'
-- labels: null
-  category: net-libs
+- category: net-libs
   name: libpcap
   version: '>=0'
 use_flags:

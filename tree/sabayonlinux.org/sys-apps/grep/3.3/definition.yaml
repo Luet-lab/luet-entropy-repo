@@ -2,8 +2,7 @@ category: sys-apps
 license: GPL-3
 name: grep
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libpcre-3
   version: '>=7.8'
 use_flags:

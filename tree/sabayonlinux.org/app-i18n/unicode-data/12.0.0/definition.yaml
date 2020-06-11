@@ -2,8 +2,7 @@ category: app-i18n
 license: unicode
 name: unicode-data
 requires:
-- labels: null
-  category: app-arch
+- category: app-arch
   name: unzip
   version: '>=0'
 use_flags:

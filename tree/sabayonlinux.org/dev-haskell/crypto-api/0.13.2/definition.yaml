@@ -2,28 +2,22 @@ category: dev-haskell
 license: BSD
 name: crypto-api
 requires:
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: cabal
   version: '>=1.6'
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: cereal
   version: '>=0.2'
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: tagged
   version: '>=0.1'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: ghc
   version: '>=7.4.1'
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: entropy
   version: '>=0'
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: transformers
   version: '>=0'
 use_flags:

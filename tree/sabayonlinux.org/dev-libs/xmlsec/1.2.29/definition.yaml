@@ -2,32 +2,25 @@ category: dev-libs
 license: MIT
 name: xmlsec
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libgcrypt
   version: '>=1.4.0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxml2-2
   version: '>=2.7.4'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxslt
   version: '>=1.0.20'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: nspr
   version: '>=4.4.1'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: nss
   version: '>=3.9'
-- labels: null
-  category: net-libs
+- category: net-libs
   name: gnutls
   version: '>=2.8.0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: openssl
   version: '>=0'
 use_flags:

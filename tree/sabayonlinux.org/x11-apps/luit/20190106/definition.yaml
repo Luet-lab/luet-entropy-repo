@@ -2,12 +2,10 @@ category: x11-apps
 license: MIT
 name: luit
 requires:
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: groff
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: zlib
   version: '>=0'
 use_flags:

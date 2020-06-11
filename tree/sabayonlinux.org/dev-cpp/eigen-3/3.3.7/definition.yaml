@@ -2,8 +2,7 @@ category: dev-cpp
 license: MPL-2.0
 name: eigen-3
 requires:
-- labels: null
-  category: sys-devel
+- category: sys-devel
   name: make
   version: '>=0'
 use_flags:

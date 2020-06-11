@@ -2,32 +2,25 @@ category: media-sound
 license: GPL-2 LGPL-2.1
 name: jack-audio-connection-kit
 requires:
-- labels: null
-  category: media-libs
+- category: media-libs
   name: alsa-lib
   version: '>=1.0.27.2'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libsamplerate
   version: '>=0.1.8'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libsndfile
   version: '>=1.0.0'
-- labels: null
-  category: sys-auth
+- category: sys-auth
   name: realtime-base
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: db-6.0
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: readline
   version: '>=0'
-- labels: null
-  category: sys-process
+- category: sys-process
   name: lsof
   version: '>=0'
 use_flags:

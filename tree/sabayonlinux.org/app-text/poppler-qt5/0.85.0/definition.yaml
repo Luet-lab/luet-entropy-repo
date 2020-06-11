@@ -2,20 +2,16 @@ category: app-text
 license: GPL-2
 name: poppler-qt5
 requires:
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtcore-5
   version: '>=0'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtgui-5
   version: '>=0'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtxml-5
   version: '>=0'
-- labels: null
-  category: app-text
+- category: app-text
   name: poppler-base
   version: '>=0.82.0'
 use_flags:

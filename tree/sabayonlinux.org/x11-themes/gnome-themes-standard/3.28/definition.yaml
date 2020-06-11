@@ -2,8 +2,7 @@ category: x11-themes
 license: LGPL-2.1+
 name: gnome-themes-standard
 requires:
-- labels: null
-  category: gnome-base
+- category: gnome-base
   name: gsettings-desktop-schemas
   version: '>=3.4'
 use_flags:

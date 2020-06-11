@@ -2,28 +2,22 @@ category: sys-cluster
 license: torque-2.5
 name: torque
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: boost
   version: '>=1.41'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: tcl
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxml2-2
   version: '>=0'
-- labels: null
-  category: net-misc
+- category: net-misc
   name: openssh
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: readline
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: zlib
   version: '>=0'
 use_flags:

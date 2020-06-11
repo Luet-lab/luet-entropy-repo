@@ -2,8 +2,7 @@ category: sys-apps
 license: GPL-2
 name: dmidecode
 requires:
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: glibc-2.2
   version: '>=0'
 use_flags:

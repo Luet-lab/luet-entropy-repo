@@ -2,20 +2,16 @@ category: net-print
 license: GPL-2+
 name: cups-pk-helper
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.30.0'
-- labels: null
-  category: sys-auth
+- category: sys-auth
   name: polkit
   version: '>=0.97'
-- labels: null
-  category: net-print
+- category: net-print
   name: cups
   version: '>=0'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: dbus
   version: '>=0'
 use_flags:

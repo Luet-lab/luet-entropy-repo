@@ -2,8 +2,7 @@ category: dev-libs
 license: Apache-2.0
 name: xerces-c
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: icu
   version: '>=0'
 use_flags:

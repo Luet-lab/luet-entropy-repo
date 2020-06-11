@@ -2,12 +2,10 @@ category: dev-texlive
 license: CC-BY-SA-4.0 GPL-1 GPL-2 GPL-3+ LGPL-2 LPPL-1.3 MIT TeX-other-free public-domain
 name: texlive-metapost
 requires:
-- labels: null
-  category: app-text
+- category: app-text
   name: texlive-core
   version: '>=2019'
-- labels: null
-  category: dev-texlive
+- category: dev-texlive
   name: texlive-basic
   version: '>=2019'
 use_flags:

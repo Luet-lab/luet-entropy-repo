@@ -2,12 +2,10 @@ category: app-eselect
 license: GPL-2
 name: eselect-python
 requires:
-- labels: null
-  category: app-admin
+- category: app-admin
   name: eselect
   version: '>=1.2.3'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-exec-2
   version: '>=2.4.2'
 use_flags:

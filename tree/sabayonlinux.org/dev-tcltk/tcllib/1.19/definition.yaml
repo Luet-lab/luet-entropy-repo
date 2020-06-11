@@ -2,12 +2,10 @@ category: dev-tcltk
 license: BSD
 name: tcllib
 requires:
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: tcl
   version: '>=0'
-- labels: null
-  category: dev-tcltk
+- category: dev-tcltk
   name: tdom
   version: '>=0'
 use_flags:

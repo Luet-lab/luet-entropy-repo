@@ -2,48 +2,37 @@ category: dev-python
 license: MIT
 name: pytest
 requires:
-- labels: null
-  category: dev-python
+- category: dev-python
   name: pluggy
   version: <1
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-exec-2
   version: '>=2'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: attrs
   version: '>=17.4.0'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: more-itertools
   version: '>=4.0.0'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: pluggy
   version: '>=0.12'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: py
   version: '>=1.5.0'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-3.6
   version: '>=0'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: importlib_metadata
   version: '>=0'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: packaging
   version: '>=0'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: six
   version: '>=0'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: wcwidth
   version: '>=0'
 use_flags:

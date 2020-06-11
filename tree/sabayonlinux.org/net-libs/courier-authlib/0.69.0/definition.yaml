@@ -2,28 +2,22 @@ category: net-libs
 license: GPL-3
 name: courier-authlib
 requires:
-- labels: null
-  category: net-libs
+- category: net-libs
   name: courier-unicode
   version: '>=2.1'
-- labels: null
-  category: net-nds
+- category: net-nds
   name: openldap
   version: '>=1.2.11'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: openssl
   version: '>=0'
-- labels: null
-  category: net-mail
+- category: net-mail
   name: mailbase
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: gdbm
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: pam
   version: '>=0'
 use_flags:

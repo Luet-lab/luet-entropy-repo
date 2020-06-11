@@ -2,8 +2,7 @@ category: dev-ruby
 license: LGPL-2 LGPL-2.1 LGPL-3
 name: pkg-config
 requires:
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: ruby-2.5
   version: '>=0'
 use_flags:

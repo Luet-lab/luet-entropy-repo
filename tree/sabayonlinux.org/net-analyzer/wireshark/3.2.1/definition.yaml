@@ -2,68 +2,52 @@ category: net-analyzer
 license: GPL-2
 name: wireshark
 requires:
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: lua
   version: '>=5.1'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.32'
-- labels: null
-  category: net-dns
+- category: net-dns
   name: c-ares
   version: '>=1.5'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libgcrypt
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libnl-3
   version: '>=0'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtcore-5
   version: '>=0'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtgui-5
   version: '>=0'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtmultimedia-5
   version: '>=0'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtprintsupport-5
   version: '>=0'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtwidgets-5
   version: '>=0'
-- labels: null
-  category: net-libs
+- category: net-libs
   name: gnutls
   version: '>=0'
-- labels: null
-  category: net-libs
+- category: net-libs
   name: libpcap
   version: '>=0'
-- labels: null
-  category: net-libs
+- category: net-libs
   name: nghttp2
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: libcap
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: zlib
   version: '>=0'
-- labels: null
-  category: x11-misc
+- category: x11-misc
   name: xdg-utils
   version: '>=0'
 use_flags:

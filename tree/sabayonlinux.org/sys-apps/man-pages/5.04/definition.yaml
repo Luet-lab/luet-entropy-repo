@@ -2,8 +2,7 @@ category: sys-apps
 license: BSD GPL-2+ man-pages
 name: man-pages
 requires:
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: man-pages-posix
   version: '>=0'
 use_flags:

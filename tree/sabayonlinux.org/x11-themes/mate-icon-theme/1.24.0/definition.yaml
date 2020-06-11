@@ -2,8 +2,7 @@ category: x11-themes
 license: GPL-2
 name: mate-icon-theme
 requires:
-- labels: null
-  category: x11-themes
+- category: x11-themes
   name: hicolor-icon-theme
   version: '>=0.10'
 use_flags:

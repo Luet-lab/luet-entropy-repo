@@ -2,24 +2,19 @@ category: net-libs
 license: Apache-2.0
 name: serf-1
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: apr-1
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: apr-util-1
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: openssl
   version: '>=0'
-- labels: null
-  category: dev-util
+- category: dev-util
   name: scons
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: zlib
   version: '>=0'
 use_flags:

@@ -2,16 +2,13 @@ category: media-libs
 license: LGPL-2.1
 name: libbluray
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxml2-2
   version: '>=2.9.1'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: fontconfig-1.0
   version: '>=2.10.92'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: freetype-2
   version: '>=2.5.0.1'
 use_flags:

@@ -2,32 +2,25 @@ category: mail-filter
 license: BSD
 name: opendmarc
 requires:
-- labels: null
-  category: dev-perl
+- category: dev-perl
   name: DBD-mysql
   version: '>=0'
-- labels: null
-  category: dev-perl
+- category: dev-perl
   name: DBI
   version: '>=0'
-- labels: null
-  category: dev-perl
+- category: dev-perl
   name: HTTP-Message
   version: '>=0'
-- labels: null
-  category: dev-perl
+- category: dev-perl
   name: Switch
   version: '>=0'
-- labels: null
-  category: mail-filter
+- category: mail-filter
   name: libspf2
   version: '>=0'
-- labels: null
-  category: mail-mta
+- category: mail-mta
   name: sendmail
   version: '>=0'
-- labels: null
-  category: net-dns
+- category: net-dns
   name: libidn
   version: '>=0'
 use_flags:

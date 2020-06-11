@@ -2,28 +2,22 @@ category: app-text
 license: GPL-2 LGPL-2.1
 name: gnome-doc-utils
 requires:
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-2.7
   version: '>=2.7.5'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-exec-2
   version: '>=2'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxml2-2
   version: '>=2.6.12'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxslt
   version: '>=1.1.8'
-- labels: null
-  category: app-text
+- category: app-text
   name: docbook-xml-dtd-4.5
   version: '>=0'
-- labels: null
-  category: app-text
+- category: app-text
   name: scrollkeeper-dtd-1.0
   version: '>=0'
 use_flags:

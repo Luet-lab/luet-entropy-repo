@@ -2,8 +2,7 @@ category: app-eselect
 license: GPL-2
 name: eselect-rails
 requires:
-- labels: null
-  category: app-admin
+- category: app-admin
   name: eselect
   version: '>=1.2.0'
 use_flags:

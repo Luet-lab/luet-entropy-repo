@@ -2,32 +2,25 @@ category: media-libs
 license: ZLIB
 name: sdl2-mixer
 requires:
-- labels: null
-  category: media-libs
+- category: media-libs
   name: flac
   version: '>=1.2.1'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libmad
   version: '>=0.15.1b'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libogg
   version: '>=1.3.0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libsdl2
   version: '>=2.0.7'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libvorbis
   version: '>=1.3.3'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: opusfile
   version: '>=0.2'
-- labels: null
-  category: media-sound
+- category: media-sound
   name: timidity++
   version: '>=0'
 use_flags:

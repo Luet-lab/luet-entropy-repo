@@ -2,16 +2,13 @@ category: x11-misc
 license: GPL-2
 name: xdg-user-dirs-gtk
 requires:
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: gtk+-3
   version: '>=3.5.1'
-- labels: null
-  category: x11-misc
+- category: x11-misc
   name: xdg-user-dirs
   version: '>=0.14'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=0'
 use_flags:

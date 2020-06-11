@@ -2,20 +2,16 @@ category: app-xemacs
 license: GPL-2+
 name: mule-base
 requires:
-- labels: null
-  category: app-editors
+- category: app-editors
   name: xemacs
   version: '>=0'
-- labels: null
-  category: app-xemacs
+- category: app-xemacs
   name: apel
   version: '>=0'
-- labels: null
-  category: app-xemacs
+- category: app-xemacs
   name: fsf-compat
   version: '>=0'
-- labels: null
-  category: app-xemacs
+- category: app-xemacs
   name: xemacs-base
   version: '>=0'
 use_flags:

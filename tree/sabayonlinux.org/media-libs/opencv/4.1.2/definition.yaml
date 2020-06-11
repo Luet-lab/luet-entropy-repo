@@ -2,88 +2,67 @@ category: media-libs
 license: BSD
 name: opencv
 requires:
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-exec-2
   version: '>=2'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libv4l
   version: '>=0.8.3'
-- labels: null
-  category: app-arch
+- category: app-arch
   name: bzip2
   version: '>=0'
-- labels: null
-  category: dev-cpp
+- category: dev-cpp
   name: eigen-3
   version: '>=0'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-3.6
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: protobuf
   version: '>=0'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: numpy
   version: '>=0'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtconcurrent-5
   version: '>=0'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtgui-5
   version: '>=0'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtopengl-5
   version: '>=0'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qttest-5
   version: '>=0'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtwidgets-5
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libdc1394-2
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libgphoto2
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libpng
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: openexr
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: tiff
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: xine-lib-1
   version: '>=0'
-- labels: null
-  category: media-video
+- category: media-video
   name: ffmpeg
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: libraw1394
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: zlib
   version: '>=0'
 use_flags:

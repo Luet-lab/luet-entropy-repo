@@ -2,28 +2,22 @@ category: media-libs
 license: ISC
 name: lilv
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: serd
   version: '>=0.30.0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: sord
   version: '>=0.16.0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: lv2
   version: '>=1.16.0'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-3.6
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libsndfile
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: sratom
   version: '>=0'
 use_flags:

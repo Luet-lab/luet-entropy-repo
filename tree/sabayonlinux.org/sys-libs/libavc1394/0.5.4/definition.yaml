@@ -2,8 +2,7 @@ category: sys-libs
 license: LGPL-2.1
 name: libavc1394
 requires:
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: libraw1394
   version: '>=2.1.0'
 use_flags:

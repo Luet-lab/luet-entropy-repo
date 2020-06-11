@@ -2,8 +2,7 @@ category: media-sound
 license: LGPL-2.1
 name: lame
 requires:
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: ncurses
   version: '>=5.7'
 use_flags:

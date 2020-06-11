@@ -2,36 +2,28 @@ category: net-analyzer
 license: BSD GPL-2 HPND
 name: net-snmp
 requires:
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-2.7
   version: '>=2.7.5'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-exec-2
   version: '>=2'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: openssl
   version: '>=0.9.6d'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: tcp-wrappers
   version: '>=7.6'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: zlib
   version: '>=1.1.4'
-- labels: null
-  category: app-arch
+- category: app-arch
   name: bzip2
   version: '>=0'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: perl
   version: '>=0'
-- labels: null
-  category: dev-perl
+- category: dev-perl
   name: TermReadKey
   version: '>=0'
 use_flags:

@@ -2,16 +2,13 @@ category: media-libs
 license: GPL-2
 name: aalib
 requires:
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: gpm
   version: '>=1.20.7'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: ncurses
   version: '>=5.9'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libX11
   version: '>=1.6.2'
 use_flags:

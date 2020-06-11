@@ -2,20 +2,16 @@ category: dev-libs
 license: Apache-2.0 GPL-2 LGPL-2.1
 name: redland-bindings
 requires:
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-exec-2
   version: '>=2'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: redland
   version: '>=1.0.14'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: perl
   version: '>=0'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-3.6
   version: '>=0'
 use_flags:

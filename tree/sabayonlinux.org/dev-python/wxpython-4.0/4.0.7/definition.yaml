@@ -2,24 +2,19 @@ category: dev-python
 license: wxWinLL-3
 name: wxpython-4.0
 requires:
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-exec-2
   version: '>=2'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: wxGTK-3.0-gtk3
   version: '>=3.0.4'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-3.6
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libpng
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: tiff
   version: '>=0'
 use_flags:

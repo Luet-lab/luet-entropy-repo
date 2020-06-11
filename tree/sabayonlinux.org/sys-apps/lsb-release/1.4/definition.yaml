@@ -2,8 +2,7 @@ category: sys-apps
 license: GPL-2
 name: lsb-release
 requires:
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: perl
   version: '>=0'
 use_flags:

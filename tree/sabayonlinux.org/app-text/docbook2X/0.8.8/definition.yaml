@@ -2,32 +2,25 @@ category: app-text
 license: MIT
 name: docbook2X
 requires:
-- labels: null
-  category: app-text
+- category: app-text
   name: docbook-xml-dtd-4.5
   version: '>=4.2'
-- labels: null
-  category: app-text
+- category: app-text
   name: docbook-xsl-stylesheets
   version: '>=0'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: perl
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxslt
   version: '>=0'
-- labels: null
-  category: dev-perl
+- category: dev-perl
   name: XML-LibXML
   version: '>=0'
-- labels: null
-  category: dev-perl
+- category: dev-perl
   name: XML-NamespaceSupport
   version: '>=0'
-- labels: null
-  category: dev-perl
+- category: dev-perl
   name: XML-SAX
   version: '>=0'
 use_flags:

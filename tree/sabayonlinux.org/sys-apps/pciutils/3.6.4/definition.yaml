@@ -2,12 +2,10 @@ category: sys-apps
 license: GPL-2
 name: pciutils
 requires:
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: hwids
   version: '>=0'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: kmod
   version: '>=0'
 use_flags:

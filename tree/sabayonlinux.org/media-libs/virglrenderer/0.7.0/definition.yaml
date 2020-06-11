@@ -2,12 +2,10 @@ category: media-libs
 license: MIT
 name: virglrenderer
 requires:
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libdrm
   version: '>=2.4.50'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libepoxy
   version: '>=0'
 use_flags:

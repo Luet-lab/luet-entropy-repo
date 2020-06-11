@@ -2,8 +2,7 @@ category: app-text
 license: Apache-2.0
 name: tesseract
 requires:
-- labels: null
-  category: media-libs
+- category: media-libs
   name: leptonica
   version: '>=1.71'
 use_flags:

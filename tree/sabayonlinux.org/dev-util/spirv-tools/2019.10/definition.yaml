@@ -2,12 +2,10 @@ category: dev-util
 license: Apache-2.0
 name: spirv-tools
 requires:
-- labels: null
-  category: dev-util
+- category: dev-util
   name: spirv-headers
   version: '>=1.5.1'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-3.6
   version: '>=0'
 use_flags:

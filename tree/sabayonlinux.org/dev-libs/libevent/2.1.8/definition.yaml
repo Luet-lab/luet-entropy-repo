@@ -2,8 +2,7 @@ category: dev-libs
 license: BSD
 name: libevent
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: openssl
   version: '>=1.0.1h'
 use_flags:

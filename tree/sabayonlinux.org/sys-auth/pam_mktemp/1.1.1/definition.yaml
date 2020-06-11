@@ -2,8 +2,7 @@ category: sys-auth
 license: BSD-2
 name: pam_mktemp
 requires:
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: pam
   version: '>=0'
 use_flags:

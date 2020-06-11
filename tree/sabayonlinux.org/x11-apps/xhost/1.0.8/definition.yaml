@@ -2,16 +2,13 @@ category: x11-apps
 license: MIT
 name: xhost
 requires:
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libX11
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXau
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXmu
   version: '>=0'
 use_flags:

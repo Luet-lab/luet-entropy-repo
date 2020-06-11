@@ -2,88 +2,67 @@ category: gnome-extra
 license: BSD LGPL-2 LGPL-3 Sleepycat
 name: evolution-data-server
 requires:
-- labels: null
-  category: app-crypt
+- category: app-crypt
   name: gcr
   version: '>=3.4'
-- labels: null
-  category: app-crypt
+- category: app-crypt
   name: libsecret
   version: '>=0.5'
-- labels: null
-  category: dev-db
+- category: dev-db
   name: sqlite-3
   version: '>=3.7.17'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.46'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: gobject-introspection
   version: '>=0.9.12'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: json-glib
   version: '>=1.0.4'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libgdata
   version: '>=0.17.7'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libgweather-2
   version: '>=3.10'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libical
   version: '>=3.0.2'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxml2-2
   version: '>=2'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: nspr
   version: '>=4.4'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: nss
   version: '>=3.9'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libcanberra
   version: '>=0.25'
-- labels: null
-  category: net-libs
+- category: net-libs
   name: gnome-online-accounts
   version: '>=3.8'
-- labels: null
-  category: net-libs
+- category: net-libs
   name: libsoup-2.4
   version: '>=2.42'
-- labels: null
-  category: net-libs
+- category: net-libs
   name: webkit-gtk-4
   version: '>=2.11.91'
-- labels: null
-  category: net-nds
+- category: net-nds
   name: openldap
   version: '>=2'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: db-6.0
   version: '>=4'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: gtk+-3
   version: '>=3.10'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: icu
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: zlib
   version: '>=0'
 use_flags:

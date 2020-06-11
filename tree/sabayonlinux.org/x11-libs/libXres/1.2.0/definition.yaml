@@ -2,12 +2,10 @@ category: x11-libs
 license: MIT
 name: libXres
 requires:
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libX11
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXext
   version: '>=0'
 use_flags:

@@ -2,12 +2,10 @@ category: app-arch
 license: BSD
 name: pax
 requires:
-- labels: null
-  category: app-arch
+- category: app-arch
   name: cpio
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libbsd
   version: '>=0'
 use_flags:

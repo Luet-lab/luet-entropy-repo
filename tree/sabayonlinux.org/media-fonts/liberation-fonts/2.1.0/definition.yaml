@@ -2,12 +2,10 @@ category: media-fonts
 license: OFL-1.1
 name: liberation-fonts
 requires:
-- labels: null
-  category: x11-apps
+- category: x11-apps
   name: mkfontscale
   version: '>=1.2.0'
-- labels: null
-  category: media-fonts
+- category: media-fonts
   name: encodings
   version: '>=0'
 use_flags:

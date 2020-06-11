@@ -2,28 +2,22 @@ category: dev-python
 license: BSD
 name: pyquery
 requires:
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-2.7
   version: '>=2.7.5'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-exec-2
   version: '>=2'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: lxml
   version: '>=2.1'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: webob
   version: '>=1.1.9'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: cssselect
   version: '>0.7.9'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-3.6
   version: '>=0'
 use_flags:

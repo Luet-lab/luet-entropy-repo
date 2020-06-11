@@ -2,16 +2,13 @@ category: sys-apps
 license: GPL-2
 name: groff
 requires:
-- labels: null
-  category: app-i18n
+- category: app-i18n
   name: uchardet
   version: '>=0'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: perl
   version: '>=0'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: texinfo
   version: '>=0'
 use_flags:

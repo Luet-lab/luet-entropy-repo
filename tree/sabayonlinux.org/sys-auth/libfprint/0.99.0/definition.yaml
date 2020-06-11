@@ -2,32 +2,25 @@ category: sys-auth
 license: LGPL-2.1
 name: libfprint
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: nss
   version: '>=0'
-- labels: null
-  category: dev-util
+- category: dev-util
   name: gtk-doc
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: gtk+-3
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libX11
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXv
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: pixman
   version: '>=0'
 use_flags:

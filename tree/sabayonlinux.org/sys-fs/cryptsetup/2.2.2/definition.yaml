@@ -2,32 +2,25 @@ category: sys-fs
 license: GPL-2+
 name: cryptsetup
 requires:
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: util-linux
   version: '>=2.31'
-- labels: null
-  category: app-crypt
+- category: app-crypt
   name: argon2
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: json-c
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libgpg-error
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: openssl
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: popt
   version: '>=0'
-- labels: null
-  category: sys-fs
+- category: sys-fs
   name: lvm2
   version: '>=0'
 use_flags:

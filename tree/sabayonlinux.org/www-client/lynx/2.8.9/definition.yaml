@@ -2,24 +2,19 @@ category: www-client
 license: GPL-2
 name: lynx
 requires:
-- labels: null
-  category: net-libs
+- category: net-libs
   name: gnutls
   version: '>=2.6.4'
-- labels: null
-  category: app-arch
+- category: app-arch
   name: bzip2
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libgcrypt
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: ncurses
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: zlib
   version: '>=0'
 use_flags:

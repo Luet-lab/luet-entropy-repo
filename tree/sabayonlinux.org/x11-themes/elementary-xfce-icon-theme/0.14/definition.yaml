@@ -2,20 +2,16 @@ category: x11-themes
 license: GPL-1 GPL-2 GPL-3 public-domain
 name: elementary-xfce-icon-theme
 requires:
-- labels: null
-  category: media-gfx
+- category: media-gfx
   name: optipng
   version: '>=0'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: findutils
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: gdk-pixbuf-2
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: gtk+-3
   version: '>=0'
 use_flags:

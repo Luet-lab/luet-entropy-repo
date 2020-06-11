@@ -2,16 +2,13 @@ category: net-wireless
 license: ISC
 name: crda
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libnl-3
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: openssl
   version: '>=0'
-- labels: null
-  category: net-wireless
+- category: net-wireless
   name: wireless-regdb
   version: '>=0'
 use_flags:

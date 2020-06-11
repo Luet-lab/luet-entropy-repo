@@ -2,80 +2,61 @@ category: x11-wm
 license: GPL-2
 name: awesome
 requires:
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: lua
   version: '>=5.1'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxdg-basedir
   version: '>=1'
-- labels: null
-  category: dev-lua
+- category: dev-lua
   name: lgi
   version: '>=0.8'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: dbus
   version: '>=1'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libX11
   version: '>=1.3.99.901'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libxcb
   version: '>=1.6'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: pango
   version: '>=1.19.3'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: startup-notification
   version: '>=0.10'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: xcb-util
   version: '>=0.3.8'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: xcb-util-keysyms
   version: '>=0.3.4'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: xcb-util-wm
   version: '>=0.3.8'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: xcb-util-xrm
   version: '>=1.0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=0'
-- labels: null
-  category: media-gfx
+- category: media-gfx
   name: imagemagick
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: cairo
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: gdk-pixbuf-2
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXcursor
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libxkbcommon
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: xcb-util-cursor
   version: '>=0'
 use_flags:

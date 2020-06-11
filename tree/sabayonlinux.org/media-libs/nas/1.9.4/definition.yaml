@@ -2,40 +2,31 @@ category: media-libs
 license: HPND MIT
 name: nas
 requires:
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXau
   version: '>=1.0.7'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXt
   version: '>=1.1.4'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libICE
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libSM
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libX11
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXaw
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXext
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXmu
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXpm
   version: '>=0'
 use_flags:

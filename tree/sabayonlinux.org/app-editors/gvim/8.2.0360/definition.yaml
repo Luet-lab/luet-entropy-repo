@@ -2,56 +2,43 @@ category: app-editors
 license: vim
 name: gvim
 requires:
-- labels: null
-  category: app-eselect
+- category: app-eselect
   name: eselect-vi
   version: '>=1.1'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-exec-2
   version: '>=2'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: ncurses
   version: '>=5.2'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: perl
   version: '>=0'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-3.6
   version: '>=0'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: acl
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: gtk+-3
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libICE
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libSM
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXext
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXft
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXt
   version: '>=0'
-- labels: null
-  category: app-editors
+- category: app-editors
   name: vim-core
   version: '>=8.2.0360'
 use_flags:

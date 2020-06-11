@@ -2,20 +2,16 @@ category: dev-libs
 license: LGPL-2
 name: libdbusmenu-qt
 requires:
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtcore-5
   version: '>=0'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtdbus-5
   version: '>=0'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtgui-5
   version: '>=0'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtwidgets-5
   version: '>=0'
 use_flags:

@@ -2,12 +2,10 @@ category: net-libs
 license: GPL-2
 name: libnetfilter_conntrack
 requires:
-- labels: null
-  category: net-libs
+- category: net-libs
   name: libmnl
   version: '>=1.0.3'
-- labels: null
-  category: net-libs
+- category: net-libs
   name: libnfnetlink
   version: '>=1.0.0'
 use_flags:

@@ -2,32 +2,25 @@ category: dev-scheme
 license: LGPL-3+
 name: guile-12
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: boehm-gc
   version: '>=7.0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: gmp
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libltdl
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libunistring
   version: '>=0'
-- labels: null
-  category: sys-devel
+- category: sys-devel
   name: libtool-2
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: ncurses
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: readline
   version: '>=0'
 use_flags:

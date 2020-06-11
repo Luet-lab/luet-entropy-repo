@@ -2,16 +2,13 @@ category: dev-cpp
 license: LGPL-2.1+
 name: atkmm
 requires:
-- labels: null
-  category: dev-cpp
+- category: dev-cpp
   name: glibmm-2
   version: '>=2.46.2'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: atk
   version: '>=2.18.0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libsigc++-2
   version: '>=0'
 use_flags:

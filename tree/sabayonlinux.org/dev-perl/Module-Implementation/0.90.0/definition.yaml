@@ -2,16 +2,13 @@ category: dev-perl
 license: Artistic-2
 name: Module-Implementation
 requires:
-- labels: null
-  category: dev-perl
+- category: dev-perl
   name: Module-Runtime
   version: '>=0.12.0'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: perl
   version: '>=0'
-- labels: null
-  category: dev-perl
+- category: dev-perl
   name: Try-Tiny
   version: '>=0'
 use_flags:

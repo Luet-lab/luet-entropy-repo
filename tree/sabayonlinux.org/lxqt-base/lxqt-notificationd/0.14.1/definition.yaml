@@ -2,32 +2,25 @@ category: lxqt-base
 license: LGPL-2.1+
 name: lxqt-notificationd
 requires:
-- labels: null
-  category: lxqt-base
+- category: lxqt-base
   name: liblxqt
   version: '>=0.14'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libqtxdg
   version: '>=3.3.1'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtcore-5
   version: '>=0'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtdbus-5
   version: '>=0'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtgui-5
   version: '>=0'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtwidgets-5
   version: '>=0'
-- labels: null
-  category: kde-frameworks
+- category: kde-frameworks
   name: kwindowsystem-5
   version: '>=0'
 use_flags:

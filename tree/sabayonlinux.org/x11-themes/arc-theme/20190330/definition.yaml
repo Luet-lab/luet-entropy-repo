@@ -2,12 +2,10 @@ category: x11-themes
 license: GPL-3
 name: arc-theme
 requires:
-- labels: null
-  category: x11-themes
+- category: x11-themes
   name: gnome-themes-standard
   version: '>=0'
-- labels: null
-  category: x11-themes
+- category: x11-themes
   name: gtk-engines-murrine
   version: '>=0'
 use_flags:

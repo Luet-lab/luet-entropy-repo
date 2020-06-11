@@ -2,28 +2,22 @@ category: app-text
 license: AGPL-3
 name: mupdf
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: openssl
   version: '>=1.1'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: openjpeg-2
   version: '>=2.1'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: freetype-2
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: harfbuzz
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: jbig2dec
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libpng
   version: '>=0'
 use_flags:

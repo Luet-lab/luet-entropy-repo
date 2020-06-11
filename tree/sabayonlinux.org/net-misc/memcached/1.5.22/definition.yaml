@@ -2,16 +2,13 @@ category: net-misc
 license: BSD
 name: memcached
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libevent
   version: '>=1.4'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: perl
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: libseccomp
   version: '>=0'
 use_flags:

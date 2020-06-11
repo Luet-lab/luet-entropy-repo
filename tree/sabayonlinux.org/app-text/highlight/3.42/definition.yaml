@@ -2,24 +2,19 @@ category: app-text
 license: GPL-3
 name: highlight
 requires:
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: lua
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: double-conversion
   version: '>=0'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtcore-5
   version: '>=0'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtgui-5
   version: '>=0'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtwidgets-5
   version: '>=0'
 use_flags:

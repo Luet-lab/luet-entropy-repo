@@ -2,24 +2,19 @@ category: dev-python
 license: MIT
 name: beautifulsoup-4
 requires:
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-2.7
   version: '>=2.7.5'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-exec-2
   version: '>=2'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-3.6
   version: '>=0'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: html5lib
   version: '>=0'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: lxml
   version: '>=0'
 use_flags:

@@ -2,20 +2,16 @@ category: net-misc
 license: GPL-2
 name: ofono
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.32'
-- labels: null
-  category: net-wireless
+- category: net-wireless
   name: bluez
   version: '>=4.99'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: dbus
   version: '>=1.4'
-- labels: null
-  category: net-misc
+- category: net-misc
   name: mobile-broadband-provider-info
   version: '>=0'
 use_flags:

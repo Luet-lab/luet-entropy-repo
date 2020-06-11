@@ -2,8 +2,7 @@ category: net-libs
 license: BSD
 name: libpcap
 requires:
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: dbus
   version: '>=0'
 use_flags:

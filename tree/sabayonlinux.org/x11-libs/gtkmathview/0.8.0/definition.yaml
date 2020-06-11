@@ -2,32 +2,25 @@ category: x11-libs
 license: LGPL-3
 name: gtkmathview
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.2.1'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxml2-2
   version: '>=2.6.7'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: popt
   version: '>=1.7'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: t1lib-5
   version: '>=5'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: gtk+-3
   version: '>=2.2.1'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: pango
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: pangox-compat
   version: '>=0'
 use_flags:

@@ -2,12 +2,10 @@ category: sys-apps
 license: GPL-2
 name: gawk
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: gmp
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: readline
   version: '>=0'
 use_flags:

@@ -2,16 +2,13 @@ category: net-libs
 license: LGPL-2.1
 name: dleyna-connector-dbus-1.0
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.28'
-- labels: null
-  category: net-libs
+- category: net-libs
   name: dleyna-core-1.0
   version: '>=0.2.1'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: dbus
   version: '>=1'
 use_flags:

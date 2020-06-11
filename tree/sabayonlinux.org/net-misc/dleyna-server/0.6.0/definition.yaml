@@ -2,48 +2,37 @@ category: net-misc
 license: LGPL-2.1
 name: dleyna-server
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.36'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: gupnp-dlna-2.0
   version: '>=0.9.4'
-- labels: null
-  category: net-libs
+- category: net-libs
   name: dleyna-core-1.0
   version: '>=0.6.0'
-- labels: null
-  category: net-libs
+- category: net-libs
   name: gssdp
   version: '>=1.2'
-- labels: null
-  category: net-libs
+- category: net-libs
   name: gupnp
   version: '>=1.2'
-- labels: null
-  category: net-libs
+- category: net-libs
   name: gupnp-av
   version: '>=0.11.5'
-- labels: null
-  category: net-libs
+- category: net-libs
   name: libsoup-2.4
   version: '>=2.28.2'
-- labels: null
-  category: sys-devel
+- category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- labels: null
-  category: sys-devel
+- category: sys-devel
   name: automake-1.15
   version: '>=1.15.1'
-- labels: null
-  category: sys-devel
+- category: sys-devel
   name: libtool-2
   version: '>=2.4'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxml2-2
   version: '>=0'
 use_flags:

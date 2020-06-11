@@ -2,20 +2,16 @@ category: net-misc
 license: LGPL-2.1+
 name: libteam
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: jansson
   version: '>=2.4'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libnl-3
   version: '>=3.2.19'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libdaemon
   version: '>=0'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: dbus
   version: '>=0'
 use_flags:

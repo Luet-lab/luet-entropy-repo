@@ -2,20 +2,16 @@ category: media-plugins
 license: GPL-2
 name: gst-plugins-mpeg2dec-1.0
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.38.2'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: gst-plugins-ugly-1.0
   version: '>=1.14.3'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: gstreamer-1.0
   version: '>=1.2.4'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libmpeg2
   version: '>=0.5.1'
 use_flags:

@@ -2,16 +2,13 @@ category: app-admin
 license: GPL-2
 name: haskell-updater
 requires:
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: ghc
   version: '>=6.12.1'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: ghc
   version: '>=0'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: pkgcore
   version: '>=0'
 use_flags:

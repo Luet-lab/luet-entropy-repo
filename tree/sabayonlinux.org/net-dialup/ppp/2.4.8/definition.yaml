@@ -2,20 +2,16 @@ category: net-dialup
 license: BSD GPL-2
 name: ppp
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: openssl
   version: '>=0'
-- labels: null
-  category: net-dialup
+- category: net-dialup
   name: linux-atm
   version: '>=0'
-- labels: null
-  category: net-dialup
+- category: net-dialup
   name: ppp-scripts
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: pam
   version: '>=0'
 use_flags:

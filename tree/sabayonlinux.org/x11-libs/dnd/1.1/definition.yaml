@@ -2,28 +2,22 @@ category: x11-libs
 license: GPL-2 LGPL-2
 name: dnd
 requires:
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libICE
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libSM
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libX11
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXaw
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXmu
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXt
   version: '>=0'
 use_flags:

@@ -2,20 +2,16 @@ category: dev-java
 license: Apache-2.0
 name: xalan
 requires:
-- labels: null
-  category: dev-java
+- category: dev-java
   name: java-config-2
   version: '>=2.2.0'
-- labels: null
-  category: dev-java
+- category: dev-java
   name: bcel
   version: '>=0'
-- labels: null
-  category: dev-java
+- category: dev-java
   name: javacup
   version: '>=0'
-- labels: null
-  category: dev-java
+- category: dev-java
   name: xalan-serializer
   version: '>=2.7.2'
 use_flags:

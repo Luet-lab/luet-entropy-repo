@@ -2,8 +2,7 @@ category: sys-block
 license: LGPL-2.1
 name: open-isns
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: openssl
   version: '>=0'
 use_flags:

@@ -2,60 +2,46 @@ category: app-office
 license: GPL-2
 name: dia
 requires:
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-2.7
   version: '>=2.7.5'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: pygtk-2
   version: '>=2'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: freetype-2
   version: '>=2'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libart_lgpl
   version: '>=2'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-exec-2
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxml2-2
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxslt
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: popt
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libpng
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: zlib
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: cairo
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: gtk+-3
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: pango
   version: '>=0'
 use_flags:

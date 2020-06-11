@@ -2,72 +2,55 @@ category: media-gfx
 license: BSD GPL-3+
 name: fontforge
 requires:
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-exec-2
   version: '>=2'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: freetype-2
   version: '>=2.3.7'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: cairo
   version: '>=1.6'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: gtk+-3
   version: '>=3.10'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: pango
   version: '>=1.10'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-3.6
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libltdl
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxml2-2
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: giflib
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libpng
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libuninameslist
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: tiff
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: readline
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libX11
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXi
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: pango
   version: '>=0'
 use_flags:

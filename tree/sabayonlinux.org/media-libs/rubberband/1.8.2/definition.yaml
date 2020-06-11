@@ -2,24 +2,19 @@ category: media-libs
 license: GPL-2
 name: rubberband
 requires:
-- labels: null
-  category: media-libs
+- category: media-libs
   name: ladspa-sdk
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libsamplerate
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libsndfile
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: vamp-plugin-sdk
   version: '>=0'
-- labels: null
-  category: sci-libs
+- category: sci-libs
   name: fftw-3.0
   version: '>=0'
 use_flags:

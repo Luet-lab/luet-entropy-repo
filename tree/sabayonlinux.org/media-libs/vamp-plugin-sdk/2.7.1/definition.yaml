@@ -2,8 +2,7 @@ category: media-libs
 license: BSD
 name: vamp-plugin-sdk
 requires:
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libsndfile
   version: '>=0'
 use_flags:

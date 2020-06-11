@@ -2,20 +2,16 @@ category: dev-lang
 license: NPL-1.1
 name: spidermonkey-52
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: icu
   version: '>=58.1'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: nspr
   version: '>=4.13.1'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: zlib
   version: '>=1.2.3'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: readline
   version: '>=0'
 use_flags:

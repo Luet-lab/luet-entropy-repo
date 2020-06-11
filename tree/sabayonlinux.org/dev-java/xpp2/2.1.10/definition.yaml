@@ -2,12 +2,10 @@ category: dev-java
 license: Apache-1.1 IBM
 name: xpp2
 requires:
-- labels: null
-  category: dev-java
+- category: dev-java
   name: java-config-2
   version: '>=2.2.0'
-- labels: null
-  category: dev-java
+- category: dev-java
   name: xerces-2
   version: '>=0'
 use_flags:

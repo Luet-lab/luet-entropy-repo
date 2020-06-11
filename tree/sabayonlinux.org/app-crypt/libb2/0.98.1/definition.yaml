@@ -2,8 +2,7 @@ category: app-crypt
 license: CC0-1.0
 name: libb2
 requires:
-- labels: null
-  category: sys-devel
+- category: sys-devel
   name: clang-runtime-9.0.1
   version: '>=0'
 use_flags:

@@ -2,16 +2,13 @@ category: dev-db
 license: GPL-2 LGPL-2.1
 name: unixODBC
 requires:
-- labels: null
-  category: sys-devel
+- category: sys-devel
   name: libtool-2
   version: '>=2.4.2'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: ncurses
   version: '>=5.9'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: readline
   version: '>=6.2'
 use_flags:

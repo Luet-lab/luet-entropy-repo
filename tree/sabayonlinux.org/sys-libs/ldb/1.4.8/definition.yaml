@@ -2,48 +2,37 @@ category: sys-libs
 license: LGPL-3
 name: ldb
 requires:
-- labels: null
-  category: dev-db
+- category: dev-db
   name: lmdb
   version: '>=0.9.16'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-2.7
   version: '>=2.7.5'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-exec-2
   version: '>=2'
-- labels: null
-  category: dev-util
+- category: dev-util
   name: cmocka
   version: '>=1.1.1'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: talloc
   version: '>=2.1.14'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: tdb
   version: '>=1.3.16'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: tevent
   version: '>=0.9.37'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libbsd
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxslt
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: popt
   version: '>=0'
-- labels: null
-  category: net-nds
+- category: net-nds
   name: openldap
   version: '>=0'
 use_flags:

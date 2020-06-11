@@ -2,8 +2,7 @@ category: net-dns
 license: public-domain
 name: dnssec-root
 requires:
-- labels: null
-  category: dev-perl
+- category: dev-perl
   name: XML-XPath
   version: '>=1.420.0'
 use_flags:

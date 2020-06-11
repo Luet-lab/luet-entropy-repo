@@ -2,32 +2,25 @@ category: net-misc
 license: GPL-2
 name: connman
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.16'
-- labels: null
-  category: net-firewall
+- category: net-firewall
   name: iptables
   version: '>=1.4.8'
-- labels: null
-  category: net-wireless
+- category: net-wireless
   name: wpa_supplicant
   version: '>=2.0'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: dbus
   version: '>=1.2.24'
-- labels: null
-  category: net-wireless
+- category: net-wireless
   name: bluez
   version: '>=0'
-- labels: null
-  category: sys-auth
+- category: sys-auth
   name: polkit
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: readline
   version: '>=0'
 use_flags:

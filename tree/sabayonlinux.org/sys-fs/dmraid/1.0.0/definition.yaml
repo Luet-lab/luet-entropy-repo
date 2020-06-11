@@ -2,8 +2,7 @@ category: sys-fs
 license: GPL-2
 name: dmraid
 requires:
-- labels: null
-  category: sys-fs
+- category: sys-fs
   name: lvm2
   version: '>=2.02.45'
 use_flags:

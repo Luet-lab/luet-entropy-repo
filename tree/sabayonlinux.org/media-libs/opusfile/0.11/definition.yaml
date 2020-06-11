@@ -2,16 +2,13 @@ category: media-libs
 license: BSD
 name: opusfile
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: openssl
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libogg
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: opus
   version: '>=0'
 use_flags:

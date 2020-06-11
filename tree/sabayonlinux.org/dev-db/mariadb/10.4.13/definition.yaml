@@ -2,20 +2,16 @@ category: dev-db
 license: GPL-2 LGPL-2.1+
 name: mariadb
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libpcre-3
   version: '>=8.41'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: openssl
   version: '>=1.0.0'
-- labels: null
-  category: dev-perl
+- category: dev-perl
   name: DBD-mysql
   version: '>=2.9004'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: texinfo
   version: '>=4.7'
 use_flags:

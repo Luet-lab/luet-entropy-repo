@@ -2,16 +2,13 @@ category: x11-libs
 license: LGPL-2+
 name: pangox-compat
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.34.3'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libX11
   version: '>=1.6.2'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: pango
   version: '>=1.36.3'
 use_flags:

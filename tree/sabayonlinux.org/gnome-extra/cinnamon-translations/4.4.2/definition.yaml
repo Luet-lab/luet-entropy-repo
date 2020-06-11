@@ -2,8 +2,7 @@ category: gnome-extra
 license: GPL-2
 name: cinnamon-translations
 requires:
-- labels: null
-  category: gnome-extra
+- category: gnome-extra
   name: cinnamon-settings-daemon
   version: '>3.6'
 use_flags:

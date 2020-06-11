@@ -2,8 +2,7 @@ category: dev-libs
 license: LGPL-2.1 LGPL-3
 name: nettle
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: gmp
   version: '>=6.0'
 use_flags:

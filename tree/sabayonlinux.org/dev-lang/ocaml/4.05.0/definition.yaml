@@ -2,16 +2,13 @@ category: dev-lang
 license: LGPL-2 QPL-1.0
 name: ocaml
 requires:
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: binutils-libs
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: ncurses
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libX11
   version: '>=0'
 use_flags:

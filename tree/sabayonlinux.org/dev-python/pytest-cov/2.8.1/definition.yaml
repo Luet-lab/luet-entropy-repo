@@ -2,24 +2,19 @@ category: dev-python
 license: MIT
 name: pytest-cov
 requires:
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-exec-2
   version: '>=2'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: coverage
   version: '>=4.4'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: py
   version: '>=1.4.22'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: pytest
   version: '>=3.6'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-3.6
   version: '>=0'
 use_flags:

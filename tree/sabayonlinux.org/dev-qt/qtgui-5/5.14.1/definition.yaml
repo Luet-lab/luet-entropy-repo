@@ -2,92 +2,70 @@ category: dev-qt
 license: FDL-1.3 GPL-2 GPL-3 LGPL-3
 name: qtgui-5
 requires:
-- labels: null
-  category: media-libs
+- category: media-libs
   name: freetype-2
   version: '>=2.6.1'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: harfbuzz
   version: '>=1.6.0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libxcb
   version: '>=1.12'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libxkbcommon
   version: '>=0.5.0'
-- labels: null
-  category: app-i18n
+- category: app-i18n
   name: ibus
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libinput
   version: '>=0'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtchooser
   version: '>=0'
-- labels: null
-  category: dev-util
+- category: dev-util
   name: gtk-update-icon-cache
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: fontconfig-1.0
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libpng
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: mesa
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: zlib
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libICE
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libSM
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libX11
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: xcb-util-image
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: xcb-util-keysyms
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: xcb-util-renderutil
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: xcb-util-wm
   version: '>=0'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtcore-5
   version: '>=5.14.1'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtdbus-5
   version: '>=5.14.1'
 use_flags:

@@ -2,28 +2,22 @@ category: dev-python
 license: BSD
 name: qtconsole
 requires:
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-exec-2
   version: '>=2'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: jupyter_client
   version: '>=4.1.1'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-3.6
   version: '>=0'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: ipykernel
   version: '>=0'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: ipython
   version: '>=0'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: jupyter_core
   version: '>=0'
 use_flags:

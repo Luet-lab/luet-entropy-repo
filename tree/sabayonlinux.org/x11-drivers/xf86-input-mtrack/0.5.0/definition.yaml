@@ -2,12 +2,10 @@ category: x11-drivers
 license: GPL-2
 name: xf86-input-mtrack
 requires:
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: mtdev
   version: '>=1.0'
-- labels: null
-  category: x11-base
+- category: x11-base
   name: xorg-server
   version: '>=0'
 use_flags:

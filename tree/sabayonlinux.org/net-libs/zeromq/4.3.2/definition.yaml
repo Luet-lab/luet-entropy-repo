@@ -2,12 +2,10 @@ category: net-libs
 license: LGPL-3
 name: zeromq
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libsodium
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: libunwind-7
   version: '>=0'
 use_flags:

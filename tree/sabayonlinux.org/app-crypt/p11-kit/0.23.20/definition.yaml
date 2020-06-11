@@ -2,16 +2,13 @@ category: app-crypt
 license: MIT
 name: p11-kit
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libtasn1
   version: '>=3.4'
-- labels: null
-  category: app-misc
+- category: app-misc
   name: ca-certificates
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libffi
   version: '>=0'
 use_flags:

@@ -2,8 +2,7 @@ category: sys-libs
 license: Apache-2.0-with-LLVM-exceptions MIT UoI-NCSA
 name: libcxxabi
 requires:
-- labels: null
-  category: sys-devel
+- category: sys-devel
   name: llvm-9
   version: '>=6'
 use_flags:

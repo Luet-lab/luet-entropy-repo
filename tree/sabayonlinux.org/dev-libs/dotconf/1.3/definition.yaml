@@ -2,8 +2,7 @@ category: dev-libs
 license: LGPL-2.1
 name: dotconf
 requires:
-- labels: null
-  category: sys-devel
+- category: sys-devel
   name: autoconf-2.69
   version: '>=2.58'
 use_flags:

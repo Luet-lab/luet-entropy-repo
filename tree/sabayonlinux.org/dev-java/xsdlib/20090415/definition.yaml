@@ -2,20 +2,16 @@ category: dev-java
 license: Apache-1.1 BSD-2
 name: xsdlib
 requires:
-- labels: null
-  category: dev-java
+- category: dev-java
   name: java-config-2
   version: '>=2.1.9'
-- labels: null
-  category: app-arch
+- category: app-arch
   name: unzip
   version: '>=0'
-- labels: null
-  category: dev-java
+- category: dev-java
   name: relaxng-datatype
   version: '>=0'
-- labels: null
-  category: dev-java
+- category: dev-java
   name: xerces-2
   version: '>=0'
 use_flags:

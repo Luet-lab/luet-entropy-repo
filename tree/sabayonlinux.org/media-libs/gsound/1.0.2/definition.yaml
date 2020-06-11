@@ -2,16 +2,13 @@ category: media-libs
 license: LGPL-2.1+
 name: gsound
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.36'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: gobject-introspection
   version: '>=1.2.9'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libcanberra
   version: '>=0'
 use_flags:

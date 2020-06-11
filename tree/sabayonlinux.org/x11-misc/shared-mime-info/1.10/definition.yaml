@@ -2,12 +2,10 @@ category: x11-misc
 license: GPL-2
 name: shared-mime-info
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxml2-2
   version: '>=0'
 use_flags:

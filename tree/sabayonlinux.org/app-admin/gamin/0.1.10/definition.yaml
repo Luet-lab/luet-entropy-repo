@@ -2,16 +2,13 @@ category: app-admin
 license: LGPL-2
 name: gamin
 requires:
-- labels: null
-  category: app-admin
+- category: app-admin
   name: gam-server
   version: '>=0.1.10'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libgamin
   version: '>=0.1.10'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: coreutils
   version: '>=8.5'
 use_flags:

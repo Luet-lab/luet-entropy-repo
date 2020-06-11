@@ -2,28 +2,22 @@ category: gnome-base
 license: GPL-2 LGPL-2.1
 name: libbonobo
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: dbus-glib
   version: '>=0.74'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.14'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxml2-2
   version: '>=2.4.20'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: popt
   version: '>=1.5'
-- labels: null
-  category: gnome-base
+- category: gnome-base
   name: orbit-2
   version: '>=2.14.0'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: dbus
   version: '>=1.0.0'
 use_flags:

@@ -2,8 +2,7 @@ category: sys-libs
 license: GPL-2
 name: gpm
 requires:
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: ncurses
   version: '>=5.9'
 use_flags:

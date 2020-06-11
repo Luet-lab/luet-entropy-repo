@@ -2,56 +2,43 @@ category: app-doc
 license: GPL-2
 name: doxygen
 requires:
-- labels: null
-  category: app-text
+- category: app-text
   name: ghostscript-gpl
   version: '>=0'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: perl
   version: '>=0'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtgui-5
   version: '>=0'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtwidgets-5
   version: '>=0'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtxml-5
   version: '>=0'
-- labels: null
-  category: dev-texlive
+- category: dev-texlive
   name: texlive-bibtexextra
   version: '>=0'
-- labels: null
-  category: dev-texlive
+- category: dev-texlive
   name: texlive-fontsextra
   version: '>=0'
-- labels: null
-  category: dev-texlive
+- category: dev-texlive
   name: texlive-fontutils
   version: '>=0'
-- labels: null
-  category: dev-texlive
+- category: dev-texlive
   name: texlive-latex
   version: '>=0'
-- labels: null
-  category: dev-texlive
+- category: dev-texlive
   name: texlive-latexextra
   version: '>=0'
-- labels: null
-  category: media-gfx
+- category: media-gfx
   name: graphviz
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: freetype-2
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libpng
   version: '>=0'
 use_flags:

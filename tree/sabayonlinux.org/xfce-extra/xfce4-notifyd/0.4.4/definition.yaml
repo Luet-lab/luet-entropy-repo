@@ -2,32 +2,25 @@ category: xfce-extra
 license: GPL-2
 name: xfce4-notifyd
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.42'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: gtk+-3
   version: '>=3.14'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libnotify
   version: '>=0.7'
-- labels: null
-  category: xfce-base
+- category: xfce-base
   name: libxfce4ui
   version: '>=4.12'
-- labels: null
-  category: xfce-base
+- category: xfce-base
   name: libxfce4util
   version: '>=4.12'
-- labels: null
-  category: xfce-base
+- category: xfce-base
   name: xfce4-panel
   version: '>=4.12'
-- labels: null
-  category: xfce-base
+- category: xfce-base
   name: xfconf
   version: '>=4.10'
 use_flags:

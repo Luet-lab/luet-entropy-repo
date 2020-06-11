@@ -2,12 +2,10 @@ category: dev-libs
 license: GPL-3
 name: libindicator-3
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.22'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: gtk+-3
   version: '>=3.2'
 use_flags:

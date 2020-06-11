@@ -2,16 +2,13 @@ category: sci-libs
 license: GPL-2
 name: libgeotiff
 requires:
-- labels: null
-  category: media-libs
+- category: media-libs
   name: tiff
   version: '>=3.9.1'
-- labels: null
-  category: sci-libs
+- category: sci-libs
   name: proj
   version: '>=6.0.0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: zlib
   version: '>=0'
 use_flags:

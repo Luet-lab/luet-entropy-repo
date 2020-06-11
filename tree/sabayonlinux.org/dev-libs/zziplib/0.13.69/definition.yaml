@@ -2,12 +2,10 @@ category: dev-libs
 license: LGPL-2.1 MPL-1.1
 name: zziplib
 requires:
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libsdl
   version: '>=1.2.6'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: zlib
   version: '>=0'
 use_flags:

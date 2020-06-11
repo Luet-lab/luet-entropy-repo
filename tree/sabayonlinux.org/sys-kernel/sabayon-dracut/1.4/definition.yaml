@@ -2,24 +2,19 @@ category: sys-kernel
 license: GPL-3
 name: sabayon-dracut
 requires:
-- labels: null
-  category: sys-boot
+- category: sys-boot
   name: plymouth
   version: '>=0'
-- labels: null
-  category: sys-fs
+- category: sys-fs
   name: btrfs-progs
   version: '>=0'
-- labels: null
-  category: sys-fs
+- category: sys-fs
   name: lvm2
   version: '>=0'
-- labels: null
-  category: sys-fs
+- category: sys-fs
   name: mdadm
   version: '>=0'
-- labels: null
-  category: sys-kernel
+- category: sys-kernel
   name: dracut
   version: '>=0'
 use_flags:

@@ -2,12 +2,10 @@ category: net-libs
 license: LGPL-2
 name: libqmi
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.36'
-- labels: null
-  category: net-libs
+- category: net-libs
   name: libmbim
   version: '>=1.18.0'
 use_flags:

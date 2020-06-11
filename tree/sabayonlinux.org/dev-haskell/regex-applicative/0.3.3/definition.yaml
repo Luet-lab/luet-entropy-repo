@@ -2,16 +2,13 @@ category: dev-haskell
 license: MIT
 name: regex-applicative
 requires:
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: cabal
   version: '>=1.10'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: ghc
   version: '>=7.4.1'
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: transformers
   version: '>=0'
 use_flags:

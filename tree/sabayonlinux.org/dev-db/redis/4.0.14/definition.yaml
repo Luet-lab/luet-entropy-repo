@@ -2,24 +2,19 @@ category: dev-db
 license: BSD
 name: redis
 requires:
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: lua
   version: '>=5.1'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: jemalloc
   version: '>=3.2'
-- labels: null
-  category: sys-devel
+- category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- labels: null
-  category: sys-devel
+- category: sys-devel
   name: automake-1.15
   version: '>=1.15.1'
-- labels: null
-  category: sys-devel
+- category: sys-devel
   name: libtool-2
   version: '>=2.4'
 use_flags:

@@ -2,56 +2,43 @@ category: media-sound
 license: GPL-2
 name: timidity++
 requires:
-- labels: null
-  category: app-eselect
+- category: app-eselect
   name: eselect-timidity
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: alsa-lib
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: flac
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libpng
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libvorbis
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: speex
   version: '>=0'
-- labels: null
-  category: media-sound
+- category: media-sound
   name: alsa-utils-0.9
   version: '>=0'
-- labels: null
-  category: media-sound
+- category: media-sound
   name: timidity-freepats
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: ncurses
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: gtk+-3
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXaw
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXaw3d
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXext
   version: '>=0'
 use_flags:

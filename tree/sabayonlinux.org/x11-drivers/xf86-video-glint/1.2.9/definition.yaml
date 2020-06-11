@@ -2,16 +2,13 @@ category: x11-drivers
 license: MIT
 name: xf86-video-glint
 requires:
-- labels: null
-  category: x11-base
+- category: x11-base
   name: xorg-server
   version: '>=1.0.99'
-- labels: null
-  category: x11-base
+- category: x11-base
   name: xorg-server
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libpciaccess
   version: '>=0'
 use_flags:

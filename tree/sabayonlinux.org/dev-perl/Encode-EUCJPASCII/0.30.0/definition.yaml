@@ -2,8 +2,7 @@ category: dev-perl
 license: Artistic GPL-1+
 name: Encode-EUCJPASCII
 requires:
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: perl
   version: '>=0'
 use_flags:

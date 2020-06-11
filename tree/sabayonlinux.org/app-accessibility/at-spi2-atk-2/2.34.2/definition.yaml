@@ -2,20 +2,16 @@ category: app-accessibility
 license: LGPL-2.1+
 name: at-spi2-atk-2
 requires:
-- labels: null
-  category: app-accessibility
+- category: app-accessibility
   name: at-spi2-core-2
   version: '>=2.33.2'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: atk
   version: '>=2.33.3'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.32'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: dbus
   version: '>=1.5'
 use_flags:

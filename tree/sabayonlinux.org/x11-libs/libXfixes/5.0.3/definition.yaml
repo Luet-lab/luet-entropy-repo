@@ -2,8 +2,7 @@ category: x11-libs
 license: MIT
 name: libXfixes
 requires:
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libX11
   version: '>=1.6.2'
 use_flags:

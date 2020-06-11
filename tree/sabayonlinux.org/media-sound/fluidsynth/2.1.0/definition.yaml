@@ -2,32 +2,25 @@ category: media-sound
 license: LGPL-2.1+
 name: fluidsynth
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: alsa-lib
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libsdl2
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libsndfile
   version: '>=0'
-- labels: null
-  category: media-sound
+- category: media-sound
   name: pulseaudio
   version: '>=0'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: dbus
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: readline
   version: '>=0'
 use_flags:

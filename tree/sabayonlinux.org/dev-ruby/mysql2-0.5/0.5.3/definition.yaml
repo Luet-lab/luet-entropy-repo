@@ -2,12 +2,10 @@ category: dev-ruby
 license: MIT
 name: mysql2-0.5
 requires:
-- labels: null
-  category: dev-db
+- category: dev-db
   name: mariadb-connector-c
   version: '>=0'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: ruby-2.5
   version: '>=0'
 use_flags:

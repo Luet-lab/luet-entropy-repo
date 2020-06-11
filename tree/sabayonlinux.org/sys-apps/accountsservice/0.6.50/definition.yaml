@@ -2,20 +2,16 @@ category: sys-apps
 license: GPL-3+
 name: accountsservice
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.44'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: gobject-introspection
   version: '>=0.9.12'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: systemd
   version: '>=186'
-- labels: null
-  category: sys-auth
+- category: sys-auth
   name: polkit
   version: '>=0'
 use_flags:

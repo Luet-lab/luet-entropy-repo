@@ -2,28 +2,22 @@ category: dev-libs
 license: Apache-2.0
 name: apr-util-1
 requires:
-- labels: null
-  category: net-nds
+- category: net-nds
   name: openldap
   version: '>=2'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: apr-1
   version: '>=1.6.2'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: db-6.0
   version: '>=4'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: expat
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: openssl
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: gdbm
   version: '>=0'
 use_flags:

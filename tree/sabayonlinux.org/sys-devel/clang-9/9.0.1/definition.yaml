@@ -2,32 +2,25 @@ category: sys-devel
 license: Apache-2.0-with-LLVM-exceptions MIT UoI-NCSA
 name: clang-9
 requires:
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-exec-2
   version: '>=2'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: perl
   version: '>=0'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-3.6
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxml2-2
   version: '>=0'
-- labels: null
-  category: sys-devel
+- category: sys-devel
   name: clang-common
   version: '>=0'
-- labels: null
-  category: sys-devel
+- category: sys-devel
   name: clang-runtime-9.0.1
   version: '>=9.0.1'
-- labels: null
-  category: sys-devel
+- category: sys-devel
   name: llvm-9
   version: '>=9.0.1'
 use_flags:

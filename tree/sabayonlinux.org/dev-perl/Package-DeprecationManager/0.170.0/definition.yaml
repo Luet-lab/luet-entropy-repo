@@ -2,24 +2,19 @@ category: dev-perl
 license: Artistic-2
 name: Package-DeprecationManager
 requires:
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: perl
   version: '>=0'
-- labels: null
-  category: dev-perl
+- category: dev-perl
   name: Package-Stash
   version: '>=0'
-- labels: null
-  category: dev-perl
+- category: dev-perl
   name: Params-Util
   version: '>=0'
-- labels: null
-  category: dev-perl
+- category: dev-perl
   name: Sub-Install
   version: '>=0'
-- labels: null
-  category: dev-perl
+- category: dev-perl
   name: Sub-Name
   version: '>=0'
 use_flags:

@@ -2,32 +2,25 @@ category: gnome-base
 license: LGPL-2+
 name: librsvg-2
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.34.3'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: gobject-introspection
   version: '>=0.10.8'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libcroco-0.6
   version: '>=0.6.8'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxml2-2
   version: '>=2.9.1'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: cairo
   version: '>=1.12.14'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: gdk-pixbuf-2
   version: '>=2.30.7'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: pango
   version: '>=1.38.0'
 use_flags:

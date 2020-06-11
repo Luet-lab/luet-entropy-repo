@@ -2,12 +2,10 @@ category: dev-util
 license: BSD
 name: lxqt-build-tools
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.50.0'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtcore-5
   version: '>=0'
 use_flags:

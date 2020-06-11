@@ -2,8 +2,7 @@ category: dev-libs
 license: BSD
 name: protobuf
 requires:
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: zlib
   version: '>=0'
 use_flags:

@@ -2,8 +2,7 @@ category: sci-libs
 license: MIT
 name: proj
 requires:
-- labels: null
-  category: dev-db
+- category: dev-db
   name: sqlite-3
   version: '>=0'
 use_flags:

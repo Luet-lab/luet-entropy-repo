@@ -2,60 +2,46 @@ category: media-plugins
 license: LGPL-2.1+
 name: grilo-plugins-0.3
 requires:
-- labels: null
-  category: app-misc
+- category: app-misc
   name: tracker
   version: '>=0.10.5'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.44'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: gom
   version: '>=0.3.2'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libgdata
   version: '>=0.9.1'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: totem-pl-parser
   version: '>=3.4.1'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: grilo-0.3
   version: '>=0.3.8'
-- labels: null
-  category: dev-db
+- category: dev-db
   name: sqlite-3
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: json-glib
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxml2-2
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libmediaart-2.0
   version: '>=0'
-- labels: null
-  category: net-libs
+- category: net-libs
   name: dleyna-connector-dbus-1.0
   version: '>=0'
-- labels: null
-  category: net-libs
+- category: net-libs
   name: liboauth
   version: '>=0'
-- labels: null
-  category: net-libs
+- category: net-libs
   name: libsoup-2.4
   version: '>=0'
-- labels: null
-  category: net-misc
+- category: net-misc
   name: dleyna-server
   version: '>=0'
 use_flags:

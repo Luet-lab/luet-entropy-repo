@@ -2,32 +2,25 @@ category: app-admin
 license: Apache-2.0
 name: apache-tools
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: apr-1
   version: '>=1.5.0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: apr-util-1
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: expat
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libpcre-3
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: openssl
   version: '>=0'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: util-linux
   version: '>=0'
-- labels: null
-  category: sys-devel
+- category: sys-devel
   name: libtool-2
   version: '>=0'
 use_flags:

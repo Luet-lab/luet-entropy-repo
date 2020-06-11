@@ -2,20 +2,16 @@ category: app-text
 license: CCPL-ShareAlike-1.0 FDL-1.3 GPL-2
 name: texi2html
 requires:
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: perl
   version: '>=5.10.1'
-- labels: null
-  category: dev-perl
+- category: dev-perl
   name: Text-Unidecode
   version: '>=0'
-- labels: null
-  category: dev-perl
+- category: dev-perl
   name: Unicode-EastAsianWidth
   version: '>=0'
-- labels: null
-  category: dev-perl
+- category: dev-perl
   name: libintl-perl
   version: '>=0'
 use_flags:

@@ -2,8 +2,7 @@ category: sys-devel
 license: GPL-2
 name: gcc-config
 requires:
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: gentoo-functions
   version: '>=0.10'
 use_flags:

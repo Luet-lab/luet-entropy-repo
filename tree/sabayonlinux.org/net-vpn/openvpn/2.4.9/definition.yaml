@@ -2,24 +2,19 @@ category: net-vpn
 license: GPL-2
 name: openvpn
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: lzo-2
   version: '>=1.07'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: openssl
   version: '>=0.9.8'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: net-tools
   version: '>=1.60'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: systemd
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: pam
   version: '>=0'
 use_flags:

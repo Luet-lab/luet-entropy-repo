@@ -2,60 +2,46 @@ category: media-gfx
 license: AGPL-3
 name: argyllcms
 requires:
-- labels: null
-  category: app-arch
+- category: app-arch
   name: unzip
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: openssl
   version: '>=0'
-- labels: null
-  category: dev-util
+- category: dev-util
   name: ftjam
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libpng
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: tiff
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: zlib
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libX11
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXScrnSaver
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXau
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXdmcp
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXext
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXinerama
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXrandr
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXxf86vm
   version: '>=0'
 use_flags:

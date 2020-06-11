@@ -2,128 +2,97 @@ category: media-gfx
 license: GPL-2 LGPL-2.1
 name: inkscape
 requires:
-- labels: null
-  category: app-text
+- category: app-text
   name: poppler-glib
   version: '>=0.26.0'
-- labels: null
-  category: dev-cpp
+- category: dev-cpp
   name: cairomm
   version: '>=1.9.8'
-- labels: null
-  category: dev-cpp
+- category: dev-cpp
   name: glibmm-2
   version: '>=2.54.1'
-- labels: null
-  category: dev-cpp
+- category: dev-cpp
   name: gtkmm-3.0
   version: '>=2.18.0'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-2.7
   version: '>=2.7.5'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-exec-2
   version: '>=2'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: boehm-gc
   version: '>=7.1'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: boost
   version: '>=1.36'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.28'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libsigc++-2
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxml2-2
   version: '>=2.6.20'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxslt
   version: '>=1.0.15'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: gtk+-3
   version: '>=2.10.7'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: pango
   version: '>=1.24'
-- labels: null
-  category: app-text
+- category: app-text
   name: aspell
   version: '>=0'
-- labels: null
-  category: app-text
+- category: app-text
   name: gtkspell-3
   version: '>=0'
-- labels: null
-  category: app-text
+- category: app-text
   name: libwpg-0.3
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: dbus-glib
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: librevenge
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: popt
   version: '>=0'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: numpy
   version: '>=0'
-- labels: null
-  category: media-gfx
+- category: media-gfx
   name: potrace
   version: '>=0'
-- labels: null
-  category: media-gfx
+- category: media-gfx
   name: uniconvertor
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: fontconfig-1.0
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: freetype-2
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: lcms-2
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libcdr
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libexif
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libpng
   version: '>=0'
-- labels: null
-  category: sci-libs
+- category: sci-libs
   name: gsl
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libX11
   version: '>=0'
 use_flags:

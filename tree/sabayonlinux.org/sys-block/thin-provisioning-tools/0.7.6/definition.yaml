@@ -2,12 +2,10 @@ category: sys-block
 license: GPL-3
 name: thin-provisioning-tools
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: expat
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libaio
   version: '>=0'
 use_flags:

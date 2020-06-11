@@ -2,28 +2,22 @@ category: sys-block
 license: GPL-2
 name: open-iscsi
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: openssl
   version: '>=0'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: kmod
   version: '>=0'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: systemd
   version: '>=0'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: util-linux
   version: '>=0'
-- labels: null
-  category: sys-block
+- category: sys-block
   name: open-isns
   version: '>=0'
-- labels: null
-  category: sys-fs
+- category: sys-fs
   name: lsscsi
   version: '>=0'
 use_flags:

@@ -2,48 +2,37 @@ category: x11-misc
 license: GPL-2+
 name: colord
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.44.0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: gobject-introspection
   version: '>=0.9.8'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libgusb
   version: '>=0.2.7'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: lcms-2
   version: '>=2.6'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: systemd
   version: '>=44'
-- labels: null
-  category: sys-auth
+- category: sys-auth
   name: polkit
   version: '>=0.104'
-- labels: null
-  category: dev-db
+- category: dev-db
   name: sqlite-3
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libgudev
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxslt
   version: '>=0'
-- labels: null
-  category: media-gfx
+- category: media-gfx
   name: sane-backends
   version: '>=0'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: dbus
   version: '>=0'
 use_flags:

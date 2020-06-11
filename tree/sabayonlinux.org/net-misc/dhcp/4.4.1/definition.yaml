@@ -2,20 +2,16 @@ category: net-misc
 license: BSD GPL-2 MPL-2.0 SSLeay
 name: dhcp
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: openssl
   version: '>=0'
-- labels: null
-  category: net-nds
+- category: net-nds
   name: openldap
   version: '>=0'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: iproute2
   version: '>=0'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: net-tools
   version: '>=0'
 use_flags:

@@ -2,32 +2,25 @@ category: app-emulation
 license: LGPL-2.1
 name: spice
 requires:
-- labels: null
-  category: app-emulation
+- category: app-emulation
   name: libcacard
   version: '>=0.1.2'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.22'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: pixman
   version: '>=0.17.7'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: orc
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: openssl
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: opus
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: zlib
   version: '>=0'
 use_flags:

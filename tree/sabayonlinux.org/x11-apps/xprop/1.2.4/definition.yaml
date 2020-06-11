@@ -2,8 +2,7 @@ category: x11-apps
 license: MIT
 name: xprop
 requires:
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libX11
   version: '>=0'
 use_flags:

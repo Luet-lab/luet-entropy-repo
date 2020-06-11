@@ -2,20 +2,16 @@ category: media-fonts
 license: MIT
 name: font-cursor-misc
 requires:
-- labels: null
-  category: media-fonts
+- category: media-fonts
   name: encodings
   version: '>=0'
-- labels: null
-  category: media-fonts
+- category: media-fonts
   name: font-alias
   version: '>=0'
-- labels: null
-  category: x11-apps
+- category: x11-apps
   name: mkfontdir
   version: '>=0'
-- labels: null
-  category: x11-apps
+- category: x11-apps
   name: mkfontscale
   version: '>=0'
 use_flags:

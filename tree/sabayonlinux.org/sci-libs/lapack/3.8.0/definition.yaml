@@ -2,16 +2,13 @@ category: sci-libs
 license: BSD
 name: lapack
 requires:
-- labels: null
-  category: app-eselect
+- category: app-eselect
   name: eselect-blas
   version: '>=0.2'
-- labels: null
-  category: app-eselect
+- category: app-eselect
   name: eselect-lapack
   version: '>=0.2'
-- labels: null
-  category: sys-devel
+- category: sys-devel
   name: make
   version: '>=0'
 use_flags:

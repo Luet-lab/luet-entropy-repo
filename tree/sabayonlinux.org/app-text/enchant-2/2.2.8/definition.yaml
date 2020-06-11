@@ -4,16 +4,13 @@ category: app-text
 license: LGPL-2.1+
 name: enchant-2
 requires:
-- labels: null
-  category: app-text
+- category: app-text
   name: hunspell
   version: '>=1.2.1'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.6'
-- labels: null
-  category: app-text
+- category: app-text
   name: aspell
   version: '>=0'
 use_flags:

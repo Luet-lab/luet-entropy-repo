@@ -2,16 +2,13 @@ category: x11-themes
 license: CC-BY-SA-3.0 LGPL-3
 name: adwaita-icon-theme
 requires:
-- labels: null
-  category: x11-themes
+- category: x11-themes
   name: hicolor-icon-theme
   version: '>=0.10'
-- labels: null
-  category: gnome-base
+- category: gnome-base
   name: librsvg-2
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: gtk+-3
   version: '>=0'
 use_flags:

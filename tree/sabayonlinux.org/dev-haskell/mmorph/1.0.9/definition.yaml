@@ -2,28 +2,22 @@ category: dev-haskell
 license: BSD
 name: mmorph
 requires:
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: mtl
   version: <2.3
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: transformers-compat
   version: <0.6
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: cabal
   version: '>=1.18.1.3'
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: mtl
   version: '>=2.0.1'
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: transformers-compat
   version: '>=0.3'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: ghc
   version: '>=7.8.2'
 use_flags:

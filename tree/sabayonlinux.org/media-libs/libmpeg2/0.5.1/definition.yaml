@@ -2,24 +2,19 @@ category: media-libs
 license: GPL-2
 name: libmpeg2
 requires:
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libsdl
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libICE
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libSM
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXt
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXv
   version: '>=0'
 use_flags:

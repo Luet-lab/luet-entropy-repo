@@ -2,44 +2,34 @@ category: media-libs
 license: BSD
 name: imlib2
 requires:
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libpng
   version: '>=1.6.10'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: tiff
   version: '>=4.0.4'
-- labels: null
-  category: app-arch
+- category: app-arch
   name: bzip2
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: freetype-2
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: giflib
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libid3tag
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libwebp
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: zlib
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libX11
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXext
   version: '>=0'
 use_flags:

@@ -2,24 +2,19 @@ category: sys-apps
 license: LGPL-2+
 name: bubblewrap
 requires:
-- labels: null
-  category: app-text
+- category: app-text
   name: docbook-xml-dtd-4.5
   version: '>=0'
-- labels: null
-  category: app-text
+- category: app-text
   name: docbook-xsl-stylesheets
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxslt
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: libcap
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: libseccomp
   version: '>=0'
 use_flags:

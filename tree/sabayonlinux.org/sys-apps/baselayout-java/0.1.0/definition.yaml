@@ -2,12 +2,10 @@ category: sys-apps
 license: GPL-2
 name: baselayout-java
 requires:
-- labels: null
-  category: app-crypt
+- category: app-crypt
   name: p11-kit
   version: '>=0'
-- labels: null
-  category: app-misc
+- category: app-misc
   name: ca-certificates
   version: '>=0'
 use_flags:

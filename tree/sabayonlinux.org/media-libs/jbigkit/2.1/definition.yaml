@@ -2,8 +2,7 @@ category: media-libs
 license: GPL-2
 name: jbigkit
 requires:
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: coreutils
   version: '>=8.5'
 use_flags:

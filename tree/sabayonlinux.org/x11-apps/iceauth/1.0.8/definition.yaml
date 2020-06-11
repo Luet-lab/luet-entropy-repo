@@ -2,8 +2,7 @@ category: x11-apps
 license: MIT
 name: iceauth
 requires:
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libICE
   version: '>=0'
 use_flags:

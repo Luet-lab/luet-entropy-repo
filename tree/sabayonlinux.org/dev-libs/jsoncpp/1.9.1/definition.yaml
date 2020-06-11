@@ -2,8 +2,7 @@ category: dev-libs
 license: MIT public-domain
 name: jsoncpp
 requires:
-- labels: null
-  category: sys-devel
+- category: sys-devel
   name: make
   version: '>=0'
 use_flags:

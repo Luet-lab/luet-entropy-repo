@@ -2,12 +2,10 @@ category: media-libs
 license: GPL-2
 name: libao
 requires:
-- labels: null
-  category: media-libs
+- category: media-libs
   name: alsa-lib
   version: '>=1.0.27.2'
-- labels: null
-  category: media-sound
+- category: media-sound
   name: pulseaudio
   version: '>=2.1'
 use_flags:

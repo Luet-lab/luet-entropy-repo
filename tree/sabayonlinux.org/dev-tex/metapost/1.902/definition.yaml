@@ -2,24 +2,19 @@ category: dev-tex
 license: GPL-2 LGPL-3
 name: metapost
 requires:
-- labels: null
-  category: app-eselect
+- category: app-eselect
   name: eselect-mpost
   version: '>=0.3'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: kpathsea
   version: '>=6.1.0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: cairo
   version: '>=1.12'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: pixman
   version: '>0.18'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libpng
   version: '>=0'
 use_flags:

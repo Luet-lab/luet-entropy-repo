@@ -2,8 +2,7 @@ category: app-arch
 license: GPL-3+
 name: tar
 requires:
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: attr
   version: '>=0'
 use_flags:

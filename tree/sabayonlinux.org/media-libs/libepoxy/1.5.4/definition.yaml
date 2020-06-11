@@ -2,16 +2,13 @@ category: media-libs
 license: MIT
 name: libepoxy
 requires:
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-3.6
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: mesa
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libX11
   version: '>=0'
 use_flags:

@@ -2,28 +2,22 @@ category: app-crypt
 license: BSD BSD-2 BSD-4 CC-BY-SA-3.0 GPL-2+ HPND ISC MIT OPENLDAP RSA openafs-krb5-a
 name: mit-krb5
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libverto
   version: '>=0.2.5'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: openssl
   version: '>=1.0.1h'
-- labels: null
-  category: net-nds
+- category: net-nds
   name: openldap
   version: '>=2.4.38'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: keyutils
   version: '>=1.5.8'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: e2fsprogs-libs
   version: '>=1.42.9'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-3.6
   version: '>=0'
 use_flags:

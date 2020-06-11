@@ -2,8 +2,7 @@ category: app-text
 license: GPL-2
 name: xmlto
 requires:
-- labels: null
-  category: app-text
+- category: app-text
   name: docbook-xsl-stylesheets
   version: '>=1.62.0'
 use_flags:

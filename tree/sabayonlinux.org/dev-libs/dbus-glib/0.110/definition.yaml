@@ -2,16 +2,13 @@ category: dev-libs
 license: AFL-2.1 GPL-2
 name: dbus-glib
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: expat
   version: '>=2.1.0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.40'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: dbus
   version: '>=1.8'
 use_flags:

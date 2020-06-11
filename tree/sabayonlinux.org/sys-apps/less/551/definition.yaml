@@ -2,16 +2,13 @@ category: sys-apps
 license: BSD-2 GPL-3
 name: less
 requires:
-- labels: null
-  category: app-misc
+- category: app-misc
   name: editor-wrapper
   version: '>=3'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: ncurses
   version: '>=5.2'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libpcre2
   version: '>=0'
 use_flags:

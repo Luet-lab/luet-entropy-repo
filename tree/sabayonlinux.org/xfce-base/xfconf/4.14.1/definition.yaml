@@ -2,28 +2,22 @@ category: xfce-base
 license: GPL-2+
 name: xfconf
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.42'
-- labels: null
-  category: xfce-base
+- category: xfce-base
   name: libxfce4util
   version: '>=4.10'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: perl
   version: '>=0'
-- labels: null
-  category: dev-perl
+- category: dev-perl
   name: ExtUtils-Depends
   version: '>=0'
-- labels: null
-  category: dev-perl
+- category: dev-perl
   name: ExtUtils-PkgConfig
   version: '>=0'
-- labels: null
-  category: dev-perl
+- category: dev-perl
   name: glib-perl
   version: '>=0'
 use_flags:

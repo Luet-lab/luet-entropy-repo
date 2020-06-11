@@ -2,12 +2,10 @@ category: x11-libs
 license: MIT
 name: libXcomposite
 requires:
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libX11
   version: '>=1.6.2'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXfixes
   version: '>=5.0.1'
 use_flags:

@@ -2,16 +2,13 @@ category: net-nds
 license: BSD
 name: rpcbind
 requires:
-- labels: null
-  category: net-libs
+- category: net-libs
   name: libtirpc
   version: '>=0.2.3'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: systemd
   version: '>=0'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: tcp-wrappers
   version: '>=0'
 use_flags:

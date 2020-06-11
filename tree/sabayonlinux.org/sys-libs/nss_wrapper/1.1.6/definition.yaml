@@ -2,8 +2,7 @@ category: sys-libs
 license: BSD
 name: nss_wrapper
 requires:
-- labels: null
-  category: sys-devel
+- category: sys-devel
   name: make
   version: '>=0'
 use_flags:

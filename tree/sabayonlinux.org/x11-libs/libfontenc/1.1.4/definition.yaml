@@ -2,8 +2,7 @@ category: x11-libs
 license: MIT
 name: libfontenc
 requires:
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: zlib
   version: '>=0'
 use_flags:

@@ -2,28 +2,22 @@ category: sys-auth
 license: LGPL-2
 name: polkit-qt
 requires:
-- labels: null
-  category: sys-auth
+- category: sys-auth
   name: polkit
   version: '>=0.103'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=0'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtcore-5
   version: '>=0'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtdbus-5
   version: '>=0'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtgui-5
   version: '>=0'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtwidgets-5
   version: '>=0'
 use_flags:

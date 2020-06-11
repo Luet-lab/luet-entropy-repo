@@ -2,8 +2,7 @@ category: media-libs
 license: BSD-2
 name: libsamplerate
 requires:
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libsndfile
   version: '>=1.0.2'
 use_flags:

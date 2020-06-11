@@ -2,28 +2,22 @@ category: media-libs
 license: AGPL-3
 name: libquvi
 requires:
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: lua
   version: '>=5.1.5'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.34.3'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libgcrypt
   version: '>=1.5.3'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libquvi-scripts
   version: '>=0.9.20130903'
-- labels: null
-  category: net-libs
+- category: net-libs
   name: libproxy
   version: '>=0.4.11'
-- labels: null
-  category: net-misc
+- category: net-misc
   name: curl
   version: '>=7.36.0'
 use_flags:

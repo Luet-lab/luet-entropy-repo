@@ -2,8 +2,7 @@ category: media-libs
 license: LGPL-2.1
 name: spandsp
 requires:
-- labels: null
-  category: media-libs
+- category: media-libs
   name: tiff
   version: '>=0'
 use_flags:

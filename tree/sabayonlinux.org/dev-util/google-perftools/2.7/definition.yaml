@@ -2,8 +2,7 @@ category: dev-util
 license: MIT
 name: google-perftools
 requires:
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: libunwind-7
   version: '>=0'
 use_flags:

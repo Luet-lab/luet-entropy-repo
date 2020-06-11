@@ -2,12 +2,10 @@ category: dev-java
 license: sun-bcla-jms
 name: sun-jms
 requires:
-- labels: null
-  category: dev-java
+- category: dev-java
   name: java-config-2
   version: '>=2.0.33'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: portage
   version: '>=2.1.2.7'
 use_flags:

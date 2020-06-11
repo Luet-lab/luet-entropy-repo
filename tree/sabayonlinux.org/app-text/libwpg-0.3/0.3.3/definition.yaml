@@ -2,12 +2,10 @@ category: app-text
 license: LGPL-2.1 MPL-2.0
 name: libwpg-0.3
 requires:
-- labels: null
-  category: app-text
+- category: app-text
   name: libwpd-0.10
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: librevenge
   version: '>=0'
 use_flags:

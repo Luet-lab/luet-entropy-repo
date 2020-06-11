@@ -2,24 +2,19 @@ category: app-admin
 license: LGPL-2
 name: gam-server
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libgamin
   version: '>=0.1.10'
-- labels: null
-  category: sys-devel
+- category: sys-devel
   name: autoconf-2.69
   version: '>=2.68'
-- labels: null
-  category: sys-devel
+- category: sys-devel
   name: automake-1.15
   version: '>=1.14'
-- labels: null
-  category: sys-devel
+- category: sys-devel
   name: libtool-2
   version: '>=0'
 use_flags:

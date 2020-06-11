@@ -2,8 +2,7 @@ category: sys-apps
 license: GPL-3
 name: ed
 requires:
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: texinfo
   version: '>=0'
 use_flags:

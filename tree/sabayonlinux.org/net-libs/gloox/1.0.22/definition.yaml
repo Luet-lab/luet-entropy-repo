@@ -2,16 +2,13 @@ category: net-libs
 license: GPL-3
 name: gloox
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: openssl
   version: '>=0'
-- labels: null
-  category: net-libs
+- category: net-libs
   name: gnutls
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: zlib
   version: '>=0'
 use_flags:

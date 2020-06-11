@@ -2,48 +2,37 @@ category: xfce-base
 license: GPL-2+ LGPL-2.1+
 name: xfce4-panel
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.42'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: cairo
   version: '>=1'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: gtk+-3
   version: '>=2.20'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: gtk+-3
   version: '>=3.22'
-- labels: null
-  category: xfce-base
+- category: xfce-base
   name: exo
   version: '>=0.11.2'
-- labels: null
-  category: xfce-base
+- category: xfce-base
   name: garcon
   version: '>=0.5'
-- labels: null
-  category: xfce-base
+- category: xfce-base
   name: libxfce4ui
   version: '>=4.13'
-- labels: null
-  category: xfce-base
+- category: xfce-base
   name: libxfce4util
   version: '>=4.13'
-- labels: null
-  category: xfce-base
+- category: xfce-base
   name: xfconf
   version: '>=4.13'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libX11
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libwnck-3
   version: '>=0'
 use_flags:

@@ -4,8 +4,7 @@ category: dev-java
 license: Apache-2.0
 name: ant-core
 requires:
-- labels: null
-  category: dev-java
+- category: dev-java
   name: java-config-2
   version: '>=2.2.0'
 use_flags:

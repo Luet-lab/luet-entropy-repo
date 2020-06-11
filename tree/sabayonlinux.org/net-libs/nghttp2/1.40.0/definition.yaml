@@ -2,8 +2,7 @@ category: net-libs
 license: MIT
 name: nghttp2
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxml2-2
   version: '>=2.7.7'
 use_flags:

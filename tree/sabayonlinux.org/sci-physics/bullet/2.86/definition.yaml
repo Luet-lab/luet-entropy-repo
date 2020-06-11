@@ -2,12 +2,10 @@ category: sci-physics
 license: ZLIB
 name: bullet
 requires:
-- labels: null
-  category: media-libs
+- category: media-libs
   name: freeglut
   version: '>=0'
-- labels: null
-  category: sys-devel
+- category: sys-devel
   name: make
   version: '>=0'
 use_flags:

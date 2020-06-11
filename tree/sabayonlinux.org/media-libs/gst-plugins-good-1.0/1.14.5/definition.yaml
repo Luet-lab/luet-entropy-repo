@@ -2,36 +2,28 @@ category: media-libs
 license: LGPL-2.1+
 name: gst-plugins-good-1.0
 requires:
-- labels: null
-  category: app-arch
+- category: app-arch
   name: bzip2
   version: '>=1.0.6'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: orc
   version: '>=0.4.17'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.38.2'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.40.0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: gst-plugins-base-1.0
   version: '>=1.14.5'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: gstreamer-1.0
   version: '>=1.14.5'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: gstreamer-1.0
   version: '>=1.2.4'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: zlib
   version: '>=1.2.8'
 use_flags:

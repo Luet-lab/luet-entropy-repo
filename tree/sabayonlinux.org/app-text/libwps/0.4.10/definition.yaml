@@ -2,8 +2,7 @@ category: app-text
 license: LGPL-2.1 MPL-2.0
 name: libwps
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: librevenge
   version: '>=0'
 use_flags:

@@ -2,20 +2,16 @@ category: app-admin
 license: GPL-2
 name: perl-cleaner
 requires:
-- labels: null
-  category: app-portage
+- category: app-portage
   name: portage-utils
   version: '>=0'
-- labels: null
-  category: app-shells
+- category: app-shells
   name: bash
   version: '>=0'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: perl
   version: '>=0'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: portage
   version: '>=0'
 use_flags:

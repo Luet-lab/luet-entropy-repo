@@ -2,16 +2,13 @@ category: media-sound
 license: BSD LGPL-2.1
 name: musepack-tools
 requires:
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libcuefile
   version: '>=465'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libreplaygain
   version: '>=465'
-- labels: null
-  category: sys-devel
+- category: sys-devel
   name: make
   version: '>=0'
 use_flags:

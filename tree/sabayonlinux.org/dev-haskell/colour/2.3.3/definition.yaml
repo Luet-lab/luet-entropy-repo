@@ -2,12 +2,10 @@ category: dev-haskell
 license: MIT
 name: colour
 requires:
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: cabal
   version: '>=1.6'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: ghc
   version: '>=6.10.4'
 use_flags:

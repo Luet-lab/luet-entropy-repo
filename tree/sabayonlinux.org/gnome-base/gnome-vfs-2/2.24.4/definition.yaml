@@ -2,44 +2,34 @@ category: gnome-base
 license: GPL-2 LGPL-2
 name: gnome-vfs-2
 requires:
-- labels: null
-  category: app-arch
+- category: app-arch
   name: bzip2
   version: '>=1.0.6'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: dbus-glib
   version: '>=0.100.2'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.34.3'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxml2-2
   version: '>=2.9.1'
-- labels: null
-  category: gnome-base
+- category: gnome-base
   name: gconf-2
   version: '>=2.32.4'
-- labels: null
-  category: net-dns
+- category: net-dns
   name: avahi-gtk3
   version: '>=0.6.31'
-- labels: null
-  category: net-libs
+- category: net-libs
   name: gnutls
   version: '>=2.12.23'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: acl
   version: '>=2.2.52'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: attr
   version: '>=2.4.47'
-- labels: null
-  category: gnome-base
+- category: gnome-base
   name: gnome-mime-data
   version: '>=0'
 use_flags:

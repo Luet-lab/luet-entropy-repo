@@ -2,8 +2,7 @@ category: net-libs
 license: LGPL-2
 name: libmbim
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.36'
 use_flags:

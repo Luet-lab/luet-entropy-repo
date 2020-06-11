@@ -2,8 +2,7 @@ category: app-text
 license: LGPL-3 MPL-2.0
 name: liblangtag
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxml2-2
   version: '>=0'
 use_flags:

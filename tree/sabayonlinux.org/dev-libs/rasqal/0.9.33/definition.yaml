@@ -2,28 +2,22 @@ category: dev-libs
 license: Apache-2.0 GPL-2 LGPL-2.1
 name: rasqal
 requires:
-- labels: null
-  category: media-libs
+- category: media-libs
   name: raptor-2
   version: '>=2.0.15'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: util-linux
   version: '>=2.19'
-- labels: null
-  category: app-crypt
+- category: app-crypt
   name: mhash
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: gmp
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libpcre-3
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxml2-2
   version: '>=0'
 use_flags:

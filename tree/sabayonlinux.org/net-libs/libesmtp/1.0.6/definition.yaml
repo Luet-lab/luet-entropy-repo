@@ -2,8 +2,7 @@ category: net-libs
 license: GPL-2 LGPL-2.1
 name: libesmtp
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: openssl
   version: '>=0'
 use_flags:

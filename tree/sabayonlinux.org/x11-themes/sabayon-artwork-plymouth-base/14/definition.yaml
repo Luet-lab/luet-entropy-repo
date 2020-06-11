@@ -2,12 +2,10 @@ category: x11-themes
 license: CCPL-Attribution-ShareAlike-3.0
 name: sabayon-artwork-plymouth-base
 requires:
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: findutils
   version: '>=0'
-- labels: null
-  category: sys-boot
+- category: sys-boot
   name: plymouth
   version: '>=0'
 use_flags:

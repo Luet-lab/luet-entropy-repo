@@ -2,12 +2,10 @@ category: sys-apps
 license: GPL-3
 name: texinfo
 requires:
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: ncurses
   version: '>=5.2'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: perl
   version: '>=0'
 use_flags:

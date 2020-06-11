@@ -2,76 +2,58 @@ category: x11-libs
 license: GPL-2 wxWinLL-3
 name: wxGTK-3.0-gtk3
 requires:
-- labels: null
-  category: app-eselect
+- category: app-eselect
   name: eselect-wxwidgets
   version: '>=20131230'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.22'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: expat
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: gst-plugins-base-1.0
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: gstreamer-1.0
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libpng
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libsdl2
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: tiff
   version: '>=0'
-- labels: null
-  category: net-libs
+- category: net-libs
   name: webkit-gtk-4
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: zlib
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: cairo
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: gdk-pixbuf-2
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: gtk+-3
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libSM
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libX11
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXxf86vm
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libnotify
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: pango
   version: '>=0'
 use_flags:

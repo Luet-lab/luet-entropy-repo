@@ -2,32 +2,25 @@ category: app-arch
 license: BSD BSD-2 BSD-4 public-domain
 name: libarchive
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: lzo-2
   version: '>=2'
-- labels: null
-  category: app-arch
+- category: app-arch
   name: bzip2
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxml2-2
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: openssl
   version: '>=0'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: attr
   version: '>=0'
-- labels: null
-  category: sys-fs
+- category: sys-fs
   name: e2fsprogs
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: zlib
   version: '>=0'
 use_flags:

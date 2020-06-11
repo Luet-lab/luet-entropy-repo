@@ -2,20 +2,16 @@ category: gui-libs
 license: BSD-2
 name: wpebackend-fdo-1.0
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: wayland
   version: '>=1.10'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=0'
-- labels: null
-  category: gui-libs
+- category: gui-libs
   name: libwpe-1.0
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: mesa
   version: '>=0'
 use_flags:

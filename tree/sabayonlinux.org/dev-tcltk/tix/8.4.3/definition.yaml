@@ -2,20 +2,16 @@ category: dev-tcltk
 license: BSD
 name: tix
 requires:
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: tk
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libX11
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXau
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXdmcp
   version: '>=0'
 use_flags:

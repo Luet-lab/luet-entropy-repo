@@ -2,8 +2,7 @@ category: sci-mathematics
 license: LGPL-2.1
 name: lpsolve
 requires:
-- labels: null
-  category: sci-libs
+- category: sci-libs
   name: colamd
   version: '>=0'
 use_flags:

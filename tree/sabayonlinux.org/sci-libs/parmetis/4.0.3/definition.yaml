@@ -2,8 +2,7 @@ category: sci-libs
 license: all-rights-reserved
 name: parmetis
 requires:
-- labels: null
-  category: sys-devel
+- category: sys-devel
   name: make
   version: '>=0'
 use_flags:

@@ -2,40 +2,31 @@ category: media-sound
 license: FDL-1.3 GPL-3
 name: lilypond
 requires:
-- labels: null
-  category: app-text
+- category: app-text
   name: ghostscript-gpl
   version: '>=8.15'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-2.7
   version: '>=2.7.5'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-exec-2
   version: '>=2'
-- labels: null
-  category: dev-scheme
+- category: dev-scheme
   name: guile-12
   version: '>=1.8.2'
-- labels: null
-  category: dev-scheme
+- category: dev-scheme
   name: guile-12
   version: '>=2'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: pango
   version: '>=1.12.3'
-- labels: null
-  category: media-fonts
+- category: media-fonts
   name: tex-gyre
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: fontconfig-1.0
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: freetype-2
   version: '>=0'
 use_flags:

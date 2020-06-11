@@ -2,44 +2,34 @@ category: kde-frameworks
 license: LGPL-2+
 name: knotifyconfig-5
 requires:
-- labels: null
-  category: kde-frameworks
+- category: kde-frameworks
   name: kcompletion-5
   version: '>=5.67'
-- labels: null
-  category: kde-frameworks
+- category: kde-frameworks
   name: kconfig-5
   version: '>=5.67'
-- labels: null
-  category: kde-frameworks
+- category: kde-frameworks
   name: ki18n-5
   version: '>=5.67'
-- labels: null
-  category: kde-frameworks
+- category: kde-frameworks
   name: kio-5
   version: '>=5.67'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtdbus-5
   version: '>=5.12.3'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtgui-5
   version: '>=5.12.3'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtwidgets-5
   version: '>=5.12.3'
-- labels: null
-  category: kde-frameworks
+- category: kde-frameworks
   name: kf-env-5
   version: '>=4'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtcore-5
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: phonon
   version: '>=0'
 use_flags:

@@ -2,8 +2,7 @@ category: x11-themes
 license: LGPL-2.1+
 name: gtk-engines-adwaita
 requires:
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: gtk+-3
   version: '>=2.24.15'
 use_flags:

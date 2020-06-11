@@ -2,20 +2,16 @@ category: dev-java
 license: Apache-2.0
 name: xerces-2
 requires:
-- labels: null
-  category: dev-java
+- category: dev-java
   name: java-config-2
   version: '>=2.2.0'
-- labels: null
-  category: dev-java
+- category: dev-java
   name: xjavac-1
   version: '>=0'
-- labels: null
-  category: dev-java
+- category: dev-java
   name: xml-commons-external-1.4
   version: '>=0'
-- labels: null
-  category: dev-java
+- category: dev-java
   name: xml-commons-resolver
   version: '>=0'
 use_flags:

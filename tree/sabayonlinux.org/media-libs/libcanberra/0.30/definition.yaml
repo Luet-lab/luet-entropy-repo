@@ -2,40 +2,31 @@ category: media-libs
 license: LGPL-2.1+
 name: libcanberra
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.32'
-- labels: null
-  category: media-sound
+- category: media-sound
   name: pulseaudio
   version: '>=0.9.11'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: gtk+-3
   version: '>=2.20.0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libltdl
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: alsa-lib
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libvorbis
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: gtk+-3
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libX11
   version: '>=0'
-- labels: null
-  category: x11-themes
+- category: x11-themes
   name: sound-theme-freedesktop
   version: '>=0'
 use_flags:

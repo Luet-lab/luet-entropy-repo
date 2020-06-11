@@ -2,40 +2,31 @@ category: sys-apps
 license: GPL-3
 name: man-db
 requires:
-- labels: null
-  category: app-text
+- category: app-text
   name: po4a
   version: '>=0.45'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libpipeline
   version: '>=1.5.0'
-- labels: null
-  category: acct-group
+- category: acct-group
   name: man
   version: '>=0'
-- labels: null
-  category: acct-user
+- category: acct-user
   name: man
   version: '>=0'
-- labels: null
-  category: app-text
+- category: app-text
   name: manpager
   version: '>=0'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: groff
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: gdbm
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: libseccomp
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: zlib
   version: '>=0'
 use_flags:

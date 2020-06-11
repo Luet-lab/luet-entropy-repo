@@ -2,20 +2,16 @@ category: dev-haskell
 license: BSD
 name: filemanip
 requires:
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: cabal
   version: '>=1.6'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: ghc
   version: '>=7.4.1'
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: mtl
   version: '>=0'
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: unix-compat
   version: '>=0'
 use_flags:

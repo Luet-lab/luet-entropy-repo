@@ -2,8 +2,7 @@ category: sys-apps
 license: metapackage
 name: sabayon-lib-migration
 requires:
-- labels: null
-  category: app-portage
+- category: app-portage
   name: unsymlink-lib
   version: '>=0'
 use_flags:

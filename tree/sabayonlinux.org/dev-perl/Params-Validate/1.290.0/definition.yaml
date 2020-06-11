@@ -2,16 +2,13 @@ category: dev-perl
 license: Artistic-2
 name: Params-Validate
 requires:
-- labels: null
-  category: dev-perl
+- category: dev-perl
   name: Module-Build
   version: '>=0.280.0'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: perl
   version: '>=0'
-- labels: null
-  category: dev-perl
+- category: dev-perl
   name: Module-Implementation
   version: '>=0'
 use_flags:

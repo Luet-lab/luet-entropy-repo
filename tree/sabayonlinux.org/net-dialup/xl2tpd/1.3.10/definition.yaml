@@ -2,12 +2,10 @@ category: net-dialup
 license: GPL-2
 name: xl2tpd
 requires:
-- labels: null
-  category: net-dialup
+- category: net-dialup
   name: ppp
   version: '>=0'
-- labels: null
-  category: net-libs
+- category: net-libs
   name: libpcap
   version: '>=0'
 use_flags:

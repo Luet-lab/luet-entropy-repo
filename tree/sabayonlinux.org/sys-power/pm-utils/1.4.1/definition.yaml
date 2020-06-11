@@ -2,28 +2,22 @@ category: sys-power
 license: GPL-2
 name: pm-utils
 requires:
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: util-linux
   version: '>=2.13'
-- labels: null
-  category: app-laptop
+- category: app-laptop
   name: radeontool
   version: '>=0'
-- labels: null
-  category: media-sound
+- category: media-sound
   name: alsa-utils-0.9
   version: '>=0'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: dbus
   version: '>=0'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: vbetool
   version: '>=0'
-- labels: null
-  category: sys-power
+- category: sys-power
   name: pm-quirks
   version: '>=0'
 use_flags:

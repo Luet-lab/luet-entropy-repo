@@ -2,20 +2,16 @@ category: sys-devel
 license: Apache-2.0-with-LLVM-exceptions BSD UoI-NCSA public-domain rc
 name: llvm-9
 requires:
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: ncurses
   version: '>=5.9'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxml2-2
   version: '>=0'
-- labels: null
-  category: sys-devel
+- category: sys-devel
   name: llvm-common
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: zlib
   version: '>=0'
 use_flags:

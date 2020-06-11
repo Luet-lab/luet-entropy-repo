@@ -2,8 +2,7 @@ category: dev-util
 license: GPL-2
 name: pkgconfig
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.34.3'
 use_flags:

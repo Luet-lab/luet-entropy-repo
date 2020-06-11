@@ -2,12 +2,10 @@ category: net-libs
 license: LGPL-2.1
 name: libssh
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: openssl
   version: '>=1.0.1h'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: zlib
   version: '>=1.2.8'
 use_flags:

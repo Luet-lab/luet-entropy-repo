@@ -2,12 +2,10 @@ category: sys-devel
 license: GPL-2 LGPL-2.1
 name: bc
 requires:
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: ncurses
   version: '>=5.2'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: readline
   version: '>=4.1'
 use_flags:

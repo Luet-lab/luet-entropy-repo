@@ -2,60 +2,46 @@ category: app-emulation
 license: GPL-3
 name: cloud-init
 requires:
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-exec-2
   version: '>=2'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: configobj
   version: '>=5.0.2'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-3.6
   version: '>=0'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: jinja
   version: '>=0'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: jsonpatch
   version: '>=0'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: jsonschema
   version: '>=0'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: oauthlib
   version: '>=0'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: pyserial
   version: '>=0'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: pyyaml
   version: '>=0'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: requests
   version: '>=0'
-- labels: null
-  category: dev-python
+- category: dev-python
   name: six
   version: '>=0'
-- labels: null
-  category: net-analyzer
+- category: net-analyzer
   name: macchanger
   version: '>=0'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: iproute2
   version: '>=0'
-- labels: null
-  category: sys-fs
+- category: sys-fs
   name: growpart
   version: '>=0'
 use_flags:

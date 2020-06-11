@@ -2,52 +2,40 @@ category: dev-dotnet
 license: GPL-2
 name: gtk-sharp-2
 requires:
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: mono
   version: '>=3.0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.31'
-- labels: null
-  category: sys-devel
+- category: sys-devel
   name: autoconf-2.69
   version: '>=2.69'
-- labels: null
-  category: sys-devel
+- category: sys-devel
   name: automake-1.15
   version: '>=1.15'
-- labels: null
-  category: sys-devel
+- category: sys-devel
   name: libtool-2
   version: '>=2.4'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: mono
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: atk
   version: '>=0'
-- labels: null
-  category: dev-perl
+- category: dev-perl
   name: XML-LibXML
   version: '>=0'
-- labels: null
-  category: gnome-base
+- category: gnome-base
   name: libglade-2.0
   version: '>=0'
-- labels: null
-  category: sys-devel
+- category: sys-devel
   name: automake-1.15
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: gtk+-3
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: pango
   version: '>=0'
 use_flags:

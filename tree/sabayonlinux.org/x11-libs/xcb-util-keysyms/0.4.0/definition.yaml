@@ -2,8 +2,7 @@ category: x11-libs
 license: MIT
 name: xcb-util-keysyms
 requires:
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libxcb
   version: '>=0'
 use_flags:

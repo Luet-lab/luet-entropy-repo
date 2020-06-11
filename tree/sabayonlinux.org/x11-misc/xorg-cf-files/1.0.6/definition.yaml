@@ -2,8 +2,7 @@ category: x11-misc
 license: MIT
 name: xorg-cf-files
 requires:
-- labels: null
-  category: app-arch
+- category: app-arch
   name: bzip2
   version: '>=0'
 use_flags:

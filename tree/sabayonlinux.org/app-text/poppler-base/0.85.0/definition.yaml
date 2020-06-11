@@ -2,36 +2,28 @@ category: app-text
 license: GPL-2
 name: poppler-base
 requires:
-- labels: null
-  category: media-libs
+- category: media-libs
   name: openjpeg-2
   version: '>=2.3.0'
-- labels: null
-  category: app-text
+- category: app-text
   name: poppler-data
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: fontconfig-1.0
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: freetype-2
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: lcms-2
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: libpng
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: tiff
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: zlib
   version: '>=0'
 use_flags:

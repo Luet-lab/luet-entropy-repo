@@ -2,8 +2,7 @@ category: app-laptop
 license: ZLIB
 name: radeontool
 requires:
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libpciaccess
   version: '>=0'
 use_flags:

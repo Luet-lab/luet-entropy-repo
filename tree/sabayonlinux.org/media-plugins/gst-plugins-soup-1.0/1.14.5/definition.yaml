@@ -2,20 +2,16 @@ category: media-plugins
 license: GPL-2
 name: gst-plugins-soup-1.0
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.38.2'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: gst-plugins-good-1.0
   version: '>=1.14.5'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: gstreamer-1.0
   version: '>=1.2.4'
-- labels: null
-  category: net-libs
+- category: net-libs
   name: libsoup-2.4
   version: '>=2.48'
 use_flags:

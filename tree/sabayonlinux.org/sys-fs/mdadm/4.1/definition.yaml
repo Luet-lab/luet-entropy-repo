@@ -2,8 +2,7 @@ category: sys-fs
 license: GPL-2
 name: mdadm
 requires:
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: util-linux
   version: '>=2.16'
 use_flags:

@@ -2,8 +2,7 @@ category: app-dicts
 license: ipadic
 name: mecab-ipadic
 requires:
-- labels: null
-  category: app-text
+- category: app-text
   name: mecab
   version: '>=0.90'
 use_flags:

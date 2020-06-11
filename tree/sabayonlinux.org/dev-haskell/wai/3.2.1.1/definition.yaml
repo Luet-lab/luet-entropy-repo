@@ -2,52 +2,40 @@ category: dev-haskell
 license: MIT
 name: wai
 requires:
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: blaze-builder
   version: <0.5
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: bytestring-builder
   version: <0.11
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: vault
   version: <0.4
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: blaze-builder
   version: '>=0.2.1.4'
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: bytestring-builder
   version: '>=0.10.4.0'
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: cabal
   version: '>=1.16.0'
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: http-types
   version: '>=0.7'
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: network
   version: '>=2.2.1.5'
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: text
   version: '>=0.7'
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: transformers
   version: '>=0.0'
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: vault
   version: '>=0.3'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: ghc
   version: '>=7.6.1'
 use_flags:

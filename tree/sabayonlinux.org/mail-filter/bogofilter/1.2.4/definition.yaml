@@ -2,16 +2,13 @@ category: mail-filter
 license: GPL-2
 name: bogofilter
 requires:
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: db-6.0
   version: '>=3.2'
-- labels: null
-  category: app-arch
+- category: app-arch
   name: pax
   version: '>=0'
-- labels: null
-  category: sci-libs
+- category: sci-libs
   name: gsl
   version: '>=0'
 use_flags:

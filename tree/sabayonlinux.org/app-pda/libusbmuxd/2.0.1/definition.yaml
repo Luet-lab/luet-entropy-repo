@@ -2,8 +2,7 @@ category: app-pda
 license: GPL-2+ LGPL-2.1+
 name: libusbmuxd
 requires:
-- labels: null
-  category: app-pda
+- category: app-pda
   name: libplist
   version: '>=1.11'
 use_flags:

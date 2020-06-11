@@ -2,72 +2,55 @@ category: dev-haskell
 license: BSD
 name: semigroups
 requires:
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: bytestring-builder
   version: <1
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: hashable
   version: <1.3
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: nats
   version: <2
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: tagged
   version: <1
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: text
   version: <2
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: transformers
   version: <0.6
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: unordered-containers
   version: <0.3
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: bytestring-builder
   version: '>=0.10.4'
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: cabal
   version: '>=1.10'
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: hashable
   version: '>=1.1'
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: nats
   version: '>=0.1'
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: tagged
   version: '>=0.4.4'
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: text
   version: '>=0.10'
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: transformers
   version: '>=0.2'
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: unordered-containers
   version: '>=0.2'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: ghc
   version: '>=7.4.1'
-- labels: null
-  category: dev-haskell
+- category: dev-haskell
   name: binary
   version: '>=0'
 use_flags:

@@ -2,64 +2,49 @@ category: dev-vcs
 license: GPL-2 Subversion
 name: subversion
 requires:
-- labels: null
-  category: dev-db
+- category: dev-db
   name: sqlite-3
   version: '>=3.7.12'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-2.7
   version: '>=2.7.5'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-exec-2
   version: '>=2'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: apr-1
   version: '>=1.3'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: apr-util-1
   version: '>=1.3'
-- labels: null
-  category: net-libs
+- category: net-libs
   name: serf-1
   version: '>=1.3.4'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: db-6.0
   version: '>=4.0.14'
-- labels: null
-  category: app-arch
+- category: app-arch
   name: bzip2
   version: '>=0'
-- labels: null
-  category: app-arch
+- category: app-arch
   name: lz4
   version: '>=0'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: perl
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: expat
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libutf8proc
   version: '>=0'
-- labels: null
-  category: dev-perl
+- category: dev-perl
   name: URI
   version: '>=0'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: file
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: zlib
   version: '>=0'
 use_flags:

@@ -2,8 +2,7 @@ category: sys-apps
 license: metapackage
 name: sabayon-lib-migration-check
 requires:
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: sabayon-lib-migration
   version: '>=0'
 use_flags:

@@ -4,40 +4,31 @@ category: gnome-extra
 license: GPL-2+
 name: gnome-contacts
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: folks
   version: '>=0.11.4'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.44'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libgee-0.8
   version: '>=0.10'
-- labels: null
-  category: gnome-base
+- category: gnome-base
   name: gnome-desktop-3
   version: '>=3.0'
-- labels: null
-  category: gnome-extra
+- category: gnome-extra
   name: evolution-data-server
   version: '>=3.13.90'
-- labels: null
-  category: gui-libs
+- category: gui-libs
   name: libhandy-0.0
   version: '>=0.0.9'
-- labels: null
-  category: media-video
+- category: media-video
   name: cheese
   version: '>=3.5.91'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: gtk+-3
   version: '>=3.23.1'
-- labels: null
-  category: net-libs
+- category: net-libs
   name: gnome-online-accounts
   version: '>=0'
 use_flags:

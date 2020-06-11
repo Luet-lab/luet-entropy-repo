@@ -2,12 +2,10 @@ category: dev-perl
 license: MPL-2.0
 name: Mozilla-CA
 requires:
-- labels: null
-  category: app-misc
+- category: app-misc
   name: ca-certificates
   version: '>=0'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: perl
   version: '>=0'
 use_flags:

@@ -4,16 +4,13 @@ category: app-text
 license: as-is
 name: docbook-sgml-dtd-4.2
 requires:
-- labels: null
-  category: app-arch
+- category: app-arch
   name: unzip
   version: '>=5.41'
-- labels: null
-  category: app-text
+- category: app-text
   name: sgml-common
   version: '>=0.6.3'
-- labels: null
-  category: app-text
+- category: app-text
   name: sgml-common
   version: '>=0'
 use_flags:

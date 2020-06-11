@@ -2,12 +2,10 @@ category: dev-tex
 license: FDL-1.2 GPL-2 LPPL-1.3c
 name: pgf
 requires:
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: texinfo
   version: '>=4.2'
-- labels: null
-  category: dev-texlive
+- category: dev-texlive
   name: texlive-latexrecommended
   version: '>=0'
 use_flags:

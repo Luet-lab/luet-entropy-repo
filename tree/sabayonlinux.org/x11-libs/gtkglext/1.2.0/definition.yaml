@@ -2,28 +2,22 @@ category: x11-libs
 license: GPL-2+ LGPL-2.1+
 name: gtkglext
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.34.3'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: gtk+-3
   version: '>=2.24.23'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libX11
   version: '>=1.6.2'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXmu
   version: '>=1.1.1'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: pango
   version: '>=1.36.3'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: pangox-compat
   version: '>=0.0.2'
 use_flags:

@@ -2,8 +2,7 @@ category: app-arch
 license: BSD GPL-2
 name: zstd
 requires:
-- labels: null
-  category: app-arch
+- category: app-arch
   name: lz4
   version: '>=0'
 use_flags:

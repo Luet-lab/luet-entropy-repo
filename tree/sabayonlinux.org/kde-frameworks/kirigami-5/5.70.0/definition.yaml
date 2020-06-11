@@ -2,40 +2,31 @@ category: kde-frameworks
 license: LGPL-2+
 name: kirigami-5
 requires:
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtdbus-5
   version: '>=5.12.3'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtdeclarative-5
   version: '>=5.12.3'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtgraphicaleffects-5
   version: '>=5.12.3'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtgui-5
   version: '>=5.12.3'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtnetwork-5
   version: '>=5.12.3'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtquickcontrols2-5
   version: '>=5.12.3'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtsvg-5
   version: '>=5.12.3'
-- labels: null
-  category: kde-frameworks
+- category: kde-frameworks
   name: kf-env-5
   version: '>=4'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtcore-5
   version: '>=0'
 use_flags:

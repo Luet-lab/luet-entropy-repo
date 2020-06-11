@@ -2,12 +2,10 @@ category: dev-ruby
 license: MIT
 name: crass
 requires:
-- labels: null
-  category: dev-ruby
+- category: dev-ruby
   name: minitest-5
   version: '>=5.0.8'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: ruby-2.5
   version: '>=0'
 use_flags:

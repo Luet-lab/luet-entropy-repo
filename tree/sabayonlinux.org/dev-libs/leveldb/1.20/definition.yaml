@@ -2,12 +2,10 @@ category: dev-libs
 license: BSD
 name: leveldb
 requires:
-- labels: null
-  category: app-arch
+- category: app-arch
   name: snappy
   version: '>=0'
-- labels: null
-  category: dev-util
+- category: dev-util
   name: google-perftools
   version: '>=0'
 use_flags:

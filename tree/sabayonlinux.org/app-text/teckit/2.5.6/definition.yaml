@@ -2,12 +2,10 @@ category: app-text
 license: CPL-0.5 LGPL-2.1
 name: teckit
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: expat
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: zlib
   version: '>=0'
 use_flags:

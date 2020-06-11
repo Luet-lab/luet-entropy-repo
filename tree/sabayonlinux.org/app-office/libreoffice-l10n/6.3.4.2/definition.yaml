@@ -2,8 +2,7 @@ category: app-office
 license: LGPL-3 MPL-1.1
 name: libreoffice-l10n
 requires:
-- labels: null
-  category: app-text
+- category: app-text
   name: hunspell
   version: '>=0'
 use_flags:

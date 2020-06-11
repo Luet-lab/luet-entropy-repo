@@ -2,12 +2,10 @@ category: dev-perl
 license: Artistic-2
 name: Net-SSLeay
 requires:
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: perl
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: openssl
   version: '>=0'
 use_flags:

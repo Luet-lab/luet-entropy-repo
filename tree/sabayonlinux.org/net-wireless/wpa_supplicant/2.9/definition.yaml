@@ -2,32 +2,25 @@ category: net-wireless
 license: BSD GPL-2
 name: wpa_supplicant
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: openssl
   version: '>=1.0.2k'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libnl-3
   version: '>=0'
-- labels: null
-  category: net-wireless
+- category: net-wireless
   name: crda
   version: '>=0'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: dbus
   version: '>=0'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: pcsc-lite
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: ncurses
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: readline
   version: '>=0'
 use_flags:

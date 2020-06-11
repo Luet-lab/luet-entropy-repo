@@ -2,8 +2,7 @@ category: sys-apps
 license: BSD
 name: gentoo-systemd-integration
 requires:
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: systemd
   version: '>=207'
 use_flags:

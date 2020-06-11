@@ -2,8 +2,7 @@ category: dev-util
 license: FDL-1.1 GPL-2
 name: gtk-doc-am
 requires:
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: perl
   version: '>=5.18'
 use_flags:

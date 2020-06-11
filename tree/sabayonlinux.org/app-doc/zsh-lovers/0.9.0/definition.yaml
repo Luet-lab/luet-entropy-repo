@@ -2,8 +2,7 @@ category: app-doc
 license: GPL-2
 name: zsh-lovers
 requires:
-- labels: null
-  category: app-text
+- category: app-text
   name: asciidoc
   version: '>=0'
 use_flags:

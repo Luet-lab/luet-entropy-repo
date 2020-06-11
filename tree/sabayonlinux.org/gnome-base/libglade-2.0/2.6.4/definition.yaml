@@ -2,20 +2,16 @@ category: gnome-base
 license: LGPL-2
 name: libglade-2.0
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: atk
   version: '>=2.10.0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.34.3'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxml2-2
   version: '>=2.9.1'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: gtk+-3
   version: '>=2.24.23'
 use_flags:

@@ -2,24 +2,19 @@ category: dev-qt
 license: FDL-1.3 GPL-2 GPL-3 LGPL-3
 name: qtprintsupport-5
 requires:
-- labels: null
-  category: net-print
+- category: net-print
   name: cups
   version: '>=1.4'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtchooser
   version: '>=0'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtcore-5
   version: '>=5.14.1'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtgui-5
   version: '>=5.14.1'
-- labels: null
-  category: dev-qt
+- category: dev-qt
   name: qtwidgets-5
   version: '>=5.14.1'
 use_flags:

@@ -2,24 +2,19 @@ category: net-libs
 license: LGPL-2.1
 name: rest-0.7
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.24'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: gobject-introspection
   version: '>=0.6.7'
-- labels: null
-  category: app-misc
+- category: app-misc
   name: ca-certificates
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxml2-2
   version: '>=0'
-- labels: null
-  category: net-libs
+- category: net-libs
   name: libsoup-2.4
   version: '>=0'
 use_flags:

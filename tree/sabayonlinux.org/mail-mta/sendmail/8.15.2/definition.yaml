@@ -2,36 +2,28 @@ category: mail-mta
 license: GPL-2 Sendmail
 name: sendmail
 requires:
-- labels: null
-  category: net-mail
+- category: net-mail
   name: mailbase
   version: '>=0.00'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: db-6.0
   version: '>=3.2'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: openssl
   version: '>=0'
-- labels: null
-  category: mail-filter
+- category: mail-filter
   name: procmail
   version: '>=0'
-- labels: null
-  category: net-mail
+- category: net-mail
   name: mailbase
   version: '>=0'
-- labels: null
-  category: net-nds
+- category: net-nds
   name: openldap
   version: '>=0'
-- labels: null
-  category: sys-apps
+- category: sys-apps
   name: tcp-wrappers
   version: '>=0'
-- labels: null
-  category: sys-devel
+- category: sys-devel
   name: m4
   version: '>=0'
 use_flags:

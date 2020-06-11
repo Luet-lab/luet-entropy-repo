@@ -2,8 +2,7 @@ category: gnome-base
 license: LGPL-2.1+
 name: gsettings-desktop-schemas
 requires:
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: gobject-introspection
   version: '>=1.54'
 use_flags:

@@ -2,8 +2,7 @@ category: app-dicts
 license: Ispell Princeton myspell-en_CA-KevinAtkinson public-domain
 name: aspell-en
 requires:
-- labels: null
-  category: app-text
+- category: app-text
   name: aspell
   version: '>=0.60'
 use_flags:

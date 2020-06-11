@@ -2,8 +2,7 @@ category: dev-tcltk
 license: BSD
 name: togl
 requires:
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: tk
   version: '>=0'
 use_flags:

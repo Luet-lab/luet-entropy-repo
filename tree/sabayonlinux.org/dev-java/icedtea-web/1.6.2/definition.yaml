@@ -2,16 +2,13 @@ category: dev-java
 license: GPL-2 GPL-2-with-linking-exception LGPL-2
 name: icedtea-web
 requires:
-- labels: null
-  category: app-eselect
+- category: app-eselect
   name: eselect-java
   version: '>=0.2.0'
-- labels: null
-  category: dev-java
+- category: dev-java
   name: java-config-2
   version: '>=2.2.0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.16'
 use_flags:

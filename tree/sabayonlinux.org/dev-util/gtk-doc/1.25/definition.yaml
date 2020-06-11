@@ -2,44 +2,34 @@ category: dev-util
 license: FDL-1.1 GPL-2
 name: gtk-doc
 requires:
-- labels: null
-  category: app-text
+- category: app-text
   name: docbook-dsssl-stylesheets
   version: '>=1.40'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: perl
   version: '>=5.18'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-2.7
   version: '>=2.7.5'
-- labels: null
-  category: dev-lang
+- category: dev-lang
   name: python-exec-2
   version: '>=2'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: glib-2
   version: '>=2.6'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxml2-2
   version: '>=2.3.6'
-- labels: null
-  category: app-text
+- category: app-text
   name: docbook-xsl-stylesheets
   version: '>=0'
-- labels: null
-  category: dev-libs
+- category: dev-libs
   name: libxslt
   version: '>=0'
-- labels: null
-  category: app-text
+- category: app-text
   name: docbook-sgml-dtd-4.5
   version: '>=3.0'
-- labels: null
-  category: app-text
+- category: app-text
   name: docbook-xml-dtd-4.5
   version: '>=4.3'
 use_flags:

@@ -2,68 +2,52 @@ category: x11-terms
 license: MIT
 name: xterm
 requires:
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: ncurses
   version: '>=5.7'
-- labels: null
-  category: media-fonts
+- category: media-fonts
   name: font-misc-misc
   version: '>=0'
-- labels: null
-  category: media-libs
+- category: media-libs
   name: fontconfig-1.0
   version: '>=0'
-- labels: null
-  category: sys-libs
+- category: sys-libs
   name: libutempter
   version: '>=0'
-- labels: null
-  category: x11-apps
+- category: x11-apps
   name: luit
   version: '>=0'
-- labels: null
-  category: x11-apps
+- category: x11-apps
   name: rgb
   version: '>=0'
-- labels: null
-  category: x11-apps
+- category: x11-apps
   name: xmessage
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libICE
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libX11
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXaw
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXft
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXinerama
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXmu
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXrender
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libXt
   version: '>=0'
-- labels: null
-  category: x11-libs
+- category: x11-libs
   name: libxkbfile
   version: '>=0'
 use_flags:
