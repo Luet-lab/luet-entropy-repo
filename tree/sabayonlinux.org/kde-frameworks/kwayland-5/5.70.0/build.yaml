@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i kde-frameworks/kwayland-5.67.0 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -109,6 +110,7 @@ includes:
 - /usr/include/KF5/KWayland/Server/slide_interface.h$
 - /usr/include/KF5/KWayland/Server/subcompositor_interface.h$
 - /usr/include/KF5/KWayland/Server/surface_interface.h$
+- /usr/include/KF5/KWayland/Server/tablet_interface.h$
 - /usr/include/KF5/KWayland/Server/textinput_interface.h$
 - /usr/include/KF5/KWayland/Server/touch_interface.h$
 - /usr/include/KF5/KWayland/Server/xdgdecoration_interface.h$
@@ -126,10 +128,10 @@ includes:
 - /usr/lib64/cmake/KF5Wayland/KF5WaylandTargets.cmake$
 - /usr/lib64/libKF5WaylandClient.so$
 - /usr/lib64/libKF5WaylandClient.so.5$
-- /usr/lib64/libKF5WaylandClient.so.5.67.0$
+- /usr/lib64/libKF5WaylandClient.so.5.70.0$
 - /usr/lib64/libKF5WaylandServer.so$
 - /usr/lib64/libKF5WaylandServer.so.5$
-- /usr/lib64/libKF5WaylandServer.so.5.67.0$
+- /usr/lib64/libKF5WaylandServer.so.5.70.0$
 - /usr/lib64/libexec$
 - /usr/lib64/libexec/org-kde-kf5-kwayland-testserver$
 - /usr/lib64/qt5$
@@ -139,7 +141,10 @@ includes:
 - /usr/lib64/qt5/mkspecs/modules/qt_KWaylandServer.pri$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/kwayland-5.67.0$
-- /usr/share/doc/kwayland-5.67.0/README.md.bz2$
+- /usr/share/doc/kwayland-5.70.0$
+- /usr/share/doc/kwayland-5.70.0/README.md.bz2$
 - /usr/share/qlogging-categories5$
-- /usr/share/qlogging-categories5/org_kde_kwayland.categories$
+- /usr/share/qlogging-categories5/kwayland.categories$
+env:
+- ORIGINAL_ATOM=kde-frameworks/kwayland
+- ORIGINAL_PACKAGE=kde-frameworks/kwayland-5.70.0
