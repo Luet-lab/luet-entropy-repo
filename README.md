@@ -9,7 +9,9 @@ Luet specs repository based on entropy packages.
 
 Requires yq installed.
 
-```find ./ -path '*/definition.yaml' -type f -exec yq d -i {} 'requires.(name==gettext)' \;```
+```
+find ./ -path '*/definition.yaml' -type f -exec yq d -i {} 'requires.(name==gettext)' \;
+```
 
 replace "gettext" with the name of the package you wish to delete. Similarly you can use other fields (`name` in the following example) to
 match the deletion criteria
@@ -27,3 +29,15 @@ $> for i in `grep "labels: null" * -r -l tree/` ; do sed -e '/- labels\: null/d'
 
 ```
 
+### Find specs with duplicated labels
+
+```
+$> for i in `find  tree/ -name '*.yaml' ` ; do n_labels=$(cat $i | grep '^labels' | wc -l) ; if [ $n_labels -ge 2 ] ; then echo $i ; fi ; done
+```
+
+### Retrieve list of files of a package for build.yaml
+
+```
+$> for i in `qlist =${P}` ; do echo "- $i$" ; done
+```
+Note: Directories must be added manually.
