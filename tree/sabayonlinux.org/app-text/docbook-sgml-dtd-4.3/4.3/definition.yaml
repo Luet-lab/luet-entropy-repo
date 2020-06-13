@@ -1,0 +1,19 @@
+category: app-text
+license: as-is
+name: docbook-sgml-dtd-4.3
+requires:
+- category: app-text
+  name: sgml-common
+  version: '>=0'
+use_flags:
+- multilib
+- elibc_glibc
+- userland_GNU
+- kernel_linux
+- amd64
+version: "4.3+r3"
+labels:
+  original.package.name: "docbook-sgml-dtd"
+  original.package.category: "app-text"
+  original.package.version: "4.3-r3"
+  original.package.slot: "4.3"
