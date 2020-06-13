@@ -1,0 +1,34 @@
+unpack: true
+steps:
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/docbook-sgml-dtd-4.0-r4$
+- /usr/share/doc/docbook-sgml-dtd-4.0-r4/50issues.txt.bz2$
+- /usr/share/doc/docbook-sgml-dtd-4.0-r4/40chg.txt.bz2$
+- /usr/share/doc/docbook-sgml-dtd-4.0-r4/readme.txt.bz2$
+- /usr/share/sgml$
+- /usr/share/sgml/docbook$
+- /usr/share/sgml/docbook/sgml-dtd-4.0$
+- /usr/share/sgml/docbook/sgml-dtd-4.0/docbook.dcl$
+- /usr/share/sgml/docbook/sgml-dtd-4.0/cals-tbl.dtd$
+- /usr/share/sgml/docbook/sgml-dtd-4.0/docbook.dtd$
+- /usr/share/sgml/docbook/sgml-dtd-4.0/dbcent.mod$
+- /usr/share/sgml/docbook/sgml-dtd-4.0/dbgenent.mod$
+- /usr/share/sgml/docbook/sgml-dtd-4.0/dbhier.mod$
+- /usr/share/sgml/docbook/sgml-dtd-4.0/dbnotn.mod$
+- /usr/share/sgml/docbook/sgml-dtd-4.0/dbpool.mod$
+- /usr/share/sgml/docbook/sgml-dtd-4.0/catalog$
+- /etc/sgml$
+- /etc/sgml/sgml-docbook-4.0.cat$
+env:
+- ORIGINAL_ATOM=app-text/docbook-sgml-dtd
+- ORIGINAL_PACKAGE=app-text/docbook-sgml-dtd-4.0-r4
