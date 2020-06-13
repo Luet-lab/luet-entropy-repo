@@ -1,0 +1,24 @@
+category: app-text
+license: docbook
+name: docbook-xml-dtd-4.1.2
+requires:
+- category: app-text
+  name: docbook-xsl-stylesheets
+  version: '>=1.65'
+- category: app-text
+  name: sgml-common
+  version: '>=0.6.3'
+use_flags:
+- userland_GNU
+- elibc_glibc
+- big-endian
+- amd64
+- abi_x86_64
+- split-usr
+- kernel_linux
+version: 4.1.2+r7
+labels:
+  original.package.name: "docbook-xml-dtd"
+  original.package.category: "app-text"
+  original.package.version: "4.1.2-r7"
+  original.package.slot: "4.1.2"
