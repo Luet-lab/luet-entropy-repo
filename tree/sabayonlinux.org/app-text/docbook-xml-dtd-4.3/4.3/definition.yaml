@@ -2,12 +2,6 @@ category: app-text
 license: docbook
 name: docbook-xml-dtd-4.3
 requires:
-- category: app-arch
-  name: unzip
-  version: '>=5.41'
-- category: app-text
-  name: build-docbook-catalog
-  version: '>=1.2'
 - category: app-text
   name: docbook-xsl-stylesheets
   version: '>=1.65'
@@ -26,5 +20,5 @@ version: 4.3+r5
 labels:
   original.package.name: "docbook-xml-dtd"
   original.package.category: "app-text"
-  original.package.version: "4.3"
+  original.package.version: "4.3-r2"
   original.package.slot: "4.3"
