@@ -1,0 +1,31 @@
+unpack: true
+steps:
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/docbook-sgml-dtd-3.0-r4$
+- /usr/share/doc/docbook-sgml-dtd-3.0-r4/30chg.txt.bz2$
+- /usr/share/doc/docbook-sgml-dtd-3.0-r4/40issues.txt.bz2$
+- /usr/share/doc/docbook-sgml-dtd-3.0-r4/announce.txt.bz2$
+- /usr/share/sgml$
+- /usr/share/sgml/docbook$
+- /usr/share/sgml/docbook/sgml-dtd-3.0$
+- /usr/share/sgml/docbook/sgml-dtd-3.0/docbook.dcl$
+- /usr/share/sgml/docbook/sgml-dtd-3.0/cals-tbl.dtd$
+- /usr/share/sgml/docbook/sgml-dtd-3.0/docbook.dtd$
+- /usr/share/sgml/docbook/sgml-dtd-3.0/dbgenent.mod$
+- /usr/share/sgml/docbook/sgml-dtd-3.0/dbhier.mod$
+- /usr/share/sgml/docbook/sgml-dtd-3.0/dbpool.mod$
+- /usr/share/sgml/docbook/sgml-dtd-3.0/catalog$
+- /etc/sgml/sgml-docbook-3.0.cat$
+env:
+- ORIGINAL_ATOM=app-text/docbook-sgml-dtd
+- ORIGINAL_PACKAGE=app-text/docbook-sgml-dtd-3.0-r4
