@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i app-text/docbook-xml-dtd-4.2-r3 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -50,3 +51,6 @@ includes:
 - /usr/share/sgml/docbook/xml-dtd-4.2/ent/iso-pub.ent$
 - /usr/share/sgml/docbook/xml-dtd-4.2/ent/iso-tech.ent$
 - /usr/share/sgml/docbook/xml-dtd-4.2/soextblx.dtd$
+env:
+- ORIGINAL_ATOM=app-text/docbook-xml-dtd
+- ORIGINAL_PACKAGE=app-text/docbook-xml-dtd-4.2-r3
