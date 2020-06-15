@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i app-text/gtkspell-3.0.9 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -178,3 +179,6 @@ includes:
 - /usr/share/vala/vapi$
 - /usr/share/vala/vapi/gtkspell3-3.0.deps$
 - /usr/share/vala/vapi/gtkspell3-3.0.vapi$
+env:
+- ORIGINAL_ATOM=app-text/gtkspell
+- ORIGINAL_PACKAGE=app-text/gtkspell-3.0.9
