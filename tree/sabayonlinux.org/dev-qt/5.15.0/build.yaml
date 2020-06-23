@@ -1,0 +1,86 @@
+requires:
+- category: "distro"
+  name: "alpine"
+  version: "3.11.3"
+env:
+- ORIGINAL_ATOM=dev-qt/qtprintsupport
+- ORIGINAL_PACKAGE=dev-qt/qtprintsupport-5.15.0
+steps:
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/qt5$
+- /usr/include/qt5/Gentoo$
+- /usr/include/qt5/Gentoo/qtprintsupport-qconfig.h$
+- /usr/include/qt5/QtPrintSupport$
+- /usr/include/qt5/QtPrintSupport/5.15.0$
+- /usr/include/qt5/QtPrintSupport/5.15.0/QtPrintSupport$
+- /usr/include/qt5/QtPrintSupport/5.15.0/QtPrintSupport/private$
+- /usr/include/qt5/QtPrintSupport/5.15.0/QtPrintSupport/private/qabstractprintdialog_p.h$
+- /usr/include/qt5/QtPrintSupport/5.15.0/QtPrintSupport/private/qcups_p.h$
+- /usr/include/qt5/QtPrintSupport/5.15.0/QtPrintSupport/private/qcupsjobwidget_p.h$
+- /usr/include/qt5/QtPrintSupport/5.15.0/QtPrintSupport/private/qpagesetupdialog_p.h$
+- /usr/include/qt5/QtPrintSupport/5.15.0/QtPrintSupport/private/qpagesetupdialog_unix_p.h$
+- /usr/include/qt5/QtPrintSupport/5.15.0/QtPrintSupport/private/qpaintengine_alpha_p.h$
+- /usr/include/qt5/QtPrintSupport/5.15.0/QtPrintSupport/private/qpaintengine_preview_p.h$
+- /usr/include/qt5/QtPrintSupport/5.15.0/QtPrintSupport/private/qprint_p.h$
+- /usr/include/qt5/QtPrintSupport/5.15.0/QtPrintSupport/private/qprintdevice_p.h$
+- /usr/include/qt5/QtPrintSupport/5.15.0/QtPrintSupport/private/qprintengine_pdf_p.h$
+- /usr/include/qt5/QtPrintSupport/5.15.0/QtPrintSupport/private/qprintengine_win_p.h$
+- /usr/include/qt5/QtPrintSupport/5.15.0/QtPrintSupport/private/qprinter_p.h$
+- /usr/include/qt5/QtPrintSupport/5.15.0/QtPrintSupport/private/qprinterinfo_p.h$
+- /usr/include/qt5/QtPrintSupport/5.15.0/QtPrintSupport/private/qtprintsupport-config_p.h$
+- /usr/include/qt5/QtPrintSupport/5.15.0/QtPrintSupport/private/qtprintsupportglobal_p.h$
+- /usr/include/qt5/QtPrintSupport/5.15.0/QtPrintSupport/qpa$
+- /usr/include/qt5/QtPrintSupport/5.15.0/QtPrintSupport/qpa/qplatformprintdevice.h$
+- /usr/include/qt5/QtPrintSupport/5.15.0/QtPrintSupport/qpa/qplatformprintersupport.h$
+- /usr/include/qt5/QtPrintSupport/5.15.0/QtPrintSupport/qpa/qplatformprintplugin.h$
+- /usr/include/qt5/QtPrintSupport/QAbstractPrintDialog$
+- /usr/include/qt5/QtPrintSupport/QPageSetupDialog$
+- /usr/include/qt5/QtPrintSupport/QPrintDialog$
+- /usr/include/qt5/QtPrintSupport/QPrintEngine$
+- /usr/include/qt5/QtPrintSupport/QPrintPreviewDialog$
+- /usr/include/qt5/QtPrintSupport/QPrintPreviewWidget$
+- /usr/include/qt5/QtPrintSupport/QPrinter$
+- /usr/include/qt5/QtPrintSupport/QPrinterInfo$
+- /usr/include/qt5/QtPrintSupport/QtPrintSupport$
+- /usr/include/qt5/QtPrintSupport/QtPrintSupportDepends$
+- /usr/include/qt5/QtPrintSupport/QtPrintSupportVersion$
+- /usr/include/qt5/QtPrintSupport/qabstractprintdialog.h$
+- /usr/include/qt5/QtPrintSupport/qpagesetupdialog.h$
+- /usr/include/qt5/QtPrintSupport/qprintdialog.h$
+- /usr/include/qt5/QtPrintSupport/qprintengine.h$
+- /usr/include/qt5/QtPrintSupport/qprinter.h$
+- /usr/include/qt5/QtPrintSupport/qprinterinfo.h$
+- /usr/include/qt5/QtPrintSupport/qprintpreviewdialog.h$
+- /usr/include/qt5/QtPrintSupport/qprintpreviewwidget.h$
+- /usr/include/qt5/QtPrintSupport/qtprintsupport-config.h$
+- /usr/include/qt5/QtPrintSupport/qtprintsupportglobal.h$
+- /usr/include/qt5/QtPrintSupport/qtprintsupportversion.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/cmake$
+- /usr/lib64/cmake/Qt5PrintSupport$
+- /usr/lib64/cmake/Qt5PrintSupport/Qt5PrintSupportConfig.cmake$
+- /usr/lib64/cmake/Qt5PrintSupport/Qt5PrintSupportConfigVersion.cmake$
+- /usr/lib64/cmake/Qt5PrintSupport/Qt5PrintSupport_QCupsPrinterSupportPlugin.cmake$
+- /usr/lib64/libQt5PrintSupport.prl$
+- /usr/lib64/libQt5PrintSupport.so$
+- /usr/lib64/libQt5PrintSupport.so.5$
+- /usr/lib64/libQt5PrintSupport.so.5.15$
+- /usr/lib64/libQt5PrintSupport.so.5.15.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/Qt5PrintSupport.pc$
+- /usr/lib64/qt5$
+- /usr/lib64/qt5/mkspecs$
+- /usr/lib64/qt5/mkspecs/gentoo$
+- /usr/lib64/qt5/mkspecs/gentoo/qtprintsupport-qconfig.pri$
+- /usr/lib64/qt5/mkspecs/modules$
+- /usr/lib64/qt5/mkspecs/modules/qt_lib_printsupport.pri$
+- /usr/lib64/qt5/mkspecs/modules/qt_lib_printsupport_private.pri$
+- /usr/lib64/qt5/plugins$
+- /usr/lib64/qt5/plugins/printsupport$
+- /usr/lib64/qt5/plugins/printsupport/libcupsprintersupport.so$
