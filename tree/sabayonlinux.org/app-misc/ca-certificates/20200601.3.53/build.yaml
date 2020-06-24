@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i app-misc/ca-certificates-20190110.3.43 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -30,10 +31,8 @@ includes:
 - /etc/ssl/certs/0f6fa695.0$
 - /etc/ssl/certs/1001acf7.0$
 - /etc/ssl/certs/106f3e4d.0$
-- /etc/ssl/certs/116bf586.0$
 - /etc/ssl/certs/128805a3.0$
 - /etc/ssl/certs/14bc7599.0$
-- /etc/ssl/certs/157753a5.0$
 - /etc/ssl/certs/1636090b.0$
 - /etc/ssl/certs/18856ac4.0$
 - /etc/ssl/certs/1d3472b9.0$
@@ -43,8 +42,6 @@ includes:
 - /etc/ssl/certs/2923b3f9.0$
 - /etc/ssl/certs/2ae6433e.0$
 - /etc/ssl/certs/2b349938.0$
-- /etc/ssl/certs/2c543cd1.0$
-- /etc/ssl/certs/2e4eed3c.0$
 - /etc/ssl/certs/2e5ac55d.0$
 - /etc/ssl/certs/32888f65.0$
 - /etc/ssl/certs/349f2832.0$
@@ -57,7 +54,6 @@ includes:
 - /etc/ssl/certs/40547a79.0$
 - /etc/ssl/certs/406c9bb1.0$
 - /etc/ssl/certs/4304c5e5.0$
-- /etc/ssl/certs/480720ec.0$
 - /etc/ssl/certs/48bec511.0$
 - /etc/ssl/certs/4a6481c9.0$
 - /etc/ssl/certs/4b718d9b.0$
@@ -72,6 +68,7 @@ includes:
 - /etc/ssl/certs/5c44d531.0$
 - /etc/ssl/certs/5cd81ad7.0$
 - /etc/ssl/certs/5d3033c5.0$
+- /etc/ssl/certs/5e98733a.0$
 - /etc/ssl/certs/5f15c80c.0$
 - /etc/ssl/certs/607986c7.0$
 - /etc/ssl/certs/626dceaf.0$
@@ -89,9 +86,7 @@ includes:
 - /etc/ssl/certs/7719f463.0$
 - /etc/ssl/certs/773e07ad.0$
 - /etc/ssl/certs/7aaf71c0.0$
-- /etc/ssl/certs/7d0b38bd.0$
 - /etc/ssl/certs/7f3d5d1d.0$
-- /etc/ssl/certs/812e17de.0$
 - /etc/ssl/certs/8160b96c.0$
 - /etc/ssl/certs/8867006a.0$
 - /etc/ssl/certs/8cb5ee0f.0$
@@ -102,11 +97,9 @@ includes:
 - /etc/ssl/certs/9c2e7d30.0$
 - /etc/ssl/certs/9c8dfbd4.0$
 - /etc/ssl/certs/9d04f354.0$
-- /etc/ssl/certs/9f0f5fd6.0$
 - /etc/ssl/certs/ACCVRAIZ1.pem$
 - /etc/ssl/certs/AC_RAIZ_FNMT-RCM.pem$
 - /etc/ssl/certs/Actalis_Authentication_Root_CA.pem$
-- /etc/ssl/certs/AddTrust_External_Root.pem$
 - /etc/ssl/certs/AffirmTrust_Commercial.pem$
 - /etc/ssl/certs/AffirmTrust_Networking.pem$
 - /etc/ssl/certs/AffirmTrust_Premium.pem$
@@ -127,8 +120,6 @@ includes:
 - /etc/ssl/certs/COMODO_RSA_Certification_Authority.pem$
 - /etc/ssl/certs/Certigna.pem$
 - /etc/ssl/certs/Certigna_Root_CA.pem$
-- /etc/ssl/certs/Certinomis_-_Root_CA.pem$
-- /etc/ssl/certs/Certplus_Class_2_Primary_CA.pem$
 - /etc/ssl/certs/Certum_Trusted_Network_CA.pem$
 - /etc/ssl/certs/Certum_Trusted_Network_CA_2.pem$
 - /etc/ssl/certs/Chambers_of_Commerce_Root_-_2008.pem$
@@ -137,7 +128,6 @@ includes:
 - /etc/ssl/certs/D-TRUST_Root_Class_3_CA_2_2009.pem$
 - /etc/ssl/certs/D-TRUST_Root_Class_3_CA_2_EV_2009.pem$
 - /etc/ssl/certs/DST_Root_CA_X3.pem$
-- /etc/ssl/certs/Deutsche_Telekom_Root_CA_2.pem$
 - /etc/ssl/certs/DigiCert_Assured_ID_Root_CA.pem$
 - /etc/ssl/certs/DigiCert_Assured_ID_Root_G2.pem$
 - /etc/ssl/certs/DigiCert_Assured_ID_Root_G3.pem$
@@ -153,16 +143,12 @@ includes:
 - /etc/ssl/certs/Entrust_Root_Certification_Authority.pem$
 - /etc/ssl/certs/Entrust_Root_Certification_Authority_-_EC1.pem$
 - /etc/ssl/certs/Entrust_Root_Certification_Authority_-_G2.pem$
+- /etc/ssl/certs/Entrust_Root_Certification_Authority_-_G4.pem$
 - /etc/ssl/certs/GDCA_TrustAUTH_R5_ROOT.pem$
 - /etc/ssl/certs/GTS_Root_R1.pem$
 - /etc/ssl/certs/GTS_Root_R2.pem$
 - /etc/ssl/certs/GTS_Root_R3.pem$
 - /etc/ssl/certs/GTS_Root_R4.pem$
-- /etc/ssl/certs/GeoTrust_Global_CA.pem$
-- /etc/ssl/certs/GeoTrust_Primary_Certification_Authority.pem$
-- /etc/ssl/certs/GeoTrust_Primary_Certification_Authority_-_G2.pem$
-- /etc/ssl/certs/GeoTrust_Primary_Certification_Authority_-_G3.pem$
-- /etc/ssl/certs/GeoTrust_Universal_CA.pem$
 - /etc/ssl/certs/GeoTrust_Universal_CA_2.pem$
 - /etc/ssl/certs/GlobalSign_ECC_Root_CA_-_R4.pem$
 - /etc/ssl/certs/GlobalSign_ECC_Root_CA_-_R5.pem$
@@ -229,26 +215,18 @@ includes:
 - /etc/ssl/certs/UCA_Global_G2_Root.pem$
 - /etc/ssl/certs/USERTrust_ECC_Certification_Authority.pem$
 - /etc/ssl/certs/USERTrust_RSA_Certification_Authority.pem$
-- /etc/ssl/certs/VeriSign_Class_3_Public_Primary_Certification_Authority_-_G4.pem$
-- /etc/ssl/certs/VeriSign_Class_3_Public_Primary_Certification_Authority_-_G5.pem$
-- /etc/ssl/certs/VeriSign_Universal_Root_Certification_Authority.pem$
 - /etc/ssl/certs/Verisign_Class_3_Public_Primary_Certification_Authority_-_G3.pem$
 - /etc/ssl/certs/XRamp_Global_CA_Root.pem$
 - /etc/ssl/certs/a3418fda.0$
 - /etc/ssl/certs/a94d09e5.0$
-- /etc/ssl/certs/ad088e1d.0$
 - /etc/ssl/certs/aee5f10d.0$
 - /etc/ssl/certs/b0e59380.0$
 - /etc/ssl/certs/b1159c4c.0$
 - /etc/ssl/certs/b1b8a7f3.0$
-- /etc/ssl/certs/b204d74a.0$
 - /etc/ssl/certs/b66938e9.0$
 - /etc/ssl/certs/b727005e.0$
 - /etc/ssl/certs/b7a5b843.0$
-- /etc/ssl/certs/ba89ed3b.0$
-- /etc/ssl/certs/c01cdfa2.0$
 - /etc/ssl/certs/c01eb047.0$
-- /etc/ssl/certs/c089bbbd.0$
 - /etc/ssl/certs/c0ff1f52.0$
 - /etc/ssl/certs/c28a8a30.0$
 - /etc/ssl/certs/c47d9980.0$
@@ -270,7 +248,6 @@ includes:
 - /etc/ssl/certs/def36a68.0$
 - /etc/ssl/certs/e113c810.0$
 - /etc/ssl/certs/e18bfb83.0$
-- /etc/ssl/certs/e2799e36.0$
 - /etc/ssl/certs/e36a6752.0$
 - /etc/ssl/certs/e73d606e.0$
 - /etc/ssl/certs/e8de2f56.0$
@@ -282,7 +259,6 @@ includes:
 - /etc/ssl/certs/emSign_ECC_Root_CA_-_G3.pem$
 - /etc/ssl/certs/emSign_Root_CA_-_C1.pem$
 - /etc/ssl/certs/emSign_Root_CA_-_G1.pem$
-- /etc/ssl/certs/f060240e.0$
 - /etc/ssl/certs/f081611a.0$
 - /etc/ssl/certs/f0c70a8d.0$
 - /etc/ssl/certs/f30dd6ad.0$
@@ -293,9 +269,6 @@ includes:
 - /etc/ssl/certs/fc5a8f99.0$
 - /etc/ssl/certs/fe8a2cd8.0$
 - /etc/ssl/certs/ff34af3f.0$
-- /etc/ssl/certs/thawte_Primary_Root_CA.pem$
-- /etc/ssl/certs/thawte_Primary_Root_CA_-_G2.pem$
-- /etc/ssl/certs/thawte_Primary_Root_CA_-_G3.pem$
 - /usr$
 - /usr/sbin$
 - /usr/sbin/update-ca-certificates$
@@ -305,7 +278,6 @@ includes:
 - /usr/share/ca-certificates/mozilla/ACCVRAIZ1.crt$
 - /usr/share/ca-certificates/mozilla/AC_RAIZ_FNMT-RCM.crt$
 - /usr/share/ca-certificates/mozilla/Actalis_Authentication_Root_CA.crt$
-- /usr/share/ca-certificates/mozilla/AddTrust_External_Root.crt$
 - /usr/share/ca-certificates/mozilla/AffirmTrust_Commercial.crt$
 - /usr/share/ca-certificates/mozilla/AffirmTrust_Networking.crt$
 - /usr/share/ca-certificates/mozilla/AffirmTrust_Premium.crt$
@@ -326,8 +298,6 @@ includes:
 - /usr/share/ca-certificates/mozilla/COMODO_RSA_Certification_Authority.crt$
 - /usr/share/ca-certificates/mozilla/Certigna.crt$
 - /usr/share/ca-certificates/mozilla/Certigna_Root_CA.crt$
-- /usr/share/ca-certificates/mozilla/Certinomis_-_Root_CA.crt$
-- /usr/share/ca-certificates/mozilla/Certplus_Class_2_Primary_CA.crt$
 - /usr/share/ca-certificates/mozilla/Certum_Trusted_Network_CA.crt$
 - /usr/share/ca-certificates/mozilla/Certum_Trusted_Network_CA_2.crt$
 - /usr/share/ca-certificates/mozilla/Chambers_of_Commerce_Root_-_2008.crt$
@@ -336,7 +306,6 @@ includes:
 - /usr/share/ca-certificates/mozilla/D-TRUST_Root_Class_3_CA_2_2009.crt$
 - /usr/share/ca-certificates/mozilla/D-TRUST_Root_Class_3_CA_2_EV_2009.crt$
 - /usr/share/ca-certificates/mozilla/DST_Root_CA_X3.crt$
-- /usr/share/ca-certificates/mozilla/Deutsche_Telekom_Root_CA_2.crt$
 - /usr/share/ca-certificates/mozilla/DigiCert_Assured_ID_Root_CA.crt$
 - /usr/share/ca-certificates/mozilla/DigiCert_Assured_ID_Root_G2.crt$
 - /usr/share/ca-certificates/mozilla/DigiCert_Assured_ID_Root_G3.crt$
@@ -352,16 +321,12 @@ includes:
 - /usr/share/ca-certificates/mozilla/Entrust_Root_Certification_Authority.crt$
 - /usr/share/ca-certificates/mozilla/Entrust_Root_Certification_Authority_-_EC1.crt$
 - /usr/share/ca-certificates/mozilla/Entrust_Root_Certification_Authority_-_G2.crt$
+- /usr/share/ca-certificates/mozilla/Entrust_Root_Certification_Authority_-_G4.crt$
 - /usr/share/ca-certificates/mozilla/GDCA_TrustAUTH_R5_ROOT.crt$
 - /usr/share/ca-certificates/mozilla/GTS_Root_R1.crt$
 - /usr/share/ca-certificates/mozilla/GTS_Root_R2.crt$
 - /usr/share/ca-certificates/mozilla/GTS_Root_R3.crt$
 - /usr/share/ca-certificates/mozilla/GTS_Root_R4.crt$
-- /usr/share/ca-certificates/mozilla/GeoTrust_Global_CA.crt$
-- /usr/share/ca-certificates/mozilla/GeoTrust_Primary_Certification_Authority.crt$
-- /usr/share/ca-certificates/mozilla/GeoTrust_Primary_Certification_Authority_-_G2.crt$
-- /usr/share/ca-certificates/mozilla/GeoTrust_Primary_Certification_Authority_-_G3.crt$
-- /usr/share/ca-certificates/mozilla/GeoTrust_Universal_CA.crt$
 - /usr/share/ca-certificates/mozilla/GeoTrust_Universal_CA_2.crt$
 - /usr/share/ca-certificates/mozilla/GlobalSign_ECC_Root_CA_-_R4.crt$
 - /usr/share/ca-certificates/mozilla/GlobalSign_ECC_Root_CA_-_R5.crt$
@@ -428,9 +393,6 @@ includes:
 - /usr/share/ca-certificates/mozilla/UCA_Global_G2_Root.crt$
 - /usr/share/ca-certificates/mozilla/USERTrust_ECC_Certification_Authority.crt$
 - /usr/share/ca-certificates/mozilla/USERTrust_RSA_Certification_Authority.crt$
-- /usr/share/ca-certificates/mozilla/VeriSign_Class_3_Public_Primary_Certification_Authority_-_G4.crt$
-- /usr/share/ca-certificates/mozilla/VeriSign_Class_3_Public_Primary_Certification_Authority_-_G5.crt$
-- /usr/share/ca-certificates/mozilla/VeriSign_Universal_Root_Certification_Authority.crt$
 - /usr/share/ca-certificates/mozilla/Verisign_Class_3_Public_Primary_Certification_Authority_-_G3.crt$
 - /usr/share/ca-certificates/mozilla/XRamp_Global_CA_Root.crt$
 - /usr/share/ca-certificates/mozilla/certSIGN_ROOT_CA.crt$
@@ -439,14 +401,14 @@ includes:
 - /usr/share/ca-certificates/mozilla/emSign_ECC_Root_CA_-_G3.crt$
 - /usr/share/ca-certificates/mozilla/emSign_Root_CA_-_C1.crt$
 - /usr/share/ca-certificates/mozilla/emSign_Root_CA_-_G1.crt$
-- /usr/share/ca-certificates/mozilla/thawte_Primary_Root_CA.crt$
-- /usr/share/ca-certificates/mozilla/thawte_Primary_Root_CA_-_G2.crt$
-- /usr/share/ca-certificates/mozilla/thawte_Primary_Root_CA_-_G3.crt$
 - /usr/share/doc$
-- /usr/share/doc/ca-certificates-20190110.3.43$
-- /usr/share/doc/ca-certificates-20190110.3.43/README.Debian.bz2$
-- /usr/share/doc/ca-certificates-20190110.3.43/README.bz2$
-- /usr/share/doc/ca-certificates-20190110.3.43/README.source.bz2$
+- /usr/share/doc/ca-certificates-20200601.3.53$
+- /usr/share/doc/ca-certificates-20200601.3.53/README.Debian.bz2$
+- /usr/share/doc/ca-certificates-20200601.3.53/README.bz2$
+- /usr/share/doc/ca-certificates-20200601.3.53/README.source.bz2$
 - /usr/share/man$
 - /usr/share/man/man8$
 - /usr/share/man/man8/update-ca-certificates.8.bz2$
+env:
+- ORIGINAL_ATOM=app-misc/ca-certificates
+- ORIGINAL_PACKAGE=app-misc/ca-certificates-20200601.3.53
