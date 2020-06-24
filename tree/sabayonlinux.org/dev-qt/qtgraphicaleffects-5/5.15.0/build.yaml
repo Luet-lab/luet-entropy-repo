@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-qt/qtgraphicaleffects-5.14.1 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -60,3 +61,6 @@ includes:
 - /usr/lib64/qt5/qml/QtGraphicalEffects/private/libqtgraphicaleffectsprivate.so$
 - /usr/lib64/qt5/qml/QtGraphicalEffects/private/qmldir$
 - /usr/lib64/qt5/qml/QtGraphicalEffects/qmldir$
+env:
+- ORIGINAL_ATOM=dev-qt/qtgraphicaleffects
+- ORIGINAL_PACKAGE=dev-qt/qtgraphicaleffects-5.15.0
