@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/importlib_metadata-1.5.0 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -9,65 +10,15 @@ requires:
 includes:
 - /usr$
 - /usr/lib64$
-- /usr/lib64/python2.7$
-- /usr/lib64/python2.7/site-packages$
-- /usr/lib64/python2.7/site-packages/importlib_metadata$
-- /usr/lib64/python2.7/site-packages/importlib_metadata-1.5.0-py2.7.egg-info$
-- /usr/lib64/python2.7/site-packages/importlib_metadata-1.5.0-py2.7.egg-info/PKG-INFO$
-- /usr/lib64/python2.7/site-packages/importlib_metadata-1.5.0-py2.7.egg-info/SOURCES.txt$
-- /usr/lib64/python2.7/site-packages/importlib_metadata-1.5.0-py2.7.egg-info/dependency_links.txt$
-- /usr/lib64/python2.7/site-packages/importlib_metadata-1.5.0-py2.7.egg-info/requires.txt$
-- /usr/lib64/python2.7/site-packages/importlib_metadata-1.5.0-py2.7.egg-info/top_level.txt$
-- /usr/lib64/python2.7/site-packages/importlib_metadata/__init__.py$
-- /usr/lib64/python2.7/site-packages/importlib_metadata/__init__.pyc$
-- /usr/lib64/python2.7/site-packages/importlib_metadata/__init__.pyo$
-- /usr/lib64/python2.7/site-packages/importlib_metadata/_compat.py$
-- /usr/lib64/python2.7/site-packages/importlib_metadata/_compat.pyc$
-- /usr/lib64/python2.7/site-packages/importlib_metadata/_compat.pyo$
-- /usr/lib64/python2.7/site-packages/importlib_metadata/docs$
-- /usr/lib64/python2.7/site-packages/importlib_metadata/docs/__init__.py$
-- /usr/lib64/python2.7/site-packages/importlib_metadata/docs/__init__.pyc$
-- /usr/lib64/python2.7/site-packages/importlib_metadata/docs/__init__.pyo$
-- /usr/lib64/python2.7/site-packages/importlib_metadata/docs/changelog.rst$
-- /usr/lib64/python2.7/site-packages/importlib_metadata/docs/conf.py$
-- /usr/lib64/python2.7/site-packages/importlib_metadata/docs/conf.pyc$
-- /usr/lib64/python2.7/site-packages/importlib_metadata/docs/conf.pyo$
-- /usr/lib64/python2.7/site-packages/importlib_metadata/docs/index.rst$
-- /usr/lib64/python2.7/site-packages/importlib_metadata/docs/using.rst$
-- /usr/lib64/python2.7/site-packages/importlib_metadata/tests$
-- /usr/lib64/python2.7/site-packages/importlib_metadata/tests/__init__.py$
-- /usr/lib64/python2.7/site-packages/importlib_metadata/tests/__init__.pyc$
-- /usr/lib64/python2.7/site-packages/importlib_metadata/tests/__init__.pyo$
-- /usr/lib64/python2.7/site-packages/importlib_metadata/tests/data$
-- /usr/lib64/python2.7/site-packages/importlib_metadata/tests/data/__init__.py$
-- /usr/lib64/python2.7/site-packages/importlib_metadata/tests/data/__init__.pyc$
-- /usr/lib64/python2.7/site-packages/importlib_metadata/tests/data/__init__.pyo$
-- /usr/lib64/python2.7/site-packages/importlib_metadata/tests/data/example-21.12-py3-none-any.whl$
-- /usr/lib64/python2.7/site-packages/importlib_metadata/tests/data/example-21.12-py3.6.egg$
-- /usr/lib64/python2.7/site-packages/importlib_metadata/tests/fixtures.py$
-- /usr/lib64/python2.7/site-packages/importlib_metadata/tests/fixtures.pyc$
-- /usr/lib64/python2.7/site-packages/importlib_metadata/tests/fixtures.pyo$
-- /usr/lib64/python2.7/site-packages/importlib_metadata/tests/test_api.py$
-- /usr/lib64/python2.7/site-packages/importlib_metadata/tests/test_api.pyc$
-- /usr/lib64/python2.7/site-packages/importlib_metadata/tests/test_api.pyo$
-- /usr/lib64/python2.7/site-packages/importlib_metadata/tests/test_integration.py$
-- /usr/lib64/python2.7/site-packages/importlib_metadata/tests/test_integration.pyc$
-- /usr/lib64/python2.7/site-packages/importlib_metadata/tests/test_integration.pyo$
-- /usr/lib64/python2.7/site-packages/importlib_metadata/tests/test_main.py$
-- /usr/lib64/python2.7/site-packages/importlib_metadata/tests/test_main.pyc$
-- /usr/lib64/python2.7/site-packages/importlib_metadata/tests/test_main.pyo$
-- /usr/lib64/python2.7/site-packages/importlib_metadata/tests/test_zip.py$
-- /usr/lib64/python2.7/site-packages/importlib_metadata/tests/test_zip.pyc$
-- /usr/lib64/python2.7/site-packages/importlib_metadata/tests/test_zip.pyo$
 - /usr/lib64/python3.6$
 - /usr/lib64/python3.6/site-packages$
 - /usr/lib64/python3.6/site-packages/importlib_metadata$
-- /usr/lib64/python3.6/site-packages/importlib_metadata-1.5.0-py3.6.egg-info$
-- /usr/lib64/python3.6/site-packages/importlib_metadata-1.5.0-py3.6.egg-info/PKG-INFO$
-- /usr/lib64/python3.6/site-packages/importlib_metadata-1.5.0-py3.6.egg-info/SOURCES.txt$
-- /usr/lib64/python3.6/site-packages/importlib_metadata-1.5.0-py3.6.egg-info/dependency_links.txt$
-- /usr/lib64/python3.6/site-packages/importlib_metadata-1.5.0-py3.6.egg-info/requires.txt$
-- /usr/lib64/python3.6/site-packages/importlib_metadata-1.5.0-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/importlib_metadata-1.6.1-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/importlib_metadata-1.6.1-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/importlib_metadata-1.6.1-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/importlib_metadata-1.6.1-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/importlib_metadata-1.6.1-py3.6.egg-info/requires.txt$
+- /usr/lib64/python3.6/site-packages/importlib_metadata-1.6.1-py3.6.egg-info/top_level.txt$
 - /usr/lib64/python3.6/site-packages/importlib_metadata/__init__.py$
 - /usr/lib64/python3.6/site-packages/importlib_metadata/__pycache__$
 - /usr/lib64/python3.6/site-packages/importlib_metadata/__pycache__/__init__.cpython-36.opt-1.pyc$
@@ -126,5 +77,8 @@ includes:
 - /usr/lib64/python3.6/site-packages/importlib_metadata/tests/test_zip.py$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/importlib_metadata-1.5.0$
-- /usr/share/doc/importlib_metadata-1.5.0/README.rst.bz2$
+- /usr/share/doc/importlib_metadata-1.6.1$
+- /usr/share/doc/importlib_metadata-1.6.1/README.rst.bz2$
+env:
+- ORIGINAL_ATOM=dev-python/importlib_metadata
+- ORIGINAL_PACKAGE=dev-python/importlib_metadata-1.6.1
