@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-qt/qtvirtualkeyboard-5.14.1 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -11,44 +12,44 @@ includes:
 - /usr/include$
 - /usr/include/qt5$
 - /usr/include/qt5/QtHunspellInputMethod$
-- /usr/include/qt5/QtHunspellInputMethod/5.14.1$
-- /usr/include/qt5/QtHunspellInputMethod/5.14.1/QtHunspellInputMethod$
-- /usr/include/qt5/QtHunspellInputMethod/5.14.1/QtHunspellInputMethod/private$
-- /usr/include/qt5/QtHunspellInputMethod/5.14.1/QtHunspellInputMethod/private/hunspellinputmethod_p.h$
-- /usr/include/qt5/QtHunspellInputMethod/5.14.1/QtHunspellInputMethod/private/hunspellinputmethod_p_p.h$
-- /usr/include/qt5/QtHunspellInputMethod/5.14.1/QtHunspellInputMethod/private/hunspellworker_p.h$
+- /usr/include/qt5/QtHunspellInputMethod/5.15.0$
+- /usr/include/qt5/QtHunspellInputMethod/5.15.0/QtHunspellInputMethod$
+- /usr/include/qt5/QtHunspellInputMethod/5.15.0/QtHunspellInputMethod/private$
+- /usr/include/qt5/QtHunspellInputMethod/5.15.0/QtHunspellInputMethod/private/hunspellinputmethod_p.h$
+- /usr/include/qt5/QtHunspellInputMethod/5.15.0/QtHunspellInputMethod/private/hunspellinputmethod_p_p.h$
+- /usr/include/qt5/QtHunspellInputMethod/5.15.0/QtHunspellInputMethod/private/hunspellworker_p.h$
 - /usr/include/qt5/QtHunspellInputMethod/QtHunspellInputMethod$
 - /usr/include/qt5/QtHunspellInputMethod/QtHunspellInputMethodDepends$
 - /usr/include/qt5/QtHunspellInputMethod/QtHunspellInputMethodVersion$
 - /usr/include/qt5/QtHunspellInputMethod/qhunspellinputmethod_global.h$
 - /usr/include/qt5/QtHunspellInputMethod/qthunspellinputmethodversion.h$
 - /usr/include/qt5/QtVirtualKeyboard$
-- /usr/include/qt5/QtVirtualKeyboard/5.14.1$
-- /usr/include/qt5/QtVirtualKeyboard/5.14.1/QtVirtualKeyboard$
-- /usr/include/qt5/QtVirtualKeyboard/5.14.1/QtVirtualKeyboard/private$
-- /usr/include/qt5/QtVirtualKeyboard/5.14.1/QtVirtualKeyboard/private/abstractinputpanel_p.h$
-- /usr/include/qt5/QtVirtualKeyboard/5.14.1/QtVirtualKeyboard/private/appinputpanel_p.h$
-- /usr/include/qt5/QtVirtualKeyboard/5.14.1/QtVirtualKeyboard/private/appinputpanel_p_p.h$
-- /usr/include/qt5/QtVirtualKeyboard/5.14.1/QtVirtualKeyboard/private/desktopinputpanel_p.h$
-- /usr/include/qt5/QtVirtualKeyboard/5.14.1/QtVirtualKeyboard/private/desktopinputselectioncontrol_p.h$
-- /usr/include/qt5/QtVirtualKeyboard/5.14.1/QtVirtualKeyboard/private/enterkeyaction_p.h$
-- /usr/include/qt5/QtVirtualKeyboard/5.14.1/QtVirtualKeyboard/private/enterkeyactionattachedtype_p.h$
-- /usr/include/qt5/QtVirtualKeyboard/5.14.1/QtVirtualKeyboard/private/fallbackinputmethod_p.h$
-- /usr/include/qt5/QtVirtualKeyboard/5.14.1/QtVirtualKeyboard/private/gesturerecognizer_p.h$
-- /usr/include/qt5/QtVirtualKeyboard/5.14.1/QtVirtualKeyboard/private/handwritinggesturerecognizer_p.h$
-- /usr/include/qt5/QtVirtualKeyboard/5.14.1/QtVirtualKeyboard/private/inputmethod_p.h$
-- /usr/include/qt5/QtVirtualKeyboard/5.14.1/QtVirtualKeyboard/private/inputselectionhandle_p.h$
-- /usr/include/qt5/QtVirtualKeyboard/5.14.1/QtVirtualKeyboard/private/inputview_p.h$
-- /usr/include/qt5/QtVirtualKeyboard/5.14.1/QtVirtualKeyboard/private/plaininputmethod_p.h$
-- /usr/include/qt5/QtVirtualKeyboard/5.14.1/QtVirtualKeyboard/private/platforminputcontext_p.h$
-- /usr/include/qt5/QtVirtualKeyboard/5.14.1/QtVirtualKeyboard/private/qvirtualkeyboard_staticplugin_p.h$
-- /usr/include/qt5/QtVirtualKeyboard/5.14.1/QtVirtualKeyboard/private/qvirtualkeyboardinputcontext_p.h$
-- /usr/include/qt5/QtVirtualKeyboard/5.14.1/QtVirtualKeyboard/private/settings_p.h$
-- /usr/include/qt5/QtVirtualKeyboard/5.14.1/QtVirtualKeyboard/private/shadowinputcontext_p.h$
-- /usr/include/qt5/QtVirtualKeyboard/5.14.1/QtVirtualKeyboard/private/shifthandler_p.h$
-- /usr/include/qt5/QtVirtualKeyboard/5.14.1/QtVirtualKeyboard/private/unipentrace_p.h$
-- /usr/include/qt5/QtVirtualKeyboard/5.14.1/QtVirtualKeyboard/private/virtualkeyboarddebug_p.h$
-- /usr/include/qt5/QtVirtualKeyboard/5.14.1/QtVirtualKeyboard/private/virtualkeyboardsettings_p.h$
+- /usr/include/qt5/QtVirtualKeyboard/5.15.0$
+- /usr/include/qt5/QtVirtualKeyboard/5.15.0/QtVirtualKeyboard$
+- /usr/include/qt5/QtVirtualKeyboard/5.15.0/QtVirtualKeyboard/private$
+- /usr/include/qt5/QtVirtualKeyboard/5.15.0/QtVirtualKeyboard/private/abstractinputpanel_p.h$
+- /usr/include/qt5/QtVirtualKeyboard/5.15.0/QtVirtualKeyboard/private/appinputpanel_p.h$
+- /usr/include/qt5/QtVirtualKeyboard/5.15.0/QtVirtualKeyboard/private/appinputpanel_p_p.h$
+- /usr/include/qt5/QtVirtualKeyboard/5.15.0/QtVirtualKeyboard/private/desktopinputpanel_p.h$
+- /usr/include/qt5/QtVirtualKeyboard/5.15.0/QtVirtualKeyboard/private/desktopinputselectioncontrol_p.h$
+- /usr/include/qt5/QtVirtualKeyboard/5.15.0/QtVirtualKeyboard/private/enterkeyaction_p.h$
+- /usr/include/qt5/QtVirtualKeyboard/5.15.0/QtVirtualKeyboard/private/enterkeyactionattachedtype_p.h$
+- /usr/include/qt5/QtVirtualKeyboard/5.15.0/QtVirtualKeyboard/private/fallbackinputmethod_p.h$
+- /usr/include/qt5/QtVirtualKeyboard/5.15.0/QtVirtualKeyboard/private/gesturerecognizer_p.h$
+- /usr/include/qt5/QtVirtualKeyboard/5.15.0/QtVirtualKeyboard/private/handwritinggesturerecognizer_p.h$
+- /usr/include/qt5/QtVirtualKeyboard/5.15.0/QtVirtualKeyboard/private/inputmethod_p.h$
+- /usr/include/qt5/QtVirtualKeyboard/5.15.0/QtVirtualKeyboard/private/inputselectionhandle_p.h$
+- /usr/include/qt5/QtVirtualKeyboard/5.15.0/QtVirtualKeyboard/private/inputview_p.h$
+- /usr/include/qt5/QtVirtualKeyboard/5.15.0/QtVirtualKeyboard/private/plaininputmethod_p.h$
+- /usr/include/qt5/QtVirtualKeyboard/5.15.0/QtVirtualKeyboard/private/platforminputcontext_p.h$
+- /usr/include/qt5/QtVirtualKeyboard/5.15.0/QtVirtualKeyboard/private/qvirtualkeyboard_staticplugin_p.h$
+- /usr/include/qt5/QtVirtualKeyboard/5.15.0/QtVirtualKeyboard/private/qvirtualkeyboardinputcontext_p.h$
+- /usr/include/qt5/QtVirtualKeyboard/5.15.0/QtVirtualKeyboard/private/settings_p.h$
+- /usr/include/qt5/QtVirtualKeyboard/5.15.0/QtVirtualKeyboard/private/shadowinputcontext_p.h$
+- /usr/include/qt5/QtVirtualKeyboard/5.15.0/QtVirtualKeyboard/private/shifthandler_p.h$
+- /usr/include/qt5/QtVirtualKeyboard/5.15.0/QtVirtualKeyboard/private/unipentrace_p.h$
+- /usr/include/qt5/QtVirtualKeyboard/5.15.0/QtVirtualKeyboard/private/virtualkeyboarddebug_p.h$
+- /usr/include/qt5/QtVirtualKeyboard/5.15.0/QtVirtualKeyboard/private/virtualkeyboardsettings_p.h$
 - /usr/include/qt5/QtVirtualKeyboard/QVirtualKeyboardAbstractInputMethod$
 - /usr/include/qt5/QtVirtualKeyboard/QVirtualKeyboardExtensionPlugin$
 - /usr/include/qt5/QtVirtualKeyboard/QVirtualKeyboardInputContext$
@@ -81,13 +82,13 @@ includes:
 - /usr/lib64/libQt5HunspellInputMethod.prl$
 - /usr/lib64/libQt5HunspellInputMethod.so$
 - /usr/lib64/libQt5HunspellInputMethod.so.5$
-- /usr/lib64/libQt5HunspellInputMethod.so.5.14$
-- /usr/lib64/libQt5HunspellInputMethod.so.5.14.1$
+- /usr/lib64/libQt5HunspellInputMethod.so.5.15$
+- /usr/lib64/libQt5HunspellInputMethod.so.5.15.0$
 - /usr/lib64/libQt5VirtualKeyboard.prl$
 - /usr/lib64/libQt5VirtualKeyboard.so$
 - /usr/lib64/libQt5VirtualKeyboard.so.5$
-- /usr/lib64/libQt5VirtualKeyboard.so.5.14$
-- /usr/lib64/libQt5VirtualKeyboard.so.5.14.1$
+- /usr/lib64/libQt5VirtualKeyboard.so.5.15$
+- /usr/lib64/libQt5VirtualKeyboard.so.5.15.0$
 - /usr/lib64/pkgconfig$
 - /usr/lib64/pkgconfig/Qt5VirtualKeyboard.pc$
 - /usr/lib64/qt5$
@@ -115,3 +116,6 @@ includes:
 - /usr/lib64/qt5/qml/QtQuick/VirtualKeyboard/libqtquickvirtualkeyboardplugin.so$
 - /usr/lib64/qt5/qml/QtQuick/VirtualKeyboard/plugins.qmltypes$
 - /usr/lib64/qt5/qml/QtQuick/VirtualKeyboard/qmldir$
+env:
+- ORIGINAL_ATOM=dev-qt/qtvirtualkeyboard
+- ORIGINAL_PACKAGE=dev-qt/qtvirtualkeyboard-5.15.0
