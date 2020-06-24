@@ -1,0 +1,48 @@
+unpack: true
+steps:
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/python3.6$
+- /usr/lib64/python3.6/site-packages$
+- /usr/lib64/python3.6/site-packages/regex$
+- /usr/lib64/python3.6/site-packages/regex-2020.4.4-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/regex-2020.4.4-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/regex-2020.4.4-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/regex-2020.4.4-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/regex-2020.4.4-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/regex/__init__.py$
+- /usr/lib64/python3.6/site-packages/regex/__pycache__$
+- /usr/lib64/python3.6/site-packages/regex/__pycache__/__init__.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/regex/__pycache__/__init__.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/regex/__pycache__/__init__.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/regex/__pycache__/_regex_core.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/regex/__pycache__/_regex_core.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/regex/__pycache__/_regex_core.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/regex/__pycache__/regex.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/regex/__pycache__/regex.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/regex/__pycache__/regex.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/regex/__pycache__/test_regex.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/regex/__pycache__/test_regex.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/regex/__pycache__/test_regex.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/regex/_regex.cpython-36m-x86_64-linux-gnu.so$
+- /usr/lib64/python3.6/site-packages/regex/_regex_core.py$
+- /usr/lib64/python3.6/site-packages/regex/regex.py$
+- /usr/lib64/python3.6/site-packages/regex/test_regex.py$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/regex-2020.4.4$
+- /usr/share/doc/regex-2020.4.4/Features.rst.bz2$
+- /usr/share/doc/regex-2020.4.4/README.rst.bz2$
+- /usr/share/doc/regex-2020.4.4/UnicodeProperties.rst.bz2$
+env:
+- ORIGINAL_ATOM=dev-python/regex
+- ORIGINAL_PACKAGE=dev-python/regex-2020.4.4
