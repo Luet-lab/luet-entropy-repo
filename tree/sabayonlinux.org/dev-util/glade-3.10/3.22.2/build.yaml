@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-util/glade-3.22.1 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -61,19 +62,19 @@ includes:
 - /usr/lib64/glade/modules/libgladepython.so$
 - /usr/lib64/libgladeui-2.so$
 - /usr/lib64/libgladeui-2.so.6$
-- /usr/lib64/libgladeui-2.so.6.5.1$
+- /usr/lib64/libgladeui-2.so.6.5.2$
 - /usr/lib64/pkgconfig$
 - /usr/lib64/pkgconfig/gladeui-2.0.pc$
 - /usr/share$
 - /usr/share/applications$
 - /usr/share/applications/glade.desktop$
 - /usr/share/doc$
-- /usr/share/doc/glade-3.22.1$
-- /usr/share/doc/glade-3.22.1/AUTHORS.bz2$
-- /usr/share/doc/glade-3.22.1/ChangeLog.bz2$
-- /usr/share/doc/glade-3.22.1/NEWS.bz2$
-- /usr/share/doc/glade-3.22.1/README.bz2$
-- /usr/share/doc/glade-3.22.1/TODO.bz2$
+- /usr/share/doc/glade-3.22.2$
+- /usr/share/doc/glade-3.22.2/AUTHORS.bz2$
+- /usr/share/doc/glade-3.22.2/ChangeLog.bz2$
+- /usr/share/doc/glade-3.22.2/NEWS.bz2$
+- /usr/share/doc/glade-3.22.2/README.bz2$
+- /usr/share/doc/glade-3.22.2/TODO.bz2$
 - /usr/share/gir-1.0$
 - /usr/share/gir-1.0/Gladeui-2.0.gir$
 - /usr/share/glade$
@@ -761,3 +762,6 @@ includes:
 - /usr/share/man/man1/glade.1.bz2$
 - /usr/share/metainfo$
 - /usr/share/metainfo/glade.appdata.xml$
+env:
+- ORIGINAL_ATOM=dev-util/glade
+- ORIGINAL_PACKAGE=dev-util/glade-3.22.2
