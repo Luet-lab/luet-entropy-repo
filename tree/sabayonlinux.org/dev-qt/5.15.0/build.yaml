@@ -1,0 +1,82 @@
+requires:
+- category: "distro"
+  name: "alpine"
+  version: "3.11.3"
+env:
+- ORIGINAL_ATOM=dev-qt/qtxml
+- ORIGINAL_PACKAGE=dev-qt/qtxml-5.15.0
+steps:
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/qt5$
+- /usr/include/qt5/QtXml$
+- /usr/include/qt5/QtXml/5.15.0$
+- /usr/include/qt5/QtXml/5.15.0/QtXml$
+- /usr/include/qt5/QtXml/5.15.0/QtXml/private$
+- /usr/include/qt5/QtXml/5.15.0/QtXml/private/qdom_p.h$
+- /usr/include/qt5/QtXml/5.15.0/QtXml/private/qdomhelpers_p.h$
+- /usr/include/qt5/QtXml/5.15.0/QtXml/private/qtxml-config_p.h$
+- /usr/include/qt5/QtXml/5.15.0/QtXml/private/qxml_p.h$
+- /usr/include/qt5/QtXml/QDomAttr$
+- /usr/include/qt5/QtXml/QDomCDATASection$
+- /usr/include/qt5/QtXml/QDomCharacterData$
+- /usr/include/qt5/QtXml/QDomComment$
+- /usr/include/qt5/QtXml/QDomDocument$
+- /usr/include/qt5/QtXml/QDomDocumentFragment$
+- /usr/include/qt5/QtXml/QDomDocumentType$
+- /usr/include/qt5/QtXml/QDomElement$
+- /usr/include/qt5/QtXml/QDomEntity$
+- /usr/include/qt5/QtXml/QDomEntityReference$
+- /usr/include/qt5/QtXml/QDomImplementation$
+- /usr/include/qt5/QtXml/QDomNamedNodeMap$
+- /usr/include/qt5/QtXml/QDomNode$
+- /usr/include/qt5/QtXml/QDomNodeList$
+- /usr/include/qt5/QtXml/QDomNotation$
+- /usr/include/qt5/QtXml/QDomProcessingInstruction$
+- /usr/include/qt5/QtXml/QDomText$
+- /usr/include/qt5/QtXml/QXmlAttributes$
+- /usr/include/qt5/QtXml/QXmlContentHandler$
+- /usr/include/qt5/QtXml/QXmlDTDHandler$
+- /usr/include/qt5/QtXml/QXmlDeclHandler$
+- /usr/include/qt5/QtXml/QXmlDefaultHandler$
+- /usr/include/qt5/QtXml/QXmlEntityResolver$
+- /usr/include/qt5/QtXml/QXmlErrorHandler$
+- /usr/include/qt5/QtXml/QXmlInputSource$
+- /usr/include/qt5/QtXml/QXmlLexicalHandler$
+- /usr/include/qt5/QtXml/QXmlLocator$
+- /usr/include/qt5/QtXml/QXmlNamespaceSupport$
+- /usr/include/qt5/QtXml/QXmlParseException$
+- /usr/include/qt5/QtXml/QXmlReader$
+- /usr/include/qt5/QtXml/QXmlSimpleReader$
+- /usr/include/qt5/QtXml/QtXml$
+- /usr/include/qt5/QtXml/QtXmlDepends$
+- /usr/include/qt5/QtXml/QtXmlVersion$
+- /usr/include/qt5/QtXml/qdom.h$
+- /usr/include/qt5/QtXml/qtxml-config.h$
+- /usr/include/qt5/QtXml/qtxmlglobal.h$
+- /usr/include/qt5/QtXml/qtxmlversion.h$
+- /usr/include/qt5/QtXml/qxml.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/cmake$
+- /usr/lib64/cmake/Qt5Xml$
+- /usr/lib64/cmake/Qt5Xml/Qt5XmlConfig.cmake$
+- /usr/lib64/cmake/Qt5Xml/Qt5XmlConfigVersion.cmake$
+- /usr/lib64/libQt5Xml.prl$
+- /usr/lib64/libQt5Xml.so$
+- /usr/lib64/libQt5Xml.so.5$
+- /usr/lib64/libQt5Xml.so.5.15$
+- /usr/lib64/libQt5Xml.so.5.15.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/Qt5Xml.pc$
+- /usr/lib64/qt5$
+- /usr/lib64/qt5/mkspecs$
+- /usr/lib64/qt5/mkspecs/gentoo$
+- /usr/lib64/qt5/mkspecs/gentoo/qtxml-qmodule.pri$
+- /usr/lib64/qt5/mkspecs/modules$
+- /usr/lib64/qt5/mkspecs/modules/qt_lib_xml.pri$
+- /usr/lib64/qt5/mkspecs/modules/qt_lib_xml_private.pri$
