@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/webtest-2.0.33 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -9,60 +10,16 @@ requires:
 includes:
 - /usr$
 - /usr/lib64$
-- /usr/lib64/python2.7$
-- /usr/lib64/python2.7/site-packages$
-- /usr/lib64/python2.7/site-packages/WebTest-2.0.33-py2.7.egg-info$
-- /usr/lib64/python2.7/site-packages/WebTest-2.0.33-py2.7.egg-info/PKG-INFO$
-- /usr/lib64/python2.7/site-packages/WebTest-2.0.33-py2.7.egg-info/SOURCES.txt$
-- /usr/lib64/python2.7/site-packages/WebTest-2.0.33-py2.7.egg-info/dependency_links.txt$
-- /usr/lib64/python2.7/site-packages/WebTest-2.0.33-py2.7.egg-info/entry_points.txt$
-- /usr/lib64/python2.7/site-packages/WebTest-2.0.33-py2.7.egg-info/not-zip-safe$
-- /usr/lib64/python2.7/site-packages/WebTest-2.0.33-py2.7.egg-info/requires.txt$
-- /usr/lib64/python2.7/site-packages/WebTest-2.0.33-py2.7.egg-info/top_level.txt$
-- /usr/lib64/python2.7/site-packages/webtest$
-- /usr/lib64/python2.7/site-packages/webtest/__init__.py$
-- /usr/lib64/python2.7/site-packages/webtest/__init__.pyc$
-- /usr/lib64/python2.7/site-packages/webtest/__init__.pyo$
-- /usr/lib64/python2.7/site-packages/webtest/app.py$
-- /usr/lib64/python2.7/site-packages/webtest/app.pyc$
-- /usr/lib64/python2.7/site-packages/webtest/app.pyo$
-- /usr/lib64/python2.7/site-packages/webtest/compat.py$
-- /usr/lib64/python2.7/site-packages/webtest/compat.pyc$
-- /usr/lib64/python2.7/site-packages/webtest/compat.pyo$
-- /usr/lib64/python2.7/site-packages/webtest/debugapp.py$
-- /usr/lib64/python2.7/site-packages/webtest/debugapp.pyc$
-- /usr/lib64/python2.7/site-packages/webtest/debugapp.pyo$
-- /usr/lib64/python2.7/site-packages/webtest/ext.py$
-- /usr/lib64/python2.7/site-packages/webtest/ext.pyc$
-- /usr/lib64/python2.7/site-packages/webtest/ext.pyo$
-- /usr/lib64/python2.7/site-packages/webtest/forms.py$
-- /usr/lib64/python2.7/site-packages/webtest/forms.pyc$
-- /usr/lib64/python2.7/site-packages/webtest/forms.pyo$
-- /usr/lib64/python2.7/site-packages/webtest/http.py$
-- /usr/lib64/python2.7/site-packages/webtest/http.pyc$
-- /usr/lib64/python2.7/site-packages/webtest/http.pyo$
-- /usr/lib64/python2.7/site-packages/webtest/lint.py$
-- /usr/lib64/python2.7/site-packages/webtest/lint.pyc$
-- /usr/lib64/python2.7/site-packages/webtest/lint.pyo$
-- /usr/lib64/python2.7/site-packages/webtest/response.py$
-- /usr/lib64/python2.7/site-packages/webtest/response.pyc$
-- /usr/lib64/python2.7/site-packages/webtest/response.pyo$
-- /usr/lib64/python2.7/site-packages/webtest/sel.py$
-- /usr/lib64/python2.7/site-packages/webtest/sel.pyc$
-- /usr/lib64/python2.7/site-packages/webtest/sel.pyo$
-- /usr/lib64/python2.7/site-packages/webtest/utils.py$
-- /usr/lib64/python2.7/site-packages/webtest/utils.pyc$
-- /usr/lib64/python2.7/site-packages/webtest/utils.pyo$
 - /usr/lib64/python3.6$
 - /usr/lib64/python3.6/site-packages$
-- /usr/lib64/python3.6/site-packages/WebTest-2.0.33-py3.6.egg-info$
-- /usr/lib64/python3.6/site-packages/WebTest-2.0.33-py3.6.egg-info/PKG-INFO$
-- /usr/lib64/python3.6/site-packages/WebTest-2.0.33-py3.6.egg-info/SOURCES.txt$
-- /usr/lib64/python3.6/site-packages/WebTest-2.0.33-py3.6.egg-info/dependency_links.txt$
-- /usr/lib64/python3.6/site-packages/WebTest-2.0.33-py3.6.egg-info/entry_points.txt$
-- /usr/lib64/python3.6/site-packages/WebTest-2.0.33-py3.6.egg-info/not-zip-safe$
-- /usr/lib64/python3.6/site-packages/WebTest-2.0.33-py3.6.egg-info/requires.txt$
-- /usr/lib64/python3.6/site-packages/WebTest-2.0.33-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/WebTest-2.0.35-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/WebTest-2.0.35-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/WebTest-2.0.35-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/WebTest-2.0.35-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/WebTest-2.0.35-py3.6.egg-info/entry_points.txt$
+- /usr/lib64/python3.6/site-packages/WebTest-2.0.35-py3.6.egg-info/not-zip-safe$
+- /usr/lib64/python3.6/site-packages/WebTest-2.0.35-py3.6.egg-info/requires.txt$
+- /usr/lib64/python3.6/site-packages/WebTest-2.0.35-py3.6.egg-info/top_level.txt$
 - /usr/lib64/python3.6/site-packages/webtest$
 - /usr/lib64/python3.6/site-packages/webtest/__init__.py$
 - /usr/lib64/python3.6/site-packages/webtest/__pycache__$
@@ -111,5 +68,8 @@ includes:
 - /usr/lib64/python3.6/site-packages/webtest/utils.py$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/webtest-2.0.33$
-- /usr/share/doc/webtest-2.0.33/README.rst.bz2$
+- /usr/share/doc/webtest-2.0.35$
+- /usr/share/doc/webtest-2.0.35/README.rst.bz2$
+env:
+- ORIGINAL_ATOM=dev-python/webtest
+- ORIGINAL_PACKAGE=dev-python/webtest-2.0.35
