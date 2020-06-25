@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-qt/linguist-tools-5.14.1 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -23,3 +24,6 @@ includes:
 - /usr/lib64/qt5/bin/lrelease-pro$
 - /usr/lib64/qt5/bin/lupdate$
 - /usr/lib64/qt5/bin/lupdate-pro$
+env:
+- ORIGINAL_ATOM=dev-qt/linguist-tools
+- ORIGINAL_PACKAGE=dev-qt/linguist-tools-5.15.0
