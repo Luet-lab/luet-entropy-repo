@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-qt/qtconcurrent-5.14.1 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -42,8 +43,8 @@ includes:
 - /usr/lib64/libQt5Concurrent.prl$
 - /usr/lib64/libQt5Concurrent.so$
 - /usr/lib64/libQt5Concurrent.so.5$
-- /usr/lib64/libQt5Concurrent.so.5.14$
-- /usr/lib64/libQt5Concurrent.so.5.14.1$
+- /usr/lib64/libQt5Concurrent.so.5.15$
+- /usr/lib64/libQt5Concurrent.so.5.15.0$
 - /usr/lib64/pkgconfig$
 - /usr/lib64/pkgconfig/Qt5Concurrent.pc$
 - /usr/lib64/qt5$
@@ -51,3 +52,6 @@ includes:
 - /usr/lib64/qt5/mkspecs/modules$
 - /usr/lib64/qt5/mkspecs/modules/qt_lib_concurrent.pri$
 - /usr/lib64/qt5/mkspecs/modules/qt_lib_concurrent_private.pri$
+env:
+- ORIGINAL_ATOM=dev-qt/qtconcurrent
+- ORIGINAL_PACKAGE=dev-qt/qtconcurrent-5.15.0
