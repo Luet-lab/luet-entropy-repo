@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-qt/qthelp-5.14.1 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -11,15 +12,18 @@ includes:
 - /usr/include$
 - /usr/include/qt5$
 - /usr/include/qt5/QtHelp$
-- /usr/include/qt5/QtHelp/5.14.1$
-- /usr/include/qt5/QtHelp/5.14.1/QtHelp$
-- /usr/include/qt5/QtHelp/5.14.1/QtHelp/private$
-- /usr/include/qt5/QtHelp/5.14.1/QtHelp/private/qhelpcollectionhandler_p.h$
-- /usr/include/qt5/QtHelp/5.14.1/QtHelp/private/qhelpdbreader_p.h$
-- /usr/include/qt5/QtHelp/5.14.1/QtHelp/private/qhelpengine_p.h$
-- /usr/include/qt5/QtHelp/5.14.1/QtHelp/private/qhelpsearchindexreader_default_p.h$
-- /usr/include/qt5/QtHelp/5.14.1/QtHelp/private/qhelpsearchindexreader_p.h$
-- /usr/include/qt5/QtHelp/5.14.1/QtHelp/private/qhelpsearchindexwriter_default_p.h$
+- /usr/include/qt5/QtHelp/5.15.0$
+- /usr/include/qt5/QtHelp/5.15.0/QtHelp$
+- /usr/include/qt5/QtHelp/5.15.0/QtHelp/private$
+- /usr/include/qt5/QtHelp/5.15.0/QtHelp/private/qfilternamedialog_p.h$
+- /usr/include/qt5/QtHelp/5.15.0/QtHelp/private/qhelpcollectionhandler_p.h$
+- /usr/include/qt5/QtHelp/5.15.0/QtHelp/private/qhelpdbreader_p.h$
+- /usr/include/qt5/QtHelp/5.15.0/QtHelp/private/qhelpengine_p.h$
+- /usr/include/qt5/QtHelp/5.15.0/QtHelp/private/qhelpfiltersettings_p.h$
+- /usr/include/qt5/QtHelp/5.15.0/QtHelp/private/qhelpsearchindexreader_default_p.h$
+- /usr/include/qt5/QtHelp/5.15.0/QtHelp/private/qhelpsearchindexreader_p.h$
+- /usr/include/qt5/QtHelp/5.15.0/QtHelp/private/qhelpsearchindexwriter_default_p.h$
+- /usr/include/qt5/QtHelp/5.15.0/QtHelp/private/qoptionswidget_p.h$
 - /usr/include/qt5/QtHelp/QCompressedHelpInfo$
 - /usr/include/qt5/QtHelp/QHelpContentItem$
 - /usr/include/qt5/QtHelp/QHelpContentModel$
@@ -28,9 +32,11 @@ includes:
 - /usr/include/qt5/QtHelp/QHelpEngineCore$
 - /usr/include/qt5/QtHelp/QHelpFilterData$
 - /usr/include/qt5/QtHelp/QHelpFilterEngine$
+- /usr/include/qt5/QtHelp/QHelpFilterSettingsWidget$
 - /usr/include/qt5/QtHelp/QHelpGlobal$
 - /usr/include/qt5/QtHelp/QHelpIndexModel$
 - /usr/include/qt5/QtHelp/QHelpIndexWidget$
+- /usr/include/qt5/QtHelp/QHelpLink$
 - /usr/include/qt5/QtHelp/QHelpSearchEngine$
 - /usr/include/qt5/QtHelp/QHelpSearchQuery$
 - /usr/include/qt5/QtHelp/QHelpSearchQueryWidget$
@@ -46,7 +52,9 @@ includes:
 - /usr/include/qt5/QtHelp/qhelpenginecore.h$
 - /usr/include/qt5/QtHelp/qhelpfilterdata.h$
 - /usr/include/qt5/QtHelp/qhelpfilterengine.h$
+- /usr/include/qt5/QtHelp/qhelpfiltersettingswidget.h$
 - /usr/include/qt5/QtHelp/qhelpindexwidget.h$
+- /usr/include/qt5/QtHelp/qhelplink.h$
 - /usr/include/qt5/QtHelp/qhelpsearchengine.h$
 - /usr/include/qt5/QtHelp/qhelpsearchquerywidget.h$
 - /usr/include/qt5/QtHelp/qhelpsearchresultwidget.h$
@@ -61,8 +69,8 @@ includes:
 - /usr/lib64/libQt5Help.prl$
 - /usr/lib64/libQt5Help.so$
 - /usr/lib64/libQt5Help.so.5$
-- /usr/lib64/libQt5Help.so.5.14$
-- /usr/lib64/libQt5Help.so.5.14.1$
+- /usr/lib64/libQt5Help.so.5.15$
+- /usr/lib64/libQt5Help.so.5.15.0$
 - /usr/lib64/pkgconfig$
 - /usr/lib64/pkgconfig/Qt5Help.pc$
 - /usr/lib64/qt5$
@@ -73,3 +81,6 @@ includes:
 - /usr/lib64/qt5/mkspecs/modules$
 - /usr/lib64/qt5/mkspecs/modules/qt_lib_help.pri$
 - /usr/lib64/qt5/mkspecs/modules/qt_lib_help_private.pri$
+env:
+- ORIGINAL_ATOM=dev-qt/qthelp
+- ORIGINAL_PACKAGE=dev-qt/qthelp-5.15.0
