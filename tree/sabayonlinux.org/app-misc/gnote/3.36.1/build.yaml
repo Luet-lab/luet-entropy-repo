@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i app-misc/gnote-3.30.0 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -14,49 +15,51 @@ includes:
 - /usr/lib64$
 - /usr/lib64/gnote$
 - /usr/lib64/gnote/addins$
-- /usr/lib64/gnote/addins/3.30.0$
-- /usr/lib64/gnote/addins/3.30.0/backlinks.desktop$
-- /usr/lib64/gnote/addins/3.30.0/bugzilla.desktop$
-- /usr/lib64/gnote/addins/3.30.0/exporttogtg.desktop$
-- /usr/lib64/gnote/addins/3.30.0/exporttohtml.desktop$
-- /usr/lib64/gnote/addins/3.30.0/filesystemsyncservice.desktop$
-- /usr/lib64/gnote/addins/3.30.0/fixedwidth.desktop$
-- /usr/lib64/gnote/addins/3.30.0/inserttimestamp.desktop$
-- /usr/lib64/gnote/addins/3.30.0/libbacklinks.so$
-- /usr/lib64/gnote/addins/3.30.0/libbugzilla.so$
-- /usr/lib64/gnote/addins/3.30.0/libexporttogtg.so$
-- /usr/lib64/gnote/addins/3.30.0/libexporttohtml.so$
-- /usr/lib64/gnote/addins/3.30.0/libfilesystemsyncservice.so$
-- /usr/lib64/gnote/addins/3.30.0/libfixedwidth.so$
-- /usr/lib64/gnote/addins/3.30.0/libinserttimestamp.so$
-- /usr/lib64/gnote/addins/3.30.0/libnotedirectorywatcher.so$
-- /usr/lib64/gnote/addins/3.30.0/libnoteoftheday.so$
-- /usr/lib64/gnote/addins/3.30.0/libprintnotes.so$
-- /usr/lib64/gnote/addins/3.30.0/libreadonly.so$
-- /usr/lib64/gnote/addins/3.30.0/libreplacetitle.so$
-- /usr/lib64/gnote/addins/3.30.0/libspecialnotes.so$
-- /usr/lib64/gnote/addins/3.30.0/libstatistics.so$
-- /usr/lib64/gnote/addins/3.30.0/libstickynoteimport.so$
-- /usr/lib64/gnote/addins/3.30.0/libtableofcontents.so$
-- /usr/lib64/gnote/addins/3.30.0/libtodo.so$
-- /usr/lib64/gnote/addins/3.30.0/libtomboyimport.so$
-- /usr/lib64/gnote/addins/3.30.0/libunderline.so$
-- /usr/lib64/gnote/addins/3.30.0/libwebdavsyncservice.so$
-- /usr/lib64/gnote/addins/3.30.0/notedirectorywatcher.desktop$
-- /usr/lib64/gnote/addins/3.30.0/noteoftheday.desktop$
-- /usr/lib64/gnote/addins/3.30.0/printnotes.desktop$
-- /usr/lib64/gnote/addins/3.30.0/readonly.desktop$
-- /usr/lib64/gnote/addins/3.30.0/replacetitle.desktop$
-- /usr/lib64/gnote/addins/3.30.0/specialnotes.desktop$
-- /usr/lib64/gnote/addins/3.30.0/statistics.desktop$
-- /usr/lib64/gnote/addins/3.30.0/stickynoteimport.desktop$
-- /usr/lib64/gnote/addins/3.30.0/tableofcontents.desktop$
-- /usr/lib64/gnote/addins/3.30.0/todo.desktop$
-- /usr/lib64/gnote/addins/3.30.0/tomboyimport.desktop$
-- /usr/lib64/gnote/addins/3.30.0/underline.desktop$
-- /usr/lib64/gnote/addins/3.30.0/webdavsyncservice.desktop$
-- /usr/lib64/libgnote-3.30.so.0$
-- /usr/lib64/libgnote-3.30.so.0.0.0$
+- /usr/lib64/gnote/addins/3.36.1$
+- /usr/lib64/gnote/addins/3.36.1/backlinks.desktop$
+- /usr/lib64/gnote/addins/3.36.1/bugzilla.desktop$
+- /usr/lib64/gnote/addins/3.36.1/exporttogtg.desktop$
+- /usr/lib64/gnote/addins/3.36.1/exporttohtml.desktop$
+- /usr/lib64/gnote/addins/3.36.1/filesystemsyncservice.desktop$
+- /usr/lib64/gnote/addins/3.36.1/fixedwidth.desktop$
+- /usr/lib64/gnote/addins/3.36.1/gvfssyncservice.desktop$
+- /usr/lib64/gnote/addins/3.36.1/inserttimestamp.desktop$
+- /usr/lib64/gnote/addins/3.36.1/libbacklinks.so$
+- /usr/lib64/gnote/addins/3.36.1/libbugzilla.so$
+- /usr/lib64/gnote/addins/3.36.1/libexporttogtg.so$
+- /usr/lib64/gnote/addins/3.36.1/libexporttohtml.so$
+- /usr/lib64/gnote/addins/3.36.1/libfilesystemsyncservice.so$
+- /usr/lib64/gnote/addins/3.36.1/libfixedwidth.so$
+- /usr/lib64/gnote/addins/3.36.1/libgvfssyncservice.so$
+- /usr/lib64/gnote/addins/3.36.1/libinserttimestamp.so$
+- /usr/lib64/gnote/addins/3.36.1/libnotedirectorywatcher.so$
+- /usr/lib64/gnote/addins/3.36.1/libnoteoftheday.so$
+- /usr/lib64/gnote/addins/3.36.1/libprintnotes.so$
+- /usr/lib64/gnote/addins/3.36.1/libreadonly.so$
+- /usr/lib64/gnote/addins/3.36.1/libreplacetitle.so$
+- /usr/lib64/gnote/addins/3.36.1/libspecialnotes.so$
+- /usr/lib64/gnote/addins/3.36.1/libstatistics.so$
+- /usr/lib64/gnote/addins/3.36.1/libstickynoteimport.so$
+- /usr/lib64/gnote/addins/3.36.1/libtableofcontents.so$
+- /usr/lib64/gnote/addins/3.36.1/libtodo.so$
+- /usr/lib64/gnote/addins/3.36.1/libtomboyimport.so$
+- /usr/lib64/gnote/addins/3.36.1/libunderline.so$
+- /usr/lib64/gnote/addins/3.36.1/libwebdavsyncservice.so$
+- /usr/lib64/gnote/addins/3.36.1/notedirectorywatcher.desktop$
+- /usr/lib64/gnote/addins/3.36.1/noteoftheday.desktop$
+- /usr/lib64/gnote/addins/3.36.1/printnotes.desktop$
+- /usr/lib64/gnote/addins/3.36.1/readonly.desktop$
+- /usr/lib64/gnote/addins/3.36.1/replacetitle.desktop$
+- /usr/lib64/gnote/addins/3.36.1/specialnotes.desktop$
+- /usr/lib64/gnote/addins/3.36.1/statistics.desktop$
+- /usr/lib64/gnote/addins/3.36.1/stickynoteimport.desktop$
+- /usr/lib64/gnote/addins/3.36.1/tableofcontents.desktop$
+- /usr/lib64/gnote/addins/3.36.1/todo.desktop$
+- /usr/lib64/gnote/addins/3.36.1/tomboyimport.desktop$
+- /usr/lib64/gnote/addins/3.36.1/underline.desktop$
+- /usr/lib64/gnote/addins/3.36.1/webdavsyncservice.desktop$
+- /usr/lib64/libgnote-3.36.so.1$
+- /usr/lib64/libgnote-3.36.so.1.0.0$
 - /usr/lib64/libgnote.so$
 - /usr/share$
 - /usr/share/applications$
@@ -65,12 +68,12 @@ includes:
 - /usr/share/dbus-1/services$
 - /usr/share/dbus-1/services/org.gnome.Gnote.service$
 - /usr/share/doc$
-- /usr/share/doc/gnote-3.30.0$
-- /usr/share/doc/gnote-3.30.0/AUTHORS.bz2$
-- /usr/share/doc/gnote-3.30.0/NEWS.bz2$
-- /usr/share/doc/gnote-3.30.0/README.bz2$
-- /usr/share/doc/gnote-3.30.0/README.gentoo$
-- /usr/share/doc/gnote-3.30.0/TODO$
+- /usr/share/doc/gnote-3.36.1$
+- /usr/share/doc/gnote-3.36.1/AUTHORS.bz2$
+- /usr/share/doc/gnote-3.36.1/NEWS.bz2$
+- /usr/share/doc/gnote-3.36.1/README.bz2$
+- /usr/share/doc/gnote-3.36.1/README.gentoo$
+- /usr/share/doc/gnote-3.36.1/TODO$
 - /usr/share/glib-2.0$
 - /usr/share/glib-2.0/schemas$
 - /usr/share/glib-2.0/schemas/org.gnome.gnote.gschema.xml$
@@ -140,6 +143,7 @@ includes:
 - /usr/share/help/C/gnote/figures/gnote-search-all-notes.png$
 - /usr/share/help/C/gnote/figures/gnote-sync-progress.png$
 - /usr/share/help/C/gnote/figures/gnote-syncprefs-advanced.png$
+- /usr/share/help/C/gnote/figures/gnote-syncprefs-gvfs.png$
 - /usr/share/help/C/gnote/figures/gnote-syncprefs-local.png$
 - /usr/share/help/C/gnote/figures/gnote-syncprefs-webdav.png$
 - /usr/share/help/C/gnote/figures/gnote-template-note.png$
@@ -156,6 +160,7 @@ includes:
 - /usr/share/help/C/gnote/gnote-addin-readonly.page$
 - /usr/share/help/C/gnote/gnote-addin-replacetitle.page$
 - /usr/share/help/C/gnote/gnote-addin-specialnotes.page$
+- /usr/share/help/C/gnote/gnote-addin-sync-gvfs.page$
 - /usr/share/help/C/gnote/gnote-addin-sync-local.page$
 - /usr/share/help/C/gnote/gnote-addin-sync-webdav.page$
 - /usr/share/help/C/gnote/gnote-addin-tableofcontents.page$
@@ -191,6 +196,7 @@ includes:
 - /usr/share/help/cs/gnote/figures/gnote-search-all-notes.png$
 - /usr/share/help/cs/gnote/figures/gnote-sync-progress.png$
 - /usr/share/help/cs/gnote/figures/gnote-syncprefs-advanced.png$
+- /usr/share/help/cs/gnote/figures/gnote-syncprefs-gvfs.png$
 - /usr/share/help/cs/gnote/figures/gnote-syncprefs-local.png$
 - /usr/share/help/cs/gnote/figures/gnote-syncprefs-webdav.png$
 - /usr/share/help/cs/gnote/figures/gnote-template-note.png$
@@ -207,6 +213,7 @@ includes:
 - /usr/share/help/cs/gnote/gnote-addin-readonly.page$
 - /usr/share/help/cs/gnote/gnote-addin-replacetitle.page$
 - /usr/share/help/cs/gnote/gnote-addin-specialnotes.page$
+- /usr/share/help/cs/gnote/gnote-addin-sync-gvfs.page$
 - /usr/share/help/cs/gnote/gnote-addin-sync-local.page$
 - /usr/share/help/cs/gnote/gnote-addin-sync-webdav.page$
 - /usr/share/help/cs/gnote/gnote-addin-tableofcontents.page$
@@ -242,6 +249,7 @@ includes:
 - /usr/share/help/da/gnote/figures/gnote-search-all-notes.png$
 - /usr/share/help/da/gnote/figures/gnote-sync-progress.png$
 - /usr/share/help/da/gnote/figures/gnote-syncprefs-advanced.png$
+- /usr/share/help/da/gnote/figures/gnote-syncprefs-gvfs.png$
 - /usr/share/help/da/gnote/figures/gnote-syncprefs-local.png$
 - /usr/share/help/da/gnote/figures/gnote-syncprefs-webdav.png$
 - /usr/share/help/da/gnote/figures/gnote-template-note.png$
@@ -258,6 +266,7 @@ includes:
 - /usr/share/help/da/gnote/gnote-addin-readonly.page$
 - /usr/share/help/da/gnote/gnote-addin-replacetitle.page$
 - /usr/share/help/da/gnote/gnote-addin-specialnotes.page$
+- /usr/share/help/da/gnote/gnote-addin-sync-gvfs.page$
 - /usr/share/help/da/gnote/gnote-addin-sync-local.page$
 - /usr/share/help/da/gnote/gnote-addin-sync-webdav.page$
 - /usr/share/help/da/gnote/gnote-addin-tableofcontents.page$
@@ -293,6 +302,7 @@ includes:
 - /usr/share/help/de/gnote/figures/gnote-search-all-notes.png$
 - /usr/share/help/de/gnote/figures/gnote-sync-progress.png$
 - /usr/share/help/de/gnote/figures/gnote-syncprefs-advanced.png$
+- /usr/share/help/de/gnote/figures/gnote-syncprefs-gvfs.png$
 - /usr/share/help/de/gnote/figures/gnote-syncprefs-local.png$
 - /usr/share/help/de/gnote/figures/gnote-syncprefs-webdav.png$
 - /usr/share/help/de/gnote/figures/gnote-template-note.png$
@@ -309,6 +319,7 @@ includes:
 - /usr/share/help/de/gnote/gnote-addin-readonly.page$
 - /usr/share/help/de/gnote/gnote-addin-replacetitle.page$
 - /usr/share/help/de/gnote/gnote-addin-specialnotes.page$
+- /usr/share/help/de/gnote/gnote-addin-sync-gvfs.page$
 - /usr/share/help/de/gnote/gnote-addin-sync-local.page$
 - /usr/share/help/de/gnote/gnote-addin-sync-webdav.page$
 - /usr/share/help/de/gnote/gnote-addin-tableofcontents.page$
@@ -344,6 +355,7 @@ includes:
 - /usr/share/help/el/gnote/figures/gnote-search-all-notes.png$
 - /usr/share/help/el/gnote/figures/gnote-sync-progress.png$
 - /usr/share/help/el/gnote/figures/gnote-syncprefs-advanced.png$
+- /usr/share/help/el/gnote/figures/gnote-syncprefs-gvfs.png$
 - /usr/share/help/el/gnote/figures/gnote-syncprefs-local.png$
 - /usr/share/help/el/gnote/figures/gnote-syncprefs-webdav.png$
 - /usr/share/help/el/gnote/figures/gnote-template-note.png$
@@ -360,6 +372,7 @@ includes:
 - /usr/share/help/el/gnote/gnote-addin-readonly.page$
 - /usr/share/help/el/gnote/gnote-addin-replacetitle.page$
 - /usr/share/help/el/gnote/gnote-addin-specialnotes.page$
+- /usr/share/help/el/gnote/gnote-addin-sync-gvfs.page$
 - /usr/share/help/el/gnote/gnote-addin-sync-local.page$
 - /usr/share/help/el/gnote/gnote-addin-sync-webdav.page$
 - /usr/share/help/el/gnote/gnote-addin-tableofcontents.page$
@@ -395,6 +408,7 @@ includes:
 - /usr/share/help/es/gnote/figures/gnote-search-all-notes.png$
 - /usr/share/help/es/gnote/figures/gnote-sync-progress.png$
 - /usr/share/help/es/gnote/figures/gnote-syncprefs-advanced.png$
+- /usr/share/help/es/gnote/figures/gnote-syncprefs-gvfs.png$
 - /usr/share/help/es/gnote/figures/gnote-syncprefs-local.png$
 - /usr/share/help/es/gnote/figures/gnote-syncprefs-webdav.png$
 - /usr/share/help/es/gnote/figures/gnote-template-note.png$
@@ -411,6 +425,7 @@ includes:
 - /usr/share/help/es/gnote/gnote-addin-readonly.page$
 - /usr/share/help/es/gnote/gnote-addin-replacetitle.page$
 - /usr/share/help/es/gnote/gnote-addin-specialnotes.page$
+- /usr/share/help/es/gnote/gnote-addin-sync-gvfs.page$
 - /usr/share/help/es/gnote/gnote-addin-sync-local.page$
 - /usr/share/help/es/gnote/gnote-addin-sync-webdav.page$
 - /usr/share/help/es/gnote/gnote-addin-tableofcontents.page$
@@ -446,6 +461,7 @@ includes:
 - /usr/share/help/fr/gnote/figures/gnote-search-all-notes.png$
 - /usr/share/help/fr/gnote/figures/gnote-sync-progress.png$
 - /usr/share/help/fr/gnote/figures/gnote-syncprefs-advanced.png$
+- /usr/share/help/fr/gnote/figures/gnote-syncprefs-gvfs.png$
 - /usr/share/help/fr/gnote/figures/gnote-syncprefs-local.png$
 - /usr/share/help/fr/gnote/figures/gnote-syncprefs-webdav.png$
 - /usr/share/help/fr/gnote/figures/gnote-template-note.png$
@@ -462,6 +478,7 @@ includes:
 - /usr/share/help/fr/gnote/gnote-addin-readonly.page$
 - /usr/share/help/fr/gnote/gnote-addin-replacetitle.page$
 - /usr/share/help/fr/gnote/gnote-addin-specialnotes.page$
+- /usr/share/help/fr/gnote/gnote-addin-sync-gvfs.page$
 - /usr/share/help/fr/gnote/gnote-addin-sync-local.page$
 - /usr/share/help/fr/gnote/gnote-addin-sync-webdav.page$
 - /usr/share/help/fr/gnote/gnote-addin-tableofcontents.page$
@@ -497,6 +514,7 @@ includes:
 - /usr/share/help/hu/gnote/figures/gnote-search-all-notes.png$
 - /usr/share/help/hu/gnote/figures/gnote-sync-progress.png$
 - /usr/share/help/hu/gnote/figures/gnote-syncprefs-advanced.png$
+- /usr/share/help/hu/gnote/figures/gnote-syncprefs-gvfs.png$
 - /usr/share/help/hu/gnote/figures/gnote-syncprefs-local.png$
 - /usr/share/help/hu/gnote/figures/gnote-syncprefs-webdav.png$
 - /usr/share/help/hu/gnote/figures/gnote-template-note.png$
@@ -513,6 +531,7 @@ includes:
 - /usr/share/help/hu/gnote/gnote-addin-readonly.page$
 - /usr/share/help/hu/gnote/gnote-addin-replacetitle.page$
 - /usr/share/help/hu/gnote/gnote-addin-specialnotes.page$
+- /usr/share/help/hu/gnote/gnote-addin-sync-gvfs.page$
 - /usr/share/help/hu/gnote/gnote-addin-sync-local.page$
 - /usr/share/help/hu/gnote/gnote-addin-sync-webdav.page$
 - /usr/share/help/hu/gnote/gnote-addin-tableofcontents.page$
@@ -548,6 +567,7 @@ includes:
 - /usr/share/help/lt/gnote/figures/gnote-search-all-notes.png$
 - /usr/share/help/lt/gnote/figures/gnote-sync-progress.png$
 - /usr/share/help/lt/gnote/figures/gnote-syncprefs-advanced.png$
+- /usr/share/help/lt/gnote/figures/gnote-syncprefs-gvfs.png$
 - /usr/share/help/lt/gnote/figures/gnote-syncprefs-local.png$
 - /usr/share/help/lt/gnote/figures/gnote-syncprefs-webdav.png$
 - /usr/share/help/lt/gnote/figures/gnote-template-note.png$
@@ -564,6 +584,7 @@ includes:
 - /usr/share/help/lt/gnote/gnote-addin-readonly.page$
 - /usr/share/help/lt/gnote/gnote-addin-replacetitle.page$
 - /usr/share/help/lt/gnote/gnote-addin-specialnotes.page$
+- /usr/share/help/lt/gnote/gnote-addin-sync-gvfs.page$
 - /usr/share/help/lt/gnote/gnote-addin-sync-local.page$
 - /usr/share/help/lt/gnote/gnote-addin-sync-webdav.page$
 - /usr/share/help/lt/gnote/gnote-addin-tableofcontents.page$
@@ -599,6 +620,7 @@ includes:
 - /usr/share/help/pl/gnote/figures/gnote-search-all-notes.png$
 - /usr/share/help/pl/gnote/figures/gnote-sync-progress.png$
 - /usr/share/help/pl/gnote/figures/gnote-syncprefs-advanced.png$
+- /usr/share/help/pl/gnote/figures/gnote-syncprefs-gvfs.png$
 - /usr/share/help/pl/gnote/figures/gnote-syncprefs-local.png$
 - /usr/share/help/pl/gnote/figures/gnote-syncprefs-webdav.png$
 - /usr/share/help/pl/gnote/figures/gnote-template-note.png$
@@ -615,6 +637,7 @@ includes:
 - /usr/share/help/pl/gnote/gnote-addin-readonly.page$
 - /usr/share/help/pl/gnote/gnote-addin-replacetitle.page$
 - /usr/share/help/pl/gnote/gnote-addin-specialnotes.page$
+- /usr/share/help/pl/gnote/gnote-addin-sync-gvfs.page$
 - /usr/share/help/pl/gnote/gnote-addin-sync-local.page$
 - /usr/share/help/pl/gnote/gnote-addin-sync-webdav.page$
 - /usr/share/help/pl/gnote/gnote-addin-tableofcontents.page$
@@ -650,6 +673,7 @@ includes:
 - /usr/share/help/ru/gnote/figures/gnote-search-all-notes.png$
 - /usr/share/help/ru/gnote/figures/gnote-sync-progress.png$
 - /usr/share/help/ru/gnote/figures/gnote-syncprefs-advanced.png$
+- /usr/share/help/ru/gnote/figures/gnote-syncprefs-gvfs.png$
 - /usr/share/help/ru/gnote/figures/gnote-syncprefs-local.png$
 - /usr/share/help/ru/gnote/figures/gnote-syncprefs-webdav.png$
 - /usr/share/help/ru/gnote/figures/gnote-template-note.png$
@@ -666,6 +690,7 @@ includes:
 - /usr/share/help/ru/gnote/gnote-addin-readonly.page$
 - /usr/share/help/ru/gnote/gnote-addin-replacetitle.page$
 - /usr/share/help/ru/gnote/gnote-addin-specialnotes.page$
+- /usr/share/help/ru/gnote/gnote-addin-sync-gvfs.page$
 - /usr/share/help/ru/gnote/gnote-addin-sync-local.page$
 - /usr/share/help/ru/gnote/gnote-addin-sync-webdav.page$
 - /usr/share/help/ru/gnote/gnote-addin-tableofcontents.page$
@@ -701,6 +726,7 @@ includes:
 - /usr/share/help/sl/gnote/figures/gnote-search-all-notes.png$
 - /usr/share/help/sl/gnote/figures/gnote-sync-progress.png$
 - /usr/share/help/sl/gnote/figures/gnote-syncprefs-advanced.png$
+- /usr/share/help/sl/gnote/figures/gnote-syncprefs-gvfs.png$
 - /usr/share/help/sl/gnote/figures/gnote-syncprefs-local.png$
 - /usr/share/help/sl/gnote/figures/gnote-syncprefs-webdav.png$
 - /usr/share/help/sl/gnote/figures/gnote-template-note.png$
@@ -717,6 +743,7 @@ includes:
 - /usr/share/help/sl/gnote/gnote-addin-readonly.page$
 - /usr/share/help/sl/gnote/gnote-addin-replacetitle.page$
 - /usr/share/help/sl/gnote/gnote-addin-specialnotes.page$
+- /usr/share/help/sl/gnote/gnote-addin-sync-gvfs.page$
 - /usr/share/help/sl/gnote/gnote-addin-sync-local.page$
 - /usr/share/help/sl/gnote/gnote-addin-sync-webdav.page$
 - /usr/share/help/sl/gnote/gnote-addin-tableofcontents.page$
@@ -752,6 +779,7 @@ includes:
 - /usr/share/help/sv/gnote/figures/gnote-search-all-notes.png$
 - /usr/share/help/sv/gnote/figures/gnote-sync-progress.png$
 - /usr/share/help/sv/gnote/figures/gnote-syncprefs-advanced.png$
+- /usr/share/help/sv/gnote/figures/gnote-syncprefs-gvfs.png$
 - /usr/share/help/sv/gnote/figures/gnote-syncprefs-local.png$
 - /usr/share/help/sv/gnote/figures/gnote-syncprefs-webdav.png$
 - /usr/share/help/sv/gnote/figures/gnote-template-note.png$
@@ -768,6 +796,7 @@ includes:
 - /usr/share/help/sv/gnote/gnote-addin-readonly.page$
 - /usr/share/help/sv/gnote/gnote-addin-replacetitle.page$
 - /usr/share/help/sv/gnote/gnote-addin-specialnotes.page$
+- /usr/share/help/sv/gnote/gnote-addin-sync-gvfs.page$
 - /usr/share/help/sv/gnote/gnote-addin-sync-local.page$
 - /usr/share/help/sv/gnote/gnote-addin-sync-webdav.page$
 - /usr/share/help/sv/gnote/gnote-addin-tableofcontents.page$
@@ -803,6 +832,7 @@ includes:
 - /usr/share/help/zh_CN/gnote/figures/gnote-search-all-notes.png$
 - /usr/share/help/zh_CN/gnote/figures/gnote-sync-progress.png$
 - /usr/share/help/zh_CN/gnote/figures/gnote-syncprefs-advanced.png$
+- /usr/share/help/zh_CN/gnote/figures/gnote-syncprefs-gvfs.png$
 - /usr/share/help/zh_CN/gnote/figures/gnote-syncprefs-local.png$
 - /usr/share/help/zh_CN/gnote/figures/gnote-syncprefs-webdav.png$
 - /usr/share/help/zh_CN/gnote/figures/gnote-template-note.png$
@@ -819,6 +849,7 @@ includes:
 - /usr/share/help/zh_CN/gnote/gnote-addin-readonly.page$
 - /usr/share/help/zh_CN/gnote/gnote-addin-replacetitle.page$
 - /usr/share/help/zh_CN/gnote/gnote-addin-specialnotes.page$
+- /usr/share/help/zh_CN/gnote/gnote-addin-sync-gvfs.page$
 - /usr/share/help/zh_CN/gnote/gnote-addin-sync-local.page$
 - /usr/share/help/zh_CN/gnote/gnote-addin-sync-webdav.page$
 - /usr/share/help/zh_CN/gnote/gnote-addin-tableofcontents.page$
@@ -898,6 +929,9 @@ includes:
 - /usr/share/locale/eu$
 - /usr/share/locale/eu/LC_MESSAGES$
 - /usr/share/locale/eu/LC_MESSAGES/gnote.mo$
+- /usr/share/locale/fi$
+- /usr/share/locale/fi/LC_MESSAGES$
+- /usr/share/locale/fi/LC_MESSAGES/gnote.mo$
 - /usr/share/locale/fr$
 - /usr/share/locale/fr/LC_MESSAGES$
 - /usr/share/locale/fr/LC_MESSAGES/gnote.mo$
@@ -984,3 +1018,6 @@ includes:
 - /usr/share/man/man1/gnote.1.bz2$
 - /usr/share/metainfo$
 - /usr/share/metainfo/gnote.appdata.xml$
+env:
+- ORIGINAL_ATOM=app-misc/gnote
+- ORIGINAL_PACKAGE=app-misc/gnote-3.36.1
