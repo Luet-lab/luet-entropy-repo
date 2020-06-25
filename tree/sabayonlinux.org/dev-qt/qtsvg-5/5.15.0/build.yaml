@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-qt/qtsvg-5.14.1 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -11,17 +12,17 @@ includes:
 - /usr/include$
 - /usr/include/qt5$
 - /usr/include/qt5/QtSvg$
-- /usr/include/qt5/QtSvg/5.14.1$
-- /usr/include/qt5/QtSvg/5.14.1/QtSvg$
-- /usr/include/qt5/QtSvg/5.14.1/QtSvg/private$
-- /usr/include/qt5/QtSvg/5.14.1/QtSvg/private/qsvgfont_p.h$
-- /usr/include/qt5/QtSvg/5.14.1/QtSvg/private/qsvggraphics_p.h$
-- /usr/include/qt5/QtSvg/5.14.1/QtSvg/private/qsvghandler_p.h$
-- /usr/include/qt5/QtSvg/5.14.1/QtSvg/private/qsvgnode_p.h$
-- /usr/include/qt5/QtSvg/5.14.1/QtSvg/private/qsvgstructure_p.h$
-- /usr/include/qt5/QtSvg/5.14.1/QtSvg/private/qsvgstyle_p.h$
-- /usr/include/qt5/QtSvg/5.14.1/QtSvg/private/qsvgtinydocument_p.h$
-- /usr/include/qt5/QtSvg/5.14.1/QtSvg/private/qtsvgglobal_p.h$
+- /usr/include/qt5/QtSvg/5.15.0$
+- /usr/include/qt5/QtSvg/5.15.0/QtSvg$
+- /usr/include/qt5/QtSvg/5.15.0/QtSvg/private$
+- /usr/include/qt5/QtSvg/5.15.0/QtSvg/private/qsvgfont_p.h$
+- /usr/include/qt5/QtSvg/5.15.0/QtSvg/private/qsvggraphics_p.h$
+- /usr/include/qt5/QtSvg/5.15.0/QtSvg/private/qsvghandler_p.h$
+- /usr/include/qt5/QtSvg/5.15.0/QtSvg/private/qsvgnode_p.h$
+- /usr/include/qt5/QtSvg/5.15.0/QtSvg/private/qsvgstructure_p.h$
+- /usr/include/qt5/QtSvg/5.15.0/QtSvg/private/qsvgstyle_p.h$
+- /usr/include/qt5/QtSvg/5.15.0/QtSvg/private/qsvgtinydocument_p.h$
+- /usr/include/qt5/QtSvg/5.15.0/QtSvg/private/qtsvgglobal_p.h$
 - /usr/include/qt5/QtSvg/QGraphicsSvgItem$
 - /usr/include/qt5/QtSvg/QSvgGenerator$
 - /usr/include/qt5/QtSvg/QSvgRenderer$
@@ -47,8 +48,8 @@ includes:
 - /usr/lib64/libQt5Svg.prl$
 - /usr/lib64/libQt5Svg.so$
 - /usr/lib64/libQt5Svg.so.5$
-- /usr/lib64/libQt5Svg.so.5.14$
-- /usr/lib64/libQt5Svg.so.5.14.1$
+- /usr/lib64/libQt5Svg.so.5.15$
+- /usr/lib64/libQt5Svg.so.5.15.0$
 - /usr/lib64/pkgconfig$
 - /usr/lib64/pkgconfig/Qt5Svg.pc$
 - /usr/lib64/qt5$
@@ -61,3 +62,6 @@ includes:
 - /usr/lib64/qt5/plugins/iconengines/libqsvgicon.so$
 - /usr/lib64/qt5/plugins/imageformats$
 - /usr/lib64/qt5/plugins/imageformats/libqsvg.so$
+env:
+- ORIGINAL_ATOM=dev-qt/qtsvg
+- ORIGINAL_PACKAGE=dev-qt/qtsvg-5.15.0
