@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-qt/qtx11extras-5.14.1 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -27,8 +28,8 @@ includes:
 - /usr/lib64/libQt5X11Extras.prl$
 - /usr/lib64/libQt5X11Extras.so$
 - /usr/lib64/libQt5X11Extras.so.5$
-- /usr/lib64/libQt5X11Extras.so.5.14$
-- /usr/lib64/libQt5X11Extras.so.5.14.1$
+- /usr/lib64/libQt5X11Extras.so.5.15$
+- /usr/lib64/libQt5X11Extras.so.5.15.0$
 - /usr/lib64/pkgconfig$
 - /usr/lib64/pkgconfig/Qt5X11Extras.pc$
 - /usr/lib64/qt5$
@@ -36,3 +37,6 @@ includes:
 - /usr/lib64/qt5/mkspecs/modules$
 - /usr/lib64/qt5/mkspecs/modules/qt_lib_x11extras.pri$
 - /usr/lib64/qt5/mkspecs/modules/qt_lib_x11extras_private.pri$
+env:
+- ORIGINAL_ATOM=dev-qt/qtx11extras
+- ORIGINAL_PACKAGE=dev-qt/qtx11extras-5.15.0
