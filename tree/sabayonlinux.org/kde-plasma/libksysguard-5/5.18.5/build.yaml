@@ -44,19 +44,19 @@ includes:
 - /usr/lib64/libexec/kauth$
 - /usr/lib64/libexec/kauth/ksysguardprocesslist_helper$
 - /usr/lib64/libksgrd.so$
-- /usr/lib64/libksgrd.so.5.18.4$
+- /usr/lib64/libksgrd.so.5.18.5$
 - /usr/lib64/libksgrd.so.7$
 - /usr/lib64/libksignalplotter.so$
-- /usr/lib64/libksignalplotter.so.5.18.4$
+- /usr/lib64/libksignalplotter.so.5.18.5$
 - /usr/lib64/libksignalplotter.so.7$
 - /usr/lib64/liblsofui.so$
-- /usr/lib64/liblsofui.so.5.18.4$
+- /usr/lib64/liblsofui.so.5.18.5$
 - /usr/lib64/liblsofui.so.7$
 - /usr/lib64/libprocesscore.so$
-- /usr/lib64/libprocesscore.so.5.18.4$
+- /usr/lib64/libprocesscore.so.5.18.5$
 - /usr/lib64/libprocesscore.so.7$
 - /usr/lib64/libprocessui.so$
-- /usr/lib64/libprocessui.so.5.18.4$
+- /usr/lib64/libprocessui.so.5.18.5$
 - /usr/lib64/libprocessui.so.7$
 - /usr/share$
 - /usr/share/dbus-1$
@@ -392,4 +392,4 @@ includes:
 - /usr/share/qlogging-categories5/libksysguard.categories$
 env:
 - ORIGINAL_ATOM=kde-plasma/libksysguard
-- ORIGINAL_PACKAGE=kde-plasma/libksysguard-5.18.4.1
+- ORIGINAL_PACKAGE=kde-plasma/libksysguard-5.18.5
