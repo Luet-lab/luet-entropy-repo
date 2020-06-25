@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/ptyprocess-0.5.2 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -9,26 +10,10 @@ requires:
 includes:
 - /usr$
 - /usr/lib64$
-- /usr/lib64/python2.7$
-- /usr/lib64/python2.7/site-packages$
-- /usr/lib64/python2.7/site-packages/ptyprocess$
-- /usr/lib64/python2.7/site-packages/ptyprocess-0.5.2-py2.7.egg-info$
-- /usr/lib64/python2.7/site-packages/ptyprocess/__init__.py$
-- /usr/lib64/python2.7/site-packages/ptyprocess/__init__.pyc$
-- /usr/lib64/python2.7/site-packages/ptyprocess/__init__.pyo$
-- /usr/lib64/python2.7/site-packages/ptyprocess/_fork_pty.py$
-- /usr/lib64/python2.7/site-packages/ptyprocess/_fork_pty.pyc$
-- /usr/lib64/python2.7/site-packages/ptyprocess/_fork_pty.pyo$
-- /usr/lib64/python2.7/site-packages/ptyprocess/ptyprocess.py$
-- /usr/lib64/python2.7/site-packages/ptyprocess/ptyprocess.pyc$
-- /usr/lib64/python2.7/site-packages/ptyprocess/ptyprocess.pyo$
-- /usr/lib64/python2.7/site-packages/ptyprocess/util.py$
-- /usr/lib64/python2.7/site-packages/ptyprocess/util.pyc$
-- /usr/lib64/python2.7/site-packages/ptyprocess/util.pyo$
 - /usr/lib64/python3.6$
 - /usr/lib64/python3.6/site-packages$
 - /usr/lib64/python3.6/site-packages/ptyprocess$
-- /usr/lib64/python3.6/site-packages/ptyprocess-0.5.2-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/ptyprocess-0.6.0-py3.6.egg-info$
 - /usr/lib64/python3.6/site-packages/ptyprocess/__init__.py$
 - /usr/lib64/python3.6/site-packages/ptyprocess/__pycache__$
 - /usr/lib64/python3.6/site-packages/ptyprocess/__pycache__/__init__.cpython-36.opt-1.pyc$
@@ -48,5 +33,8 @@ includes:
 - /usr/lib64/python3.6/site-packages/ptyprocess/util.py$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/ptyprocess-0.5.2$
-- /usr/share/doc/ptyprocess-0.5.2/README.rst.bz2$
+- /usr/share/doc/ptyprocess-0.6.0$
+- /usr/share/doc/ptyprocess-0.6.0/README.rst.bz2$
+env:
+- ORIGINAL_ATOM=dev-python/ptyprocess
+- ORIGINAL_PACKAGE=dev-python/ptyprocess-0.6.0
