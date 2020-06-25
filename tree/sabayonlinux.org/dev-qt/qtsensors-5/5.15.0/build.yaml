@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-qt/qtsensors-5.14.1 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -11,35 +12,35 @@ includes:
 - /usr/include$
 - /usr/include/qt5$
 - /usr/include/qt5/QtSensors$
-- /usr/include/qt5/QtSensors/5.14.1$
-- /usr/include/qt5/QtSensors/5.14.1/QtSensors$
-- /usr/include/qt5/QtSensors/5.14.1/QtSensors/private$
-- /usr/include/qt5/QtSensors/5.14.1/QtSensors/private/qaccelerometer_p.h$
-- /usr/include/qt5/QtSensors/5.14.1/QtSensors/private/qaltimeter_p.h$
-- /usr/include/qt5/QtSensors/5.14.1/QtSensors/private/qambientlightsensor_p.h$
-- /usr/include/qt5/QtSensors/5.14.1/QtSensors/private/qambienttemperaturesensor_p.h$
-- /usr/include/qt5/QtSensors/5.14.1/QtSensors/private/qcompass_p.h$
-- /usr/include/qt5/QtSensors/5.14.1/QtSensors/private/qdistancesensor_p.h$
-- /usr/include/qt5/QtSensors/5.14.1/QtSensors/private/qgyroscope_p.h$
-- /usr/include/qt5/QtSensors/5.14.1/QtSensors/private/qholstersensor_p.h$
-- /usr/include/qt5/QtSensors/5.14.1/QtSensors/private/qhumiditysensor_p.h$
-- /usr/include/qt5/QtSensors/5.14.1/QtSensors/private/qirproximitysensor_p.h$
-- /usr/include/qt5/QtSensors/5.14.1/QtSensors/private/qlidsensor_p.h$
-- /usr/include/qt5/QtSensors/5.14.1/QtSensors/private/qlightsensor_p.h$
-- /usr/include/qt5/QtSensors/5.14.1/QtSensors/private/qmagnetometer_p.h$
-- /usr/include/qt5/QtSensors/5.14.1/QtSensors/private/qorientationsensor_p.h$
-- /usr/include/qt5/QtSensors/5.14.1/QtSensors/private/qpressuresensor_p.h$
-- /usr/include/qt5/QtSensors/5.14.1/QtSensors/private/qproximitysensor_p.h$
-- /usr/include/qt5/QtSensors/5.14.1/QtSensors/private/qrotationsensor_p.h$
-- /usr/include/qt5/QtSensors/5.14.1/QtSensors/private/qsensor_p.h$
-- /usr/include/qt5/QtSensors/5.14.1/QtSensors/private/qsensorbackend_p.h$
-- /usr/include/qt5/QtSensors/5.14.1/QtSensors/private/qsensorgesture_p.h$
-- /usr/include/qt5/QtSensors/5.14.1/QtSensors/private/qsensorgesturemanagerprivate_p.h$
-- /usr/include/qt5/QtSensors/5.14.1/QtSensors/private/qtapsensor_p.h$
-- /usr/include/qt5/QtSensors/5.14.1/QtSensors/private/qtiltsensor_p.h$
-- /usr/include/qt5/QtSensors/5.14.1/QtSensors/private/qtsensors-config_p.h$
-- /usr/include/qt5/QtSensors/5.14.1/QtSensors/private/sensorlog_p.h$
-- /usr/include/qt5/QtSensors/5.14.1/QtSensors/private/simulatorgesturescommon_p.h$
+- /usr/include/qt5/QtSensors/5.15.0$
+- /usr/include/qt5/QtSensors/5.15.0/QtSensors$
+- /usr/include/qt5/QtSensors/5.15.0/QtSensors/private$
+- /usr/include/qt5/QtSensors/5.15.0/QtSensors/private/qaccelerometer_p.h$
+- /usr/include/qt5/QtSensors/5.15.0/QtSensors/private/qaltimeter_p.h$
+- /usr/include/qt5/QtSensors/5.15.0/QtSensors/private/qambientlightsensor_p.h$
+- /usr/include/qt5/QtSensors/5.15.0/QtSensors/private/qambienttemperaturesensor_p.h$
+- /usr/include/qt5/QtSensors/5.15.0/QtSensors/private/qcompass_p.h$
+- /usr/include/qt5/QtSensors/5.15.0/QtSensors/private/qdistancesensor_p.h$
+- /usr/include/qt5/QtSensors/5.15.0/QtSensors/private/qgyroscope_p.h$
+- /usr/include/qt5/QtSensors/5.15.0/QtSensors/private/qholstersensor_p.h$
+- /usr/include/qt5/QtSensors/5.15.0/QtSensors/private/qhumiditysensor_p.h$
+- /usr/include/qt5/QtSensors/5.15.0/QtSensors/private/qirproximitysensor_p.h$
+- /usr/include/qt5/QtSensors/5.15.0/QtSensors/private/qlidsensor_p.h$
+- /usr/include/qt5/QtSensors/5.15.0/QtSensors/private/qlightsensor_p.h$
+- /usr/include/qt5/QtSensors/5.15.0/QtSensors/private/qmagnetometer_p.h$
+- /usr/include/qt5/QtSensors/5.15.0/QtSensors/private/qorientationsensor_p.h$
+- /usr/include/qt5/QtSensors/5.15.0/QtSensors/private/qpressuresensor_p.h$
+- /usr/include/qt5/QtSensors/5.15.0/QtSensors/private/qproximitysensor_p.h$
+- /usr/include/qt5/QtSensors/5.15.0/QtSensors/private/qrotationsensor_p.h$
+- /usr/include/qt5/QtSensors/5.15.0/QtSensors/private/qsensor_p.h$
+- /usr/include/qt5/QtSensors/5.15.0/QtSensors/private/qsensorbackend_p.h$
+- /usr/include/qt5/QtSensors/5.15.0/QtSensors/private/qsensorgesture_p.h$
+- /usr/include/qt5/QtSensors/5.15.0/QtSensors/private/qsensorgesturemanagerprivate_p.h$
+- /usr/include/qt5/QtSensors/5.15.0/QtSensors/private/qtapsensor_p.h$
+- /usr/include/qt5/QtSensors/5.15.0/QtSensors/private/qtiltsensor_p.h$
+- /usr/include/qt5/QtSensors/5.15.0/QtSensors/private/qtsensors-config_p.h$
+- /usr/include/qt5/QtSensors/5.15.0/QtSensors/private/sensorlog_p.h$
+- /usr/include/qt5/QtSensors/5.15.0/QtSensors/private/simulatorgesturescommon_p.h$
 - /usr/include/qt5/QtSensors/QAccelerometer$
 - /usr/include/qt5/QtSensors/QAccelerometerFilter$
 - /usr/include/qt5/QtSensors/QAccelerometerReading$
@@ -156,8 +157,8 @@ includes:
 - /usr/lib64/libQt5Sensors.prl$
 - /usr/lib64/libQt5Sensors.so$
 - /usr/lib64/libQt5Sensors.so.5$
-- /usr/lib64/libQt5Sensors.so.5.14$
-- /usr/lib64/libQt5Sensors.so.5.14.1$
+- /usr/lib64/libQt5Sensors.so.5.15$
+- /usr/lib64/libQt5Sensors.so.5.15.0$
 - /usr/lib64/pkgconfig$
 - /usr/lib64/pkgconfig/Qt5Sensors.pc$
 - /usr/lib64/qt5$
@@ -178,3 +179,6 @@ includes:
 - /usr/lib64/qt5/qml/QtSensors/libdeclarative_sensors.so$
 - /usr/lib64/qt5/qml/QtSensors/plugins.qmltypes$
 - /usr/lib64/qt5/qml/QtSensors/qmldir$
+env:
+- ORIGINAL_ATOM=dev-qt/qtsensors
+- ORIGINAL_PACKAGE=dev-qt/qtsensors-5.15.0
