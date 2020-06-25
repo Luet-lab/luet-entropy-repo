@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-qt/qttest-5.14.1 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -11,42 +12,42 @@ includes:
 - /usr/include$
 - /usr/include/qt5$
 - /usr/include/qt5/QtTest$
-- /usr/include/qt5/QtTest/5.14.1$
-- /usr/include/qt5/QtTest/5.14.1/QtTest$
-- /usr/include/qt5/QtTest/5.14.1/QtTest/private$
-- /usr/include/qt5/QtTest/5.14.1/QtTest/private/callgrind_p.h$
-- /usr/include/qt5/QtTest/5.14.1/QtTest/private/cycle_p.h$
-- /usr/include/qt5/QtTest/5.14.1/QtTest/private/linux_perf_event_p.h$
-- /usr/include/qt5/QtTest/5.14.1/QtTest/private/qabstracttestlogger_p.h$
-- /usr/include/qt5/QtTest/5.14.1/QtTest/private/qappletestlogger_p.h$
-- /usr/include/qt5/QtTest/5.14.1/QtTest/private/qbenchmark_p.h$
-- /usr/include/qt5/QtTest/5.14.1/QtTest/private/qbenchmarkevent_p.h$
-- /usr/include/qt5/QtTest/5.14.1/QtTest/private/qbenchmarkmeasurement_p.h$
-- /usr/include/qt5/QtTest/5.14.1/QtTest/private/qbenchmarkmetric_p.h$
-- /usr/include/qt5/QtTest/5.14.1/QtTest/private/qbenchmarkperfevents_p.h$
-- /usr/include/qt5/QtTest/5.14.1/QtTest/private/qbenchmarktimemeasurers_p.h$
-- /usr/include/qt5/QtTest/5.14.1/QtTest/private/qbenchmarkvalgrind_p.h$
-- /usr/include/qt5/QtTest/5.14.1/QtTest/private/qcsvbenchmarklogger_p.h$
-- /usr/include/qt5/QtTest/5.14.1/QtTest/private/qplaintestlogger_p.h$
-- /usr/include/qt5/QtTest/5.14.1/QtTest/private/qsignaldumper_p.h$
-- /usr/include/qt5/QtTest/5.14.1/QtTest/private/qtaptestlogger_p.h$
-- /usr/include/qt5/QtTest/5.14.1/QtTest/private/qteamcitylogger_p.h$
-- /usr/include/qt5/QtTest/5.14.1/QtTest/private/qtestblacklist_p.h$
-- /usr/include/qt5/QtTest/5.14.1/QtTest/private/qtestcoreelement_p.h$
-- /usr/include/qt5/QtTest/5.14.1/QtTest/private/qtestcorelist_p.h$
-- /usr/include/qt5/QtTest/5.14.1/QtTest/private/qtestelement_p.h$
-- /usr/include/qt5/QtTest/5.14.1/QtTest/private/qtestelementattribute_p.h$
-- /usr/include/qt5/QtTest/5.14.1/QtTest/private/qtesthelpers_p.h$
-- /usr/include/qt5/QtTest/5.14.1/QtTest/private/qtestlog_p.h$
-- /usr/include/qt5/QtTest/5.14.1/QtTest/private/qtestresult_p.h$
-- /usr/include/qt5/QtTest/5.14.1/QtTest/private/qtesttable_p.h$
-- /usr/include/qt5/QtTest/5.14.1/QtTest/private/qtestutil_macos_p.h$
-- /usr/include/qt5/QtTest/5.14.1/QtTest/private/qtestxunitstreamer_p.h$
-- /usr/include/qt5/QtTest/5.14.1/QtTest/private/qttestlib-config_p.h$
-- /usr/include/qt5/QtTest/5.14.1/QtTest/private/qxctestlogger_p.h$
-- /usr/include/qt5/QtTest/5.14.1/QtTest/private/qxmltestlogger_p.h$
-- /usr/include/qt5/QtTest/5.14.1/QtTest/private/qxunittestlogger_p.h$
-- /usr/include/qt5/QtTest/5.14.1/QtTest/private/valgrind_p.h$
+- /usr/include/qt5/QtTest/5.15.0$
+- /usr/include/qt5/QtTest/5.15.0/QtTest$
+- /usr/include/qt5/QtTest/5.15.0/QtTest/private$
+- /usr/include/qt5/QtTest/5.15.0/QtTest/private/callgrind_p.h$
+- /usr/include/qt5/QtTest/5.15.0/QtTest/private/cycle_p.h$
+- /usr/include/qt5/QtTest/5.15.0/QtTest/private/linux_perf_event_p.h$
+- /usr/include/qt5/QtTest/5.15.0/QtTest/private/qabstracttestlogger_p.h$
+- /usr/include/qt5/QtTest/5.15.0/QtTest/private/qappletestlogger_p.h$
+- /usr/include/qt5/QtTest/5.15.0/QtTest/private/qbenchmark_p.h$
+- /usr/include/qt5/QtTest/5.15.0/QtTest/private/qbenchmarkevent_p.h$
+- /usr/include/qt5/QtTest/5.15.0/QtTest/private/qbenchmarkmeasurement_p.h$
+- /usr/include/qt5/QtTest/5.15.0/QtTest/private/qbenchmarkmetric_p.h$
+- /usr/include/qt5/QtTest/5.15.0/QtTest/private/qbenchmarkperfevents_p.h$
+- /usr/include/qt5/QtTest/5.15.0/QtTest/private/qbenchmarktimemeasurers_p.h$
+- /usr/include/qt5/QtTest/5.15.0/QtTest/private/qbenchmarkvalgrind_p.h$
+- /usr/include/qt5/QtTest/5.15.0/QtTest/private/qcsvbenchmarklogger_p.h$
+- /usr/include/qt5/QtTest/5.15.0/QtTest/private/qjunittestlogger_p.h$
+- /usr/include/qt5/QtTest/5.15.0/QtTest/private/qplaintestlogger_p.h$
+- /usr/include/qt5/QtTest/5.15.0/QtTest/private/qsignaldumper_p.h$
+- /usr/include/qt5/QtTest/5.15.0/QtTest/private/qtaptestlogger_p.h$
+- /usr/include/qt5/QtTest/5.15.0/QtTest/private/qteamcitylogger_p.h$
+- /usr/include/qt5/QtTest/5.15.0/QtTest/private/qtestblacklist_p.h$
+- /usr/include/qt5/QtTest/5.15.0/QtTest/private/qtestcoreelement_p.h$
+- /usr/include/qt5/QtTest/5.15.0/QtTest/private/qtestcorelist_p.h$
+- /usr/include/qt5/QtTest/5.15.0/QtTest/private/qtestelement_p.h$
+- /usr/include/qt5/QtTest/5.15.0/QtTest/private/qtestelementattribute_p.h$
+- /usr/include/qt5/QtTest/5.15.0/QtTest/private/qtesthelpers_p.h$
+- /usr/include/qt5/QtTest/5.15.0/QtTest/private/qtestjunitstreamer_p.h$
+- /usr/include/qt5/QtTest/5.15.0/QtTest/private/qtestlog_p.h$
+- /usr/include/qt5/QtTest/5.15.0/QtTest/private/qtestresult_p.h$
+- /usr/include/qt5/QtTest/5.15.0/QtTest/private/qtesttable_p.h$
+- /usr/include/qt5/QtTest/5.15.0/QtTest/private/qtestutil_macos_p.h$
+- /usr/include/qt5/QtTest/5.15.0/QtTest/private/qttestlib-config_p.h$
+- /usr/include/qt5/QtTest/5.15.0/QtTest/private/qxctestlogger_p.h$
+- /usr/include/qt5/QtTest/5.15.0/QtTest/private/qxmltestlogger_p.h$
+- /usr/include/qt5/QtTest/5.15.0/QtTest/private/valgrind_p.h$
 - /usr/include/qt5/QtTest/QAbstractItemModelTester$
 - /usr/include/qt5/QtTest/QEventSizeOfChecker$
 - /usr/include/qt5/QtTest/QSignalSpy$
@@ -101,8 +102,8 @@ includes:
 - /usr/lib64/libQt5Test.prl$
 - /usr/lib64/libQt5Test.so$
 - /usr/lib64/libQt5Test.so.5$
-- /usr/lib64/libQt5Test.so.5.14$
-- /usr/lib64/libQt5Test.so.5.14.1$
+- /usr/lib64/libQt5Test.so.5.15$
+- /usr/lib64/libQt5Test.so.5.15.0$
 - /usr/lib64/pkgconfig$
 - /usr/lib64/pkgconfig/Qt5Test.pc$
 - /usr/lib64/qt5$
@@ -112,3 +113,6 @@ includes:
 - /usr/lib64/qt5/mkspecs/modules$
 - /usr/lib64/qt5/mkspecs/modules/qt_lib_testlib.pri$
 - /usr/lib64/qt5/mkspecs/modules/qt_lib_testlib_private.pri$
+env:
+- ORIGINAL_ATOM=dev-qt/qttest
+- ORIGINAL_PACKAGE=dev-qt/qttest-5.15.0
