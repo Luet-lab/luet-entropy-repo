@@ -1,0 +1,92 @@
+unpack: true
+steps:
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/python3.6$
+- /usr/lib64/python3.6/site-packages$
+- /usr/lib64/python3.6/site-packages/cairocffi$
+- /usr/lib64/python3.6/site-packages/cairocffi-1.1.0-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/cairocffi-1.1.0-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/cairocffi-1.1.0-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/cairocffi-1.1.0-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/cairocffi-1.1.0-py3.6.egg-info/requires.txt$
+- /usr/lib64/python3.6/site-packages/cairocffi-1.1.0-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/cairocffi/VERSION$
+- /usr/lib64/python3.6/site-packages/cairocffi/__init__.py$
+- /usr/lib64/python3.6/site-packages/cairocffi/__pycache__$
+- /usr/lib64/python3.6/site-packages/cairocffi/__pycache__/__init__.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/cairocffi/__pycache__/__init__.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/cairocffi/__pycache__/__init__.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/cairocffi/__pycache__/constants.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/cairocffi/__pycache__/constants.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/cairocffi/__pycache__/constants.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/cairocffi/__pycache__/context.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/cairocffi/__pycache__/context.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/cairocffi/__pycache__/context.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/cairocffi/__pycache__/ffi_build.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/cairocffi/__pycache__/ffi_build.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/cairocffi/__pycache__/ffi_build.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/cairocffi/__pycache__/fonts.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/cairocffi/__pycache__/fonts.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/cairocffi/__pycache__/fonts.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/cairocffi/__pycache__/matrix.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/cairocffi/__pycache__/matrix.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/cairocffi/__pycache__/matrix.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/cairocffi/__pycache__/patterns.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/cairocffi/__pycache__/patterns.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/cairocffi/__pycache__/patterns.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/cairocffi/__pycache__/pixbuf.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/cairocffi/__pycache__/pixbuf.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/cairocffi/__pycache__/pixbuf.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/cairocffi/__pycache__/surfaces.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/cairocffi/__pycache__/surfaces.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/cairocffi/__pycache__/surfaces.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/cairocffi/__pycache__/test_cairo.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/cairocffi/__pycache__/test_cairo.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/cairocffi/__pycache__/test_cairo.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/cairocffi/__pycache__/test_pixbuf.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/cairocffi/__pycache__/test_pixbuf.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/cairocffi/__pycache__/test_pixbuf.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/cairocffi/__pycache__/test_xcb.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/cairocffi/__pycache__/test_xcb.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/cairocffi/__pycache__/test_xcb.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/cairocffi/__pycache__/xcb.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/cairocffi/__pycache__/xcb.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/cairocffi/__pycache__/xcb.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/cairocffi/_generated$
+- /usr/lib64/python3.6/site-packages/cairocffi/_generated/__pycache__$
+- /usr/lib64/python3.6/site-packages/cairocffi/_generated/__pycache__/ffi.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/cairocffi/_generated/__pycache__/ffi.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/cairocffi/_generated/__pycache__/ffi.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/cairocffi/_generated/__pycache__/ffi_pixbuf.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/cairocffi/_generated/__pycache__/ffi_pixbuf.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/cairocffi/_generated/__pycache__/ffi_pixbuf.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/cairocffi/_generated/ffi.py$
+- /usr/lib64/python3.6/site-packages/cairocffi/_generated/ffi_pixbuf.py$
+- /usr/lib64/python3.6/site-packages/cairocffi/constants.py$
+- /usr/lib64/python3.6/site-packages/cairocffi/context.py$
+- /usr/lib64/python3.6/site-packages/cairocffi/ffi_build.py$
+- /usr/lib64/python3.6/site-packages/cairocffi/fonts.py$
+- /usr/lib64/python3.6/site-packages/cairocffi/matrix.py$
+- /usr/lib64/python3.6/site-packages/cairocffi/patterns.py$
+- /usr/lib64/python3.6/site-packages/cairocffi/pixbuf.py$
+- /usr/lib64/python3.6/site-packages/cairocffi/surfaces.py$
+- /usr/lib64/python3.6/site-packages/cairocffi/test_cairo.py$
+- /usr/lib64/python3.6/site-packages/cairocffi/test_pixbuf.py$
+- /usr/lib64/python3.6/site-packages/cairocffi/test_xcb.py$
+- /usr/lib64/python3.6/site-packages/cairocffi/xcb.py$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/cairocffi-1.1.0$
+- /usr/share/doc/cairocffi-1.1.0/README.rst.bz2$
+env:
+- ORIGINAL_ATOM=dev-python/cairocffi
+- ORIGINAL_PACKAGE=dev-python/cairocffi-1.1.0
