@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/libbson-1.15.1 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -41,6 +42,11 @@ includes:
 - /usr/lib$
 - /usr/lib64$
 - /usr/lib64/cmake$
+- /usr/lib64/cmake/bson-1.0$
+- /usr/lib64/cmake/bson-1.0/bson-1.0-config-version.cmake$
+- /usr/lib64/cmake/bson-1.0/bson-1.0-config.cmake$
+- /usr/lib64/cmake/bson-1.0/bson-targets-gentoo.cmake$
+- /usr/lib64/cmake/bson-1.0/bson-targets.cmake$
 - /usr/lib64/cmake/libbson-1.0$
 - /usr/lib64/cmake/libbson-1.0/libbson-1.0-config-version.cmake$
 - /usr/lib64/cmake/libbson-1.0/libbson-1.0-config.cmake$
@@ -51,9 +57,9 @@ includes:
 - /usr/lib64/pkgconfig/libbson-1.0.pc$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/libbson-1.15.1$
-- /usr/share/doc/libbson-1.15.1/NEWS.bz2$
-- /usr/share/doc/libbson-1.15.1/README.rst.bz2$
+- /usr/share/doc/libbson-1.16.2$
+- /usr/share/doc/libbson-1.16.2/NEWS.bz2$
+- /usr/share/doc/libbson-1.16.2/README.rst.bz2$
 - /usr/share/man$
 - /usr/share/man/man3$
 - /usr/share/man/man3/bson_append_array.3.bz2$
@@ -131,6 +137,7 @@ includes:
 - /usr/share/man/man3/bson_init.3.bz2$
 - /usr/share/man/man3/bson_init_from_json.3.bz2$
 - /usr/share/man/man3/bson_init_static.3.bz2$
+- /usr/share/man/man3/bson_isspace.3.bz2$
 - /usr/share/man/man3/bson_iter_array.3.bz2$
 - /usr/share/man/man3/bson_iter_as_bool.3.bz2$
 - /usr/share/man/man3/bson_iter_as_double.3.bz2$
@@ -288,3 +295,6 @@ includes:
 - /usr/share/man/man3/bson_writer_rollback.3.bz2$
 - /usr/share/man/man3/bson_writer_t.3.bz2$
 - /usr/share/man/man3/bson_zero_free.3.bz2$
+env:
+- ORIGINAL_ATOM=dev-libs/libbson
+- ORIGINAL_PACKAGE=dev-libs/libbson-1.16.2
