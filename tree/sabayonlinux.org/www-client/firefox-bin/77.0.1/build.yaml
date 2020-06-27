@@ -132,6 +132,7 @@ includes:
 - /opt/firefox/libnss3.so$
 - /opt/firefox/libnssckbi.so$
 - /opt/firefox/libnssutil3.so$
+- /opt/firefox/liboggwasm.so$
 - /opt/firefox/libplc4.so$
 - /opt/firefox/libplds4.so$
 - /opt/firefox/libsmime3.so$
@@ -178,4 +179,4 @@ includes:
 - /usr/share/pixmaps/firefox-bin.png$
 env:
 - ORIGINAL_ATOM=www-client/firefox-bin
-- ORIGINAL_PACKAGE=www-client/firefox-bin-76.0.1
+- ORIGINAL_PACKAGE=www-client/firefox-bin-77.0.1
