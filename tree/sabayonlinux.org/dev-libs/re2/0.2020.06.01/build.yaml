@@ -1,0 +1,43 @@
+unpack: true
+steps:
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/re2$
+- /usr/include/re2/filtered_re2.h$
+- /usr/include/re2/re2.h$
+- /usr/include/re2/set.h$
+- /usr/include/re2/stringpiece.h$
+- /usr/lib$
+- /usr/lib/libre2.so$
+- /usr/lib/libre2.so.7$
+- /usr/lib/libre2.so.7.0.0$
+- /usr/lib/pkgconfig$
+- /usr/lib/pkgconfig/re2.pc$
+- /usr/lib64$
+- /usr/lib64/libre2.so$
+- /usr/lib64/libre2.so.7$
+- /usr/lib64/libre2.so.7.0.0$
+- /usr/lib64/libre2.so.gentoo-2019-01-01$
+- /usr/lib64/libre2.so.gentoo-2019-01-01.0.0$
+- /usr/lib64/pkgconfig$
+- /usr/lib64/pkgconfig/re2.pc$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/re2-0.2020.06.01$
+- /usr/share/doc/re2-0.2020.06.01/AUTHORS.bz2$
+- /usr/share/doc/re2-0.2020.06.01/CONTRIBUTORS.bz2$
+- /usr/share/doc/re2-0.2020.06.01/README.bz2$
+- /usr/share/doc/re2-0.2020.06.01/html$
+- /usr/share/doc/re2-0.2020.06.01/html/syntax.html$
+- /usr/share/doc/re2-0.2020.06.01/syntax.txt.bz2$
+env:
+- ORIGINAL_ATOM=dev-libs/re2
+- ORIGINAL_PACKAGE=dev-libs/re2-0.2020.06.01
