@@ -19,13 +19,13 @@ includes:
 - /usr/lib64/python3.6$
 - /usr/lib64/python3.6/site-packages$
 - /usr/lib64/python3.6/site-packages/flake8$
-- /usr/lib64/python3.6/site-packages/flake8-3.7.9-py3.6.egg-info$
-- /usr/lib64/python3.6/site-packages/flake8-3.7.9-py3.6.egg-info/PKG-INFO$
-- /usr/lib64/python3.6/site-packages/flake8-3.7.9-py3.6.egg-info/SOURCES.txt$
-- /usr/lib64/python3.6/site-packages/flake8-3.7.9-py3.6.egg-info/dependency_links.txt$
-- /usr/lib64/python3.6/site-packages/flake8-3.7.9-py3.6.egg-info/entry_points.txt$
-- /usr/lib64/python3.6/site-packages/flake8-3.7.9-py3.6.egg-info/requires.txt$
-- /usr/lib64/python3.6/site-packages/flake8-3.7.9-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/flake8-3.8.1-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/flake8-3.8.1-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/flake8-3.8.1-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/flake8-3.8.1-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/flake8-3.8.1-py3.6.egg-info/entry_points.txt$
+- /usr/lib64/python3.6/site-packages/flake8-3.8.1-py3.6.egg-info/requires.txt$
+- /usr/lib64/python3.6/site-packages/flake8-3.8.1-py3.6.egg-info/top_level.txt$
 - /usr/lib64/python3.6/site-packages/flake8/__init__.py$
 - /usr/lib64/python3.6/site-packages/flake8/__main__.py$
 - /usr/lib64/python3.6/site-packages/flake8/__pycache__$
@@ -35,6 +35,9 @@ includes:
 - /usr/lib64/python3.6/site-packages/flake8/__pycache__/__main__.cpython-36.opt-1.pyc$
 - /usr/lib64/python3.6/site-packages/flake8/__pycache__/__main__.cpython-36.opt-2.pyc$
 - /usr/lib64/python3.6/site-packages/flake8/__pycache__/__main__.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/flake8/__pycache__/_compat.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/flake8/__pycache__/_compat.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/flake8/__pycache__/_compat.cpython-36.pyc$
 - /usr/lib64/python3.6/site-packages/flake8/__pycache__/checker.cpython-36.opt-1.pyc$
 - /usr/lib64/python3.6/site-packages/flake8/__pycache__/checker.cpython-36.opt-2.pyc$
 - /usr/lib64/python3.6/site-packages/flake8/__pycache__/checker.cpython-36.pyc$
@@ -56,6 +59,7 @@ includes:
 - /usr/lib64/python3.6/site-packages/flake8/__pycache__/utils.cpython-36.opt-1.pyc$
 - /usr/lib64/python3.6/site-packages/flake8/__pycache__/utils.cpython-36.opt-2.pyc$
 - /usr/lib64/python3.6/site-packages/flake8/__pycache__/utils.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/flake8/_compat.py$
 - /usr/lib64/python3.6/site-packages/flake8/api$
 - /usr/lib64/python3.6/site-packages/flake8/api/__init__.py$
 - /usr/lib64/python3.6/site-packages/flake8/api/__pycache__$
@@ -159,8 +163,8 @@ includes:
 - /usr/lib64/python3.6/site-packages/flake8/utils.py$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/flake8-3.7.9$
-- /usr/share/doc/flake8-3.7.9/README.rst.bz2$
+- /usr/share/doc/flake8-3.8.1$
+- /usr/share/doc/flake8-3.8.1/README.rst.bz2$
 env:
 - ORIGINAL_ATOM=dev-python/flake8
-- ORIGINAL_PACKAGE=dev-python/flake8-3.7.9
+- ORIGINAL_PACKAGE=dev-python/flake8-3.8.1
