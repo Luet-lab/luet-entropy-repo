@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-db/mongodb-4.0.12 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -30,9 +31,9 @@ includes:
 - /usr/lib$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/mongodb-4.0.12$
-- /usr/share/doc/mongodb-4.0.12/README.bz2$
-- /usr/share/doc/mongodb-4.0.12/building.md.bz2$
+- /usr/share/doc/mongodb-4.2.6$
+- /usr/share/doc/mongodb-4.2.6/README.bz2$
+- /usr/share/doc/mongodb-4.2.6/building.md.bz2$
 - /usr/share/man$
 - /usr/share/man/man1$
 - /usr/share/man/man1/mongo.1.bz2$
@@ -41,6 +42,8 @@ includes:
 - /usr/share/man/man1/mongoexport.1.bz2$
 - /usr/share/man/man1/mongofiles.1.bz2$
 - /usr/share/man/man1/mongoimport.1.bz2$
+- /usr/share/man/man1/mongoldap.1.bz2$
+- /usr/share/man/man1/mongoreplay.1.bz2$
 - /usr/share/man/man1/mongorestore.1.bz2$
 - /usr/share/man/man1/mongos.1.bz2$
 - /usr/share/man/man1/mongostat.1.bz2$
@@ -52,3 +55,6 @@ includes:
 - /var/log$
 - /var/log/mongodb$
 - /var/log/mongodb/.keep_dev-db_mongodb-0$
+env:
+- ORIGINAL_ATOM=dev-db/mongodb
+- ORIGINAL_PACKAGE=dev-db/mongodb-4.2.6
