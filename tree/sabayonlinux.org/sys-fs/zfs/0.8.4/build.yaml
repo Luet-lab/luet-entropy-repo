@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i sys-fs/zfs-0.8.2-r2 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -94,6 +95,7 @@ includes:
 - /lib/systemd/system-preset/50-zfs.preset$
 - /lib/systemd/system/zfs-import-cache.service$
 - /lib/systemd/system/zfs-import-scan.service$
+- /lib/systemd/system/zfs-import.service$
 - /lib/systemd/system/zfs-import.target$
 - /lib/systemd/system/zfs-mount.service$
 - /lib/systemd/system/zfs-share.service$
@@ -468,13 +470,13 @@ includes:
 - /usr/lib64/python3.6/site-packages/libzfs_core/test/__pycache__/test_nvlist.cpython-36.pyc$
 - /usr/lib64/python3.6/site-packages/libzfs_core/test/test_libzfs_core.py$
 - /usr/lib64/python3.6/site-packages/libzfs_core/test/test_nvlist.py$
-- /usr/lib64/python3.6/site-packages/pyzfs-0.8.2-py3.6.egg-info$
-- /usr/lib64/python3.6/site-packages/pyzfs-0.8.2-py3.6.egg-info/PKG-INFO$
-- /usr/lib64/python3.6/site-packages/pyzfs-0.8.2-py3.6.egg-info/SOURCES.txt$
-- /usr/lib64/python3.6/site-packages/pyzfs-0.8.2-py3.6.egg-info/dependency_links.txt$
-- /usr/lib64/python3.6/site-packages/pyzfs-0.8.2-py3.6.egg-info/not-zip-safe$
-- /usr/lib64/python3.6/site-packages/pyzfs-0.8.2-py3.6.egg-info/requires.txt$
-- /usr/lib64/python3.6/site-packages/pyzfs-0.8.2-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/pyzfs-0.8.4-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/pyzfs-0.8.4-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/pyzfs-0.8.4-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/pyzfs-0.8.4-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/pyzfs-0.8.4-py3.6.egg-info/not-zip-safe$
+- /usr/lib64/python3.6/site-packages/pyzfs-0.8.4-py3.6.egg-info/requires.txt$
+- /usr/lib64/python3.6/site-packages/pyzfs-0.8.4-py3.6.egg-info/top_level.txt$
 - /usr/libexec$
 - /usr/libexec/zfs$
 - /usr/libexec/zfs/zed.d$
@@ -540,11 +542,11 @@ includes:
 - /usr/share/bash-completion/completions/zfs$
 - /usr/share/bash-completion/completions/zpool$
 - /usr/share/doc$
-- /usr/share/doc/zfs-0.8.2-r2$
-- /usr/share/doc/zfs-0.8.2-r2/AUTHORS.bz2$
-- /usr/share/doc/zfs-0.8.2-r2/NEWS$
-- /usr/share/doc/zfs-0.8.2-r2/README.bz2$
-- /usr/share/doc/zfs-0.8.2-r2/README.md.bz2$
+- /usr/share/doc/zfs-0.8.4$
+- /usr/share/doc/zfs-0.8.4/AUTHORS.bz2$
+- /usr/share/doc/zfs-0.8.4/NEWS$
+- /usr/share/doc/zfs-0.8.4/README.bz2$
+- /usr/share/doc/zfs-0.8.4/README.md.bz2$
 - /usr/share/initramfs-tools$
 - /usr/share/initramfs-tools/conf-hooks.d$
 - /usr/share/initramfs-tools/conf-hooks.d/zfs$
@@ -585,3 +587,6 @@ includes:
 - /usr/share/pkgconfig$
 - /usr/share/pkgconfig/libzfs.pc$
 - /usr/share/pkgconfig/libzfs_core.pc$
+env:
+- ORIGINAL_ATOM=sys-fs/zfs
+- ORIGINAL_PACKAGE=sys-fs/zfs-0.8.4
