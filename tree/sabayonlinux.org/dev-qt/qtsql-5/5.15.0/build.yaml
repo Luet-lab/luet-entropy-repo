@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-qt/qtsql-5.14.1 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -11,17 +12,17 @@ includes:
 - /usr/include$
 - /usr/include/qt5$
 - /usr/include/qt5/QtSql$
-- /usr/include/qt5/QtSql/5.14.1$
-- /usr/include/qt5/QtSql/5.14.1/QtSql$
-- /usr/include/qt5/QtSql/5.14.1/QtSql/private$
-- /usr/include/qt5/QtSql/5.14.1/QtSql/private/qsqlcachedresult_p.h$
-- /usr/include/qt5/QtSql/5.14.1/QtSql/private/qsqldriver_p.h$
-- /usr/include/qt5/QtSql/5.14.1/QtSql/private/qsqlnulldriver_p.h$
-- /usr/include/qt5/QtSql/5.14.1/QtSql/private/qsqlquerymodel_p.h$
-- /usr/include/qt5/QtSql/5.14.1/QtSql/private/qsqlresult_p.h$
-- /usr/include/qt5/QtSql/5.14.1/QtSql/private/qsqltablemodel_p.h$
-- /usr/include/qt5/QtSql/5.14.1/QtSql/private/qtsql-config_p.h$
-- /usr/include/qt5/QtSql/5.14.1/QtSql/private/qtsqlglobal_p.h$
+- /usr/include/qt5/QtSql/5.15.0$
+- /usr/include/qt5/QtSql/5.15.0/QtSql$
+- /usr/include/qt5/QtSql/5.15.0/QtSql/private$
+- /usr/include/qt5/QtSql/5.15.0/QtSql/private/qsqlcachedresult_p.h$
+- /usr/include/qt5/QtSql/5.15.0/QtSql/private/qsqldriver_p.h$
+- /usr/include/qt5/QtSql/5.15.0/QtSql/private/qsqlnulldriver_p.h$
+- /usr/include/qt5/QtSql/5.15.0/QtSql/private/qsqlquerymodel_p.h$
+- /usr/include/qt5/QtSql/5.15.0/QtSql/private/qsqlresult_p.h$
+- /usr/include/qt5/QtSql/5.15.0/QtSql/private/qsqltablemodel_p.h$
+- /usr/include/qt5/QtSql/5.15.0/QtSql/private/qtsql-config_p.h$
+- /usr/include/qt5/QtSql/5.15.0/QtSql/private/qtsqlglobal_p.h$
 - /usr/include/qt5/QtSql/QSql$
 - /usr/include/qt5/QtSql/QSqlDatabase$
 - /usr/include/qt5/QtSql/QSqlDriver$
@@ -70,8 +71,8 @@ includes:
 - /usr/lib64/libQt5Sql.prl$
 - /usr/lib64/libQt5Sql.so$
 - /usr/lib64/libQt5Sql.so.5$
-- /usr/lib64/libQt5Sql.so.5.14$
-- /usr/lib64/libQt5Sql.so.5.14.1$
+- /usr/lib64/libQt5Sql.so.5.15$
+- /usr/lib64/libQt5Sql.so.5.15.0$
 - /usr/lib64/pkgconfig$
 - /usr/lib64/pkgconfig/Qt5Sql.pc$
 - /usr/lib64/qt5$
@@ -85,3 +86,6 @@ includes:
 - /usr/lib64/qt5/plugins/sqldrivers$
 - /usr/lib64/qt5/plugins/sqldrivers/libqsqlite.so$
 - /usr/lib64/qt5/plugins/sqldrivers/libqsqlmysql.so$
+env:
+- ORIGINAL_ATOM=dev-qt/qtsql
+- ORIGINAL_PACKAGE=dev-qt/qtsql-5.15.0
