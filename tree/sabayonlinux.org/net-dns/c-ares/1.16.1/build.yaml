@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i net-dns/c-ares-1.15.0 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -21,24 +22,24 @@ includes:
 - /usr/lib$
 - /usr/lib/libcares.so$
 - /usr/lib/libcares.so.2$
-- /usr/lib/libcares.so.2.3.0$
+- /usr/lib/libcares.so.2.4.1$
 - /usr/lib/pkgconfig$
 - /usr/lib/pkgconfig/libcares.pc$
 - /usr/lib64$
 - /usr/lib64/libcares.so$
 - /usr/lib64/libcares.so.2$
-- /usr/lib64/libcares.so.2.3.0$
+- /usr/lib64/libcares.so.2.4.1$
 - /usr/lib64/pkgconfig$
 - /usr/lib64/pkgconfig/libcares.pc$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/c-ares-1.15.0$
-- /usr/share/doc/c-ares-1.15.0/AUTHORS.bz2$
-- /usr/share/doc/c-ares-1.15.0/CHANGES.bz2$
-- /usr/share/doc/c-ares-1.15.0/NEWS.bz2$
-- /usr/share/doc/c-ares-1.15.0/README.md.bz2$
-- /usr/share/doc/c-ares-1.15.0/RELEASE-NOTES.bz2$
-- /usr/share/doc/c-ares-1.15.0/TODO.bz2$
+- /usr/share/doc/c-ares-1.16.1$
+- /usr/share/doc/c-ares-1.16.1/AUTHORS.bz2$
+- /usr/share/doc/c-ares-1.16.1/CHANGES.bz2$
+- /usr/share/doc/c-ares-1.16.1/NEWS.bz2$
+- /usr/share/doc/c-ares-1.16.1/README.md.bz2$
+- /usr/share/doc/c-ares-1.16.1/RELEASE-NOTES.bz2$
+- /usr/share/doc/c-ares-1.16.1/TODO.bz2$
 - /usr/share/man$
 - /usr/share/man/man3$
 - /usr/share/man/man3/ares_cancel.3.bz2$
@@ -52,8 +53,10 @@ includes:
 - /usr/share/man/man3/ares_free_data.3.bz2$
 - /usr/share/man/man3/ares_free_hostent.3.bz2$
 - /usr/share/man/man3/ares_free_string.3.bz2$
+- /usr/share/man/man3/ares_freeaddrinfo.3.bz2$
 - /usr/share/man/man3/ares_get_servers.3.bz2$
 - /usr/share/man/man3/ares_get_servers_ports.3$
+- /usr/share/man/man3/ares_getaddrinfo.3.bz2$
 - /usr/share/man/man3/ares_gethostbyaddr.3.bz2$
 - /usr/share/man/man3/ares_gethostbyname.3.bz2$
 - /usr/share/man/man3/ares_gethostbyname_file.3.bz2$
@@ -96,3 +99,6 @@ includes:
 - /usr/share/man/man3/ares_strerror.3.bz2$
 - /usr/share/man/man3/ares_timeout.3.bz2$
 - /usr/share/man/man3/ares_version.3.bz2$
+env:
+- ORIGINAL_ATOM=net-dns/c-ares
+- ORIGINAL_PACKAGE=net-dns/c-ares-1.16.1
