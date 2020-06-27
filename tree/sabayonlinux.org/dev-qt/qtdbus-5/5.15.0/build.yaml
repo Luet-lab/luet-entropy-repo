@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-qt/qtdbus-5.14.1 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -13,28 +14,28 @@ includes:
 - /usr/include/qt5/Gentoo$
 - /usr/include/qt5/Gentoo/qtdbus-qconfig.h$
 - /usr/include/qt5/QtDBus$
-- /usr/include/qt5/QtDBus/5.14.1$
-- /usr/include/qt5/QtDBus/5.14.1/QtDBus$
-- /usr/include/qt5/QtDBus/5.14.1/QtDBus/private$
-- /usr/include/qt5/QtDBus/5.14.1/QtDBus/private/dbus_minimal_p.h$
-- /usr/include/qt5/QtDBus/5.14.1/QtDBus/private/qdbus_symbols_p.h$
-- /usr/include/qt5/QtDBus/5.14.1/QtDBus/private/qdbusabstractadaptor_p.h$
-- /usr/include/qt5/QtDBus/5.14.1/QtDBus/private/qdbusabstractinterface_p.h$
-- /usr/include/qt5/QtDBus/5.14.1/QtDBus/private/qdbusargument_p.h$
-- /usr/include/qt5/QtDBus/5.14.1/QtDBus/private/qdbusconnection_p.h$
-- /usr/include/qt5/QtDBus/5.14.1/QtDBus/private/qdbusconnectionmanager_p.h$
-- /usr/include/qt5/QtDBus/5.14.1/QtDBus/private/qdbuscontext_p.h$
-- /usr/include/qt5/QtDBus/5.14.1/QtDBus/private/qdbusintegrator_p.h$
-- /usr/include/qt5/QtDBus/5.14.1/QtDBus/private/qdbusinterface_p.h$
-- /usr/include/qt5/QtDBus/5.14.1/QtDBus/private/qdbusintrospection_p.h$
-- /usr/include/qt5/QtDBus/5.14.1/QtDBus/private/qdbusmessage_p.h$
-- /usr/include/qt5/QtDBus/5.14.1/QtDBus/private/qdbusmetaobject_p.h$
-- /usr/include/qt5/QtDBus/5.14.1/QtDBus/private/qdbusmetatype_p.h$
-- /usr/include/qt5/QtDBus/5.14.1/QtDBus/private/qdbuspendingcall_p.h$
-- /usr/include/qt5/QtDBus/5.14.1/QtDBus/private/qdbusthreaddebug_p.h$
-- /usr/include/qt5/QtDBus/5.14.1/QtDBus/private/qdbusutil_p.h$
-- /usr/include/qt5/QtDBus/5.14.1/QtDBus/private/qdbusxmlparser_p.h$
-- /usr/include/qt5/QtDBus/5.14.1/QtDBus/private/qtdbusglobal_p.h$
+- /usr/include/qt5/QtDBus/5.15.0$
+- /usr/include/qt5/QtDBus/5.15.0/QtDBus$
+- /usr/include/qt5/QtDBus/5.15.0/QtDBus/private$
+- /usr/include/qt5/QtDBus/5.15.0/QtDBus/private/dbus_minimal_p.h$
+- /usr/include/qt5/QtDBus/5.15.0/QtDBus/private/qdbus_symbols_p.h$
+- /usr/include/qt5/QtDBus/5.15.0/QtDBus/private/qdbusabstractadaptor_p.h$
+- /usr/include/qt5/QtDBus/5.15.0/QtDBus/private/qdbusabstractinterface_p.h$
+- /usr/include/qt5/QtDBus/5.15.0/QtDBus/private/qdbusargument_p.h$
+- /usr/include/qt5/QtDBus/5.15.0/QtDBus/private/qdbusconnection_p.h$
+- /usr/include/qt5/QtDBus/5.15.0/QtDBus/private/qdbusconnectionmanager_p.h$
+- /usr/include/qt5/QtDBus/5.15.0/QtDBus/private/qdbuscontext_p.h$
+- /usr/include/qt5/QtDBus/5.15.0/QtDBus/private/qdbusintegrator_p.h$
+- /usr/include/qt5/QtDBus/5.15.0/QtDBus/private/qdbusinterface_p.h$
+- /usr/include/qt5/QtDBus/5.15.0/QtDBus/private/qdbusintrospection_p.h$
+- /usr/include/qt5/QtDBus/5.15.0/QtDBus/private/qdbusmessage_p.h$
+- /usr/include/qt5/QtDBus/5.15.0/QtDBus/private/qdbusmetaobject_p.h$
+- /usr/include/qt5/QtDBus/5.15.0/QtDBus/private/qdbusmetatype_p.h$
+- /usr/include/qt5/QtDBus/5.15.0/QtDBus/private/qdbuspendingcall_p.h$
+- /usr/include/qt5/QtDBus/5.15.0/QtDBus/private/qdbusthreaddebug_p.h$
+- /usr/include/qt5/QtDBus/5.15.0/QtDBus/private/qdbusutil_p.h$
+- /usr/include/qt5/QtDBus/5.15.0/QtDBus/private/qdbusxmlparser_p.h$
+- /usr/include/qt5/QtDBus/5.15.0/QtDBus/private/qtdbusglobal_p.h$
 - /usr/include/qt5/QtDBus/QDBusAbstractAdaptor$
 - /usr/include/qt5/QtDBus/QDBusAbstractInterface$
 - /usr/include/qt5/QtDBus/QDBusAbstractInterfaceBase$
@@ -93,8 +94,8 @@ includes:
 - /usr/lib64/libQt5DBus.prl$
 - /usr/lib64/libQt5DBus.so$
 - /usr/lib64/libQt5DBus.so.5$
-- /usr/lib64/libQt5DBus.so.5.14$
-- /usr/lib64/libQt5DBus.so.5.14.1$
+- /usr/lib64/libQt5DBus.so.5.15$
+- /usr/lib64/libQt5DBus.so.5.15.0$
 - /usr/lib64/pkgconfig$
 - /usr/lib64/pkgconfig/Qt5DBus.pc$
 - /usr/lib64/qt5$
@@ -108,3 +109,6 @@ includes:
 - /usr/lib64/qt5/mkspecs/modules$
 - /usr/lib64/qt5/mkspecs/modules/qt_lib_dbus.pri$
 - /usr/lib64/qt5/mkspecs/modules/qt_lib_dbus_private.pri$
+env:
+- ORIGINAL_ATOM=dev-qt/qtdbus
+- ORIGINAL_PACKAGE=dev-qt/qtdbus-5.15.0
