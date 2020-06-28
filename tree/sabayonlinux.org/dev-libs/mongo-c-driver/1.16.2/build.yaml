@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/mongo-c-driver-1.15.1 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -19,6 +20,7 @@ includes:
 - /usr/include/libmongoc-1.0/mongoc/mongoc-change-stream.h$
 - /usr/include/libmongoc-1.0/mongoc/mongoc-client-pool.h$
 - /usr/include/libmongoc-1.0/mongoc/mongoc-client-session.h$
+- /usr/include/libmongoc-1.0/mongoc/mongoc-client-side-encryption.h$
 - /usr/include/libmongoc-1.0/mongoc/mongoc-client.h$
 - /usr/include/libmongoc-1.0/mongoc/mongoc-collection.h$
 - /usr/include/libmongoc-1.0/mongoc/mongoc-config.h$
@@ -68,6 +70,11 @@ includes:
 - /usr/lib64/cmake/libmongoc-1.0$
 - /usr/lib64/cmake/libmongoc-1.0/libmongoc-1.0-config-version.cmake$
 - /usr/lib64/cmake/libmongoc-1.0/libmongoc-1.0-config.cmake$
+- /usr/lib64/cmake/mongoc-1.0$
+- /usr/lib64/cmake/mongoc-1.0/mongoc-1.0-config-version.cmake$
+- /usr/lib64/cmake/mongoc-1.0/mongoc-1.0-config.cmake$
+- /usr/lib64/cmake/mongoc-1.0/mongoc-targets-gentoo.cmake$
+- /usr/lib64/cmake/mongoc-1.0/mongoc-targets.cmake$
 - /usr/lib64/libmongoc-1.0.so$
 - /usr/lib64/libmongoc-1.0.so.0$
 - /usr/lib64/libmongoc-1.0.so.0.0.0$
@@ -76,9 +83,9 @@ includes:
 - /usr/lib64/pkgconfig/libmongoc-ssl-1.0.pc$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/mongo-c-driver-1.15.1$
-- /usr/share/doc/mongo-c-driver-1.15.1/NEWS.bz2$
-- /usr/share/doc/mongo-c-driver-1.15.1/README.rst.bz2$
+- /usr/share/doc/mongo-c-driver-1.16.2$
+- /usr/share/doc/mongo-c-driver-1.16.2/NEWS.bz2$
+- /usr/share/doc/mongo-c-driver-1.16.2/README.rst.bz2$
 - /usr/share/man$
 - /usr/share/man/man3$
 - /usr/share/man/man3/mongoc_advanced_connections.3.bz2$
@@ -166,6 +173,16 @@ includes:
 - /usr/share/man/man3/mongoc_apm_topology_opening_t.3.bz2$
 - /usr/share/man/man3/mongoc_application_performance_monitoring.3.bz2$
 - /usr/share/man/man3/mongoc_authentication.3.bz2$
+- /usr/share/man/man3/mongoc_auto_encryption_opts_destroy.3.bz2$
+- /usr/share/man/man3/mongoc_auto_encryption_opts_new.3.bz2$
+- /usr/share/man/man3/mongoc_auto_encryption_opts_set_bypass_auto_encryption.3.bz2$
+- /usr/share/man/man3/mongoc_auto_encryption_opts_set_extra.3.bz2$
+- /usr/share/man/man3/mongoc_auto_encryption_opts_set_key_vault_client.3.bz2$
+- /usr/share/man/man3/mongoc_auto_encryption_opts_set_key_vault_client_pool.3.bz2$
+- /usr/share/man/man3/mongoc_auto_encryption_opts_set_key_vault_namespace.3.bz2$
+- /usr/share/man/man3/mongoc_auto_encryption_opts_set_kms_providers.3.bz2$
+- /usr/share/man/man3/mongoc_auto_encryption_opts_set_schema_map.3.bz2$
+- /usr/share/man/man3/mongoc_auto_encryption_opts_t.3.bz2$
 - /usr/share/man/man3/mongoc_basic_troubleshooting.3.bz2$
 - /usr/share/man/man3/mongoc_bulk.3.bz2$
 - /usr/share/man/man3/mongoc_bulk_operation_delete.3.bz2$
@@ -183,6 +200,7 @@ includes:
 - /usr/share/man/man3/mongoc_bulk_operation_replace_one.3.bz2$
 - /usr/share/man/man3/mongoc_bulk_operation_replace_one_with_opts.3.bz2$
 - /usr/share/man/man3/mongoc_bulk_operation_set_bypass_document_validation.3.bz2$
+- /usr/share/man/man3/mongoc_bulk_operation_set_client_session.3.bz2$
 - /usr/share/man/man3/mongoc_bulk_operation_set_hint.3.bz2$
 - /usr/share/man/man3/mongoc_bulk_operation_t.3.bz2$
 - /usr/share/man/man3/mongoc_bulk_operation_update.3.bz2$
@@ -200,7 +218,31 @@ includes:
 - /usr/share/man/man3/mongoc_client_command_simple.3.bz2$
 - /usr/share/man/man3/mongoc_client_command_simple_with_server_id.3.bz2$
 - /usr/share/man/man3/mongoc_client_command_with_opts.3.bz2$
+- /usr/share/man/man3/mongoc_client_decryption_decrypt.3.bz2$
 - /usr/share/man/man3/mongoc_client_destroy.3.bz2$
+- /usr/share/man/man3/mongoc_client_enable_auto_encryption.3.bz2$
+- /usr/share/man/man3/mongoc_client_encryption_create_datakey.3.bz2$
+- /usr/share/man/man3/mongoc_client_encryption_datakey_opts_destroy.3.bz2$
+- /usr/share/man/man3/mongoc_client_encryption_datakey_opts_new.3.bz2$
+- /usr/share/man/man3/mongoc_client_encryption_datakey_opts_set_keyaltnames.3.bz2$
+- /usr/share/man/man3/mongoc_client_encryption_datakey_opts_set_masterkey.3.bz2$
+- /usr/share/man/man3/mongoc_client_encryption_datakey_opts_t.3.bz2$
+- /usr/share/man/man3/mongoc_client_encryption_destroy.3.bz2$
+- /usr/share/man/man3/mongoc_client_encryption_encrypt.3.bz2$
+- /usr/share/man/man3/mongoc_client_encryption_encrypt_opts_destroy.3.bz2$
+- /usr/share/man/man3/mongoc_client_encryption_encrypt_opts_new.3.bz2$
+- /usr/share/man/man3/mongoc_client_encryption_encrypt_opts_set_algorithm.3.bz2$
+- /usr/share/man/man3/mongoc_client_encryption_encrypt_opts_set_keyaltname.3.bz2$
+- /usr/share/man/man3/mongoc_client_encryption_encrypt_opts_set_keyid.3.bz2$
+- /usr/share/man/man3/mongoc_client_encryption_encrypt_opts_t.3.bz2$
+- /usr/share/man/man3/mongoc_client_encryption_new.3.bz2$
+- /usr/share/man/man3/mongoc_client_encryption_opts_destroy.3.bz2$
+- /usr/share/man/man3/mongoc_client_encryption_opts_new.3.bz2$
+- /usr/share/man/man3/mongoc_client_encryption_opts_set_key_vault_namespace.3.bz2$
+- /usr/share/man/man3/mongoc_client_encryption_opts_set_keyvault_client.3.bz2$
+- /usr/share/man/man3/mongoc_client_encryption_opts_set_kms_providers.3.bz2$
+- /usr/share/man/man3/mongoc_client_encryption_opts_t.3.bz2$
+- /usr/share/man/man3/mongoc_client_encryption_t.3.bz2$
 - /usr/share/man/man3/mongoc_client_find_databases_with_opts.3.bz2$
 - /usr/share/man/man3/mongoc_client_get_collection.3.bz2$
 - /usr/share/man/man3/mongoc_client_get_database.3.bz2$
@@ -220,6 +262,7 @@ includes:
 - /usr/share/man/man3/mongoc_client_new.3.bz2$
 - /usr/share/man/man3/mongoc_client_new_from_uri.3.bz2$
 - /usr/share/man/man3/mongoc_client_pool_destroy.3.bz2$
+- /usr/share/man/man3/mongoc_client_pool_enable_auto_encryption.3.bz2$
 - /usr/share/man/man3/mongoc_client_pool_max_size.3.bz2$
 - /usr/share/man/man3/mongoc_client_pool_min_size.3.bz2$
 - /usr/share/man/man3/mongoc_client_pool_new.3.bz2$
@@ -247,6 +290,7 @@ includes:
 - /usr/share/man/man3/mongoc_client_session_get_operation_time.3.bz2$
 - /usr/share/man/man3/mongoc_client_session_get_opts.3.bz2$
 - /usr/share/man/man3/mongoc_client_session_get_server_id.3.bz2$
+- /usr/share/man/man3/mongoc_client_session_get_transaction_state.3.bz2$
 - /usr/share/man/man3/mongoc_client_session_in_transaction.3.bz2$
 - /usr/share/man/man3/mongoc_client_session_start_transaction.3.bz2$
 - /usr/share/man/man3/mongoc_client_session_t.3.bz2$
@@ -521,6 +565,7 @@ includes:
 - /usr/share/man/man3/mongoc_session_opts_destroy.3.bz2$
 - /usr/share/man/man3/mongoc_session_opts_get_causal_consistency.3.bz2$
 - /usr/share/man/man3/mongoc_session_opts_get_default_transaction_opts.3.bz2$
+- /usr/share/man/man3/mongoc_session_opts_get_transaction_opts.3.bz2$
 - /usr/share/man/man3/mongoc_session_opts_new.3.bz2$
 - /usr/share/man/man3/mongoc_session_opts_set_causal_consistency.3.bz2$
 - /usr/share/man/man3/mongoc_session_opts_set_default_transaction_opts.3.bz2$
@@ -583,6 +628,7 @@ includes:
 - /usr/share/man/man3/mongoc_transaction_opts_set_read_concern.3.bz2$
 - /usr/share/man/man3/mongoc_transaction_opts_set_read_prefs.3.bz2$
 - /usr/share/man/man3/mongoc_transaction_opts_set_write_concern.3.bz2$
+- /usr/share/man/man3/mongoc_transaction_state_t.3.bz2$
 - /usr/share/man/man3/mongoc_tutorial.3.bz2$
 - /usr/share/man/man3/mongoc_update_flags_t.3.bz2$
 - /usr/share/man/man3/mongoc_uri_copy.3.bz2$
@@ -595,6 +641,7 @@ includes:
 - /usr/share/man/man3/mongoc_uri_get_mechanism_properties.3.bz2$
 - /usr/share/man/man3/mongoc_uri_get_option_as_bool.3.bz2$
 - /usr/share/man/man3/mongoc_uri_get_option_as_int32.3.bz2$
+- /usr/share/man/man3/mongoc_uri_get_option_as_int64.3.bz2$
 - /usr/share/man/man3/mongoc_uri_get_option_as_utf8.3.bz2$
 - /usr/share/man/man3/mongoc_uri_get_options.3.bz2$
 - /usr/share/man/man3/mongoc_uri_get_password.3.bz2$
@@ -613,6 +660,7 @@ includes:
 - /usr/share/man/man3/mongoc_uri_new_with_error.3.bz2$
 - /usr/share/man/man3/mongoc_uri_option_is_bool.3.bz2$
 - /usr/share/man/man3/mongoc_uri_option_is_int32.3.bz2$
+- /usr/share/man/man3/mongoc_uri_option_is_int64.3.bz2$
 - /usr/share/man/man3/mongoc_uri_option_is_utf8.3.bz2$
 - /usr/share/man/man3/mongoc_uri_set_auth_mechanism.3.bz2$
 - /usr/share/man/man3/mongoc_uri_set_auth_source.3.bz2$
@@ -621,6 +669,7 @@ includes:
 - /usr/share/man/man3/mongoc_uri_set_mechanism_properties.3.bz2$
 - /usr/share/man/man3/mongoc_uri_set_option_as_bool.3.bz2$
 - /usr/share/man/man3/mongoc_uri_set_option_as_int32.3.bz2$
+- /usr/share/man/man3/mongoc_uri_set_option_as_int64.3.bz2$
 - /usr/share/man/man3/mongoc_uri_set_option_as_utf8.3.bz2$
 - /usr/share/man/man3/mongoc_uri_set_password.3.bz2$
 - /usr/share/man/man3/mongoc_uri_set_read_concern.3.bz2$
@@ -653,3 +702,6 @@ includes:
 - /usr/share/man/man3/mongoc_write_concern_set_wtimeout.3.bz2$
 - /usr/share/man/man3/mongoc_write_concern_set_wtimeout_int64.3.bz2$
 - /usr/share/man/man3/mongoc_write_concern_t.3.bz2$
+env:
+- ORIGINAL_ATOM=dev-libs/mongo-c-driver
+- ORIGINAL_PACKAGE=dev-libs/mongo-c-driver-1.16.2
