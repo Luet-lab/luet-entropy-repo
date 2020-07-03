@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i lxqt-base/liblxqt-0.14.1 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -55,7 +56,7 @@ includes:
 - /usr/lib64$
 - /usr/lib64/liblxqt.so$
 - /usr/lib64/liblxqt.so.0$
-- /usr/lib64/liblxqt.so.0.14.1$
+- /usr/lib64/liblxqt.so.0.15.0$
 - /usr/lib64/pkgconfig$
 - /usr/lib64/pkgconfig/lxqt.pc$
 - /usr/share$
@@ -66,15 +67,18 @@ includes:
 - /usr/share/cmake/lxqt/lxqt-targets-gentoo.cmake$
 - /usr/share/cmake/lxqt/lxqt-targets.cmake$
 - /usr/share/doc$
-- /usr/share/doc/liblxqt-0.14.1$
-- /usr/share/doc/liblxqt-0.14.1/AUTHORS.bz2$
-- /usr/share/doc/liblxqt-0.14.1/CHANGELOG.bz2$
-- /usr/share/doc/liblxqt-0.14.1/README.md.bz2$
+- /usr/share/doc/liblxqt-0.15.0$
+- /usr/share/doc/liblxqt-0.15.0/AUTHORS.bz2$
+- /usr/share/doc/liblxqt-0.15.0/CHANGELOG.bz2$
+- /usr/share/doc/liblxqt-0.15.0/README.md.bz2$
 - /usr/share/lxqt$
 - /usr/share/lxqt/power.conf$
 - /usr/share/lxqt/translations$
 - /usr/share/lxqt/translations/liblxqt$
 - /usr/share/lxqt/translations/liblxqt/liblxqt_ar.qm$
+- /usr/share/lxqt/translations/liblxqt/liblxqt_arn.qm$
+- /usr/share/lxqt/translations/liblxqt/liblxqt_ast.qm$
+- /usr/share/lxqt/translations/liblxqt/liblxqt_bg.qm$
 - /usr/share/lxqt/translations/liblxqt/liblxqt_ca.qm$
 - /usr/share/lxqt/translations/liblxqt/liblxqt_cs.qm$
 - /usr/share/lxqt/translations/liblxqt/liblxqt_cy.qm$
@@ -117,3 +121,6 @@ includes:
 - /usr/share/polkit-1$
 - /usr/share/polkit-1/actions$
 - /usr/share/polkit-1/actions/org.lxqt.backlight.pkexec.policy$
+env:
+- ORIGINAL_ATOM=lxqt-base/liblxqt
+- ORIGINAL_PACKAGE=lxqt-base/liblxqt-0.15.0
