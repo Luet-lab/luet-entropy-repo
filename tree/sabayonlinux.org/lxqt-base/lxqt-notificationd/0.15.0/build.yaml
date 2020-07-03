@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i lxqt-base/lxqt-notificationd-0.14.1 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -20,20 +21,23 @@ includes:
 - /usr/share/applications$
 - /usr/share/applications/lxqt-config-notificationd.desktop$
 - /usr/share/doc$
-- /usr/share/doc/lxqt-notificationd-0.14.1$
-- /usr/share/doc/lxqt-notificationd-0.14.1/AUTHORS.bz2$
-- /usr/share/doc/lxqt-notificationd-0.14.1/CHANGELOG.bz2$
-- /usr/share/doc/lxqt-notificationd-0.14.1/README.md.bz2$
+- /usr/share/doc/lxqt-notificationd-0.15.0$
+- /usr/share/doc/lxqt-notificationd-0.15.0/AUTHORS.bz2$
+- /usr/share/doc/lxqt-notificationd-0.15.0/CHANGELOG.bz2$
+- /usr/share/doc/lxqt-notificationd-0.15.0/README.md.bz2$
 - /usr/share/lxqt$
 - /usr/share/lxqt/translations$
 - /usr/share/lxqt/translations/lxqt-config-notificationd$
 - /usr/share/lxqt/translations/lxqt-config-notificationd/lxqt-config-notificationd_ar.qm$
+- /usr/share/lxqt/translations/lxqt-config-notificationd/lxqt-config-notificationd_arn.qm$
+- /usr/share/lxqt/translations/lxqt-config-notificationd/lxqt-config-notificationd_ast.qm$
 - /usr/share/lxqt/translations/lxqt-config-notificationd/lxqt-config-notificationd_ca.qm$
 - /usr/share/lxqt/translations/lxqt-config-notificationd/lxqt-config-notificationd_cs.qm$
 - /usr/share/lxqt/translations/lxqt-config-notificationd/lxqt-config-notificationd_cy.qm$
 - /usr/share/lxqt/translations/lxqt-config-notificationd/lxqt-config-notificationd_da.qm$
 - /usr/share/lxqt/translations/lxqt-config-notificationd/lxqt-config-notificationd_de.qm$
 - /usr/share/lxqt/translations/lxqt-config-notificationd/lxqt-config-notificationd_el.qm$
+- /usr/share/lxqt/translations/lxqt-config-notificationd/lxqt-config-notificationd_en_GB.qm$
 - /usr/share/lxqt/translations/lxqt-config-notificationd/lxqt-config-notificationd_es.qm$
 - /usr/share/lxqt/translations/lxqt-config-notificationd/lxqt-config-notificationd_fr.qm$
 - /usr/share/lxqt/translations/lxqt-config-notificationd/lxqt-config-notificationd_gl.qm$
@@ -48,18 +52,23 @@ includes:
 - /usr/share/lxqt/translations/lxqt-config-notificationd/lxqt-config-notificationd_nl.qm$
 - /usr/share/lxqt/translations/lxqt-config-notificationd/lxqt-config-notificationd_pl.qm$
 - /usr/share/lxqt/translations/lxqt-config-notificationd/lxqt-config-notificationd_pt.qm$
+- /usr/share/lxqt/translations/lxqt-config-notificationd/lxqt-config-notificationd_pt_BR.qm$
 - /usr/share/lxqt/translations/lxqt-config-notificationd/lxqt-config-notificationd_ru.qm$
+- /usr/share/lxqt/translations/lxqt-config-notificationd/lxqt-config-notificationd_sk_SK.qm$
 - /usr/share/lxqt/translations/lxqt-config-notificationd/lxqt-config-notificationd_tr.qm$
 - /usr/share/lxqt/translations/lxqt-config-notificationd/lxqt-config-notificationd_uk.qm$
 - /usr/share/lxqt/translations/lxqt-config-notificationd/lxqt-config-notificationd_zh_CN.qm$
 - /usr/share/lxqt/translations/lxqt-notificationd$
 - /usr/share/lxqt/translations/lxqt-notificationd/lxqt-notificationd_ar.qm$
+- /usr/share/lxqt/translations/lxqt-notificationd/lxqt-notificationd_arn.qm$
+- /usr/share/lxqt/translations/lxqt-notificationd/lxqt-notificationd_ast.qm$
 - /usr/share/lxqt/translations/lxqt-notificationd/lxqt-notificationd_ca.qm$
 - /usr/share/lxqt/translations/lxqt-notificationd/lxqt-notificationd_cs.qm$
 - /usr/share/lxqt/translations/lxqt-notificationd/lxqt-notificationd_cy.qm$
 - /usr/share/lxqt/translations/lxqt-notificationd/lxqt-notificationd_da.qm$
 - /usr/share/lxqt/translations/lxqt-notificationd/lxqt-notificationd_de.qm$
 - /usr/share/lxqt/translations/lxqt-notificationd/lxqt-notificationd_el.qm$
+- /usr/share/lxqt/translations/lxqt-notificationd/lxqt-notificationd_en_GB.qm$
 - /usr/share/lxqt/translations/lxqt-notificationd/lxqt-notificationd_es.qm$
 - /usr/share/lxqt/translations/lxqt-notificationd/lxqt-notificationd_fr.qm$
 - /usr/share/lxqt/translations/lxqt-notificationd/lxqt-notificationd_gl.qm$
@@ -74,9 +83,15 @@ includes:
 - /usr/share/lxqt/translations/lxqt-notificationd/lxqt-notificationd_nl.qm$
 - /usr/share/lxqt/translations/lxqt-notificationd/lxqt-notificationd_pl.qm$
 - /usr/share/lxqt/translations/lxqt-notificationd/lxqt-notificationd_pt.qm$
+- /usr/share/lxqt/translations/lxqt-notificationd/lxqt-notificationd_pt_BR.qm$
 - /usr/share/lxqt/translations/lxqt-notificationd/lxqt-notificationd_ru.qm$
 - /usr/share/lxqt/translations/lxqt-notificationd/lxqt-notificationd_ru_RU.qm$
+- /usr/share/lxqt/translations/lxqt-notificationd/lxqt-notificationd_sk_SK.qm$
+- /usr/share/lxqt/translations/lxqt-notificationd/lxqt-notificationd_sv.qm$
 - /usr/share/lxqt/translations/lxqt-notificationd/lxqt-notificationd_tr.qm$
 - /usr/share/lxqt/translations/lxqt-notificationd/lxqt-notificationd_uk.qm$
 - /usr/share/lxqt/translations/lxqt-notificationd/lxqt-notificationd_zh_CN.qm$
 - /usr/share/lxqt/translations/lxqt-notificationd/lxqt-notificationd_zh_TW.qm$
+env:
+- ORIGINAL_ATOM=lxqt-base/lxqt-notificationd
+- ORIGINAL_PACKAGE=lxqt-base/lxqt-notificationd-0.15.0
