@@ -49,7 +49,7 @@ includes:
 - /usr/lib/libgnutls-openssl.so.27.0.2$
 - /usr/lib/libgnutls.so$
 - /usr/lib/libgnutls.so.30$
-- /usr/lib/libgnutls.so.30.27.0$
+- /usr/lib/libgnutls.so.30.28.0$
 - /usr/lib/libgnutlsxx.so$
 - /usr/lib/libgnutlsxx.so.28$
 - /usr/lib/libgnutlsxx.so.28.1.0$
@@ -65,7 +65,7 @@ includes:
 - /usr/lib64/libgnutls-openssl.so.27.0.2$
 - /usr/lib64/libgnutls.so$
 - /usr/lib64/libgnutls.so.30$
-- /usr/lib64/libgnutls.so.30.27.0$
+- /usr/lib64/libgnutls.so.30.28.0$
 - /usr/lib64/libgnutlsxx.so$
 - /usr/lib64/libgnutlsxx.so.28$
 - /usr/lib64/libgnutlsxx.so.28.1.0$
@@ -74,9 +74,9 @@ includes:
 - /usr/lib64/pkgconfig/gnutls.pc$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/gnutls-3.6.13$
-- /usr/share/doc/gnutls-3.6.13/README.md.bz2$
-- /usr/share/doc/gnutls-3.6.13/certtool.cfg.bz2$
+- /usr/share/doc/gnutls-3.6.14$
+- /usr/share/doc/gnutls-3.6.14/README.md.bz2$
+- /usr/share/doc/gnutls-3.6.14/certtool.cfg.bz2$
 - /usr/share/locale$
 - /usr/share/locale/cs$
 - /usr/share/locale/cs/LC_MESSAGES$
@@ -141,4 +141,4 @@ includes:
 - /usr/share/man/man3$
 env:
 - ORIGINAL_ATOM=net-libs/gnutls
-- ORIGINAL_PACKAGE=net-libs/gnutls-3.6.13
+- ORIGINAL_PACKAGE=net-libs/gnutls-3.6.14
