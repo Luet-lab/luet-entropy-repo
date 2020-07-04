@@ -30,7 +30,7 @@ includes:
 - /usr/lib64/cmake/KF5Kirigami2/KF5Kirigami2Targets.cmake$
 - /usr/lib64/libKF5Kirigami2.so$
 - /usr/lib64/libKF5Kirigami2.so.5$
-- /usr/lib64/libKF5Kirigami2.so.5.70.0$
+- /usr/lib64/libKF5Kirigami2.so.5.71.0$
 - /usr/lib64/qt5$
 - /usr/lib64/qt5/mkspecs$
 - /usr/lib64/qt5/mkspecs/modules$
@@ -52,6 +52,7 @@ includes:
 - /usr/lib64/qt5/qml/org/kde/kirigami.2/ApplicationHeader.qml$
 - /usr/lib64/qt5/qml/org/kde/kirigami.2/ApplicationItem.qml$
 - /usr/lib64/qt5/qml/org/kde/kirigami.2/ApplicationWindow.qml$
+- /usr/lib64/qt5/qml/org/kde/kirigami.2/Avatar.qml$
 - /usr/lib64/qt5/qml/org/kde/kirigami.2/BasicListItem.qml$
 - /usr/lib64/qt5/qml/org/kde/kirigami.2/Card.qml$
 - /usr/lib64/qt5/qml/org/kde/kirigami.2/CardsGridView.qml$
@@ -74,6 +75,7 @@ includes:
 - /usr/lib64/qt5/qml/org/kde/kirigami.2/PageRow.qml$
 - /usr/lib64/qt5/qml/org/kde/kirigami.2/PasswordField.qml$
 - /usr/lib64/qt5/qml/org/kde/kirigami.2/PlaceholderMessage.qml$
+- /usr/lib64/qt5/qml/org/kde/kirigami.2/RouterWindow.qml$
 - /usr/lib64/qt5/qml/org/kde/kirigami.2/ScrollablePage.qml$
 - /usr/lib64/qt5/qml/org/kde/kirigami.2/SearchField.qml$
 - /usr/lib64/qt5/qml/org/kde/kirigami.2/Separator.qml$
@@ -127,6 +129,14 @@ includes:
 - /usr/lib64/qt5/qml/org/kde/kirigami.2/styles/org.kde.desktop/SwipeListItem.qml$
 - /usr/lib64/qt5/qml/org/kde/kirigami.2/styles/org.kde.desktop/Theme.qml$
 - /usr/lib64/qt5/qml/org/kde/kirigami.2/styles/org.kde.desktop/Units.qml$
+- /usr/lib64/qt5/qml/org/kde/kirigami.2/swipenavigator$
+- /usr/lib64/qt5/qml/org/kde/kirigami.2/swipenavigator/PrivateSwipeHighlight.qml$
+- /usr/lib64/qt5/qml/org/kde/kirigami.2/swipenavigator/PrivateSwipeProgress.qml$
+- /usr/lib64/qt5/qml/org/kde/kirigami.2/swipenavigator/PrivateSwipeStack.qml$
+- /usr/lib64/qt5/qml/org/kde/kirigami.2/swipenavigator/PrivateSwipeTab.qml$
+- /usr/lib64/qt5/qml/org/kde/kirigami.2/swipenavigator/PrivateSwipeTabBar.qml$
+- /usr/lib64/qt5/qml/org/kde/kirigami.2/swipenavigator/PrivateSwipeTabBarLoader.qml$
+- /usr/lib64/qt5/qml/org/kde/kirigami.2/swipenavigator/SwipeNavigator.qml$
 - /usr/lib64/qt5/qml/org/kde/kirigami.2/templates$
 - /usr/lib64/qt5/qml/org/kde/kirigami.2/templates/AbstractApplicationHeader.qml$
 - /usr/lib64/qt5/qml/org/kde/kirigami.2/templates/AbstractCard.qml$
@@ -138,6 +148,7 @@ includes:
 - /usr/lib64/qt5/qml/org/kde/kirigami.2/templates/SwipeListItem.qml$
 - /usr/lib64/qt5/qml/org/kde/kirigami.2/templates/private$
 - /usr/lib64/qt5/qml/org/kde/kirigami.2/templates/private/BackButton.qml$
+- /usr/lib64/qt5/qml/org/kde/kirigami.2/templates/private/BorderPropertiesGroup.qml$
 - /usr/lib64/qt5/qml/org/kde/kirigami.2/templates/private/ContextIcon.qml$
 - /usr/lib64/qt5/qml/org/kde/kirigami.2/templates/private/ForwardButton.qml$
 - /usr/lib64/qt5/qml/org/kde/kirigami.2/templates/private/GenericDrawerIcon.qml$
@@ -148,8 +159,8 @@ includes:
 - /usr/lib64/qt5/qml/org/kde/kirigami.2/templates/qmldir$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/kirigami-5.70.0$
-- /usr/share/doc/kirigami-5.70.0/README.md.bz2$
+- /usr/share/doc/kirigami-5.71.0$
+- /usr/share/doc/kirigami-5.71.0/README.md.bz2$
 - /usr/share/kdevappwizard$
 - /usr/share/kdevappwizard/templates$
 - /usr/share/kdevappwizard/templates/kirigami.tar.bz2$
@@ -157,6 +168,9 @@ includes:
 - /usr/share/locale/ar$
 - /usr/share/locale/ar/LC_MESSAGES$
 - /usr/share/locale/ar/LC_MESSAGES/libkirigami2plugin_qt.qm$
+- /usr/share/locale/az$
+- /usr/share/locale/az/LC_MESSAGES$
+- /usr/share/locale/az/LC_MESSAGES/libkirigami2plugin_qt.qm$
 - /usr/share/locale/ca$
 - /usr/share/locale/ca/LC_MESSAGES$
 - /usr/share/locale/ca/LC_MESSAGES/libkirigami2plugin_qt.qm$
@@ -255,4 +269,4 @@ includes:
 - /usr/share/locale/zh_TW/LC_MESSAGES/libkirigami2plugin_qt.qm$
 env:
 - ORIGINAL_ATOM=kde-frameworks/kirigami
-- ORIGINAL_PACKAGE=kde-frameworks/kirigami-5.70.0
+- ORIGINAL_PACKAGE=kde-frameworks/kirigami-5.71.0
