@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/harfbuzz-2.6.4 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -21,6 +22,7 @@ includes:
 - /usr/include/harfbuzz/hb-buffer.h$
 - /usr/include/harfbuzz/hb-common.h$
 - /usr/include/harfbuzz/hb-deprecated.h$
+- /usr/include/harfbuzz/hb-draw.h$
 - /usr/include/harfbuzz/hb-face.h$
 - /usr/include/harfbuzz/hb-font.h$
 - /usr/include/harfbuzz/hb-ft.h$
@@ -55,16 +57,16 @@ includes:
 - /usr/lib/cmake/harfbuzz/harfbuzz-config.cmake$
 - /usr/lib/libharfbuzz-gobject.so$
 - /usr/lib/libharfbuzz-gobject.so.0$
-- /usr/lib/libharfbuzz-gobject.so.0.20600.4$
+- /usr/lib/libharfbuzz-gobject.so.0.20600.7$
 - /usr/lib/libharfbuzz-icu.so$
 - /usr/lib/libharfbuzz-icu.so.0$
-- /usr/lib/libharfbuzz-icu.so.0.20600.4$
+- /usr/lib/libharfbuzz-icu.so.0.20600.7$
 - /usr/lib/libharfbuzz-subset.so$
 - /usr/lib/libharfbuzz-subset.so.0$
-- /usr/lib/libharfbuzz-subset.so.0.20600.4$
+- /usr/lib/libharfbuzz-subset.so.0.20600.7$
 - /usr/lib/libharfbuzz.so$
 - /usr/lib/libharfbuzz.so.0$
-- /usr/lib/libharfbuzz.so.0.20600.4$
+- /usr/lib/libharfbuzz.so.0.20600.7$
 - /usr/lib/pkgconfig$
 - /usr/lib/pkgconfig/harfbuzz-gobject.pc$
 - /usr/lib/pkgconfig/harfbuzz-icu.pc$
@@ -78,16 +80,16 @@ includes:
 - /usr/lib64/girepository-1.0/HarfBuzz-0.0.typelib$
 - /usr/lib64/libharfbuzz-gobject.so$
 - /usr/lib64/libharfbuzz-gobject.so.0$
-- /usr/lib64/libharfbuzz-gobject.so.0.20600.4$
+- /usr/lib64/libharfbuzz-gobject.so.0.20600.7$
 - /usr/lib64/libharfbuzz-icu.so$
 - /usr/lib64/libharfbuzz-icu.so.0$
-- /usr/lib64/libharfbuzz-icu.so.0.20600.4$
+- /usr/lib64/libharfbuzz-icu.so.0.20600.7$
 - /usr/lib64/libharfbuzz-subset.so$
 - /usr/lib64/libharfbuzz-subset.so.0$
-- /usr/lib64/libharfbuzz-subset.so.0.20600.4$
+- /usr/lib64/libharfbuzz-subset.so.0.20600.7$
 - /usr/lib64/libharfbuzz.so$
 - /usr/lib64/libharfbuzz.so.0$
-- /usr/lib64/libharfbuzz.so.0.20600.4$
+- /usr/lib64/libharfbuzz.so.0.20600.7$
 - /usr/lib64/pkgconfig$
 - /usr/lib64/pkgconfig/harfbuzz-gobject.pc$
 - /usr/lib64/pkgconfig/harfbuzz-icu.pc$
@@ -95,16 +97,15 @@ includes:
 - /usr/lib64/pkgconfig/harfbuzz.pc$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/harfbuzz-2.6.4$
-- /usr/share/doc/harfbuzz-2.6.4/AUTHORS.bz2$
-- /usr/share/doc/harfbuzz-2.6.4/ChangeLog.bz2$
-- /usr/share/doc/harfbuzz-2.6.4/NEWS.bz2$
-- /usr/share/doc/harfbuzz-2.6.4/README.bz2$
-- /usr/share/doc/harfbuzz-2.6.4/README.md.bz2$
-- /usr/share/doc/harfbuzz-2.6.4/README.mingw.md.bz2$
-- /usr/share/doc/harfbuzz-2.6.4/README.python.md.bz2$
-- /usr/share/doc/harfbuzz-2.6.4/THANKS.bz2$
-- /usr/share/doc/harfbuzz-2.6.4/TODO.bz2$
+- /usr/share/doc/harfbuzz-2.6.7$
+- /usr/share/doc/harfbuzz-2.6.7/AUTHORS.bz2$
+- /usr/share/doc/harfbuzz-2.6.7/ChangeLog.bz2$
+- /usr/share/doc/harfbuzz-2.6.7/NEWS.bz2$
+- /usr/share/doc/harfbuzz-2.6.7/README.bz2$
+- /usr/share/doc/harfbuzz-2.6.7/README.md.bz2$
+- /usr/share/doc/harfbuzz-2.6.7/README.python.md.bz2$
+- /usr/share/doc/harfbuzz-2.6.7/THANKS.bz2$
+- /usr/share/doc/harfbuzz-2.6.7/TODO.bz2$
 - /usr/share/gir-1.0$
 - /usr/share/gir-1.0/HarfBuzz-0.0.gir$
 - /usr/share/gtk-doc$
@@ -122,10 +123,10 @@ includes:
 - /usr/share/gtk-doc/html/harfbuzz/ch01s03.html$
 - /usr/share/gtk-doc/html/harfbuzz/ch03s02.html$
 - /usr/share/gtk-doc/html/harfbuzz/ch03s03.html$
-- /usr/share/gtk-doc/html/harfbuzz/ch11.html$
 - /usr/share/gtk-doc/html/harfbuzz/ch12.html$
 - /usr/share/gtk-doc/html/harfbuzz/ch13.html$
 - /usr/share/gtk-doc/html/harfbuzz/ch14.html$
+- /usr/share/gtk-doc/html/harfbuzz/ch15.html$
 - /usr/share/gtk-doc/html/harfbuzz/clusters.html$
 - /usr/share/gtk-doc/html/harfbuzz/complex-scripts.html$
 - /usr/share/gtk-doc/html/harfbuzz/customizing-unicode-functions.html$
@@ -166,6 +167,12 @@ includes:
 - /usr/share/gtk-doc/html/harfbuzz/home.png$
 - /usr/share/gtk-doc/html/harfbuzz/index.html$
 - /usr/share/gtk-doc/html/harfbuzz/install-harfbuzz.html$
+- /usr/share/gtk-doc/html/harfbuzz/integration-coretext.html$
+- /usr/share/gtk-doc/html/harfbuzz/integration-freetype.html$
+- /usr/share/gtk-doc/html/harfbuzz/integration-icu.html$
+- /usr/share/gtk-doc/html/harfbuzz/integration-python.html$
+- /usr/share/gtk-doc/html/harfbuzz/integration-uniscribe.html$
+- /usr/share/gtk-doc/html/harfbuzz/integration.html$
 - /usr/share/gtk-doc/html/harfbuzz/left-insensitive.png$
 - /usr/share/gtk-doc/html/harfbuzz/left.png$
 - /usr/share/gtk-doc/html/harfbuzz/level-2.html$
@@ -201,3 +208,6 @@ includes:
 - /usr/share/gtk-doc/html/harfbuzz/why-do-i-need-a-shaping-engine.html$
 - /usr/share/gtk-doc/html/harfbuzz/why-is-it-called-harfbuzz.html$
 - /usr/share/gtk-doc/html/harfbuzz/working-with-harfbuzz-clusters.html$
+env:
+- ORIGINAL_ATOM=media-libs/harfbuzz
+- ORIGINAL_PACKAGE=media-libs/harfbuzz-2.6.7
