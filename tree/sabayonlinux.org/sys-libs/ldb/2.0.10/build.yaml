@@ -34,7 +34,7 @@ includes:
 - /usr/lib/ldb/libreplace-ldb.so$
 - /usr/lib/libldb.so$
 - /usr/lib/libldb.so.2$
-- /usr/lib/libldb.so.2.0.8$
+- /usr/lib/libldb.so.2.0.10$
 - /usr/lib/pkgconfig$
 - /usr/lib/pkgconfig/ldb.pc$
 - /usr/lib/samba$
@@ -58,10 +58,10 @@ includes:
 - /usr/lib64/ldb/libreplace-ldb.so$
 - /usr/lib64/libldb.so$
 - /usr/lib64/libldb.so.2$
-- /usr/lib64/libldb.so.2.0.8$
+- /usr/lib64/libldb.so.2.0.10$
 - /usr/lib64/libpyldb-util.cpython-36m-x86-64-linux-gnu.so$
 - /usr/lib64/libpyldb-util.cpython-36m-x86-64-linux-gnu.so.2$
-- /usr/lib64/libpyldb-util.cpython-36m-x86-64-linux-gnu.so.2.0.8$
+- /usr/lib64/libpyldb-util.cpython-36m-x86-64-linux-gnu.so.2.0.10$
 - /usr/lib64/pkgconfig$
 - /usr/lib64/pkgconfig/ldb.pc$
 - /usr/lib64/pkgconfig/pyldb-util.cpython-36m-x86_64-linux-gnu.pc$
@@ -83,8 +83,8 @@ includes:
 - /usr/lib64/samba/ldb/tdb.so$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/ldb-2.0.8$
-- /usr/share/doc/ldb-2.0.8/README_gcov.txt.bz2$
+- /usr/share/doc/ldb-2.0.10$
+- /usr/share/doc/ldb-2.0.10/README_gcov.txt.bz2$
 - /usr/share/man$
 - /usr/share/man/man1$
 - /usr/share/man/man1/ldbadd.1.bz2$
@@ -97,4 +97,4 @@ includes:
 - /usr/share/man/man3/ldb.3.bz2$
 env:
 - ORIGINAL_ATOM=sys-libs/ldb
-- ORIGINAL_PACKAGE=sys-libs/ldb-2.0.8
+- ORIGINAL_PACKAGE=sys-libs/ldb-2.0.10
