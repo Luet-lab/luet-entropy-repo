@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i sys-apps/bubblewrap-0.3.1-r1 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -16,8 +17,11 @@ includes:
 - /usr/share/bash-completion/completions$
 - /usr/share/bash-completion/completions/bwrap$
 - /usr/share/doc$
-- /usr/share/doc/bubblewrap-0.3.1-r1$
-- /usr/share/doc/bubblewrap-0.3.1-r1/README.md.bz2$
+- /usr/share/doc/bubblewrap-0.4.1$
+- /usr/share/doc/bubblewrap-0.4.1/README.md.bz2$
 - /usr/share/man$
 - /usr/share/man/man1$
 - /usr/share/man/man1/bwrap.1.bz2$
+env:
+- ORIGINAL_ATOM=sys-apps/bubblewrap
+- ORIGINAL_PACKAGE=sys-apps/bubblewrap-0.4.1
