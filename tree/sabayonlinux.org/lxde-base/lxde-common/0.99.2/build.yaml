@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i lxde-base/lxde-common-0.99.1 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -38,10 +39,10 @@ includes:
 - /usr/share/applications/lxde-logout.desktop$
 - /usr/share/applications/lxde-screenlock.desktop$
 - /usr/share/doc$
-- /usr/share/doc/lxde-common-0.99.1$
-- /usr/share/doc/lxde-common-0.99.1/AUTHORS.bz2$
-- /usr/share/doc/lxde-common-0.99.1/ChangeLog$
-- /usr/share/doc/lxde-common-0.99.1/README$
+- /usr/share/doc/lxde-common-0.99.2$
+- /usr/share/doc/lxde-common-0.99.2/AUTHORS.bz2$
+- /usr/share/doc/lxde-common-0.99.2/ChangeLog.bz2$
+- /usr/share/doc/lxde-common-0.99.2/README$
 - /usr/share/lxde$
 - /usr/share/lxde/images$
 - /usr/share/lxde/images/logout-banner.png$
@@ -57,3 +58,6 @@ includes:
 - /usr/share/man/man1/startlxde.1.bz2$
 - /usr/share/xsessions$
 - /usr/share/xsessions/LXDE.desktop$
+env:
+- ORIGINAL_ATOM=lxde-base/lxde-common
+- ORIGINAL_PACKAGE=lxde-base/lxde-common-0.99.2
