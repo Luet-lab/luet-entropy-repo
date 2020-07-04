@@ -38,7 +38,7 @@ includes:
 - /usr/lib64/cmake/KF5Holidays/KF5HolidaysTargets.cmake$
 - /usr/lib64/libKF5Holidays.so$
 - /usr/lib64/libKF5Holidays.so.5$
-- /usr/lib64/libKF5Holidays.so.5.70.0$
+- /usr/lib64/libKF5Holidays.so.5.71.0$
 - /usr/lib64/qt5$
 - /usr/lib64/qt5/mkspecs$
 - /usr/lib64/qt5/mkspecs/modules$
@@ -51,12 +51,15 @@ includes:
 - /usr/lib64/qt5/qml/org/kde/kholidays/qmldir$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/kholidays-5.70.0$
-- /usr/share/doc/kholidays-5.70.0/README.md.bz2$
+- /usr/share/doc/kholidays-5.71.0$
+- /usr/share/doc/kholidays-5.71.0/README.md.bz2$
 - /usr/share/locale$
 - /usr/share/locale/ar$
 - /usr/share/locale/ar/LC_MESSAGES$
 - /usr/share/locale/ar/LC_MESSAGES/libkholidays5_qt.qm$
+- /usr/share/locale/az$
+- /usr/share/locale/az/LC_MESSAGES$
+- /usr/share/locale/az/LC_MESSAGES/libkholidays5_qt.qm$
 - /usr/share/locale/bg$
 - /usr/share/locale/bg/LC_MESSAGES$
 - /usr/share/locale/bg/LC_MESSAGES/libkholidays5_qt.qm$
@@ -224,4 +227,4 @@ includes:
 - /usr/share/locale/zh_TW/LC_MESSAGES/libkholidays5_qt.qm$
 env:
 - ORIGINAL_ATOM=kde-frameworks/kholidays
-- ORIGINAL_PACKAGE=kde-frameworks/kholidays-5.70.0
+- ORIGINAL_PACKAGE=kde-frameworks/kholidays-5.71.0
