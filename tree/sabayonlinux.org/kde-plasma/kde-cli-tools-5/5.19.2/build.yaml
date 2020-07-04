@@ -28,7 +28,6 @@ includes:
 - /usr/lib64/libexec/kf5$
 - /usr/lib64/libexec/kf5/kdeeject$
 - /usr/lib64/libexec/kf5/kdesu$
-- /usr/lib64/libkdeinit5_kcmshell5.so$
 - /usr/lib64/qt5$
 - /usr/lib64/qt5/plugins$
 - /usr/lib64/qt5/plugins/kcm_filetypes.so$
@@ -72,6 +71,10 @@ includes:
 - /usr/share/help/et/kdesu$
 - /usr/share/help/et/kdesu/index.cache.bz2$
 - /usr/share/help/et/kdesu/index.docbook$
+- /usr/share/help/fr$
+- /usr/share/help/fr/kdesu$
+- /usr/share/help/fr/kdesu/index.cache.bz2$
+- /usr/share/help/fr/kdesu/index.docbook$
 - /usr/share/help/it$
 - /usr/share/help/it/kcontrol5$
 - /usr/share/help/it/kcontrol5/filetypes$
@@ -715,6 +718,9 @@ includes:
 - /usr/share/man/et$
 - /usr/share/man/et/man1$
 - /usr/share/man/et/man1/kdesu.1.bz2$
+- /usr/share/man/fr$
+- /usr/share/man/fr/man1$
+- /usr/share/man/fr/man1/kdesu.1.bz2$
 - /usr/share/man/it$
 - /usr/share/man/it/man1$
 - /usr/share/man/it/man1/kdesu.1.bz2$
@@ -746,4 +752,4 @@ includes:
 - /usr/share/man/uk/man1/kdesu.1.bz2$
 env:
 - ORIGINAL_ATOM=kde-plasma/kde-cli-tools
-- ORIGINAL_PACKAGE=kde-plasma/kde-cli-tools-5.18.5
+- ORIGINAL_PACKAGE=kde-plasma/kde-cli-tools-5.19.2
