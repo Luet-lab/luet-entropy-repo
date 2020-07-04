@@ -17,6 +17,7 @@ includes:
 - /usr/include/kworkspace5/kworkspace_export.h$
 - /usr/include/kworkspace5/sessionmanagement.h$
 - /usr/include/kworkspace5/sessionmanagementbackend.h$
+- /usr/include/kworkspace5/updatelaunchenvjob.h$
 - /usr/lib$
 - /usr/lib64$
 - /usr/lib64/cmake$
@@ -27,7 +28,7 @@ includes:
 - /usr/lib64/cmake/LibKWorkspace/LibKWorkspaceLibraryTargets.cmake$
 - /usr/lib64/libkworkspace5.so$
 - /usr/lib64/libkworkspace5.so.5$
-- /usr/lib64/libkworkspace5.so.5.18.5$
+- /usr/lib64/libkworkspace5.so.5.19.2$
 - /usr/share$
 - /usr/share/locale$
 - /usr/share/locale/ar$
@@ -200,4 +201,4 @@ includes:
 - /usr/share/locale/zh_TW/LC_MESSAGES/libkworkspace.mo$
 env:
 - ORIGINAL_ATOM=kde-plasma/libkworkspace
-- ORIGINAL_PACKAGE=kde-plasma/libkworkspace-5.18.5
+- ORIGINAL_PACKAGE=kde-plasma/libkworkspace-5.19.2
