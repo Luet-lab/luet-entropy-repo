@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i net-libs/webkit-gtk-2.26.4 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -63,6 +64,7 @@ includes:
 - /usr/include/webkitgtk-4.0/webkit2/WebKitGeolocationManager.h$
 - /usr/include/webkitgtk-4.0/webkit2/WebKitGeolocationPermissionRequest.h$
 - /usr/include/webkitgtk-4.0/webkit2/WebKitHitTestResult.h$
+- /usr/include/webkitgtk-4.0/webkit2/WebKitInputMethodContext.h$
 - /usr/include/webkitgtk-4.0/webkit2/WebKitInstallMissingMediaPluginsPermissionRequest.h$
 - /usr/include/webkitgtk-4.0/webkit2/WebKitJavascriptResult.h$
 - /usr/include/webkitgtk-4.0/webkit2/WebKitMimeInfo.h$
@@ -75,6 +77,7 @@ includes:
 - /usr/include/webkitgtk-4.0/webkit2/WebKitOptionMenuItem.h$
 - /usr/include/webkitgtk-4.0/webkit2/WebKitPermissionRequest.h$
 - /usr/include/webkitgtk-4.0/webkit2/WebKitPlugin.h$
+- /usr/include/webkitgtk-4.0/webkit2/WebKitPointerLockPermissionRequest.h$
 - /usr/include/webkitgtk-4.0/webkit2/WebKitPolicyDecision.h$
 - /usr/include/webkitgtk-4.0/webkit2/WebKitPrintCustomWidget.h$
 - /usr/include/webkitgtk-4.0/webkit2/WebKitPrintOperation.h$
@@ -92,6 +95,7 @@ includes:
 - /usr/include/webkitgtk-4.0/webkit2/WebKitUserContentFilterStore.h$
 - /usr/include/webkitgtk-4.0/webkit2/WebKitUserContentManager.h$
 - /usr/include/webkitgtk-4.0/webkit2/WebKitUserMediaPermissionRequest.h$
+- /usr/include/webkitgtk-4.0/webkit2/WebKitUserMessage.h$
 - /usr/include/webkitgtk-4.0/webkit2/WebKitVersion.h$
 - /usr/include/webkitgtk-4.0/webkit2/WebKitWebContext.h$
 - /usr/include/webkitgtk-4.0/webkit2/WebKitWebEditor.h$
@@ -232,10 +236,10 @@ includes:
 - /usr/lib64/girepository-1.0/WebKit2WebExtension-4.0.typelib$
 - /usr/lib64/libjavascriptcoregtk-4.0.so$
 - /usr/lib64/libjavascriptcoregtk-4.0.so.18$
-- /usr/lib64/libjavascriptcoregtk-4.0.so.18.14.9$
+- /usr/lib64/libjavascriptcoregtk-4.0.so.18.16.5$
 - /usr/lib64/libwebkit2gtk-4.0.so$
 - /usr/lib64/libwebkit2gtk-4.0.so.37$
-- /usr/lib64/libwebkit2gtk-4.0.so.37.39.5$
+- /usr/lib64/libwebkit2gtk-4.0.so.37.44.4$
 - /usr/lib64/pkgconfig$
 - /usr/lib64/pkgconfig/javascriptcoregtk-4.0.pc$
 - /usr/lib64/pkgconfig/webkit2gtk-4.0.pc$
@@ -251,8 +255,8 @@ includes:
 - /usr/libexec/webkit2gtk-4.0/jsc$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/webkit-gtk-2.26.4$
-- /usr/share/doc/webkit-gtk-2.26.4/NEWS.bz2$
+- /usr/share/doc/webkit-gtk-2.28.2$
+- /usr/share/doc/webkit-gtk-2.28.2/NEWS.bz2$
 - /usr/share/gir-1.0$
 - /usr/share/gir-1.0/JavaScriptCore-4.0.gir$
 - /usr/share/gir-1.0/WebKit2-4.0.gir$
@@ -405,3 +409,6 @@ includes:
 - /usr/share/locale/zh_CN$
 - /usr/share/locale/zh_CN/LC_MESSAGES$
 - /usr/share/locale/zh_CN/LC_MESSAGES/WebKit2GTK-4.0.mo$
+env:
+- ORIGINAL_ATOM=net-libs/webkit-gtk
+- ORIGINAL_PACKAGE=net-libs/webkit-gtk-2.28.2
