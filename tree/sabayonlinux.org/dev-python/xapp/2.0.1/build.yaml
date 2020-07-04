@@ -12,7 +12,11 @@ includes:
 - /usr/lib64$
 - /usr/lib64/python3.6$
 - /usr/lib64/python3.6/site-packages$
-- /usr/lib64/python3.6/site-packages/python_xapp-1.8.1-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/python_xapp-2.0.1-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/python_xapp-2.0.1-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/python_xapp-2.0.1-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/python_xapp-2.0.1-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/python_xapp-2.0.1-py3.6.egg-info/top_level.txt$
 - /usr/lib64/python3.6/site-packages/xapp$
 - /usr/lib64/python3.6/site-packages/xapp/GSettingsWidgets.py$
 - /usr/lib64/python3.6/site-packages/xapp/SettingsWidgets.py$
@@ -33,4 +37,4 @@ includes:
 - /usr/lib64/python3.6/site-packages/xapp/os.py$
 env:
 - ORIGINAL_ATOM=dev-python/xapp
-- ORIGINAL_PACKAGE=dev-python/xapp-1.8.1
+- ORIGINAL_PACKAGE=dev-python/xapp-2.0.1
