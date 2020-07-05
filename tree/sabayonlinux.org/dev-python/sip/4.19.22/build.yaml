@@ -1,0 +1,44 @@
+unpack: true
+steps:
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/sip$
+- /usr/include$
+- /usr/include/python3.6m$
+- /usr/include/python3.6m/sip.h$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/python3.6$
+- /usr/lib64/python3.6/site-packages$
+- /usr/lib64/python3.6/site-packages/__pycache__$
+- /usr/lib64/python3.6/site-packages/__pycache__/sipconfig.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/__pycache__/sipconfig.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/__pycache__/sipconfig.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/__pycache__/sipdistutils.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/__pycache__/sipdistutils.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/__pycache__/sipdistutils.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/sip-4.19.22.dist-info$
+- /usr/lib64/python3.6/site-packages/sip-4.19.22.dist-info/INSTALLER$
+- /usr/lib64/python3.6/site-packages/sip-4.19.22.dist-info/METADATA$
+- /usr/lib64/python3.6/site-packages/sip-4.19.22.dist-info/RECORD$
+- /usr/lib64/python3.6/site-packages/sip.pyi$
+- /usr/lib64/python3.6/site-packages/sip.so$
+- /usr/lib64/python3.6/site-packages/sipconfig.py$
+- /usr/lib64/python3.6/site-packages/sipdistutils.py$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/sip-4.19.22$
+- /usr/share/doc/sip-4.19.22/ChangeLog.bz2$
+- /usr/share/doc/sip-4.19.22/NEWS.bz2$
+- /usr/share/doc/sip-4.19.22/README.bz2$
+env:
+- ORIGINAL_ATOM=dev-python/sip
+- ORIGINAL_PACKAGE=dev-python/sip-4.19.22
