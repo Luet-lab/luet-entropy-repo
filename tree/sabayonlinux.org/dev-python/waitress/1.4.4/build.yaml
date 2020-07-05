@@ -1,0 +1,100 @@
+unpack: true
+steps:
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/bin$
+- /usr/bin/waitress-serve$
+- /usr/lib$
+- /usr/lib/python-exec$
+- /usr/lib/python-exec/python3.6$
+- /usr/lib/python-exec/python3.6/waitress-serve$
+- /usr/lib64$
+- /usr/lib64/python3.6$
+- /usr/lib64/python3.6/site-packages$
+- /usr/lib64/python3.6/site-packages/waitress$
+- /usr/lib64/python3.6/site-packages/waitress-1.4.4-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/waitress-1.4.4-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/waitress-1.4.4-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/waitress-1.4.4-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/waitress-1.4.4-py3.6.egg-info/entry_points.txt$
+- /usr/lib64/python3.6/site-packages/waitress-1.4.4-py3.6.egg-info/requires.txt$
+- /usr/lib64/python3.6/site-packages/waitress-1.4.4-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/waitress/__init__.py$
+- /usr/lib64/python3.6/site-packages/waitress/__main__.py$
+- /usr/lib64/python3.6/site-packages/waitress/__pycache__$
+- /usr/lib64/python3.6/site-packages/waitress/__pycache__/__init__.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/waitress/__pycache__/__init__.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/waitress/__pycache__/__init__.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/waitress/__pycache__/__main__.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/waitress/__pycache__/__main__.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/waitress/__pycache__/__main__.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/waitress/__pycache__/adjustments.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/waitress/__pycache__/adjustments.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/waitress/__pycache__/adjustments.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/waitress/__pycache__/buffers.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/waitress/__pycache__/buffers.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/waitress/__pycache__/buffers.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/waitress/__pycache__/channel.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/waitress/__pycache__/channel.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/waitress/__pycache__/channel.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/waitress/__pycache__/compat.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/waitress/__pycache__/compat.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/waitress/__pycache__/compat.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/waitress/__pycache__/parser.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/waitress/__pycache__/parser.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/waitress/__pycache__/parser.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/waitress/__pycache__/proxy_headers.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/waitress/__pycache__/proxy_headers.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/waitress/__pycache__/proxy_headers.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/waitress/__pycache__/receiver.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/waitress/__pycache__/receiver.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/waitress/__pycache__/receiver.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/waitress/__pycache__/rfc7230.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/waitress/__pycache__/rfc7230.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/waitress/__pycache__/rfc7230.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/waitress/__pycache__/runner.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/waitress/__pycache__/runner.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/waitress/__pycache__/runner.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/waitress/__pycache__/server.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/waitress/__pycache__/server.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/waitress/__pycache__/server.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/waitress/__pycache__/task.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/waitress/__pycache__/task.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/waitress/__pycache__/task.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/waitress/__pycache__/trigger.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/waitress/__pycache__/trigger.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/waitress/__pycache__/trigger.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/waitress/__pycache__/utilities.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/waitress/__pycache__/utilities.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/waitress/__pycache__/utilities.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/waitress/__pycache__/wasyncore.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/waitress/__pycache__/wasyncore.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/waitress/__pycache__/wasyncore.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/waitress/adjustments.py$
+- /usr/lib64/python3.6/site-packages/waitress/buffers.py$
+- /usr/lib64/python3.6/site-packages/waitress/channel.py$
+- /usr/lib64/python3.6/site-packages/waitress/compat.py$
+- /usr/lib64/python3.6/site-packages/waitress/parser.py$
+- /usr/lib64/python3.6/site-packages/waitress/proxy_headers.py$
+- /usr/lib64/python3.6/site-packages/waitress/receiver.py$
+- /usr/lib64/python3.6/site-packages/waitress/rfc7230.py$
+- /usr/lib64/python3.6/site-packages/waitress/runner.py$
+- /usr/lib64/python3.6/site-packages/waitress/server.py$
+- /usr/lib64/python3.6/site-packages/waitress/task.py$
+- /usr/lib64/python3.6/site-packages/waitress/trigger.py$
+- /usr/lib64/python3.6/site-packages/waitress/utilities.py$
+- /usr/lib64/python3.6/site-packages/waitress/wasyncore.py$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/waitress-1.4.4$
+- /usr/share/doc/waitress-1.4.4/README.rst.bz2$
+env:
+- ORIGINAL_ATOM=dev-python/waitress
+- ORIGINAL_PACKAGE=dev-python/waitress-1.4.4
