@@ -1,0 +1,55 @@
+unpack: true
+steps:
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/python3.6$
+- /usr/lib64/python3.6/site-packages$
+- /usr/lib64/python3.6/site-packages/bleach$
+- /usr/lib64/python3.6/site-packages/bleach-3.1.5-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/bleach-3.1.5-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/bleach-3.1.5-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/bleach-3.1.5-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/bleach-3.1.5-py3.6.egg-info/not-zip-safe$
+- /usr/lib64/python3.6/site-packages/bleach-3.1.5-py3.6.egg-info/requires.txt$
+- /usr/lib64/python3.6/site-packages/bleach-3.1.5-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/bleach/__init__.py$
+- /usr/lib64/python3.6/site-packages/bleach/__pycache__$
+- /usr/lib64/python3.6/site-packages/bleach/__pycache__/__init__.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/bleach/__pycache__/__init__.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/bleach/__pycache__/__init__.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/bleach/__pycache__/callbacks.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/bleach/__pycache__/callbacks.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/bleach/__pycache__/callbacks.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/bleach/__pycache__/html5lib_shim.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/bleach/__pycache__/html5lib_shim.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/bleach/__pycache__/html5lib_shim.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/bleach/__pycache__/linkifier.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/bleach/__pycache__/linkifier.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/bleach/__pycache__/linkifier.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/bleach/__pycache__/sanitizer.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/bleach/__pycache__/sanitizer.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/bleach/__pycache__/sanitizer.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/bleach/__pycache__/utils.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/bleach/__pycache__/utils.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/bleach/__pycache__/utils.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/bleach/callbacks.py$
+- /usr/lib64/python3.6/site-packages/bleach/html5lib_shim.py$
+- /usr/lib64/python3.6/site-packages/bleach/linkifier.py$
+- /usr/lib64/python3.6/site-packages/bleach/sanitizer.py$
+- /usr/lib64/python3.6/site-packages/bleach/utils.py$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/bleach-3.1.5$
+- /usr/share/doc/bleach-3.1.5/CHANGES.bz2$
+- /usr/share/doc/bleach-3.1.5/README.rst.bz2$
+env:
+- ORIGINAL_ATOM=dev-python/bleach
+- ORIGINAL_PACKAGE=dev-python/bleach-3.1.5
