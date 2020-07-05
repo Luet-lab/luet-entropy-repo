@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/libcdr-0.1.5 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -26,13 +27,16 @@ includes:
 - /usr/lib64$
 - /usr/lib64/libcdr-0.1.so$
 - /usr/lib64/libcdr-0.1.so.1$
-- /usr/lib64/libcdr-0.1.so.1.0.5$
+- /usr/lib64/libcdr-0.1.so.1.0.6$
 - /usr/lib64/pkgconfig$
 - /usr/lib64/pkgconfig/libcdr-0.1.pc$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/libcdr-0.1.5$
-- /usr/share/doc/libcdr-0.1.5/AUTHORS.bz2$
-- /usr/share/doc/libcdr-0.1.5/ChangeLog.bz2$
-- /usr/share/doc/libcdr-0.1.5/NEWS.bz2$
-- /usr/share/doc/libcdr-0.1.5/README.bz2$
+- /usr/share/doc/libcdr-0.1.6$
+- /usr/share/doc/libcdr-0.1.6/AUTHORS.bz2$
+- /usr/share/doc/libcdr-0.1.6/ChangeLog.bz2$
+- /usr/share/doc/libcdr-0.1.6/NEWS.bz2$
+- /usr/share/doc/libcdr-0.1.6/README.bz2$
+env:
+- ORIGINAL_ATOM=media-libs/libcdr
+- ORIGINAL_PACKAGE=media-libs/libcdr-0.1.6
