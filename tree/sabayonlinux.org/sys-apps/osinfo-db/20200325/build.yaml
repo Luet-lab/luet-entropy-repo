@@ -175,6 +175,7 @@ includes:
 - /usr/share/osinfo/os/asianux.com/asianux-7.1.xml$
 - /usr/share/osinfo/os/asianux.com/asianux-7.2.xml$
 - /usr/share/osinfo/os/asianux.com/asianux-7.3.xml$
+- /usr/share/osinfo/os/asianux.com/asianux-8.0.xml$
 - /usr/share/osinfo/os/asianux.com/asianux-unknown.xml$
 - /usr/share/osinfo/os/centos.org$
 - /usr/share/osinfo/os/centos.org/centos-5.0.xml$
@@ -676,6 +677,7 @@ includes:
 - /usr/share/osinfo/os/redhat.com/rhel-7.5.xml$
 - /usr/share/osinfo/os/redhat.com/rhel-7.6.xml$
 - /usr/share/osinfo/os/redhat.com/rhel-7.7.xml$
+- /usr/share/osinfo/os/redhat.com/rhel-7.8.xml$
 - /usr/share/osinfo/os/redhat.com/rhel-8-unknown.xml$
 - /usr/share/osinfo/os/redhat.com/rhel-8.0.xml$
 - /usr/share/osinfo/os/redhat.com/rhel-8.1.xml$
@@ -905,4 +907,4 @@ includes:
 - /usr/share/osinfo/schema/osinfo.rng$
 env:
 - ORIGINAL_ATOM=sys-apps/osinfo-db
-- ORIGINAL_PACKAGE=sys-apps/osinfo-db-20200214
+- ORIGINAL_PACKAGE=sys-apps/osinfo-db-20200325
