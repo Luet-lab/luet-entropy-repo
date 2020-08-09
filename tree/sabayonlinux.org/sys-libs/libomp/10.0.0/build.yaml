@@ -1,0 +1,24 @@
+unpack: true
+steps:
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/include$
+- /usr/include/omp.h$
+- /usr/lib$
+- /usr/lib/libomp.so$
+- /usr/lib64$
+- /usr/lib64/libomp.so$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libomp-10.0.0$
+- /usr/share/doc/libomp-10.0.0/README.rst.bz2$
+env:
+- ORIGINAL_ATOM=sys-libs/libomp
+- ORIGINAL_PACKAGE=sys-libs/libomp-10.0.0
