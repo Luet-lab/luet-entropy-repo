@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i app-text/libspectre-0.2.8 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -22,14 +23,17 @@ includes:
 - /usr/lib64$
 - /usr/lib64/libspectre.so$
 - /usr/lib64/libspectre.so.1$
-- /usr/lib64/libspectre.so.1.1.8$
+- /usr/lib64/libspectre.so.1.1.9$
 - /usr/lib64/pkgconfig$
 - /usr/lib64/pkgconfig/libspectre.pc$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/libspectre-0.2.8$
-- /usr/share/doc/libspectre-0.2.8/AUTHORS$
-- /usr/share/doc/libspectre-0.2.8/ChangeLog.bz2$
-- /usr/share/doc/libspectre-0.2.8/NEWS.bz2$
-- /usr/share/doc/libspectre-0.2.8/README.bz2$
-- /usr/share/doc/libspectre-0.2.8/TODO.bz2$
+- /usr/share/doc/libspectre-0.2.9$
+- /usr/share/doc/libspectre-0.2.9/AUTHORS$
+- /usr/share/doc/libspectre-0.2.9/ChangeLog.bz2$
+- /usr/share/doc/libspectre-0.2.9/NEWS.bz2$
+- /usr/share/doc/libspectre-0.2.9/README.bz2$
+- /usr/share/doc/libspectre-0.2.9/TODO.bz2$
+env:
+- ORIGINAL_ATOM=app-text/libspectre
+- ORIGINAL_PACKAGE=app-text/libspectre-0.2.9
