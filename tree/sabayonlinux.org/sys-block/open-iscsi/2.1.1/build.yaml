@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i sys-block/open-iscsi-2.0.878 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -51,13 +52,15 @@ includes:
 - /usr/sbin/iscsiuio$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/open-iscsi-2.0.878$
-- /usr/share/doc/open-iscsi-2.0.878/README.bz2$
-- /usr/share/doc/open-iscsi-2.0.878/THANKS.bz2$
-- /usr/share/doc/open-iscsi-2.0.878/test$
-- /usr/share/doc/open-iscsi-2.0.878/test/README.bz2$
-- /usr/share/doc/open-iscsi-2.0.878/test/regression.dat.bz2$
-- /usr/share/doc/open-iscsi-2.0.878/test/regression.sh.bz2$
+- /usr/share/doc/open-iscsi-2.1.1$
+- /usr/share/doc/open-iscsi-2.1.1/README.bz2$
+- /usr/share/doc/open-iscsi-2.1.1/THANKS.bz2$
+- /usr/share/doc/open-iscsi-2.1.1/test$
+- /usr/share/doc/open-iscsi-2.1.1/test/README.bz2$
+- /usr/share/doc/open-iscsi-2.1.1/test/TODO.bz2$
+- /usr/share/doc/open-iscsi-2.1.1/test/regression.dat.bz2$
+- /usr/share/doc/open-iscsi-2.1.1/test/regression.sh.bz2$
+- /usr/share/doc/open-iscsi-2.1.1/test/test-open-iscsi.py.bz2$
 - /usr/share/man$
 - /usr/share/man/man8$
 - /usr/share/man/man8/iscsi-iname.8.bz2$
@@ -71,3 +74,6 @@ includes:
 - /var/db$
 - /var/db/iscsi$
 - /var/db/iscsi/.keep_sys-block_open-iscsi-0$
+env:
+- ORIGINAL_ATOM=sys-block/open-iscsi
+- ORIGINAL_PACKAGE=sys-block/open-iscsi-2.1.1
