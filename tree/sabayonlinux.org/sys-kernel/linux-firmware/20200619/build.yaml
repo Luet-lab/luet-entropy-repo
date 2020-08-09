@@ -12,7 +12,7 @@ includes:
 - /etc/portage$
 - /etc/portage/savedconfig$
 - /etc/portage/savedconfig/sys-kernel$
-- /etc/portage/savedconfig/sys-kernel/linux-firmware-20200413$
+- /etc/portage/savedconfig/sys-kernel/linux-firmware-20200619$
 - /lib$
 - /lib/firmware$
 - /lib/firmware/3com$
@@ -155,6 +155,7 @@ includes:
 - /lib/firmware/amdgpu/navi14_sdma1.bin$
 - /lib/firmware/amdgpu/navi14_smc.bin$
 - /lib/firmware/amdgpu/navi14_sos.bin$
+- /lib/firmware/amdgpu/navi14_ta.bin$
 - /lib/firmware/amdgpu/navi14_vcn.bin$
 - /lib/firmware/amdgpu/oland_ce.bin$
 - /lib/firmware/amdgpu/oland_k_smc.bin$
@@ -358,6 +359,7 @@ includes:
 - /lib/firmware/amdgpu/vega20_sdma1.bin$
 - /lib/firmware/amdgpu/vega20_smc.bin$
 - /lib/firmware/amdgpu/vega20_sos.bin$
+- /lib/firmware/amdgpu/vega20_ta.bin$
 - /lib/firmware/amdgpu/vega20_uvd.bin$
 - /lib/firmware/amdgpu/vega20_vce.bin$
 - /lib/firmware/amdgpu/vegam_ce.bin$
@@ -651,7 +653,6 @@ includes:
 - /lib/firmware/brcm/brcmfmac4335-sdio.bin$
 - /lib/firmware/brcm/brcmfmac43362-sdio.bin$
 - /lib/firmware/brcm/brcmfmac43362-sdio.cubietech,cubietruck.txt$
-- /lib/firmware/brcm/brcmfmac43362-sdio.lemaker,bananapro.txt$
 - /lib/firmware/brcm/brcmfmac4339-sdio.bin$
 - /lib/firmware/brcm/brcmfmac43430-sdio.AP6212.txt$
 - /lib/firmware/brcm/brcmfmac43430-sdio.Hampoo-D2D3_Vi8A1.txt$
@@ -742,11 +743,11 @@ includes:
 - /lib/firmware/cxgb4/configs/t6-config-hashfilter.txt$
 - /lib/firmware/cxgb4/t4fw-1.14.4.0.bin$
 - /lib/firmware/cxgb4/t4fw-1.15.37.0.bin$
-- /lib/firmware/cxgb4/t4fw-1.24.11.0.bin$
+- /lib/firmware/cxgb4/t4fw-1.24.17.0.bin$
 - /lib/firmware/cxgb4/t5fw-1.14.4.0.bin$
 - /lib/firmware/cxgb4/t5fw-1.15.37.0.bin$
-- /lib/firmware/cxgb4/t5fw-1.24.11.0.bin$
-- /lib/firmware/cxgb4/t6fw-1.24.11.0.bin$
+- /lib/firmware/cxgb4/t5fw-1.24.17.0.bin$
+- /lib/firmware/cxgb4/t6fw-1.24.17.0.bin$
 - /lib/firmware/dabusb$
 - /lib/firmware/dabusb/bitstream.bin$
 - /lib/firmware/dabusb/firmware.fw$
@@ -1039,13 +1040,34 @@ includes:
 - /lib/firmware/iwlwifi-9260-th-b0-jf-b0-43.ucode$
 - /lib/firmware/iwlwifi-9260-th-b0-jf-b0-46.ucode$
 - /lib/firmware/iwlwifi-Qu-b0-hr-b0-48.ucode$
+- /lib/firmware/iwlwifi-Qu-b0-hr-b0-50.ucode$
+- /lib/firmware/iwlwifi-Qu-b0-hr-b0-53.ucode$
+- /lib/firmware/iwlwifi-Qu-b0-hr-b0-55.ucode$
 - /lib/firmware/iwlwifi-Qu-b0-jf-b0-48.ucode$
+- /lib/firmware/iwlwifi-Qu-b0-jf-b0-50.ucode$
+- /lib/firmware/iwlwifi-Qu-b0-jf-b0-53.ucode$
+- /lib/firmware/iwlwifi-Qu-b0-jf-b0-55.ucode$
 - /lib/firmware/iwlwifi-Qu-c0-hr-b0-48.ucode$
+- /lib/firmware/iwlwifi-Qu-c0-hr-b0-50.ucode$
+- /lib/firmware/iwlwifi-Qu-c0-hr-b0-53.ucode$
+- /lib/firmware/iwlwifi-Qu-c0-hr-b0-55.ucode$
 - /lib/firmware/iwlwifi-Qu-c0-jf-b0-48.ucode$
+- /lib/firmware/iwlwifi-Qu-c0-jf-b0-50.ucode$
+- /lib/firmware/iwlwifi-Qu-c0-jf-b0-53.ucode$
+- /lib/firmware/iwlwifi-Qu-c0-jf-b0-55.ucode$
 - /lib/firmware/iwlwifi-QuZ-a0-hr-b0-48.ucode$
+- /lib/firmware/iwlwifi-QuZ-a0-hr-b0-50.ucode$
+- /lib/firmware/iwlwifi-QuZ-a0-hr-b0-53.ucode$
+- /lib/firmware/iwlwifi-QuZ-a0-hr-b0-55.ucode$
 - /lib/firmware/iwlwifi-QuZ-a0-jf-b0-48.ucode$
+- /lib/firmware/iwlwifi-QuZ-a0-jf-b0-50.ucode$
+- /lib/firmware/iwlwifi-QuZ-a0-jf-b0-53.ucode$
+- /lib/firmware/iwlwifi-QuZ-a0-jf-b0-55.ucode$
 - /lib/firmware/iwlwifi-cc-a0-46.ucode$
 - /lib/firmware/iwlwifi-cc-a0-48.ucode$
+- /lib/firmware/iwlwifi-cc-a0-50.ucode$
+- /lib/firmware/iwlwifi-cc-a0-53.ucode$
+- /lib/firmware/iwlwifi-cc-a0-55.ucode$
 - /lib/firmware/kaweth$
 - /lib/firmware/kaweth/new_code.bin$
 - /lib/firmware/kaweth/new_code_fix.bin$
@@ -1113,9 +1135,14 @@ includes:
 - /lib/firmware/mediatek/mt7650e.bin$
 - /lib/firmware/mediatek/mt7662u.bin$
 - /lib/firmware/mediatek/mt7662u_rom_patch.bin$
+- /lib/firmware/mediatek/mt7663_n9_rebb.bin$
 - /lib/firmware/mediatek/mt7663_n9_v3.bin$
 - /lib/firmware/mediatek/mt7663pr2h.bin$
+- /lib/firmware/mediatek/mt7663pr2h_rebb.bin$
 - /lib/firmware/mediatek/mt7668pr2h.bin$
+- /lib/firmware/mediatek/mt7915_rom_patch.bin$
+- /lib/firmware/mediatek/mt7915_wa.bin$
+- /lib/firmware/mediatek/mt7915_wm.bin$
 - /lib/firmware/mediatek/mt8173$
 - /lib/firmware/mediatek/mt8173/vpu_d.bin$
 - /lib/firmware/mediatek/mt8173/vpu_p.bin$
@@ -1132,8 +1159,11 @@ includes:
 - /lib/firmware/mellanox/mlxsw_spectrum-13.2000.1886.mfa2$
 - /lib/firmware/mellanox/mlxsw_spectrum-13.2000.2308.mfa2$
 - /lib/firmware/mellanox/mlxsw_spectrum-13.2000.2714.mfa2$
+- /lib/firmware/mellanox/mlxsw_spectrum-13.2007.1168.mfa2$
 - /lib/firmware/mellanox/mlxsw_spectrum2-29.2000.2308.mfa2$
 - /lib/firmware/mellanox/mlxsw_spectrum2-29.2000.2714.mfa2$
+- /lib/firmware/mellanox/mlxsw_spectrum2-29.2007.1168.mfa2$
+- /lib/firmware/mellanox/mlxsw_spectrum3-30.2007.1168.mfa2$
 - /lib/firmware/meson$
 - /lib/firmware/meson/vdec$
 - /lib/firmware/meson/vdec/g12a_h264.bin$
@@ -1174,6 +1204,8 @@ includes:
 - /lib/firmware/mrvl/pcie8997_wlan_v4.bin$
 - /lib/firmware/mrvl/pcieuart8997_combo_v4.bin$
 - /lib/firmware/mrvl/pcieusb8997_combo_v4.bin$
+- /lib/firmware/mrvl/prestera$
+- /lib/firmware/mrvl/prestera/mvsw_prestera_fw-v2.0.img$
 - /lib/firmware/mrvl/sd8688.bin$
 - /lib/firmware/mrvl/sd8688_helper.bin$
 - /lib/firmware/mrvl/sd8787_uapsta.bin$
@@ -1712,6 +1744,7 @@ includes:
 - /lib/firmware/qca/htnv20.bin$
 - /lib/firmware/qca/nvm_00130300.bin$
 - /lib/firmware/qca/nvm_00130302.bin$
+- /lib/firmware/qca/nvm_00230302.bin$
 - /lib/firmware/qca/nvm_00440302.bin$
 - /lib/firmware/qca/nvm_00440302_eu.bin$
 - /lib/firmware/qca/nvm_00440302_i2s_eu.bin$
@@ -1722,6 +1755,7 @@ includes:
 - /lib/firmware/qca/nvm_usb_00000302_eu.bin$
 - /lib/firmware/qca/rampatch_00130300.bin$
 - /lib/firmware/qca/rampatch_00130302.bin$
+- /lib/firmware/qca/rampatch_00230302.bin$
 - /lib/firmware/qca/rampatch_00440302.bin$
 - /lib/firmware/qca/rampatch_usb_00000200.bin$
 - /lib/firmware/qca/rampatch_usb_00000201.bin$
@@ -2109,6 +2143,8 @@ includes:
 - /lib/firmware/rtl_nic/rtl8107e-1.fw$
 - /lib/firmware/rtl_nic/rtl8107e-2.fw$
 - /lib/firmware/rtl_nic/rtl8125a-3.fw$
+- /lib/firmware/rtl_nic/rtl8125b-1.fw$
+- /lib/firmware/rtl_nic/rtl8125b-2.fw$
 - /lib/firmware/rtl_nic/rtl8153a-2.fw$
 - /lib/firmware/rtl_nic/rtl8153a-3.fw$
 - /lib/firmware/rtl_nic/rtl8153a-4.fw$
@@ -2170,6 +2206,7 @@ includes:
 - /lib/firmware/rtw88$
 - /lib/firmware/rtw88/README$
 - /lib/firmware/rtw88/rtw8723d_fw.bin$
+- /lib/firmware/rtw88/rtw8821c_fw.bin$
 - /lib/firmware/rtw88/rtw8822b_fw.bin$
 - /lib/firmware/rtw88/rtw8822c_fw.bin$
 - /lib/firmware/rtw88/rtw8822c_wow_fw.bin$
@@ -2280,4 +2317,4 @@ includes:
 - /lib/firmware/wsm_22.bin$
 env:
 - ORIGINAL_ATOM=sys-kernel/linux-firmware
-- ORIGINAL_PACKAGE=sys-kernel/linux-firmware-20200413
+- ORIGINAL_PACKAGE=sys-kernel/linux-firmware-20200619
