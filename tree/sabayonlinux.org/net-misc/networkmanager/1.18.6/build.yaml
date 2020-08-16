@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i net-misc/networkmanager-1.18.4-r3 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -251,13 +252,13 @@ includes:
 - /usr/lib/pkgconfig/libnm.pc$
 - /usr/lib64$
 - /usr/lib64/NetworkManager$
-- /usr/lib64/NetworkManager/1.18.4$
-- /usr/lib64/NetworkManager/1.18.4/libnm-device-plugin-adsl.so$
-- /usr/lib64/NetworkManager/1.18.4/libnm-device-plugin-bluetooth.so$
-- /usr/lib64/NetworkManager/1.18.4/libnm-device-plugin-wifi.so$
-- /usr/lib64/NetworkManager/1.18.4/libnm-device-plugin-wwan.so$
-- /usr/lib64/NetworkManager/1.18.4/libnm-ppp-plugin.so$
-- /usr/lib64/NetworkManager/1.18.4/libnm-wwan.so$
+- /usr/lib64/NetworkManager/1.18.6$
+- /usr/lib64/NetworkManager/1.18.6/libnm-device-plugin-adsl.so$
+- /usr/lib64/NetworkManager/1.18.6/libnm-device-plugin-bluetooth.so$
+- /usr/lib64/NetworkManager/1.18.6/libnm-device-plugin-wifi.so$
+- /usr/lib64/NetworkManager/1.18.6/libnm-device-plugin-wwan.so$
+- /usr/lib64/NetworkManager/1.18.6/libnm-ppp-plugin.so$
+- /usr/lib64/NetworkManager/1.18.6/libnm-wwan.so$
 - /usr/lib64/girepository-1.0$
 - /usr/lib64/girepository-1.0/NM-1.0.typelib$
 - /usr/lib64/girepository-1.0/NMClient-1.0.typelib$
@@ -281,8 +282,8 @@ includes:
 - /usr/lib64/pkgconfig/libnm-util.pc$
 - /usr/lib64/pkgconfig/libnm.pc$
 - /usr/lib64/pppd$
-- /usr/lib64/pppd/2.4.7$
-- /usr/lib64/pppd/2.4.7/nm-pppd-plugin.so$
+- /usr/lib64/pppd/2.4.8$
+- /usr/lib64/pppd/2.4.8/nm-pppd-plugin.so$
 - /usr/libexec$
 - /usr/libexec/nm-dhcp-helper$
 - /usr/libexec/nm-dispatcher$
@@ -347,14 +348,14 @@ includes:
 - /usr/share/dbus-1/system-services$
 - /usr/share/dbus-1/system-services/org.freedesktop.nm_dispatcher.service$
 - /usr/share/doc$
-- /usr/share/doc/networkmanager-1.18.4-r3$
-- /usr/share/doc/networkmanager-1.18.4-r3/AUTHORS$
-- /usr/share/doc/networkmanager-1.18.4-r3/ChangeLog.bz2$
-- /usr/share/doc/networkmanager-1.18.4-r3/NEWS.bz2$
-- /usr/share/doc/networkmanager-1.18.4-r3/README.bz2$
-- /usr/share/doc/networkmanager-1.18.4-r3/TODO.bz2$
-- /usr/share/doc/networkmanager-1.18.4-r3/examples$
-- /usr/share/doc/networkmanager-1.18.4-r3/examples/server.conf.bz2$
+- /usr/share/doc/networkmanager-1.18.6$
+- /usr/share/doc/networkmanager-1.18.6/AUTHORS$
+- /usr/share/doc/networkmanager-1.18.6/ChangeLog.bz2$
+- /usr/share/doc/networkmanager-1.18.6/NEWS.bz2$
+- /usr/share/doc/networkmanager-1.18.6/README.bz2$
+- /usr/share/doc/networkmanager-1.18.6/TODO.bz2$
+- /usr/share/doc/networkmanager-1.18.6/examples$
+- /usr/share/doc/networkmanager-1.18.6/examples/server.conf.bz2$
 - /usr/share/gir-1.0$
 - /usr/share/gir-1.0/NM-1.0.gir$
 - /usr/share/gir-1.0/NMClient-1.0.gir$
@@ -687,6 +688,9 @@ includes:
 - /usr/share/gtk-doc/html/libnm/NMVpnConnection.html$
 - /usr/share/gtk-doc/html/libnm/NMVpnEditor.html$
 - /usr/share/gtk-doc/html/libnm/NMVpnEditorPlugin.html$
+- /usr/share/gtk-doc/html/libnm/NMVpnPluginInfo.html$
+- /usr/share/gtk-doc/html/libnm/NMVpnPluginOld.html$
+- /usr/share/gtk-doc/html/libnm/NMVpnServicePlugin.html$
 - /usr/share/gtk-doc/html/libnm/NMWifiP2PPeer.html$
 - /usr/share/gtk-doc/html/libnm/NMWimaxNsp.html$
 - /usr/share/gtk-doc/html/libnm/annotation-glossary.html$
@@ -706,9 +710,6 @@ includes:
 - /usr/share/gtk-doc/html/libnm/libnm-nm-errors.html$
 - /usr/share/gtk-doc/html/libnm/libnm-nm-utils.html$
 - /usr/share/gtk-doc/html/libnm/libnm-nm-version.html$
-- /usr/share/gtk-doc/html/libnm/libnm-nm-vpn-plugin-info.html$
-- /usr/share/gtk-doc/html/libnm/libnm-nm-vpn-plugin-old.html$
-- /usr/share/gtk-doc/html/libnm/libnm-nm-vpn-service-plugin.html$
 - /usr/share/gtk-doc/html/libnm/libnm.devhelp2$
 - /usr/share/gtk-doc/html/libnm/libnm.png$
 - /usr/share/gtk-doc/html/libnm/object-tree.html$
@@ -878,3 +879,6 @@ includes:
 - /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy$
 - /usr/share/polkit-1/rules.d$
 - /usr/share/polkit-1/rules.d/01-org.freedesktop.NetworkManager.settings.modify.system.rules$
+env:
+- ORIGINAL_ATOM=net-misc/networkmanager
+- ORIGINAL_PACKAGE=net-misc/networkmanager-1.18.6
