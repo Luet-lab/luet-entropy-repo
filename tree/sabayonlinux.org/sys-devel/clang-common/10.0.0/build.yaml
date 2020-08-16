@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i sys-devel/clang-common-9.0.1 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -12,3 +13,6 @@ includes:
 - /usr/share/bash-completion$
 - /usr/share/bash-completion/completions$
 - /usr/share/bash-completion/completions/clang$
+env:
+- ORIGINAL_ATOM=sys-devel/clang-common
+- ORIGINAL_PACKAGE=sys-devel/clang-common-10.0.0
