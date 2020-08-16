@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/cogl-1.22.4 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -152,11 +153,11 @@ includes:
 - /usr/lib64/pkgconfig/cogl-path-2.0-experimental.pc$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/cogl-1.22.4$
-- /usr/share/doc/cogl-1.22.4/ChangeLog.bz2$
-- /usr/share/doc/cogl-1.22.4/NEWS.bz2$
-- /usr/share/doc/cogl-1.22.4/README.bz2$
-- /usr/share/doc/cogl-1.22.4/README.in.bz2$
+- /usr/share/doc/cogl-1.22.6$
+- /usr/share/doc/cogl-1.22.6/ChangeLog.bz2$
+- /usr/share/doc/cogl-1.22.6/NEWS.bz2$
+- /usr/share/doc/cogl-1.22.6/README.bz2$
+- /usr/share/doc/cogl-1.22.6/README.in.bz2$
 - /usr/share/gir-1.0$
 - /usr/share/gir-1.0/Cogl-1.0.gir$
 - /usr/share/gir-1.0/Cogl-2.0.gir$
@@ -202,6 +203,9 @@ includes:
 - /usr/share/locale/fa$
 - /usr/share/locale/fa/LC_MESSAGES$
 - /usr/share/locale/fa/LC_MESSAGES/cogl.mo$
+- /usr/share/locale/fi$
+- /usr/share/locale/fi/LC_MESSAGES$
+- /usr/share/locale/fi/LC_MESSAGES/cogl.mo$
 - /usr/share/locale/fr$
 - /usr/share/locale/fr/LC_MESSAGES$
 - /usr/share/locale/fr/LC_MESSAGES/cogl.mo$
@@ -238,6 +242,9 @@ includes:
 - /usr/share/locale/lv$
 - /usr/share/locale/lv/LC_MESSAGES$
 - /usr/share/locale/lv/LC_MESSAGES/cogl.mo$
+- /usr/share/locale/ms$
+- /usr/share/locale/ms/LC_MESSAGES$
+- /usr/share/locale/ms/LC_MESSAGES/cogl.mo$
 - /usr/share/locale/nb$
 - /usr/share/locale/nb/LC_MESSAGES$
 - /usr/share/locale/nb/LC_MESSAGES/cogl.mo$
@@ -292,3 +299,6 @@ includes:
 - /usr/share/locale/zh_TW$
 - /usr/share/locale/zh_TW/LC_MESSAGES$
 - /usr/share/locale/zh_TW/LC_MESSAGES/cogl.mo$
+env:
+- ORIGINAL_ATOM=media-libs/cogl
+- ORIGINAL_PACKAGE=media-libs/cogl-1.22.6
