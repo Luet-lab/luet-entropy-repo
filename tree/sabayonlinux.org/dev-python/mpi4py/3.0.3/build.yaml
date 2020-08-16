@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/mpi4py-3.0.2 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -10,76 +11,15 @@ includes:
 - /usr$
 - /usr/lib$
 - /usr/lib64$
-- /usr/lib64/python2.7$
-- /usr/lib64/python2.7/site-packages$
-- /usr/lib64/python2.7/site-packages/mpi4py$
-- /usr/lib64/python2.7/site-packages/mpi4py-3.0.2-py2.7.egg-info$
-- /usr/lib64/python2.7/site-packages/mpi4py-3.0.2-py2.7.egg-info/PKG-INFO$
-- /usr/lib64/python2.7/site-packages/mpi4py-3.0.2-py2.7.egg-info/SOURCES.txt$
-- /usr/lib64/python2.7/site-packages/mpi4py-3.0.2-py2.7.egg-info/dependency_links.txt$
-- /usr/lib64/python2.7/site-packages/mpi4py-3.0.2-py2.7.egg-info/not-zip-safe$
-- /usr/lib64/python2.7/site-packages/mpi4py-3.0.2-py2.7.egg-info/top_level.txt$
-- /usr/lib64/python2.7/site-packages/mpi4py/MPI.pxd$
-- /usr/lib64/python2.7/site-packages/mpi4py/MPI.so$
-- /usr/lib64/python2.7/site-packages/mpi4py/__init__.pxd$
-- /usr/lib64/python2.7/site-packages/mpi4py/__init__.py$
-- /usr/lib64/python2.7/site-packages/mpi4py/__init__.pyc$
-- /usr/lib64/python2.7/site-packages/mpi4py/__init__.pyo$
-- /usr/lib64/python2.7/site-packages/mpi4py/__main__.py$
-- /usr/lib64/python2.7/site-packages/mpi4py/__main__.pyc$
-- /usr/lib64/python2.7/site-packages/mpi4py/__main__.pyo$
-- /usr/lib64/python2.7/site-packages/mpi4py/bench.py$
-- /usr/lib64/python2.7/site-packages/mpi4py/bench.pyc$
-- /usr/lib64/python2.7/site-packages/mpi4py/bench.pyo$
-- /usr/lib64/python2.7/site-packages/mpi4py/dl.so$
-- /usr/lib64/python2.7/site-packages/mpi4py/futures$
-- /usr/lib64/python2.7/site-packages/mpi4py/futures/__init__.py$
-- /usr/lib64/python2.7/site-packages/mpi4py/futures/__init__.pyc$
-- /usr/lib64/python2.7/site-packages/mpi4py/futures/__init__.pyo$
-- /usr/lib64/python2.7/site-packages/mpi4py/futures/__main__.py$
-- /usr/lib64/python2.7/site-packages/mpi4py/futures/__main__.pyc$
-- /usr/lib64/python2.7/site-packages/mpi4py/futures/__main__.pyo$
-- /usr/lib64/python2.7/site-packages/mpi4py/futures/_base.py$
-- /usr/lib64/python2.7/site-packages/mpi4py/futures/_base.pyc$
-- /usr/lib64/python2.7/site-packages/mpi4py/futures/_base.pyo$
-- /usr/lib64/python2.7/site-packages/mpi4py/futures/_lib.py$
-- /usr/lib64/python2.7/site-packages/mpi4py/futures/_lib.pyc$
-- /usr/lib64/python2.7/site-packages/mpi4py/futures/_lib.pyo$
-- /usr/lib64/python2.7/site-packages/mpi4py/futures/aplus.py$
-- /usr/lib64/python2.7/site-packages/mpi4py/futures/aplus.pyc$
-- /usr/lib64/python2.7/site-packages/mpi4py/futures/aplus.pyo$
-- /usr/lib64/python2.7/site-packages/mpi4py/futures/pool.py$
-- /usr/lib64/python2.7/site-packages/mpi4py/futures/pool.pyc$
-- /usr/lib64/python2.7/site-packages/mpi4py/futures/pool.pyo$
-- /usr/lib64/python2.7/site-packages/mpi4py/futures/server.py$
-- /usr/lib64/python2.7/site-packages/mpi4py/futures/server.pyc$
-- /usr/lib64/python2.7/site-packages/mpi4py/futures/server.pyo$
-- /usr/lib64/python2.7/site-packages/mpi4py/include$
-- /usr/lib64/python2.7/site-packages/mpi4py/include/mpi4py$
-- /usr/lib64/python2.7/site-packages/mpi4py/include/mpi4py/mpi.pxi$
-- /usr/lib64/python2.7/site-packages/mpi4py/include/mpi4py/mpi4py.MPI.h$
-- /usr/lib64/python2.7/site-packages/mpi4py/include/mpi4py/mpi4py.MPI_api.h$
-- /usr/lib64/python2.7/site-packages/mpi4py/include/mpi4py/mpi4py.h$
-- /usr/lib64/python2.7/site-packages/mpi4py/include/mpi4py/mpi4py.i$
-- /usr/lib64/python2.7/site-packages/mpi4py/lib-pmpi$
-- /usr/lib64/python2.7/site-packages/mpi4py/lib-pmpi/libmpe.so$
-- /usr/lib64/python2.7/site-packages/mpi4py/lib-pmpi/libvt-hyb.so$
-- /usr/lib64/python2.7/site-packages/mpi4py/lib-pmpi/libvt-mpi.so$
-- /usr/lib64/python2.7/site-packages/mpi4py/lib-pmpi/libvt.so$
-- /usr/lib64/python2.7/site-packages/mpi4py/libmpi.pxd$
-- /usr/lib64/python2.7/site-packages/mpi4py/mpi.cfg$
-- /usr/lib64/python2.7/site-packages/mpi4py/run.py$
-- /usr/lib64/python2.7/site-packages/mpi4py/run.pyc$
-- /usr/lib64/python2.7/site-packages/mpi4py/run.pyo$
 - /usr/lib64/python3.6$
 - /usr/lib64/python3.6/site-packages$
 - /usr/lib64/python3.6/site-packages/mpi4py$
-- /usr/lib64/python3.6/site-packages/mpi4py-3.0.2-py3.6.egg-info$
-- /usr/lib64/python3.6/site-packages/mpi4py-3.0.2-py3.6.egg-info/PKG-INFO$
-- /usr/lib64/python3.6/site-packages/mpi4py-3.0.2-py3.6.egg-info/SOURCES.txt$
-- /usr/lib64/python3.6/site-packages/mpi4py-3.0.2-py3.6.egg-info/dependency_links.txt$
-- /usr/lib64/python3.6/site-packages/mpi4py-3.0.2-py3.6.egg-info/not-zip-safe$
-- /usr/lib64/python3.6/site-packages/mpi4py-3.0.2-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/mpi4py-3.0.3-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/mpi4py-3.0.3-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/mpi4py-3.0.3-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/mpi4py-3.0.3-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/mpi4py-3.0.3-py3.6.egg-info/not-zip-safe$
+- /usr/lib64/python3.6/site-packages/mpi4py-3.0.3-py3.6.egg-info/top_level.txt$
 - /usr/lib64/python3.6/site-packages/mpi4py/MPI.cpython-36m-x86_64-linux-gnu.so$
 - /usr/lib64/python3.6/site-packages/mpi4py/MPI.pxd$
 - /usr/lib64/python3.6/site-packages/mpi4py/__init__.pxd$
@@ -147,5 +87,8 @@ includes:
 - /usr/lib64/python3.6/site-packages/mpi4py/run.py$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/mpi4py-3.0.2$
-- /usr/share/doc/mpi4py-3.0.2/README.rst.bz2$
+- /usr/share/doc/mpi4py-3.0.3$
+- /usr/share/doc/mpi4py-3.0.3/README.rst.bz2$
+env:
+- ORIGINAL_ATOM=dev-python/mpi4py
+- ORIGINAL_PACKAGE=dev-python/mpi4py-3.0.3
