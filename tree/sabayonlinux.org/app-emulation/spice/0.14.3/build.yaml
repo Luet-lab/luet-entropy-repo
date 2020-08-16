@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i app-emulation/spice-0.14.2 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -13,7 +14,6 @@ includes:
 - /usr/include/spice-server/spice-audio.h$
 - /usr/include/spice-server/spice-char.h$
 - /usr/include/spice-server/spice-core.h$
-- /usr/include/spice-server/spice-experimental.h$
 - /usr/include/spice-server/spice-input.h$
 - /usr/include/spice-server/spice-migration.h$
 - /usr/include/spice-server/spice-qxl.h$
@@ -25,14 +25,15 @@ includes:
 - /usr/lib64$
 - /usr/lib64/libspice-server.so$
 - /usr/lib64/libspice-server.so.1$
-- /usr/lib64/libspice-server.so.1.13.0$
+- /usr/lib64/libspice-server.so.1.14.0$
 - /usr/lib64/pkgconfig$
 - /usr/lib64/pkgconfig/spice-server.pc$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/spice-0.14.2$
-- /usr/share/doc/spice-0.14.2/AUTHORS.bz2$
-- /usr/share/doc/spice-0.14.2/ChangeLog.bz2$
-- /usr/share/doc/spice-0.14.2/NEWS.bz2$
-- /usr/share/doc/spice-0.14.2/README.bz2$
-- /usr/share/doc/spice-0.14.2/README.gentoo.bz2$
+- /usr/share/doc/spice-0.14.3$
+- /usr/share/doc/spice-0.14.3/AUTHORS.bz2$
+- /usr/share/doc/spice-0.14.3/README.bz2$
+- /usr/share/doc/spice-0.14.3/README.gentoo.bz2$
+env:
+- ORIGINAL_ATOM=app-emulation/spice
+- ORIGINAL_PACKAGE=app-emulation/spice-0.14.3
