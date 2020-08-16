@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i net-dns/dnsmasq-2.80-r1 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -33,19 +34,19 @@ includes:
 - /usr/share/dnsmasq$
 - /usr/share/dnsmasq/trust-anchors.conf$
 - /usr/share/doc$
-- /usr/share/doc/dnsmasq-2.80-r1$
-- /usr/share/doc/dnsmasq-2.80-r1/CHANGELOG.archive.bz2$
-- /usr/share/doc/dnsmasq-2.80-r1/CHANGELOG.bz2$
-- /usr/share/doc/dnsmasq-2.80-r1/FAQ.bz2$
-- /usr/share/doc/dnsmasq-2.80-r1/dnsmasq.conf.example.bz2$
-- /usr/share/doc/dnsmasq-2.80-r1/html$
-- /usr/share/doc/dnsmasq-2.80-r1/html/doc.html$
-- /usr/share/doc/dnsmasq-2.80-r1/html/setup.html$
-- /usr/share/doc/dnsmasq-2.80-r1/logo$
-- /usr/share/doc/dnsmasq-2.80-r1/logo/README.bz2$
-- /usr/share/doc/dnsmasq-2.80-r1/logo/favicon.ico.bz2$
-- /usr/share/doc/dnsmasq-2.80-r1/logo/icon.png$
-- /usr/share/doc/dnsmasq-2.80-r1/logo/icon.svg.bz2$
+- /usr/share/doc/dnsmasq-2.81$
+- /usr/share/doc/dnsmasq-2.81/CHANGELOG.archive.bz2$
+- /usr/share/doc/dnsmasq-2.81/CHANGELOG.bz2$
+- /usr/share/doc/dnsmasq-2.81/FAQ.bz2$
+- /usr/share/doc/dnsmasq-2.81/dnsmasq.conf.example.bz2$
+- /usr/share/doc/dnsmasq-2.81/html$
+- /usr/share/doc/dnsmasq-2.81/html/doc.html$
+- /usr/share/doc/dnsmasq-2.81/html/setup.html$
+- /usr/share/doc/dnsmasq-2.81/logo$
+- /usr/share/doc/dnsmasq-2.81/logo/README.bz2$
+- /usr/share/doc/dnsmasq-2.81/logo/favicon.ico.bz2$
+- /usr/share/doc/dnsmasq-2.81/logo/icon.png$
+- /usr/share/doc/dnsmasq-2.81/logo/icon.svg.bz2$
 - /usr/share/locale$
 - /usr/share/locale/de$
 - /usr/share/locale/de/LC_MESSAGES$
@@ -88,3 +89,6 @@ includes:
 - /var/lib$
 - /var/lib/misc$
 - /var/lib/misc/.keep_net-dns_dnsmasq-0$
+env:
+- ORIGINAL_ATOM=net-dns/dnsmasq
+- ORIGINAL_PACKAGE=net-dns/dnsmasq-2.81
