@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/appdirs-1.4.3 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -9,21 +10,18 @@ requires:
 includes:
 - /usr$
 - /usr/lib64$
-- /usr/lib64/python2.7$
-- /usr/lib64/python2.7/site-packages$
-- /usr/lib64/python2.7/site-packages/appdirs-1.4.3-py2.7.egg-info$
-- /usr/lib64/python2.7/site-packages/appdirs.py$
-- /usr/lib64/python2.7/site-packages/appdirs.pyc$
-- /usr/lib64/python2.7/site-packages/appdirs.pyo$
 - /usr/lib64/python3.6$
 - /usr/lib64/python3.6/site-packages$
 - /usr/lib64/python3.6/site-packages/__pycache__$
 - /usr/lib64/python3.6/site-packages/__pycache__/appdirs.cpython-36.opt-1.pyc$
 - /usr/lib64/python3.6/site-packages/__pycache__/appdirs.cpython-36.opt-2.pyc$
 - /usr/lib64/python3.6/site-packages/__pycache__/appdirs.cpython-36.pyc$
-- /usr/lib64/python3.6/site-packages/appdirs-1.4.3-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/appdirs-1.4.4-py3.6.egg-info$
 - /usr/lib64/python3.6/site-packages/appdirs.py$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/appdirs-1.4.3$
-- /usr/share/doc/appdirs-1.4.3/README.rst.bz2$
+- /usr/share/doc/appdirs-1.4.4$
+- /usr/share/doc/appdirs-1.4.4/README.rst.bz2$
+env:
+- ORIGINAL_ATOM=dev-python/appdirs
+- ORIGINAL_PACKAGE=dev-python/appdirs-1.4.4
