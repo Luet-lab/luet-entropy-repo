@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i sys-libs/libapparmor-2.13.3-r1 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -19,7 +20,7 @@ includes:
 - /usr/lib64/libapparmor.a$
 - /usr/lib64/libapparmor.so$
 - /usr/lib64/libapparmor.so.1$
-- /usr/lib64/libapparmor.so.1.6.1$
+- /usr/lib64/libapparmor.so.1.6.2$
 - /usr/lib64/perl5$
 - /usr/lib64/perl5/vendor_perl$
 - /usr/lib64/perl5/vendor_perl/5.30.1$
@@ -34,7 +35,7 @@ includes:
 - /usr/lib64/python3.6$
 - /usr/lib64/python3.6/site-packages$
 - /usr/lib64/python3.6/site-packages/LibAppArmor$
-- /usr/lib64/python3.6/site-packages/LibAppArmor-2.13.3-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/LibAppArmor-2.13.4-py3.6.egg-info$
 - /usr/lib64/python3.6/site-packages/LibAppArmor/LibAppArmor.py$
 - /usr/lib64/python3.6/site-packages/LibAppArmor/_LibAppArmor.cpython-36m-x86_64-linux-gnu.so$
 - /usr/lib64/python3.6/site-packages/LibAppArmor/__init__.py$
@@ -47,8 +48,11 @@ includes:
 - /usr/lib64/python3.6/site-packages/LibAppArmor/__pycache__/__init__.cpython-36.pyc$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/libapparmor-2.13.3-r1$
-- /usr/share/doc/libapparmor-2.13.3-r1/AUTHORS$
-- /usr/share/doc/libapparmor-2.13.3-r1/ChangeLog$
-- /usr/share/doc/libapparmor-2.13.3-r1/NEWS$
-- /usr/share/doc/libapparmor-2.13.3-r1/README$
+- /usr/share/doc/libapparmor-2.13.4$
+- /usr/share/doc/libapparmor-2.13.4/AUTHORS$
+- /usr/share/doc/libapparmor-2.13.4/ChangeLog$
+- /usr/share/doc/libapparmor-2.13.4/NEWS$
+- /usr/share/doc/libapparmor-2.13.4/README$
+env:
+- ORIGINAL_ATOM=sys-libs/libapparmor
+- ORIGINAL_PACKAGE=sys-libs/libapparmor-2.13.4
