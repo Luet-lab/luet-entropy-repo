@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i x11-terms/xterm-351 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -27,12 +28,12 @@ includes:
 - /usr/share/applications/uxterm.desktop$
 - /usr/share/applications/xterm.desktop$
 - /usr/share/doc$
-- /usr/share/doc/xterm-351$
-- /usr/share/doc/xterm-351/README.bz2$
-- /usr/share/doc/xterm-351/README.i18n.bz2$
-- /usr/share/doc/xterm-351/ctlseqs.txt.bz2$
-- /usr/share/doc/xterm-351/html$
-- /usr/share/doc/xterm-351/html/xterm.log.html$
+- /usr/share/doc/xterm-353$
+- /usr/share/doc/xterm-353/README.bz2$
+- /usr/share/doc/xterm-353/README.i18n.bz2$
+- /usr/share/doc/xterm-353/ctlseqs.txt.bz2$
+- /usr/share/doc/xterm-353/html$
+- /usr/share/doc/xterm-353/html/xterm.log.html$
 - /usr/share/man$
 - /usr/share/man/man1$
 - /usr/share/man/man1/koi8rxterm.1.bz2$
@@ -48,3 +49,6 @@ includes:
 - /usr/share/pixmaps/xterm-color_48x48.xpm$
 - /usr/share/pixmaps/xterm_32x32.xpm$
 - /usr/share/pixmaps/xterm_48x48.xpm$
+env:
+- ORIGINAL_ATOM=x11-terms/xterm
+- ORIGINAL_PACKAGE=x11-terms/xterm-353
