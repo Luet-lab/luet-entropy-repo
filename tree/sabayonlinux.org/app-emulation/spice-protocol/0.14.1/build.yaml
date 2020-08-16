@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i app-emulation/spice-protocol-0.14.0 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -26,10 +27,12 @@ includes:
 - /usr/include/spice-1/spice/stream-device.h$
 - /usr/include/spice-1/spice/types.h$
 - /usr/include/spice-1/spice/vd_agent.h$
-- /usr/include/spice-1/spice/vdi_dev.h$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/spice-protocol-0.14.0$
-- /usr/share/doc/spice-protocol-0.14.0/README.md.bz2$
+- /usr/share/doc/spice-protocol-0.14.1$
+- /usr/share/doc/spice-protocol-0.14.1/README.md.bz2$
 - /usr/share/pkgconfig$
 - /usr/share/pkgconfig/spice-protocol.pc$
+env:
+- ORIGINAL_ATOM=app-emulation/spice-protocol
+- ORIGINAL_PACKAGE=app-emulation/spice-protocol-0.14.1
