@@ -1,0 +1,32 @@
+unpack: true
+steps:
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/python3.6$
+- /usr/lib64/python3.6/site-packages$
+- /usr/lib64/python3.6/site-packages/__pycache__$
+- /usr/lib64/python3.6/site-packages/__pycache__/webcolors.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/__pycache__/webcolors.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/__pycache__/webcolors.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/webcolors-1.11.1-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/webcolors-1.11.1-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/webcolors-1.11.1-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/webcolors-1.11.1-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/webcolors-1.11.1-py3.6.egg-info/not-zip-safe$
+- /usr/lib64/python3.6/site-packages/webcolors-1.11.1-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/webcolors.py$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/webcolors-1.11.1$
+- /usr/share/doc/webcolors-1.11.1/README.rst.bz2$
+env:
+- ORIGINAL_ATOM=dev-python/webcolors
+- ORIGINAL_PACKAGE=dev-python/webcolors-1.11.1
