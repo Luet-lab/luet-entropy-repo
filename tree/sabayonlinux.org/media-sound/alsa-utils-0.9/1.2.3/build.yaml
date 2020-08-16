@@ -25,7 +25,6 @@ includes:
 - /lib/systemd/system/sound.target.wants/alsa-state.service$
 - /lib/udev$
 - /lib/udev/rules.d$
-- /lib/udev/rules.d/89-alsa-ucm.rules$
 - /lib/udev/rules.d/90-alsa-restore.rules$
 - /usr$
 - /usr/bin$
@@ -64,12 +63,12 @@ includes:
 - /usr/share/alsa/ucm$
 - /usr/share/alsa/ucm/.keep_media-sound_alsa-utils-0.9$
 - /usr/share/doc$
-- /usr/share/doc/alsa-utils-1.2.1$
-- /usr/share/doc/alsa-utils-1.2.1/ChangeLog.bz2$
-- /usr/share/doc/alsa-utils-1.2.1/README.aconnect.bz2$
-- /usr/share/doc/alsa-utils-1.2.1/README.aseqnet.bz2$
-- /usr/share/doc/alsa-utils-1.2.1/README.md.bz2$
-- /usr/share/doc/alsa-utils-1.2.1/TODO.bz2$
+- /usr/share/doc/alsa-utils-1.2.3$
+- /usr/share/doc/alsa-utils-1.2.3/ChangeLog.bz2$
+- /usr/share/doc/alsa-utils-1.2.3/README.aconnect.bz2$
+- /usr/share/doc/alsa-utils-1.2.3/README.aseqnet.bz2$
+- /usr/share/doc/alsa-utils-1.2.3/README.md.bz2$
+- /usr/share/doc/alsa-utils-1.2.3/TODO.bz2$
 - /usr/share/locale$
 - /usr/share/locale/de$
 - /usr/share/locale/de/LC_MESSAGES$
@@ -118,4 +117,4 @@ includes:
 - /var/lib/alsa/.keep_media-sound_alsa-utils-0.9$
 env:
 - ORIGINAL_ATOM=media-sound/alsa-utils
-- ORIGINAL_PACKAGE=media-sound/alsa-utils-1.2.1
+- ORIGINAL_PACKAGE=media-sound/alsa-utils-1.2.3
