@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/http-parser-0.8.3 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -10,41 +11,14 @@ includes:
 - /usr$
 - /usr/lib$
 - /usr/lib64$
-- /usr/lib64/python2.7$
-- /usr/lib64/python2.7/site-packages$
-- /usr/lib64/python2.7/site-packages/http_parser$
-- /usr/lib64/python2.7/site-packages/http_parser-0.8.3-py2.7.egg-info$
-- /usr/lib64/python2.7/site-packages/http_parser-0.8.3-py2.7.egg-info/PKG-INFO$
-- /usr/lib64/python2.7/site-packages/http_parser-0.8.3-py2.7.egg-info/SOURCES.txt$
-- /usr/lib64/python2.7/site-packages/http_parser-0.8.3-py2.7.egg-info/dependency_links.txt$
-- /usr/lib64/python2.7/site-packages/http_parser-0.8.3-py2.7.egg-info/top_level.txt$
-- /usr/lib64/python2.7/site-packages/http_parser/__init__.py$
-- /usr/lib64/python2.7/site-packages/http_parser/__init__.pyc$
-- /usr/lib64/python2.7/site-packages/http_parser/__init__.pyo$
-- /usr/lib64/python2.7/site-packages/http_parser/_socketio.py$
-- /usr/lib64/python2.7/site-packages/http_parser/_socketio.pyc$
-- /usr/lib64/python2.7/site-packages/http_parser/_socketio.pyo$
-- /usr/lib64/python2.7/site-packages/http_parser/http.py$
-- /usr/lib64/python2.7/site-packages/http_parser/http.pyc$
-- /usr/lib64/python2.7/site-packages/http_parser/http.pyo$
-- /usr/lib64/python2.7/site-packages/http_parser/parser.so$
-- /usr/lib64/python2.7/site-packages/http_parser/pyparser.py$
-- /usr/lib64/python2.7/site-packages/http_parser/pyparser.pyc$
-- /usr/lib64/python2.7/site-packages/http_parser/pyparser.pyo$
-- /usr/lib64/python2.7/site-packages/http_parser/reader.py$
-- /usr/lib64/python2.7/site-packages/http_parser/reader.pyc$
-- /usr/lib64/python2.7/site-packages/http_parser/reader.pyo$
-- /usr/lib64/python2.7/site-packages/http_parser/util.py$
-- /usr/lib64/python2.7/site-packages/http_parser/util.pyc$
-- /usr/lib64/python2.7/site-packages/http_parser/util.pyo$
 - /usr/lib64/python3.6$
 - /usr/lib64/python3.6/site-packages$
 - /usr/lib64/python3.6/site-packages/http_parser$
-- /usr/lib64/python3.6/site-packages/http_parser-0.8.3-py3.6.egg-info$
-- /usr/lib64/python3.6/site-packages/http_parser-0.8.3-py3.6.egg-info/PKG-INFO$
-- /usr/lib64/python3.6/site-packages/http_parser-0.8.3-py3.6.egg-info/SOURCES.txt$
-- /usr/lib64/python3.6/site-packages/http_parser-0.8.3-py3.6.egg-info/dependency_links.txt$
-- /usr/lib64/python3.6/site-packages/http_parser-0.8.3-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/http_parser-0.9.0-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/http_parser-0.9.0-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/http_parser-0.9.0-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/http_parser-0.9.0-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/http_parser-0.9.0-py3.6.egg-info/top_level.txt$
 - /usr/lib64/python3.6/site-packages/http_parser/__init__.py$
 - /usr/lib64/python3.6/site-packages/http_parser/__pycache__$
 - /usr/lib64/python3.6/site-packages/http_parser/__pycache__/__init__.cpython-36.opt-1.pyc$
@@ -73,5 +47,8 @@ includes:
 - /usr/lib64/python3.6/site-packages/http_parser/util.py$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/http-parser-0.8.3$
-- /usr/share/doc/http-parser-0.8.3/README.rst.bz2$
+- /usr/share/doc/http-parser-0.9.0$
+- /usr/share/doc/http-parser-0.9.0/README.rst.bz2$
+env:
+- ORIGINAL_ATOM=dev-python/http-parser
+- ORIGINAL_PACKAGE=dev-python/http-parser-0.9.0
