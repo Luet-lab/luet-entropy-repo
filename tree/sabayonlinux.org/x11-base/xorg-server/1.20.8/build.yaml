@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i x11-base/xorg-server-1.20.7 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -216,8 +217,8 @@ includes:
 - /usr/share/aclocal$
 - /usr/share/aclocal/xorg-server.m4$
 - /usr/share/doc$
-- /usr/share/doc/xorg-server-1.20.7$
-- /usr/share/doc/xorg-server-1.20.7/xorg.conf.example.bz2$
+- /usr/share/doc/xorg-server-1.20.8$
+- /usr/share/doc/xorg-server-1.20.8/xorg.conf.example.bz2$
 - /usr/share/man$
 - /usr/share/man/man1$
 - /usr/share/man/man1/Xephyr.1.bz2$
@@ -243,3 +244,6 @@ includes:
 - /var/lib$
 - /var/lib/xkb$
 - /var/lib/xkb/README.compiled$
+env:
+- ORIGINAL_ATOM=x11-base/xorg-server
+- ORIGINAL_PACKAGE=x11-base/xorg-server-1.20.8
