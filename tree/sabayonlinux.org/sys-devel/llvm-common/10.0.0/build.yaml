@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i sys-devel/llvm-common-9.0.1 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -10,9 +11,9 @@ includes:
 - /usr$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/llvm-common-9.0.1$
-- /usr/share/doc/llvm-common-9.0.1/README.vim.bz2$
-- /usr/share/doc/llvm-common-9.0.1/vimrc.bz2$
+- /usr/share/doc/llvm-common-10.0.0$
+- /usr/share/doc/llvm-common-10.0.0/README.vim.bz2$
+- /usr/share/doc/llvm-common-10.0.0/vimrc.bz2$
 - /usr/share/vim$
 - /usr/share/vim/vimfiles$
 - /usr/share/vim/vimfiles/ftdetect$
@@ -27,3 +28,6 @@ includes:
 - /usr/share/vim/vimfiles/syntax$
 - /usr/share/vim/vimfiles/syntax/llvm.vim$
 - /usr/share/vim/vimfiles/syntax/tablegen.vim$
+env:
+- ORIGINAL_ATOM=sys-devel/llvm-common
+- ORIGINAL_PACKAGE=sys-devel/llvm-common-10.0.0
