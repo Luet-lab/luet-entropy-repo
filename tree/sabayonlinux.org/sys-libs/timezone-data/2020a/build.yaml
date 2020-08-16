@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i sys-libs/timezone-data-2019c && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -15,14 +16,14 @@ includes:
 - /usr/lib$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/timezone-data-2019c$
-- /usr/share/doc/timezone-data-2019c/CONTRIBUTING.bz2$
-- /usr/share/doc/timezone-data-2019c/NEWS.bz2$
-- /usr/share/doc/timezone-data-2019c/README.bz2$
-- /usr/share/doc/timezone-data-2019c/theory.html$
-- /usr/share/doc/timezone-data-2019c/tz-art.html$
-- /usr/share/doc/timezone-data-2019c/tz-how-to.html$
-- /usr/share/doc/timezone-data-2019c/tz-link.html$
+- /usr/share/doc/timezone-data-2020a$
+- /usr/share/doc/timezone-data-2020a/CONTRIBUTING.bz2$
+- /usr/share/doc/timezone-data-2020a/NEWS.bz2$
+- /usr/share/doc/timezone-data-2020a/README.bz2$
+- /usr/share/doc/timezone-data-2020a/theory.html$
+- /usr/share/doc/timezone-data-2020a/tz-art.html$
+- /usr/share/doc/timezone-data-2020a/tz-how-to.html$
+- /usr/share/doc/timezone-data-2020a/tz-link.html$
 - /usr/share/man$
 - /usr/share/man/man3$
 - /usr/share/man/man3/newctime.3.bz2$
@@ -211,6 +212,7 @@ includes:
 - /usr/share/zoneinfo/America/North_Dakota/Beulah$
 - /usr/share/zoneinfo/America/North_Dakota/Center$
 - /usr/share/zoneinfo/America/North_Dakota/New_Salem$
+- /usr/share/zoneinfo/America/Nuuk$
 - /usr/share/zoneinfo/America/Ojinaga$
 - /usr/share/zoneinfo/America/Panama$
 - /usr/share/zoneinfo/America/Pangnirtung$
@@ -648,3 +650,6 @@ includes:
 - /usr/share/zoneinfo/posixrules$
 - /usr/share/zoneinfo/zone.tab$
 - /usr/share/zoneinfo/zone1970.tab$
+env:
+- ORIGINAL_ATOM=sys-libs/timezone-data
+- ORIGINAL_PACKAGE=sys-libs/timezone-data-2020a
