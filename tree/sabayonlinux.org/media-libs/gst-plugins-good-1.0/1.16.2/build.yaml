@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/gst-plugins-good-1.14.5 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -104,12 +105,12 @@ includes:
 - /usr/lib64/gstreamer-1.0/libgsty4menc.so$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/gst-plugins-good-1.14.5$
-- /usr/share/doc/gst-plugins-good-1.14.5/AUTHORS.bz2$
-- /usr/share/doc/gst-plugins-good-1.14.5/ChangeLog.bz2$
-- /usr/share/doc/gst-plugins-good-1.14.5/NEWS.bz2$
-- /usr/share/doc/gst-plugins-good-1.14.5/README.bz2$
-- /usr/share/doc/gst-plugins-good-1.14.5/RELEASE.bz2$
+- /usr/share/doc/gst-plugins-good-1.16.2$
+- /usr/share/doc/gst-plugins-good-1.16.2/AUTHORS.bz2$
+- /usr/share/doc/gst-plugins-good-1.16.2/ChangeLog.bz2$
+- /usr/share/doc/gst-plugins-good-1.16.2/NEWS.bz2$
+- /usr/share/doc/gst-plugins-good-1.16.2/README.bz2$
+- /usr/share/doc/gst-plugins-good-1.16.2/RELEASE.bz2$
 - /usr/share/gstreamer-1.0$
 - /usr/share/gstreamer-1.0/presets$
 - /usr/share/gstreamer-1.0/presets/GstIirEqualizer10Bands.prs$
@@ -594,3 +595,6 @@ includes:
 - /usr/share/locale/zh_TW$
 - /usr/share/locale/zh_TW/LC_MESSAGES$
 - /usr/share/locale/zh_TW/LC_MESSAGES/gst-plugins-good-1.0.mo$
+env:
+- ORIGINAL_ATOM=media-libs/gst-plugins-good
+- ORIGINAL_PACKAGE=media-libs/gst-plugins-good-1.16.2
