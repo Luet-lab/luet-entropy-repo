@@ -1,0 +1,31 @@
+unpack: true
+steps:
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/python3.6$
+- /usr/lib64/python3.6/site-packages$
+- /usr/lib64/python3.6/site-packages/__pycache__$
+- /usr/lib64/python3.6/site-packages/__pycache__/umsgpack.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/__pycache__/umsgpack.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/__pycache__/umsgpack.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/u_msgpack_python-2.6.0-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/u_msgpack_python-2.6.0-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/u_msgpack_python-2.6.0-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/u_msgpack_python-2.6.0-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/u_msgpack_python-2.6.0-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/umsgpack.py$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/u-msgpack-2.6.0$
+- /usr/share/doc/u-msgpack-2.6.0/README.md.bz2$
+env:
+- ORIGINAL_ATOM=dev-python/u-msgpack
+- ORIGINAL_PACKAGE=dev-python/u-msgpack-2.6.0
