@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/click-7.0 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -9,73 +10,14 @@ requires:
 includes:
 - /usr$
 - /usr/lib64$
-- /usr/lib64/python2.7$
-- /usr/lib64/python2.7/site-packages$
-- /usr/lib64/python2.7/site-packages/Click-7.0-py2.7.egg-info$
-- /usr/lib64/python2.7/site-packages/Click-7.0-py2.7.egg-info/PKG-INFO$
-- /usr/lib64/python2.7/site-packages/Click-7.0-py2.7.egg-info/SOURCES.txt$
-- /usr/lib64/python2.7/site-packages/Click-7.0-py2.7.egg-info/dependency_links.txt$
-- /usr/lib64/python2.7/site-packages/Click-7.0-py2.7.egg-info/top_level.txt$
-- /usr/lib64/python2.7/site-packages/click$
-- /usr/lib64/python2.7/site-packages/click/__init__.py$
-- /usr/lib64/python2.7/site-packages/click/__init__.pyc$
-- /usr/lib64/python2.7/site-packages/click/__init__.pyo$
-- /usr/lib64/python2.7/site-packages/click/_bashcomplete.py$
-- /usr/lib64/python2.7/site-packages/click/_bashcomplete.pyc$
-- /usr/lib64/python2.7/site-packages/click/_bashcomplete.pyo$
-- /usr/lib64/python2.7/site-packages/click/_compat.py$
-- /usr/lib64/python2.7/site-packages/click/_compat.pyc$
-- /usr/lib64/python2.7/site-packages/click/_compat.pyo$
-- /usr/lib64/python2.7/site-packages/click/_termui_impl.py$
-- /usr/lib64/python2.7/site-packages/click/_termui_impl.pyc$
-- /usr/lib64/python2.7/site-packages/click/_termui_impl.pyo$
-- /usr/lib64/python2.7/site-packages/click/_textwrap.py$
-- /usr/lib64/python2.7/site-packages/click/_textwrap.pyc$
-- /usr/lib64/python2.7/site-packages/click/_textwrap.pyo$
-- /usr/lib64/python2.7/site-packages/click/_unicodefun.py$
-- /usr/lib64/python2.7/site-packages/click/_unicodefun.pyc$
-- /usr/lib64/python2.7/site-packages/click/_unicodefun.pyo$
-- /usr/lib64/python2.7/site-packages/click/_winconsole.py$
-- /usr/lib64/python2.7/site-packages/click/_winconsole.pyc$
-- /usr/lib64/python2.7/site-packages/click/_winconsole.pyo$
-- /usr/lib64/python2.7/site-packages/click/core.py$
-- /usr/lib64/python2.7/site-packages/click/core.pyc$
-- /usr/lib64/python2.7/site-packages/click/core.pyo$
-- /usr/lib64/python2.7/site-packages/click/decorators.py$
-- /usr/lib64/python2.7/site-packages/click/decorators.pyc$
-- /usr/lib64/python2.7/site-packages/click/decorators.pyo$
-- /usr/lib64/python2.7/site-packages/click/exceptions.py$
-- /usr/lib64/python2.7/site-packages/click/exceptions.pyc$
-- /usr/lib64/python2.7/site-packages/click/exceptions.pyo$
-- /usr/lib64/python2.7/site-packages/click/formatting.py$
-- /usr/lib64/python2.7/site-packages/click/formatting.pyc$
-- /usr/lib64/python2.7/site-packages/click/formatting.pyo$
-- /usr/lib64/python2.7/site-packages/click/globals.py$
-- /usr/lib64/python2.7/site-packages/click/globals.pyc$
-- /usr/lib64/python2.7/site-packages/click/globals.pyo$
-- /usr/lib64/python2.7/site-packages/click/parser.py$
-- /usr/lib64/python2.7/site-packages/click/parser.pyc$
-- /usr/lib64/python2.7/site-packages/click/parser.pyo$
-- /usr/lib64/python2.7/site-packages/click/termui.py$
-- /usr/lib64/python2.7/site-packages/click/termui.pyc$
-- /usr/lib64/python2.7/site-packages/click/termui.pyo$
-- /usr/lib64/python2.7/site-packages/click/testing.py$
-- /usr/lib64/python2.7/site-packages/click/testing.pyc$
-- /usr/lib64/python2.7/site-packages/click/testing.pyo$
-- /usr/lib64/python2.7/site-packages/click/types.py$
-- /usr/lib64/python2.7/site-packages/click/types.pyc$
-- /usr/lib64/python2.7/site-packages/click/types.pyo$
-- /usr/lib64/python2.7/site-packages/click/utils.py$
-- /usr/lib64/python2.7/site-packages/click/utils.pyc$
-- /usr/lib64/python2.7/site-packages/click/utils.pyo$
 - /usr/lib64/python3.6$
 - /usr/lib64/python3.6/site-packages$
-- /usr/lib64/python3.6/site-packages/Click-7.0-py3.6.egg-info$
-- /usr/lib64/python3.6/site-packages/Click-7.0-py3.6.egg-info/PKG-INFO$
-- /usr/lib64/python3.6/site-packages/Click-7.0-py3.6.egg-info/SOURCES.txt$
-- /usr/lib64/python3.6/site-packages/Click-7.0-py3.6.egg-info/dependency_links.txt$
-- /usr/lib64/python3.6/site-packages/Click-7.0-py3.6.egg-info/top_level.txt$
 - /usr/lib64/python3.6/site-packages/click$
+- /usr/lib64/python3.6/site-packages/click-7.1.2-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/click-7.1.2-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/click-7.1.2-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/click-7.1.2-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/click-7.1.2-py3.6.egg-info/top_level.txt$
 - /usr/lib64/python3.6/site-packages/click/__init__.py$
 - /usr/lib64/python3.6/site-packages/click/__pycache__$
 - /usr/lib64/python3.6/site-packages/click/__pycache__/__init__.cpython-36.opt-1.pyc$
@@ -147,5 +89,8 @@ includes:
 - /usr/lib64/python3.6/site-packages/click/utils.py$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/click-7.0$
-- /usr/share/doc/click-7.0/README.rst.bz2$
+- /usr/share/doc/click-7.1.2$
+- /usr/share/doc/click-7.1.2/README.rst.bz2$
+env:
+- ORIGINAL_ATOM=dev-python/click
+- ORIGINAL_PACKAGE=dev-python/click-7.1.2
