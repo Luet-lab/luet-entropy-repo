@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/libiptcdata-1.0.4-r1 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -27,17 +28,17 @@ includes:
 - /usr/lib64/libiptcdata.so.0.3.3$
 - /usr/lib64/pkgconfig$
 - /usr/lib64/pkgconfig/libiptcdata.pc$
-- /usr/lib64/python2.7$
-- /usr/lib64/python2.7/site-packages$
-- /usr/lib64/python2.7/site-packages/iptcdata.so$
+- /usr/lib64/python3.6$
+- /usr/lib64/python3.6/site-packages$
+- /usr/lib64/python3.6/site-packages/iptcdata.so$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/libiptcdata-1.0.4-r1$
-- /usr/share/doc/libiptcdata-1.0.4-r1/AUTHORS.bz2$
-- /usr/share/doc/libiptcdata-1.0.4-r1/ChangeLog.bz2$
-- /usr/share/doc/libiptcdata-1.0.4-r1/NEWS.bz2$
-- /usr/share/doc/libiptcdata-1.0.4-r1/README.bz2$
-- /usr/share/doc/libiptcdata-1.0.4-r1/TODO$
+- /usr/share/doc/libiptcdata-1.0.5$
+- /usr/share/doc/libiptcdata-1.0.5/AUTHORS.bz2$
+- /usr/share/doc/libiptcdata-1.0.5/ChangeLog.bz2$
+- /usr/share/doc/libiptcdata-1.0.5/NEWS.bz2$
+- /usr/share/doc/libiptcdata-1.0.5/README.bz2$
+- /usr/share/doc/libiptcdata-1.0.5/TODO$
 - /usr/share/gtk-doc$
 - /usr/share/gtk-doc/html$
 - /usr/share/gtk-doc/html/libiptcdata$
@@ -46,12 +47,12 @@ includes:
 - /usr/share/gtk-doc/html/libiptcdata/ch03.html$
 - /usr/share/gtk-doc/html/libiptcdata/home.png$
 - /usr/share/gtk-doc/html/libiptcdata/index.html$
-- /usr/share/gtk-doc/html/libiptcdata/index.sgml$
 - /usr/share/gtk-doc/html/libiptcdata/iptc-about.html$
 - /usr/share/gtk-doc/html/libiptcdata/iptc-commandline.html$
 - /usr/share/gtk-doc/html/libiptcdata/iptc-i18n.html$
 - /usr/share/gtk-doc/html/libiptcdata/iptc-libjpeg.html$
 - /usr/share/gtk-doc/html/libiptcdata/iptc-overview.html$
+- /usr/share/gtk-doc/html/libiptcdata/left-insensitive.png$
 - /usr/share/gtk-doc/html/libiptcdata/left.png$
 - /usr/share/gtk-doc/html/libiptcdata/libiptcdata-data.html$
 - /usr/share/gtk-doc/html/libiptcdata/libiptcdata-dataset.html$
@@ -60,10 +61,11 @@ includes:
 - /usr/share/gtk-doc/html/libiptcdata/libiptcdata-mem.html$
 - /usr/share/gtk-doc/html/libiptcdata/libiptcdata-tag.html$
 - /usr/share/gtk-doc/html/libiptcdata/libiptcdata-utils.html$
-- /usr/share/gtk-doc/html/libiptcdata/libiptcdata.devhelp$
 - /usr/share/gtk-doc/html/libiptcdata/libiptcdata.devhelp2$
+- /usr/share/gtk-doc/html/libiptcdata/right-insensitive.png$
 - /usr/share/gtk-doc/html/libiptcdata/right.png$
 - /usr/share/gtk-doc/html/libiptcdata/style.css$
+- /usr/share/gtk-doc/html/libiptcdata/up-insensitive.png$
 - /usr/share/gtk-doc/html/libiptcdata/up.png$
 - /usr/share/locale$
 - /usr/share/locale/de$
@@ -74,3 +76,6 @@ includes:
 - /usr/share/locale/it/LC_MESSAGES$
 - /usr/share/locale/it/LC_MESSAGES/iptc.mo$
 - /usr/share/locale/it/LC_MESSAGES/libiptcdata.mo$
+env:
+- ORIGINAL_ATOM=media-libs/libiptcdata
+- ORIGINAL_PACKAGE=media-libs/libiptcdata-1.0.5
