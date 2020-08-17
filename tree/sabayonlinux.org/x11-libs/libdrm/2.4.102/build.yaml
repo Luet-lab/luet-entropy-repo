@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i x11-libs/libdrm-2.4.100 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -110,6 +111,9 @@ includes:
 - /usr/lib64/pkgconfig/libdrm_radeon.pc$
 - /usr/lib64/pkgconfig/libkms.pc$
 - /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/libdrm-2.4.102$
+- /usr/share/doc/libdrm-2.4.102/README.rst.bz2$
 - /usr/share/libdrm$
 - /usr/share/libdrm/amdgpu.ids$
 - /usr/share/man$
@@ -124,3 +128,6 @@ includes:
 - /usr/share/man/man7/drm-mm.7$
 - /usr/share/man/man7/drm-ttm.7$
 - /usr/share/man/man7/drm.7.bz2$
+env:
+- ORIGINAL_ATOM=x11-libs/libdrm
+- ORIGINAL_PACKAGE=x11-libs/libdrm-2.4.102
