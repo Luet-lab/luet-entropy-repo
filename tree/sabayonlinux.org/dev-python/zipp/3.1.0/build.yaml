@@ -1,0 +1,32 @@
+unpack: true
+steps:
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib64$
+- /usr/lib64/python3.6$
+- /usr/lib64/python3.6/site-packages$
+- /usr/lib64/python3.6/site-packages/__pycache__$
+- /usr/lib64/python3.6/site-packages/__pycache__/zipp.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/__pycache__/zipp.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/__pycache__/zipp.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/zipp-3.1.0-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/zipp-3.1.0-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/zipp-3.1.0-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/zipp-3.1.0-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/zipp-3.1.0-py3.6.egg-info/requires.txt$
+- /usr/lib64/python3.6/site-packages/zipp-3.1.0-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/zipp.py$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/zipp-3.1.0$
+- /usr/share/doc/zipp-3.1.0/README.rst.bz2$
+env:
+- ORIGINAL_ATOM=dev-python/zipp
+- ORIGINAL_PACKAGE=dev-python/zipp-3.1.0
