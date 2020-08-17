@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/gst-plugins-ugly-1.14.3 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -24,12 +25,12 @@ includes:
 - /usr/lib64/gstreamer-1.0/libgstxingmux.so$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/gst-plugins-ugly-1.14.3$
-- /usr/share/doc/gst-plugins-ugly-1.14.3/AUTHORS.bz2$
-- /usr/share/doc/gst-plugins-ugly-1.14.3/ChangeLog.bz2$
-- /usr/share/doc/gst-plugins-ugly-1.14.3/NEWS.bz2$
-- /usr/share/doc/gst-plugins-ugly-1.14.3/README.bz2$
-- /usr/share/doc/gst-plugins-ugly-1.14.3/RELEASE.bz2$
+- /usr/share/doc/gst-plugins-ugly-1.16.2$
+- /usr/share/doc/gst-plugins-ugly-1.16.2/AUTHORS.bz2$
+- /usr/share/doc/gst-plugins-ugly-1.16.2/ChangeLog.bz2$
+- /usr/share/doc/gst-plugins-ugly-1.16.2/NEWS.bz2$
+- /usr/share/doc/gst-plugins-ugly-1.16.2/README.bz2$
+- /usr/share/doc/gst-plugins-ugly-1.16.2/RELEASE.bz2$
 - /usr/share/gtk-doc$
 - /usr/share/gtk-doc/html$
 - /usr/share/gtk-doc/html/gst-plugins-ugly-plugins-1.0$
@@ -168,6 +169,9 @@ includes:
 - /usr/share/locale/sv$
 - /usr/share/locale/sv/LC_MESSAGES$
 - /usr/share/locale/sv/LC_MESSAGES/gst-plugins-ugly-1.0.mo$
+- /usr/share/locale/ta$
+- /usr/share/locale/ta/LC_MESSAGES$
+- /usr/share/locale/ta/LC_MESSAGES/gst-plugins-ugly-1.0.mo$
 - /usr/share/locale/tr$
 - /usr/share/locale/tr/LC_MESSAGES$
 - /usr/share/locale/tr/LC_MESSAGES/gst-plugins-ugly-1.0.mo$
@@ -180,3 +184,6 @@ includes:
 - /usr/share/locale/zh_CN$
 - /usr/share/locale/zh_CN/LC_MESSAGES$
 - /usr/share/locale/zh_CN/LC_MESSAGES/gst-plugins-ugly-1.0.mo$
+env:
+- ORIGINAL_ATOM=media-libs/gst-plugins-ugly
+- ORIGINAL_PACKAGE=media-libs/gst-plugins-ugly-1.16.2
