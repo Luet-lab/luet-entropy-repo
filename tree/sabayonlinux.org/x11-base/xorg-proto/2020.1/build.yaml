@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i x11-base/xorg-proto-2019.2 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -19,9 +20,6 @@ includes:
 - /usr/include/X11$
 - /usr/include/X11/DECkeysym.h$
 - /usr/include/X11/HPkeysym.h$
-- /usr/include/X11/PM$
-- /usr/include/X11/PM/PM.h$
-- /usr/include/X11/PM/PMproto.h$
 - /usr/include/X11/Sunkeysym.h$
 - /usr/include/X11/X.h$
 - /usr/include/X11/XF86keysym.h$
@@ -128,8 +126,6 @@ includes:
 - /usr/include/X11/extensions/xf86dgaconst.h$
 - /usr/include/X11/extensions/xf86dgaproto.h$
 - /usr/include/X11/extensions/xf86dgastr.h$
-- /usr/include/X11/extensions/xf86misc.h$
-- /usr/include/X11/extensions/xf86mscstr.h$
 - /usr/include/X11/extensions/xf86vm.h$
 - /usr/include/X11/extensions/xf86vmproto.h$
 - /usr/include/X11/extensions/xf86vmstr.h$
@@ -139,13 +135,6 @@ includes:
 - /usr/include/X11/extensions/xtestext1const.h$
 - /usr/include/X11/extensions/xtestext1proto.h$
 - /usr/include/X11/extensions/xtestproto.h$
-- /usr/include/X11/extensions/xtrapbits.h$
-- /usr/include/X11/extensions/xtrapddmi.h$
-- /usr/include/X11/extensions/xtrapdi.h$
-- /usr/include/X11/extensions/xtrapemacros.h$
-- /usr/include/X11/extensions/xtraplib.h$
-- /usr/include/X11/extensions/xtraplibp.h$
-- /usr/include/X11/extensions/xtrapproto.h$
 - /usr/include/X11/fonts$
 - /usr/include/X11/fonts/FS.h$
 - /usr/include/X11/fonts/FSproto.h$
@@ -157,15 +146,16 @@ includes:
 - /usr/include/X11/keysymdef.h$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/xorg-proto-2019.2$
-- /usr/share/doc/xorg-proto-2019.2/AUTHORS.bz2$
-- /usr/share/doc/xorg-proto-2019.2/README.md.bz2$
+- /usr/share/doc/xorg-proto-2020.1$
+- /usr/share/doc/xorg-proto-2020.1/AUTHORS.bz2$
+- /usr/share/doc/xorg-proto-2020.1/README.md.bz2$
 - /usr/share/pkgconfig$
 - /usr/share/pkgconfig/applewmproto.pc$
 - /usr/share/pkgconfig/bigreqsproto.pc$
 - /usr/share/pkgconfig/compositeproto.pc$
 - /usr/share/pkgconfig/damageproto.pc$
 - /usr/share/pkgconfig/dmxproto.pc$
+- /usr/share/pkgconfig/dpmsproto.pc$
 - /usr/share/pkgconfig/dri2proto.pc$
 - /usr/share/pkgconfig/dri3proto.pc$
 - /usr/share/pkgconfig/fixesproto.pc$
@@ -179,15 +169,15 @@ includes:
 - /usr/share/pkgconfig/renderproto.pc$
 - /usr/share/pkgconfig/resourceproto.pc$
 - /usr/share/pkgconfig/scrnsaverproto.pc$
-- /usr/share/pkgconfig/trapproto.pc$
 - /usr/share/pkgconfig/videoproto.pc$
 - /usr/share/pkgconfig/xcmiscproto.pc$
 - /usr/share/pkgconfig/xextproto.pc$
 - /usr/share/pkgconfig/xf86bigfontproto.pc$
 - /usr/share/pkgconfig/xf86dgaproto.pc$
 - /usr/share/pkgconfig/xf86driproto.pc$
-- /usr/share/pkgconfig/xf86miscproto.pc$
 - /usr/share/pkgconfig/xf86vidmodeproto.pc$
 - /usr/share/pkgconfig/xineramaproto.pc$
 - /usr/share/pkgconfig/xproto.pc$
-- /usr/share/pkgconfig/xproxymngproto.pc$
+env:
+- ORIGINAL_ATOM=x11-base/xorg-proto
+- ORIGINAL_PACKAGE=x11-base/xorg-proto-2020.1
