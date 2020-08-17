@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/qtconsole-4.6.0 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -18,13 +19,13 @@ includes:
 - /usr/lib64/python3.6$
 - /usr/lib64/python3.6/site-packages$
 - /usr/lib64/python3.6/site-packages/qtconsole$
-- /usr/lib64/python3.6/site-packages/qtconsole-4.6.0-py3.6.egg-info$
-- /usr/lib64/python3.6/site-packages/qtconsole-4.6.0-py3.6.egg-info/PKG-INFO$
-- /usr/lib64/python3.6/site-packages/qtconsole-4.6.0-py3.6.egg-info/SOURCES.txt$
-- /usr/lib64/python3.6/site-packages/qtconsole-4.6.0-py3.6.egg-info/dependency_links.txt$
-- /usr/lib64/python3.6/site-packages/qtconsole-4.6.0-py3.6.egg-info/entry_points.txt$
-- /usr/lib64/python3.6/site-packages/qtconsole-4.6.0-py3.6.egg-info/requires.txt$
-- /usr/lib64/python3.6/site-packages/qtconsole-4.6.0-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/qtconsole-4.7.5-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/qtconsole-4.7.5-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/qtconsole-4.7.5-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/qtconsole-4.7.5-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/qtconsole-4.7.5-py3.6.egg-info/entry_points.txt$
+- /usr/lib64/python3.6/site-packages/qtconsole-4.7.5-py3.6.egg-info/requires.txt$
+- /usr/lib64/python3.6/site-packages/qtconsole-4.7.5-py3.6.egg-info/top_level.txt$
 - /usr/lib64/python3.6/site-packages/qtconsole/__init__.py$
 - /usr/lib64/python3.6/site-packages/qtconsole/__main__.py$
 - /usr/lib64/python3.6/site-packages/qtconsole/__pycache__$
@@ -100,12 +101,6 @@ includes:
 - /usr/lib64/python3.6/site-packages/qtconsole/__pycache__/qstringhelpers.cpython-36.opt-1.pyc$
 - /usr/lib64/python3.6/site-packages/qtconsole/__pycache__/qstringhelpers.cpython-36.opt-2.pyc$
 - /usr/lib64/python3.6/site-packages/qtconsole/__pycache__/qstringhelpers.cpython-36.pyc$
-- /usr/lib64/python3.6/site-packages/qtconsole/__pycache__/qt.cpython-36.opt-1.pyc$
-- /usr/lib64/python3.6/site-packages/qtconsole/__pycache__/qt.cpython-36.opt-2.pyc$
-- /usr/lib64/python3.6/site-packages/qtconsole/__pycache__/qt.cpython-36.pyc$
-- /usr/lib64/python3.6/site-packages/qtconsole/__pycache__/qt_loaders.cpython-36.opt-1.pyc$
-- /usr/lib64/python3.6/site-packages/qtconsole/__pycache__/qt_loaders.cpython-36.opt-2.pyc$
-- /usr/lib64/python3.6/site-packages/qtconsole/__pycache__/qt_loaders.cpython-36.pyc$
 - /usr/lib64/python3.6/site-packages/qtconsole/__pycache__/qtconsoleapp.cpython-36.opt-1.pyc$
 - /usr/lib64/python3.6/site-packages/qtconsole/__pycache__/qtconsoleapp.cpython-36.opt-2.pyc$
 - /usr/lib64/python3.6/site-packages/qtconsole/__pycache__/qtconsoleapp.cpython-36.pyc$
@@ -152,8 +147,6 @@ includes:
 - /usr/lib64/python3.6/site-packages/qtconsole/manager.py$
 - /usr/lib64/python3.6/site-packages/qtconsole/pygments_highlighter.py$
 - /usr/lib64/python3.6/site-packages/qtconsole/qstringhelpers.py$
-- /usr/lib64/python3.6/site-packages/qtconsole/qt.py$
-- /usr/lib64/python3.6/site-packages/qtconsole/qt_loaders.py$
 - /usr/lib64/python3.6/site-packages/qtconsole/qtconsoleapp.py$
 - /usr/lib64/python3.6/site-packages/qtconsole/resources$
 - /usr/lib64/python3.6/site-packages/qtconsole/resources/icon$
@@ -169,9 +162,6 @@ includes:
 - /usr/lib64/python3.6/site-packages/qtconsole/tests/__pycache__/__init__.cpython-36.opt-1.pyc$
 - /usr/lib64/python3.6/site-packages/qtconsole/tests/__pycache__/__init__.cpython-36.opt-2.pyc$
 - /usr/lib64/python3.6/site-packages/qtconsole/tests/__pycache__/__init__.cpython-36.pyc$
-- /usr/lib64/python3.6/site-packages/qtconsole/tests/__pycache__/test_00_console_widget.cpython-36.opt-1.pyc$
-- /usr/lib64/python3.6/site-packages/qtconsole/tests/__pycache__/test_00_console_widget.cpython-36.opt-2.pyc$
-- /usr/lib64/python3.6/site-packages/qtconsole/tests/__pycache__/test_00_console_widget.cpython-36.pyc$
 - /usr/lib64/python3.6/site-packages/qtconsole/tests/__pycache__/test_ansi_code_processor.cpython-36.opt-1.pyc$
 - /usr/lib64/python3.6/site-packages/qtconsole/tests/__pycache__/test_ansi_code_processor.cpython-36.opt-2.pyc$
 - /usr/lib64/python3.6/site-packages/qtconsole/tests/__pycache__/test_ansi_code_processor.cpython-36.pyc$
@@ -196,7 +186,6 @@ includes:
 - /usr/lib64/python3.6/site-packages/qtconsole/tests/__pycache__/test_styles.cpython-36.opt-1.pyc$
 - /usr/lib64/python3.6/site-packages/qtconsole/tests/__pycache__/test_styles.cpython-36.opt-2.pyc$
 - /usr/lib64/python3.6/site-packages/qtconsole/tests/__pycache__/test_styles.cpython-36.pyc$
-- /usr/lib64/python3.6/site-packages/qtconsole/tests/test_00_console_widget.py$
 - /usr/lib64/python3.6/site-packages/qtconsole/tests/test_ansi_code_processor.py$
 - /usr/lib64/python3.6/site-packages/qtconsole/tests/test_app.py$
 - /usr/lib64/python3.6/site-packages/qtconsole/tests/test_comms.py$
@@ -209,5 +198,8 @@ includes:
 - /usr/lib64/python3.6/site-packages/qtconsole/util.py$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/qtconsole-4.6.0$
-- /usr/share/doc/qtconsole-4.6.0/README.md.bz2$
+- /usr/share/doc/qtconsole-4.7.5$
+- /usr/share/doc/qtconsole-4.7.5/README.md.bz2$
+env:
+- ORIGINAL_ATOM=dev-python/qtconsole
+- ORIGINAL_PACKAGE=dev-python/qtconsole-4.7.5
