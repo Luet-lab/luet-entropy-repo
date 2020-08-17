@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/gstreamer-1.14.5 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -26,6 +27,7 @@ includes:
 - /usr/include/gstreamer-1.0/gst/base/gstbasesrc.h$
 - /usr/include/gstreamer-1.0/gst/base/gstbasetransform.h$
 - /usr/include/gstreamer-1.0/gst/base/gstbitreader.h$
+- /usr/include/gstreamer-1.0/gst/base/gstbitwriter.h$
 - /usr/include/gstreamer-1.0/gst/base/gstbytereader.h$
 - /usr/include/gstreamer-1.0/gst/base/gstbytewriter.h$
 - /usr/include/gstreamer-1.0/gst/base/gstcollectpads.h$
@@ -149,19 +151,19 @@ includes:
 - /usr/lib/gstreamer-1.0/libgstcoretracers.so$
 - /usr/lib/libgstbase-1.0.so$
 - /usr/lib/libgstbase-1.0.so.0$
-- /usr/lib/libgstbase-1.0.so.0.1405.0$
+- /usr/lib/libgstbase-1.0.so.0.1602.0$
 - /usr/lib/libgstcheck-1.0.so$
 - /usr/lib/libgstcheck-1.0.so.0$
-- /usr/lib/libgstcheck-1.0.so.0.1405.0$
+- /usr/lib/libgstcheck-1.0.so.0.1602.0$
 - /usr/lib/libgstcontroller-1.0.so$
 - /usr/lib/libgstcontroller-1.0.so.0$
-- /usr/lib/libgstcontroller-1.0.so.0.1405.0$
+- /usr/lib/libgstcontroller-1.0.so.0.1602.0$
 - /usr/lib/libgstnet-1.0.so$
 - /usr/lib/libgstnet-1.0.so.0$
-- /usr/lib/libgstnet-1.0.so.0.1405.0$
+- /usr/lib/libgstnet-1.0.so.0.1602.0$
 - /usr/lib/libgstreamer-1.0.so$
 - /usr/lib/libgstreamer-1.0.so.0$
-- /usr/lib/libgstreamer-1.0.so.0.1405.0$
+- /usr/lib/libgstreamer-1.0.so.0.1602.0$
 - /usr/lib/pkgconfig$
 - /usr/lib/pkgconfig/gstreamer-1.0.pc$
 - /usr/lib/pkgconfig/gstreamer-base-1.0.pc$
@@ -183,19 +185,19 @@ includes:
 - /usr/lib64/gstreamer-1.0/libgstcoretracers.so$
 - /usr/lib64/libgstbase-1.0.so$
 - /usr/lib64/libgstbase-1.0.so.0$
-- /usr/lib64/libgstbase-1.0.so.0.1405.0$
+- /usr/lib64/libgstbase-1.0.so.0.1602.0$
 - /usr/lib64/libgstcheck-1.0.so$
 - /usr/lib64/libgstcheck-1.0.so.0$
-- /usr/lib64/libgstcheck-1.0.so.0.1405.0$
+- /usr/lib64/libgstcheck-1.0.so.0.1602.0$
 - /usr/lib64/libgstcontroller-1.0.so$
 - /usr/lib64/libgstcontroller-1.0.so.0$
-- /usr/lib64/libgstcontroller-1.0.so.0.1405.0$
+- /usr/lib64/libgstcontroller-1.0.so.0.1602.0$
 - /usr/lib64/libgstnet-1.0.so$
 - /usr/lib64/libgstnet-1.0.so.0$
-- /usr/lib64/libgstnet-1.0.so.0.1405.0$
+- /usr/lib64/libgstnet-1.0.so.0.1602.0$
 - /usr/lib64/libgstreamer-1.0.so$
 - /usr/lib64/libgstreamer-1.0.so.0$
-- /usr/lib64/libgstreamer-1.0.so.0.1405.0$
+- /usr/lib64/libgstreamer-1.0.so.0.1602.0$
 - /usr/lib64/pkgconfig$
 - /usr/lib64/pkgconfig/gstreamer-1.0.pc$
 - /usr/lib64/pkgconfig/gstreamer-base-1.0.pc$
@@ -212,19 +214,30 @@ includes:
 - /usr/share/bash-completion/helpers$
 - /usr/share/bash-completion/helpers/gst$
 - /usr/share/doc$
-- /usr/share/doc/gstreamer-1.14.5$
-- /usr/share/doc/gstreamer-1.14.5/AUTHORS.bz2$
-- /usr/share/doc/gstreamer-1.14.5/ChangeLog.bz2$
-- /usr/share/doc/gstreamer-1.14.5/MAINTAINERS.bz2$
-- /usr/share/doc/gstreamer-1.14.5/NEWS.bz2$
-- /usr/share/doc/gstreamer-1.14.5/README.bz2$
-- /usr/share/doc/gstreamer-1.14.5/RELEASE.bz2$
+- /usr/share/doc/gstreamer-1.16.2$
+- /usr/share/doc/gstreamer-1.16.2/AUTHORS.bz2$
+- /usr/share/doc/gstreamer-1.16.2/ChangeLog.bz2$
+- /usr/share/doc/gstreamer-1.16.2/MAINTAINERS.bz2$
+- /usr/share/doc/gstreamer-1.16.2/NEWS.bz2$
+- /usr/share/doc/gstreamer-1.16.2/README.bz2$
+- /usr/share/doc/gstreamer-1.16.2/RELEASE.bz2$
+- /usr/share/gdb$
+- /usr/share/gdb/auto-load$
+- /usr/share/gdb/auto-load/usr$
+- /usr/share/gdb/auto-load/usr/lib$
+- /usr/share/gdb/auto-load/usr/lib/libgstreamer-1.0.so.0.1602.0-gdb.py$
+- /usr/share/gdb/auto-load/usr/lib64$
+- /usr/share/gdb/auto-load/usr/lib64/libgstreamer-1.0.so.0.1602.0-gdb.py$
 - /usr/share/gir-1.0$
 - /usr/share/gir-1.0/Gst-1.0.gir$
 - /usr/share/gir-1.0/GstBase-1.0.gir$
 - /usr/share/gir-1.0/GstCheck-1.0.gir$
 - /usr/share/gir-1.0/GstController-1.0.gir$
 - /usr/share/gir-1.0/GstNet-1.0.gir$
+- /usr/share/gstreamer-1.0$
+- /usr/share/gstreamer-1.0/gdb$
+- /usr/share/gstreamer-1.0/gdb/glib_gobject_helper.py$
+- /usr/share/gstreamer-1.0/gdb/gst_gdb.py$
 - /usr/share/gtk-doc$
 - /usr/share/gtk-doc/html$
 - /usr/share/gtk-doc/html/gstreamer-1.0$
@@ -356,6 +369,7 @@ includes:
 - /usr/share/gtk-doc/html/gstreamer-libs-1.0/gstreamer-hierarchy.html$
 - /usr/share/gtk-doc/html/gstreamer-libs-1.0/gstreamer-libs-1.0.devhelp2$
 - /usr/share/gtk-doc/html/gstreamer-libs-1.0/gstreamer-libs-GstBitReader.html$
+- /usr/share/gtk-doc/html/gstreamer-libs-1.0/gstreamer-libs-GstBitWriter.html$
 - /usr/share/gtk-doc/html/gstreamer-libs-1.0/gstreamer-libs-GstBufferStraw.html$
 - /usr/share/gtk-doc/html/gstreamer-libs-1.0/gstreamer-libs-GstByteReader.html$
 - /usr/share/gtk-doc/html/gstreamer-libs-1.0/gstreamer-libs-GstByteWriter.html$
@@ -549,3 +563,6 @@ includes:
 - /usr/share/man/man1/gst-launch-1.0.1.bz2$
 - /usr/share/man/man1/gst-stats-1.0.1.bz2$
 - /usr/share/man/man1/gst-typefind-1.0.1.bz2$
+env:
+- ORIGINAL_ATOM=media-libs/gstreamer
+- ORIGINAL_PACKAGE=media-libs/gstreamer-1.16.2
