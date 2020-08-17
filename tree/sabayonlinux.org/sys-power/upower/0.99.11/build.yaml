@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i sys-power/upower-0.99.9-r1 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -10,9 +11,6 @@ includes:
 - /etc$
 - /etc/UPower$
 - /etc/UPower/UPower.conf$
-- /etc/dbus-1$
-- /etc/dbus-1/system.d$
-- /etc/dbus-1/system.d/org.freedesktop.UPower.conf$
 - /lib$
 - /lib/systemd$
 - /lib/systemd/system$
@@ -21,6 +19,7 @@ includes:
 - /lib/udev/rules.d$
 - /lib/udev/rules.d/95-upower-csr.rules$
 - /lib/udev/rules.d/95-upower-hid.rules$
+- /lib/udev/rules.d/95-upower-hidpp.rules$
 - /lib/udev/rules.d/95-upower-wup.rules$
 - /usr$
 - /usr/bin$
@@ -57,12 +56,14 @@ includes:
 - /usr/share/dbus-1/interfaces/org.freedesktop.UPower.xml$
 - /usr/share/dbus-1/system-services$
 - /usr/share/dbus-1/system-services/org.freedesktop.UPower.service$
+- /usr/share/dbus-1/system.d$
+- /usr/share/dbus-1/system.d/org.freedesktop.UPower.conf$
 - /usr/share/doc$
-- /usr/share/doc/upower-0.99.9-r1$
-- /usr/share/doc/upower-0.99.9-r1/AUTHORS$
-- /usr/share/doc/upower-0.99.9-r1/HACKING.bz2$
-- /usr/share/doc/upower-0.99.9-r1/NEWS.bz2$
-- /usr/share/doc/upower-0.99.9-r1/README.bz2$
+- /usr/share/doc/upower-0.99.11$
+- /usr/share/doc/upower-0.99.11/AUTHORS$
+- /usr/share/doc/upower-0.99.11/HACKING.bz2$
+- /usr/share/doc/upower-0.99.11/NEWS.bz2$
+- /usr/share/doc/upower-0.99.11/README.bz2$
 - /usr/share/gir-1.0$
 - /usr/share/gir-1.0/UPowerGlib-1.0.gir$
 - /usr/share/locale$
@@ -89,3 +90,6 @@ includes:
 - /var/lib$
 - /var/lib/upower$
 - /var/lib/upower/.keep_sys-power_upower-0$
+env:
+- ORIGINAL_ATOM=sys-power/upower
+- ORIGINAL_PACKAGE=sys-power/upower-0.99.11
