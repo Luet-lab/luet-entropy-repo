@@ -1,0 +1,84 @@
+unpack: true
+steps:
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib64$
+- /usr/lib64/python3.6$
+- /usr/lib64/python3.6/site-packages$
+- /usr/lib64/python3.6/site-packages/psycopg2$
+- /usr/lib64/python3.6/site-packages/psycopg2-2.8.5-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/psycopg2-2.8.5-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/psycopg2-2.8.5-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/psycopg2-2.8.5-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/psycopg2-2.8.5-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/psycopg2/__init__.py$
+- /usr/lib64/python3.6/site-packages/psycopg2/__pycache__$
+- /usr/lib64/python3.6/site-packages/psycopg2/__pycache__/__init__.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/psycopg2/__pycache__/__init__.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/psycopg2/__pycache__/__init__.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/psycopg2/__pycache__/_ipaddress.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/psycopg2/__pycache__/_ipaddress.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/psycopg2/__pycache__/_ipaddress.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/psycopg2/__pycache__/_json.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/psycopg2/__pycache__/_json.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/psycopg2/__pycache__/_json.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/psycopg2/__pycache__/_lru_cache.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/psycopg2/__pycache__/_lru_cache.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/psycopg2/__pycache__/_lru_cache.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/psycopg2/__pycache__/_range.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/psycopg2/__pycache__/_range.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/psycopg2/__pycache__/_range.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/psycopg2/__pycache__/compat.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/psycopg2/__pycache__/compat.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/psycopg2/__pycache__/compat.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/psycopg2/__pycache__/errorcodes.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/psycopg2/__pycache__/errorcodes.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/psycopg2/__pycache__/errorcodes.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/psycopg2/__pycache__/errors.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/psycopg2/__pycache__/errors.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/psycopg2/__pycache__/errors.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/psycopg2/__pycache__/extensions.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/psycopg2/__pycache__/extensions.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/psycopg2/__pycache__/extensions.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/psycopg2/__pycache__/extras.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/psycopg2/__pycache__/extras.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/psycopg2/__pycache__/extras.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/psycopg2/__pycache__/pool.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/psycopg2/__pycache__/pool.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/psycopg2/__pycache__/pool.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/psycopg2/__pycache__/sql.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/psycopg2/__pycache__/sql.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/psycopg2/__pycache__/sql.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/psycopg2/__pycache__/tz.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/psycopg2/__pycache__/tz.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/psycopg2/__pycache__/tz.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/psycopg2/_ipaddress.py$
+- /usr/lib64/python3.6/site-packages/psycopg2/_json.py$
+- /usr/lib64/python3.6/site-packages/psycopg2/_lru_cache.py$
+- /usr/lib64/python3.6/site-packages/psycopg2/_psycopg.cpython-36m-x86_64-linux-gnu.so$
+- /usr/lib64/python3.6/site-packages/psycopg2/_range.py$
+- /usr/lib64/python3.6/site-packages/psycopg2/compat.py$
+- /usr/lib64/python3.6/site-packages/psycopg2/errorcodes.py$
+- /usr/lib64/python3.6/site-packages/psycopg2/errors.py$
+- /usr/lib64/python3.6/site-packages/psycopg2/extensions.py$
+- /usr/lib64/python3.6/site-packages/psycopg2/extras.py$
+- /usr/lib64/python3.6/site-packages/psycopg2/pool.py$
+- /usr/lib64/python3.6/site-packages/psycopg2/sql.py$
+- /usr/lib64/python3.6/site-packages/psycopg2/tz.py$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/psycopg-2.8.5$
+- /usr/share/doc/psycopg-2.8.5/AUTHORS.bz2$
+- /usr/share/doc/psycopg-2.8.5/NEWS.bz2$
+- /usr/share/doc/psycopg-2.8.5/README.rst.bz2$
+env:
+- ORIGINAL_ATOM=dev-python/psycopg
+- ORIGINAL_PACKAGE=dev-python/psycopg-2.8.5
