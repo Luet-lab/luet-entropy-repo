@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i media-plugins/gst-plugins-mpg123-1.14.5 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -14,3 +15,6 @@ includes:
 - /usr/lib64$
 - /usr/lib64/gstreamer-1.0$
 - /usr/lib64/gstreamer-1.0/libgstmpg123.so$
+env:
+- ORIGINAL_ATOM=media-plugins/gst-plugins-mpg123
+- ORIGINAL_PACKAGE=media-plugins/gst-plugins-mpg123-1.16.2
