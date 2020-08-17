@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i app-admin/eselect-1.4.15 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -18,15 +19,15 @@ includes:
 - /usr/share/bash-completion/completions$
 - /usr/share/bash-completion/completions/eselect$
 - /usr/share/doc$
-- /usr/share/doc/eselect-1.4.15$
-- /usr/share/doc/eselect-1.4.15/AUTHORS.bz2$
-- /usr/share/doc/eselect-1.4.15/ChangeLog.bz2$
-- /usr/share/doc/eselect-1.4.15/NEWS.bz2$
-- /usr/share/doc/eselect-1.4.15/README.bz2$
-- /usr/share/doc/eselect-1.4.15/TODO.bz2$
-- /usr/share/doc/eselect-1.4.15/developer-guide.txt.bz2$
-- /usr/share/doc/eselect-1.4.15/release-guide.txt.bz2$
-- /usr/share/doc/eselect-1.4.15/user-guide.txt.bz2$
+- /usr/share/doc/eselect-1.4.16$
+- /usr/share/doc/eselect-1.4.16/AUTHORS.bz2$
+- /usr/share/doc/eselect-1.4.16/ChangeLog.bz2$
+- /usr/share/doc/eselect-1.4.16/NEWS.bz2$
+- /usr/share/doc/eselect-1.4.16/README.bz2$
+- /usr/share/doc/eselect-1.4.16/TODO.bz2$
+- /usr/share/doc/eselect-1.4.16/developer-guide.txt.bz2$
+- /usr/share/doc/eselect-1.4.16/release-guide.txt.bz2$
+- /usr/share/doc/eselect-1.4.16/user-guide.txt.bz2$
 - /usr/share/eselect$
 - /usr/share/eselect/libs$
 - /usr/share/eselect/libs/config.bash$
@@ -71,3 +72,6 @@ includes:
 - /var/lib/gentoo$
 - /var/lib/gentoo/news$
 - /var/lib/gentoo/news/.keep_app-admin_eselect-0$
+env:
+- ORIGINAL_ATOM=app-admin/eselect
+- ORIGINAL_PACKAGE=app-admin/eselect-1.4.16
