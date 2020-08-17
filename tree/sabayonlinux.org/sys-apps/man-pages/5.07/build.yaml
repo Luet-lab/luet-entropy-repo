@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i sys-apps/man-pages-5.04 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -10,12 +11,12 @@ includes:
 - /usr$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/man-pages-5.04$
-- /usr/share/doc/man-pages-5.04/Changes.bz2$
-- /usr/share/doc/man-pages-5.04/Changes.old.bz2$
-- /usr/share/doc/man-pages-5.04/README.Gentoo.bz2$
-- /usr/share/doc/man-pages-5.04/README.bz2$
-- /usr/share/doc/man-pages-5.04/man-pages-5.04.Announce.bz2$
+- /usr/share/doc/man-pages-5.07$
+- /usr/share/doc/man-pages-5.07/Changes.bz2$
+- /usr/share/doc/man-pages-5.07/Changes.old.bz2$
+- /usr/share/doc/man-pages-5.07/README.Gentoo.bz2$
+- /usr/share/doc/man-pages-5.07/README.bz2$
+- /usr/share/doc/man-pages-5.07/man-pages-5.07.Announce.bz2$
 - /usr/share/man$
 - /usr/share/man/man1$
 - /usr/share/man/man1/getent.1.bz2$
@@ -64,6 +65,7 @@ includes:
 - /usr/share/man/man2/chown.2.bz2$
 - /usr/share/man/man2/chown32.2$
 - /usr/share/man/man2/chroot.2.bz2$
+- /usr/share/man/man2/clock_adjtime.2$
 - /usr/share/man/man2/clock_getres.2.bz2$
 - /usr/share/man/man2/clock_gettime.2$
 - /usr/share/man/man2/clock_nanosleep.2.bz2$
@@ -203,9 +205,9 @@ includes:
 - /usr/share/man/man2/ioctl_ficlone.2$
 - /usr/share/man/man2/ioctl_ficlonerange.2.bz2$
 - /usr/share/man/man2/ioctl_fideduperange.2.bz2$
+- /usr/share/man/man2/ioctl_fslabel.2.bz2$
 - /usr/share/man/man2/ioctl_getfsmap.2.bz2$
 - /usr/share/man/man2/ioctl_iflags.2.bz2$
-- /usr/share/man/man2/ioctl_list.2.bz2$
 - /usr/share/man/man2/ioctl_ns.2.bz2$
 - /usr/share/man/man2/ioctl_tty.2.bz2$
 - /usr/share/man/man2/ioctl_userfaultfd.2.bz2$
@@ -287,6 +289,7 @@ includes:
 - /usr/share/man/man2/open.2.bz2$
 - /usr/share/man/man2/open_by_handle_at.2.bz2$
 - /usr/share/man/man2/openat.2$
+- /usr/share/man/man2/openat2.2.bz2$
 - /usr/share/man/man2/outb.2.bz2$
 - /usr/share/man/man2/outb_p.2$
 - /usr/share/man/man2/outl.2$
@@ -304,6 +307,7 @@ includes:
 - /usr/share/man/man2/perfmonctl.2.bz2$
 - /usr/share/man/man2/personality.2.bz2$
 - /usr/share/man/man2/phys.2$
+- /usr/share/man/man2/pidfd_getfd.2.bz2$
 - /usr/share/man/man2/pidfd_open.2.bz2$
 - /usr/share/man/man2/pidfd_send_signal.2.bz2$
 - /usr/share/man/man2/pipe.2.bz2$
@@ -2387,6 +2391,7 @@ includes:
 - /usr/share/man/man7/termio.7.bz2$
 - /usr/share/man/man7/thread-keyring.7.bz2$
 - /usr/share/man/man7/time.7.bz2$
+- /usr/share/man/man7/time_namespaces.7.bz2$
 - /usr/share/man/man7/tis-620.7$
 - /usr/share/man/man7/udp.7.bz2$
 - /usr/share/man/man7/udplite.7.bz2$
@@ -2418,3 +2423,6 @@ includes:
 - /usr/share/man/man8/tzselect.8.bz2$
 - /usr/share/man/man8/zdump.8.bz2$
 - /usr/share/man/man8/zic.8.bz2$
+env:
+- ORIGINAL_ATOM=sys-apps/man-pages
+- ORIGINAL_PACKAGE=sys-apps/man-pages-5.07
