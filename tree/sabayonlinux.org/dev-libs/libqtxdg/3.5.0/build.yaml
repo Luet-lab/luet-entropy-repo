@@ -1,13 +1,16 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-libs/libqtxdg-3.3.1 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
   version: "9999"
 includes:
 - /usr$
+- /usr/bin$
+- /usr/bin/qtxdg-mat$
 - /usr/include$
 - /usr/include/qt5xdg$
 - /usr/include/qt5xdg/XdgAction$
@@ -17,6 +20,7 @@ includes:
 - /usr/include/qt5xdg/XdgIcon$
 - /usr/include/qt5xdg/XdgMenu$
 - /usr/include/qt5xdg/XdgMenuWidget$
+- /usr/include/qt5xdg/XdgMimeApps$
 - /usr/include/qt5xdg/XdgMimeType$
 - /usr/include/qt5xdg/XmlHelper$
 - /usr/include/qt5xdg/xdgaction.h$
@@ -27,22 +31,23 @@ includes:
 - /usr/include/qt5xdg/xdgmacros.h$
 - /usr/include/qt5xdg/xdgmenu.h$
 - /usr/include/qt5xdg/xdgmenuwidget.h$
+- /usr/include/qt5xdg/xdgmimeapps.h$
 - /usr/include/qt5xdg/xdgmimetype.h$
 - /usr/include/qt5xdg/xmlhelper.h$
 - /usr/include/qt5xdgiconloader$
-- /usr/include/qt5xdgiconloader/3.3.1$
-- /usr/include/qt5xdgiconloader/3.3.1/private$
-- /usr/include/qt5xdgiconloader/3.3.1/private/xdgiconloader$
-- /usr/include/qt5xdgiconloader/3.3.1/private/xdgiconloader/xdgiconloader_p.h$
+- /usr/include/qt5xdgiconloader/3.5.0$
+- /usr/include/qt5xdgiconloader/3.5.0/private$
+- /usr/include/qt5xdgiconloader/3.5.0/private/xdgiconloader$
+- /usr/include/qt5xdgiconloader/3.5.0/private/xdgiconloader/xdgiconloader_p.h$
 - /usr/include/qt5xdgiconloader/xdgiconloader_export.h$
 - /usr/lib$
 - /usr/lib64$
 - /usr/lib64/libQt5Xdg.so$
 - /usr/lib64/libQt5Xdg.so.3$
-- /usr/lib64/libQt5Xdg.so.3.3.1$
+- /usr/lib64/libQt5Xdg.so.3.5.0$
 - /usr/lib64/libQt5XdgIconLoader.so$
 - /usr/lib64/libQt5XdgIconLoader.so.3$
-- /usr/lib64/libQt5XdgIconLoader.so.3.3.1$
+- /usr/lib64/libQt5XdgIconLoader.so.3.5.0$
 - /usr/lib64/pkgconfig$
 - /usr/lib64/pkgconfig/Qt5Xdg.pc$
 - /usr/lib64/pkgconfig/Qt5XdgIconLoader.pc$
@@ -63,7 +68,10 @@ includes:
 - /usr/share/cmake/qt5xdgiconloader/qt5xdgiconloader-targets-gentoo.cmake$
 - /usr/share/cmake/qt5xdgiconloader/qt5xdgiconloader-targets.cmake$
 - /usr/share/doc$
-- /usr/share/doc/libqtxdg-3.3.1$
-- /usr/share/doc/libqtxdg-3.3.1/AUTHORS.bz2$
-- /usr/share/doc/libqtxdg-3.3.1/CHANGELOG.bz2$
-- /usr/share/doc/libqtxdg-3.3.1/README.md.bz2$
+- /usr/share/doc/libqtxdg-3.5.0$
+- /usr/share/doc/libqtxdg-3.5.0/AUTHORS.bz2$
+- /usr/share/doc/libqtxdg-3.5.0/CHANGELOG.bz2$
+- /usr/share/doc/libqtxdg-3.5.0/README.md.bz2$
+env:
+- ORIGINAL_ATOM=dev-libs/libqtxdg
+- ORIGINAL_PACKAGE=dev-libs/libqtxdg-3.5.0
