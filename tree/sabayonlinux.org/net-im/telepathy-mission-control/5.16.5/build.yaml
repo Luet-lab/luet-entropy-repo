@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i net-im/telepathy-mission-control-5.16.4 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -40,11 +41,11 @@ includes:
 - /usr/share/dbus-1/services/org.freedesktop.Telepathy.AccountManager.service$
 - /usr/share/dbus-1/services/org.freedesktop.Telepathy.MissionControl5.service$
 - /usr/share/doc$
-- /usr/share/doc/telepathy-mission-control-5.16.4$
-- /usr/share/doc/telepathy-mission-control-5.16.4/AUTHORS.bz2$
-- /usr/share/doc/telepathy-mission-control-5.16.4/ChangeLog.bz2$
-- /usr/share/doc/telepathy-mission-control-5.16.4/NEWS.bz2$
-- /usr/share/doc/telepathy-mission-control-5.16.4/README.bz2$
+- /usr/share/doc/telepathy-mission-control-5.16.5$
+- /usr/share/doc/telepathy-mission-control-5.16.5/AUTHORS.bz2$
+- /usr/share/doc/telepathy-mission-control-5.16.5/ChangeLog.bz2$
+- /usr/share/doc/telepathy-mission-control-5.16.5/NEWS.bz2$
+- /usr/share/doc/telepathy-mission-control-5.16.5/README.bz2$
 - /usr/share/glib-2.0$
 - /usr/share/glib-2.0/schemas$
 - /usr/share/glib-2.0/schemas/im.telepathy.MissionControl.FromEmpathy.gschema.xml$
@@ -81,3 +82,6 @@ includes:
 - /usr/share/man/man1/mc-wait-for-name.1.bz2$
 - /usr/share/man/man8$
 - /usr/share/man/man8/mission-control-5.8.bz2$
+env:
+- ORIGINAL_ATOM=net-im/telepathy-mission-control
+- ORIGINAL_PACKAGE=net-im/telepathy-mission-control-5.16.5
