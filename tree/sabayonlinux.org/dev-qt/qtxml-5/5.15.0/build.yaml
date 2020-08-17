@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-qt/qtxml-5.14.1 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -11,11 +12,13 @@ includes:
 - /usr/include$
 - /usr/include/qt5$
 - /usr/include/qt5/QtXml$
-- /usr/include/qt5/QtXml/5.14.1$
-- /usr/include/qt5/QtXml/5.14.1/QtXml$
-- /usr/include/qt5/QtXml/5.14.1/QtXml/private$
-- /usr/include/qt5/QtXml/5.14.1/QtXml/private/qtxml-config_p.h$
-- /usr/include/qt5/QtXml/5.14.1/QtXml/private/qxml_p.h$
+- /usr/include/qt5/QtXml/5.15.0$
+- /usr/include/qt5/QtXml/5.15.0/QtXml$
+- /usr/include/qt5/QtXml/5.15.0/QtXml/private$
+- /usr/include/qt5/QtXml/5.15.0/QtXml/private/qdom_p.h$
+- /usr/include/qt5/QtXml/5.15.0/QtXml/private/qdomhelpers_p.h$
+- /usr/include/qt5/QtXml/5.15.0/QtXml/private/qtxml-config_p.h$
+- /usr/include/qt5/QtXml/5.15.0/QtXml/private/qxml_p.h$
 - /usr/include/qt5/QtXml/QDomAttr$
 - /usr/include/qt5/QtXml/QDomCDATASection$
 - /usr/include/qt5/QtXml/QDomCharacterData$
@@ -64,8 +67,8 @@ includes:
 - /usr/lib64/libQt5Xml.prl$
 - /usr/lib64/libQt5Xml.so$
 - /usr/lib64/libQt5Xml.so.5$
-- /usr/lib64/libQt5Xml.so.5.14$
-- /usr/lib64/libQt5Xml.so.5.14.1$
+- /usr/lib64/libQt5Xml.so.5.15$
+- /usr/lib64/libQt5Xml.so.5.15.0$
 - /usr/lib64/pkgconfig$
 - /usr/lib64/pkgconfig/Qt5Xml.pc$
 - /usr/lib64/qt5$
@@ -75,3 +78,6 @@ includes:
 - /usr/lib64/qt5/mkspecs/modules$
 - /usr/lib64/qt5/mkspecs/modules/qt_lib_xml.pri$
 - /usr/lib64/qt5/mkspecs/modules/qt_lib_xml_private.pri$
+env:
+- ORIGINAL_ATOM=dev-qt/qtxml
+- ORIGINAL_PACKAGE=dev-qt/qtxml-5.15.0
