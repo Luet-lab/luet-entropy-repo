@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i sys-boot/plymouth-0.9.4-r1 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -10,6 +11,8 @@ includes:
 - /bin$
 - /bin/plymouth$
 - /etc$
+- /etc/logrotate.d$
+- /etc/logrotate.d/bootlog$
 - /etc/plymouth$
 - /lib$
 - /lib/systemd$
@@ -69,8 +72,11 @@ includes:
 - /usr/include/plymouth-1/ply-splash-core/ply-text-step-bar.h$
 - /usr/include/plymouth-1/ply-splash-graphics$
 - /usr/include/plymouth-1/ply-splash-graphics/ply-animation.h$
+- /usr/include/plymouth-1/ply-splash-graphics/ply-capslock-icon.h$
 - /usr/include/plymouth-1/ply-splash-graphics/ply-entry.h$
 - /usr/include/plymouth-1/ply-splash-graphics/ply-image.h$
+- /usr/include/plymouth-1/ply-splash-graphics/ply-keymap-icon.h$
+- /usr/include/plymouth-1/ply-splash-graphics/ply-keymap-metadata.h$
 - /usr/include/plymouth-1/ply-splash-graphics/ply-label-plugin.h$
 - /usr/include/plymouth-1/ply-splash-graphics/ply-label.h$
 - /usr/include/plymouth-1/ply-splash-graphics/ply-progress-animation.h$
@@ -82,6 +88,7 @@ includes:
 - /usr/include/plymouth-1/ply/ply-command-parser.h$
 - /usr/include/plymouth-1/ply/ply-event-loop.h$
 - /usr/include/plymouth-1/ply/ply-hashtable.h$
+- /usr/include/plymouth-1/ply/ply-i18n.h$
 - /usr/include/plymouth-1/ply/ply-key-file.h$
 - /usr/include/plymouth-1/ply/ply-list.h$
 - /usr/include/plymouth-1/ply/ply-logger.h$
@@ -95,20 +102,20 @@ includes:
 - /usr/lib64$
 - /usr/lib64/libply-boot-client.la$
 - /usr/lib64/libply-boot-client.so$
-- /usr/lib64/libply-boot-client.so.4$
-- /usr/lib64/libply-boot-client.so.4.0.0$
+- /usr/lib64/libply-boot-client.so.5$
+- /usr/lib64/libply-boot-client.so.5.0.0$
 - /usr/lib64/libply-splash-core.la$
 - /usr/lib64/libply-splash-core.so$
-- /usr/lib64/libply-splash-core.so.4$
-- /usr/lib64/libply-splash-core.so.4.0.0$
+- /usr/lib64/libply-splash-core.so.5$
+- /usr/lib64/libply-splash-core.so.5.0.0$
 - /usr/lib64/libply-splash-graphics.la$
 - /usr/lib64/libply-splash-graphics.so$
-- /usr/lib64/libply-splash-graphics.so.4$
-- /usr/lib64/libply-splash-graphics.so.4.0.0$
+- /usr/lib64/libply-splash-graphics.so.5$
+- /usr/lib64/libply-splash-graphics.so.5.0.0$
 - /usr/lib64/libply.la$
 - /usr/lib64/libply.so$
-- /usr/lib64/libply.so.4$
-- /usr/lib64/libply.so.4.0.0$
+- /usr/lib64/libply.so.5$
+- /usr/lib64/libply.so.5.0.0$
 - /usr/lib64/pkgconfig$
 - /usr/lib64/pkgconfig/ply-boot-client.pc$
 - /usr/lib64/pkgconfig/ply-splash-core.pc$
@@ -129,8 +136,6 @@ includes:
 - /usr/lib64/plymouth/space-flares.so$
 - /usr/lib64/plymouth/text.la$
 - /usr/lib64/plymouth/text.so$
-- /usr/lib64/plymouth/throbgress.la$
-- /usr/lib64/plymouth/throbgress.so$
 - /usr/lib64/plymouth/tribar.la$
 - /usr/lib64/plymouth/tribar.so$
 - /usr/lib64/plymouth/two-step.la$
@@ -145,13 +150,50 @@ includes:
 - /usr/sbin/plymouthd$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/plymouth-0.9.4-r1$
-- /usr/share/doc/plymouth-0.9.4-r1/AUTHORS$
-- /usr/share/doc/plymouth-0.9.4-r1/ChangeLog$
-- /usr/share/doc/plymouth-0.9.4-r1/NEWS$
-- /usr/share/doc/plymouth-0.9.4-r1/README.bz2$
-- /usr/share/doc/plymouth-0.9.4-r1/README.gentoo$
-- /usr/share/doc/plymouth-0.9.4-r1/TODO.bz2$
+- /usr/share/doc/plymouth-0.9.5$
+- /usr/share/doc/plymouth-0.9.5/AUTHORS$
+- /usr/share/doc/plymouth-0.9.5/ChangeLog$
+- /usr/share/doc/plymouth-0.9.5/NEWS$
+- /usr/share/doc/plymouth-0.9.5/README.bz2$
+- /usr/share/doc/plymouth-0.9.5/README.gentoo$
+- /usr/share/doc/plymouth-0.9.5/TODO.bz2$
+- /usr/share/locale$
+- /usr/share/locale/cs$
+- /usr/share/locale/cs/LC_MESSAGES$
+- /usr/share/locale/cs/LC_MESSAGES/plymouth.mo$
+- /usr/share/locale/de$
+- /usr/share/locale/de/LC_MESSAGES$
+- /usr/share/locale/de/LC_MESSAGES/plymouth.mo$
+- /usr/share/locale/es$
+- /usr/share/locale/es/LC_MESSAGES$
+- /usr/share/locale/es/LC_MESSAGES/plymouth.mo$
+- /usr/share/locale/fr$
+- /usr/share/locale/fr/LC_MESSAGES$
+- /usr/share/locale/fr/LC_MESSAGES/plymouth.mo$
+- /usr/share/locale/hu$
+- /usr/share/locale/hu/LC_MESSAGES$
+- /usr/share/locale/hu/LC_MESSAGES/plymouth.mo$
+- /usr/share/locale/nl$
+- /usr/share/locale/nl/LC_MESSAGES$
+- /usr/share/locale/nl/LC_MESSAGES/plymouth.mo$
+- /usr/share/locale/pl$
+- /usr/share/locale/pl/LC_MESSAGES$
+- /usr/share/locale/pl/LC_MESSAGES/plymouth.mo$
+- /usr/share/locale/sr$
+- /usr/share/locale/sr/LC_MESSAGES$
+- /usr/share/locale/sr/LC_MESSAGES/plymouth.mo$
+- /usr/share/locale/tr$
+- /usr/share/locale/tr/LC_MESSAGES$
+- /usr/share/locale/tr/LC_MESSAGES/plymouth.mo$
+- /usr/share/locale/uk$
+- /usr/share/locale/uk/LC_MESSAGES$
+- /usr/share/locale/uk/LC_MESSAGES/plymouth.mo$
+- /usr/share/locale/zh_CN$
+- /usr/share/locale/zh_CN/LC_MESSAGES$
+- /usr/share/locale/zh_CN/LC_MESSAGES/plymouth.mo$
+- /usr/share/locale/zh_TW$
+- /usr/share/locale/zh_TW/LC_MESSAGES$
+- /usr/share/locale/zh_TW/LC_MESSAGES/plymouth.mo$
 - /usr/share/man$
 - /usr/share/man/man1$
 - /usr/share/man/man1/plymouth-set-default-theme.1.bz2$
@@ -162,6 +204,8 @@ includes:
 - /usr/share/plymouth$
 - /usr/share/plymouth/plymouthd.defaults$
 - /usr/share/plymouth/themes$
+- /usr/share/plymouth/themes/bgrt$
+- /usr/share/plymouth/themes/bgrt/bgrt.plymouth$
 - /usr/share/plymouth/themes/details$
 - /usr/share/plymouth/themes/details/details.plymouth$
 - /usr/share/plymouth/themes/fade-in$
@@ -247,9 +291,14 @@ includes:
 - /usr/share/plymouth/themes/solar/solar.plymouth$
 - /usr/share/plymouth/themes/solar/star.png$
 - /usr/share/plymouth/themes/spinfinity$
+- /usr/share/plymouth/themes/spinfinity/animation-0001.png$
 - /usr/share/plymouth/themes/spinfinity/box.png$
 - /usr/share/plymouth/themes/spinfinity/bullet.png$
+- /usr/share/plymouth/themes/spinfinity/capslock.png$
 - /usr/share/plymouth/themes/spinfinity/entry.png$
+- /usr/share/plymouth/themes/spinfinity/header-image.png$
+- /usr/share/plymouth/themes/spinfinity/keyboard.png$
+- /usr/share/plymouth/themes/spinfinity/keymap-render.png$
 - /usr/share/plymouth/themes/spinfinity/lock.png$
 - /usr/share/plymouth/themes/spinfinity/spinfinity.plymouth$
 - /usr/share/plymouth/themes/spinfinity/throbber-00.png$
@@ -323,10 +372,11 @@ includes:
 - /usr/share/plymouth/themes/spinner/animation-0034.png$
 - /usr/share/plymouth/themes/spinner/animation-0035.png$
 - /usr/share/plymouth/themes/spinner/animation-0036.png$
-- /usr/share/plymouth/themes/spinner/background-tile.png$
-- /usr/share/plymouth/themes/spinner/box.png$
 - /usr/share/plymouth/themes/spinner/bullet.png$
+- /usr/share/plymouth/themes/spinner/capslock.png$
 - /usr/share/plymouth/themes/spinner/entry.png$
+- /usr/share/plymouth/themes/spinner/keyboard.png$
+- /usr/share/plymouth/themes/spinner/keymap-render.png$
 - /usr/share/plymouth/themes/spinner/lock.png$
 - /usr/share/plymouth/themes/spinner/spinner.plymouth$
 - /usr/share/plymouth/themes/spinner/throbber-0001.png$
@@ -341,6 +391,24 @@ includes:
 - /usr/share/plymouth/themes/spinner/throbber-0010.png$
 - /usr/share/plymouth/themes/spinner/throbber-0011.png$
 - /usr/share/plymouth/themes/spinner/throbber-0012.png$
+- /usr/share/plymouth/themes/spinner/throbber-0013.png$
+- /usr/share/plymouth/themes/spinner/throbber-0014.png$
+- /usr/share/plymouth/themes/spinner/throbber-0015.png$
+- /usr/share/plymouth/themes/spinner/throbber-0016.png$
+- /usr/share/plymouth/themes/spinner/throbber-0017.png$
+- /usr/share/plymouth/themes/spinner/throbber-0018.png$
+- /usr/share/plymouth/themes/spinner/throbber-0019.png$
+- /usr/share/plymouth/themes/spinner/throbber-0020.png$
+- /usr/share/plymouth/themes/spinner/throbber-0021.png$
+- /usr/share/plymouth/themes/spinner/throbber-0022.png$
+- /usr/share/plymouth/themes/spinner/throbber-0023.png$
+- /usr/share/plymouth/themes/spinner/throbber-0024.png$
+- /usr/share/plymouth/themes/spinner/throbber-0025.png$
+- /usr/share/plymouth/themes/spinner/throbber-0026.png$
+- /usr/share/plymouth/themes/spinner/throbber-0027.png$
+- /usr/share/plymouth/themes/spinner/throbber-0028.png$
+- /usr/share/plymouth/themes/spinner/throbber-0029.png$
+- /usr/share/plymouth/themes/spinner/throbber-0030.png$
 - /usr/share/plymouth/themes/text$
 - /usr/share/plymouth/themes/text/text.plymouth$
 - /usr/share/plymouth/themes/tribar$
@@ -350,3 +418,6 @@ includes:
 - /var/lib/plymouth$
 - /var/spool$
 - /var/spool/plymouth$
+env:
+- ORIGINAL_ATOM=sys-boot/plymouth
+- ORIGINAL_PACKAGE=sys-boot/plymouth-0.9.5
