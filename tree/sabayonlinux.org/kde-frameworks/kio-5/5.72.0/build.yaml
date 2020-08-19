@@ -297,19 +297,19 @@ includes:
 - /usr/lib64/cmake/KF5KIO/KF5KIOTargets.cmake$
 - /usr/lib64/libKF5KIOCore.so$
 - /usr/lib64/libKF5KIOCore.so.5$
-- /usr/lib64/libKF5KIOCore.so.5.71.0$
+- /usr/lib64/libKF5KIOCore.so.5.72.0$
 - /usr/lib64/libKF5KIOFileWidgets.so$
 - /usr/lib64/libKF5KIOFileWidgets.so.5$
-- /usr/lib64/libKF5KIOFileWidgets.so.5.71.0$
+- /usr/lib64/libKF5KIOFileWidgets.so.5.72.0$
 - /usr/lib64/libKF5KIOGui.so$
 - /usr/lib64/libKF5KIOGui.so.5$
-- /usr/lib64/libKF5KIOGui.so.5.71.0$
+- /usr/lib64/libKF5KIOGui.so.5.72.0$
 - /usr/lib64/libKF5KIONTLM.so$
 - /usr/lib64/libKF5KIONTLM.so.5$
-- /usr/lib64/libKF5KIONTLM.so.5.71.0$
+- /usr/lib64/libKF5KIONTLM.so.5.72.0$
 - /usr/lib64/libKF5KIOWidgets.so$
 - /usr/lib64/libKF5KIOWidgets.so.5$
-- /usr/lib64/libKF5KIOWidgets.so.5.71.0$
+- /usr/lib64/libKF5KIOWidgets.so.5.72.0$
 - /usr/lib64/libexec$
 - /usr/lib64/libexec/kf5$
 - /usr/lib64/libexec/kf5/kio_http_cache_cleaner$
@@ -369,8 +369,8 @@ includes:
 - /usr/share/dbus-1/services/org.kde.kpasswdserver.service$
 - /usr/share/dbus-1/services/org.kde.kssld5.service$
 - /usr/share/doc$
-- /usr/share/doc/kio-5.71.0$
-- /usr/share/doc/kio-5.71.0/README.md.bz2$
+- /usr/share/doc/kio-5.72.0$
+- /usr/share/doc/kio-5.72.0/README.md.bz2$
 - /usr/share/help$
 - /usr/share/help/ca$
 - /usr/share/help/ca/kcontrol5$
@@ -1073,12 +1073,12 @@ includes:
 - /usr/share/kservices5/searchproviders/amazon_mp3.desktop$
 - /usr/share/kservices5/searchproviders/amg.desktop$
 - /usr/share/kservices5/searchproviders/archpkg.desktop$
+- /usr/share/kservices5/searchproviders/archwiki.desktop$
 - /usr/share/kservices5/searchproviders/backports.desktop$
 - /usr/share/kservices5/searchproviders/baidu.desktop$
 - /usr/share/kservices5/searchproviders/beolingus.desktop$
 - /usr/share/kservices5/searchproviders/bing.desktop$
-- /usr/share/kservices5/searchproviders/bugft.desktop$
-- /usr/share/kservices5/searchproviders/bugno.desktop$
+- /usr/share/kservices5/searchproviders/bug.desktop$
 - /usr/share/kservices5/searchproviders/call.desktop$
 - /usr/share/kservices5/searchproviders/cia.desktop$
 - /usr/share/kservices5/searchproviders/citeseer.desktop$
@@ -1089,6 +1089,7 @@ includes:
 - /usr/share/kservices5/searchproviders/de2en.desktop$
 - /usr/share/kservices5/searchproviders/de2fr.desktop$
 - /usr/share/kservices5/searchproviders/deb.desktop$
+- /usr/share/kservices5/searchproviders/deepl.desktop$
 - /usr/share/kservices5/searchproviders/dictfr.desktop$
 - /usr/share/kservices5/searchproviders/docbook.desktop$
 - /usr/share/kservices5/searchproviders/doi.desktop$
@@ -1466,4 +1467,4 @@ includes:
 - /usr/share/qlogging-categories5/kio.categories$
 env:
 - ORIGINAL_ATOM=kde-frameworks/kio
-- ORIGINAL_PACKAGE=kde-frameworks/kio-5.71.0
+- ORIGINAL_PACKAGE=kde-frameworks/kio-5.72.0
