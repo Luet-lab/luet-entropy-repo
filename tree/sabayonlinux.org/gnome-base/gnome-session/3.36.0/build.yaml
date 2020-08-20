@@ -60,11 +60,11 @@ includes:
 - /usr/share/applications$
 - /usr/share/applications/gnome-mimeapps.list$
 - /usr/share/doc$
-- /usr/share/doc/gnome-session-3.34.2$
-- /usr/share/doc/gnome-session-3.34.2/AUTHORS.bz2$
-- /usr/share/doc/gnome-session-3.34.2/ChangeLog.bz2$
-- /usr/share/doc/gnome-session-3.34.2/NEWS.bz2$
-- /usr/share/doc/gnome-session-3.34.2/README.bz2$
+- /usr/share/doc/gnome-session-3.36.0$
+- /usr/share/doc/gnome-session-3.36.0/AUTHORS.bz2$
+- /usr/share/doc/gnome-session-3.36.0/ChangeLog.bz2$
+- /usr/share/doc/gnome-session-3.36.0/NEWS.bz2$
+- /usr/share/doc/gnome-session-3.36.0/README.bz2$
 - /usr/share/glib-2.0$
 - /usr/share/glib-2.0/schemas$
 - /usr/share/glib-2.0/schemas/org.gnome.SessionManager.gschema.xml$
@@ -422,4 +422,4 @@ includes:
 - /usr/share/xsessions/gnome.desktop$
 env:
 - ORIGINAL_ATOM=gnome-base/gnome-session
-- ORIGINAL_PACKAGE=gnome-base/gnome-session-3.34.2
+- ORIGINAL_PACKAGE=gnome-base/gnome-session-3.36.0
