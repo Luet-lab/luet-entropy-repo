@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i sys-process/cronie-1.5.4-r1 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -35,12 +36,12 @@ includes:
 - /usr/sbin/crond$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/cronie-1.5.4-r1$
-- /usr/share/doc/cronie-1.5.4-r1/AUTHORS.bz2$
-- /usr/share/doc/cronie-1.5.4-r1/ChangeLog.bz2$
-- /usr/share/doc/cronie-1.5.4-r1/NEWS.bz2$
-- /usr/share/doc/cronie-1.5.4-r1/README.anacron.bz2$
-- /usr/share/doc/cronie-1.5.4-r1/README.bz2$
+- /usr/share/doc/cronie-1.5.5$
+- /usr/share/doc/cronie-1.5.5/AUTHORS.bz2$
+- /usr/share/doc/cronie-1.5.5/ChangeLog.bz2$
+- /usr/share/doc/cronie-1.5.5/NEWS.bz2$
+- /usr/share/doc/cronie-1.5.5/README.anacron.bz2$
+- /usr/share/doc/cronie-1.5.5/README.bz2$
 - /usr/share/man$
 - /usr/share/man/man1$
 - /usr/share/man/man1/cronnext.1.bz2$
@@ -59,3 +60,6 @@ includes:
 - /var/spool/cron$
 - /var/spool/cron/crontabs$
 - /var/spool/cron/crontabs/.keep_sys-process_cronie-0$
+env:
+- ORIGINAL_ATOM=sys-process/cronie
+- ORIGINAL_PACKAGE=sys-process/cronie-1.5.5
