@@ -11,8 +11,8 @@ includes:
 - /usr$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/breeze-icons-5.71.0$
-- /usr/share/doc/breeze-icons-5.71.0/README.md.bz2$
+- /usr/share/doc/breeze-icons-5.72.0$
+- /usr/share/doc/breeze-icons-5.72.0/README.md.bz2$
 - /usr/share/icons$
 - /usr/share/icons/breeze$
 - /usr/share/icons/breeze-dark$
@@ -1493,6 +1493,11 @@ includes:
 - /usr/share/icons/breeze-dark/actions/16/usermenu-delete.svg$
 - /usr/share/icons/breeze-dark/actions/16/usermenu-down.svg$
 - /usr/share/icons/breeze-dark/actions/16/usermenu-up.svg$
+- /usr/share/icons/breeze-dark/actions/16/vcs-commit-cvs-cervisia.svg$
+- /usr/share/icons/breeze-dark/actions/16/vcs-diff-cvs-cervisia.svg$
+- /usr/share/icons/breeze-dark/actions/16/vcs-remove-cvs-cervisia.svg$
+- /usr/share/icons/breeze-dark/actions/16/vcs-status-cvs-cervisia.svg$
+- /usr/share/icons/breeze-dark/actions/16/vcs-update-cvs-cervisia.svg$
 - /usr/share/icons/breeze-dark/actions/16/verb.svg$
 - /usr/share/icons/breeze-dark/actions/16/verbatim.svg$
 - /usr/share/icons/breeze-dark/actions/16/videoclip-amarok.svg$
@@ -1673,6 +1678,7 @@ includes:
 - /usr/share/icons/breeze-dark/actions/16/zoom-select.svg$
 - /usr/share/icons/breeze-dark/actions/16/zoom.svg$
 - /usr/share/icons/breeze-dark/actions/16@2x$
+- /usr/share/icons/breeze-dark/actions/16@3x$
 - /usr/share/icons/breeze-dark/actions/22$
 - /usr/share/icons/breeze-dark/actions/22/CVnamespace.svg$
 - /usr/share/icons/breeze-dark/actions/22/Info-amarok.svg$
@@ -3498,6 +3504,7 @@ includes:
 - /usr/share/icons/breeze-dark/actions/22/zoom-select.svg$
 - /usr/share/icons/breeze-dark/actions/22/zoom.svg$
 - /usr/share/icons/breeze-dark/actions/22@2x$
+- /usr/share/icons/breeze-dark/actions/22@3x$
 - /usr/share/icons/breeze-dark/actions/24$
 - /usr/share/icons/breeze-dark/actions/24/CVnamespace.svg$
 - /usr/share/icons/breeze-dark/actions/24/Info-amarok.svg$
@@ -5594,6 +5601,7 @@ includes:
 - /usr/share/icons/breeze-dark/actions/32/zoom-select.svg$
 - /usr/share/icons/breeze-dark/actions/32/zoom.svg$
 - /usr/share/icons/breeze-dark/actions/32@2x$
+- /usr/share/icons/breeze-dark/actions/32@3x$
 - /usr/share/icons/breeze-dark/actions/64$
 - /usr/share/icons/breeze-dark/actions/64/media-default-album.svg$
 - /usr/share/icons/breeze-dark/actions/64/media-default-track.svg$
@@ -5805,6 +5813,7 @@ includes:
 - /usr/share/icons/breeze-dark/animations/16$
 - /usr/share/icons/breeze-dark/animations/16/process-working.svg$
 - /usr/share/icons/breeze-dark/animations/16@2x$
+- /usr/share/icons/breeze-dark/animations/16@3x$
 - /usr/share/icons/breeze-dark/animations/22$
 - /usr/share/icons/breeze-dark/animations/22/process-working.svg$
 - /usr/share/icons/breeze-dark/applets$
@@ -5989,6 +5998,7 @@ includes:
 - /usr/share/icons/breeze-dark/apps/16/virt-manager.svg$
 - /usr/share/icons/breeze-dark/apps/16/vvave.svg$
 - /usr/share/icons/breeze-dark/apps/16@2x$
+- /usr/share/icons/breeze-dark/apps/16@3x$
 - /usr/share/icons/breeze-dark/apps/22$
 - /usr/share/icons/breeze-dark/apps/22/accessories-text-editor.svg$
 - /usr/share/icons/breeze-dark/apps/22/akregator.svg$
@@ -6012,6 +6022,7 @@ includes:
 - /usr/share/icons/breeze-dark/apps/22/utilities-terminal.svg$
 - /usr/share/icons/breeze-dark/apps/22/virt-manager.svg$
 - /usr/share/icons/breeze-dark/apps/22@2x$
+- /usr/share/icons/breeze-dark/apps/22@3x$
 - /usr/share/icons/breeze-dark/apps/32$
 - /usr/share/icons/breeze-dark/apps/32/accessories-text-editor.svg$
 - /usr/share/icons/breeze-dark/apps/32/hotspot.svg$
@@ -6087,6 +6098,7 @@ includes:
 - /usr/share/icons/breeze-dark/apps/48/calligrawords.svg$
 - /usr/share/icons/breeze-dark/apps/48/cantata.svg$
 - /usr/share/icons/breeze-dark/apps/48/cantor.svg$
+- /usr/share/icons/breeze-dark/apps/48/cervisia.svg$
 - /usr/share/icons/breeze-dark/apps/48/choqok.svg$
 - /usr/share/icons/breeze-dark/apps/48/claws-mail.svg$
 - /usr/share/icons/breeze-dark/apps/48/clementine.svg$
@@ -6468,6 +6480,7 @@ includes:
 - /usr/share/icons/breeze-dark/devices/16/uav-quadcopter.svg$
 - /usr/share/icons/breeze-dark/devices/16/uav.svg$
 - /usr/share/icons/breeze-dark/devices/16@2x$
+- /usr/share/icons/breeze-dark/devices/16@3x$
 - /usr/share/icons/breeze-dark/devices/22$
 - /usr/share/icons/breeze-dark/devices/22/audio-card.svg$
 - /usr/share/icons/breeze-dark/devices/22/audio-headphones.svg$
@@ -6528,6 +6541,7 @@ includes:
 - /usr/share/icons/breeze-dark/devices/22/uav.svg$
 - /usr/share/icons/breeze-dark/devices/22/video-television.svg$
 - /usr/share/icons/breeze-dark/devices/22@2x$
+- /usr/share/icons/breeze-dark/devices/22@3x$
 - /usr/share/icons/breeze-dark/devices/24$
 - /usr/share/icons/breeze-dark/devices/24/audio-card.svg$
 - /usr/share/icons/breeze-dark/devices/24/audio-headphones.svg$
@@ -6731,6 +6745,7 @@ includes:
 - /usr/share/icons/breeze-dark/emblems/16/vcs-removed.svg$
 - /usr/share/icons/breeze-dark/emblems/16/vcs-update-required.svg$
 - /usr/share/icons/breeze-dark/emblems/16@2x$
+- /usr/share/icons/breeze-dark/emblems/16@3x$
 - /usr/share/icons/breeze-dark/emblems/22$
 - /usr/share/icons/breeze-dark/emblems/22/checkmark.svg$
 - /usr/share/icons/breeze-dark/emblems/22/emblem-added.svg$
@@ -6764,6 +6779,7 @@ includes:
 - /usr/share/icons/breeze-dark/emblems/22/vcs-removed.svg$
 - /usr/share/icons/breeze-dark/emblems/22/vcs-update-required.svg$
 - /usr/share/icons/breeze-dark/emblems/22@2x$
+- /usr/share/icons/breeze-dark/emblems/22@3x$
 - /usr/share/icons/breeze-dark/emblems/8$
 - /usr/share/icons/breeze-dark/emblems/8/checkmark.svg$
 - /usr/share/icons/breeze-dark/emblems/8/emblem-added.svg$
@@ -6845,6 +6861,7 @@ includes:
 - /usr/share/icons/breeze-dark/emotes/22/face-yawn.svg$
 - /usr/share/icons/breeze-dark/emotes/22/food-cake.svg$
 - /usr/share/icons/breeze-dark/emotes/22@2x$
+- /usr/share/icons/breeze-dark/emotes/22@3x$
 - /usr/share/icons/breeze-dark/index.theme$
 - /usr/share/icons/breeze-dark/mimetypes$
 - /usr/share/icons/breeze-dark/mimetypes/16$
@@ -7318,6 +7335,7 @@ includes:
 - /usr/share/icons/breeze-dark/mimetypes/16/x-office-presentation.svg$
 - /usr/share/icons/breeze-dark/mimetypes/16/x-office-spreadsheet.svg$
 - /usr/share/icons/breeze-dark/mimetypes/16@2x$
+- /usr/share/icons/breeze-dark/mimetypes/16@3x$
 - /usr/share/icons/breeze-dark/mimetypes/22$
 - /usr/share/icons/breeze-dark/mimetypes/22/android-package-archive.svg$
 - /usr/share/icons/breeze-dark/mimetypes/22/application-atom[+]xml.svg$
@@ -7789,6 +7807,7 @@ includes:
 - /usr/share/icons/breeze-dark/mimetypes/22/x-office-presentation.svg$
 - /usr/share/icons/breeze-dark/mimetypes/22/x-office-spreadsheet.svg$
 - /usr/share/icons/breeze-dark/mimetypes/22@2x$
+- /usr/share/icons/breeze-dark/mimetypes/22@3x$
 - /usr/share/icons/breeze-dark/mimetypes/32$
 - /usr/share/icons/breeze-dark/mimetypes/32/android-package-archive.svg$
 - /usr/share/icons/breeze-dark/mimetypes/32/application-atom[+]xml.svg$
@@ -8810,6 +8829,7 @@ includes:
 - /usr/share/icons/breeze-dark/places/16/user-trash-full.svg$
 - /usr/share/icons/breeze-dark/places/16/user-trash.svg$
 - /usr/share/icons/breeze-dark/places/16@2x$
+- /usr/share/icons/breeze-dark/places/16@3x$
 - /usr/share/icons/breeze-dark/places/22$
 - /usr/share/icons/breeze-dark/places/22/certificate-server.svg$
 - /usr/share/icons/breeze-dark/places/22/desktop.svg$
@@ -8887,6 +8907,7 @@ includes:
 - /usr/share/icons/breeze-dark/places/22/user-trash-full.svg$
 - /usr/share/icons/breeze-dark/places/22/user-trash.svg$
 - /usr/share/icons/breeze-dark/places/22@2x$
+- /usr/share/icons/breeze-dark/places/22@3x$
 - /usr/share/icons/breeze-dark/places/24$
 - /usr/share/icons/breeze-dark/places/24/certificate-server.svg$
 - /usr/share/icons/breeze-dark/places/24/desktop.svg$
@@ -9503,6 +9524,7 @@ includes:
 - /usr/share/icons/breeze-dark/status/16/user-offline.svg$
 - /usr/share/icons/breeze-dark/status/16/user-online.svg$
 - /usr/share/icons/breeze-dark/status/16@2x$
+- /usr/share/icons/breeze-dark/status/16@3x$
 - /usr/share/icons/breeze-dark/status/22$
 - /usr/share/icons/breeze-dark/status/22/TeamViewer.svg$
 - /usr/share/icons/breeze-dark/status/22/audio-off.svg$
@@ -9659,6 +9681,7 @@ includes:
 - /usr/share/icons/breeze-dark/status/22/user-online.svg$
 - /usr/share/icons/breeze-dark/status/22/video-card-inactive.svg$
 - /usr/share/icons/breeze-dark/status/22@2x$
+- /usr/share/icons/breeze-dark/status/22@3x$
 - /usr/share/icons/breeze-dark/status/24$
 - /usr/share/icons/breeze-dark/status/24/TeamViewer.svg$
 - /usr/share/icons/breeze-dark/status/24/audio-off.svg$
@@ -11587,6 +11610,7 @@ includes:
 - /usr/share/icons/breeze/actions/16/zoom-select.svg$
 - /usr/share/icons/breeze/actions/16/zoom.svg$
 - /usr/share/icons/breeze/actions/16@2x$
+- /usr/share/icons/breeze/actions/16x@3x$
 - /usr/share/icons/breeze/actions/22$
 - /usr/share/icons/breeze/actions/22/CVnamespace.svg$
 - /usr/share/icons/breeze/actions/22/Info-amarok.svg$
@@ -13208,6 +13232,11 @@ includes:
 - /usr/share/icons/breeze/actions/22/user-properties.svg$
 - /usr/share/icons/breeze/actions/22/user.svg$
 - /usr/share/icons/breeze/actions/22/username-copy.svg$
+- /usr/share/icons/breeze/actions/22/vcs-commit-cvs-cervisia.svg$
+- /usr/share/icons/breeze/actions/22/vcs-diff-cvs-cervisia.svg$
+- /usr/share/icons/breeze/actions/22/vcs-remove-cvs-cervisia.svg$
+- /usr/share/icons/breeze/actions/22/vcs-status-cvs-cervisia.svg$
+- /usr/share/icons/breeze/actions/22/vcs-update-cvs-cervisia.svg$
 - /usr/share/icons/breeze/actions/22/verb.svg$
 - /usr/share/icons/breeze/actions/22/verbatim.svg$
 - /usr/share/icons/breeze/actions/22/videoclip-amarok.svg$
@@ -13410,6 +13439,7 @@ includes:
 - /usr/share/icons/breeze/actions/22/zoom-select.svg$
 - /usr/share/icons/breeze/actions/22/zoom.svg$
 - /usr/share/icons/breeze/actions/22@2x$
+- /usr/share/icons/breeze/actions/22x@3x$
 - /usr/share/icons/breeze/actions/24$
 - /usr/share/icons/breeze/actions/24/CVnamespace.svg$
 - /usr/share/icons/breeze/actions/24/Info-amarok.svg$
@@ -15031,6 +15061,11 @@ includes:
 - /usr/share/icons/breeze/actions/24/user-properties.svg$
 - /usr/share/icons/breeze/actions/24/user.svg$
 - /usr/share/icons/breeze/actions/24/username-copy.svg$
+- /usr/share/icons/breeze/actions/24/vcs-commit-cvs-cervisia.svg$
+- /usr/share/icons/breeze/actions/24/vcs-diff-cvs-cervisia.svg$
+- /usr/share/icons/breeze/actions/24/vcs-remove-cvs-cervisia.svg$
+- /usr/share/icons/breeze/actions/24/vcs-status-cvs-cervisia.svg$
+- /usr/share/icons/breeze/actions/24/vcs-update-cvs-cervisia.svg$
 - /usr/share/icons/breeze/actions/24/verb.svg$
 - /usr/share/icons/breeze/actions/24/verbatim.svg$
 - /usr/share/icons/breeze/actions/24/videoclip-amarok.svg$
@@ -15502,6 +15537,7 @@ includes:
 - /usr/share/icons/breeze/actions/32/zoom-select.svg$
 - /usr/share/icons/breeze/actions/32/zoom.svg$
 - /usr/share/icons/breeze/actions/32@2x$
+- /usr/share/icons/breeze/actions/32x@3x$
 - /usr/share/icons/breeze/actions/64$
 - /usr/share/icons/breeze/actions/64/media-default-album.svg$
 - /usr/share/icons/breeze/actions/64/media-default-track.svg$
@@ -15711,6 +15747,7 @@ includes:
 - /usr/share/icons/breeze/animations/16$
 - /usr/share/icons/breeze/animations/16/process-working.svg$
 - /usr/share/icons/breeze/animations/16@2x$
+- /usr/share/icons/breeze/animations/16x@3x$
 - /usr/share/icons/breeze/animations/22$
 - /usr/share/icons/breeze/animations/22/process-working.svg$
 - /usr/share/icons/breeze/applets$
@@ -15897,6 +15934,7 @@ includes:
 - /usr/share/icons/breeze/apps/16/virt-manager.svg$
 - /usr/share/icons/breeze/apps/16/vvave.svg$
 - /usr/share/icons/breeze/apps/16@2x$
+- /usr/share/icons/breeze/apps/16x@3x$
 - /usr/share/icons/breeze/apps/22$
 - /usr/share/icons/breeze/apps/22/accessories-text-editor.svg$
 - /usr/share/icons/breeze/apps/22/akregator.svg$
@@ -15920,6 +15958,7 @@ includes:
 - /usr/share/icons/breeze/apps/22/utilities-terminal.svg$
 - /usr/share/icons/breeze/apps/22/virt-manager.svg$
 - /usr/share/icons/breeze/apps/22@2x$
+- /usr/share/icons/breeze/apps/22x@3x$
 - /usr/share/icons/breeze/apps/32$
 - /usr/share/icons/breeze/apps/32/accessories-text-editor.svg$
 - /usr/share/icons/breeze/apps/32/hotspot.svg$
@@ -16192,6 +16231,7 @@ includes:
 - /usr/share/icons/breeze/apps/48/kube-mail.svg$
 - /usr/share/icons/breeze/apps/48/kubrick.svg$
 - /usr/share/icons/breeze/apps/48/kuiviewer.svg$
+- /usr/share/icons/breeze/apps/48/kup.svg$
 - /usr/share/icons/breeze/apps/48/kuser.svg$
 - /usr/share/icons/breeze/apps/48/kwalletmanager.svg$
 - /usr/share/icons/breeze/apps/48/kwalletmanager2.svg$
@@ -16445,6 +16485,7 @@ includes:
 - /usr/share/icons/breeze/devices/16/uav-quadcopter.svg$
 - /usr/share/icons/breeze/devices/16/uav.svg$
 - /usr/share/icons/breeze/devices/16@2x$
+- /usr/share/icons/breeze/devices/16x@3x$
 - /usr/share/icons/breeze/devices/22$
 - /usr/share/icons/breeze/devices/22/audio-card.svg$
 - /usr/share/icons/breeze/devices/22/audio-headphones.svg$
@@ -16505,6 +16546,7 @@ includes:
 - /usr/share/icons/breeze/devices/22/uav.svg$
 - /usr/share/icons/breeze/devices/22/video-television.svg$
 - /usr/share/icons/breeze/devices/22@2x$
+- /usr/share/icons/breeze/devices/22x@3x$
 - /usr/share/icons/breeze/devices/24$
 - /usr/share/icons/breeze/devices/24/audio-card.svg$
 - /usr/share/icons/breeze/devices/24/audio-headphones.svg$
@@ -16708,6 +16750,7 @@ includes:
 - /usr/share/icons/breeze/emblems/16/vcs-removed.svg$
 - /usr/share/icons/breeze/emblems/16/vcs-update-required.svg$
 - /usr/share/icons/breeze/emblems/16@2x$
+- /usr/share/icons/breeze/emblems/16x@3x$
 - /usr/share/icons/breeze/emblems/22$
 - /usr/share/icons/breeze/emblems/22/checkmark.svg$
 - /usr/share/icons/breeze/emblems/22/emblem-added.svg$
@@ -16741,6 +16784,7 @@ includes:
 - /usr/share/icons/breeze/emblems/22/vcs-removed.svg$
 - /usr/share/icons/breeze/emblems/22/vcs-update-required.svg$
 - /usr/share/icons/breeze/emblems/22@2x$
+- /usr/share/icons/breeze/emblems/22x@3x$
 - /usr/share/icons/breeze/emblems/8$
 - /usr/share/icons/breeze/emblems/8/checkmark.svg$
 - /usr/share/icons/breeze/emblems/8/emblem-added.svg$
@@ -16822,6 +16866,7 @@ includes:
 - /usr/share/icons/breeze/emotes/22/face-yawn.svg$
 - /usr/share/icons/breeze/emotes/22/food-cake.svg$
 - /usr/share/icons/breeze/emotes/22@2x$
+- /usr/share/icons/breeze/emotes/22x@3x$
 - /usr/share/icons/breeze/index.theme$
 - /usr/share/icons/breeze/mimetypes$
 - /usr/share/icons/breeze/mimetypes/16$
@@ -17297,6 +17342,7 @@ includes:
 - /usr/share/icons/breeze/mimetypes/16/x-office-presentation.svg$
 - /usr/share/icons/breeze/mimetypes/16/x-office-spreadsheet.svg$
 - /usr/share/icons/breeze/mimetypes/16@2x$
+- /usr/share/icons/breeze/mimetypes/16x@3x$
 - /usr/share/icons/breeze/mimetypes/22$
 - /usr/share/icons/breeze/mimetypes/22/android-package-archive.svg$
 - /usr/share/icons/breeze/mimetypes/22/application-atom[+]xml.svg$
@@ -17770,6 +17816,7 @@ includes:
 - /usr/share/icons/breeze/mimetypes/22/x-office-presentation.svg$
 - /usr/share/icons/breeze/mimetypes/22/x-office-spreadsheet.svg$
 - /usr/share/icons/breeze/mimetypes/22@2x$
+- /usr/share/icons/breeze/mimetypes/22x@3x$
 - /usr/share/icons/breeze/mimetypes/32$
 - /usr/share/icons/breeze/mimetypes/32/android-package-archive.svg$
 - /usr/share/icons/breeze/mimetypes/32/application-atom[+]xml.svg$
@@ -18796,6 +18843,7 @@ includes:
 - /usr/share/icons/breeze/places/16/user-trash-full.svg$
 - /usr/share/icons/breeze/places/16/user-trash.svg$
 - /usr/share/icons/breeze/places/16@2x$
+- /usr/share/icons/breeze/places/16x@3x$
 - /usr/share/icons/breeze/places/22$
 - /usr/share/icons/breeze/places/22/certificate-server.svg$
 - /usr/share/icons/breeze/places/22/desktop.svg$
@@ -18873,6 +18921,7 @@ includes:
 - /usr/share/icons/breeze/places/22/user-trash-full.svg$
 - /usr/share/icons/breeze/places/22/user-trash.svg$
 - /usr/share/icons/breeze/places/22@2x$
+- /usr/share/icons/breeze/places/22x@3x$
 - /usr/share/icons/breeze/places/24$
 - /usr/share/icons/breeze/places/24/certificate-server.svg$
 - /usr/share/icons/breeze/places/24/desktop.svg$
@@ -19489,6 +19538,7 @@ includes:
 - /usr/share/icons/breeze/status/16/user-offline.svg$
 - /usr/share/icons/breeze/status/16/user-online.svg$
 - /usr/share/icons/breeze/status/16@2x$
+- /usr/share/icons/breeze/status/16x@3x$
 - /usr/share/icons/breeze/status/22$
 - /usr/share/icons/breeze/status/22/TeamViewer.svg$
 - /usr/share/icons/breeze/status/22/audio-off.svg$
@@ -19645,6 +19695,7 @@ includes:
 - /usr/share/icons/breeze/status/22/user-online.svg$
 - /usr/share/icons/breeze/status/22/video-card-inactive.svg$
 - /usr/share/icons/breeze/status/22@2x$
+- /usr/share/icons/breeze/status/22x@3x$
 - /usr/share/icons/breeze/status/24$
 - /usr/share/icons/breeze/status/24/TeamViewer.svg$
 - /usr/share/icons/breeze/status/24/audio-off.svg$
@@ -19932,4 +19983,4 @@ includes:
 - /usr/share/icons/breeze/status/symbolic/view-wrapped-symbolic.svg$
 env:
 - ORIGINAL_ATOM=kde-frameworks/breeze-icons
-- ORIGINAL_PACKAGE=kde-frameworks/breeze-icons-5.71.0
+- ORIGINAL_PACKAGE=kde-frameworks/breeze-icons-5.72.0
