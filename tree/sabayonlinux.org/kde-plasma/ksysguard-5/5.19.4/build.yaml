@@ -34,8 +34,8 @@ includes:
 - /usr/share/dbus-1/services$
 - /usr/share/dbus-1/services/org.kde.ksystemstats.service$
 - /usr/share/doc$
-- /usr/share/doc/ksysguard-5.19.2$
-- /usr/share/doc/ksysguard-5.19.2/README.bz2$
+- /usr/share/doc/ksysguard-5.19.4$
+- /usr/share/doc/ksysguard-5.19.4/README.bz2$
 - /usr/share/help$
 - /usr/share/help/ca$
 - /usr/share/help/ca/ksysguard$
@@ -139,6 +139,8 @@ includes:
 - /usr/share/locale/da$
 - /usr/share/locale/da/LC_MESSAGES$
 - /usr/share/locale/da/LC_MESSAGES/ksysguard.mo$
+- /usr/share/locale/da/LC_MESSAGES/ksysguard_plugins_global.mo$
+- /usr/share/locale/da/LC_MESSAGES/ksysguard_plugins_process.mo$
 - /usr/share/locale/de$
 - /usr/share/locale/de/LC_MESSAGES$
 - /usr/share/locale/de/LC_MESSAGES/ksysguard.mo$
@@ -164,6 +166,8 @@ includes:
 - /usr/share/locale/eu$
 - /usr/share/locale/eu/LC_MESSAGES$
 - /usr/share/locale/eu/LC_MESSAGES/ksysguard.mo$
+- /usr/share/locale/eu/LC_MESSAGES/ksysguard_plugins_global.mo$
+- /usr/share/locale/eu/LC_MESSAGES/ksysguard_plugins_process.mo$
 - /usr/share/locale/fa$
 - /usr/share/locale/fa/LC_MESSAGES$
 - /usr/share/locale/fa/LC_MESSAGES/ksysguard.mo$
@@ -318,4 +322,4 @@ includes:
 - /usr/share/metainfo/org.kde.ksysguard.appdata.xml$
 env:
 - ORIGINAL_ATOM=kde-plasma/ksysguard
-- ORIGINAL_PACKAGE=kde-plasma/ksysguard-5.19.2
+- ORIGINAL_PACKAGE=kde-plasma/ksysguard-5.19.4
