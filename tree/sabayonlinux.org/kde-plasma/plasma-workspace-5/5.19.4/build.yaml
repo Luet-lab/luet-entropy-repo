@@ -110,7 +110,7 @@ includes:
 - /usr/lib64/kconf_update_bin/krunnerplugins$
 - /usr/lib64/libcolorcorrect.so$
 - /usr/lib64/libcolorcorrect.so.5$
-- /usr/lib64/libcolorcorrect.so.5.19.2$
+- /usr/lib64/libcolorcorrect.so.5.19.4$
 - /usr/lib64/libexec$
 - /usr/lib64/libexec/baloorunner$
 - /usr/lib64/libexec/ksmserver-logout-greeter$
@@ -122,12 +122,12 @@ includes:
 - /usr/lib64/libkdeinit5_klipper.so$
 - /usr/lib64/libnotificationmanager.so$
 - /usr/lib64/libnotificationmanager.so.1$
-- /usr/lib64/libnotificationmanager.so.5.19.2$
+- /usr/lib64/libnotificationmanager.so.5.19.4$
 - /usr/lib64/libplasma-geolocation-interface.so$
 - /usr/lib64/libplasma-geolocation-interface.so.5$
-- /usr/lib64/libplasma-geolocation-interface.so.5.19.2$
+- /usr/lib64/libplasma-geolocation-interface.so.5.19.4$
 - /usr/lib64/libtaskmanager.so$
-- /usr/lib64/libtaskmanager.so.5.19.2$
+- /usr/lib64/libtaskmanager.so.5.19.4$
 - /usr/lib64/libtaskmanager.so.6$
 - /usr/lib64/libweather_ion.so$
 - /usr/lib64/libweather_ion.so.7$
@@ -344,10 +344,8 @@ includes:
 - /usr/share/help/ca/kcontrol/screenlocker/index.cache.bz2$
 - /usr/share/help/ca/kcontrol/screenlocker/index.docbook$
 - /usr/share/help/ca/kcontrol/translations$
-- /usr/share/help/ca/kcontrol/translations/go-top.png$
 - /usr/share/help/ca/kcontrol/translations/index.cache.bz2$
 - /usr/share/help/ca/kcontrol/translations/index.docbook$
-- /usr/share/help/ca/kcontrol/translations/list-remove.png$
 - /usr/share/help/ca/klipper$
 - /usr/share/help/ca/klipper/index.cache.bz2$
 - /usr/share/help/ca/klipper/index.docbook$
@@ -950,6 +948,7 @@ includes:
 - /usr/share/locale/da/LC_MESSAGES/plasma_applet_org.kde.plasma.notifications.mo$
 - /usr/share/locale/da/LC_MESSAGES/plasma_applet_org.kde.plasma.panelspacer.mo$
 - /usr/share/locale/da/LC_MESSAGES/plasma_applet_org.kde.plasma.private.systemtray.mo$
+- /usr/share/locale/da/LC_MESSAGES/plasma_applet_org.kde.plasma.systemmonitor.mo$
 - /usr/share/locale/da/LC_MESSAGES/plasma_containmentactions_applauncher.mo$
 - /usr/share/locale/da/LC_MESSAGES/plasma_containmentactions_contextmenu.mo$
 - /usr/share/locale/da/LC_MESSAGES/plasma_containmentactions_switchwindow.mo$
@@ -4053,4 +4052,4 @@ includes:
 - /usr/share/xsessions/plasma.desktop$
 env:
 - ORIGINAL_ATOM=kde-plasma/plasma-workspace
-- ORIGINAL_PACKAGE=kde-plasma/plasma-workspace-5.19.2
+- ORIGINAL_PACKAGE=kde-plasma/plasma-workspace-5.19.4
