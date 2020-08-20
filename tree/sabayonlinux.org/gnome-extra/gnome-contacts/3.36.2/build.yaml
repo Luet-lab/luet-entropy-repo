@@ -22,10 +22,10 @@ includes:
 - /usr/share/dbus-1/services/org.gnome.Contacts.SearchProvider.service$
 - /usr/share/dbus-1/services/org.gnome.Contacts.service$
 - /usr/share/doc$
-- /usr/share/doc/gnome-contacts-3.34.1$
-- /usr/share/doc/gnome-contacts-3.34.1/AUTHORS$
-- /usr/share/doc/gnome-contacts-3.34.1/NEWS.bz2$
-- /usr/share/doc/gnome-contacts-3.34.1/README.md.bz2$
+- /usr/share/doc/gnome-contacts-3.36.2$
+- /usr/share/doc/gnome-contacts-3.36.2/AUTHORS$
+- /usr/share/doc/gnome-contacts-3.36.2/NEWS.bz2$
+- /usr/share/doc/gnome-contacts-3.36.2/README.md.bz2$
 - /usr/share/glib-2.0$
 - /usr/share/glib-2.0/schemas$
 - /usr/share/glib-2.0/schemas/org.gnome.Contacts.gschema.xml$
@@ -36,6 +36,7 @@ includes:
 - /usr/share/icons/hicolor$
 - /usr/share/icons/hicolor/scalable$
 - /usr/share/icons/hicolor/scalable/apps$
+- /usr/share/icons/hicolor/scalable/apps/org.gnome.Contacts.Devel.svg$
 - /usr/share/icons/hicolor/scalable/apps/org.gnome.Contacts.svg$
 - /usr/share/icons/hicolor/symbolic$
 - /usr/share/icons/hicolor/symbolic/apps$
@@ -267,4 +268,4 @@ includes:
 - /usr/share/metainfo/org.gnome.Contacts.appdata.xml$
 env:
 - ORIGINAL_ATOM=gnome-extra/gnome-contacts
-- ORIGINAL_PACKAGE=gnome-extra/gnome-contacts-3.34.1
+- ORIGINAL_PACKAGE=gnome-extra/gnome-contacts-3.36.2
