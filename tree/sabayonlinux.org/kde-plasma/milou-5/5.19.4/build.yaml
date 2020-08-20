@@ -12,7 +12,7 @@ includes:
 - /usr/lib$
 - /usr/lib64$
 - /usr/lib64/libmilou.so.5$
-- /usr/lib64/libmilou.so.5.19.2$
+- /usr/lib64/libmilou.so.5.19.4$
 - /usr/lib64/qt5$
 - /usr/lib64/qt5/plugins$
 - /usr/lib64/qt5/plugins/miloutextplugin.so$
@@ -202,4 +202,4 @@ includes:
 - /usr/share/plasma/plasmoids/org.kde.milou/metadata.json$
 env:
 - ORIGINAL_ATOM=kde-plasma/milou
-- ORIGINAL_PACKAGE=kde-plasma/milou-5.19.2
+- ORIGINAL_PACKAGE=kde-plasma/milou-5.19.4
