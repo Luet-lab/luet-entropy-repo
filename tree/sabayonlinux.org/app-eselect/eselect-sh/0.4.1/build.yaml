@@ -1,0 +1,18 @@
+unpack: true
+steps:
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/share$
+- /usr/share/eselect$
+- /usr/share/eselect/modules$
+- /usr/share/eselect/modules/sh.eselect$
+env:
+- ORIGINAL_ATOM=app-eselect/eselect-sh
+- ORIGINAL_PACKAGE=app-eselect/eselect-sh-0.4.1
