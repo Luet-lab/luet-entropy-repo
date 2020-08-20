@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i sys-cluster/galera-25.3.28-r1 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -21,9 +22,12 @@ includes:
 - /usr/lib64/galera/libgalera_smm.so$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/galera-25.3.28-r1$
-- /usr/share/doc/galera-25.3.28-r1/README-MySQL.bz2$
-- /usr/share/doc/galera-25.3.28-r1/README.bz2$
+- /usr/share/doc/galera-26.4.4$
+- /usr/share/doc/galera-26.4.4/README-MySQL.bz2$
+- /usr/share/doc/galera-26.4.4/README.bz2$
 - /usr/share/man$
 - /usr/share/man/man8$
 - /usr/share/man/man8/garbd.8.bz2$
+env:
+- ORIGINAL_ATOM=sys-cluster/galera
+- ORIGINAL_PACKAGE=sys-cluster/galera-26.4.4
