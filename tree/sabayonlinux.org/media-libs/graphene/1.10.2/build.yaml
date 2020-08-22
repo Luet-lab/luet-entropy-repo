@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i media-libs/graphene-1.8.6 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -41,7 +42,7 @@ includes:
 - /usr/lib/graphene-1.0/include/graphene-config.h$
 - /usr/lib/libgraphene-1.0.so$
 - /usr/lib/libgraphene-1.0.so.0$
-- /usr/lib/libgraphene-1.0.so.0.800.6$
+- /usr/lib/libgraphene-1.0.so.0.1000.2$
 - /usr/lib/pkgconfig$
 - /usr/lib/pkgconfig/graphene-1.0.pc$
 - /usr/lib/pkgconfig/graphene-gobject-1.0.pc$
@@ -53,13 +54,16 @@ includes:
 - /usr/lib64/graphene-1.0/include/graphene-config.h$
 - /usr/lib64/libgraphene-1.0.so$
 - /usr/lib64/libgraphene-1.0.so.0$
-- /usr/lib64/libgraphene-1.0.so.0.800.6$
+- /usr/lib64/libgraphene-1.0.so.0.1000.2$
 - /usr/lib64/pkgconfig$
 - /usr/lib64/pkgconfig/graphene-1.0.pc$
 - /usr/lib64/pkgconfig/graphene-gobject-1.0.pc$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/graphene-1.8.6$
-- /usr/share/doc/graphene-1.8.6/README.md.bz2$
+- /usr/share/doc/graphene-1.10.2$
+- /usr/share/doc/graphene-1.10.2/README.md.bz2$
 - /usr/share/gir-1.0$
 - /usr/share/gir-1.0/Graphene-1.0.gir$
+env:
+- ORIGINAL_ATOM=media-libs/graphene
+- ORIGINAL_PACKAGE=media-libs/graphene-1.10.2
