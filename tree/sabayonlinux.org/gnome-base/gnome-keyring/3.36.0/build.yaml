@@ -38,15 +38,16 @@ includes:
 - /usr/share/GConf/gsettings/org.gnome.crypto.cache.convert$
 - /usr/share/dbus-1$
 - /usr/share/dbus-1/services$
+- /usr/share/dbus-1/services/org.freedesktop.impl.portal.Secret.service$
 - /usr/share/dbus-1/services/org.freedesktop.secrets.service$
 - /usr/share/dbus-1/services/org.gnome.keyring.service$
 - /usr/share/doc$
-- /usr/share/doc/gnome-keyring-3.34.0$
-- /usr/share/doc/gnome-keyring-3.34.0/AUTHORS.bz2$
-- /usr/share/doc/gnome-keyring-3.34.0/ChangeLog.bz2$
-- /usr/share/doc/gnome-keyring-3.34.0/HACKING.bz2$
-- /usr/share/doc/gnome-keyring-3.34.0/NEWS.bz2$
-- /usr/share/doc/gnome-keyring-3.34.0/README.bz2$
+- /usr/share/doc/gnome-keyring-3.36.0$
+- /usr/share/doc/gnome-keyring-3.36.0/AUTHORS.bz2$
+- /usr/share/doc/gnome-keyring-3.36.0/ChangeLog.bz2$
+- /usr/share/doc/gnome-keyring-3.36.0/HACKING.bz2$
+- /usr/share/doc/gnome-keyring-3.36.0/NEWS.bz2$
+- /usr/share/doc/gnome-keyring-3.36.0/README.bz2$
 - /usr/share/glib-2.0$
 - /usr/share/glib-2.0/schemas$
 - /usr/share/glib-2.0/schemas/org.gnome.crypto.cache.gschema.xml$
@@ -236,6 +237,9 @@ includes:
 - /usr/share/p11-kit$
 - /usr/share/p11-kit/modules$
 - /usr/share/p11-kit/modules/gnome-keyring.module$
+- /usr/share/xdg-desktop-portal$
+- /usr/share/xdg-desktop-portal/portals$
+- /usr/share/xdg-desktop-portal/portals/gnome-keyring.portal$
 env:
 - ORIGINAL_ATOM=gnome-base/gnome-keyring
-- ORIGINAL_PACKAGE=gnome-base/gnome-keyring-3.34.0
+- ORIGINAL_PACKAGE=gnome-base/gnome-keyring-3.36.0
