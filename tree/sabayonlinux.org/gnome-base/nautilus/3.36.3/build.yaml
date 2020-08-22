@@ -51,10 +51,10 @@ includes:
 - /usr/share/dbus-1/services/org.freedesktop.FileManager1.service$
 - /usr/share/dbus-1/services/org.gnome.Nautilus.service$
 - /usr/share/doc$
-- /usr/share/doc/nautilus-3.34.2$
-- /usr/share/doc/nautilus-3.34.2/NEWS.bz2$
-- /usr/share/doc/nautilus-3.34.2/README.gentoo.bz2$
-- /usr/share/doc/nautilus-3.34.2/README.md.bz2$
+- /usr/share/doc/nautilus-3.36.3$
+- /usr/share/doc/nautilus-3.36.3/NEWS.bz2$
+- /usr/share/doc/nautilus-3.36.3/README.gentoo.bz2$
+- /usr/share/doc/nautilus-3.36.3/README.md.bz2$
 - /usr/share/gir-1.0$
 - /usr/share/gir-1.0/Nautilus-3.0.gir$
 - /usr/share/glib-2.0$
@@ -123,6 +123,9 @@ includes:
 - /usr/share/locale/ca@valencia$
 - /usr/share/locale/ca@valencia/LC_MESSAGES$
 - /usr/share/locale/ca@valencia/LC_MESSAGES/nautilus.mo$
+- /usr/share/locale/ckb$
+- /usr/share/locale/ckb/LC_MESSAGES$
+- /usr/share/locale/ckb/LC_MESSAGES/nautilus.mo$
 - /usr/share/locale/crh$
 - /usr/share/locale/crh/LC_MESSAGES$
 - /usr/share/locale/crh/LC_MESSAGES/nautilus.mo$
@@ -431,4 +434,4 @@ includes:
 - /usr/share/metainfo/org.gnome.Nautilus.appdata.xml$
 env:
 - ORIGINAL_ATOM=gnome-base/nautilus
-- ORIGINAL_PACKAGE=gnome-base/nautilus-3.34.2
+- ORIGINAL_PACKAGE=gnome-base/nautilus-3.36.3
