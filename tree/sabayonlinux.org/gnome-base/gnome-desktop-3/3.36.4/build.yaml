@@ -29,17 +29,17 @@ includes:
 - /usr/lib64/girepository-1.0$
 - /usr/lib64/girepository-1.0/GnomeDesktop-3.0.typelib$
 - /usr/lib64/libgnome-desktop-3.so$
-- /usr/lib64/libgnome-desktop-3.so.18$
-- /usr/lib64/libgnome-desktop-3.so.18.0.3$
+- /usr/lib64/libgnome-desktop-3.so.19$
+- /usr/lib64/libgnome-desktop-3.so.19.0.4$
 - /usr/lib64/pkgconfig$
 - /usr/lib64/pkgconfig/gnome-desktop-3.0.pc$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/gnome-desktop-3.34.5$
-- /usr/share/doc/gnome-desktop-3.34.5/AUTHORS.bz2$
-- /usr/share/doc/gnome-desktop-3.34.5/ChangeLog.bz2$
-- /usr/share/doc/gnome-desktop-3.34.5/NEWS.bz2$
-- /usr/share/doc/gnome-desktop-3.34.5/README.bz2$
+- /usr/share/doc/gnome-desktop-3.36.4$
+- /usr/share/doc/gnome-desktop-3.36.4/AUTHORS.bz2$
+- /usr/share/doc/gnome-desktop-3.36.4/ChangeLog.bz2$
+- /usr/share/doc/gnome-desktop-3.36.4/NEWS.bz2$
+- /usr/share/doc/gnome-desktop-3.36.4/README.bz2$
 - /usr/share/gir-1.0$
 - /usr/share/gir-1.0/GnomeDesktop-3.0.gir$
 - /usr/share/gnome$
@@ -118,6 +118,8 @@ includes:
 - /usr/share/help/gl/fdl/index.docbook$
 - /usr/share/help/gl/gpl$
 - /usr/share/help/gl/gpl/index.docbook$
+- /usr/share/help/gl/lgpl$
+- /usr/share/help/gl/lgpl/index.docbook$
 - /usr/share/help/hu$
 - /usr/share/help/hu/fdl$
 - /usr/share/help/hu/fdl/index.docbook$
@@ -174,6 +176,13 @@ includes:
 - /usr/share/help/sv/gpl/index.docbook$
 - /usr/share/help/sv/lgpl$
 - /usr/share/help/sv/lgpl/index.docbook$
+- /usr/share/help/tr$
+- /usr/share/help/tr/fdl$
+- /usr/share/help/tr/fdl/index.docbook$
+- /usr/share/help/tr/gpl$
+- /usr/share/help/tr/gpl/index.docbook$
+- /usr/share/help/tr/lgpl$
+- /usr/share/help/tr/lgpl/index.docbook$
 - /usr/share/help/uk$
 - /usr/share/help/uk/fdl$
 - /usr/share/help/uk/fdl/index.docbook$
@@ -549,4 +558,4 @@ includes:
 - /usr/share/locale/zu/LC_MESSAGES/gnome-desktop-3.0.mo$
 env:
 - ORIGINAL_ATOM=gnome-base/gnome-desktop
-- ORIGINAL_PACKAGE=gnome-base/gnome-desktop-3.34.5
+- ORIGINAL_PACKAGE=gnome-base/gnome-desktop-3.36.4
