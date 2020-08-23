@@ -1,0 +1,29 @@
+unpack: true
+steps:
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+- /usr$
+- /usr/lib$
+- /usr/lib/clang$
+- /usr/lib/clang/10.0.0$
+- /usr/lib/clang/10.0.0/lib$
+- /usr/lib/clang/10.0.0/lib/linux$
+- /usr/lib/clang/10.0.0/lib/linux/clang_rt.crtbegin-i386.o$
+- /usr/lib/clang/10.0.0/lib/linux/clang_rt.crtbegin-x86_64.o$
+- /usr/lib/clang/10.0.0/lib/linux/clang_rt.crtend-i386.o$
+- /usr/lib/clang/10.0.0/lib/linux/clang_rt.crtend-x86_64.o$
+- /usr/lib/clang/10.0.0/lib/linux/libclang_rt.builtins-i386.a$
+- /usr/lib/clang/10.0.0/lib/linux/libclang_rt.builtins-x86_64.a$
+- /usr/share$
+- /usr/share/doc$
+- /usr/share/doc/compiler-rt-10.0.0$
+- /usr/share/doc/compiler-rt-10.0.0/README.txt.bz2$
+env:
+- ORIGINAL_ATOM=sys-libs/compiler-rt
+- ORIGINAL_PACKAGE=sys-libs/compiler-rt-10.0.0
