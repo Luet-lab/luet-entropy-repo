@@ -3,17 +3,11 @@ license: MIT
 name: txaio
 requires:
 - category: dev-lang
-  name: python-2.7
-  version: '>=2.7.5'
-- category: dev-lang
   name: python-exec-2
   version: '>=2'
 - category: dev-python
   name: futures
   version: '>=3.0.3'
-- category: dev-python
-  name: trollius
-  version: '>=2.0'
 - category: dev-lang
   name: python-3.6
   version: '>=0'
@@ -33,7 +27,7 @@ use_flags:
 - abi_x86_64
 - kernel_linux
 - python_targets_python3_6
-version: "20.4.1"
+version: "20.4.1+1"
 labels:
   original.package.name: "txaio"
   original.package.category: "dev-python"
