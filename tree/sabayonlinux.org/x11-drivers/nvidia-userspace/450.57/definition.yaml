@@ -5,9 +5,6 @@ requires:
 - category: x11-base
   name: xorg-server
   version: <1.20.99
-- category: app-eselect
-  name: eselect-opengl
-  version: '>=1.0.9'
 - category: sys-libs
   name: glibc-2.2
   version: '>=2.6.1'
@@ -94,7 +91,7 @@ use_flags:
 - userland_GNU
 - tools
 - acpi
-version: "450.57"
+version: "450.57+1"
 labels:
   original.package.name: "nvidia-userspace"
   original.package.category: "x11-drivers"
