@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i sci-geosciences/geocode-glib-3.26.1 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -33,12 +34,12 @@ includes:
 - /usr/lib64/pkgconfig/geocode-glib-1.0.pc$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/geocode-glib-3.26.1$
-- /usr/share/doc/geocode-glib-3.26.1/AUTHORS$
-- /usr/share/doc/geocode-glib-3.26.1/ChangeLog$
-- /usr/share/doc/geocode-glib-3.26.1/NEWS.bz2$
-- /usr/share/doc/geocode-glib-3.26.1/README.bz2$
-- /usr/share/doc/geocode-glib-3.26.1/TODO.bz2$
+- /usr/share/doc/geocode-glib-3.26.2$
+- /usr/share/doc/geocode-glib-3.26.2/AUTHORS$
+- /usr/share/doc/geocode-glib-3.26.2/ChangeLog$
+- /usr/share/doc/geocode-glib-3.26.2/NEWS.bz2$
+- /usr/share/doc/geocode-glib-3.26.2/README.bz2$
+- /usr/share/doc/geocode-glib-3.26.2/TODO.bz2$
 - /usr/share/gir-1.0$
 - /usr/share/gir-1.0/GeocodeGlib-1.0.gir$
 - /usr/share/icons$
@@ -57,3 +58,6 @@ includes:
 - /usr/share/icons/gnome/scalable/places/poi-restaurant.svg$
 - /usr/share/icons/gnome/scalable/places/poi-school.svg$
 - /usr/share/icons/gnome/scalable/places/poi-town.svg$
+env:
+- ORIGINAL_ATOM=sci-geosciences/geocode-glib
+- ORIGINAL_PACKAGE=sci-geosciences/geocode-glib-3.26.2
