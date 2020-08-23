@@ -1,0 +1,21 @@
+
+category: "dev-haskell"
+name: "bytestring-builder"
+version: "0.10.8.1.0"
+license: "BSD"
+
+use_flags:
+- "-profile"
+- "abi_x86_64"
+- "kernel_linux"
+- "amd64"
+- "userland_GNU"
+- "big-endian"
+- "elibc_glibc"
+requires:
+- category: "dev-haskell"
+  name: "cabal"
+  version: ">=1.8"
+- category: "dev-lang"
+  name: "ghc"
+  version: ">=7.4.1"
