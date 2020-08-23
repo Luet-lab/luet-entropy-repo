@@ -3,16 +3,13 @@ license: Apache-2.0
 name: tornado
 requires:
 - category: dev-lang
-  name: python-2.7
-  version: '>=2.7.5'
-- category: dev-lang
   name: python-exec-2
   version: '>=2'
 - category: dev-python
   name: pycurl
   version: '>=7.19.3.1'
 - category: dev-python
-  name: twisted-core
+  name: twisted
   version: '>=16.0.0'
 - category: dev-lang
   name: python-3.6
@@ -28,14 +25,14 @@ use_flags:
 - kernel_linux
 - split-usr
 - -doc
-- python_targets_python2_7
+- -python_targets_python2_7
 - amd64
 - abi_x86_64
 - -test
 - elibc_glibc
 - big-endian
 - python_targets_python3_6
-version: "6.0.4"
+version: "6.0.4+1"
 labels:
   original.package.name: "tornado"
   original.package.category: "www-servers"
