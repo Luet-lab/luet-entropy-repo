@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i gnome-extra/gnome-color-manager-3.32.0 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -9,7 +10,6 @@ requires:
 includes:
 - /usr$
 - /usr/bin$
-- /usr/bin/gcm-calibrate$
 - /usr/bin/gcm-import$
 - /usr/bin/gcm-inspect$
 - /usr/bin/gcm-picker$
@@ -17,51 +17,19 @@ includes:
 - /usr/lib$
 - /usr/share$
 - /usr/share/applications$
-- /usr/share/applications/gcm-calibrate.desktop$
 - /usr/share/applications/gcm-import.desktop$
 - /usr/share/applications/gcm-picker.desktop$
 - /usr/share/applications/org.gnome.ColorProfileViewer.desktop$
 - /usr/share/doc$
-- /usr/share/doc/gnome-color-manager-3.32.0$
-- /usr/share/doc/gnome-color-manager-3.32.0/AUTHORS$
-- /usr/share/doc/gnome-color-manager-3.32.0/README.bz2$
+- /usr/share/doc/gnome-color-manager-3.36.0$
+- /usr/share/doc/gnome-color-manager-3.36.0/AUTHORS$
+- /usr/share/doc/gnome-color-manager-3.36.0/README.bz2$
 - /usr/share/gnome-color-manager$
 - /usr/share/gnome-color-manager/figures$
 - /usr/share/gnome-color-manager/figures/viewer-example-00.png$
 - /usr/share/gnome-color-manager/figures/viewer-example-01.png$
 - /usr/share/gnome-color-manager/figures/viewer-example-02.png$
 - /usr/share/gnome-color-manager/figures/viewer-example-03.png$
-- /usr/share/gnome-color-manager/icons$
-- /usr/share/gnome-color-manager/icons/calibration-long.svg$
-- /usr/share/gnome-color-manager/icons/calibration-normal.svg$
-- /usr/share/gnome-color-manager/icons/calibration-short.svg$
-- /usr/share/gnome-color-manager/icons/clock.svg$
-- /usr/share/gnome-color-manager/icons/icons$
-- /usr/share/gnome-color-manager/icons/icons/crt.svg$
-- /usr/share/gnome-color-manager/icons/icons/lcd.svg$
-- /usr/share/gnome-color-manager/icons/icons/projector.svg$
-- /usr/share/gnome-color-manager/icons/scan-target-bad.svg$
-- /usr/share/gnome-color-manager/icons/scan-target-good.svg$
-- /usr/share/gnome-color-manager/icons/scan-target.svg$
-- /usr/share/gnome-color-manager/targets$
-- /usr/share/gnome-color-manager/targets/CMP-DigitalTarget3.png$
-- /usr/share/gnome-color-manager/targets/CMP_DT_003.png$
-- /usr/share/gnome-color-manager/targets/ColorChecker24.png$
-- /usr/share/gnome-color-manager/targets/ColorCheckerDC.png$
-- /usr/share/gnome-color-manager/targets/ColorCheckerSG.png$
-- /usr/share/gnome-color-manager/targets/IT872.png$
-- /usr/share/gnome-color-manager/targets/LaserSoftDCPro.png$
-- /usr/share/gnome-color-manager/targets/QPcard_201.png$
-- /usr/share/gnome-color-manager/targets/QPcard_202.png$
-- /usr/share/gnome-color-manager/targets/i1_RGB_Scan_14.png$
-- /usr/share/gnome-color-manager/targets/unknown.png$
-- /usr/share/gnome-color-manager/ti1$
-- /usr/share/gnome-color-manager/ti1/display-long.ti1$
-- /usr/share/gnome-color-manager/ti1/display-normal.ti1$
-- /usr/share/gnome-color-manager/ti1/display-short.ti1$
-- /usr/share/gnome-color-manager/ti1/printer-long.ti1$
-- /usr/share/gnome-color-manager/ti1/printer-normal.ti1$
-- /usr/share/gnome-color-manager/ti1/printer-short.ti1$
 - /usr/share/help$
 - /usr/share/help/C$
 - /usr/share/help/C/gnome-color-manager$
@@ -135,6 +103,12 @@ includes:
 - /usr/share/help/hu/gnome-color-manager/color-import-osx.page$
 - /usr/share/help/hu/gnome-color-manager/color-import-windows.page$
 - /usr/share/help/hu/gnome-color-manager/legal.xml$
+- /usr/share/help/id$
+- /usr/share/help/id/gnome-color-manager$
+- /usr/share/help/id/gnome-color-manager/color-import-linux.page$
+- /usr/share/help/id/gnome-color-manager/color-import-osx.page$
+- /usr/share/help/id/gnome-color-manager/color-import-windows.page$
+- /usr/share/help/id/gnome-color-manager/legal.xml$
 - /usr/share/help/it$
 - /usr/share/help/it/gnome-color-manager$
 - /usr/share/help/it/gnome-color-manager/color-import-linux.page$
@@ -330,6 +304,9 @@ includes:
 - /usr/share/locale/mr$
 - /usr/share/locale/mr/LC_MESSAGES$
 - /usr/share/locale/mr/LC_MESSAGES/gnome-color-manager.mo$
+- /usr/share/locale/ms$
+- /usr/share/locale/ms/LC_MESSAGES$
+- /usr/share/locale/ms/LC_MESSAGES/gnome-color-manager.mo$
 - /usr/share/locale/nb$
 - /usr/share/locale/nb/LC_MESSAGES$
 - /usr/share/locale/nb/LC_MESSAGES/gnome-color-manager.mo$
@@ -413,10 +390,12 @@ includes:
 - /usr/share/locale/zh_TW/LC_MESSAGES/gnome-color-manager.mo$
 - /usr/share/man$
 - /usr/share/man/man1$
-- /usr/share/man/man1/gcm-calibrate.1.bz2$
 - /usr/share/man/man1/gcm-import.1.bz2$
 - /usr/share/man/man1/gcm-inspect.1.bz2$
 - /usr/share/man/man1/gcm-picker.1.bz2$
 - /usr/share/man/man1/gcm-viewer.1.bz2$
 - /usr/share/metainfo$
 - /usr/share/metainfo/org.gnome.ColorProfileViewer.appdata.xml$
+env:
+- ORIGINAL_ATOM=gnome-extra/gnome-color-manager
+- ORIGINAL_PACKAGE=gnome-extra/gnome-color-manager-3.36.0
