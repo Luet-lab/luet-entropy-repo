@@ -3,14 +3,8 @@ license: BSD
 name: entrypoints
 requires:
 - category: dev-lang
-  name: python-2.7
-  version: '>=2.7.5'
-- category: dev-lang
   name: python-exec-2
   version: '>=2'
-- category: dev-python
-  name: configparser
-  version: '>=3.5.0'
 - category: dev-lang
   name: python-3.6
   version: '>=0'
@@ -30,9 +24,9 @@ use_flags:
 - -python_targets_python3_5
 - userland_GNU
 - elibc_glibc
-version: "0.3"
+version: "0.3+1"
 labels:
   original.package.name: "entrypoints"
   original.package.category: "dev-python"
-  original.package.version: "0.2.3"
+  original.package.version: "0.3"
   original.package.slot: "0"
