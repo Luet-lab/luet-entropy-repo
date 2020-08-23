@@ -9,7 +9,7 @@ requires:
   name: python-3.6
   version: '>=0'
 - category: dev-python
-  name: twisted-core
+  name: twisted
   version: '>=0'
 use_flags:
 - abi_x86_64
@@ -23,7 +23,7 @@ use_flags:
 - userland_GNU
 - amd64
 - elibc_glibc
-version: 0.7.1+r5
+version: 0.7.1+r6
 labels:
   original.package.name: "prometheus_client"
   original.package.category: "dev-python"
