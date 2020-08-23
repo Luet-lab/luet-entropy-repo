@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i gnome-base/gnome-menus-3.32.0 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -43,13 +44,12 @@ includes:
 - /usr/share/desktop-directories/X-GNOME-Utilities.directory$
 - /usr/share/desktop-directories/X-GNOME-WebApplications.directory$
 - /usr/share/doc$
-- /usr/share/doc/gnome-menus-3.32.0$
-- /usr/share/doc/gnome-menus-3.32.0/AUTHORS$
-- /usr/share/doc/gnome-menus-3.32.0/ChangeLog.bz2$
-- /usr/share/doc/gnome-menus-3.32.0/HACKING.bz2$
-- /usr/share/doc/gnome-menus-3.32.0/MAINTAINERS.bz2$
-- /usr/share/doc/gnome-menus-3.32.0/NEWS.bz2$
-- /usr/share/doc/gnome-menus-3.32.0/README.bz2$
+- /usr/share/doc/gnome-menus-3.36.0$
+- /usr/share/doc/gnome-menus-3.36.0/AUTHORS$
+- /usr/share/doc/gnome-menus-3.36.0/ChangeLog.bz2$
+- /usr/share/doc/gnome-menus-3.36.0/HACKING.bz2$
+- /usr/share/doc/gnome-menus-3.36.0/NEWS.bz2$
+- /usr/share/doc/gnome-menus-3.36.0/README.bz2$
 - /usr/share/gir-1.0$
 - /usr/share/gir-1.0/GMenu-3.0.gir$
 - /usr/share/locale$
@@ -236,3 +236,6 @@ includes:
 - /usr/share/locale/zh_TW$
 - /usr/share/locale/zh_TW/LC_MESSAGES$
 - /usr/share/locale/zh_TW/LC_MESSAGES/gnome-menus.mo$
+env:
+- ORIGINAL_ATOM=gnome-base/gnome-menus
+- ORIGINAL_PACKAGE=gnome-base/gnome-menus-3.36.0
