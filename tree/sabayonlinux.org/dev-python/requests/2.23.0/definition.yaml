@@ -2,18 +2,6 @@ category: dev-python
 license: Apache-2.0
 name: requests
 requires:
-- category: dev-python
-  name: chardet
-  version: <3.1.0
-- category: dev-python
-  name: idna
-  version: <2.9
-- category: dev-python
-  name: urllib3
-  version: <1.26
-- category: dev-lang
-  name: python-2.7
-  version: '>=2.7.5'
 - category: dev-lang
   name: python-exec-2
   version: '>=2'
@@ -51,7 +39,7 @@ use_flags:
 - -python_targets_python3_7
 - amd64
 - big-endian
-version: "2.23.0"
+version: "2.23.0+1"
 labels:
   original.package.name: "requests"
   original.package.category: "dev-python"
