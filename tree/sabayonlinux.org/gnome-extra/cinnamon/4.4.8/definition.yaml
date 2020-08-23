@@ -111,9 +111,6 @@ requires:
   name: dbus-python
   version: '>=0'
 - category: dev-python
-  name: gconf-python-2
-  version: '>=0'
-- category: dev-python
   name: lxml
   version: '>=0'
 - category: dev-python
@@ -199,7 +196,7 @@ use_flags:
 - abi_x86_64
 - elibc_glibc
 - big-endian
-version: "4.4.8"
+version: "4.4.8+1"
 labels:
   original.package.name: "cinnamon"
   original.package.category: "gnome-extra"
