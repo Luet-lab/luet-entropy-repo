@@ -34,17 +34,15 @@ includes:
 - /usr/lib64/pkgconfig/gjs-1.0.pc$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/gjs-1.58.5$
-- /usr/share/doc/gjs-1.58.5/NEWS.bz2$
-- /usr/share/doc/gjs-1.58.5/README.bz2$
+- /usr/share/doc/gjs-1.64.4$
+- /usr/share/doc/gjs-1.64.4/NEWS.bz2$
+- /usr/share/doc/gjs-1.64.4/README.MSVC.md.bz2$
+- /usr/share/doc/gjs-1.64.4/README.md.bz2$
 - /usr/share/gjs-1.0$
 - /usr/share/gjs-1.0/lsan$
 - /usr/share/gjs-1.0/lsan/lsan.supp$
 - /usr/share/gjs-1.0/valgrind$
 - /usr/share/gjs-1.0/valgrind/gjs.supp$
-- /usr/share/glib-2.0$
-- /usr/share/glib-2.0/schemas$
-- /usr/share/glib-2.0/schemas/org.gnome.GjsTest.gschema.xml$
 env:
 - ORIGINAL_ATOM=dev-libs/gjs
-- ORIGINAL_PACKAGE=dev-libs/gjs-1.58.5
+- ORIGINAL_PACKAGE=dev-libs/gjs-1.64.4
