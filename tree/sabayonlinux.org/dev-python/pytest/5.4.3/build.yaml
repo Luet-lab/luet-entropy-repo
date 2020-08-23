@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-python/pytest-5.3.5 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -124,6 +125,9 @@ includes:
 - /usr/lib64/python3.6/site-packages/_pytest/__pycache__/stepwise.cpython-36.opt-1.pyc$
 - /usr/lib64/python3.6/site-packages/_pytest/__pycache__/stepwise.cpython-36.opt-2.pyc$
 - /usr/lib64/python3.6/site-packages/_pytest/__pycache__/stepwise.cpython-36.pyc$
+- /usr/lib64/python3.6/site-packages/_pytest/__pycache__/store.cpython-36.opt-1.pyc$
+- /usr/lib64/python3.6/site-packages/_pytest/__pycache__/store.cpython-36.opt-2.pyc$
+- /usr/lib64/python3.6/site-packages/_pytest/__pycache__/store.cpython-36.pyc$
 - /usr/lib64/python3.6/site-packages/_pytest/__pycache__/terminal.cpython-36.opt-1.pyc$
 - /usr/lib64/python3.6/site-packages/_pytest/__pycache__/terminal.cpython-36.opt-2.pyc$
 - /usr/lib64/python3.6/site-packages/_pytest/__pycache__/terminal.cpython-36.pyc$
@@ -250,20 +254,21 @@ includes:
 - /usr/lib64/python3.6/site-packages/_pytest/setupplan.py$
 - /usr/lib64/python3.6/site-packages/_pytest/skipping.py$
 - /usr/lib64/python3.6/site-packages/_pytest/stepwise.py$
+- /usr/lib64/python3.6/site-packages/_pytest/store.py$
 - /usr/lib64/python3.6/site-packages/_pytest/terminal.py$
 - /usr/lib64/python3.6/site-packages/_pytest/tmpdir.py$
 - /usr/lib64/python3.6/site-packages/_pytest/unittest.py$
 - /usr/lib64/python3.6/site-packages/_pytest/warning_types.py$
 - /usr/lib64/python3.6/site-packages/_pytest/warnings.py$
 - /usr/lib64/python3.6/site-packages/pytest$
-- /usr/lib64/python3.6/site-packages/pytest-5.3.5-py3.6.egg-info$
-- /usr/lib64/python3.6/site-packages/pytest-5.3.5-py3.6.egg-info/PKG-INFO$
-- /usr/lib64/python3.6/site-packages/pytest-5.3.5-py3.6.egg-info/SOURCES.txt$
-- /usr/lib64/python3.6/site-packages/pytest-5.3.5-py3.6.egg-info/dependency_links.txt$
-- /usr/lib64/python3.6/site-packages/pytest-5.3.5-py3.6.egg-info/entry_points.txt$
-- /usr/lib64/python3.6/site-packages/pytest-5.3.5-py3.6.egg-info/not-zip-safe$
-- /usr/lib64/python3.6/site-packages/pytest-5.3.5-py3.6.egg-info/requires.txt$
-- /usr/lib64/python3.6/site-packages/pytest-5.3.5-py3.6.egg-info/top_level.txt$
+- /usr/lib64/python3.6/site-packages/pytest-5.4.3-py3.6.egg-info$
+- /usr/lib64/python3.6/site-packages/pytest-5.4.3-py3.6.egg-info/PKG-INFO$
+- /usr/lib64/python3.6/site-packages/pytest-5.4.3-py3.6.egg-info/SOURCES.txt$
+- /usr/lib64/python3.6/site-packages/pytest-5.4.3-py3.6.egg-info/dependency_links.txt$
+- /usr/lib64/python3.6/site-packages/pytest-5.4.3-py3.6.egg-info/entry_points.txt$
+- /usr/lib64/python3.6/site-packages/pytest-5.4.3-py3.6.egg-info/not-zip-safe$
+- /usr/lib64/python3.6/site-packages/pytest-5.4.3-py3.6.egg-info/requires.txt$
+- /usr/lib64/python3.6/site-packages/pytest-5.4.3-py3.6.egg-info/top_level.txt$
 - /usr/lib64/python3.6/site-packages/pytest/__init__.py$
 - /usr/lib64/python3.6/site-packages/pytest/__main__.py$
 - /usr/lib64/python3.6/site-packages/pytest/__pycache__$
@@ -275,6 +280,9 @@ includes:
 - /usr/lib64/python3.6/site-packages/pytest/__pycache__/__main__.cpython-36.pyc$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/pytest-5.3.5$
-- /usr/share/doc/pytest-5.3.5/AUTHORS.bz2$
-- /usr/share/doc/pytest-5.3.5/README.rst.bz2$
+- /usr/share/doc/pytest-5.4.3$
+- /usr/share/doc/pytest-5.4.3/AUTHORS.bz2$
+- /usr/share/doc/pytest-5.4.3/README.rst.bz2$
+env:
+- ORIGINAL_ATOM=dev-python/pytest
+- ORIGINAL_PACKAGE=dev-python/pytest-5.4.3
