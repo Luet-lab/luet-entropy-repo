@@ -1,7 +1,8 @@
-
 unpack: true
 steps:
-- source /etc/profile && ACCEPT_LICENSE=* equo i dev-util/vulkan-headers-1.1.125 && equo cleanup
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
 requires:
 - category: "layer"
   name: "sabayon-base"
@@ -17,6 +18,7 @@ includes:
 - /usr/include/vulkan/vulkan.h$
 - /usr/include/vulkan/vulkan.hpp$
 - /usr/include/vulkan/vulkan_android.h$
+- /usr/include/vulkan/vulkan_beta.h$
 - /usr/include/vulkan/vulkan_core.h$
 - /usr/include/vulkan/vulkan_fuchsia.h$
 - /usr/include/vulkan/vulkan_ggp.h$
@@ -31,8 +33,8 @@ includes:
 - /usr/include/vulkan/vulkan_xlib_xrandr.h$
 - /usr/share$
 - /usr/share/doc$
-- /usr/share/doc/vulkan-headers-1.1.125$
-- /usr/share/doc/vulkan-headers-1.1.125/README.md.bz2$
+- /usr/share/doc/vulkan-headers-1.2.143$
+- /usr/share/doc/vulkan-headers-1.2.143/README.md.bz2$
 - /usr/share/vulkan$
 - /usr/share/vulkan/registry$
 - /usr/share/vulkan/registry/cgenerator.py$
@@ -45,3 +47,6 @@ includes:
 - /usr/share/vulkan/registry/validusage.json$
 - /usr/share/vulkan/registry/vk.xml$
 - /usr/share/vulkan/registry/vkconventions.py$
+env:
+- ORIGINAL_ATOM=dev-util/vulkan-headers
+- ORIGINAL_PACKAGE=dev-util/vulkan-headers-1.2.143
