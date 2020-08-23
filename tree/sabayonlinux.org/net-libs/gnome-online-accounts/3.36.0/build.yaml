@@ -51,9 +51,9 @@ includes:
 - /usr/share/dbus-1/services/org.gnome.Identity.service$
 - /usr/share/dbus-1/services/org.gnome.OnlineAccounts.service$
 - /usr/share/doc$
-- /usr/share/doc/gnome-online-accounts-3.34.1$
-- /usr/share/doc/gnome-online-accounts-3.34.1/NEWS.bz2$
-- /usr/share/doc/gnome-online-accounts-3.34.1/README.bz2$
+- /usr/share/doc/gnome-online-accounts-3.36.0$
+- /usr/share/doc/gnome-online-accounts-3.36.0/NEWS.bz2$
+- /usr/share/doc/gnome-online-accounts-3.36.0/README.bz2$
 - /usr/share/gir-1.0$
 - /usr/share/gir-1.0/Goa-1.0.gir$
 - /usr/share/glib-2.0$
@@ -63,24 +63,26 @@ includes:
 - /usr/share/icons/hicolor$
 - /usr/share/icons/hicolor/scalable$
 - /usr/share/icons/hicolor/scalable/apps$
+- /usr/share/icons/hicolor/scalable/apps/goa-account-exchange.svg$
 - /usr/share/icons/hicolor/scalable/apps/goa-account-facebook.svg$
 - /usr/share/icons/hicolor/scalable/apps/goa-account-fedora.svg$
 - /usr/share/icons/hicolor/scalable/apps/goa-account-flickr.svg$
 - /usr/share/icons/hicolor/scalable/apps/goa-account-foursquare.svg$
 - /usr/share/icons/hicolor/scalable/apps/goa-account-google.svg$
+- /usr/share/icons/hicolor/scalable/apps/goa-account-lastfm.svg$
 - /usr/share/icons/hicolor/scalable/apps/goa-account-msn.svg$
 - /usr/share/icons/hicolor/scalable/apps/goa-account-owncloud.svg$
-- /usr/share/icons/hicolor/scalable/apps/goa-account-pocket.svg$
 - /usr/share/icons/hicolor/scalable/apps/goa-account.svg$
 - /usr/share/icons/hicolor/symbolic$
 - /usr/share/icons/hicolor/symbolic/apps$
+- /usr/share/icons/hicolor/symbolic/apps/goa-account-exchange-symbolic.svg$
 - /usr/share/icons/hicolor/symbolic/apps/goa-account-facebook-symbolic.svg$
 - /usr/share/icons/hicolor/symbolic/apps/goa-account-flickr-symbolic.svg$
 - /usr/share/icons/hicolor/symbolic/apps/goa-account-foursquare-symbolic.svg$
 - /usr/share/icons/hicolor/symbolic/apps/goa-account-google-symbolic.svg$
+- /usr/share/icons/hicolor/symbolic/apps/goa-account-lastfm-symbolic.svg$
 - /usr/share/icons/hicolor/symbolic/apps/goa-account-msn-symbolic.svg$
 - /usr/share/icons/hicolor/symbolic/apps/goa-account-owncloud-symbolic.svg$
-- /usr/share/icons/hicolor/symbolic/apps/goa-account-pocket-symbolic.svg$
 - /usr/share/icons/hicolor/symbolic/apps/goa-account-symbolic.svg$
 - /usr/share/locale$
 - /usr/share/locale/af$
@@ -251,4 +253,4 @@ includes:
 - /usr/share/vala/vapi/goa-1.0.vapi$
 env:
 - ORIGINAL_ATOM=net-libs/gnome-online-accounts
-- ORIGINAL_PACKAGE=net-libs/gnome-online-accounts-3.34.1
+- ORIGINAL_PACKAGE=net-libs/gnome-online-accounts-3.36.0
