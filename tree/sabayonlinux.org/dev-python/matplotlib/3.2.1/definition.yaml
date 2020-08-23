@@ -3,9 +3,6 @@ license: BSD BitstreamVera MIT OFL-1.1 matplotlib
 name: matplotlib
 requires:
 - category: dev-lang
-  name: python-2.7
-  version: '>=2.7.5'
-- category: dev-lang
   name: python-exec-2
   version: '>=2'
 - category: dev-python
@@ -28,9 +25,6 @@ requires:
   version: '>=0'
 - category: dev-python
   name: PyQt5
-  version: '>=0'
-- category: dev-python
-  name: backports-functools-lru-cache
   version: '>=0'
 - category: dev-python
   name: cairocffi
@@ -81,7 +75,7 @@ use_flags:
 - cairo
 - -python_targets_python3_7
 - -gtk2
-version: "3.2.1"
+version: "3.2.1+1"
 labels:
   original.package.name: "matplotlib"
   original.package.category: "dev-python"
