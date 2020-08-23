@@ -1,0 +1,18 @@
+
+category: "app-emulation"
+name: "virtualbox-extpack-oracle"
+version: "6.1.6.137129"
+license: "PUEL"
+
+use_flags:
+- "split-usr"
+- "elibc_glibc"
+- "kernel_linux"
+- "userland_GNU"
+- "big-endian"
+- "amd64"
+- "abi_x86_64"
+requires:
+- category: "app-emulation"
+  name: "virtualbox"
+  version: ">=6.1.6"
