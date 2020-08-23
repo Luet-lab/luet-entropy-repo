@@ -4,7 +4,7 @@ requires:
   version: "3.11.3"
 env:
 - ORIGINAL_ATOM=gnome-base/gnome-core-libs
-- ORIGINAL_PACKAGE=gnome-base/gnome-core-libs-3.34.4
+- ORIGINAL_PACKAGE=gnome-base/gnome-core-libs-3.36.4
 steps:
 - >-
   source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
