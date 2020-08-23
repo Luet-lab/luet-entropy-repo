@@ -68,9 +68,6 @@ requires:
 - category: media-gfx
   name: potrace
   version: '>=0'
-- category: media-gfx
-  name: uniconvertor
-  version: '>=0'
 - category: media-libs
   name: fontconfig-1.0
   version: '>=0'
@@ -121,7 +118,7 @@ use_flags:
 - amd64
 - nls
 - openmp
-version: "1.0"
+version: "1.0+1"
 labels:
   original.package.name: "inkscape"
   original.package.category: "media-gfx"
