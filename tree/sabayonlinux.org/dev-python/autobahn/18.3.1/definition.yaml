@@ -36,7 +36,7 @@ requires:
   name: snappy
   version: '>=0.5'
 - category: dev-python
-  name: twisted-core
+  name: twisted
   version: '>=16.6.0'
 - category: dev-python
   name: txaio
@@ -64,7 +64,7 @@ use_flags:
 - python_targets_python3_6
 - kernel_linux
 - big-endian
-version: 18.3.1+4
+version: 18.3.1+5
 labels:
   original.package.name: "autobahn"
   original.package.category: "dev-python"
