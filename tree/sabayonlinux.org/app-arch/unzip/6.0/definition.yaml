@@ -5,9 +5,6 @@ requires:
 - category: app-arch
   name: bzip2
   version: '>=0'
-- category: dev-libs
-  name: libnatspec
-  version: '>=0'
 use_flags:
 - natspec
 - userland_GNU
@@ -19,9 +16,9 @@ use_flags:
 - big-endian
 - bzip2
 - split-usr
-version: 6.0+p28
+version: 6.0+p25r1.1
 labels:
   original.package.name: "unzip"
   original.package.category: "app-arch"
-  original.package.version: "6.0"
+  original.package.version: "6.0_p25-r1"
   original.package.slot: "0"
