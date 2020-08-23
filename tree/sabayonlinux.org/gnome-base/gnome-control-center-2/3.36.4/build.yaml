@@ -14,26 +14,31 @@ includes:
 - /usr/lib$
 - /usr/libexec$
 - /usr/libexec/cc-remote-login-helper$
+- /usr/libexec/gnome-control-center-print-renderer$
 - /usr/libexec/gnome-control-center-search-provider$
 - /usr/share$
 - /usr/share/applications$
 - /usr/share/applications/gnome-applications-panel.desktop$
 - /usr/share/applications/gnome-background-panel.desktop$
 - /usr/share/applications/gnome-bluetooth-panel.desktop$
+- /usr/share/applications/gnome-camera-panel.desktop$
 - /usr/share/applications/gnome-color-panel.desktop$
 - /usr/share/applications/gnome-control-center.desktop$
 - /usr/share/applications/gnome-datetime-panel.desktop$
 - /usr/share/applications/gnome-default-apps-panel.desktop$
+- /usr/share/applications/gnome-diagnostics-panel.desktop$
 - /usr/share/applications/gnome-display-panel.desktop$
 - /usr/share/applications/gnome-info-overview-panel.desktop$
 - /usr/share/applications/gnome-keyboard-panel.desktop$
+- /usr/share/applications/gnome-location-panel.desktop$
+- /usr/share/applications/gnome-lock-panel.desktop$
+- /usr/share/applications/gnome-microphone-panel.desktop$
 - /usr/share/applications/gnome-mouse-panel.desktop$
 - /usr/share/applications/gnome-network-panel.desktop$
 - /usr/share/applications/gnome-notifications-panel.desktop$
 - /usr/share/applications/gnome-online-accounts-panel.desktop$
 - /usr/share/applications/gnome-power-panel.desktop$
 - /usr/share/applications/gnome-printers-panel.desktop$
-- /usr/share/applications/gnome-privacy-panel.desktop$
 - /usr/share/applications/gnome-region-panel.desktop$
 - /usr/share/applications/gnome-removable-media-panel.desktop$
 - /usr/share/applications/gnome-search-panel.desktop$
@@ -41,6 +46,7 @@ includes:
 - /usr/share/applications/gnome-sound-panel.desktop$
 - /usr/share/applications/gnome-thunderbolt-panel.desktop$
 - /usr/share/applications/gnome-universal-access-panel.desktop$
+- /usr/share/applications/gnome-usage-panel.desktop$
 - /usr/share/applications/gnome-user-accounts-panel.desktop$
 - /usr/share/applications/gnome-wacom-panel.desktop$
 - /usr/share/applications/gnome-wifi-panel.desktop$
@@ -52,9 +58,9 @@ includes:
 - /usr/share/dbus-1/services/org.gnome.ControlCenter.SearchProvider.service$
 - /usr/share/dbus-1/services/org.gnome.ControlCenter.service$
 - /usr/share/doc$
-- /usr/share/doc/gnome-control-center-3.34.5$
-- /usr/share/doc/gnome-control-center-3.34.5/NEWS.bz2$
-- /usr/share/doc/gnome-control-center-3.34.5/README.md.bz2$
+- /usr/share/doc/gnome-control-center-3.36.4$
+- /usr/share/doc/gnome-control-center-3.36.4/NEWS.bz2$
+- /usr/share/doc/gnome-control-center-3.36.4/README.md.bz2$
 - /usr/share/gettext$
 - /usr/share/gettext/its$
 - /usr/share/gettext/its/gnome-keybindings.its$
@@ -123,6 +129,7 @@ includes:
 - /usr/share/icons/hicolor/64x64/apps/preferences-color.png$
 - /usr/share/icons/hicolor/scalable$
 - /usr/share/icons/hicolor/scalable/apps$
+- /usr/share/icons/hicolor/scalable/apps/org.gnome.Settings.Devel.svg$
 - /usr/share/icons/hicolor/scalable/apps/org.gnome.Settings.svg$
 - /usr/share/icons/hicolor/scalable/apps/preferences-color.svg$
 - /usr/share/icons/hicolor/scalable/apps/preferences-desktop-display.svg$
@@ -615,4 +622,4 @@ includes:
 - /usr/share/sounds/gnome/default/alerts/sonar.ogg$
 env:
 - ORIGINAL_ATOM=gnome-base/gnome-control-center
-- ORIGINAL_PACKAGE=gnome-base/gnome-control-center-3.34.5
+- ORIGINAL_PACKAGE=gnome-base/gnome-control-center-3.36.4
