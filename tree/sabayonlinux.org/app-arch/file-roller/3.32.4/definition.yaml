@@ -17,9 +17,6 @@ requires:
 - category: x11-libs
   name: libnotify
   version: '>=0.4.3'
-- category: app-admin
-  name: packagekit-base
-  version: '>=0'
 - category: x11-libs
   name: cairo
   version: '>=0'
@@ -40,7 +37,7 @@ use_flags:
 - elibc_glibc
 - libnotify
 - kernel_linux
-version: "3.32.4"
+version: "3.32.4+1"
 labels:
   original.package.name: "file-roller"
   original.package.category: "app-arch"
