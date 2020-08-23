@@ -3,9 +3,6 @@ license: BSD-2
 name: gemato
 requires:
 - category: dev-lang
-  name: python-2.7
-  version: '>=2.7.5'
-- category: dev-lang
   name: python-exec-2
   version: '>=2'
 - category: app-crypt
@@ -13,9 +10,6 @@ requires:
   version: '>=0'
 - category: dev-lang
   name: python-3.6
-  version: '>=0'
-- category: dev-python
-  name: bz2file
   version: '>=0'
 - category: dev-python
   name: pyblake2
@@ -40,7 +34,7 @@ use_flags:
 - -python_targets_python3_7
 - -python_targets_python3_8
 - userland_GNU
-version: 14.3+3
+version: 14.3+4
 labels:
   original.package.name: "gemato"
   original.package.category: "app-portage"
