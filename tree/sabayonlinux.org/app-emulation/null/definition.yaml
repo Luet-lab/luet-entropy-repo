@@ -1,9 +1,7 @@
-
 category: "app-emulation"
 name: "virtualbox-extpack-oracle"
-version: "6.1.6.137129"
+version: "null"
 license: "PUEL"
-
 use_flags:
 - "split-usr"
 - "elibc_glibc"
@@ -16,3 +14,5 @@ requires:
 - category: "app-emulation"
   name: "virtualbox"
   version: ">=6.1.6"
+labels:
+  original.package.version: "null"
