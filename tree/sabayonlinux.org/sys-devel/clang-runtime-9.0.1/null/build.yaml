@@ -1,0 +1,12 @@
+requires:
+- category: "distro"
+  name: "alpine"
+  version: "3.11.3"
+env:
+- ORIGINAL_ATOM=sys-devel/clang-runtime
+- ORIGINAL_PACKAGE=sys-devel/clang-runtime-null
+steps:
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
+includes:
