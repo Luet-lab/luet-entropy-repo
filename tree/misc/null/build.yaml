@@ -1,0 +1,14 @@
+image: opensuse/leap
+prelude:
+- zypper in -y git make libXt-devel xmh gcc motif-devel libXext-devel libpulse-devel
+  libaubio-devel
+- git clone https://github.com/BarkyTheDog/catclock
+steps:
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
+- mv catclock/xclock /usr/bin/xclock
+includes:
+env:
+- ORIGINAL_ATOM=misc/catclock
+- ORIGINAL_PACKAGE=misc/catclock-null
