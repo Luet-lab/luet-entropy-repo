@@ -1,9 +1,7 @@
-
 category: "net-misc"
 name: "dleyna-server"
-version: "0.6.0"
+version: "null"
 license: "LGPL-2.1"
-
 use_flags:
 - "kernel_linux"
 - "split-usr"
@@ -49,3 +47,5 @@ requires:
 - category: "dev-libs"
   name: "libxml2-2"
   version: ">=0"
+labels:
+  original.package.version: "null"
