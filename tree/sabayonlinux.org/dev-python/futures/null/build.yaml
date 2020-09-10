@@ -1,0 +1,13 @@
+unpack: true
+steps:
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+env:
+- ORIGINAL_ATOM=dev-python/futures
+- ORIGINAL_PACKAGE=dev-python/futures-null
