@@ -1,7 +1,0 @@
-unpack: true
-steps:
-- ./installer.sh
-requires:
-- category: "layer"
-  name: "sabayon-base"
-  version: "9999"
