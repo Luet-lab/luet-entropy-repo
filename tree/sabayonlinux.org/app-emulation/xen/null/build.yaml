@@ -8,14 +8,6 @@ requires:
   name: "sabayon-base"
   version: "9999"
 includes:
-- /boot$
-- /boot/xen-4.13.1.config$
-- /boot/xen-4.13.1.gz$
-- /boot/xen-4.13.gz$
-- /boot/xen-4.gz$
-- /boot/xen.gz$
-- /usr$
-- /usr/lib$
 env:
 - ORIGINAL_ATOM=app-emulation/xen
-- ORIGINAL_PACKAGE=app-emulation/xen-4.13.1
+- ORIGINAL_PACKAGE=app-emulation/xen-null
