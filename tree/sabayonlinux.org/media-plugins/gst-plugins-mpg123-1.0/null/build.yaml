@@ -8,13 +8,6 @@ requires:
   name: "sabayon-base"
   version: "9999"
 includes:
-- /usr$
-- /usr/lib$
-- /usr/lib/gstreamer-1.0$
-- /usr/lib/gstreamer-1.0/libgstmpg123.so$
-- /usr/lib64$
-- /usr/lib64/gstreamer-1.0$
-- /usr/lib64/gstreamer-1.0/libgstmpg123.so$
 env:
 - ORIGINAL_ATOM=media-plugins/gst-plugins-mpg123
-- ORIGINAL_PACKAGE=media-plugins/gst-plugins-mpg123-1.16.2
+- ORIGINAL_PACKAGE=media-plugins/gst-plugins-mpg123-null
