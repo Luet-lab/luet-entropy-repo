@@ -8,13 +8,6 @@ requires:
   name: "sabayon-base"
   version: "9999"
 includes:
-- /usr$
-- /usr/lib$
-- /usr/lib/gstreamer-1.0$
-- /usr/lib/gstreamer-1.0/libgstsoup.so$
-- /usr/lib64$
-- /usr/lib64/gstreamer-1.0$
-- /usr/lib64/gstreamer-1.0/libgstsoup.so$
 env:
 - ORIGINAL_ATOM=media-plugins/gst-plugins-soup
-- ORIGINAL_PACKAGE=media-plugins/gst-plugins-soup-1.16.2
+- ORIGINAL_PACKAGE=media-plugins/gst-plugins-soup-null
