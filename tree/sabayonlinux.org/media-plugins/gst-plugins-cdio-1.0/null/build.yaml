@@ -8,13 +8,6 @@ requires:
   name: "sabayon-base"
   version: "9999"
 includes:
-- /usr$
-- /usr/lib$
-- /usr/lib/gstreamer-1.0$
-- /usr/lib/gstreamer-1.0/libgstcdio.so$
-- /usr/lib64$
-- /usr/lib64/gstreamer-1.0$
-- /usr/lib64/gstreamer-1.0/libgstcdio.so$
 env:
 - ORIGINAL_ATOM=media-plugins/gst-plugins-cdio
-- ORIGINAL_PACKAGE=media-plugins/gst-plugins-cdio-1.16.2
+- ORIGINAL_PACKAGE=media-plugins/gst-plugins-cdio-null
