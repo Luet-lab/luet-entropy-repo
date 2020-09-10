@@ -1,0 +1,26 @@
+category: dev-texlive
+license: Apache-2.0 BSD GPL-1 GPL-2 GPL-3 LPPL-1.2 LPPL-1.3 MIT OFL TeX TeX-other-free
+  public-domain
+name: texlive-fontsextra
+requires:
+- category: app-text
+  name: texlive-core
+  version: '>=2019'
+- category: dev-texlive
+  name: texlive-basic
+  version: '>=2019'
+use_flags:
+- big-endian
+- abi_x86_64
+- elibc_glibc
+- kernel_linux
+- amd64
+- -source
+- userland_GNU
+- -doc
+version: "null"
+labels:
+  original.package.name: "texlive-fontsextra"
+  original.package.category: "dev-texlive"
+  original.package.version: "null"
+  original.package.slot: "0"
