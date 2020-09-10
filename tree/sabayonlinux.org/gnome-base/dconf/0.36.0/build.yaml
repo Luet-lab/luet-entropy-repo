@@ -43,9 +43,9 @@ includes:
 - /usr/share/dbus-1/services$
 - /usr/share/dbus-1/services/ca.desrt.dconf.service$
 - /usr/share/doc$
-- /usr/share/doc/dconf-0.34.0$
-- /usr/share/doc/dconf-0.34.0/NEWS.bz2$
-- /usr/share/doc/dconf-0.34.0/README.bz2$
+- /usr/share/doc/dconf-0.36.0$
+- /usr/share/doc/dconf-0.36.0/NEWS.bz2$
+- /usr/share/doc/dconf-0.36.0/README.bz2$
 - /usr/share/man$
 - /usr/share/man/man1$
 - /usr/share/man/man1/dconf-service.1.bz2$
@@ -58,4 +58,4 @@ includes:
 - /usr/share/vala/vapi/dconf.vapi$
 env:
 - ORIGINAL_ATOM=gnome-base/dconf
-- ORIGINAL_PACKAGE=gnome-base/dconf-0.34.0
+- ORIGINAL_PACKAGE=gnome-base/dconf-0.36.0
