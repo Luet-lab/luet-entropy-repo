@@ -1,6 +1,6 @@
 category: "misc"
 name: "catclock"
-version: "0.20200318"
+version: "null"
 requires:
 - category: x11-libs
   name: motif
@@ -8,3 +8,5 @@ requires:
 - category: media-libs
   name: libjpeg-turbo
   version: ">=0.1"
+labels:
+  original.package.version: "null"
