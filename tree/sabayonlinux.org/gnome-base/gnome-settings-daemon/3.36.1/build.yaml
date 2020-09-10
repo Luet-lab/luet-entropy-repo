@@ -10,6 +10,8 @@ requires:
 includes:
 - /etc$
 - /etc/xdg$
+- /etc/xdg/Xwayland-session.d$
+- /etc/xdg/Xwayland-session.d/00-xrdb$
 - /etc/xdg/autostart$
 - /etc/xdg/autostart/org.gnome.SettingsDaemon.A11ySettings.desktop$
 - /etc/xdg/autostart/org.gnome.SettingsDaemon.Color.desktop$
@@ -24,6 +26,7 @@ includes:
 - /etc/xdg/autostart/org.gnome.SettingsDaemon.Sharing.desktop$
 - /etc/xdg/autostart/org.gnome.SettingsDaemon.Smartcard.desktop$
 - /etc/xdg/autostart/org.gnome.SettingsDaemon.Sound.desktop$
+- /etc/xdg/autostart/org.gnome.SettingsDaemon.UsbProtection.desktop$
 - /etc/xdg/autostart/org.gnome.SettingsDaemon.Wacom.desktop$
 - /etc/xdg/autostart/org.gnome.SettingsDaemon.XSettings.desktop$
 - /lib$
@@ -51,6 +54,7 @@ includes:
 - /usr/lib/systemd/user/gnome-session-initialized.target.wants/gsd-screensaver-proxy.target$
 - /usr/lib/systemd/user/gnome-session-initialized.target.wants/gsd-sharing.target$
 - /usr/lib/systemd/user/gnome-session-initialized.target.wants/gsd-sound.target$
+- /usr/lib/systemd/user/gnome-session-initialized.target.wants/gsd-usb-protection.target$
 - /usr/lib/systemd/user/gnome-session-initialized.target.wants/gsd-wacom.target$
 - /usr/lib/systemd/user/gnome-session-x11-services.target.wants$
 - /usr/lib/systemd/user/gnome-session-x11-services.target.wants/gsd-xsettings.target$
@@ -78,6 +82,8 @@ includes:
 - /usr/lib/systemd/user/gsd-sharing.target$
 - /usr/lib/systemd/user/gsd-sound.service$
 - /usr/lib/systemd/user/gsd-sound.target$
+- /usr/lib/systemd/user/gsd-usb-protection.service$
+- /usr/lib/systemd/user/gsd-usb-protection.target$
 - /usr/lib/systemd/user/gsd-wacom.service$
 - /usr/lib/systemd/user/gsd-wacom.target$
 - /usr/lib/systemd/user/gsd-xsettings.service$
@@ -103,6 +109,7 @@ includes:
 - /usr/libexec/gsd-screensaver-proxy$
 - /usr/libexec/gsd-sharing$
 - /usr/libexec/gsd-sound$
+- /usr/libexec/gsd-usb-protection$
 - /usr/libexec/gsd-wacom$
 - /usr/libexec/gsd-wacom-led-helper$
 - /usr/libexec/gsd-wacom-oled-helper$
@@ -112,10 +119,11 @@ includes:
 - /usr/share/GConf/gsettings$
 - /usr/share/GConf/gsettings/gnome-settings-daemon.convert$
 - /usr/share/doc$
-- /usr/share/doc/gnome-settings-daemon-3.34.2$
-- /usr/share/doc/gnome-settings-daemon-3.34.2/AUTHORS$
-- /usr/share/doc/gnome-settings-daemon-3.34.2/ChangeLog.bz2$
-- /usr/share/doc/gnome-settings-daemon-3.34.2/NEWS.bz2$
+- /usr/share/doc/gnome-settings-daemon-3.36.1$
+- /usr/share/doc/gnome-settings-daemon-3.36.1/AUTHORS$
+- /usr/share/doc/gnome-settings-daemon-3.36.1/ChangeLog.bz2$
+- /usr/share/doc/gnome-settings-daemon-3.36.1/NEWS.bz2$
+- /usr/share/doc/gnome-settings-daemon-3.36.1/README.bz2$
 - /usr/share/glib-2.0$
 - /usr/share/glib-2.0/schemas$
 - /usr/share/glib-2.0/schemas/org.gnome.settings-daemon.enums.xml$
@@ -427,4 +435,4 @@ includes:
 - /usr/share/polkit-1/actions/org.gnome.settings-daemon.plugins.wacom.policy$
 env:
 - ORIGINAL_ATOM=gnome-base/gnome-settings-daemon
-- ORIGINAL_PACKAGE=gnome-base/gnome-settings-daemon-3.34.2
+- ORIGINAL_PACKAGE=gnome-base/gnome-settings-daemon-3.36.1
