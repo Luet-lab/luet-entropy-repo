@@ -1,0 +1,12 @@
+requires:
+- category: "distro"
+  name: "alpine"
+  version: "3.11.3"
+env:
+- ORIGINAL_ATOM=media-plugins/gst-plugins-meta
+- ORIGINAL_PACKAGE=media-plugins/gst-plugins-meta-null
+steps:
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
+includes:
