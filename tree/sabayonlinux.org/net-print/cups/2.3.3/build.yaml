@@ -1,0 +1,13 @@
+unpack: true
+steps:
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
+requires:
+- category: "layer"
+  name: "sabayon-base"
+  version: "9999"
+includes:
+env:
+- ORIGINAL_ATOM=net-print/cups
+- ORIGINAL_PACKAGE=net-print/cups-2.3.3
