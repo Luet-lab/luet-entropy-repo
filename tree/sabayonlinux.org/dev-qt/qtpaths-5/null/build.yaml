@@ -8,12 +8,6 @@ requires:
   name: "sabayon-base"
   version: "9999"
 includes:
-- /usr$
-- /usr/lib$
-- /usr/lib64$
-- /usr/lib64/qt5$
-- /usr/lib64/qt5/bin$
-- /usr/lib64/qt5/bin/qtpaths$
 env:
 - ORIGINAL_ATOM=dev-qt/qtpaths
-- ORIGINAL_PACKAGE=dev-qt/qtpaths-5.15.0
+- ORIGINAL_PACKAGE=dev-qt/qtpaths-null
