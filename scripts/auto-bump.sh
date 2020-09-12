@@ -83,6 +83,12 @@ for i in $(echo "$PKG_LIST" | jq -r '.packages[].path'); do
     ORIGINAL_PACKAGE_CATEGORY=$(yq r $PACKAGE_PATH/definition.yaml 'labels."original.package.category"')
     ORIGINAL_PACKAGE_VERSION=$(yq r $PACKAGE_PATH/definition.yaml 'labels."original.package.version"')
 
+    # Check if ignore flag is present
+    AUTOBUMP_IGNORE=$(yq r $PACKAGE_PATH/definition.yaml 'labels."autobump.ignore"')
+    if [ "${AUTOBUMP_IGNORE}" = "1" ] ; then
+      continue
+    fi
+
     if [ -z "$ORIGINAL_PACKAGE_NAME" ]; then
         ORIGINAL_PACKAGE_NAME=$PACKAGE_NAME
     fi
