@@ -1,9 +1,7 @@
-
 category: "dev-python"
 name: "twisted"
-version: "20.3.0"
+version: "null"
 license: "MIT"
-
 use_flags:
 - "-serial"
 - "split-usr"
@@ -85,3 +83,5 @@ requires:
 - category: "dev-python"
   name: "service_identity"
   version: ">=0"
+labels:
+  original.package.version: "null"
