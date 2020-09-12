@@ -11,3 +11,6 @@ requires:
 - category: "sys-devel"
   name: "base-gcc-8.2.0"
   version: ">=0.1"
+
+labels:
+  autobump.ignore: "1"
