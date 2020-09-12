@@ -8,3 +8,6 @@ requires:
 - category: media-libs
   name: libjpeg-turbo
   version: ">=0.1"
+
+labels:
+  autobump.ignore: "1"
