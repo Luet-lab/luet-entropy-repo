@@ -1,0 +1,10 @@
+image: "sabayon/base-amd64"
+unpack: true
+env:
+- ORIGINAL_ATOM=layer/sabayon-base
+- ORIGINAL_PACKAGE=layer/sabayon-base-null
+steps:
+- >-
+  source /etc/profile && (ACCEPT_LICENSE=* equo i ${ORIGINAL_PACKAGE} || emerge  =${ORIGINAL_PACKAGE})
+  && equo cleanup
+includes:
