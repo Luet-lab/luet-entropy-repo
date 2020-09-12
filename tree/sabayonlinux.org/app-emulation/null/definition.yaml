@@ -1,9 +1,7 @@
-
 category: "app-emulation"
 name: "virtualbox"
-version: "6.1.6"
+version: "null"
 license: "GPL-2"
-
 use_flags:
 - "opus"
 - "elibc_glibc"
@@ -147,3 +145,5 @@ requires:
 - category: "x11-misc"
   name: "shared-mime-info"
   version: ">=0"
+labels:
+  original.package.version: "null"
