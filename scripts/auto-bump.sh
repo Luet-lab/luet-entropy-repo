@@ -127,7 +127,7 @@ for i in $(echo "$PKG_LIST" | jq -r '.packages[].path'); do
     fi
 
     # versions are mismatching. Bump the version
-    if [ -n "$VERSION" ] && [ $VERSION != "$STRIPPED_PACKAGE_VERSION" ] ; then
+    if [ -n "$VERSION" ] && [ "$VERSION" != "null" ] && [ $VERSION != "$STRIPPED_PACKAGE_VERSION" ] ; then
         echo "Bumping spec version of $PACKAGE_CATEGORY/$PACKAGE_NAME to $VERSION"
 
         BRANCH_NAME="bump_${ORIGINAL_PACKAGE_CATEGORY}_${ORIGINAL_PACKAGE_NAME}"
